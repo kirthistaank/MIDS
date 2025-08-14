@@ -1,0 +1,5 @@
+pycountry_convert ==0.7.2
+geocoder == 1.38.1
+squarify == 0.4.4
+pypalettes == 0.1.4
+#goepandas 
