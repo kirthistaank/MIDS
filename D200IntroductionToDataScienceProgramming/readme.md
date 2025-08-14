@@ -72,6 +72,8 @@ Tools and Libraries:
 
 General Instructions : 
 =====================
+
+Run jupyternotebook : Project2_DisasterData_Final.ipynb
 ======================
 
 1. Use following commands to install packages individually or use requirements.txt
