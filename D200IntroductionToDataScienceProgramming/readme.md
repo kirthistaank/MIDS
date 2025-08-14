@@ -33,30 +33,45 @@ refugees than others?
 
 ● Which regions, both in the U.S. and globally, emerge as the most resilient and desirable
 places to live in the context of natural disaster risks?
+
 a. What are the global patterns in natural and technological disasters, comparing
 across countries, continents, and U.S. states?
+
 b. What types of disasters have been recorded worldwide to date?
+
 c. How do storm patterns and trends compare globally, within the U.S., and
 specifically in Florida?
+
 d. During which time of year do storms most frequently impact Florida and the
 southeastern U.S. coast?
+
+
 Assumption :
+============
+
 i. Season Definition : Winter is considered December, January and February;
 spring is March through May; summer is June through August; and fall or
 autumn is September through November
+
 ii. Southeastern States: Alabama, Arkansas, Florida, Georgia, Kentucky,
 Louisiana, Mississippi, North Carolina, South Carolina and Tennessee, as
 well as Puerto Rico and the U.S. Virgin Islands)
+
 e. What are the trends in storm frequency and severity across the U.S.?
+
 f. What are the trends in all types of disasters across the U.S.?
+
 g. Which Countries and U.S. states are the least affected by natural disasters?
 
-Tools and Libraries
+
+Tools and Libraries:
+===================
 - Python 3.x
 - NumPy, pandas, Matplotlib/Seaborn
 
 
 General Instructions : 
+=====================
 ======================
 
 1. Use following commands to install packages individually or use requirements.txt
