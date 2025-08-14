@@ -24,10 +24,13 @@ Key questions:
 =============
 ● Do climate change milestones, such as rising temperatures and increased carbon
 emissions, influence the frequency of disasters?
+
 ● Does disaster readiness have any effect on the number of people displaced during a
 natural disaster?
+
 ● Do certain types of disasters lead to greater economic losses and higher numbers of
 refugees than others?
+
 ● Which regions, both in the U.S. and globally, emerge as the most resilient and desirable
 places to live in the context of natural disaster risks?
 a. What are the global patterns in natural and technological disasters, comparing
