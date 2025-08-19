@@ -6,8 +6,8 @@
 
 | File | Purpose |
 |------|---------|
-| [`notebooks/databnb_final.Rmd`](notebooks/databnb_final.Rmd) | Final R Markdown with complete analysis and code |
-| [`reports/databnb_final.pdf`](reports/databnb_final.pdf) | Final PDF report |
+| [`databnb_final.Rmd`](notebooks/databnb_final.Rmd) | Final R Markdown with complete analysis and code |
+| [`databnb_final.pdf`](reports/databnb_final.pdf) | Final PDF report |
 | [`data/processed/la-california-airbnb_listings_indetail.zip`](data/processed/la-california-airbnb_listings_indetail.zip) | Cleaned Airbnb listings used in analysis |
 
 **Summary:**
