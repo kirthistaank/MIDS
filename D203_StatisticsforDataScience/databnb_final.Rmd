@@ -1,0 +1,576 @@
+---
+title: "Databnb: Modeling Airbnb Prices in Los Angeles: Exploring Key Predictors Beyond Room Type"
+subtitle: "GitHub Repository: [Lab 2 Repository](https://github.com/mids-w203/lab-2-lab-2-null)"
+author:
+  - name: "Carlos Santander"
+  - name: "Kirthi Shanbhag"
+  - name: "Man Vilailuck"
+date: today
+date-format: long
+format: 
+  pdf: 
+    documentclass: scrreprt
+    classoption: onecolumn,10pt
+    fig-width: 6
+    fig-height: 4
+header-includes:
+  - \usepackage{setspace}
+  - \setstretch{1}
+---
+
+```{r load packages, include=FALSE}
+library(dplyr)
+library(stringr)
+library(ggplot2)
+library(tidyverse)
+library(stats)
+library(patchwork)
+library(readr)
+library(stringr)
+library(GGally)
+library(psych)
+library(stargazer)
+library(here)
+library(rstudioapi)
+library(stringr)
+library(tinytex)
+```
+
+```{r load data, include=FALSE}
+# Use relative path assuming working directory
+zip_file <- "data/processed/la-california-airbnb_listings_indetail.zip"
+csv_file <- "la-california-airbnb_listings_indetail.csv"
+airbnb_data <- read.csv(unz(zip_file, csv_file))
+``` 
+
+## Introduction & Motivation
+Airbnb has transformed the short-term rental market, offering a wide range of lodging options in cities like Los Angeles. While it’s well known that factors like property type and seasonality affect prices, there is less clarity around how less obvious features, such as number of amenities, occupancy history, and reviews, influence nightly rates.
+
+In this study, we ask: *What is the relationship between Airbnb listing price and listing-specific characteristics like number of amenities, number of bedrooms, and estimated occupancy in Los Angeles?* Our goal is to inform both hosts and platforms like Airbnb about the most influential drivers of pricing by building a regression model that captures subtle, yet impactful listing characteristics.
+
+## Data and Methodology
+We focus on recent listings, from the year 2024 onwards due to factors like Market Relevance, where Older listings may include properties that are no longer active or priced based on outdated market conditions. Using recent listings ensures our analysis reflects the current pricing landscape. Another factor we considered was User Behavior: Airbnb guests tend to rely more on recent reviews when making booking decisions. By focusing on listings with recent activity, we’re modeling the pricing strategies of listings that are actually competitive and in-demand today.
+
+We focused on guest-relevant features that are often overlooked in pricing models, such as amenities and occupancy history. These variables 
+are price, which are continuous, interpretable, and central to airbnb decisions, amenities, which are understudied but potentially influential, and number of accommodations/beds. These variables reflect value-added features that go beyond typical filters like location or season.
+At the beginning, our data, consisted of *45031 observations and 82 variables*.
+
+The data was cleaned to remove NA values for price and NA values for all the other selected columns. Only relevant columns important for this study and columns with valid values were selected. The rest were all dropped from the final dataset. Some of the features consider for this study are as follows.
+
+Amenities : A JSON Object of amineties listed for the property.
+-   The column consists of JSON text and each amenities listed is separated by ','. Minimum amenities found were ranging from 1 to 120.
+-   For our analysis and to avoid coercion warnings all the columns such as 'neighbour', 'Amenities' which were earlier non-numeric were converted to numeric values.
+-   Few specific important amenities such as hot tub,wifi,kitchen,pool etc were converted to separate column with binary values.
+-   Most of the individual amenities did not add any significant value to the model hence we introduced a new column count of amenities 'num_amenities'
+
+Other features used include:
+- `neighbourhood_cleansed`: the neighborhood inferred from geolocation
+- `price`: nightly price (originally stored as text with a dollar sign, cleaned to numeric)
+- `number_of_reviews`: total number of reviews received
+
+The final dataset consists of 8577 rows and 43 columns i.e. 14% were dropped from original dataset for last review year 2024. This is a good count of dataset to proceed for building regression model.
+
+```{r echo=FALSE, include=FALSE}
+# Review which year would be the best candidate for our study.Extract only year from last review column
+df_summary <- airbnb_data %>%
+  filter(!is.na(last_review)) %>%
+  mutate(date = as.Date(last_review),    # Convert to Date type
+         year = year(date)) %>%
+  group_by(year) %>%
+  summarise(count = n())
+
+# Check the distribution of rows per year
+df_summary %>% tail(3)
+
+# IMP: We will build prediction model for year 2024 and validate our prediction for year 2025.
+```
+
+```{r data wrangling/assumptions, include=FALSE}
+# Convert date column to Date format
+airbnb_data <- airbnb_data %>%
+  filter(!is.na(last_review)) %>%
+  mutate(date = as.Date(last_review),    # Convert to Date type
+         year = year(date),       # Extract year
+         review_year = as.Date(paste0(year, "-01-01")))  # Create new date column with only year
+
+
+airbnblisting_la_2025 <- airbnb_data %>%
+  filter(year == 2025)
+airbnblisting_la_2024 <- airbnb_data %>%
+  filter(year == 2024)
+
+# Select relevant columns for this study
+df_filtered <- dplyr::select(airbnblisting_la_2024, neighbourhood_cleansed,latitude,longitude,property_type,room_type,accommodates,bedrooms,amenities,minimum_nights,beds,price,availability_60,availability_365,number_of_reviews,year,number_of_reviews_l30d,number_of_reviews_ly,estimated_revenue_l365d,availability_30,availability_90,estimated_occupancy_l365d,neighbourhood_group_cleansed,review_scores_rating)
+
+# num_amenities Calculation
+df_refiltered <- df_filtered  
+df_refiltered$num_amenities <- ifelse(
+  is.na(df_refiltered$amenities) | df_refiltered$amenities == "{}",
+  0,
+  str_count(df_refiltered$amenities, ",") + 1
+)
+
+#  Data cleansing further: Remove '$' from the price values and convert to numeric value
+df_filtered$price<-gsub("\\$","",df_filtered$price)
+df_filtered$price <- parse_number(df_filtered$price)
+
+# Drop rows with NA values in any column
+df_filtered$price <- as.numeric(df_filtered$price)
+df_filtered <- df_filtered %>%
+  filter(!is.na(price))
+
+#!is.finite(price) &
+```
+
+```{r echo=FALSE, include=FALSE}
+# Define a function to check for a specific amenity
+has_amenity <- function(amenity, column) {
+  as.integer(str_detect(column, amenity))
+}
+
+# We began with df_filtered after subsetting key variables. After additional cleaning, feature engineering produced our final modeling dataset, df_final.
+# df_filtered: Cleaned and subsetted raw data
+# df_final: Feature-engineered dataset for modeling
+df_final <- df_filtered %>%
+  mutate(is_entire_home = ifelse(property_type == "Entire home/apt", 1, 0),
+         is_private_room = ifelse(room_type == "Private room", 1, 0),
+         is_shared_room = ifelse(room_type == "Shared room", 1, 0))
+df_final$has_wifi <- has_amenity("Wifi", df_filtered$amenities)
+df_final$has_kitchen <- has_amenity("Kitchen", df_filtered$amenities)
+df_final$has_pool <- has_amenity("Pool", df_filtered$amenities)
+df_final$has_parking <- has_amenity("Free parking|Paid parking", df_filtered$amenities)
+df_final$has_hot_tub <- has_amenity("Hot tub|Jacuzzi", df_filtered$amenities)
+df_final$has_ac <- has_amenity("Air conditioning", df_filtered$amenities)
+# Counting the number of amenities. This might be helpful to see if there is any significance on the model by how many ameneties the property has
+df_final$num_amenities <- ifelse(is.na(df_filtered$amenities) | df_filtered$amenities == "{}", 0, str_count(df_filtered$amenities, ",") + 1)
+
+```
+
+```{r echo=FALSE, include=FALSE}
+str(df_final)
+head(df_final[, c("price", "num_amenities", "has_hot_tub", "room_type")])
+```
+
+
+## Exploratory Data Analysis
+We explored key variables (accommodates, bedrooms, amenities, etc.) to understand distributions and correlations. All variables showed expected right skew. Bedrooms and accommodates had strong linear trends with price. Histogram plots, pairwise correlations, and summary statistics are included in the Appendix.
+
+```{r echo=FALSE,warnings=FALSE,message=FALSE, include=FALSE}
+#| fig-width: 10
+#| fig-height: 5
+#| warning: false
+#| info : false
+options(crayon.enabled = FALSE)
+df_final %>%
+  select(price,accommodates,bedrooms,num_amenities,estimated_occupancy_l365d,has_hot_tub,number_of_reviews,review_scores_rating) %>% 
+  GGally::ggpairs()
+```
+
+```{r, echo=FALSE, include=FALSE}
+ff <- df_final%>%
+  select(price,accommodates,bedrooms,num_amenities,estimated_occupancy_l365d,has_hot_tub,number_of_reviews,review_scores_rating)
+
+describe(ff)
+```
+No of Reviews has the least correlation with response. Hence we will drop this variable and focus on the rest of the above independent variables. *Accessing the relationship between individual X features to access normality.*
+
+```{r echo=FALSE, include=FALSE}
+#| fig-width: 10
+#| fig-height: 2
+#| warning: false
+#| message: false
+
+# Review the accommodates distribution 
+accomodates_plot <- df_final |> 
+  ggplot() + 
+  aes(x=accommodates) + 
+  geom_histogram(color="#002676",fill = "#FDB515") +
+  labs(x = "No of people it accomodates", y = "Frequency") +
+  ggtitle(str_wrap("Histogram of Number of people property accomodates ",width=25)) +
+  theme_minimal()+
+  theme(plot.title = element_text(size = 10))
+
+# Review the bedrooms distribution 
+bedroom_plot <- df_final |> 
+  ggplot() + 
+  aes(x=bedrooms) + 
+  geom_histogram(color="#002676",fill = "#FDB515") +
+  labs(x = "No of Bedrooms per rental property ", y = "Frequency") +
+  ggtitle("Histogram of No. of Bedrooms") +
+  theme_minimal()+
+  theme(plot.title = element_text(size = 10))
+
+# Review the Price distribution 
+price_plot <- df_final |> 
+  ggplot() + 
+  aes(x=price) + 
+  geom_histogram(color="#002676",fill = "#FDB515") +
+  labs(x = "Price per night ", y = "Frequency") +
+  ggtitle("Histogram of Airbnb Rental Price") +
+  theme_minimal()+
+  theme(plot.title = element_text(size = 10))
+
+#gg_pair_plot
+accomodates_plot|bedroom_plot|price_plot
+```
+
+The predictors and the response plots show a lot of skewness in the data.Linear regression is relatively robust to violations of normality, especially with large sample sizes. The Central Limit Theorem suggests that the sampling distribution of the estimates approaches normality as the sample size increases. Despite the observed skewness in both the predictor and response variables, we will proceed with constructing and evaluating regression models using various predictors. This approach allows us to understand the relationships between variables and assess the predictive power of different combinations of predictors.
+
+*Data Partitioning and Validation*
+Partitioning the data into training and testing subsets to evaluate the model's performance, and employ cross-validation techniques to assess its robustness
+
+```{r, include=FALSE}
+#-------------------------------------------------------------
+# Regression Model  - Exploration set
+#-------------------------------------------------------------
+
+#Splitting the Dataset into Exploration and Confirmation Sets
+# Split the dataset into 30% training (exploration) and 60% test (confirmation)
+
+split_ratio <- 0.3
+n <- nrow(df_final)  # Get total number of rows
+
+# Randomly select 30% of the data for the exploration set
+train_indices <- sample(1:n, size = round(split_ratio * n), replace = FALSE)
+
+# Split the dataset
+exploration_set <- df_final[train_indices, ]  # 30% training data
+confirmation_set <- df_final[-train_indices, ] # 70% test data
+# Check the dimensions of the split datasets
+
+#print(paste("Dimensions of exploration/training set :", dim(exploration_set)))
+#print(paste("Dimensions of confirmation/testing set :", dim(confirmation_set)))
+
+# Print dimension of dataset in formatted way
+#knitr::kable(dim(exploration_set),dim(confirmation_set), caption = "Dimensions of Training vs Test Dataset 30%/70%")
+```
+
+
+
+```{r, echo=FALSE, include=FALSE, results='asis'}
+#| warning: false
+# *Building Regression Model, Simple regression model using Numerical Predictors
+model_accommodates <- lm(price~accommodates,data=exploration_set,na.action=na.omit)
+model_num_amenities <- lm(price~num_amenities,data=exploration_set,na.action=na.omit)
+model_estimated_occupancy_l365d <- lm(price~estimated_occupancy_l365d,data=exploration_set,na.action=na.omit)
+
+stargazer(model_accommodates,model_num_amenities,model_estimated_occupancy_l365d,title='Regression Model for numeric Predictors:',type='text',single.row = TRUE, 
+          no.space = TRUE, 
+          column.sep.width = "3pt", 
+          font.size = "small")
+
+```
+
+
+```{r echo=FALSE, include=FALSE}
+# *Binary Encoding of Amenities for Regression*
+#| fig-width: 10
+#| fig-height: 2
+#| warning: false
+#| message: false
+
+# Evaluating the model by converting the categorical to binary Amenities
+
+# Considering has_hot_tub. All the other amenities has very low statistical significance.
+model_has_hot_tub=lm(price~exploration_set$has_hot_tub,data=exploration_set)
+
+```
+
+
+
+```{r,echo=FALSE, include=FALSE}
+#| warning: false
+
+# Evaluating if there is any particular amenities have significant impact on price vs the combination of the amenities.
+
+exploration_set$combo_amenities_numeric <- as.numeric(factor(exploration_set$amenities))# Converting categorical to numeric values
+
+model_combo_amenities_numeric=lm(price~exploration_set$combo_amenities_numeric,data=exploration_set)
+model_num_amenities=lm(price~exploration_set$num_amenities,data=exploration_set)
+
+#multiple linear regression
+stargazer(model_combo_amenities_numeric,model_num_amenities,model_has_hot_tub,type='text',title='Comparing Simple Linear Regression Models result for Amenities:',single.row = TRUE, 
+          no.space = TRUE, 
+          column.sep.width = "3pt", 
+          font.size = "small")
+
+
+```
+
+
+
+```{r warning=FALSE, include=FALSE}
+# Applying and Interpreting Indicator Variables for room type
+
+model_I_entirehome=lm(price~I(room_type=="Entire home/apt"),data=exploration_set)
+model_I_hotel=lm(price~I(room_type=="Hotel room"),data=exploration_set)
+
+stargazer(model_I_entirehome,model_I_hotel,title = "Linear Regression Model Results for Interpreting Indicator variables and interaction terms: ",type='text',
+          single.row = TRUE, 
+          no.space = TRUE, 
+          column.sep.width = "3pt", 
+          font.size = "small")
+```
+
+
+```{r warning=FALSE, include=FALSE}
+# Compare Multiple linear regression model with single dependent variable Y and mutiple independent variables X
+
+model_Y1<- lm((price)~accommodates+bedrooms,data=exploration_set)
+
+# Adding Indicative variable for room type = Entire home/apt
+model_Y1Y2 <- lm((price)~accommodates+bedrooms+I(room_type=="Entire home/apt"),data=exploration_set)
+
+# Adding estimated occupancy for last 365 days. This however did not show any +ve variation that influence the price
+model_Y1Y2Y3 <- lm((price)~accommodates+bedrooms+I(room_type=="Entire home/apt")+estimated_occupancy_l365d,data=exploration_set)
+# Adding has hot hub amenities. showed the best significance among all amenities
+model_Y1Y2Y3Y4 <- lm((price)~accommodates+bedrooms+I(room_type=="Entire home/apt")+estimated_occupancy_l365d+has_hot_tub,data=exploration_set)
+# Compare all the models created above in stargazer table
+stargazer(model_Y1,model_Y1Y2,model_Y1Y2Y3,model_Y1Y2Y3Y4,title = "Multiple Linear Regression Model Results for multivariables X (Without Log Transformation): ",type='text',
+          single.row = TRUE, 
+          no.space = TRUE, 
+          column.sep.width = "3pt", 
+          font.size = "small")
+```
+
+
+
+```{r echo=FALSE, include=FALSE}
+#| warning: false
+#| message: false
+
+# *Validating the Model*
+
+plot(model_Y1Y2Y3Y4,which=1,main='Residual Vs Fitted for Exploration dataset(without Log transformation)')
+plot(model_Y1Y2Y3Y4,which=2,main='Q-Q Residual for Exploration dataset(without Log transformation)')
+# Add regression line
+abline(h = 0, col = "red")
+
+```
+
+
+```{r warning=FALSE, include=FALSE}
+
+# Applying Transformation
+
+#Build Linear egression model for multiple independent variables without transformation
+# Starting with accomodates [ had the max variation among all X's] and adding bedrooms to it
+model_X1<- lm(log(price)~accommodates+bedrooms,data=exploration_set)
+
+# Adding Indicative variable for room type = Entire home/apt
+model_X1X2 <- lm(log(price)~accommodates+bedrooms+I(room_type=="Entire home/apt"),data=exploration_set)
+
+# Adding estimated occupancy for last 365 days. This however did not show any +ve variation that influence the price
+model_X1X2X3 <- lm(log(price)~accommodates+bedrooms+I(room_type=="Entire home/apt")+estimated_occupancy_l365d,data=exploration_set)
+# Adding has hot hub amenities. showed the best significance among all amenities
+model_log_final <- lm(log(price)~accommodates+bedrooms+I(room_type=="Entire home/apt")+estimated_occupancy_l365d+has_hot_tub,data=exploration_set)
+
+#model_X1X2X3X4X5_logprice=lm(log(price)~accommodates+bedrooms+I(room_type=="Entire home/apt")+estimated_occupancy_l365d+has_hot_tub,data=exploration_set)
+```
+
+
+```{r warning=FALSE, include=FALSE}
+# *Combine under Model Selection & Evaluation*
+# Compare all the models created above in stargazer table
+stargazer(model_X1, model_X1X2, model_X1X2X3, model_log_final,title = "Multiple Linear Regression Model Results for multivariables X : ",type='text',
+          single.row = TRUE, 
+          no.space = TRUE, 
+          column.sep.width = "3pt", 
+          font.size = "small")
+```
+
+
+```{r , warning=FALSE, include=FALSE}
+# *Final Model Summary*
+stargazer(model_log_final,type="text")
+
+```
+
+## ANOVA Test for Model Comparison
+
+To statistically compare nested models, we conducted an *ANOVA (Analysis of Variance)* test between the following models:
+
+- *Model 1 (`model_X1X2X3`)*: A log-linear model with predictors `accommodates`, `bedrooms`, `room_type`, and `estimated_occupancy_l365d`
+- *Model 2 (`model_log_final`)*: The same model as above, but with the addition of the `has_hot_tub` variable
+
+This comparison helps assess whether including `has_hot_tub` leads to a significantly better fit. The results are shown below.
+
+```{r, warning=FALSE, echo=TRUE}
+anova(model_X1X2X3, model_log_final)
+```
+
+A low p-value (typically < 0.05) in the last column indicates that the added variable (has_hot_tub) significantly improves the model fit.
+
+
+
+```{r echo=FALSE, include=FALSE}
+# *Model Validation*
+#| warning: false
+#| message: false
+plot(model_log_final,which=1,main='Residual Vs Fitted for Exploration dataset')
+plot(model_log_final,which=2,main='Q-Q Residual for Exploration dataset')
+# Add regression line
+abline(h = 0, col = "red")
+
+```
+### Validating the Model
+We evaluated our final model using the confirmation set (test data). The output below summarizes model performance and significance of each predictor.
+*Key Takeaways from the Confirmation Model: All coefficients are statistically significant at p < 0.001, `accommodates`, `bedrooms`, and `has_hot_tub` positively influence log(price), Adjusted R² = 0.61 indicates solid model performance on holdout data*
+```{r, echo=FALSE}
+model_confirmation <- lm(log(price) ~ accommodates + bedrooms + 
+                         I(room_type == "Entire home/apt") + 
+                         estimated_occupancy_l365d + has_hot_tub,
+                         data = confirmation_set)
+summary(model_confirmation)
+```
+```{r warning=FALSE, echo=FALSE, fig.width=8, fig.height=4}
+par(mfrow = c(1, 2))  # Set plotting area to 1 row, 2 columns
+
+# Plot 1: Residual vs Fitted
+plot(model_confirmation, which = 1, main = "Residual vs Fitted (Confirmation Set)")
+
+# Plot 2: Q-Q Residuals
+plot(model_confirmation, which = 2, main = "Q-Q Plot (Confirmation Set)")
+
+par(mfrow = c(1, 1))  # Reset plotting area to default
+```
+
+```{r warning=FALSE, echo=FALSE, include=FALSE}
+# Generate predicted values only for rows used in the model
+confirmation_set$predicted_price <- exp(predict(model_confirmation, newdata = confirmation_set))
+
+# Plot actual vs predicted prices
+ggplot(confirmation_set, aes(x = predicted_price, y = price)) +
+  geom_point(alpha = 0.3, color = "black") +
+  geom_abline(intercept = 0, slope = 1, color = "#002676") +
+  labs(title = "Actual vs Predicted Price",
+       x = "Predicted Price (from log model)",
+       y = "Actual Price") +
+  theme_minimal()
+```
+
+
+## Key Takeaways & Future Work
+
+Our analysis looked at which listing features, beyond just room type, help explain Airbnb pricing in Los Angeles. Using a log-transformed linear regression model, we identified five key predictors: accommodates, bedrooms, room type, estimated occupancy, and the presence of a hot tub. Together, these explain about 36% of the variation in nightly prices. ANOVA tests confirmed that amenities like hot tubs add meaningful value, and diagnostic plots showed our model performed reasonably well, despite some imperfections. We also compared actual and predicted prices from a holdout (confirmation) set to see how well our model generalized. While results aligned overall, some high-end listings showed wider dispersion, suggesting those prices are harder to capture with structured data alone.
+
+For hosts, the results point to a few clear takeaways: listings that accommodate more guests and offer popular amenities like hot tubs tend to command higher prices. For Airbnb as a platform, our findings highlight the potential of enhancing pricing recommendations by incorporating features like amenity count and recent activity, details often overlooked in traditional pricing algorithms. Of course, pricing decisions are rarely driven by data alone. Visual appeal, guest reviews, and short-term demand surges (like holidays or local events) also play a big role. Our current model doesn’t account for those. In future work, we’d love to explore how adding unstructured data, such as review text, listing photos, or neighborhood-level context, might improve prediction accuracy and give a fuller picture of what drives Airbnb pricing. Ultimately, even a fairly simple model, when thoughtfully designed and interpreted, can shed light on how travelers value different listing attributes, and how hosts and platforms can use that information to make smarter pricing decisions.
+
+## Appendix
+
+### A1. Pairwise Correlations
+```{r echo=FALSE,warnings=FALSE,message=FALSE}
+library(dplyr)
+library(GGally)
+
+#| fig-width: 10
+#| fig-height: 5
+options(crayon.enabled = FALSE)
+
+df_final %>%
+  select(price, accommodates, bedrooms, num_amenities,
+         estimated_occupancy_l365d, has_hot_tub,
+         number_of_reviews, review_scores_rating) %>%
+  na.omit() %>%
+  GGally::ggpairs()
+```
+### A2. Descriptive Statistics
+```{r, echo=FALSE, include=TRUE}
+ff <- df_final%>%
+  select(price,accommodates,bedrooms,num_amenities,estimated_occupancy_l365d,has_hot_tub,number_of_reviews,review_scores_rating)
+
+describe(ff)
+```
+### A3. Histograms of Key Predictors
+```{r echo=FALSE, include=TRUE}
+#| fig-width: 10
+#| fig-height: 2
+#| warning: false
+#| message: false
+
+# Review the accommodates distribution 
+accomodates_plot <- df_final |> 
+  ggplot() + 
+  aes(x=accommodates) + 
+  geom_histogram(color="#002676",fill = "#FDB515") +
+  labs(x = "No of people it accomodates", y = "Frequency") +
+  ggtitle(str_wrap("Histogram of Number of people property accomodates ",width=25)) +
+  theme_minimal()+
+  theme(plot.title = element_text(size = 10))
+
+# Review the bedrooms distribution 
+bedroom_plot <- df_final |> 
+  ggplot() + 
+  aes(x=bedrooms) + 
+  geom_histogram(color="#002676",fill = "#FDB515") +
+  labs(x = "No of Bedrooms per rental property ", y = "Frequency") +
+  ggtitle("Histogram of No. of Bedrooms") +
+  theme_minimal()+
+  theme(plot.title = element_text(size = 10))
+
+# Review the Price distribution 
+price_plot <- df_final |> 
+  ggplot() + 
+  aes(x=price) + 
+  geom_histogram(color="#002676",fill = "#FDB515") +
+  labs(x = "Price per night ", y = "Frequency") +
+  ggtitle("Histogram of Airbnb Rental Price") +
+  theme_minimal()+
+  theme(plot.title = element_text(size = 10))
+
+#gg_pair_plot
+accomodates_plot|bedroom_plot|price_plot
+```
+
+
+```{r echo=FALSE, include=FALSE}
+#gg_pair_plot
+accomodates_plot|bedroom_plot|price_plot
+df_filtered$price
+
+
+
+max(df_refiltered$price)
+min(df_refiltered$price)
+max(df_refiltered$accommodates)
+min(df_refiltered$accommodates)
+# Clean price column
+df_refiltered$price<-gsub("\\$","",df_refiltered$price)
+df_refiltered$price <- parse_number(df_refiltered$price)
+
+#---------------------EDA
+ggplot(df_filtered, aes(x=number_of_reviews, y=price)) +
+  geom_point(color="blue") +  # Scatter points
+  geom_smooth(method="lm", color="red", se=FALSE) +  # Regression line
+  labs(title="Rental Price vs. number_of_reviews",
+       x="number_of_reviews",
+       y="Price ($)") +
+  theme_minimal()
+#max(df_filtered$number_of_reviews)
+boxplot(df_filtered$number_of_reviews, outline = FALSE)
+unique(df_filtered$room_type)
+
+# Also check qqplot for reviews to understand the normality curve
+qqnorm(df_filtered$number_of_reviews)
+qqline(df_filtered$number_of_reviews,col="red",lwd=2) # line width =2 
+
+# Also check qqplot for price to understand the normality curve
+qqnorm(df_filtered$price)
+qqline(df_filtered$price,col="red",lwd=2) # line width =2 
+```
+
+
+### A4. Actual vs Predicted Prices
+```{r warning=FALSE, echo=FALSE, include=TRUE}
+# Generate predicted values only for rows used in the model
+confirmation_set$predicted_price <- exp(predict(model_confirmation, newdata = confirmation_set))
+
+# Plot actual vs predicted prices
+ggplot(confirmation_set, aes(x = predicted_price, y = price)) +
+  geom_point(alpha = 0.3, color = "black") +
+  geom_abline(intercept = 0, slope = 1, color = "#002676") +
+  labs(title = "Actual vs Predicted Price",
+       x = "Predicted Price (from log model)",
+       y = "Actual Price") +
+  theme_minimal()
+```
