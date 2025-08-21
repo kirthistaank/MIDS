@@ -1,15 +1,4 @@
-# DATASCI 200: Introduction to Data Science Programming
-Final Project – Global and U.S. Disaster Trends Analysi
-
-Course Context
-This project was completed as part of Data Science 200: Introduction to Data Science Programming (D200) at UC Berkeley’s Master of Information and Data Science (MIDS) program. D200 provides foundational training in Python programming and data analysis, covering:
-
-- Core Python programming (data types, control structures, object-oriented concepts)
-- Data manipulation and analysis using NumPy and pandas
-- Version control using Git and GitHub
-- Project-based learning simulating real-world data science workflows
-
-The course emphasizes hands-on coding and software development best practices, preparing students for advanced data science applications.
+# Global and U.S. Disaster Trends Analysis
 
 Project Overview:
 =================
@@ -33,35 +22,26 @@ refugees than others?
 
 ● Which regions, both in the U.S. and globally, emerge as the most resilient and desirable
 places to live in the context of natural disaster risks?
+    a. What are the global patterns in natural and technological disasters, comparing
+    across countries, continents, and U.S. states?
+    b. What types of disasters have been recorded worldwide to date?
+    c. How do storm patterns and trends compare globally, within the U.S., and
+    specifically in Florida?
+    d. During which time of year do storms most frequently impact Florida and the
+    southeastern U.S. coast?
 
-a. What are the global patterns in natural and technological disasters, comparing
-across countries, continents, and U.S. states?
-
-b. What types of disasters have been recorded worldwide to date?
-
-c. How do storm patterns and trends compare globally, within the U.S., and
-specifically in Florida?
-
-d. During which time of year do storms most frequently impact Florida and the
-southeastern U.S. coast?
-
-
-Assumption :
-============
-
-i. Season Definition : Winter is considered December, January and February;
-spring is March through May; summer is June through August; and fall or
-autumn is September through November
-
-ii. Southeastern States: Alabama, Arkansas, Florida, Georgia, Kentucky,
-Louisiana, Mississippi, North Carolina, South Carolina and Tennessee, as
-well as Puerto Rico and the U.S. Virgin Islands)
-
-e. What are the trends in storm frequency and severity across the U.S.?
-
-f. What are the trends in all types of disasters across the U.S.?
-
-g. Which Countries and U.S. states are the least affected by natural disasters?
+        Assumption :
+        ============
+        i. Season Definition : Winter is considered December, January and February;
+        spring is March through May; summer is June through August; and fall or
+        autumn is September through November
+        ii. Southeastern States: Alabama, Arkansas, Florida, Georgia, Kentucky,
+        Louisiana, Mississippi, North Carolina, South Carolina and Tennessee, as
+        well as Puerto Rico and the U.S. Virgin Islands)
+        
+    e. What are the trends in storm frequency and severity across the U.S.?
+    f. What are the trends in all types of disasters across the U.S.?
+    g. Which Countries and U.S. states are the least affected by natural disasters?
 
 
 Tools and Libraries:
@@ -74,7 +54,6 @@ General Instructions :
 =====================
 
 Run jupyternotebook : Project2_DisasterData_Final.ipynb
-======================
 
 1. Use following commands to install packages individually or use requirements.txt
 
