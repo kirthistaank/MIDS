@@ -1,6 +1,6 @@
 # Introduction  
   
-Hello, Welcome to my portfolio! I’m a Data Engineering Leader and AI Leader with 18+ years in software, specializing in building scalable analytics platforms, deploying AI and ML solutions, 
+Hello, Welcome to my portfolio! Experienced ML Engineer, specializing in building scalable analytics platforms, deploying AI/ML solutions, 
 and leading innovation on cloud technologies (GCP, AWS). I am also an Aspiring AI Engineer currently transitioning into applied AI development experimenting with deep learning, generative AI, and statistical modeling.
 
 ---
@@ -37,28 +37,29 @@ and leading innovation on cloud technologies (GCP, AWS). I am also an Aspiring A
 
 ---
 
-##  Recent Experience
+##  Recent Experience *
 
 - Built custom analytics tools on Looker, Spotfire, Google Data Studio, and Dash
 - Configured VCP hybrid environments, IAM, standardized org-wide GCP policies
 - Managed GCP billing and budget, educated users on usage
 - Deployed ML models and apps: Vertex AI, Dataiku, Cloud Run, Artifactory, Compute Engine
 - Explored Databricks and developed scalable ML pipelines
+* Work Experience code cannot be uploaded on to the public website due to the nature of business.
+* Side gigs can be found at [git](https://github.com/kitushenoy/mywork/tree/master/python).
 
-## 
+## Academic Experience **
 •	Child Poverty & CalFresh PRI Modeling (UC Berkeley): Developed regression and classification models to analyze socioeconomic drivers of food assistance program reach; applied bagging, augmentation, Random Forest, XGBoost and CNN methods to improve predictive accuracy.
 •	Airbnb Price Prediction (UC Berkeley): Built statistical models to identify relationships between listing features and pricing, optimized feature selection and error minimization.
 •	Global and U.S. Disaster Trends Analysis
 
-
-*Group projects
+**Group projects
 ---
 
 ## Connect with Me
 
-- [LinkedIn](#https://www.linkedin.com/in/kirthishanbhag/)
+- [LinkedIn](https://www.linkedin.com/in/kirthishanbhag/)
 - [Email](#)
-- [Portfolio/Website](#)
+- [Portfolio/Website](https://github.com/kirthistaank/MIDS)
 
 ---
 
