@@ -46,6 +46,7 @@ and leading innovation on cloud technologies (GCP, AWS). I am also an Aspiring A
 - Explored Databricks and developed scalable ML pipelines
 * Work Experience code cannot be uploaded on to the public website due to the nature of business.
 * Side gigs can be found at [git](https://github.com/kitushenoy/mywork/tree/master/python).
+
 ## Academic Experience **
 •	Child Poverty & CalFresh PRI Modeling (UC Berkeley): Developed regression and classification models to analyze socioeconomic drivers of food assistance program reach; applied bagging, augmentation, Random Forest, XGBoost and CNN methods to improve predictive accuracy.
 •	Airbnb Price Prediction (UC Berkeley): Built statistical models to identify relationships between listing features and pricing, optimized feature selection and error minimization.
@@ -58,7 +59,7 @@ and leading innovation on cloud technologies (GCP, AWS). I am also an Aspiring A
 
 - [LinkedIn](#https://www.linkedin.com/in/kirthishanbhag/)
 - [Email](#)
-- [Portfolio/Website](#)
+- [Portfolio/Website](#https://github.com/kirthistaank/MIDS)
 
 ---
 
