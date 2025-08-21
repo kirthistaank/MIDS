@@ -45,6 +45,13 @@ and leading innovation on cloud technologies (GCP, AWS). I am also an Aspiring A
 - Deployed ML models and apps: Vertex AI, Dataiku, Cloud Run, Artifactory, Compute Engine
 - Explored Databricks and developed scalable ML pipelines
 
+## 
+•	Child Poverty & CalFresh PRI Modeling (UC Berkeley): Developed regression and classification models to analyze socioeconomic drivers of food assistance program reach; applied bagging, augmentation, Random Forest, XGBoost and CNN methods to improve predictive accuracy.
+•	Airbnb Price Prediction (UC Berkeley): Built statistical models to identify relationships between listing features and pricing, optimized feature selection and error minimization.
+•	Global and U.S. Disaster Trends Analysis
+
+
+*Group projects
 ---
 
 ## Connect with Me
