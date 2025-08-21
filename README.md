@@ -1,6 +1,6 @@
 # Introduction  
   
-Hello, Welcome to my portfolio! I’m a Data Engineering Leader and AI Leader with 18+ years in software, specializing in building scalable analytics platforms, deploying AI and ML solutions, 
+Hello, Welcome to my portfolio! I’m a Data Engineering Leader and AI Engineer with 18+ years in software, specializing in building scalable analytics platforms, deploying AI and ML solutions, 
 and leading innovation on cloud technologies (GCP, AWS). I am also an Aspiring AI Engineer currently transitioning into applied AI development experimenting with deep learning, generative AI, and statistical modeling.
 
 ---
