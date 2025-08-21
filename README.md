@@ -57,9 +57,9 @@ and leading innovation on cloud technologies (GCP, AWS). I am also an Aspiring A
 
 ## Connect with Me
 
-- [LinkedIn](# https://www.linkedin.com/in/kirthishanbhag/)
+- [LinkedIn](https://www.linkedin.com/in/kirthishanbhag/)
 - [Email](#)
-- [Portfolio/Website](# https://github.com/kirthistaank/MIDS)
+- [Portfolio/Website](https://github.com/kirthistaank/MIDS)
 
 ---
 
