@@ -48,9 +48,13 @@ and leading innovation on cloud technologies (GCP). I am also an Aspiring AI Eng
 * Neverthless I was able to upload some utilty code from past work experience over the years and some side gigs at another repo -> [git](https://github.com/kitushenoy/mywork/tree/master/python).
 
 ## Academic Experience (**)
+
 •	Child Poverty & CalFresh PRI Modeling (UC Berkeley): Developed regression and classification models to analyze socioeconomic drivers of food assistance program reach; applied bagging, augmentation, Random Forest, XGBoost and CNN methods to improve predictive accuracy.
+
 •	Airbnb Price Prediction (UC Berkeley): Built statistical models to identify relationships between listing features and pricing, optimized feature selection and error minimization.
+
 •	Global and U.S. Disaster Trends Analysis
+
 •	Bike Route Analysis using graph DB, Neo4j
 
 ** Are mostly Group projects
