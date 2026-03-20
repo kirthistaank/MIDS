@@ -9,20 +9,18 @@
 
 > ⭐ **This is a portfolio project.** Feel free to fork it, run it locally, and adapt it for your own use. Direct PRs are not actively reviewed but issues and feedback are always welcome!
 
-Landing a great job is not just about skills — it is about showing up with clarity and confidence. **ConfidenceOS** is an end-to-end agentic AI application that acts as your personal interview coach, helping you reframe self-doubt, practice mock interviews, negotiate offers, and craft compelling answers — all grounded in real frameworks from cognitive behavioral therapy (CBT) and principled negotiation.
-
-This project demonstrates a production-minded approach to building AI systems: modular architecture, retrieval-augmented generation (RAG) over a vector store, graph-based knowledge retrieval, multi-mode agentic reasoning, session memory, and emotion-aware responses — running entirely on your local machine at zero API cost.
-
 ---
 
 ## Why This Project
 
 Most interview prep tools are static. ConfidenceOS is conversational, contextual, and adaptive:
-- It **retrieves relevant knowledge** from indexed books using semantic search (Pinecone)
+- It **retrieves relevant knowledge** from indexed books using hybrid semantic + keyword search (Pinecone + BM25)
+- It **reranks results** using a cross-encoder model for higher relevance quality
 - It **traverses relationships** between concepts, frameworks, and techniques (Neo4j AuraDB)
 - It **detects emotional tone** in your messages and adjusts its coaching style accordingly
 - It **remembers your session** — your name, target role, and progress across the conversation
 - It **switches between coaching modes** — from mock interviews to CBT reframing to salary negotiation
+- It **scores your answers** live — STAR structure, language confidence, relevance, and overall
 
 ---
 
@@ -31,35 +29,16 @@ Most interview prep tools are static. ConfidenceOS is conversational, contextual
 | Layer | Technology |
 |---|---|
 | LLM (local) | Ollama — llama3.2 |
-| Embeddings | nomic-embed-text (768-dim) |
+| Embeddings | nomic-embed-text (768-dim, local) |
+| Triple extraction | qwen2.5:7b-instruct (local) |
 | Agent orchestration | LangGraph |
 | Vector search | Pinecone |
 | Knowledge graph | Neo4j AuraDB |
+| Retrieval strategy | Hybrid — dense + BM25 + cross-encoder reranking |
+| Reranker | cross-encoder/ms-marco-MiniLM-L-6-v2 |
 | Backend API | FastAPI |
 | Frontend | React + Vite + Tailwind CSS |
-
----
-
-## Project Structure
-
-```
-local-rag-agent/
-├── .env                        ← your secret keys (never commit this)
-├── chunk_texts/                ← local JSON files with chunk text
-├── backend/
-│   ├── config.py               ← reads all env vars
-│   ├── prompts.py              ← ALL system prompts (edit freely)
-│   ├── emotion.py              ← emotion detection logic
-│   ├── memory.py               ← session memory + LangGraph checkpointer
-│   ├── tools.py                ← all LangGraph tools
-│   ├── agent.py                ← LangGraph graph definition
-│   ├── main.py                 ← FastAPI app
-│   └── requirements.txt
-└── frontend/
-    ├── .env                    ← VITE_API_URL
-    └── src/
-        └── App.jsx             ← React chat UI
-```
+| Logging | Rotating file handler — `/tmp/confidenceos/` |
 
 ---
 
@@ -68,12 +47,99 @@ local-rag-agent/
 | Mode | Icon | Description |
 |---|---|---|
 | General Chat | 💬 | Open conversation about career and job hunt |
-| Mock Interview | 🎤 | Realistic interview Q&A with feedback |
+| Mock Interview | 🎤 | Realistic interview Q&A with live scoring |
 | CBT Reframe | 🧠 | Reframe negative thoughts using CBT techniques |
 | Negotiation | 💰 | Salary and offer negotiation coach |
 | STAR Coach | ⭐ | Craft strong behavioral interview answers |
 
 Each mode has its own system prompt in `prompts.py` — edit them freely without touching any code.
+
+---
+
+## Knowledge Base
+
+The following documents are pre-indexed and power the RAG and knowledge graph retrieval. All chunks are stored in **Pinecone** (vector search) and key concepts/relationships are stored in **Neo4j AuraDB** (graph search).
+
+### Indexed Documents
+
+| # | Document | Domain |
+|---|---|---|
+| 1 | Cognitive Behavior Therapy — Basics and Beyond *(Judith S. Beck)* | CBT, mental frameworks |
+| 2 | A Guide to Rational Living *(Albert Ellis & Robert Harper)* | Rational Emotive Therapy |
+| 3 | Getting to Yes *(Fisher, Ury & Patton)* | Principled negotiation |
+| 4 | Difficult Conversations — How to Discuss What Matters Most | Communication, conflict |
+| 5 | Motivational Interviewing — Helping People Change and Grow | Behaviour change |
+| 6 | Nonviolent Communication — A Language of Life *(Marshall Rosenberg)* | Empathic communication |
+
+### Embedding & Indexing Config
+
+| Setting | Value |
+|---|---|
+| Embedding model | `nomic-embed-text` (via Ollama, local) |
+| Embedding dimension | 768 |
+| Pinecone metric | Cosine |
+| Pinecone namespace | `documents` |
+| Triple extraction model | `qwen2.5:7b-instruct` (via Ollama, local) |
+| Retrieval strategy | Hybrid — dense (Pinecone) + sparse (BM25) + cross-encoder reranking |
+| Reranker model | `cross-encoder/ms-marco-MiniLM-L-6-v2` (HuggingFace, local) |
+
+### Neo4j AuraDB Graph Schema
+
+```
+Node labels    : Chunk, Framework, Concept, Technique, Scenario, Emotion
+Relationships  : (Framework)-[:CONTAINS]->(Chunk)
+                 (Chunk)-[:USES]->(Technique)
+                 (Chunk)-[:APPLIES_TO]->(Scenario)
+                 (Chunk)-[:TRIGGERS]->(Emotion)
+                 (Chunk)-[:MENTIONS]->(Concept)
+```
+
+### Adding Your Own Documents
+
+To extend the knowledge base with your own books or articles:
+
+1. Chunk your PDF into overlapping text segments
+2. Embed each chunk using `nomic-embed-text` via Ollama
+3. Upsert into Pinecone with metadata: `source`, `chunk_id`, `title`, `themes`, `best_for`
+4. Store chunk text as a JSON file in `chunk_texts/` named `{source}_texts.json`
+5. Use `qwen2.5:7b-instruct` to extract triples and add nodes/relationships to Neo4j AuraDB
+
+> **Models required for ingestion:**
+> ```bash
+> ollama pull nomic-embed-text       # for Pinecone embeddings
+> ollama pull qwen2.5:7b-instruct    # for Neo4j triple extraction
+> ```
+> Your Pinecone index dimension must match the embedding model (768 for `nomic-embed-text`). If you switch models, recreate the index.
+
+---
+
+## Project Structure
+
+```
+local-rag-agent/
+├── .env                        ← your secret keys (never commit this)
+├── .env.example                ← template for environment variables
+├── chunk_texts/                ← local JSON files with chunk text
+├── backend/
+│   ├── config.py               ← reads all env vars
+│   ├── prompts.py              ← ALL system prompts (edit freely)
+│   ├── emotion.py              ← emotion detection logic
+│   ├── memory.py               ← session memory + LangGraph checkpointer
+│   ├── retrieval.py            ← hybrid search + reranking pipeline
+│   ├── tools.py                ← all LangGraph tools
+│   ├── agent.py                ← LangGraph graph definition
+│   ├── main.py                 ← FastAPI app
+│   ├── logger.py               ← rotating file logger
+│   └── requirements.txt
+└── frontend/
+    ├── .env                    ← VITE_API_URL
+    └── src/
+        ├── App.jsx             ← React chat UI
+        ├── Landing.jsx         ← Landing page
+        ├── BotIcon.jsx         ← Geometric bot SVG icon
+        ├── Onboarding.jsx      ← Getting started screen
+        └── HelpGuide.jsx       ← Slide-in help panel
+```
 
 ---
 
@@ -91,13 +157,14 @@ emotion.py detects tone (distressed / positive / neutral)
 prompts.py loads mode-specific system prompt
 memory.py injects session context (name, role, topics, confidence)
     ↓
-LangGraph agent (Ollama LLM)
+LangGraph agent (Ollama LLM — llama3.2)
     ↓ (if tool needed)
-Tools: search_pinecone | query_auradb | get_weather | say_hello | calculator
+retrieval.py → hybrid search (Pinecone dense + BM25 sparse + reranking)
+query_auradb → Cypher query against Neo4j knowledge graph
     ↓
 LangGraph MemorySaver persists conversation across turns
     ↓
-Reply returned to UI
+Reply returned to UI with live confidence scores
 ```
 
 ---
@@ -116,8 +183,9 @@ Reply returned to UI
 
 ### 1. Pull Ollama models
 ```bash
-ollama pull llama3.2
-ollama pull nomic-embed-text
+ollama pull llama3.2            # chat model
+ollama pull nomic-embed-text    # embedding model
+ollama pull qwen2.5:7b-instruct # triple extraction (for ingestion)
 ollama serve
 ```
 
@@ -153,18 +221,7 @@ npm run dev
 
 ---
 
-## Customising Prompts
-
-All prompts live in `backend/prompts.py`. You can:
-- Edit ConfidenceOS's persona in the `PERSONA` string
-- Change how each mode behaves in the `PROMPTS` dict
-- Add a new mode by adding a key to `PROMPTS` and an entry to `get_available_modes()`
-
-No code changes needed — just edit the text and restart the backend.
-
----
-
-## Testing the App
+## Testing the App — Try These in Order
 
 **Test 1 — General chat:**
 ```
@@ -191,7 +248,7 @@ I got an offer for $120k but I was expecting $140k
 Help me answer: tell me about a time you handled a conflict
 ```
 
-**Test 6 — Pinecone RAG:**
+**Test 6 — Pinecone hybrid RAG:**
 ```
 What does the knowledge base say about handling anxiety?
 ```
@@ -206,6 +263,17 @@ What techniques are used in CBT chunks?
 
 ---
 
+## Customising Prompts
+
+All prompts live in `backend/prompts.py`. You can:
+- Edit ConfidenceOS's persona in the `PERSONA` string
+- Change how each mode behaves in the `PROMPTS` dict
+- Add a new mode by adding a key to `PROMPTS` and an entry to `get_available_modes()`
+
+No code changes needed — just edit the text and restart the backend.
+
+---
+
 ## Contributing & Forking
 
 This project is primarily a personal portfolio piece — see [CONTRIBUTING.md](./CONTRIBUTING.md) for full details.
@@ -217,11 +285,15 @@ This project is primarily a personal portfolio piece — see [CONTRIBUTING.md](.
 
 If you build something cool on top of it, share it!
 
+---
+
+## Extending the App
+
 - **Add a new mode** → add to `PROMPTS` and `get_available_modes()` in `prompts.py`
 - **Add a new tool** → define `@tool` in `tools.py`, add to `ALL_TOOLS`
 - **Add streaming** → replace `graph.invoke()` with `graph.stream()` + FastAPI `StreamingResponse`
 - **Add more books** → index chunks into Pinecone + add nodes to AuraDB
-## Extending the App
+- **Persist memory** → swap `MemorySaver` in `memory.py` for Redis or SQLite checkpointer
 
 ---
 
