@@ -265,6 +265,9 @@ def calculator(expression: str) -> str:
     except Exception as e:
         log.warning("Calculator error | expression=%s | error=%s", expression, e)
         return f"Math error: {e}"
+
+
+
 # ── Export ────────────────────────────────────────────────────────────────────
 
 #ALL_TOOLS = [search_pinecone, query_auradb, get_weather, say_hello, calculator]

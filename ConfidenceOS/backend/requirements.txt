@@ -10,4 +10,3 @@ neo4j
 requests
 rank-bm25
 sentence-transformers
-#langchain-anthropic 
