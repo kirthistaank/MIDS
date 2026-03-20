@@ -1,0 +1,11 @@
+dotenv
+fastapi
+uvicorn[standard]
+python-dotenv
+langgraph
+langchain-core
+langchain-ollama
+pinecone
+neo4j
+requests
+#langchain-anthropic 
