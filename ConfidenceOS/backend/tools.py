@@ -1,47 +1,70 @@
 """
-tools.py — all LangGraph tools live here.
-Each tool is a plain Python function decorated with @tool.
+tools.py — all LangGraph tools with full logging and retrieval tracing.
+Every Pinecone chunk and AuraDB node retrieved is logged so you can
+tell exactly whether the LLM used retrieved knowledge or generated it.
 """
+
+import json
+import os
+import glob
+import requests
 
 from langchain_core.tools import tool
 from pinecone import Pinecone
 from neo4j import GraphDatabase
+
 import config
-import json
-import os
-import glob
-import logging
+from logger import get_logger
 
-logger = logging.getLogger(__name__)
+log = get_logger(__name__)
 
-# ── Pinecone client (lazy singleton) ──────────────────────────────────────────
+# ── Pinecone singleton ────────────────────────────────────────────────────────
 
-_pc = None
+_pc    = None
 _index = None
 
 def _get_pinecone_index():
     global _pc, _index
     if _index is None:
-        if not config.PINECONE_API_KEY:
-            raise ValueError("PINECONE_API_KEY is missing")
-        _pc    = Pinecone(api_key=config.PINECONE_API_KEY)
-        _index = _pc.Index(config.PINECONE_INDEX_NAME)
+        log.info("Initialising Pinecone client | index=%s", config.PINECONE_INDEX_NAME)
+        try:
+            _pc    = Pinecone(api_key=config.PINECONE_API_KEY)
+            _index = _pc.Index(config.PINECONE_INDEX_NAME)
+            log.info("Pinecone index ready")
+        except Exception as e:
+            log.error("Failed to initialise Pinecone: %s", e, exc_info=True)
+            raise
     return _index
+
+
+# ── Neo4j singleton ───────────────────────────────────────────────────────────
+
+_neo4j_driver = None
+
+def _get_neo4j_driver():
+    global _neo4j_driver
+    if _neo4j_driver is None:
+        log.info("Initialising Neo4j driver | uri=%s", config.NEO4J_URI)
+        try:
+            _neo4j_driver = GraphDatabase.driver(
+                config.NEO4J_URI,
+                auth=(config.NEO4J_USERNAME, config.NEO4J_PASSWORD),
+            )
+            log.info("Neo4j driver ready")
+        except Exception as e:
+            log.error("Failed to initialise Neo4j driver: %s", e, exc_info=True)
+            raise
+    return _neo4j_driver
 
 
 # ── Chunk text loader ─────────────────────────────────────────────────────────
 
-# Path to chunk_texts folder — one level above backend/
 CHUNK_TEXTS_DIR = os.path.join(os.path.dirname(__file__), "..", "chunk_texts")
-
-# Cache loaded JSON files in memory so we don't re-read on every query
 _chunk_cache: dict[str, dict] = {}
 
 def _load_chunk_file(source_name: str) -> dict:
-    """Load and cache the JSON file matching the source name.
-    Handles both dict format {chunk_id: text} and list format [{id: ..., text: ...}]
-    """
     if source_name in _chunk_cache:
+        log.debug("Chunk cache hit | source=%s", source_name)
         return _chunk_cache[source_name]
 
     pattern = os.path.join(CHUNK_TEXTS_DIR, f"{source_name}_texts.json")
@@ -49,66 +72,48 @@ def _load_chunk_file(source_name: str) -> dict:
 
     if not matches:
         all_files = glob.glob(os.path.join(CHUNK_TEXTS_DIR, "*.json"))
-        matches = [f for f in all_files if source_name.lower() in f.lower()]
+        matches   = [f for f in all_files if source_name.lower() in f.lower()]
 
     if not matches:
+        log.warning("Chunk file not found | source=%s | pattern=%s", source_name, pattern)
         return {}
 
-    with open(matches[0], "r", encoding="utf-8") as f:
-        data = json.load(f)
+    log.debug("Loading chunk file | path=%s", matches[0])
+    try:
+        with open(matches[0], "r", encoding="utf-8") as f:
+            data = json.load(f)
 
-    # Normalize list format to dict keyed by full chunk ID
-    # All files are lists: [{"chunk_id": N, "content": "text..."}, ...]
-    normalized = {}
-    for item in data:
-        if isinstance(item, dict):
-            chunk_num = item.get("chunk_id", "")
-            text = item.get("content") or item.get("text") or item.get("raw_text") or ""
-            full_key = f"{source_name}_chunk_{chunk_num}"
-            normalized[full_key] = text
-    data = normalized
-    
-    _chunk_cache[source_name] = data
-    return data
+        normalized = {}
+        for item in data:
+            if isinstance(item, dict):
+                chunk_num = item.get("chunk_id", "")
+                text      = item.get("content") or item.get("text") or item.get("raw_text") or ""
+                full_key  = f"{source_name}_chunk_{chunk_num}"
+                normalized[full_key] = text
+
+        _chunk_cache[source_name] = normalized
+        log.info("Chunk file loaded | source=%s | chunks=%d", source_name, len(normalized))
+        return normalized
+
+    except Exception as e:
+        log.error("Failed to load chunk file | source=%s | error=%s", source_name, e, exc_info=True)
+        return {}
+
 
 def _get_chunk_text(pinecone_id: str) -> str:
-    """
-    Given a Pinecone ID like 'Cognitive Behavior Therapy - Basics and Beyond_chunk_150',
-    extract the source name, load the right JSON file, and return the chunk text.
-    """
-    # Split on '_chunk_' to get source name
     if "_chunk_" not in pinecone_id:
-        return "(chunk ID format not recognized)"
+        log.warning("Unrecognised chunk ID format | id=%s", pinecone_id)
+        return "(chunk ID format not recognised)"
 
     source_name = pinecone_id.split("_chunk_")[0]
-    chunks = _load_chunk_file(source_name)
+    chunks      = _load_chunk_file(source_name)
+    text        = chunks.get(pinecone_id, "")
 
-    # The key in the JSON is the full Pinecone ID
-    text = chunks.get(pinecone_id, "")
     if not text:
+        log.warning("Chunk text not found | id=%s", pinecone_id)
         return f"(text not found for chunk: {pinecone_id})"
+
     return text
-
-
-# ── Neo4j driver (lazy singleton) ─────────────────────────────────────────────
-
-_neo4j_driver = None
-
-def _get_neo4j_driver():
-    global _neo4j_driver
-    if _neo4j_driver is None:
-        if not config.NEO4J_URI:
-            raise ValueError("NEO4J_URI is missing. Set it in backend/.env")
-        if not config.NEO4J_USERNAME:
-            raise ValueError("NEO4J_USERNAME is missing. Set it in backend/.env")
-        if not config.NEO4J_PASSWORD:
-            raise ValueError("NEO4J_PASSWORD is missing. Set it in backend/.env")
-        
-        _neo4j_driver = GraphDatabase.driver(
-            config.NEO4J_URI,
-            auth=(config.NEO4J_USERNAME, config.NEO4J_PASSWORD),
-        )
-    return _neo4j_driver
 
 
 # ── Tool 1: Pinecone semantic search ──────────────────────────────────────────
@@ -120,22 +125,22 @@ def search_pinecone(query: str) -> str:
     Returns the top-3 text chunks with their similarity scores.
     Use this when the user asks a question that needs document/knowledge retrieval.
     """
+    log.info("Pinecone search | query=%s", query)
     try:
-        import requests
         index = _get_pinecone_index()
 
-        # Embed the query using the configured embedding model.
+        # Embed query
+        log.debug("Embedding query via Ollama | model=nomic-embed-text")
         resp = requests.post(
             f"{config.OLLAMA_BASE_URL}/api/embeddings",
-            json={"model": config.EMBED_MODEL, "prompt": query},
+            json={"model": "nomic-embed-text", "prompt": query},
             timeout=30,
         )
         resp.raise_for_status()
-        payload = resp.json()
-        embedding = payload.get("embedding")
-        if not embedding:
-            return f"Pinecone search failed: embedding response missing vector: {payload}"
+        embedding = resp.json()["embedding"]
+        log.debug("Embedding generated | dim=%d", len(embedding))
 
+        # Query Pinecone
         results = index.query(
             vector=embedding,
             top_k=3,
@@ -145,29 +150,44 @@ def search_pinecone(query: str) -> str:
 
         matches = results["matches"]
         if not matches:
+            log.info("Pinecone returned no matches | query=%s", query)
             return "No relevant documents found in the knowledge base."
+
+        log.info("Pinecone matched %d chunks | query=%s", len(matches), query)
 
         chunks = []
         for i, match in enumerate(matches, 1):
             chunk_id = match.id
             score    = round(match.score, 3)
             meta     = match.metadata or {}
+            source   = meta.get("source", "Unknown source")
+            title    = meta.get("title", "")
+            themes   = meta.get("themes", [])
+            best_for = meta.get("best_for", [])
 
-            source = meta.get("source", "Unknown source")
-            title  = meta.get("title", "")
+            # ── Retrieval trace log ───────────────────────────────────────────
+            log.info(
+                "RETRIEVED CHUNK [%d/%d] | id=%s | source=%s | title=%s | score=%s | themes=%s | best_for=%s",
+                i, len(matches), chunk_id, source, title or "—", score,
+                ", ".join(themes[:3]) if themes else "—",
+                ", ".join(best_for[:3]) if best_for else "—",
+            )
 
-            text = _get_chunk_text(chunk_id)
-
+            text   = _get_chunk_text(chunk_id)
             header = f"[{i}] {source}"
             if title:
                 header += f" — {title}"
             header += f" (score={score})"
             chunks.append(f"{header}\n{text}")
 
+        log.info("Pinecone search complete | chunks_returned=%d", len(chunks))
         return "\n\n".join(chunks)
 
+    except requests.exceptions.RequestException as e:
+        log.error("Embedding request failed | error=%s", e, exc_info=True)
+        return f"Embedding failed: {e}"
     except Exception as e:
-        logger.exception("search_pinecone failed")
+        log.error("Pinecone search failed | query=%s | error=%s", query, e, exc_info=True)
         return f"Pinecone search failed: {e}"
 
 
@@ -181,11 +201,12 @@ def query_auradb(cypher_query: str) -> str:
 
     Graph schema:
     Node labels    : Chunk, Framework, Concept, Technique, Scenario, Emotion
-    Relationships  : (Framework)-[:CONTAINS]->(Chunk)
-                     (Chunk)-[:USES]->(Technique)
-                     (Chunk)-[:APPLIES_TO]->(Scenario)
-                     (Chunk)-[:TRIGGERS]->(Emotion)
-                     (Chunk)-[:MENTIONS]->(Concept)
+    Relationships — EXACT valid patterns only:
+      (Framework)-[:CONTAINS]->(Chunk)
+      (Chunk)-[:USES]->(Technique)
+      (Chunk)-[:APPLIES_TO]->(Scenario)
+      (Chunk)-[:TRIGGERS]->(Emotion)
+      (Chunk)-[:MENTIONS]->(Concept)
 
     Node properties:
       Framework : name (e.g. 'CBT', 'Cognitive Behavior Therapy')
@@ -195,14 +216,8 @@ def query_auradb(cypher_query: str) -> str:
       Scenario  : name
       Emotion   : name
 
-    IMPORTANT naming conventions in this graph:
-      - Framework names use full names: 'Cognitive Behavior Therapy', NOT 'CBT'
-      - Use case-insensitive search when unsure: WHERE toLower(n.name) CONTAINS 'cbt'
-      - For partial matches use: WHERE n.name =~ '(?i).*cbt.*'
-      - NEVER use 'f CONTAINS (c:Chunk)' — that is not valid Cypher
-      - ALWAYS traverse relationships like: (a)-[:REL]->(b)
-      - ALWAYS declare every variable in MATCH before using it in RETURN
-      - ALWAYS end with LIMIT to cap results
+    IMPORTANT naming: use full names e.g. 'Cognitive Behavior Therapy' not 'CBT'
+    For partial matches: WHERE toLower(n.name) CONTAINS 'cbt'
 
     Valid example queries:
       MATCH (f:Framework) RETURN f.name LIMIT 10
@@ -211,76 +226,76 @@ def query_auradb(cypher_query: str) -> str:
       MATCH (c:Chunk)-[:APPLIES_TO]->(s:Scenario) RETURN c.short_name, s.name LIMIT 5
       MATCH (c:Chunk)-[:MENTIONS]->(con:Concept) RETURN c.short_name, con.name LIMIT 5
       MATCH (c:Chunk)-[:TRIGGERS]->(e:Emotion) RETURN c.short_name, e.name LIMIT 5
-      MATCH (f:Framework)-[:CONTAINS]->(c:Chunk)-[:USES]->(t:Technique)
-        RETURN f.name, t.name, count(c) AS usage ORDER BY usage DESC LIMIT 10
     """
+    log.info("AuraDB query | cypher=%s", cypher_query)
     try:
-        print(f"[AuraDB] Running Cypher: {cypher_query}")
         driver = _get_neo4j_driver()
         with driver.session() as session:
             result  = session.run(cypher_query)
             records = [dict(r) for r in result]
 
-        print(f"[AuraDB] Raw records: {records}")
         if not records:
+            log.info("AuraDB returned no results | cypher=%s", cypher_query)
             return (
-                "Query returned no results. "
-                "This is NOT an error — the data simply does not match. "
-                "Try broadening the query or using a different property value. "
+                "Query returned no results. This is NOT an error — the data simply "
+                "does not match. Try broadening the query or using a different property value. "
                 "For example, use 'Cognitive Behavior Therapy' instead of 'CBT'."
             )
 
-        lines = []
-        for r in records[:10]:
-            lines.append(str(r))
+        # ── Retrieval trace log ───────────────────────────────────────────────
+        log.info("RETRIEVED NODES | count=%d | cypher=%s", len(records), cypher_query)
+        for i, record in enumerate(records[:5], 1):
+            log.info("  NODE [%d] | %s", i, json.dumps(record, default=str))
+
+        lines = [str(r) for r in records[:10]]
+        log.info("AuraDB query complete | rows_returned=%d", len(lines))
         return "\n".join(lines)
+
     except Exception as e:
-        logger.exception("query_auradb failed")
-        err_type = type(e).__name__
-        return (
-            "AURADB_QUERY_FAILED\n"
-            f"type={err_type}\n"
-            f"message={e}\n"
-            f"uri={config.NEO4J_URI or '(missing)'}\n"
-            "hints=Check NEO4J_URI/NEO4J_USERNAME/NEO4J_PASSWORD, network access to Aura, and Cypher syntax."
-        )
+        log.error("AuraDB query failed | cypher=%s | error=%s", cypher_query, e, exc_info=True)
+        return f"AuraDB query error: {type(e).__name__}: {e}"
 
 
-
-
-# ── Tool 3: Weather (kept from hello-world) ───────────────────────────────────
+# ── Tool 3: Weather ───────────────────────────────────────────────────────────
 
 @tool
 def get_weather(city: str) -> str:
     """Get the current weather for a given city (demo stub)."""
+    log.info("Weather tool called | city=%s", city)
     fake_data = {
         "london":   "Cloudy, 12°C",
         "new york": "Sunny, 22°C",
         "tokyo":    "Rainy, 18°C",
     }
-    return fake_data.get(city.lower(), f"No weather data for '{city}'.")
+    result = fake_data.get(city.lower(), f"No weather data for '{city}'.")
+    log.debug("Weather result | city=%s | result=%s", city, result)
+    return result
 
 
-# ── Tool 4: Hello (kept from hello-world) ─────────────────────────────────────
+# ── Tool 4: Hello ─────────────────────────────────────────────────────────────
 
 @tool
 def say_hello(name: str) -> str:
     """Say hello to someone by name."""
-    return f"Hello, {name}! 👋 I'm your local AI assistant powered by Ollama."
+    log.info("Hello tool called | name=%s", name)
+    return f"Hello, {name}! 👋 I'm ConfidenceOS, your interview confidence coach."
 
 
-# ── Tool 5: Calculator (kept from hello-world) ────────────────────────────────
+# ── Tool 5: Calculator ────────────────────────────────────────────────────────
 
 @tool
 def calculator(expression: str) -> str:
     """Evaluate a simple math expression like '2 + 2' or '10 * 5'."""
+    log.info("Calculator tool called | expression=%s", expression)
     try:
         result = eval(expression, {"__builtins__": {}})
+        log.debug("Calculator result | expression=%s | result=%s", expression, result)
         return f"{expression} = {result}"
     except Exception as e:
+        log.warning("Calculator error | expression=%s | error=%s", expression, e)
         return f"Math error: {e}"
 
 
-# ── Export list (imported by agent.py) ────────────────────────────────────────
+# ── Export ────────────────────────────────────────────────────────────────────
 
 ALL_TOOLS = [search_pinecone, query_auradb, get_weather, say_hello, calculator]

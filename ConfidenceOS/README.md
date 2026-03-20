@@ -1,222 +1,185 @@
-#ConfidenceOS : AI-Powered Interview Confidence Coach
+# Aria — Interview Confidence Coach
 
-Built by a job seeker, for job seekers — powered by local LLMs, RAG, and a knowledge graph.
-
-Landing a great job is not just about skills — it is about showing up with clarity and confidence. ConfidenceOS is an end-to-end agentic AI application that acts as your personal interview coach, helping you reframe self-doubt, practice mock interviews, negotiate offers, and craft compelling answers — all grounded in real frameworks such as cognitive behavioral therapy (CBT), principled negotiation and more!..
-
-This project demonstrates a production-minded approach to building AI systems: modular architecture, retrieval-augmented generation (RAG) over a vector store, graph-based knowledge retrieval, multi-mode agentic reasoning, session memory, and emotion-aware responses — running entirely on your local machine at zero API cost.
+A local, cost-free AI-powered interview coach using:
+- **Ollama** — runs the LLM on your machine (no API costs)
+- **LangGraph** — orchestrates the agentic loop with memory
+- **Pinecone** — cloud vector store for semantic document search
+- **Neo4j AuraDB** — cloud knowledge graph for relationship queries
+- **FastAPI** — lightweight Python API server
+- **React + Vite + Tailwind** — chat UI with mode switcher and confidence meter
 
 ---
 
 ## Project Structure
 
 ```
-project/
-├── .env                  ← your secret keys (never commit this)
+local-rag-agent/
+├── .env                        ← your secret keys (never commit this)
+├── chunk_texts/                ← local JSON files with chunk text
 ├── backend/
-│   ├── config.py         ← reads all env vars (import here, not os.environ)
-│   ├── tools.py          ← all LangGraph tools (Pinecone, AuraDB, helpers)
-│   ├── agent.py          ← LangGraph graph definition
-│   ├── main.py           ← FastAPI app with /chat and /health endpoints
+│   ├── config.py               ← reads all env vars
+│   ├── prompts.py              ← ALL system prompts (edit freely)
+│   ├── emotion.py              ← emotion detection logic
+│   ├── memory.py               ← session memory + LangGraph checkpointer
+│   ├── tools.py                ← all LangGraph tools
+│   ├── agent.py                ← LangGraph graph definition
+│   ├── main.py                 ← FastAPI app
 │   └── requirements.txt
 └── frontend/
-    ├── .env              ← VITE_API_URL
-    ├── src/
-    │   └── App.jsx       ← React chat UI
-    ├── index.html
-    ├── package.json
-    └── vite.config.js
+    ├── .env                    ← VITE_API_URL
+    └── src/
+        └── App.jsx             ← React chat UI
+```
+
+---
+
+## Agent Modes
+
+| Mode | Icon | Description |
+|---|---|---|
+| General Chat | 💬 | Open conversation about career and job hunt |
+| Mock Interview | 🎤 | Realistic interview Q&A with feedback |
+| CBT Reframe | 🧠 | Reframe negative thoughts using CBT techniques |
+| Negotiation | 💰 | Salary and offer negotiation coach |
+| STAR Coach | ⭐ | Craft strong behavioral interview answers |
+
+Each mode has its own system prompt in `prompts.py` — edit them freely without touching any code.
+
+---
+
+## How It Works
+
+```
+User message
+    ↓
+React UI sends message + session_id + mode
+    ↓
+FastAPI /chat endpoint
+    ↓
+emotion.py detects tone (distressed / positive / neutral)
+    ↓
+prompts.py loads mode-specific system prompt
+memory.py injects session context (name, role, topics, confidence)
+    ↓
+LangGraph agent (Ollama LLM)
+    ↓ (if tool needed)
+Tools: search_pinecone | query_auradb | get_weather | say_hello | calculator
+    ↓
+LangGraph MemorySaver persists conversation across turns
+    ↓
+Reply returned to UI
 ```
 
 ---
 
 ## Prerequisites
 
-1. **Ollama** installed — https://ollama.com
+1. **Ollama** — https://ollama.com
 2. **Python 3.10+**
 3. **Node.js 18+**
-4. A **Pinecone** account with an index created — https://pinecone.io
-5. A **Neo4j AuraDB** free instance — https://neo4j.com/cloud/aura
+4. **Pinecone** account — https://pinecone.io
+5. **Neo4j AuraDB** free instance — https://neo4j.com/cloud/aura
 
 ---
 
 ## Setup
 
 ### 1. Pull Ollama models
-
 ```bash
-ollama pull llama3.2           # main chat model (~2GB)
-ollama pull nomic-embed-text   # embedding model for Pinecone queries (~300MB)
-ollama serve                   # start Ollama in the background
+ollama pull llama3.2
+ollama pull nomic-embed-text
+ollama serve
 ```
 
-### 2. Configure environment variables
-
-Copy `.env.example` to `.env` in the project root and fill in your keys:
-
+### 2. Configure `.env`
 ```bash
-cp .env.example .env
+OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_MODEL=llama3.2
+PINECONE_API_KEY=your-key
+PINECONE_INDEX_NAME=your-index
+PINECONE_NAMESPACE=documents
+NEO4J_URI=neo4j+s://xxxxxxxx.databases.neo4j.io
+NEO4J_USERNAME=neo4j
+NEO4J_PASSWORD=your-password
+APP_HOST=0.0.0.0
+APP_PORT=8000
+CORS_ORIGINS=http://localhost:5173
 ```
-
-| Variable | Where to find it |
-|---|---|
-| `PINECONE_API_KEY` | Pinecone console → API Keys |
-| `PINECONE_INDEX_NAME` | The index you created |
-| `PINECONE_NAMESPACE` | Optional; leave blank if unused |
-| `NEO4J_URI` | AuraDB console → Connection URI |
-| `NEO4J_PASSWORD` | Set when you created the AuraDB instance |
-
-
----
-
-## Testing the App — Try These in Order
-
-**Test 1 — Basic tool (instant response):**
-```
-Say hello to aibear
-```
-
-**Test 2 — Calculator tool:**
-```
-What is 123 multiplied by 456?
-```
-
-**Test 3 — Weather tool:**
-```
-What is the weather in Tokyo?
-```
-
-**Test 4 — Direct LLM (no tool, just Ollama thinking):**
-```
-Tell me a fun fact about artificial intelligence
-```
-
-**Test 5 — Pinecone RAG (tests your vector index):**
-```
-Search the knowledge base for [a topic you've indexed in Pinecone]
-```
-
-**Test 6 — AuraDB graph (tests your knowledge graph):**
-```
-1. Query the graph: MATCH (n) RETURN n.name LIMIT 5
-2. Query the graph: MATCH (c:Concept) WHERE c.name =~ '.*CBT.*' RETURN c.name LIMIT 10
-```
-
-> ✅ Tests 1–4 should work immediately.  
-> ⚠️ Tests 5–6 will only work if your Pinecone index and AuraDB have data in them.
-
----
 
 ### 3. Backend
-
 ```bash
 cd backend
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
+python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-Open http://localhost:8000/health — you should see `{"status":"ok"}`.
-
 ### 4. Frontend
-
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-Open http://localhost:5173 — the chat UI loads.
+---
+
+## Customising Prompts
+
+All prompts live in `backend/prompts.py`. You can:
+- Edit Aria's persona in the `PERSONA` string
+- Change how each mode behaves in the `PROMPTS` dict
+- Add a new mode by adding a key to `PROMPTS` and an entry to `get_available_modes()`
+
+No code changes needed — just edit the text and restart the backend.
 
 ---
 
-## How the Agent Works (Step by Step)
+## Testing the App
 
+**Test 1 — General chat:**
 ```
-User types a message
-      ↓
-React UI sends POST /chat with full message history
-      ↓
-FastAPI converts history to LangChain messages
-      ↓
-LangGraph "agent" node calls Ollama LLM
-      ↓
-LLM decides: answer directly OR call a tool?
-      ↓ (tool call)
-LangGraph "tools" node executes the tool:
-  - search_pinecone   → embeds query, searches your vector index
-  - query_auradb      → runs Cypher against your knowledge graph
-  - get_weather       → demo stub
-  - say_hello         → greets a name
-  - calculator        → evaluates math
-      ↓
-Tool result is added to message history
-      ↓
-Back to "agent" node — LLM sees the result and writes a reply
-      ↓
-FastAPI returns { "reply": "..." }
-      ↓
-React displays the message
+Tell me about yourself
 ```
 
----
-
-## Example Prompts to Try
-
-| Prompt | Tool used |
-|---|---|
-| "What does the document say about X?" | `search_pinecone` |
-| "Show me relationships between Person A and B" | `query_auradb` |
-| "What is 456 * 789?" | `calculator` |
-| "What's the weather in Tokyo?" | `get_weather` |
-| "Hi, my name is Alice" | `say_hello` |
-| "Tell me about quantum computing" | No tool (direct LLM answer) |
-
-
----
-
-## Pinecone Setup Notes
-
-Your index must use the **same dimension** as `nomic-embed-text` output, which is **768**.
-When indexing your chunks (outside this project), store the chunk text in the metadata under the key `"text"`:
-
-```python
-index.upsert(vectors=[
-    {"id": "chunk-1", "values": embedding, "metadata": {"text": "your chunk text here"}}
-])
+**Test 2 — Mock interview (switch to 🎤 mode):**
+```
+Start a mock interview for a Senior Product Manager role
 ```
 
----
-
-## AuraDB Setup Notes
-
-- AuraDB free tier supports up to 200k nodes and 400k relationships.
-- The `query_auradb` tool accepts raw Cypher from the LLM. In production, you'd want to validate or restrict the queries.
-- Example graph schema to get started:
-
-```cypher
-CREATE (:Person {name: "Alice"})-[:KNOWS]->(:Person {name: "Bob"})
+**Test 3 — CBT reframe (switch to 🧠 mode):**
+```
+I'm terrible at interviews, I always freeze up
 ```
 
+**Test 4 — Negotiation (switch to 💰 mode):**
+```
+I got an offer for $120k but I was expecting $140k
+```
+
+**Test 5 — STAR coach (switch to ⭐ mode):**
+```
+Help me answer: tell me about a time you handled a conflict
+```
+
+**Test 6 — Pinecone RAG:**
+```
+What does the knowledge base say about handling anxiety?
+```
+
+**Test 7 — AuraDB graph:**
+```
+What techniques are used in CBT chunks?
+```
+
+> ✅ Tests 1–5 work immediately.
+> ⚠️ Tests 6–7 require data in Pinecone and AuraDB.
+
 ---
 
-## Some ideas to extending the App further.
+## Extending the App
 
-- **Add streaming** — replace `graph.invoke()` with `graph.stream()` and use FastAPI's `StreamingResponse` + Server-Sent Events on the frontend.
-- **Add memory** — use LangGraph's `MemorySaver` checkpointer to persist conversation across sessions.
-- **Add more tools** — define a new `@tool` in `tools.py` and add it to `ALL_TOOLS`. The agent picks it up automatically.
-- **Swap the model** — change `OLLAMA_MODEL=mistral` in `.env` for a different personality/size.
-
-
-🚧 Work in Progress
-This project is actively being developed. The current version is a working foundation — here's what's coming next:
-
-Cloud deployment — migrate backend and vector infrastructure to AWS or GCP for production-grade reliability and scalability
-Richer knowledge base — index additional books, articles, and interview guides into Knowledge base [Vector DB: Pinecone and Knwoledge Graph neo4j] for deeper, more contextual coaching
-Evaluation framework — add automated quality scoring for agent responses, RAG retrieval accuracy, and answer relevance
-UI overhaul — improve the chat experience with better formatting, session history sidebar, progress tracking, and mobile responsiveness
-MCP server integration — connect to external tools via Model Context Protocol (calendar, LinkedIn, job boards) to make Aria aware of your real job hunt pipeline
-Optimised retrieval layer — improve RAG performance with hybrid search (dense + sparse), re-ranking, query expansion, and smarter chunk selection strategies
-
-Contributions, feedback, and ideas are welcome!
+- **Add a new mode** → add to `PROMPTS` and `get_available_modes()` in `prompts.py`
+- **Add a new tool** → define `@tool` in `tools.py`, add to `ALL_TOOLS`
+- **Add streaming** → replace `graph.invoke()` with `graph.stream()` + FastAPI `StreamingResponse`
+- **Add more books** → index chunks into Pinecone + add nodes to AuraDB
+- **Persist memory** → swap `MemorySaver` in `memory.py` for Redis or SQLite checkpointer

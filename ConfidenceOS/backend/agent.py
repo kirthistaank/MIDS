@@ -1,6 +1,5 @@
 """
-agent.py — builds and returns the compiled LangGraph agent.
-Imported once at startup by main.py.
+agent.py — LangGraph agent with mode-aware prompts, emotion detection, and memory.
 """
 
 from typing import Annotated
@@ -14,12 +13,17 @@ from langgraph.prebuilt import ToolNode
 
 import config
 from tools import ALL_TOOLS
+from prompts import get_prompt
+from emotion import detect_emotion, build_emotion_prefix
+from memory import checkpointer, get_session_summary, get_mode
 
 
 # ── State ─────────────────────────────────────────────────────────────────────
 
 class AgentState(TypedDict):
-    messages: Annotated[list[BaseMessage], add_messages]
+    messages:   Annotated[list[BaseMessage], add_messages]
+    session_id: str
+    mode:       str
 
 
 # ── LLM ───────────────────────────────────────────────────────────────────────
@@ -27,7 +31,7 @@ class AgentState(TypedDict):
 llm = ChatOllama(
     base_url=config.OLLAMA_BASE_URL,
     model=config.OLLAMA_MODEL,
-    temperature=0,           # deterministic tool calling
+    temperature=0.3,    # slight warmth for conversational tone
 )
 llm_with_tools = llm.bind_tools(ALL_TOOLS)
 
@@ -35,14 +39,25 @@ llm_with_tools = llm.bind_tools(ALL_TOOLS)
 # ── Nodes ─────────────────────────────────────────────────────────────────────
 
 def agent_node(state: AgentState) -> AgentState:
-    """Call the LLM with the current message history."""
-    messages = [SystemMessage(content=config.SYSTEM_PROMPT), *state["messages"]]
-    response = llm_with_tools.invoke(messages)
+    session_id = state.get("session_id", "default")
+    mode       = state.get("mode", get_mode(session_id))
+
+    # Get last user message for emotion detection
+    user_messages = [m for m in state["messages"] if hasattr(m, "type") and m.type == "human"]
+    last_user_msg = user_messages[-1].content if user_messages else ""
+
+    # Build dynamic system prompt = base prompt + session context + emotion prefix
+    emotion        = detect_emotion(last_user_msg)
+    emotion_prefix = build_emotion_prefix(emotion)
+    session_ctx    = get_session_summary(session_id)
+    system_prompt  = get_prompt(mode) + session_ctx + emotion_prefix
+
+    messages_with_system = [SystemMessage(content=system_prompt)] + list(state["messages"])
+    response = llm_with_tools.invoke(messages_with_system)
     return {"messages": [response]}
 
 
 def should_continue(state: AgentState) -> str:
-    """If the LLM wants to call a tool, go to 'tools'; otherwise finish."""
     last = state["messages"][-1]
     return "tools" if last.tool_calls else END
 
@@ -60,8 +75,7 @@ def build_graph():
     g.add_conditional_edges("agent", should_continue, {"tools": "tools", END: END})
     g.add_edge("tools", "agent")
 
-    return g.compile()
+    return g.compile(checkpointer=checkpointer)
 
 
-# Compile once; main.py imports this object
 graph = build_graph()
