@@ -156,7 +156,7 @@ npm run dev
 ## Customising Prompts
 
 All prompts live in `backend/prompts.py`. You can:
-- Edit Aria's persona in the `PERSONA` string
+- Edit ConfidenceOS's persona in the `PERSONA` string
 - Change how each mode behaves in the `PROMPTS` dict
 - Add a new mode by adding a key to `PROMPTS` and an entry to `get_available_modes()`
 
@@ -233,7 +233,7 @@ This project is actively being developed. The current version is a working found
 - **Richer knowledge base** — index additional books, articles, and interview guides into Pinecone for deeper, more contextual coaching
 - **Evaluation framework** — add automated quality scoring for agent responses, RAG retrieval accuracy, and answer relevance
 - **UI overhaul** — improve the chat experience with better formatting, session history sidebar, progress tracking, and mobile responsiveness
-- **MCP server integration** — connect to external tools via Model Context Protocol (calendar, LinkedIn, job boards) to make Aria aware of your real job hunt pipeline
+- **MCP server integration** — connect to external tools via Model Context Protocol (calendar, LinkedIn, job boards) to make ConfidenceOS aware of your real job hunt pipeline
 - **Optimised retrieval layer** — improve RAG performance with hybrid search (dense + sparse), re-ranking, query expansion, and smarter chunk selection strategies
 
 Contributions, feedback, and ideas are welcome!
