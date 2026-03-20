@@ -121,74 +121,45 @@ def _get_chunk_text(pinecone_id: str) -> str:
 @tool
 def search_pinecone(query: str) -> str:
     """
-    Search the Pinecone vector index for chunks most relevant to the query.
-    Returns the top-3 text chunks with their similarity scores.
-    Use this when the user asks a question that needs document/knowledge retrieval.
+    Search the knowledge base for chunks most relevant to the query.
+    Uses hybrid search (dense + BM25) and cross-encoder reranking for
+    higher quality results than vector search alone.
+    Use this when the user asks a question that needs document retrieval.
     """
-    log.info("Pinecone search | query=%s", query)
+    log.info("Pinecone hybrid search | query=%s", query)
     try:
-        index = _get_pinecone_index()
+        results = hybrid_search(query=query, top_k=10, final_k=3)
 
-        # Embed query
-        log.debug("Embedding query via Ollama | model=nomic-embed-text")
-        resp = requests.post(
-            f"{config.OLLAMA_BASE_URL}/api/embeddings",
-            json={"model": "nomic-embed-text", "prompt": query},
-            timeout=30,
-        )
-        resp.raise_for_status()
-        embedding = resp.json()["embedding"]
-        log.debug("Embedding generated | dim=%d", len(embedding))
-
-        # Query Pinecone
-        results = index.query(
-            vector=embedding,
-            top_k=3,
-            include_metadata=True,
-            namespace=config.PINECONE_NAMESPACE or None,
-        )
-
-        matches = results["matches"]
-        if not matches:
-            log.info("Pinecone returned no matches | query=%s", query)
+        if not results:
+            log.info("Hybrid search returned no results | query=%s", query)
             return "No relevant documents found in the knowledge base."
 
-        log.info("Pinecone matched %d chunks | query=%s", len(matches), query)
-
         chunks = []
-        for i, match in enumerate(matches, 1):
-            chunk_id = match.id
-            score    = round(match.score, 3)
-            meta     = match.metadata or {}
-            source   = meta.get("source", "Unknown source")
-            title    = meta.get("title", "")
-            themes   = meta.get("themes", [])
-            best_for = meta.get("best_for", [])
+        for i, r in enumerate(results, 1):
+            source   = r.get("source", "Unknown")
+            title    = r.get("title", "")
+            score    = round(r.get("score", 0), 4)
+            text     = r.get("text", "")
+            themes   = r.get("themes", [])
 
-            # ── Retrieval trace log ───────────────────────────────────────────
             log.info(
-                "RETRIEVED CHUNK [%d/%d] | id=%s | source=%s | title=%s | score=%s | themes=%s | best_for=%s",
-                i, len(matches), chunk_id, source, title or "—", score,
+                "RETRIEVED CHUNK [%d/%d] | id=%s | source=%s | title=%s | rerank_score=%s | themes=%s",
+                i, len(results), r["id"], source, title or "—", score,
                 ", ".join(themes[:3]) if themes else "—",
-                ", ".join(best_for[:3]) if best_for else "—",
             )
 
-            text   = _get_chunk_text(chunk_id)
             header = f"[{i}] {source}"
             if title:
                 header += f" — {title}"
-            header += f" (score={score})"
+            header += f" (rerank_score={score})"
             chunks.append(f"{header}\n{text}")
 
-        log.info("Pinecone search complete | chunks_returned=%d", len(chunks))
+        log.info("Hybrid search complete | chunks_returned=%d", len(chunks))
         return "\n\n".join(chunks)
 
-    except requests.exceptions.RequestException as e:
-        log.error("Embedding request failed | error=%s", e, exc_info=True)
-        return f"Embedding failed: {e}"
     except Exception as e:
-        log.error("Pinecone search failed | query=%s | error=%s", query, e, exc_info=True)
-        return f"Pinecone search failed: {e}"
+        log.error("Hybrid search failed | query=%s | error=%s", query, e, exc_info=True)
+        return f"Search failed: {e}"
 
 
 # ── Tool 2: AuraDB knowledge graph query ──────────────────────────────────────
@@ -294,8 +265,7 @@ def calculator(expression: str) -> str:
     except Exception as e:
         log.warning("Calculator error | expression=%s | error=%s", expression, e)
         return f"Math error: {e}"
-
-
 # ── Export ────────────────────────────────────────────────────────────────────
 
-ALL_TOOLS = [search_pinecone, query_auradb, get_weather, say_hello, calculator]
+#ALL_TOOLS = [search_pinecone, query_auradb, get_weather, say_hello, calculator]
+ALL_TOOLS = [search_pinecone, query_auradb]
