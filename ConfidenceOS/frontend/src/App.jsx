@@ -1,4 +1,7 @@
 import { useState, useRef, useEffect } from "react";
+import BotIcon from "./BotIcon";
+import Onboarding from "./Onboarding";
+import HelpGuide from "./HelpGuide";
 
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 const SESSION_ID = "user-" + Math.random().toString(36).slice(2, 9);
@@ -19,6 +22,14 @@ const MODE_ACTIVE = {
   star_coach:     "bg-green-500 text-black border-green-500",
 };
 
+const MODE_INTROS = {
+  chat:           "> MODE: General Chat 💬\n> Ask me anything about your job hunt.\n\nTry saying:\n→ \"What should I research before an interview?\"\n→ \"What does the knowledge base say about anxiety?\"\n→ \"How do I answer tell me about yourself?\"",
+  mock_interview: "> MODE: Mock Interview 🎤\n> I'll ask you one question at a time and score every answer.\n\nTry saying:\n→ \"Start a mock interview for a Senior Data Scientist\"\n→ \"Ask me a behavioral question\"\n→ Click 🎤 to answer with your voice",
+  cbt_reframe:    "> MODE: CBT Reframe 🧠\n> Share a negative thought and I'll help you reframe it.\n\nTry saying:\n→ \"I always freeze in interviews\"\n→ \"I'm not qualified enough for this role\"\n→ \"I got rejected and I feel like a failure\"",
+  negotiation:    "> MODE: Negotiation 💰\n> I'll coach you through salary and offer negotiation.\n\nTry saying:\n→ \"I got an offer for $110k, I wanted $135k\"\n→ \"How do I counter without losing the offer?\"\n→ \"Can we role-play the negotiation call?\"",
+  star_coach:     "> MODE: STAR Coach ⭐\n> I'll help you craft compelling behavioral answers.\n\nTry saying:\n→ \"Help me answer: tell me about a conflict\"\n→ \"Describe a time you failed\"\n→ Or click any question in the sidebar →",
+};
+
 // Parse scores from agent response
 function parseScores(text) {
   const scores = { star: null, language: null, relevance: null, overall: null };
@@ -32,7 +43,6 @@ function parseScores(text) {
   return scores;
 }
 
-// Strip score block from displayed message
 function cleanMessage(text) {
   return text
     .replace(/---SCORES---[\s\S]*?OVERALL:\s*\d+/i, "")
@@ -66,7 +76,6 @@ function ScoreSidebar({ scores, questionCount }) {
 
   return (
     <div className="w-56 shrink-0 border-r border-green-900 bg-zinc-950 flex flex-col px-5 py-6 hidden lg:flex">
-      {/* Big score */}
       <div className="text-center mb-6">
         <div className="text-xs font-mono text-green-700 uppercase tracking-widest mb-1">Overall</div>
         <div className={`font-mono font-bold transition-all duration-500 ${color}`}
@@ -75,15 +84,11 @@ function ScoreSidebar({ scores, questionCount }) {
         </div>
         <div className="text-xs font-mono text-green-800 mt-1">/ 10</div>
       </div>
-
-      {/* Sub scores */}
       <div className="mb-6">
         <ScoreBar label="STAR"      value={scores.star}      color="bg-blue-500" />
         <ScoreBar label="Language"  value={scores.language}  color="bg-purple-500" />
         <ScoreBar label="Relevance" value={scores.relevance} color="bg-yellow-500" />
       </div>
-
-      {/* Grade */}
       <div className="border border-green-900 rounded p-3 text-center mb-6">
         <div className="text-xs font-mono text-green-700 mb-1">Grade</div>
         <div className="text-2xl font-bold font-mono text-green-400">
@@ -96,8 +101,6 @@ function ScoreSidebar({ scores, questionCount }) {
             : "D"}
         </div>
       </div>
-
-      {/* Question count */}
       <div className="mt-auto">
         <div className="text-xs font-mono text-green-800 uppercase tracking-widest mb-2">Questions</div>
         <div className="text-2xl font-bold font-mono text-green-600">{questionCount}</div>
@@ -108,7 +111,7 @@ function ScoreSidebar({ scores, questionCount }) {
 }
 
 export default function App() {
-  const [messages, setMessages] = useState([
+  const [messages, setMessages]       = useState([
     { role: "assistant", content: "> SYSTEM BOOT...\n> ConfidenceOS v2.0 initialised ✓\n> Knowledge base connected ✓\n> LLM ready ✓\n\nHi! I'm ConfidenceOS, your interview confidence coach 👋\n\nI can help you practice interviews, reframe negative thoughts, coach salary negotiation, or just chat about your job hunt.\n\nPick a mode above to get started, or just tell me what's on your mind!" }
   ]);
   const [input, setInput]             = useState("");
@@ -117,15 +120,15 @@ export default function App() {
   const [modes, setModes]             = useState([]);
   const [confidence, setConfidence]   = useState(2);
   const [recording, setRecording]     = useState(false);
-  const [transcript, setTranscript]   = useState("");
   const [audioSupported, setAudioSupported] = useState(false);
   const [scores, setScores]           = useState({ star: null, language: null, relevance: null, overall: null });
   const [questionCount, setQuestionCount] = useState(0);
+  const [showOnboarding, setShowOnboarding] = useState(false);
+  const [showHelp, setShowHelp]       = useState(false);
 
-  const bottomRef    = useRef(null);
+  const bottomRef      = useRef(null);
   const recognitionRef = useRef(null);
 
-  // Check browser speech support
   useEffect(() => {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     setAudioSupported(!!SpeechRecognition);
@@ -142,24 +145,25 @@ export default function App() {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  // ── Voice recording ────────────────────────────────────────────────────────
+  // Keyboard shortcut for help
+  useEffect(() => {
+    const handler = (e) => {
+      if (e.key === "?" && document.activeElement.tagName !== "TEXTAREA") {
+        setShowHelp(h => !h);
+      }
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, []);
+
+  // Voice recording
   const toggleRecording = () => {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) return;
-
-    if (recording) {
-      recognitionRef.current?.stop();
-      setRecording(false);
-      return;
-    }
-
+    if (recording) { recognitionRef.current?.stop(); setRecording(false); return; }
     const rec = new SpeechRecognition();
-    rec.continuous     = true;
-    rec.interimResults = true;
-    rec.lang           = "en-US";
-
+    rec.continuous = true; rec.interimResults = true; rec.lang = "en-US";
     let finalTranscript = "";
-
     rec.onresult = (e) => {
       let interim = "";
       for (let i = e.resultIndex; i < e.results.length; i++) {
@@ -167,54 +171,44 @@ export default function App() {
         if (e.results[i].isFinal) finalTranscript += t + " ";
         else interim = t;
       }
-      setTranscript(finalTranscript + interim);
       setInput(finalTranscript + interim);
     };
-
-    rec.onerror = () => { setRecording(false); };
-    rec.onend   = () => { setRecording(false); };
-
+    rec.onerror = () => setRecording(false);
+    rec.onend   = () => setRecording(false);
     recognitionRef.current = rec;
     rec.start();
     setRecording(true);
-    setTranscript("");
   };
 
-  // ── Mode switch ────────────────────────────────────────────────────────────
+  // Mode switch
   const switchMode = async (newMode) => {
     setMode(newMode);
     if (newMode === "mock_interview") {
       setScores({ star: null, language: null, relevance: null, overall: null });
       setQuestionCount(0);
     }
-    await fetch(`${API_URL}/mode`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ session_id: SESSION_ID, mode: newMode }),
-    });
-    const modeInfo = modes.find(m => m.id === newMode);
-    if (modeInfo) {
-      setMessages(prev => [...prev, {
-        role: "assistant",
-        content: `> MODE SWITCH: ${modeInfo.label} ${modeInfo.icon}\n> ${modeInfo.description}\n> Ready.`
-      }]);
-    }
+    try {
+      await fetch(`${API_URL}/mode`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ session_id: SESSION_ID, mode: newMode }),
+      });
+    } catch (e) {}
+    setMessages(prev => [...prev, {
+      role: "assistant",
+      content: MODE_INTROS[newMode] || `> MODE: ${newMode.toUpperCase()}\n> Ready.`
+    }]);
   };
 
-  // ── Send message ───────────────────────────────────────────────────────────
+  // Send message
   const sendMessage = async () => {
     const text = input.trim();
     if (!text || loading) return;
-
-    // Stop recording if active
     if (recording) { recognitionRef.current?.stop(); setRecording(false); }
-
     const updated = [...messages, { role: "user", content: text }];
     setMessages(updated);
     setInput("");
-    setTranscript("");
     setLoading(true);
-
     try {
       const res = await fetch(`${API_URL}/chat`, {
         method: "POST",
@@ -223,8 +217,6 @@ export default function App() {
       });
       if (!res.ok) throw new Error(`Server error: ${res.status}`);
       const data = await res.json();
-
-      // Parse scores if in mock interview mode
       if (mode === "mock_interview") {
         const parsed = parseScores(data.reply);
         if (parsed.overall !== null) {
@@ -233,10 +225,8 @@ export default function App() {
           setConfidence(parsed.overall / 10 * 10);
         }
       }
-
       const cleaned = mode === "mock_interview" ? cleanMessage(data.reply) : data.reply;
       setMessages(prev => [...prev, { role: "assistant", content: cleaned }]);
-
     } catch (err) {
       setMessages(prev => [...prev, { role: "assistant", content: `> ERROR: ${err.message}` }]);
     } finally {
@@ -253,14 +243,17 @@ export default function App() {
   return (
     <div className="flex flex-col h-screen bg-black text-green-400" style={{ fontFamily: "'Courier New', Courier, monospace" }}>
 
+      {showOnboarding && <Onboarding onDone={() => setShowOnboarding(false)} />}
+      {showHelp && <HelpGuide onClose={() => setShowHelp(false)} />}
+
       {/* Header */}
       <header className="bg-zinc-950 border-b border-green-800 px-4 py-3">
         <div className="max-w-7xl mx-auto flex items-center justify-between w-full">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 border border-green-500 flex items-center justify-center text-green-400 text-sm font-bold shrink-0 bg-black">C</div>
+            <a href="/" title="Back to home"><BotIcon size={36} /></a>
             <div className="text-left">
               <h1 className="font-bold text-green-400 text-sm tracking-widest uppercase">ConfidenceOS — Interview Coach</h1>
-              <p className="text-xs text-green-700">Ollama · Pinecone · AuraDB · CBT + GTY</p>
+              <a href="/" className="text-xs text-green-700 hover:text-green-500 transition-colors font-mono">← home</a>
             </div>
           </div>
           <div className="flex items-center gap-2 shrink-0">
@@ -271,8 +264,22 @@ export default function App() {
               ))}
             </div>
             <span className="text-xs font-bold text-green-400 w-6 font-mono">{Math.round(confidence)}</span>
+            <div className="flex items-center gap-1.5 ml-3">
+              <button onClick={() => setShowOnboarding(true)}
+                className="border border-green-700 text-green-500 hover:text-green-300 hover:border-green-400 text-xs font-bold font-mono px-3 h-7 transition-colors tracking-widest"
+                title="See example prompts">
+                EXAMPLES
+              </button>
+              <button onClick={() => setShowHelp(h => !h)}
+                className="w-7 h-7 border border-pink-700 hover:border-pink-400 text-pink-500 hover:text-pink-300 text-sm font-black font-mono transition-colors flex items-center justify-center"
+                title="Help guide (press ?)">
+                ?
+              </button>
+            </div>
           </div>
         </div>
+
+        {/* Mode bar */}
         <div className="max-w-7xl mx-auto mt-2 flex gap-1.5 overflow-x-auto pb-1 justify-center">
           {modes.map(m => (
             <button key={m.id} onClick={() => switchMode(m.id)}
@@ -296,18 +303,18 @@ export default function App() {
       {/* Main content */}
       <div className="flex-1 overflow-hidden flex">
 
-        {/* Score sidebar — mock interview only */}
+        {/* Score sidebar */}
         {mode === "mock_interview" && (
           <ScoreSidebar scores={scores} questionCount={questionCount} />
         )}
 
         {/* Messages */}
-        <div className={`flex flex-col overflow-y-auto px-4 py-6 ${mode === "star_coach" ? "flex-1" : "w-full"}`}>
+        <div className="flex-1 flex flex-col overflow-y-auto px-4 py-6">
           <div className="max-w-3xl mx-auto w-full space-y-4">
             {messages.map((m, i) => (
               <div key={i} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
                 {m.role === "assistant" && (
-                  <div className="w-7 h-7 border border-green-700 text-green-500 flex items-center justify-center text-xs font-bold mr-2 mt-1 shrink-0 font-mono bg-black">C</div>
+                  <div className="mr-2 mt-1 shrink-0"><BotIcon size={28} /></div>
                 )}
                 <div className={`max-w-[80%] rounded px-4 py-3 text-sm leading-relaxed whitespace-pre-wrap font-mono
                   ${m.role === "user"
@@ -321,7 +328,7 @@ export default function App() {
 
             {loading && (
               <div className="flex justify-start">
-                <div className="w-7 h-7 border border-green-700 text-green-500 flex items-center justify-center text-xs font-bold mr-2 mt-1 shrink-0 font-mono bg-black">C</div>
+                <div className="mr-2 mt-1 shrink-0"><BotIcon size={28} /></div>
                 <div className="bg-zinc-950 border border-green-900 rounded px-4 py-3">
                   <span className="text-green-500 font-mono text-sm animate-pulse">▋ processing...</span>
                 </div>
@@ -335,9 +342,7 @@ export default function App() {
         {mode === "star_coach" && (
           <div className="w-72 shrink-0 border-l border-green-900 bg-zinc-950 overflow-y-auto px-5 py-6 hidden lg:block font-mono">
             <h2 className="font-bold text-green-400 text-sm mb-1 tracking-widest">&gt; STAR_COACH.exe</h2>
-            <p className="text-xs text-green-700 mb-5 leading-relaxed">
-              Craft compelling behavioral interview answers using the STAR framework.
-            </p>
+            <p className="text-xs text-green-700 mb-5 leading-relaxed">Craft compelling behavioral interview answers using the STAR framework.</p>
             <div className="space-y-3 mb-6">
               {[
                 { letter: "S", label: "Situation", desc: "Set the scene. Give context — where, when, what was happening." },
@@ -404,21 +409,14 @@ export default function App() {
       {/* Input */}
       <div className="bg-zinc-950 border-t border-green-900 px-4 pb-4 pt-2">
         <div className="max-w-3xl mx-auto flex items-end gap-3">
-
-          {/* Mic button — mock interview only */}
           {mode === "mock_interview" && audioSupported && (
             <button onClick={toggleRecording}
               className={`shrink-0 w-11 h-11 rounded border font-mono text-lg transition-all ${
-                recording
-                  ? "border-red-500 text-red-400 bg-red-950 animate-pulse"
-                  : "border-green-700 text-green-500 bg-black hover:border-green-400"
-              }`}
-              title={recording ? "Click to stop recording" : "Click to start recording"}>
+                recording ? "border-red-500 text-red-400 bg-red-950 animate-pulse" : "border-green-700 text-green-500 bg-black hover:border-green-400"
+              }`}>
               {recording ? "⏹" : "🎤"}
             </button>
           )}
-
-          {/* Input box */}
           <div className="flex-1 flex items-end gap-2 border border-green-800 rounded bg-black px-3 py-2 focus-within:border-green-500 transition-colors">
             <span className="text-green-600 text-sm font-mono pb-1 shrink-0">&gt;</span>
             <textarea rows={1} value={input} onChange={e => setInput(e.target.value)}
@@ -434,18 +432,13 @@ export default function App() {
               className="flex-1 resize-none bg-transparent text-green-300 placeholder-green-900 text-sm font-mono focus:outline-none"
               style={{ maxHeight: "120px" }}
             />
-            {recording && (
-              <span className="text-red-400 animate-pulse text-xs font-mono shrink-0 pb-1">● REC</span>
-            )}
+            {recording && <span className="text-red-400 animate-pulse text-xs font-mono shrink-0 pb-1">● REC</span>}
           </div>
-
           <button onClick={sendMessage} disabled={!input.trim() || loading}
             className="bg-green-600 hover:bg-green-500 disabled:opacity-30 text-black rounded px-5 py-3 text-sm font-bold font-mono transition-colors shrink-0 tracking-widest">
             RUN
           </button>
         </div>
-
-        {/* Recording hint */}
         {mode === "mock_interview" && audioSupported && (
           <p className="text-center text-xs text-green-900 mt-2 font-mono">
             {recording ? "> recording in progress — click ⏹ to stop" : "> click 🎤 to answer with voice · enter to run"}
@@ -455,7 +448,6 @@ export default function App() {
           <p className="text-center text-xs text-green-900 mt-2 font-mono">shift+enter for newline · enter to run</p>
         )}
       </div>
-
     </div>
   );
 }

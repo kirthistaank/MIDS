@@ -1,12 +1,42 @@
-# Aria — Interview Confidence Coach
+# ConfidenceOS — AI-Powered Interview Confidence Coach
 
-A local, cost-free AI-powered interview coach using:
-- **Ollama** — runs the LLM on your machine (no API costs)
-- **LangGraph** — orchestrates the agentic loop with memory
-- **Pinecone** — cloud vector store for semantic document search
-- **Neo4j AuraDB** — cloud knowledge graph for relationship queries
-- **FastAPI** — lightweight Python API server
-- **React + Vite + Tailwind** — chat UI with mode switcher and confidence meter
+![Status](https://img.shields.io/badge/status-portfolio%20project-green)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Python](https://img.shields.io/badge/python-3.10+-yellow)
+![Ollama](https://img.shields.io/badge/LLM-Ollama-orange)
+
+> *Built by a job seeker, for job seekers — powered by local LLMs, RAG, and a knowledge graph.*
+
+> ⭐ **This is a portfolio project.** Feel free to fork it, run it locally, and adapt it for your own use. Direct PRs are not actively reviewed but issues and feedback are always welcome!
+
+Landing a great job is not just about skills — it is about showing up with clarity and confidence. **ConfidenceOS** is an end-to-end agentic AI application that acts as your personal interview coach, helping you reframe self-doubt, practice mock interviews, negotiate offers, and craft compelling answers — all grounded in real frameworks from cognitive behavioral therapy (CBT) and principled negotiation.
+
+This project demonstrates a production-minded approach to building AI systems: modular architecture, retrieval-augmented generation (RAG) over a vector store, graph-based knowledge retrieval, multi-mode agentic reasoning, session memory, and emotion-aware responses — running entirely on your local machine at zero API cost.
+
+---
+
+## Why This Project
+
+Most interview prep tools are static. ConfidenceOS is conversational, contextual, and adaptive:
+- It **retrieves relevant knowledge** from indexed books using semantic search (Pinecone)
+- It **traverses relationships** between concepts, frameworks, and techniques (Neo4j AuraDB)
+- It **detects emotional tone** in your messages and adjusts its coaching style accordingly
+- It **remembers your session** — your name, target role, and progress across the conversation
+- It **switches between coaching modes** — from mock interviews to CBT reframing to salary negotiation
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| LLM (local) | Ollama — llama3.2 |
+| Embeddings | nomic-embed-text (768-dim) |
+| Agent orchestration | LangGraph |
+| Vector search | Pinecone |
+| Knowledge graph | Neo4j AuraDB |
+| Backend API | FastAPI |
+| Frontend | React + Vite + Tailwind CSS |
 
 ---
 
@@ -176,10 +206,34 @@ What techniques are used in CBT chunks?
 
 ---
 
-## Extending the App
+## Contributing & Forking
+
+This project is primarily a personal portfolio piece — see [CONTRIBUTING.md](./CONTRIBUTING.md) for full details.
+
+**Short version:**
+- Fork it freely and adapt it for your own use ✅
+- Open issues for bugs or suggestions ✅
+- Direct PRs are not actively reviewed ⚠️
+
+If you build something cool on top of it, share it!
 
 - **Add a new mode** → add to `PROMPTS` and `get_available_modes()` in `prompts.py`
 - **Add a new tool** → define `@tool` in `tools.py`, add to `ALL_TOOLS`
 - **Add streaming** → replace `graph.invoke()` with `graph.stream()` + FastAPI `StreamingResponse`
 - **Add more books** → index chunks into Pinecone + add nodes to AuraDB
-- **Persist memory** → swap `MemorySaver` in `memory.py` for Redis or SQLite checkpointer
+## Extending the App
+
+---
+
+## 🚧 Work in Progress
+
+This project is actively being developed. The current version is a working foundation — here's what's coming next:
+
+- **Cloud deployment** — migrate backend and vector infrastructure to AWS or GCP for production-grade reliability and scalability
+- **Richer knowledge base** — index additional books, articles, and interview guides into Pinecone for deeper, more contextual coaching
+- **Evaluation framework** — add automated quality scoring for agent responses, RAG retrieval accuracy, and answer relevance
+- **UI overhaul** — improve the chat experience with better formatting, session history sidebar, progress tracking, and mobile responsiveness
+- **MCP server integration** — connect to external tools via Model Context Protocol (calendar, LinkedIn, job boards) to make Aria aware of your real job hunt pipeline
+- **Optimised retrieval layer** — improve RAG performance with hybrid search (dense + sparse), re-ranking, query expansion, and smarter chunk selection strategies
+
+Contributions, feedback, and ideas are welcome!
