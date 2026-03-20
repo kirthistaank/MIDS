@@ -8,6 +8,19 @@
 > *Built by a job seeker, for job seekers — powered by local LLMs, RAG, and a knowledge graph.*
 
 > ⭐ **This is a portfolio project.** Feel free to fork it, run it locally, and adapt it for your own use. Direct PRs are not actively reviewed but issues and feedback are always welcome!
+---
+
+## Screenshots
+
+### Landing Page
+<img src="./docs/landing-page.jpg" width="650" alt="Landing Page"/>
+
+### Example Prompts
+<img src="./docs/prompt-page.jpg" width="650" alt="Prompt Page"/>
+
+### Coaching Modes in Action
+*General Chat · Mock Interview · Negotiation — each mode has its own system prompt and coaching style.*
+<img src="./docs/coaching-modes.jpg" width="650" alt="Coaching Modes"/>
 
 ---
 
