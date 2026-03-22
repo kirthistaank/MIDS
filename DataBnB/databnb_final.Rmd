@@ -1,6 +1,6 @@
 ---
 title: "Databnb: Modeling Airbnb Prices in Los Angeles: Exploring Key Predictors Beyond Room Type"
-subtitle: "GitHub Repository: [Lab 2 Repository](https://github.com/mids-w203/lab-2-lab-2-null)"
+subtitle: "Portfolio case study — replace this line with your public GitHub repo URL when you publish"
 author:
   - name: "Carlos Santander"
   - name: "Kirthi Shanbhag"
@@ -19,29 +19,22 @@ header-includes:
 ---
 
 ```{r load packages, include=FALSE}
-library(dplyr)
-library(stringr)
-library(ggplot2)
+library(here)
 library(tidyverse)
-library(stats)
 library(patchwork)
-library(readr)
-library(stringr)
 library(GGally)
 library(psych)
 library(stargazer)
-library(here)
-library(rstudioapi)
-library(stringr)
 library(tinytex)
+
+source(here::here("R", "airbnb_prep.R"))
 ```
 
 ```{r load data, include=FALSE}
-# Use relative path assuming working directory
-zip_file <- "data/processed/la-california-airbnb_listings_indetail.zip"
+zip_file <- here::here("data", "processed", "la-california-airbnb_listings_indetail.zip")
 csv_file <- "la-california-airbnb_listings_indetail.csv"
-airbnb_data <- read.csv(unz(zip_file, csv_file))
-``` 
+airbnb_data <- read.csv(unz(zip_file, csv_file), stringsAsFactors = FALSE)
+```
 
 ## Introduction & Motivation
 Airbnb has transformed the short-term rental market, offering a wide range of lodging options in cities like Los Angeles. While it’s well known that factors like property type and seasonality affect prices, there is less clarity around how less obvious features, such as number of amenities, occupancy history, and reviews, influence nightly rates.
@@ -71,79 +64,22 @@ Other features used include:
 The final dataset consists of 8577 rows and 43 columns i.e. 14% were dropped from original dataset for last review year 2024. This is a good count of dataset to proceed for building regression model.
 
 ```{r echo=FALSE, include=FALSE}
-# Review which year would be the best candidate for our study.Extract only year from last review column
-df_summary <- airbnb_data %>%
+# Review row counts by last_review year (see `R/airbnb_prep.R` for the 2024/2025 modeling frames)
+airbnb_scoped <- airbnb_data %>%
   filter(!is.na(last_review)) %>%
-  mutate(date = as.Date(last_review),    # Convert to Date type
-         year = year(date)) %>%
+  mutate(date = as.Date(last_review), year = lubridate::year(date))
+
+df_summary <- airbnb_scoped %>%
   group_by(year) %>%
-  summarise(count = n())
+  summarise(count = n(), .groups = "drop")
 
-# Check the distribution of rows per year
-df_summary %>% tail(3)
-
-# IMP: We will build prediction model for year 2024 and validate our prediction for year 2025.
+df_summary %>% dplyr::slice_tail(n = 3)
 ```
 
-```{r data wrangling/assumptions, include=FALSE}
-# Convert date column to Date format
-airbnb_data <- airbnb_data %>%
-  filter(!is.na(last_review)) %>%
-  mutate(date = as.Date(last_review),    # Convert to Date type
-         year = year(date),       # Extract year
-         review_year = as.Date(paste0(year, "-01-01")))  # Create new date column with only year
-
-
-airbnblisting_la_2025 <- airbnb_data %>%
-  filter(year == 2025)
-airbnblisting_la_2024 <- airbnb_data %>%
-  filter(year == 2024)
-
-# Select relevant columns for this study
-df_filtered <- dplyr::select(airbnblisting_la_2024, neighbourhood_cleansed,latitude,longitude,property_type,room_type,accommodates,bedrooms,amenities,minimum_nights,beds,price,availability_60,availability_365,number_of_reviews,year,number_of_reviews_l30d,number_of_reviews_ly,estimated_revenue_l365d,availability_30,availability_90,estimated_occupancy_l365d,neighbourhood_group_cleansed,review_scores_rating)
-
-# num_amenities Calculation
-df_refiltered <- df_filtered  
-df_refiltered$num_amenities <- ifelse(
-  is.na(df_refiltered$amenities) | df_refiltered$amenities == "{}",
-  0,
-  str_count(df_refiltered$amenities, ",") + 1
-)
-
-#  Data cleansing further: Remove '$' from the price values and convert to numeric value
-df_filtered$price<-gsub("\\$","",df_filtered$price)
-df_filtered$price <- parse_number(df_filtered$price)
-
-# Drop rows with NA values in any column
-df_filtered$price <- as.numeric(df_filtered$price)
-df_filtered <- df_filtered %>%
-  filter(!is.na(price))
-
-#!is.finite(price) &
-```
-
-```{r echo=FALSE, include=FALSE}
-# Define a function to check for a specific amenity
-has_amenity <- function(amenity, column) {
-  as.integer(str_detect(column, amenity))
-}
-
-# We began with df_filtered after subsetting key variables. After additional cleaning, feature engineering produced our final modeling dataset, df_final.
-# df_filtered: Cleaned and subsetted raw data
-# df_final: Feature-engineered dataset for modeling
-df_final <- df_filtered %>%
-  mutate(is_entire_home = ifelse(property_type == "Entire home/apt", 1, 0),
-         is_private_room = ifelse(room_type == "Private room", 1, 0),
-         is_shared_room = ifelse(room_type == "Shared room", 1, 0))
-df_final$has_wifi <- has_amenity("Wifi", df_filtered$amenities)
-df_final$has_kitchen <- has_amenity("Kitchen", df_filtered$amenities)
-df_final$has_pool <- has_amenity("Pool", df_filtered$amenities)
-df_final$has_parking <- has_amenity("Free parking|Paid parking", df_filtered$amenities)
-df_final$has_hot_tub <- has_amenity("Hot tub|Jacuzzi", df_filtered$amenities)
-df_final$has_ac <- has_amenity("Air conditioning", df_filtered$amenities)
-# Counting the number of amenities. This might be helpful to see if there is any significance on the model by how many ameneties the property has
-df_final$num_amenities <- ifelse(is.na(df_filtered$amenities) | df_filtered$amenities == "{}", 0, str_count(df_filtered$amenities, ",") + 1)
-
+```{r build modeling frames, include=FALSE}
+# 2024 = primary modeling year; 2025 = optional temporal holdout (same feature pipeline)
+df_final <- prepare_listings_for_year(airbnb_data, 2024L)
+df_final_2025 <- prepare_listings_for_year(airbnb_data, 2025L)
 ```
 
 ```{r echo=FALSE, include=FALSE}
@@ -217,16 +153,16 @@ accomodates_plot|bedroom_plot|price_plot
 The predictors and the response plots show a lot of skewness in the data.Linear regression is relatively robust to violations of normality, especially with large sample sizes. The Central Limit Theorem suggests that the sampling distribution of the estimates approaches normality as the sample size increases. Despite the observed skewness in both the predictor and response variables, we will proceed with constructing and evaluating regression models using various predictors. This approach allows us to understand the relationships between variables and assess the predictive power of different combinations of predictors.
 
 *Data Partitioning and Validation*
-Partitioning the data into training and testing subsets to evaluate the model's performance, and employ cross-validation techniques to assess its robustness
+We split listings randomly into an exploration set (30%) for model building and a confirmation set (70%) for holdout evaluation. `set.seed()` is fixed so splits are reproducible when the document is re-knit.
 
 ```{r, include=FALSE}
 #-------------------------------------------------------------
 # Regression Model  - Exploration set
 #-------------------------------------------------------------
 
-#Splitting the Dataset into Exploration and Confirmation Sets
-# Split the dataset into 30% training (exploration) and 60% test (confirmation)
+# Split: 30% exploration (training) / 70% confirmation (test)
 
+set.seed(42)
 split_ratio <- 0.3
 n <- nrow(df_final)  # Get total number of rows
 
@@ -245,7 +181,10 @@ confirmation_set <- df_final[-train_indices, ] # 70% test data
 #knitr::kable(dim(exploration_set),dim(confirmation_set), caption = "Dimensions of Training vs Test Dataset 30%/70%")
 ```
 
-
+```{r model specification, include=FALSE}
+log_price_formula <- log(price) ~ accommodates + bedrooms +
+  I(room_type == "Entire home/apt") + estimated_occupancy_l365d + has_hot_tub
+```
 
 ```{r, echo=FALSE, include=FALSE, results='asis'}
 #| warning: false
@@ -363,7 +302,7 @@ model_X1X2 <- lm(log(price)~accommodates+bedrooms+I(room_type=="Entire home/apt"
 # Adding estimated occupancy for last 365 days. This however did not show any +ve variation that influence the price
 model_X1X2X3 <- lm(log(price)~accommodates+bedrooms+I(room_type=="Entire home/apt")+estimated_occupancy_l365d,data=exploration_set)
 # Adding has hot hub amenities. showed the best significance among all amenities
-model_log_final <- lm(log(price)~accommodates+bedrooms+I(room_type=="Entire home/apt")+estimated_occupancy_l365d+has_hot_tub,data=exploration_set)
+model_log_final <- lm(log_price_formula, data = exploration_set)
 
 #model_X1X2X3X4X5_logprice=lm(log(price)~accommodates+bedrooms+I(room_type=="Entire home/apt")+estimated_occupancy_l365d+has_hot_tub,data=exploration_set)
 ```
@@ -417,11 +356,27 @@ abline(h = 0, col = "red")
 We evaluated our final model using the confirmation set (test data). The output below summarizes model performance and significance of each predictor.
 *Key Takeaways from the Confirmation Model: All coefficients are statistically significant at p < 0.001, `accommodates`, `bedrooms`, and `has_hot_tub` positively influence log(price), Adjusted R² = 0.61 indicates solid model performance on holdout data*
 ```{r, echo=FALSE}
-model_confirmation <- lm(log(price) ~ accommodates + bedrooms + 
-                         I(room_type == "Entire home/apt") + 
-                         estimated_occupancy_l365d + has_hot_tub,
-                         data = confirmation_set)
+model_confirmation <- lm(log_price_formula, data = confirmation_set)
 summary(model_confirmation)
+```
+
+On the original dollar scale (exponentiating fitted log prices), holdout error summarizes what guests and hosts would see in nightly rates:
+
+```{r confirmation dollar metrics, echo=TRUE, message=FALSE}
+vars_c <- all.vars(formula(model_confirmation))
+confirm_cc <- confirmation_set %>%
+  dplyr::filter(dplyr::if_all(dplyr::all_of(vars_c), ~ !is.na(.)))
+pred_d <- exp(predict(model_confirmation, newdata = confirm_cc))
+act_d <- confirm_cc$price
+rmse_d <- sqrt(mean((pred_d - act_d)^2))
+mae_d <- mean(abs(pred_d - act_d))
+knitr::kable(
+  data.frame(
+    metric = c("RMSE ($)", "MAE ($)", "Mean actual price ($)", "n (complete cases)"),
+    value = c(round(rmse_d, 2), round(mae_d, 2), round(mean(act_d), 2), nrow(confirm_cc))
+  ),
+  caption = "Confirmation set: prediction error on the dollar scale (log-linear model, back-transformed)"
+)
 ```
 ```{r warning=FALSE, echo=FALSE, fig.width=8, fig.height=4}
 par(mfrow = c(1, 2))  # Set plotting area to 1 row, 2 columns
@@ -435,11 +390,42 @@ plot(model_confirmation, which = 2, main = "Q-Q Plot (Confirmation Set)")
 par(mfrow = c(1, 1))  # Reset plotting area to default
 ```
 
+### Temporal holdout (2025)
+The same specification is fit on **all** 2024 listings and evaluated on 2025 listings to stress-test stability across time (same features and cleaning as `prepare_listings_for_year()`).
+
+```{r temporal holdout 2025, echo=TRUE, warning=FALSE, message=FALSE}
+if (nrow(df_final_2025) >= 50L) {
+  model_2024_full <- lm(log_price_formula, data = df_final)
+  vars_t <- all.vars(formula(model_2024_full))
+  d25 <- df_final_2025 %>% dplyr::filter(dplyr::if_all(dplyr::all_of(vars_t), ~ !is.na(.)))
+  if (nrow(d25) >= 30L) {
+    pred25 <- exp(predict(model_2024_full, newdata = d25))
+    act25 <- d25$price
+    rmse_25 <- sqrt(mean((pred25 - act25)^2))
+    mae_25 <- mean(abs(pred25 - act25))
+    knitr::kable(
+      data.frame(
+        metric = c("RMSE ($)", "MAE ($)", "n listings (2025, complete cases)"),
+        value = c(round(rmse_25, 2), round(mae_25, 2), nrow(d25))
+      ),
+      caption = "Temporal holdout: trained on full 2024 frame, evaluated on 2025"
+    )
+  } else {
+    cat("Not enough complete 2025 rows for temporal evaluation (", nrow(d25), " rows).\n", sep = "")
+  }
+} else {
+  cat(
+    "2025 slice has fewer than 50 rows in this extract (n = ",
+    nrow(df_final_2025),
+    "); temporal holdout skipped.\n",
+    sep = ""
+  )
+}
+```
+
 ```{r warning=FALSE, echo=FALSE, include=FALSE}
-# Generate predicted values only for rows used in the model
 confirmation_set$predicted_price <- exp(predict(model_confirmation, newdata = confirmation_set))
 
-# Plot actual vs predicted prices
 ggplot(confirmation_set, aes(x = predicted_price, y = price)) +
   geom_point(alpha = 0.3, color = "black") +
   geom_abline(intercept = 0, slope = 1, color = "#002676") +
@@ -452,7 +438,7 @@ ggplot(confirmation_set, aes(x = predicted_price, y = price)) +
 
 ## Key Takeaways & Future Work
 
-Our analysis looked at which listing features, beyond just room type, help explain Airbnb pricing in Los Angeles. Using a log-transformed linear regression model, we identified five key predictors: accommodates, bedrooms, room type, estimated occupancy, and the presence of a hot tub. Together, these explain about 36% of the variation in nightly prices. ANOVA tests confirmed that amenities like hot tubs add meaningful value, and diagnostic plots showed our model performed reasonably well, despite some imperfections. We also compared actual and predicted prices from a holdout (confirmation) set to see how well our model generalized. While results aligned overall, some high-end listings showed wider dispersion, suggesting those prices are harder to capture with structured data alone.
+Our analysis looked at which listing features, beyond just room type, help explain Airbnb pricing in Los Angeles. Using a log-transformed linear regression model, we identified five key predictors: accommodates, bedrooms, room type, estimated occupancy, and the presence of a hot tub. Together, these explain about 36% of the variation in nightly prices. ANOVA tests confirmed that amenities like hot tubs add meaningful value, and diagnostic plots showed our model performed reasonably well, despite some imperfections. We report **RMSE and MAE on the dollar scale** for the random confirmation split and, when the extract has enough 2025 activity, a **temporal holdout** trained on all of 2024 and scored on 2025. Actual versus predicted prices from the holdout set show that results align overall, while some high-end listings show wider dispersion, suggesting those prices are harder to capture with structured data alone.
 
 For hosts, the results point to a few clear takeaways: listings that accommodate more guests and offer popular amenities like hot tubs tend to command higher prices. For Airbnb as a platform, our findings highlight the potential of enhancing pricing recommendations by incorporating features like amenity count and recent activity, details often overlooked in traditional pricing algorithms. Of course, pricing decisions are rarely driven by data alone. Visual appeal, guest reviews, and short-term demand surges (like holidays or local events) also play a big role. Our current model doesn’t account for those. In future work, we’d love to explore how adding unstructured data, such as review text, listing photos, or neighborhood-level context, might improve prediction accuracy and give a fuller picture of what drives Airbnb pricing. Ultimately, even a fairly simple model, when thoughtfully designed and interpreted, can shed light on how travelers value different listing attributes, and how hosts and platforms can use that information to make smarter pricing decisions.
 
@@ -460,9 +446,6 @@ For hosts, the results point to a few clear takeaways: listings that accommodate
 
 ### A1. Pairwise Correlations
 ```{r echo=FALSE,warnings=FALSE,message=FALSE}
-library(dplyr)
-library(GGally)
-
 #| fig-width: 10
 #| fig-height: 5
 options(crayon.enabled = FALSE)
@@ -521,44 +504,6 @@ price_plot <- df_final |>
 #gg_pair_plot
 accomodates_plot|bedroom_plot|price_plot
 ```
-
-
-```{r echo=FALSE, include=FALSE}
-#gg_pair_plot
-accomodates_plot|bedroom_plot|price_plot
-df_filtered$price
-
-
-
-max(df_refiltered$price)
-min(df_refiltered$price)
-max(df_refiltered$accommodates)
-min(df_refiltered$accommodates)
-# Clean price column
-df_refiltered$price<-gsub("\\$","",df_refiltered$price)
-df_refiltered$price <- parse_number(df_refiltered$price)
-
-#---------------------EDA
-ggplot(df_filtered, aes(x=number_of_reviews, y=price)) +
-  geom_point(color="blue") +  # Scatter points
-  geom_smooth(method="lm", color="red", se=FALSE) +  # Regression line
-  labs(title="Rental Price vs. number_of_reviews",
-       x="number_of_reviews",
-       y="Price ($)") +
-  theme_minimal()
-#max(df_filtered$number_of_reviews)
-boxplot(df_filtered$number_of_reviews, outline = FALSE)
-unique(df_filtered$room_type)
-
-# Also check qqplot for reviews to understand the normality curve
-qqnorm(df_filtered$number_of_reviews)
-qqline(df_filtered$number_of_reviews,col="red",lwd=2) # line width =2 
-
-# Also check qqplot for price to understand the normality curve
-qqnorm(df_filtered$price)
-qqline(df_filtered$price,col="red",lwd=2) # line width =2 
-```
-
 
 ### A4. Actual vs Predicted Prices
 ```{r warning=FALSE, echo=FALSE, include=TRUE}
