@@ -1,0 +1,42 @@
+# Berkeley Bike Safety Route Planner — Python dependencies
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Optional (for elevation-aware routing):
+#   Set ELEVATION_API_KEY in config.py and the osmnx call will use
+#   the Google Elevation API automatically.
+
+# ── Web UI ────────────────────────────────────────────────────────────────────
+flask>=3.0.0           # web server for the SafeTrack UI
+flask-cors>=4.0.0      # cross-origin headers for local dev
+osmnx>=1.9.0           # OpenStreetMap network download + graph utilities
+networkx>=3.2          # Dijkstra shortest-path algorithm
+
+# ── Data handling ─────────────────────────────────────────────────────────────
+pandas>=2.1.0          # SWITRS CSV loading and preprocessing
+numpy>=1.26.0          # Numerical operations
+
+# ── Geocoding ─────────────────────────────────────────────────────────────────
+geopy>=2.4.0           # Nominatim geocoder (free, no API key required)
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+folium>=0.15.0         # Interactive Leaflet.js maps
+shapely>=2.0.0         # Geometry operations (edge midpoints, snap radius)
+
+# ── AI backends (install the one matching your AI_PROVIDER in config.py) ──────
+
+# --- Ollama (AI_PROVIDER = "ollama") -----------------------------------------
+# No Python package needed — Ollama is a standalone server.
+# Install the server from: https://ollama.com/download
+# Then pull a model:  ollama pull llama3.2
+
+# --- Anthropic Claude (AI_PROVIDER = "anthropic") ----------------------------
+# No extra package needed — ai_explainer uses urllib (Python stdlib).
+# Just export your key:  export ANTHROPIC_API_KEY="sk-ant-..."
+
+# --- HuggingFace sentence-transformers (AI_PROVIDER = "huggingface") ---------
+# Uncomment the three lines below if using the HuggingFace local pipeline:
+# sentence-transformers>=2.7.0   # embedding model (all-MiniLM-L6-v2)
+# transformers>=4.40.0           # Flan-T5 generation pipeline
+# torch>=2.2.0                   # PyTorch backend for both models

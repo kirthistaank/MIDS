@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>SafeTrack Berkeley</title>
+<style id="tile-filter-style"></style>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+<style>
+:root {
+  --bg:      #050a12;
+  --bg2:     #08111f;
+  --bg3:     #0d1e30;
+  --panel:   #102236;
+  --border:  #102236;
+  --border2: #1a3a5c;
+  --blue:    #38bfff;
+  --blue2:   #0e6eb5;
+  --blue3:   #0a4f85;
+  --amber:   #f0a500;
+  --red:     #ff4d4d;
+  --coral:   #ff6b35;
+  --muted:   #2a5070;
+  --text:    #c0e0f8;
+  --text2:   #6a9fc0;
+  --mono:    'DM Mono', monospace;
+  --sans:    'Orbitron', sans-serif;
+  --r:       8px;
+}
+
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+html,body { height:100%; overflow:hidden; }
+
+body {
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--mono);
+  font-size:13px;
+  line-height:1.5;
+}
+
+body::after {
+  content:''; position:fixed; inset:0;
+  background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,4,12,.04) 2px,rgba(0,4,12,.04) 4px);
+  pointer-events:none; z-index:9999;
+}
+
+/* ── Layout: sidebar 50% / map 50% ── */
+.shell {
+  display:grid;
+  grid-template-rows:52px 1fr;
+  grid-template-columns:50% 50%;
+  height:100vh;
+  position:relative;
+}
+
+/* ── Header — single slim bar with everything inline ── */
+header {
+  grid-column:1/-1;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:0 16px;
+  background:var(--bg2);
+  border-bottom:1px solid var(--border);
+}
+
+.wordmark {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-shrink:0;
+  text-decoration:none;
+}
+
+.wm-logo { flex-shrink:0; display:block; }
+
+.wm-text {
+  display:flex;
+  flex-direction:column;
+  gap:0;
+  line-height:1;
+}
+
+.wm-title {
+  font-family:var(--sans);
+  font-weight:800;
+  font-size:18px;
+  color:var(--blue);
+  letter-spacing:1.5px;
+  line-height:1.1;
+}
+
+.wm-berkeley {
+  font-family:var(--mono);
+  font-size:9px;
+  color:var(--text2);
+  letter-spacing:2px;
+  margin-top:1px;
+}
+
+@keyframes throb { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.3;transform:scale(.6)} }
+
+.wm-sub {
+  font-family:var(--mono);
+  font-size:9px;
+  color:var(--muted);
+  letter-spacing:2px;
+  flex-shrink:0;
+}
+
+/* layer pills in header */
+.hdr-layers {
+  display:flex;
+  gap:5px;
+  margin-left:6px;
+}
+
+.layer-pill {
+  padding:3px 9px;
+  border:1px solid var(--border2);
+  border-radius:12px;
+  background:var(--bg3);
+  color:var(--muted);
+  font-family:var(--mono);
+  font-size:9px;
+  letter-spacing:.5px;
+  cursor:pointer;
+  transition:all .12s;
+  white-space:nowrap;
+}
+.layer-pill.active {
+  border-color:var(--blue2);
+  background:rgba(14,110,181,.15);
+  color:var(--blue);
+}
+
+/* header status — right side */
+.hdr-status {
+  margin-left:auto;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  font-family:var(--mono);
+  font-size:10px;
+}
+
+.hdr-stat { display:flex; flex-direction:column; align-items:flex-end; gap:0; }
+.hdr-val  { color:var(--blue); font-size:12px; line-height:1.1; }
+.hdr-key  { color:var(--muted); font-size:8px; letter-spacing:1px; text-transform:uppercase; }
+
+/* loading bar */
+.loading-bar {
+  position:absolute;
+  top:52px; left:0; right:0;
+  height:2px;
+  background:var(--border);
+  z-index:100;
+  transition:opacity .4s;
+}
+.loading-bar.hidden { opacity:0; pointer-events:none; }
+.loading-bar-fill {
+  height:100%;
+  background:var(--blue);
+  width:0%;
+  transition:width .4s ease;
+  box-shadow:0 0 8px var(--blue);
+}
+
+/* ── Sidebar ── */
+.sidebar {
+  background:var(--bg2);
+  border-right:1px solid var(--border);
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+}
+
+/* ── Compact route planner — everything in one tight block ── */
+.planner {
+  padding:10px 12px;
+  border-bottom:1px solid var(--border);
+}
+
+/* year filter bar */
+.year-filter {
+  padding:8px 12px;
+  border-bottom:1px solid var(--border);
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.year-label {
+  font-family:var(--mono);
+  font-size:9px;
+  letter-spacing:1.5px;
+  color:var(--muted);
+  text-transform:uppercase;
+  flex-shrink:0;
+}
+.year-val {
+  font-family:var(--mono);
+  font-size:11px;
+  color:var(--blue);
+  flex-shrink:0;
+  min-width:160px;
+  text-align:right;
+}
+input[type=range].year-slider {
+  flex:1;
+  height:3px;
+  -webkit-appearance:none;
+  background:var(--border2);
+  border-radius:2px;
+  outline:none;
+}
+input[type=range].year-slider::-webkit-slider-thumb {
+  -webkit-appearance:none;
+  width:13px; height:13px;
+  border-radius:50%;
+  background:var(--blue);
+  cursor:pointer;
+  box-shadow:0 0 4px rgba(56,191,255,.5);
+}
+
+/* location button inside input */
+.loc-btn {
+  flex-shrink:0;
+  background:none;
+  border:none;
+  cursor:pointer;
+  padding:4px;
+  border-radius:4px;
+  color:var(--muted);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:color .15s, background .15s;
+}
+.loc-btn:hover { color:var(--blue); background:rgba(56,191,255,.1); }
+.loc-btn.locating { color:var(--blue); animation:throb .8s ease-in-out infinite; }
+.loc-btn svg { width:14px; height:14px; }
+
+.route-inputs { display:flex; flex-direction:column; gap:6px; }
+
+.ac-wrap { position:relative; }
+
+.input-wrap {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  background:var(--bg3);
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  padding:0 10px;
+  transition:border-color .15s;
+}
+.input-wrap:focus-within { border-color:var(--blue2); }
+
+.i-dot { width:7px; height:7px; border-radius:50%; flex-shrink:0; }
+.i-dot.from { background:var(--blue); box-shadow:0 0 5px var(--blue); }
+.i-dot.to   { background:var(--coral); box-shadow:0 0 5px var(--coral); }
+
+.input-wrap input {
+  flex:1; background:none; border:none; outline:none;
+  color:var(--text);
+  font-family:var(--mono);
+  font-size:12px;
+  padding:8px 0;
+}
+.input-wrap input::placeholder { color:var(--muted); font-style:italic; }
+
+/* swap button between inputs */
+.swap-row {
+  display:flex;
+  align-items:center;
+  gap:6px;
+  padding:0 2px;
+}
+.swap-line { flex:1; height:1px; background:var(--border2); }
+.swap-btn {
+  width:20px; height:20px;
+  border-radius:50%;
+  background:var(--bg3);
+  border:1px solid var(--border2);
+  color:var(--muted);
+  font-size:10px;
+  cursor:pointer;
+  display:flex; align-items:center; justify-content:center;
+  transition:all .12s; flex-shrink:0;
+}
+.swap-btn:hover { border-color:var(--blue2); color:var(--blue); }
+
+.go-btn {
+  width:100%;
+  margin-top:8px;
+  padding:9px;
+  background:var(--blue2);
+  color:var(--bg);
+  border:none;
+  border-radius:var(--r);
+  font-family:var(--sans);
+  font-size:9px;
+  font-weight:700;
+  letter-spacing:2px;
+  cursor:pointer;
+  transition:background .15s, transform .1s;
+  display:flex; align-items:center; justify-content:center; gap:7px;
+}
+.go-btn:hover:not(:disabled) { background:var(--blue3); }
+.go-btn:active:not(:disabled) { transform:scale(.98); }
+.go-btn:disabled { opacity:.4; cursor:not-allowed; }
+.go-btn .spinner {
+  width:11px; height:11px;
+  border:2px solid rgba(0,0,0,.3);
+  border-top-color:var(--bg);
+  border-radius:50%;
+  animation:spin .6s linear infinite;
+  display:none;
+}
+.go-btn.loading .spinner { display:block; }
+.go-btn.loading .btn-label { display:none; }
+@keyframes spin { to { transform:rotate(360deg); } }
+
+/* ── Results area ── */
+.result-area {
+  flex:1;
+  overflow-y:auto;
+  scrollbar-width:thin;
+  scrollbar-color:var(--border) transparent;
+}
+
+.empty-state {
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  height:100%; gap:8px;
+  color:var(--muted);
+  font-family:var(--mono);
+  font-size:10px; letter-spacing:1px;
+  padding:20px; text-align:center;
+}
+.empty-icon {
+  width:40px; height:40px;
+  border:1px solid var(--border2);
+  border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  font-size:18px; color:var(--blue3);
+}
+
+/* ── Route summary strip ── */
+.route-strip {
+  display:flex;
+  align-items:center;
+  gap:0;
+  padding:10px 12px;
+  border-bottom:1px solid var(--border);
+  background:var(--bg3);
+}
+
+.strip-stat {
+  display:flex; flex-direction:column; gap:1px;
+  flex:1;
+  padding:0 8px;
+  border-right:1px solid var(--border2);
+}
+.strip-stat:first-child { padding-left:0; }
+.strip-stat:last-child  { border-right:none; padding-right:0; }
+
+.strip-val {
+  font-family:var(--sans);
+  font-size:14px;
+  color:var(--blue);
+  line-height:1;
+}
+.strip-val.warn { color:var(--amber); }
+.strip-val.bad  { color:var(--red); }
+.strip-key {
+  font-size:8px;
+  letter-spacing:1.5px;
+  color:var(--muted);
+  text-transform:uppercase;
+}
+
+/* ── Rating + route header ── */
+.route-header {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 12px;
+  border-bottom:1px solid var(--border);
+}
+
+.rating-badge {
+  padding:2px 8px;
+  border-radius:10px;
+  font-size:9px;
+  font-weight:700;
+  letter-spacing:1.5px;
+  flex-shrink:0;
+}
+.r-safe     { background:rgba(56,191,255,.12); color:var(--blue);  border:1px solid var(--blue2); }
+.r-moderate { background:rgba(240,165,0,.12);  color:var(--amber); border:1px solid var(--amber); }
+.r-caution  { background:rgba(255,77,77,.12);  color:var(--red);   border:1px solid var(--red); }
+
+.route-od {
+  font-size:10px;
+  color:var(--text2);
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+/* ── AI block — collapsible ── */
+.ai-block {
+  border-bottom:1px solid var(--border);
+  border-top:1px solid var(--border2);
+  background:var(--bg3);
+  overflow:hidden;
+}
+
+.ai-toggle {
+  display:flex; align-items:center; gap:8px;
+  padding:9px 12px;
+  cursor:pointer;
+  user-select:none;
+  background:rgba(14,110,181,.1);
+  border-bottom:1px solid rgba(14,110,181,.2);
+  transition:background .15s;
+}
+.ai-toggle:hover { background:rgba(14,110,181,.16); }
+
+.ai-dot {
+  width:6px; height:6px; border-radius:50%;
+  background:var(--blue);
+  box-shadow:0 0 5px var(--blue);
+  animation:throb 1.8s ease-in-out infinite;
+  flex-shrink:0;
+}
+
+.ai-toggle-label {
+  font-size:10px;
+  letter-spacing:2.5px;
+  color:var(--blue);
+  text-transform:uppercase;
+  font-weight:500;
+  flex:1;
+}
+
+.ai-chevron {
+  font-size:11px;
+  color:var(--blue2);
+  transition:transform .2s;
+}
+.ai-chevron.open { transform:rotate(180deg); }
+
+.ai-body {
+  padding:10px 14px 12px;
+  font-size:12px;
+  line-height:1.75;
+  color:#8ab8d8;
+  background:#0f1e2e;
+  display:none;
+  border-top:1px solid rgba(14,110,181,.15);
+}
+.ai-body.open { display:block; }
+
+/* ── Google-Maps-style directions ── */
+.directions {
+  padding:8px 0 12px;
+}
+
+.dir-summary {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:6px 12px 8px;
+  font-size:10px;
+  color:var(--muted);
+  letter-spacing:.5px;
+  border-bottom:1px solid var(--border);
+  margin-bottom:4px;
+}
+.dir-summary span { color:var(--text2); }
+
+/* one card per unique street / logical segment */
+.dir-step {
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  padding:7px 12px;
+  transition:background .1s;
+  border-left:3px solid transparent;
+  cursor:default;
+}
+.dir-step:hover { background:var(--bg3); }
+.dir-step.has-danger { border-left-color:var(--red); }
+.dir-step.has-warn   { border-left-color:var(--amber); }
+.dir-step.is-safe    { border-left-color:var(--border2); }
+
+/* direction icon — turn arrow */
+.dir-icon {
+  flex-shrink:0;
+  width:28px; height:28px;
+  border-radius:6px;
+  background:var(--bg3);
+  border:1px solid var(--border2);
+  display:flex; align-items:center; justify-content:center;
+  font-size:13px;
+  margin-top:1px;
+}
+
+.dir-content { flex:1; min-width:0; }
+
+.dir-street {
+  font-size:12px;
+  color:var(--text);
+  font-weight:500;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  margin-bottom:2px;
+}
+
+.dir-meta {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:10px;
+  color:var(--muted);
+  flex-wrap:wrap;
+}
+
+.dir-dist {
+  color:var(--text2);
+}
+
+.dir-danger-badge {
+  display:inline-flex;
+  align-items:center;
+  gap:3px;
+  padding:1px 6px;
+  border-radius:4px;
+  font-size:9px;
+  font-weight:500;
+}
+.badge-warn   { background:rgba(240,165,0,.15);  color:var(--amber); }
+.badge-danger { background:rgba(255,77,77,.15);  color:var(--red); }
+
+/* ── Map panel ── */
+.map-panel { position:relative; background:var(--bg); }
+#map { width:100%; height:100%; }
+/* tile filter controlled dynamically by setMapStyle() */
+
+/* map overlay chips */
+.map-stats {
+  position:absolute;
+  top:10px; right:10px;
+  display:flex; flex-direction:column; gap:5px;
+  z-index:1000;
+}
+.map-chip {
+  background:rgba(5,10,18,.9);
+  border:1px solid var(--border2);
+  border-radius:var(--r);
+  padding:6px 10px;
+  font-family:var(--mono);
+  font-size:10px;
+  backdrop-filter:blur(6px);
+}
+.map-chip .cv { color:var(--blue); font-family:var(--sans); font-size:13px; display:block; line-height:1.1; }
+.map-chip .ck { color:var(--muted); font-size:8px; letter-spacing:1px; text-transform:uppercase; }
+
+/* map style switcher */
+.map-style-switcher {
+  position:absolute;
+  top:10px; left:10px;
+  z-index:1000;
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+}
+
+.map-style-btn {
+  display:flex;
+  align-items:center;
+  gap:7px;
+  padding:5px 10px;
+  background:rgba(5,10,18,.9);
+  border:1px solid var(--border2);
+  border-radius:var(--r);
+  cursor:pointer;
+  font-family:var(--mono);
+  font-size:10px;
+  color:var(--text2);
+  transition:all .15s;
+  backdrop-filter:blur(6px);
+  white-space:nowrap;
+}
+.map-style-btn:hover { border-color:var(--blue2); color:var(--text); }
+.map-style-btn.active { border-color:var(--blue); color:var(--blue); background:rgba(14,110,181,.15); }
+
+.map-style-swatch {
+  width:24px; height:16px;
+  border-radius:3px;
+  flex-shrink:0;
+  border:1px solid rgba(255,255,255,.1);
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+}
+.sw-top { flex:1; }
+.sw-bot { height:5px; }
+
+/* map legend */
+.map-legend {
+  position:absolute;
+  bottom:24px; left:10px;
+  background:rgba(5,10,18,.9);
+  border:1px solid var(--border2);
+  border-radius:var(--r);
+  padding:8px 12px;
+  z-index:1000;
+  font-family:var(--mono);
+  font-size:10px;
+  backdrop-filter:blur(6px);
+}
+.legend-title { color:var(--blue); font-size:8px; letter-spacing:2px; text-transform:uppercase; margin-bottom:6px; }
+.legend-row { display:flex; align-items:center; gap:6px; margin-bottom:3px; color:var(--text2); font-size:10px; }
+.l-swatch { width:18px; height:3px; border-radius:2px; flex-shrink:0; }
+
+/* toast */
+.toast {
+  position:absolute;
+  bottom:20px; right:10px;
+  background:#2e3d4a;
+  border:1px solid #4a6070;
+  border-radius:var(--r);
+  padding:9px 14px;
+  font-family:var(--mono); font-size:10px;
+  color:#c8dce8;
+  z-index:2000; max-width:280px;
+  display:none;
+  animation:slideUp .2s ease;
+  box-shadow:0 4px 16px rgba(0,0,0,.4);
+}
+@keyframes slideUp { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
+
+/* crash tooltip */
+.crash-tooltip {
+  background: rgba(5,10,18,.92) !important;
+  border: 1px solid #ff4d4d !important;
+  border-radius: 6px !important;
+  color: var(--text) !important;
+  font-family: 'DM Mono', monospace !important;
+  font-size: 11px !important;
+  padding: 4px 8px !important;
+  box-shadow: none !important;
+}
+.crash-tooltip::before { display: none !important; }
+
+/* cluster bubbles — match ocean blue theme */
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background-clip: padding-box;
+}
+.marker-cluster-small div  { background-color: rgba(255,77,77,0.75); }
+.marker-cluster-medium div { background-color: rgba(220,40,40,0.82); }
+.marker-cluster-large div  { background-color: rgba(180,20,20,0.9);  }
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background-color: rgba(255,77,77,0.25);
+}
+.marker-cluster div {
+  width: 30px; height: 30px;
+  margin-left: 5px; margin-top: 5px;
+  text-align: center; border-radius: 15px;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px; font-weight: 500;
+  color: white;
+  line-height: 30px;
+}
+
+/* scrollbar */
+::-webkit-scrollbar { width:3px; }
+::-webkit-scrollbar-track { background:transparent; }
+::-webkit-scrollbar-thumb { background:var(--border2); border-radius:2px; }
+
+/* ── Autocomplete ── */
+.ac-dropdown {
+  position:absolute;
+  top:calc(100% + 3px); left:0; right:0;
+  background:var(--bg2);
+  border:1px solid var(--border2);
+  border-radius:var(--r);
+  z-index:9000;
+  overflow:hidden;
+  box-shadow:0 8px 24px rgba(0,0,0,.5);
+  display:none;
+}
+.ac-dropdown.open { display:block; }
+.ac-item {
+  padding:8px 10px;
+  font-family:var(--mono); font-size:11px;
+  color:var(--text2);
+  cursor:pointer;
+  border-bottom:1px solid var(--border);
+  display:flex; align-items:flex-start; gap:7px;
+  transition:background .1s;
+  line-height:1.4;
+}
+.ac-item:last-child { border-bottom:none; }
+.ac-item:hover,.ac-item.active { background:var(--panel); color:var(--text); }
+.ac-icon { flex-shrink:0; width:13px; height:13px; margin-top:1px; opacity:.5; }
+.ac-main { font-size:11px; color:var(--text); }
+.ac-sub  { font-size:9px; color:var(--muted); margin-top:1px; }
+.ac-loading {
+  padding:9px 10px;
+  font-family:var(--mono); font-size:9px;
+  color:var(--muted); letter-spacing:1px;
+  display:flex; align-items:center; gap:7px;
+}
+.ac-spinner {
+  width:9px; height:9px;
+  border:1.5px solid var(--border2);
+  border-top-color:var(--blue);
+  border-radius:50%;
+  animation:spin .6s linear infinite;
+  flex-shrink:0;
+}
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <!-- Slim header -->
+  <header>
+    <div class="wordmark">
+      <!-- Combo logo: shield + bicycle + amber checkmark -->
+      <svg class="wm-logo" width="36" height="39" viewBox="0 0 52 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M26 2L4 11V30C4 42 26 54 26 54C26 54 48 42 48 30V11L26 2Z" fill="#0a4f85" stroke="#38bfff" stroke-width="1.5"/>
+        <path d="M26 6L8 14V30C8 40 26 50 26 50C26 50 44 40 44 30V14L26 6Z" fill="none" stroke="#0e6eb5" stroke-width="0.8" opacity=".5"/>
+        <circle cx="18" cy="35" r="7" fill="none" stroke="#38bfff" stroke-width="1.6"/>
+        <circle cx="18" cy="35" r="2" fill="#38bfff"/>
+        <circle cx="36" cy="35" r="7" fill="none" stroke="#38bfff" stroke-width="1.6"/>
+        <circle cx="36" cy="35" r="2" fill="#38bfff"/>
+        <line x1="18" y1="28" x2="18" y2="35" stroke="#38bfff" stroke-width="1" opacity=".5"/>
+        <line x1="11" y1="35" x2="18" y2="35" stroke="#38bfff" stroke-width="1" opacity=".5"/>
+        <line x1="23" y1="30" x2="18" y2="35" stroke="#38bfff" stroke-width="1" opacity=".5"/>
+        <line x1="36" y1="28" x2="36" y2="35" stroke="#38bfff" stroke-width="1" opacity=".5"/>
+        <line x1="43" y1="35" x2="36" y2="35" stroke="#38bfff" stroke-width="1" opacity=".5"/>
+        <line x1="29" y1="30" x2="36" y2="35" stroke="#38bfff" stroke-width="1" opacity=".5"/>
+        <line x1="22" y1="35" x2="26" y2="24" stroke="#38bfff" stroke-width="1.6" stroke-linecap="round"/>
+        <line x1="32" y1="35" x2="26" y2="24" stroke="#38bfff" stroke-width="1.6" stroke-linecap="round"/>
+        <line x1="26" y1="24" x2="32" y2="26" stroke="#38bfff" stroke-width="1.6" stroke-linecap="round"/>
+        <line x1="18" y1="35" x2="32" y2="35" stroke="#38bfff" stroke-width="1.6" stroke-linecap="round"/>
+        <line x1="32" y1="26" x2="36" y2="26" stroke="#38bfff" stroke-width="1.6" stroke-linecap="round"/>
+        <line x1="36" y1="26" x2="36" y2="29" stroke="#38bfff" stroke-width="1.4" stroke-linecap="round"/>
+        <line x1="24" y1="24" x2="28" y2="24" stroke="#38bfff" stroke-width="2" stroke-linecap="round"/>
+        <path d="M16 18L22 24L36 14" stroke="#f0a500" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="wm-text">
+        <span class="wm-title">SafeTrack</span>
+        <span class="wm-berkeley">(Berkeley)</span>
+      </div>
+    </div>
+    <div class="wm-sub">BIKE SAFETY ROUTER</div>
+
+    <!-- Layer toggles moved here to save sidebar space -->
+    <div class="hdr-layers">
+      <button class="layer-pill active" id="tog-route"   onclick="toggleLayer('route')">Route</button>
+      <button class="layer-pill active" id="tog-crashes" onclick="toggleLayer('crashes')" title="Show/hide individual crash markers">Crashes</button>
+      <button class="layer-pill" id="tog-heat"    onclick="toggleLayer('heat')" title="Show/hide crash density heatmap">Density</button>
+    </div>
+
+    <div class="hdr-status">
+      <div class="hdr-stat">
+        <span class="hdr-val" id="hdr-crashes">—</span>
+        <span class="hdr-key">crashes</span>
+      </div>
+      <div class="hdr-stat">
+        <span class="hdr-val" id="hdr-nodes">—</span>
+        <span class="hdr-key">nodes</span>
+      </div>
+      <div class="hdr-stat">
+        <span class="hdr-val" id="hdr-status" style="color:var(--amber)">loading</span>
+        <span class="hdr-key">status</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="loading-bar" id="loading-bar">
+    <div class="loading-bar-fill" id="loading-fill"></div>
+  </div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+
+    <!-- Compact planner -->
+    <div class="planner">
+      <div class="route-inputs">
+        <div class="ac-wrap" id="wrap-from">
+          <div class="input-wrap">
+            <div class="i-dot from"></div>
+            <input id="inp-from" type="text" placeholder="From — Ashby BART, address…" autocomplete="off"/>
+            <button class="loc-btn" id="loc-btn-from" onclick="useMyLocation('from')" title="Use my current location">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>
+                <circle cx="12" cy="12" r="7" stroke-dasharray="3 2" opacity=".4"/>
+              </svg>
+            </button>
+          </div>
+          <div class="ac-dropdown" id="ac-from"></div>
+        </div>
+
+        <div class="swap-row">
+          <div class="swap-line"></div>
+          <button class="swap-btn" onclick="swapInputs()" title="Swap">⇅</button>
+          <div class="swap-line"></div>
+        </div>
+
+        <div class="ac-wrap" id="wrap-to">
+          <div class="input-wrap">
+            <div class="i-dot to"></div>
+            <input id="inp-to" type="text" placeholder="To — Bancroft & Telegraph…" autocomplete="off"/>
+            <button class="loc-btn" id="loc-btn-to" onclick="useMyLocation('to')" title="Use my current location">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>
+                <circle cx="12" cy="12" r="7" stroke-dasharray="3 2" opacity=".4"/>
+              </svg>
+            </button>
+          </div>
+          <div class="ac-dropdown" id="ac-to"></div>
+        </div>
+      </div>
+
+      <button class="go-btn" id="go-btn" onclick="planRoute()">
+        <div class="spinner"></div>
+        <span class="btn-label">▶ &nbsp;FIND SAFEST ROUTE</span>
+      </button>
+    </div>
+
+    <!-- Year filter -->
+    <div class="year-filter">
+      <span class="year-label">Crashes</span>
+      <input type="range" class="year-slider" id="year-slider"
+             min="2018" max="2024" value="2018"/>
+      <span class="year-val" id="year-val">2018 – now</span>
+    </div>
+
+    <!-- Results -->
+    <div class="result-area" id="result-area">
+      <div class="empty-state" id="empty-state">
+        <div class="empty-icon">⟡</div>
+        <div>Enter origin &amp; destination<br>to plan a safe route</div>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- Map -->
+  <div class="map-panel">
+    <div id="map"></div>
+
+    <!-- Map style switcher -->
+    <div class="map-style-switcher">
+      <button class="map-style-btn" id="style-dark" onclick="setMapStyle('dark')">
+        <div class="map-style-swatch">
+          <div class="sw-top" style="background:#0d1e30"></div>
+          <div class="sw-bot" style="background:#1a3a5c"></div>
+        </div>
+        Dark (inverted)
+      </button>
+      <button class="map-style-btn" id="style-street" onclick="setMapStyle('street')">
+        <div class="map-style-swatch">
+          <div class="sw-top" style="background:#e8e0d8"></div>
+          <div class="sw-bot" style="background:#c8c0b0"></div>
+        </div>
+        Street (light)
+      </button>
+      <button class="map-style-btn" id="style-satellite" onclick="setMapStyle('satellite')">
+        <div class="map-style-swatch">
+          <div class="sw-top" style="background:#2d4a1e"></div>
+          <div class="sw-bot" style="background:#1a2e10"></div>
+        </div>
+        Satellite
+      </button>
+      <button class="map-style-btn" id="style-topo" onclick="setMapStyle('topo')">
+        <div class="map-style-swatch">
+          <div class="sw-top" style="background:#c8d8c0"></div>
+          <div class="sw-bot" style="background:#a0b898"></div>
+        </div>
+        Topo
+      </button>
+    </div>
+
+    <div class="map-stats" id="map-stats" style="display:none">
+      <div class="map-chip">
+        <span class="cv" id="chip-dist">—</span>
+        <span class="ck">distance</span>
+      </div>
+      <div class="map-chip">
+        <span class="cv" id="chip-crash">—</span>
+        <span class="ck">crash score</span>
+      </div>
+    </div>
+
+    <div class="map-legend">
+      <div class="legend-title">Safety legend</div>
+      <div class="legend-row"><div class="l-swatch" style="background:#38bfff"></div>Safe route</div>
+      <div class="legend-row"><div class="l-swatch" style="background:#f0a500"></div>Moderate risk</div>
+      <div class="legend-row"><div class="l-swatch" style="background:#ff4d4d"></div>High danger</div>
+      <div class="legend-row" style="margin-top:6px;padding-top:6px;border-top:1px solid var(--border2)">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" style="flex-shrink:0">
+          <path d="M12 2L2 21H22L12 2Z" fill="rgba(255,77,77,0.85)" stroke="#ff1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+          <line x1="12" y1="9" x2="12" y2="15" stroke="white" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="12" cy="18" r="1.2" fill="white"/>
+        </svg>
+        Crash location
+      </div>
+      <div class="legend-row">
+        <div style="width:14px;height:14px;border-radius:50%;background:rgba(255,77,77,0.18);border:1px dashed rgba(255,77,77,0.4);flex-shrink:0"></div>
+        Crash density (heatmap)
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// Global state — must be declared before any function that references it
+let allCrashFeatures = [];
+
+const map = L.map('map', { zoomControl:false }).setView([37.8716,-122.2727], 15);
+
+// ── Tile layer definitions ────────────────────────────────────────────────────
+const TILE_STYLES = {
+  dark: {
+    url:    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    opts:   { attribution:'© OpenStreetMap contributors', subdomains:'abc', maxZoom:19 },
+    filter: 'brightness(.85) invert(1) hue-rotate(180deg) saturate(.8)',
+  },
+  street: {
+    url:    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    opts:   { attribution:'© OpenStreetMap contributors', subdomains:'abc', maxZoom:19 },
+    filter: 'none',
+  },
+  satellite: {
+    url:    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    opts:   { attribution:'© Esri © USGS © USDA', maxZoom:19 },
+    filter: 'none',
+  },
+  topo: {
+    url:    'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
+    opts:   { attribution:'© OpenStreetMap contributors © OpenTopoMap', subdomains:'abc', maxZoom:17 },
+    filter: 'brightness(.9) saturate(.85)',
+  },
+};
+
+let currentTileLayer = null;
+let currentStyle     = 'dark';
+
+function setMapStyle(name) {
+  if (!TILE_STYLES[name]) return;
+
+  const s = TILE_STYLES[name];
+
+  // Remove old tile layer
+  if (currentTileLayer) map.removeLayer(currentTileLayer);
+  currentTileLayer = L.tileLayer(s.url, s.opts).addTo(map);
+
+  // Apply filter via <style> tag — this persists across all tile loads,
+  // pans and zooms because it targets .leaflet-tile-pane which wraps
+  // all tiles and never gets recreated by Leaflet.
+  const styleEl = document.getElementById('tile-filter-style');
+  styleEl.textContent = `.leaflet-tile-pane { filter: ${s.filter}; }`;
+
+  // Bring route above tiles — add in correct z-order: heat → crashes → route
+  setTimeout(() => {
+    [layers.heat, layers.crashes, layers.route].forEach(lg => {
+      if (lg._map) { lg.remove(); lg.addTo(map); }
+    });
+  }, 80);
+
+  // Update active button
+  document.querySelectorAll('.map-style-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.id === 'style-' + name);
+  });
+
+  currentStyle = name;
+}
+
+// Init with dark style
+setMapStyle('dark');
+
+L.control.zoom({ position:'bottomright' }).addTo(map);
+
+const layers = {
+  route:   L.layerGroup().addTo(map),
+  crashes: L.markerClusterGroup({
+    maxClusterRadius: 50,          // cluster markers within 50px of each other
+    spiderfyOnMaxZoom: true,       // spread overlapping markers at max zoom
+    showCoverageOnHover: false,    // no polygon on hover — cleaner look
+    zoomToBoundsOnClick: true,     // click cluster → zoom to reveal markers
+    iconCreateFunction: function(cluster) {
+      const count = cluster.getChildCount();
+      const size  = count < 10 ? 32 : count < 50 ? 38 : 44;
+      const bg    = count < 10 ? 'rgba(255,100,100,0.82)'
+                  : count < 50 ? 'rgba(220,40,40,0.88)'
+                  :               'rgba(180,20,20,0.94)';
+      return L.divIcon({
+        html: `<div style="
+          width:${size}px; height:${size}px;
+          border-radius:50%;
+          background:${bg};
+          border:2px solid rgba(255,255,255,0.6);
+          display:flex; align-items:center; justify-content:center;
+          font-family:'DM Mono',monospace;
+          font-size:11px; font-weight:500;
+          color:white;
+          box-shadow:0 2px 8px rgba(0,0,0,0.4);
+        ">${count}</div>`,
+        className: '',
+        iconSize: [size, size],
+        iconAnchor: [size/2, size/2],
+      });
+    },
+  }).addTo(map),
+  heat: L.layerGroup(),            // density OFF by default
+};
+const layerVisible = { route:true, crashes:true, heat:false };
+
+function toggleLayer(name) {
+  layerVisible[name] = !layerVisible[name];
+  const btn = document.getElementById('tog-' + name);
+  layerVisible[name] ? map.addLayer(layers[name]) : map.removeLayer(layers[name]);
+  btn.classList.toggle('active', layerVisible[name]);
+}
+
+function swapInputs() {
+  const a = document.getElementById('inp-from');
+  const b = document.getElementById('inp-to');
+  [a.value, b.value] = [b.value, a.value];
+}
+
+// ── Health polling ────────────────────────────────────────────────────────────
+let appReady = false;
+
+async function pollHealth() {
+  try {
+    const res  = await fetch('/api/health');
+    const data = await res.json();
+    document.getElementById('hdr-crashes').textContent = data.crash_count?.toLocaleString() ?? '—';
+    document.getElementById('hdr-nodes').textContent   = data.graph_nodes?.toLocaleString()  ?? '—';
+
+    if (data.ready) {
+      appReady = true;
+      document.getElementById('hdr-status').textContent = 'ready';
+      document.getElementById('hdr-status').style.color = 'var(--blue)';
+      document.getElementById('go-btn').disabled        = false;
+      document.getElementById('loading-bar').classList.add('hidden');
+      loadCrashes();
+      tryAutoLocate();   // silently try to fill From with current location
+    } else if (data.error) {
+      document.getElementById('hdr-status').textContent = 'error';
+      document.getElementById('hdr-status').style.color = 'var(--red)';
+      showToast('Pipeline error: ' + data.error);
+    } else {
+      const fill = document.getElementById('loading-fill');
+      fill.style.width = Math.min((parseFloat(fill.style.width)||0) + 8, 85) + '%';
+      setTimeout(pollHealth, 1200);
+    }
+  } catch { setTimeout(pollHealth, 2000); }
+}
+
+document.getElementById('go-btn').disabled = true;
+document.getElementById('loading-fill').style.width = '15%';
+pollHealth();
+
+// ── Load crashes ──────────────────────────────────────────────────────────────
+function addCrashMarker(f) {
+  const [lon, lat] = f.geometry.coordinates;
+  const sev   = f.properties.severity;
+  const year  = f.properties.year || '?';
+  const size  = sev === 1 ? 26 : sev === 2 ? 22 : 18;
+  const sevLabel = ['','Fatal','Severe Injury','Injury','Minor'][sev] || 'Unknown';
+
+  const svgIcon = L.divIcon({
+    className: '',
+    html: `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none">
+      <path d="M12 2L2 21H22L12 2Z" fill="rgba(255,77,77,0.85)" stroke="#ff1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+      <line x1="12" y1="9" x2="12" y2="15" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="12" cy="18" r="1.2" fill="white"/>
+    </svg>`,
+    iconSize:   [size, size],
+    iconAnchor: [size/2, size],
+  });
+
+  L.marker([lat, lon], { icon: svgIcon })
+    .bindTooltip(
+      `<b style="color:#ff4d4d">⚠ ${sevLabel}</b><br>Year: ${year}`,
+      { className:'crash-tooltip' }
+    )
+    .addTo(layers.crashes);
+}
+
+async function loadCrashes() {
+  try {
+    const res  = await fetch('/api/crashes');
+    const geoj = await res.json();
+    const cols = { 1:'#ff4d4d', 2:'#ff6b35', 3:'#f0a500', 4:'#f0a500' };
+
+    // Store all features for year filter
+    allCrashFeatures = geoj.features;
+
+    geoj.features.forEach(f => {
+      const [lon,lat] = f.geometry.coordinates;
+      const sev = f.properties.severity;
+
+      // Add crash marker via shared helper (also used by year filter)
+      addCrashMarker(f);
+
+      // Heat blob — faint density circle
+      L.circleMarker([lat,lon], {
+        radius:18+(5-(sev||3))*3,
+        color:'none',
+        fillColor:'#ff4d4d',
+        fillOpacity:.06,
+        weight:0,
+      }).addTo(layers.heat);
+    });
+
+    // Dynamically set slider range from actual data years
+    const years = geoj.features.map(f => f.properties.year).filter(Boolean);
+    if (years.length) {
+      const maxYear = Math.max.apply(null, years);
+      const minYear = Math.min.apply(null, years);
+      const slider  = document.getElementById('year-slider');
+      slider.min    = minYear;
+      slider.max    = maxYear;
+      slider.value  = minYear;  // start showing all years
+      document.getElementById('year-val').textContent = minYear + ' – now';
+    }
+  } catch(err) { console.warn('Could not load crashes:', err); }
+}
+
+// ── Plan route ────────────────────────────────────────────────────────────────
+async function planRoute() {
+  const from = document.getElementById('inp-from').value.trim();
+  const to   = document.getElementById('inp-to').value.trim();
+  if (!from || !to) { showToast('Enter both origin and destination'); return; }
+  if (!appReady)    { showToast('Graph still loading — please wait'); return; }
+
+  setLoading(true);
+  layers.route.clearLayers();
+  document.getElementById('map-stats').style.display = 'none';
+
+  try {
+    const res  = await fetch('/api/route', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({ from, to }),
+    });
+    const data = await res.json();
+    if (!res.ok) { showToast(data.error || 'Routing failed'); return; }
+    renderRoute(data);
+  } catch(err) {
+    showToast('Network error: ' + err.message);
+  } finally {
+    setLoading(false);
+  }
+}
+
+// ── Render route ──────────────────────────────────────────────────────────────
+function renderRoute(data) {
+  const { route, explanation, geojson } = data;
+
+  if (geojson?.features) {
+    // Shadow underline
+    const lineCoords = geojson.features
+      .find(f => f.geometry.type === 'LineString')
+      ?.geometry.coordinates.map(([lon,lat]) => [lat,lon]) || [];
+
+    if (lineCoords.length) {
+      L.polyline(lineCoords, { color:'#0a4f85', weight:8, opacity:.3 }).addTo(layers.route);
+      // re-add route last so it renders above crashes and heat layers
+      layers.route.remove(); layers.route.addTo(map);
+
+      const score  = route.total_crash_score || 0;
+      const colour = score === 0 ? '#38bfff' : score < 3 ? '#f0a500' : '#ff4d4d';
+      L.polyline(lineCoords, { color:colour, weight:4, opacity:.9 }).addTo(layers.route);
+
+      L.circleMarker(lineCoords[0], {
+        radius:9, color:'#38bfff', fillColor:'#38bfff', fillOpacity:1, weight:2,
+      }).bindTooltip(route.origin_address).addTo(layers.route);
+
+      L.circleMarker(lineCoords[lineCoords.length-1], {
+        radius:9, color:'#ff6b35', fillColor:'#ff6b35', fillOpacity:1, weight:2,
+      }).bindTooltip(route.destination_address).addTo(layers.route);
+
+      map.fitBounds(L.latLngBounds(lineCoords).pad(0.15));
+    }
+
+    // Crash hotspots
+    geojson.features.forEach(f => {
+      if (f.geometry.type === 'Point') {
+        const [lon,lat] = f.geometry.coordinates;
+        const hotIcon = L.divIcon({
+          className: '',
+          html: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L2 21H22L12 2Z" fill="rgba(255,77,77,0.9)" stroke="#ff1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+            <line x1="12" y1="9" x2="12" y2="15" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="12" cy="18" r="1.2" fill="white"/>
+          </svg>`,
+          iconSize:   [22, 22],
+          iconAnchor: [11, 22],
+        });
+        L.marker([lat,lon], { icon: hotIcon })
+          .bindPopup(
+            `<b style="color:#ff4d4d">⚠ Crash hotspot</b><br>
+             Street: ${f.properties.street||'—'}<br>
+             Score: ${f.properties.crash_score?.toFixed(2)??'—'}`
+          ).addTo(layers.route);
+      }
+    });
+  }
+
+  // Map overlay stats
+  document.getElementById('chip-dist').textContent  = route.total_length_km + ' km';
+  document.getElementById('chip-crash').textContent = (route.total_crash_score||0).toFixed(2);
+  document.getElementById('map-stats').style.display = 'flex';
+
+  // Sidebar
+  const score = route.total_crash_score || 0;
+  const rating = score === 0 ? 'SAFE' : score < 3 ? 'MODERATE' : 'CAUTION';
+  const rClass = { SAFE:'r-safe', MODERATE:'r-moderate', CAUTION:'r-caution' }[rating];
+
+  // ── Summarise steps Google-Maps style ─────────────────────────────────────
+  // Merge consecutive steps on the same street into one logical segment
+  const merged = mergeSteps(route.steps || []);
+
+  const dirsHtml = merged.map((seg, i) => {
+    const icon  = getDirectionIcon(i, merged.length, seg.street);
+    const dist  = formatDist(seg.total_m);
+    const dClass = seg.max_crash > 1.5 ? 'has-danger' : seg.max_crash > 0 ? 'has-warn' : 'is-safe';
+    const badge  = seg.max_crash > 1.5
+      ? `<span class="dir-danger-badge badge-danger">⚠ Danger</span>`
+      : seg.max_crash > 0
+        ? `<span class="dir-danger-badge badge-warn">⚠ Caution</span>`
+        : '';
+
+    return `
+      <div class="dir-step ${dClass}">
+        <div class="dir-icon">${icon}</div>
+        <div class="dir-content">
+          <div class="dir-street">${seg.street || 'Unnamed path'}</div>
+          <div class="dir-meta">
+            <span class="dir-dist">${dist}</span>
+            ${badge}
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+
+  document.getElementById('empty-state')?.remove();
+
+  document.getElementById('result-area').innerHTML = `
+    <div class="route-strip">
+      <div class="strip-stat">
+        <span class="strip-val">${route.total_length_km}</span>
+        <span class="strip-key">km</span>
+      </div>
+      <div class="strip-stat">
+        <span class="strip-val">${route.total_length_miles}</span>
+        <span class="strip-key">miles</span>
+      </div>
+      <div class="strip-stat">
+        <span class="strip-val ${score>0?'warn':''}"> ${score.toFixed(1)}</span>
+        <span class="strip-key">crash score</span>
+      </div>
+      <div class="strip-stat">
+        <span class="strip-val">${merged.filter(s=>s.max_crash>0).length}</span>
+        <span class="strip-key">risky segs</span>
+      </div>
+    </div>
+
+    <div class="route-header">
+      <span class="rating-badge ${rClass}">${rating}</span>
+      <span class="route-od">${route.origin_address} → ${route.destination_address}</span>
+    </div>
+
+    <div class="ai-block">
+      <div class="ai-toggle" onclick="toggleAI(this)">
+        <div class="ai-dot"></div>
+        <span class="ai-toggle-label">AI safety analysis</span>
+        <span class="ai-chevron">▼</span>
+      </div>
+      <div class="ai-body open">${explanation || 'No AI explanation available.'}</div>
+    </div>
+
+    <div class="directions">
+      <div class="dir-summary">
+        <span>${merged.length} segments</span>·
+        <span>${route.total_length_km} km</span>·
+        <span>${estimateTime(route.total_length_m)} min cycling</span>
+      </div>
+      ${dirsHtml}
+    </div>
+  `;
+}
+
+// ── Merge consecutive steps on the same street into one ──────────────────────
+function mergeSteps(steps) {
+  if (!steps.length) return [];
+  const out = [];
+  let cur = null;
+
+  steps.forEach(step => {
+    const name = (step.street || '').trim() || '[unnamed path]';
+    if (cur && cur.street === name) {
+      cur.total_m   += step.length_m;
+      cur.max_crash  = Math.max(cur.max_crash, step.crash_score);
+      cur.steps.push(step);
+    } else {
+      if (cur) out.push(cur);
+      cur = {
+        street:    name,
+        total_m:   step.length_m,
+        max_crash: step.crash_score,
+        steps:     [step],
+      };
+    }
+  });
+  if (cur) out.push(cur);
+  return out;
+}
+
+// ── Format distance human-friendly ───────────────────────────────────────────
+function formatDist(metres) {
+  if (metres >= 1000) return (metres / 1000).toFixed(1) + ' km';
+  return Math.round(metres) + ' m';
+}
+
+// ── Estimate cycling time (avg 12 km/h urban) ────────────────────────────────
+function estimateTime(metres) {
+  return Math.max(1, Math.round((metres / 1000) / 12 * 60));
+}
+
+// ── Direction icon based on position and street name ─────────────────────────
+function getDirectionIcon(idx, total, street) {
+  if (idx === 0)         return '⊙';   // start
+  if (idx === total - 1) return '⚑';   // end
+  const s = (street || '').toLowerCase();
+  if (s.includes('ave') || s.includes('boulevard') || s.includes('blvd')) return '↑';
+  if (s.includes('way') || s.includes('path') || s.includes('trail'))     return '↗';
+  return '↑';
+}
+
+// ── Toggle AI panel ───────────────────────────────────────────────────────────
+function toggleAI(toggleEl) {
+  const body    = toggleEl.nextElementSibling;
+  const chevron = toggleEl.querySelector('.ai-chevron');
+  const open    = body.classList.toggle('open');
+  chevron.classList.toggle('open', open);
+}
+
+// ── Keyboard shortcut ─────────────────────────────────────────────────────────
+document.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && (
+    document.activeElement === document.getElementById('inp-from') ||
+    document.activeElement === document.getElementById('inp-to')
+  )) planRoute();
+});
+
+// ── Autocomplete ──────────────────────────────────────────────────────────────
+const _acCache = {}, _acTimers = {};
+
+function setupAutocomplete(inputId, dropdownId) {
+  const inp  = document.getElementById(inputId);
+  const drop = document.getElementById(dropdownId);
+  let activeIdx = -1;
+
+  inp.addEventListener('input', () => {
+    const q = inp.value.trim();
+    activeIdx = -1;
+    if (q.length < 3) { closeDrop(drop); return; }
+    clearTimeout(_acTimers[inputId]);
+    _acTimers[inputId] = setTimeout(() => fetchSuggestions(q, drop, inp), 350);
+  });
+
+  inp.addEventListener('keydown', e => {
+    const items = drop.querySelectorAll('.ac-item');
+    if (!items.length) return;
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      activeIdx = Math.min(activeIdx+1, items.length-1);
+      highlightItem(items, activeIdx);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      activeIdx = Math.max(activeIdx-1, 0);
+      highlightItem(items, activeIdx);
+    } else if (e.key === 'Enter' && activeIdx >= 0) {
+      e.stopPropagation();
+      items[activeIdx].click();
+    } else if (e.key === 'Escape') {
+      closeDrop(drop);
+    }
+  });
+
+  document.addEventListener('click', e => {
+    if (!inp.contains(e.target) && !drop.contains(e.target)) closeDrop(drop);
+  });
+}
+
+async function fetchSuggestions(query, drop, inp) {
+  const search   = query.toLowerCase().includes('berkeley') ? query : `${query}, Berkeley CA`;
+  const cacheKey = search.toLowerCase();
+
+  drop.innerHTML = '<div class="ac-loading"><div class="ac-spinner"></div>Searching…</div>';
+  drop.classList.add('open');
+
+  if (_acCache[cacheKey]) { renderSuggestions(_acCache[cacheKey], drop, inp); return; }
+
+  try {
+    const url = `https://nominatim.openstreetmap.org/search?` +
+      `q=${encodeURIComponent(search)}&format=json&addressdetails=1&limit=5` +
+      `&viewbox=-122.32,37.84,-122.22,37.91&bounded=0&accept-language=en`;
+
+    const res  = await fetch(url, { headers:{'Accept-Language':'en'} });
+    const data = await res.json();
+    _acCache[cacheKey] = data;
+    renderSuggestions(data, drop, inp);
+  } catch {
+    drop.innerHTML = '<div class="ac-loading">Could not fetch suggestions</div>';
+  }
+}
+
+function renderSuggestions(results, drop, inp) {
+  if (!results.length) {
+    drop.innerHTML = '<div class="ac-loading">No results found</div>';
+    return;
+  }
+  drop.innerHTML = results.map((r, i) => {
+    const parts = r.display_name.split(', ');
+    const main  = parts.slice(0,2).join(', ');
+    const sub   = parts.slice(2,4).join(', ');
+    return `<div class="ac-item" data-idx="${i}" onclick="selectSuggestion('${escAttr(r.display_name)}',this)">
+      <svg class="ac-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M8 2a4 4 0 100 8A4 4 0 008 2zM8 14s-5-4-5-7a5 5 0 0110 0c0 3-5 7-5 7z" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div>
+        <div class="ac-main">${escHtml(main)}</div>
+        ${sub?`<div class="ac-sub">${escHtml(sub)}</div>`:''}
+      </div>
+    </div>`;
+  }).join('');
+  drop.classList.add('open');
+}
+
+function selectSuggestion(name, el) {
+  const inp = el.closest('.ac-wrap').querySelector('input');
+  inp.value = name;
+  closeDrop(el.closest('.ac-dropdown'));
+  inp.focus();
+}
+
+function highlightItem(items, idx) {
+  items.forEach((el,i) => el.classList.toggle('active', i===idx));
+}
+function closeDrop(drop) { drop.classList.remove('open'); drop.innerHTML=''; }
+function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function escAttr(s) { return String(s).replace(/'/g,"\\'").replace(/"/g,'&quot;'); }
+
+setupAutocomplete('inp-from','ac-from');
+setupAutocomplete('inp-to','ac-to');
+
+// ── Year filter ───────────────────────────────────────────────────────────────
+// Defined here so it exists before addEventListener wires it below.
+function onYearChange(val) {
+  const fromYear = parseInt(val);
+
+  // Count how many crashes fall in range
+  const filtered = allCrashFeatures.filter(function(f) {
+    return parseInt(f.properties.year) >= fromYear;
+  });
+
+  // Update label with count
+  const maxYear = Math.max.apply(null, allCrashFeatures.map(f => f.properties.year));
+  const label   = fromYear === parseInt(document.getElementById('year-slider').min)
+                  ? fromYear + ' – ' + maxYear + '  (' + filtered.length + ' crashes)'
+                  : fromYear + ' – ' + maxYear + '  (' + filtered.length + ' crashes)';
+  document.getElementById('year-val').textContent = label;
+
+  // Rebuild cluster group
+  if (layerVisible.crashes) map.removeLayer(layers.crashes);
+  layers.crashes.clearLayers();
+  filtered.forEach(function(f) { addCrashMarker(f); });
+  if (layerVisible.crashes) layers.crashes.addTo(map);
+}
+
+// Wire slider
+document.getElementById('year-slider').addEventListener('input', function() {
+  onYearChange(parseInt(this.value));
+});
+
+
+// ── Geolocation — fill input with current address ─────────────────────────────
+// Uses browser GPS → reverse geocodes via Nominatim to get a readable address.
+// Works on both From and To inputs so user can set either end to current location.
+
+async function useMyLocation(field) {
+  const inputId = field === 'from' ? 'inp-from' : 'inp-to';
+  const btnId   = field === 'from' ? 'loc-btn-from' : 'loc-btn-to';
+  const inp     = document.getElementById(inputId);
+  const btn     = document.getElementById(btnId);
+
+  // Check browser support
+  if (!navigator.geolocation) {
+    showToast('Geolocation is not supported by your browser');
+    return;
+  }
+
+  // Show pulsing state on the button
+  btn.classList.add('locating');
+  inp.placeholder = 'Finding your location…';
+  inp.value = '';
+
+  navigator.geolocation.getCurrentPosition(
+    async (pos) => {
+      const { latitude, longitude } = pos.coords;
+
+      // Place a blue dot on the map at current location
+      showLocationDot(latitude, longitude);
+
+      // Reverse geocode via Nominatim to get human-readable address
+      try {
+        const res  = await fetch(
+          `https://nominatim.openstreetmap.org/reverse?` +
+          `lat=${latitude}&lon=${longitude}&format=json&zoom=18&addressdetails=1`,
+          { headers: { 'Accept-Language': 'en' } }
+        );
+        const data = await res.json();
+
+        // Build a clean short address from the components
+        const addr = data.address;
+        const parts = [
+          addr.house_number && addr.road ? `${addr.house_number} ${addr.road}` : addr.road,
+          addr.suburb || addr.neighbourhood || addr.city_district,
+          addr.city || addr.town || 'Berkeley',
+          addr.state,
+        ].filter(Boolean);
+
+        // Use the two most meaningful parts for the input
+        const shortAddr = parts.slice(0, 3).join(', ');
+        inp.value = shortAddr || data.display_name.split(',').slice(0,3).join(',');
+
+      } catch {
+        // Fallback: use raw coordinates as the address
+        inp.value = `${latitude.toFixed(5)}, ${longitude.toFixed(5)}`;
+        showToast('Could not resolve address — using coordinates');
+      }
+
+      btn.classList.remove('locating');
+      inp.placeholder = field === 'from' ? 'From — Ashby BART, address…' : 'To — Bancroft & Telegraph…';
+    },
+    (err) => {
+      btn.classList.remove('locating');
+      inp.placeholder = field === 'from' ? 'From — Ashby BART, address…' : 'To — Bancroft & Telegraph…';
+
+      // User-friendly error messages per error code
+      const msgs = {
+        1: 'Location access denied — please allow location in your browser settings',
+        2: 'Location unavailable — check your device GPS',
+        3: 'Location request timed out — try again',
+      };
+      showToast(msgs[err.code] || 'Could not get your location');
+    },
+    {
+      enableHighAccuracy: true,   // use GPS if available
+      timeout:            10000,  // 10 second timeout
+      maximumAge:         30000,  // accept cached position up to 30s old
+    }
+  );
+}
+
+// ── Show a pulsing blue dot on the map at the user's location ─────────────────
+let _locationMarker = null;
+
+function showLocationDot(lat, lon) {
+  // Remove previous marker if any
+  if (_locationMarker) map.removeLayer(_locationMarker);
+
+  const locIcon = L.divIcon({
+    className: '',
+    html: `<div style="
+      width:16px; height:16px;
+      border-radius:50%;
+      background:#38bfff;
+      border:3px solid white;
+      box-shadow:0 0 0 4px rgba(56,191,255,.3);
+      animation:locpulse 1.5s ease-in-out infinite;
+    "></div>
+    <style>
+      @keyframes locpulse {
+        0%,100%{box-shadow:0 0 0 4px rgba(56,191,255,.3)}
+        50%{box-shadow:0 0 0 10px rgba(56,191,255,.05)}
+      }
+    </style>`,
+    iconSize:   [16, 16],
+    iconAnchor: [8, 8],
+  });
+
+  _locationMarker = L.marker([lat, lon], { icon: locIcon, zIndexOffset: 1000 })
+    .bindTooltip('Your location', { permanent: false })
+    .addTo(map);
+
+  // Pan map to show the location
+  map.setView([lat, lon], Math.max(map.getZoom(), 15));
+}
+
+// ── Auto-detect location on page load (From field only) ──────────────────────
+// Silently attempt to fill the From field with current location on startup.
+// Does not show any error if the user denies — they can click the button manually.
+function tryAutoLocate() {
+  if (!navigator.geolocation) return;
+
+  navigator.geolocation.getCurrentPosition(
+    async (pos) => {
+      const { latitude, longitude } = pos.coords;
+      showLocationDot(latitude, longitude);
+
+      try {
+        const res  = await fetch(
+          `https://nominatim.openstreetmap.org/reverse?` +
+          `lat=${latitude}&lon=${longitude}&format=json&zoom=18&addressdetails=1`,
+          { headers: { 'Accept-Language': 'en' } }
+        );
+        const data = await res.json();
+        const addr = data.address;
+        const parts = [
+          addr.house_number && addr.road ? `${addr.house_number} ${addr.road}` : addr.road,
+          addr.suburb || addr.neighbourhood || addr.city_district,
+          addr.city || addr.town || 'Berkeley',
+        ].filter(Boolean);
+
+        const inp = document.getElementById('inp-from');
+        // Only fill if user hasn't already typed something
+        if (!inp.value.trim()) {
+          inp.value = parts.slice(0, 3).join(', ') || data.display_name.split(',').slice(0,3).join(',');
+        }
+      } catch { /* silent fail on auto-locate */ }
+    },
+    () => { /* silent fail — user denied or unavailable */ },
+    { enableHighAccuracy: false, timeout: 8000, maximumAge: 60000 }
+  );
+}
+
+// Attempt auto-locate once the app is ready (after graph loads)
+const _origReady = document.getElementById('go-btn');
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function setLoading(on) {
+  const btn = document.getElementById('go-btn');
+  btn.classList.toggle('loading', on);
+  btn.disabled = on;
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.style.display = 'block';
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.style.display='none', 4000);
+}
+</script>
+</body>
+</html>
