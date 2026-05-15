@@ -63,3 +63,11 @@ Course work on **single-label medical and health text classification**, comparin
 | Medical NLP: BERT / T5 / LLM comparison | [Medical_NLP_Zeroshot_vs_Finetune](Medical_NLP_Zeroshot_vs_Finetune/README.md) |
 
 Each linked README is the source of truth for paths, data licenses, and exact reproduction steps.
+
+## Original Development Context
+
+This project originated from a collaborative academic/research environment.
+The original repository history, contribution records, and development timeline
+have been preserved separately to maintain authenticity and collaboration integrity.
+
+** Detailed commit history available upon request.
