@@ -1,0 +1,42 @@
+[PROJECT3] Internal
+Date: 31. 08. 2020
+Attendees: [PERSON2], [PERSON6], [PERSON10], [PERSON3], [PERSON1]
+Purpose of meeting: discussing project updates: [PROJECT6], [PROJECT1], [PROJECT4].
+
+- Discussing organizational matters. 
+-- A call with the project partners happens monthly. 
+-- One of the participants, who is from [LOCATION1], should come to [LOCATION2] to sign the work contract and other paperwork and see everybody in person.
+--- There are related problems due to the situation: the [ORGANIZATION4] is closed and it currently does not give out visas.
+--- Reached decision: as soon as the [ORGANIZATION4] starts giving out visas, he will come to [LOCATION2]. 
+
+- Discussing the progress of [PROJECT6].
+-- Waiting for [ORGANIZATION3], the communication with them is not perfect. 
+-- Some issues have been raised by colleagues from [ORGANIZATION3].
+--- For example, there is a problem with the quality estimation.
+-- The colleagues from [ORGANIZATION3] are currently preparing leaflets to hand out to participants. 
+-- All in all, just waiting for [ORGANIZATION3]. 
+
+- Discussing the progress of [PROJECT1]. 
+-- Currently trying the back translation.
+-- Will try to run the translation on CPUs to make it quicker. 
+
+- Discussing the progress of [PROJECT4].
+-- No major updates.
+-- Discussing a related paper, in which the authors trained a model to do the evaluation.
+--- Skeptical about machine learned evaluation methods.
+--- Not sure how/if it can be implemented right now.  
+--- What might be useful is a pre-trained model that is then fine-tuned during training.
+--- It would be useful for distinguishing in paraphrasing.
+---- But this needs to be looked into in more detail. 
+-- Discussing if there is really a need for this new non-standard metric for evaluation in MT.
+--- Yes, it will be used for paraphrasing. 
+--- This metric is semantically sensitive. 
+--- This metric will be used to estimate semantic similarity, but still have the constraints to enforce distinction.
+--- By using this metric, semantic similarity is guaranteed.
+--- The metric will guarantee that the paraphrase does not stray away from the original meaning too far. 
+--- We can try adding as many constraints we want to see how many we can add until the meaning is lost completely.
+---- Meaning and losing meaning would be a valuable topic to focus on, since none of the papers on constraint decoding focus on it. 
+-- Later, before publishing the paper, evaluation should be also done manually. 
+-- All of this can be considered later, but it is a good start. 
+
+Minutes submitted by: [ANNOTATOR7]

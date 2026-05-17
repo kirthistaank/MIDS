@@ -1,0 +1,61 @@
+Date: 2020_09_14
+Attendees: [PERSON6], [PERSON2], [PERSON8], [PERSON5], [PERSON4], [PERSON3]
+Meeting goals:
+- To divide work among the attendees
+- News breakdown
+- Method explanations and comparisons
+- Critical decisions
+
+-Attendees' responsibilities
+--[PERSON5] 
+--- Get acquainted with [PERSON1] annotation tool (and finalize it)
+--- Use the tool to proceed with evaluation model based on alignments
+--- Find suitable technology for annotators' needs regarding Github usage (2 weeks deadline)
+--[PERSON8] 
+--- Propose how to aggregate the alignment in the first attempt to develop manual evaluation
+--- Validate that "splitting script" makes sense
+--[PERSON3]
+--- Test script that is splitting the meetings and minutes into smaller chucks of max 5 sentences (preferably on Czech data)
+--[PERSON2]
+--- Help [PERSON3] with the data in order to test the splitting script
+--- Validate that "splitting script" makes sense
+--- Update annotation instructions regarding splitting of transcripts and their summaries
+--[PERSON4]
+--- Merge [PERSON8]'s and [PERSON3]'s tables so the approaches they contain are unified under one framework
+--- Add his own promising experiments into the unified table
+
+-News breakdown
+--- Using Github as a storage for annotators' small processed files
+--- Create a paper based on the unified tables until October 7th
+--Extra funding that needs to be spent before the end of the year
+--- This could result in either more meeting minutes
+--- Or one more summary of minutes
+--- Or more manual evaluators of meetings could be hired
+
+-Method explanations and comparisons
+-- Evaluation method suitable for short summaries granting one number scores (longer summaries would need to be split into smaller chucks)
+VS.
+-- Evaluation method granting scores consisting of more numbers that are more suitable for longer summaries
+
+-- Competition based model for shared tasks (raising lot of problems, scores unreliable and being winner doesn't mean much)
+VS.
+-- Cooperation based model ([PROJECT1] preferred, utilizing anonymization and blind evaluation) 
+
+-- An explanation of an Age ment<unintelligible/> method by Decay Wu<unintelligible/>
+
+-- Question whether the manual evaluation should be based on the comparison with the reference minutes (problem with questionable quality of manual minutes - they often times miss crucial information)
+VS.
+-- Whether the manual evaluation should be done against the original transcript (transcript is much more solid)
+
+-- [PERSON1] tool can be used to measure the precision of manual minutes by recalling important facts from trusted transcripts
+
+-- Splitting the dataset into smaller chunks of max 5 sentences long summaries (being tested)
+VS.
+-- Relying on the alignment of long transcripts and minutes. (evaluation based on the relation between the candidate and the transcript
+
+-Critical Decisions
+-- Cooperation based model
+-- Test method where transcripts and minutes are divided into smaller parts according to their topics (getting one score number per chunk)
+-- But also proceed with evaluation model based on alignments (more in-depth evaluation measures needed)
+
+Minutes submitted by [ANNOTATOR1]

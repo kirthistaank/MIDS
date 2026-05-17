@@ -1,0 +1,5 @@
+Automatic Minuting Virtual Coffee Hour
+16.10.2020, 14:00 CEST
+- [PERSON4] presents the alignment annotation tool
+-- development, code part
+-- annotation interface and the process of annotation

@@ -1,0 +1,48 @@
+
+Attenders: [PERSON5] (moderator), [PERSON1], [PERSON4], [PERSON2]
+Purpose of meeting: Small meeting call concerning plan for the next months, meeting created by [PERSON5]
+Summary of meeting:
+• General organisation of the meeting, showing off agenda of the meeting. 
+• Discussion about budget options and allocation of person-months in Overleaf.
+• How to ensure the smooth run of the subtitling platform among the conference participants, which will be the [ORGANIZATION6] application or web page with autorefresh.
+• There will be created a new task in the WP7 in the integration for more person-months by [ORGANIZATION2], because of the development.
+• Plans for the upcoming live events and dry-runs; resulted in the agreement on one dry run, one main and then two follow-up experiments (4 events in total).
+• Making the details of the new task in WP7 clear, including person-months for this task.
+• Talking about [OTHER2] – if there's enough funds to have it in the project and if there's enough person-months for [OTHER2].
+• [PERSON1] reveals they have the most accurate [OTHER2] speech recognition system.
+• Everyone agree on promoting italian ASR, despite fact that [OTHER2] is not a big language of [ORGANIZATION4]
+• Discussion about another part of the budget estimating how many person months will be allocated in the WP and how many hours per speaker is needed.
+• Making clear how will be the speaker adaptation done, discussing details and hours per speaker.
+• Moderator explains acoustic models and how much of them will be needed for particular languages. 
+• There was once a project that did transcription of [OTHER1] recordings so there will be enough data for [OTHER1] language.
+• [PERSON1] puts a note about how is the pressure different when person reads aloud alone and when person have to talk on real conference.
+• Moderator decides to make spoken event part of conference.
+• Moderator explains how does tables in [ORGANIZATION7] doc work and how to fill them and that it will show how many person-months will be needed for each language.
+• Moderator ensure everyone that if they needed [OTHER4] speaking re-speakers, there are funds to have them.
+• Direct costs for the equipment, Moderator reffers to [PERSON1]'s positive experience with audio equipment at conference for insurance company.
+• Asks [PERSON1] if he thinks it could run this smooth also at other conferences.
+• [PERSON1] thinks that adding some hardware costs to the sheets is unevitable; there are special needs on hardware for re-speakers.
+• [PERSON1] promises to make rough estimation of the costs.
+• Moderator explains how to fill in tables for equipment costs.
+• Moderator announces that next call will happen on Thursday. 
+• Moderator asks [PERSON1] if he could prepare the table system for Thursday's call with rough numbers.
+• Moderator asks for any topics that should be discussed before end of the call.
+• [PERSON1] points out the importance of integration of all parties.
+• Moderator asks [PERSON1] to explain details of the tasks in WP [PERSON1] created.
+• Moderator checks Overleaf and task 6.1, which should involve everyone.
+• If everyone has to be included, Moderator reminds [PERSON4] to make sure he's in task 6.2 as well.
+• Moderator talks about minuting, but [PERSON1] thinks they could discuss it on other call.
+• Moderator and [PERSON1] discuss iscuss [ORGANIZATION4] and [ORGANIZATION2] on [ORGANIZATION9] congress.
+• [PERSON4] is asked to comment on deliverables and reports in integration WP 2.
+• [PERSON4] has some experience with reports and deliverables from previous project he worked on.
+• Moderator tells [PERSON4] about milestones for deliverables, asking if it's true there's a cover report for each deliverable.
+• [PERSON4] says he did some small reports in his previous project.
+• Moderator asks [PERSON1] if he has any suggestion for his WP about the timing of WP and deliverables.
+• Moderator adds some further details like what the WP 3 consist of and says he would like to have visible progress  in the tasks.
+• Moderator talks about WP 6 tasks and points out minuting, which can start in the middle of the project.
+• [PERSON1] asks if he can use Word document for his work, because he can work more effectively in Word.
+• Moderator is okay with using Word doc.
+• Moderator ask if it's okay to close the call.
+• Everyone greet and leave call.
+• Moderator stays there with [PERSON2] and talk in [OTHER1] about saving the call record.
+Minutes added by [ANNOTATOR2]

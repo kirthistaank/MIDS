@@ -1,0 +1,20 @@
+[PROJECT3] Surge
+
+
+Date: 02. 06. 2020
+Attendees: [PERSON13], [PERSON6], [PERSON19], [PERSON10], [PERSON18], [PERSON3]
+Purpose of meeting: Update of work
+Agenda: 
+* [PERSON6]'s work
+	* word error rate
+	* testing sessions
+* English golden transcription - problem
+* Process of tokenization - [PERSON19]
+* Tool - speech mode recognition
+* Presentation - what to present for how long
+* [PERSON10] - possibility of word level time stamps 
+* Remaining languages collected by [PERSON3]
+	* no response from [PERSON4] about norwegian
+
+
+Minutes submitted by:        [ANNOTATOR2]

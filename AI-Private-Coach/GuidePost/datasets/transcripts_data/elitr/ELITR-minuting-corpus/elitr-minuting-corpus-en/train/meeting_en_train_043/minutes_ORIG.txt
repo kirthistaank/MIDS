@@ -1,0 +1,64 @@
+Tue Apr 14, 16.00-16.30
+• remember to add yourselves ideally before the call
+• also, whoever is not speaking at the moment, please try taking notes for the person who is speaking
+• IWSLT systems:
+o [PERSON6]: same status last week
+o [PERSON3]:
+• 60% WER have his normal systems
+• 30% is the very best (some other systems)
+• [PERSON6] will give [PERSON3] the [ORGANIZATION7] outputs to evaluate WER
+• [PERSON3] will share the ASR outputs so far, so that [PERSON6] can evaluate [PROJECT3] quality
+• [PERSON3] will ask also [PROJECT3] if [ORGANIZATION5] can provide th
+o [PERSON9]:
+• concern about constrained vs. non-strained
+• by tonight, raw ASR outputs should be ready
+• the grapheme output needs to be segmented with the segmenter
+• the phoneme output will be even harder to segment, so if this is too hard, give it up; but please try
+o [PERSON9], [PERSON6] and [PERSON14] should sync on segmenting [PERSON9]'s outputs
+• [PERSON16]:
+o [PROJECT7] to populate [PROJECT5]-testset
+o Revised the set of languages (one was forgotten! :-)
+o Adding [PROJECT6] workshop to [PROJECT5]-testset
+• [PROJECT2]
+o Did some work on file_collector, need rights to push code to github
+o Will work on streamlining the file conversion and word ranking pipeline
+• [PERSON6]
+o Still updating [PROJECT3]-wrapper and online-text-flow
+o I broke [ORGANIZATION5] [PROJECT3] worker by a big batch, asked [PROJECT4] to fix it: [URL]
+o TODO:
+• Implement sltev output format option for [PROJECT3]-wrapper form [PROJECT3]s and for online-text-flow-events for ASR and [ORGANIZATION7] [PROJECT3]s
+• Reimplement the evaluations tools (lag, flicker)
+• Re-validate the workers
+• Passing [ORGANIZATION7] outputs to [PERSON3]
+• Maybe translate.it, if [PERSON3] doesn't do [ORGANIZATION10]
+• Push everybody to contribute to the paper [URL]
+• [PERSON14]
+o Preparation of logs for dry run I (including pre-dry run) and dry run II
+• [PERSON16]: [PERSON14] should sync with [PERSON1] to make sure all is done but not more than once
+o Simple script for [PERSON13] has been updated in cruise-control.
+o Working on Czech segmenter - Phase II
+• Based on pause durations
+• Example-  to &lt;sil=0.000&gt; be &lt;sil=0.100&gt; ,COMMA or &lt;sil=0.000&gt; not &lt;sil=0.000&gt; to &lt;sil=0.000&gt; be &lt;sil=0.150&gt; ,COMMA that &lt;sil=0.000&gt; is &lt;sil=0.000&gt; the &lt;sil=0.000&gt; question &lt;sil=1.000&gt; .PERIOD
+• [PERSON16]'s student also needs prosody based segmentation.
+o TODO
+• Polishing of setup dir
+• [PERSON15]
+o Tested data in devset and testset and, put the results in the [ORGANIZATION9] sheet.
+o TODO
+• Convert eaf files to json and test them and update [ORGANIZATION9] sheet. 
+• [PERSON12]
+o Cleaned test sets for English to 21 [ORGANIZATION2] languages pairs from the [ORGANIZATION6] and converted “.TSV” files for validators.
+• [PERSON16]: [PERSON12] should contact [PERSON18] to double check who has an agreement finished and is waiting for work.; [PERSON12] should start contacting each of the validators
+o Collected/downloaded corona parallel corpus (directory structure is mentioned in SL Dataset) from [ORGANIZATION3].
+o To do list:
+o Polishing 21 [ORGANIZATION2] test sets before uploading Github
+o Write my information in the readme
+o crawl Serbian, Croatian, Bosnian and Montenegrin mono data corpus & prepare test sets for the rest of the languages.
+o Prepare the audit test sets from [ORGANIZATION11]
+o To check swiss website for [PROJECT1]
+• [PERSON4]
+o Trying to integrate multilingual machine translation model into mediator
+• [PERSON16] will promise the demo to [PERSON2] around April 23
+• [PERSON4] should warn if deployment by Apr 18 would be at risk
+o Trying to improve translation performance with different hyperparameters
+

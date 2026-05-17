@@ -1,0 +1,20 @@
+Meeting 17. 8. 2020:
+Attendance:
+[PERSON13], [PERSON17], [PERSON17], [PERSON4]
+	New Slack channel: 
+	[PROJECT2][ORGANIZATION4]internal.slack.com
+	mainly messaging, calls still on Zoom
+	Submissions to [PROJECT3], [PROJECT5]
+	no one was able to make the deadline
+	Next paper deadlines:
+	20.9. - [ORGANIZATION5]
+•	[PROJECT1]
+	ready for [ORGANIZATION1], currently waiting for response
+•	[PROJECT4]
+	two approaches (branches):
+	data augmentation
+	
+•	[PROJECT6]
+	[PERSON13] Read the SotA papers
+	[PERSON13] Double check what exactly we are supposed to deliver in D3.2
+	[PERSON17] Ask [PERSON12] about the [PROJECT8] implementation status

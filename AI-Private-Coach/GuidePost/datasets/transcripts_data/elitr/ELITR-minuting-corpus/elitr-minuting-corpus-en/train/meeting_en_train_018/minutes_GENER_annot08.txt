@@ -1,0 +1,29 @@
+Date: 11. 11. 2020
+Attendees:
+[PERSON3], [PERSON4], [PERSON2], [PERSON1], [PERSON5], [PERSON6]
+Mentioned:
+* [PERSON3] wants to start a discussion with variations.
+* [PERSON2] shares his findings on evaluations.
+* Mix conversation and topics, jumbled the linia structure of the of the transcript.
+* Group the minutes into topics.
+* [PERSON1] adds his perspective.
+* [PERSON3] wants to know what evaluation [PERSON4] made.
+* [PERSON4] did no evaluation.
+* [PERSON3] explains to [PERSON4] the point of the evaluation.
+* [PERSON3] has to send [PERSON4] the whole package again.
+* [PERSON6] joined the meeting.
+* [PERSON1] has question for [PERSON6] about online aspects of minutes.
+* [PERSON6] explains to [PERSON1] the advantages of online minuting compared to offline.
+* [PERSON1] asks how to group minuting.
+* [PERSON6] explains how to do online minuting.
+* [PERSON1] wants to start minuting today, [PERSON3] and [PERSON6] postpones until the next day.
+* Grouping by linia structure or topics.
+* Coherence.
+* Discussion [PERSON4], [PERSON3], [PERSON6] about guidelines for minuting.
+* Inkscape.
+* Installation text for annotators.
+* Monday meeting with annotators.
+Minutes submitted by: [ANNOTATOR1]
+
+
+

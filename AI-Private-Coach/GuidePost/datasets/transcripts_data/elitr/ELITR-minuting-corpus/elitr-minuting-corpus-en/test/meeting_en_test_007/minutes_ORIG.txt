@@ -1,0 +1,15 @@
+Meeting 31. 8. 2020:
+- Attendance:
+-- [PERSON6], [PERSON2], [PERSON10], [PERSON3]
+- Organizational:
+--   [PERSON6] add [PERSON10] to [PROJECT3] mailing list
+--   project call on Thursday
+--   physical arrival when pandemic constraints drop
+-  [PROJECT1]:
+--   ([PERSON2] - data augm.) running back-translation of Czech monolingual data, estim.time 9 days
+-  [PROJECT6]:
+--   thanks to [PERSON3] for resolving issues that were once again raised by [PERSON9], while we were at the wedding
+--   no messages from him since Thursday
+--   waiting for our [PROJECT2] paper to be reviewed
+-  [PROJECT4]:
+

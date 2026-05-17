@@ -1,0 +1,2121 @@
+(PERSON2) Yeah, so if someone can try saying something?
+Uh.
+Hello.
+(PERSON8) Hello. Hello.
+(PERSON2) <another_language/>
+(PERSON8) Hi, everyone!
+<unintelligible/>
+(PERSON8) <unintelligible/> everybody.
+(PERSON9) Hi, everyone!
+(PERSON2) Yes, I see that this is being recorded.
+(PERSON9) Yeah, hi [PERSON4].
+Hi.
+(PERSON2) Hi.
+ Yeah, [PERSON4], yeah.
+<laugh/>
+(PERSON9) Nice to see you.
+Hi.
+<laugh/>
+<censored/>
+<censored/>
+<censored/>
+<censored/>
+<censored/>
+Okay.
+Uh, so we are still waiting for [PERSON6], right?
+(PERSON8) Mhm.
+Uh, so I'll email him just to be sure.
+Uh, and where is that.
+<unintelligible/>
+(PERSON5) It seems that my microphone was turned off so-
+(PERSON2) Yes
+So now it works.
+(PERSON5) Yeah, okay.
+Hi to everyone.
+(PERSON2) Yeah, so-
+It's great to see you.
+(PERSON5) It's great to see you again.
+(PERSON2) Yeah.
+And I'm also delighted that the connection actually works, uh, a reasonably well, uh, so because you know-.
+So I've pinked [PERSON6] and, uh, before he connects as well, I'll, uh, just mention again, that um I'm recording the sound of this meeting on another machine.
+So the meeting can later serve as another item in our collection of, uh, of meeting minutes.
+And, uh, I would like to, uh, thank everybody for joining.
+Um, and and I'm I'm happy that we have this.
+I call it the workshop.
+But it's um a really a preparatory and welcome meeting.
+But later on.
+I think that it'll, it will be inevitable that we will have such meetings.
+Not too often, uh, but it's important, um, to have the team working, uh, together.
+And' uh, the the purpose of this first meeting, uh, is to get to know each other and, uh, the explain to all others what we can expect from every member of the team.
+Like, what is, uh, their role, and what they already know.
+Uh, so, uh, I would like to thank to [PERSON9], uh, for putting together the little agenda.
+I've put their, uh, the way I see your roles.
+Uh, so if, uh, you can quickly look at the, uh, in the document and correct for yourself if I'm wrong <laugh/> with some of the assumptions on on your roles.
+Uh, then, uh, that will be great.
+And if you agree, then, uh, that's -
+It would be best if you, for each of you, uh what what say for yourself, uh, uh, of where you fit.
+Uh, and like if you would read my words, and and comment on that, and and, uh, and add your own words, uh  to that.
+So that will be the first, uh, interaction of every member of the team.
+Uh, and then we will have, uh, the the presentations or, uh, like semi presentations.
+Uh, to, uh, to get everybody on the same starting page.
+So with that, I I suggest that [PERSON8] will start.
+Uh, and [PERSON8] you can read what I wrote about your role.
+And you can correct it and yeah-.
+<laugh/>
+(PERSON8) Uh, okay.
+You have written that I'm in the linguist, so I'm ki- um, I am, uh, thinking about the idea of summaries and meetings and looking at their, uh, at real meetings and their transcripts by eyes.
+And, uh, the results of, uh, automatic speech recognition and compare it to manual transcripts.
+So my task was, uh, to work with, uh, uh, automatic, uh, transcripts and anno- and correct them.
+So we had annotators who corrected the transcripts.
+And then we looked at the data at the differences a little bit.
+Uh, so I have a data set that, uh, uh, with meetings, audio files, video files, uh, automatics automatic transcripts and manually corrected.
+And some of them are double manu-, doubly doubly manually, manu, manually corrected, and some of them even three times, because we made several, uh, minutes for them.
+Uh, then, um, we, um, uh-.
+Then I work with minutes.
+It means that I designed the guidelines about-.
+No, first I designed the guidelines for transcripts.
+So it was similar for as for the AME meeting corpus.
+And for, uh, ESCI meeting corpus.
+So kind of general rules for transcripts and annota- annotators use them to, uh, correct the meetings.
+And then I designed the guidelines for minutes, but in mu- much more vague way then for transcripts.
+So the idea was not to make the direct instructions of how the minutes should look like.
+But rather to get the general understanding how they can look like.
+So first I collected the information how the different minutes can look like.
+Theoretically and then read some literature about that, and got the idea so that it is naturally.
+That minutes are very, very different.
+According to what type, what, what field they are used in.
+So if that's a business meeting or some other types of dom-, do-, dom-, domains. 
+Um, but, uh, still all of them are summarizations and, uh, still they contain the-.
+So they, um, um, in general things that they contain the important information that was during, that was said the meeting.
+And then somehow fix-.
+So people somehow fix what was, what was important.
+Uh, and I asked,  uh-.
+So I collected the minutes, the original minutes for the min-, for the meetings we had.
+And I asked the annotators to, uh, uh, generate, uh, minutes according to, uh, my instructions and according to different instructions they could find themselves.
+And, uh, the idea now is, uh, to look at them automatically.
+That will-
+That is what [PERSON9] going to do.
+Uh, but also to look at them by eyes and to see that the important things are not always the same.
+So different things see different important things in the meetings.
+And there is this is also my task in the, uh, in the project.
+Oh, what did I do?
+I super-, I supervise the annotators.
+We at the moment we have about fifteen people working on the data.
+We have English and Czech data.
+And I'll I'll speak a little bit in more detail about the data later on.
+As I see that there is my and and little chapter later on.
+And so I'm collecting the data.
+Collecting feedback from the annotators and so on.
+Thank you.
+(PERSON2) Yeah.
+Great.
+Thanks.
+Uh, so do we have [PERSON6] already on the call or not yet?
+(PERSON8) Mmm.
+(PERSON2) Not yet.
+So, let's, let's skip [PERSON6] and let's move to the, uh, next person.
+Uh, who is [PERSON9].
+[PERSON9] is new to the, uh, to the project, uh, as he has joined eleven days ago, and only remotely, because she cannot come to [LOCATION1], uh, due to Covid restrictions.
+And, uh, so so we would be happy to hear, also your background in general, because it's only the to some extent me, who who knows your your CV.
+Ah, and then, uh, we're obviously primarily interested in in your role.
+Uh, so I see that you have already, uh, extended the description of that role which is-.
+(PERSON8) Actually I did that-
+(PERSON9) No, I didn't do that.
+(PERSON2) Oh, yeah, and I-
+Or [PERSON8] did, ah, okay.
+<unintelligible/>
+(PERSON8) I did.
+I'm sorry, really, I have, I have changed it, uh, some minutes ago.
+As it was already shared.
+Because we had a long discussion with [PERSON9] with [PERSON9] about your goals. 
+And I think it should be discussed with either [PERSON2] and [PERSON9], and me.
+Uh, um, because it is she- seems to be little bit, uh, un-fixed yet.
+(PERSON2) Yeah, yeah.
+That's perfectly okay.
+So, so [PERSON9] please have your say towards this.
+<laugh/>
+(PERSON9) Uh, okay.
+So, uh, so, [PERSON8] and I, we already had a meeting so that's why I think I was able to figure it out in whatever points have been modified.
+We modified according to that.
+Whatever the discussion we had.
+And so, uh, I would uh, I I think I I don't have much to say on this but and I have my doctorate in machine translation.
+So, uh, I I I'm new to summarization.
+And, so probably I'm just now working right now on the automatic metric.
+And so [PERSON8] and we both have formulated these two goals.
+Like I have to distinguish two automatic minutes from each other, whether they belong to the same meeting or not.
+And how similar the two minutes are from particular meeting.
+So currently I'm building deep, deep neural network for the same.
+And so, uh,  that's what I'm working right now-.
+And so, previously, I I did, uh, I did built the deep neural networks for machine translation.
+So I have the previous experience.
+So I think I will be, uh, able to cope with the challenges, which I have for the summarization task.
+So let's see how it goes.
+I don't know what to say more.
+<laugh/>
+(PERSON8) So what I'm not sure about is, uh, On- [PERSON2] has written this representation.
+(PERSON9) Yeah.
+(PERSON8) What do you-, did you mean [PERSON2] trade representations.
+(PERSON2) Yeah, so.
+(PERSON8) We were both really curious about it.
+(PERSON9) Yeah. 
+We both wanted to know that.
+(PERSON2) Yeah, so let me, uh, let me go out for this list, because this would be a longer explanation.
+And I want to, I don't want to disturb the colleagues in the in the room.
+So the, um, there is multiple funding sources to to that fu- and that fully explains why I talk about representations.
+Uh, so can you still hear me well, is the connection good?
+(PERSON8) Yeah.
+(PERSON9) Yes, yes.
+(PERSON8) Yes.
+(PERSON2) Yeah, so yeah.
+So, uh, we all are here under the funding of [PROJECT4], where the goal is, uh, the actual application.
+Uh, uh, this is a research and innovation action.
+So if [PROJECT4] does not deliver a working system, it is not necessarily a failure.
+Uh, we need to do good research towards a working system, and we have only a limited time.
+So if you run the shared ask if we have systems if we have the measure of, and then uh, the overall level of performance is insufficient for the application, but we see some improvement, and we have the task clearly defined, this is success of [PROJECT4].
+But there is another source of funding, which is basic research and it's called [OTHER].
+That's another grant I'm supervising.
+And I would actually, uh, uh, prefer [PERSON9], uh, to be on this [OTHER] grant formally.
+And this [OTHER] grant, uh, uh, as a basic research, aims at good publications.
+So the main outputs are good, good papers.
+And the, uh, the grant is is very broad.
+It runs it runs for more years, two more years than [PROJECT4] actually.
+Uh, um, uh and we are expected to to explain what the networks are doing.
+So I see it as a nice collaboration between like a basic research project, uh, where funded from [OTHER], [PERSON9] would, uh, uh, focus on the analysis of what the networks are doing. 
+Um, obviously create her own networks, take part in the task, uh, but be more focused on the explanation of what is happening.
+Uh, on the the basic problems of the metrics of the goal as a as a whole.
+Uh, and um, uh, and the with the representations I mean, uh, that, uh, if you have the network trained for a task and then you feed it with some input, it will create some vector representation of of that input.
+And, uh, this vector representation lives in the in vector space.
+So as there are word embeddings and document embeddings.
+We should have something like paragraph embeddings or snippet embeddings, and we should measure-.
+We we should come up with a um, um, measures for similarity, uh.
+And it can be a simple vector similarity, like a Cosine similarity.
+Uh, but we need to know whether it matches-
+(PERSON9) <unintelligible/> But we already-.
+I'm sorry to interrupt [PERSON2].
+(PERSON2) Yep.
+(PERSON9) We don't have the results for the, um, the Cosine in the normal similarity measures we have.
+We already have results but they are not performing good.
+So [PERSON8] [PERSON8] did <other_noise/>.
+[PERSON8] did say that we need semantic vectors for that.
+(PERSON2) Yes.
+(PERSON9) So we need to picture the semantic the sentence to the can use contextual vectors rather than setting the-
+(PERSON2) Yes.
+Yes exactly.
+So the the actual design, the structure of the network, and no-.
+And and the the decision, whether the vectors are created just as a very ch- of word vectors or whether they are contextualised or whether they are created yet in another type of aggregation.
+That is exactly the type of a research that we should be doing.
+And there-.
+I I mention in the in this document, uh, that the representations are for small units and longer units of text.
+So.
+So this forms of aggregation.
+These methods of aggregation of smaller, uh, of of representations of smaller uh, uh pieces like individual words, lines, and then um whole section of of lines from the transcript.
+Uh, and that compared to the representation that we get uh, for the the item in the agenda or maybe for the meeting as a whole.
+So thinks uh, things like that.
+Uh, this is exactly what we need to explore.
+Uh, and that's why I would, uh, uh, the like, um, uh, highlighting the word representation.
+Uh.
+You correctly, say that, uh, it's very easy to calculate Cosine similarity when you have two vectors.
+But the research question is, whether this Cosine similarity is in any reasonable and interesting relation with the similarity that we want.
+Uh, so we want, uh, if we have two minute, two minutes for the same meeting.
+We want them to be, uh, um, semantically similar.
+We assume that they are semantically similar.
+And we want the measure to reflect this.
+So the question is, how do we design the, uh, the automatic measure so that it reflects the the properties that we want as as users of, uh, of the original object.
+(PERSON8) Sorry, sorry, [PERSON2], she lost the connection.
+(PERSON2) Yeah, I I I see yeah.
+<laugh/>
+Uh, so I'll, uh, uh, I'll repeat that later on on or, hopefully, uh, it's also recorded in, uh, in my machine.
+<laugh/>
+And, uh, this is for for the rest of the team.
+Uh, I hope it's, uh, it's, uh, clear that [PERSON9], uh, should be focusing on the more basic questions, uh, and should be more concerned, uh, with, uh, the uh, um, the vectors uh 
+and the operations with them that are like sensible and less so with the uh, shared task
+as such.
+Uh, but, uh, the results of [PERSON9], aha, yeah.
+I noticed that you, you got lost [PERSON9].
+Sorry about that.
+Uh, so I'm I'm just summarising that you should be in my division of of labour.
+You should be, uh, more focused on the basic research, the basic questions and the analysis of what the network is doing.
+And the properties that the vector spaces have.
+And the definition of the vector spaces, uh, and uh, for you, the actual performance in the in the summarization task is just the by-product, and not not the main goal.
+For you the main goal is the explanation what is, uh, what is going on.
+Uh, whereas for for others, uh, uh, we should aim at the at the application.
+At the at the success in the, uh, in the measure.
+But we all need to define the measure first.
+(PERSON8) Uh, yeah, yeah.
+On-,On-, but On- just a  que-, a que-, a question to-.
+Uh, if I understand it correctly.
+But still, at first [PERSON9] is making a code.
+She is making a search code.
+She is not just-
+(PERSON2) Absolutely.
+(PERSON8) She is not just using -.
+(PERSON2) Yes, absolutely.
+(PERSON8) This is what we have discussed yesterday.
+She is not just using some existing net, uh existing code.
+(PERSON2) Absolutely. 
+She will be modifying existing models, creating own models.
+Yes.
+(PERSON8) Yeah, yeah.
+And she doesn't just using existing model-, code that that works very, very badly on documents.
+But she does try to combine different-.
+(PERSON2) Yes.
+(PERSON8) -metrics and to get to the best one.
+And then is analysing what is going on.
+(PERSON2) Yes, exactly, yes.
+(PERSON8) Because-.
+Yes.
+(PERSON2) It is a technical and implementation work in this sense that you also need to prepare your tools.
+And your tools are the the models.
+(PERSON8) Yes.
+And that's why I wanted also to point out that maybe it's not the best idea to begin to write the paper immediately at this very moment.
+But just to describe everything she does, is when I , um, I hope [PERSON9] hears me.
+So just, aha, no.
+<laugh/>
+But, okay, uh, anyway.
+(PERSON2) There is no-.
+It's never too late to start writing, even if it is a survey.
+Uh, then, uh, that it's good to to write it down.
+(PERSON8) Mhm.
+(PERSON2) So yeah, it's uh.
+<unintelligible/>
+(PERSON8) Yes, I proposed, I proposed that [PERSON9] really uses differe-,
+This different metrics and describes what is going on.
+Not, not-
+Should not be directed as immediately a good research paper, but read-
+Yeah.
+But the review-.
+Yeah, mm-hmm.
+(PERSON2) Yeah.
+(PERSON8) But really, these experiments are interesting.
+Just-
+(PERSON2) Yeah, yeah.
+So [PERSON9]-.
+I'm I'm sorry about your connection.
+Is it better now?
+Or is it unreliable?
+It seems like it is unreliable.
+So we can-.
+That that can happen easily.
+<unintelligible/>
+And maybe [ORGANIZATION3] Meet is not the best, uh, platform.
+It is uh -.
+So we will have to find ways, uh, how to uh, communicate reliably.
+Uh and that will come with, like every day testing, essentially.
+<laugh/>
+Of the technologies.
+(PERSON9) I think now.
+I think now it's better.
+Uh, uh, can you hear me?
+(PERSON2) Yeah.
+So maybe it will help.
+If you switch off your camera.
+(PERSON9) Okay, yes.
+(PERSON2) Because that will save your <unintelligible/>
+And in the meantime, I will double check with my desktop whether it's still recording so that we can later on see uh, uh, uh, see that. 
+And if you have any comments, please say them.
+(PERSON7) If if you turn our cameras off, [PERSON9] have, would have a better connection.
+(PERSON9) I did.
+I did off my camera.
+(PERSON7) No, our cameras.
+Maybe not downloading our pictures.
+Would help you.
+(PERSON9) I need to like-.
+(PERSON2) So we can try it.
+I'm switching off mine.
+So hopefully it will, uh, it will work for you better now [PERSON9].
+(PERSON9) Now, I think so.
+So what did I miss, I really want to know- <unintelligible/>
+Or I'll I'll ask [PERSON8] afterwards.
+About what I missed?
+(PERSON2) Yeah, I'm afraid the sound quality is too bad.
+<laugh/>
+So-.
+<laugh/>
+So I, uh, I hope, uh, that I -.
+That you were able to understand, uh, what I mean, by representations.
+Uh, so that's the embeddings.
+And the question is the embeddings of what? 
+Uh, normal and common things, are embeddings for words.
+You can everage them, you can contextualize them.
+Like create them differently.
+And you can also create embeddings of longer units.
+Uh, such as individual utterances, or sequences of utterances, and you can create embeddings of the corresponding summaries.
+Uh, so, uh, uh, you should [PERSON9] focus on the various options.
+How the, uh, embeddings are created.
+Embeddings and representations are synonyms for me.
+Uh, so how the different embeddings are, uh, are created for the various shorts of pieces of text, and uh, transcribed, uh, speech.
+Uh, and how they, uh, um, uh, it can be, uh, related to each other.
+So we want these, uh, vector spaces to grow similar.
+Uh, we want the texts, the, the long, uh, uh, units of uh, transcribed speech, uh, to be represented with similar vectors as the short, uh, summaries.
+And the question is how to create the vector, so that they have this property.
+(PERSON9) Aha, yeah.
+<unintelligible/>
+Was focusing on the same.
+I'm probably we'll we'll we have the results by the end of this week.
+(PERSON2)  Yeah, yeah, yeah, yeah.
+So this is in the the description that I have just, uh, uh, provided, uh, that is like your long-term goal for the whole, or a year of of of your internship.
+Uh, and and at the same time, yes, that we need tangible results as soon as possible.
+So this is the the whole framing.
+And also, I'm I'm looking forward to the to the actual.
+Uh, the results of the first experiment that that you are doing.
+So, uh, yeah.
+(PERSON8) So, a, and, and [PERSON9] did you get what wha- what we mean by short and pieces of texts?
+(PERSON9) Um, I think the, um, the portions of text like we can, we can build, uh, like this ident-.
+I lost you for a while I think that time the discussion was.
+For the long and short term.
+But as as I'm able to understand that long and short term means the the end grounds. 
+We can take the shorter piece of text or we can take the longer piece of text.
+(PERSON2) Yeah, with  longer, we actually meant to the whole utterances or sequences of utterances, and possibly the whole meeting.
+Uh, and uh, uh, and within minutes, uh, this would be-.
+Uh, short would be individual key terms, uh, that are like mentioned.
+Uh, then there could be representations of the single lines that the short items.
+Uh, and there, and then there could be representations of, like the sub three within the hierarchical minutes.
+And then again, uh, the the whole meeting, uh, as a of the whole thing.
+So the question is how to construct, uh, embeddings for each of these varying lengths of units so that they uh, like are relatable to each other.
+(PERSON8)  Mhm-mhm. And-.
+(PERSON9) As far as <unintelligible/>
+Mhm yeah-.
+<unintelligible/>
+(PERSON8)  And did [PERSON6]-.
+(PERSON9) I'm sorry-.
+(PERSON8) And did [PERSON6] work on something <unintelligible/> of that?
+(PERSON2) No, not yet.
+(PERSON9) Yeah, we do have-.
+<unintelligible/>
+[PERSON2], [PERSON2] we have a paper on automatic matrix.
+So I read a paper by [PERSON6].
+(PERSON2) Yeah.
+(PERSON9) So it was the automatic metric.
+Or last year-.
+(PERSON2) But it it-.
+But which was the-.
+But that was not on the, uh, not these-.
+Uh, these embeddings.
+So which paper do you mean?
+(PERSON9) Not on the embeddings <unintelligible/>
+It was on the Rouge metric, the Rouge metric that has automatic segregation yeah.
+(PERSON2) Mhm.
+(PERSON9) So yeah, and I think-
+Uh, let me, uh-.
+There, there was a paper.
+That was automatically matching evaluation.
+But, uh, there was one new metric, which was, uh, which was presented.
+Only I think getting caption of data.
+For already present matrix..
+(PERSON2) <unintelligible/>
+<parallel_talk> Quality of embeddings on sentiment analysis task. </parallel_talk>
+So did you day that [PERSON6] was co-author or the main of this, uh, of this paper?
+(PERSON9) Yes, he was yeah.
+He was. [PERSON6] and you [PERSON2], you both were the authors of the paper.
+(PERSON2) So that's that's the that's the efficiency metric for the data <unintelligible/> models.
+That uh, that one, you mean?
+(PERSON9) Yes, yes.
+(PERSON2) Yeah, but that's, yeah.
+That is so [PERSON6] is very independent in his writing.
+<laugh/>
+So, uh, this is uh, this-.
+This is a general strategy that can be applied to any metric.
+Uh, and it's like, how should you evaluate your model.
+And the idea is that you should not evaluate the model just once with all your training data.
+But you should also evaluate the model with half the data and wi-, with three quarters of the data, and by looking at the, uh, at how the performance grows.
+With this more and more data, you can actually, uh, uh, like predict whether the model still has future, whether it is whether it is worthwhile to collect more data or not.
+So that's the that's the idea.
+And it's not related to, uh, uh, uh, to meeting summarization at all.
+It it's yeah, the title says: "Text summarization cas- case study".
+And that's because it's based on [PERSON6]'s data set.
+Uh, the, which is the uh, created from abstracts of papers, so research research papers.
+So it's that, uh, the underlying, uh, data set is very different from the, uh, from the meeting that we want to summarize here.
+But still, this is the largest data set that uh, that we have.
+And, uh, we will have to use this data, set, uh, for pre-training of the models, for example. So that would be useful, but the domain is different.
+So this is not a metric that would be directly useful for for minutes at all.
+(PERSON9) Uh-huh, so [PERSON2] I wanted to ask on this <unintelligible/>.
+Do we all want the automated metric separately for the extractive and abstractive or do we want a joint like one?
+(PERSON2) Um.
+<other_noise/>
+That is a good question.
+Uh, well, we actually do not know, at the moment, if we prefer abstractive or extractive, uh, approach.
+And I think that, uh, the for humans-.
+And this is something that [PERSON8] should kind of gone from based on her experience so far.
+For humans there is one, just one scale, uh, of the uh, quality of of the minutes.
+Like to how much people, uh, like the minutes, uh, and this can have the sub scales.
+Like how much of detail is preserved, and uh, how much of the sentiment, for example, is is preserved.
+And, uh, the sentiment should not be generally preserved in the minutes, and and so on. Uh, but I don't think that there would be a, uh-.
+For humans, for human users any use-, useful detail, uh, or separate scale for uh, how much abstractive and how much extractive the the thing is.
+I think this this abstractive versus extractive, uh, division is useful only for of the authors of the systems of the of the summarization, uh, methods.
+And, uh, either you design the method in the way, uh, which allows it only to copy words, which makes it abst-, uh, extractive.
+Or you use some, uh, structured prediction, essentially.
+So models, which produce complex outputs, sequences of strings.
+And then, uh, the suddenly the method becomes, uh, abstractive.
+And I think we should keep trying both abstractive an extractive.
+That's why we have so many people on the team, uh, each of which, uh, should try to take part in the shared task.
+Once we, uh, once we like define it.
+And the shared task should be, uh, uh, interesting and relevant for both; authors of abstractive systems and authors of, uh, extractive systems.
+So we should-.
+I don't think that for users, uh, from the end user perspective.
+The abstract differs extractive is not important at all.
+I think, uh, what is, uh, uh, important is how much information is is preserved, and uh, and uh, whether in the bro-, the preserved information is precise.
+So something like precision and recall are are more, uh, important.
+(PERSON9) Mhm.
+(PERSON2) So at the same time, the metric that that maybe that that was your like early task.
+That you just have discussed with [PERSON8].
+Was to come up with a measure and automatic measure, uh, that tells us, uh, whether a given summary is a abstractive or extractive.
+(PERSON9) Yes.
+And with this measure we will then measure the manual summaries.
+And this will indicate whether people generally prefer to create abstractive style or extractive style.
+And maybe if people differ in this preference.
+And if if we find a general agreement that people prefer, let's say extractive summaries.
+This will be a clear guidance for us that, uh, designing and implementing a extractive system has a good chance of uh, of uh, working well.
+If people, uh-
+If of human summaries are very much rewarded.
+So if they are abstractive, based on this scale that <other_yawn/> there were defined, then, then it's very important for us to focus on abstractive models.
+(PERSON8) And-
+(PERSON9) So the problems are-
+Now, uh, uh, I'm facing is that, uh, there are models that can talk in a semantic sense of this intense, like Botch and the universal encoder, uh, but ,uh, when we apply it on the document-.
+And so, uh, because every every minute.
+Different annotators will have the minutes in a different way.
+It's like if you, if you take from the data set we have collected.
+So, uh, we have minutes from few different annotators and the sentences are not in the same sequence.
+So probably, uh, comparing two documents, uh, based on the on the semantic sense, uh, applying to the entire document is is the challenge.
+Because right now we are able to convert that into contextual letters but probably not for the entire document.
+(PERSON2) Yeah.
+And this is so surely possible.
+<laugh/>
+So, yeah, that-.
+What is the heck going on, oh?
+I'm trying the meeting on both links and [PERSON11] is working?
+Oh, so, uh, uh, yeah.
+[PERSON6] is trying to connect and he is failing.
+(PERSON9) I think he has joined [PERSON2].
+(PERSON2) Oh, finally, yes.
+So, I do not know, I I'm sorry.
+I do not know what us.
+Uh, I don't know what was happening [PERSON6].
+(PERSON8) [PERSON6], are you there?
+(PERSON9) So I I-.
+(PERSON2) We don't hear you.
+(PERSON9) <unintelligible/> me a request.
+And I I think it was the person though who did shared the document.
+And I-.
+He did send it to me two three times and I just noticed now, and I did accept the request.
+So I think it was my.
+Me who was because it which he was not letting in the meeting.
+(PERSON2) Oh, I see yeah.
+But [PERSON6] we don't hear you. 
+So that's the bad thing.
+So [PERSON6], are you, are you in your office?
+Or elsewhere?
+If you are in your office, then I'm on the corridor in the corridor.
+And, uh, I can give you another machine, and uh, also a different headphones, and hopefully that will, uh, uh, that will help us to solve the issue.
+But I think it's it's a software problem.
+Because I know that Skype calls with you work well. 
+So maybe if you can try different browser or different sound settings, maybe?
+Uh, maybe the microphone is not allowed in this particular browser, or whatever.
+(PERSON6) I think that the browser should be Chrome.
+(PERSON2) So.
+Yeah, the Chrome is probably the safest.
+But I use Firefox and its work-.
+It works well for me as well.
+(PERSON6) Okay.
+(PERSON2) So while [PERSON6] is fighting with a this, I suggest that we, uh, go forward to [PERSON7].
+And I would like [PERSON7] again to briefly introduce himself to the rest of the team.
+And then to comment on or up- update, or improve in any way, uh, the uh, the roles that I see for for him.
+(PERSON7) Okay. So, hello everyone.
+I'm [PERSON7] from the Indian institute of technology <unintelligible/>
+And I haven already joined the team but I'll be formally joining from September onwards.
+And  my research so far has involved <unintelligible/> the documents processing.
+(PERSON2) Yeah, maybe, maybe, could you move move to, move-
+Sorry, sorry Tutan- [PERSON7], uh, uh, if you don't have any external mike.
+That like the head set.
+Could you move closer to her microphone?
+Not too close, but like, uh, five or ten centimetres from the from the microphone that could make the sound better.
+(PERSON7) Yeah, is it, is it better now?
+(PERSON2) Yes.
+(PERSON7) Okay. So. Hello everyone.
+So as I said, uh, my research so far has been mostly focused on scholarly document processing.
+And I have been like mining, uh,  research paper publications for solving different kinds of problems, ranging from <unintelligible/>, belonging of the document to the proper journal, <unintelligible/> analysis and recently I am working on analysing the quality of peer review in the scholarly scenario.
+So this has been my interest so far, but, but again so IWSLT task seems quite interesting and challenging for me so -.
+And I, and I would be soon joining the team, uh, formally.
+But I'm already-.
+So as as on this <unintelligible/>.
+My, my kind of a role for this particular acquisition would be would, uh,  be would be to look after the shared task in all aspects.
+Like writing a proposal, fixing a suitable venue, looking after the data set and making it available to the community and work on that.
+I'm also preparing my own submission to the shared task.
+And one of the <unintelligible/> I'm very much interested in, is to design a matrix which would, which would allow us more coverage than the Rouge scores.
+So yeah I'm looking forward to that.
+(PERSON2) Yeah. And with the metric. 
+With the evaluation of the task, one related thing.
+Is, uh,  that we should prepare both; automatic and manual scoring of the submissions.
+So when designing the shared task, we need to have a plan how to evaluate the submissions regardless how many we get.
+To evaluate them manually and to evaluate them automatically.
+Uh, the manual evaluation.
+We have some funds for that, for example, in the [OTHER] grant.
+That I mentioned before.
+Uh, but  we also should, propose manual evaluation so that the participants can, uh, like contribute for example, eight hours per participant.
+And was this crowd of experienced people we will see which of the, uh, summaries are better.
+So uh-.
+So when designing the metric.
+We should think about both; manual and automatic evaluation.
+And we should obviously relate the evaluation, of the new evaluation methods to the existing ones.
+We should have obviously use Rouge and the standard things.
+Uh, but uh, I think that uh, that we need to come up with our own, because we will surely find, uh, uh, limitations of of existing metrics.
+So I hope that [PERSON6] will be able to uh, um, to present, sooner or later.
+If if if the technical problems, even, , remain, uh, uh, today.
+Then maybe at some other meeting, uh, I would like [PERSON6] to present existing methods of evaluation.
+The next methods of summarization and the and their problems or their limited applicability to our domain, which is different, because it's, uh, spoken language.
+Uh, and text summarization of that.
+Uh, so, uh, all these differences of the domain and the limitations of the existing methods will drive us to create our own methods.
+So that is something that we also should keep in mind.
+To have both; manual and automatic, uh, scoring for the shared task.
+(PERSON8) [PERSON2] I want to-
+<unintelligible/>
+(PERSON2) Yes, perfect.
+[PERSON6], it works.
+Yeah.
+(PERSON7) Okay.
+(PERSON2) Yeah. And.
+(PERSON6) And that, and you can also see me on. 
+What is going on?
+(PERSON2) Where is that?
+(PERSON7) Yes, we can see you.
+(PERSON8) Yes, we can see you. 
+(PERSON6) Okay.
+(PERSON2) Yes, except-.
+I'm I'm surprised-.
+Can you, can you still hear me and see me?
+(PERSON6) Yes, I. I always hear you well.
+(PERSON2) But can you see, hear and see [PERSON2].
+Because I'm , my-.
+(PERSON6) No, I can't see anyone.
+I just see your pictures in the circles.
+(PERSON2) But you can-
+You can hear me?
+Because, uh, Firefox tells me that I've left the meeting and I sho-, I can rejoin.
+I won't touch any button.
+If you confirm that you actually hear me.
+<laugh/>
+(PERSON6) Yes, I can hear you.
+And I see too all-
+So-.
+(PERSON2) So it is good.
+One of the one of them's only recording, uh, the session, um?
+(PERSON6) Okay..
+(PERSON2) Yeah.
+But I'm not touching anything, because it is half way away, but I'm still in the meeting.
+It's confusing.
+<laugh/>
+Uh, okay.
+(PERSON7) [PERSON2], before [PERSON6], [PERSON6] starts, So I just want to like ask you few questions.
+So as we communicated over, over email so I think <unintelligible/> would be the one.
+(PERSON2) Yes.
+(PERSON7) Which we should be mostly targeting.
+And I see <unintelligible/> I want to share with you.
+That today the <unintelligible/> workshop confirmed the proposals in live.
+(PERSON2) Mhm.
+(PERSON7)  For, for the next year.
+So I don't know but like should we try writing up proposal for for the joint score?
+At the baseline <unintelligible/>
+(PERSON2) Uh, yes.
+So I think we definitely need a shared task.
+And I think it's better.
+So, so  maybe [PERSON6] is experienced, more experienced in the summarization area than than I am.
+So I maybe [PERSON6] can have his own recommendation on this.
+But I think it's it's good to organise our own workshop on, uh, like spoken meeting meeting summarization and have a shared task as part of this new workshop.
+Uh, if [PERSON6] would say that this is risky because it will not be known.
+And people will not join, then we can follow [PERSON6]'s advice.
+And and try to get that is shared task as part of some established venue.
+But I would uh, think it makes more sense for us to create a  fully dedicated workshop to a to a meeting summarizations.
+(PERSON6) Uh, okay, so, uh, now.
+I just say something about this or just I I start with the slides?
+(PERSON2) Yeah.
+So, about this-.
+(PERSON2) Yeah, yeah, yeah.
+But first about this, uh, and then about your role, and only then the slides.
+<laugh/>
+(PERSON6) So, regarding the shared task.
+From what I have seen the shared tasks, um, that shared tasks come when they, when there is a lot of data and high quality.
+The quantity and quality of data about the task.
+(PERSON2) Uh.
+(PERSON6) So it's reasonable to assume that if we have so it.
+It is we somehow have a some quantity, some quantitative data and qualitative data about transcripts, about meeting transcripts, if this is the idea of course.
+And then I guess we can launch it as a shared task, but in this si-, uh, current situation.
+I don't think that we have such data.
+So-
+(PERSON2) I think that, yeah-.
+<unintelligible/>
+<unintelligible/> shared task without having the data.
+(PERSON2) No we-.
+We have the data.
+I just don't agree with you that a lot of data is needed, uh, for the shared task.
+I think it is more important to have a clearly defined way of evaluating who is best.
+That's more important.
+And the data needs to be only as big as the test set, actually.
+And if you have more than that for the training.
+Then, that's that's great, uh, but-.
+For example, I just yesterday, I heard about the shared task in a non-native, uh, speech recognition.
+So speech recognition for non-native English, and they, uh, require all the participants to use only 160 hours of training data.
+And that's about ten times less than what people would like to have.
+Uh, and what people have in English only settings.
+So it's fairly limited, uh, and still, it seemed that the shared task will have a huge attendance or the the the promotion for the shared task is very strong.
+Uh, so uh, I I don't think that we should, uh, limit ourselves, uh, and uh, say that we are not in a position to run the shared task, uh, because of lack of data.
+Oh, what is more serious is a to have a clear, uh, method of evaluating and describe that, uh.
+And this can be both manual and automatic.
+So that is that is okay, but we need to have clear, uh, rules.
+Yeah.
+So back to a, uh, back to my fir-, original question.
+Would there be a venue where you would prefer us to join?
+Or does it sound good for you.
+If we go for a fully independent workshop.
+I would go for fully independent workshop.
+(PERSON6) Uh, I don't really know about any venue.
+There should be some around that.
+(PERSON2) Yeah, yeah.
+So there is this old history of of the D-U-C document, understanding conferences, and then they stopped.
+And I wasn't not following that at all.
+So I would like to ask someone, and I do not know, who was the best person from you, from you to to do this.
+To do the little survey like, uh-oh?
+Where did these, um, conferences lead to?
+What was the what was the result then?
+Or did the, the did?
+The the Rouge is one of the products of this I believe,
+Uh, but were there any other, uh, like notable, uh, observations or notable knowledge state of the art that that we should not forget, uh and we should build up on?
+Uh, or uh, it is, uh, should be start from scratch or?
+Yeah.
+So who?
+Is there anyone who would, uh, volunteer to review the D-U-C conferences?
+(PERSON7) I think I can do that.
+(PERSON2) Yeah, so but that will happen only after you, but that will happen in in September.
+Yeah.
+Because until -
+(PERSON7) Yeah, but but but I can.
+I can be-
+Like I am in touch with [PERSON], like the per-, the person, who-.
+(PERSON2) Oh, okay.
+Yeah.
+(PERSON7) Yeah, yeah.
+I am in good touch with him, so I can I can just send him email and let you know what, what was the outcome of D-U-C.
+(PERSON2) Yes, yeah.
+(PERSON7) And also, also I'm in touch with [PERSON] from Minsk, who have write the task.
+So maybe I can just from him an email and I let you know.
+(PERSON2) Yes, please, please do.
+<unintelligible/>
+And ad ho, he may remember me.
+I definitely remember him, he has visited [LOCATION1] a few times.
+And, uh, I met him, I met him in in in person a few times as well so he may remember me.
+So that's that's good.
+So please get in touch with him.
+Yeah.
+(PERSON7) Yeah, yeah, yeah, okay.
+(PERSON2) Okay.
+So that's-
+Uh, so we, we so far, we think that we should put up our own proposal for workshop.
+Uh, and [PERSON7] please make sure that we do that in in due time.
+Which is the 5th of October, or something like that.
+Uh, and by the way, if anybody is taking notes of what we are saying here into the [ORGANIZATION3] Doc.
+That would be useful.
+Otherwise, our annotators will do that later on as a as well, but it's I think it is also interesting to have a contrast.
+If a summary, uh, which is taken by someone who is directly in the in the meeting.
+Uh, and, uh, summary, which is then created afterwards by the, um, by the annotators.
+And before we go to the first presentation, lets finish the round of introductions.
+So in the, uh, in the [ORGANIZATION3] document.
+Uh, I see everybody uh, in in the list, but [PERSON6] is not in the uh.
+Oh, yes, you are now active.
+So there is there is a little description.
+If you click on me.
+Uh, I've I've highlighted the description of a of, uh, uh, of the way that I see your Eri- [PERSON6] your role in the, uh, in the team.
+Uh, so please introduce yourself and introduce the background that is relevant for meeting summarization.
+Uh, and correct anything that I have written wrongly in the uh, in the role of, uh, of yours.
+(PERSON6) So am I supposed to read this thing here?
+(PERSON2) Yes, you you can or you, or you know, yes.
+(PERSON6) So I have some experience in automatic summarization; like both extractive and abstracting pross. 
+And of course I have the hands on experience of the tools.
+And the the the frameworks.
+Uh, I've, I've done a lot of work on my own actually.
+<laugh/>
+So <laugh/> I've also worked with scrapping some some some websites and some collections of creating another data sets.
+And then of course, trying different methods on the data sets.
+Like, title generation data sets or also prediction of the lengths of different, uh, some li- like different publications.
+That is my recent work.
+And, uh, and also <unintelligible/>  generation data sets so different data set that, can be used for this task.
+Like <unintelligible/> generation, title summarization and also title length prediction or abstract length prediction.
+Uh, regarding the [PROJECT4], uh, or so the problem now is in um to finish the pipeline that we have designed.
+And having the first working prototype.
+That is the basic prototype.
+And then, it if works well, we will try to extend it like with some other features or functionalities.
+That is-
+For example one of them is the agenda.
+Like populating the agenda, of the, uh, of the of the minutes of the of the protocol of the summary.
+So, uh, this is now mostly, uh, practical problem like, practical problem, of of getting the summaries, getting the proper summaries, and getting grammatically corrects summaries.
+And getting the the decisions of the the highlights that we want to get from a meeting transcript.
+Uh, yes, so well the rest is just the Python workbench.
+The rest is okay.
+So this is what I can say for moment.
+But in the slides that I have you will also know more about the pipeline, the state of the status of the work that is until now.
+And then-.
+(PERSON2) Yeah, okay, thank you.
+(PERSON6) Yes.
+(PERSON2)  Yeah, that's, uh, that's great.
+I just wanted to mention aloud the Python workbench that you are working on.
+And I assume that the pipeline is kind of implemented it in that, or that the workbench allows you to, uh, to do experiments and the best ones then would be put into the pipeline or something like that.
+So, later on-.
+Not necessarily today.
+But later on, it may be interesting for others to, uh, to to hear from you what the workbench, uh, could offer for them.
+So that they could uh, like the, uh, uh, they bui- build up on the environment that you are building for yourself, uh, and collaborate easier and save time in in, uh, the the set up.
+So this, uh, I just want this as-.
+So that your work on on the work bench is not forgotten.
+(PERSON6) Uh, yes,
+But it is actually not something per say it is just a collection of of the code, the data and the tools I <unintelligible/> were going to use-.
+(PERSON2) Yeah, yeah.
+(PERSON6) For our goals.
+(PERSON2) Yeah, exactly.
+It is not too fancy but it will save time for people who have not gone through this yet.
+(PERSON6) So, it's just the place where we can go and we can add things.
+And add experiments and then put the experiments somewhere else.
+(PERSON2) Yeah.
+(PERSON6) Yes, the something that I am really not <unintelligible/> start over-
+Like not everyone starts with his or her own code from from scratch.
+So that's it.
+(PERSON2) Yeah, yeah.
+(PERSON6) So it's just a GitHub repo that will help us to re-use the code and the data.
+And the and the result that will show us as as we reached up to now.
+(PERSON2) Yeah, yeah, okay.
+Thank you.
+So before we go, uh, forward to your presentation.
+Then I would like [PERSON5], uh, to very quickly also mention his role.
+But he is like the, uh, one of the side members of of the team.
+So to say, uh, because his main focus is on a speech processing, uh, and uh, the uh he's only helping out with uh, the annotation interface.
+But he will show the interface today to us.
+Uh, and, uh I believe a lot that, uh, the way the interface looks, uh, uh, of like a limits or boosts, the the performance of the annotators.
+And the like overall utility of the of the task.
+So if the if the task is well thou- 
+Uh, it like it is very closely correlated.
+If the task is well thought through, then it is easy to a develop a good interface.
+If the interface is good, then it's very easy to talk about the task and explain it to other people.
+And it is easy to go get good agreements.
+For example, in the in the shared task.
+So that is why I think the the annotation interface is actually critical, uh, design component in the overall, uh, goal.
+So [PERSON5], if it's there is anything that you would like to add, uh?
+(PERSON5) So, I I think you said already everything.
+(PERSON2) Yeah.
+<laugh/>
+(PERSON5) I don't know what to say about me because I'm just creating the the user interface for the annotators.
+But if I could, because I need to leave briefly.
+So I would like to present the the interface right now, if possible.
+(PERSON2) Uh, yes.
+Uh, uh, so I think it is actually it is-
+Well, if you don't mind-
+Let's, let's finish with [PERSON4].
+So one more person.
+(PERSON5) Ah, okay, okay, 
+Yeah, yeah.
+(PERSON2) But then, uh, I think it's okay, fo- fo- to save your time, to to move the item three in the agenda, the annotation interface, uh, uh, to the beginning, uh, and then uh, we will have in in our heads the illustration.
+And then it will also be easy for, uh, for us to follow the slides by [PERSON6].
+So if if there is no one opposed, then I agree.
+Okay, so I don't hear any any strong opposition.
+So the last person on the call is [PERSON4].
+Uh, and [PERSON4] is now not officially employed on the project.
+He was just uh, how many weeks was it.
+Was it two months, a two month internship, uh, here in [LOCATION1], last year when the travels were still possible.
+Uh, and he did the very early experiments with automatic summarization, including, uh, like a kind of black box approach to training.
+Uh, the uh, some some deep, uh, uh, neural network models, right?
+And and using existing toolkits for the summarization.
+And the results so far, were mainly negative.
+Uh, but that was very preliminary.
+And uh, like it's nothing bad to-.
+You uh, that that is not a bad conclusion.
+Um, uh, but we would like to, uh, still built something and reach something positive from from this.
+So that's why I have [PERSON4] on the call.
+And if [PERSON4] will have more time then, uh, we can employ him also remotely.
+And I would like to finish [PERSON4]'s work, uh, so that there is some paper or some,
+some other tangible result, uh, from from that.
+So [PERSON4], is there anything that you would like to add?
+(PERSON4) I just want to apologise, because I because I missed the first email, and I wasn't ready for this meeting.
+So, I couldn't prepare something to, uh, uh, present and the and nothing more.
+And Hi [PERSON6].
+(PERSON2) Yeah.
+That's the editor, like don't worry.
+Like I sent it only through an invite, and I  I didn't pay attention to double checking whether it reached all the people or, uh, or not.
+So that was actually my fault, but don't worry.
+Uh, so you you see what people are doing here.
+And, uh, independently will just let me and [PERSON8] know how much time you could devote to this.
+And if you would like the agreement, and then we'll set it up to formally.
+Uh, but first, yeah, just just decide for for yourself.
+And also will will see ho-
+Yeah, what what do we all remember from your last year's, uh, work.
+Okay.
+(PERSON4) Okay.
+(PERSON2) So uh, my last point, uh, uh, before we go to the presentations is that, uh, I see myself, [PERSON8], [PERSON6], [PERSON9] and Turkan- [PERSON7] as the key people who should contribute to the exact definition of the shared task.
+And uh, the evaluation metric for the task.
+Uh, because everybody is bringing their own angle to that.
+And they are inexperienced and we need to find a union that fits all of the all of us.
+Uh, so that's, uh, yeah, that's it.
+<parallel_talk> For the task, both manual and automatic. </parallel_talk>
+Okay, so, uh, I would like now to ask [PERSON5] to present the, uh, to present the annotation interface.
+And then [PERSON6], uh, to present, uh, his slides and then [PERSON8] to present the data sets.
+So what we are changing the agenda little, uh?
+Uh, and I will have to rejoin, because I don't have the screen now.
+So I would like to see the screen as well.
+So I'll leave the meeting for second, but uh, [PERSON5] feel free to start 
+(PERSON5) Okay.
+Thank you.
+So I'll start presenting about-.
+Uh, can you see my, uh, screen?
+(PERSON8) Yes.
+(PERSON5) Okay, so um this is the user interface, uh, I've been working on. 
+Uh, I don't know which colour do you prefer, light or dark?
+Which is better visible for you.
+(PERSON8) Maybe light one.
+(PERSON5) Light one, okay.
+And the font is not really that important like, yes?
+So, um, the important thing is that um, uh, there are several panels that are important for the annotators.
+Uh, first we have the translator can choose the transcript, uh, which, uh, should be worked with and the minutes.
+Um, because, uh, as [PERSON8] please correct me if if I'm wrong.
+There is many many transcripts, many versions of transcripts and many versions of minutes.
+Because, uh, each annotator or several annotators should provide corrected transcript and, uh, their own minutes of the meeting. 
+So for example-.
+(PERSON8) Actually, with transcript I I I I would rather say that we take one transcript, the last one.
+So it is true that there are some versions of the transcript but this is because as I gave more, uh, uh, as I asked more annotators to make minutes I gave them the already, uh,
+corrected transcript and they corrected it again.
+So did in the correct version of the corrected transcripts.
+So it's gets better and better, kind of.
+ As so we take the last version of the transcript <unintelligible/> of minutes.
+(PERSON5) OK so..
+But, uh, the important thing is here that, uh, the annotator can chose which which transcript and which minutes to work with.
+Uh, one can easily edit the minutes or add, add new minutes.
+As you can see-.
+Or, when, or-.
+For example, uh, change, uh, change the transcript and the actually, the actual annotations are happening so that one chooses some dialog adds and can annotate them either with the minute.
+For example I just-
+Here.
+So these dialog <unintelligible/>. 
+Are, uh, are connected with the first minute that is actually the headline here.
+And there are, there can be come problems with the dialog adds.
+For example this is a meta annotation, you can see organisational and you can, you can chose the problem by double clicking on the organisational or maybe there is some incomprehensible speech.
+So we can change the problem.
+Um, for the annotators, there, to to see the the linking between the dialog adds and the minutes are are done with colours.
+So each each minutes has it's own colour.
+So, as I, as I scroll down, the the minutes that are used in the in the visible area of of the 
+dialog adds are highlighted with  with their code colour.
+As you can see the colours are changing.
+And, uh, <unintelligible/>
+What is more important-
+Maybe that is all from the from the <unintelligible/> interface.
+And maybe I I will briefly describe the representations behind behind and-.
+So the so the whole annotations are represented-.
+The whole meeting is in one directory on the disc.
+Uh, there are three sub folders, there are annotations, minutes and transcripts, uh and there could be a recording for the annotators that can be played using this, uh, panel.
+And the representation for the transcripts is quite straight forward, it's just a plain text, uh, with optional speaker.
+And there is missing, uh, time because uh, we, we can also also add to the transcript time stamps to to allow, uh, better, uh, better, experience for the annotators.
+Because when I-.
+This is not yet implemented, but actually <unintelligible/> be when the transcript has the time stamps uh, it can, when the annotator chooses one dialog add then the player should synchronise, uh, with the selected dialog add.
+So that's the-.
+That's the transcripts.
+Uh, minutes, again are also plain text.
+Uh, there-.
+Um, I don't know whether, which or how much how much um levels should have the meetings but I guess only two.
+[PERSON8]?
+(PERSON8) How much of what?
+(PERSON5) <unintelligible/> 
+(PERSON8) Ah, levels. 
+One level, so, so the general instruction it it can be-.
+Well, actually two.
+It can be once included.
+(PERSON5) Okay, so but it's not important for the for the for my annotating program because, uh, it's it's just represents each minutes as a independent, uh, line in this panel.
+And finally the annotations, the linking, uh, between, uh, between, uh, <unintelligible/> dialog adds and the minutes and problems is done with simple, simple or plain text file.
+Lots of first, uh, first column is the ID of the dialog text.
+The zero, the the first, first dialog back and so on.
+Uh, in the second column, there is ID or line number of the, of the minutes, uh, annotated.
+So as as we saw here, uh, these minutes are linked with the very first minutes and, uh, the the fist column is the problem one.
+That the annotators-.
+There is an organisational problem, so it's the first one.
+As you can see, uh, as you can see the representation is as as straight forward as as, uh, it's easy to create new, it's easy to create uh, the, uh, new meeting and to to work with it later on.
+So, I guess that's all.
+If there is-.
+If you have any questions?
+(PERSON8) May I ask <unintelligible/> [PERSON9] if she understood what is going on in this annotation.
+And if she understands the code and if she will be able to use it.
+(PERSON9) Uh so.
+[PERSON8] I think, uh, I was not able to get much because of the sound quality probably.
+But a little bit I'm able to get it.
+(PERSON8) Uh, um, okay.
+Uh, can you hear me?
+(PERSON9) Yes, I can hear you.
+I can hear [PERSON5] as well.
+(PERSON8) Mhm.
+(PERSON9) But, uh, uh, the sound quality was not that good that I was not able to grasp everything what [PERSON5], uh, showed.
+(PERSON8) Okay.
+(PERSON2) Yeah.
+Uh, the technical note.
+I've placed it, uh, uh, the, uh, the the note, uh, mhm, uh, the note, the remark about the automatic captions by [ORGANIZATION3] ASR.
+So, uh, at the bottom part, there is turn on captions button in the bottom right corner...
+(PERSON9) Yeah, I'm..
+(PERSON2) And as I see the the these are pretty good.
+So they can help, uh, with the bad sound quality.
+(PERSON9) Yeah.
+I just.
+I just turned it on.
+Thank you.
+Thank you [PERSON2].
+(PERSON7) Hi [PERSON5], this is [PERSON7].
+Uh, so do you have this web built version to that, maybe we can try?
+Or, uh, I would also be interested to try annotating one meeting <unintelligible/> via this interface.
+So how do you think that this would be possible?
+(PERSON9) So I think that this is in progress.
+Are we, are we ready with with this interface [PERSON5]?
+(PERSON2) So this interface is in Python.
+Uh, it's not web based, and will-
+That was never planned to be a web based?
+Uh, but uh, I I guess that [PERSON5] can easily share it.
+I would like to point out that uh, the main purpose of the interface is not to create the minutes.
+But the main purpose is to, uh, link the minutes with the transcripts.
+So, uh, that's, it's more, uh, for, the preparation of the, uh, of the measures of how for example, good-
+How-.
+What is the recall and precision of a given minutes, uh, given the transcript.
+Uh, rather than a-.
+It is not a-.
+It's a -.
+Rather than an annotation for someone who is writing the minutes.
+(PERSON5) Yes, so it serves mainly for the purpose, for the annotator or maybe for for you just to explore the minutes and link it with the minutes and the transcripts.
+(PERSON8) Mhm.
+(PERSON2) Yeah.
+(PERSON9) Yeah.
+(PERSON2) Yeah, it is like for the alignment.
+(PERSON9) Could you share the code with us?
+Because I would like to use and it will be good to help me to, uh, uh, for the automatic metric which I am developing.
+(PERSON8) Uh, well-
+(PERSON9) <unintelligible/> that would, yeah-.
+(PERSON8) At the moment, we don't have the annotator, the annotator, the annotations yet. 
+So [PERSON5] is creating the interface and he is almost at the end of this creation.
+And now we will test it on the annotators.
+And soon, we ha-.
+We will have the annotations.
+It it means that transcripts will be connected with minutes.
+So when you see minutes.
+You know, which line in minutes, uh, is corresponds to that piece in transcript.
+And this is the information that you [PERSON9] can use in your experiments.
+(PERSON9) <unintelligible/>
+(PERSON8) And I think it is important that you can use it.
+It may happen that you can need something that [PERSON5] can implement.
+And that's why it's it is fine that if.
+It would be fine if you understand what, uh, uh, how it works.
+Maybe you need, need something that we can implement before we make, uh, um, annotations.
+So at the moment, I am fine that you just know that it exists.
+That we are creating something like that.
+Now, we will test, uh, it on annot-, annotators, and as far as we began, as we get the connected data.
+I think I will send you what we get and you you understand.
+You, you try to use it.
+And you, you have some comments.
+You will, uh, you will comment  it.
+Just I wanted that you both know about each other at the at the moment.
+Okay?
+<other_noise/>
+(PERSON9) Yes.
+(PERSON2) Yeah.
+At the same time.
+Uh, I agree with [PERSON5] that this interface may be useful to browse the meetings, uh, and so the uh, transcripts and the summaries, even without the annotation.
+So as soon as the data is formally converted, uh, to the good input format for this tool, even before the annotation is done.
+Uh, this will be useful for both; [PERSON9] and [PERSON7] to go through, uh, this.
+Yeah, okay.
+Uh, So if you don't have any other questions or comments on the user interface.
+Uh, [PERSON5], I would just like the check.
+Is it in one of the  [PROJECT4] repositories, or is it not versioned yet?
+(PERSON5) It is not versioned yet.
+<unintelligible/>
+Of course I I have my own private repository, uh, but I I I'm planning to create one in the [PROJECT4].
+(PERSON2) Yeah.
+(PERSON5) And publish the code there.
+(PERSON2) Yeah.
+Yeah.
+Yeah.
+So let's do it rather soon.
+And it's it's good to have users.
+Because they will de-bug it from the. 
+And both [PERSON7] and [PERSON9] will be more experience users.
+Much more experienced users then the annotators.
+Uh, so, uh, they if they provide any comments on how to run it, it will be useful and will simplify the life also of the annotators.
+(PERSON5) Okay, yes.
+(PERSON2) Thank you.
+Uh, so uh.
+I think now is good time to move to the presentation by [PERSON6], right?
+And-.
+(PERSON5) Okay, so-.
+(PERSON2) [PERSON5].
+(PERSON5) Okay.
+Sorry to interrupt.
+Because I I need to go.
+I need to leave.
+So if you have any questions or for me?
+Or or I can leave now?
+(PERSON2) Yes, uh, I think you can leave now.
+If, if if anyone has a, if anybody has any questions on you, uh, then they should simply email you.
+For everybody, uh, who is who has some agreement with us already, actually including [PERSON4], uh, there is the [ORGANIZATION4] mail, the surname at [ORGANIZATION4], MF, uh, [ORGANIZATION2] [ORGANIZATION1] dot CZ.
+So just surname [PERSON3]; at [ORGANIZATION4], that would-
+Uh, uh, that will work.
+(PERSON5) Ok.
+Thank you very much.
+(PERSON2) Yes, thank you.
+(PERSON5) Bye.
+(PERSON2) Bye, bye.
+(PERSON8) Bye, thank you [PERSON5].
+(PERSON2) Yeah, so [PERSON6], if you can share your screen.
+That would probably, uh, be, uh, good.
+Otherwise, we also have the slides.
+If that's possible.
+(PERSON6) Now, how how can I do it?
+Can somebody tell me?
+(PERSON2) Uh.
+Present now, top bottom.
+(PERSON6) Ah, present now, okay.
+Present now your entire screen.
+(PERSON2) Or a window.
+(PERSON6) Okay, so one minute, please. 
+<other_noise/>
+Oh, I need to allow some permission here, but-
+<other_noise/>
+How can I get permission.
+(PERSON2) Oh, you need some permission.
+So then [PERSON9] could you please give the permission-
+(PERSON6) You must grant permission in order to screen share.
+(PERSON9) So I think [ORGANIZATION3] me-.
+The [ORGANIZATION3] meet was set up by [PERSON7], so-.
+(PERSON2) Okay.
+(PERSON6) <parallel_talk> Present now your entire screen. </parallel_talk>
+(PERSON9) <unintelligible/>
+(PERSON7) So [PERSON6] can just click on the "Present Now" button.
+(PERSON9) Yeah.
+(PERSON6) Yes, and I have two options; your entire screen and the window.
+I click on "your entire screen" and I get: "Can't share your screen.
+You must grant permission in order to screen share".
+(PERSON7) Okay, so.
+I don't know but did you-
+So did join with the same e-mail, uh, link or?
+(PERSON9) <unintelligible/> I think that [PERSON6] did join with the Gmail address not with the official email address.
+So I think, uh, that is a problem that he is not able to present.
+I will try to rejoin.
+I will try to rejoin now.
+So-.
+(PERSON9) [PERSON6], can you join with your another email address. 
+I think he left already.
+(PERSON2) Yeah.
+But, I don't think it is possible to, uh, to like, for example, I have my departmental email address, and that's not linked.
+(PERSON9) Yeah.
+(PERSON2) To my Gmail account.
+So, there is no way for me to to join meetings with my departmental address.
+Or on purpose I keep those separate. 
+So, uh, it's important.
+If you could invite also the other user name, uh, that, uh, that was the the G. H. user, I'll I'll paste that.
+Oh, yeah.
+But we cannot hear you now.
+So there is the microphone problem now.
+(PERSON6) Now, you can hear me I guess.
+(PERSON2) Yes.
+(PERSON6) Right?
+(PERSON2) Yep, okay.
+(PERSON6) So once again, your entire screen.
+So.
+Select <unintelligible/>
+Okay.
+Entire screen allowed.
+So, what do you see now?
+(PERSON2) Yeah.
+(PERSON6) It works?
+(PERSON2) It works in second we will see it.
+(PERSON6) So now, do you see the entire screen?
+(PERSON2) Yes, we do.
+(PERSON7) Yes.
+(PERSON2) Yes.
+(PERSON6) Okay.
+So here we have the slides then.
+So okay, we can start.
+So this is-
+These is the <unintelligible/> editor picture that was designed by [PERSON2] time ago and it shows the scenario like situation.
+So we have different peers.
+Like different persons that that will talk possibly in different languages.
+And there is a predefined agenda with some topics that will be discussed.
+And the participants will discuss the topics and the then their voice will be translated automatically.
+So there are some stages like, or um, first of all speech recognition then machine translation.
+And then, at the end of the pipeline there is the minuting.
+That like will read the-.
+Will will will have the transcript that is ready, like and it's in English.
+That say, in one language, in one common language.
+And this-
+So this model, this box that we will-
+That we are working on.
+We will have to produce the the protocol or the summary or the minutes of the entire transcript.
+So this is once again, the the full [PROJECT4] pipeline.
+So first of all, we have the participants who presumably will speak in the languages, in different languages and the input of the system is of course, the, is their speech.
+It's like our speech now.
+That there is being recorded.
+And then we have this automatic speech recognition that creates the transcript of the dialogs.
+But when the speech recognition, machine translation module that it's the spoken language translation module that is used to normalise the output of ACR.
+For matching with expectations of the machine translation.
+So this will probably use techniques like centred boundaries identification and other, and other tema that remove the disturbances, the spoken language disturbances.
+And so after the translation we have this minuting, uh, this minuting box.
+And then also the the minuting demonstrator.
+That is supposed to be used and tested by our partners, that is [ORGANIZATION6].
+So this was the big picture of the initial [PROJECT4] proposal.
+So now.
+Let's focus on our task.
+That is the automatic minuting task.
+So here, here we have the sub tasks.
+How we conceive this task.
+So first we have the text segmenter, the the segmentation the transcript segmentation.
+That that splits the text into segments that should be a couple of sentences long, each of them.
+And the important thing here is to to to keep in each of the clusters.
+The resulting clusters.
+It's important to keep the semantically related phrases, uh, so that we have like, we have the the utterances that describe the same topic.
+Cos as we, as I as I explained there will be different topics that are discussed.
+And then the next we have the segment level summaries.
+So it is going into each of these segments or clusters we will somehow have to reduce their content, their size.
+By removing again disturbances, and repetitio-, the word repetitions.
+And other redundant, redundant phrases.
+So this will produce like more concise, more concise segments.
+Discussion or utterances, the that we will need to-.
+That we will process further.
+And next, next in the five.
+Task five three we have the-.
+We have the transcript summarization.
+Which is generate-.
+Which produces the overall minute, for the minutes for the meeting.
+And again here, we aim we aim to identify the system of  <unintelligible/> the conclusions that are the most usual, and most important take-away messages from the from the meeting.
+And finally, the the the the the last the last the stage is the topic matching.
+In the sense that we need to populate the initial agenda.
+For the-
+So in each of the closes of the agenda, when we put some sentences from the summary that match to that semantically match to that point.
+With that agenda point.
+So now let us go to a more, uh, graphical representation of this four stages.
+So you have the schematic view here with the inputs outputs and and for the minuting task that I mentioned above.
+So I will explain.
+Try to say something about all of this now in the following slides.
+So first, we have the inputs as -.
+Which are the whole meeting transcripts and the predefined agenda with it's topics.
+The dialog transcript is probably the messy and in the sense that it comes out from the ASR.
+So, um, will probably have redundancies in it.
+And we have the predefined agenda that is just the list of topics to be discussed.
+Here we have some issues like it may have on the slide the topic of agenda are not discussed at all.
+I mean, it's, we always expect to discuss all the topics of meeting but it may happen that some of the topics may not discussed, may not be discussed.
+And the others possible like let's say, awkward scenario is that new topics come out of the discussion, and they don't appear in the agenda.
+So these are some let's say rare cases that we should be prepared to handle.
+And next we have the outputs.
+Uh, like the primary objective is to have minutes of of the entire transcript.
+And we also want to have the the filled agenda with the minutes sentences matched to the corresponding agenda topics.
+Uh, one of the problems, uh in the initial problem was the data scarcity problem.
+So first we searched for corpus.
+And I guess I've we found a couple of them.
+And for example, the [ORGANIZATION5] discussions.
+But there were always problems like, like lack of the the summaries like lack of the minutes.
+That was the most common problem.
+And the actually that there is not, is not common to have.
+To find this-.
+These transcripts and the the summaries, just ready, just prepared.
+To have them on the internet, on internet or somewhere on the web sites.
+Because most of the institutions, the companies have restrictions about publishing their data.
+So, the two best let's say candidates for experimenting on this task were [ORGANIZATION7] and [PROJECT1] corpora.
+Which which, uh, are processed in a very similar way, which come in an XML format.
+And they were both processed in 2005 and they are also the most popular in the 
+literature.
+That-.
+In the literature like dialogue summarization or meeting summarization literature.
+So, next, uh, another initial activity was recording a processing our own internal meeting.
+Which is-.
+Which goes on.
+Which is the work in progress.
+So the output is the deliverable that we expect is a data set that could be possibly used for-.
+Not just for our task-.
+From-.
+By us but also by other, uh, researchers in this field.
+Like publishable corp, uh, publishable corpus that can be used by corporate community.
+And as [PERSON2] said, the ideal case would be to launch also the shared task with this data set.
+Like, uh, launch the task and relate the data set to the task.
+Uh, the problem-.
+Uh, one of the problems with the two data sets, that I mentioned is, was their format in XML.
+And so one other initial activity was, to to to, uh, to create some to duplicates to replicate this content in plain text format.
+And then checking the annotations.
+Uh, the different annotations that were provided.
+So, uh, as I said -.
+As I mentioned the the the the process of converting the the XML content into the text content, is is automatic and we have some code about it.
+It's in the the repository.
+The GitHub repository that we are using and <unintelligible/>.
+But another problem of course is the fact that the big models, especially when we tried the abstractive approach to summarization.
+The big neural network based modules are data hungry and these two data sets [PROJECT1] and [ORGANIZATION7] they were not really sufficient.
+So another thing was to check for another similar data sets on CNN Daily Mail or English Gigaboard.
+And somehow use them for the training part of the experiments.
+And then test in the union of CNN and the, uh, union of [PROJECT1] and [ORGANIZATION7] corpora.
+So another thing that, uh, was tried was the possibility of short cut the scheme, like you see in this image.
+So, uh, we tried to omit the segmentation and compression steps as shown here.
+In other words, they tried to get the minutes directly from the transcript.
+And as I mentioned, we used the transfer learning idea.
+Like training on CNN Daily Mail.
+And and then testing it on [ORGANIZATION7] data.
+And the the plain plain text [ORGANIZATION7].
+And, uh, of course the results were poor.
+Like, the very low Rouge scores, but also very messy, obviously, very messy summaries and the <unintelligible/> was not gramatory correct.
+So going on.
+Here we have the first, uh, uh, uh, stage of the pipeline of  the minuting pipeline.
+And before we start with the segmentation, we actually perform most of the normal cleaning steps that are usually common in most of the natural language processing tasks.
+Like tokenization and the removal, removal of the messy symbols.
+Uh, and text the goal of the step, of the steps of the pipeline step as mentioned is to break the spoken language text into segments or clusters which are, uh, which are related grammatically.
+Which are -.
+Which are cohesive in a sense that the content is about the same topic.
+Uh, so the other step is, uh, uh, something more about the diarisation.
+It's another possible feature that we can and.
+So, uh, it it kind of it identifies the speaker.
+The the speaker of certain sentence or utterance. 
+For the moment we have kind of a dummy diarisation that is available in the two data sets [PROJECT1] and [ORGANIZATION7].
+So we have the anonymous speakers, just labelled with letters like A, B, C or D.
+And, so this.
+In this sense, if we if we will add the diarisation, uh, if if we-
+If it will work well, we can add it as a real feature of our pf our deliverable.
+Or we may just use the dummy-.
+Just use the dummy diarisation approach jut to be compatible with both IMI and ACSI for for the rest of the experiments.
+So going on.
+The next step is a the segment summarization.
+Or summarization applied in each of the segment or clusters.
+Uh, this is like, uh,-.
+This resembles the sentence compression task, even though the our clusters should be longer than one sentence.
+They are probably couple of sentences long.
+So the objective here is to, to further improve the text quality.
+Removing the disturbances and redundancies.
+And of course we need to preserve the, the or to assure the grammatic-, the correctness, the grammatical correctness of each of the-, in each of the clusters.
+From a technical point of view, uh, uh, there are some recent studies about using LSTM  networks, uh, and cloning the trees, the the the trees, the branch piece of of each sentence.
+So that the the results-.
+The output sentences or phrases, and the segment or the segment is, uh, bit more consise.
+So going on with the next pipeline stage.
+So here we have the, uh, the dialogue summarization sub-task.
+So.
+And so after, after having the concise segments we will need to to to extract or to  generate the decisions, the decision phrases or sentences from each of them.
+So that we put them in the main-.
+The the final deliverable, the the final minutes. 
+And so once again, we need to preserve the the grammatical correctness.
+So here we might have also some issues that happen when we extract different words and combine them together so they have to be logically correct.
+Uh, so, uh, technically we are, we are exploring both; extractive and abstractive approach for the summarisation
+Uh, for the transcript summarizations. 
+So we will probably-.
+It is somehow-.
+The extractive approach should be logically easier and more convenient because it
+it preserves the phrasing.
+And in such application-.
+In this king of applications, especially in certain domains, the legal domains the legislation or I don't know.
+It's important to preserve the phrasing, because changing the words may change considerably change the meaning and when things are for-.
+Have to do with leg-, legislation it's very important.
+So logically, the extractive approach should look better, especially from the human based evaluation.
+Because Rouge doesn't much care, doesn't really care much about the phrasing.
+Uh, and so we we are, we are usually for the training as I said we are, we are using the CNN Daily Mail Collection until until now.
+And the results of course haven't been really good.
+Especially, especially as seen by a person.
+Like, like a human evaluation, like from the perspective of manual evaluation.
+Because the Rouge scores are not that terrible but, uh, the the summaries like evaluated from a person, like a, uh, are show show some some disfluences, show still some some disfluences.
+And finally, uh, another, the the final stage of the pipeline and that could be, uh an extra feature.
+Or in not definitely the, uh, feature that we aim to implement in the the basic prototype.
+The first prototype that we want to, we want to to produce as a deliverable.
+So here now, now we have to match the transcript or the the minute sentences but, sentences with the with the correct or corresponding agenda topic that we have in the beginnings.
+Of each of the decision sentences that we will have in the in the minutes should match in one of this, one of this topics that we have in the agenda.
+So finally, we also we also aim to produce a demonstrator.
+That should be a software tool, like for example a script, an auton-, autonomous script that will read the the transcript.
+That will work the real time let's say.
+Reading the transcript that grows and producing, uh, almost in real time the the the summary the the the the the the minutes of the of the meeting.
+And those are populating the agenda.
+So every time that transcript grows to a certain amount of words, for example five hundred of word or something like that.
+Uh, these scripts should should be activated and and produce the and produce the both, uh, both the minutes ant that point and also the the active agenda until that point.
+And then it should go to sleep and, uh, and reactivate itself until the next let's say five hundred words are ready in the tra- in the transcript.
+So, uh, some conclusions.
+Well, first of all, this will be a hard task.
+It is not easy to implement task.
+Because of the nature of the text and because of the nature of  of spoken language.
+It's not easy to, to preserve correctness.
+And to to identify the main, the main topics, the main sentences, the main phrases that we have in a in a in a meeting, uh, transcript.
+And of course the the we want to put all of them in the, in the summary and the big problem is the lack of domain data.
+Because the meeting transcripts are hardly found online and our work I guess with recording our meetings is not that producing huge amount of data.
+And of course the quality of the data that are produces should be carefully checked.
+So, uh, if there are any questions?
+Should I close the slides?
+(PERSON8) Uh, uh, uh, I have a question to your presentation with different steps.
+For for example to dialog summarizations and other at the scheme.
+Which steps have you already em-, uh, implemented?
+Did you?
+Do you have <unintelligible/> summarizations?
+And my next question is: "Where can I find it?"
+So I'm a little bit, uh, un- unaware of your progress in this direction.
+(PERSON6) Well, you can find it in the GitHub repo actually.
+So you did it?
+You have the systems for dialog summarizations, yes?
+(PERSON6) No, no, no.
+Uh, I mean, all-.
+Everything that is -.
+All the data, the code and everything is in GitHub repo but we don't have yet the working basic prototype.
+Because the first-.
+Like the goal is to finish to have it, to have the basic prototype.
+The basic prototype means that the agenda completion, the four steps so this step, the step of the pipeline is not uh available.
+So we have only these steps until the dialog meeting, minute is produced.
+So the agenda is not-.
+It's let's say an extra feature.
+So the the goal is to have the basic prototype.
+That goes from the dialog transcript, uh, text segmentation uh segment summarization, dialog summarization and dialog minutes.
+And for the moment we don't have it, because, uh, uh, the first experiments that we run with [PERSON4] produced the produced bad results.
+So we have to go back to these two steps that are the text segmentation.
+The text segmentation is good.
+It's finished correctly I guess, because the quality was nice.
+So we have now-
+We have to go back to the task five point two and five point three to improve their quality and then, uh, we can see the basic prototype finished.
+(PERSON2) Yeah.
+(PERSON8) So we are now work-.
+(PERSON2) If I may say-.
+(PERSON8) Mhm.
+(PERSON2) Uh, sorry [PERSON8], please ask.
+(PERSON8) You are now working on the prototype?
+(PERSON6) Uh, yes.
+(PERSON8) Mhm.
+(PERSON6) The goal is to improve these two points; five point two and five point three.
+So that we have an acceptable basic prototype.
+From the quality-.
+From the output quality point of view.
+(PERSON8) Okay, okay.
+(PERSON2) Yeah, yeah.
+(PERSON8) An, and, may I ask one more?
+Or are you going to, uh-?
+(PERSON6) Sure, sure.
+(PERSON8) The next question is kind of naive question generally about the situation.
+When we saw the task like performing, it had two summarizations for the same text.
+Are you able to say that they are, that these two summarizations are the summarizations for the same text?
+(PERSON6) Um, from the quantity.
+From the automatic evaluation perspective, I guess you cannot say, because if we have high scores, like Rouge scores for both of them.
+It may happen that we have high Rouge scores for both of them but then, in the next step, the person reads the two summaries, one of them can be excellent and one of them can be junk.
+So, I guess that's the human evaluation that will tell.
+But, that will say, that, uh, probably, they are enough similar.
+So they come from the same transcript or that they are very different.
+So there it should-.
+There should be a human evaluation about that.
+(PERSON8) So you think that automatically, so you think that automatically we cannot make it.
+(PERSON6) No, uh, in this task we are working on.
+The automatic evaluation is very partial, is, uh, must be followed by a human evaluation.
+(PERSON8) Okay, thank you. 
+Okay.
+Thank you.
+(PERSON2) So thank you [PERSON6] for this great summary of, uh, the work package.
+Uh, and the task commons, uh, this is a-, this is, uh, this is exactly what what I wanted to hear from you.
+That's that's good.
+Uh, and I'm-.
+I have a question, which is very much related to what [PERSON8]'s question was.
+The first one.
+Like how much of this is actually implemented.
+My question was, uh, actually just asking for details.
+So, uh, in some of the uh, tasks, for example, the text segmentation.
+You mentioned, uh, by eye bowling, the outputs, uh, the segmentation looks like a finish component and and works well.
+This is great to hear.
+But we would like to see the outputs, uh, on our meetings as well.
+So, uh, if you can share the the full outputs, uh, on on the meetings that you ran so far.
+And also, if you have any, uh, uh, those measures, any scores for each of the tasks, each of these components that can help us to uh, to see, what is uh, the the performance that would be useful to put into the slides.
+So these slides are very good.
+Not only for our group but they also are the good basis for the user and advisory board meeting, which we have next Wednesday.
+And the dry run for uh, for this like preparatory meeting, actually.
+Not, not that we should test the presentations, but a preparatory meaning is tomorrow, uh, at ten.
+Uh, the summarization would be there presented, uh, at the user and advisory board meeting, only with a five minutes slot.
+But still, this is the the basis.
+These slides are great for that, uh, and I would still like you to complement the slides with some numbers.
+Uh, that if you have any.
+Uh, that say how each of these components is working.
+And then sample outputs, so that we can-.
+But just by looking at the sample output so that we can see-.
+What, exactly what you had.
+What you said.
+So you said that this, this component is is too bad.
+Uh, this component is good.
+We would like to see the outputs as well so that we can make our own judgment.
+Uh, uh, at at the same time to compare it with your judgment.
+So if you could this it will be very useful.
+(PERSON6) Yes, sure, I mean-.
+These slides, these slides, these slides are kind of basic.
+And-.
+(PERSON2) Yeah.
+(PERSON6) They will be and they will be extended in the future for sure.
+With more details, more tables with results and samples.
+(PERSON2) Yeah.
+(PERSON6) Like <unintelligible/>
+(PERSON2) Sure.
+(PERSON6) So we can-.
+First of all, let me explain that all the experiments that I've conducted so far are run using the [ORGANIZATION7] and [PROJECT1] data.
+(PERSON2) Mhm. Okay.
+(PERSON6) Actually it's a union of the both collections.
+That we have, that we produced.
+(PERSON2) Yeah.
+(PERSON6) And the yes, I have already have some numbers about the tasks and go to some on.
+Yes, I can, I can extend the slides.
+The slides sill be extended gradually.
+It will be gradually extended sure. 
+(PERSON2) Yeah.
+So this would be very useful.
+Even for the user and advisory board meeting next Wednesday.
+And even if then, in the end, I'll tell you: "Well, let's not present the results, unless someone asked for the arts for that."
+I would like to see the the numbers myself.
+Uh, so that.
+Yeah.
+And uh, to, to put your work on this complex pipeline to the context of others, uh, uh, in the team.
+So [PERSON9], [PERSON7] and also perhaps [PERSON4].
+I see you four as like potential future competitors in the shared task of ours.
+And your complex set up, which follows what I outlined-.
+But you can absolute change if if needed, uh for [PROJECT4].
+That should be one submission.
+So let's call it a pipeline system.
+Uh, another system that I still think someone should try again would be the shortcutting, that you had on one of your previous slides.
+So if you can go back, uh, there.
+Uh, um, the idea is that we would simply train neural network, yes?
+And that would immediately produce the dialogue summarization.
+Uh, this would be an abstractive, uh, model, very, technically very much similar to sequence to sequence, uh, uh, known from machine translation.
+Except that the goal is to transfer it from the long and noisy English transcript into the short, and concise, uh, English summary.
+So I think someone uh, possibly [PERSON7] or [PERSON9] should, try or possibly [PERSON4], should try this as well.
+And this is a kind of the abstractive approach.
+And someone should also try some immediate, like direct, uh, extractive approach, I would, uh, suggest. 
+So these are at least three different, uh, approach is that we should try to run all of them and have them compete in the shared task that we ourselves create.
+To see, which of the approaches, uh, is the most viable.
+(PERSON6) Yes.
+Sure, I mean.
+Oh, yes, the the idea to try different different variants, different, uh, different models.
+Uh, and but-
+(PERSON2) Yeah.
+(PERSON6) Of course, I said that-
+The automatic evaluation numbers should be followed by some human evaluation.
+(PERSON2) Yes.
+(PERSON6) And the possibility, for example, is to use a kind of use star, stars theme.
+Like for example one, two, three stars for example.
+(PERSON2) Yes.
+(PERSON6) An evaluator, an evaluator will check on the available the summaries.
+The meeting, uh, the meeting with the available summary and the generated one.
+And will have to to to evaluate the scale at which they match each other.
+Let's say with stars, that  one star that is terrible.
+That is the worst, that is bad, very bad.
+And the five stars that in that is an excellent matching.
+(PERSON2) Yeah, yeah.
+ Yeah.
+So the the design.
+This is an auto.
+This is a manual evaluation measure.
+And exactly as I was telling you at the beginning.
+We all have to design it.
+And I uh, your star system is similar to like to the direct assessment, uh, that is known from the [PROJECT2] machine translation evaluation.
+But, uh, I would kind of prefer separate precision and recall in some way.
+So that, uh, we would know, uh, whether all the necess-, all important content was captured in the summary.
+That's the recall.
+And whether what the summary brings his precise, uh, in other words, an adequate, uh,  repre-, shorter version of what was said.
+(PERSON6) Oh, yes.
+Of course.
+(PERSON2) But this is a.
+This is to be discussed.
+So the annotation uh, the manual scoring has to be fast and easy.
+And people need to have reasonable agreement, uh, on that.
+So, uh, we need to to do few things.
+So this is for [PERSON8] to to think about.
+And perhaps for [PERSON9] to think about the, uh, the manual evaluation measure.
+The details of that, how exactly we want to run it for that.
+So I think there is lot of input, uh, and possible tasks for, uh, each of us.
+So, uh-.
+Yeah, it would-.
+We'd  just need to divide the work so that we do not duplicate our efforts.
+But rather a compete uh, run competing approaches and complement ourselves in all the um, uh, in all the useful, uh, bits and pieces.
+And I had one more question.
+And that was related to the task five point four; the agenda completion.
+Uh, I think that this is a like a possible extension, uh, in the sense that already at the end of task five point three, you have uh, the summary of the whole meeting.
+Uh, but you don't have that aligned to the original agenda of that meeting.
+And, uh, I think that, uh, already at the output of five point three.
+You should be able to measure the similarity of this automatic meeting, uh, to the, uh, pre- prepared manual, uh, summary, uh, and do other things with that.
+Uh, but obviously, you would not still make the user happy, because you would not to tell him how much of the original agenda was covered. 
+And and uh, where parts of the original agenda are discussed in in the meetings and so on. Do I understand correctly that this is like this?
+(PERSON6) Yeah.
+(PERSON2) So the the output of task five point three is already something which essentially [PERSON8]'s annotators are now doing.
+Because they-.
+(PERSON6) So, in the footage here we have these-
+You see like.
+We have these two blocks.
+And these two blocks have <unintelligible/> other block.
+So task five point three gives us a dialogue meeting.
+And then task three, five point four gives us the filled agenda.
+So it's very clear like.
+(PERSON2) So the-.
+(PERSON6) The basic prototype.
+ <unintelligible/>
+Taks five point three gives us a dialog meeting and then the agenda will be completed as the filled agenda.
+(PERSON2) Yeah.
+So to to to make absolutely clear that.
+To to make it absolutely clear-.
+(PERSON6) What you said it is correct.
+(PERSON2) If you remember the screen shot or the screen share that [PERSON5] was providing.
+The transcript is something which is given.
+So that was the left hand box in that screen shot.
+And we had the right hand box, and that contained the manual version.
+And the manual version-.
+My question is: "Of what?"
+Of the output of task five point three or five point four?
+(PERSON6) The manual minutes you mean?.
+(PERSON2) Yeah, the manual minutes.
+There was the manual.
+So it was like mocking of of faking the the system by doing it by humans.
+Uh, but if it was automatic, uh, would it be the output of five point three or five point four.
+(PERSON6) Five point three is the automatic version, the  the dialog meeting is produced by task five point three.
+(PERSON2) Okay. 
+Yeah, yeah.
+(PERSON6) And then it will be compared.
+It will be compared with the the manual, the the golden or the reference transcript.
+(PERSON2) Yes, yes, yeah.
+Okay, yeah.
+(PERSON6) For all these meetings that we have.
+(PERSON2) Yeah, yeah.
+The current status of your uh-.
+Thank you, uh, for the the clarification.
+So the current status of your implementation and experiments is that you have successfully used the [PROJECT1] and [ORGANIZATION7] corpora have to go through task five point one.
+And there you are a quite happy with the segmentation.
+Uh, uh, the segments summarization uh, you are also kind of happy, because there is plenty of data sets.
+Or not plenty, but there are some data sets for sentence level compression.
+(PERSON6) Yes, there are some.
+(PERSON2) Uh, and you are not yet quite happy with the results of five point three, but you have some preliminary outputs.
+(PERSON6) Uh, yes, yes?
+(PERSON2) And and so far, we have nothing from five point far, uh, five point four.
+(PERSON6) No, nothing from five point four.
+Or as I said, the the outputs are the the expected expected minutes of the, uh, the union between [ORGANIZATION7] and [PROJECT1].
+So this data set that is the union of both of them was tested.
+And the, and the results that that came out from the generative, from the big models.
+So um, were kind of adding in the sense that they didn't really match well.
+Uh, but reference-.
+(PERSON2) Yeah, yeah.
+(PERSON6) In my experience I reference-.
+(PERSON2) So can you-.
+Can you send us these sample outputs, or maybe if you have them on your machine?
+Can you directly share them?
+If it is easy for you to find.
+So that we see how-.
+(PERSON6) Oh, I don't think it's easy for me to find them right now.
+<laugh/>
+(PERSON2) Yeah, yeah.
+So please, please send them send them later.
+In the in the coming days, so that we have an impression, uh, how how bad, the uh, current outputs are.
+So what is our starting point.
+What is our baseline at the moment.
+And I expect it-
+(PERSON6) So I will try to put together some samples.
+Like the reference minutes from [ORGANIZATION7] and [PROJECT1] and the ones that were produced.
+(PERSON2) Yes, yes, exactly.
+(PERSON6) I will try to put them into alignment together.
+And so that it's easy to, to see to see the-.
+(PERSON2) Uh, well, send us the source files, because both [PERSON9] and [PERSON7] should try this exercise of aligning it also for themselves.
+(PERSON8) Yes.
+(PERSON2) So you don't have to do it yourself.
+It will.
+It will be useful also for both [PERSON7] and [PERSON9] to uh, to try it out.
+(PERSON6) Yes, sure.
+(PERSON8) And for me it would be interesting to compare your outputs for, on the [ORGANIZATION7] corpus with the manual summaries.
+That they have.
+Did you look at them?
+You compare the manual summarizations, or or the [ORGANIZATION7] summarizations with your outputs?
+(PERSON6) Yes, as I said.
+The Rouge scores are low and also the-.
+If you see it, you will see significant differences.
+The quality differences and the actual-
+(PERSON8) Yeah, but did you look at them just with your, with the eyes?
+Are they similar?
+So what your results and they made.
+(PERSON6) They had some common words but, I mean, the produced summaries are not correct.
+From the grammatical point of view.
+And they just just get some words from the transcript.
+<unintelligible/>
+They are not really-.
+They cannot be considered real minutes.
+Like-.
+(PERSON2) Yeah.
+I also think that the quality, the baseline quality would be too bad for for linguist to look at.
+(PERSON6) Yes, sure. 
+For sure.
+That's for sure.
+(PERSON8) Well, but there are actually two points.
+One thing is that they are not grammatically correct.
+And the second point is that they are semantically correct.
+So, the-
+(PERSON2) Yeah, I I think it would it.
+They would be actually pretty bad.
+It will be just the garbage words, uh, interleaved with some correct words.
+(PERSON6) Yes, that's exact.
+And however-
+Because you should know how Rouge works.
+However, this creates some, let's say medium level Rouge scores, which are not really representative of the quality of the, of the output.
+(PERSON8) Mhm.
+E  So this is why I am again emphasing the fact that the human evaluation is, uh. essential.
+Should essentially follow the automatic evaluation.
+(PERSON8) Uh, and how it would work this human evaluation.
+For example, I I would actually I would really like to make this human evaluation myself.
+But ,uh,  maybe we should in invent some measure how I would say how, how I would evaluate it.
+It is very bad or it's very good.
+(PERSON6) As I said, the simplest way, the simplest way to do this.
+And that is also very common method to do this.
+Is to use the five star scale from one to five starts.
+So your check both of those text fragments, you check the reference minutes and you check the generated minutes.
+And you see how they relate together.
+And you put one if they are like totally-
+Like the the generated minutes it's it's rubbish.
+It's totally unrelated to the, to the reference minutes.
+And you put five if it's related semantically-.
+If first of all if it's grammatically correct and second if it's semantically related to the to the reference minutes in the sence that it it it gives the same information.
+Like almost the same information in the same, uh, with the similar length, like with the same concisement, let's say.
+(PERSON8) Yeah.
+Maybe it is a good thing to do in September, as we are all in [LOCATION1].
+(PERSON6) Uh, yes, probably yes.
+(PERSON8) I will, I will meet you and maybe we will try to make this estimation.
+(PERSON6) Yes, sure.
+(PERSON8) Mhm.
+(PERSON2) And and the same time.
+Both [PERSON7] and [PERSON9] can also contribute ideas on the design of the manual evaluation methods.
+(PERSON6) Yes, surely.
+(PERSON2) So Rouge is surely based on some imp-.
+(PERSON6) There are also other-.
+There are-.
+(PERSON2) Yes.
+(PERSON6) There are also other alter-,.alternatives in the literature so.  
+This is very simple what I-.
+This five star-.
+What I'm proposing is very simple to do.
+But there could be other like, uh, methods I don't know.
+Probably invo-, involving different evaluators like sharing the the the samples.
+Or I don't know-.
+Having some integral-.
+(PERSON2) So-
+(PERSON6) Some agreement between them.
+Or something like that.
+(PERSON2) So again, we need a little survey on this.
+Uh, by by someone.
+If someone can volunteer to provide survey of methods of manual evalution of summaries.
+That would help us.
+(PERSON9) Oh, [PERSON2].
+I did.
+I'm did do the same.
+And probably I can continue on that.
+(PERSON2) Okay.
+(PERSON9) Maybe just an analysis.
+(PERSON2) Yeah, that's good.
+(PERSON9) Mhm. So I wanted to ask a question [PERSON6].
+Uh, that we were trying to uh, to compare two minutes from semantically.
+Using an automatic metric.
+So what what would you suggest for that.
+(PERSON6) Well, there are different methods for this, uh, semantic-.
+There are different evaluation possibilities like-.
+The most basic should be the Cosine similarity.
+You just get the Cosine similarity of different, uh, corresponding word embeddings and then you have automatic-.
+You have a scale, you have a metric of comparing them.
+But there are different possibilities.
+This LDA, LDS, there are different methods that give-.
+That just get the, compare the text and <unintelligible/> the text, the text fragments and give the scoring as an output.
+So there are different ways to do that like.
+LDA is probably one of the most common.
+<unintelligible/> location is one of the most common.
+(PERSON9) That's probably for the dimensional interaction.
+So, uh, that would eventually help.
+Uh, so, uh, uh, so, uh, uh,-.
+As you already said, even if we build an automatic metric, we should follow that with an manual metric or manual evaluation by a linguist.
+(PERSON6) Well I wouldn't say that we will build.
+We will just use the existing metric like Rouge or Gather like at One or Recall.
+As [PERSON2] said.
+There is no need to build the whole new metric.
+We will use the existing metrics and we will have some scores.
+And as I expect, the Rouge scores are usually very like-.
+Not, there are bad representatives of the quality because they just match the the words-.
+And if there is word repetition or other words we will get Rouge or high Rouge scores.
+That's-.
+That happens.
+Which really happens now.
+And we won't have an idea, the real idea about the quality.
+So, no matter what metric, what automated metric we use in this task, human evaluation is really necessary.
+(PERSON9) But if you talk about Rouge uh it's it's performing good for the for the manual data which, uh, which is shared by [PERSON8].
+So, uh, because actually Rouge is actually a word word based metric so, uh, so I probably don't think that it's going to give us the similarity sense of two the documents.
+The two minutes.
+(PERSON6) Yes, maybe.
+(PERSON9) So it might, it might help the Rouge score if you just have the automatic minuting system and then we compare, uh, it with the, with the manual one.
+Then probably we will have higher Rouge scores, in that case Rouge scores will be, will be helpful.
+(PERSON6) Yes, probably, like, they should be an indication of what to expect.
+<unintelligible/>
+(PERSON9) So yeah, yeah.
+One more thing [PERSON6] I wanted to know.
+That in this text segmentation, have we used some some tools or is it is it, uh, is it NLTK or Space_C or the basic structure like NLT we use when removing words <unintelligible/> and segmenting.
+(PERSON6) Uh, I guess I just performed the very basic steps like tokenization with Stanford and  Coroner LP or-.
+And probably some text cleaning, some basic cleaning-.
+I have to -.
+I'm I'm not sure about this, I just have to go back to the code.
+But from the-.
+Like I used.
+I remember that I used unsupervised-.
+I used clustering methods for this text.
+You you mean five one, right, text segmentation.
+I tried clustering algorithms that split everything in sentences and then I tried to aggre- to aggregate together the different sentences.
+On the-.
+Using the Cosine similarity and then trying to cluster together the most similar sentences in the different clusters.
+This is what I remember for five one.
+(PERSON9) Okay, so you mean we used Stanford NLP library for, text, for pre-processing of text segmentation.
+(PERSON6) Yes, I'm not sure about it because I I guess I've implemented <unintelligible/> myself.
+Like function that imitates the the Stanford coroner tokenization but is based on Python libraries.
+Because I'm pretty sure I didn't use Jamba.
+I have used everything in Python so I've probably used this, uh, this imitation function that I've created myself.
+But "Yes" in the sense that, from the-
+It's like very similar to the Stanford Coroner thing.
+(PERSON9) Okay. 
+Thank you [PERSON6].
+You're welcome.
+(PERSON7) May I ask you something [PERSON6]?
+(PERSON6) Sure.
+(PERSON7) For the <unintelligible/> summarization part I just lost connection for a few minutes.
+Maybe I just missed this information that I want to ask you.
+(PERSON6) For task five three.
+(PERSON7) Yeah, five three, yes.
+(PERSON6) Okay.
+(PERSON7) In that part, which models exactly you've used for that part.
+(PERSON6) Uh, well I remember I used some big transformer based models.
+Uh-.
+(PERSON7) Transformer?
+(PERSON6) Yes, transformer based models yes.
+(PERSON7) Mhm.
+(PERSON6) Actually there was one that was also based on Burt heavy like really heavy models and of course trained on CNN Daily Mail because I need big data.
+So yes, I've used some big models like that.
+Like sequence to sequence matching models, based on transformer.
+Like they are already available somewhere.
+I will just find them and I will tell you.
+(PERSON7) Mhm.
+(PERSON6) Like what we-.
+So it's like that like existing transformer based architectures.
+(PERSON7) Yeah, I just wanted to know that.
+Which ones we tried.
+And-.
+(PERSON6) Yes.
+I will just have to find it in the repo and I can tell you.
+(PERSON7) Okay, thank you.
+(PERSON2) Yeah, great, thanks.
+(PERSON2) So if there are no further questions.
+Uh, then I, uh,  I would like  like to ask [PERSON8] to present.
+Probably using the document that we have for this, uh, call.
+Uh, to present the status of our own data sets.
+(PERSON8) Okay, uh just moment over many tried to present in it.
+But [PERSON6] please stop presenting.
+Otherwise I can't uh, um, begin presenting.
+[PERSON6].
+(PERSON6) I have to close my slides I guess, right?
+(PERSON2) No, no, no.
+(PERSON8) Yes.
+(PERSON2) Stop presenting is more important.
+(PERSON8) Stop presenting.
+(PERSON2) So just escape some-.
+Or leave the full screen mode if you are on there.
+(PERSON6) You are presenting.
+Stop presenting.
+Okay.
+(PERSON2) Yeah.
+(PERSON8) Mhm. Okay.
+Now I can start presenting.
+(PERSON6) Okay.
+(PERSON8) Am I presenting?
+<other_noise/>
+(PERSON2) Not yet. 
+We don't see it yet.
+(PERSON8) It takes some time.
+And it says to me that it's waiting.
+(PERSON2) Maybe waiting for the confirmation of someone?
+(PERSON7) and or [PERSON9], can you?
+(PERSON8) No, that it asks me, uh, -
+(PERSON7) No, I don't think so.
+(PERSON9) <unintelligible/>
+(PERSON2) Yeah, it's coming.
+(PERSON9) Yeah, it's-.
+(PERSON8) Can you see the table?
+(PERSON2) Yeah.
+(PERSON9) Yes, we can [PERSON8].
+(PERSON8) Okay.
+Well, actually I don't have too much to say.
+More to what is given in the agenda.
+The data-.
+This is just my table of the annotations.
+So we can see, uh, that, uh.
+So we annotate English and meetings.
+There we have, uh, little bit more meetings for English than for Czech.
+The total number of hours, uh, in English is, uh, uh, um, about ninety two hours, at the moment a little bit more.
+I haven't put all into the table.
+It's something a little bit less than one hundred hours of meetings what we have.
+And for uhm.
+This is sixty four of our manual transcripts, sixty four meetings transcribed.
+And uh, and twenty five of them, uh, twenty four of them are double transcribed.
+And we have sixty three minutes generated.
+Uh, so, we have generated minu- minutes for sixty three meetings.
+And uh, ss, seventeen of them are doubly minuted.
+So, uh, for the time being we, uh, uh, sixty five hours transcribed and sixty four hours minuted.
+That's for English.
+And for-.
+(PERSON2) Yes, that's what I-.
+(PERSON8) And for Czech, And for Czech we have fifty hours of minute- of meetings uh, and out of that almost, uh, almost all of our Czech meetings are minuted and transcribed.
+So about, uh, so, so, this are the data.
+And I can show it here.
+If you, if you look at the agenda, the the numbers are here.
+So quite a lot of -.
+(PERSON2) Yeah, that's a great progress.
+Uh, since the last time, uh, this was used for the evaluation.
+Uh, So I think it definitely deserves to be converted to the format that [PERSON6] can digest.
+So we can see the Rouge scores for the [PROJECT1], [ORGANIZATION7] and then [PROJECT4] data sets.
+Because we are in, onthe on the size of of these corpora already.
+(PERSON8) Yes.
+And I think-.
+And compared to [ORGANIZATION7] and to, uh, second corpora, corpus we have more minutes, we have more summaries.
+(PERSON2) Yes.
+(PERSON8) And some of them are double summaries, uh, double uh abstracted and that's what [ORGANIZATION7] doesn't have.
+(PERSON2) Yes.
+(PERSON9) And I think maybe the quality is also good.
+Because I even checked the the scores on this data set, I think only on fifteen minutes which [PERSON8] did share.
+So I think we are getting more good score on the one which we have.
+The data set we have.
+Uh, I think that we don't have [PERSON6] with us.
+(PERSON2) Yeah, it's possible.
+<laugh/>
+(PERSON8) It's an empty room.
+<laugh/>
+(PERSON9) Yeah.
+Anyway, we we-.
+I I probably did experiment in this and we do have a better quality then the then the already existing data sets.
+So, uh, this data set will give, is giving uh, more good overall score.
+(PERSON8) Aha.
+(PERSON2) Yeah.
+And, uh, I wanted to mention to [PERSON8] that [PERSON10], should later, like within two months from now, probably, get some capacity for [PROJECT4].
+To help us with the final, uh, the paperwork that needs to accompany this.
+So that we have all the consense and at the end of the project we can really release clean and safe version of the datasets.
+So [PERSON8], please plan that.
+Also, please plan that the annotators will be needed later on, during the next year.
+Uh, to do the removal of any personal data from the files.
+And and all that.
+So we really have, uh, the data set that is publishable and it's to the best standards.
+Uh, hm, uh in this in these terms as well.
+(PERSON8) Okay.
+(PERSON9) I think we have [PERSON6].
+(PERSON2) Yeah.
+So now I think it is we have covered everything that we needed for this introductory, uh, call.
+And I would like to ask, uh, uh, [PERSON6], uh, to provide us later on if as I mean, wrong
+now, with summarizing with what we have discussed.
+But so please correct me.
+But [PERSON6] I would like to the get the scores from you.
+And the sample outputs.
+Can someone please record this to the agenda, uh, of this call, uh, uh.
+So that at the end, we have like a summary of what uh, what people should do.
+So [PERSON6] to provide us with the sample outputs, uh, the scores, so that we will also see what you already know that medium Rouge scores, actually easily correspond to very bad outputs.
+We need to have the same, uh, knowledge, the same experiences as you already have.
+Uh, and I would like-.
+You were, you were not present here [PERSON6].
+I would like to ask you you to uh, to tell us what is needed so that you can redo your experiments, also with our own English data, um, and  maybe even the, uh, Czech data.
+So be-.
+So that is what is the way that you are using the [ORGANIZATION7] and [PROJECT1] corpora. 
+Do you split it into training and test set?
+Or do you only use it as the test?
+(PERSON6) No, it's only test sets.
+(PERSON2) Only test sets?
+Yeah.
+So that means that your methods are dependent on the so whatever, uh, you CNN Daily Mail.
+(PERSON6) Daily Mail, yeah.
+(PERSON2) CNN Daily Mail.
+And that means that you cannot easily use it.
+Well, you could.
+Uh, you you could use it also for Czech, but not a transferring from CNN Daily Mail, but transferring from Sumecek.
+(PERSON6) Yes.
+(PERSON2) So have you heard of Sumecek?
+(PERSON6) No, but I guess it's something that i can learn-.
+(PERSON2) That's a that's a corpus that has been developed by [PERSON1] and colleagues.
+It's on [PROJECT3] if I'm not mistaken.
+So search, uh, [PROJECT3] out for uh, like, uh, as I write it, S-U-M-E, uh, Sume Sumecek.
+Uh, which is a name of a fish in in a Czech language.
+And this could be the, uh, training data.
+It's, uh, news, uh, uh, uh, articles and and titles, and you could train a similar style of summarization, the components as you did for the English.
+So I would like you to evaluate, your pipeline, uh, in its current status.
+Each of its components on the English part of [PROJECT4], uh, summarization test, the summarization, uh, data set.
+And, uh, if you could retrain that a pipeline on Sumecek and try it on the Czech summaries that [PERSON8] is collecting.
+And this can easily involve, uh.
+So so the training is on you.
+It is obviously something which will take weeks.
+It is not something that will be done within days.
+(PERSON6) No, it takes like.
+I guess it takes four or five days.
+Maximum.
+(PERSON2) Yeah, yeah, yeah.
+Okay.
+So-.
+(PERSON6) It's supposed to be faster than on my laptop.
+Because-.
+(PERSON2) Yeah, yeah, yeah, yeah.
+Okay.
+And, it will also need probably some conversion of the format from the current status of the summaries and transcripts to what you expect.
+So, uh, if [PERSON4], uh, would have the capacity, then I think that [PERSON4] could help you in This conversion.
+So that you get faster that-
+(PERSON6) <unintelligible/> because the new data of [PERSON8], I think they are they are in the plain text.
+They are not in XML.
+(PERSON8) Yes.
+(PERSON2) Yes, but still.
+They they have to be converted to the items as you expect of them, probably.
+So there, uh, I assume that some conversion may be necessary.
+Uh.
+So it's.
+I'm, yeah, you have.
+You have look at the data, and you will say.
+And I'm I'm putting this as a question to to [PERSON4].
+If he would have any capacity now on, uh, for working on this.
+Uh, and uh, if if he has the capacity.
+Then yes, this is an an option for you to, uh, to get faster to to that result.
+But it is it depends on, [PERSON4], obviously.
+And it primarily need- depends on the need, uh, of of this conversion.
+So that will, uh, be the the pipeline system.
+As I said.
+And [PERSON7] is still busy with finishing his thesis is in the coming weeks.
+So will I do not expect much of progress from [PERSON7] on his own models until September starts, uh?
+And but but please try to, uh, work on the the task proposal, or watch a proposal.
+And and so on.
+And,uh, for [PERSON9], you will be or you are already in close touch with [PERSON8].
+And, uh, uh, you are quite free to choose what you would like to work on, um. as the first thing.
+But you are kind of already working on the similarity, uh, uh, measures.
+So try to look at the data again.
+Try to come up with the automated measures.
+Maybe the abstract-, uh abstractiveness and extractiveness could be, could be a first, uh, uh, easy to reach stepping stone.
+Like an intermediate goal.
+(PERSON7) So hi [PERSON2].
+Can you hear me?
+(PERSON2) Yes.
+(PERSON7) So I just want to <unintelligible/> from you.
+So, we are going for the for joint corpora workshop, right?
+(PERSON2) Uh, well I don't know what joint simply.
+Yes, cort-, cor-.
+Yes, so joint you mean all ICL.
+(PERSON7) Yeah, I mean I mean.
+Yeah, yeah.
+So you know like for every workshop we have <unintelligible/>.
+Tuesday meetings 
+<unintelligible/>
+(PERSON2) Yes, let's definitely go.
+Let's -
+Yes, let's definitely go for this.
+(PERSON7) Yeah, okay.
+(PERSON2) And and I remember that you mentioned Ed Howe and another colleague that you could get in touch.
+So that we would get the sence of the D.U.C. conferences.
+Uh.
+(PERSON7) Yes, yes, yes I will do that.
+(PERSON2) and their results so there is nothing form the past, uh, that is important and we may forget.
+(PERSON7) Yes, okay.
+(PERSON2) And, so, uh, when I was suggesting that [PERSON9] is, uh, kind of free to chose what to do.
+Uh, [PERSON9], uh, you could be the person, in addition to abstractiveness extractiveness, uh, you could look at the, uh, um, the, the, as as [PERSON6] put it, the shortcutting of the approach.
+So you could try training, uh, sequence to sequence models based on your machine translation experience.
+Uh, to do the direct cut.
+But this is again something that will take some time.
+So just keep thinking about it for two more weeks and only then, uh, start asking about the technical details.
+Like how to use our cluster, and and all that.
+So this is just for you think, uh, uh, a little bit ahead, uh, for.
+And think how to do it how to how to convert, modify the machine translations toolkits so that they, uh, will easily digest the different data and and all that.
+(PERSON9) Yes, surely [PERSON2].
+And I will, uh, consider this option.
+First I finish with this automatic metric.
+I think it will take, uh, two weeks to finish it up.
+(PERSON2) Yes, yeah.
+(PERSON9) Task which [PERSON8] is expecting from me so.
+And then I'll probably experiment with the sequence to sequence models which [PERSON6] give us an option with.
+(PERSON2) Yes, okay, great.
+So I think, uh, this was very successful first meeting, uh, and I suggest that we close it for now.
+And I would like to have one such similar meeting again in say early September.
+So on the eight of September, uh, there is the official review of the whole [PROJECT4] project.
+So this is something, uh, that we will be working for.
+Uh, we need to prepare the slides, twenty minutes per work package.
+So this will be for [PERSON8] and [PERSON6] a lot of work.
+So you won't hear from us, uh, uh until we are like safely behind this.
+But after after the eight of September I think it will be a good timing, uh, to, um, to run another such uh joint big meeting.
+And I would like to hear from [PERSON4], if he would have any capacity on this.
+And I would like to to hear from [PERSON7] where he would be going to.
+And from [PERSON9] what what would be your next steps and and, uh, so on.
+So, uh, let's let's have this timeframe in in our minds.
+(PERSON8) Okay.
+(PERSON2) Okay?
+So, if you don't have any further questions, uh, then, uh, that's that's great.
+And we'll be in touch by email.
+And I would like to just double check with our remote colleagues.
+So [PERSON9] what is the time in the day, when you have like your daily slot, uh, for for quick chats.
+Uh-.
+(PERSON9) So, so [PERSON8] and I have checked timing.
+I don't know which timing is that for [LOCATION1].
+[PERSON8] which time is that we have for [LOCATION1]?
+Do I <unintelligible/> [PERSON2] the entire day?
+So-,
+(PERSON2) Mhm.
+(PERSON8) So we just said it would be at 2 A.M., uh.
+(PERSON2) Uh, well 2 A.M no.
+<laugh/>
+(PERSON8) Sorry.
+Two o'clock in the afternoon according to the [LOCATION1] time.
+I have no idea what time is it in <unintelligible/>
+<laugh/>
+(PERSON2) Yeah, okay.
+(PERSON9)  Yeah, so it's.
+It's six <unintelligible/> for me so it's it's probably fine for me.
+So I am available the entire day.
+So whenever I need [PERSON8] I do message her.
+So probably you can also message me.
+We do usually chat and hangouts, so.
+(PERSON2) Yeah, so the idea is that you have-.
+This is the same thing we also should have with [PERSON7], once he is on the project.
+(PERSON8) Uh, I'm. 
+May I just-.
+May I just interrupt it for a minute?
+(PERSON2) Yeah.
+(PERSON8) May I just go out.
+I really-.
+My children need me really, really for half and hour.
+For last half an hour.
+May I just -.
+(PERSON2) Yeah. 
+I think, I think that we are finished.
+So thank you [PERSON8].
+And that's, uh, that's it.
+Thanks for your contribution to this and and like take care of your kids.
+And we'll be in touch later on.
+(PERSON8) Thank you everybody for taking part in the meeting.
+And I will address you later.
+Thank you.
+Bye. Bye.
+(PERSON2) Thank you. 
+Thank you.
+So let me just finish the idea of these daily meeting slots.
+Uh, so [PERSON7], uh, the agreement that we made.
+That we make with all remote colleagues is that we agree with them on some particular slot in the day, uh, where there is one person from the [LOCATION1] team.
+So for [PERSON9] it is [PERSON8].
+Uh, at that slot the the people every day will will meet.
+And that's the equivalent of like running into each other on the corridor or going for a coffee after the lunch.
+And the, uh, the point of this is is is that you feel like a part of the team and that you are never lost.
+Uh, never, uh, like let, uh, uh, uh, never left sitting with with a problem.
+And that you can every day like quickly ask for help.
+Obviously, uh, the help will not always come.
+Uh, but, uh, at least you have a chance to say.
+And we have you in in the team.
+So it's, uh, uh, 2 PM [LOCATION1] time for [PERSON9].
+If that fits well you, then you could join these as well.
+You can join them right now already or you can join these chats, uh, um, uh, later on.
+When you are like free from your thesis.
+And, uh,  for [PERSON4], if you would have the capacity, then you could also, uh, try these, uh, regular regular chats.
+So uh, uh, just let [PERSON8] and [PERSON9] know, uh, whether, both, Tuta- [PERSON7] and [PERSON4], let them know if you would like to, uh, join these chats.
+And they will, uh, tell you how how they meet.
+Because technically the the remote calls, uh, uh, are sometimes too bad so so text chatting is, uh, is safe, seems safer sometimes.
+(PERSON9) <unintelligible/>
+And [PERSON2] shared documents I guess.
+That's helpful.
+(PERSON2) Yes.
+Yeah.
+(PERSON7) Okay.
+(PERSON2) Yeah.
+So thanks to all.
+I don't have, I don't have anything further to say.
+Uh, so then you very much and we'll be in touch uh, uh, later on, right?
+Any comments from your side?
+So if, if there're none then then again thank you and I'm very happy with the progress that we made today.
+Okay.
+Thanks.
+(PERSON7) Bye.
+(PERSON2) Bye, bye.
+(PERSON7) Nothing from me.
+(PERSON2) Yeah, [PERSON7] this reminds me of the transcript.
+Did you manage to get the automatic transcript for the from the plug-in?
+(PERSON7) Bye, bye.
+Thank you.
+(PERSON2) Yeah.
+Thank you.
+I'll email you separately.
+<laugh/>
+Bye, bye.
+(PERSON7) Yes, I have that meeting.
+Yes, yes, yes.
+(PERSON2) So please send it by email to me and [PERSON8].
+(PERSON7) Okay.
+Bye bye.

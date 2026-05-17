@@ -1,0 +1,18 @@
+1.12.2020 13.00 CEST
+Attendees: [PERSON6], [PERSON5]
+- Preparing the meeting minutes and the documents about evaluation metrics
+- Discussing participants for the shared task
+-- Should be 12 proposed, we have 8 for now
+-- [PERSON6] is asking Moscow colleagues
+-- [PERSON5] is asking his colleagues in India
+-- Ask [PERSON3] and [PERSON1], maybe they know smb form the community 
+- [PERSON1] is leaving
+-- should he be in the organizing committee of the shared task?
+-- Would he propose the system 
+-- We need to have the results of [PERSON1]'s pipeline system for minuting. The overleaf document with numbers, tables and detailed description (so that even [PERSON6] could understand)
+--- description of experiments made
+--- which datasets have been used
+--- experiments results
+--- real examples of the output (how the output summaries/segmentation/whatever look like)
+--- link to code 
+

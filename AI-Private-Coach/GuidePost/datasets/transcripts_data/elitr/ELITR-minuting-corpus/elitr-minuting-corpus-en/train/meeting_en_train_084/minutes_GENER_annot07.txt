@@ -1,0 +1,24 @@
+[PROJECT1] [ORGANIZATION4] Remote Training
+
+
+
+
+Date: 12. 02. 2019
+Attendees: [PERSON17], [PERSON15], [PERSON10], [PERSON2], [PERSON3]
+Purpose of meeting:  Introduction of [ORGANIZATION4] Platform
+Agenda: 
+* Technical information for event 2020
+* [PERSON15]'s platform presentation
+* Testing stable recording client needed
+   * Recording on the fair
+   * Time stamps
+   * Separate channels for each stream?
+*  Producing more target language outputs at once
+* Long run testing
+
+
+
+
+
+
+Minutes submitted by:        [ANNOTATOR1]

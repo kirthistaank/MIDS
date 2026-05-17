@@ -1,0 +1,41 @@
+[PROJECT2] Small talk nr. 1
+Meeting Minutes
+11th February 2020
+
+Attendants: [PERSON7], [PERSON8], [PERSON4], [PERSON3], [PERSON1]
+
+Topic: Machine translation development
+
+
+Overview								
+• introduction + summary of work ([PERSON8], [PERSON1])
+• introduction + summary of work ([PERSON7], [PERSON4], [PERSON3])
+• discussion 
+• agreement on beginning of cooperation:
+o 	use of incremental systems ([PERSON8], [PERSON1])
+o 	use their measures ([PERSON7], [PERSON4], [PERSON3])
+o 	comparing results: stability, delay, [ORGANIZATION6] (everybody)
+• Deadline for first results of cooperation: 17th March
+
+New ideas									
+• put a wrapper around the ASR [PERSON3]
+• talk to [PERSON5] regarding the data from [ORGANIZATION7] ([PERSON7])	
+• align interpreter's sound and created transcript to compare differences with written translation ([PERSON4])
+• to do it differently than in the [ORGANIZATION5] paper: their „stable“ words increases the latency ([PERSON4])
+
+ New tasks 			    
+• finalize SLTF + test it on the data ([PERSON7], [PERSON3], [PERSON4])
+• send to [PERSON8]: [PERSON3]
+o 	ASR outputs + audio
+o 	all available inputs
+o 	all full log directories
+o 	output of punctuation insertion
+o 	output of sentence caching
+o 	output of MT
+• translation to German + differences [PERSON8]
+• add notes to shared Google doc ([PERSON8], [PERSON4], [PERSON7])
+
+
+
+Minutes submitted by [ANNOTATOR2]
+

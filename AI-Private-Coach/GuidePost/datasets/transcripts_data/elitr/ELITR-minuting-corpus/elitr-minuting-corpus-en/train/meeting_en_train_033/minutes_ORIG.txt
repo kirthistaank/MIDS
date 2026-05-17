@@ -1,0 +1,306 @@
+[PROJECT2] 2nd dry-run [LOCATION1]
+Tue Oct 1, 13 PM CEST
+Agenda 
+* Preferably [ORGANIZATION6] (to see the status of integration of MT in [ORGANIZATION6])
+* [ORGANIZATION3] as a backup
+o [URL1]
+o PIN:1234
+* Reminder of coordinates: [LOCATION1], Oct 9
+* [ORGANIZATION1] expects that all other partners will support the event only remotely. Or would anyone like to come to [LOCATION1]?
+* Setup:
+o ASR Languages: English, re-spoken English
+* We should be able to quickly switch between the two.
+o Target Languages: 50% Czech, 50% Other: Albania, Belgium, Estonia, Hungary, Germany, Latvia, Lithuania, Poland, Portugal, Spain, Sweden, Turkey, UK, Ukrajine
+* Pick a slot for test run session (with a live call at the same time)
+* Walk through the critical observations below, figure out if anything has been fixed or what can be fixed.
+* ([PERSON10]) Are the problems with incremental ASR fixed? I noted these on the mailing list, but did not get a response. Incremental ASR works fine from a text client, but in the previous dry run, the time stamps and ASR rewrites were inconsistent.
+
+Copied from [PROJECT2] Remote Meeting:
+* 2nd dry run:[ORGANIZATION11] organization meeting
+o Location: [LOCATION1]
+o Oct 9 full day & Oct 10 morning
+o Oct 9 up to 15:00 is in Lecture format, rest is discussion & Brainstorming
+o Hotel's free wifi guaranteed; Wired with 1Gbps uplink (no QoS will be set)
+o [ORGANIZATION4] will bring a pre-configured AP/router to simplify Attendee-NB deployment
+o [ORGANIZATION9] will be testing Czech Text-to-speech on Czech attendees
+o [PROJECT2] expected to show up for Oct 9, [PERSON16] for Oct 8
+o NBs will be provided. We are not required to stream slides.
+o No videomixer, but the congress will be run by a different company than VAT, so they'd like to talk about on-projector subtitles and see the green-screen output
+o Per-participant microphones - [ORGANIZATION4]'s -> same as [PROJECT1]
+o One en->en respeaker booth, likely with at least one respeaker
+o No. of participants: cca 26
+* 
+
+* Work through the list of issues collected at [PROJECT1] and try to fix them:
+Critical Observations from the Live Session at [PROJECT1]:
+* Monitor of all sound channels and all ASR output channels are critically needed on [PERSON16]'s machine; we had terrible X2 subtitles, I fear that some wrong sound was sent there.
+* => [PERSON16]: yes, it was a different language than announced in advance, it's OK
+* Can we somehow cut down on the delay in the platform? Who is doing the caching? The web browser? The fact is that there is simply so many updated, but each update should completely replace what the platform is showing. So nothing should accumulate.
+o ([PERSON5]) Many updates on the subtitles are hard to follow. Ideally, the presentation platform should have an internal record of the most up-to-date subtitle which reflects all incoming updates. The subtitle shown on the website should update only every ~1s
+o ([PERSON9]) I think it could be matter of the taste. I strongly prefer the presentation to be as fast as possible, simultaneous with the speech. Your perception could be different because you do not see the live situation.
+o ([PERSON10]) I find the subtitles change too quickly for me to read. I would assume that users will not have more than 2 languages displayed <unintelligible/> so we could have larger subtitle windows, and (ideally) I think the text should scroll through, and be scrollable. 
+o ([PERSON5]) We have experience with this from the Lecture translator, where we actually recently made the updates *slower*, because the translations and ASR hypotheses based on incomplete sentences are often garbage and it is very difficult to follow the changes. For example, if a sentence is incomplete and makes no sense, you take longer to read it. While you read it, an earlier part of the sentence updates and the part you were reading moves. Then, as more words come in, the text converges, meaning you need to read it again. The re-sending protocol is there to reduce latency, but the partial hypotheses and translations based on them are often not good. But ultimately, this is a user experience question and should be handled by whoever is developing the frontend, not by the researchers. We should focus on getting as good output as quickly as possible to the frontend.
+* A solid speech test set is needed, with transcriptions etc. We desperately need to improve the robustness of ASR models.
+* ASR quality is simply a show stopper. If people are disturbed, they always opt to hide the translation/subtitling. And even the correct content is causing a lot of disturbance, so any wrong word is critical.
+* Bad words: [PERSON9] records which words made it to the ASR and should be avoided (add any others that you spot; the long-term goal is to search for similar words in embeddings space and to somehow downplay them -- so domain avoidance based on sample words):
+o gay sword boatful demon lament mistress schoolmistress diarrhea fellatio kitty sub Soviet
+o Questionable: Pope Islam Soviet
+* Points of interest to debug for chopper:
+o X3, Thursday, 14.20-30: repeated outpu of Czech ASRt; was it due to chopper?
+* DÁLE TAKÉ NEEXISTUJE MOŽNOST RIZIKOVÉ MANAGEMENT
+* Important strategic decisions:
+o realtime pipeline vs. final hypotheses
+* We seem to oscillate between realtime processing vs. emitting fewer hypotheses less frequently. 
+* The best option probably depends on the particular setting and processing tools used.
+* A mismatch between the realtime vs. batched behaviour of the tools within a single pipeline can kill it.
+* For instance, we were sending too many updates and the presentation platform was not able to emit them, so they queued and the display was minutes beyond the floor.
+* People reported seeing many subtitles too quickly one after another. [PERSON9] has not seen this at all but now it occurred to him now that this must have happened due to MT delivering some output of a longer segment.
+* realtime display is critical in these settings:
+* interpreters/'respeakers' cabins, to allow people to adapt to the ASR, react to ASR errors 
+* when the listener understands the language of the speaker. [PERSON9]'s impression is that it is much harder to follow two streams if they are shifted/delayed with respect to each other.
+* [PERSON9]'s preferred solution:
+* all the components should be realtime, sending updates as fast as they can, and only the very final presentation tool should decide (and follow users' preferences) whether to show better outputs later or less reliable outputs sooner
+* Essentially, [PERSON9] would really prefer to switch to UDP for this! Perhaps only at the last bit of delivering translations to the presentation. The great benefit could be that many clients could be served at once.
+o Not to disturb the speaker.
+* The speaker himself should not see his subtitles, because he gets disturbed and cannot speak any more.
+* But he should have a chance to look at what was misrecognized.
+* The ideal setting would be e.g. the subtitles behind the speaker so that he can have a look.
+o Not to clutter the slides screen.
+* It would be better to display the subtitles on a totally separate device.
+* Or at least under reduced slides rectangle.
+o User interface improvements:
+* ([PERSON1]) Label telling you which subtitles are you seeing
+* [PERSON16]'s notes:
+o I had a script which runned ebclient and pipes behind it in a subshell. When I killed it with Ctrl+C, some processes remained in background, I had to find them through “ps aux”, but avoid the ebclient connected to recorder, otherwise they occupied the workers in mediator. This should be improved.
+* Also, I couldn't easily identify which worker was running, which was disconnected etc. 
+* One dead or disconnected MT worker in the floor pipeline killed all. It's better to do it more robust.
+* etc.
+o In case we don't have segmenter/punctuazer/caser for Czech, I find uppercasing all words better than lowercasing all, because proper names without first capital letter are ungrammatical, but everything capital is OK
+o The Czech ASR system was sometimes pretty accurate, but it often couldn't find a proper word because it doesn't have a rich vocabulary. Sometimes it finds incorrect, but very close form of a word. I suggest applying depfix or some stronger model to correct the outputs.
+* (PERSON6) I spoke with the interpreters and they said that what would have been really useful for them is not to have the whole sentences shown, but only the specific “terms”(the list we have sent them), which now they had to try to memorize, but if the ASR would recognise them (they were complaining about strong accents and wrong pronunciation of some words by speakers, e.g. scheme as “ším” or “skem”), it would help them a lot to form sentences (e.g. like translators have CAT (database of terms)). Some of the speakers were quoting the laws - very hard to translate
+o Overall - when I asked them, what was their feeling about it, they said that they would have done far better, if they would have the presentations ahead. Most of them found the translating (en-cz) quite hard, but even the en-shadowing was not that easy. They felt fairly unprepared (but not due to their laziness). -- they were not happy about the result.
+o They were interested, whether for the ASR systems is possible adaptation on accents
+* The'blinking' of the subtitles (empty lines shown occasionally) happens when chopper processes MT output. The reason is that chopper is limited to doing text matching to find out where the current update fits into the stream. For the gradually growing ASR output, this is OK, but MT easily changes the whole hypothesis and this approach fails. There are two options: (1) propagate proper timestamping so that chopper knows where new hypothesis should be placed in the infinite stream (preferred; no text matching would be necessary), (2) apply MT in a more incremental way. This would be much harder and we would have to set a threshold to decide when to redo everything and when the extension of the emitted partial hypo is still OK. So let's go for (1).
+* [PERSON9]'s overall impression was that the Czech ASR worked better than the English one, despite it is just a first shot, not a mature system that [ORGANIZATION5] has. The reason is most likely that Czech was spoken by native speakers while English was spoken exclusively by non-native speakers.
+o We discussed this also with [PERSON19] and we think that as a consotrium, we should collectively create a reasonably big non-native English speech corpus, perhaps even in the auditing domain. So we should select some interesting English [ORGANIZATION4] documents and have them read (via [ORGANIZATION6] recording, for instance) by as many people at each site as possible.
+* Segmentation for the final user is critical e.g. for extremely long German sentences. In the realtime mode, no time of the user should be wasted in waiting because the time can never be reclaimed back…
+o The bigger context + scrolling can hopefully resolve this.
+
+Minutes
+* Preferably [ORGANIZATION6] (to see the status of integration of MT in [ORGANIZATION6])
+* Pexip as a backup
+o [URL2]
+o PIN:1234
+* Reminder of coordinates: [LOCATION1], Oct 9
+* [ORGANIZATION1] expects that all other partners will support the event only remotely. Or would anyone like to come to [LOCATION1]?
+* Setup:
+o ASR Languages: English, re-spoken English
+* We should be able to quickly switch between the two.
+o Target Languages: 50% Czech, 50% Other: Albania, Belgium, Estonia, Hungary, Germany, Latvia, Lithuania, Poland, Portugal, Spain, Sweden, Turkey, UK, Ukrajine
+* Pick a slot for test run session (with a live call at the same time)
+o Wednesday Oct 2, 13.00 [LOCATION2] time
+o everyone should be on [PROJECT2].slack.com
+* Potential conflict with [ORGANIZATION6] mediator
+o Currently the same mediator is used for [ORGANIZATION6] and live sessions.
+o [ORGANIZATION2] should set up a new mediator.
+o The test session should already use the new mediator.
+* Slides streaming setup
+o [PERSON2] will take care of it & hopes it will work.
+o URL configured with [ORGANIZATION2] will probably need to change.
+o This will be tested only in [LOCATION1] on Wed 8 evening.
+* Walk through the critical observations below, figure out if anything has been fixed or what can be fixed.
+* ([PERSON10]) Are the problems with incremental ASR fixed? I noted these on the mailing list, but did not get a response. Incremental ASR works fine from a text client, but in the previous dry run, the time stamps and ASR rewrites were inconsistent.
+o When requesting unseg-text: The timestamps are in the packages, but the client has to be modified to show them (field names are startTime and stopTime in the tokenArray)
+* The start and stop times of tokens can change through resending
+* Algorithm which I have used:
+* Store each token with start and stop offset
+* When receiving a new message, find the first token which overlaps in time with the first token in the message
+* Everything before this token is now final
+* Everything after and including this token is overwritten by the new package
+o For text: The field names are startOffset and endOffset (ideally not start and stop, which are strings and inconsistent)
+
+Copied from [PROJECT2] Remote Meeting:
+* 2nd dry run:[ORGANIZATION11] organization meeting
+o Location: [LOCATION1]
+o Oct 9 full day & Oct 10 morning
+o Oct 9 up to 15:00 is in Lecture format, rest is discussion & Brainstorming
+o Hotel's free wifi guaranteed; Wired with 1Gbps uplink (no QoS will be set)
+o [ORGANIZATION4] will bring a pre-configured AP/router to simplify Attendee-NB deployment
+o [ORGANIZATION9] will be testing Czech Text-to-speech on Czech attendees
+o [PROJECT2] expected to show up for Oct 9, [PERSON16] for Oct 8
+o NBs will be provided. We are not required to stream slides.
+o No videomixer, but the congress will be run by a different company than VAT, so they will want to talk about on-projector subtitles and see the green-screen output
+o Per-participant microphones - [ORGANIZATION4]'s -> same as [PROJECT1]
+o One en->en respeaker booth, likely with at least one respeaker
+o No. of participants: cca 26
+* 
+
+* Work through the list of issues collected at [PROJECT1] and try to fix them:
+Critical Observations from the Live Session at [PROJECT1]:
+* Monitor of all sound channels and all ASR output channels are critically needed on [PERSON16]'s machine; we had terrible X2 subtitles, I fear that some wrong sound was sent there.
+* => [PERSON16]: yes, it was a different language than announced in advance, it's OK
+* Live monitoring -- yes or no?
+* -> it's there on the laptop which is sending audio
+* Can we somehow cut down on the delay in the platform? 
+* This is the purpose of resending, are the non-[ORGANIZATION5] workers using this protocol?
+* Who is doing the caching? The web browser? The fact is that there is simply so many updated, but each update should completely replace what the platform is showing. So nothing should accumulate.
+o ([PERSON5]) Many updates on the subtitles are hard to follow. Ideally, the presentation platform should have an internal record of the most up-to-date subtitle which reflects all incoming updates. The subtitle shown on the website should update only every ~1s
+o ([PERSON9]) I think it could be matter of the taste. I strongly prefer the presentation to be as fast as possible, simultaneous with the speech. Your perception could be different because you do not see the live situation.
+o ([PERSON10]) I find the subtitles change too quickly for me to read. I would assume that users will not have more than 2 languages displayed <unintelligible/> so we could have larger subtitle windows, and (ideally) I think the text should scroll through, and be scrollable. 
+o ([PERSON5]) We have experience with this from the Lecture translator, where we actually recently made the updates *slower*, because the translations and ASR hypotheses based on incomplete sentences are often garbage and it is very difficult to follow the changes. For example, if a sentence is incomplete and makes no sense, you take longer to read it. While you read it, an earlier part of the sentence updates and the part you were reading moves. Then, as more words come in, the text converges, meaning you need to read it again. The re-sending protocol is there to reduce latency, but the partial hypotheses and translations based on them are often not good. But ultimately, this is a user experience question and should be handled by whoever is developing the frontend, not by the researchers. We should focus on getting as good output as quickly as possible to the frontend.
+o ([PERSON10]'s note from the call: SAVE stream video of the whole screen so we can more easily correlate the audio to what is actually happening)
+* A solid speech test set is needed, with transcriptions etc. We desperately need to improve the robustness of ASR models.
+* [PERSON18]? 
+* ASR quality is simply a show stopper. If people are disturbed, they always opt to hide the translation/subtitling. And even the correct content is causing a lot of disturbance, so any wrong word is critical.
+* Bad words: [PERSON9] records which words made it to the ASR and should be avoided (add any others that you spot; the long-term goal is to search for similar words in embeddings space and to somehow downplay them -- so domain avoidance based on sample words):
+o gay sword boatful demon lament mistress schoolmistress diarrhea fellatio kitty sub 
+o Questionable: Pope Islam Soviet
+* Points of interest to debug for chopper:
+o X3, Thursday, 14.20-30: repeated outpu of Czech ASRt; was it due to chopper?
+* DÁLE TAKÉ NEEXISTUJE MOŽNOST RIZIKOVÉ MANAGEMENT
+* [PERSON16] needs to look at it
+* Important strategic decisions:
+o realtime pipeline vs. final hypotheses
+* We seem to oscillate between realtime processing vs. emitting fewer hypotheses less frequently. 
+* The best option probably depends on the particular setting and processing tools used.
+* A mismatch between the realtime vs. batched behaviour of the tools within a single pipeline can kill it.
+* For instance, we were sending too many updates and the presentation platform was not able to emit them, so they queued and the display was minutes beyond the floor.
+* [PERSON13]: working on it, the new updates should have higher priority
+* People reported seeing many subtitles too quickly one after another. [PERSON9] has not seen this at all but now it occurred to him now that this must have happened due to MT delivering some output of a longer segment.
+o 1) change the subtitling window, similar to [ORGANIZATION5]'s lecture translator 
+* [PERSON13]: currently, 42 characters per line, 2 short messages would get appended together, if they appear shortly
+* [PROJECT1] second day: experimental setup that puts every message on its own line, was worse: publish each on its own -- too fast, replaced back
+* [PERSON16]: we can prepare a testcase for this -- watch the [PROJECT1] again and find the place
+o 2) set the delay properly
+* [PERSON2]: words skipping left and right, due to partial hypothesis being concatenated instead of overwritten or so…, hopefully fixed now
+o Maybe line-wrapping was affected by the partial hypothesis?
+o Preferably, words would only scroll up as whole final lines.
+* realtime display is critical in these settings:
+* interpreters/'respeakers' cabins, to allow people to adapt to the ASR, react to ASR errors 
+* when the listener understands the language of the speaker. [PERSON9]'s impression is that it is much harder to follow two streams if they are shifted/delayed with respect to each other.
+* [PERSON9]'s preferred solution:
+* all the components should be realtime, sending updates as fast as they can, and only the very final presentation tool should decide (and follow users' preferences) whether to show better outputs later or less reliable outputs sooner
+* I ([PERSON5]) agree
+* [PERSON16] +1
+* Essentially, [PERSON9] would really prefer to switch to UDP for this! Perhaps only at the last bit of delivering translations to the presentation. The great benefit could be that many clients could be served at once.
+* This would require huge changes to the library and the mediator
+* [PERSON10] is sceptical to UDP
+* [PERSON13]: it's not feasible, the current architecture should be remade again
+o Not to disturb the speaker.
+* The speaker himself should not see his subtitles, because he gets disturbed and cannot speak any more.
+* But he should have a chance to look at what was misrecognized.
+* The ideal setting would be e.g. the subtitles behind the speaker so that he can have a look.
+o Not to clutter the slides screen.
+* It would be better to display the subtitles on a totally separate device.
+* Or at least under reduced slides rectangle.
+o [PERSON2]: yes
+o User interface improvements:
+* ([PERSON1]) Label telling you which subtitles are you seeing
+* [PERSON16]'s notes:
+o I had a script which runned ebclient and pipes behind it in a subshell. When I killed it with Ctrl+C, some processes remained in background, I had to find them through “ps aux”, but avoid the ebclient connected to recorder, otherwise they occupied the workers in mediator. This should be improved.
+* Also, I couldn't easily identify which worker was running, which was disconnected etc. 
+* One dead or disconnected MT worker in the floor pipeline killed all. It's better to do it more robust.
+* Etc.
+* [PERSON13]: the correct way to close the client is to terminate the input, not Ctrl+C
+* [PERSON16]: write some shortcut to terminate the initial arecord
+o In case we don't have segmenter/punctuazer/caser for Czech, I find uppercasing all words better than lowercasing all, because proper names without first capital letter are ungrammatical, but everything capital is OK
+o The Czech ASR system was sometimes pretty accurate, but it often couldn't find a proper word because it doesn't have a rich vocabulary. Sometimes it finds incorrect, but very close form of a word. I suggest applying depfix or some stronger model to correct the outputs.
+* (PERSON6) I spoke with the interpreters and they said that what would have been really useful for them is not to have the whole sentences shown, but only the specific “terms”(the list we have sent them), which now they had to try to memorize, but if the ASR would recognise them (they were complaining about strong accents and wrong pronunciation of some words by speakers, e.g. scheme as “ším” or “skem”), it would help them a lot to form sentences (e.g. like translators have CAT (database of terms)). Some of the speakers were quoting the laws - very hard to translate
+o Overall - when I asked them, what was their feeling about it, they said that they would have done far better, if they would have the presentations ahead. Most of them found the translating (en-cz) quite hard, but even the en-shadowing was not that easy. They felt fairly unprepared (but not due to their laziness). -- they were not happy about the result.
+* [PERSON16]: interpreters need slides in advance (comment to [ORGANIZATION4])
+o non-disclosure questions prevented earlier release
+o They were interested, whether for the ASR systems is possible adaptation on accents
+* [PERSON5]: working on end-to-end ASR, 
+* It is, but difficult
+* The'blinking' of the subtitles (empty lines shown occasionally) happens when chopper processes MT output. The reason is that chopper is limited to doing text matching to find out where the current update fits into the stream. For the gradually growing ASR output, this is OK, but MT easily changes the whole hypothesis and this approach fails. There are two options: (1) propagate proper timestamping so that chopper knows where new hypothesis should be placed in the infinite stream (preferred; no text matching would be necessary), (2) apply MT in a more incremental way. This would be much harder and we would have to set a threshold to decide when to redo everything and when the extension of the emitted partial hypo is still OK. So let's go for (1).
+* Ad 1:
+* Option 1: timestamps in text (difficult to drop them)
+* Option 2: every component makes its own timestamps, by the time it received a message -- very inaccurate
+* Option 3: send them in a binary protocol (difficult to implement)
+o Let's try this
+* 
+* [PERSON9]'s overall impression was that the Czech ASR worked better than the English one, despite it is just a first shot, not a mature system that [ORGANIZATION5] has. The reason is most likely that Czech was spoken by native speakers while English was spoken exclusively by non-native speakers.
+o We discussed this also with [PERSON19] and we think that as a consotrium, we should collectively create a reasonably big non-native English speech corpus, perhaps even in the auditing domain. So we should select some interesting English [ORGANIZATION4] documents and have them read (via [ORGANIZATION6] recording, for instance) by as many people at each site as possible.
+* Segmentation for the final user is critical e.g. for extremely long German sentences. In the realtime mode, no time of the user should be wasted in waiting because the time can never be reclaimed back…
+o The bigger context + scrolling can hopefully resolve this.
+---------------------------
+
+(PERSON10) This is what the timestamps looked like in the dry-run - they look wrong to me.
+
+In my opinion, what we are seeing here is data sent by the text client. The text client adds fake timing information.
+If you run the client with audio you *should* be seeing correct timestamps
+(PERSON10) So what we found is that, in the dry-run, the audio client was chained with the text client, so the MT was indeed receiving data from a text client. In order to deal with dynamic ASR, the MT needs to receive data from an audio client. See end for more details.
+
+start       	28.06.2019 13:43:42.453
+stop        	28.06.2019 13:43:43.453
+startOffset 	246246
+stopOffset  	247246
+text        	I will be happy about that. We have been invited but to have lunch here. So...
+translation 	Ich werde mich darüber freuen, wir sind eingeladen worden, aber um hier zu essen.
+
+start       	28.06.2019 13:43:43.454
+stop        	28.06.2019 13:43:44.454
+startOffset 	247247
+stopOffset  	248247
+text        	I will be happy about that. We have been invited but to have lunch here. So...
+translation 	Ich werde mich darüber freuen, wir sind eingeladen worden, aber um hier zu essen.
+
+start       	28.06.2019 13:43:44.455
+stop        	28.06.2019 13:43:45.455
+startOffset 	248248
+stopOffset  	249248
+text        	I will be happy about that. We have been invited but to have lunch here. So...
+translation 	Ich werde mich darüber freuen, wir sind eingeladen worden, aber um hier zu essen.
+
+start       	28.06.2019 13:43:45.456
+stop        	28.06.2019 13:43:46.456
+startOffset 	249249
+stopOffset  	250249
+text        	I will be happy about that. We have been invited but to have lunch here. So...
+translation 	Ich werde mich darüber freuen, wir sind eingeladen worden, aber um hier zu essen.
+
+start       	28.06.2019 13:43:46.457
+stop        	28.06.2019 13:43:47.457
+startOffset 	250250
+stopOffset  	251250
+text        	I will be happy about that. We have been invited but to have lunch here. So...
+translation 	Ich werde mich darüber freuen, wir sind eingeladen worden, aber um hier zu essen.
+
+--------------------------------------------------------------------------------------------------------------------------
+My ([PERSON5]) Log output:
+
+I modified one line in the client: (at or near line 222):
+fprintf (stderr, "%s %d %d: %s\n", utt, offset, end_offset, text);
+
+conv_utt-00024 230 20150: She thanked like to share with you. It is...
+conv_utt-00025 230 20870: She thanked like to share with you discovery that I may...
+conv_utt-00026 230 21080: She thanked like to share with you discovery that made...
+conv_utt-00027 230 21786: She thanked like to share with you discovery that made if you...
+conv_utt-00028 230 22146: She thanked like to share with you discovery that made a few months ago.
+conv_utt-00029 230 22506: She thanked like to share with you discovery that made a few months ago. Well,...
+conv_utt-00030 230 23226: She thanked like to share with you discovery that made a few months ago, while writing an article...
+conv_utt-00031 230 23586: She thanked like to share with you discovery that made a few months ago, while writing an article for...
+conv_utt-00032 230 23866: She thanked like to share with you discovery that made a few months ago, while writing an article for...
+conv_utt-00033 230 24306: She thanked like to share with you discovery that made a few months ago, while writing an article for the time…
+conv_utt-00036 4169 24896: to share with you discovery that made a few months ago, while writing an article for Italian Wired,...
+conv_utt-00037 4169 6034: to share
+conv_utt-00038 6034 25826: with you discovery that made a few months ago, while writing an article for Italian Wired. I know...
+conv_utt-00039 6034 26186: with you discovery that made a few months ago, while writing an article for Italian Wired. I always keep...
+conv_utt-00040 6034 26546: with you discovery that made a few months ago, while writing an article for Italian Wired. I always keep my purse...
+
+
+Arecord --audio | ebclient --asr | tee log | textclient --segmenter | tee log |
+       tee >( textclient MT1 | tee log | chopper | tee log |  textclient presenter1 ) | 
+       tee >( textclient MT2 | tee log | chopper | tee log |  textclient presenter2 )
+^ This pipeline removes the timing information in the pipes between ebclient and textclients. As a result, the resending cannot be correctly realized and translations are likely to be garbage.
+
+Proposed interface for ebclient:
+You have German audio and need English, German and French text:
+Ebclient -i en-US_fromDE-pub -i de-DE-pub -i fr-FR_fromDE-pub -f de-DE -t text
+
+-- use intermediate fingerprints for logging
+-- check, if this employs more ASR workers than 1
+^ This is very important. However, we know for a fact that it is possible to realize this without employing several ASR workers (we do this regularly for the lecture translator) ([PERSON13]: I can confirm this, the Mediator will provide a pipeline having a single ASR, one segmenter and a few MTs). If this does not work with ebclient as-is, then it is a problem with the client. 
+
+TODO ([ORGANIZATION1]) -- review the client, if multi-target employs many workers at once
+

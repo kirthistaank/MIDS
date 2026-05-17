@@ -1,0 +1,294 @@
+(PERSON3) Good morning. 
+I can't hear you. 
+Hello. 
+(PERSON7) Hello. 
+(PERSON13) Hi [PERSON14].
+(PERSON10) Hello.
+(PERSON13) Hi [PERSON10].
+(PERSON10) Yeah, yeah, it works.
+Excellent.
+So let's wait until [PERSON15] and [PERSON6] get back from the break.
+(PERSON13) [PERSON4] may or may not join us depending on <unintelligible/>
+(PERSON10) Yeah.
+(PERSON13) <unintelligible/>
+(PERSON10) Connect, actually connect.
+(PERSON7) I'm going to write them
+(PERSON10) So are we expecting someone else except [PERSON6] from [ORGANIZATION5]?
+I think it's probably only [PERSON6].
+And I just emailed [PERSON8] whether he can join as well.
+So.
+(PERSON7) [PERSON15] <unintelligible/> [PERSON5] is on vacations.
+(PERSON10) Ok.
+<unintelligible/>a second.
+(PERSON3) Hi, good morning everybody.
+() Good morning.
+(PERSON10) Yeah, ok.
+So maybe I'll move to <unintelligible/> recordings here.
+Yeah, so there is the chat window is being filled with failures of the ASR clients.
+Yes, so we can close the, close the chat windows.
+Thanks for joining. I've, as I said, I've emailed [PERSON8], if [PERSON8] would be joining as well.
+I don't see any response from him yet.
+So we can anyway start with the, with the document.
+With the quick overview.
+These-This call is being recorded and there is no way to switch it off.
+So if you were not happy with that we would have to choose a different platform.
+But I hope that you are fine with that.
+And also, I don't think there is any way to switch off your webcams in the [ORGANIZATION2], unless you simply like put a ducktape over ovet them.
+That's, yeah.
+I don't know that's politics of of [ORGANIZATION2] training.
+So thanks [PERSON6] for for joining as well.
+And let's quickly walk through the document.
+So the updates on components.
+I would like to hear from everyone what they are working on and and what's the status.
+And for the presentation platform by [PERSON15] and colleagues.
+I was curious. 
+If you actually had a little video presentation, html client that I could test these streaming off slides with.
+(PERSON3) Not yet, sorry.
+But actually, I see the presentation platform slowly taking its form.
+And I hope briefly we can have ehm raw example of its its structure and working.
+(PERSON10) Next week, we can see something.
+I don't know exactly when.
+But actually I I've seen something which stopped working.
+(PERSON10) Yeah, ok.
+That's very good.
+And is there also some text only a client or text only version that was simply emit the subtitles to standard output. 
+Because this could be useful for connecting to other unexpected ways of presenting. 
+And I'm asking because as a fallback, we could use like terminal window.
+In some cases.
+And also, there is a chance of having the real video mixers that you know about.
+So last Friday, we tested at at [ORGANIZATION1] premises.
+And there will be probably real video mixer available for the three days or two days of the workshop.
+So if anybody is willing to or curious to to play with this, please come to [LOCATION1].
+That's another invitation.
+(PERSON3) [PERSON2] also propose me another option for the main stage presentation problem in order to present subtitles without the presentation platform in order to <unintelligible/> 
+But I have to investigate it little bit, maybe we can find different solution.
+(PERSON10) Yeah, so so you're not yet working or-Yeah. I think that having a text client would be useful also for debugging. So if anything comes out that is also as a side effect that is also text client, it would be very useful. So you have already provided numerous <unintelligible/> sample ways of examples how to run various clients. So having this also for the presentation is what we would like. Yeah, yeah. 
+(PERSON3) Ok, we can reason about it.
+(PERSON10) So that's in general this is good news that you're proceeding well. So then the [PROJECT1] worker, [PERSON5], ehm. 
+(PERSON13) Ok, ehm so I mentioned last time ehm the way this would work is that would be the [PROJECT1] server, [ORGANIZATION7] worker and in between a Python server which handles-<other_noise/>Um, so last week I have written that and it seem to be working. So it now written a <unintelligible/> in C, which can communicate with our server and send sends it <unintelligible/> translations. I have tested that-<other_noise/>And I've also add the example <unintelligible/>, [ORGANIZATION7] worker client, ehm server, sorry. Ehm, to use that code, but I haven't tested it yet. Probably doesn't work.
+(PERSON10) Yeah. 
+(PERSON13) So I need to figure out what best way to test <unintelligible/>. I don't know if I need to maybe write dummy ASR worker <unintelligible/> test sentences or something like that.
+(PERSON10) Yeah, that's it, that's text only way of running the pipeline. And this is what [PERSON14] has asked for. And I don't know if-[PERSON14], could you could you explain what exactly we would like to have for this type of testing?
+(PERSON7) There is text to text client. And it don't use sample client but production client. And there is text client which should be able to send text to text worker. So you can run only from from English text to for example German text. 
+(PERSON13) Ok, that would that would be perfect. Testing.
+(PERSON10) Yeah. 
+(PERSON7) And also here we work on this this week and it works with our Czech Czech machine translation, but there is still some bug on kick side, <unintelligible/> only the first sentence. <unintelligible/> [PERSON6], [PERSON15].
+(PERSON14) The KT translation platform is very heavily <unintelligible/> specific use case that we're using it in. It is meant to be run with the continuous input stream. So ehm, it does not handle the batch eh the batch example very well. It's also possible then some cases it's not confirming to the interface, so like sending the done message to early, which is why you are only getting the first message. It is translating all the other messages. If they were fixed. Ehm some checks <unintelligible/> that relate to partial sentences, for example, if one sentence in your chat testing data does not end in the period or a full stop. Then it will assume that is the first half of a partial sentence, and it will, it will output the sentence with dot dot dot at the end. And it will pend the next sentence because it thinks that them those two together make a full sentence. So that that's a lot of different checks in there. That relate to the partial sentences. I meant to work together with the segmentation and the ASR worker and our presentation platform. To input-To make the input appear continuously. Ehm, so, it's-Personall, I'm not sure exactly how will go, but fixings is because will require fixing the ASR, the segmentation and the MT from us, at the same time. It were all done by different people. Ehm, only one of them is still here.
+(PERSON10) And it's you.
+(PERSON14) So, this will be an interesting challenge.
+(PERSON10) And you're the, you're the person the only one who is left. Or [PERSON5]?
+(PERSON14) [PERSON5], [PERSON5] is the only one who's left. 
+(PERSON7) Okay, so if every sentence on the input and with period, then <unintelligible/> other sentences?
+(PERSON14) Though, worker round that you can do that works somewhat is ehm waiting between sending sentences. Yes make sure every sentence and full stop. And wait <unintelligible/> sentences. So you don't send all the sentences at once but but wait. That is a worker round for now, it's not great, but. 
+(PERSON7) Ok.
+(PERSON14) As if the sentences were were spoken-<other_noise/>
+(PERSON3) Actually, this week we work together with [PERSON14] and [PERSON6], in order to find better workarounds. We also fix something I can-I fixed something in the mediator, in order to better manage second messages and also <unintelligible/>. Probably we need to perform more test next week. But I hope that we will find out a solution even if ehm, at the moment, the [ORGANIZATION5] worker are not meant to manage, the batch use case. Of course, at some point we have to manage it in the worker.
+(PERSON10) Yeah. So just to doublecheck the overview, the big picture. The batch is needed by [PERSON14]. Only for the preparation of the data. So only for transcribing <unintelligible/>, having <unintelligible/> ASR output in order to train machine translation on this. Correct?
+(PERSON7) Yes, this is, I need the segmentation for- to obtain the train data.
+(PERSON10) Yeah. 
+(PERSON7) For, for training MT <unintelligible/> we would need it for for analysis of evaluation.
+(PERSON10) Yeah. 
+(PERSON7) MT systems.
+(PERSON10) Yes, but actually-
+(PERSON3) But also feel with it. In order to test the solution.
+(PERSON10) No, so, actually there are main priority now, is to have the online mode working. So also [PERSON5] needs to test machine translation by looking at the output of the online ASR. So I I would suggest to focus on fixing the batch processing mode. Instead, I think it may be even better, if like [PERSON14] send <unintelligible/> audio files to [PERSON5] and [PERSON5] did the ASR offline. But that would be like the way to to get the transcriptions. Because we still would not get that true online segmentation since it is going to be changed at [ORGANIZATION5]. Don't see any big benefit from fixing the batch processing at [ORGANIZATION5] through the mediator. Cause this is not going to be in any critical pipeline. Any time soon. 
+(PERSON3) Okey, okey. 
+(PERSON7) Okey.
+(PERSON10) So, so maybe if [PERSON6], does that sound reasonable, so that [PERSON14] would send the audio files to [PERSON5] or to you, and you would do the ASR offline, and you would check the segmentation. To make just visually sure that the segmentation is somewhat close to what we can expect. When we are running online. What we already know that the online operational mode will be slightly different from from what we get offline. And it will also be different from what is being delivered now. These changes.
+(PERSON14) Yes, I think that's that's reasonable. I think you should send it to [PERSON5], because he's the one working with ASR.
+(PERSON10) Yeah.
+(PERSON14) As for the segmentation. I'm not sure how close it will be. But I can say that our moduls are also not actually trained on the <unintelligible/> segmentation. We don't have that either. And it works fine. So I would think that that the segmentation is all prepared for offline ASR is reasonably close to what online ASR produces.
+(PERSON10) Yeah. Ok. So what is needed in order that, so that [PERSON5] can check that. I think the best way would be constantly running ASR worker, and [PERSON5] sending the audio file and making sure that the finger prints like connect the together. Or is there-Should we use the text only client?For the testing?
+(PERSON14) I I don't understand. For the offline ASR we we won't have a worker. It will just be our ASR.
+(PERSON10) Yes.
+(PERSON14) Whatever infronts mode that they have.
+(PERSON10) So forget the offline mode of operation. We do not want any offline mode of operation. We want [PERSON5] to be able to test the mission translation. I do not know if [PERSON5] is still there, because-Yeah, yeah, yeah. You are not moving. The visual is still. So the-What is your current, you've discuss this 5 minutes ago. And [PERSON14] feat to this client, can you just repeat to me the exact set up for the testing of the [PROJECT1] worker connection. 
+(PERSON13) Ehm. Ok.
+(PERSON10) So what will you run on your command line, that's it. So what the, what will be the, the exact command, what will the command do?To in order to test the all integration <unintelligible/>. 
+(PERSON13) Ehm, yeah, I daily, I would have a ehm plain text file sentences resembling what's going to come from the ASR, and I would just feed adding to a client passes it through little mediator. Which then ehm <unintelligible/> request of my [PROJECT1] worker, to do the translation.
+(PERSON10) Yeah, yeah. 
+(PERSON13) Yes.
+(PERSON10) And then through the mediator gets the translation back. Yeah. So such a client operate at the level of lines, so every line is a request, right?Yeah. So is this level, is this the one that [PERSON14] mentioned?[PERSON14]. 
+(PERSON13) Yes, it sound, sound, sounds like the same thing.
+(PERSON10) Yeah. And so so it works. And it has, you mentioned some problem of things being stuck somewhere. No, that's there's-It works. Right, is that-
+(PERSON13) Sorry, that's <unintelligible/>I think [PERSON14] mentioned ehm, mentioned the getting stuck ehm. Yeah, so as I know the [PROJECT1] part is working.
+(PERSON10) Then, [PERSON6], what we need is to have lines of text that resemble the output of the ASR. And this is something that we would like to get from the audio recordings that you process, in offline mode, totally outside of of the mediator. ASR output that will be getting as messages when it goes through the mediator.
+(PERSON14) It's definitely possible um. I'll closely resemble the mediator with probably just a matter of configurations. So I I think we have offline ASR systems that are <unintelligible/> and what's running in the mediator. But I think we also have very similar offline systems. 
+(PERSON10) And as for segmentation?
+(PERSON14) You will have to ask [PERSON5] about the details for that. And, I think the these ASR systems do their own segmentation, they don't use the same type of segmentation. Because I believe what happens is for the Dutch people <unintelligible/> so you already have segment <unintelligible/>. The offline ASR does that in a different process. 
+(PERSON10) Yeah. So there is a big risk that if we train on the segments from the ASR will get something very different from the on, from in the online mode. I see that as big risk, because it would be a different segmentation pipeline. There is even maybe no segmentation happening in word. There is no, no cashing worker and things like that.
+(PERSON14) As far as I know our MT models for the mediator aren't trained on ASR, on actual ASR output at all. The ASR output does relatively close to resembles like TED talks and your <unintelligible/> sort of spoken word empty datasets. We have a fine tuning <unintelligible/> from lectures, but that also <unintelligible/> the transcription was manually um improved just manually created in the first -
+(PERSON10) Revised. Yeah, ok. So so it seems that the machine translation quality is not affected by mismatching segmentation between the training mode and the operation mode. 
+(PERSON13) Yeah, that's it because sorry, [PERSON10]. I mean, what [PERSON6] is saying is they have have managed to get, or that actually tried with online ASR.
+(PERSON10) Well, negatively affected. I mean, what what what I understood is that [ORGANIZATION5] have already connected together online ASR and machine translation system trained independently on the current state of the art. So yes, there could be benefits, from, yeah the integration <unintelligible/>. 
+(PERSON13) Oh we don't know.
+(PERSON10) But it's sufficient, we don't know it . 
+(PERSON13) And is it, is it possibly <unintelligible/> sample of online ASR. You know, if we had a sample of online and offline, ten sentences, or I don't know, some small sample, just to compare. I mean, Yeah. I mean, I appreciate what you're saying that it may look different. But there-
+(PERSON10) So the easiest-
+(PERSON13) <unintelligible/>
+(PERSON14) - everyday, I can send you some samples from the actual translator.
+(PERSON10) Yeah, but we should check. 
+(PERSON7) Yeah, well, I just say it's quite difficult to get lots of lots of online ASR, is that the problem, we can't really get the partial sentences of it. Is that what you are saying, that it is hard to get- It is hard to get 200000 sentences on online ASR in order to find tuning. Is that a problem. 
+(PERSON14) Well,-
+(PERSON13) With transcript moved-
+(PERSON10) Parallel data, that's it. 
+(PERSON13) Because you have to feed all the audio through, sorry?
+(PERSON14) We have, we have some our fine tuning we have 15000 minds of lecture that were that were manually translated. 
+(PERSON13) Yeah.
+(PERSON14) But that's it. So getting parallel data is the real problem. We can get online ASR, we have 19 different lectures that are using online ASR. But-
+(PERSON13) <unintelligible/> ok.
+(PERSON10) So I think our main concern is not the quality of the translation, but the mismatch of the segmentations. 
+(PERSON13) That's not affect quality.
+(PERSON10) Yeah. Well, we hope. 
+(PERSON13) Ok, I guess <unintelligible/> .
+(PERSON14) So I can say this-
+(PERSON13) It's terrible demo, try to make it better.
+(PERSON14) Updating and redoing the segmentation, <unintelligible/> Is actually probably the next thing on our list of priorities, segmentation worker is the oldest component of that pipeline. Um, so what we are going to try to get <unintelligible/> improve this quality of segmentation, to make it more <unintelligible/> 
+(PERSON10) Yeah, ok. So to to somehow mute with this. I would like to ask [PERSON14] to send the the TED files, which do have their translations. And so so they do have the transcript, they also have the translations. To send this to [ORGANIZATION5], to [PERSON5]. [PERSON5] is, or you know. So [PERSON5] would hopefully process this. [PERSON14] would get the offline data. We would see how different is that. And [PERSON6], please check that the line oriented output is as similar to the segmentation that we are going to receive from the segmentation <unintelligible/>And [PERSON5] can in the meantime test the [PROJECT1] worker. So everything seems good, like for the baseline mode of operation, right?You agree or do you see any problems?
+(PERSON13) That sounds reasonable to me, yeah. Um, [PERSON14] is like it. Can I access to you client code?
+(PERSON7) Yes.
+(PERSON10) I'm trying to set up this, yeah. The microphone level I don't know, voice activation level. Here it is. I need to raise it a bit so, that the noise around-
+(PERSON14) A quick sidewalk, because-
+(PERSON10) Yes.
+(PERSON14) The chat is filling up with these messages but no ASR worker being available. I did just received a message from [PERSON5], apparently even though he is technically on vacation. He was checking [ORGANIZATION6]. Ehm, that he sees nothing wrong with the ASR workers, they are running, and they are, they're available <unintelligible/>Maybe I, maybe I mispoken about which workers, I will check again. Because, I would like to know whether this is the problem with the client, I would check it.
+(PERSON10) Yeah. So we don't have anyone from [ORGANIZATION2] here. So this is the thing that is actually still on our list for the downloading the document. And that's the debug. That that needs to be debugged and kills all the workers very quickly. So I think that we are just seeing again, the same bug. But we do not know what exactly the bug is that [PERSON5] will be fixing sooner or later. Okay, so thanks for the details on the [PROJECT1] worker, hopefully as we just said. And the production client um so [PERSON14], can you say what this is. Oh, this is, oh yeah, ok, this is just the batch mode, so actually we do this differently. 
+(PERSON7) Yes. We just start question about it. 
+(PERSON10) Yeah. So please just write it down that we, we have solved this differently by going to simply offline mode and will focus on the batch operation later on. And [PROJECT1] workers or text client. Yes, so I think that's still this line that I've just highlighted in the [ORGANIZATION4] document, where [PERSON14] says," I also need either the [PROJECT1] worker or text client for CTM to TXT, or better both, to get the final hypothesis. And evaluate my <unintelligible/>. 
+(PERSON7) Yes, <unintelligible/> to txt is the second to that machine worker.
+(PERSON10) Yeah, so is it, is it not available? Or what what is the problem. The current segmentation workers are there, aren't they?
+(PERSON7) Maybe they are there, but it didn't work with my os- batchmode. The text to text client.
+(PERSON14) Oh yeah, the segmentation workers expect data of type unsegmented text and I'm not sure that a client exists, that send that sort of data. I'm not even sure what it looks like, I haven't look in it. 
+(PERSON7) This week I I created such client or there was one and I and I start using it. And it didn't work. So I ask you to to check it, but since we just agreed that we are going to use your final we don't need it. 
+(PERSON3) Of course next week we can perform again test all together in order to check both segmentation worker and other things together.
+(PERSON14) The segmentation worker shares a lot of the code with MT worker and therefore will probably have the same problem as the text client for the MT worker. At some point, they will both be redone, but I can't promise that will be next week. I will try to get it as soon as possible. But I don't have a precise time. 
+(PERSON7) But you really use this offline.
+(PERSON10) But still, I got, I'm sorry, I'm little bit lost. The CTM is the word level output of ASR. 
+(PERSON7) Yes.
+(PERSON10) But what we are expecting all are MT clients in- and the workers, including the [PROJECT1] one, expect already the text, so the segmented output, right?
+(PERSON7) Yes.
+(PERSON10) In operation, even for the online mode, at the workshop in June, right?
+(PERSON7) Yes, they working on line mode, but not in <unintelligible/> batch mode. They don't work, they don't work with CTM, but only only in sequence with first ASR and then segmentation. But but the ASR workers are not reliable <unintelligible/> to to debug it or <unintelligible/>
+(PERSON10) To debug. Ok. 
+(PERSON7) - is on ASR on <unintelligible/>.
+(PERSON10) Yeah, yeah, ok. So I understand that in order to test the machine translation, you always have to ship audio and you always have to rely on some ASR worker being available and that's problematic. Because of the bug to ship the CTM output which you will have, you can record from some previous session. But there is no such client. And there is no immediate plan to to have such client, that would be able to digest CTM, send it and then use the segmentation worker in isolation, right?Is that correct?
+(PERSON7) The client is there but the workers are not prepared for him.
+(PERSON10) What workers?
+(PERSON7) The segmentation workers in [ORGANIZATION5].
+(PERSON10) They don't work with the CTM client. 
+(PERSON7) Yes. Right now.
+(PERSON10) Ok. So this is some incompatibility because it like TED evolved different stages. OK. Well. It should, there is no urge to fix this client, for the CTM, but at, but the condition log the testing of the machine translation. 
+(PERSON7) Yes, also.
+(PERSON10) So if so [PERSON5], if if you will be struggling with testing on by, testing your MT worker by shipping audio, then please, let us know earlier than next Friday. And let [ORGANIZATION5] know, that-
+(PERSON13) Ok.
+(PERSON10) Yeah, and hopefully [ORGANIZATION5] will find solution. Either fix the CTM or maybe ASR workers more reliable. So which moves us to the next line. And that's [ORGANIZATION5] ASR workers the bug.
+(PERSON14) Yes. I'd like to have sort of a more directed bugging session for that. So a couple notable things that the problem seems to be that, um that after session is completed the client has send all of it stuff, recieved all of its output, stop sending anything. But the worker still believes it's part of a session. Um, and therefore does not accept and is registered as such in the mediator. So the notable thing,<unintelligible/>. And it happens <unintelligible/> mediator, which is the the old one in Adam and the [ORGANIZATION7] mediator, which is new in a Java. So we need the only common link that they share is the client. That the, ehm, the audio client. I don't think I've observed this with <unintelligible/> text <unintelligible/> very much. So if I had to guess at where to look for the bug. It would be in that. <other_noise/>
+(PERSON10) Aha, so [PERSON15], you're not here for the for second. 
+(PERSON3) Yes, but actually I see that the ASR worker has start producing some text in the chat window.
+(PERSON10) Yeah. So that probably, yeah. So [PERSON5] has probably restart it again. And [PERSON6] was describing the bug, while you were not here. And, yeah. And by his summary if I try to re-That the ASR workers are <unintelligible/><other_noise/>And they are registered as non-ideal even when they have finish their jobs, and send there done messages to the mediator. And this happens with both the old mediator in <unintelligible/> in Java, they happen for <unintelligible/> as well for the for the ASR worker, right. And the only common thing that [PERSON6] sees is actually the worker, sorry, the AS- the sound client, the audio client. <unintelligible/> and the different set ups. And the bug is still triggered. So, this is, [PERSON6] said that he would like like more hands on debugging session so that you would do this join it. 
+(PERSON3) Yes, sure. [PERSON5] we will be back next week and we can arrange some kind of, some test together, of course.
+(PERSON10) Yeah, so.
+(PERSON14) By the way, I'm looking at the ASR output in chat. [PERSON5] you were wondering whether the ASR insert any any tags other than words. Even though <unintelligible/> it doesn't, I guess it does. There are lots of lots of tags in there. They are removed by the segmentation workers, so in the in the MT input, these tags are not present.
+(PERSON10) So what we are seeing here is the direct CTM output?
+(PERSON14) Ehm, I'm really not sure what exactly we're we're seeing, because like I said, the segmentation worker should remove these. 
+(PERSON3) Of course. There is also the [ORGANIZATION2] platform mediator which performs maybe some kind of most processing.
+(PERSON10) But [PERSON15], you could know by looking at the mediator, you could know what fingerprint is [ORGANIZATION2] receiving. And that fingerprint would tell you, whether they are receiving the segmented output or the CTM already. Can you check?
+(PERSON3) Yes. I'd say <unintelligible/>
+(PERSON10) Because I think that from the users point of view, even if we are seeing pretty bad voice recognition here, because whatever sound conditions. Um, it would be nice to have this directly translated at this level of individual worse, almost. The delay, yeah.
+(PERSON14) I'm really not sure what it what it is recieving, because normally the the present our presentation platform doesn't handle unsegmented text. It only handles the text as it comes out of the segmentor-
+(PERSON10) After-
+(PERSON14) - will using our segmentor, than there shouldn't be any any text. If I ask [PERSON5] about this. I'm lot confused about <unintelligible/> 
+(PERSON10) So you have mentioned a number of things that you do like number of tricks that you do within your segmentation worker, like detecting the end of sentence, adding 3 dots and things like that. And this, all these tricks, can you, are there part of SLT [ORGANIZATION5]?Of the published scripts or not?
+(PERSON14) No. So the SLT [ORGANIZATION5] is the sort of everything except the actual neural networks part that is doing the work. So SLT [ORGANIZATION5] is connected to the mediator, doing some preprocessing for MT, for example, like PPE, and that sort of thing. And then invoking some kind of MT sequences worker it is. <other_noise/> Which is why I want to <unintelligible/> also now frame work. The segmentation worker is is sequence as I understand. Is a sequence labeling-<other_noise/>Labels each word with either opf insert coma or insert the full stop.
+(PERSON10) Yeah.
+(PERSON14) And-
+(PERSON10) Capitalize, drop, or, yeah. And that's it, there is no-So this is all the logic, all the trees that you mentioned. <unintelligible/>
+(PERSON14) I don't- I'm not sure.
+(PERSON10) Okay.
+(PERSON14) The system is <unintelligible/> we actually have to <unintelligible/>
+(PERSON10) Because this this, yeah.
+(PERSON14) <unintelligible/> reverse engineering, we actually have to look back into it. Make sure that we figured out everything again.
+(PERSON10) Yeah, because we, it's fairly reasonably described in the SLT [ORGANIZATION5]. And I think that we could follow that, but when you were mentioning like adding three dots, for unfinished sentences, I didn't see anything like that in in the SLT [ORGANIZATION5]. Then just the SLT [ORGANIZATION5] plus the train labourer model. So you think there is not not anything more, not any other component in the pipeline. Is just the labeling, the labourer, the trained <unintelligible/> model and the the published scripts in the SLT [ORGANIZATION5], right?
+(PERSON3) Sorry.
+(PERSON14) Yes. 
+(PERSON3) I'm not able to check it right now, since log has been over written by something else. Sorry. I have to check it better, I have to restart the mediator in order to check it. I I take these opportunity in order to tell you to implementing your workers, mediator is not reachable. So that when I restart it, then the worker connects it again. Actually, there are a lot of workers which already has this logic. <unintelligible/>, but just a reminder. Perfect, thank you.
+(PERSON14) As far as I know our ASR worker connect, reconnect very quickly, the MT workers do as well, but it take some time. 
+(PERSON10) OK. So this is important for [PERSON5] as well, and it's also important for us. We will be doing the ASR integrations, which is now like overseen by [PERSON14]. We're not sure still if [PERSON14] will do it or someone else, but. But [PERSON14], please take a note, that we need the reconnection. When the, when the mediator dies. Their worker should survive and reconnect again. 
+(PERSON7) Ok.
+(PERSON10) Yeah, ok. So we were talking about the segmentation worker. And the tricks, and [PERSON6] said that there is not anything extra beyond what's in SLT [ORGANIZATION5] plus the trained <unintelligible/> model. So let's, let's hope it's like that is. If there are some other things, than the output of the ASR which will get from you offline, will be different from the output that will get from from this improved pipeline that you maybe using. Well, let's all the problems are. So are we in in state, where we can do [PROJECT1] test next week, [PERSON5]?. 
+(PERSON13) Um, I think so.
+(PERSON10) Yeah. 
+(PERSON13) Yeah. Yeah, I need to debug text client. Or [PERSON14], I don't know. 
+(PERSON7) Can you-I just realized you don't have access to our github. So is your Github account [PERSON5]?So I'll-
+(PERSON13) Yes. 
+(PERSON7) - to [ORGANIZATION6], so if you <unintelligible/> need to discuss something online, than it's good <unintelligible/>.
+(PERSON10) Yeah, ok. So, we have discussed the bug. So there will be session, session with <unintelligible/> and [PERSON15] next week. [ORGANIZATION5] segmentation and MT, how is the fix, with the batch <unintelligible/> sentence, so this is, this was, has been made irrelevant. Ignore batch mode until [PROJECT2], ok. Yeah, so this is for [ORGANIZATION2]. Let's not discuss this here. Remember that when mediator dies, worker needs to survive. Ok. Anything else we need to discuss, I check that we are covering, covering the languages somehow. And, that's probably it. So.
+(PERSON14) Is this spoken languages or target languages. 
+(PERSON10) It's target languages. Everybody will be speaking their non-native English. So for the final set up. We'll have four cabins with interpreters, students of interpretation, and will have one floor signal, which will be the original signal, will have 1 or 2 re-speakers, into Czech and from that will have interpretation into German. So the German will have double delay. And we need to to decide online, which of these streams in concatenation with the ASR and the MT is the best set up. For you, like the. How will we do this, the online decision. How will be killing the various pipelines and switching the the pipeline so that the presentation platform will jump on the different sources. 
+(PERSON3) The presentation platform will receive all those streams. And we can, we will have on the presentation platform an administration page where we can choose the main the selected stream for each languages. From we can, which can cover the main one outage. So that the main stream dies for some reason, we still have, we will still have the subtitles even if are not the the preferable ones.
+(PERSON10) Yes, so it now it seems that it will be all, yeah sorry, your office is just horrible, I could not work there for, it's really too loud. <laugh/>So if we have four different pos- MT that translate to this many target languages that that you see here in the document. The Romanian, Polish, and then the Dutch, and Spanish. And we decide to switch the source of English, because the re-, how do we do this?
+(PERSON3) Sorry, can you repeat it, the example?
+(PERSON10) Yeah, yes. So there is all the participants, and there is a Dutch participants and Spanish participants. And everybody is, someone is some Czech person is speaking in English, and his English is horrible. So there is this 2 re-speakers in their <unintelligible/>, so is pronounciation, simply works better with the ASR. So the ASR output coming from re-speaker one is better than from re-speaker two. And what we need to do now is to make sure that that subtitles in Romanian are based on the machine translation all the target languages at once. Or we could do it one by one, but that would be like six times the the choice. 
+(PERSON3) Well, this is not perform in the presentation platform, because the presentation platform is just um a presentation layer.
+(PERSON10) Ok. 
+(PERSON3) This should be done, this should be decided in the selection of pipes in the mediator and should be done by the client at the moment. <unintelligible/> who will want to see ASR outputs and find the component. Actually, it's a new component of the work project and we have to reason about it really carefully.
+(PERSON10) Yeah, yeah, yeah, ok. So how do we do a fallback solution without this many middle set up. The fallback solution that I see is that each of these source streams is assumed always pro all the sequence, that you mentioned, and we would be manually killing those that we do not like. 
+(PERSON3) Yes, exactly. The the the actual solution is to have a kind of combinatory explosion of all the possible match matching path. I I know it's not that <unintelligible/>
+(PERSON10) Yeah, yeah. But the presentation platform would stay would stay alway on. And it would constantly keep checking for the various sources, right? And it would pick up the highest scoring the highest rank one that is available. 
+(PERSON3) Yes, for example, the presentation platform will recieve for example, the German but I told based on English source or and based on for example <unintelligible/> or English-
+(PERSON10) English too. 
+(PERSON3) And at the presentation as subtitle.
+(PERSON10) Yeah, yeah. So we should have an operator monitoring the output of the re-speakers cabins. And if the output from one of the re-speaking cabin or the output from the floor is bad, this operator should kill the client that is unavailable, the machine translation will not be connected to that and further and the presentation platform will automatically jump to the other provided translation, right?
+(PERSON3) Yes, actually discussed in the last meeting. To provide that kind of preview of the subtitle in the configuration page. And I don't know if it will be available for June. But actually I sorted the ehm functional requirements. This monitoring activity will be possible also at presentation level.
+(PERSON10) Yeah, ok, that's very good. But the killing has to happen at the level of the client. And the hardest part that I see is going back when there is speaker two again, becomes a good source. So that means that I need the ASR worker again, and it needs to connect to the MT worker again. And we know that this start up is something which is risky because the workers remain blocked for some time. Yeah. 
+(PERSON3) But actually, killing the client is useful only to ehm in computational power on servers which was the workers. Otherwise we can keep all the clients up and running. And streaming audio. The presentation platform will recieve of course more streams.
+(PERSON10) But I know, but the reason to kill the client is that I'm not happy with the ASR output that I'm getting from that. Or I'm not happy with the machine translation that that I'm getting from that. So I kill the client because I I don't have for now any way of worker around. If the presentation platform already, or if there was a man in the middle, I would use the man in the maddle, middle set up, to to disable this stream of input. But as I do not have the man in the middle, I need to kill the source. And that's why I'm would kill the client. So, I'm.
+(PERSON14) I think what [PERSON15] is proposing is that all audio inputs are translated into all target languages at all times. And that they matter of which one is shown to the to the audience is just thing in the presentation platform.
+(PERSON10) Yes.
+(PERSON14) That you don't, that you wouldn't stop any input.
+(PERSON10) No.
+(PERSON14) That is fight with the re-speaker one, then you stop showing the the translation that resulted from re-speaker one. But re-speaker one would continue to be translated.
+(PERSON10) Yeah, so this is my prefer set up, as well. But I understood that there is no way to switch, which of the sources is the one to be presented while the whole system is running. So I would also prefer the presentation platform to have access to all the Spanish, and then choosing which of the Spanish is the best one. But I'm not sure that the presentation allows to to choose them on the fly. Exactly. Yeah, yeah, yeah. 
+(PERSON3) But actually, for June it will not be available the preview of the subtitle. But the selection of the stream should be available. So it could be selected also by.
+(PERSON10) Ok, so there will be someone monitoring the presentation platform, and we would know, by looking at these the lock files on the side that we are that we could like somehow hack together the monitoring in a separate window. And in the separate window will see that the manually select in the presentation platform stream number 44 is the one to show, because stream number 35 was big has become like of bad polity, right?
+(PERSON3) Actually, kind of, we can only see the the selected one and not all the others. This is the preview functionality that will be for June.
+(PERSON10) No, no, but how do I select different one?I will not see its output until I select it, but I can al-, I can select it, right?I can make a blind, within the presentation platform control, I can make a blind choice. I can keep choosing whichever versions of German or Spanish are there. And the one that I currently select will be presented to everyone. So there is a high risk of me choosing something bad. Like select based on this side information. 
+(PERSON3) Yes.
+(PERSON10) OK so then the indeed, we, will not have men in the middle, but will have a man watching logs from the the ASR workers and logs from the MT systems. And the same man doing the choice in the presentation platform, which is blind that choice, because I missread the IDs. Then I will see immediately that the stream that I've selected is wrong one and I'll choose a different one. Right?
+(PERSON3) Ok, is the man who's performing the monitoring is able to access to the ASR log and to the machine translation log, yes. Otherwise he can access the only the-
+(PERSON10) The ID. 
+(PERSON3) The final-
+(PERSON10) Yeah. 
+(PERSON3) And present it. Exactly.
+(PERSON10) And present it, yeah. Yeah, can there be more people monitoring the same presentation platform at the same time, so that one would be checking the Spanish outputs, and one would be checking the Dutch outputs, and one re-checking the German ones, and they would like simultaneously make their decisions. 
+(PERSON3) Yes. Ehm, is the same logic as an <unintelligible/> user may see the English final subtitle or French one, that's it.
+(PERSON10) So it's just a multitude of those. Because you are controlling all the different target languages. The final users-
+(PERSON3) Yes.
+(PERSON10) Yeah. 
+(PERSON3) Actually the the browser of the cl- the final user will be the client of the subtitle solution. So the client will connect to a particular stream of publishing subtitles and this is to both for the the one who's configuring the system.
+(PERSON10) Okay, so it will be the exact same window. And the normal user is selecting which language he wants to see and this super user, the monitor of the presentation platform is choosing for all the followers of of Spanish, which Spanish source should they get, right?
+(PERSON3) Yes, actually I hope that this is not a something that we have to choose so many times during the the conference. Usually the configuration should be done at the beginning.
+(PERSON10) Yeah. 
+(PERSON3) And not multiple times during the event
+(PERSON10) Yeah, yeah. Well since we have the multitude of sources it is possible that will do it more often than than what is normal. But, yeah, ok. So this is this is sufficient solutiont, solution. So we'll have more people looking at this, looking at the different 2 platform. One of the persons will be responsible for making the the Polish output using the best ASR, another would be responsible for making Spanish output using the best ASR, and they all would look at the ASR and they would like indicate to each other, which of the ASR is is the best at the moment. And which of the MT outputs is bad. Then dynamic choice even without ehm, even without killing all the clients. And that's important. 
+(PERSON3) Sorry [PERSON10], just a technical question, our integration has ask me to report you, they are pretty care by the fact that 4000 people connects on the same WiFi network.
+(PERSON10) That's, that's for, that's not for the June. 
+(PERSON3) Ok, how how many-
+(PERSON10) For next year. 
+(PERSON3) Current user are expected to be at June.  
+(PERSON10) It depends how do we deliver the subtitles. Is is the part of the mediat-This is your decisions, so you need to make these decisions. You need to decide how to deliver it to the people. And and you with [ORGANIZATION1] together. So, [ORGANIZATION1] can order whatever devices they they want for the people. I'd saying upfront, we also don't believe that 400 can can receive the signal our WiFi reasonably well. 
+(PERSON3) Actually this could be really important point of failure for our solution, we have to be careful about it.
+(PERSON10) Yeah, yeah, yeah. So I'm glad that you know about it. But your technicians need to propose what what should be done then. Like what what way of presentation do we want to offer to the participants. 
+(PERSON3) We are, we are not network engine, we are software developer.
+(PERSON10) Yeah, yeah, but still, you are the integrator so somehow we need to to come up with the solution. So well, we could ask, I'm just making this up. But we could ask [ORGANIZATION1] to organize the people by the language and to put like screens in front of group that that wants to read Polish subtitles. Which is awkward, but it's a technical solution. So that's one thing. We have a year to to find better one. We could also add wires, so to like half the number of of clients there. Will be will be a lot again. This is, let's leave this for for the next [PROJECT3] call. But let's put it as, let's put it there is an important point. 
+(PERSON3) Ok.
+(PERSON10) Well, I don-We could do other things, we could, there is I know of a company, because [PERSON1] mentioned that. Like a friend of hers has various tools to support subtitling and also transcribing of speech, manual transcribing. So they develop their own keyboard for fast transcription and things like that. And they also have <unintelligible/>. So is like a little little bar of letters and you can send the this the text to that. So in that way, we would have a multiple of those and that would that would work. Yeah, so let's leave this for the for the [PROJECT3] call. 
+(PERSON3) Yes, please. I hope that also [PERSON2] which is a more expert technician will comes up with a brilliant solution, about this part.
+(PERSON10) Yeah, yeah. Ok, yeah. I think that's everything for today. So thanks a lot. Right. And let's talk again next Friday and in the meantime, hopefully you'll report to me that some of the bugs were resolve. And that all everything works, and that we should ship our [PROJECT1] models to to [PERSON5] and then- or we should test the [PERSON5] workers with our [PROJECT1] model. Yep. Bye bye. 
+(PERSON3) Thank you. 
+(PERSON7) [PERSON5], I'm sending you an e-mail right now. 
+(PERSON13) Perfect, thank you. 
+(PERSON7) Bye.
+(PERSON10) Ok, yeah, thank you, bye. 
+(PERSON3) Bye bye.
+(PERSON10) Do I close this. 
+(PERSON7) Yeah, bye.

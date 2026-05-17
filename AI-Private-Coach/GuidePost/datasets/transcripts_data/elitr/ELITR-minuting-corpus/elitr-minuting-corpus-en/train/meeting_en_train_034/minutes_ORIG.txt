@@ -1,0 +1,102 @@
+Mon 20.5. at 10 AM 
+on [ORGANIZATION5] Presentation Platform
+Agenda
+* [ORGANIZATION1]: [URL1]
+o PIN: 1234
+* Expected participants:
+o [PERSON9], [PERSON4], [PERSON2], [PERSON10], [PERSON3]?, [PERSON6]?; [PERSON1]?
+* Hardware setup:
+o [ORGANIZATION3] presentation computer->videomixer ([ORGANIZATION8] has 1 Epiphan)->[PROJECT2] videomixing NB->ethernet to all participants *and* video output to the main screen
+o Caveat: Epiphan image quality is not perfect. [PERSON3] should come to [ORGANIZATION8] soon and test it.
+* [PERSON4] mentioned this already in the past: the grabbed slides quality may be poor to present on the main screen. If [ORGANIZATION3] says that want the original (i.e. no subtitles mixed in), we won't be able to get the slides to stream at all...
+* Overview of presentation modes to be supported at [PROJECT1]
+o Subtitles on the main screen
+* Fallback solution:
+* [PERSON4]'s X-window Perl Tk hack with mplayer for showing the streamed slides and one terminal window beneath, showing the subtitles in English
+* Preferred solution:
+* Presentation platform has a full-screen no-waste mode, so that the exact same presentation platform can be used in people's web browsers and on the [PROJECT2] videomixing NB
+o Subtitles on each participant's notebook
+* Requires web-based [ORGANIZATION5] platform
+* The stream of slides and a rolling subtitles beneath.
+* Every participant is free to choose the language they would like to see; perhaps following two or three languages.
+* No need to restart the sessions! Must reconnect automatically.
+* Foreseen use of the [ORGANIZATION5] presentation platform in the fallback solution for [ORGANIZATION2] SLT:
+o [ORGANIZATION2] remote meeting participants will be sending their audio to [ORGANIZATION5] mediator.
+o In a separate web-browser window, they would be looking at [ORGANIZATION5] presentation platform:
+* They should be able to select one language.
+* All subtitles in that language will be presented there, ie. merging outputs from all other [ORGANIZATION2] meeting participants.
+* An optional check-box: “Hide my own messages”
+* Streaming of slides
+o [PERSON4]'s prototype:
+* [URL4]
+o [PERSON4]'s first experiments for screen streaming locally within a single machine show a lag of *at least 4 seconds*, and 10 seconds in the default setting.
+o HTML stream viewers may be even harder to tune for low latency; we need to start soon.
+* Presentation platform in the full-screen mode
+* Comments to the initial proposal sent by [PERSON9]
+o [PERSON1]: Jenom mě k tomu napadlo, že pro debugování by se možná hodilo mít možnost pustit tam audio nebo video ze souboru a předpřeložené titulky, aby nebylo nutné mít k nim ASR a šlo testovat i MT, který není zintegrovaný v mediatoru. 
+o [PERSON1]: A vůbec, mít nějaký jednoduchý textový formát, kterým se budou dodávat titulky do prezentéru.
+
+
+Minutes
+* Pexip: [URL2]
+o PIN: 1234
+* Expected participants:
+o [PERSON9], [PERSON4], [PERSON2], [PERSON10], [PERSON3]?, [PERSON6]?
+* Hardware setup:
+o Option A: [ORGANIZATION3] presentation computer-HDMI/VGA->videomixergrabber ([ORGANIZATION8] has 1 Epiphan)->[PROJECT2] videomixing NB->ethernet to all participants *and* video output to the main screen
+* as discussed, [PERSON3] needs to come to [PERSON4] (or vice versa) and we need to test Epiphan with the overhead projector and real slides, so that [ORGANIZATION3] confirms the video quality.
+* Caveat: Epiphan image quality is not perfect. [PERSON3] should come to [ORGANIZATION8] soon and test it.
+* [PERSON4] mentioned this already in the past: the grabbed slides quality may be poor to present on the main screen. If [ORGANIZATION3] says that want the original (i.e. no subtitles mixed in), we won't be able to get the slides to stream at all...…
+* Can we duplicate video signal somehow? HDMI from presentation NB to a) overhead projector (so no subtitles mixed in) and at the same time to b) Epiphan?
+o [URL3]
+o Option B:
+* [ORGANIZATION3] presentation computer is directly the videomixing computer of [PROJECT2], i.e. it is used for:
+* reading slides in their format (PDF)
+* grabbing of its own screen
+* serving the stream of the screen to the ethernet
+* presenting its screen to overhead projector
+* receiving subtitles and preseting them as OSD (on screen display) over the presentation
+* Benefits:
+* best quality of slides
+* single machine, no Epiphan needed
+* Drawbacks
+* need to implement the subtitles to OSD
+* Linux only ([PERSON4] can't imagine doing this in Windows, although it is surely possible, too)
+* Overview of presentation modes to be supported at [PROJECT1]
+o Subtitles on the main screen
+* [PROJECT2] wants to try it; [ORGANIZATION3] is indifferent, so we will try.
+* Fallback solution B: see above
+* Fallback solution C:
+* [PERSON4]'s X-window Perl Tk hack with mplayer for showing the streamed slides and one terminal window beneath, showing the subtitles in English
+* Preferred solution:
+* Presentation platform has a full-screen no-waste mode, so that the exact same presentation platform can be used in people's web browsers and on the [PROJECT2] videomixing NB
+o Subtitles on each participant's notebook
+* This is expected by [ORGANIZATION3].
+* Requires web-based [ORGANIZATION5] platform
+* The stream of slides and a rolling subtitles beneath.
+* Every participant is free to choose the language they would like to see; .
+* Probably not for June but later, we want to be able to present subtitles in two languages of people's choiceperhaps following two or three languages..
+* No need to restart the sessions! Must reconnect automatically.
+* Foreseen use of the [ORGANIZATION5] presentation platform in the fallback solution for [ORGANIZATION2] SLT:
+o [ORGANIZATION2] remote meeting participants will be sending their audio to [ORGANIZATION5] mediator.
+o In a separate web-browser window, they would be looking at [ORGANIZATION5] presentation platform:
+* They should be able to select one language.
+* All subtitles in that language will be presented there, ie. merging outputs from all other [ORGANIZATION2] meeting participants.
+* An optional check-box: “Hide my own messages”
+* Streaming of slides
+o [PERSON4]'s prototype:
+* [URL4]
+o [PERSON4]'s first experiments for screen streaming locally within a single machine show a lag of *at least 4 seconds*, and 10 seconds in the default setting.
+o HTML stream viewers may be even harder to tune for low latency; we need to start soon.
+* Presentation platform in the full-screen mode
+o Remember to include [PROJECT2] logo in a corner.
+* Comments to the initial proposal sent by [PERSON9]
+o [PERSON1]: For debugging purposes, it would be useful to have clients that connect to the mediator and simulate input audio/video/subtitles from files. Jenom mě k tomu napadlo, že pro debugování by se možná hodilo mít možnost pustit tam audio nebo video ze souboru a předpřeložené titulky, aby nebylo nutné mít k nim ASR a šlo testovat i MT, který není zintegrovaný v mediatoru. 
+o [PERSON1]: What is the data format for subtitles?
+o [PERSON9]: The presentation platform will probably accept simply plain text field. In other words, every message replaces what the text field should show. (Someone else has to take care of making the text roll in the field.)
+o [PERSON9]: Past subtitles were not planned to be available.
+o [PERSON4] proposed to still operate at the level of text fields in the server, but extend the client capabilities to cache received text fields. As long as the prefix of the text field is identical, keep extending the same string; when the beginning changes, make it black and move it up, start showing the current text fields (in dark grey.)A vůbec, mít nějaký jednoduchý textový formát, kterým se budou dodávat titulky do prezentéru.
+o [PERSON3] is right, the decision about when some input is finished, should not be based on the prefix identity, but rather on timestamps. The ASR should tell us what is final, at that point, the presentation platform should move to the new text field.
+o We discussed the Typical Transactions Table
+* expect up to 4000 participants
+

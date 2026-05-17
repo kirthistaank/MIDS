@@ -1,0 +1,27 @@
+Fri 21.6.2019 at 10 AM,
+[PROJECT2] [PROJECT1] KUFR
+Fri 21.6. at 10 AM
+[PERSON18] and [PERSON13] will be absent, everyone else please come.
+- Logistics:
+-- full Wednesday is surely available for testing
+-- Tuesday afternoon is also very likely available
+-- The real videomixer will be there.
+• Check that the fingerprints map is complete:
+-- New spreadsheet: [URL]
+-- + diagram: [URL]
+- Test the full workload, i.e. all audio inputs and all target languages in the presentation platform
+- Test pipeline switching during someone's talk.
+-- i.e. keep one of the channels following one respeaker (keep recording it) and switch the subtitles to present another source of that language
+- ([ORGANIZATION2]) Unfortunately not yet available in the online version, everything is going to be published with “en” source language. We will manage it slightly better thanks to the bridge worker output fingerprint. After workshop we will study a better solution in communication protocol.
+- Live preview of ASR for all the interpreters' booths:
+-- Interpreters and respeakers could slightly modify their pronunciation live, if we provide them with a NB and live subtitles of their booth.
+-- [PERSON5] suggests that the easiest option to achieve this would be to add other special languages to the Presentation Platform. All participants could see this too, but that's not a problem.
+-- So the set of offered langs would be: the normal target ones, and then also BoothEN1, BoothEN2, BoothCS, BoothDE; or X1, X2, X3, X4.
+- ([ORGANIZATION2]) Please notice that there is no possibility (for the moment) to filter languages displayed in the main page based on user type. Each End User will see all the available languages.
+- What to ask in user feedback form at [PROJECT1]? (who can supervise this?)
+-- [URL]
+- Proposed screenplay/script for the 5min video (who can supervise this?)
+-- [URL]
+- Critical problem spotted:
+-- The subtitles of EN appeared many minutes late. Is there any way to flush the cache?
+

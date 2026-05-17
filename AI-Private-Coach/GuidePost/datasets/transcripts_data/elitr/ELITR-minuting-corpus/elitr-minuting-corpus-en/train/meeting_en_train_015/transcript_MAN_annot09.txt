@@ -1,0 +1,805 @@
+(PERSON3) ehm Hi [PERSON5].
+Can you – can you hear me?
+(PERSON9) Yes, we can hear you.
+(PERSON3) Okay.
+(PERSON5) Yeah, hi [PERSON3] and [PERSON9].
+(PERSON3) Hi, hi.
+(PERSON5) Okay, so – ehm not sure ehm if people from [ORGANIZATION6] will join us, because ehm [PERSON10] is on the vacation and ehm [PERSON2] also e-mailed that he won't be ready to join the meeting.
+(PERSON7) Hello.
+(PERSON5) Hi, hi [PERSON7]
+(PERSON7) Okay, hello now you should be <unintelligible/>.
+(PERSON3) Hi.
+(PERSON9) Hi.
+(PERSON3) So ehm [PERSON9] right ehm you're in the [ORGANIZATION3], right?
+(PERSON9) Yes.
+(PERSON3) Okay.
+Yo- you're doing your master's and ehm like second year, or – ?
+(PERSON9) No, I'm a PhD student.
+(PERSON3) PhD student, okay.
+Because I was a- adding your profile in the –
+so we have to submit all the peoples that we have completed this year for ehm bonus points in our log.
+Like, you know, [ORGANIZATION4] database ehm and I was <unintelligible/> your profile and I did look for your ehm like ehm nationality and ehm department faculty name.
+ehm And I <unintelligible/> at –
+I think it is still mentioned as you as a master student.
+(PERSON9) Where?
+(PERSON3) ehm
+(PERSON9) I don't think so.
+Our website should list me as a PhD student.
+ehm I don't think I was listed anywhere while I was a master student, so I don't know where you – where you would find that information.
+(PERSON3) Okay.
+Yeah, maybe something's wrong.
+(PERSON5) ehm So [PERSON4] will join us a bit later, because he's on a data meeting, so I guess we should start.
+(PERSON3) mmhm
+(PERSON5) Yeah, so ehm in the last meeting [PERSON4] mentioned that ehm we should clear ehm the labels for our pipeline.
+Basically, it <unintelligible/> like a version control for the entire pipeline, so that ehm in the later states.
+ehm We can touch our systems – different systems against a later tester to ehm check which one performs better.
+ehm I mean, what <unintelligible/> different pipeline, which – a different pipeline along with different components, which we have heard within the course of the project.
+So ehm this call will be regarding that and ehm <unintelligible/> get to that.
+So ehm –
+(PERSON9) So ehm is the idea that there will be in fingerprints on the workers or I would do the labeling should do.
+(PERSON5) I mean, yeah, one the idea, I mean, is the fingerprinting should be, I mean, that seems like the most plausible idea to do that, because ehm –
+yeah ehm – yeah I think so.
+The fingerprinting, the workers should be ehm good idea to do that.
+(PERSON8) Hi, good morning.
+(PERSON5) Hi.
+(PERSON3) Hi.
+(PERSON9) I'm not sure how that works with the configuration and the mediator right now, because I think it has very strict fingerprint matching enabled, ehm which –
+if I label my worker as outputing ehm let's say ehm en–EN version 47.5 ehm then I'm not sure that another worker that requested just English ehm would be able to match with my worker.
+I think the – the mediator right now is very strict fingerprint matching enabled.
+(PERSON8) Yes, it is.
+(PERSON7) Yes, that is actually an issue for the WSLT where we are also planning to number, adding a unique token to a specific work<unintelligible/>.
+(PERSON9) I mean, a theory that is, I guess, what you want, if you want to be testing specifaically different workers ehm, but it also geos agains the – the idea of the mediator, which is that the workers are interchangeable.
+And that you just use whatever is free.
+So maybe the fingerprints in the mediator are not the exact thing we want to be using?
+At least not all the time?
+Or we need to relax the matching until we were actually run the test set and we want to be running very specific versions.
+Cause then you need also –
+let's say the ASR changers there are <unintelligible/> fingerprint and ehm then we need to change all empty workers to accept the specific input fingerprint, ehm which is not really the idea, I think.
+(PERSON8) ehm Just to understand the ehm <unintelligible/> of the call.
+We would like to test different ehm version of the ASR worker or also of the machine translation worker?
+(PERSON3) I- I guess ehm empty worker also.
+(PERSON8) Okay.
+(PERSON7) Well I guess all components also, I mean there's also the segmentation component that could potentially have different versions.
+So I guess you also want to know.
+(PERSON8) mmhm
+(PERSON3) Yeah.
+(PERSON9) Ultimately the – the number of different pipelines that would need to be tested will be huge, but ehm –
+(PERSON3) Yeah.
+(PERSON9) I guess, so as long it could be automated it should be alright.
+(PERSON8) mmhm Okay.
+A- and of course we do not have ehm sufficient ehm computation <unintelligible/> to run all the required ehm possible workers.
+The only possible fingerprints –
+(PERSON9) We're running – we're running the worker –
+ehm we're running the workers.
+The question is just –
+so as I understand it, we  would like to somehow label the workers in a way that it's obvious when somebody changes the worker to new version or that we can test it <unintelligible/>.
+So I guess also the – the different institutions were offering the same workers so we have empty workers and – and [ORGANIZATION6] has empty workers.
+And maybe that should be visible from the fingerprints somehow so we can test a different ehm – the different versions.
+But if we do add it to the fingerprints then that creates the problem that the downstream workers, the ones that need to request this output, also need to change the input fingerprints to accept one specific one.
+<unintelligible/> may be also difficult to test all the different pipelines.
+(PERSON8) Okay ehm what we can do maybe is to ehm –
+I'm- I'm thinking about the possible solution ehm, not sure this is the most correct one.
+<laugh/> ehm but maybe we can for example ehm name the ehm workers ehm, name the fingerprints of the workers with also the version in- info in the ehm third part of the name.
+ehm Well, ehm the name – the fingerprint is ehm two letter for the language, two letter for the ehm country and then x ehm characters for the domain.
+We can put the version in the domain part for example and from – in the backhand we can ehm disable the strict match of ehm fingerprints int the mediator,
+so that ehm we will have less control ehm on the ehm – on the component in the middle of the pipeline, but w- specifying a specific fingerprint for the input.
+We will still have control on the input and on the output of the pipeline.
+(PERSON9) So, if I understand, we have – we have two conflicting goals here.
+So, ideally, all of the workers should not have to know what exact version of the previous pipeline is.
+So the empty workers shouldn't need to know what exact version of ASR is being run.
+So they don't need to change the input fingerprints.
+But also to test the specific pipelines ehm you want to be able to request very specifically which version of each worker should be done in each step of the pipeline.
+ehm I'm not sure that both of those goals can be achieved at the same time using just the fingerprint system.
+(PERSON8) mmhm ehm I don't remember, but maybe ehm –
+no, no no, no no, not <unintelligible/>
+ehm maybe –
+(PERSON9) I don't quite remember if the API when you register worker to the mediator.
+Is there some other field like a description or something that is not the fingerprint?
+(PERSON8) ehm Yes, there is the name for eample ehm which actually is –
+it- it's correctly used to take track of the – of for example if it's <unintelligible/> worker or <unintelligible/> worker or so on.
+And ehm –
+(PERSON9) <unintelligible/> for some – some versioning.
+(PERSON8) mmhm Yes, but actually it doesn't affect the ehm – the usage.
+Well, you – you never specify the name of the worker you are going to use.
+When you make ehm client request ehm you specify just the fingerprints.
+(PERSON9) Is it possible to specify the name?
+(PERSON8) ehm No.
+No, no.
+(PERSON9) Okay.
+So – so it seem like we – we can't have it both ways.
+So we can't have the workers uniquely identifying their version ehm and still being able to connect to any – any ASR worker for example.
+So either use the workers all specify their version exactly.
+You can request exactly the fingerprint that you want and exactly the – the – the version that you want on the pipeline.
+Or you keep it generic and – and the workers are interoperable.
+(PERSON8) mmhm
+(PERSON9) That's –
+as I understand that you can't have – have both.
+(PERSON8) I think – I'm thinking about ehm –
+maybe – maybe ther is the possibility to specify the full path.
+For example to specify that I would like to start with this worker, then pass the output of this worker to this worker and so on.
+ehm For sure, there is not the – this kind of possibility in ehm an cloud library.
+ehm But eitherly – well –
+but extending the library might be possible.
+Not today, not tomorrow <laugh/>, probably next year.
+Yeah, and I don't know ehm if we are in rush or ehm – or it's a kind of future request.
+We can reason about it in the communication protocol, for sure.
+(PERSON5) On- so, can we have ehm another label, which –
+you know, while ehm being <unintelligible/> mediator, which could ehm maybe how the version that we are planning to connect?
+And then ehm somehow we would have to ehm put that worker in – in the place that it is supposed to be.
+And – ehm okay.
+So, ehm let say not having –
+so let say we have a final part of the worker is.
+So what we could do is ehm –
+if we pass let say ehm fingerprint <unintelligible/>, so that should replace the existing worker there and for the time being it should be the <unintelligible/> worker.
+And as soon as the connection is dominated or ehm –
+and you <unintelligible/> the swap will <unintelligible/> again.
+(PERSON8) mmhm Well, it's – it could be ehm a manual process, not an automatic one.
+ehm You have to shut down the first worker and then start the new one and then when you want to <unintelligible/> them, start the new one and restart the old one.
+It's – there's no automation in – of these kind in the service architecture.
+(PERSON9) I would also want to add that changing the fingerprints of all the worker isn't – isn't very quick process, because of the doctorisation.
+We need to build the doctor container and ehm it's – it's – it's more involved process. 
+(PERSON8) ehm Okay.
+The ehm the scoper is to evaluate different ehm workers, different engines or different moduls version in order to pro- produce kind of matrix ehm regarding the accuracy of transcription and translation, is it correct?
+(PERSON5) Yeah.
+(PERSON8) Yea, for example we have to run a test set over all the possible ASR the – all the possible ASR plus masine- machine translation, so –
+(PERSON5) Yeah, there is <unintelligible/>.
+(PERSON8) Okay.
+ehm Well, ehm maybe we can try to organise it as ehm ma- manual procedure <laugh/>.
+Ask everyone to – okay let's start all the version one ehm moduls and then run all the tests.
+Then okay, this week all the version two <laugh/>.
+Actually, there's no – no – no possibility to specify version.
+ehm The only ehm solution is to modify the fingerprint ehm but then we have to change all the possible fingerprints.
+And this is probably – this would require much more effort.
+What do you think?
+[PERSON5], let me see the test we have to run.
+Do you have a ehm program of your tests?
+(PERSON5) <unintelligible/> no, so it's basically testing of our ASR workers and empty workers on the later tester.
+(PERSON8) mmhm
+(PERSON5) ehm to see <unintelligible/> all the combination of ASR workers, segmentation workers and empty workers.
+(PERSON9) How many total tests will that be?
+(PERSON5) It can depend on how many versions of the workers we have.
+<unintelligible/>
+(PERSON5) I have no idea how many workers –
+(PERSON3) Like ehm –
+the questions is  not like about <unintelligible/> we have to run this tests more frequently.
+ehm I- I mean – and these frequences will probably increase ehm when we are putting the ehm very input on Wednesdays.
+Because ehm those dates ehm will be a kind of checkpoint where we will be deciding what worker is the best for us at the very – at that very moment.
+(PERSON9) This is the regular one plus manual – manual <unintelligible/> the window.
+(PERSON8) mmhm
+(PERSON5) Exactly.
+So yeah, I would add –
+(PERSON9) Yeah, yeah, because, I mean, if we have for a given language ehm given input language –
+just two ASR workers and – and two empty workers that's already for tests you need to run and tell people to run stuff and turn off. 23:03
+But at the same time –
+(PERSON5) Yeah.
+(PERSON9) ehm like I said, if you – if you work with the fingerprints, then you have the problem that you- your – your let's say empty workers don't accept the input from all ASR workers.
+Unless you change the fingerprints of the workers, which is also a manual and time-consuming process.
+(PERSON3) ehm And like also, what [PERSON8] mentioned that we'll be loosing control over the workers.
+(PERSON8) mmhm
+(PERSON3) But this is like ehm a bit kind of disadvanted that we – like that we don't – we obviously want more control over the mediator and the workers.
+(PERSON9) Yeah, I think that's – that's the opposite of what the mediator is originally designed to do, which is –
+(PERSON8) <laugh/>
+(PERSON3) E- e- exactly, so they are meant to be more automatic and provide more control to the –
+I mean to – to – to just <unintelligible/>, yeah.
+But having these <unintelligible/> like version control obviously –
+(PERSON8) ehm Going probably –
+ehm if –
+<unintelligible/> to make a kind of ehm investigation in the en-clou library.
+<unintelligible/> to understand if we have other possibilities –
+ehm to specify maybe –
+and – and manage another field ehm in the fingerprint name for example.
+Or if there is the possibility to specify a full pipe of worker to the input <unintelligible/> request, maybe this is also a solution.
+ehm But I think it's not something we can achieve in a really short period.
+Shat's your deadline, [PERSON5]?
+(PERSON5) ehm There is no specific deadline set that I'd know.
+(PERSON8) Okay.
+(PERSON5) ehm But ehm I mean [PERSON4] has mentioned that we should get start working on that as soon as possible.
+(PERSON3) <unintelligible/> he's quite a stressing what do you even start our approaching and we are ready first week of December.
+(PERSON8) <laugh/>
+(PERSON3) That's – that's quite, you know, quite – quite earlier.
+(PERSON8) So sorry, but, you know – December –
+in company schedule is really hot period <laugh/>.
+(PERSON3) Thats's the end year – end of the year, so I can –
+so I really <unintelligible/> – like –
+maybe it's a very stupid <unintelligible/>, but yeah, I would really to tell it.
+So how about running a different version on a different poat?
+So like we have ehm [ORGANIZATION5] dedicated mediator and mediator for – f- f- for [ORGANIZATION7].
+So how about different poat, that will still be used by [ORGANIZATION4] but will have a different version?
+(PERSON8) Well, ehm actually the m- the [ORGANIZATION5] mediator hasn't been used ehm for a long time.
+I think that probably the –
+there are also no workers of that – to this kind – to these ehm –
+(PERSON3) – to [ORGANIZATION5] mediator, okay.
+(PERSON8) ehm And also we are really –
+th- there is the possibility to run for us also other mediators if needed.
+(PERSON3) <unintelligible/> is – is that a possibility or is that not possible?
+(PERSON8) Well, it's possible in my opinion.
+We can run as many mediator you need <laugh/>.
+We just have ehm a restriction on making new ehm public IP addresses now –
+(PERSON3) Yeah, yeah.
+(PERSON8) <unintelligible/> and we are not managing directly the infrastructure.
+But we can use the same ehm public IP address and put different mediators on different poats, <laugh/> yes?
+(PERSON9) Yeah, but how is the solution different from manually starting and stopping the workers?
+(PERSON8) ehm You can start all of them <laugh/> and first of them <laugh/>.
+(PERSON9) But th- but then that doesn't change anything, you still cannot request a specific pipeline.
+(PERSON8) ehm Not mixing workers on different mediators.
+(PERSON9) Yes, but – so, if you want to test a specific pipeline, you would make sure that only the workers you want to test are running connected to that specific mediator.
+(PERSON3) Yeah –
+(PERSON9) which is – which is the same ehm – the same manual process that we've been describing, of starting and stopping stuff, which is not a variation.
+(PERSON8) It's a first step in any case, it's a firts step.
+For example if you would like to ehm compare just for example ASR, ehm you can put different version of the ASR on different mediators and have all of then running at the same time.
+ehm And at least ehm run the ASR tests alltogether.
+It's not the – the solution <laugh/>.
+(PERSON3) Yeah, that's not the best solution, y- you're right.
+So I- I can <unintelligible/> with this supports – we want to test one worker from one mediator and another empty worker from another mediator.
+So ehm, yeah.
+I – I think we can create a pipeline that's – that is gonna use the output of this ehm ASR worker from one mediator.
+And this will good, than one input to the empty worker from another mediator.
+(PERSON8) ehm <unintelligible/>.
+Well, ehm yes, actually, this m- actually <laugh/> – ehm this mean that you're not going to use the ehm service architecture main functionality, which is the coordination among the mediator.
+You will coordinate your pipe on client side.
+(PERSON3) Y- yeah.
+(PERSON8) Yes, it's dirty, but it works.
+(PERSON3) So, maybe <unintelligible/> –
+could you add these suggestions to the document, so that we can view it later?
+Or yeah, if the meeting is recorded that's also okay.
+(PERSON8) would you like I – I <unintelligible/> the – the – okay.
+(PERSON3) But – but other solutions could there be.
+(PERSON9) Well, what would be the possible time frame, if we need to make a feature request and something to empty <unintelligible/> to the mediator?
+That's something that could happen until I don't know the end of January or are talking about the end of July?
+(PERSON8) ehm I – I <laugh/> – no, no.
+For the beginning of the next year might be an option, yes.
+<unintelligible/> July.
+(PERSON3) Yeah.
+I would not go for – like – July.
+(PERSON8) <laugh/> Well, actually, also to me sounds reasonable ehm feature request.
+I just don't know if it's physical or not.
+I have to – to check it.
+(PERSON9) I – I guess the – the goal then would be to request the pipeline not just by – by the output fingerprint, but specifically by the descriptions of the workers?
+(PERSON8) mmhm Or –
+(PERSON9) description fields on the workers for ehm – for – for versioning?
+(PERSON8) ehm minght be interesting for example to specify ehm the – actually the mediator works creating ehm a path ehm through all the workers involved in the service architecture,
+so that at some point in the mediator there exist ehm data structure, which describes ehm –
+okay, the first worker that we received data from client is this one.
+Then it will pass ehm its output to this worker, which is the second.
+Then the third one and so on.
+ehm It might be interesting for example to have own client side the possibility to directly specify this kind of data structure, let's say.
+Specifying – okay, I th- this worker first, then this one second, then this one third ehm in some way fingerprints name, I don't know.
+ehm instead of letting the mediator ehm compute the – the path based on just input and output fingerprints.
+ehm And letting the client specifying the path.
+This is interesting <laugh/> from the ehm computational point of view.
+It's interesting task.
+I simply don't know if it's really feasible.
+ehm If you can ehm wake- make it working or not.
+ehm I have to check the – the libary in the communication platform.
+(PERSON9) Okay, so, that – that seems like what – what we can do as – as an inter solution we can have multiple mediators with multiple versions of workers starting and you manage everything manually to the client,
+and in the midterm we can see if we can extend the mediator.
+(PERSON8) mmhm
+(PERSON9) So, I guess – I guess that's what we can do.
+(PERSON8) Yeah, ehm okay.
+I- even if we it manually on the client side, we still have the problem on how to identify ehm different version of the – of worker.
+We still need to work on fingerprints, is it correct?
+(PERSON9) No, I would use the – the description field, I think.
+(PERSON8) Okay.
+(PERSON9) That's the – the point of the fingerprints, I think, should be to – to actually allow the workers to not care what other worker they're connectiong to.
+(PERSON8) mmhm
+(PERSON9) Because, if you specify – if we – the translation worker their inter input fingerprint of English and it should be able to connect to any ASR worker that provides English.
+(PERSON8) mmhm
+(PERSON9) I think is – that is the main use case for the – for the fingerprints.
+And if we want to really directly specify the – the pipeline, then that should go over the descriprions of the workers which can have the exact version.
+Or I guess you – if you use the info field for the – for the fingerprints, it could go – could also go over the ehm info field and you can specify when you request the worker to specific change of fingerprints including the – the info field.
+I guess that could work too.
+(PERSON8) mmhm
+(PERSON9) Actually might be the better – the better solution that you have like ehm – let's say ehm [ORGANIZATION3] worker which produces English - [ORGANIZATION3] and some other which produces English - [ORGANIZATION7] and the machine translation workers except English.
+And as a client you could also specify, I mean, I want French output, but I want as an intermediary step specificly English [ORGANIZATION3] and not English [ORGANIZATION7].
+(PERSON8) mmhm
+(PERSON9) I'm ehm – now I'm actually thinking, whether this might not even be possible right now, because you can – you can request multiple output fingerprints.
+So if I started the client and requested English [ORGANIZATION3] and French –
+(PERSON8) mmhm
+(PERSON9) But mediator also has workers a- ASR worker, which produces, let's say, English [ORGANIZATION7], would that client request all the <unintelligible/> the [ORGANIZATION3] worker to pri- to be prioritazed?
+Or would that be a ehm –
+or is there a conflict with the settings of how closely the fingerprints are being matched?
+So, I – I think that would be worth actually trying.
+(PERSON8) <laugh/> ehm Okay.
+(PERSON9) <unintelligible/> making sense.
+(PERSON8) ehm I think that probably we have all to reason about <laugh/> al- about this topic.
+What we like to meet in a couple of days in order to let us ehm –
+me, for example, check on the en-cloud library, if we have some possibility, some additional pssibility.
+ehm And ehm maybe make a tod- together a test of these possible first solution in order to check if we really have problems in practice or not.
+What do you think?
+(PERSON5) ehm Yes, we can do that, I thing.
+(PERSON9) So I think definitely one experiment that you should try is to start the client and explicitly request all of the intermediate fingerprints, including the – the – the last field, which is just for the information and the versioning.
+That might already allow you to request almost specifically the pipeline that you want, so long as the worker have ehm – have these fingerprints.
+<unintelligible/>
+(PERSON5) ehm Different workers already have different fingerprint, so ehm I'm actually like ehm –
+right now, can we do <unintelligible/>?
+(PERSON9) I mean, just – you can just try.
+Let's say, ehm you want to translate English audio to French and you can request with the client the English k- the fingerprint of the en- English [ORGANIZATION3] ASR worker and French,
+and then run the client again with requesting the – as output the fintgerprint of the English ASR worker from somewhere else and French,
+and see if you – if you actually get different pipelines, reproducively.
+(PERSON4) I'm finally here, hello.
+(PERSON8) Hi.
+(PERSON4) So, I <unintelligible/> to see that you are all on the call,
+and ehm I don't want to interrupt the discussion, ehm so, just go ahead.
+Don't expect any input from me <laugh/>.
+(PERSON8) Actually we can test ehm possibility using the automating web tool <unintelligible/> – here.
+ehm Okay.
+Here, there's the – on the left, there's the search path ehm meaning option, which lacks you – ehm in your later possible ehm re- client request.
+And let's you see the ehm – the – the pipe, which would be selected if you perform this kind of client request.
+(PERSON9) I cannot share my screen, but otherwise we can just do this on the screen share.
+(PERSON8) mmhm
+(PERSON9) I think [PERSON4] is a host right now and has to allow the screen sharing.
+(PERSON4) Oh, okay, ehm I haven't realised that.
+So, what can I do ehm –
+so [PERSON9], more, make host – so who else ehm would like to share anything?
+Potentially?
+[PERSON8] maybe as well?
+Make host – yeah.
+(PERSON9) Okay, so we have for example the – ehm here is the English ASR from [ORGANIZATION3].
+Just this fingerprint, and English from [ORGANIZATION4], which is this fingerprint.
+(PERSON8) ehm Such path exactly?
+(PERSON9) So – but with that we can only request one output fingerprint.
+(PERSON8) Yes.
+(PERSON9) But my – my idea would be that you use the – the client to request multiple fingerprints.
+(PERSON8) mmhm
+(PERSON9) And by that ehm influence the –
+maybe I have the client <unintelligible/> somewhere, let me see.
+Okay, so, we can do – we can do it this way, once <unintelligible/> –
+ehm share –
+So, we should be able to request multiple fingerprints here.
+(PERSON8) ehm Specifying more minus <unintelligible/> remember.
+(PERSON9) mmhm I think for this version the <unintelligible/> the <unintelligible/> switched.
+(PERSON8) Aha, okay, <laugh/>.
+(PERSON9) ehm No.
+(PERSON8) ehm We have the ehm strict match ehm enabled on the actual mediator.
+(PERSON9) Maybe it's not switch, maybe just <unintelligible/>.
+No.
+I'm just getting to –
+(PERSON8) Okay.
+So I'm going to check it too.
+(PERSON9) But this was the – this should be correct.
+() I'm not getting any German.
+(PERSON8) mmhm I'm going to check, it's –
+<typing/>
+(PERSON9) So is this –
+I mean – I see – any English to German workers.
+(PERSON8) Okay.
+(PERSON9) Let me see if maybe my – maybe ehm the English to German workers are not running.
+(PERSON8) Okay.
+Okay, <unintelligible/> isn't for example ehm English ASR, yeah?
+<other_noise/>
+(PERSON9) Here we go.
+Okay, so, the translation workers are replying.
+So, now we have some English to French workers running,
+and now the – when I request – the output fingerprint ehm French and –
+I see – I think I see the problem.
+The – the ASR worker is easy to control, because I just control the input fingerprints and output fingerprint of the ASR workers are all the same.
+They are en-EU.
+(PERSON8) mmhm
+(PERSON9) So the ASR worker there is easy to control.
+I can just change the input fingerprint.
+And the segmentation would not be so easy to change.
+But the ASR and MT could be quite easy if you change the – if we change the fingerprints of the – of the translation workers to include some ehm – some version stream.
+Because the other en poitnts.
+The segmentation would not be so easy because it's the one in the middle, and –
+(PERSON8) It's b- i- it's probably also the part that we do no need to check different versions.
+(PERSON9) Oh, like there is only one.
+(PERSON8) mmhm
+(PERSON9) Where there other <unintelligible/> from –
+(PERSON4) Wait, yes, we use a different segmentation ehm worker and have the student who hopefully –
+well, he's at the very beginning, but we have to have also ehm some sound-aware ehm segmentation.
+So that would – that would be actually ehm full of complications pipeline, because ehm he would need to get sound input.
+So, yeah.
+Let's not discuss that's – here this – this extra path, which needs both sound and ehm text.
+ehm But I think that also the middle – middle ehm elements would have different versions.
+So for example we have this ehm –
+now someone is working on some like ehm filtering, so that ehm bad verse do not appear in the output automatic ones.
+ehm And ehm that again could have different versions.
+So ehm if – if we are able to make it flexible even in the middle, it would be useful.
+(PERSON8) Okay.
+For the moment, the only possible solution is to ehm manage the pipe on the client side.
+I was made actually for the ehm – computational power, ehm <laugh/> ehm oh my gosh –
+how is actually made full in order to use just one ASR and put the output of one ASR as input of all the possible ehm machine translation workers.
+ehm In perspective ehm I would investigate the possibility on how to extend the ehm en-sloud communication protocol, in order for example to specify a full path.
+I believe, I don't know if it's feasible ehm, but I wish –
+ehm in my opinion it's something, which –
+as <laugh/> – as [PERSON9] explained is not one hundred percent compatible with the ehm mediator philosophy, which is instead to have ehm interchangeable workers providing the service.
+But, well, actually, it's something that could be useful aslo in other situation.
+It might be interesting to investigate details.
+(PERSON4) So the interchangeability should obviously remain there and it does remain there,
+so it's absolutely okay and useful for others to have multiple workers which have the same version ehm of the model.
+ehm So, it's – th- this replicability that comes for free with the mediator is something that we really want to keep.
+And that will remain there, so –
+(PERSON8) We understand.
+It's jus t a matter of ehm having more control ehm during testing <unintelligible/>.
+(PERSON4) mmhm Yeah.
+(PERSON8) And I understand ehm –
+I don't know if it's feasible, we have to check it <laugh/>.
+Me- Meanwhile, there could be this kind of ehm intermediate <laugh/> solution –
+(PERSON9) Yeah, oh –
+(PERSON8) making <unintelligible/>, because I have –
+(PERSON9) The – the possibility that I was suggesting that right now the – the fingerprints aren't set up for that, but the version that might work, and you sould investigate if it works as is without modifying any – any backands.
+It might be that it could look like this, so let say that the [ORGANIZATION3] 
+asr works from en-EU to en_EU-[ORGANIZATION3] and vice versa the [ORGANIZATION7] could – would have [ORGANIZATION7] at the end.
+'Then we have the – the segmenter, which goes from en-EU to en-EU again [ORGANIZATION3].
+So the input fingerprint is the generic and the output fingerprint is the not generic.
+And again the MT would be en-EU to en-EU – to French.
+And then the client would request multiple fingerprints.
+If you want a specific pipeline, you – you can try requesting multiple fingerprints.
+So you can have ehm en-EU-[ORGANIZATION3] from the ASR, and ehm let's say –
+sorry, that should be french [ORGANIZATION3] also and then ehm French from – I don't know from – from ehm [ORGANIZATION6].
+So – and that might already, as is with client as it is, might already allow you to <unintelligible/> request to the very specific ehm pipeline.
+Cause what I'm hoping is that if you specify this precisely, then –
+that you specificaly also one this output, then it will not allocate you to the ehm – the [ORGANIZATION7] ASR worker, because then it would have to do –
+(PERSON4) Yeah, could you – could you in the example – could you also ehm add the like competing workers, which could potentially do the job, but we don't want to select them?
+And also what is not clear to me is ehm the inut versus output.
+So ehm for each of these workers or clients.
+So you are specifying that both ASR's ehm input ehm like ehm digest English sound and they produce different ASR's, different versions of them.
+There could be some version number obviously.
+So, ehm well, is that obvious – is there –
+can we as many dashes ehm or is that like a third dash and f- everytihing after ehm in the third element ehm dash the limited element – everything is one  ehm token, which is not for the divided?
+So can we ehm –
+c- could you make two –
+that's actually a question which is also very relevant –
+ehm I would like to see the [ORGANIZATION3] <unintelligible/> worker for English in the mediator very soon, because in – on the third of December – on the first of December there is a metaphorum, which is like to do dry-run for.
+And on the third there's is something which I just learned from [PERSON1] today, ehm there is ehm another meeting of ehm the [ORGANIZATION1] [ORGANIZATION1] preparation group.
+And ehm that – for that I would relly like to have the neural model, in which you – you have.
+I don't know if that is feasible on your side, but imagine that you have two ASR's systems.
+So, ehm could you make two versions of ASR?
+And select hen with the fingerprint the – yeah.
+So it is already a dash, not –
+ehm sorry, an underscore, not dash, right?
+(PERSON9) I think tha- I think you're only allowed to have two dashes.
+(PERSON4) Yeah, okay.
+Yeah, that was my – ehm the – the answer to my first question.
+And now what I don't understand is ehm – in the client –
+so what – in what part of the pipeline are you starting the client?
+Because if – if it – if you are starting it from sound till the translated text, then you are specifying only the endpoints and not the mid- middlepoint, which is neural.
+So that's – that's something which is not clear to me.
+(PERSON9) So that – that's why I – that's why I think maybe we can work if you also request as output the – the intermediary fingerprints.
+That's why –
+(PERSON4) So the intermediary, okay.
+There are some intermediate.
+So the en it is intermediary and not input.
+(PERSON9) The en i is the – i is input, which – ehm which is ehm contra-intuitivly the output.
+So the client specifies the – what it wants just receive with i, because it's the input to the client, but it's the input to the user, very intuitive design.
+(PERSON8) <laugh/>
+(PERSON9) And ehm, so – but you can request multiple ones.
+You can only have one f, which is the fingerprint of the – of the sound file that you're putting in –
+(PERSON4) mmhm
+(PERSON9) But you can request multiple – multiple inputs to the client.
+But like I said I don't know if this will wor as I wanted to, because I don't know ehm –
+if the fingerprint matching on the service is strict, it might mean the signature which expects the English EU ehm might not accept this fingerprint as input.
+And if the fingerptint matching is not strict and it will accept this input, then I don't know whether when we request this fingerprint we will actually get this fingerprint.
+(PERSON4) Yeah, so, because there is a risk that the client's request will be satisfied, the sound will be processed with one ASR and translated to French.
+And ehm the input will also be pricessed with maybe another ASR and this ASR output will be delivered to the client as well.
+So client is going to receive two outputs, right?
+(PERSON9) Yes, the client in this case would receive two outputs.
+<unintelligible/>
+(PERSON4) Yeah, and – and you're hopeful that ehm – that the mediator is clever enough that if we ask on two outputs that could be on the same path, it will actuall ycreate a single path and not – not run more workers than needed.
+(PERSON9) Yes.
+So, I see the – the possible fails would be the fingerprint matching isn't precise and we would get a different ASR.
+It's possible that we would get [ORGANIZATION3] ASR, another ASR and [ORGANIZATION6] MT, because it cannot reuse that stream.
+I think we have <unintelligible/> this before.
+(PERSON8) mmhm
+(PERSON9) So for examle for examp- we would also request, I don't know, Spanish, then I think with the mediator as it is right now, it would be allocating two ASR workers anyway.
+(PERSON8) Yes.
+(PERSON4) mmhm
+(PERSON9) So I don't know.
+This is a – this is also one of the possible fails.
+I d- I actually have no ide what the – what the actual behaviour will be.
+That's why I'm like wondering.
+Or it will fail completely, because segmenter can't connect to ASR.
+(PERSON4) mmhm Yeah.
+(PERSON9) Those are the – the three possible failures and areas that I foresee that might be possible.
+(PERSON7) Yes.
+I'm seeing one more maybe, because I think that the goal of the mediator should be to prefer shorters – shortest path.
+So if you specify something that is longer, than maybe if it's even more clever it maybe should avoid joining the partial path you spcified by the intermediate outputs.
+(PERSON9) But – but there is the shortest path.
+I mean, the path doesn't get longer, because I specified the [ORGANIZATION3] neural.
+It would have to go through some ASR anyway.
+I', just –
+(PERSON7) Oh, right.
+In this case definitely.
+Maybe with filtering for the <unintelligible/> boards it won't be the case, that we'll see.
+(PERSON9) Yeah, if – if there is a shorter path available, then it will probably prefer the shorter path.
+But in this case we're not making the path longer by specifying more.
+(PERSON8) Okay.
+And and this is the third possibility ehm and we have to investigate it through tests together <laugh/>.
+(PERSON4) Yeah, yea, yea.
+(PERSON9) Well, the thing is that I will require right now changing all of the the – the fingerprints, because right now the, for example –
+and it might not be necessary strictly at the moment, because right now the [ORGANIZATION3] ASR –
+so, right now [ORGANIZATION3] ASR ehm has the fingerprint ehm <unintelligible/> somewhere.
+this one: en-EN to en_EU.
+So the input fingerprint is different.
+And – so you can already select which ehm – which ASR worker you want by just changing the input fingerprint.
+(PERSON8) mmhm
+(PERSON9) The ASR worker you can control this way.
+ehm I don't think that the empty workers can be specified this way, because they have generic fingerprints.
+So, yeah.
+For example our empty worker ours is en- EU to let say French without any – any ehm signal.
+(PERSON8) I sh- I share with you also the ehm fingerprint text file we created ehm lo- long time ago together with <unintelligible/>, which is also useful to have a look at ehm.
+(PERSON4) Th- this is – this is ep- especially important for the new people ehm on the team.
+So, [PERSON3] already knows that, ehm but ehm not [PERSON5] and not [PERSON6].
+So [PERSON5] and [PERSON6] please make sure to like bookmark it or whatever.
+(PERSON9) So I – I – I think trying this could be interesting and would require ehm changing all the – the fingerprints right now, but changing it once is maybe a huge deal, ehm I hope.
+(PERSON4) Yeah – yeah.
+(PERSON9) We need to investigate how – how it is, because we want to avoid splitting to many versions of all workers.
+Because we haven't separately <unintelligible/> translator architecture and this one.
+But is should be possible.
+The – the thing is that one of the – one of the possible outcomes is this one, ehm which means that nothing will connect to anything.
+And hope <unintelligible/> just not work.
+(PERSON4) So, please, make sure to test it out, wh- whoever needs to be there.
+I think [PERSON9] you're the best person, but we sure should definitely follow exactly what you're doing.
+ehm The – so that he understands the infrastructure there as well.
+And ehm I'll have to relieve, because I have another ehm call.
+ehm Hopefully we haven't clash with this one, because it's also Zoom ehm on my account, so I'm curious how that will work.
+But ehm s- independently of that.
+ehm This is very important, the ability to select a particular worker, so I'm happy that you are like figuring out how to do that.
+ehm We also want another separate thing ehm and that's versioning.
+So, even ehm – so, like all the versions indeed – ehm
+So the reason is that ehm if for example [ORGANIZATION3] has one neural ehm ASR –
+ehm Yes, that's good.
+ehm But we need to –
+ehm So the – idea that this is important for the regular evaluation.
+So, I would like ehm the breakal evaluation that wishfully will be running ehm to keep a record of what exact versions of the workers were used.
+And it would be even better ehm to have something, which is like internally a version ID in the worker itself.
+So that it is ehm like less likely that you update the worker internally and keep the same fingerprint.
+That would be bad for the evaluation purposes.
+So for the evaluation purposes we would really like to have ehm deterministic behaviour, so that if you have a worker which has this commit ID, ehm then it does the same thing all the time.
+And it's ehm finer detail than just ehm the ehm same fingerprint, that the worker like ehm assignes to or ehm s- signs up to.
+So –
+(PERSON8) This is also related ehm – <unintelligible/> is this related to how ehm the partners implemented the workers.
+For example for what ehm we do improvise ehm the update of the language model – the acoustic models are completely ehm unrelated to the update of the ehm softer model which makes <parallel_talk/> Yes. mmhm <parallel_talk/> the ehm –
+which is actually the worker.
+(PERSON4) Yeah.
+(PERSON8) And I don't know how – how [ORGANIZATION7] keep <unintelligible/> made the integration.
+(PERSON4) Yeah.
+(PERSON8) ehm But I think that probably we come in any case to this kind of problem, because for example I ca- I can update my ehm Italian – ASR.
+(PERSON4) And you keep your softwer so nothing changes in the way <parallel_talk/> Exactly. <parallel_talk/> it's –
+Yeah, I understand what's the problem.
+So, obviously, yes.
+The – the book-keeping is essential.
+Like if – if we agree that we want to know exactly which model is there, then whoever is publishing this model needs to make sure that the version of the model gets propagated to the version of the worker.
+But ehm my question is whether ehm the – the architecture itself includes any place – any any – any field in the startup of the communication, whether worker will say something about itself.
+And I don't think there is something like that.
+(PERSON8) Well, this – the – the end – the initial handshake –
+(PERSON4) Okay.
+(PERSON8) There is for sure the fingerprints and the name ehm –
+(PERSON4) Okay.
+(PERSON8) mmhm
+(PERSON8) Description, let's say the –
+it's – it's called service name.
+(PERSON4) mmhm
+(PERSON8) ehm And probably it shares also other – other information for example –
+(PERSON4) Oh,so there is this service name.
+It's – when it –
+I see on the – ehm on the admin web, I see the service name by Umar – b- by [PERSON6], at DLL something.
+(PERSON8) Yes.
+(PERSON4) So we can put anything there, right?
+(PERSON8) Yes.
+(PERSON4) This is a free string.
+Okay. So this is –
+(PERSON9) <unintelligible/> it's not shown to the client.
+I don't think it's even transmitted to the client.
+I don't think –
+it's not – not a client thing where you can just say okay, I want to display it.
+I don't think it's even ever sent to the client.
+(PERSON8) Exactly.
+(PERSON9) The client never knows the name.
+(PERSON4) So, can we somehow request this programatically?
+Like ehm the ehm –
+it's – it's –
+a- actually this is needed for the – for the test suit operation.
+So, when we want a regular run evaluation of these ehm – of the inputs in [PROJECT2] test set ehm and then ehm s- store these outputs.
+And we want to label these outputs with this service name.
+So, how do we get to the service name when we ask for ehm particular processing job?
+(PERSON8) Okay.
+At the moment there is no possibility to do it, because ehm it's all this related the fact that service are interchangeable and from the client side ehm you should not know which one- who – who is providing you the service.
+(PERSON4) mmhm Yeah.
+(PERSON8) ehm
+(PERSON4) But there is the the session ID.
+So, is this archive for some short period of time, so that like we could ehm run the service and ehm see which ehm session ID was –
+d- does the client know the session ID?
+(PERSON8) No.
+(PERSON4) No, okay.
+<laugh/> Yeah>
+(PERSON8) ehm I – I think at least no.
+ehm But I can investigate.
+(PERSON9) Yes, I think the client knows some kind of session ID.
+(PERSON8) Really?
+(PERSON9) Yeah.
+I think the client gets some session ID and we need to do some weird –
+(PERSON8) Yeah, probably its own session <laugh/> ID <laugh/>, and –
+(PERSON9) But – okay, but, I mean, [PERSON4], what is the difference between using the – the description and – and noting the version in the fingerprint?
+I don't understand why that is not an option.
+(PERSON4) ehm Well, the – the example is – is here for example.
+The DLL six and seven, if you are looking at the admin web now.
+There are two [PROJECT1] NMT systems.
+ehm They actually differ the – in the fingerprints but it's – it's <unintelligible/> the machines from the cluster.
+And I can imagine ehm that ehm one of the machines would have different GPU card and would be slower for that reason.
+And we are also evaluating the – the delay.
+ehm So, ehm that would then explain ehm the different behaviour in the – with respect to the ehm – to the delay.
+ehm So, it's the – the idea is that you have more information about the workers ehm then ehm – all the possible infromation about the worker without ehm actually getting to the – to the other machine.
+So, for our workers we can have separate loads and like merge them – put them with – with the ehm – with the same outputs.
+But for your workers ehm we would like to ehm – to have something more detailed.
+And I – I would assume that it's easy for you to ehm do an update in the model ehm and make sure that the service name changes, but the fingerprints will remain the same, because the – the ehm –
+if – if the fingerprints allow us the same flexibility, so that you can change the fingerprint on your side only and we don't know and the rest of the system doesn't know about it still works for all the various ways of processing, than yes, fingerprint is sufficient.
+But I fear the fingerprints have to be agreed on, so that it connects ehm well.
+ehm And if the fingerprints have to be agreed on, then you cannot unilitely change the ehm – the detail about taht.
+(PERSON9) So, this – the – the fingerprint is again like – we would trying to have a – we would trying to have all the possible ways, so –
+(PERSON4) Yeah.
+(PERSON9) We – we – if we have the fingerprints like this and we can request them specificall like – like this one –
+(PERSON4) than that's, yeah.
+(PERSON9) then we get a specific pipeline we want.
+(PERSON4) Yeah.
+(PERSON9) ehm then we'll be – then it will be completely exact.
+(PERSON4) Yeah.
+(PERSON9) ehm At the same time ehm for the workers to connect to each other they need to be reasonably generic.
+ehm Then we also have the use case where – where is – where you can these fingerprints, which specify the service language, ehm where you want the publishers specifically to connect to some specific translation from the service language.
+So I – I think there might be conflicting goals here.
+And yeah.
+I guess you could put the descriptions – put something int the description but you cannot request workers by the – by the description.
+(PERSON4) Yeah, there is –
+there is – there is ehm what I was hoping for, that you cannot request workers by description, but you still get the description.
+And it's – it's also difficult to get the description.
+(PERSON9) <unintelligible/> the description, then – then you cannot control for these ehm – for the different workers.
+Then you cannot say that I want specific worker –
+(PERSON4) ehm Yeah, I agree, yeah.
+(PERSON7) We would need – we would need an extra dash ehm to get the version behind.
+(PERSON4) ehm Yeah, yeah, which is beyond the ehm the protocol so far.
+(PERSON9) But actually not that I look at it, ehm the way we've been doing that was – these have been – like this.
+(PERSON4) Yeah.
+(PERSON9) So they are – they are actually using the second field, so there you can have the matching again.
+So – so you can – you can probably configure the mediator of the second field <unintelligible/>.
+The <unintelligible/> can be K – [ORGANIZATION3]_onSlowGPUv7.5 whatever.
+(PERSON4) mmhm
+(PERSON9) And then – then you can probably say that's – that this field matters, the middle field matters, but the last field doesn't.
+So – so ou could have it both ways and –
+(PERSON4) Yeah, so let's –
+(PERSON9) I think – I think in general the fingerprint system could – could do that – could do that and allow you also to request the staff that you want.
+(PERSON4) Yeah.
+In that case it is better to use fingerprints read than the extra description, the service name, I agree.
+So ehm I'll – I'll leave now, but [PERSON9], if – if you could make sure that this test is done and that we know the answer, like wh- whether it – whether the use case works with ehm – whether none of these fails ehm happen and no other fail also happen.
+ehm And ehm also I would like to ask every ehm partner to label their workers with the date of whatever – of department.
+Something like that.
+So that ehm this neural version two, that is something which is interpretable to you and ehm [ORGANIZATION3], but we have to talk about it.
+Like is it –
+and if you say –
+yeah, exactly –
+if – if you put there the date, then it's – it is easier to for – ehm for us to immediately see ehm that you have done ehm some – some change.
+So since we are already ehm changing the fing- or going to change the fingerprints, ehm yeah.
+(PERSON5) ehm So, can we put that in the service name?
+(PERSON9) Yeah, I also <unintelligible/>.
+(PERSON5) Yeah, can we put that in the service name?
+(PERSON4) ehm Well, the service name is already informative, so the service name does not control anything.
+And the – you actually see the service name onl in the – through the web interface.
+(PERSON5) ehm Actually, no, even in the dominal ehm where I run the pipeline ehm I can see the service name.
+(PERSON4) ehm Okay.
+So that is good news, so please make sure to record the service name to the log file, so that we can then ehm –
+(PERSON9) Right –
+(PERSON4) So, do you run –
+(PERSON9) <unintelligible/> the translation service, so you get the last service name.
+(PERSON4) Oh, okay.
+And not the intermediate one.
+(PERSON9) The service name of the last worker in the pipeline.
+(PERSON4) Okay, yeah.
+So it's not incom- no- no- not complete.
+Since for the evalutation purposes we're going to ehm do ehm – well, we're going to do both.
+We're going to evaluate individual components as well as the full paths.
+the full paths will have like compound effect on the final performance in terms of the – the speed and – and all that.
+And these ehm sparate components ehm – these are for better comparison.
+Like which model to choose.
+So ehm – so, for the case where we are running just one – one step the service name is there, that's good.
+For the full pipeline ehm you have to rely on fingerprints ehm, because you would not know which ehm underlying ehm system was used in the middle of the pipeline.
+Because you don't get these service names for the – for the intermediate steps.
+Yeah, ehm –
+(PERSON5) And we get that from the ebclient, I mean, if we can <unintelligible/> the service name, ehm <unintelligible/> the start the session whenever I run a pipeline or whenever <unintelligible/> pipeline.
+ehm That would, I mean, just without pre-processing that would ehm help us get everything that we need.
+(PERSON4) Yeah.
+Wel, I'll leave at the p- at this point, thank you and I hope that [PERSON8] will have an answer, but I think the answer will be negative, I'm afraid.
+ehm So, thanks and ehm, yeah.
+(PERSON8) Bye [PERSON4].
+(PERSON4) Yeah, bye bye, thank you.
+(PERSON8) Sorry [PERSON5], could you repeat, please?
+(PERSON4) So, should I make ehm host [PERSON8] or [PERSON9]?
+(PERSON8) ehm It's the same.
+(PERSON4) So I'll make [PERSON8] ehm the host.
+Thank you, bye bye.
+(PERSON8) Bye.
+(PERSON9) So, [PERSON5] what you can do is you can just run the – run a client in debug mode and put a breakpoint and then look at all the fields that – that you get and every package that you will get back.
+(PERSON5) Okay.
+(PERSON9) Cause I'm not sure what is actually being transmitted and not just played by the client and what is in the packages but ehm what is not even in the packages.
+Or you can run <unintelligible/> while you are running the client and look – look exactly what is in the packages.
+(PERSON5) Yeah, ehm that sounds a feasible option.
+(PERSON8) Okay.
+Would we like to schedule a test together?
+Maybe next week?
+So that we g- we can go through the possible option?
+And I will come back with hopefully some answer on feasibility exten- en-cloud extension?
+(PERSON5) ehm Yes, I guess that should do the work, yeah.
+(PERSON8) mmhm
+(PERSON7) Maybe I see a question to [PERSON9]'s idea.
+ehm Are the requested outputs processed in order?
+That could be an interesting information.
+Because if perhaps for simple test [PERSON9]'s idea will work and then for more complex one we will see.
+There is maybe some hash ehm or something else that changer the order.
+I mean, does the order matter?
+(PERSON8) No, request are im- imparallel.
+(PERSON9) ehm I'm not so sure, I mean, yes, they are being run imparallel, but they are not being reuested imparallel.
+(PERSON8) NO, no, okay.
+(PERSON9) They are requested ehm from the server and which the server allocates the pipelines would probably be the order that I give the modal command <unintelligible/>.
+(PERSON8) Yes, it's correct.
+(PERSON9) <unintelligible/> correctly.
+So, it could make a difference.
+Yeah, that's –
+(PERSON8) That's in the case we have just one ehm ASR for English, the correct fingerprint running one instance, just one instance.
+ehm It will be allocated for the first request and not for the second one.
+But if we have more instances running it shoud be the same.
+(PERSON9) I also see problems ehm possibly coming when you ehm – when you're requesting fingerprints for the different – ehm with different output types.
+So ehm –
+(PERSON8) Yes, it's not –
+(PERSON9) It might be requesting different output fingerprint of the ASR, then that would be unsegmented text, where is when I want to request a fingerprint of the segmentor, that would be segmentor text.
+ehm And <unintelligible/> the cient can only request ehm outputs of one type.
+(PERSON8) Yes, exactly.
+(PERSON9) I don't think it's a restriction of the library, it's just a restriction of the client ehm, but still.
+(PERSON8) I think probaly of the client.
+We are working on a new clients in order to ehm make the bug procedure ehm a little bit more – more understandable to be, which I'm not ehm I see, developed. 
+ehm And we are making it in Java, because in [ORGANIZATION2] we are Java developer.
+And maybe –
+but, well, in any case we can run two different client version – two different client instances, making ne request ehm just one output fingerptint, which is the input fingerprint of the client.
+(PERSON9) <unintelligible/> share a pipeline.
+(PERSON8) No.
+But at the moment I'm pretty sure that it doesn't share the – the pipeline in any case.
+It's ehm well known feature request and we are still reasoning on how to extend the protocol,
+because, actually, it means to work on the data structure inside the mediator to make it.
+ehm But at the moment I think it doesn't ehm – doesn't use the same instance of the ASR, both for te ASR output and machine translation.
+(PERSON9) Okay, so maybe this test cannot work.
+But ehm do you still have access to the – to the Swiss-code of the odl mobile technology mediator?
+(PERSON8) ehm Well, the mediator has been re-completed – re-<unintelligible/> by –
+(PERSON9) Yes, I understand that, but the – the – the mobile technology mediator could do that?
+(PERSON9) <unintelligible/> the other thing, so maybe – maybe look at their code and see all they did it.
+(PERSON8) Thank you for this suggestion.
+I don't know if ehm we have still access to it.
+I – I have to check it.
+(PERSON9) ehm So, yeah.
+I will – I will have to think about what – what I can do to run this test ehm with a minimal ehm – minimal breaking staff and whether ot not this test actually can produce results right now, given that we don't have the pipeline sharing and ehm –
+actually, I can do one test –
+yeah, even if I look at – at this right now ehm –
+the test I run earlier.
+If I'm – if I'm reading this text correctly, I'm being allocated two separate pipelines.
+(PERSON8) mmhm This is the rason why [ORGANIZATION7] use the ehm – the client pipe in order to run just one ASR.
+And pass its output to multiple machine translation workers.
+ehm Well, i- it's ehm a per- perfectly understandable feature request this for me.
+We're really investigating this possibility, however, it's not ready yet.
+(PERSON9) Yeah.
+So I'm – I'm gonna thing about this tests more and then –
+(PERSON8) Yes.
+I – I will also investigate other possibilities.
+ehm But definitely we need to make tests together on ehm <unintelligible/> to understand what we really really need for ehm – for the evalutation.
+So if you have at some point also description of ehm what we are going to test, this will help us also in order to design the possible solution.
+[PERSON5], [PERSON3]?
+<laugh/>
+Will you have at some point the description of the tests?
+(PERSON3) ehm I think [PERSON5] should answer this question, because he particularly works at these taskts.
+(PERSON5) ehm I mean, yes, we should have –
+(PERSON8) Okay.
+(PERSON5) ehm Yeah.
+Yeah, we sh- we definitely should have the description of what we're trying to run.
+(PERSON8) Okay.
+We can make ehm some simulation together with maybe the ehm <unintelligible/> workers, ehm so that we can better design this possible intermediate solution.
+(PERSON9) Yeah, I mean, I really have to go to lunch now, my colleagues are – are waiting –
+(PERSON8) <laugh/> Well you – we have finished, don't worry –
+(PERSON9) <unintelligible/> in the <unintelligible/> document of this meeting the – the use cases that we're – that we've thinking about.
+(PERSON8) mmhm ehm Okay.
+So, please, [PERSON5], write the use case in the document and send us also a Doodle for the next week in order to schedule the next part to ehm <unintelligible/> hands on <laugh/> session and make test together in order to ehm simulate the use case, okay?
+(PERSON5) Yes, sure.
+(PERSON8) Okay.
+Meanwhile, I will check ehm the library ehm and let's see.
+Okay.
+(PERSON5) Okay, thank you.
+(PERSON8) Thank you guys.
+(PERSON9) By everyone.
+(PERSON8) Have a nice lunch break.
+(PERSON3) Bye.
+(PERSON8) Bye.
+(PERSON5) Bye bye.

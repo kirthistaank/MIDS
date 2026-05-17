@@ -1,0 +1,21 @@
+[PROJECT1] [PROJECT2] 14.06.2019
+Attendees:[PERSON12], [PERSON4], [PERSON10], [PERSON11], [PERSON9], [ORGANIZATION4], [PERSON3], [PERSON4]
+Purpose of meeting: Disccusion about subtitles and the appearance of the final form.
+
+Summary
+• German ASR will be available only for 20minutes.
+• [ORGANIZATION4] could summarize what they have recorded.
+• German ASR is not working right now.
+• English subtitles should have UTF8.
+• English subtitle with source Italian audio or German audio.
+• Default available languages displayed in the front page.
+• Have bigger subtitles for bigger screen.
+• Try to clean up the Google document.
+
+		Milestones
+		• Need fingerprints before the 27 of June meeting.
+		• 17.6. Monday meeting.
+
+
+
+Minutes submitted by: [ANNOTATOR2]

@@ -1,0 +1,60 @@
+AGENDA FOR THU APR 5:
+
+* Update on [ORGANIZATION14] status
+* Considered WP leadership changes (primarily a formal thing)
+o [ORGANIZATION13] should probably keep Minuting
+o [ORGANIZATION5] will lead Data
+* Involvement of partners in Integration WP
+o From [PERSON12]:
+* WP6 will need enrichment from all other parties for their details.
+* I'm trying not to have more than 4 tasks (grouping for example asr, smt and multi-target mt)
+* [PERSON20] has now updated proposal to reflect this.
+* There is now a draft by [PERSON12] for others to contribute to:
+* [URL]
+* [PERSON20] will put the contents from this into the overleaf later. So for WP6, please use this.
+* Status of text parts of the proposal.
+o Project name
+* [PROJECT2] has a nicer content, spelled-out version
+* ...so we will probably have this.
+* to be pronounced “e-lighter” or “elite-r” (but not “e-litter”)
+o Every WP leader to present the proposal of the respective WP (tasks, collaboration, timeline)
+* based on the 1-page WP summary table
+o [PERSON20] to present gaps in introductory sections:
+* Partner descriptions
+* Everyone please mention preferably twopersons (changes during the project are surely possible)
+* Everyone please review and comment:
+* Objectives
+* Relation to the work programme
+* The early parts of Concept
+* Please volunteer to polish Methodology:
+o SoA in Remote Conferencing -> review by [ORGANIZATION12]
+o SoA in ASR missing: [ORGANIZATION12] + review by [ORGANIZATION5]
+o SoA in MT incomplete: [ORGANIZATION13] + review by [ORGANIZATION5]
+o SoA on SLT: review by [ORGANIZATION13]
+o SoA on summarization: review by [ORGANIZATION12]
+o SoA on minuting tools: review by [ORGANIZATION6]
+o Handling Humans: everyone please review
+* Concept seems still rather weak:
+* Can [ORGANIZATION6] provide further dissemination activities?
+* Ambition missing
+* [PERSON20] will try, any comments welcome
+* [PERSON15] added a link to a head-to-head competitor!
+* Expected Impacts
+* Everyone please review the proposed impacts
+* Suggest more
+* [PERSON20] will finish
+* Impact Maximization:
+* Thanks to [ORGANIZATION6] for their paragraph. [PERSON20] will structure it a little.
+* Can [ORGANIZATION6] please derive and create specific tasks from this? E.g.:
+o Managing social media (month 1-36)
+* with a description of the planned activities
+o Local press releases (months 1-36)
+* ...again some details, e.g. the planned format of these
+o [ORGANIZATION7]
+* can we *promise* to have a booth there? Is it just a question of money? Should the budget contribute to this?
+* Discuss deliverables
+* Discuss budget
+o Hours of recordings and'usage' of respeakers: esp. @[ORGANIZATION12], please populate this:
+* [URL1]
+* Consortium agreement
+o We will simply take the standard template.

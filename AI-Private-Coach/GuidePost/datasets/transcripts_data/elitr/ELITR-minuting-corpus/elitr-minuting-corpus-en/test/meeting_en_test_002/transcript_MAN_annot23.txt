@@ -1,0 +1,438 @@
+(PERSON3) Hi everyone.
+(PERSON8) Hi [PERSON3].
+(PERSON3) So, [PERSON11] was sending me me a e-mail that he might be a little bit late.
+And who else uh-
+Yeah.
+[PERSON5] is not here, so I'm not sure whether <laugh/> he will be joining today, but maybe- maybe he will, remotely.
+Uh and other than that I think that's that's everyone.
+So we can probably s- start.
+Yeah, so.
+So let's see uh.
+Yeah, we can- we can start with the [PROJECT3] I guess, because [PERSON6] can provide feedback, right?
+(PERSON6) Um, but I'm not sure whether I should talk about it, when uh-
+[PERSON11] is not here.
+(PERSON3) Okay, so we can try waiting for [PERSON11].
+Uh.
+I don't know, other than that uh looking [PROJECT5], hm hm hm.
+Uh.
+Yeah, so you're preparing the paper for the [PROJECT1], I see.
+(PERSON6) Uh, yeah, just today I finished the uh, the reviewer comments.
+I'll still need to read through it.
+(PERSON3) Mhm.
+(PERSON6) But uhm [PERSON11] also wanted to, like properly decide uh [ORGANIZATION4]'s or the quality estimation stuff, and so-
+(PERSON3) Mhm.
+(PERSON6) And I could just briefly comment on the number of participants.
+We- when we did the, th- the 2B experiment at our faculty, we thought that this was just going to be some introductory experiment.
+Where we just see whether it all works and just write a small paper out of it.
+(PERSON3) Mhm.
+(PERSON6) And then we thought that the big paper was supposed to be together with [ORGANIZATION7], but-
+It appears, that um- this is the big paper and uh <laugh/> there's going to be no paper with [ORGANIZATION7], because-
+(PERSON3) So-
+(PERSON6) They seriously dropped the ball on, on the participants.
+(PERSON3) So- so the [PROJECT1] submission is going to be with uh, collaboration with [ORGANIZATION4], or or not?
+(PERSON6) No no no.
+Uh no, that's just uh me and [PERSON11].
+(PERSON3) Mhm.
+(PERSON6) And w- we just thought this was going to be like small paper, but-
+(PERSON3) Mhm.
+(PERSON6) then the big paper was uh to be with uh [ORGANIZATION7].
+But uh I think the k- the big paper is not happening, because there is just no, any data.
+(PERSON3) Yeah, okay.
+(PERSON6) Like, in like s- seven or ten days of running this experiment, there is like only two people who finished the-
+(PERSON3) Mhm.
+Okay so- so yeah.
+Yeah, let's w- wait for [PERSON11] with this.
+Uh, just uh small moment.
+So [PERSON5] is joining us, right now and uh with [PERSON11], I'm not sure.
+Yeah.
+It seems like he should be- ready, but he didn't send me a message or anything, so I don't know.
+Uh.
+So yeah, [PERSON5] is here uh.
+Yeah okay so let's let's keep the [PROJECT5] and [PROJECT3] right now, since [PERSON11] is not here and maybe uh- do we have some updates on the <other_noise/> [PROJECT7]?
+(PERSON8) Well so far-
+I I-
+Oh yeah.
+I- we decided uh after that meeting that w- we should invest our time in our-
+(PERSON3) Mhm.
+(PERSON8) In, in making a paper, writing a paper and trying to publish some ideas and and-
+(PERSON3) Mhm.
+(PERSON8) So uh-
+I selected-
+I- I saw that uh [ORGANIZATION6] is the next one, so I, I took the uh-
+I start writing the uh a paper just to organize the ideas uh, but-
+(PERSON3) Okay.
+(PERSON8) But so far, I don't have uh-
+(PERSON3) Yeah, like y- ye- [ORGANIZATION6] deadline is uh this- this uh, Sunday.
+So uh, it's not even expected to- to have results for- for this- this deadline, right?
+So- so that's fine.
+(PERSON8) Yeah, ye- ye-.
+But it's just to-
+To- I don't know, maybe writing things, we can think about uh alternatives or limitations.
+And so it will be interesting to, to check this kind of thing so-
+Um so far I- I just organize the- the sections in bullet points.
+(PERSON3) Mhm.
+(PERSON8) And i also<unintelligible/>-
+(PERSON5) I heard that the [ORGANIZATION6] deadline has been moved, uh uh there is some extension uh that the-
+(PERSON3) Oh really?
+Oh I see.
+(PERSON5) Please check.
+(PERSON3) Okay.
+(PERSON8) Seven oh-
+Seven October I- I <unintelligible/>-
+(PERSON3) Oh really?
+Okay.
+(PERSON8) But I'm- maybe I'm wrong I I I just-
+(PERSON5) But I shouldn't be telling this to [PERSON3], because he's <laugh/>
+(PERSON8) <laugh/>
+(PERSON3) No- no I'm- I'm really starting to write to- this week <laugh/>.
+Uh, okay.
+Okay let's let's tell that uh also to [PERSON11], because he seems like uh he will not make it until Sunday, but this might help him a lot.
+Like that's, three more weeks, if I'm correct.
+(PERSON8) Yeah uh.
+(PERSON3) Yeah, okay.
+Uh, also I- I remembered I can also send you a link uh to the [ORGANIZATION1] Calendar.
+One of our colleagues is actually main- maintaining uh, a overview of the important dates for conferences, so this might be helpful to [PERSON8].
+(PERSON8) Yeah.
+(PERSON3) So-
+(PERSON8) And-
+(PERSON3) Okay.
+(PERSON8) Yeah, so that the next one after-
+(PERSON3) Yes.
+[ORGANIZATION6] is N, double A, I don't know CL <laugh/> I don't know how to say this names yet, but it's November the- the deadline.
+(PERSON3) Oh yeah, the [ORGANIZATION5], yeah yeah.
+(PERSON8) North American, yeah.
+So, uh we can try this one if if-
+(PERSON3) Yeah this- this seems, this seems reasonable.
+(PERSON8) Yeah.
+(PERSON3) Okay.
+Uh-
+(PERSON8) Uh one thing that I need to say is that I I'm-
+(PERSON3) Mhm.
+(PERSON8) [PERSON5] uh, told us about the the data set that has multip- multi-reference.
+So, it will be useful if I can access it.
+(PERSON5) Yeah, yeah yeah.
+Uh so I'll try to dig it out, I-
+Uh it's one of those is uh uh-
+So what- what languages, that's the question.
+Uh we have a data set of very many uh Czech reference translations.
+To just 50 source English source sentences.
+So f- uh we have only 50 unique English sentences and each of those was equipped with as many references as people could come up with.
+And it was created semi-automatically.
+So we have uh uh like quarter mil- uh- quarter million reference translations per one sentence.
+That's the- that's the biggest one I think we have.
+So several uh- dozen thousand references, uh p- per sentence.
+That is- common.
+And uh it's small in the number of uh sentences, uh that we have.
+And uh, we have uh evaluations from [PROJECT6] as well, where people were uh creating uh-
+S- so they actually the uh- the system outputs were manually post-edited and then someone else, a secondary annotator, confirmed whether they are good translation or not.
+And that's uh, if I'm not mistaken about six hundred unique uh- source sentences.
+And they have uh, something between uh two or, uh, up to sixteen reference uh translations.
+Uh that's English to Czech.
+Uh, o- both of these are English to Czech.
+And then uh we also have uh, some year of [PROJECT6], where um the uh German was translated directly into Czech.
+So uh the uh, we have multiple Czech versions and they are uh slightly uh sl- like d- different, because they come from different languages.
+From English as well as from uh from uh- German.
+And then there is the HYTER data set, which is 50 Arabic and 50 Chinese sentences and each of these were translatek into English again, trying to create as many uh references as uh uh as possible.
+So please think about which uh of these data se-
+I'll send you all.
+Uhm but think a-bout which uh composition of the- uh of uh- the data set is the uh the most useful for you.
+(PERSON8) Y- okay, great.
+Yeah.
+So I can check and choose the best one.
+(PERSON5) Yeah.
+(PERSON8) Thank you.
+(PERSON5) I I-
+Yeah.
+(PERSON3) Okay, so uh yeah.
+I also want- want- maybe since-
+Okay.
+Since the-
+Without [PERSON11], we cannot really proceed that much with other tasks, uh can we can we talk about the possible weekly meetings for the task?
+Uh it's 3.4?
+Like uh the same one we had uh last week, so, where we can- we can dis- discuss the things in more detail.
+Like whe- I'm not sure whether you, [PERSON5] and [PERSON8] y- you are more comfortable with weekly or bi-weekly meetings, but I think, the task shoulds definitely, have- uh like separate, designated meeting for for for these detail- detailed discussion, right?
+(PERSON8) Well I'm I'm available w- uh.
+Every day and don't know, I I I'm I'm, you, you s- you dec- you decide it, what- what is the best uh date for that.
+Day or or if it will be weekly or-
+(PERSON3) Okay, so so uh let's let's leave it to [PERSON5], because he's- he's the most busy person.
+So oh- whatever he- uh suggests, we we can- we can then, uh try to put it as as a as date.
+Okay.
+Uh, other than that, yeah.
+I was I was mentioning to you [PERSON8] that that we might reduce the daily meetings, but that was good point from [PERSON5], that the daily meetings should be-
+O- or daily meetings-
+The daily reports or calls should be also beneficial in a way, that you're more socialized with the, with the rest of the team, or at least with so- some of people.
+So yeah.
+We- we may keep those and just keep them, keep them short if necessary and and, like st- stay- s- let's stay with the daily calls for the time being.
+At least until you are uh, <other_yawn/> until it is possible for you to- to come- come visit [LOCATION1], right?
+(PERSON8) Sure, sure.
+No problem.
+(PERSON3) Okay.
+So yeah.
+I think that's- probably everything for [PROJECT7], right?
+Uh, because, well there was a meeting last St- Thursday and I think we covered, everything we need.
+Uh.
+Yeah.
+Uh so yeah uh I'm not sure, like since [PERSON11] is still not replying, whether he will make it, uh- <other_noise/>
+And if we don't have anything else to discuss, we can probably, uh, end this call for today, right, [PERSON5]?
+(PERSON5) Yeah-
+(PERSON3) And I- I can-
+(PERSON5) Um yeah.
+I'm going to dig out the data sets for [PERSON8].
+(PERSON3) Okay.
+And I can I c- I can ask [PERSON11], talk with him about the progress uh, in- in person, uh l- later this week.  
+But- yeah.
+I think, yeah, if I'm correct like we- we got the response or [PERSON12] already wrote an e-mail to the [ORGANIZATION3] [ORGANIZATION3] people but they, didn't reply yet, right?
+Or at least, I didn't receive any e-mail from them.
+Uh [PERSON8], you- you also didn't receive any reply for the [PERSON12]'s e-mail?
+(PERSON8) No.
+(PERSON3) Yeah, okay.
+(PERSON8) Nothing yet.
+Still waiting.
+(PERSON3) Okay.
+Okay.
+I don't think we need to like ur- urge them or pu- push them to- for replying yet, right?
+But uh, yeah let's keep that in mind.
+Uh-
+(PERSON5) And I have a quick uh update for [PERSON6] on something totally different.
+(PERSON3) Mhm.
+(PERSON5) And that's on the experiment with [ORGANIZATION2].
+So we had a meeting uh with uh [PERSON10] and uh [PERSON7] on Friday and uh also uh [PERSON1] and the uh-
+Es- essentially, uh the the nothing new was uh was discussed and and like uh agreed on uh at the meeting.
+Uh only that we are formally starting with uh with that thing, and uh they should uh find translators, and uh the overall budget available is lower than we uh we were hoping for, uhm but uh-
+So now they will uh come up with some number of translators to do the post-editing, and uh the- the price, and this will give us an estimate on the total number of sentences we c- can uh uh, dew.
+And uh f-
+I would like to ask [PERSON6] to do the uh, proposal how to divide the documents uh into these uhm uh s- into the annotation like recipes again.
+Uh and then we will discuss uh with [PERSON7], whether this coverage will be sufficient, so that we would trust the numbers or whether we would somehow have to do it differently.
+So-
+(PERSON6) Okay, but sh- should I now just wait for the number of sentences?-
+(PERSON5) Maybe it would be good if you could just ping [PERSON7] if they are moving, uh because they they want this fast, but they still have not uh provided the people.
+Uh so it would be, uh good if uh-
+(PERSON6) Well I- I wrote some e-mails, but I- got no reply.
+Or, mostly no reply.
+It was-
+(PERSON5) Yeah yeah. <laugh/>
+(PERSON6) It was confusing, cause I thought that they wanted it really fast, but then it stalled for like-
+(PERSON5) Yeah, exactly, and then they are failing.
+So that's that's that's common.
+That's normal. <laugh/> Like it's-
+(PERSON6) Ah, great.
+Okay.
+(PERSON5) Yeah, so uh so maybe uh just tell them, that I told you that it's- it's proceeding and that uh w- we are essentially waiting for them to tell us the number of people uh and the number of segments we can afford.
+And-
+(PERSON6) Okay.
+(PERSON5) Once we have the number of unique people and the number of segments in total uh that uh we have funding for, uh we can propose th- uh the set of documents, uh to discuss if we are fine with that.
+(PERSON6) Okay.
+(PERSON5) So we need we need the the constraints, the outside constraints from them.
+(PERSON6) Mhm.
+(PERSON5) Great.
+(PERSON6) I'll look at them, today.
+(PERSON5) Yeah, thank you.
+(PERSON3) Okay, so- so maybe one- one more thing, uh, yea-
+It is mentioned in the document that uh like uh yeah.
+Still we are waiting for the, uhm [ORGANIZATION7] to actually do their part of the work and they- they have problems obviously to get, volunteers.
+Uh is there any-
+It's- this is question for [PERSON5].
+Are uh ther- do we have any other options, or?
+Like-
+The thing is that the experiment is taking way too long and it's being suspended too long and and maybe it's good idea to think about-
+(PERSON6) The issue is that we don't have any native English speakers on our faculty.
+(PERSON3) Okay.
+(PERSON6) And we already use those foreigners that speak English not, natively but, at least with some accent.
+Use those for the 2B experiment.
+(PERSON3) Okay, so so yeah.
+Okay so this is the best we can <laugh/> do right now.
+Okay. That- it- it's fine.
+(PERSON6) Okay but I would like to ask [PERSON5] whether there is some way to uhm, make some, more formal complaint about this? Because- <laugh/>
+(PERSON5) Uh to- to whom, sorry?
+Sorry- sorry, I'm-
+(PERSON6) Uh- I don't know, just I feel like [ORGANIZATION7]'s- seriously dropped the ball on- this project.
+And-
+(PERSON5) Oh- <unintelligible/>-
+(PERSON3) So so the thing is that <unintelligible/>-
+(PERSON6) [PERSON11] and I are very frustrated.
+(PERSON3) Yeah, we can probably ask [PERSON12].
+But the problem is that [PERSON4] is taking care of this and he will be leaving the project and-
+(PERSON5) Yeah.
+(PERSON3) Maybe it would be good idea to ask who is taking over, an- and and start uh, bothering the other person with- with this.
+Uh-
+(PERSON5) Yeah I'm I'm afraid I'm afraid that [PERSON12] will only say that he is starting to hire someone.
+So uh, yeah.
+Um the- the short uh uh message is something which I was tel- telling at the very beginning.
+So <laugh/> we should uh, count on the option that they totally fail to deliver anything useful.
+ I- I think I mentioned that loud <laugh/> in the very beginning, so.
+And it's always like that, yeah, it's- it- it- it's unfortunately the- the general rule of- of life, so if you are searching for a helping hand, you will always find it at the end of your shoulder.
+<laugh/>
+And that's <laugh/> that's it, so <laugh/>.
+Like uh just just don't don't be uh, depressed, but uh uh-
+So they are expected to provide the speakers and they are uh, like failing, right?
+(PERSON3) Mhm.
+(PERSON5) Yeah.
+And uh.
+So maybe uh ask [PERSON12] to uh simply, uh uh have someone d- do the simplest thing, just t- to forward that uh, those e-mails and get those speakers.
+So that we, we do not expect them to, do the uh evaluation much, but we just expect them to provide the uh, the users to the- to the test.
+So that the task is easier for [PERSON12] to accomplish even with uh people leaving.
+(PERSON3) Mhm.
+So o- o- one thing, uh the advertisement is-
+(PERSON11) Hi guys.
+(PERSON5) <another_language/>
+(PERSON3) Hey.
+So the advertisement for the [PROJECT3] is- is new, or not?
+This- this uh, wasn't available last week, right?
+(PERSON6) Uh, it was.
+(PERSON3) Oh, okay.
+Uh, but you know, I've looked at the website and it seems, like, eh it is progre-
+But I'm not sure how how old that advertisement is-
+(PERSON6) Well, the the issue is that we already agreed to do, to do the writing and so on.
+But-
+(PERSON3) Mhm, okay.
+(PERSON6) But I don't know what exactly I should write into the paper, because we already had ten people do this experiment, which is five times more than what we already have from [ORGANIZATION7] and-
+(PERSON3) Mhm.
+(PERSON6) What other, findings should I do there?
+(PERSON5) Mhm.
+(PERSON6) Like what other graphs, what other-
+(PERSON3) Yeah, I guess we- we can s- still try-
+Or-
+(PERSON5) I- can- can [PERSON9] step in?
+Like [PERSON9] should have uh, uh the expertise in- in context, to do it quickly.
+(PERSON3) Mhm.
+Yeah, I- I think y- you <other_noise/> sh- you should definitely try- try asking [PERSON12], like what are the other options, right?
+Because [PERSON12] should be uh, should know who- who- who else is there except for- for uh, [PERSON4], right?
+Working on the-
+(PERSON5) So I'll- I'll write an e-mail to [PERSON12] right now and hopefully something will happen.
+<laugh/>
+(PERSON3) Mhm.
+Uh-
+(PERSON11) So now we are discussing the uh like-
+(PERSON5) [PROJECT3]-
+Uh the the lack of activity <laugh/>.
+(PERSON11) Yeah, yeah, y- okay.
+And in conjuctio- in conjunction with uh [PERSON4] leaving?
+(PERSON5) Yeah.
+(PERSON3) Mhm.
+(PERSON11) Okay.
+(PERSON3) But yeah, they's bas- that's basically uh, everything there's to discuss about [PROJECT3] right now, right?
+So, so uh, I don't know [PERSON11], can you can you, just do a quick update for the [PROJECT5]?
+It seems that you know, it's progressing, right?
+So?
+(PERSON11) Yeah, so like uh-
+(PERSON3) That's-
+(PERSON11) I'm running the back translation, monolingual data.
+So during the last week when I, uhm, ta- took vacation, I was just baby sitting the jobs.
+And uh like uh many people started to do experiments on GPUs, so it's uh, it's slowed down uh a bit.
+So it's still not ready and uh yeah.
+Uh as a miracle after I, I wrote you, the message, I got many GPUs available, I don't know, how it's possible, [PERSON3] <laugh/>
+(PERSON3) <laugh/>
+Because I was killing some jobs today.
+(PERSON11) <laugh/>
+Yeah.
+Uh okay so now we'll like-
+I think in, two or three days, like if, if the tempo is the same, remains the same uh, I should have all the data translated.
+And then I can uh, uhm train, the systems with this monolingual or back translated data included.
+(PERSON3) Mhm.
+(PERSON11) And uh, just today I noticed that the AC- [ORGANIZATION6] deadline uh, was shifted to, October 7th I guess.
+So there is still some time to like hopefully to finish it.
+(PERSON3) Yeah, I think I think that's-
+(PERSON11) Or- or or or- at least to train a systems with uh with uh all the data, all the monolingual data, just to see whether it helps or not with- with this monolingual data included.
+(PERSON3) Okay, so that seems fine.
+Uh.
+(PERSON11) Yeah, as for- as for uh uhm [PERSON2]'s uh contribution, it's still uh lower and lower. <laugh/>
+(PERSON3) Okay.
+Well-
+He will be leavings uh, for [ORGANIZATION7] next week, right?
+I think?
+(PERSON11) Yeah yeah yeah.
+(PERSON3) Yeah.
+Okay okay.
+Uh well if you need some some technical help, uh let- let me know, I can probably chip in.
+(PERSON11) Mhm, okay.
+(PERSON3) Uh, and maybe last thing [PERSON5], uh there is uh uh I've I've noticed that there is a system demonstration tract in [ORGANIZATION6].
+Do- do w- do we want to uh participate with something, for example with [PROJECT3], or I don't know.
+Like it would be nice dissemination, it would be, good <unintelligible/>-
+(PERSON5) That's right, so they-
+Uh s- uh the web page for uh the call or uh the call for demos uh was empty, and is still- it is still empty.
+(PERSON3) Okay.
+(PERSON5) So if you look at- if you look at, uh where is the chat window, at this, uh, link, it doesn't specify the deadline yet.
+I've already e-mailed uh one of the uh chairs, conference chairs and uh he has uh contacted the demo chairs and they said they will fix it.
+So some deadline will appear and we are planning to use this for [PROJECT4] uh demo p- submission.
+Uh I think that doing uh also [PROJECT3] demo submission would be uh uh a good thing.
+[PROJECT3] is open source and it uh uh it is uh uh like interesting piece of uh, software, like interesting user interface for experimenting, so yes, it's, uh it's a good idea.
+But we don't know the deadline.
+(PERSON3) <unintelligible/>
+(PERSON11) Should it be-
+Should it be accompanied with a paper, or it's just the demonstration?
+(PERSON5) It's uh-
+I think it's always a paper, well I always expect a-
+(PERSON11) Yeah, okay.
+(PERSON5) I always expek a four- a four-page paper.
+(PERSON11) Okay, because now we are like uh, now we are uh, releasing the pape- or publishing the paper for [PROJECT1], so okay w-, we can maybe somehow uh make uh, a like shorter version of it.
+Or somethn.
+Because we have nothing else, or nothing more to, to publish.
+(PERSON3) Well I think- I think for the demonstration it- it m- should be focused more on the- on the framework itself, right, no- not on the, experiment results.
+So-
+(PERSON11) Yeah, but it is it is already enough for the [PROJECT1] paper, like-
+(PERSON3) Mhm, mhm.
+Okay.
+Well it's it's just the that- that to keep that in mind, it would definitely give us some bonus points with the reviewers later, right.
+To have, these submissions.
+So yeah.
+Uh I- I uh, I think that that's it for today, right?
+Is there anything else?
+Or [PERSON11], you want to, discuss?
+(PERSON11) Okay, so just to recap uh what's going on with that [PROJECT3].
+So, [PERSON5] is going to uh write to uh [PERSON12], just to manage things in [ORGANIZATION7], yeah?
+(PERSON5) Yeah, I've- I've emailed uh [PERSON12] already.
+Uh, second ago.
+(PERSON11) Okay.
+Okay.
+And uh and uh sorry, and have you discussed like our capabilities of disseminating this advert uh?
+Because I- I know-
+Yeah yeah, okay.
+(PERSON6) Like like we are looking for native English speakers, how are we supposed to disseminate this?
+(PERSON11) Yeah yeah.
+Mhm.
+I don't know, maybe the same channels as uh we found uh new employees for [PROJECT4] and uh yeah.
+Yeah, I- I know like I'm really dissatisfied with this and I know that uh, this should be-
+(PERSON6) But are- are we supposed to-
+I-
+Do we get Engli- native English speakers, via this channel?
+(PERSON11) Mhm maybe.
+But we don't need native English speakers, we need uh somebody who doesn't know any Czech or any Estonian.
+(PERSON6) Okay.
+(PERSON11) Or l- like native English speakelr would be perfect, but.
+(PERSON3) Uh, just a question-
+(PERSON11) But yeah yeah, I I I'm I agree that uh this is the duty for [ORGANIZATION7] and uh yeah.
+They promised it, to get the people and they have like the best, best environment, or like uh, best conditions to do it.
+In England, or s- sorry, in Scotland.
+(PERSON3) But I think this is not our problem, problem, right?
+(PERSON11) Yeah, but we are the leaders uh of this project and-
+(PERSON3) Oh okay.
+(PERSON11) Like and [PERSON6] is leaving or, and uh so-
+(PERSON3) Mhm.
+(PERSON11) We would like to, to have this like piece of, work published.
+So.
+(PERSON3) Mhm.
+(PERSON5) Yeah, I I I'm happy to see that [PERSON11] is not as depressed as I understood from what [PERSON6] was saying, so yes, exactly, this is the uh the approach that you should be taking.
+Uh I've emailed uh [PERSON12], feel free to add uh uh as a reply whatever nasty words you- you like and whatever important reasons, such as [PERSON6] is leaving, that's that's very important reason.
+But uh yes, in the end, we need to help ourselves.
+So that's uh <laugh/>.
+(PERSON11) Yeah.
+I'm not depressed, because I'm after a one week vacation, so <laugh/>
+(PERSON5) Yeah.
+<laugh/>
+(PERSON11) I'm not yet depressed.
+<laugh/>
+(PERSON3) Okay, so- so uh, well we've got that covered, we'll see- see what [PERSON12] will, do.
+And let's uh-
+Leaving that aside, uh anything else?
+Needing discussing?
+So, I guess that uh we've discussed everything we needed so we can uhm, like end it here right, for today?
+(PERSON5) Yeah.
+(PERSON3) So-
+(PERSON5) Okay, great.
+Thank you.
+(PERSON3) Thank you.
+(PERSON5) Thanks to all.
+Thank you, buh bye.
+(PERSON11) Okay, bye.
+(PERSON8) Thank you, bye.
+(PERSON3) See you in a week, bye.

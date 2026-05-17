@@ -1,0 +1,541 @@
+(PERSON3) Hi [PERSON14]
+(PERSON14) Hi-
+<other_yawn/>
+(PERSON3) Yeah, I'm good how how about you?
+Still in the dormitory?
+<other_yawn/>
+(PERSON3) Yeah, I'm not sure if it's on my side or or yours, but I have barely hard time like hearing you.
+(PERSON4) Hello.
+(PERSON3) Hi.
+(PERSON4) Hello, I can hear you.
+(PERSON3) Ok.
+I had some problems with hearing [PERSON14]- [PERSON14], but maybe it's on my side.
+(PERSON4) Can you say something, [PERSON14]?
+(PERSON6) Hello.
+(PERSON3) Hello.
+<other_yawn/>
+(PERSON4) Yeah, I also have some problems hearing him.
+(PERSON16) Does this work?
+Can you hear me?
+(PERSON3) Yes, I can.
+(PERSON16) Yeah, there was, there was a problem with the headphones.
+Hi, great.
+Sorry for being late.
+I see that all of you are here, that's that's amazing.
+So I've sent the, no not the list of things that I've done but the list of most important things in the e-mail.
+So the they really critical one is the edible SLT. 
+So I would like to start with [PERSON6]. 
+What is the status of the submission, because I do not see [PERSON15] or yeah.
+Or or anyone else.
+Or [PERSON5] here.
+So [PERSON6].
+Yeah.
+(PERSON6) Can you hear me?
+(PERSON16) Yep.
+(PERSON6) Our is the same as last week.
+Two workers and I'm reimplementing [PROJECT3] wrapper right now.
+I'm finishing the last options. 
+And then I'm going to move for- forward. 
+(PERSON16) Yeah, OK.
+And, so [PERSON3] is the the person who could who could have <unintelligible/> and [PERSON9]- and [PERSON9] as well.
+(PERSON3) Yeah, so I've tried actually three different models and the, yeah the test set seems to be really challenging, so I try to [ORGANIZATION9] ASR and it's has like a 56 percent work error rate.
+And then, right now I'm working on adaptation of the [ORGANIZATION8] common voice ASR.
+So for that I don't have the results yet.
+But then I have access to <unintelligible/> system that I've been partly involved in development and its has like 32 percent work error rate, so it's like the best so far.
+Maybe [PERSON6], is is there some like what is like the baseline of the [ORGANIZATION7] ASR?
+(PERSON6) I don't know.
+I haven't evaluated work error rate on ASR.
+Only the <unintelligible/> of [PROJECT3].
+(PERSON16) This is something that we, it's o-, can you can you also give [PERSON6], can you give the outputs of [ORGANIZATION7] ASR to [PERSON3], so that [PERSON3] would evaluate it as well?
+In a comparable way?
+(PERSON6) Yes.
+Sure.
+(PERSON3) Yeah, that that will be, that will be good because, yeah.
+To to have some comparison with the [ORGANIZATION7] ASR.
+Yeah, so I, yeah I don't have much hope to get below like 25 percents of work error rate.
+But-
+(PERSON16) That would be probably very good.
+(PERSON3) Yeah, like maybe around 30.
+I I'm still trying some adaptation so like, yeah.
+I should have them in a, like tomorrow or.
+(PERSON16) Yeah.
+Can can you give the outputs of your ASR systems the 60 percent and the 30 percent to [PERSON6] already?
+So that we can proceed with this and see that in principle we can get to the to the outputs with this ASR?
+(PERSON3) Yeah.
+Sure, so after the call I will like send the path on a cluster to these texts.
+(PERSON6) Yeah, I forgot to ask [PERSON3].
+Can you process [ORGANIZATION9] ASR or [ORGANIZATION10] ASR?
+And.
+And optain.
+(PERSON3) Yeah, I have processed [ORGANIZATION9] ASR.
+(PERSON6) Yeah, and could you do [ORGANIZATION10]?
+(PERSON3) Ok, I can, I can have a look into that.
+I have not done it but yeah-
+(PERSON16) I think so so someone must have done it some-
+I think for ehm that someone, and I thought it was you [PERSON3], did it for the last Antrecorp.
+(PERSON3) I I've done it for [ORGANIZATION9]- [ORGANIZATION9], not [ORGANIZATION10].
+(PERSON16) And not for [ORGANIZATION10]?
+Are you sure?
+Ok, well.
+So I think we had [ORGANIZATION10] there as well.
+(PERSON6) Maybe not.
+(PERSON3) I I don't think so.
+I think just the [ORGANIZATION5] ASR, [ORGANIZATION7] and [ORGANIZATION9].
+(PERSON16) Yeah, ok.
+So we could again, actually we could again ask the the [ORGANIZATION5] people, [PERSON8].
+Because they are from [ORGANIZATION5], they are not on the project but they could also run their ASR systems if it's easy for them.
+So [PERSON3], did you, were you in touch with them directly or not?
+(PERSON3) You mean for this challenge or for the-
+(PERSON16) For the Antrecorp.
+Those, those year ago or more.
+(PERSON3) I think you wrote an e-mail to [PERSON8] ask.
+But, yeah, I can maybe do it, if you want to.
+(PERSON16) Yeah, yeah please try, because the more systems we have, the better, the better we know like what are the important and useful aspects of those systems.
+(PERSON3) Yeah, I think I can provide like 3 word error rate right now for three different systems.
+(PERSON16) Yeah, that's great.
+(PERSON3) Yep.
+(PERSON16) Thank you.
+(PERSON6) In worst case I can use translate dot it.
+To get the ASR but it's not, it's not online.
+I can't get it online, but offline it works.
+It seems that the session stops after 5 minutes, but at least something will be there.
+(PERSON16) Hmm-hmm.
+Yeah, thank you.
+And the last involved person is [PERSON9].
+(PERSON9) Hi.
+(PERSON16) Yeah.
+So what was the, what was the horrible thing that you spotted.
+This, I do-
+(PERSON9) Yeah, um I've I've found out that the, that the check point I've been training of was actually trained on several other data sets.
+Like-
+(PERSON16) Yeah, that's not a problem.
+That's ok.
+Yes, that's ok.
+(PERSON9) It's ok?
+(PERSON16) Yes.
+The only thing is that we have to know what was in the training data.
+And if we do more, then we will simply label our submission as unconstrained.
+So that's, don't worry at all, it's ok to use unconstrained systems.
+All these commercial ones, like [ORGANIZATION9] and so on, these will be unconstrained as well.
+(PERSON9) Oh, ok, so then there is nothing horrible, I think.
+I actually don't-
+Sorry?
+Go ahead.
+(PERSON3) Sorry I just wanted to ask if probably we should not use the Antrecorp test sets, right?
+(PERSON16) Yes, exactly.
+Yeah.
+(PERSON3) For training.
+(PERSON16) But there was not used.
+(PERSON3) Ok, ok, yeah, thanks.
+(PERSON16) Ok, so [PERSON9], when do you expect to have the outputs from your system, just the ASR into graphimes and ASR into fonimes ready?
+(PERSON9) By today evening I guess.
+(PERSON16) Yeah.
+Tonight, I would call it raw ASR outputs should be ready.
+And the thing is that this will not be segmented.
+So for the graphime level, someone needs to run the segmentor and then the translation.
+So [PERSON6] is that part of your pipeline, can you easily run the segmentor.
+(PERSON6) Which segmentor?
+(PERSON16) Any.
+So so, it, so is it lower case or is it actually capitalized, [PERSON9]?
+(PERSON9) I will try both.
+(PERSON16) Ok, yeah.
+(PERSON9) So.
+(PERSON6) It's better if you process, process it with segmentor, [PERSON9].
+Because it will be easier for me.
+But I can do it, if you fail on it.
+And we need to finish the review of the segmentor with [PERSON14], anyway.
+(PERSON16) Yeah.
+So as, [PERSON14] was on on the call as well, right?
+Yes.
+So simply you 3 synchronize whoever will process the the files.
+And just be very careful because like now, this applies to [PERSON3] as well.
+Start also like writing the the paper and in the paper, in the comments of the paper, so that it's not visible then in the PDF.
+But make sure to include full path so that we know, if we have a system with this beautiful name in the paper, it is actually this output from this directory created by this person and so on.
+When people are like moving the the file from one another then it's very easy to mess things up and forget which system was used for what.
+So use the paper right away as the like synchronization point.
+So that you know which ASR and which [PROJECT3] together form the best output.
+So the versioning, [ORGANIZATION12] versioning is a critical thing now.
+(PERSON6) Ok.
+(PERSON16) Yeah, so I'll simply write that.
+[PERSON9], [PERSON6] and [PERSON14] should synchronize on segmenting [PERSON9]'s outputs.
+So [PERSON9] is also like struggling to to run his experiments for his the-, his thesis.
+So I I asked him primarily to run the ASR and not to spend too much time with the segmentor.
+And I hope the running of the segmentor can be easily done by [PERSON14] or [PERSON6], so that like.
+There is no way to to polish the segmentor to retrain it or least, at least.
+I would try to have a baseline run now and only if we have extra time then then like let's work on improving things.
+But let's let's aim just for the combination of the things at the moment.
+(PERSON14) So I think I already trained an English segmentor earlier, during the month of January and probably that could be -
+(PERSON16) Ok, yeah.
+(PERSON14) Ok.
+(PERSON16) Ok, so like from my point of view, this looks so far very promising.
+Because we have the baseline it's by [PERSON6], last week, it's very bad but it's it is some baseline.
+We have now 2 more or 3 more systems by [PERSON3] and maybe a fourth one coming soon as well.
+With [PERSON9] it's also not lost at all.
+There is a big chance that we'll have some outputs.
+And putting it together by the end of the week and including the machine translation system should be doable.
+So, I think that it's, obviously, this is a hard task, don't expect great scores.
+But as like as an experiment, as a submission to a hard task I think we're doing very good.
+So the, I just wanted to finish the fonime.
+S-, for output will be even harder to segment.
+So if this is too hard give it up.
+But.
+Yeah.
+But please try.
+So I've talked with [PERSON9] for little while on this and we we have 2 options but, yeah.
+Let's let's not go in to the details at the moment, ok?
+So that was the most important part for me now and we have, how many people do we have.
+2, 4, 6, 9, and we have [PERSON15] as well.
+But I don't think that the connection would be good.
+[PERSON15], can you hear us?
+No, it doesn't really work.
+So I wanted to ask what is the status of the fourth alignment, like word level golden data for edible SLT, but I'll leave that to to some later discussion.
+Yeah.
+I I see that [PERSON14] also like everybody is is struggling to get to to the hairdresser.
+<laugh/>
+You've taken the the simple road.
+<laugh/>
+It's like, we, everybody is gets like a monk exercise.
+(PERSON14) Story brand, so actually I started training using that trimmer and <unintelligible/> was completely <unintelligible/>.
+<laugh/>
+So I had to shave with sh- razor blade.
+(PERSON16) Razor, oh I saw that you, that you waited for for day with <unintelligible/>
+<laugh/>
+(PERSON4) Yeah, that didn't happen to me but I didn't kind of set the, set the thing correctly so so that I had to set it to completely the lower, lowest option, so it was like 1 centimeter or something.
+(PERSON16) Yeah, yeah.
+Well don't don't worry, the quarantine will will last much longer than your hair will need to grow to some normal lenght anyway.
+<laugh/>
+It's crazy.
+Ok, so now let's let's very quickly go over all all the contributions to document that we have made so far.
+So I've found, well I I've realized that there is [ORGANIZATION12] corp.
+A big corpus which is manually created and it should become the basis of the [PROJECT5] test set for most languages but some languages are still missing.
+It's good to like keep returning to something which should have been ready.
+So the set of languages that we should cover, well actually one was forgotten.
+So one was forgot and not 2, I later found out that Bulgarian was not forgotten but Catalan was forgotten on the list.
+And <unintelligible/> workshop to the [PROJECT5] test set, this is something that, yeah, I'm just trying to make sure that we do not loose our data anywhere behind.
+Yeah, so that's that's it.
+I'm again mainly organizing and pushing people to to do what they promised to do or  what I would like them to do.
+Yeah, so [PERSON7], are on the call or not?
+I'm not sure.
+Maybe [PERSON7]-
+No, [PERSON7] is not here.
+That's the file collector.
+Oh, ok, yeah, I'll fix that.
+We'll work on stream lining, the file conversion and <unintelligible/> pipeline, yes.
+So the domain adaptation is is like the talk level domain adaptation is soon to be more less automated, thanks to [PERSON7] and hopefully we will see the pipeline ready in in a fe- week from now perhaps.
+Yeah, then [PERSON6], so, you have already mentioned that you are working on the [PROJECT3] wrapper and the online text flow.
+I know that some student of mine was struggling with the compilation or installation of online text flow and I've told him that that you have suceeded and you have maybe fix it in the repository as well.
+So that's good thing.
+And yes, this is, I've seen the issue, it's good to to debug thing so, everything we do just being active and using the tools that we are developing.
+We are doing the critical test they need to to go through and otherwise they would not be reliably enough for for the final user.
+Ok.
+Do you want to add anything [PERSON6]?
+(PERSON6) No, but but also our workers have the same issue.
+They-
+(PERSON16) Ok.
+(PERSON6) By bat- batch I suppose.
+(PERSON16) Yeah.
+So this is something that also [PERSON14] has to make sure with you that's, they are like resilient to to big batches.
+(PERSON6) But, but usually it doesn't happen in real sessions, only in only in-
+(PERSON16) Offline set up or.
+(PERSON6) Yes, or if you send 20 sentences at once.
+(PERSON16) Yeah.
+(PERSON6) Some high number as, I think it has never happened in field.
+(PERSON16) Yeah.
+I think it can happen if for example for due to network lag too much content could get accumulated.
+(PERSON6) Yes.
+(PERSON16) Could that happen?
+Yeah.
+And then implement SLT if output format option for [PROJECT3] wrapper.
+Yes.
+Yeah, so that's, this is something which is like related to what [PERSON14] has for his runs.
+Ehm.
+(PERSON6) Yes, but I'm going to change the the protocol of output and see.
+So the previous solution won't be, can't be used anymore.
+(PERSON16) Yeah, ok.
+So that's just keep [PERSON14] informed so that we know how to-
+(PERSON6) Yes.
+(PERSON16) Yeah, thank you.
+And then reimplement the even the automatic evaluation scores, right?
+So that's primarily the lag and-
+(PERSON6) And flicker.
+(PERSON16) Flicker, yeah.
+Ok.
+And revalidate means like measure again.
+(PERSON6) Yes.
+(PERSON16) The scores.
+Yes.
+And also push everybody to contribute to the paper.
+Sorry.
+(PERSON6) Ok.
+I will work need to start first, write a graph.
+(PERSON16) Yeah, wh- I think we have created the the Github, sorry the overleaf already, right?
+(PERSON6) Yes.
+But it's empty.
+(PERSON16) Yeah.
+So as I said this this should be the synchronization point for everybody.
+To put full paths to the outputs and so on.
+(PERSON6) Ok.
+(PERSON16) Yeah, ok, thank you.
+Yeah, we've discussed all the previous points already.
+So now [PERSON14], preparation of locks for dry run, including the pre-run and dry run too, yes.
+So it's it's good that you have found out where where they are and maybe some of the were already processed by humans as well, right?
+(PERSON14) I'm not sure.
+Yeah, yeah, [PERSON11] did that, [PERSON11] did that.
+His part but not everyone <unintelligible/> transcripts.
+(PERSON16) Yeah.
+So this is something that, yeah, who is the most re- reliable person-
+<laugh/>
+I think, so please synchronize with [PERSON1].
+Because he knows what he has given to the annotators.
+And the agreement at one of these dry run sessions was that some people will do it for themselves but some people, such as me, I said that I would like the annotators to do it.
+And that's that's the plan.
+We, like we have the funding, it's ok to do it with the help of annotators.
+What just we must avoid is doing the same thing twice.
+(PERSON14) Yeah, yeah.
+(PERSON16) So please synchronize so, [PERSON14] should sync with [PERSON1] to make sure that all is done exactly once.
+(PERSON14) Yeah, yeah.
+(PERSON16) Yeah, ok.
+Simple script for [PERSON13] in cruise control.
+So that means the deployment or running the workers on our set up, right?
+(PERSON14) Yeah, yeah.
+(PERSON16) Ok, thank you.
+And working on Czech segmentor.
+Base on pause durations, ok, that's good.
+That would be usefull.
+And I would just like to hear from you that you are still kind of free so that I can ask the student to contact you with the help for the <unintelligible/>.
+Because this, there used to be 2 students, but one of them is is now back in home country.
+<censored/>
+And it'll be good if if he could contact you.
+(PERSON14) Yeah, ok, yeah, yeah.
+(PERSON16) Yeah, thank you.
+And the polishing of set up there is, yes that's, yeah, that that can be done at any point the sooner the better for us, but yeah.
+Mmm.
+Then [PERSON15] tested data in desk set and test set, put the results in the [ORGANIZATION9] sheet.
+So, yes, this is, this is the completion of edible SLT.
+And and I'll need to check separately like how far is that.
+And then [PERSON12], do we have [PERSON12] on the call?
+(PERSON12) Yes, yes, I'm on.
+(PERSON16) Yeah, ok.
+So can you very quickly say what what you have work on?
+(PERSON12) Yesterday I mention you I have, I clean the tested data on for 21 [ORGANIZATION2] languages <unintelligible/> European website.
+And it is also converted in PSV format, but in the some s- sales, there are <unintelligible/> blank values so, and and some inverted comas.
+So I will remove e- maybe a- maybe tonight.
+So I after that I will upload on the Github but before uploading I <unintelligible/>.
+Should I remove or <unintelligible/> directly?
+I create one curie
+(PERSON16) The Polish?
+(PERSON12) Yes.
+Not not, Polish, actually I have created separate directory in the Git- Github.
+And test minus E and minus B <unintelligible/> and in that directory I have uploaded all the test, oh one test that's it.
+So, because a in the last week we discuss we will upload only, we will up-, we will create port of European directory and in that directory we share all the multilingual type data.
+So, but I'm confused before uploading I will remo- I should remove the direc- Git- for that?
+(PERSON16) So, please create there one new subdirectory in the documents, that would, like with the document there will be the [ORGANIZATION1].
+And the other files which are already there, and that belong to this collection from the [ORGANIZATION1], should not be like, there should not be a second copy of those files.
+I don't think that anyone has worked on them.
+But please check.
+So that's why we have the repository.
+Because you would see who has done any edits to those files and that's that's it.
+(PERSON12) Ok. 
+So ok I will do that.
+(PERSON16) Yeah, ok.
+(PERSON12) Yeah, and next is, ok, I have also downloaded the [PROJECT1] as you shared with me the link.
+And it is already available in the mine local directory.
+(PERSON16) Ok, how big is that and how many languages does it cover?
+(PERSON12) 5 languages we have.
+(PERSON16) Oh just 5 ok.
+(PERSON12) And in 1 languages I change, ok just give me second.
+Ok, I will check <unintelligible/>.
+Each directory has 95 point, ok.
+So I think 200, 2000 keys sentences something.
+So in in English to Spanish directory.
+(PERSON16) Yeah.
+(PERSON12) I will put is accurate a statistics in this fol- file.
+(PERSON16) Yeah, so, if it's just 5 languages it's not too important.
+So so this is actually more important, yeah, sorry I-
+Just second.
+So, let's let's put this mainly to our training data and not to the [PROJECT5] test set.
+That's what I wanted to say.
+But we don't have the organization of the test, of the training data yet.
+So this is something that you should create on the disc, not version, because this will be bigger files.
+(PERSON12) Yeah, yeah.
+Actually I have already mention in the SL data sets my database structure were easy in <unintelligible/> the language <unintelligible/>.
+So I <unintelligible/> the statistics.
+(PERSON16) Yeah, ok, thank you.
+(PERSON12) And, where is the my, ok, this is the and my to do list is <unintelligible/> mono data for, mono data and prepare test set for rest of the languages except [ORGANIZATION2] language.
+(PERSON16) Yeah, ok.
+So.
+(PERSON4) Maybe I would, I just I just checked the [PROJECT1] on the internet and I just have, I just have one like idea.
+That I have been checking the the websites of the [ORGANIZATION4] and  I actually noticed that everything that they publish is in all the languages.
+So maybe is could also be used as a eh, I don't know, there is really lo- lot of data in in like German, French and Italian, so maybe that could be interesting for for some kind of corpus.
+(PERSON12) Ok, ok I have it check.
+Can you send me link, if you have, website name.
+(PERSON4) Yeah, I will, I will send you the link and maybe you can, you can make use of that. 
+(PERSON12) Ok.
+(PERSON16) Sorry, I was absent for for second.
+And remember, we will be cut sharp at quarter to 5, so.
+(PERSON12) So I think I have done my part.
+Maybe.
+If you have any question.
+So after <unintelligible/> to, to what is the name, [PERSON10]?
+(PERSON16) Yeah, yeah.
+Serbian, Croatian, Bosnian and Montenegri, yes.
+And als- so, this will be when you have the TSV files for her to review.
+(PERSON12) Yes, yes.
+(PERSON16) And also I would like you to for the twenty one languages, for the [ORGANIZATION6] files, not to finish, not to stop when you have the TSV files in the Github repository, but actually to go forward and find the annotators who will process this.
+(PERSON12) Ok.
+(PERSON16) So it's important that we move to this like the, this this the preporitory like the preprocessing stage and from the preprocessing stage we still need to do the step to the for the validation.
+And it is, this is also for you to to like distribute the work to the people.
+(PERSON12) Ok.
+(PERSON16) So talk to [PERSON18], she will probably know, so, [PERSON12] should contact [PERSON18] to double check who has an agreement finish and is like waiting for work.
+(PERSON12) [PERSON18] has already <unintelligible/> with, I got an e-mail on-
+(PERSON16) Yeah, yeah.
+Exactly.
+So.
+So that's 4 days ago so that's up to date. 
+(PERSON12) Yeah.
+(PERSON16) So, so then [PERSON12] should start contacting people then.
+(PERSON12) Ok.
+(PERSON16) Each of the validators.
+So this is exactly what I said that you need stream line including the communication with the people.
+Because it's now 21 languages, if you do like 21 times 2 or 3, that would be 60 e-mails easily to get the job started, that's too many.
+So you need to make it  simple, so that you don't have to send 60 individual e-mails.
+(PERSON12) Ok.
+(PERSON16) You really need to, you need, you really need to make this efficient.
+(PERSON12) Sure, I will try to figure out how to easily do, because I have to some workshop proceeding editing, <unintelligible/>, some workshop proceeding <unintelligible/>.
+(PERSON16) It has to really has to be like low, like low amount of work.
+Nothing individual.
+So.
+(PERSON12) Ok.
+(PERSON16) Ok.
+(PERSON12) I think that-
+(PERSON16) Yeah, thanks.
+Remember to keep me in the in the carbon company if I see any options for other optimization of the process and I would let you know.
+(PERSON12) Sure.
+(PERSON16) Thank you.
+And then we have last one [PERSON4].
+So you're still struggling with the multilingual system, right?
+(PERSON4) Yes, so I'm, I'm just trying to integrate into the mediator, because like I have some, I had to make s- make some adjustment to to to simply processing so I will need to just edit the scripts a bit.
+And then I have started trying to improve the performance.
+And I'm trying using different type perimeters, so I will see how that goes.
+(PERSON16) Yeah, yeah.
+So there is one thing that I wanted to mention and that is that our project officer has ask for demo.
+And this demo should be as multilingual as possible.
+And I think that right now you have the the largest model.
+Actually larger model than [ORGANIZATION5] has.
+So what, by when would you would you expect that this model would be reliably operating.
+(PERSON4) Emmm, I'm not sure I.
+I hope that it should be this week.
+I'm I'm just not sure how it will operate on the KPU.
+But it should be alright.
+(PERSON16) Ok, so you're so far using only the TPUs, right?
+(PERSON4) Yes.
+I'm I'm using it on the TPU, but I still have the TPU available.
+So perhaps I can just, you know run-
+(PERSON16) Connect directly from TPUs.
+(PERSON4) To the mediator, maybe.
+(PERSON16) This is kind of risky.
+It is.
+(PERSON4) Yeah, yeah, but I I think it shou- shouldn't be a problem really.
+(PERSON16) Yeah.
+(PERSON4) Yeah.
+So basically, it is running on the TPU in the paraphrasing server so it's fine.
+(PERSON16) Ok.
+(PERSON4) I just hope that it there won't be any problems in in on the cluster.
+(PERSON16) Yeah, yeah.
+So please, talk to [PERSON14] and make, like ideally the deployment should happen twice at the same time.
+At our GPU machines by [PERSON14] and or you as well, like with the help of [PERSON14].
+And on the TPU as as a kind of fallback, but I would not I would not like if if the TPU was the only solution for the-
+(PERSON4) Yeah, I don't think that, I don't think that I will need to to use it on the TPU because it it's already running on paraphrasing server without any problems so it should be fine.
+(PERSON16) Yeah, ok.
+(PERSON4) On  the GPU.
+(PERSON16) Yeah, ok.
+So I'll I'll have to send response to the project officer and I'll tell him that we would like to do the demo after the edible SLT which is the 20th or the 24th for the paper.
+So it would really be good if so.
+If it didn't look good in, if you were struggling to get it running by the end of this week, please, let me know.
+Otherwise let's plan to have the demo like on the 23rd or something like that.
+(PERSON4) Ok, also, also I don't know about the performance on some of the languages because for some of the languages we have only very little data.
+So-
+(PERSON16) Yes, exactly.
+Well-
+That's that's not the point.
+Let's let's show it that it's doing something.
+Romanian is kind of critical because the project officer is Romanian.
+<laugh/>
+(PERSON4) Oh.
+Ok, maybe I can I can add some-
+(PERSON16) Yeah.
+<laugh/>
+(PERSON4) Ok, good to know.
+(PERSON16) <unintelligible/> around April 23.
+Yeah, so so [PERSON4] should warn if deployment by April 18 or whatever would be at risk.
+Yeah, ok.
+So I think that's that's it, right?
+So I would like to thank everybody for the <unintelligible/> work.
+I'm I'm really to see that you have not been put off by the complications and let's keep the the strong the strength that that we have.
+So this is one of the few like social entertainments, I believe.
+<laugh/>
+So let's let's tick them.
+And let's so, let's now will be in close touch for the right up.
+(PERSON14) I think of <unintelligible/>
+(PERSON16) Yeah, who is talking?
+(PERSON14) I think [PERSON15] is live and maybe he can hear us.
+(PERSON16) Yes, he was there at the beginning as well and I asked him but he didn't respond.
+So it's possible that the connection is not good for.
+(PERSON14) Ok.
+(PERSON16) Yeah, [PERSON15] can you hear us?
+Can you say something?
+Yeah, it's just unreliable.
+Normally they they use they use Whatsapp when they talk with [PERSON5] and that's that work for them.
+Yeah, ok, so thanks a lot and will be in touch at least in a week from now again but individually much much earlier.
+(PERSON3) Yeah, [PERSON16] just a quick, would you have a few minutes-
+<another_language/>
+(PERSON16) Thanks everybody.
+(PERSON14) Bye bye.
+(PERSON16) I'm still waiting, thank you, bye bye.
+And some someone is-
+(PERSON14) <unintelligible/> [PERSON16], so what the people that [PERSON17] request as-
+(PERSON16) Yes, yes, that's so, who is doing the main submission?
+[PERSON6] or you?
+(PERSON14) [PERSON6] is responsible for the main submission and I think we need to distribute the <unintelligible/> task ourselves.
+(PERSON16) Yeah, yeah, so-
+(PERSON6) I I confirm that I'm going to spend the paper.
+(PERSON16) Say it again, are are you confirming that you are sending-
+(PERSON6) No, I'm not.
+(PERSON16) You're not sending it, ok, so who's is sending it?
+(PERSON6) Can you do it?
+(PERSON16) Ehm, I would like to leave that to [PERSON14], someone who is, like I'm-
+<laugh/>
+(PERSON6) It means lots of work.
+I think.
+(PERSON16) So I would like to review it, I'll definitely I'll try to open and read it and review it.
+But let's have someone who will submit it as the last resort.
+So.
+(PERSON14) I can submit like any paper.
+(PERSON16) Ok, yeah.
+So so [PERSON14] we'll be in touch during the evening and we'll like make sure that we submit it.
+Right?
+(PERSON14) Ok, alright.
+I'll be there.
+But but does that mean <unintelligible/>
+(PERSON16) The content.
+(PERSON14) The content is to be reviewed.
+As-
+(PERSON16) Yeah exactly, that's that's my that's my worry and that I'll I'll have to do it, I don't think there is, like if you can do it, please do it from your point of view.
+And everybody should do it essentially.
+Everybody should do it and the the first person, which is [PERSON17], should have the last word, kind of.
+But, yeah.
+(PERSON14) Ok, ok.
+So may- I was thinking like maybe we could leave that and ask an advice or what to do.
+(PERSON16) Make sure the paper is great, well written, clear, it's, that's it.
+(PERSON14) Ok.
+(PERSON16) Yeah, so I don't have, yeah.
+I'll try do it myself as well.
+And we'll submit it tonight.
+(PERSON14) Ok.
+(PERSON16) Yeah, so great, thank you.
+Thanks to all.
+Bye bye.
+(PERSON6) Bye.
+(PERSON14) Bye bye.
+(PERSON6) [PERSON4] I have 2 GPU and I can-
+<another_language/>

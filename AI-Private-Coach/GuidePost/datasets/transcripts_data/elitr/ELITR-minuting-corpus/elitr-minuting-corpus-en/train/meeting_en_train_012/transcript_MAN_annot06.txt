@@ -1,0 +1,904 @@
+(PERSON9) Hi [PERSON11].
+(PERSON11) Hi yeah, I'm happy to see that you notice a new link.
+(PERSON9) Yes.
+(PERSON11) So lets <unintelligible/> others, and.
+The question is how would you like to present the.
+So we saw that the the video didn't quite work for [PERSON10], but it could have been just an issue with the video from the slides.
+(PERSON9) Mm-hm.
+(PERSON11) And I see that [PERSON12] is here in in my room like, but don't probably not in the right call, are you in the you are connecting?
+Yeah, he is he is connecting to the correct Zoom call.
+So, would you prefer the live demo, or the the video.
+(PERSON9) If you a, if we are sufficiently confident to run the live one.
+(PERSON11) It succeeded few times already.
+<laugh/>
+(PERSON9) We can keep test it also in the afternoon work.
+<laugh/>
+(PERSON11) Yeah yeah yeah.
+(PERSON9) Don't worry because I know that [PERSON12] moved to the new ASR <unintelligible/>.
+And he is working together with [PERSON6].
+(PERSON11) Um-hum, so like you decide you will be in full control of the presentation, you will you will have your <unintelligible/> or screen and you will ask [PERSON12] to start it or or whatever.
+(PERSON9) Yes, and and please thank S- San- [PERSON12] for us.
+<laugh/>
+He's really really precious.
+(PERSON11) Yeah.
+Unfortunately as you may know.
+(PERSON9) Yes yes, I know, I know.
+I know.
+(PERSON11) We'll see how that will go with the new people the the <unintelligible/> is this is the person who should take the position of like running the experiments and so on.
+Running these the system.
+But he is so far not able to come to the Czech republic.
+So it's more complicated.
+(PERSON9) Yes.
+(PERSON11) If [PERSON2], great so people are connecting to the new link.
+So I decided to start a new session rather a than to keep the old one, because it was not clear.
+If it would override the recording and I want to give [PERSON2]'s presentation to a student of mine.
+So that's why I'm.
+(PERSON9) Um hum.
+And do you like to run the demo inside the <unintelligible/> presentation at the beginning at the end.
+(PERSON11) Its after you.
+Where <unintelligible/>, it's totally up to you just decide and.
+(PERSON9) Okay okay then I we will put it where we talk about links of the demos and we can.
+(PERSON11) Yeah yeah.
+(PERSON9) Okay.
+(PERSON11) And if it fails then you can always say oh okay so there is technical issues within the web.
+(PERSON9) <laugh/>
+Yes.
+[PERSON12] do you hear me?
+(PERSON11) Yes I see that [PERSON12] has already launched the the the subtitling of in- into the paragraph view.
+Into the main languages, and I think that a it w- worked during the morning so I what I was kind of missing but we don't have um [PERSON10] yet.
+Would be a link from [PERSON10] presentation to the to that paragraph view demo.
+<parallel_talk/>
+And then I think that the lunch break makes it convenient <unintelligible/> so that then we don't have to like start one system and switch to another one right away, so after the lunch.
+I don't think that the subtitling should be or the paragraph view should be running, but instead we should be getting for the uh, uh video subtitling demonstration by you.
+So that's that makes it nice nice and natural division.
+So before lunch paragraph view without any explanation just as a link for fun.
+(PERSON9) Oh okay use [PERSON5] sharing the slides okay.
+(PERSON5) Yes it is me.
+<laugh/>
+(PERSON11) Yeah yeah yeah yeah.
+(PERSON9) Because I was saying oh wait a moment um.
+Okay so [PERSON12] do you hear me?
+(PERSON11) Yes [PERSON12] is here but cannot speak.
+(PERSON9) Okay okay.
+Please [PERSON12] as presentation platform demo you know which one is my favorite video.
+<laugh/>
+And prepare it please.
+<laugh/>
+(PERSON11) Yeah okay.
+(PERSON9) Thank you.
+(PERSON5) So [PERSON11] just a <unintelligible/> I will present the first path of WP6 and then <unintelligible/> leftover to [PERSON9] for the <unintelligible/>.
+(PERSON11) Okay yeah.
+(PERSON5) So we can also make some more eh let me see let me say shed presentation of the.
+(PERSON11) Yes yes that's definitely okay.
+So do whatever you like, I I will check now but its important also that [ORGANIZATION6] is well represented in the integration and I know that the [ORGANIZATION6] I I'm happy to see [PERSON1] here.
+But I know that they have been quite quiet especially during the extra load they got on covid, so.
+[PERSON1] please make sure that you are well represented this this is very important.
+And it would be also more important in the second half of the project so that like you fell confident and the we are yeah this is this is good.
+So there is the the demo was already shown and so lot of work has been done but the viewers can ask for more.
+So just make sure we we report everything that we did and that we do enough in the in the next half of the project.
+(PERSON1) Um hum okay.
+(PERSON11) So that's that's I think that [PERSON5] can start right?
+(PERSON5) Yeah I was just wondering [PERSON1], do you think <unintelligible/> presenting this final.
+(PERSON11) Yeah sorry, [PERSON12] is saying some, so please talk to [PERSON9] or.
+Oh, so there.
+Yeah yeah, will the the demo today will be little risky starting on [PERSON12]'s machine instead of the cluster, because the cluster seems busy at the moment.
+But let's give it a try and then in for in the rest of the afternoon I think that [PERSON12] and [PERSON6] can can try it again to be sure that it will run better if it runs badly.
+But maybe.
+(PERSON9) Okay okay in any case don't worry I <unintelligible/> the video of the.
+(PERSON11) So in that case lets also try the video during this call, so today let's try both.
+(PERSON9) Okay okay.
+(PERSON11) It its it will be again different platform webex instead of zoom but we need to test so that there there is a bigger chance that it works.
+Okay so that's enough from me, and I think that [PERSON5] can start.
+(PERSON5) J- j- just a second.
+[PERSON1] do you feel confident in presenting this slide the slide I'm sharing.
+(PERSON1) Yes as long as it doesn't go into more technical detail, this seems to be very yeah this seems to be how can I say that, a kind of description of what happens inside the of [ORGANIZATION6] right?
+(PERSON9) No no, don't worry, its just related to the presentation layer, so you can just mention for, of course if you prefer we can present it we we can present it.
+But if you like to make your in- your presentation of the slide you can just go through the um, presentation aspects of the [ORGANIZATION6] clients, so talk about the fact that the reason the chat.
+People see their faces, audio stream is passed to this this architecture and retrieves transcriptions translations and chat view.
+And so on.
+<laugh/>
+(PERSON1) I I can do that that's that shouldn't be a problem as long as there are no technical questions I feel confident that I can present the slide which I see now with this T6.1 platform updates right?
+(PERSON5) Yes exactly.
+(PERSON1) Okay, yeah, sure I can do this.
+Sure.
+(PERSON9) Okay nice.
+(PERSON5) Okay, perfect.
+So thank you everybody, can I start?
+(PERSON11) Yes.
+(PERSON5) I'm [PERSON5] from [ORGANIZATION3] we as [ORGANIZATION3] had bulk packages leader of WP6 which is the work package that you get it to the integration and the <unintelligible/> of services.
+Integration and <unintelligible/> of services and also running of events.
+So the main goals of this work package are to provide and then hands the integration platform in order to make this platform usable by all of the usecases that are part of the [PROJECT3] project.
+Integrate the NLP engines so ASR SMT and machine translation engines from all of the <unintelligible/> with the platform to develop the presentation platform for the <unintelligible/> because it is a.
+Important and it is also part of the project to provide the subtitles in all of the forecasted in all of the languages to the end users.
+To integrate the spoken language translation into the [ORGANIZATION6] platform, to integrate the automatic minuting we have seen in the WP5.
+Into the [ORGANIZATION6] platform, and as I already mentioned to run the events.
+Running the events means taking care of a <unintelligible/> all of the end use the <unintelligible/> services and the presentation platform to provide transcription and translation of the spoken events.
+Sorry.
+As you can see here in the just a second.
+<unintelligible/> because I have to move the bar with the with the speakers.
+(PERSON11) You can make it smaller so there is this one.
+(PERSON5) Yeah but it it was covering part of the presentation.
+<laugh/>
+(PERSON11) Not not for us not for us though, but its only for you.
+(PERSON5) But for me, yeah for me.
+So as you can see in the diagram on the left on the right side of the slide, this is the overall structure of the project as you can see the WP <unintelligible/> WP6.
+Is the container let me say the final result of the integration of all of the components <unintelligible/> developed th- in the previews workpackages.
+<unintelligible/> work package, the work package is organized in four into four tasks.
+The first one is the platform dates meaning the evolution of [ORGANIZATION3] and the [ORGANIZATION6] platform to handle all of the use cases and uh.
+Primarily the multi target translation and the presentation of the subtitles both in original <unintelligible/> language.
+The second task is the integration of the engines that are provided by the all of the pans into the platform to run the events to run the <unintelligible/> by the use case.
+The third task is the minuting demonstrator.
+So the development of the uh, the demonstration platform to provide minutes of uh conferencing.
+The fourth task is the running of let me say events not only [ORGANIZATION5] events the main one is the [ORGANIZATION2] 2020 that has been moved 2021.
+But this is the main one, where will be where has been and there would be many other preparatory events rather as relevant as the [ORGANIZATION2] for us.
+All other plans are participated into the in the work package 6 because it is <unintelligible/> everybody integrates its on system with the platform.
+Just to give you a brief idea of the milestone that have been uh, that are part of the WP6 EUC that have been many milestones till now, so majority of the milestones have b- have already to place in the past 18 month.
+We have now next year the [ORGANIZATION2] where have been moved uh, next year due to the COVID breakout.
+So apart from the [ORGANIZATION2] congress we are on schedule on the for the uh, milestones and uh, as you can see we also added the new events we have run even more events than planned.
+So we had no delay due to the COVID crisis till now.
+Regarding the platform, the platform that we made available to the consortium is <unintelligible/> architector which is the call.
+Component that handles the integration of all of the NLP engines and.
+The important features where I like to stress here is that one w- with one single per service architector we are able to run a both face to face conferences by integrating ASR and SLT engines to provide the text to the presentation platform to be delivered to the participants.
+And also <unintelligible/> conferencing getting all the from the [ORGANIZATION6] platform providing all of the <unintelligible/> necessary ch- services to provide the output to the [ORGANIZATION6] platform in order to to.
+To show subtitles and minutes inside the application.
+The dark grey components are the new components that have been developed as part of the <unintelligible/> developed as part of the WP6.
+The light grey one are the components that have been updated upgraded in order to support the use cases.
+So just a brief description of the platform, the bl- the platform is composed by the mediator <unintelligible/> as a central component which connects clients and workers and handles the distribution and the combination of the results in order to provide the final result of the natural language processing.
+So its in the pan and <unintelligible/> relies on a a library and SDK we should converts requests into XML based messages and sends with cross denied worker from clients to worker and then recombines the output.
+So I hand over the to [PERSON9] that will go in the details of the task update as of month 18 of the project.
+Please [PERSON9].
+(PERSON9) Okay thank you [PERSON5].
+Would you like I share my screen or you prefer to move you the slides.
+(PERSON5) I will go and move the slides just tell when to switch, okay?
+(PERSON9) Okay.
+(PERSON5) Just tell me next.
+(PERSON9) Okay okay.
+Okay, then as [PERSON5] told you task 6.1, <unintelligible/> the extension of the [ORGANIZATION3] and [ORGANIZATION6] platforms to handle the new use cases.
+In the first half of the project, we focused on the use case requirements identification and collection of user feedbacks.
+And of course on partner support during integration.
+We'll together achieved some remarkable results.
+<laugh/>
+Being able to coordinate workflows among over 90 different services.
+In the next part of the project we will work on some communication protocol extension.
+In particular we are working on some optimization during services selection.
+And of course the native support of the multitarget translation services.
+Next please.
+Okay.
+Um, okay.
+Upon the [ORGANIZATION3] service architecture infrastructure we developed and integrated a presentation <unintelligible/> to the <unintelligible/> transcription and translations to the end users.
+[ORGANIZATION3] developed the presentation platform web application which provides multiple simultaneous transcription and translation in subtitle view.
+Together with um, slides screen.
+And this application has been used during the annual meeting of the core group 2 of [ORGANIZATION2] in June 2019 in [LOCATION1].
+During this event we delivered live and automatic subtitles to roughly 30 participants in 10 different languages.
+Next.
+[ORGANIZATION7], propose are different approach to present the live transcription and translation in their online text flow web application.
+Online text flow focuses on providing multiple simultaneous transcription and translation in paragraph view.
+And these has been tested during the during several linguistic monday say minaries F [ORGANIZATION7].
+As well as during the workshop on using language IT technologies.
+Held <unintelligible/> in February 2020.
+Okay next.
+Is the [ORGANIZATION6] slide.
+[PERSON1]?
+(PERSON1) Yes, I I tried.
+So what you can see on the right side is the implementation of the transcription and translation function in [ORGANIZATION6].
+We put it in the side bar and what happens are 3 steps, at first we transmit each participants audio stream and second we caught it and save it for later reference.
+And third we display the transcript and translation in windows which yeah seems to be like our chat window.
+Um, while every person can choose the language we- w- we did setup the room for at beginning, we also can configure the whole room so that we for example can offer two three or five or more languages.
+Where every user can choose from.
+And the end its possible to transcript sorry to export the transcription for later usage like um.
+Email notes or whatever.
+(PERSON9) Okay.
+And this application of course has being test by [ORGANIZATION6] training but its also nice to know that we tested also altogether during the [PROJECT3] periodic meetings.
+Next.
+Um, kay.
+Um, okay it's the new task.
+This one yes.
+Um, task 6.2 concerns the integration of the components developed by the research partners with the [ORGANIZATION3] service architecture.
+[ORGANIZATION7] [ORGANIZATION4] and <unintelligible/> successfully integrated their components in the [ORGANIZATION3] service architecture pretty soon in 2019.
+And we successfully tested in 2019 and 2000 2020 during several events and demos.
+Um, this was made possible by the great commitment of the partners and by the continuous sharing of experiences tests and results.
+Regarding the native support of the multi target um, translation services.
+[ORGANIZATION3] is working on the integration design and it will be completed during the second half of the project.
+Next.
+Okay this is, um, please there is, please who who is working on <unintelligible/> 5 please.
+<laugh/>
+Listen to this part of the presentation.
+Okay, um.
+Task 6.3 concerns the implementation of the minuting demonstrator, a platform that will provide minuting to participants of online meetings.
+During 2019, we went through the technical aspects related to um, the minuting pipeline integration.
+And we worked on it <unintelligible/> we will work on it during the second half of the project.
+Our first valuable goal is to develop a nice and usable interface as much flexible as possible.
+At the first stage, a human user will take automatic transcription um, take the complete sentences of the automatic transcription, copy and paste them into <unintelligible/> infrastructure and then he will summarize them.
+After having a stable manual workflow we will start introducing the automations well described by our colleagues in <unintelligible/> 5.
+We will agree to focus on the batch processing so the workflow is to wait until the meeting ends.
+And then export the full English transcription and use it for minuting process.
+This will give us the chance to fix possible errors and remove out of topic this <unintelligible/>.
+Um, okay and automatic minuting is an open field research topic, but we agreed that everything we will be able to provide, will be an advantage both for us of course for the project.
+And for the next researchers working on this topic.
+Next.
+Okay, regarding task 6.4, I've to say they that we are pretty much successful during the first I will not laugh <unintelligible/> I promise.
+<laugh/>
+Regarding task 6.4, during the first half of the project we run several events and in particular last year we managed two [ORGANIZATION5] events, one in [LOCATION1] and one in [LOCATION2].
+Next.
+Thank you.
+During the um, [PROJECT1] workshop in [LOCATION1] we delivered live transcribed and translated subtitles in 10 different languages to 30 participants.
+And during the [LOCATION2] [ORGANIZATION2] workshop we tested our improved ASR and SLT configuration.
+Okay, next.
+Um, here if you are interested you can find a couple of recording of past events.
+But now maybe we can have our short demo of the presentation platform workflow.
+If [PERSON12] is ready.
+Okay.
+(PERSON11) Yeah I'm not sure [PERSON12] [PERSON12], are you ready?
+<parallel_talk/>
+(PERSON9) Meanwhile we can test.
+(PERSON11) So the Czech A- the Czech ASR doesn't work at the moment that's that.
+(PERSON9) Okay this is the perfect moment to test the video.
+(PERSON11) The video okay.
+(PERSON9) Sorry [PERSON5] I will.
+(PERSON5) Yes please.
+(PERSON9) To stop the share screen, and I will share mine.
+Okay close it.
+(PERSON5) No stop share.
+(PERSON9) Okay and I will share my VLC okay sure.
+You should see the VLC application.
+(PERSON11) Yes we do.
+(PERSON9) Okay and is there anything I have to make to share also audio.
+(PERSON11) That was I think when you were starting your sharing.
+(PERSON9) Um hum, okay.
+(PERSON5) Yeah in Zoom it's an option I don't.
+(PERSON9) Ah okay okay.
+(PERSON5) Where backs.
+(PERSON9) Okay okay I found it okay, sure.
+And <unintelligible/>.
+<another_language/>
+(PERSON9) I like it so much.
+<laugh/>
+(PERSON11) Yeah and the music helps.
+<laugh/>
+(PERSON9) Its also the topic its so touching.
+<laugh/>
+(PERSON11) Yeah, s- I dunno if [PERSON5] also <unintelligible/> in the Zoom.
+(PERSON5) Yes.
+(PERSON11) Do you think that the delay caused by Zoom is okay, do we live with this or do we.
+(PERSON5) I I think but uh, its okay for the.
+(PERSON11) For the review.
+(PERSON5) Meeting.
+And the I would say would be great to publish it to provide the l- the li-.
+(PERSON11) The link.
+Yes.
+(PERSON5) To vimeo or whatever it is in order to.
+Yeah exactly.
+(PERSON11) Yeah.
+I suggest that you upload it to YouTube because the the video the original video well, heh.
+They can ban us, I dunno how that works.
+<laugh/>
+Because the sound is the same you know.
+And the its like frame video and they have this anti like, to to prevent people from reusing others content.
+(PERSON9) I I dunno, we will reason about it later.
+(PERSON11) Yeah.
+<laugh/>
+Okay [PERSON5] would you like to reshare the slides or you prefer I share them.
+(PERSON5) I I think its better you you share because <unintelligible/>.
+(PERSON9) Yes yes I agree.
+U u um.
+Let see.
+Sure.
+(PERSON11) So so maybe [PERSON9] when if we go for the video shown, then you can also mention this that we cannot simply reupload this video to Youtube because the source already comes from Youtube and then.
+Youtube would see it as copyright or or whatever autorship in <unintelligible/> and.
+(PERSON9) Yes actually actually on <unintelligible/> is the the demo we played for [PERSON3] in June.
+<laugh/>
+Its not new.
+<laugh/>
+(PERSON11) So the yes, but its the reviewers are new I think I don't think that the reviewers were any at any of the session.
+(PERSON9) Oh okay, okay okay.
+Sorry.
+This.
+You should see the full slides view, okay.
+Okay we saw the the demo we talked about here you can find <unintelligible/> next.
+Okay.
+Thanks to events experienced we collected a lot of lessons learned and user feedbacks.
+Uh for example we understood how important is to have more control on audio quality and volume and the importance of a distributed approach in order to share workload and provide more reliable service.
+User feedback on presentation platform usability has also being really precious and starting from them we are planning presentation platform restyle and next <unintelligible/>.
+For example to take into account user needs to um, maximize video player with slide content and possibly achieve a mobile friendly design.
+We are working on a kind of overlay view of the subtitle and we are also reasoning on how to gain [ORGANIZATION7] experience and provide a kind of history view of the discussion.
+Okay.
+Well the COVID situation impact our plan a lot of planned events have been canceled.
+Um, we <unintelligible/> prepared some extra tool in order to be able to not only cast local slides but also on demand remote videos.
+But of course this is not enough to replan the <unintelligible/> events.
+We would l- we would like also to plan <unintelligible/> event, but in particular the next year we will have the project main event which is the [ORGANIZATION2] congress.
+And as usual we are pleased to receive your suggest on possible new events.
+In any case we look confident and hopeful to 2021 and accept of what has been postponed of one year.
+We are in line in line with the with the plan, and that's all for me.
+(PERSON11) Okay thank you.
+(PERSON9) Okay.
+(PERSON11) So I dunno if anybody has further suggests or.
+(PERSON9) We were on the schedule roughly.
+(PERSON11) Yeah.
+Think so.
+(PERSON9) Okay okay nice.
+(PERSON11) Okay, so I think w- we are all good, so [PERSON12] will let us know I'm afraid that its EAC deadline which is coming shortly and our colleagues have the flooded the the cluster.
+(PERSON9) Yes I am also especially interested if regarding the minuting part if any of you has some some suggestion for us or if you think that we can explain better something, please let us know.
+(PERSON11) Yeah I think, I think that this was good, and I I like the idea that the way you put it so that the minuting demonstrator can run in full with humans under the hood.
+And if the demo <unintelligible/> get better then we can replace the various manually manual steps in with or automatic models.
+So thats I think this way we can easily have <unintelligible/> results at the end of the project regardless whether the the technology of minuting is sufficiently good or not.
+So.
+(PERSON9) Okay okay.
+(PERSON11) And I think you say this plan loud then it would be also good for the reviewers, so here that like we have no blocking conditions in in the plan.
+(PERSON9) Okay.
+(PERSON11) Otherwise I think it was all clear and and good.
+(PERSON9) Thank you.
+(PERSON11) So thanks and lets move to the dissemination work package, right?
+And then <unintelligible/>.
+So our.
+(PERSON1) Yes maybe you can tell me how I can share my screen here.
+(PERSON11) Its at the bottom in the middle of the.
+(PERSON1) Ah share screens okay.
+(PERSON11) And you have to click share the whole screen probably.
+(PERSON1) Okay let me see.
+(PERSON11) Because if you share only windows then it fullscreen presentation does not really work well.
+(PERSON1) Do you see the presentation now?
+(PERSON11) Yes yes perfect.
+(PERSON1) Ah ah okay great.
+That's normal that I can't see it I just can't see on my screen right?
+I cant I can't see it in the Zoom.
+(PERSON11) Yes, you don't see <unintelligible/>.
+(PERSON1) Ah okay okay okay.
+Okay um, pl- one thing I want to to say before I start please let me know if you can optimize some thing, I have time window of 2 hours today after this call, um where where don't have anything to do for [ORGANIZATION6] so please let me know if there are some.
+There are something open or if you want to have more details for tomorrow.
+So I can implement it today.
+(PERSON11) Yeah also, it would be good to use this window to discuss further plans so that will be for for [ORGANIZATION3] to to link with you so that the the minuting demonstrator just to check the status like what where we are what are the expected problems.
+How much time you will have for that and yeah.
+So so like a checkup of the because we did have any any call recently so it will be good to make use of this opportunity.
+Even if its not for the review immediately, the reviewers can also ask about our future plans and its its good it would be good to like have them secured.
+(PERSON1) Okay, this information was for [ORGANIZATION3] right?
+(PERSON11) Yeah for and you, was so that.
+<laugh/>
+(PERSON1) I I have a few, I have on the last slide have I have kind of conclusions what we do with the work package 7 what's the future for package 7 but yeah.
+Maybe will see if if if it works if you say it's okay if not just let me know, okay?
+(PERSON11) Yeah thank you.
+(PERSON1) So okay.
+Um, at first I want to start with short agenda what I want to talk about in the next minutes.
+At first I want to talk about the different activities and the work packages.
+What happened until now until month 18, and then <unintelligible/> will talk about the impact of COVID 19.
+Which changed a bit of lets say of the work instruction and the structure of the dissemination activities and I will talk more about the changes especially um, within future outlook what we will how we will adapt to this new situation.
+At first um, you can see the different activities, T7.1 project website um, I show here the the work from from [ORGANIZATION7] and [ORGANIZATION6].
+[ORGANIZATION7] managed just mainly the website and what happened until now um its uh the status is the website <unintelligible/> is running and its in use I will show examples of <unintelligible/> later on.
+Um when we talk about updates and PR we have ongoing online repods for example an our own website on [ORGANIZATION6]training.te and with a few live and live trainings I will show you pictures of this later on.
+Um still like its in the call the post project <unintelligible/> five years after the project.
+When we come to social media and media coverage there that's one change we will talk about later that will put more effort into social media in the upcoming month.
+Because um as we found out that the to COVID 19 everything switches more in <unintelligible/> especially all the marketing and um, information processes how for example <unintelligible/> or how newspaper informs themselves.
+So what we have at the moment we have um Twitter and Instagram account we are thinking about adding link in the <unintelligible/> because <unintelligible/> seems to be more on the professional level then for example Instagram which is more on the private level.
+When we talk about dissemination activities in concerns of trade <unintelligible/> until now we attended 24 until today.
+Um the most happened in 2019 because of COVID19 the end of the trade first was like I would say February March 2020 but later on.
+We have also <unintelligible/> dissemination I will show you the numbers later.
+So um, the workshop on NLP technologies for uses is postponed to May 2021 so it will couldn't have this year because of COVID19.
+But still even if its postponed we don't have any deviation from plan because um covid- covid 19 will help us with within the <unintelligible/> project it doesn't stop us.
+(PERSON11) Sorry if I may quickly interrupt.
+The the <unintelligible/>.
+The the the the workshop that was planned as the part of the [ORGANIZATION2] congress actually is also without any deviation there is <unintelligible/> but the um, the workshop was run in dry run mode so its fully prepared.
+(PERSON1) Okay.
+(PERSON11) So that's why that's why I claimed that there is no deviation from plan because we have the people, well one of them will be los- leaving for Germany for the semester but the he is actually ready to come over.
+To run his part of the workshop, the the workshop is is fully ready and that's why I say there is not deviation from the plan.
+Because, yeah.
+(PERSON1) Okay, may I say um live live workshop will happen in May 2021.
+(PERSON11) Yeah yeah yeah yeah.
+(PERSON1) I I.
+Okay.
+<unintelligible/>.
+Okay sorry I guess that's way better than writing postponed right?
+Okay.
+Um, as I said.
+(PERSON11) One more one more type will happened <unintelligible/>.
+(PERSON1) Oh sorry.
+<parallel_talk/>
+Okay, thanks [PERSON11].
+Okay so, um, at the <unintelligible/> small deviation from plan when we look more into details like the website um, what what we can see here that the website lives.
+[ORGANIZATION7] does um, at for example short articles about the scientific papers summary <unintelligible/> on the block for example.
+And here's also an example of social media and media coverage.
+This is <unintelligible/> from [PERSON11] which was posted in Twitter this year.
+When we look into trade fairs as I said before, um we had <unintelligible/> 2019 because of COVID 20.
+<laugh/>
+COVID19 trade <unintelligible/> nearly stopped but we will see what happens now uh, because what really was successful <unintelligible/> we with [ORGANIZATION6] and [ORGANIZATION6]training we had a lot of live talks in 2020.
+At the moment we had more than 100 presentation with interested potential customers with <unintelligible/> etc etc.
+And what we showed there all the time is the live transcription feature and what I can tell and what I see from all of my colleagues who do this presentation as well as that its one of the most requested features uh from the market.
+Because everyone in his or their company they have this language barrier where they need solution to get rid of this.
+When we talk about scientific dissemination until now there are 29 papers that caught acknowledge <unintelligible/>.
+Um, yeah, so far for scientific dissemination.
+What changed due COVID19 as I said trade fairs and talk shifted from offline to online space, and I said this will help us.
+Um what we think and what we expect is to create <unintelligible/> in the upcoming months <unintelligible/> because of the shift to online space.
+What we can what we see we have more online presentations all the trade for companies are desperately in search for online solutions and what we think is when we present online we can show the uh uh potential we can better show the potential than we can do it with with offline presentation.
+What we also will do is we will produce more video content and um at the moment we are filling our own Youtube channel with the examples and there is also video which I will record in I guess in 2 weeks.
+Where we show the live transcription translation and transcription function within [ORGANIZATION6].
+What is the conclusion what we what we what did we learn in the last 18 month at first.
+Don't show sorry don't tell show which means we got the most responses with live presentations, when people realized what is the true ex- potential from <unintelligible/> when they really see okay, when I speak something happens I see a text and the text is another language or I can switch my own language to English or whatever.
+That's that has a huge impact what we realized that we need more live presentation more videos where people really can see the examples.
+And the second what we also learned is that we need to stay flexible with our dissemination activities as I said, we will change more into digital space which is pretty good for us.
+For a <unintelligible/> uh, because people can see it now and what we will s- w- w- w- w- slow the process of getting produced print materials or whatever we will put more effort into the digital space.
+And that's therefore comes the third point we will create more content for social media we will create more content for our blog.
+As I said video examples etc to see or to to to to let people better experience the the potential and the function of the <unintelligible/>.
+Okay that's all <unintelligible/>.
+(PERSON11) Yeah yeah yeah thank you.
+Um.
+One thing that I would like to to to change in your pronunciation is the name of the project.
+There are multiple ways of of pronouncing it but we we decided at the beginning to to strictly stick to [PROJECT3].
+(PERSON1) Oh sorry.
+<laugh/>
+(PERSON11) The reason is to the <unintelligible/> [PROJECT3] so that to <unintelligible/> and that's [PROJECT3] sounds like ELITE which is a better connotation so that why we always pronounce.
+(PERSON1) Okay [PROJECT3], [PROJECT3], [PROJECT3].
+(PERSON11) [PROJECT3] yeah yeah.
+(PERSON1) Okay okay, sorry for that.
+Okay [PROJECT3].
+(PERSON11) And then I'm I'm happy to hear that you have so so good like response from the online <unintelligible/> that you are running.
+But I would like to ask a no- not for the reviewers can ask the same question but I'm I'm mainly want to ask the <unintelligible/> how do we as the consortium benefit from that, so what can we as a consortium get from from this.
+(PERSON1) Yep, what we always do is um, we explain people how this concept works together, so what we do that we are part of <unintelligible/> sorry of an European project we we name it [PROJECT3] project.
+We name the universities and we also tell them when we send sales <unintelligible/> we always send the website we send the <unintelligible/> media channels so that we bring their attention to [PROJECT3].
+(PERSON11) Yeah and and what you are are you showing the transcription the live transcription or not?
+(PERSON1) Yeah.
+(PERSON11) So but uh but then is I guess Google based right?
+(PERSON1) Yeah yeah it actually is at the moment.
+(PERSON11) Yeah so that is t- t- you don't have to say this in the review um.
+(PERSON1) <unintelligible/>.
+(PERSON11) And and and the way I handle this is I always say that the dissemination goal of the project is actually broader than to disseminate it own results only.
+Its also to disseminate the the strength and utility of natural language processing as a field.
+And if do this twist then suddenly yes, I Google is not my <unintelligible/> anymore and there actually <unintelligible/> friends at google.
+<laugh/>
+So uh, so that's the that's the way <unintelligible/> but still whenever there is a chance I think that we really should try to promote our specific technology.
+And so its its good that you are bringing attention to to the uh uh to transcription and you also mention translation <unintelligible/> as well right.
+But there would be also uh uh there are things that are specific to our project.
+And these are the multi target so the the like the conferences where you have many target languages and you are delivering speech to to many people at once.
+We also have the live session like in in person meetings.
+And that is different from Google online services so then there what comes in is the actual physical setup connecting the wires and.
+There is a fair bit of of experience there as well.
+And that's that's something which which requires attention in way we have done that.
+And the uh the presentation can be also like a specific interest especially for for these events so imagine that you would be selling the idea that we have for the [ORGANIZATION2] congress.
+So once people start meeting again in person and they will be international audience, you want to show screen with subtitles in many languages, and this is something that Google doesn't offer of of of the shelf.
+So that's that's these are things related to the um uh to just the ASR and translation speech recognition and translation of that and, uh their specific to [PROJECT3].
+And the other thing which is specific is the goal for minuting, so automatic summarization of of meetings.
+And there we would be really happy if if you persuated any of the companies that you talked to to provide data so please get in touch with [PERSON13] she is on the call now at at the moment as well.
+If people want the their meetings to be not only transcribed but also summarized automatically if they want minutes to be written for them.
+They simply have to donate the data otherwise the technologies will not appear.
+So so ask for that we can do any sort of negotiation we can we can keep the data um uh restricted to certain class of users such as researchers under some like signatures of contracts.
+Or w- we prefer to make this data publicly available because then even for example the competing companies could pickup these data sets and train systems in 10years from now and and make them better.
+So we prefer public uh uh availability but if the donator that the donor of this of those data sets has restrictions we are happy to to play around like uh <unintelligible/> to to do exactly what we are allowed to.
+(PERSON1) Okay.
+(PERSON11) And not more.
+And um so that is uh the uh uh the data acquisition for for minuting.
+Uh and also yeah we are happy to do a delay so if for example some internal company meetings are I understand they are very sensitive uh but I can imagine that if we put 5 year ban on them and make them public in 5 years from now on.
+Uh they won't be anymore sensitive unless some like really critical matter was discussed.
+And this is obviously up to the one who has the meeting to decide, well this was just a normal project meeting we we like we didn't disclose anything bad in we didn't discuss anything risky which would kill our company potentially.
+We were just discussing things that could like uh uh allow our competition to no more about us.
+And if its only this competition thing, then within 5 years everybody will know.
+So the the content of the meeting will be totally like irrelevant for any competition advantage in 5 years from now.
+So that's with this thinking I think its possible to to get the data from from the companies.
+So this is this is something that I would really like to add it to your agenda to add this call for data for minuting.
+Uh because minuting is it doesn't work, we don't have the technology yet, but we are working on that and we cannot really proceed if we don't get the data.
+And this minuting technology that will be distinguishing uh something that [PROJECT3] has and and Google doesn't.
+So yeah.
+So this is what has to be presented not to the reviewers now but to to the companies that you are talking to.
+(PERSON1) Okay okay.
+(PERSON11) Yeah, I really want to benefit from all the activities that you do because you do a lot of marketing but I don't any single result of that.
+Show me show me the lin- the hits on our webpage which are thanks to your activities, I want to see them from in the log files.
+The and I fear that there will be too few and at that's that's a pity.
+So um, because you do this I'm like I'm sure that you have these talks but I think the whole consortium needs to benefit from that and not just yeah.
+Not just the wow effect that that you delivered, the wow effect is good but the it it has to be useful for for the whole of [PROJECT3].
+(PERSON1) Yeah yeah got it um hum.
+(PERSON11) And and other thing is you mentioned video presentation, I think that we have quite some video material collected.
+Uh you have seen the demo that [PERSON9] ran.
+(PERSON1) Yeah.
+(PERSON11) So this is something that it cannot be really rebroad- like you cannot reupload it because it is based on Youtube video.
+(PERSON1) Um hum.
+(PERSON11) But you can surely show it during your like person to person conversations.
+So please get this video from [PERSON9], because it illustrates how the how the like remote translation works and and <unintelligible/> it translates from some strange language that Google doesn't support if I'm not mistaken for for Youtube videos at all.
+(PERSON1) Um-hum.
+(PERSON11) So the that this would also be be good.
+So to to put it short I think the presentation that you had was was very good.
+It needs a fe- there was there were a few more typos but that's.
+(PERSON1) I will look into it.
+<laugh/>
+(PERSON11) Otherwise it it was good but uh I'm I'm really concerned about the benefit that the consortium has from your dissemination activities.
+Because you are um yes as a as a side effect of [PROJECT3] [ORGANIZATION6] has this link to to transcription and translation that's great.
+But its again the the nasty US company that's going to get the money for that .
+And it that should not be our final like accomplishment.
+<laugh/>
+(PERSON1) Sure sure.
+What I will change from the slides is that I will be more approach specific.
+Um what what I want to do demonstrate now that all this presentation are just possible because of the participation of [PROJECT3], that's what I wanted to show but I understand what you say.
+I have to be more approach specific I will change this um to to frame it more to the to the to the <unintelligible/>.
+(PERSON11) Yeah it- its not that much the uh the presentation now.
+Its the presentation to the companies.
+(PERSON1) Yeah.
+(PERSON11) I need to, i need you to change.
+So its, just mentioning that there is some university that does some fancy research uh uh uh is not going to help much.
+Uh like they they will forget or they will like realize that you have this button they will click the button it will do the transcript and Google will get its its sense per word.
+So its its good for the field of natural language processing yes, uh but it it kind of shifts the resources further more to the companies and further away from the university.
+So uh, uh because th- the resources are limited uh in in some.
+So so the more you promote the specific things the the better.
+So the things that are unique to to [PROJECT3].
+(PERSON1) To unique.
+(PERSON11) Yeah and unique things are the conference uh translations, uh and uh needing summarization and then something which the users may not really understand but they like could understand it as well as the research part of that.
+So the the models that where we compete with google head to head uh the ASR models for example its difficult to have uh uh have gains there compared to Google but yes people from [ORGANIZATION4] are doing good job there.
+They have the uh near human thing mentioned today near human ASR quality uh in the realtime.
+This is something which the Google doesn't have probably.
+And uh, for translation again head to head competition is hard so for the languages where we work we are better than Google so the yes.
+The Google wins on across the board, because they do everything.
+Uh but for any specific pair any of the research partners in the project will do better.
+So that's another thing that you need to to highlight to the end users.
+They can be happy with the of the shelf online services or they can get in touch with some skilled partner, and with their data they will and or just with targeted focus on their domain.
+They will get better, they will get a better performance.
+(PERSON1) Um-hum.
+(PERSON11) So that's the ASR and MT these things where we compete head to head and there <unintelligible/> every specific niche we will be better because we can afford the focus, while Google cant afford the focus, or Microsoft cannot afford the focus either.
+And uh we have the specific settings and specific applications and the specific is the conferencing so um, few languages into many target languages and the meetings summarization for which we need the data.
+And what else, what else is unique, I think that's that's probably the most important things.
+So so I don't think that you need to change anything in this presentation. 
+But I think that when talking to the companies really make sure that the companies can get back to us, and I by us I mean [PROJECT3] anybody from the consortium, or or the through the website somehow.
+Uh because otherwise we just the don't know w- w- what you told them, so we don't have a u- I'm not aware of any any single company who would ask me and contact me because they heard something in your presentation.
+Its a its a shame.
+<laugh/>
+(PERSON1) Maybe maybe we should we should its its not <unintelligible/> maybe we should think about creating a specific landing page on the website because what what I see is.
+The people want to have this easy solution <unintelligible/> companies they want easy solution and what I think it would be way more easier when we can send them on the website a kind of summary where we say okay these are the people working on the project, these are the goals etc.
+We we have this on the website but we don't have this on a single page.
+So when we when we could do an appointments together where we say okay what um I totally understand you [PERSON11] said that we need more feedback from the companies.
+So then we should maybe produce one landing page especially for companies.
+(PERSON11) Yeah yeah that's definitely a good idea so and you talk to them so you know what they want what they respond to.
+You know what should this webpage look like and what should it say, so lets lets measure the the benefit from you dissemination for the project by the the number of <unintelligible/> or the of companies who fill form there.
+Like whatever whatever they ask so the uh the uh the easiest thing and the most important thing for us uh uh for the research purpose is can you provide us with any meeting recordings and potentially their summaries, the minutes for that.
+And even if they say no it will be a plus point for you for the dissemination.
+<laugh/>
+So <unintelligible/> tremendous if they say no then great you have at least told them that the research cannot go on without their support.
+(PERSON1) The main the main point we also have in discussion with the companies are the GDPR stuff, they are so scared they are so scared about this GDPR.
+When they just hear that we need to <unintelligible/> I don't know what they think but they they always get big eyes when we say <unintelligible/> we need we need to process the data therefore we need your your recordings and whatever they get big eyes because they are scared.
+Oh what should we do, we have to talk to our um employees and whatever, and th- the funny thing is in every marketing or sales presentation we show the live transcription everyone wants to have it and till we talk about the contract when we talk about GDPR.
+I guess we lose 97% of potential people because they they they think that they think its they they really think they can keep the data and that the system should process on their servers um.
+They have really crazy expectations.
+(PERSON11) Well this is technically not a problem it is a technically a problem for Google.
+But not for us its its quite reasonable for us to make the systems offline in the sense that we will deliver it to them, and that will run on their on their hardware and will never ever once deployed never ever send any data anywhere.
+But for the purposes of training, especially for the automatic summarization of meeting there is insufficient data out there.
+In the whole internet we have tried to search for project meetings and there are not there, so they have to donate something.
+And if they do, then again yes we can make the systems totally offline, but Google cannot.
+So the this is another selling point of of everybody all the all the partners in the in the consortium.
+Sorry sorry we really yeah.
+(PERSON5) I I would like just to ask the one bit of information because for one of our customers, we ended up solving these GDPR issue, by proposing a segmentation of the audio providers.
+So we added up by asking audio <unintelligible/> segmented in 22 30 seconds segments.
+So with random we shuffled in order to let me say avoid the possibility to recreate the information from the from the let me say let me say anonymize segments.
+So its not really anonymized but its, accepted.
+(PERSON11) Yeah yeah so this is one of various possible ways how to make an agreement how to find solution which is acceptable for both the research and the the owner of the data, and its its the this is a great example, I I like that.
+It works very well for the ASR so training of speech recognition, it will be difficult to come up with something like that for the minuting summarization because there for for the meeting summarization for the minuting.
+There we really have to know what was the talk about in to in order to train.
+But there again different t- specific agreements could be made such as the one I proposed the 5 year delay, and the 5 year delay is is uh like, it seems stupid now, to collect data that will be releasable only in 5 years from now.
+But I'm sure that in 5 years from now the technology will be still very under performing and the data will be greatly useful in 5 years from now.
+So it it make sense from the research point of view, and it hopefully increases by 1 or 2 percent the the amount of data that we can gather.
+So I think that um and and the again the so so the GDPR that's one thing, but that should not be confused with um, with the consent of of using the data.
+So this really need to be discussed we have [PERSON13] was like halfway, we'll talk about ethics the the next work package is on ethics um, so [PERSON13] will present something but we also have a new person on the team starting from this month.
+Probably she's there only to limited portion of time.
+But we will really want to uh make this one more outcome of [PROJECT3].
+To show the best practice to like prepare questionnaires or whatever for for researches like us, to to create simple uh like flow charts uh.
+If you are collecting data do this this this don't do this uh so that everybody is confident that the data is handled well um, and that should hopefully help uh also [PERSON1] you in in talking to the companies.
+So I think this is this is very important I totally acknowledge that and I think that we uh really need to be in touch even for in like close touch and discussion um.
+In one finding out how to best present things, how to avoid people being scared away uh and instead of just having this fear and and straight know to think about ways of how to go around it how to solve it.
+So that everybody is happy and [PERSON5] made an example and more is possible.
+(PERSON1) Do we do we have uh written case study want to that I can show to companies where we for example did setup their own um translation landscape or whatever.
+So in in with [PROJECT3] do we have a case study because that's what people asking me all the time, do we have case studies.
+Proof, we need proof proof proof.
+(PERSON11) Yeah so well, uh what works for us occasionally is that a company comes and they want some specific machine translation task and they have their own training data uh so we sign and and <unintelligible/> with them and we do the research for them and a data is never used for anything else except for the research for them.
+So that is the normal uh like uh I dunno the the English term for that, but its like the research for a company that's we we we have label for that in in in Czech so.
+Uh or <unintelligible/> research something like that could be that could be.
+So that's that's something that works for uh for applications such as machine translation or speech recognition, that are already uh well researched so that in principle it can- uh so that its reasonably works already with the online systems.
+If it reasonably works already with the online systems, then you can do uh way better if you do it for the particle customer and you are skilled in that area.
+So doing the ASR for customer on his data you can perform much better than what the online shows.
+Uh and that's where it is this type of uh benefit can be seen and there is no problem at all because the the university never leaks this data that's yeah.
+Thats the normal contract between two companies in in a way.
+The other thing is uh like donating the data for research and that is necessary for applications which are not that advanced, and the meeting summarization is this not that advanced.
+And there the way I would frame is its like social responsibility kind of so the the companies who are happy to invest into their environment risking that the competitors can also pick up the fruits.
+Uh, but it helps everybody actually, so I don't know if you have also strong enough company to have that there is again an English term for that like they.
+On purpose the company is is like wasting some of its money on supporting competitors by giving the data giving out the data and the even the competitors can pick it up.
+Uh and this the bigger companies know that it is actually beneficial for them to to go through this risk because the technology will be then developed faster by random students in at the random universities if you if you want to keep things too private, then you cannot exploit the free potential of of of the people around the globe.
+So that's that's the tradeoff.
+So you your risk some of your advantage on the market and in the return you get this extra free research power across the the worldwide universities.
+So this I think this is for a long discussion I've only hinted some of the, I'm not sure I'm not sure you were able to follow.
+(PERSON1) I'm totally with you, it would be good if we uh keep on the discussion for example <unintelligible/> because he is person who lets and who decides.
+(PERSON11) Yeah.
+(PERSON1) What do we put in in the presentation so, I I would would say that we um, keep on the discussion with more people from from [ORGANIZATION6] and then I want you to to explain your idea.
+What we can do to support the <unintelligible/> and then <unintelligible/> then next steps.
+(PERSON11) Yeah yeah yeah so please please get back to me with propose some some uh slots that would be good for your side and you know how many people of on your side are are and should be involved in this, and I'll I'll join and also.
+I invite for example [ORGANIZATION3] especially, because they they will be probably very keen on on this type of like benefiting from the from the dissemination that that you are doing, that's my concern there.
+(PERSON1) Okay great lets do this.
+(PERSON11) Yeah, so please w- within week and are send <unintelligible/> possible slots and that <unintelligible/>.
+They they should be in month from now or some.
+(PERSON1) Yeah I I will talk to France today and I um I will tell him what we can do and ask him.
+(PERSON11) Yeah yeah, because I know that you are doing a lot of work for us but we don't get any any benefit and that's that's really <unintelligible/>.
+And I see that there is you are really the the door to all the companies and we we need to get there, and if if with you if we if you say that only 3 person of companies still remain after you mentioned the GDPR aspect.
+That the privacy aspect uh, even with just these three percent of of the companies that you contacted, the reviewers w- will be extremely happy how how we disseminated the the [PROJECT3] project.
+So yeah its its okay to have 97% of of like <unintelligible/> in this area.
+(PERSON1) Not when we when you pay for the lead and for the presentation.
+<laugh/>
+97% of the people but I I I I do get what you mean.
+(PERSON11) Yeah.
+(PERSON1) Okay great thank you [PERSON11].
+(PERSON11) So there is I don't think there is much to change on this presentation that's that's good.
+Uh but make sure that we as the consortium get the benefit from your dissemination.
+(PERSON1) Sure got it, thank you very much.
+(PERSON11) Thank you.
+(PERSON1) Okay I will end the presentation.
+(PERSON11) Yeah yeah.
+(PERSON14) Maybe could we share the column view.
+(PERSON11) What is column view.
+(PERSON14) <another_language/>
+(PERSON11) Oh okay.
+<parallel_talk/>
+So well [PERSON12] will keep trying and maybe.
+(PERSON9) Yes and [PERSON11] also remember.
+Remember that I prepared also the the a short video for online ex flow in any case.
+(PERSON11) Yeah yeah yeah yeah exactly, so that's another thing, so so please [PERSON9] please both these videos with the [PERSON1] and [PERSON1] should like surely present them, because [ORGANIZATION6] was totally overloaded when we were doing these demo sessions and they were not even present.
+So they don't know what is yeah.
+(PERSON9) I just need more bandwidth in order to upload them.
+Don't worry I will share with the participants.
+(PERSON11) So they should they should look at it and incorporate these into the the video presentation they are they are doing.
+(PERSON9) Ok ok.
+(PERSON11) [PERSON1] right?
+Or is he there.
+Yeah so hopefully [PERSON1] will still listening I'm not sure.
+(PERSON11) Okay so lets move onto the last work package, and that's work package 9, and that will be probably presented by [PERSON13], and the new person to to join this topic within [PROJECT3] from our side is [PERSON7], [PERSON7] who is on on the call as well.
+<unintelligible/> but still I'm presenting it here.
+(PERSON11) Yeah yeah well you decide.
+(PERSON13) Oh I'm asking [PERSON7].
+<laugh/>
+Okay uh, I'll start presenting then.
+<other_noise/>
+Can you see that.
+(PERSON11) Yes yes it works.
+(PERSON13) Okay well, I'm going to present the ethics work package and that this uh.
+This work package has been created explicitly upon the request of the [ORGANIZATION1].
+And it is supposed to ensure that the project complies with appropriate ethical requirements.
+In the [PROJECT3] project we collect a lot of speech data so the ethics should froze and drill seriously <unintelligible/> with the data which comes from the human participants.
+And we should tak into account both personal information the GDPR information and the content of the data we receive.
+Um, the work package for the management <unintelligible/> is planned for all three years of the project relation, but the main preparation for all these issues <unintelligible/> during the last year.
+So in the last year 19 in 2019 we published we also published three deliverables about uh, the progress in our hand in <unintelligible/> issues they are listed here on this slide.
+Uh, and the idea of our activity <unintelligible/> is to take care of the data that we collect, so before collecting you and <unintelligible/> or speech data for example.
+We wanted to obtain <unintelligible/> by ethics <unintelligible/> so people compete authorities for the search with humans.
+Uh to have these organized we have established two separate <unintelligible/> to help us with handling the uh ethics ethical issues and to control if we are acting correctly or has some mistakes in preparing the data.
+We established data protection of <unintelligible/> controls if we are okay with the GDPR, we don't violate some any GDPR <unintelligible/> and then we have created a three member ethics committee.
+Um which deals with ethical issues <unintelligible/> human participants and the members of this committing advices on how to write consent forms uh so that our respondent fill themselves safe and sure <unintelligible/> would not be misused.
+And the members the members also command and approve the resulting consent forms before we give them to the meeting participants.
+As for GDPR we uh supposed to have no personal information in the resulting collect data.
+This is important and this is actually should be kind of explicit if the main this website we just talked about we can made a explicit uh site about <unintelligible/> and make it visible to potential c- candidates for the data.
+Any personal information that will be found should be deleted or anonymized before the public release of the data.
+Uh so to release a speech corpus, we have to anonymize the voice which means to remove the speaker identity and as the result we get kind of distort the voices on <unintelligible/> ASR systems can be chained for.
+Uh and for the meeting.
+(PERSON11) Well [PERSON13] w- watch out, this is this would be the ideal but it is impossible.
+(PERSON13) Its not going to happen yeah.
+(PERSON11) Its never going to happen, this is you are uh please have a.
+(PERSON13) So we will publish the corpus without with all the personal data inside?
+And we we will.
+(PERSON11) So the t- there was an interesting discussion at the end of the user and advisory board meeting, please try to to.
+(PERSON13) Yeah I have it I have it I have <unintelligible/> but I have it yes.
+(PERSON11) So at the end uh t- the this was discussed with [PERSON12] <unintelligible/> actually there is no way at the moment to anonymize voice so the speech people will identify the person if they have the person in the in the pull.
+Then they will find the person with 99.99 like precision.
+Uh so, we have two options for our meeting corpora, either not to release any voice and that's good, because we can live with the transcripts only, for the minuting that's that's that's sufficient.
+Or we could also ask for consent also including the voice, but that's what we are not doing at the moment, so I think that.
+(PERSON13) We are not doing it at the moment yes.
+(PERSON11) Yeah so, uh just to to so that you are you are not assuming that some technology is there which is impossible at the moment.
+(PERSON13) Yes.
+Yeah yeah yeah.
+(PERSON11) So this is I have have a look at the slides from the [PROJECT2] meetings, there I also presented this work package and I had this like ideal and then it was like crossed out realistic.
+Uh and uh this conference be might be useful here as as well.
+<unintelligible/>
+(PERSON9) We should also have the recordings of the [PROJECT2] meeting.
+(PERSON11) Yes, yes, we have it uh is it is somewhere [PERSON13] has it she she <unintelligible/>.
+(PERSON2) Um yeah, just I mean its maybe something worth worth being aware <unintelligible/> EU project <unintelligible/>.
+(PERSON11) Yes comprise yes.
+(PERSON2) You <unintelligible/> this is one of the things <unintelligible/> dealing with.
+Sorry?
+(PERSON11) Yeah yeah that's that's.
+(PERSON2) <unintelligible/> at the [PROJECT2].
+(PERSON11) Yeah and I'm mentioning the person again because [PERSON13] is uh knows about that uh about the person [PERSON8] and we [PERSON8], and we have already exchange a few emails with him.
+So [PERSON13] this is this is for you to like pick up or potentially for [PERSON7] to pick up with you are too busy with this, but this is we do have the contact its just that nothing uh happened yet, but it yet is already a more than a year now.
+So <unintelligible/>.
+<laugh/>
+But the yes, maybe it would be good to mention this project on because the the commission is happy when the projects collaborate with each other.
+So the.
+(PERSON13) So to mention that we are.
+(PERSON11) In touch with people from <unintelligible/>.
+Comprised sorry yeah.
+(PERSON13) Its comprised company yeah.
+Uh and.
+(PERSON11) Not company, project.
+(PERSON13) Uh project okay.
+That we are in touch with the comprised project, so should I actually s- speak about it in more detail or rather not too much, so that the.
+Are we going to r- release a speech corpus, do we know that.
+(PERSON11) So I'm I don't think that we are going to release speech corpus, uh we can train on it because it is a lot of non native speakers internally, but I don't think that its worth for us to asking for the permission to release also the speech data.
+And to release it as a speech data uh we can rely on the project comprised which we are in touch with.
+But to release it as the minuting data we go text to text and there we can can be good.
+(PERSON13) Um hum, okay okay okay.
+I will modify the slides, I will modify the slides.
+(PERSON11) Yeah sorry to interrupt you.
+<laugh/>
+(PERSON13) Um its okay.
+<laugh/>
+Uh, anyway uh for the meeting corpus we need to remove <unintelligible/> remove.
+But uh also from the contents so we should correct the text also manually to have the anonymization f- as for the names <unintelligible/> and so on.
+And for the time being the anonymization process hasnt been implemented yet even started yet but we are in contact with comprised project uh and just beginning the communication.
+Uh well and <unintelligible/> we also <unintelligible/> we collect the recordings of real business meetings or real project meetings people discuss what they are what they do in the project there are some <unintelligible/> plans or maybe some results that they don't.
+Uh very proud of or maybe not very effective and they don't want to show to anybody uh so uh major recordings of the main speaking activity maybe <unintelligible/>
+Also maybe because of many other reasons just people may not be willing to make the recordings because it makes it takes time and take some effort .
+It really takes time to send to work on that to to record the meeting to send them somewhere <unintelligible/> it doesn't work and then send it again and so on.
+So its really <unintelligible/> big work to to give the meetings and so from this point of view we have two purposes.
+We have <unintelligible/> described what we do and why we need the data, and how the data will have help the companies themselves <unintelligible/> and automatic minutes for example.
+And we should also convince the participants that they might also need <unintelligible/> so it um we'll help them.
+And according to this we created the consent forms, which we give to the participants so these are Google forms for <unintelligible/> collect the data for minuting Google forms for participants and for meeting organizers.
+That are in the form of Google forms and the participants of the meetings who give out the data are filling this forms.
+Uh and as for the activity in this year uh the [ORGANIZATION2] congress has been postponed to the next year and that's so our activity in ethical issues um this year <unintelligible/> or colleting the data for minuting corpus.
+So we took care that the participants and the organizers of the meetings which we collect <unintelligible/> consent forms and as far as we have mostly <unintelligible/> half internal meetings that are being held <unintelligible/> [ORGANIZATION7].
+Its quite easy to collect in forms in <unintelligible/> but if we have more into external meetings some <unintelligible/>.
+And as for this new step, plans for example we have we plan to create beta data management plan for other possible <unintelligible/> external meeting data.
+We also plan to update some tools which help to store manage data during our project.
+For example <unintelligible/> about the critical storage times type for use <unintelligible/> not on the run they begin to use them but also to when they are supposed to be used.
+And this also should be updated and we also should start to prepared how to achieve <unintelligible/> at the end of the project.
+Thank you end of presentation.
+(PERSON11) Okay thanks.
+So I'm I'm <unintelligible/> a minor comments thank you for the slides and and presenting them.
+I think its this work package is very much forward looking so we are doing something but we know that we should be doing better and we should serve an example as an example.
+And I also wanted to check [PERSON1] were you here?
+(PERSON1) Yes I am here.
+(PERSON11) Yeah so this the [LOCATION1] institute of planning that would be one of the potential use cases that you wanted uh as an example.
+So like talk to [PERSON13], its actually my classmate through which we got there uh in the Czech republic everything work through classmates uh so.
+Uh he now works there and and I it was possible so I was like allowed to to explain to them what the data is going to be used for and uh and how we handle it and and then after this explanation and the illustration of of these automatic transcription technologies.
+They said okay, yes, it is interesting lets try it and then they agreed that they will be giving us the data we will again have to get touch get h get back to them so we are getting the data now it was summer but I think that will revive once they have their regular meetings again.
+But once once we have the data collected we still need to get in touch with them again exactly and uh like double check that they are still fine with whatever approval will be but they are exactly the company now actually a public institution that we manage to persuade.
+That it makes sense to going to some risk because the the long term benefit is is there so uh it very much depends on the initial presentation the level of trust and then it can fail at any stage.
+Like their director can change and whatever and suddenly the all the annotation work that we have done on their on their talks would be kind of lost but it I think its still worth going into this risk because without the data you just cannot do anything so.
+(PERSON1) Um hum got it okay.
+(PERSON11) So so please talk to [PERSON13] uh and uh and check how the how this was established and [PERSON13] is also just she she was not there herself she just communicate it with them by email after my single visit there.
+So uh yeah.
+<laugh/>
+S- so we we need your online presentations to have the same effect uh to three percent of the companies that you talked to and suddenly we would have uh three times more the data that we have today.
+(PERSON1) Okay okay.
+(PERSON11) And that would be significant difference.
+(PERSON13) Also if we make this website and put very very explicitly the GDPR information it could also.
+(PERSON11) Um hum, we actually do have website [PERSON1] are you ever of our block post on.
+<laugh/>
+On this topic.
+(PERSON1) No let me have a look.
+<laugh/>
+(PERSON13) I actually need some website that I could <unintelligible/> to when I'm speaking to this uh companies arguing the data.
+(PERSON11) Yeah so the its its the the 5th 7th of May recipe for miracles to have happen.
+(PERSON1) Um hum.
+(PERSON11) And that explains the minuting exactly, so this is this is the one specific aspect, its not the landing page, the the landing page is separate thing.
+I agree that we need we <unintelligible/> as well.
+Uh but this is the the call for the data.
+(PERSON1) Yeah.
+<parallel_talk/>
+Okay I will have a look into it.
+(PERSON11) Yeah.
+(PERSON1) And then you have, lets lets talk together I guess the <unintelligible/> bring it to the next step um but I guess the most important is that we talk with our CEO when <unintelligible/> development to to let them know that there are possibilities that are GDPR compliant.
+(PERSON11) Or that we have the figure out what exactly to do.
+So it is an open question we are yes we are not bringing a solution yet, we are we just want to make sure that uh the discussion is not closed at the beginning.
+(PERSON1) Yep, okay.
+Okay, good.
+(PERSON11) Yeah okay thank you.
+(PERSON1) Thanks.
+(PERSON11) So uh, do we have any other thing that should be discussed now while we are all here?
+I think that we are all good like we have discussed we have seen all the presentations everybody knows what are their flows and will try to fix them during the rest of today and tomorrow will start.
+With the reviewers and.
+(PERSON2) And the <unintelligible/> the webex platform that we used that from the month nine.
+(PERSON11) Yeah I think so.
+(PERSON2) Yeah <unintelligible/>.
+(PERSON14) Yeah its the same platform.
+(PERSON2) Okay so that should all be fine then.
+(PERSON11) Yeah.
+(PERSON2) Okay.
+(PERSON11) So remember people cannot copy paste URLs from the slide they are watching, that's important.
+So if there is something that people should look at because whatever webex is slow to to transmit the demos please paste that link into the chat window in ask people to to to to like click it themselves.
+(PERSON13) Okay.
+(PERSON11) And uh.
+Yeah.
+Otherwise.
+(PERSON2) I wasn't really clear are we doing a live demo or.
+(PERSON11) Well we couldn't test it today, so because the our cluster is totally <unintelligible/> by someone and uh.
+If we if that gets better during the later afternoon [PERSON12] is here and and he will test it.
+We would do the demo live, otherwise its not so critical, because the the recording is okay.
+Except t- the, both the subtitles and also the faces. are jumping.
+So like the the updates rate is is too slow for for me, or.
+(PERSON2) Yeah I couldn't really see it really properly either.
+But if its as you said if its possible to circulate the videos <unintelligible/>.
+(PERSON11) That would be better I think that would be much better.
+Yeah so [PERSON9] please please upload the video uh somewhere in any case and put some short URL uh into the slides.
+(PERSON9) Okay.
+(PERSON11) So that they so that people can run it for themselves if we go for this.
+If we go for the live uh uh demo then remember there is this it well, the live demo needs the the slides that I had.
+Like that you have to shift reload or this.
+So do we want to go through this?
+<laugh/>
+(PERSON9) Uh, I dunno.
+(PERSON11) So maybe maybe its safer to to stick to the demo, a video, and then you will simply say.
+So everybody please now, watch this video.
+I could play it for you through the screen sharing, but we know that it is jumping.
+So its better.
+(PERSON9) Okay.
+(PERSON11) If you like click the link yourself.
+And and watch it for yourself.
+(PERSON9) Would you like I play also the online text flow one?
+(PERSON11) So for the online text flow.
+This is that's the paragraph view.
+I think the paragraph view should be on through all the morning.
+And that's for [PERSON10] to announce it.
+Uh, and [PERSON10] should have already received the details from a [PERSON12] right?
+(PERSON9) Okay.
+(PERSON11) [PERSON10]?
+I see you are here.
+(PERSON10) I am looking <unintelligible/> have the details and no I am supposed to announce <unintelligible/> in the uh.
+No <unintelligible/> from [PERSON12] I believe.
+(PERSON2) It was in the chat, wasn't it?
+(PERSON11) But then its lost.
+On the chat on the previous call.
+(PERSON2) There is something in the chat.
+(PERSON10) Was link in the chat but I.
+(PERSON11) We cannot talk to [PERSON12] is sitting next to me but we cannot talk, I'll I'll give him .
+(PERSON4) Hi [PERSON10].
+(PERSON10) I just said the the link via email because the chat from last time was <unintelligible/>.
+(PERSON4) So okay I'll send you again in the meantime if you can take the same email that you send in the morning you might find yourself in the CC.
+(PERSON10) Uh, I its the tinyurl, okay.
+(PERSON4) Yeah exactly.
+(PERSON10) Okay then that's fine.
+No then I'm fine then I've got it.
+(PERSON4) Yeah cool cool thank you.
+(PERSON10) Okay cool.
+(PERSON4) Thank you.
+(PERSON11) Yeah great, okay, so we should have this paragraph view all the time, and that's for people to access the ASR quality at any point they like.
+And also to access uh the translation quality of that of that ASR into a language they can access, and for the.
+So [PERSON9] think again about this launching of the live demo and I think its probably safer to to say that uh well here is the link and and have a look at at it because [PERSON3] has seen it twice already anyway.
+(PERSON9) Yes yes its another problem, I will I hope I will be successful with <unintelligible/>.
+<laugh/>
+(PERSON11) And in that case, please confirm let [PERSON12] know in the morning in that case paragraph view can remain running all the time.
+(PERSON9) Okay.
+(PERSON10) And I guess I <unintelligible/> beginning before going to the work package yeah.
+(PERSON11) Yes yes.
+Yeah okay.
+(PERSON10) And but you probably will send the link to the uh in that's the question how to do the, we have the tinyurl link.
+(PERSON11) Yes.
+(PERSON10) I can try it to put it on the chat for the reviewers or somebody you can.
+(PERSON11) We will try because while you are speaking you cannot really chat that's I know from the experience.
+(PERSON10) So its probably <unintelligible/> I'll put it on the slides but since you cannot copy from the slides maybe if you.
+(PERSON11) Yeah yeah exactly so will will do.
+Okay so I think all is set uh, its a pity we cannot go to restaurant tonight which is the normal thing for review meeting.
+<laugh/>
+(PERSON2) Well where we can go home and work on our slides instead.
+(PERSON11) Yes, yes, that is good.
+<censored/>
+<censored/>
+<censored/>
+<laugh/>
+I would have very much prefers to be like some bridges days, but I'm not allowed to.
+<censored/>
+<censored/>
+<censored/>
+<censored/>
+<censored/>
+<censored/>
+<censored/>
+Yeah so [PERSON12] you want.
+<parallel_talk/>
+Okay so I think that's everything and we can work on the slides as as said.
+Uh so thanks for all the preparations, and talk to you tomorrow morning uh the Web X link is there for the first session and for the second session uh it will which is probably the the after the lunch uh.
+We will get link later on and for the conclusion it will also get the link later on.
+Uh.
+[PERSON1] [PERSON1] I will just uh to mention I will have later test of the Web X with [PERSON9] and with [PERSON9] just to see the presentation works for the sake of uh.
+For the <unintelligible/> for everybody where is a free Web X tier where everybody can join and can have uh maximum 50 minutes c- calls with up to 2 participants.
+So that.
+(PERSON11) So if you put if you could paste this link at the beginning of the agenda Google doc.
+(PERSON1) Yes.
+(PERSON11) So that people can test it for themselves that web X works for them that would be useful.
+(PERSON1) Yes sure.
+(PERSON11) Yeah.
+Okay so great I think that's that's it, then.
+Then hopefully the reviewers will like the presentations and yeah, will see.
+(PERSON1) So did you did you say its going to be a new set of reviewers?
+(PERSON11) Uh no, I think the same ones.
+(PERSON1) Same ones okay.
+(PERSON11) I'm yeah.
+(PERSON9) Then see you tomorrow.
+Thank you.
+(PERSON11) Thank you see you.
+(PERSON1) Bye.
+(PERSON14) Bye.
+(PERSON13) Bye.
+(PERSON2) Bye bye.

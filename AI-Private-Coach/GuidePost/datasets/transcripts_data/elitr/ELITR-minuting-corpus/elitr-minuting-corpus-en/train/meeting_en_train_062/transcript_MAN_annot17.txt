@@ -1,0 +1,1578 @@
+(PERSON10) Hello.
+(PERSON28) Hi, good morning.
+(PERSON10) Hi. 
+(PERSON16) Hi.
+(PERSON4) <another_language/>
+<laugh/>
+(PERSON10) What does it say, uh-
+Good morning in Czech?
+(PERSON28) <another_language/>
+Good morning.
+<laugh/>
+(PERSON10) <laugh/>
+(PERSON13) Good morning.
+(PERSON28) Hi.
+(PERSON10) Morning.
+(PERSON16) Yeah, hi all, hi <unintelligible/>.
+Good to see you here.
+Let's wait uh a little while until others join.
+I also saw [PERSON9] and he disconnected.
+So uh hopefully he will reappear.
+Uh yeah.
+Uh this uh this call is again uh going to be recorded.
+And uh hopefully the recording will survive.
+And maybe we'll even have recording by individual uh streams of of the speakers.
+So I'm curious if if [ORGANIZATION8] will do the job this time.
+So yes. 
+Till let's wait uh for uh uh for [ORGANIZATION3].
+Yeah, we have [PERSON26]. 
+Yeah.
+S- so we have also [PERSON26].
+So [PERSON26], do you know if [PERSON7] uh is uh going to come?
+And we also have [PERSON25].
+Okay, right.
+Uh, yeah.
+Uh so I think that we are all, right?
+Great.
+<unintelligible/> 
+I see most of you.
+(PERSON26) Hey team. 
+<unintelligible/> 
+(PERSON16) He's coming, right?
+(PERSON26) Yeah, [PERSON7] he's coming.
+(PERSON16) Okay, yeah.
+Uh so that's uh could we can uh we can uh halfway start and return to things that that would need uh [PERSON7] in in uh a second.
+I said I'm happy to see at least half of you in in in like live pictures.
+<laugh/>
+And I hope you're doing good and not yet too crazy from the uh t- coming Christmas season.
+Uh all the e-shops are already exploding in the Czech Republic and uh it will get only worse.
+<laugh/>
+So uh, so I hope you have already at least some of your presents that you want to <laugh/> obtain for for Christmas.
+Uh and uhm yeah.
+We have two things that are uh uh very uh urgent
+And that's next week, the sessions.
+So we'll discuss the uh these uh halfway today and and and we should also have a special uh technical call uh uh uh later on.
+Uh t- in principle for both [PROJECT1] and the SG1.
+We could just push the uh the launch button and and see what's going to happen.
+But uh that's not the point.
+We we also want to make sure that we uh we do it a little bit better uh than than we did uh previously.
+So uh so that's why we want this extra push.
+Okay, but anyway, let's uh uhm uh the last reminder this is being recorded.
+I hope you're fine with that.
+Uh uh w- we will ask for consents to use this in the share task once we process the data, uh and the all your names and project names are are removed from that.
+So uh you will see what what actually uh could get published before it gets published.
+<other_yawn/> 
+Yeah, uh so in the uh in the agenda.
+We start with the paymen
+So uh uh on uh n- last week, our uh department our financial department a week ago exactly has sent uh the payments. 
+So check with your departments.
+Whether you have received the the payments.
+Uh and confirm so that we are uh all good in time.
+Uh then, uh s- uh s- the <unintelligible/> roll-up I still owe f- [PROJECT1] uh uh uh PDF uh of our poster.
+Uh so maybe we have one in the repository.
+Uh but I'm sure that [ORGANIZATION4] has it.
+And maybe [PERSON3] also has it.
+So I j- I just would like to ask s- someone who has such poster to put it in the repository.
+And if someone could apologize for me and send it to [PERSON8] uh to uh [PERSON8], that would be great.
+<laugh/>
+It's like <laugh/>.
+So the the session is uh uh the [PROJECT1] session is going to happen uh next Wednesday.
+I haven't checked the uh the program if well the hour is already set.
+But I was told that we will have uh one hour long slot.
+Uh in which we will have uh uh Z- [ORGANIZATION8] room, ready for us.
+Uh so I uh would like to do what we did with [PERSON15] already.
+But that was not too prepared.
+Uh for EAMT.
+Uh so that we would be uh like at the background showing the uh the the poster, some like details about the project.
+Uh but we will be primarly showing the uh the technology.
+And the participants cous could test it themselves.
+Uhm uh um.
+So this is uh-
+So so just to speak uh uh and and we would we would explain what is what is going on.
+And uh I was curious if uh also for the summarization for example. 
+If colleagues of mine would like to be present in that.
+Uh because uh summarization uh meeting summarization is an equal uh uh part of uh [PROJECT2].
+And we are primaly focusing on the spoke language translation.
+But uh the uh the presence of of summarization is there also very welcome.
+So if uh if the summarization team would like to uh uh be there, then uh let's just uh uh s- synchronise and uh decide what t- what to present.
+Uh so that's the one hour, uh Wednesday lunch session for a poster and demo.
+Uh uh so-
+(PERSON9) S- s- sorry [PERSON16], what what time is that?
+(PERSON16) Uh-
+(PERSON9) S- said lunchtime, but-
+(PERSON16) Yeah.
+I'm not sure exactly.
+(PERSON9) <laugh/>
+(PERSON16) So uh-
+(PERSON9) Okay.
+(PERSON16) [PROJECT1] when did when did uhm-
+Uh last time when I checked this, they still didn't have the uh the program uh in time sta-
+Now they have it, okay.
+So it's day 2, if I'm not mistaken.
+Uh and they don't uh li- eleventh- Project Expo.
+Oh okay, 12:30. 
+And it's probably Berlin time.
+(PERSON9) Yeah.
+(PERSON16) Yeah.
+So Project Expo, that's uh that's it.
+(PERSON9) Okay. 
+Thanks.
+Um.
+And if it's a [ORGANIZATION8] room, do you need a host or or is it-
+I mean, the thing is you you have a couple of nice overview slides with data.
+(PERSON16) Uh, well- 
+So they they ask for a poster.
+(PERSON9) Yeah, yeah.
+(PERSON16) They ask for project details.
+I wrote something.
+Uh and they also ask for poster.
+So I assume they will be p- like putting the posters somewhere.
+Uh as-
+(PERSON9) Yeah.
+(PERSON16) Entry to that room.
+(PERSON9) Yeah.
+(PERSON16) And in that room, uh what we saw at the EAMT session, people we- were jumping in at at random times.
+(PERSON9) Mhm.
+Mhm.
+(PERSON16) So there should always be some visual information, so that they could synchronize-
+(PERSON9) Yeah yeah yeah.
+(PERSON16) With the current flow of the discussion.
+And then later ask their questions.
+When uh when uh when everybody else is <unintelligible/>.
+(PERSON9) Yeah, yeah, yeah.
+(PERSON16) Exhausted, so.
+<other_yawn/>
+Uhm, yes.
+(PERSON7) S- sorry on which day was that?
+Uh first, second or third?
+(PERSON16) Second, the second day.
+(PERSON7) Second, so that's December second.
+Okay.
+(PERSON9) So Wednesday, yeah.
+(PERSON16) Yeah. 
+(PERSON9) Yeah.
+(PERSON16) Yeah, so sorry, I forgot about uh the date.
+Uh yes.
+Uh uh so the uh- 
+When I was talking about uh the demo for the uh uh SLT.
+We can cover that, obviously uh with the support of your systems.
+Uh live and and running.
+But w- we don't need you p- uhm uhm i- i- as persons there.
+Uh and for the minuting we also can do it uh s- uh ourselves.
+If uh if my minuting colleagues uh agree to to do something.
+Uh but I would definitely like you to invite you to to be present there.
+So if anybody would like to uh s- come to the poster or to the demo as well to see it, it is useful uh to uh to see how the system behaves.
+Uh e- every time, <laugh/>.
+Yeah.
+Uh so uh so just let me know.
+Uhm <other_yawn/>.
+Uh and just enter this into uh the document and and get in touch.
+And we also want to use uh this uh [PROJECT1] as uh uh uh demo for uh- as dry run for the full conference uh translation.
+And uh we will get the [ORGANIZATION8] links uh and [PERSON2] is working on the-
+[PERSON2] is also on the call uh today.
+He's working at the domain adaptation.
+(PERSON9) Mhm.
+(PERSON16) So he has probably scraped uh the websites of uh [PROJECT1]. 
+And uh he's adding some other on dom uh uh s- uh docks and and whatever.
+Well, there's obviously a lot of content that could be used.
+So I don't exactly know where uh in which direction he's uh he's crawling.
+Uh but it should definitely include some of the speakers' names and all that.
+And uh also uhm uh [PERSON2] suggested to uh test it uh on past talks from the speakers.
+If they're for example available on YouTube, which is quite possible for some of those.
+Uh so.
+Uh that is good.
+Uh but primaly, I really like to have this evaluated with numbers on our [PROJECT2] test set.
+Uh so uh I hope uh that [PERSON1] and and my other colleagues are uh working on that.
+So we should have some numbers.
+And this is an invitation for everybody who has some modal components, which could be useful.
+Uh but we don't know their performance.
+Uh uh s- in our setting.
+Uh please get in touch with, primarily [PERSON14] or [PERSON2], uh. 
+And uh uhm p- possibly also w- with uh [PERSON1].
+And uh uh have your components evaluated.
+Uh with uh the [PROJECT2] test set.
+And then we will see whether uh we should put a lot of effort into integrating those or whether uh it's it doesn't seem as uh as a worth uh uh uh enough improvement.
+(PERSON9) And what-
+What do we need to collect from this this this demo?
+I mean in terms of like-
+(PERSON16) Reporting.
+For-
+(PERSON9) Yeah, so things that we can collect that we can reuse in later date.
+I mean is there anything that we can collect or is it just about putting-
+(PERSON16) Well the uh uhm uh uh it's uh now quite likely that the [ORGANIZATION11] congress itself uh will be postponed so late.
+W- we're we're not sure.
+It it could happen next uh autumn.
+But it could also be postponed beyond the uh uh-
+(PERSON9) <unintelligible/> the project, yeah.
+(PERSON16) And uh sh- then uh in that case m- the next [PROJECT1] uh [PROJECT1] 2021 would be uh probably our event.
+I know it's not ideal.
+(PERSON9) Yeah.
+(PERSON16) Because it's uh spoken in English only.
+But uh in that case all the materials including the domain adaptation are very relevant.
+(PERSON9) Yeah.
+(PERSON16) Uh and all the uh uh like domain adaptation procedures that we uh will exercise for this are uh are relevant.
+I uh know that uh the ASR domain adaptation should uh become less important as we have uh the full neural systems in the pipeline.
+Uh and uh [ORGANIZATION3] has them, but I'm not sure.
+Maybe if if uh you could uh tell us if if they if these ASR systems can be uh uh tested uh live uh next week.
+(PERSON7) The the new ones?
+The-
+(PERSON16) Yeah.
+(PERSON7) Uhm.
+Probably not.
+I mean English yes.
+(PERSON16) Yes English?
+Of course.
+It's only non-native English spoken.
+(PERSON9) <laugh/>
+(PERSON7) Yes, so so [PERSON26]-
+Uhm so we have the-
+We we can run the enter <unintelligible/> inner system, right?
+(PERSON26) Yes, it's running. 
+(PERSON16) And is it-
+So it's integrated in the uh in the metadata, right?
+(PERSON26) Uh yes.
+So last time we did <unintelligible/>, we we we uh run both the the hybrid system and the uh the new <unintelligible/> MT system <unintelligible/>.
+So it's it's basically it's running.
+We we <unintelligible/> too different input <unintelligible/>. 
+(PERSON16) Okay, so that is very important uh for us to know.
+Very important for [PERSON14].
+And I would really like to uh uh have these systems evaluated on uh on the [PROJECT2] test sets.
+So [PERSON14], uh I hope that you're uh uh uh listening.
+Uh so this is uh this is something uh that please synchronize with [PERSON26].
+And really get this system uh get these two systems evaluated head to head.
+Uh and uh also uh s- uh uh it's uh a-
+So there is two types of evaluation.
+One is like separately just the word iterate for the ASR.
+And the second thing that is also very important is how this uh system behaves when it's connected in the SLT pipelines.
+Um and we know from the past, that even if the system is better in terms of word iterate, it may have slightly different uh like uh s- uh uh behavior with respect to sentence boundaries.
+And it can make uh a worse effect for the machine translation.
+Uh so this has to be tested uh uh uh as a complete pipeline as well.
+Uh so it's two tests.
+You need to test the uh component alone. 
+And you need to test the component with the with the for pipeline.
+Uh and it's quite possible that we would for example decide to use uh the uh fully neural system for the ASR only, when presenting English subtitles.
+Uh but we would use the old uh s- uh cascaded uh ASR for the uh uh SLT pipeline, where we were further translating it.
+So that's that is all p- possible and we have to have numbers to uh to decide what what works better.
+Yeah.
+So this is-
+(PERSON26) I'm sure I'll get in touch with him.
+(PERSON16) Yeah, okay, great.
+Uh so this is uh very important.
+Uhm <other_yawn/> and uh yeah.
+So that's the continuous testing.
+[PERSON14] is the main person.
+Uh so uh [PERSON14] is the main uh person.
+Uh so please get in touch with [PERSON14].
+Uh [PERSON14] will be collecting all the details, like the [ORGANIZATION8] links uh.
+And he will be running uh the systems, uh all that.
+Obviously his situation is not ideal, because he's uh s- starting the systems from an X to go session.
+Uh so he like remotely connects to a local machine.
+Uh here in [LOCATION2].
+Uh from India.
+And he clicks the [ORGANIZATION8] uh up there.
+And uh runs the systems from our machine. 
+But operates them from India.
+And also, due to some uh power uh uh m- uh f- uh like <other_yawn/> power supply uh uh uh faultage, they uh he lost uh the power supply, the the adaptor for his notebook and uh and cell phone on the same day.
+Uh so he now has some substitute ones and uh uh <laugh/> <unintelligible/> another uh power failure he may ha- have to travel 500 km to buy uh new adaptor, so.
+So <laugh/> ha- be happy <laugh/> that you are in Europe <laugh/> and your power lines are not <laugh/> that bad.
+Uh. 
+(PERSON9) Hm.
+(PERSON16) Uh yeah.
+So this is uh-
+We also are trying to uh to have like substitute people in case it th- this hits [PERSON14] uh again.
+Uh-
+(PERSON9) Hm.
+(PERSON16) [PERSON11] is uh uh in Germany uh, so uh yeah.
+We have uh we have some fall back uh options.
+<laugh/>
+But hopefully it will work uh out well.
+So it's uh uh-
+We probably w- will need to discuss uh many more technical details.
+So here's the doodle link, uh.
+Uh technical coordination.
+And uh and it involves- it will involve the technical coordination, not only for the [PROJECT1], uh but also the SG1 meeting.
+Which is uh on the 4th uh Thursday uh.
+Uh if I'm not mistaken.
+So uh the uh on that day, we will have we will need two systems running at the same time.
+One should be the uh computer linguisti- computational linguisticS domain.
+And the other should be uh the uh mhm uh e- [ORGANIZATION11] domain.
+Uh and the uh like congress planning.
+So this SG1 w- they will be exactly discussing the postponed- uh ment of uh [ORGANIZATION11] congress
+And what to do and uh and they will probably talk about the program and and things like that.
+So please, fill in this doodle.
+(PERSON4) Uh the SG1 is on uh December 3rd, not 4th. 
+Sorry.
+(PERSON16) Uh yeah, uh ok- yeah.
+Yeah.
+So uh but it's uh it's Thursday.
+Thursday next week.
+So please fill in this doodle.
+It's for the upcoming few days.
+Uh and then we'll uh discuss.
+And I'm uh curious uh, so y- y- you uh well.
+Uh please enter yourself, what you can provide for these test events.
+Uhm, so if we have any new bilingual modals.
+If we have uh any new multilingual modals.
+Uh if we have any better ASR, especially for non natives.
+So this is yes, this is uh so uhm.
+This is the the NN ASR by uh [ORGANIZATION3].
+Uh and then for the domain adaptation, it occurred to me that uh uh both of them can uh can talk about uh COVID.
+Uh because it's uh topical.
+So maybe it may be worthwhile to add these two corpora uh to our training data.
+Uh somehow.
+Like to uh uh fine tune a little bit on that.
+I'm-
+So that's- this is just a random uh random thought.
+We could also add them to the dictionary for the ASR for the uh uh for the adaptage ASR, that uh [PERSON26] is uh preparing.
+Sorry sorry, that not [PERSON2], that that [PERSON2] is preparing, not [PERSON26].
+Yeah.
+Uh so uh for uh the event, uh we are likely to have three ASRs.
+Uh the standard cascaded ASR.
+The domain adapted cascaded ASR that [PERSON2] is uh preparing also with [PERSON17].
+Uh and the fully neural uh uhm uh uhm ASR from [ORGANIZATION3]. 
+I don't know whether uh there is any way to uh any use of of domain adaptation uh like extending uh the the the language modal data, if they're- 
+Whatever.
+Uh uhm b- for-
+Then there might be another version, but uh uh I don't expect that, so please let me know.
+Uh and if you have any other ideas, what we c- uh could do, uh then uh yeah.
+Let us know.
+So the question is uh also on uh [ORGANIZATION6].
+In what way are we going to present these?
+So uh for uhm the [PROJECT1], we'll be connecting to [ORGANIZATION8] calls and I'm don't know whether these [ORGANIZATION8] calls will be broadcasted.
+Uh if they were broadcasted via YouTube, uh we could uh like use the subtitle uh view under the uh the broadcast session.
+Uh but this is something that uh we have not uh considered yet.
+Uh and for the SG1 group, we know that the participants will not be looking at the uh uh subtitles.
+So uh uh t- it would be only like the organizers of that meeting uh uh they already saw our system in [LOCATION1] last year.
+And they were not so happy about it, so it's <laugh/>.
+Uh so that's uh- let's let's show it uh to them only when uh when it works uh very smoothly.
+So let's let's run this test uh uh under uh cover. 
+Uhm.
+Uhm.
+But uh uh I'm wondering what is the uh presentation option there?
+We're definitely working on having two uh separate instances of the paragraph view. 
+So the paragraph view will be covered.
+Uh but uh s- uh [PERSON13] you're of course invited to do something about the uh the presentation <unintelligible/>.
+If you decide to uh to use it for one of the uh uh s- uh sessions, one one of the events, uh that's uh uh that would be sufficient.
+Uh t- the [PROJECT1] might have a video.
+Uh talk to [PERSON8] <unintelligible/>, if uh if that would be happening.
+Or maybe it's on the on the [PROJECT1] webpage, I haven't read it.
+The SG1 will be uh definitely without video, so in that case, we would just hide the video uh box and have uh have the multiple languages.
+So decide uh which uh which-
+And and get in touch with uh [PERSON14].
+So that he's shipping the correct uh streams to the correct presentation workers.
+So that is uh that is to be like uh checked.
+Yeah, okay.
+Thank you.
+Uh yeah.
+Uh uh so uh that's uh uh that's what I had in mind for these uh two events.
+And then I see that uh there's some details about [ORGANIZATION11] congress and saw activities.
+That's probably from [PERSON23].
+Uh and actually I haven't realized if he's on the call or uh uh not.
+Uh the fate of congress-
+(PERSON4) He's not, he had uh a power sh- shortage <laugh/>.
+(PERSON16) <laugh/>
+(PERSON4) Or not not uh-
+Or the internet connection went bad.
+So he's apologizing that he's not here. 
+(PERSON16) Yeah.
+(PERSON4) I wrote that-
+(PERSON16) Yeah.
+Uh so uh yes.
+Uh so the information is not changed from last time.
+The con- the congress is probably uh or possibly going to be divided into parts.
+Uhm <other_yawn/> yeah.
+So uh [PROJECT2] has applied to be able to participate in the online only part, which is already in April.
+So somewhat earlier than we planned.
+So this is important for our system development.
+So it's uh it's uh uh uh shorter deadline.
+And the physical meeting with workshop and marketplace will be postponed until it's safe.
+So we'll uh we'll see.
+And uh yes.
+So we have uh-
+Uh and we have the uh the testing of the room for the SG1 uh group uh on uhm on Wednesday next week.
+Yeah, so this is uh there's uh actually no news here.
+Uh so let's uh quickly uh uh uh remind ourselves of the deliverables.
+And uh then uh I would also uh like to very briefly hear about the progress in the individual workpackages.
+I'm I'm sorry for such a late uh notice, such a late request.
+But since this is your uh daily bread and butter, it should be very easy for you.
+To just briefly say what is uh what is the status.
+So uh uh you can fill some of the details already uh below the tables in uh uh uh now.
+Or you can uh do it when you are talking or uh after uh you are talking.
+So now for the deliverables, uhm yes.
+So the plan is to have almost full text ready early in December.
+Uh and I would like to uh uh t- uh uh have uh a confirmation from everybody uhm uh uh listed uh here, that uh uh the that the deliverables are in reasonable progress. 
+Uh so the 1 point 5 final training data, separating confidential and public version.
+Uhm.
+So.
+(PERSON1) <other_yawn/>
+Yeah, so uh.
+There is an- overly f- document for this.
+Uhm, actually I could just copy the link in here.
+Maybe, yeah.
+Uh so I've invited uhm some uh members of the consortium directly to contribute to that.
+Uhm I should send down the uhm consortium wide email as well.
+Just in case they're there's work on training data, that that I'm not aware of or is in a uhm different state than I expect and can also be added.
+But uhm, yeah.
+I think we're looking good on that.
+(PERSON16) Great.
+Thank you.
+So [PERSON15], you're on the call, right?
+Yes.
+Strange, you are unmuted, but we cannot hear you.
+So [PERSON15]'s uh.
+[PERSON15] also probably has some uh template.
+But I don't know the status and yeah.
+The microphone is probably not working.
+<laugh/>
+So can we move to then the uh- 
+Okay.
+So the 6 point 2 is is going to be postponed, so that's easy.
+Uh and then the uh integration.
+Uh uh I don't know if if [PERSON13] or [ORGANIZATION4] is is going to uh give uh the status of this.
+(PERSON13) Yes.
+W-
+We get in touch in order to define the uh the structure of the document.
+And we start putting in it content uh we are m- pretty uh at a at a good point.
+We are definitely on schedule and we hope to uh finish it for the year.
+(PERSON15) Hello, hello.
+(PERSON13) For the early December.
+(PERSON16) Yeah.
+Okay.
+Great.
+And I heard [PERSON15] now, so now it works.
+[PERSON15], yes.
+Please go ahead.
+(PERSON15) Y- yes.
+So I started the template and before I m- I will go on.
+And I would like to know what should be there.
+Cause in last deli- deliverable there were thirteen pages.
+In the last year.
+So whether to repeat them, or uh to make it briefer.
+Make it shorter.
+(PERSON16) Uh-
+(PERSON15) O- or-
+Only reference the the old content.
+(PERSON16) Uh s- 
+Well.
+This is uh uh uh a progress report.
+So definitely not repeating any of that.
+It should be mainly a summary of uh or-
+Someone is deleting accidentally deleting the cells in the table, yeah.
+Uh so uh uh uh definitely we should list all the relevant papers, that we have there.
+Uh and these should be included in uh uh the appendix.
+And I know that [ORGANIZATION12] has some uh good work there.
+Uhm <other_yawn/> uh uh so that's uh definitely uh the thing there.
+And uh for tasks which do not have a paper yet, uh uh there should be uh p- a page of uh uh description of the news.
+And obviously referring back to the uh previous deliverable but not not copying it verbatim.
+(PERSON9) Mhm.
+So yeah.
+So for the [ORGANIZATION12] paper, I think the best is-
+Well, [PERSON26] could write it.
+But probably the best is to contact [PERSON19] about that.
+(PERSON16) Yeah.
+(PERSON9) Uhm.
+Yeah.
+Because [PERSON26] is also busy with the [PROJECT2] deliverable as well.
+(PERSON15) Okay.
+(PERSON9) Uhm.
+So.
+(PERSON16) And uh [ORGANIZATION3].
+Do you also have some multilingual uh MT experiments, uh or papers?
+Uh I forgot.
+(PERSON7) Uh yes we do.
+And I had already talked to [PERSON30] and he wanted to contribute.
+(PERSON16) Okay.
+(PERSON7) I'll I'll put a comment into the uh tables so that he has <unintelligible/>.
+(PERSON16) Yeah, okay.
+(PERSON15) Okay.
+(PERSON16) S- so-
+(PERSON7) But [PERSON30] [PERSON30] said uh so for this year essentially, it's mainly system building.
+(PERSON16) Yeah.
+That's well-
+Still it's work that should be reported, otherwise it's forgotten.
+So it's <laugh/>.
+Yeah.
+Yeah.
+Okay.
+Thank you.
+And maybe uh [ORGANIZATION6], do you also have yours uh systems, or or not?
+But these are probably not multilingual uh for machine translation?
+(PERSON13) Sorry?
+(PERSON16) Uh I was wondering whether you also have s- anything uh on the multilingual machine translation.
+Or or machine translation.
+If there is any-
+(PERSON13) N- uh-
+(PERSON16) You don't have to have-
+(PERSON13) Uh I I can ask.
+(PERSON16) Just ask around.
+In case there is there is some work.
+Uh so the point is that w- what we don't report uh s- the the reviewers will not now.
+So this is like a connecting of all the fruits that we already have.
+Uh <laugh/> so.
+(PERSON13) I I will ask to our uh research lab.
+(PERSON16) Yeah, okay.
+(PERSON13) Okay.
+(PERSON16) Thank you.
+Uhm, yeah.
+So that as- ESET deadline uh is the 6th of December.
+Uh and then it will go to the reviewers.
+Uh we have the reviewers kind of uh decided, right?
+Uh uh uh uh uh g- uh s- yeah.
+Yep, yeah, yes.
+So A and CC.
+Yeah, so that's-
+That's-
+(PERSON13) <laugh/>
+Yes.
+Uh the reviewer will probably be our researcher [PERSON5].
+(PERSON16) Mhm.
+(PERSON13) In any case put me in CC.
+Uh-
+<laugh/>
+(PERSON16) Yeah.
+Yeah.
+And and you agree to do the review of the uh data deliverable, right?
+[PERSON13]?
+Can I delete the question mark uh on the first row?
+(PERSON13) Uh last time this we discussed above the possibility to let me launch uh <unintelligible/>-
+(PERSON16) Oh, uh okay.
+(PERSON13) The 1 dot 5.
+He was uhm pretty uh-
+(PERSON16) Keen on doing that.
+(PERSON13) New.
+At the subject <laugh/>.
+(PERSON16) Yeah.
+(PERSON13) Uh but me too.
+<laugh/>
+(PERSON16) I'll ask him.
+I'll ask him.
+(PERSON13) But after he was uh <other_yawn/> uh-
+He-
+Mm it's not a problem for him to uh review it.
+Uh of course, uh it's more a matter of uhm syntax review and-
+(PERSON16) Mhm.
+(PERSON13) Uh meaning review.
+Okay.
+(PERSON16) Okay, great.
+So so we will see and we will update it according to-
+So once once [PERSON23] confirms.
+Uh yeah.
+And the milestones uh.
+Uh we have uh the improved ASR systems, that's okay.
+That's one uh tick uh off a box.
+And uh it's in progress.
+So I I asked last time, if uh you could uh t- uh also include all the other languages in the mediator so that we could uh use them.
+I hope that uh [PERSON26] has successfully defended.
+<laugh/>
+(PERSON7) Yeah, so we're not training.
+So there will be more and more as we as the training once finish.
+(PERSON16) Yeah.
+Yeah.
+(PERSON7) So-
+Uh uh I've- I mean I German is updated next.
+French is in the making.
+Italian will come soon.
+And then of course Czech.
+And Welsh as well, so.
+(PERSON16) Okay, so that's great.
+So you will also have Czech?
+That's that's uh good news.
+(PERSON7) Well, we have-
+We don't have it yet.
+So we-
+(PERSON16) Yeah.
+(PERSON7) We have the data that y- you- that could improve <unintelligible/> train something on that data.
+Plus the other available data that's out there, you know, common voice etc.
+(PERSON16) Yeah.
+I'm definitely very much curious about that, because that will be like uh uh s- uh comparison between those who know the language but not ASR.
+Uh and those who know the ASR but not the language.
+<laugh/>
+(PERSON7) We'll basically one cookie cutter uh uh you know the standard recipe on top of the data.
+And see what happens.
+(PERSON16) Yeah.
+Yeah, yeah.
+So uh but it it's quite possible that you're uh your cookie cutter will be better than ours.
+<laugh/>
+(PERSON7) In the end, it all depends on the amount of training data.
+But the training data that you provided is comparatively larger if I remember correctly, right?
+It's uh a couple two hundred, three hundred thousand, something like that, right?
+(PERSON16) Uh uh uh I remember four hundred, but-
+(PERSON7) Uh four hundred could even be more, yes.
+It was something that sounded like it could could work.
+And if we add common voice and other stuff that's out there, [ORGANIZATION2] etcetera. 
+Hope would be that it that it-
+(PERSON16) Yeah.
+(PERSON7) That it produces a good system.
+(PERSON16) Yeah.
+And you are training these other languages with the neural architecture.
+(PERSON7) Exactly.
+So from now on, we'll uh only train uh neural and <unintelligible/> systems.
+(PERSON16) Yeah, that that's great.
+Because we have Kaldi based uh system.
+And our neural systems are uh by [PERSON17].
+But they're not integrated in any way.
+They- we don't have the onlinization uh f- uh yeah.
+So.
+Uh if if uh w- we could work on this-
+Or if we could get some tools from you, uh think about it.
+It would it would help us.
+Uh uh a lot.
+Because we have uh other implementations.
+You have your own neural, fully neural uh implementation, I guess.
+Uh [PERSON17] is relying on just <unintelligible/>.
+(PERSON7) Yeah, so we have our own.
+Exactly.
+(PERSON16) Yeah.
+Yeah, so that would be great.
+If we could get it from you.
+Or well, we could uh stay also only in the experimentation area and not in the deployed systems uh area with our systems.
+(PERSON7) I mean.
+Uh.
+So depending on what level your system works, we could also try to integrate i
+(PERSON16) Yeah.
+Yeah.
+Yeah, that.
+Yeah.
+So I'll I'll talk to [PERSON17] and try to uh like uh uh get [PERSON17] in touch with [PERSON26], right?
+He's uh-
+[PERSON26] is here?
+(PERSON7) Yeah, [PERSON26]- and [PERSON26] can also t- k- bring in touch with another colleague, who can help maybe with integration.
+(PERSON16) Okay, yeah.
+(PERSON7) So they have a lot of uh experience when it comes to integration.
+So maybe there is something that uh can help.
+(PERSON16) Yeah, okay.
+Great.
+Thank you.
+Uh so that's uh uh it.
+And the improved uh spoken language translation prototype, uh.
+So uh uh f- uh well it's uh in the [ORGANIZATION12] workpackage.
+So that's why uh [ORGANIZATION12] is the main uh responsible there.
+Uh it's uh-
+I think it's it's for us to decide what we want there.
+(PERSON9) Uh.
+(PERSON16) So what do w-
+(PERSON9) It's it's absolutely for us.
+Yes.
+Uhm.
+I don't know what our plans are yet.
+There.
+Uhm I guess that means that we hm.
+Yeah.
+Uhm.
+Yeah.
+I have to talk a bit more with [PERSON26] about that.
+Uhm.
+<other_yawn/>
+But we should have, we should have some story about how we made the spoken language translation better.
+(PERSON16) Yeah.
+So the uh uh the last time when we discussed this, uh uh we said that the-
+(PERSON9) Yeah.
+(PERSON16) Main like background information uh behind this tick off a box will be the report from the [PROJECT2] test set and SLTF.
+(PERSON9) Yeah.
+(PERSON16) Evaluating the different versions of that.
+(PERSON9) Yeah.
+Okay.
+Yeah.
+(PERSON16) And uh.
+M- my colleagues are working on this, so.
+We can uh s- uh take the next week's opportunities, the two events.
+Uh and the preparation for those when we should have the numbers ready-
+(PERSON9) Yeah.
+(PERSON16) As the try run uh for uh for this.
+And then we will uh uh if we are not in time with all these systems uh uh for the next week's events.
+Yeah we can still add them in the coming weeks and we'll have like more complete table.
+But this, this table of of system versions and the evaluation of the individual components, as well as the whole pipeline, would be the the basis for our confident yes to this <unintelligible/>.
+(PERSON9) Okay, okay, yeah.
+Yeah, no uh i- i- it would be very good to see that.
+And then we can <other_yawn/>-
+Cause we-
+I don't- I haven't seen any kind of figures on the-
+(PERSON16) Yeah.
+(PERSON9) In in the evaluation of the pipeline in terms of the <unintelligible/>-
+(PERSON16) So well there are some figures uh uh in the uh uh in the uh August deliverable, the uh  test sets.
+Uh but that was mainly to show that we a- can in principle evaluate it.
+(PERSON9) Uh okay.
+(PERSON16) And it was the the table in that deliverable was obtained by uh uh [PERSON24].
+[PERSON24] is now on the call as well.
+Yep.
+And uh [PERSON24] is uh uh rejoining the the project.
+He has limited time uh for that.
+(PERSON9) Yeah.
+(PERSON16) I think it's ten hours per week, uh so not much.
+Uh but he should be uhm exactly uh uh like uh pushing to get this table updated.
+And and uh uh and uh [PERSON14] is now the main operator of the systems.
+(PERSON9) Mhm, mhm.
+(PERSON16) Uh and [PERSON24] would be the m- the main person putting the numbers together to a sensible table uh so.
+So if you have uh uh any questions uh uh then ask [PERSON24].
+And [PERSON24] will probably ask me, but <laugh/>.
+Yeah.
+So, yeah.
+So [PERSON24] should be the main person behind this uh the summary of the systems.
+(PERSON9) Mhm.
+(PERSON16) And since you are [PERSON24] starting already uh next week.
+Uh uh please be in touch.
+So also please fill the doodle poll uh that is uh l- listed uh uh uh there at at the top of this document.
+And uh even if you cannot make it to this tech- to these preparations, uh then uh please be in touch.
+And help [PERSON14] to uh to get the numbers so that we decide for the best systems for the next <unintelligible/>.
+(PERSON24) Okay.
+I will take a look at it.
+(PERSON16) Yeah.
+Okay.
+So that should that should work out within the months that uh with the month that we have.
+So that should be okay.
+Thank you.
+Uh so now we can probably-
+We have uh uh twenty minutes or or so.
+We can quickly go over the uh uh workpackages.
+Uh uhm I'm happy that you all have entered all the details.
+But I would like uh also you to present it now.
+So that everybody listens uh to that and and uh maybe there will be some uh new ideas for collaboration.
+Remember, we have to show collaboration.
+So uh uh th- the more we find, the better.
+<laugh/>
+Yeah.
+So [PERSON26], probably?
+Can you <unintelligible/>-
+(PERSON1) Uhm.
+Sure.
+So yeah.
+I've been continuing to work with the uh uh data set from the <unintelligible/>.
+From the European uhm court of auditors.
+And so this is English into the other twenty three [ORGANIZATION1] languages.
+Uhm, I've been uh evaluating a f- like fine tuned system.
+Uh using the [PROJECT2] uh test set.
+And finding that uhm this yeah.
+In domain auditing data actually doesn't seem to be helping.
+Uhm, so not sure what's going there. 
+Like s-
+The uh looking at the data and it seems mostly good.
+It's a little bit noisy.
+Uhm so yeah.
+I've been doing some uh like language identification type processing to yeah.
+Clear out uhm sentence pairs, that seem to be maybe in the wrong language.
+And I'm cleaning up some formatting issues.
+And throwing out some strange short sentences.
+And yeah.
+Making gradual incremental improvements on that.
+Uhm, I I was meaning to ask actually, [PERSON16].
+Uhm I shared the the English Czech version with I th- I think it was [PERSON6].
+Uhm a while ago at [ORGANIZATION10].
+I don't know if you uh heard anything about the evaluation of that?
+(PERSON16) Uh-
+(PERSON1) No? 
+(PERSON16) N- n- no.
+(PERSON1) No, okay. 
+(PERSON16) So maybe maybe do that again.
+Because [PERSON6] has been the substitute for [PERSON24] for a while.
+(PERSON1) Yeah.
+(PERSON16) But he was also busy with other things.
+So uhm uh, so please send it again.
+(PERSON1) Okay.
+(PERSON16) Also to [PERSON24].
+Uh I I had-
+I talked to [PERSON6] uh yesterday.
+So uh i- uh he just didn't mention that, so <laugh/>.
+(PERSON1) Okay, yeah.
+It was a while ago.
+Ago now, <unintelligible/> if anything came out of the evaluation from that.
+So okay, I'll I'll follow up with him.
+(PERSON16) Yeah.
+Uh and uh the uh the result that it's not showing any improvement.
+Uh I think that we should really look deeper into that.
+(PERSON1) Yeah.
+(PERSON16) Uh t- [PROJECT2] test set is is quite uh like broad and messy in some way.
+So uh uh I would be curious to see if some uh of the uh documents uh show the improvement.
+So it's possible that you do not see any improvement on the whole.
+Uh it's possible that you see the improvement only on the text uh style uh of documents.
+Uh so [PERSON6] has been collecting uh those uh uh f- for a number of uh languages.
+And more are still in the pipeline.
+And uh there are also the presentations from the previous meetings.
+Those that were used in the IWSLT non native tasks.
+The the my ball and and so on.
+And this is spoken domain in in the auditing-
+(PERSON1) Ah okay.
+Okay.
+I don't think I <unintelligible/> knows, yeah.
+(PERSON16) Yeah, so there is uh ther- uh-
+So please get in touch with D- [PERSON24] and also w- well [PERSON14].
+Uh uh uh and [PERSON1] uh and and [PERSON6]-
+(PERSON1) Sure.
+(PERSON16) And all of those and put together uh like uh both a detailed evaluation for the individual documents.
+And a summary evaluation over the domains.
+So this is something that uh [PERSON24] has the uh the best uh but a little outdated overview of.
+(PERSON1) Okay.
+(PERSON16) Uh and [PERSON6] has been slightly updating it.
+Uh but only with individual uh uh contributions.
+Yeah?
+[PERSON1], your your microphone is is lifted.
+So you're too quiet.
+(PERSON1) That, aha. 
+(PERSON16) Yep.
+<laugh/>
+(PERSON1) Uh is it okay now?
+(PERSON16) Yep.
+(PERSON1) Sorry.
+<laugh/>
+Uh just uh about this evaluation.
+Maybe if y- i-
+Because uh i uh yes, I uh maybe we should talk mm ten or fifteen minutes.
+After this call.
+And we can you know conclude about the timing.
+And when uh-
+For example this evaluation of the uh this system should be ready.
+If you want them for example uh fast, uh maybe we can talk and uh create one uh timetable for it.
+(PERSON16) Yeah, that's a good suggestion.
+I'm attending uh uh call from 11.
+So I'll leave this call and mal- I'll make a-
+(PERSON1) Yeah, hi.
+Uh-
+(PERSON16) Yeah, you are-
+(PERSON1) I also-
+I also have a meeting directly after.
+We ca- we can arrange something for another time.
+(PERSON16) Yeah.
+(PERSON1) Okay.
+(PERSON16) Or maybe we'll be f- fast enough and the nine minutes will be will be sufficient.
+<laugh/>
+(PERSON1) <laugh/>
+Maybe.
+(PERSON16) Okay, thank you.
+Uh so uh now [PERSON15].
+Uh uh a brief summary of uh uh the uh-
+(PERSON15) Yeah, so.
+So we had a paper at [PROJECT3] about document level evaluation.
+And about [ORGANIZATION12] and [ORGANIZATION3].
+I don't know the details.
+So if som- if [PERSON26] or [PERSON7] can s- can say a few words.
+(PERSON7) Again, on what?
+On the uh-
+(PERSON15) Yes, about the new content that [PERSON30] writes us.
+(PERSON7) Uh so-
+The new c-
+That [PERSON30] writes us?
+I I for for the multingual, yes?
+So uh-
+(PERSON15) Yes.
+(PERSON7) Uh [PERSON30] has been uh-
+Well he did his PhD on multilingual ASR.
+And he has ever since then been training different types of multilingual ASR systems.
+And so lately, he has trained different types of uh ASR multilingual ASR systems, that can do 5 by 5 or 10 by 10 languages.
+And has experimented with different language mixtures.
+And uh etcetera.
+So he should be able to describe what he did and provide uh evaluation with that.
+(PERSON15) Okay.
+And is it about translation, or more ASR?
+(PERSON7) No, it's about translation.
+(PERSON15) Okay.
+(PERSON7) So multilingual MT.
+(PERSON15) Yeah, thanks.
+(PERSON16) Yes.
+(PERSON15) And in [ORGANIZATION12], [PERSON26]?
+(PERSON9) I'm sorry.
+I'm not sure, are you referring to the test week's paper, [PERSON15]? 
+(PERSON15) Uh anything newer relevant to machine translation.
+(PERSON16) Oh, okay.
+Yeah.
+So uh well.
+Uh uh, when I said [PERSON15], I uh already uh uh-
+[PERSON15] jumped to workpackage 4.
+(PERSON15) Yeah.
+(PERSON16) Uh uh.
+And I was uh thinking that you would tell us uh briefly tell us about the ongoing [ORGANIZATION2] and preliminary session.
+(PERSON15) Uh, sorry.
+(PERSON16) That's actually-
+Oh sorry, that's because we have uh yes-
+The [ORGANIZATION2] sessions are used for many things.
+So I know that you are working on the int- interpretation corpus.
+And this is actually minuting.
+So this is rather the the minuting people.
+So yeah.
+(PERSON9) Yeah, but do we-
+What do we get from the [ORGANIZATION2]?
+I mean, can we get simultaneous- the speaker and the interpreter?
+Can we get the s-
+(PERSON16) This is what [PERSON15] is collecting.
+(PERSON15) Yes.
+(PERSON9) That's what [PERSON15]'s collecting. 
+And uh transcripts, do we have transcripts to any of them?
+(PERSON15) Hm.
+Uh we we are getting manual transcripts for ten hours of Czech and German.
+Right now.
+I- it's running.
+The transcription.
+(PERSON9) Aah. 
+(PERSON16) So with people-
+(PERSON9) Okay.
+Okay.
+(PERSON15) So only defen test set.
+(PERSON9) Yeah, yeah, yeah.
+But still.
+I mean still that's useful.
+So that's gonna be like the-
+<other_yawn/>
+The original speakers speaking um and the simultaneous and it's a simultaneous interpretation?
+(PERSON15) Yes.
+(PERSON16) Yeah.
+(PERSON9) Yes, okay.
+Okay.
+Czech, German.
+Okay.
+Alright.
+(PERSON16) Yeah, so that was uh-
+He-
+You've heard the updates.
+So that is actually another d- uh uh <unintelligible/> item.
+Uh s- uh [PERSON15] uh uh s-
+(PERSON9) And uh uh-
+And does the [ORGANIZATION2]- does it come with any transcripts?
+Or is it just um-
+The the stranscripts are very-
+They're not verbatim transcripts, is that right?
+Or are they-
+(PERSON15) Yes.
+Yes, they're transcripts of the force.
+And they are updated uh mo- most of the time they-
+Uh they match what was said.
+But tha- something is- sometimes, it changes.
+And we-
+We are interested only in the speeches of the members of [ORGANIZATION2].
+Not not f- not of the President, because he's not written.
+Uh where bostly most of the time.
+It's live. 
+(PERSON9) Yeah.
+(PERSON16) Yeah.
+(PERSON9) So there is some-
+The the some existing verbatim transcripts of-
+(PERSON15) No, I don't choose them.
+I don't have access to them.
+(PERSON9) Okay.
+Okay.
+Alright.
+Well that probably means we don't we don't have them then.
+(PERSON15) Yeah.
+(PERSON9) Because essentially all the data is public, isn't it?
+(PERSON15) Yeah.
+But there is also [ORGANIZATION2]-ST corpus from someone-
+(PERSON9) Mhm.
+(PERSON15) From Valencia.
+(PERSON9) Yeah.
+(PERSON15) And they use it for speech translation.
+For speech to text.
+So we don't overlap them.
+But we aim to extend them.
+By interpretation.
+(PERSON9) Okay.
+Kay, good.
+But the-
+The Valencia corpus from what I remember, it was not that big.
+I mean it thought it was smaller than the <unintelligible/> corpus.
+(PERSON15) Uhm, yes.
+(PERSON15) Because they they used only the part which was translated 2008 to 11.
+Uh.
+(PERSON9) Okay.
+(PERSON16) Yeah.
+Okay.
+(PERSON9) Okay.
+(PERSON16) So that's these speech corpora.
+And the minuting corpus is also i- in progress, right?
+I guess [PERSON10] knows the details?
+I don't know if he's?
+(PERSON10) Yes.
+(PERSON16) Yep, yeah, oh there you are the first-
+(PERSON10) Yes.
+(PERSON16) Sorry.
+<laugh/>
+(PERSON10) Ah.
+(PERSON16) Yep.
+(PERSON10) So the minuting corpus is uh like one review reviewer <unintelligible/>
+The different base in the [ORGANIZATION2] data.
+So now uh there's some uh there is some minutes and the transcripts for which uh that are very noisy.
+As well as uhm that doesn't make that much sense in terms of minuting.
+So we are on the way to eliminate those.
+And currently, we have almost a more than nine thousand segments of uhm meeting meeting and minutes aligned data.
+But uh I I think after pre-processing it will get reduced.
+(PERSON16) Yeah, okay.
+(PERSON10) So.
+Uh uh I hope by the uh by like by early December the data sets should be ready for minuting.
+(PERSON16) So that would also fit nicely to the deliverable on the data. 
+(PERSON10) Yes.
+(PERSON16) Yeah.
+Okay, great.
+(PERSON4) Uh and <unintelligible/> a little bit-
+We have just begun to align uh co- uh mi- minutes to transcripts. 
+And and we are working a lot with uh alignment too.
+Uh so we really preparing new data set uh with al- aligned data sets.
+So we're really hard, working hard on alignment now. 
+(PERSON16) Great, thank you.
+So for the ASR uh we have heard uh already from [ORGANIZATION3].
+They're returning all the systems, that's good.
+Yeah.
+Found more data.
+Okay.
+That's another uh piece of news.
+Uh.
+Yeah.
+(PERSON7) Yeah, so it's-
+It's nothing uh special.
+But we found uh-
+I mean we are now working with common voice and [ORGANIZATION9].
+And there's also a Librispeech German corpus. 
+That we're now going to put in there as well.
+(PERSON16) Yeah.
+Okay.
+Uh so that's great.
+So for SLT, uhm.
+Uh is [PERSON9] uh to summarize?
+(PERSON9) Yeah.
+(PERSON16) Yep.
+Okay.
+(PERSON9) Uhm yes.
+So we're really just uh-
+So so <unintelligible/> is really just not <unintelligible/> a long starter.
+And there's sort of just trying to see where we are in SLT.
+And what we're interested is is trying to do simultaneous and end-to-end SLT.
+But this is kind of well-
+It's slightly ambitious of a moment where-
+Partly, we're just investigating what tokens are right there.
+What is actually implemented.
+And he has been running some experiments, at least there is some some code.
+That actually started to come out with some of the existing approaches implemented.
+There's some code from [ORGANIZATION5] Asia.
+And he's been running running experiments to wait <unintelligible/> unobserving.
+But it does not-
+Well.
+For obvious reasons, it it is quite problematic with verb final languages.
+Uhm so.
+Thinking about how we could you know wh- what we can do about that.
+Whether you have to <other_yawn/> uhm.
+Yeah.
+Well they have to try to make some prediction.
+Or you know, you're going in the other direction, you may want, you may have to, you know.
+You're going into a free word or a language.
+Sometimes you just have to make a bad decision and reorder things a bit.
+Uhm.
+<other_yawn/>
+That's why I was asking about the intepretation <unintelligible/>.
+Cause we're still sort of curious as as to what human interpreters do.
+(PERSON16) Yeah.
+(PERSON9) Um it's gonna be-
+(PERSON16) So-
+(PERSON9) Czech and Czech and German.
+We might struggle with that.
+But uhm.
+(PERSON16) Yeah.
+So when when I send the link to the uh uh SLT tutorial <unintelligible/>-
+(PERSON9) Yeah.
+(PERSON16) <unintelligible/> Have responded with the meaningful units.
+And this is exactly the idea that I had except w- obviously they were <laugh/>
+(PERSON9) Yeah.
+(PERSON16) <unintelligible/>
+<laugh/>
+(PERSON9) We-
+We we- we were talking about that as well.
+Or something like that.
+But it it it's-
+You know, the papers.
+The paper's not the last word I think on meaningful units, you know, so-
+(PERSON16) Yeah, so-
+Uh yeah so.
+I've I've already forwarded like uh uh before actually sending the notification about this tutorial.
+I sent another notification to [PERSON15] about these meaningful units.
+And uhm.
+(PERSON9) Yeah.
+(PERSON16) I hope that we should be able to actually see the meaningful units from the interpreters' data.
+(PERSON9) Yes.
+(PERSON16) And maybe-
+Make already uh-
+Has some statistics on that, I'm I'm not sure.
+(PERSON9) Yeah.
+But th- th- th- uh there's lot of questions about how you actually make this prediction model.
+Cause you know, you got to predict what these meaningful units are.
+Uhm.
+Uh and it's not really clear from the paper how good a job they did.
+(PERSON16) Yeah.
+(PERSON9) As a set, they only tested-
+They didn't test on any kind of.
+Unless what-
+Uh-
+The <unintelligible/> has a really nice work.
+But it's stuff they publish is never on what you assume they're actually running the system on.
+Cause it's always <unintelligible/> publish in like [PROJECT3] 2014.
+(PERSON16) Mhm.
+(PERSON9) Newstask in like while that's like that's not a speech corpus.
+That's.
+(PERSON16) Yeah.
+(PERSON9) That's all very much written text.
+So.
+Yeah.
+So uh uh I don't know.
+And uh nothing is ever released, which is quite frustrating.
+(PERSON16) Mhm.
+(PERSON9) Cause is-
+I I watched have watched by just over a half of the tutorial.
+And it's by <unintelligible/> and [ORGANIZATION7].
+(PERSON16) Yeah.
+(PERSON9) And they're telling is.
+But I mean it it's really, it's actually very nice.
+Especially <unintelligible/>, who's very clear.
+Uhm.
+And it's really good explanation of all these different papers, but.
+Almost none of them are available.
+Uhm.
+(PERSON16) The papers? 
+Uh wh-
+(PERSON9) A- as in the code, the implementations.
+(PERSON16) The code, the implementations.
+Yes.
+(PERSON9) Yes.
+(PERSON16) Yeah.
+(PERSON9) Th- th- by <unintelligible/> and [ORGANIZATION7] stuff is not available.
+Facebook have start publishing som- some stuff.
+(PERSON16) Mhm.
+(PERSON9) Which is we should take a look at.
+Uhm-
+(PERSON16) Yeah.
+(PERSON9) <other_yawn/>
+And as I said, we don't have anything in [PROJECT4].
+Which is-
+(PERSON16) Yeah.
+(PERSON9) Which is uhm-
+(PERSON16) Bad.
+(PERSON9) Problematic in terms of our kind of-
+Well, if we want to actually to d- test stuff in deployment.
+(PERSON16) Yeah.
+(PERSON9) I mean we can we can deploy with <unintelligible/> but it's going to be a bit slower, I suppose.
+(PERSON16) Yeah, it's uh uh it would be much better to have with [PROJECT4]- uh in [PROJECT4].
+(PERSON9) Yeah.
+(PERSON16) So do we have anyone uh on the team who could uh uh do these changes in [PROJECT4], so?
+(PERSON9) Well, yeah.
+There's nobody-
+The [PROJECT4] team here are just folks on things like efficiency.
+(PERSON16) Mhm.
+(PERSON9) So I I don't have a com- corrupt anyone to doing.
+I di- I talked to [PERSON22] about it a while ago.
+And he hinted that [ORGANIZATION5] were doing something in SLT.
+But haven't seen anything.
+And maybe I've got that wrong.
+Maybe they're just not doing it.
+(PERSON16) Mhm.
+(PERSON9) Uhm.
+<other_yawn/>
+So yeah.
+I I need to look at it again.
+I mean he did seem t- to suggest that you you know to-
+To implement the decoding of some of <unintelligible/>, then you would probably need to do the G2, GPU programming.
+(PERSON16) Mhm.
+(PERSON9) Cause everything.
+You know w-
+The translation is very much done.
+And the GPU in in [PROJECT4].
+(PERSON16) Yeah.
+(PERSON9) So that's kinda makes it <unintelligible/> specialist.
+(PERSON16) Yeah.
+(PERSON9) <laugh/>
+Uhm.
+Uh so.
+(PERSON16) So.
+Wh- wh-
+(PERSON9) At the moment there's no prospect.
+The the-
+(PERSON16) Mhm.
+(PERSON9) It doesn't look good at the moment.
+But possibly.
+I mean we'll keep going here.
+I think we can probably add somebody extra to the team here, so.
+(PERSON16) Yeah.
+(PERSON9) Possibly.
+(PERSON16) Yeah, w- we should also try uh t- uh like keep searching uh uh.
+So thi- if anybody is very fluent in C and and <laugh/> in in CUDA, then yeah.
+<laugh/>
+(PERSON9) Uh uh-
+Yeah.
+It mine-
+It might not involve that much CUDA.
+Y- I I'm not really sure.
+I think we just need to uhm-
+(PERSON16) Yeah.
+Yeah, so possibly some students of [PERSON1] could uh could emerge.
+That's just my random thought.
+But I'm not sure.
+(PERSON9) Yeah.
+Yeah, yeah, yeah, yeah.
+(PERSON16) Uh-
+(PERSON9) I mean I have a slight hope that I might be able to convince [PERSON27] to do something with it.
+But it's w-
+(PERSON16) Mhm.
+(PERSON9) He's working on <unintelligible/> at the moment.
+So I'm not sure.
+(PERSON16) Uh yep, yeah, yeah.
+(PERSON9) So.
+I have to <laugh/>.
+He's fond he's fond <unintelligible/> grants, so at the moment-
+(PERSON16) Yeah, so yeah so that's-
+(PERSON9) It's not really gonna work.
+(PERSON16) Yeah, so that's not going to work. 
+<laugh/>
+(PERSON9) <laugh/>
+But w- we'll keep an eye on that anyway.
+(PERSON16) Mhm.
+(PERSON9) Uhm.
+<other_yawn/>
+So.
+Yeah.
+(PERSON16) Yeah, so that's uh uh it's good that we discussed this.
+Uh and we'll see what what we can do about it.
+(PERSON9) Yeah.
+And sorry-
+I was wondering at the moment in the in the production pipeline.
+We're essentially-
+I mean some versions I've seen have had quite high latency, because we were just waiting for the ASR to stabilize.
+(PERSON16) Mhm.
+(PERSON9) Is that right?
+Uhm.
+Before-
+(PERSON16) It uh <other_yawn/>
+(PERSON9) It depends which version-
+(PERSON16) It depends on-
+It depends what what you have seen exactly.
+If you're uh have uh looked at the subtitles in the subtitle view.
+Uh then we set the flicker to to zero.
+So that it's legible.
+(PERSON9) Yeah.
+Yeah.
+(PERSON16) In the paragraph view, uh we always present everything.
+(PERSON9) That's true actually, yeah.
+(PERSON16) So so there uh the latency is not that bad.
+But uh you have to have more space.
+So we're actually running-
+(PERSON9) Yes.
+(PERSON16) A study on uh on how much space in practice you uh you need uh.
+So that study is is in preparation.
+And hopefully-
+(PERSON9) I saw that, yeah.
+(PERSON16) Like next week we'll start uh giving this to people uh to to watch videos with subtitles.
+Uh of uh varying space uh.
+And uh checking uh uh how much content they get uh in the various set ups.
+So hopefully we will have a user study uh uh.
+(PERSON9) Yeah.
+And we're running a re-translation, is that right?
+(PERSON16) Uh uh uh b- uh uh uh yes.
+That's the the systems that we have.
+So it's-
+(PERSON9) Of course, re-translation, yes yes.
+(PERSON16) Yep.
+(PERSON9) Okay.
+So how do-
+How do then do we manage the flicker?
+(PERSON16) So uh uh w- we're increasing the latency with these uh subtitle uh.
+The tools that I implemented where you simply hide the segments which are not yet completed.
+Uh or you keep them in.
+But then you have the-
+(PERSON9) Mhm.
+(PERSON16) Uh the words jumping.
+(PERSON9) Okay.
+So it's like a mask A type approach.
+Like you mask-
+Y- you know-
+The the transl-
+(PERSON16) Y- y- y- yo- m-
+You mask sentences.
+You mask full sentences.
+Uh uhm.
+Yeah.
+(PERSON9) So the translations system sends them out.
+But then you don't- you just don't show it. 
+(PERSON16) Yes.
+(PERSON9) Right.
+Right.
+(PERSON15) Yes. 
+And we have also an option to mask k last words.
+But we don't choose it.
+I- in this study, we have mask zero.
+(PERSON9) Okay. 
+So I believe you're gonna mask-
+You mask sentences.
+(PERSON16) Uh uh.
+S- well w- we call it flicker, which is either showing uh only the completed sentences.
+Or the uh sentences which are still uh which can still change, because the segmentation of them can change.
+Uh or uhm we can also show the very last one of these.
+Which is still getting words.
+(PERSON9) Yeah.
+(PERSON16) So it's like three levels.
+Uh of of the flicker.
+(PERSON9) Yeah.
+(PERSON16) And uhm we're going to explore this uh.
+But uh essentially already the uh previous to the conclusion was that uh with the limited space uh it's uh uh uh better to have uh just the f- completed seg- sentences that cannot change.
+(PERSON9) Yeah.
+(PERSON16) And we are not masking any words uh.
+But uh as as [PERSON15] says, we we have the option to hide some words.
+If the uh empty output was stable to some extent.
+But it's not.
+At the moment, w- i- we have no stability component in in the MT systems at all.
+So there is no really no benefit to be expected from uh this uh weight K. 
+Or z- z- they uh mask masking of K.
+(PERSON9) Yeah.
+(PERSON16) Words.
+(PERSON9) Yeah.
+Uhm.
+I mean it it's interesting that the-
+In the <unintelligible/> work, they never rea-
+Well.
+I think there's maybe one paper where they use some kind of.
+They never really used it.
+With re-translation, there is one paper where they have something where you can delete.
+And uhm and update.
+But mostly they use weight K.
+And then adapt <unintelligible/> and so on, various ways of adapting.
+(PERSON16) Yeah.
+(PERSON9) They're essentially monotonic as in the re-translating.
+(PERSON16) Yeah.
+(PERSON9) You never go back the way.
+Uhm I don't know if that's.
+Again, it's it's sort of unclear what they're doing in the real systems, so is that-
+(PERSON16) Yeah.
+(PERSON9) Because of- because of uhm-
+(PERSON16) So this is this is-
+(PERSON9) Observation from the real system.
+(PERSON16) The room for our papers.
+We we-
+(PERSON9) Yeah.
+(PERSON16) This is this is where we what we should publish in our papers.
+<laugh/>
+(PERSON9) Yeah.
+This this kind of-
+Well.
+We definitely have a lot of observational uhm.
+You know.
+This this this sort of demo stuff.
+Yeah, yeah, yeah.
+Yeah.
+(PERSON16) Yeah.
+Okay. 
+Uhm so-
+(PERSON9) Okay-
+Cause-
+Sorry.
+<unintelligible/>
+(PERSON16) Yeah.
+Thank you.
+So we have uh just two more minutes.
+Uh so on machine translation uhm.
+<other_yawn/>
+Yeah.
+Uh so yeah.
+Uh [PERSON15] has already solicited new information from uh from you.
+So please fill in these details.
+Uh.
+Uh.
+Uh I don't know uh is there [PERSON15], is there anything we need to say for uh the uh MT workpackage?
+(PERSON15) I don't think so.
+(PERSON16) Yeah, okay.
+So let's move on to uh the minuting.
+Uh the data is i- in preparation.
+The manual evaluation has been tested to some extent.
+The automatic evaluation is probably being implemented by uh [PERSON21].
+So that we have many options in place, right?
+[PERSON21]?
+Can you?
+(PERSON21) Yes.
+Yes, yeah. 
+(PERSON16) Yeah.
+And uh we are uh working on uh s- uh uh.
+Yeah, the wha- uh the line. 
+And novel meeting minute uh alignment metric for coverage is in progress.
+So here the idea is that human annotators would be matching the transcript lines with the items in the summary.
+With the alignment.
+And then based on this alignment, uh we would c- automatically calculate a score uh that would say how much uh of uh of the transcript was covered by the the summary. 
+Uh so this is uh the the similarity to agement is uh uh to the if if you remember agement.
+There were uh the uh s- semantic roles uh uh labeled in the c- candidate translation and in the hypothesis.
+And they were aligned uh manually.
+And then there r- uh was uh the estab- uh a number showing like how much uh the alignment is good.
+And what is the coverage.
+So that's the inspiration.
+Uhm.
+Uh so we have the alignment between the elements and then the automatic calculation.
+So this is this the progress.
+Then [PERSON21] is also working on uhm m- uh survey for this.
+And uh so have we submitted uh the uh share task proposal deadline on December?
+Yeah?
+So we should in a few days we should submit the proposal for uh the share task.
+Uh on automatic summarization of meetings.
+Right?
+So [PERSON10] uh [PERSON10] is on top of this.
+Uh.
+Yeah.
+Y- uh we have already discussed this.
+So you are well invited to uh to take part uh uh as participants.
+Or help with the organization.
+<other_yawn/>
+Uh.
+Yeah.
+Uh I really d- would like to uh leave now.
+So the for integration, [PERSON13].
+Is there anything very important?
+(PERSON13) No.
+Uh-
+(PERSON16) Okay.
+<laugh/>
+(PERSON13) We recent-
+About the possibility on the how to manage versioning among components.
+Uh mainly thanks to uh [PERSON14] and [PERSON25].
+Of course.
+Uhm which always supports us. 
+Uh at the moment we decided to postpone this discussion after the next two events.
+(PERSON16) Yeah.
+(PERSON13) Uh.
+And I I have also two other uh notes.
+Uh unfortunately, for [ORGANIZATION6], this is a really really busy period.
+(PERSON16) Mhm.
+(PERSON13) Uh until probably the end of uh January.
+Uhm.
+So we will of course support you.
+Uh uh <laugh/> always.
+And as we can.
+Uh but please consider this also.
+We probably will n- we will not be uh so present during the next uh technical uh meetings.
+Sorry.
+(PERSON16) Yeah.
+Okay. 
+Uh I just wanted to mention that [PERSON6] uh is working <cough/> uhm.
+On the packaging uh of uh that.
+So all the various components when they become interesting.
+Uh he would also like to uh have them uh uh dockerable in in an easy way.
+So that the experimentation development uh proceeds as we normally do here.
+Distribute it.
+But when we like it we can uh simply put it into on one machine.
+And and have it uh deployed somewhere for a particular purpose.
+So uh [PERSON6] is the main person on on this.
+(PERSON13) Cool.
+So the mediator uh as far as I know is also ready for the acquisition.
+(PERSON16) Okay.
+Yeah, that's good.
+That's great to know.
+So, yeah.
+<other_yawn/>
+Uh yeah.
+On dissemination, uh.
+[ORGANIZATION4], is there any update? 
+So [PERSON12].
+(PERSON29) Hey.
+(PERSON16) Yeah, or [PERSON29].
+(PERSON29) W-
+Hi.
+Um yes.
+There are um a few things to mention.
+First, um we're planning the new <other_yawn/> uh talks and speeches for next year.
+Which will be likely online over time.
+Uhm one thing is uh that-
+(PERSON16) Uhm-
+<laugh/>
+You disappeared.
+(PERSON29) Hello?
+(PERSON16) Yeah, you disappeared for a second.
+(PERSON29) Yeah, yeah.
+Okay.
+<laugh/>
+Um [PERSON16] maybe we can talk because um some of these talks um k- kind of private talks.
+The uhm-
+(PERSON16) Mhm.
+(PERSON29) Custom basis, as you know.
+As we already mentioned.
+So maybe we can talk again for the how we how we deal this.
+Uhm.
+We are also planning public talks.
+But uhm I didn't-
+And so now I did- didn't get the report form the department of <unintelligible/>.
+(PERSON16) Mhm.
+(PERSON29) Uhm.
+The other point is that I guess [PERSON12] and [PERSON13] on this report on uh technical <unintelligible/>-
+(PERSON16) Yeah.
+(PERSON29) Will really talk about this.
+And uhm yeah.
+That's so far uh let's see the things about dissemination.
+(PERSON16) Yeah.
+(PERSON29) One thing uh again we also wanted to talk to our CEO again, if you remember.
+(PERSON16) Mhm.
+Yeah.
+I do.
+(PERSON29) Uhm maybe we can we can talk on the text couple of days this topic.
+(PERSON16) Yes, please.
+Uh t- uh like uh propose some slots and let's find some slots and let's let's continue the discussion.
+That this very important.
+(PERSON29) Okay.
+(PERSON16) And for these private talks.
+The dissemination talks.
+I- it just occurred to me that actually, you should be asking us to include demos to yours talk.
+So whenever you have some customer who could uh like uh like it.
+Y- y- you are doing some demos with the [ORGANIZATION7] technology.
+But uh uh it would be better if you also had demos with uh with us.
+(PERSON29) Yes.
+(PERSON16) So t- uh like we have-
+(PERSON29) That's exactly the point we wanted to discuss with you.
+(PERSON16) Yeah.
+(PERSON29) The last time when we t- when we met with [PERSON20].
+(PERSON16) Yeah.
+(PERSON29) Uhm we had this uh decision that uh you can provide <unintelligible/> instance ab- ab- abo- about uhm-
+(PERSON16) Yeah.
+(PERSON29) Or no.
+S- so maybe we should talk on this <unintelligible/>-
+(PERSON16) Yeah.
+So so this would not happen in the next uh uh until the end of the year.
+Uh but we should plan that-
+(PERSON29) That's no problem problem-
+(PERSON16) But we should-
+(PERSON29) That's that's no problem-
+(PERSON16) We should plan that.
+And the whenever we have our systems dockerized.
+It would be easy uh for you to uh to uh like run it also indepenently.
+But even before that, uh we do these demo sessions every Monday for ourselves.
+So-
+(PERSON29) Mhm.
+(PERSON16) We could do such uh demo session for uh for your talks as well.
+(PERSON29) Mhm, okay.
+That's good.
+So let's let's talk.
+And um we will send you couple of free slots.
+(PERSON16) Yeah.
+(PERSON29) For the upcoming days.
+(PERSON16) Yeah, okay.
+Thank you.
+(PERSON29) Okay, great.
+Thank you.
+(PERSON16) And ethics uh if [PERSON4] is here uh just a few- s- uh uh very short summary.
+And then uh.
+(PERSON4) Uh well.
+Very short summary is that we still don't have the consents.
+(PERSON16) Yeah.
+(PERSON4) Uh uh so.
+It's actually should be somehow discu- discussed with [PERSON18].
+Uh maybe l- live and online.
+(PERSON16) Yeah.
+(PERSON4) And uh.
+So it's kind of-
+(PERSON16) So-
+(PERSON4) <unintelligible/> task that is not solved.
+(PERSON16) Yeah.
+So so-
+(PERSON4) But definitely not solved at all.
+(PERSON16) Yeah.
+Yeah.
+So we are we're to recollect the consents-
+(PERSON4) Yes.
+(PERSON16) But the form is not yet ready.
+Because when we do it we uh we already want to do it r- correctly.
+<laugh/>
+And not as uh uh not n- n- w- to remove all the bugs that we had in the previous forms.
+Okay.
+So that's it from me.
+Thank you very much.
+I'll now make [PERSON1] uh the uh organiser uh and sh- 
+Uh uh maybe t- the technical people stays till uh uh around with [PERSON1].
+And didn't finish it whenever you like.
+Okay.
+Thank you.
+Buh-bye.
+(PERSON10) Thank you, bye.
+(PERSON1) Bye.
+(PERSON13) Bye guys.
+Sorry, I have to leave also, becau-

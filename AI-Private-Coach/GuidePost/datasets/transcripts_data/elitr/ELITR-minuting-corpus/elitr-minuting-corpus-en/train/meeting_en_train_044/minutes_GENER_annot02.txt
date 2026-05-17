@@ -1,0 +1,72 @@
+
+Date: 2019/04/01
+Attendees: [PERSON11], [PERSON4], [PERSON12], [PERSON6], [PERSON2], [PERSON1], [PERSON13]
+Purpose of meeting: Technical prepare for [ORGANIZATION8] congress
+
+Agenda:
+- Start recording.
+- Date for [PROJECT1] call.
+- Collecting photos and videos from Trade Fair.
+- Confirmation of proposed scheme of wiring for [ORGANIZATION8] Congress.
+- Digital interface to audio mix pult.
+- Microphones.
+- Get a contact for someone from [ORGANIZATION4], who will handle the presentation platform.
+- Will [ORGANIZATION4] also try get their ASR.
+- When will the python version of [ORGANIZATION4] platform sample connector.
+
+
+Summary of meeting:
+
+[PERSON12], [PERSON6]:
+- After reminder missing vote for [PROJECT1] call date was chosen the April 16th.
+
+[PERSON12], [PERSON6]:
+- Ask for photos from the trade fair. Will be sent to e-mail immediately.
+
+[PERSON12], [PERSON6], [PERSON2]:
+- It is needed to specify the settings for workshop in June and [ORGANIZATION8] congress.
+The hardware will provide outside company.
+It is supposed to translating and transcribing the main session.
+There will be rented tablets and is supposed that everyone will have their cell phones.
+It is needed to connect the microphones to the mean audio mixer and then to have digital output to the booth for listening and ASR.
+Any of the separate notebooks after the ASR can provide input to the multilingual translation system.
+Proposal that every input language has uhm have to have its own ehm session with the mediator, this will be implemented by [PERSON4].
+It is needed original sound from the microphones as possible from booth main microphone of the plenary session, ideally the digital signal captured at microphone.
+Languages: English, German, Czech, French, Italian, Spanish, Russian.
+There is experience only with Dante, but it is very expensive and doesn't simplify setting.
+It is needed one PC for each language, one PC per input channel.
+It is recomended to keep audio data and network traffic separated.
+Will be demand one direct microphone output from the main microphone.
+And one direct microphone output from each of the booths and for these booth microphones we demand that only the predefined languages is spoken at that channel.
+Proposal to say get booth analog output as a call back and digital interface scholar choice.
+[ORGANIZATION4] will let know what digital audio should be specify in the documentation until Tuesday.
+
+[PERSON12], [PERSON2], [PERSON6]:
+- It is needed to demand also Microphones.
+Ask for definition all the individual microphones that the speakers will use.
+After discussion they agreed that there will be preferred wired microphone for main stage.
+Until Tuesday [PERSON6] will provide specification for main stage wired microphones and interpreters booths large microphones and also for wireless.
+
+[PERSON12], [PERSON6], [PERSON2]:
+- Presentation platform will have to be different for the workshop in June and for the [ORGANIZATION8] congress, because the setting is different.
+Explain idea.
+[PERSON4] will be coding this thing.
+
+[PERSON12], [PERSON6]:
+- [ORGANIZATION4] won't try their own ASR.
+
+[PERSON12], [PERSON6]:
+- Ask when the python connector to the [ORGANIZATION4] platform would be ready. 
+People using python at the [ORGANIZATION2] will help with this point.
+It will be published at public website.
+
+
+
+
+Minutes submitted by: [ANNOTATOR1]
+
+		
+
+
+
+

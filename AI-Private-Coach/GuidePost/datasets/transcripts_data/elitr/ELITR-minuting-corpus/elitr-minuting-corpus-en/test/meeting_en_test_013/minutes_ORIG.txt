@@ -1,0 +1,47 @@
+[PROJECT2] Surge organization
+Thu Mar 19, 10.40
+
+- ([PERSON8] will very likely come late or miss the meeting; please do your updates anyway.)
+- !! I was asked to keep [ORGANIZATION2] room tight (there is serious need on teleconferences now), so:
+-- The room will be only for 7 persons.
+-- It will be shared with the room in which I will be remotely lecturing. So after the remote lecture, students will leave and you will enter.
+
+- forced alignment
+- OST file with sentence segmented text
+- Antrecorp depth and test
+- deadline for EMT
+- test caraoke
+
+
+- [PERSON14]
+-- Forced alignment now-ready, but
+- Seems like it misses a few words in the beginning of the chunk. [PERSON7] yet to verify...
+-- Currently working on getting Karaoke style ready to assess the forced aligner.
+-- [ORGANIZATION4] corpus - transcript processing. AntreCorp and [ORGANIZATION1]-consecutive + [ORGANIZATION1]-[PROJECT3]  speeches
+- [PERSON14] needs to get all the input files for [ORGANIZATION1]-*, [PERSON13] has prepared those (by splitting [ORGANIZATION1]-consecutive into smaller chunks) and [PERSON4] knows where they are, too.
+-- To do(s)
+- IWSLT Data preparation- First priority. [PERSON9] to review the script first
+- run the multi-source setup from the last mock conference to obtain log dirs.
+- Calculate WER on czech transcript- with and without truecaser.
+- [PERSON2]
+-- Working with [PERSON1] on KonText scraping to improve language model when adapting for a domain
+- I've managed to write a script for automated data harvesting (via curl)
+- Awaiting feedback from [PERSON1]
+- I also attempted to install the latest version of Bonito and Manatee (as suggested by [PERSON10]). I have them installed in Docker, but don't really know how to run it. The documentation is nonexistent.
+- Won't pursue this endeavor, if not necessary.
+- [PERSON4]
+-- Preparing input text for force alignment
+-- Selecting test set from [ORGANIZATION4]
+-- Preparing some scripts for data preparation (they are available on GitHub now)
+-- I'm waiting now for these stuff:
+- New log outputs to test SLTev
+- Output of force alignment
+- [PERSON15]
+-- Preparing test data (till now extracted  3,000 sentences for Polish, Russian, German)
+-- Cleaning of the test data
+-- Collection of Monolingual data (Due to unavoidable reason, the work was slow)
+- [PERSON9]
+-- Still finishing the paper about subtitler. One more day and it will be perfect :)
+-- The translation latency with sentence-alignment catchup is there ← my new contribution
+-- I realized that the measure in the leaderboard was not normalized erasure, but average erasure -- something different than in the [ORGANIZATION3] paper.
+

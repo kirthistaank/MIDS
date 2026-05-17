@@ -1,0 +1,488 @@
+(PERSON8) <another_language/>
+(PERSON7) <another_language/>
+<laugh/>
+<another_language/>
+OK.
+(PERSON1) <unintelligible/>.
+(PERSON7) We can have like two cameras <unintelligible/>.
+<laugh/>
+(PERSON1) Nice.
+<other_noise/>
+(PERSON7) OK, so let's -
+<laugh/>
+Sorry -
+(PERSON8) <unintelligible/>.
+(PERSON7) That's my mistake, sorry.
+(PERSON1) Yeah, yeah.
+So, yeah.
+<laugh/>
+So are we all?
+<laugh/>
+Yeah.
+(PERSON5) Yeah.
+What is -
+(PERSON1) Yeah, [PERSON7], OK.
+(PERSON5) What is the thing behind your head, [PERSON1]?
+(PERSON1) S-, sorry?
+(PERSON5) Wh-, what is the thing behind your head?
+(PERSON1) -t's a book.
+<laugh/>
+No future.
+(PERSON8) Oh I didn't see what -
+Oh.
+OK.
+<laugh/>
+(PERSON7) No future?
+(PERSON1) No future, yeah.
+It's about -
+(PERSON7) <laugh/>
+Is that a message for us?
+<laugh/>
+(PERSON1) OK.
+<laugh/>
+Is it better now?
+OK, so -
+Yeah.
+What news we have?
+Um, so first about the reviewers.
+Um, [PERSON7], have you contacted anyone?
+(PERSON7) Um, no I didn't cause we didn't really agree on who we want to contact.
+We were discussing like this, this linguist and we weren't sure if it's really for linguists.
+Like I think -
+<other_noise/>
+The last or previous meeting, I don't know.
+That we thought, OK, so, we wanted to write it for linguists but we <unintelligible/> linguist won't understand it anyway.
+So I don't know if to send it to such people.
+(PERSON1) Yeah.
+Ye- so I don't know what, what, what <unintelligible/> knows about, knows about neural networks.
+But she- she's really only a linguist or she knows something at least a bit about, about transformer or I don't know.
+(PERSON7) Hm.
+(PERSON1) I, I asked [PERSON6] and he, he agreed that he could, he could do the review, so -
+(PERSON7) Hm.
+(PERSON1) So I have one, one, um, assistant professor from, from [LOCATION2], you know.
+(PERSON7) Hm.
+(PERSON1) Um, and he, he's doing, um, similar thing as, as, as, as- as we do, so -
+(PERSON7) Hm.
+(PERSON1) He should, um -
+And I exchange it with, um, because I, I will, I will review, um, um, this <unintelligible/> dissertation is like, um, <another_language/> for, um, of, one of his student which is very, and this, this, this <unintelligible/> similar to our book so, so we only exchange it.
+(PERSON7) Hm.
+(PERSON1) <laugh/>
+We will read the similar things.
+(PERSON7) Yeah, that's nice.
+(PERSON5) Cool.
+(PERSON1) I mean, I mean, um, the introduction, so the introduction about the, about the deep learning <other_noise/> and, and all the <other_noise/> [PROJECT3] and all the, all the notable models <other_noise/>.
+(PERSON7) Hm.
+(PERSON1) ADSCL so it will be very similar.
+So we will only exchange it and, um, yeah.
+So we have one.
+(PERSON7) Hm.
+(PERSON1) But [PERSON9], [PERSON9] want-, wanted three so that he could decide, um, he could choose two of them.
+(PERSON7) Hm.
+(PERSON1) So -
+(PERSON7) So I suggest I can ask, um, [PERSON2] but I would kind of try to explain that, yeah, um, maybe she won't understand it and, like, she shouldn't care or I don't know.
+<laugh/>
+We just need like one page review or something, so, um, I don't know.
+Cause -
+(PERSON1) Yeah.
+(PERSON7) It's like -
+Yeah, like it-, it's- it's not really like giving an easy introduction for somebody who never worked with neural networks.
+(PERSON1) Yeah.
+So <unintelligible/> should -
+(PERSON7) There is an introduction, which is good but I think it's good maybe for someone who worked with other machine learning algorithms or something.
+(PERSON1) Hm.
+And what about the other, the other people there in a, in a document?
+So all, all these people are linguists?
+So -
+(PERSON7) Yeah, basically.
+(PERSON1) <unintelligible/>.
+(PERSON7) So it's, it's people -
+I would say they're similar to, um, [PERSON10].
+So they're, they're primarily linguists and they're trying to do some computational stuff but it's kind of difficult for them.
+(PERSON1) Yeah.
+(PERSON7) So -
+But I don't know if, if we think that the book is for them or not.
+(PERSON5) I think it is.
+(PERSON7) You think it is?
+So -
+(PERSON5) Yeah.
+(PERSON7) We can try and, yeah.
+(PERSON1) I think for these people the first, um, the first chapter would be quite hard.
+I think because it's -
+But- but anyway they, they could-, they could skip it and understand the, um, so I don-, I don't know.
+(PERSON7) OK, so -
+So I can try to ask, um, [PERSON2] and [PERSON11].
+(PERSON1) Yeah, you can try -
+Yeah, ask them.
+Send them, send them the current version of the book, of our book.
+(PERSON7) OK.
+(PERSON1) So they can, they can skim it and see whether -
+<cough/>
+Sorry, coronavirus.
+<cough/>
+(PERSON7) OK, so yeah.
+I, I will ask them, um, and- yeah.
+And it's, it's like one page review or, or what should it be?
+(PERSON1) Um, it was in the email.
+I think it was like one page review.
+(PERSON7) Hm.
+(PERSON1) Um...
+(PERSON7) Yeah, I have it somewhere.
+(PERSON1) Yeah, I, yeah.
+I- forward it to you, by not, um...
+<other_noise/>
+(PERSON7) Um, yeah.
+I have the, yeah, one or two pages is enough it says, so...
+OK.
+OK.
+(PERSON1) One or two pages.
+<other_noise/>
+Yeah, at least we c-, we can have from, from [PERSON2] or- or, um, another linguist, we could have, we could have information what is, what is understandable for, um, for these people, so yeah.
+(PERSON7) OK.
+(PERSON1) <unintelligible/> for us.
+So because [PERSON6] he is mainly like, he's not a linguist, he is like in-, engineer, more like engineer, um, so he knows what about, um, about all the deep learning techniques and he knows a bit less about linguistics so it will be -
+(PERSON7) Hm.
+(PERSON1) Very different, different point of view.
+(PERSON7) Oh yeah.
+So yeah, so, so he should really be able to assess whether <unintelligible/> is true kind of and so on.
+Whereas for these linguistic reviewers, um, it's like, yeah, they don't have to, I don't know check the maths or check, check, um, that, that it's true what we write cause they're not experts but we're interested in whether it's interesting for them, whether they learn something, whether they understood something kind of.
+(PERSON1) Yeah.
+(PERSON7) OK.
+OK.
+(PERSON1) Yeah, and we, we could -
+Yeah.
+So -
+But we should have three reviewers for, for [PERSON9] so maybe I could, I could ask someone from [LOCATION1] but, um, yeah, I don't know whether to ask [PERSON3] or whether to ask some of his students.
+Maybe it will be better.
+Or some of, um, post-doctoral researches there.
+Hm.
+(PERSON5) I would be afraid that [PERSON3] would be too harsh.
+(PERSON1) Yeah.
+So maybe I will, I will ask like the, not [PERSON3], but some people from -
+(PERSON7) Hm.
+(PERSON1) His group, but not [PERSON3].
+(PERSON7) [PERSON3] reviewed my dissertation and what I understood is that, um, when he knows that it's some kind of official review which is important for something so, then he's finally writing a nice review and then like unofficialy he told me the comments like what's wrong and, and what should be done differently and so on.
+<censored/>
+(PERSON1) Yeah, yeah, that, that's -
+(PERSON5) Hm.
+(PERSON1) <unintelligible/> the case a bit.
+<censored/>
+<laugh/>
+(PERSON7) So, so, so- so this is what he did for my dissertation.
+<laugh/>
+So...
+But yeah.
+(PERSON1) OK, yeah.
+Um, another question from, from the, from the last meeting.
+If [PERSON4] should be a co-author of our book.
+Um, I think he, there's a substential part what was, which was written by him so I would, I would add him.
+As a co-author.
+If you are not against this.
+I -
+But I suppose -
+(PERSON5) Sure.
+(PERSON1) Yeah.
+OK.
+So let's add it there, add him there and, um...
+(PERSON7) So you just started and you're already author in the book.
+Good.
+<laugh/>
+(PERSON4) Yeah.
+<laugh/>
+<other_noise/>
+<unintelligible/> helpful for my English exam.
+(PERSON7) Hm.
+(PERSON4) Because they want -
+(PERSON7) Aha.
+(PERSON4) Hundreds, n-, no, 30 pages but they divide-
+(PERSON7) Hm.
+(PERSON4) <unintelligible/> number of <unintelligible/>.
+(PERSON7)  Hm, hm.
+(PERSON4) Papers, they will divide it.
+I don't know, I ask them.
+(PERSON7) Hm, hm.
+(PERSON4) <unintelligible/> like lot of pages.
+<unintelligible/> to have think they don't pay attention.
+(PERSON1) Yeah, they don't, they don't pay attention <unintelligible/>.
+(PERSON4) <unintelligible/>.
+(PERSON1) Ah, it's OK.
+(PERSON7) Hm.
+Hm.
+It's fun.
+<laugh/>
+(PERSON4) <unintelligible/> like 30 pages but already like with, with you and with, with [PERSON1] so -
+(PERSON7) So yeah.
+Yeah, yeah, yeah.
+(PERSON4) So yeah, so, so it should be <unintelligible/> at least, if you <unintelligible/>.
+(PERSON7) <laugh/>
+Nice.
+Yeah, sure.
+<laugh/>
+Feel free to use it this way.
+<laugh/>
+(PERSON1) Yeah, regarding the- new-, um, new paper, so we have, we have, um -
+(PERSON4) paper was accepted to, to [PROJECT4].
+So we have one more <unintelligible/>.
+(PERSON4) <unintelligible/>.
+<laugh/>
+(PERSON1) But -
+Yeah.
+It's not a surprise, of course.
+(PERSON7) Hm.
+(PERSON1) Um, our, our paper -
+Um -
+(PERSON7) <unintelligible/> physical or virtual?
+(PERSON4) It's physical.
+(PERSON7) It's physical?
+OK, cool.
+(PERSON4) I already <unintelligible/>.
+(PERSON7) Hm, hm.
+(PERSON1) Yeah, and I, um, submitted, um, one paper, um, what I done with people from [LOCATION1] to [PROJECT2] and it was accepted as well.
+So it's, it's- not surprise, but-
+(PERSON7) <unintelligible/>.
+(PERSON1) So we have two <unintelligible/> -
+<laugh/>
+Yeah, great.
+<laugh/>
+So now we have two, two articles in journals, um, on this, on this project so, so, yeah.
+So we have everything what we have, what he have promised but, but the book.
+(PERSON7) Hm, hm, hm.
+(PERSON5) Um, by the way, how were the [PROJECT5]-, [PROJECT5]-, <other_yawn/> [PROJECT5] reviews?
+(PERSON1) Um, yeah, [PERSON4], [PERSON4]'s paper was very good.
+It was like 3.5, 3.54 I think.
+(PERSON4) Yeah.
+(PERSON5) Woah.
+That sounds great.
+(PERSON1) I don't know it's -
+Yeah.
+(PERSON4) <unintelligible/>.
+(PERSON1) <unintelligible/> papers.
+(PERSON4) I just found out that's one of the reviewers review wrong verison of the paper like -
+(PERSON7) Aha?
+How is that possible?
+(PERSON4) Because he refer to some things that were only on Archive, but not in our submitted version.
+<laugh/>
+So...
+(PERSON7) That's interesting.
+<laugh/>
+It happened to me as well that somebody refers to <unintelligible/> <unintelligible/>.
+In my case it was <unintelligible/> he referred to some previous version which I submitted to some previous conference so, um -
+<laugh/>
+(PERSON4) But I found it out after the response.
+(PERSON7) Hm, hm.
+(PERSON4) <unintelligible/> just find it out some things that were really different -
+(PERSON7) Yeah, yeah.
+(PERSON4) <unintelligible/> submitted version, but they didn't rewrite that's so <unintelligible/>.
+<laugh/>
+(PERSON7) That's fun.
+Yeah.
+So basically for [PERSON4] I would say they complain that maybe it's rather for a short paper than a long paper, but otherwise they liked it.
+(PERSON4) Yeah, they complained about SUD but -
+(PERSON7) Ah yeah, the SUD, yeah.
+(PERSON1) And what about -
+What about your paper?
+About m-, um...
+About multilinguality?
+(PERSON5) Um...
+The scores were two times 3.5 and, and once 3, um, if you, if you follow the [ORGANIZATION1], um...
+(PERSON1) Yeah, yeah, yeah.
+<unintelligible/>.
+(PERSON7) Yeah.
+(PERSON5) I missed the <unintelligible/> for the <unintelligible/> but I emailed the chairs.
+By the way, you didn't tell me that um, um, that the email that I pasted <unintelligible/> it was like was for <unintelligible/> the 2019 chairs, um, so -
+<laugh/>
+Anyway I emailed it 2019 chairs, they, they forward it to 2020 chairs -
+<laugh/>
+And they uploaded manually, um -
+<laugh/>
+The responses, so, so it- it work out finally.
+<laugh/>
+(PERSON7) Great.
+So thi- this email includes something that you're stupid that don't understand the <unintelligible/>.
+<laugh/>
+And turned out that yeah, you don't understand emails as well but...
+<laugh/>
+(PERSON8) Well, he just doesn't have the concept of time.
+<laugh/>
+(PERSON7) That's a nice explanation.
+<laugh/>
+OK, good.
+(PERSON1) OK, so- yeah.
+Um, let's go back to the, to the book because, um, so wh-, what are your time plans for, for this, this week and the, the next week?
+I think that [PERSON7] told, [PERSON7] wrote that he's only, this is on-, the only day he is working or what is?
+(PERSON7) Yeah, so, um, Wednesday to Friday I officially have holiday and I will have to kind of shift it a bit anyway.
+So I, I'm not leaving anywhere and I realised I have too much work at least for <unintelligible/> -
+(PERSON1) Yeah, but -
+(PERSON7) <unintelligible/>.
+(PERSON1) Yeah, yeah, yeah, I understand.
+(PERSON7) For [PROJECT5] and [ORGANIZATION3] so, um, so I will be somehow working most of the week anyway.
+<laugh/>
+So...
+<laugh/>
+So, um, yeah, I, I will probably like save the holiday days and then unofficially not work later.
+<laugh/>
+(PERSON1) Yeah, I, I wanted to, to, I wanted to be in office every day in these two weeks, in this week and the next week but I, I, yeah, unfortunately -
+<cough/>
+<laugh/>
+(PERSON7) Yeah.
+<laugh/>
+We see.
+(PERSON1) So -
+Um...
+Yeah.
+(PERSON5) By the way did you, did you get tested for the coronavirus?
+(PERSON1) No.
+<laugh/>
+I don't think it is, I don't think it is coronavirus because I, I didn't have temperatures and I have only, um, this caugh and -
+(PERSON5) OK.
+(PERSON1) And, and yeah -
+(PERSON4) Do you have loss of taste?
+(PERSON1) No.
+<laugh/>
+(PERSON7) Smell, smell.
+(PERSON4) Hm.
+(PERSON1) OK, so yeah.
+This day, it should be write hackaton on, on this book so I, I suppose you will, you all will work, work on it today and I, yeah, I will also try.
+And, um...
+So do you have any plans to what, what it's- is needed to be done?
+(PERSON8) I need to continue with my chapter.
+(PERSON1) Yeah, because, because last like the, the, it was like three weeks ago, we were working together or working tode- together -
+[PERSON7], [PERSON7] was writing and we, we were commenting it.
+I don't know where it was, it was good or it was -
+Because...
+(PERSON7) I didn't find it very productive.
+(PERSON1) It was not very productive.
+Yeah, but -
+Yeah, so I will- it's up to you.
+I will continue with my chapter.
+(PERSON7) Hm.
+(PERSON1) And -
+Yeah, we, we should, um, because, um, from email, from the email from [PERSON9] we should have it, um, how it was there?
+Um...
+(PERSON7) Tdd.
+They need six week for the review.
+Um...
+Printing text two wee-, um, two months.
+(PERSON1) Yeah, we -
+Yeah.
+It must be sent to, to the reviewers, um, in October but I would like to have <other_noise/> it finished earlier <other_noise/>.
+(PERSON7) Yeah.
+Because also -
+(PERSON1) <unintelligible/> the review <unintelligible/>.
+(PERSON7) <other_noise/> October-
+Yeah, October for having the book, um, somehow in half of year 2021.
+(PERSON1) In the middle of 2021, yeah.
+Yeah.
+(PERSON1) Yeah, that's, that's needed for, for [ORGANIZATION2] so -
+(PERSON7) So that's like hard deadline is June 2021 or?
+(PERSON1) Yeah.
+Like -
+Yeah, we can postpone the evaluation by, um, 6 months.
+(PERSON7) Yeah.
+(PERSON1) Or -
+Yeah, I think six months or five moths, I don't know.
+But -
+<cough/>
+Yeah.
+(PERSON7) So you want to kind of at least have it submitted for printing this year?
+(PERSON1) Yeah.
+No, no.
+Submitted for prin-, printing not.
+Because we will -
+I don't know.
+But it must be, it must be printed, it must be ready like the, the, the books mi- must be ready, um, in, in June so I don't know...
+But the, the, the book should be, for the reviewers the book should be finished like at the end of September.
+(PERSON7) OK.
+(PERSON1) I don't want to prolong it anymore because it's -
+Yeah, it's, it's, it's getting even worse the writing and it's, it's -
+(PERSON7) Hm.
+(PERSON1) It's really bad and I would like to -
+Yeah.. finish it.
+(PERSON7) Yeah, and splitting outdated.
+<laugh/>
+(PERSON1) Yeah, it -
+Yeah, it's, yeah, it 's slightly outdated so yeah, we should, we should finish it somehow and, and -
+Yeah, the reviewers can, can get, um, on-, only version which is not finished, fully finished but it will be better if they, um, if they, if they get almost finished version.
+(PERSON7) OK.
+(PERSON1) <unintelligible/> text part so -
+So maybe it's - <other_noise/>
+I don't know what it -
+What to discuss now but, maybe it's- it's better to start writing and we can, we can -
+(PERSON7) Yeah.
+Like my plan is to, to finish my chapter.
+And once I have my chapter finished then I'm happy to help with other chapters, but-.
+But-
+(PERSON1) Yeah.
+(PERSON7) That's like -
+I would prefer first finishing my, my stuff.
+<laugh/>
+(PERSON5) Um...
+[PERSON7], I went throught the rest of your chapter and left 20 of comments.
+(PERSON7) Hm.
+(PERSON5) Um, like half of them are terminological distinction between, um, what are features and what are abstractions.
+(PERSON7) Great.
+Yeah, I know we talked about this and we found that yeah, I don't understand the terminology well, so um, I expect that, yeah, there is a lot of mess in distance.
+<laugh/>
+(PERSON5) On-, but otherwise I think it's <unintelligible/> if you, if you read the comments.
+Um, the only chapter that I didn't read except for the unwritten parts of, of, of [PERSON8]'s chapter.
+Is, um, is, is what [PERSON1] wrote, but I'm not really sure whe- where I star-, where I should start or -
+Because, because there are some parts with my comments but they, they moved around.
+(PERSON1) Um...
+(PERSON5) So shall I read it from, from the beginning till the end or?
+(PERSON1) Um, I, I think I answered your comments -
+<other_noise/>
+Um...
+<other_noise/>
+Um...
+May I have your attention, yeah.
+I think I answered your comments in, in the first part.
+(PERSON5) OK.
+(PERSON1) Um...
+<other_noise/>
+I think -
+Yeah.
+I- think I-
+Yeah.
+It was -
+I answered your comments in the first sections but the last section which is, which is -
+Where it is?
+Hm...
+Section, um...
+<laugh/>
+Only section but 5.3.
+(PERSON5) OK.
+(PERSON1) 5.3 <unintelligible/> how, written but -
+So I think there are no -
+But I see last your comments is in- on page 71.
+(PERSON5) Yeah, but I think it, it appear just by moving some parts around.
+Because it's like totally isolated in the middle of, of the text that I think I didn't see.
+(PERSON1) Yeah.
+I think I commented all of your comments.
+Or commented out because it was- it was somehow solved and -
+And some- for some comments I've reacted, um...
+And that's all I think.
+(PERSON5) Right.
+And ju-, just being curious, what's the expected outcome of today's hackathon?
+(PERSON1) Um...
+To- hm, to write something.
+<laugh/>
+Because the, I see that the last, the last- last weeks it was not, there was not, not much commits.
+Only, only [PERSON8] commited something, some small changes but -
+<other_noise/>
+It was everything so yeah.
+So the goal of this hackaton is to write something, some substantial amount of text and, and move -
+<other_noise/>
+<unintelligible/> somewhere.
+OK, so maybe it, it -
+Or if you don't have, do you have anything else?
+I would, I would start writing and, and see -
+<other_noise/>
+We can discuss thing on Slack or we can, we can have another, another meeting at afternoon but...
+Yeah?
+(PERSON8) Yeah.
+(PERSON1) OK, so...
+So see you and, and -
+(PERSON5) Have a good day.
+Bye.
+(PERSON1) Bye-bye.
+(PERSON8) <another_language/>
+(PERSON7) <another_language/>

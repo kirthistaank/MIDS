@@ -1,0 +1,72 @@
+Next meeting: Tue Apr 21, 16.00-16.30
+•	remember to add yourselves ideally before the call
+•	also, whoever is not speaking at the moment, please try taking notes for the person who is speaking
+•	[PERSON17]:
+o	Thanks to the IWSLT submitters! ([PERSON16], [PERSON13], [PERSON1], [PERSON5])
+o	Upcoming subtitling sessions:
+- 	@[PERSON13]: could you record and subtitle (only quest) tomorrow from 11.00 for ~1 hour?
+o	IWSLT test set:
+- 	@[PERSON14]: please provide a brief summary of the status: how many files are not manually processed yet?
+o	[PROJECT1] test set: questions to [PERSON22]:
+- 	where is the table with files, annotators, status?
+- 	what is overall the status?
+- 	How many annotators are waiting and for what? 
+•	[PERSON17] knows of [PERSON18] waiting for validation of her work, can [PERSON22] process it and confirm?
+o	using [PROJECT1] test set:
+- 	@[PERSON9], @[PERSON13], it would be great if you could start testing [PERSON9]' (and other) models using [PROJECT1] test set. The side effect is that it would test the test set.
+•	Submissions:
+o	primary online ASR:
+- 	[ORGANIZATION6] worker “hybrid” for antrecorp + [ORGANIZATION6] worker 1 for other domain
+- 	followed by [PERSON15]'s new rainbow worker for German and [ORGANIZATION3]-IWSLT19 for Czech
+o	primary offline ASR:
+- 	[ORGANIZATION6] [PERSON6] + [PERSON13]'s punctuator + truecaser + the MTs as above
+o	non-primary offline SLT:
+- 	[PERSON6] ASR translated by all MT workers
+- 	[PERSON5] ASR + many MTs
+•	[PERSON5] done 5 more independent submissions 
+•	translated with [ORGANIZATION1] online translator
+o	Non-primary on-line ASR:
+- 	[ORGANIZATION6] hybrid, [ORGANIZATION6] 1 
+o	Non-primary off-line ASR:
+- 	[ORGANIZATION5], TedTalks
+- 	[PERSON15] ASR + [PERSON9]'s rb42 engish->english
+- 	[PERSON5] ASR 
+•	[PERSON5] done 5 more independent submissions 
+o	Missing:
+- 	Online asr: [ORGANIZATION6] 2 ASR, mask-1, mask-2, …
+- 	Some more offline SLT
+o	[URL]
+o	
+•	[PERSON14]
+o	Make MKV files with updated OSttfromjson.py script for remaining files in testset and devset folders.
+o	Change SLTev script per [PERSON17] and [PERSON20] discussion. 
+o	TODO:
+- 	I am going to build a script to evaluate ASR files. 
+- 	Find mismatch and misunderstood words in EAF files (send them to [PERSON18])  
+•	[PERSON13]
+o	Czech segmenter training using increased vocabulary size and pre-trained word embeddings - failure
+- 	Py2.7 -issue with pickle dumb of size more than 2G
+o	Trying hands on with training segmenter using prosodic annotated data
+- 	Failure (R programming language used)
+o	Iwslt segmentation and punctuation
+•	[PERSON16]
+o	IWSLT submitted, but it's possible to have more non-primary submissions, especially online-SLT with different --mask-k parameters. However, it takes around 3 hours for processing one testset
+o	I found that the definition of translation lag with sentence catchup is still imperfect, it may get negative values
+o	TODO: 
+- 	Paper -- how many system descriptions?
+- 	Missing submissions
+
+•	[PERSON22]     -- Preparing the test set for [PERSON12] and [PERSON2] (first set is already shared. Second set will be sent very soon)
+   -- Cleaning of Monolingua data for Non-EU languages
+-- Searched Non-EU audit data
+•	[PERSON9]: rb42 workers: looks like my model is quite slow on GPU, I have to investigate, also it doesn't perform as well as rb-new on IWSLT
+o	I will send an email to [PERSON17] about paraphrasing, I may have an idea 
+(I'm in contact with [PERSON7], yes)
+o	[PERSON17]: OK, thanks. (But also please Cc [PERSON11] on the paraphrasing, so that I am not blocking the communication.)
+o	Superb. :-)
+
+[PERSON17]: Thanks to all for the participation, this harsh call stopping has a positive aspect as well, we are not extending the call too much. :-)
+@[PERSON22], if you haven't received the mail by [PERSON18], tell me, I will forward it to you. If you have, even as Cc only, please pick it up and process it, to make it the two plaintext files (source, target, sentence-parallel) that we need for MT evaluation. OK? Okay, Will do that. Great and then please send a notification to [PERSON13] and [PERSON9] so that they will start evaluating the rainbow system (in the full pipeline) on these files. More and more languages are going to come.Sure
+Great, thanks to all and speak to you next week (and individually also earlier).
+Cheers, [PERSON17].
+

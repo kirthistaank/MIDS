@@ -1,0 +1,47 @@
+MEETING MINUTES
+
+Organisation: [ORGANIZATION1], Faculty of Mathematics and Physics, [ORGANIZATION6]
+Meeting Name: Surge
+Meeting Date: 19.05.2020
+Meeting Topic:  [PROJECT3] Project Demo
+Meeting Participants: [PERSON21], [PERSON19], [PERSON5], [PERSON3], [PERSON6], [PERSON15]
+Meeting head speaker/moderator: [PERSON21]
+
+Purpose of the meeting: To agree actions to take in order to create PerTalk domain adaptation for the [PROJECT3] Project Demo.  The aim is to show the model with and without talk adaptation. Feature the model's capability to adapt to the speaker and/or the specific talk.  
+
+Special Client's Request Made for the demo/model:
+ 
+To shorten subtitling to make it easier to follow.
+
+Approach agreed to satisfy the request: 
+
+•	To concentrate efforts on shortening, output length control and text compression. 
+•	To apply Rainbow model modifications and create the Rainbow model that abbreviates while it transcribes.
+•	To develop and perform fine-tuned spoken language error analysis. Life-evaluate spoken language translation - create methodology and solid practice.
+•	Fix the Czech segmenter; particularly time delay and following context usage issues.
+Items agreed for submission for the demo by Friday 22 May 2020:
+•	Full dry-run session, inclusive videos that will be used (types of videos have been already. selected and are being prepared).
+•	MT score variances for the speech recognition systems.
+•	Automatic transcripts in Czech and English.
+•	Domain adaptations inclusive language model adaptations (English, Czech).
+•	Types of baseline [ORGANIZATION4] workers to be deployed.
+•	Test session slots with what is going to be tested in each session.
+•	Talk top level sub-directory for back-up and materials that should be saved there.
+
+General Prerequisites:
+•	[ORGANIZATION2] power supply stability.
+•	Transcripts to create adapted language 
+
+Action Deadline: Friday 22 May 2020 or earlier.
+
+Items decided to put on-hold:
+
+•	Model stability – as other team is working on it already and some information might be available.
+•	German videos – due to the lack of possibility to induce them with the language model.
+•	Training of in-house created [ORGANIZATION4] workers serving as an improvement to the English ASR system.
+
+General important points made during the meeting :
+
+Meeting members have been advised to handle carefully received scripts, to have back-up copies of everything that is being deployed, to version everything and to replicate from the copies as well in order to mitigate operational and reputational risk.
+
+Minutes submitted by: [ANNOTATOR1]

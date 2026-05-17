@@ -1,0 +1,53 @@
+Fri 31.5. at 10 AM,
+[PROJECT3] [PROJECT2] KUFR
+• [ORGANIZATION2] platform:
+o [URL1]
+• This is a guest link, since we will be using it, I recommend to create your profiles, just write [PERSON11], because someone from [ORGANIZATION2] has to set it up.
+(I think that might be a condition so you could be the presenter and share the screen.)
+o Important:
+• You have to use Windows or Mac
+• Install [ORGANIZATION2] platform on your device (when you click on the link it will tell you to do it)
+• You have to have a working webcam and headphones. This is really critical, [ORGANIZATION2] won't work without a webcam.
+• Updates on components:
+o Presentation platform
+• Any test client for video presentation in HTML by [ORGANIZATION7] for [PERSON10] to test?
+• Generally good progress, maybe we will even have a very rough version next week.
+• [PERSON11] asked for the possibility of text-only presentation platform.
+o [PROJECT1] worker [PERSON5]
+• A very basic module in C which communicates with the python server, tested in isolation, starting to integrate it into [ORGANIZATION7]-sample-client. [ORGANIZATION7]-production-client
+o Production client [PERSON14]
+• We need to fix batch mode for ASR and text-to-text workers
+• Text-to-text from srt or txt batch mode on client side implemented and tested
+• TODO batch mode for segmentations (textclient, ctm -> txt or srt)
+o depends on the reported bug with “double free or corruption (out)” ([PERSON15], [PERSON12])
+o depends on segmentation worker [PERSON6], now it doesn't return anything ( [URL] )
+• => we're going to use the offline mode, solve this later
+o [ORGANIZATION3] MT [PERSON14]
+• I need to process 1300 TED talks to have training data on ASR output against reference
+• The client must close automatically, not after pressing ctrl+c
+• Depends on reliable ASR
+• Depends on the text-to-text client and reliable batch mode
+• I also need either the [PROJECT1] worker or textclient for ctm->txt (or, better, both), to get the final hypothesis and evaluate my current subsentence MT
+• => send this to [ORGANIZATION5], use the offline mode and testing MT together with ASR
+• => let's see next week, if ASR necessity is blocking us
+o [ORGANIZATION5] ASR workers: the bug [PERSON9]
+• A session with [PERSON9] and [PERSON15] next week
+o [ORGANIZATION5] segmentation and MT [PERSON6]
+• How is the fix with batch mode and translating second and other sentence? -> made irrelevant, let's ignore batch mode until [PROJECT2]
+o [ORGANIZATION2]
+• [ORGANIZATION3] will need a way to get a single audio with 
+o [ORGANIZATION3] ASR:
+• Remember that when a mediator dies, the worker needs to survive and reconnect again
+
+• Participants of [PROJECT2]: 
+o 6 Czech Republic (+ 6 organizers)
+o 3 Germany
+o 2 Austria 
+o 2 Belgium
+o 2 Hungary
+o 2 Poland
+o 2 Romania
+o 1 Belgium-Dutch speaking
+o 1 Netherlands
+o 1 Spanish (probably)
+

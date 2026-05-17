@@ -1,0 +1,35 @@
+[PROJECT3]
+
+Attendees: [PERSON10], [PERSON1], [PERSON2], [PERSON6], [PERSON3]
+ Date: 31.8.2020
+Purpose of meeting: Discussing about the evaluation methods and how will they test them.
+
+-Organisational things of one of the attendees
+--[PERSON10] should come to Czechia to enter some paperwork.
+---Such as work contract, hosting agreement and so on.
+---He should arrive as soon as possible.
+--[PERSON10] can continue working remotely but it would be good if he stayed.
+--They send him a letter that has to be shown in [ORGANIZATION4] to apply visa.
+--There can be problem with the visa because the [ORGANIZATION4] is closed.
+--He should check the status of process of applying the visa with [PERSON8].
+--The University offers him support.
+
+-What was discussed
+--[PERSON9] prepares leaflets for participants.
+--They will run the translation in CPUs.
+---A lot of them are not used so they want to make it quicker.
+--The problem is that they do not know how to implement it into a pipeline at that moment.
+--[PROJECT5] is creating semantically rich reprsentations.
+--If they take the pretrain model and fine-tune it during training it can be useful for distinguishing.
+--The other metric can be used to guarantee that the paraphrase is as close as possible to the original meaning.
+---They will add as many constraints as they lose the meaning completely.
+---And check how many contraints it can handle to not be misleading.
+
+-Concerns, decisions, ideas
+--Problem with the quality estimation.
+--Concerns aboout evaluation.
+---The method can be misleading in giving a score.
+--Concerns about a decorder generaing sentences that have the same meaning but include different words.
+--They decided to test both methods to know what would be the best.
+
+Minutes submitted by: [ANNOTATOR6]

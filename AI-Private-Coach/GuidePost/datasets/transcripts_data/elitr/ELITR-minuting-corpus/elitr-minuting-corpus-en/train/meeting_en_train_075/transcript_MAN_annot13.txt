@@ -1,0 +1,600 @@
+(PERSON16) Hi.
+(PERSON22) Hello. Can you hear me? 
+<other_noise/>
+(PERSON16) Yeah. 
+Your view is, your view is bit distorted but I can still hear you.
+<other_noise/>
+(PERSON22) Hello.
+<other_noise/>
+(PERSON16) Yes I can hear [PERSON5] but-
+<other_noise/>
+(PERSON22) Hello.
+<other_noise/>
+(PERSON16) Hi, everyone? 
+ <other_noise/>
+(PERSON22) Hi.
+<other_noise/>
+(PERSON16) I I think there is noise coming from a [PERSON15]'s microphone.
+<other_noise/>
+Yeah. <other_noise/>
+(PERSON22) Yeah? Can you hear me?
+(PERSON16) Yeah. 
+It, it, it's good now.
+<other_noise/>
+So, let me know when to start.
+And if someone wants to break the ice.
+Maybe you [PERSON15].
+If you want to start?
+(PERSON22) I I shall, shall we wait for [PERSON21] or should we start?
+(PERSON16) He, he said in the evening that start thing even without him.
+Because he says, he is running bit late.
+(PERSON22) Okay.
+Okay, so from my side I've been basically, um, quite busy with my thesis as there is a deadline in like.
+Six days so am I've been mostly working on on that. 
+And apart form that I've consulted with [PERSON21] that we might do the domain adaptation for the demo of the [PROJECT3] project like Per, PerTalk domain adaptation.
+But I just read some e-mail that there are some issues with like confidentiality of the transcripts and et cetera.
+So I am not sure if the speakers will allow us to get access to their talks before the actual event.
+So-
+(PERSON16) Maybe.
+(PERSON22) If, if we have the recordings or even the transcripts beforehand, then uh we we can make the like a PerTalk adaptation, because the idea was to show like the model without the talk adaptation and then run the model with the talk adaptation and show that the model is able to-<parallel_talk>Yeah.</parallel_talk>
+And be fine tuned to a particular speaker or talk.
+So, so it's.
+I think in a stage of discussion whether we can be allowed to use these transcripts or not.
+So, if if we are then I can definitely do the adaptation and yeah.
+(PERSON16) So, I think before the adaptation you're using the sentences ehm the words which was sent by [PERSON1]
+So, are are you using that or are you adding some complementary data of your own?
+(PERSON22) I'm I'm sorry.
+I I, there is things still some noise coming from somewhere.
+Because I I've overheard the the dataset you've mentioned.
+(PERSON16) So, ehm I am talking about-
+(PERSON22) It w-It was [PERSON12].
+That name, just [PERSON12].
+(PERSON16) Yeah [PERSON1]. So.
+(PERSON22) Yeah. [PERSON12], Okay I see. <laugh/>
+(PERSON22)
+<another_language> Ahoj. </another_language>
+Yeah. Yeah. Yeah.
+I I'm using the data from [PERSON12] and then I am using like some, some additional texts like ba- based on the algorithms that I've I've came up with for my thesis.
+So they basically-
+Like <other_noise/> it extends, it extend the amount of domain texts if I get like domain boards, then I can find concrete context of theirs and also use technique with sentence embeddings to even more increase, um, the amount of textual data.
+So, so I'm I'm using like this approach.
+(PERSON16) Ehm.
+Okay.
+So. 
+So, sh shall I speak now or?
+(PERSON4)
+Yeah. 
+Feel free to.
+My headphone is really sensitive so I can actually-
+<parallel_talk/>
+(PERSON16) I shouldn't use oh the...Okay.<other_noise/>
+(PERSON4) So, we have realised that it is impossible to sit in the same room and be on the same call with head, with headphones because its it always, uh,  takes picks-up the the sound from the other one.
+So one would have to very carefully mute who is not speaking.
+Sorry for coming late.
+And thanks for having started.
+<other_noise/>
+So, yes feel free to continue.
+So, go one by one and I'll add my notes at the end in the meantime.
+(PERSON16) Yes.
+So, this week I was mainly, um, doing preparation for the demo meeting which was supposed to happen on Friday, but didn't.
+And apart from that, from last week I kind of lost some of the directories that were like quite important and had I spent a lot of time-
+Uh.
+(PERSON4) This is, this is worth, this is worth saying to to many people because, what happened was that [PERSON19] received the script and that script was trying to do some clean-up of some temporary directories he had created.
+But the remove minus RF was too aggressive and the temporary directory didn't get created.
+So instead, everything got deleted.
+So, whenever you receive any script from anyone, be very careful.
+It was obviously not intentional <laugh/>.
+It was like a bug.
+(PERSON16) Yeah. It was a bug. Yeah.
+And another another thing, uh, which is, uh, very important, have back-up copies of everything that is de deployed in any way.
+So for this.
+There is already for months created and only [PERSON3] has has actually populated it. Uh, there is net data [PROJECT3], slash systems directory.
+And this is where everything should go.
+So for example, [PERSON15] uh system should be there copied.
+Uh, this is this is the last resort for recoveries. 
+And in, uh, another thing that we have learned fr in the demo was that even if we have such recoveries, such backup copies. 
+They may not be complete, if they are not fully tested. 
+So definitely copy there what you have, but also try to replicate it, replicate it from that copy. 
+Because what happened [ORGANIZATION2] was, that their servers room was down.
+They couldn't even connect to the machines at all.
+They were simply off.
+And they had a spare back-up copy of their segmenter system, uh, which was a, uh, like a full image, uh, that should have been fully functional, but it was not.
+So they have spent half a day on getting to re trying to revive this this system, but it was not complete. 
+So it was a better position that than what happened to [PERSON19], what this the removal. 
+But still the back-up was incomplete. 
+So do back-up.
+Systems are big.
+Modules are big.
+So makes the regular copies but that's it.
+And version everything. 
+That's the that's the thing.
+Yeah.
+OK. 
+So. 
+Sorry for interrupting you. 
+But this is very important for everyone.
+<laugh/>
+(PERSON16) Yes. 
+I think that it was quite important but I had to spend like a a complete day yesterday to get everything back.
+But I did get it back.
+So that was the good part at the end of the day.
+And I also spent, uh, ss most of the time last week to uh to figure out some bugs, which [PERSON5] ultimately fixed and thanks to him.
+And, yeah, I think that's all for this week.
+An and by end
+I'm done certainly I am almost done with training the new language model and adapting the current English ASR with, uh, demo adapted words. 
+And.
+Yeah.
+I I hope to get it done soon.
+Yeah.
+So that's all from me and anyone which is good can take over.
+(PERSON4) Yeah.
+Maybe, let's, lets mention what [PERSON3] wrote.
+Uh.
+Share to <unintelligible/> this.
+Transcript for German.
+Yeah.
+So. 
+This was the on-demand, the very quick request to get, uh, some scores for the the systems that we are deval, uh, evaluating for the demo.
+Uh, and, uh, the, uh, the question that I have is: whether [PERSON3] already had a chance to evaluate the outputs.
+So, I know that [PERSON15] sent the files and [PERSON14] sent the files, uh, and we may have even other versions available, uh.
+Not yet. 
+But oth- other systems available.
+Uh, but the question is, do we have the scores.
+So [PERSON3], please check.
+I know that you have commented the output somewhere.
+Uh, but we need to know which of these systems are, uh, the better ones.
+(PERSON7) Hi All.
+<unintelligible/>
+(PERSON4) Yes. So, please paste the path name here into the Google document.
+And maybe, since its just two systems, uh, but they are throwed across many files so some summary results should also go here into this document.
+So we can very quickly see which of these systems, uh, for each language, target language, is more promising.
+Uh, but, uh, we should look at the details.
+Because, the domains obviously make a big difference.
+(PERSON7) But shh.
+I should, evaluate files by files, yes?
+(PERSON4) Yes.
+Please evaluate both.
+Uh, the whole concatenated thing and also file by file by file or rather domain by domain.
+So, in the original layout like directory by directory. 
+So the [PERSON17] domain and the Antrecorp domain, uh uh.
+(PERSON7) Yeah.
+Yeah.
+I understand.
+(PERSON4) Yeah. 
+Thank you.
+Okay. Thank you. 
+So the next is [PERSON5], right?
+(PERSON9) Yes, hello.
+So I actually do reviews for the audible SLT system submission.
+So, I so you to need to finish a paper and until the 25th of May.
+Yesterday I fixed the Czech segmenter delay and I reduced it from ten seconds to approximately a hundred milliseconds.
+I mean, it is still imperfect, because it doesn't use the following context, only the previous and sometimes it misses some full stops.
+So it needs to be fixed.
+But this fix is quite complex.
+And it also debates the he <unintelligible/> we have that one input segment in it's one output.
+So we need to re redo it so that there sometimes, there are two output segments.
+I think and it just needs some new complementations. 
+And I am fixing back-end ASR for the submission of the core project I have feedback from my tutor. 
+And after this should be done.
+It may be adapted to have to provide this scenario.
+Just right now I updated it.
+So it should be working for <unintelligible/> ASR but I restarted the <unintelligible/> worker that we have in <unintelligible/> and it didn't work.
+It hasn't started.
+So I can't check it.
+(PERSON4) Yes. So you. 
+And you've already e-mailed [PERSON17] right?
+(PERSON10) Not yet.
+(PERSON9) Yeah.
+Then on Friday we did writing of subtitling and I collected the data and I haven't done anything with with them.
+(PERSON4) Yes.
+So this is actually very interesting thing.
+This is like the very first attempt to evaluate, to life evaluate spoken language translation.
+So people are watching subtitles and at the same time they are clicking on one of four buttons.
+And we need key strokes to speed it up, uh, and we also need to repeat this and uh like find the best practice how to actually do it because it is-
+I find it difficult to, uh, the to follow both so ehm its uh, the idea of manual evaluation of spoken language translation is extremely difficult.
+So we need to come up with, uh, the solid practice. 
+This is a good starting point.
+And we will lear learn something from that. It definitely makes big differences. We see big differences between for example the source language or the source domain that that plays a big role in the final scores.
+Uh, and and the languages, obviously.
+Uh, but, uh  to do a fine brained error analysis uh its uh is difficult.
+Its not just tedious but its also complicated, how to actually do it.
+So I don't know if one would em-
+This this is the the practice of interpreter evaluation.
+So this is what the teaches teachers of interpretation do. 
+They listen to both, the input sound and the sound of the interpreter.
+And they make like tick, ticks on the on the table.
+So this is what we should try to learn ours ourselves an and do it simpler, obviously, because we don't have their experience with that.
+But if you were interested in this, then get in touch.
+And also, if you expect that we will ask you for some help again with this once we have like another session to to run this evaluation in a better way.
+Yeah. Okay?
+Thank you.
+Yeah.
+So that was [PERSON5] and then we have [PERSON15].
+Ehm, yeah.
+So [PERSON15], free to.
+Are you here?
+(PERSON22) Yeah. I am here.
+Sorry I have been mu muted <laugh/> because of my microphone quality.
+Uhm. Yes.
+So, I I don't have anything to report.
+But I will have time again from from the next week.
+So I I can again start working on your tasks,
+And <other_noise/>  And actually I would like to try some modifications of of the Rainbow model, which I find interesting.
+Uh, so so maybe like I could try what what you ment mentioned in the in the email in the morning with the shortening model.
+And also, I found a few papers about, uh, about making machine translation robust.
+Which are, uh, of think, quite new. 
+So its-
+So maybe I would, uh, fro try, uh, some of this to to improve performance on the on the ugly ASR outputs.
+(PERSON4) Yeah.
+With the shortening, I actually wanted to.
+Yes, that's good that you are bringing this up.
+Uh, so, uh, <other_noise/> we have already been asked that by the users.
+To make the subtitles easier to follow by shortening them.
+By removing drop words, like rl, not really drop words.
+But but by removing useless words and and so on. 
+And at this moment, uh, we have an annotator, [PERSON8] Level, uh, doing a to manual transcription of one of the demo videos, which is German speech.
+And it is already equipped with like professionally corrected subtitles in German.
+And what he is is speaking is a bit more verbose. 
+So we <other_noise/> also have the German data that illustrate this.
+But it will be <other_noise/> only like 20 minute s long speech.<other_noise/>
+And there is an older paper, I think its [PERSON13] one, on sentence compression. 
+And. 
+So this is this is one of the works on on that.
+So this is something that we should look at as well.
+And I have ehm, uh, reviewed, uh, Phd. thesis, that also, uh, they-
+It was [PERSON18] La, so Lake, Lakel, rlrl..Lake and then W <laugh/>
+And <laugh/>,uh , and this is [PERSON18]'s thesis also has these experiments on ehm the controlling the length of the output.
+And um it works pretty well for him.
+Uh, so I think it should work for us was the for us as well.
+Even in the multilingual modules, ideally.
+So uh, we should have a Rainbow model that abbreviates while it translates.
+(PERSON22) O, also I I was thinking that a actually the there is a second thing that we could also try and not to just shorten the the translation <other_noise/>, but also try to force the model to use the same, uh, synonyms every time.
+Because <parallel_talk> Yeah, uh.</parallel_talk> when, when translating like 
+like ten <other_noise/> times the same sentence.<other_noise/> which gets longer and longer, then perhaps we will use different synonyms and the that will cause like translation speak to jump. 
+(PERSON4) So the increased stability. 
+You mean to increase stability by by that. 
+(PERSON22) Yes, Yeah.
+(PERSON4) Yeah.
+That would be also useful.
+And there are other papers that focus on stability.
+So, <other_noise/> and I would like take it step wise.
+So for now, I would focus only on the shortening.<other_noise/>
+And the stability would be the next thing. 
+And I also know that the [ORGANIZATION5] people have been working on the stability somehow. So maybe they have a paper on that.
+I I don't know exactly.
+(PERSON22) Ehm.
+(PERSON7) So let's focus on the shortening.
+Okay. Thank you. 
+Yeah, and then, okay, oh, well, so, but we have other.
+Someone else.
+[PERSON6] is here, right? 
+So, [PERSON6] was not saying anything yet. 
+So [PERSON6], please add yourself or someone please add add [PERSON6]. 
+(PERSON9) Hi. Hi there.
+I've already spoke <parallel_talk>Oh, Okay.</parallel_talk> at the beginning before you came. But I I could do it. <parallel_talk>No.Okay. It Its not in the document so I was confused. <laugh/></parallel_talk>
+(PERSON9) I will write it down to the document.
+(PERSON4) Uhm. Yeah.
+And I've received en email from [PERSON2].
+He is not here unfortunately. which is, uh, uh, quite bad.
+So, what I wanted to say, aside from-
+So, uh, yes.
+There is still the demo, um, uh, on Wednesday. 
+So hopefully tomorrow, we should learn if a [ORGANIZATION2] power supply is stable or not.
+Uh, and, uh if it is, uh, then will schedule a new date. 
+It can be as early as, uh, on Friday. 
+But I don't. 
+I'm not sure if it if it will happen on Friday or or not.
+And I would like to make use of this time, to, select, uh, the pipelines based on some evaluation.
+So, for [PERSON3], from [PERSON3] we need the MT scores.
+And we should also try if we have any variance of of speech recognition systems. 
+We probably don't have that.
+Yeah. 
+So mm, I'm thinking how to best proceed.
+So maybe the best idea would be to um.
+So and this is mainly for [PERSON19] to again to prepare a full dry run session for the demo.
+With the the videos as we will use in the demo.
+And and we could invite a few of you, to help us with with the clicking.
+So that we see, for example, if one of the videos is is worse, uh, then we would go for the other one.
+And another related thing is the domain adaptation.
+So, [PERSON19] do we have any response from [PERSON24]?
+Uh, you are muted <laugh/>.
+(PERSON16) I haven't.
+I haven't emailed him yet about the German ASRs.
+(PERSON4) Ple please do.
+<parallel_talk> Oh. Okay.Okay.</parallel_talk>
+And whenever you are in Slack, then look at whether he is active there or not.
+But he is not responding to my emails the so far. 
+<parallel_talk> Uhm.</parallel_talk>
+So, yeah, so I don't know what what is happening there.
+And ehm so the German, uh, adaptation is problematic.
+The English adaptation is is ready, right?
+You have remarked everything.
+So you can do even language model adaptation, right?
+(PERSON16) Yeah. I I I can do that on the English Model. 
+Yeah.
+(PERSON4) So, please prepare the baseline workers and also the domain adapted including the language model.
+So, let's call them like cheating workers, because they know what is going to be said.
+It is not sheathing, cheating in that real sense, because it is very often the case that a speeches are pre-written.
+And then the the speaker only pronounce like reads them loud, kind of. 
+So it is good, uh, to to show both
+To have the the option to compare.
+And, so, prepare, prepare these workers for English. 
+For each of the speeches and [PERSON6], how is it with Czech.
+You are ready to deploy the multiple worker?
+The baseline workers and and the domain adapted ones?
+The language module aware ones?
+Or is that a problem? 
+I think I we've discussed this recently, but I do not know how how much time have for that.
+(PERSON10) Yeah.
+Its, it's not a problem.
+I can do it.
+But I've, I just check then email, that you've sent today and from what I understood, there is, there are some issues with it like the confidentiality over the, whether we can use the-
+(PERSON4) That's that's a totally different thing. Think that is a totally different thing. 
+So the email for from today that's the like the request from someone so that we do transcribing for them.
+So that is not related to the demo.
+(PERSON10) Okay. 
+Okay, I see.
+So we and are are the transcripts for the demo available somewhere, then?
+(PERSON4) Yes, they are.
+So that's because we have to-
+So, one is, so, uh, so [PERSON19] have you sent me the short, the three minute transcript?
+Or not yet?
+(PERSON16) Not yet, but they are, they are in my logs.
+(PERSON4) Yeah, please send me the path to that one.
+And I'll I'll correct that and-
+So that will be the short one.
+And for the long ones, uh, [PERSON11] already responded which of the consecutive videos will use.
+Because, he said one them is, um, we are going to re-use the videos which are part of the [PROJECT3] test set.
+And this is the videos where the English side was spoken by a non-native speaker.
+And the Czech side is then after every paragraph, um, spoken, um, by a Czech speaker.
+Like a consecutive translation.
+So they are reading the the translation, pre pre-prepared translation.
+And we already have transcripts for this.
+And one of the files is, that I've already like chosen correctly and the other speech is something which needs to be replaced with one where we do have the transcript. 
+So essentially, it is the IST files in the [PROJECT3] test set.
+For the conse [ORGANIZATION3] consecutive. 
+So [PERSON6], are you following? <laugh/>
+(PERSON10) Yes. Yes.
+(PERSON4) So, um, so it will be in Czech.
+It will be three videos. 
+One is the short one - three minute. Uh, maybe maybe keep taking notes. <laugh/>
+(PERSON10) Okay.
+(PERSON4) One, one is the three minute and I will correct that today.
+And and two more are like, um, 20 minutes each, I guess.
+And um, the transcripts are ready, because this is what the consecutive interpreters were saying.
+And [PERSON21] is now cutting the videos so that we have like a separate English track and separate Czech track.
+Previously it was interleaved.
+So the original YouTube video is interleaved.
+And [PERSON11] will split these two videos into four files.
+So that it is like always full only English.
+And then only Czech.
+And only English and only Czech for the second video.
+(PERSON16) Ah, Okay. Great.
+(PERSON4) So this is this is the videos that will be showing.
+And we will be probably showing the same videos for both, Czech source and English source.
+And the German s is like us aside that that's two other videos.
+And we do not have the option yet until [PERSON24] says anything.
+We not we do not have the option, to, to inject the language model.
+(PERSON16) And, do you also need automatic transcript for these four video, four files?
+This English, English and Czech, and Czech?
+(PERSON4) Not at the moment.
+Um, it would, yes.
+So, please, do it.
+Because, this is the, non-adapted workers.
+(PERSON16) Yeah, yeah, yeah.
+<parallel_talk> And. And.</parallel_talk>
+I thought it would be good to compare it later, when we have the adapted workers.<parallel_talk> Exactly. Exactly.</parallel_talk> 
+(PERSON4) Please have these transcripts ready.
+Uh and uh then we'll measure the scores as well for when um when [PERSON6] injects um, the the Czech language model later.
+(PERSON10) And the deadline for this is for this Friday or next Friday?
+(PERSON4) Definitely this Friday.
+And earlier would be better, because there is little chance that the demo could take place this Friday already.
+(PERSON22) Mm-hmm. 
+(PERSON10) OK. So it should be.
+(PERSON22) So, please could you one more time repeat the path to to the test set?
+Is it  in [PROJECT3] test set-
+(PERSON4) Let me check the- 
+GitHub [PROJECT3] its IWSLT non-native test set actually and I'm not sure whether you have access to that.
+So that is a, that's a potential problem.
+Test set [ORGANIZATION3] consecutive, uh, and oh there is not.
+Mm-hmm, so we had not committed these.
+ <parallel_talk> SLT [ORGANIZATION6] SLT datasets uh </parallel_talk>.
+ And now we are probably running into the problem that um.
+ <parallel_talk> <unintelligible/> dev set parts. first review. MM IST it should ve versioned. Strange. That VG that, Okay, done, released as. So it should be Dutch and <unintelligible/> is missing. It should be done. So I'm pasting now to the Google document. Where is that. Mmmmm.<unintelligible/> I figure the bullet points, don't know why they always break for you <laugh/>. So yes. Keep them, on, there is there is a button for the bullets up <laugh/> yeah mm </parallel_talk>
+So this is the [ORGANIZATION3] consecutive, um, this is where the test set should be. 
+I'm copying it now from like a our sh our sheet.
+And it should be Austrian and Dutch, ant it should be TTCS read.
+So the files, um, files called um Austrian and Dutch, I guess.
+Umm with the suffix TTCS read and uhm the sound the sound is um in dot IS.waw because that like, that's like interpreted.
+<parallel_talk>Strange. I'm not sure if this is. Uhmm. Yeah hopefully it is like that. So. </parallel_talk>
+(PERSON22) So.
+So at the end there should be like non adapted version of the model.
+And then second version, which is fine-tuned on these texts, right?
+(PERSON4) So, actually.
+When I say non-adapted, lets um um lets make it clear.
+So, um so the ideal system audio workers um to be deployed for the demo.
+Non-adapted, um, so fully generic um uh CSENDE ASR and then adapted, adapted non-injected <laugh/> so this is a already including whatever [PERSON12] found and created.
+Um, um, wordless as well as LM data, if any.
+And now, accept, um, for the talk themselves and then um um LM injected um and that um includes the exact speech transcript. 
+So this is the ideal. and this one, the adapted. 
+So actually, no, no, no, no no.
+Yeah. an and then the order of importance is this one.
+This is the most important one.
+This is the second most and third one.
+Um. um. Numbers indicate priorities.
+So, the most important one is the generic. 
+Like is the adapted one for the domain.
+We don't have these yet, right?
+At this moment we only have three.
+[PERSON19], please confirm.
+(PERSON22) Yes. 
+Yes. 
+I yes.
+Because. I I.
+(PERSON4) Are you following?
+Are you looking at the- 
+Is is [PERSON19] looking <unintelligible/> yeah.
+(PERSON16) Yes, so its created from only generic Czech, English, German. So we have right now um.
+(PERSON4) This is what we have.
+(PERSON4) <parallel_talk>Because I I. Are there? I get it. Yeah. </parallel_talk>
+(PERSON22) Are there already some data from [PERSON12]?
+Because I haven't received any like to domain data, uh.
+Get in touch with him.
+I think he did.
+(PERSON16) I think he sent them, you were in that email. But anyways I will send it to you again. <parallel_talk/> <unintelligible/>
+(PERSON22)
+That. That will be great.
+(PERSON4) There is a directory that [PERSON19] is now populating, right?
+So, where is?
+Yeah.
+Where are all the, um, demo, um, preparation files?
+So this is. 
+[PERSON19], I I I thi I in e in an email yesterday I sent you that it would be good
+if you could put all the videos and all the data to one talk level adaptation sub drive, right?
+Do you remember?
+(PERSON16)
+Yesterday?
+(PERSON4) Hhmm. 
+Or the day before yesterday.
+(PERSON16) So <parallel_talk> [PERSON19].</parallel_talk> the demo, vid video which we are, which we will be presenting there in the main-
+Yeah, I have I have them downloaded.
+But-
+(PERSON4) Yes. Yes.  
+Please organise them in this directory.
+And only simling them or from where you now use them.
+Uh, please find [PERSON21]'s email. <parallel_talk>Is it Okay. Can you also?</parallel_talk>
+Yeah. I I'll find it.<parallel_talk> <unintelligible/> </parallel_talk>.
+It was mentioning uh uh net data [PROJECT3] ta data sources talk level adaptation and uh and asking you to create a sub direct.
+<other_noise/>
+So this is, this is, this is where everything should go into.
+So this is, please [PERSON19] fix this path when uh you find this.
+When you create the sub direct.
+And back to the workers types.
+Uh, what we have now is the non-adapted one <parallel_talk> Yeah.</parallel_talk> uh and uh we uh have the data from [PERSON12] so we should use uh them to create the adapted models.
+And, uh, once this is done, then we should also run the LM injected ones.
+So that will be really with the exact speech transcript.
+(PERSON16) Okay. Mhm.
+(PERSON4) So does that make sense, [PERSON6]?
+(PERSON22) Yeah, Yeah.
+It does.
+If you please [PERSON19] could send me, resend the email from [PERSON12].
+(PERSON16) Yeah.
+I will, I will send you that.
+Ok, so I will.
+I will make it a priority and try to like make it, I don't know, Thur till Thursday morning, is it OK?
+(PERSON4) Yeah. Yeah. Yeah.
+And also [PERSON6], do you have any English worker or not at all?
+English model in Kaldi, no.
+(PERSON22) Not at this moment.
+(PERSON7) Yeah, Okay so you are-
+Yeah.
+You don't have any.
+Yeah.
+(PERSON22) Like, yeah.
+I I had-
+I tried the Mozilla common voice but I don't know.
+Do, do we want to use that one? 
+Or-?
+(PERSON4) I think it would be worth trying.
+Because we are in better control over this then uh modules by [ORGANIZATION2]
+But it , it is a lower priority.
+(PERSON22) How is the [ORGANIZATION4].
+Kaldi [ORGANIZATION4] worker?
+(PERSON4) Yep.
+(PERSON9) Because in the <unintelligible/> system this was the other primary submissions, so I believe.
+Yeah. It should be deployed, possibly.
+(PERSON22) Well the [ORGANIZATION4] worker was provided by [PERSON21], but it is not too difficult to replicate the-
+Because he used, or from what he told me, he used some Kaldi set-up which is.
+So its not-
+It shouldn't be-
+(PERSON4) So it never was a worker.
+It was just a system run.
+Okay.
+(PERSON22) Yes. 
+This was just the sys.
+Exactly.
+But we, we could train our own [ORGANIZATION4] system.
+I think it's, it could be quite interesting,<parallel_talk>Yeah.</parallel_talk> potentially.
+(PERSON4) Yeah.
+So, let's not plan to do this for the demo.
+Uh, but let's put it into the back of our heads as a, like an improvement for the English, uh, uh, ASR system.
+And let's do it later.
+We can always say in the demo that based on our other <unintelligible/> evaluation we have a better system.
+A recipe to get a better system, but we haven't done that yet.
+We've just evaluated something and we know what, what we should do now.
+(PERSON22) Mhm.
+Yeah.
+That's sounds like a good, good thing.
+(PERSON4) Uh, so.
+[PERSON19], another thing that I asked you before was to have, uh, like a set of slots of these test sessions. 
+Uh, please put them, put them here.
+Directly in this document <parallel_talk> Okay. Okay. </parallel_talk> 
+It's for the upcoming.
+It's Wednesday, Thursday, Friday and then, uh, two or three days for the next week.
+Fix sometime whenever you are available to to come to the office and and have this running and people will sign-up, when they are able to follow.
+And, ehm, for each of these days, please also, ehm, indicate what should be deployed by by then.
+Or like wh what would, what is going to be tested.
+And obviously this will get improved, as as people provide new things.
+Uhm, yeah.
+(PERSON16) And should we also include <unintelligible/> in these tests?
+(PERSON4) Yeah.
+That's right.
+That that's right.
+Yeah. 
+So, mm either put it here or put it in the demo document and link demo document from here.
+(PERSON16) Or why don't I also put in the, put it the document and write an email and-
+(PERSON4) Yeah.
+But, but it actually belongs better to the demo, the demo document.
+Because we also want other parties to be involved in this.
+(PERSON16) Yeah. 
+Okay.
+Okay.
+Okay, you were talking about the demo document.
+Okay.
+(PERSON4) Yeah. Okay.
+So remember, in four minutes we are going to be cut off, a forcefully.
+So is there anything else to, uh, to say?
+(PERSON22) Just a check. <parallel_talk><unintelligible/>Yeah. Okay. Please.</parallel_talk>
+No, no, just a confirmation if the new models should go into the electro systems directory already?
+And the <parallel_talk> So.</parallel_talk> for the demo?
+(PERSON4) Uh, so, uh, ss, yes, wel.
+What is, what is a model <laugh/>.
+So, uh, this this [PROJECT3] system is for back-up of the important things and these models are fairly important, because they will serve in the demo.
+So, yes, they they should go there.
+The question is, if we are looking at these idle workers, uh, does it mean like three almost identical copies of the same thing?
+Uh, yes, feel free to make it as free identical copies.
+Or feel free to make it cleverer, so that will be one directory which will have three, three start-up files in, in there.
+Whatever is more convenient for you.
+(PERSON22) Ehm. Okay.
+So I will probably check with [PERSON19], right? 
+(PERSON4)
+Yeah.
+Yeah.
+And and definitely, uh, we need to be very careful about not confusing thing.
+So, we need to know which worker-
+The workers have sig should have signatures that indicate it, for which talk they are adapted.
+And [PERSON19] needs to have the set-ups, the the launching scripts ready for each of these.
+And it would.
+It should very clearly say: "You have now launched this and you have now launched this."
+And, uh, <other_noise/> there is a very big risk of of mis messing things up.
+So,uh,the log there.
+Shuld.
+Does the log there mention the workers?
+The exact fingerprints of workers that were used?
+(PERSON16) Yeah. Yeah.
+(PERSON4) Ma make sure its there, because we need to see when we get the log theirs then, which worker was used.
+Whether it was the LM injected or the adapted or the non-adapted.
+(PERSON16) So basically the logs also have the command behold pipeline. As a text, as a text file so and basically it contains everything. <unintelligible/>
+(PERSON4) But the platform is free to like to downgrade to go into more generic models, uh, and that could change the behaviour of the pipeline.
+If I understood correctly, if your exact fingerprint is not available, it will easily drop the domain and launch, uh, uh, the generic model.
+(PERSON16) Yeah, yeah.
+I I understand.
+So basically when I use domain adapted and lauch a new worker that very fingerprint, that very worker should have a unique signature.
+(PERSON4) Yeah. Yeah.
+So ho-
+(PERSON16) That's what you mean.
+(PERSON7) We need to know which worker was actually used.
+Whether the adapted one or the non-adapted one.
+(PERSON16)
+Yes, that's what I am saying that I have.
+So basically the pipeline which basically learns it's saved a text file.

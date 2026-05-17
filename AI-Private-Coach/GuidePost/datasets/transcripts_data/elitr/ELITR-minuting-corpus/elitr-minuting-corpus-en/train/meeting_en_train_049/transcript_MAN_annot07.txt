@@ -1,0 +1,1030 @@
+(PERSON2) Good morning.
+(PERSON6) Ah, hi morning.
+Yeah.
+So it works, that's great.
+Yeah so who all do we expect to be in the call?
+[PERSON11], and then possibly also [PERSON4] and [PERSON12].
+(PERSON2) Possibly.
+For sure [PERSON10] will join us.
+(PERSON6) Yeah.
+(PERSON2) We made the plan C working on our developments server.
+(PERSON6) And plan C that's the like click all click according to the instructions.
+(PERSON2) Yep.
+(PERSON6) Ok.
+Yeah.
+So we need multiple solutions.
+(PERSON2) Yep.
+I think that probably at the end we will use both of them.
+Especially if you would like to live translate the meeting-
+(PERSON6) Itself.
+Yeah, and you're afraid of this.
+<laugh/>
+(PERSON2) Ju- well.
+From the work point of view, no, because actually it's not our ASR and not work machine translation.
+But from the personal point of view, a little bit.
+Because actually I know everything will work.
+But I also know that the polity of the output will not be that good.
+(PERSON6) Yeah, but that's, the question is whether anybody has a better output quality.
+And I don't think that this is that is the case.
+(PERSON2) Ok.
+(PERSON6) So that's why I think it's like it's we're in the middle of the project, I think it's good to show where the state of <unintelligible/> is.
+And I I don't think that we're bellows the state of the art.
+(PERSON2) Ok, nice.
+(PERSON6) Maybe I'm like overly self-confident, but.
+<laugh/>
+(PERSON2) Well, you know, you are you are the the head of the project so that.
+I will follow you, don't worry.
+(PERSON6) Yeah, yeah, so let's let's see what the others will say.
+We can, I'm I'm not opposed like in voting on this for example.
+So that everybody has or even if even someone would like to have a veto voice that's that's fine as well.
+Yeah, so while while waiting for the others, because I have too many other things and I'll be like skipping of the call and-
+(PERSON2) Don't worry.
+(PERSON6) Again, I will like to join at 10 again.
+When [PERSON5] is in.
+And so so that we know like how to proceed with with the real user or observer.
+And the question is what will we put to the agenda.
+I was kinda surprised the one they ask for agenda.
+Because I thought that we will just play this for you and and then you will like comment and we will say why it is so bad at or why does what it does.
+(PERSON2) I was cared by the number-
+(PERSON6) Number, yes so was I.
+(PERSON2) What?
+() people from [ORGANIZATION3] site then the actual project people.
+(PERSON6) It's not [ORGANIZATION3].
+It's not [ORGANIZATION3] people.
+This is all the this is actually worse for us  in in a way.
+So.
+This is all the [ORGANIZATION5] EC.
+So the-
+(PERSON2) Ah, [ORGANIZATION5], sorry.
+(PERSON6) The the [ORGANIZATION5] [ORGANIZATION5] people.
+So it will it will be the various heads of the DG something.
+And.
+(PERSON2) 10 15 people.
+(PERSON6) Yeah yeah yeah, exactly.
+So this I'm also afraid of of this.
+But imagine that actually in just 20 days from now, we normally we should have had 2 to 4 hundred people looking at it.
+So this 10 to 15 directors and the main heads of like supervising all our money flow <unintelligible/> is not much worse.
+(PERSON2) Ok ok, it's a good point of view.
+Well my my idea now is to let [PERSON10] and [PERSON11] when they join us, prepare the demo for [PERSON5].
+(PERSON6) Yeah.
+(PERSON2) If you would like to join us for a pre-pre-pre-pre demo, so that we can explain you the the points and how it works.
+(PERSON6) Yeah.
+(PERSON2) Then we will have the Romanian translation demo with [PERSON5], at 10 o'clock.
+And then probably we have to discuss about the agenda and.
+(PERSON6) Yeah, I'll I'll have to-
+(PERSON2) Good morning [PERSON12].
+(PERSON6) Yeah, hi.
+Hi [PERSON12].
+I really have to leave at 11 sharp.
+So that's that's another like complication but it's not the last day before the the demo day.
+But we should send the agenda at some point.
+So [PERSON12] we're discussing that yeah we got a little bit scare from the number of planned visitors or or the the the size of the audience for the demo.
+(PERSON12) Yeah, that was that's bigger than I was expecting.
+(PERSON6) Yeah, and it will be all the all the heads of the various directory generals.
+So that's this is all our money for the next 2 decades.
+<laugh/>
+So we should we should use the demo in in decent way.
+And I don't know what to what to put into the agenda.
+So I think because it will be people outside of the project probably we have to briefly introduce the project as as a whole.
+Again like the the slide with the meeting summarization and this is again an option to make that call to action.
+So that they would donate us data.
+On the [PROJECT2] webpage there is a new blog post.
+Which is on data collection.
+So [PROJECT2] dot eu blog and it says "Recipe for miracles to happen".
+That's that's that.
+But it's just a technical thing actually.
+So if you have any institution that could have their meetings and could provide us with their minutes, then direct them to this blog post, because it illustrates what we are collecting and it will straights what what we're going to do with that.
+So the goal which will probably be accomplish only outside of the [PROJECT2] time frame will be these regular workshop as we have for speech recognition, spoken language translation and machine translation to have these also for mi- meeting summarization.
+And with these with the series of such workshops I'm quite confident that it will evolve to something usable.
+So [PROJECT2] can only start this.
+But i think that I'll I'll mention this to in the demo session and whenever you're in touch with any institution note that there is already data partners at the very end of that blog post.
+If you're looking at it.
+There is [PROJECT2], [PROJECT1], and other project that we have.
+Ok that's actually they list a wrong one.
+But never mind.
+And the [ORGANIZATION2].
+So we have some someone outside.
+Hi [PERSON10].
+And they are giving us their weekly meetings which are run in [ORGANIZATION4].
+In Czech, obviously.
+And they are also giving us the minutes, so we are collecting this data and lot of this data will will have to remain secure.
+We will see how much we can actually publish for for the competitions but this is collection that that we want to grow.
+So the more we can get the better.
+(PERSON2) What what about the the recordings we lost in that <unintelligible/>.
+(PERSON6) Yeah, they are unfortunately lost.
+So that's yeah.
+But that that was just 2 or 3 sessions, so not many.
+(PERSON2) Ok.
+(PERSON6) So that's luckily we didn't use that platform too often.
+Because they are strict with deleting the files and [PERSON13] was too busy with preparation for various campaigns and I was also too busy to like supervise this unfortunately this, yeah.
+This is this is lost but that's luckily it's not too many.
+(PERSON2) Ok.
+(PERSON6) Yeah, so we are missing [PERSON11] and I'm not sure if I have his cellphone number.
+It's too early in the morning.
+For him.
+(PERSON2) Also for me.
+(PERSON6) Yeah.
+(PERSON2) [PERSON10], meanwhile may I ask you to prepare the German into Romanian plan C demo?
+So that we can at least start from here?
+(PERSON10) Ok, so I'm already one button script for to invoct the streaming.
+So just.
+Well I need to search the map for the for the the path.
+So it's very early and-
+(PERSON2) Don't worry.
+I also miss my coffee this morning.
+(PERSON10) So I'm looking for the Romanian brai- fingerprint right now.
+(PERSON6) Yeah so, so [PERSON11] will join shortly I think he didn't realize that he should be here from 9 for the preparations.
+He probably thought that the call is start at 10.
+So what do we put into the agenda for the demo session.
+The brief introduction of the project, the call to action for data preparations.
+And then maybe some so this is like outside of the demo itself.
+And then should we like prepare the the audience to something?
+Or should we first give them the demo and then discuss the technologies and their limitations, what will you recommend?
+(PERSON2) I recommend to start from what actually works.
+(PERSON6) Yeah.
+(PERSON2) I suggest to start with demo.
+And then pass to the more to discuss regarding the the lack of the actual technology in order to conclude with the feature works.
+(PERSON6) Yeah.
+Yeah I agree, that make sense.
+(PERSON2) Ok.
+Call to action.
+I'm writing something in [ORGANIZATION6] doc.
+(PERSON6) There is some some issue with the agenda.
+(PERSON2) There is the To do.
+In the to do to do list.
+The last point is the agenda.
+(PERSON6) Hmm, [PERSON7] says that the document is read only.
+(PERSON2) Really?
+(PERSON6) But it it is not.
+I see anyone on the internet with this link and edited.
+(PERSON2) Yes, I also see [PERSON7] as editor.
+(PERSON6) I see [PERSON7] as editor as well, right.
+So may- maybe I didn't get.
+He talks about the agenda.
+Is agenda in other document?
+No.
+(PERSON2) No, no no no no.
+It's on page 1 2 .
+(PERSON6) Yeah, yeah.
+(PERSON2) On page 3, the last point, exactly.
+(PERSON6) Yeah, yeah.
+So, yeah.
+That is strange.
+So [PERSON7] has some strange link.
+Which doesn't really work for him.
+(PERSON2) Oh I can re-share it, of course.
+(PERSON6) No, but that's like he says that in the chat, so.
+So [PERSON7] are you are you here can you talk as well?
+Maybe, maybe not, I'm not sure.
+Ah ok, so [PERSON7] cannot speak, never mind.
+Yeah, ok.
+So I think that for the agenda I'll prepare some slides.
+That will be mainly re-use of of the previous slides.
+One of slides will say demo and then we will see what what exactly is in the demo.
+And the current plan is to have that TED talk that in German that was selected by [PERSON4], right?
+And so it's it's quite important that people are not overwhelm with too many things to read.
+So we should really narrow down what everybody is will be looking at.
+Because we are quite experienced already with like following to too many subtitles at the same time.
+And we know that we need to disable them to to start accessing them.
+So if we overwhelm them then their only final impression will be just confusion from too much jumping text.
+If we are very strict, we can I think this this overwhelming is is useful as well.
+But we should first start with some limited view.
+Where they only see maybe the English generate out of that German.
+And only then expose them the all all the languages to them and then allow them to-
+So this is this is something that we need to choose.
+Whether they each of them should follow their mother tongue or all of them should follow English.
+Maybe all of them should follow English for a while.
+And or or maybe we start with each of them following their mother tongues.
+So we will give them instructions "please, select the languages, select-"
+(PERSON2) No no no no
+(PERSON6) No?
+(PERSON2) The the demo should run in shared screen.
+This because there's no time to explain people how to-
+(PERSON6) Click anywhere.
+(PERSON2) in the, using correct the platform.
+(PERSON6) Does this work?
+If you're really sharing the video, I saw it always to like jumping.
+The network was overloaded I the by the incoming.
+So so I don't think we can use the communication platform which should be probably [ORGANIZATION4].
+For distributing the video.
+We can use it only for the discussion itself and then for the video people need to be independently watching.
+(PERSON2) Ok.
+(PERSON6) Otherwise the network will not not manage.
+(PERSON2) This is something that we can test actually how to arrange it.
+(PERSON6) Yeah, yeah.
+(PERSON2) If the video it's stream the online for example with the M3U8 URL.
+It opened by browser for example.
+Or in the VLC software but actually it start <unintelligible/> a little bit more complex.
+I think that probably giving them the video to be could work.
+(PERSON6) Yeah, yeah.
+(PERSON2) Good morning [PERSON11].
+(PERSON6) Ok, so as I said I'll probably disappear from the call now, please go ahead with the technical preparations.
+And I'll re-join before 10.
+You can e-mail me in the mean time if I should connect earlier but, yeah.
+And at 10 [PERSON5] will probably join.
+Did she receive the link?
+I'll send her the link.
+(PERSON2) Yes.
+(PERSON6) Just as a reminder.
+That at 10 we're we're expecting them.
+Ok, so thanks, so I'll I'm leaving the meeting now and try to-
+(PERSON2) Ok, see you later.
+(PERSON6) Yeah, thanks, thanks a lot.
+(PERSON2) Ok.
+(PERSON11) So, yeah, hi everyone.
+(PERSON2) In, tell me.
+(PERSON11) <unintelligible/> at 9 but I was not sure where to find the [ORGANIZATION4] link.
+(PERSON2) Oh, ok ok, don't worry, don't worry at all.
+(PERSON11) So I-
+(PERSON2) Ok, the next 40 minutes we have to prepare the [PERSON5]'s demo.
+(PERSON11) Yeah, so-
+(PERSON2) From German to Romanian.
+(PERSON10) Ok, yes, I'm I don't seem to be able to find a path for that.
+I.
+(PERSON2) Ok.
+(PERSON10) There is no there is no Romanian output that can find.
+Register right now.
+(PERSON11) Yeah, because I have restarted the system yet.
+(PERSON10) ok.
+(PERSON11) So do you-
+So so I have prepared the plan B which is delivering instruction and falling the subtitles then.
+And yeah let's let's start it.
+So the source ASR will be English ASR or German ASR?
+(PERSON2) ASR.
+(PERSON10) Yes,
+We're we're using the same German video we've been using for a bit.
+(PERSON2) Is is the one selected by.
+(PERSON11) Yeah yeah yeah, don't worry.
+(PERSON2) By [PERSON4], let me check it please.
+(PERSON11) So, shall I play the video from Youtube or from [ORGANIZATION7] presenter?
+(PERSON2) We will test both of the solution because we have also to display them to [PERSON6].
+(PERSON11) Ok, ok ok.
+So just let me know the the source of the video and I I'll start the <unintelligible/>
+<another_language/>
+(PERSON10) So we have trying plan B first and then plan C just in case, right?
+(PERSON11) Yeah, ok.
+(PERSON2) No we will play both of them <unintelligible/> [PERSON6]'s idea is to first demo pre-recorded video.
+(PERSON10) So today we use both, exactly.
+(PERSON2) Both but also they <unintelligible/> demo.
+Probably.
+(PERSON10) Ah, ok
+Yeah.
+(PERSON2) Because we want to show the pre-recorded video.
+And then we want to test non-native speakers live speaking.
+So that [PERSON6] will speak and probably [PERSON11] will catch the audio and pass it the to the ASR using plan B.
+Ok.
+I'm going to make a coffee or sorry.
+I'll be back in 1 minute.
+[PERSON10], when you're ready, tell us.
+(PERSON10) Ah yes or I'm I'm going to <unintelligible/> to leave in a bit, sorry for that.
+I'm leaving notes [PERSON2] to you on the platform itself there's read me.
+Ok so I have a script which is set up to read the input video from that pre-processed file.
+So to not affect performances as much.
+(PERSON2) As I'm going to connect and test it together with you in couple of minutes so that I'm sure that everything works.
+(PERSON10) Ok, we can test it <unintelligible/> German subtitles right now or we can hook up the pipeline for the Romanian but I need a fingerprint.
+Is it online?
+[PERSON11]?
+(PERSON11) Yeah.
+(PERSON10) Is the translator and what the other word, oh my god.
+(PERSON11) Subtitler.
+(PERSON10) No, ok the publisher is already online.
+I don't know if it it fits.
+(PERSON11) Yeah, we we have a publisher for Romanian already.
+(PERSON10) Yes, the fingerprint is is <unintelligible/>?
+I don't know if your pipeline is hook up to-
+(PERSON11) Yeah, it is.
+And just on you.
+I will play the short video and we will see the subtitles as well.
+(PERSON2) <unintelligible/> credential.
+Ok I'm online [PERSON10], where did you put the-
+(PERSON10) Ok so in the home of the of wrote there is a an [PROJECT2] <unintelligible/> set up.
+Ok?
+You can fi- you can find-
+(PERSON2) Wait wait wait wait wait.
+Ah ok.
+(PERSON10) So there is a there is a general read me and read me just for you and then there is a one button set up script which does the thing.
+(PERSON2) Ok.
+(PERSON10) Well I'm editing the script right now so to where is-
+So to get the fingerprint.
+Let's see this works.
+(PERSON2) At the moment.
+Set up.
+Ok do we have Romanian here, yes.
+A a and it's configured.
+Language we have Ro.
+Oh this is my coffee.
+(PERSON10) [PERSON11] can I ask you to to paste either in chat or on the document the fingerprint fingerprint set up you are using?
+Because I can't find it on the on the web page.
+Yes.
+(PERSON2) Look from EN and should be corrects because we use English <unintelligible/> is it correct [PERSON10]?
+Yes.
+Good, really good.
+Ok.
+[PERSON10] would you like to support me for one run?
+(PERSON10) Yes.
+(PERSON2) Ok, I'm connected I'm here and I have to type just one button set up, is it first?
+(PERSON10) Yes, I still need to input the fingerprint, the correct fingerprint so I'm very slow this morning I.
+(PERSON2) Don't worry, do it.
+(PERSON10) I.
+(PERSON2) Ah this is my coffee.
+(PERSON11) [PERSON10], by the way the correct fingerprint for Romanian and some of the languages have already been configured in the [ORGANIZATION7] presenter.
+(PERSON2) Sorry?
+(PERSON10) So eh, sorry, your microphone is.
+(PERSON11) Ok, ok.
+Just a minute, just a minute.
+I think that the corret correct fingerprint have already been configured in the [ORGANIZATION7] presenter.
+(PERSON2) Yes.
+(PERSON10) Yes, but I also need to to call them from my AB client and.
+(PERSON11) Ok, ok, ok.
+(PERSON10) I, it's a personal issue, not not a screen issue.
+I can't find the web, from admin web I st- I I can not search the path from English.
+(PERSON2) Oh, really?
+(PERSON10) It does, I keep refreshing, may maybe I'm doing something wrong.
+(PERSON2) Admin web two?
+(PERSON10) Yes.
+(PERSON2) Ok.
+(PERSON10) No results.
+(PERSON2) Search path.
+Ok.
+(PERSON10) I I know which publisher we are using because there is just one for the Romanian.
+Who's going to output to that?
+So the.
+Which translator is going to produce Romanian?
+(PERSON2) [PERSON1].
+From the audio to the text.
+There is a path, let's check for if there's the the translation f- in English.
+Search.
+(PERSON11) Or it's-
+(PERSON2) To English.
+Maybe it's just the search path that is not working.
+Try to test it to AB client.
+(PERSON10) Just a raw.
+(PERSON2) Yep.
+(PERSON10) C'mon, c'mon.
+(PERSON2) Ok, ok.
+Is it listed here the the Romanian machine translation in the spreadsheet?
+I can't see it but maybe it's just early morning also for me.
+It works.
+No.
+(PERSON10) I get no connection I mean there is no path to Romanian.
+(PERSON2) Ok, [PERSON11], may I ask you to share with us input and output fingerprint of the Romanian machine translation?
+[PERSON11], [PERSON11], pardon.
+[PERSON11]?
+Is the Romanian machine translation up and running?
+(PERSON11) Ah, I just test it for a few minutes and I stopped it now.
+(PERSON2) Ok, leave it up and running because also you would like to test it.
+(PERSON10) Yeah we need, we need worker to be online otherwise.
+Well, I mean, in principle we can I don't know test the the German again to show because I'm going to disappear in a minute so.
+(PERSON2) Yes, [PERSON10] don't worry at all.
+[PERSON11], can you start the machine translation of Romanian again, please?
+So that we can make <unintelligible/> test.
+Ok.
+(PERSON11) You mean with ASR, right?
+(PERSON2) We would like to.
+(PERSON10) Both the a, the ASR and a translator.
+(PERSON11) Ok, ok.
+(PERSON2) Well, actually the pipe is from German audio obtain German text translate in English text and then from English to Romanian.
+Ok.
+(PERSON11) So you just want English and Romanian and German, no- nothing else.
+Or do you want like others languages.
+(PERSON2) We would like to test the pipe that starts from German audio and up to Romanian text.
+(PERSON11) Ok, ok, I run it.
+(PERSON2) And please share with us the machine translation fingerprint of Romanian so that we can check a work pipe.
+(PERSON12) <unintelligible/> have a worker which can do direct translation from German into Romanian.
+(PERSON2) Yes, we know.
+The English pivots.
+(PERSON12) Ok.
+(PERSON11) What we are using the English pivot no I'm using for this worker which translates from the German to Romanian.
+(PERSON12) Ok, cool.
+Yeah I thought you were doing pivoting.
+(PERSON2) Ah <unintelligible/> pivoting.
+Oh ok.
+(PERSON11) I I could-
+(PERSON2) Don't worry.
+(PERSON12) Never mind, I may misunderstood.
+(PERSON10) Yes.
+(PERSON11) But I think first worker doesn't offer English translation, right?
+(PERSON10) Sorry guys, I I.
+(PERSON11) Ok ok.
+(PERSON10) Yeah, the script is set up, there are two sets of the fingerprints, [PERSON2] you can choose.
+(PERSON2) One <unintelligible/>
+(PERSON10) Let me check that my editor is closed.
+So ok.
+Bye everyone, sorry.
+I'll be back when I can.
+(PERSON2) Bye [PERSON10].
+Ok.
+[PERSON11].
+Please write in the chat the fingerprint of the machine translation we would like to use for the demo.
+(PERSON11) Ok.
+(PERSON2) Ok.
+(PERSON11) Ehm [PERSON12] by the way, does your regular worker provides translation to English, does it?
+(PERSON12) The German?
+(PERSON11) Yeah yeah.
+(PERSON12) Translator.
+Ehm, <unintelligible/> I think possibly the worker doesn't currently but it's easy to change.
+So ok, so which languages would you like?
+Basically everything we have now plus English, or?
+(PERSON11) Yeah, that would be great.
+Because I I had an English worker running until yesterday and I don't know why why it is stop and it's difficult to get.
+(PERSON12) Ok.
+(PERSON11) GPU for for it now, but let me still check.
+(PERSON12) Ok and English to the next and restart worker?
+(PERSON11) Meanwhile, may I ask you to write me the fingerprint of the machine translation work-
+(PERSON11) Yeah, I I sorry.
+I I I did but I forgot to remind you.
+It's in the [ORGANIZATION6] document itself.
+(PERSON2) Ah, ok.
+Ok.
+(PERSON11) Ok, so shall I <unintelligible/>.
+(PERSON2) Yes, thank you.
+(PERSON11) Ok, ok.
+So here.
+(PERSON2) Ok, ASR.
+(PERSON11) VEE from EAN to DEEU from EAN pub.
+And.
+(PERSON2) And.
+(PERSON11) Romanian from <unintelligible/>.
+(PERSON2) Ok, ok.
+Ro <unintelligible/> EN.
+I think that, are are you able to run this kind of pipe and putting input German ASR, Ge- German audio and obtain Romanian text.
+(PERSON11) Yeah I do but like it it need some quite ugly hacking like hard-cording the fingerprints sometimes.
+(PERSON2) In fact I suppose that there is no direct path between this two.
+Let me check again.
+(PERSON11) So I quickly start the worker for English first to that I should also see English.
+And then it will start the pipeline very quickly.
+(PERSON2) Ok, this path exists.
+Ok there is no way to arrange our demo with the actual fingerprints map.
+Because there is no direct path with German and Romanian.
+It works in the plan B because actually pipe text on on the client site.
+Which is definitely not the way to use the the service architecture.
+But actually it works so.
+Will not comment it, it works.
+But we can not do it on our site with plan.
+Until you prepare the [ORGANIZATION1] server and <unintelligible/> your pipe in the [ORGANIZATION1] server so that you will have your mega pipe, piping text into many clients.
+And we give you the the part of the script which actually place simultaneously video and audio.
+Since [PERSON5] is going to arrive in 9 minutes, first to test together the plan B.
+(PERSON11) Yeah, yeah, yeah.
+(PERSON2) Ok, and we will reason about plan C later, ok.
+(PERSON11) Ok, ok, ok.
+(PERSON2) Meanwhile I'm going to start the correct fingerprint path, maybe we can arrange it today.
+We use the same, audio to text.
+Did you confirm me that the machine translation worker for Romanian it's not up and running?
+(PERSON11) Yeah, it's not, I'm on time to get the English worker up so that I can also see that English subtitle.
+(PERSON2) Ok.
+Just I was not see it connected to the to the mediator.
+(PERSON11) English worker behaves really <unintelligible/> let's start without the English.
+Ok, so I play the video from Youtube itself, ok?
+(PERSON2) Ok.
+(PERSON11) So, how do you want it distribute.
+(PERSON2) Well, I would like to see the demo set up.
+So that you are going to share your screen.
+(PERSON11) Ok.
+(PERSON2) Online text flow in the upper side of the screen.
+The text of presentation platform in the lower side.
+We will see the countdown.
+And when the countdown says to play start we will play start on upper shared video.
+This is the plan B demo.
+(PERSON11) Ok.
+(PERSON2) Ok.
+(PERSON11) My system's overloaded from [ORGANIZATION4] and.
+(PERSON2) When the worker is up and running please give me-
+(PERSON11) Yeah.
+(PERSON2) Ok.
+So so that I can definitely check the the existing pipe.
+(PERSON11) I need to relieve the window.
+Hard.
+So here is the video and I'm just want to have them.
+Where is this thing.
+(PERSON12) Hi [PERSON5].
+(PERSON9) Hi, hi [PERSON12], nice to see you again.
+(PERSON12) Yeah, you too.
+(PERSON2) Hi, good morning.
+(PERSON11) Hi good morning.
+(PERSON9) Good morning.
+(PERSON6) Hi.
+(PERSON11) So let's let's start it.
+(PERSON6) So let me ask [PERSON2] in the meantime.
+What is what is the status now.
+Because I've I wasn't here for the most of the our preparations.
+(PERSON2) Ok, we checked the actual existing fingerprints.
+And plan B cannot be displayed at the moment.
+Plan C, sorry.
+The reason is that at the moment doesn't exist a direct pipe starting from German to Romanian.
+So that we will need to all have our direct pipe so that we will be able to run it.
+Or having [ORGANIZATION1]'s server and sharing with [ORGANIZATION1] actually it's already the Github repo repo.
+We will share it again.
+Share with [ORGANIZATION1] the the methodology in order to both stream audio and stream video.
+So that you can run your mega pipe in your web server.
+And this is what actually I prefer as option because it's important to let you be able to replicate this kind of demo.
+But we will work on it don't worry.
+(PERSON6) So that's plan B.
+So plan C cannot be tested now and plan B-
+(PERSON2) No, just now.
+(PERSON6) And plan-
+(PERSON2) Since focusing on the Romanian translation.
+(PERSON6) Yeah.
+(PERSON2) [PERSON11] is preparing the plan B demo.
+And it he's arranging his screen so that we will be able to see both the presentation platform and online text flow.
+(PERSON6) So this is [PERSON11]'s screen, right?
+(PERSON2) Yes.
+(PERSON11) Yeah, yeah.
+(PERSON2) Ok.
+And so that we will proceed with the Romanian understandibility.
+Test.
+(PERSON6) Yeah.
+So for [PERSON5], she can watch this screen.
+And we will see whether this is smooth enough or not.
+And if it's not, then or if the font size is too small then [PERSON5] can also decide to look at the links.
+So for example the lower part the lower window, which now [PERSON11] has increased in size.
+This quest <unintelligible/> thousand text flow.
+This is something that [PERSON5] could open on her own web browser.
+To have better resolution, right?
+(PERSON11) Yes.
+(PERSON2) Yes, but I would like to test the final demo.
+(PERSON6) Yeah, yeah, yeah, exactly.
+(PERSON2) Situation also.
+(PERSON6) Yeah, yeah, so the final demo situation is that [PERSON5] should only be looking at this shared screen by [PERSON11].
+(PERSON2) Exactly.
+(PERSON11) Yeah.
+(PERSON9) Ok, that's fine with me.
+(PERSON6) Yeah.
+(PERSON2) [PERSON11] you have to open also the presentation platform output.
+(PERSON11) I <unintelligible/>
+(PERSON6) And I see another technical problem.
+Will we hear the sound from the video?
+Because the play back has to go not only to [PERSON11]'s headphones but also to the [ORGANIZATION4] call.
+(PERSON11) You need to open this link and follow the instructions what you see in the in the presenter.
+(PERSON6) Ok, so that is the most important part.
+(PERSON11) Yeah.
+(PERSON2) Plan B is the one which involves the count down appearing.
+That each remote participant will be able to play all at the same time.
+(PERSON6) Ok.
+So if those who do not need to listen to the German sound can only watch and those who would like to listen as well they need to open the video and play it at the same time as the the video is started on [PERSON11] screen right?
+(PERSON11) Yeah, yeah, yeah.
+(PERSON6) So [PERSON5] can safely stay with this view and I will try.
+(PERSON11) Yeah yeah, definitely.
+(PERSON2) When to try the the demo output.
+Which is <unintelligible/> ok this one.
+I think that we are going to increase the views of this video on Youtube.
+Exponentially.
+(PERSON6) Yeah yeah, that's quite possible.
+<laugh/>
+(PERSON11) So let me know let me know when everyone is ready and I can start then.
+(PERSON6) I see one strange thing.
+And that is in the [PROJECT2] [ORGANIZATION7] com platform.
+The subtitling there is the video included but it is only the last 9 seconds.
+(PERSON2) It's for the plan C demo.
+Since we are able also to include the the video in the presentation output it was just a test of the paste days.
+We can remove the video for example.
+(PERSON6) Ok.
+(PERSON9) [PERSON11] would you mind putting the tab with the the subtitles bit further up?
+(PERSON11) Yeah.
+(PERSON9) Just in case the.
+(PERSON11) Yeah, yeah, yeah.
+(PERSON2) If you refresh the page, the video should disappear. 
+(PERSON11) Ok, ok, great.
+(PERSON2) Are we going to see also English subtitles, because I'm not that good in Romanian.
+(PERSON11) I I did plan to use English subtitles but English workers are something's wrong with English worker.
+(PERSON2) Ok, don't worry at all the German one instead it's going to be used.
+(PERSON11) Yeah yeah yeah.
+So will have from.
+(PERSON2) Ok.
+I I can try to get something from German.
+(PERSON6) Ok, so if I'm understand correctly there is no English involve in the German to Romanian translation.
+(PERSON11) No.
+(PERSON6) Is the direct model that goes from German into Romanian.
+(PERSON11) Yeah, yeah.
+It's [PERSON12] [PERSON12]'s model and we're I'm using that right now.
+(PERSON12) Yeah, I'm I'm actually slowly confused what I was going on with this.
+Because it looks like the <unintelligible/> slowing through my English English input system.
+So it looks like it's going English into Romanian.
+(PERSON6) Sending German into the English channel.
+Probably.
+(PERSON12) Ok, so yes.
+So I've got 2 workers running, 1 does translation from German into several languages including Romanian.
+The other one does translation with English into the same well more or less the same languages.
+And it looks like the data is coming through the English one.
+(PERSON2) Ok, [PERSON11] please check your pipe, ok?
+(PERSON11) Yeah, my pipe is ready right now and.
+(PERSON2) Yes, but if I correctly un understood of course.
+[PERSON12] is saying that you are going to use the English into Romanian instead of the German to Romanian.
+(PERSON11) Ehm-
+(PERSON2) Did I understood correctly?
+(PERSON11) So what I, ok.
+So first one right now takes German input and emits <unintelligible/> packet which has several languages.
+Right, right [PERSON12]?
+(PERSON12) Yes.
+(PERSON6) [PERSON12] has 2 models.
+(PERSON11) Yes, so one has like multiple languages and one has only a sub set up of languages, if-
+(PERSON6) They differ in the source language.
+(PERSON11) Yes, definitely, so I'm using the one which has German as a source language.
+(PERSON6) [PERSON12] sees it the other way round.
+(PERSON11) Ok.
+(PERSON6) Let's test it.
+Let's test it and if the Romanian is very bad-
+<laugh/>
+(PERSON2) A raw test.
+If it doesn't make sense.
+<censored/>
+(PERSON11) Ok, so we know any further <unintelligible/> let's let's start, ok?
+So, [PERSON5] should just look at my screen and [PERSON6] maybe perhaps try to get this on on video.
+Ok.
+So ok, so I'll start right now.
+(PERSON2) Ok.
+Wow also the countdown is translated.
+Super cool.
+(PERSON11) Ok, so that was the complete.
+(PERSON6) Yeah so this is this is autoplay.
+(PERSON11) So one moment before anyone next any comment I'd like to speak to [PERSON6] that the.
+So when I emit these instruction the count down, it comes faster in [ORGANIZATION7] presenter and rather slow in request.
+So by the time when the count down reaches 5 or when the count down reaches 0 in [ORGANIZATION7] presenter, the countdown is still around like 5 or 4 in the in the in the quest.
+(PERSON6) Sorry, I couldn't hear that because my Youtube was on autoplay and it's started talking German the next video in addition to that.
+I've notice that there was a mismatch between I clicked on 0 exactly at the zero, and I was too early.
+My sound was too early compare to yours.
+(PERSON11) Yeah, exactly.
+So what I'm saying is that the countdown is delayed in quest.
+(PERSON6) Aha.
+(PERSON11) So by the time the count down is like 5 or 4 in quest, the count down has already reached 0 in in [ORGANIZATION7] presenter.
+(PERSON6) So I was looking at the [ORGANIZATION7] presenter and I clicked when the [ORGANIZATION7] presenter told me 0.
+Then the sound was too early compare to what you were show.
+Or what I was seeing in [ORGANIZATION4].
+Maybe there is another delay in [ORGANIZATION4].
+(PERSON11) No no no, that's not the-
+(PERSON2) I I took a couple of notes and I also have the the feeding that the the tag <unintelligible/> platform.
+Had a little delay, but I think that we have to to.
+(PERSON11) Technical details return first we should hear [PERSON5]'s.
+(PERSON6) Yes, exactly.
+You're muted.
+(PERSON9) Yeah, so I think the translation was a better than what we saw last time.
+It was no birds.
+So I think it was mostly made sense, occasionally maybe at 8 and 13 where this this longer this longer sentences I maybe that that was I cannot like a disappear of the screen because it took some time to generate it and I didn't actually have time to read it.
+(PERSON11) Long sentence, yeah.
+(PERSON9) Yeah and I guess the 13 as well it's bit.
+(PERSON11) Yeah, even, yeah agree that it's pretty long sentence.
+(PERSON9) Yeah, so I think it's much better than last time cause I I got the point.
+So it's mostly fluent.
+From like I have trouble when it's blinking light gray.
+Then it becomes harder to to keep reading while it's keep generating.
+So sometimes it feels like I'm loosing track of the of the translation.
+And ok.
+So it's not perfect, but I kind of now I can read through it and understand what what it's talking about.
+But it's also that the like it's talking about I guess it's very bureaucratic so <unintelligible/>.
+I guess one other observation I have is that the instruction at the beginning maybe those like if you scroll up when you show the demo.
+It says "please make click on the game".
+When the the number reaches zero.
+And so, and 2 I think it I think you <unintelligible/> on English word that we can use.
+But the correct word are should be like Romanian subtitler.
+If you want to show this demo with the first instructions, I think maybe they <unintelligible/> I can't give you the translation for the the for the instructions.
+(PERSON11) Aha, ok.
+Thanks.
+(PERSON9) Maybe that's word <unintelligible/>, that's translated as as game.
+The game that, yeah.
+But I guess that's translated by the same model as the rest of the talk, so maybe it's a bit auto.
+(PERSON6) Maybe we say to keep this in English.
+And try to not to ruin the instruction through the MT.
+But I don't know if this is easy or hard.
+(PERSON11) So like ok, ok.
+So so will discuss this later on.
+(PERSON2) Ok.
+(PERSON9) So we try another video that I haven't listened to before?
+(PERSON6) That's yeah, that's a good idea.
+And we could try the other one that [PERSON4] recommender, right?
+The TED talk.
+(PERSON11) Yeah, I have a list of talks here.
+(PERSON2) Maybe ask you, [PERSON11], to make the presentation platform output being wide as the wall screen.
+(PERSON6) Yes, that is important for the logo size.
+(PERSON2) Yeah.
+<laugh/>
+(PERSON11) You mean maximizing the this our presenter or [ORGANIZATION7] presenter?
+(PERSON6) No, no, [ORGANIZATION7].
+(PERSON2) Because because actually the [ORGANIZATION4] box, video boxes cover most of the output.
+And I also note that your your computer has efficient resolution in order to avoid the <unintelligible/> problem.
+(PERSON11) Yeah, yeah.
+(PERSON2) This could be also as manu improvement.
+(PERSON11) So let me open this German TED talks.
+(PERSON6) So I'm afraid I'll have to disconnect earlier because I haven't finish my works.
+But I've recorded the assessment by [PERSON5] into our [ORGANIZATION6] doc, I don't know if you see it.
+But [PERSON5] is maybe not looking at the document but if you could, maybe [PERSON2], if you could do the same for the next video.
+(PERSON2) Yes, sure.
+(PERSON6) Yeah.
+And [PERSON5], thanks a lot for for this test.
+The one think that I wanted to ask everybody to do what's to agree on the next slot for our team.
+And I don't know whether we should again ask you [PERSON5] for the assessment I don't think it is that necessary.
+But our team should definitely meet again soon, so please figure out slot and put it to the to the [ORGANIZATION6] doc.
+Yeah, ok, so thanks a lot and I'm I'm disconnecting at the moment, and I keep my all my fingers crossed for for the next video as well.
+Yeah, thanks, bye bye.
+(PERSON2) Bye.
+(PERSON12) Bye.
+(PERSON11) Ok, so yeah yeah.
+So you want me to maximize the like this.
+(PERSON2) Maximize on wide, not of course because we still have to see both the outputs.
+Thank you.
+(PERSON11) So I just have a little space here to click the video.
+(PERSON2) Don't worry, don't worry.
+(PERSON11) So, ok, so this video is like 14 minutes long.
+And so, when will you want to like this pause it it's going, it's enough.
+Just like say it in the mike.
+(PERSON9) Maybe like 3 minutes or so if if they start.
+(PERSON11) Ok, so I'll myself pause the video, then <unintelligible/>.
+Ok, so.
+Start.
+Aha I have some error here.
+(PERSON2) Meanwhile, may I ask you a question [PERSON11]?
+(PERSON11) Yeah, yeah, please.
+(PERSON2) The Romanian machine translation is the RB.
+(PERSON11) So, yeah, so so.
+(PERSON2) The Romanian machine translation is RB minus EU under score from DE minus.
+Is it correct?
+(PERSON11) So ok, you mean the subtitler, the publishing sub-
+(PERSON2) No, I mean the machine translation worker.
+Because I still need to check the the pipe.
+So I'm looking for <unintelligible/> worker to be used for translation.
+Is the RB minus, ok cool, super cool.
+(PERSON11) So here, ok.
+(PERSON2) This one.
+I I was searching for R and instead it's R,ok.
+This explain everything.
+Thank you.
+(PERSON11) Yeah.
+Something something is wrong with this.
+I don't know why.
+Just just <unintelligible/>
+(PERSON2) We have it.
+(PERSON11) I'm sorry about this.
+(PERSON2) Don't worry.
+(PERSON11) Oh, sorry <unintelligible/>
+Ok, so let's start it.
+Ok, so [PERSON2] I was start in the in in 2 seconds.
+(PERSON2) Sorry?
+(PERSON11) I I <unintelligible/>
+(PERSON2) Ok, we are ready for the next.
+(PERSON11) Yeah, so basically I I do not how but my directory, I jump into some other directory and I was wondering why do I see this weird thing.
+Ok.
+(PERSON2) No worry.
+(PERSON11) Yeah, so let's start.
+<unintelligible/> 
+(PERSON11) So do you want it to continue, or it should be enough.
+(PERSON9) Yeah, I think we can stop.
+(PERSON11) Ok, ok.
+(PERSON2) Ok, and I'm also ready to hear your feedback [PERSON5].
+(PERSON9) I think, if I'm right, I don't know.
+This might be about the talk might be about how to determine which people will be founders of companies and their trades and personalities and science about that, maybe?
+So, I find it harder to read then the previous one.
+And some of the sentences kind of have some non-sensical stuff. 
+Like this like morphologically wrong stuff, like not agreeing in like numbers.
+Yeah, so I would say I would have hard time like following what they're trying to say other than something about <unintelligible/> personalities and trades and how to make some science out of predicting I don't know who will be <unintelligible/>, I don't know.
+And there is, yeah.
+Maybe if you can scroll up, might be, like.
+And at the beginning it says about <unintelligible/>.
+Ok.
+So like says, like number 2 like how founders as and I read it like founders of company or something were born.
+So I don't know what this about exactly, but there is, like if that's the topic of the of the talk.
+I kind of misses the point I think.
+So it's like using the word born in like baby being born maybe.
+Then.
+(PERSON2) Sorry [PERSON5].
+Do you think that the speaker miss the the point of the talk or it's the translation which has probably a lack of.
+(PERSON9) Yeah, mean the translation.
+Yeah, I'm I'm like starting to lis- to read through the the lines and I'm trying to pick up the topic and like from the line number 2 there it seems to be about I'm starting to it's talking about founders being born.
+<censored/>
+So I don't know.
+So just reading that and trying to guess what it's about it's hard to tell.
+And then anyway goes on about something <unintelligible/>.
+So I think it's it's a bit tricky to to follow.
+Maybe later on you get more like number 18 is like like if you look at the number 18 that sentence is very nonsensical. 
+It says like, can you imagine a character with big borders.
+Men, marked bath with hair.
+And gray and long, so it's like a very nonsensical.
+There is also some like-
+(PERSON2) The audio?
+Also.
+(PERSON9) No, I did not listen to the audio.
+(PERSON2) Maybe, you know it's detail talk, it's some kind an an informal talk.
+So maybe in the meanwhile the speaker were making a kind of example which makes sense only looking at him.
+Describing-
+(PERSON9) Yeah.
+But if, yeah, but the words the actual words just don't should not be they.
+(PERSON2) Ok.
+(PERSON9) Even like I get it, that I guess he's describing some person but some of the words should not be there.
+Like together.
+And like before it 17 I think I don't know if it <unintelligible/> is the name of a person.
+[PERSON3] is tra- translated in Romanian for the actual word, so it's mean so the name identity I think it's translated.
+It 17.
+(PERSON2) The name of the person is [PERSON3].
+(PERSON9) Yeah, so [PERSON3] is being translated.
+As the actual Romanian word for bored.
+(PERSON2) Yeah, I got it.
+I don't know if the-
+(PERSON9) Ok, and at 18 that [PERSON3] think that's what confuse me.
+It's translated again and then it says something like large borders, because [PERSON3].
+Yeah, so that's that's why it it yeah.
+(PERSON2) I don't know if it could be.
+If it works like in the machine translation [ORGANIZATION7] works.
+But I think that probably we can add some kind some set of words which should not be translated.
+[PERSON12]?
+(PERSON12) Ehm.
+(PERSON2) Is it possible to add a list of words not to be translated?
+(PERSON12) No, no, it's not easy to do.
+For the current model <unintelligible/>.
+I know people have ehm.
+(PERSON11) Domain adaptation kind of.
+(PERSON12) Yeah.
+So the last I checked it wasn't easy to do.
+Is possible I mean, is possible within the last few months <unintelligible/> I should check.
+(PERSON2) Because <unintelligible/> maybe we we are the finding the files we're going to demo.
+Maybe we can add some minor tuning here in the in order to fix also the translation.
+Ok, did did you get [PERSON5]'s point?
+She-
+(PERSON12) <unintelligible/>
+Yeah, yeah I caught that.
+(PERSON9) Yeah, so like here <unintelligible/> more nonsensical stuff other sentences were fluent but again <unintelligible/> hard to follow to the person, like what point the person was trying to make.
+(PERSON2) Ok.
+(PERSON9) And this was translated by TED talk model or by the europei model?
+I'm just wondering.
+(PERSON12) It it's actually train on lots of data from <unintelligible/> so that's a real mixture of stuff in there.
+So, yeah, <unintelligible/> is there somewhere but that should be some TED talks <unintelligible/> subtitles.
+I think the Bible is there.
+Yeah there's a real real mixture.
+(PERSON9) Ok, I would say a bit worse then the previous one.
+(PERSON2) Ok.
+I wrote your feedbacking the in the minutes.
+And.
+Are you available this week to schedule new test maybe?
+(PERSON9) Yeah, I'm available.
+What I was thinking was whether you would like to one of few of these videos and get the transcript and then send me offline a bunch of this video and then maybe I could say which of them was harder to follow, which was easier to follow just to get an idea of-
+If if you think that would help.
+Like and if you want from like french to Romanian if you want to have a other options.
+(PERSON11) In the meantime I also <unintelligible/> English subtitles ready so if you have if you wish I can play another 30 seconds <unintelligible/>.
+(PERSON9) With English subtitles?
+(PERSON11) Yeah, yeah, yeah.
+(PERSON9) Yeah, yeah.
+I'm I have more time.
+(PERSON2) Which video?
+(PERSON11) It will definitely be-
+(PERSON2) The first one or the second one?
+(PERSON11) Which one do you want?
+(PERSON2) It's the same, pick one.
+(PERSON11) So, I can just play the the next TED talk.
+(PERSON2) Ok.
+(PERSON11) Ok then.
+(PERSON2) May I ask you to copy and paste the link in the chat box?
+(PERSON11) Yeah, yeah, yeah.
+Where is the chat box.
+Ok, so.
+I paste.
+(PERSON2) It's in the bottom.
+(PERSON11) Yes, this is <unintelligible/> how my screen looks like so.
+(PERSON2) Ok.
+Yeah I prepare the new point.
+In the today test session.
+(PERSON11) Ok.
+So, ok.
+So I'll quickly paste the video.
+(PERSON2) Ok, scroll down.
+Exactly.
+Scroll, scroll.
+(PERSON11) Down, ok.
+(PERSON2) Ok.
+(PERSON11) Ok, so here-
+(PERSON2) Ok, ok.
+I make order now.
+(PERSON11) Yeah.
+This is <unintelligible/> this quest.
+Sorry, sorry guys.
+There is something wrong with the English worker.
+Just just a moment.
+Sorry guys <unintelligible/> English subtitler running.
+There is something wrong with <unintelligible/> with my script.
+Ok, we can try this English subtitler along with English <unintelligible/>.
+(PERSON9) Ok, do you want to still let this one play little bit?
+(PERSON11) Yeah, sure.
+(PERSON9) The Romanian?
+(PERSON11) Ok, so I I'll start it again.
+(PERSON9) Or or we can do like I said you can like send me the scripts, the transcripts and I can play through some of the videos if that.
+(PERSON11) So it transcripts which are being generated here, right?
+(PERSON9) Yeah, like if you want to pick like 5 videos of different types and run it through your software and then send me the links to the youtube videos and and files with the transcripts you generated then I could also like later this week just go through them and see which one I think is.
+(PERSON11) Yeah, yeah.
+(PERSON9) Is ready to follow.
+(PERSON11) I can do that, yeah.
+(PERSON9) Yeah, I mean 5 10 you can send me a few I I have time.
+(PERSON11) Yeah, yeah.
+(PERSON9) So we can have just a dip more <unintelligible/>.
+Like some of those Europei type and some of these TED talks and.
+(PERSON11) Yeah.
+(PERSON9) I can pick up what.
+But, yeah, I think it's it's definitely really great to see everything put together, so.
+Little bit more work, but I think it's impressive.
+(PERSON11) Yeah.
+(PERSON2) Ok.
+(PERSON9) Should I give you, are you, should I give you any more feedback, or some more specific stuff?
+(PERSON2) Well, on my side, is all.
+[PERSON12] do you have question regarding the trans- additional quest regarding the translation maybe?
+Or not.
+(PERSON12) Just to, maybe [PERSON5] you <unintelligible/> impression compared with the last session.
+Or the translation <unintelligible/>
+(PERSON9) Yeah, so.
+Last session I only heard the that you that one about healthcare or.
+(PERSON12) Ok.
+(PERSON9) So that was much better this time to follow.
+Like that previous time I don't know what was wrong with the model but it just it just <unintelligible/> when it translate somethings bad and I guess that personal spoke a lot.
+So yeah, the first video that we showed was much better this time.
+(PERSON12) Ok, so yeah, it was a different underlaying translation model which was trained on less data.
+And was trained for more languages.
+So it definitely make sense that this this new model should perform better.
+So it's good that you <unintelligible/>
+(PERSON9) Yeah, that's good.
+And I mean I did listen to that after we had a meeting I did go and listen through the video and look that like the [ORGANIZATION6] subtitles so I had a better understanding of what that video was about.
+I I realized that what you're doing is live translation <unintelligible/> [ORGANIZATION6] does offline translation.
+And the thing that throws me off is it's when there is some way that are totally out of they don't fit.
+Then it throws me off when I'm trying to follow the the subtitles live.
+So because I don't have time to go over and pause and think.
+That's why it's sometimes hard to to follow like in the TED talks.
+But, yeah.
+Yeah, for the TED TED talks sometime I think it was a bit dis- disfluent.
+As well.
+(PERSON12) Ok.
+(PERSON9) Ok, well.
+I I I just want to say I remember when I like back in my PhD when I tried to do speech translation with my syntax system and it was, it was not even one percent as good as this one.
+So I'm I'm just having a lot of fun just so you know the demo I'm really impressed.
+So it's pretty awesome.
+Yeah, ok, well, let me know if you want to have another meeting, I'm pretty open this week.
+(PERSON2) Ok, thank you so much.
+(PERSON12) Thank you [PERSON5].
+(PERSON2) Another meeting, because your feedback is really really appreciated.
+(PERSON9) Ok, great.
+Well, thank you guys.
+(PERSON2) For the moment, you're free.
+Bye.
+(PERSON9) Bye bye.
+(PERSON11) Bye, bye, bye [PERSON5].
+(PERSON2) Ok.
+The other guys, please wait a minute.
+(PERSON11) Yea, yeah, we will stay here.
+(PERSON2) To test the Romanian translation.
+Give me one second.
+(PERSON11) So I got that English subtitler ready, let me check if it works.
+(PERSON2) May I ask you your output fingerprint?
+Of the client the audio into the ASR?
+(PERSON11) Yeah, yeah, definitely.
+So I display it here.
+And it's this one.
+(PERSON2) Ok, is the one are you-
+(PERSON11) Yea, yeah, yeah.
+(PERSON2) But sometimes I didn't get output from.
+But not this one is the publisher.
+The ASR.
+(PERSON11) So, this is the ASR.
+(PERSON2) Ok, it's the one I used to.
+Sometimes I didn't get output.
+Ok.
+I have to go in 15 minutes so go back to the minutes of today.
+And let's check what is we're missing.
+It's really really important for us that today you get in touch with this is admin and the find [ORGANIZATION1]'s server for plan C, ok?
+(PERSON11) Yea, yeah.
+(PERSON2) Yep.
+Today it's.
+We haven't yet tested non-native English speaker, we have to do it in the next session.
+We haven't made also the the stress test.
+(PERSON11) Yeah.
+We can do this stress test now, but.
+(PERSON2) I have to leave unfortunately because actually I <unintelligible/> a meeting.
+Finish at 11 and I had another meeting.
+(PERSON11) Aha.
+(PERSON2) I will I would make order in the minutes and I will send you the <unintelligible/>.
+Let's <unintelligible/> the next test session which could be tomorrow, what do you think?
+(PERSON11) Yeah.
+(PERSON2) Ok.
+Tomorrow.
+Ok, I will be available starting from 11 what do you think?
+Is it fine for you?
+(PERSON11) Yeah, yeah, that's completely fine.
+(PERSON2) Ok.
+If it's possible, tomorrow we can tune the plan C.
+In your server, ok?
+(PERSON11) Ok, ok.
+(PERSON2) Ok, and that's all, I will-
+[PERSON12] it's fine also for you?
+To test again everything at 11 tomorrow?
+(PERSON12) I may have to drop in <unintelligible/> meeting, but I will <unintelligible/>.
+(PERSON11) Ok, ok.
+(PERSON2) Ok, perfect.
+So see you tomorrow guys.
+Actually today when pretty pretty good.
+Plan B is fully working.
+We haven't yet I think from plan C.
+Actually it works but.
+Now you have just my my promise and I we haven't <unintelligible/> anything.
+But I hope that tomorrow we can arrange something.
+If it's possible [PERSON11], leave the machine translation worker running.
+So that we can tune the pipe maybe for tomorrow.
+(PERSON11) Yeah, sure, sure they'll be running.
+Yeah.
+(PERSON2) Ok, perfect.
+Thank you so much guys.
+See you tomorrow.
+I will send you an invitation.
+(PERSON11) Ok, ok.
+(PERSON2) Bye, bye bye.
+(PERSON11) Bye bye bye.
+(PERSON12) Bye.

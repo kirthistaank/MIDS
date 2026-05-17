@@ -1,0 +1,17 @@
+Meeting 10. 8. 2020:
+Attendance: [PERSON8], [PERSON10], [PERSON9], [PERSON7], [PERSON1]
+
+- [PROJECT6] (progress)
+-- weak teacher training - finished
+-- student distillation - problems with reproducing (too much degradation in BLEU)
+- stay with [PROJECT4] due to time constraints
+- if we have to stay with [PROJECT4], let's actually use 3 systems for Czech, giving us two interesting comparisons:
+- [PROJECT4] good (slow), [PROJECT2] student good (fast), [PROJECT4] bad (slow)
+- The comparisons are [PROJECT4] good vs. bad and Good slow vs. Good fast (i.e. [PROJECT4] vs. [PROJECT2] good models)
+- [PROJECT8](progress)
+-- experiments still running
+-- currently, single source MT seems to be better than [PROJECT8]
+-- manual evaluation might be needed
+-- evaluate systems trained on varying size of data
+- can we use [PROJECT8] in the low-resource setting?
+

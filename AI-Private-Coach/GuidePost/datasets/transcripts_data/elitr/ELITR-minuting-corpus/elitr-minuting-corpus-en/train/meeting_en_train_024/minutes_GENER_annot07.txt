@@ -1,0 +1,19 @@
+[PROJECT2] Demo
+
+
+Date: 05. 05. 2020
+Attendees: [PERSON1], [PERSON3], [PERSON4], [PERSON5]
+Purpose of meeting: Preparation for demo 
+Agenda: 
+* Introduction
+* First review of Romanian subtitles
+* What feedback is needed
+* Evaluation of subtitling quality
+* Playing German video and subtitles
+	* Problem how to play it for each one
+	* Arranging signal for starting the video
+* Delay of subtitles - why? because of what?
+* What was video about from Romanian subtitles	 
+
+
+Minutes submitted by:         [ANNOTATOR2]

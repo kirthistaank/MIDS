@@ -1,0 +1,23 @@
+Date: 27. 10. 2020
+Attendees: [PERSON2], [PERSON3], [PERSON5], [PERSON1]
+Mentioned:
+•	The data deadline (30th November).
+•	[PERSON1] promises that he should be able to get everyone back by the end of the week with the [ORGANIZATION1] dataset.
+•	[PERSON1] promises to have his work done by the end of the week.
+•	Fast shared tasks as a second task.
+•	They have to submit aligned data at the end of November.
+•	[PERSON2] has a question why it is necessary to run [PERSON6]'s tool.
+•	Reviews about the alignment tool.
+•	[PERSON1] wants to evaluate some meetings based on the automatic evaluation metrics that they have.
+•	Manual evalutions and automatic metrics compare.
+•	[PERSON2] wants to know what to prepare by the end of November.
+•	Tirhankar describes what he is working on.
+•	[ORGANIZATION1] data set.
+•	[PERSON2] is not clear what to do with the alignment of transcripts and minutes now.
+•	[PERSON2] need person, who will  help her to begin work with annotators - [PERSON5]?
+•	How can be alignment useful for evaluation.
+•	[PERSON2] wants to have smaller pieces of transcripts and a correspondent summary line.
+•	[PERSON5] will help [PERSON1].
+•	[PERSON2] is worried about annotators, she has a lot of data since August, but annotators can't work.
+•	[PERSON2] explains to [PERSON5] exactly what he wants from her.
+Minutes submitted by: [ANNOTATOR1]

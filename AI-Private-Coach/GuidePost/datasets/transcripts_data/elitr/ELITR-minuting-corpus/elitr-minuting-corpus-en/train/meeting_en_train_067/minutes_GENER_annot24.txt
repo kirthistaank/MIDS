@@ -1,0 +1,64 @@
+Date: November 2nd, 2020
+Attendees: [PERSON6], [PERSON1], [PERSON10], [PERSON2], [PERSON11], [PERSON12], ?, ?
+Purpose of meeting: [PROJECT3] Remote Meeting
+
+-Some deliverables should be submitted in December.
+--Luckily they don't have to deliver anything.
+
+- It is expected to provide separate model for [PROJECT1].
+--The architecture is different from the baseline model.
+
+- Paraphraser should be implemented.
+--Paraphrasing and back translation from [PROJECT6] results is kind of usable.
+--Annotation results are in Google document.
+---Relationship between quality estimation and use confidence was described.
+---The confidence in Czech MT system two is the highest (it is the fastest system).
+---The results differ from the previous paper.
+---The confidence in various systems was discussed.
+ 
+-Individual graphs were discussed and explained.
+--Relation between Czech one and Czech two was expected
+--Unexpected was reversed behaviour of the confidence score for Czech two versus Czech three.
+--Not correct graph was presented.
+--Fast system can lead to lower quality and yet make the users more confident.
+---This is something they don't want to achieve.
+
+-Results of multi source back translation were presented.
+--Graphs of diverse translation (para) and normal back translation (BT) were described.
+---Suggestions for plotting the differences were given.
+---Ideas for future research were given.
+
+-[PERSON11] presented his updates.
+--Is trying to run the lemmatized constraints.
+--They want to check the behaviour of the stem when the constraints are provided as lemmas.
+---Suggestion to run the lemmatization during decoding.
+----Maybe stemming is better approach then lemmatization. 
+---Expression "combined constraints" was explained.
+
+-Planning [PERSON11]'s arrival.
+--Tickets will be booked later.
+--Planes are very safe in terms of Covid.
+--A call was planned.
+
+-Update on implementation was presented.
+--Relationship between the Bleu score of the constraint translation against the references was described.
+
+-Payment for annotators.
+--Vouchers are not a good idea, especially [ORGANIZATION5] vouchers.
+--They should pay the money from their own budget and then ask for the money in Euros.
+--Who will be distributing the work?
+--There shouldn't be huge difference in payment for similar tasks.
+
+
+
+Minutes submitted by [ANNOTATOR1]
+
+
+
+
+
+
+
+
+
+

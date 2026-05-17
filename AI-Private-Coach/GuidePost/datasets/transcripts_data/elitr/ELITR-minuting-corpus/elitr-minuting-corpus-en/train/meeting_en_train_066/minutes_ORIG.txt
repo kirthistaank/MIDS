@@ -1,0 +1,185 @@
+Fri 14.6.2019 at 1 PM, [PROJECT3] Remote meeting
+Agenda
+• [ORGANIZATION5] platform
+o [URL7]
+• Windows/Mac, headset, webcam (we suggest to cover it ;-)
+• Anything people want to add
+• Technical realization of delivering subtitles to 400 people at [ORGANIZATION3] Congress
+o Wired connection for some?
+o (Wired) subtitle presentation screens?
+• Date of pre-review meeting:
+o [PERSON17] proposes a day between Sept 23 and Oct 4. (A remote meeting anyway, but we need to have our financial data and other deliverables in some non-final form for inspection.)
+• Who is coming for [PROJECT2] ([ORGANIZATION1] needs names today!)? Please, add yourself here (even if it's still just ‘maybe'/ or you plan us to provide ‘remote support'):
+o [URL4]
+o Date: 27. – 28. 6. 2019 (there was a mistake)
+• 27.6. 6h, 9:15-15:15
+• 28.6. 3h, 9:15-12:30
+o Place: [LOCATION1]
+• Preparations for [PROJECT2]
+o Everyone please add your workers to the Fingerprints MAP:
+• [URL6]
+• Invitations to present [PROJECT3]:
+o BDV Summit in Riga (June 26-28, 2019)
+• [URL9]
+• [PERSON17] asked [PERSON18], [PERSON9], [PERSON15]; with no response; Can we still make it?
+o META-FORUM (Oct 8/9 Brussels)
+• [URL13]
+• Could someone make it?
+o Translating Europe Forum (Nov 7 & 8, Brussels)
+• [URL1]
+• [PERSON17] is very likely going himself
+• Milestones
+
+[ORGANIZATION5] supports recording through the [ORGANIZATION2] Platform
+[ORGANIZATION5]
+31.3.2019
+First Spoken Language Translation Prototype
+[ORGANIZATION4]
+30.6.2019
+Baseline MT Models for [ORGANIZATION3] Congress
+[ORGANIZATION6]
+30.6.2019
+Basic SLT in [ORGANIZATION5]® conferencing platform available
+[ORGANIZATION2]
+31.8.2019
+Initial ASR Systems
+[ORGANIZATION8]
+30.9.2019
+o 
+
+• Deliverables
+o Deadlines - they should be done by now and ready for review!
+• End of May: complete structure of all delivs
+• Mid June: complete contents, internal review starts
+o (PERSON7): I put links to the Overleaf into the [ORGANIZATION7] Sheet (sheet Deliverables), but to be sure, I put them also here:
+• D1.1 Initial Training Data, Separating Confidential and Public Version ([ORGANIZATION4]) - [URL10]
+• Not finished at all.
+• [PERSON13] will work on crawled corpus after 19th
+ D8.1 Periodic Activity and Financial Reports ([ORGANIZATION6] but input from all is needed) - [URL5]
+• Provide BibTeXs of your published papers.
+• Papers under review may or may not be mentioned in the technical part, Part B
+• POSTPONED - till M20. It should not be submitted now, but after the end of the first period. We will have to make an “amendment”. Is everyone fine with that?
+ D8.3 Data Management Plan (DMP): Initial, Updates ([ORGANIZATION6] but input from most needed) - [URL3]
+• Not finished at all.
+• WP5 - [PERSON6] done. [PERSON11] please add some format details.
+ D9.3 GEN - Requirement No. 4 ([ORGANIZATION6]) - [URL8]
+• Done.
+ In [ORGANIZATION7] Sheet ([URL12]) please everyone fill in the sheets for your institution:
+ Dissemination - update continuously (e.g. when you go somewhere)
+ Gender - update when some change occurs
+ Summary for publication - will wait till M20
+• Every partner, please have a look at the sheet “Summary for Publication” and for each topic you have worked on please contribute 1-2 summarizing sentences to the appropriate text fields. (Warning on simultaneous editing: if someone is editing the cell, your text edits could conflict/get overwritten. [ORGANIZATION7] sheets luckily clearly indicate if someone is editing the cell or not.)
+
+Minutes
+• [ORGANIZATION5] platform
+o [URL7]
+• Windows/Mac, headset, webcam (we suggest to cover it ;-)
+• Anything people want to add
+• Technical realization of delivering subtitles to 400 people at [ORGANIZATION3] Congress
+o Wired connection for some?
+o (Wired) subtitle presentation screens?
+• Date of pre-review meeting:
+o [PERSON17] proposes a day between Sept 23 and Oct 4. (A remote meeting anyway, but we need to have our financial data and other deliverables in some non-final form for inspection.)
+• Doodle: [URL2]
+• Our [PERSON10] said it will be half a day.
+ Preparations for [PROJECT2]
+ Who is coming for [PROJECT2] ([ORGANIZATION1] needs names today!)? Please, add yourself here (even if it's still just ‘maybe'/ or you plan us to provide ‘remote support'):
+ [URL4]
+ Date: 27. – 28. 6. 2019 (there was a mistake)
+• 27.6. 6h, 9:15-15:15
+• 28.6. 3h, 9:15-12:30
+ Place: [LOCATION1]
+ Technical preparations summarized in our document with regular calls:
+ [URL14]
+ The most important thing now is to create a Fingerprints MAP:
+ [URL6]
+ Invitations to present [PROJECT3]:
+ BDV Summit in Riga (June 26-28, 2019)
+ [URL9]
+ [PERSON17] asked [PERSON18], [PERSON9], [PERSON2]; with no response; Can we still make it?
+• Probably nobody.
+• But still hoping for [ORGANIZATION5].
+ META-FORUM (Oct 8/9 Brussels)
+ [URL13]
+ Could someone make it?
+• Not [PERSON4], but someone else from [ORGANIZATION4] (possibly [PERSON13])
+ Translating Europe Forum (Nov 7 & 8, Brussels)
+ [URL1]
+ [PERSON17] is very likely going himself
+ Milestones
+
+[ORGANIZATION5] supports recording through the [ORGANIZATION2] Platform
+[ORGANIZATION5]
+31.3.2019
+First Spoken Language Translation Prototype
+[ORGANIZATION4]
+30.6.2019
+Baseline MT Models for [ORGANIZATION3] Congress
+[ORGANIZATION6]
+30.6.2019
+Basic SLT in [ORGANIZATION5]® conferencing platform available
+[ORGANIZATION2]
+31.8.2019
+Initial ASR Systems
+[ORGANIZATION8]
+30.9.2019
+o 
+
+• [PERSON13] - Note on Russian ASR. The Summa models were trained on “Globalphone, Euronews, and uncaptioned TV broadcasts” by IDIAP (not [ORGANIZATION4]). There may be creative-commons docker version available - the report is not clear to me on this point,
+• Deliverables
+o Deadlines - they should be done by now and ready for review!
+• End of May: complete structure of all delivs
+• Mid June: complete contents, internal review starts
+• Reviewers listed in the Deliverables sheet here:
+• [URL11]
+ (PERSON7) I put links to the Overleaf into the GoogleSheet (sheet Deliverables), but to be sure, I put them also here:
+ D1.1 Initial Training Data, Separating Confidential and Public Version ([ORGANIZATION4]) - [URL10]
+• Not finished at all.
+• [PERSON13] will work on crawled corpus after 19th
+• [PERSON8] will provide the Czech ASR data early next week.
+ D8.1 Periodic Activity and Financial Reports ([ORGANIZATION6] but input from all is needed) - [URL5]
+• Provide BibTeXs of your published papers.
+• Papers under review may or may not be mentioned in the technical part, Part B
+• POSTPONED - till M20. It should not be submitted now, but after the end of the first period. We will have to make an “amendment”. Is everyone fine with that?
+o 1) Comment in Continuous Reporting
+o 2) Amendment
+• Everyone must agree:
+• [ORGANIZATION4] - yes
+• [ORGANIZATION8] - 
+• [ORGANIZATION2] - 
+• [ORGANIZATION5] - 
+• [ORGANIZATION6] - yes
+ D8.3 Data Management Plan (DMP): Initial, Updates ([ORGANIZATION6] but input from most needed) - [URL3]
+• Not finished at all.
+• WP5 - [PERSON6] done. [PERSON11] please add some format details.
+ D9.3 GEN - Requirement No. 4 ([ORGANIZATION6]) - [URL8]
+• Done; [PERSON1], please start reviewing.
+ In [ORGANIZATION7] Sheet ([URL12]) please everyone fill in the sheets for your institution:
+ Dissemination - update continuously (e.g. when you go somewhere)
+ Gender - update when some change occurs
+ Summary for publication - will wait till M20
+• Every partner, please have a look at the sheet “Summary for Publication” and for each topic you have worked on please contribute 1-2 summarizing sentences to the appropriate text fields. (Warning on simultaneous editing: if someone is editing the cell, your text edits could conflict/get overwritten. Google sheets luckily clearly indicate if someone is editing the cell or not.)
+ WP updates (time permitting, but please write details here in any case)
+ WP1 Data
+ Domain adaptation data is being collected
+ From the winter term, [ORGANIZATION6] should start collecting student interpreters' recordings from their regular training sessions; transcripts however won't be available.
+ WP2 ASR
+ [ORGANIZATION6] in close contact with the Speech group from Brno, [PERSON8] to spend the summer there, learning how to use Kaldi get a decent Czech model.
+ WP3 SLT
+ [ORGANIZATION4] - Experimenting with incremental MT, initially treating MT system as a black box, and using an agent which is able to request source words. The MT system is able to rewrite. Questions are, how should MT system decide whether to output or delay, how often the MT system revises the output, and what causes revisions. Effect of these revisions on user experience would also be interesting.
+ WP4 MT
+ [ORGANIZATION6]: Multi-target experiments still stalled (the student not working).
+ [ORGANIZATION6]: A number of WMT papers (systems, test suites) related to doc-level eval.
+ [ORGANIZATION6] will hopefully have another summer intern to experiment with some multi-source.
+ [ORGANIZATION4]: an ACL paper submitted on document-level MT
+ [ORGANIZATION4]: ongoing experiments on model capacity for multilingual MT (and an ACL submission on deep MT models)
+ WP5 Minuting
+ Updating the NITE XML Toolkit and working on the conversion from our gathered meetings into NXT Tool, so that manual annotation can start.
+ A summer intern to arrive on June 28 to sketch the first ideas for the models.
+ WP6 Integration
+ Prototype of Presentation Platform up and running, but we still require time to test on different browsers and operating systems. We need also to perform stress tests and multiple flows publications tests. Stillo working also on subtitle presentation (charset, font size and so on).
+ Full pipe asr-segmenter-translation-publication over mediator performed successfully 
+ WP7 Dissemination
+ WP8 Mgmt
+ WP9 Ethics
+

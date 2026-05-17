@@ -1,0 +1,24 @@
+[PROJECT1] Remote Meeting
+Agenda for Wed, 29 Apr, 11 AM CET
+Connection ; [ORGANIZATION8]: [URL3] , PIN is 1234
+-  Doodle for postponed review: [URL1]
+- Deliverables
+-- All due Jun 30
+-- Internal deadline (complete draft) Jun 8
+- D2.1 : [ORGANIZATION7] : Report 1 on Initial ASR Systems (reviewer - [PERSON10])
+- D3.1  : [ORGANIZATION1]  : Report 1 on Spoken Language Translation (reviewer [PERSON13])
+- D5.1  : [ORGANIZATION2] : Initial Report on Summarization (reviewer - [PERSON9])
+- D7.2  : [ORGANIZATION2] : Report on NLP Technologies Workshop at [ORGANIZATION4] Congress ([ORGANIZATION2] will officially ask for deadline extension)
+- D7.4 : [ORGANIZATION3] : Report on Dissemination Activites: Intermediate, Final (review - [PERSON11]+[PERSON3])
+- D8.2 : [ORGANIZATION2] : Project Management Guide: Initial, Updates
+-- Links for the overleaf documents are in the last column of respective deliverable: [URL2]
+- Milestone
+-- [ORGANIZATION4] Congress -- 
+- Demo for [ORGANIZATION6]
+-- Can we organise the demo next week or the following one? (May 4-17, they prefer sooner than later).
+-- [ORGANIZATION6] doesn't have a preference for the scenario (we can choose what we think is better for an online demo).
+-- Feedback for what [PERSON8] sent them:
+- there are several guidelines and standards, for example, from BBC [URL]
+- better captioning/STT presentation on screen will make better translation and readability. Recomposing the sentence on the fly might affect readability.
+- Human interpretation is also delayed a little, as the interpreter listens for chunks of speech before translating.  Listening to a foreign language and having better subtitles with little delay would be already achievement.
+

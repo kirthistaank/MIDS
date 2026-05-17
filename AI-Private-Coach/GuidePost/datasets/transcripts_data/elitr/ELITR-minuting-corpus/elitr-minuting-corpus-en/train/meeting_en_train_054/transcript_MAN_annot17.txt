@@ -1,0 +1,279 @@
+(PERSON5) Hello.
+(PERSON10) Hi [PERSON5].
+(PERSON8) Hi everyone.
+(PERSON10) Hi.
+(PERSON11) Hi, I'll be back in a second. 
+(PERSON8) Okay, I think [PERSON9] was telling me that he's not joining today and other than that I I think [PERSON1] is also not joining today because there's nothing to be uhm handled.
+Uh in the administrative area.
+So ha ha there were there was a call last week uh and some some of us were participating uh so let's discuss what was what was happening on the call.
+I don't know if I should wait for [PERSON11].
+He went away.
+But okay so in in a nutshell, what happen call.
+We were we were uh introducing uh the new representative from the [ORGANIZATION8] to our progress so far, right?
+And there was some introductions, some summarization of of the of the previous work.
+Uh nothing important in particular.
+Like for us.
+Maybe one important thing was that the [PERSON2] was is is going to leave the project.
+But I think [PERSON5] and [PERSON9] are still properly in contact with the uh [ORGANIZATION3], is is that right?
+(PERSON5) Uh, yes, yes, that's correct.
+(PERSON8) And okay.
+So so now there are uh uh I sort of started uh uh is everything going according to plan?
+Or are there any I don't know uh any catch?
+(PERSON5) Uh well, uh we prepared the experiment for like 8 months and so far we only have one user.
+Which is uh lower number th- of users than we would like. 
+And then uh we had for our run of the experiment, like which which we did on <unintelligible/> year. 
+So I'm <unintelligible/> kinda disappointed, but still hoping that uh the majority of users uh is still to come.
+Because tha- this was the uh uh main contribution of-
+This was supposed to be the main contribution of [ORGANIZATION3].
+To provide the people.
+So I would be very disappointed if only a handle handful of them would join.
+(PERSON8) Mhm.
+So do we know uh where is the problem?
+Why why there are not providing more people?
+(PERSON5) No. 
+(PERSON8) Uh okay.
+And have you tried asking them?
+(PERSON5) Uh huh.
+Not yet.
+Uh I want to give them some time, because urr they appear to be quite stressed, but I will write them.
+(PERSON8) Okay okay okay.
+So uh that's probably everything related to [PROJECT4], right?
+(PERSON5) Mhm.
+(PERSON8) Okay.
+From [PROJECT1], I think [PERSON9] is still running his experiments, he want to- 
+Uh his his doing with [PERSON4], so that's that.
+And I think he's on vacation now, so so I think there's no problems with that part.
+Uh I wanted to- actually, I can ask [PERSON5], since he's here.
+But there was uh mhm some request like how how is our s- how is it with our system at at [ORGANIZATION2]? 
+Right now, the paraphrasing system?
+Because uh uh mhm [PERSON12] was asking whether we can move the models to uh weaker GP <unintelligible/> or something like that. 
+Like whether we really need the those titans for for the- these paraphrasing experiments?
+(PERSON5) Uh, I was not yeah- I was not included in the spreads so this information is new for me.
+But uh uhm uh I I think [PERSON9] set up some batch jobs to paraphrase uh all the sentences and that it's finished now.
+And that it didn't interrupt uh the experiment, because that wasn't there was only the one user uh.
+And so far it runs smoothly and quite fast.
+But well I don't know I don't I don't have any further information so.
+(PERSON8) Oh okay, I will ask [PERSON9].
+Like the thing is that uh it is not uh- like we're not in hurry to kill it or or m- move it, but uhm we should do something about it.
+Like I don't know maybe dismantle or some-
+Like they were asking us wha- wh- u- until when we are going to use use the [ORGANIZATION2] for this.
+Uh but they are I'll I'll kas [PERSON9]- [PERSON9], so.
+(PERSON5) Well-
+This-
+Uh <unintelligible/> another question as to how long we plan to be open with this experiment?
+(PERSON8) Yeah I think that was the question, right?
+But we are using it in the [PROJECT4] experiments, right?
+(PERSON5) Yeah yeah, yep.
+But I meant uh in [PROJECT4], uh how long we are going to collect the data and allow new users to join?
+(PERSON8) Well, you don't know right now, right?
+(PERSON5) Yeah.
+(PERSON8) Because we are still waiting for the people to actually participate.
+(PERSON5) Yeah uh but I'll try to write uh [ORGANIZATION3] to-
+(PERSON8) Mhm.
+(PERSON5) Get us some estimate about the number of people and yeah.
+(PERSON8) Yeah but but till the the question I had in mind is whether it is possible to just move the module to a different machine during the experiment.
+But that's probably not uh what we want to do right?
+Because the-
+(PERSON5) I mean it will be possible, but uh I wouldn't recommend that, because-
+(PERSON8) Yeah, there won't be downtime, right?
+(PERSON5) Uh tha- that's not the big issue.
+But we would also alter the um environment by doing this.
+Because some users would uh do the experiment on faster paraphrases, some would do them on slower paraphrases.
+We should introduce some noise into the data.
+(PERSON8) Okay, so I will tell [PERSON12] that we we cannot do it right now and we currently don't have even the estimate when the experiment will end.
+I think that's fine.
+Like i- it didn't seem so urgent, more like with with the like thinking about the future, right?
+(PERSON5) Mhm.
+Yeah, okay.
+(PERSON8) So so it's all right.
+Uh okay so.
+[PERSON11] also again left, but yeah, we can we can uh move move on to the [PROJECT2], right.
+So hi [PERSON10].
+(PERSON10) Hi.
+(PERSON8) Uh I I m- made the note that I still need to remind [PERSON6] sending us uh the information about the people from [ORGANIZATION4].
+[PERSON11]?
+Uh like the- they were they were mentioning that some people from [ORGANIZATION4] are doing similar th-
+Yeah, okay, so I will ask [PERSON6], so he provides us with the contact.
+(PERSON10) Yeah, okay.
+(PERSON8) And maybe some details.
+And then I will uh message to you, [PERSON10].
+(PERSON10) Yeah.
+(PERSON8) Uh I don't know.
+Uhm do you have something you want to discuss today?
+I think you mentioned that you have something?
+(PERSON10) And actually I've been reading about direct machine translation and uh-
+(PERSON8) Mhm.
+(PERSON10) With what I found, most papers ascribe directive predictive machine translation, which is uh trying to predict-
+The machine translation is trying to predict and <unintelligible/> warning the target language.
+And the user oh is human translator, that knows the target language and he corrects the the this <unintelligible/> when there's a mistake a-
+But I I don't know exactly how to connect this idea of interactive machine translation yet to to the [PROJECT2].
+However, I'm I wath thinking about an approach that mm I don't know if you we- we are u- using this already with the paraphrasing uh part of the project.
+That is to make uh the back translation of the of the sentence and and make the user select what he wants to avoid uh <other_yawn/> uh uh I mean we we have the use the back translation to uh ensure the the the options to the user.
+So the user can see what's that he doesn't want uh uh w- w- he wants constrained in the <unintelligible/> you know.
+So- but this is the only thing that I uh I thought about, making this interaction of the translation, but it it uh I I didn't know <unintelligible/> because we are considering that the user uh doesn't understand the the target language, right, so.
+(PERSON11) Yeah.
+Yeah, uh uh I think you've you've made a v- a like very good uh c- you've collected a good impression about the interactive machine translation.
+That is true.
+The reason why I was pointing that out, uh was uh because uh it was very active uh research area with phrase-based MT.
+And I've lost touch with that area since then, so I think it has been also uh uh uh then revived for neural MT.
+And the uh the backgr- the back end techniques uh could be interesting for us.
+Uh because in interactive uh machine uh translation you are essentially exploring the [PROJECT2] in some way.
+(PERSON10) Mhm.
+(PERSON11) It's uh I agree just the next word.
+Uh but what what to do with the uh with the neural network search could be uh u- in uh good inspiration for us, what we should do.
+Obviously we are searching further in the list.
+And uh like uh ensuring that we avoid some words or or include some words.
+Uh but uh the techniques could be uh relevant.
+The techniques for neural MT.
+So that's why I was pointing that out.
+And I think that y- you probably also uh got some recent more recent papers uh on neural MT and uh that that would be those more important to read.
+And for the uh interaction with the back translation, yes, I totally agree.
+So the uh uh we had uh the call uh uh uh the [PROJECT3] uh call with uh [PERSON3], the new person from uh [ORGANIZATION8] and so on.
+And there someone uh uh it was possibly [PERSON13], the [ORGANIZATION8] guy, was asking uh and I was answering uh what is the interaction of the [PROJECT2] module and the rest of the modules.
+And what you're talking about now is exactly this type of interaction.
+So I see it as like one more module uh i- in the [PROJECT4] layout for example.
+Um and the uh uh you can use the module for of back translation to click on words and indicate I like this, I don't like this.
+And uh uh then there will be this um navigation module and that navigation module would accumulate uh these uh uh this preferences.
+So uh you would be adding uh constraints uh with uh wherever you wherever it is convenient to to express them for the user.
+And you would uh then uh delete them if you realized that they are bad in this uh in this module for uh for the navigation.
+So that's like the front end of the [PROJECT2].
+But there is also the separate thing, the back end.
+And they need to be in like developed uh closely together, so that uh uh like the front end specifies what the fr- what the back end needs and and supports.
+But you're you're on perfect track, that's that's very good.
+(PERSON10) Yeah, okay.
+So I I will try to read uh more about interactive machine translation in the in the sense of the the the back end the use, right.
+So I I I w- I read the the idea and thought okay, I don't know if this uh uh has some connection.
+But okay, I will I will read uh further.
+But I think there uhm then I'm I think I'm understanding the task now and um I will keep uh looking for uh some directions on this.
+Thank you for the explanation [PERSON11].
+(PERSON11) Yeah. 
+Thank you.
+And and I have uh administrative uh question, the embassies.
+Have you have you checked? <laugh/>
+(PERSON10) W- w- w- what happened?
+Oh, I I received an email from [PERSON1], is <unintelligible/>-
+(PERSON11) Ah, [PERSON1], we pronounce it [PERSON1], so I don't know- <laugh/>
+(PERSON10) Oh, sorry. <laugh/>
+(PERSON11) Oh. Her name is [PERSON1], actually, so-.
+(PERSON10) It is?
+[PERSON1].
+It's like Portuguese, so okay, I can pronounce that. <laugh/>
+But uh well I I didn't send uh her the the document yet, because today is a holiday here in [LOCATION1], so everything's closed and I don't have the document, so- <unintelligible/>
+(PERSON11) Okay, yeah.
+But the [ORGANIZATION1] is is open, right? 
+The-
+(PERSON10) Oh, sorry, about the [ORGANIZATION1].
+Uh uh the [ORGANIZATION1] is closed.
+(PERSON11) Yeah so-
+I'm I'm curious if there is any news on the [ORGANIZATION1] in in [LOCATION1] uh-
+(PERSON10) No, they they're they're closed and they don't know uh when they will open again.
+So I I created a <unintelligible/> to keep checking if they they post any new <unintelligible/> about it-
+(PERSON11) Yeah, yeah.
+(PERSON10) But uh I'm not uh I'm not sure when it will happen.
+I <unintelligible/> should be there as soon as possible.
+There's an alternative I was thinking about that.
+That uh I don't know exactly, I didn't investigate it enough.
+But uh as a person from [LOCATION1], I can be around uh I can go to to to the Czech Republic for twe- ninety days. 
+I can be there without a visa, so-
+(PERSON11) Mhm.
+(PERSON10) But I don't know if since this is uh a business trip, I don't know-
+(PERSON11) This uh <other_yawn/>.
+That's a good question for [PERSON1], actually.
+She should ask uh in what way do we n- need you here.
+I think that it possibly can help our administrative people if you arrive as a tourist.
+But I'm not certain pers- like I'm I'm not quite certain.
+So uh is is [PERSON1] on the call or not, uh [PERSON8]?
+No, no.
+So please t- please like let her know, that you have this option.
+So i- if if I understand correctly, you could just catch uh the the nearest the soonest airplane and come over, right?
+In principle, yes.
+(PERSON10) Yeah I will have to check that, but-
+(PERSON11) Yeah.
+(PERSON10) Because I can enter EUrope without a visa.
+Uhm. 
+But-
+(PERSON11) Because I-
+(PERSON10) I just don't know how I- if this is okay <unintelligible/> tourist <unintelligible/>.
+(PERSON11) Yeah, I think that uh I think that the uh uh Czech uh regulation for COVID now would not let you in.
+(PERSON10) Oh, yeah. 
+That's that's <unintelligible/> a problem <unintelligible/>.
+I will check this.
+(PERSON11) So that's that's that's yeah, that's another thing.
+But anyway, we should investigate because uh because ther- once the embassies are reopened, there will be huge gueues uh for sure.
+Like they- in the the processing will be stalled. 
+Uh so-
+(PERSON10) Yeah.
+(PERSON11) Uh so [PERSON1] should investigate in any case if your arrival as a tourist would be useful or not.
+If it would be useful, then uh when the border is open for uh f- uh like uh citizens of non-[ORGANIZATION7] countries.
+Uh b- and I think it's closed now.
+So when the border is uh open, then uh uh it would be good if you arrived as a tourist.
+But I think it's actually uh more likely that they will say that uh it's more of the of the correct uh type of arrival that we need.
+And in that case, it doesn't make sense to arrive as a t- as a tourist. 
+(PERSON10) Yeah.
+(PERSON11) So but we need to explore the options before you start buying the tickets, obviously, so <laugh/>-
+(PERSON10) <laugh/>
+(PERSON11) We we need to we need to know what sort of-
+Yeah.
+(PERSON10) Yeah.
+That's a good thing.
+Yeah, let's let's investigate that and uh as soon as I-
+(PERSON11) Yeah, okay.
+(PERSON10) I can go.
+(PERSON11) Yeah, great, thank you.
+(PERSON10) But about the [ORGANIZATION1], I I don't know, I-
+We'll have to wait.
+(PERSON11) Yeah uh it's great that you have this watcher that will notify you, right?
+(PERSON10) Yeah, I hope it works. <laugh/>
+(PERSON11) Yeah, well s- so keep checking every n- uh every once in a while.
+(PERSON10) Yeah, yeah.
+(PERSON11) Okay, thank you.
+(PERSON10) Okay, thank you.
+(PERSON8) So if there is nothing else we want to discuss, like we can still about the [PROJECT2], but I think we have a separate meeting on on Thursday or Friday.
+So-
+(PERSON5) Uh c- ca- can I just have some questions?
+Uh uh regarding the uh front end?
+I should- should I do some work on the front end, or?
+Not yet?
+(PERSON10) I think not yet.
+I have I have to talk to you, because uh I didn't discuss it yet with you.
+But uh so far I'm I'm trying to to to think about the back back end of it.
+So I I think it's fine.
+Uh what we have, the TNT. 
+(PERSON5) Mhm.
+(PERSON10) But uhm maybe we'll have to modify something.
+I know that uh uh you won't be around after October, is it correct? 
+(PERSON5) Uh no, uh uh I'll still have some part time.
+So I'll be able to to some development. 
+(PERSON10) Okay.
+Yeah, so uh uh I will contact you.
+(PERSON5) Mhm.
+(PERSON10) And we can discuss uh- 
+But so far I don't have any any other idea, because uh it's uh to what we have so far, it's okay.
+It's uh it's it's fine.
+(PERSON5) Mhm.
+(PERSON10) My question is and maybe I just didn't understand, was if this will be uh in the [PROJECT4] later also, or it will be separated?
+(PERSON5) Uh, I would like it s- for be separated, but.
+(PERSON10) Okay, yeah, so-
+(PERSON5) But but we we can discuss this.
+(PERSON11) Yeah so, the the reason why we talk about [PROJECT4] uh or [PROJECT4] experiment is because everybody is now familiar with that after all the preparations.
+So everybody knows what the modules are, but it's it's just like a point of reference.
+Uh and uh since [PERSON5] will be uh remote and not m- not much in touch with the project starting from mid mid October or something like that, I'm afraid that we cannot uh we won't have such a skilled person to run uh another [PROJECT4] experiment. 
+Uh with [PROJECT2].
+So that's why it's better if it's not uh uh linked uh strongly and not relying uh on on [PERSON5] too much.
+So t- uh if if it's separate, it's safer for the project.
+If we run a user study with uh [PROJECT2], yes, that will be great.
+Uh but uh let's not uh lock ourselves in in presence of [PERSON5]. <laugh/>
+(PERSON10) Great, okay.
+Yeah, so I'll try to to reach you [PERSON5] and talk to you wh- as soon as I as I have something more specific to discuss.
+(PERSON5) Oh, okay.
+(PERSON10) But uh so far what I what I what I saw wa- is is okay.
+Thank you.
+(PERSON8) Okay, so I I think if that's everything we can probably, yeah yeah, end it here today.
+So yeah.
+Uh it was nice hearing you again, so uh let's see each other next week.
+(PERSON5) Yeah, see you.
+(PERSON10) Great.
+(PERSON11) Yeah, great, thank you. 
+Buh-bye.
+(PERSON10) Bye.
+(PERSON5) Bye.

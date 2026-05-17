@@ -1,0 +1,17 @@
+[PROJECT4] meeting, 2020-07-13
+
+Participants of the meeting: [PERSON14], [PERSON6], [PERSON17], [PERSON10], [PERSON5]
+
+It was discussed at the meeting:
+
+- [PERSON14] finished second article in the journal
+- [PERSON6] still need to write introduction and morfology and some other small things
+- mostly [PERSON6]'s part is ready and everyone can read it and comment on it
+- in the book it's better to say we and add the reference
+- section about neural language models should be merged to the previous chapter or deleted
+- [PERSON17] needs to write the probing and other unsupervised methods
+- [PERSON5] explained [PERSON17] what he wanted to say in his comments
+- the next meeting is planned on 21th July
+- it's necessary to start thinking about revieweres
+
+The minutes was written by: [ANNOTATOR1]

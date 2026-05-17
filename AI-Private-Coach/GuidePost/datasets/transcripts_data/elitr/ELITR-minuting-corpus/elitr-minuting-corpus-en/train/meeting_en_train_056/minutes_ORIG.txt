@@ -1,0 +1,43 @@
+Automatic Minuting Virtual Coffee Hour
+link:
+[URL1]
+
+5.10.2020 15:00 CEST
+*	After [PERSON1] finishes renaming the data in the dataset, she informs other and put the path
+[PATH]
+*	Evaluation measures
+o	Evaluation protocol proposal by [PERSON5]:
+	[URL]
+o	Progress on evaluation measures preparation: Distribute the tasks
+	[PERSON10] - working on automatic measures, not ready yet
+	[PERSON5] - prepared the draft of how to create manual evaluation. Needed to be created. 
+	[PERSON10] will prepare the guidelines
+	[URL]
+	[PERSON4] - survey of existing measures, plans to come up with an automatic measure on our data, by the end of this month
+	[PERSON1] will help [PERSON10]
+o	For Task A+B evaluation would be much easier
+*	Shared-task imitation - next week game
+o	Let's take one meeting, I'd propose the following one, because we have several minutes e was already created for it 
+[PATH]
+o	[PERSON10] and [PERSON2] will create minutes (manually) which they expect may be the output of their systems (till Wednesday?)
+o	[PERSON5], [PERSON4] and [PERSON10] will evaluate the meeting and write down their points (problematic issues, what was easy, what was especially hard to evaluate, what is not clear etc.) of the evaluation process (till Friday morning)
+o	We will discuss it on Friday
+*	Shared task. 
+o	Proposal
+o	Make the task easier?
+o	As main tasks propose 
+	Creating summary (Task C)
+	Task A+B: Identify if the minutes belong to a given transcript / two minutes correspond to the same meeting transcript
+*	Data preparation
+o	[PERSON1]: is working on renaming/rearrangement/ethical issues
+o	Our meetings are bad: may be quite useless for the final user (business concerns, very organized)
+	take other data? ([ORGANIZATION2] data???)
+
+Task A: Identify if the minutes belong to a given transcript (inputs: transcript and minutes)
+Prepare the data?
+Task B: Identify if two minutes correspond to the same meeting transcript (inputs: two minutes) 
+Prepare the data?
+Task C: Automatically generate the meeting minutes from the transcript {Core Task}
+Data Preparation ongoing in the agreed upon form
+Task D: Given a transcript and a set of pre-defined agenda items, automatically slot-fill the agenda with items from the minutes. (Do later)
+

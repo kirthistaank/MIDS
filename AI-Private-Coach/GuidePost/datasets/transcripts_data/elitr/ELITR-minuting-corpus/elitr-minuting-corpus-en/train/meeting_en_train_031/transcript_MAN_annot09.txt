@@ -1,0 +1,922 @@
+(PERSON11) ehm Hi, I run.
+(PERSON18) I run.
+(PERSON2) Hi.
+(PERSON11) I wanted to check –
+I wanted to see like if you could check in your logs anything about the segmentor workers because I see they're <unintelligible/> at the moment.
+and they <unintelligible/> –
+() until yesterday and we did – we run <unintelligible/> tests, but I – I don't see any segmentor workers.
+(PERSON2) ehm Yes, so – okay ehm
+<typing/>
+(PERSON11) And I'm sure that the mediators <unintelligible/> because I see the ASR workers <unintelligible/>.
+(PERSON2) ehm Yes, I can confirm ehm –
+the mediators –
+ehm it is the exact same session as ehm yesterday.
+(PERSON11) Yeah.
+(PERSON2) And – <typing/> I'm looking through the logs now.
+I see [PERSON19] –
+(PERSON19) Yes, hello.
+(PERSON2) And I see [PERSON3] –
+(PERSON19) Sorry for the delay.
+(PERSON3) Morning.
+(PERSON19) Zoom forced mee to update, so it took a while.
+(PERSON11) So in the meantime I can confirm that well –
+yeah, you know, the platform is up, the publishers are fine and –
+I seem to average the top of my log –
+oh yes, <unintelligible/> that again, so I need to log <unintelligible/>.
+(PERSON19) So we still don't have anyone from ehm [ORGANIZATION3], so let's ehm keep waiting and during – during the time thanks for the –
+thanks to [PERSON21] ehm <unintelligible/> for putting things together.
+(PERSON2) mmhm
+<other_noise/>
+(PERSON19) And I would like to check who is [ORGANIZATION2]ry broadcaster,
+if it's [PERSON34] only or if it's also ehm some guests <laugh/>.
+(PERSON18) By the way, I can confirm that <unintelligible/> this issue, and <unintelligible/>
+<other_noise/>
+<typing/>
+<other_noise/>
+(PERSON2) <unintelligible/> sorry, can you remind me of the ehm –
+can you give me a name or us – a fingerpring for – for our segmentors so I can fill the – fill the logs?
+(PERSON18) Yes, ehm the <unintelligible/>.
+(PERSON2) Because I –
+there is too – too much past activity and I –
+yeah, there are too many matches.
+(PERSON18) Okay, <unintelligible/> will be shared with you.
+So share and slack, yeah, please check.
+Okay, so, I heard from [PERSON23],
+so he says they needed to shut down their clusters yesterday,
+(PERSON2) Oh –
+(PERSON18) Because there is – new logs not working.
+ehm and <unintelligible/> probably they <unintelligible/> to get them started <unintelligible/>.
+(PERSON2) So yes, I can see activity from the – the segmentor you just – ehm sh-
+yeah, from the –
+Danny, you share –
+the last activity is of –
+ehm yes, is for yesterday, and ehm 2- ehm 2:21 p.m.
+<other_noise/>
+(PERSON18) 2:21 p.m. yesterday.
+(PERSON2) Yeah, I see –  I see the line, the – the – the last registration from the service.
+<typing/> <other_noise/>
+(PERSON18) So [PERSON23] when chance that <unintelligible/> be able to do – that the segmentor worker <unintelligible/>.
+(PERSON2) And this is bad.
+(PERSON18) Yeah, ehm so the dog, the segmentor worker be <unintelligible/> to demo the Czech <unintelligible/> we have our own segmentor, Czech.
+And this has been a problem like since – since a long time,
+we – we did try to replicate the s- ehm infrastructure for segmentor in our systems ehm like – like the –
+we – we never managed to get it running.
+(PERSON2) Yes, I recall, so –
+(PERSON18) <unintelligible/>
+like, few months ago ehm  did manage to run the segmentor worker from a workshop machine, which – which [PERSON25] stopped,
+if – if I remember it correctly.
+(PERSON2) mmhm
+ehm Okay. ehm
+Okay, I – well I – I do recall we – we creaked ehm –
+we return machine in case of extreme emergency that is –
+ehm I was talking ehm about that you bound to the return machine that was supposed to –
+(PERSON18) Yeah, yeah.
+The –
+so we –
+basically I think we used this when there was and when there was like serial <unintelligible/>.
+(PERSON2) ehm yes, so –
+<other_noise/> 
+Okay, ehm I have located this machine.
+I can – I can <unintelligible/> it up ehm, but ehm more than that I don't know – ehm I don't know about this state, so –
+(PERSON18) It recall me [PERSON36] <unintelligible/> touch.
+(PERSON2) Yeah, Fe- ehm [PERSON36] is not showing up, not log- it's not log on <unintelligible/> and –
+(PERSON19) Yeah, so – so  while we're waiting for [PERSON36] ehm if you don't have anything to ehm work on ehm, [PERSON21] and <unintelligible/>, I don't follow you ehm at the moment, we can discuss the agenda while we're still waiting.
+(PERSON18) Yeah, yeah.
+(PERSON19) Okay ehm, so, so let's do it. ehm
+So here I started proposing the agenda with ehm <unintelligible/>timing and essentialy the agenda ehm will mimic what we have shown ehm to the ehm project officer and ehm other users,
+ehm but we will add a block of presentations for ehm all the interesting work-packages.
+And ehm this could be seen as – as the basis for our review meeting them,
+ehm the differences that will have probably about 20 minutes per the work-package for the review and only 5 ehm minutes per work-package for ehm this user and advisory ehm work-meeting.  
+So ehm in the document I'm highlighting which work is –
+I think should be presented.
+ehm so ehm it's DATA, ASR, SL Team, Machine Translation, Minuting, Integration, Dissemination and Ethics.
+this gives us ehm eight ehm work-packages ehm, eight dones, 5 ehm minutes.
+ehm That's fourty minutes ehm,
+and ehm that together with some slack-time will be an hour on presentation including the – ehm the ehm very beginning ehm overview.
+ehm I think we –
+I could also cut the overview shorter, but ehm I think we – if we fit it ehm win- within an hour that will be good.
+ehm For demo we had 40 minutes last time ehm and ehm that would –
+So I'd like the whole ehm session to fit into 2 hours,
+and I don't know whether we want to remove some of the demos or if you want to show all ehm.
+So ehm do you have any opinion on – ehm on this?
+I think we also <unintelligible/> faster with the demos ehm in – in ehm real run.
+So they actually didn'd take ehm 40 minutes but half an hour only.
+I want to leave ehm about half an hour for discussion and ehm –
+so does that sound ehm good?
+(PERSON2) <unintelligible/> Yes, I simply call that you know, grounding the demos on th last event it was really quick.
+(PERSON19) Yeah.
+(PERSON2) ehm And – and, yeah, we – we didn't have ehm that extensive ehm of a feedback, so ehm I – ehm I remember –
+(PERSON19) Yeah, I expect –
+yes, that's true.
+(PERSON2) taking notes –
+just a tiny <unintelligible/> between videos and then ehm –
+you know, most of the feedback was ehm at the end, so –
+(PERSON19) Yeah.
+So, there is ehm – there is true –
+the target group was slightly different.
+It was mainly user – prospective users, while this ehm is mainly fellow researchers in the field.
+So, here ehm we can go much more technical.
+ehm And ehm it's actually useful to go more technical, because they can hint us like what – what are bad design decisions in our system and what they're doing and what – what things should we try ehm and so on.
+ehm So, yeah.
+(PERSON29) So- sorry [PERSON19], ehm the work-package presentations –  I'm not sure whether they're filling in, cause we've got – <unintelligible/> – <unintelligible/> time <unintelligible/>.
+(PERSON19) The – the time is still here wrong, so that will be 16 – ehm
+(PERSON29) Okay, all right, <unintelligible/>, okay.
+(PERSON19) Yeah.
+ehm Sic- sixteen –
+(PERSON29) ehm And this is [LOCATION1] time of course.
+(PERSON19) Yes.
+(PERSON29) Right.
+Okay, go ahead, sorry.
+(PERSON19) Yes.
+(PERSON29) <unintelligible/>
+(PERSON19) So, allrigh, 5 minutes – 
+oh, sorry, the keyboard –
+ehm 5 ehm minutes each, ehm 40 minutes ehm in total ehm can extend to ehm 50 ehm.
+(PERSON18) So, if we –
+(PERSON29) If you <unintelligible/>, there will be crush in announers during the work-package presentations, so we want that?
+(PERSON19) ehm That's a ehm – that's a big question I'm also asking –
+(PERSON29) Yeah, that could really extend them sometimes.
+(PERSON19) Yeah, so I suggest –
+(PERSON29) Or not <laugh/> –
+(PERSON19) I suggest not t- I suggest not to allow them during the presentations <parallel_talk/> mmhm <parallel_talk/> and to give them full – ehm like the full package <laugh/> –
+the – the presentations and then demo and then the discussion would – will –
+while we would be showing the slide of – of the <unintelligible/>, but I know it's ehm – that's – it's difficult.
+(PERSON29) mmhm
+(PERSON19) So, would you rather – would you rather suggest that we allow questions during the work-packages with planned –
+so that we have 5 ehm plus 2 minutes on average –
+(PERSON29) I think – I think if I was – if I was listening to this I would prefer to ask questions close when I heard it.
+(PERSON19) Right away, yeah, that's right.
+(PERSON29) But on the other hand, we need somebody then, who's going to keep time otherwise, you know – you –
+(PERSON19) Yeah.
+(PERSON29) You might have no questions <unintelligible/> the discussion <unintelligible/> work package cause <unintelligible/> for – for half an hour, so there just have to be someone to keep time.
+(PERSON19) Yeah.
+(PERSON29) And be strick about it.
+(PERSON19) Yeah, yeah yeah.
+So let's ehm – let's plan it –
+40 minutes in total wit- without questions – <other_noise/> questions – ehm
+allow ehm –
+well in – in total we allow 20 minutes.
+Allow 20 minutes ehm for ehm questions within this block.
+<typing/>
+So that will mean that we will end at 16:10 and until 16:40 will be ehm the demo session, so half an hour for the demo sessions.
+(PERSON29) mmhm
+(PERSON19) Yeah.
+20 minutes –
+that gives the last sl-
+yeah, so 5 minutes for presentation and like 2 and half minutes on average for questions per wourkpackage.
+<typing/>
+And we'll keep checking whether we're not running ehm late.
+And if we will be runnig late we will postpone the questions ehm  to the end ehm – block of questions.
+<other_noise/>
+And what is important is that ehm these future plans should be already included ehm – if they are any specific or interesting – ehm they should be already included in ehm the work-package presentations.
+So ehm <typing/> each <unintelligible/> to ehm present ehm calls, challenges ehm, achievements, problems – ehm plans, problems – open problems – not necessarily all of them <laugh/>.
+So I think it's important to provide ehm high-level overview ehm – hig-level overview ehm plus ehm recent interesting highly ehm technical details.
+Because this is – these are all people in the field.
+So the – the high-level overview is important so that they know where we are heading ehm and the interesting technical details is what they can have comments on easily.
+Yeah, so let's quickly go through the ehm packages ehm, so that we have ehm secure presentors ehm and also if anybody has any idea of what should be there or what should not be there let's put it here ehm.
+And then when you're working on these slides, please put the slides directly to the overleaf, which is ehm linked ehm below.
+And ehm we'll review this early next week just without any call ehm I s- 
+so <unintelligible/> like direct e-mail in right.
+So ehm [PERSON3], would you agree to present ehm the – the data work-package?
+I think it's ehm – it's good to present this work-package ehm because ehm we follow the structure of the project ehm and we are producing interesting data sets.
+ehm So that's why I don't find data work-package boring as a presentation.
+(PERSON18) Yeah, I agree, yeah.
+<unintelligible/> to present that one.
+(PERSON19) Yeah, okay.
+(PERSON18) Okay, so, yeah, you have listed ehm a few things ehm so we to test ehm minuting data set and I would also add a – probably something about the ehm <unintelligible/>space empty call this –
+(PERSON19) mmhm
+(PERSON18) What do you think about the current systems, and ehm – and I'll mention that ehm the systems used with the demo based on this data set –
+(PERSON19) Yep.
+(PERSON29) ehm And also some working progress.
+<unintelligible/> finished I think.
+(PERSON19) Yeah, that's okay.
+So what would be the working progress?
+(PERSON29) Yeah, the working progress ehm is a crooling data from the [ORGANIZATION5].
+(PERSON19) mmhm
+<unintelligible/>
+(PERSON29) So that has reports in U24E languages.
+(PERSON19) mmhm
+(PERSON29) ehm So it the sa- the same report and translating into <unintelligible/> languages.
+So that's really nice resource for –
+(PERSON19) mmhm <unintelligible/>
+(PERSON29) <unintelligible/> yeah, and dacing the main data.
+So I'm currently working on ehm extracting monolingual and parallel data sets from that.
+(PERSON19) mmhm Yeah, allright.
+(PERSON29) So I can give – I can give a few statistics on –
+(PERSON19) mmhm
+(PERSON29) ehm the data s-
+the language pairs that I have data for ready and I can, yeah, talk about plans –
+(PERSON19) Yeah.
+So I think for all the participants ehm of this ehm demo session ehm the actual domain is not that interesting and not important at all –
+(PERSON29) Right.
+(PERSON19) But the domain specificity or the – the focus on a particular domain is interesting.
+ehm So ehm any techniques that we use for ehm domain annotation at whatever level ehm including this ehm targeting data crawling ehm is what we should mention.
+But we don't need to –
+(PERSON29) Yeah.
+(PERSON19) like <unintelligible/> provide then the details about the – ehm
+the domain is sufficient to say s-
+(PERSON29) sure, sure.
+(PERSON19) <unintelligible/> reports.
+And it's actually a mix ehm –
+and that – that is kind of interesting –
+it's a mix of speech and ehm all of its reports.
+So it's speech on auditing.
+And ehm I don't know how ehm do we go of all this, because we need different genre of – of the language, ehm then t- then the in the domain data is.
+(PERSON29) Yeah, yeah.
+(PERSON19) So – <typing/> ehm 
+the ehm crossover or ehm of <unintelligible/> genres <unintelligible/> and how to deal with it.
+So the question is whether we simply c- concatanate ehm subtitles with ehm auditory ports and – and hope for the best or if we can so anything better.
+(PERSON29) <laugh/> Yeah, that's the current average.
+(PERSON19) Yeah. <laugh/>
+(PERSON29) <laugh/>
+(PERSON19) Yeah, okay.
+ehm So then for ASR we still don't have ehm [PERSON36], let's skip it and let's hope that [ORGANIZATION3] will provide some ehm presentation.
+ehm Is there anything that [ORGANIZATION6] is working on and they would like to add?
+ehm So, soon we may ehm or may not ehm mention ehm their ehm <unintelligible/> ASR experiments ehm, pre-training, ehm check ASR on English moduls, which I find interesting.
+ehm But it's not integrated, because ehm it still will be window based ehm processing ehm and not to the <unintelligible/> extending hypothesis.
+(PERSON29) mmhm So if we don't, I mean we are – we don't have any work report on ASR, we <unintelligible/> as well, so.
+(PERSON19) Yeah, okay.
+(PERSON29) I think <unintelligible/>.
+(PERSON19) No blem – no problem, that's good.
+So on SLT, ehm [PERSON9]?
+(PERSON2) Yeah, so, I suppose the high-level <unintelligible/> there – they're sort of ehm <unintelligible/>.
+This <unintelligible/> two aspects, the SLT, this the – what we do in the production?
+(PERSON19) mmhm
+(PERSON2) ehm Which I'm kind of less familiar with, but <unintelligible/> I know the <unintelligible/> but some of the details.
+And we rotavated their report, but the <unintelligible/>, I guess the idea of the SLT paper is quite relate to <unintelligible/>.
+(PERSON19) mmhm
+(PERSON2) ehm And it is some pieces of research we added into the – the report.
+ehm Particularly it was like ehm 4 papers now on – on an SLT –
+or 3 papers, sorry –
+() SLT and then with the couple papers on ehm incre- –
+basically I can –
+ehm online SLT –
+(PERSON19) mmhm
+(PERSON2) which were not in production, so I'm happy to talk about them.
+I mean I don't –
+(PERSON19) Yeah –
+(PERSON2) <unintelligible/> the report on the paper so I think I can talk for 5 minutes at least about ehm –
+(PERSON19) Yeah, so exactly the – the idea is that you should pick some topic on this –
+(PERSON2) Yeah, yeah.
+(PERSON19) Not necessarily within the production pipeline ehm, and I think <unintelligible/> <parallel_talk/> Okay, yeah. <parallel_talk/> it's better to use the research papers, becasuse the production can be better ehm then mention in the <unintelligible/> package.
+(PERSON2) Yeah, yeah.
+(PERSON19) So – so some of the papers you – you even do not need to list all the papers ehm –
+(PERSON2) No, no, no, I mean –
+(PERSON19) because this – this would then – this would happen then in the review presentation but not – not here.
+(PERSON2) Yeah.
+Yeah, I mean the papers are in the deliver <unintelligible/> but the deliver <unintelligible/> is not. 
+Shouldn't be public yet, still don't –
+(PERSON19) Yes, that's right.
+(PERSON2) One paper is on the review you know I –
+ehm but I'm happy with just going –
+if this is ok I'll just go through the ehm – the deliver <unintelligible/>, I'll pick some higlights, <parallel_talk/> Yeah. <parallel_talk/> ehm future plans, I mean –
+our future plans are bit handled on personnel but we'd like to talk – dig a bit deeper and – and SLT –
+ehm so I can talk very briefly about that if everyone else wants to report.
+Because essentially, I think –
+() I mean [ORGANIZATION9] maybe, I remember all <unintelligible/> this work-package to some extent.
+But we only get 5 minutes, so –
+(PERSON19) Yeah, you got me, yeah.
+(PERSON2) <laugh/>
+(PERSON19) Yeah.
+ehm That was a message from [PERSON36].
+ehm Yeah, so –
+(PERSON19) Yeah, I think –
+(PERSON2) Tha- that's okay if we not reach 5 minutes.
+(PERSON19) I think – I think it's absolutely okay if you choose just one of your papers, if you leave other partners out for – from this presentation and if you just t- talk about one interesting ehm paper for 5 minutes.
+ehm and at the end if you may mention that oh –
+by –
+or at the beginning you can say:'well there're other partners involved and they also do things, but' ehm – yeah.
+W- we divided the presentations, so ehm you'll hear of – ehm
+from others in other work-packages and there is no need to ehm – to show case everything here.
+(PERSON2) Yeah, okay. 
+(PERSON19) Yeah, so, I'll ehm mension that ehm we ehm have something to present in ehm – in machine translation.
+So ehm I know what ehm –
+so, well –
+[PERSON17] is also now working on ehm –
+(PERSON29) Sorry to clarify just that you've written that <unintelligible/>, should I not mention that?
+(PERSON19) Not so much so not ehm, yeah.
+(PERSON29) All's fine it also fits into <unintelligible/> six, doesn't it?
+(PERSON19) Or actually 7, it could even fit in t- ehm word page 7 dissemination.
+(PERSON29) ehm Yeah.
+(PERSON19) Shared task –
+(PERSON29) There is one package of integration, or we don't have integration report, do we?
+Or we didn't?
+(PERSON19) There was –
+it was not on the description of work, so –
+(PERSON29) That's fair enough.
+(PERSON19) Yeah <laugh/>.
+(PERSON29) <laugh/> That's okay –
+(PERSON19) You just – you just put things together and tey work, so – <laugh/>
+(PERSON29) Yeah, yeah yeah.
+Now, I suppose in terms of like selling the project it's quite a lot of work done into integrations, so we need to –
+(PERSON19) mmhm That's true.
+(PERSON29) make sure that I guess <unintelligible/>, maybe not on the [PROJECT3] but at least to review and we need to make sure it's reported.
+(PERSON19) Yeah.
+(PERSON29) But –
+(PERSON19) Th- the demo kind of sells it.
+(PERSON29) Yeah.
+(PERSON19) ehm If that works.
+(PERSON29) Yeah.
+(PERSON19) That's a – that's a high-risk business.
+ehm Okay ehm, so ehm, is there anything that ehm you –
+so [ORGANIZATION6] or ehm potentially [ORGANIZATION3] would definitely like to be mentioned in the empty work-package?
+(PERSON29) ehm
+(PERSON19) Or can we – <parallel_talk/>
+(PERSON29) Yeah, [PERSON3] and [PERSON12] –
+[PERSON3] and [PERSON12] have paper on multilingual empty maybe <unintelligible/>kit.
+(PERSON18) ehm Yeah – <parallel_talk/>
+it – it's maybe a little bit hard to explain the connection to the project without paper, because it's ehm –
+the – the main result is that they improves ehm zero shot translation.
+(PERSON19) mmhm
+(PERSON18) And –
+which I –
+I mean it's, yeah, tangentially related to the project.
+<unintelligible/> like if we have to cover all of the language paths, maybe we –
+(PERSON19) Yes, some of them have to go zero shots.
+(PERSON29) ehm ehm
+(PERSON19) Or – or if – if you –
+if it's – if it's really zero shot or if you ehm also rely on a little bit of fine tunning then for – that for some of the languages we can have monolingual data on one side –
+ehm on the target ehm –
+so going from English into ehm Kazach ehm or ehm all even the worst languages like ehm Montenegrine or whatever.
+ehm Then ehm you will have ehm target side monolingual data and you can have tiny little bit of English ehm Montenegrine.
+ehm And ehm –
+but you essentially want ehm like a zero shot, because the – the Montenegrine data is so little, that ehm – yeah.
+(PERSON29) But, I mean, surely it's not all about ehm – not all about the production system, I mean that's –
+(PERSON19) Yeah, true.
+(PERSON29) It's a research and innovation project so – these are just related or not, but production is still okay, isn't it?
+(PERSON19) Yeah, so I'll –
+ehm when – when working on these slides, I don't see ehm –
+if – if you have your slides ready ehm, please, place it in, otherwise I think we can easily populate the 5 minutes with some other things.
+They –
+ehm we can talk a little about the document level, but what we are doing is not that –
+it's – it's so hard to evaluate ehm.
+Like if we don't have something we could really ehm trust ourselves much.
+Or it's not like ehm they ehm –
+the differences are not – not big enough.
+(PERSON29) <cough/>
+(PERSON19) So the ehm –
+so, unless [PERSON17] 's come with something else, I will ehm probably ehm highlight the ehm challenge of ehm the document ehm level evaluation.
+(PERSON29) mmhm
+(PERSON19) ehm Hard to ehm ec- hard to see ehm the ehm any games <unintelligible/> different.
+<unintelligible/>
+(PERSON29) Surely with the [PROJECT3] it's also –
+okay, to highlight things they were stuck on.
+(PERSON19) Yeah, yeah.
+(PERSON29) Cause they might –
+they suppose to be advising, they might have some advice.
+(PERSON19) Yeah, ehm but the differences are hard to ehm pinpoint ehm and – or summarize <unintelligible/>.
+(PERSON29) ehm Sorry, a question about the – the presentation, cause you – you <unintelligible/> them, the [ORGANIZATION131 with the –
+(PERSON19) Yeah, that's the old ehm – that's the demo <unintelligible/>.
+(PERSON29) <unintelligible/>
+Are we supposed to fill in – 
+add some slides into that, or –?
+(PERSON19) Yes, you do.
+(PERSON29) Yes, no great sep- separate presentation.
+(PERSON19) If you – if you ehm had to, for some technical reason, you can do your own slides, but if it's not too big overdeal it's better to put them directly into this.
+(PERSON29) Right, <unintelligible/>.
+Okay, okay, that's fine.  
+(PERSON19) Yeah, okay, ehm so, ehm –
+yeah, we'll – we'll prepare something for – ehm for the machine translation and this is – this is definitely an interesting ehm topic on its own.
+[PERSON17] is currently ehm focusing on something else, he's focusing on multisource ehm from speech, but it's very much working progress, so it doesn't have any ehm – any results yet.
+ehm 
+(PERSON18) Okay, I'll – I'll try to ehm produce a single slide covering – covering that – that paper.
+(PERSON19) mmhm Yeah, yeah, that would be good.
+Okay, thank you.
+(PERSON18) Yeah.
+(PERSON19) <unintelligible/>
+(PERSON18) <censored/>
+(PERSON19) mmhm Yeah, that's good.
+(PERSON29) Yeah, it's good thing.
+(PERSON19) ehm Okay, so –
+then on minuting –
+ehm what we will provide in minuting ehm is –
+I heard [PERSON5] presenting this to group of – ehm
+li, we had an internal ehm mini-workshop on – on speech summarisation yesterday, ehm so [PERSON5] already has some overview slides.
+Some people ehm may have seen this ehm, but not many from this user advisory work-meeting, cause there was Luxembourg workshop ehm organised by ehm smart selector, whatever –
+I've – I've – I keep forgeting that thing, ehm maybe <unintelligible/>?
+ehm And ehm [PERSON5] was presenting there, so we have a good overview of what we are trying to do there, ehm and ehm s- ehm 
+we –
+the – the main message is that ehm we are ehm working on ehm shared task ehm in speech summarisation, in automatic summarisation of – ehm of minutes.
+And we'll s- t- take part in the call for ehm workshop, so we'll try to have a workshop ehm in 2021 on this with this share task.
+And for that we're preparing ehm the data ehm, so ehm –
+Yeah, I'll – I'll –
+ehm I think it's better to present the minuting data set briefly in the data work-package and here only mention again that thi- this will be the data set.
+And ehm the goal is to ehm extract ehm suggestions ehm on the shared task organisation from ehm the [PROJECT3].
+But the problem is, that we have actually invited primarily empty and speech people and ehm not summarisation people.
+So it's still one week to go and I – I'm ehm thinking if maybe we could try to reach out ehm and also invite some summarisation people ehm for this.
+But if we don't get ehm them, ehm then that's not that big prolem.
+so on <typing/> workshop invite also some ehm summarisation people, or – or – general –
+so one – one person that was mentioned yesterday by ehm the – the – the future intern of us ehm was [PERSON16], so if we managed to ehm ge [PERSON16] that would be ehm like person who'd brought enough ehm experionce on the topics, for sure.
+Yeah, ehm so we also will – we will cover this, on integraion –
+yeah, any comments?
+(PERSON2) Oh sorry, I was just confirming.
+(PERSON19) Yeah, ehm on integration ehm, there will be [ORGANIZATION9] obviously, and ehm do we ehm s- ehm s-
+do you know if it's [PERSON25] or –
+(PERSON2) ehm I think it's going to be [PERSON22], <unintelligible/>
+(PERSON19) mmhm Yeah, okay.
+ehm And ehm I thing this ehm –
+I'll keep the ehm slides ehm on ehm the pipeline there, because we have the pipeline and the bomb – ehm the bombslides there, so ehm here is the ehm pipeline ehm slides –
+ehm the risks of ehm bombs, bomb discoveries and so on.
+ehm And ehm put there anything else you would like, so ehm I don't know –
+f-
+this is up to [PERSON22] and he'll be ehm back in office on Monday, right?
+(PERSON2) ehm Yes, exactly.
+ehm So, yes, ehm I think we're ging to make sure ehm –
+you know the ehm – the update to the presentation platform and some other pieces.
+(PERSON19) mmhm
+<typing/>
+Yeah, that's good.
+ehm And for the dissemination –
+I don't think that we have to ehm talk much about like public dissemination.
+ehm But I think it's more important the scientific dissemination – the –
+so the audible – the shared task is a clear ehm thing to mention here.
+ehm What else would you say?
+And – and the question is who will present this, so we don't have ehm [ORGANIZATION7] in the ehm call and ehm they actually ehm didn't respond at all ehm to this, because they like –
+<censored/>
+(PERSON29) Yes, is anything <unintelligible/> –
+Sorry.
+Is anything <unintelligible/> from presenting the <unintelligible/> – the dissemination to the [PROJECT3]?
+(PERSON19) That's right, so we can leave out this work-package as – as a howl.
+(PERSON29) I mean we – we have to do it for the review, but that's a different sort of s-
+(PERSON19) Yeah, exactly, that's a good suggestion.
+So maybe ehm if we instead –
+Yeah, so it would –
+let's – let's leave out the dissemination, because we don't –
+yeah, I don't think it's – it's important to invite [ORGANIZATION7] to – to join this call just to keep them ehm there.
+ehm <unintelligible/> – yeah.
+I don't know how to –
+So the – the thing is that ehm they have their own remote conferencing system and we are – have also one use case which – which ehm use our systems and they actually added ehm speech translation ehm to their system ehm, but they were much more happy with [ORGANIZATION8] ASR than our ASR.
+And ehm – and ehm –
+so they –
+yeah, I don't know if that's useful for the project to – to say this.
+So ehm for simplicity ehm yeah, let's – let's leave out ehm the integration –
+oh sorry, the – the dissemination work-package and let's ehm – let's mention our SSLT shared task in SLT, right?
+So just like one slide ehm –
+not so much in production ehm –
+so not the – not the S– SSLT submission ehm –
+our ehm submission, ehm but ehm mention ehm our SSLT share task, ehm because ehm we want to ehm define the standard ehm for ehm life SLT evaluation.
+So, this SLT f-
+They – the – ehm
+the thing is to ehm just mention that we want to do this ehm and ehm then we know for example that ehm it's ehm –
+w- we – we know that we do not have the good measures for flicker and delay, this is still ehm something not – not very ehm like standardised.
+And we're – we're not happy with – what we are measuring there.
+But we would like this to grow better.
+ehm And ehm there is – t- there are other ehm groups t- who also run this life SLT evaluation tak, ehm so we should sh- connect to them more.
+And ehm –
+(PERSON29) Yeah, I can – I can certainly have at least two slides about this, ehm <cough/>.
+(PERSON19) Yeah, yeah.
+(PERSON29) I can add the slide about the evaluation issue.
+(PERSON19) Yeah.  
+(PERSON29) Maybe I – yeah, I think I can <unintelligible/>, I can <unintelligible/> something for it.
+(PERSON19) Yeah, <unintelligible/>
+Yeah, yeah, so [PERSON19]  ehm will ask ehm [PERSON27] to provide ehm one slide ehm with ehm key problems ehm of SLTF.
+So the goal of the SLTF is to become the for ehm the <unintelligible/> spoken language translation.
+ehm But we're not there yet.
+ehm So ehm –
+and – and – and – join in – in – ehm in connection with the [PROJECT2] test set, ehm it really could be th- that thing.
+So ehm, you would easily ask for the inputs, ehm you would get the inputs from the [PROJECT2] test set.
+ehm The [PROJECT2] test set would contain references for both ASR and machine translation and SLTF will provide the set of standard matrix ehm over there.
+So ehm that ca- that can easily do the job ehm, if – if done properly.
+So that's –
+I think we should ehm mention this goal and we say – we should say that ehm the first version has been used that a SSLT share task and then ehm people should ehm point down all the problems and – ehm and – yeah – help us in this – ehm in this enterprise.
+So that's – so – ehm
+so the reason ehm, or the motivation ehm announce or ehm cast SLTF as ehm the ehm sacreble for ehm SLT, yeah.
+Yeah, okay, so that's good.
+And ehm for ethics ehm I will ask [PERSON1], if she would be available ehm, because ehm this is slowly ehm really growing ehm the – as an activity.
+ehm We'll have ehm part-time person on that as well, ehm because ehm of –
+we are really collecting the ehm – the auto project meetings from – ehm from this and from ehm [PROJECT1] ehm and we also have the – an institute from ehm [LOCATION1] City Council, ehm and our [LOCATION1] City Hall.
+And ehm we would like to ehm put ehm as much of this data into ehm the research domain, ehm so that people can ehm train ehm and test the meeting summarisation systems on this.
+And ehm there you really are working with ehm like ehm life people contributing their own thoughts, to ehm doing the consent correctly is important.
+ehm So, ehm I think that ehm if we mention the goals ehm and if we show our current ehm forms of consent an our current ehm practice ehm, we can get some feedback, whether this seems sufficient or not to – ehm to the others.
+So ehm – so motivation have ehm our ehm consens ehm practice ehm reviewed by the [PROJECT3] members.
+Or maybe they will provide ehm pointers to people who know even more about the ehm required ehm things, the regulation and also like the good ehm manners in this area.
+Okay, so ehm that would be the work-package presentations and then the demo sessions.
+So here we'll ehm again ehm start with the brief ehm description of the user interface, so the subtitle view and the paragraph view.
+So these do not need to be mentioned that much in th- ehm presentations ehm beforehand.
+ehm Or they can be if – if – if you like to, but ehm you can also ehm like delay that.
+ehm And then ehm we'll run the ehm demo and then we'll leave ehm 20 ehm more minutes – 20 more minutes for ehm any remaining questions or s- ehm slack time, right?
+Yeah, so I think that ehm – that makes a nice agenda.
+We have removed one of the work-packages.
+ehm so –
+and that's 7 work-packages,
+so that – that even saves us ehm some time.
+35 – ehm – instead –
+35 minutes and questions –
+ehm yeah, so someone is typing at the top.
+ehm And ehm yeah, I'll suggest to keep that – th- they are – that's three and half.
+<typing/>
+ehm Yeah, I think that's ehm all ehm good planned, so we need now to populate the slides and ehm I think what is interestion to say –
+ehm So, if you don't have any further questions to the agenda and the slides that we are going to present, then I would like to try the – ehm the demo again, right?
+(PERSON2) Yeah, s- sorry, I – I have a question about the slides ehm –
+<typing/>
+Okay, I – I d- I don't think we're going to add more content, as we can only –
+I – I think [PERSON22] is going just to present it, by b- b- by speech I mean, but ehm where should we put the slides in – in order if we – if we hava to?
+(PERSON19) ehm S- well did –
+I think it would be better to have some slides ehm there, even if – if they don't ehm have much content and ehm I'll put there ehm –
+yeah, so this is the – the overleaf, if you are not looking it –
+You're looking at it, right
+(PERSON2) Yes, 
+(PERSON19) Yeah, ehm so ehm – so here we have the overview, ehm it's low, the logos, ehm the set of languages, that is iportant ehm, the test events, that is also interesting ehm –
+And ehm –
+<other_noise/>
+<unintelligible/>
+Yeas, so I'll – our – our architecture, so –
+so I think this – this timeline of thest events fits nicely in the integration work-package actually, ehm so ehm –
+<typing/> So –
+So ehm project structure <typing/> and then maybe section, if we have any sections, if that works, ehm we –
+ehm which one does this render well –
+So I'm putting placeholders into the overleaf, and once –
+(PERSON2) <unintelligible/> you editind to – to match that with the slides – <laugh/>
+(PERSON19) Yeah, the slides are still a compiling for me, it's – takes ages.
+And I on't know if sections work ehm –
+project structure – ehm
+okay, so sections don't do anything here, ehm so ehm we have the – we have the ehm coffee ehm slides ehm –
+open audience paragraph, yeah –
+ehm so, like – like this –
+ehm so this is work-package one ehm – data – 
+let's try it like that.
+(PERSON2) ehm Yes.
+(PERSON19) Yeah, yeah, so I think this is – ehm this is the way to go, ehm so I'll put placeholder there t- to –
+<unintelligible/> ehm ASR <unintelligible/> – ehm SLT – <typing/> 
+Yeah, so we have now the – ehm some of the placeholders in the overleaw and I think that's ehm –
+so then then there will be one on integration, <unintelligible/>
+<other_noise/>
+observed ob- yeah yeah, so then there's the demos.
+Yeah, so that's – we have ehm some of the placeholders prepared, I will finish that soon ehm and ehm I think you ehm –
+is it cleaf for everybody in the overleaf where your slides ehm should go now?
+<typing/> ehm
+(PERSON29) Sorry [PERSON19], one – one question <unintelligible/> this ehm
+I forgot <unintelligible/>, [PROJECT3], could we just –
+(PERSON19) ehm Yes.
+(PERSON29) <unintelligible/> about the document.
+(PERSON19) That's a good idea ehm –
+(PERSON29) I remember question but I don't remember the answers.
+(PERSON19) Yeah, so there we have the doodle poll –
+ehm that's not here –
+<typing/>
+<unintelligible/> yep, yep, yep.
+Yep, the doodle poll here –
+so we have one, [PERSON24], [PERSON37], <unintelligible/>, ehm [PERSON35], he's from [ORGANIZATION1] in the Czech Republic, <unintelligible/>, <unintelligible/>, [PERSON7] from the <unintelligible/> ehm and that's it.
+(PERSON29) Yeah.
+(PERSON19) And f- f- yeah –
+for the [ORGANIZATION1], which is a Czech company, who – who do ehm ASR ehm and – and media monitoring –
+ehm they <other_noise/> –
+it could be maybe someone else.
+And – an- actually [PERSON15] <unintelligible/> is not available on the day of the final choice.
+well that's –
+so, I'll put that into the [ORGANIZATION8] doc.
+ehm So – 
+<other_noise/>
+(PERSON19) ehm Participants of ehm the ehm [PROJECT3] meeting, ehm yeah –
+<typing/>
+Yeah.
+<typing/>
+Okay, so ehm are we now ready for ehm the ehm – for the testing of – ehm of the demos?
+(PERSON2) Oh, okay, <unintelligible/> demos check videos <unintelligible/> segmentors and <unintelligible/> –
+(PERSON19) mmhm 
+ehm Yeh, so let's try this first one, right?
+(PERSON2) Yeah.
+(PERSON19) ehm And ehm I'll move –
+oh, it says my internet connection is stable, it's great <laugh/> –
+(PERSON2) For what is worth ehm [PERSON37] and I were – we're on the test yesterdays – ehm yesterday and also Monday, so – you know, everything is still working
+(PERSON19) <laugh/> That's good.
+(PERSON2) <unintelligible/> available?
+It's just the workers, you know –
+I think I – ehm
+that's everything is – working fine.
+So, when – when you'ready, please, switch to the [ORGANIZATION9] presentor and – ehm and start.
+(PERSON19) ehm So that ehm –
+yeah, that's –
+so what I'm going to do now is to present the slides, because I forgot the exact layout that the <unintelligible/> download pdf.
+ehm Open it ehm and share it.
+That's the screen sharing – yeah?
+(PERSON2) <censored/>
+(PERSON19) Yeah yeah, well it's downloading, so it'll open in a second.
+(PERSON2) mmhm
+(PERSON19) So, I have this one, but I also need the – ehm thou – ehm the Firefox window to show, if I'm not mistaken.
+(PERSON2) Yeah, yeah.
+(PERSON19) So, sharing my screen –
+ehm desktop –
+I'll share my full desktop –
+I'm now hopefully sharing my ehm screen and I'll create a new ehm window as well.
+<typing/>
+So you should be seeing the slides.
+Here we will go over the workpackges and I think it would be easier if ehm I kept sharing the screen for most of these presentations and I would be moving the slides for you, right?
+So that we have fewer transitions of – of sharing.
+And then we'll ehm get to the ehm – to the demos, so the live demo, the subtitling of – ehm stream videos and I should again say that we are not specialising in streaming.
+ehm So people should open this ehm link and then enter [PROJECT2] at [PROJECT2].eu and actually <unintelligible/> it for me –
+ehm the optimal screensize, you can reduce the font, you should allow the autoplay, which is ehm here – <typing/>
+Are you seeing on my shared screen ehm that I have my autoplay allowed?
+(PERSON2) Yeah.
+(PERSON19) That's good.
+<typing/>
+ehm And ehm then ehm the reload is ehm for start ehm watching the videos.
+So ehm –
+And ehm –
+So for –
+ehm I should – ehm I should still go over these slides ehm to ehm highlight where this autoplay is ehm to allow people ehm have the time to set it up.
+ehm And then if you cannot enable autoplay, then you will have to –
+after reload click the play button and then jump to the end of – of the video.
+And ehm in the lower part of –
+under the video you should ehm be seeing the subtitles and ehm you can choose which ehm languages you want to see there.
+ehm In some of the videos ehm the – ehm
+the videos contain burn- burnt-in subtitles, but these are made offline and very likely also manually editted.
+ehm So ehm you can compare ehm that ehm with the automatic transcript.
+ehm Yeah ehm, and ehm, yeah.
+So ehm this is it, ehm so go to the link.
+ehm Here is again the user name and the passport, remember to Shift reload for each new video.
+We'll be showing three videos, German short speech, which – with burnt-in subtitles, ehm three minutes of a German lecture and Czech speech ehm on [ORGANIZATION2].
+ehm And ehm from these three we can now demo the last one, right [PERSON37]?
+(PERSON33) Yes, yes.
+(PERSON19) Yea, so ehm let's try it.
+So everybody please open ehm the [ORGANIZATION9] platform, log in and when I tell you, and – or when [PERSON37] tells us, you should ehm shift ehm reload.
+So ehm the subtitles –
+(PERSON33) So <unintelligible/> –
+(PERSON19) Yeah.
+(PERSON33) We can start any moment?
+(PERSON19) Yes.
+So [PERSON37] please start and everybody should be watching the subtitles ehm and the subtitles will say to reload and at that point you will click Shift contro and – yes.
+So I'm reloading.
+mmhm I have to reload again because the –
+I was too quick.
+Yeah, and now I select the languages and ehm I see the logo spinning, so I don't have to click anything.
+And there is <unintelligible/> –
+it should start the streaming and the subtitling.
+Yeah, so I'll keep the screen sharing a little while on –
+(PERSON2) Yeah, because the –
+(PERSON19) because the translation is still running.
+(PERSON2) Yes, exactly, yeah.
+(PERSON19) So I don't know if you have watched your own ehm s- ehm [PROJECT2] platform or if you have watched my screen sharing.
+(PERSON29) I was watching your screen sharing.
+(PERSON19) Yeah, so th- the sharing –
+ehm I don't know if the video is – is lugging or if the video is okay, ehm but –
+it means that you din't have any sound, right?
+(PERSON29) That's correct, I didn't have sound, but it was in Czech anyway, so –
+(PERSON19) Yeah.
+(PERSON29) It's probably distracting for me to have the sound.
+ehm Yeah, it – it ran fine, the – the video look fine to me.
+(PERSON19) Yeah, okay, so that's – that's a big question.
+I think the –
+ehm I think we should do it as we did it, ehm so ehm we should invite people to open the platform, because then you have the sound.
+ehm And if some of them are Czech speakers so they will see that there is a huge lack ehm accumulating and <parallel_talk/> Yeah. <parallel_talk/> t- that's because of the segmentation.
+ehm So the – the segmentor is waiting for long segments ehm to be confident about the sentence boundaries –
+(PERSON29) mmhm 
+(PERSON19) and only then it is putting them to the presentation as subtitles.
+ehm So ehm that –
+I think it makes the ehm English easier to follow, but it makes it ehm rather inpractical for like things where ehm for example there would be slides –
+so if the visual information is linked with speech in very timely fashion ehm then this delay would be ehm really distracting.
+(PERSON29) Yeah, in this case it didn't matter, because there was just there is people talking, I mean I didn't know who was talking when the words were coming on, vut, yeah.
+(PERSON19) Yeah, yeah yeah.
+(PERSON29) <unintelligible/>
+(PERSON19) It was like two or three persons behind, and –
+(PERSON29) Yeah, yeah.
+(PERSON19) Well –
+(PERSON29) There's one thing I found a little bit awkward with the English subtitles, cause there are two line s of subtitles, yeah?
+(PERSON19) Yea.
+(PERSON29) And <unintelligible/> changes <unintelligible/> first line and you get to the new second line.
+(PERSON19) Yes.
+(PERSON29) I they could be shaded slightly differently, then I'd give the –
+(PERSON19) Oh, mmhm
+(PERSON29) You know what I mean, ehm and then shade oen moves up –
+So innitially it would be –
+say –
+the top one is black and the bottom is grey and then it would move up and then the top would be grey and the bottom would be black.
+(PERSON19) Yeah, or <unintelligible/> ground –
+so the – ehm the bottom one, the most recent one should be ehm bright, shining ehm –
+(PERSON29) It could be just a very slightly different shade, just like a track, because I can't see when it moves up and I have to read the words in the previous line like oh <unintelligible/> the newt line.
+So if we could have some – to show you that
+(PERSON19) So what you –
+But there is a –
+yeah –
+n- no, but I'm wondering whether you would prefer a kind of scrawling, so it would be ehm line an ehm interleaved colour so that the – the words remain in the colour and the new line –
+(PERSON29) Yeah, yeah –
+(PERSON19) That is difficult, that – ehm
+it would –
+(PERSON29) Yeah, okay, sorry <laugh/>, okay, yeah.
+(PERSON19) Another option is ehm that ehm we would be adding the words ehm and ehm then just discarding it.
+So would no way to – ehm to scrawl.
+(PERSON29) Yeah, I think probably the scrwling is probably useful, it's just that –
+yeah, I need to <unintelligible/> the red one line.
+I need some way of following that line on the screen and not reading it again.
+So some kind of visual cue –
+(PERSON19) But the – the lin should remain there.
+(PERSON29) I think it's –
+I haven't watched enough of this, probably better if the line remains there in case you don't gt to read that all, yeah, yeah.
+(PERSON19) Yeah, so, I don't know if we can insert any colour coding ehm in ehm – in that.
+I – I don't think that's – there is any support for colouring in – in the subtitle presentor.
+(PERSON29) Yeah, okay, okay.
+(PERSON19) And – and – n-
+(PERSON18) T- there is none.
+(PERSON19) So we will have to leave this f- for the next week. <parallel_talk/> I mean sure this – sure this is time –  <parallel_talk/>
+(PERSON29) Yeah yeah, the next week is fine, just a general – just a comment for myself.
+I'm sure there's time to be possible <unintelligible/> –
+it's not – it's not <unintelligible/> –
+(PERSON19) ehm Yeah, yeah.
+So – so ehm [PERSON21] c- if you can ask [PERSON22] ehm to include what is our future ehm plan for the layout, so <parallel_talk/> Okay. <parallel_talk/> that's – that's what we have discussed with [PERSON25] and ehm it should be ehm the para- kind of paragraph view, so longer ehm piece of text on the side.
+That's –
+there is some mock images on this.
+So – that would be good to – ehm to have here s- in the integration work-package.
+So we adress <unintelligible/> presentation platform.
+Please include the planned ehm layout of the view.
+Yeah, okay, so that – ehm
+I think this ran ehm well, there was some some negation flip and all the possible errors –
+(PERSON29) <laugh/>
+(PERSON19) I'm sure you noticed <laugh/>.
+(PERSON29) The – the – the translation was kind of readable, though, mybe that was wrong, but they were kind of okay, readable <laugh/>.
+(PERSON19) Yeah, it was – it was readable and it was mostly correct ehm except for this ehm –
+yeah.
+(PERSON29) mmhm
+(PERSON19) Like the – the happy birthday to me, ehm and –
+(PERSON29) Yeah.
+I c- I can't stop <unintelligible/> for herself.
+(PERSON19) Yeah. 
+Yea yea yea, there was actually he –
+ehm one of the – the – the ehm guy who was saying this, so it was – the delay was very big.
+You – you didn't –
+(PERSON29) Yeah, yeah.
+(PERSON19) Yeah, so I think that – ehm that's good, it – it run.
+So ehm right now we cannot test any more things, ehm because the segmentors are down, right?
+And –
+(PERSON3) Hi guys, I – I – sorry, I just – I just got here – got down filtring off my e-mails <unintelligible/> back from the vacation and everything is on fire.
+(PERSON19) Yeah, yeah, it's normal, <unintelligible/>
+Welcome <laugh/>, it was the same –
+(PERSON3) It's literally everything is on fire because there was 35 degrees in <unintelligible/>.
+(PERSON19) Yeah, yeah, yeah.
+So ehm we have just had the first demo, we have discussed the –
+ehm so the –
+you are in the document as well.
+Are you watching the ehm –
+(PERSON3) The document?
+Yes.
+I – I have covered now.
+(PERSON19) Yeah.
+So what is important in the document for you is the work-package ehm on ASR.
+ehm So ehm below this there is the overleaf link ehm to the slides ehm that you should edit.
+ehm And ehm we have volunteered you to present –
+or ehm well, you can obviously find ehm [PERSON6] ehm – [PERSON6] presented, ehm but ehm 5 minutes of presentation of ehm work-package on ASR.
+ehm It' up to you whether ehm you would like us ehm to mention our experiments with ehm fully new ASR.
+ehm The most interesting bit is that we are pre-training ehm Czech ASR, or we are actually continuing training of a downloaded model of English ASR to get Czech ASR and that works ehm interestingly well.
+ehm But ehm it's not integrated, because it is Window based ehm so ehm it doesn't have the ehm growing ehm hypothesis ehm proper that we need for the integration.
+ehm And ehm you have your own –
+so [PERSON23] was experimenting with this, so –
+you – you know more what is – what is the current status ehm there with the integration.
+So, please, ehm think about ehm interesting content.
+ehm The people who are going to be present ehm at the meeting are listed here, higher up in the document, so you may know some ehm – some of them.
+And some are Czech ehm quys as well.
+And the ehm –
+for each work-package ehm you should present – people should present the goals of the work-package, the challenges, the achievements so far, plans and open problems.
+Not necessarily all of those ehm in those five minutes.
+So this is technical people mainly, so we need to provide high level overview, so that they're on the same with page our goals.
+ehm But then we don't need to give the intermediate details, we can go directly to the –
+ehm we send highly technical details.
+Because they – they have the background knowledge in the area.
+So they need to know where we are heading and where we are stuck, what are our problems and what – what we have achieved.
+(PERSON3) Okay.
+(PERSON19) Yeah, so –
+(PERSON3) I'm – I'm probably gooing to look for someone else to do the care keep) cause ehm I'm not the most knowledgable person about the ASR, right?
+(PERSON19) Yeah, yeah, so, please make sure they ehm – they do it ehm – they do the slides early next <unintelligible/> – the latest, because in – on Wednesday is the session.
+The timing is in [LOCATION1] and – and also [ORGANIZATION3] time so we should start at 3 with some overview ehm given by me and then we'll go over the work-packages.
+ehm The block of ehm this presentations ehm should lun ehm – run for one hour in total including the discussion on those, and then ehm from 16 –
+so from 4 ehm :10 we have 30 minutes for the demos.
+So we have just tested ehm the first ehm – the –
+well one – one of the ehm subtitled ehm –
+one of the stream video subtitling, ehm and ehm [PERSON21] and [PERSON37] are stuck, ehm because there is no ehm segmentors running.
+And I don't know if it's ehm –
+if [ORGANIZATION3] can revive them or who is – who could revive –
+(PERSON3) I – I'm looking to it right now ehm –
+(PERSON19) Yeah.
+(PERSON3) I need to se what – what service) I can reach and – and where I can <unintelligible/> the <unintelligible/> I remember the – ehm putting the – the – segmentor workers on your machine that not work so well but we do have some other machines.
+(PERSON19) Yeah.
+(PERSON2) So, ehm I'd like to ask – request [PERSON36] if he could hand me system and getting the segmentor workers started in <unintelligible/>, because last time we tried and we didn't succeeds and we had to abandon it because we had –
+(PERSON3) Last time I <unintelligible/> also for weaker so I couldn't get them to run –
+(PERSON2) Yeah, yeah –
+(PERSON3) And we <unintelligible/> explain results to the member of –
+(PERSON2) Yeah, exactly, yeah, I don't –
+(PERSON29) I have another machine they are running on, and I would start them now ehm, but I think ehm –
+un- un- until I get more inside into why they didn't run on – ehm on your machine there is nothing I can do.
+(PERSON2) Okay but I – I really like it ehm one more chance, because it's really important that we –
+because in situations like this ehm –
+yeah, in situations like this it's important to have the – the duplicate, the segmentor worker on our cluster too.
+(PERSON19) Okay, so, I think that ehm globally we're ehm finished.
+ehm Remember here is the ehm overleaf link for the slides and there ehm is a placeholder where the ehm work-package slides should go.
+ehm And I'll finish the placeholders and I suggest that we keep this Zoom call running ehm and [PERSON36] can ehm notify us ehm when ehm – if he succeeds with the ehm segmentors and if we can still ehm have ehm the ehm – the demo test, ehm the dry-run for the other demos during this call or not, right?
+(PERSON3) Yeah, should be just a few minutes.
+(PERSON19) Yeah, okay.
+So let's – let's keep working on our things separately, but ehm with this call on.
+(PERSON3) Sure.
+<typing/>
+<other_noise/>
+<typing/>
+<other_noise/>
+(PERSON3) mmhm So, it seems like I can get you the German segmentors right away, ehm but that English ones I need to – need to keep locate.
+I started one German run now, it start somewhere.
+(PERSON19) Yeah, so let's – let's – yeah,  wait for little more for the English ones as well and then let's try all the demos at once.
+Rather than trying the German demos and then ehm interrupting us again.
+<typing/>
+<other_noise/>
+(PERSON3) So yeah, it seems like, unfortunately, I gen only get you the German segmentors right now.
+And we have the backup ehm servers ehm that are still running, but it seems like they only have the German ehm –
+(PERSON19) Yeah.
+(PERSON3) the German segmentor installed.
+(PERSON19) Yeah, okay, so in that case let's ehm – the – let's run the German demo now, so that we test the German one and ehm then ehm the – ehm –
+should be suggest Monday or what – ehm what other ehm day – or – or Friday.
+(PERSON3) I should call) <unintelligible/> back to speak, we can try Friday?
+(PERSON19) Okay, yeah, so let's – let's plan Friday ehm for ehm the other ehm – for the remaining demos.
+These also include the ehm paragraph view style, so it is important to – to run them.
+So Friday, wh- what time?
+ehm <typing/> <unintelligible/> <other_noise/> s-
+well that's whatever at eleven?
+Or –
+Would you –
+w- would – Friday at eleven be – be good time?
+(PERSON3) Yes, this time sounds good to me.
+(PERSON2) ehm Checking my – I'm checking the ehm –
+that's fine, okay.
+(PERSON19) Yeah, okay.
+<typing/>
+ehm Run for English demos.
+And I will again make the Zoom call –
+ehm cancel, my meetings, schedule a new meeting –
+ehm [PROJECT2] with dry-run two, that's Friday the fourteenth ehm at eleven ehm.
+I'll again put the passport 1234 there, <unintelligible/> in the Cloud, yes.
+So, I'm putting the credentials to the ehm same document.
+ehm So <typing/> ehm <typing/> ehm <typing/> <unintelligible/>
+So [PERSON37], whenever you are ready ehm for ehm – fo- for the German demos, let me know.
+(PERSON3) Yeah, yeah.
+<typing/>
+So what you just ehm copied, [PERSON21], is for ehm the Friday.
+(PERSON2) Yes.
+I put it on my calendar, so I can –
+(PERSON19) Yeah. 
+(PERSON3) So I'm r- ready for the German segmentor.
+(PERSON19) ehm Great.
+(PERSON2) I am too.
+(PERSON19) Okay, so, I'm still sharing my screen, ehm so we have ehm just finished the Czech ehm speech ehm example and ehm we have two German videos to be shown in the same interface, which is [PROJECT2].[ORGANIZATION9].com.
+[PERSON21], just double checking, ehm are you present during the [PROJECT3] sessions <unintelligible/> next week, right?
+(PERSON2) ehm Not the nineteenth, I won't be there.  
+(PERSON19) Okay ehm so ehm –
+and [PERSON25] will be doing both presenting and also like helping with platform in the –
+(PERSON2) ehm Yes.
+(PERSON19) So – so – who would be the best person to ensure that <unintelligible/> else, or who – who can volunteer to <unintelligible/> to the chat window?
+(PERSON2) Oh that, ehm –
+(PERSON19) Yeah, because [PERSON37] will be busy, ehm yeah.
+(PERSON2) Yes.
+(PERSON19) So everybody please if you do not see the – you are all in the chat window ehm then please place it there, because normally you cannot copy – you are else from the ehm – from the screen share.
+(PERSON2) Yes.
+(PERSON19) Yeah.
+Okay, so, we are ready for the demo.
+I will again keep my screen sharing on, so that if you do not want to listen to the sound you can only keep watching ehm the shared video ehm through my ehm screen sharing.
+ehm But there will be ad- additional delay.
+And if you want to ehm have sound ehm remember to use the tricks – the autoplay and all that in your own browser window ehm and remember to shift reload when the subtitles <unintelligible/>.
+<other_noise/>
+So I'm now moving to the ehm – to the –
+<other_noise/>
+yeah.
+So I'm now moving to the ehm browser window and I would like to ask [PERSON37] to So I'm now moving to the ehm show us the first German video, which is German short speech and it includes burnt-in subtitles, so you can ehm see how ehm our ASR is ehm working compared to ehm manually edited ehm s- ehm correct subtitles.
+So, yeah.
+Now is the right time to reload ehm your web browser, so that your streaming will start.
+And I see that the logo is already moving, so the ehm – the reload worked well and I can select German ehm and I will select ehm s- English and –
+I would like to watch English and German, yeah.
+And I'm waiting for – yeah.
+<unintelligible/>
+<other_noise/>
+(PERSON2) I don't think the German segmentor the screen is <unintelligible/>, because there are no segments and –
+(PERSON19) Yeah, exactly, there are no segments.
+(PERSON2) <unintelligible/> word translations.
+(PERSON19) And also ehm –
+so it's probably segmentor's fault ehm, because also – there is also like cashing happening, ehm or update.
+(PERSON2) If you see – yeah, if you see the <unintelligible/> presentor, like <unintelligible/> quest you would see like the text is still grey.
+(PERSON19) Yes.
+No, no single – 
+(PERSON2) Yeah.
+(PERSON19) ehm full stop has been inserted.
+(PERSON3) So again the segmentor is inserting any punctuation?
+(PERSON19) Yes.
+(PERSON2) Yeah.
+But I can see capitalisation, <unintelligible/>.
+(PERSON3) That is –
+I – I have no idea why that is.
+Like this is even the – the instance of the segmentors that we have used in the production and they have worked.
+(PERSON19) ehm Yeah, well, so let's – let's stop the call for today and [PERSON36], please, keep debugging ehm with help of [PERSON37] and ehm [PERSON21] ehm and then on Friday we will test also the German ehm.
+Hopefully it will be working ehm on Friday.
+(PERSON19) Okay?
+(PERSON3) Yeah, okay.
+(PERSON19) Yeah, okay, great, so thanks to all for your participation.
+On Friday, whoever is available as – as watchers, ehm please ehm come to the call, but the call is kind of compulsory only for ehm [PERSON36], ehm [PERSON21] and [PERSON37].
+And – and me –
+if – if I'm able to – to come, right?
+<laugh/>
+(PERSON3) Yeah.
+(PERSON2) Okay.
+(PERSON18) Thank you.
+(PERSON19) Okay, so thanks you all and keep working on the slides.
+If you have any questions, e-mail me ehm, thank you and see you next week ehm, but we'll be in touch ehm all the slides in the meantime.
+(PERSON29) Thanks [PERSON19].
+(PERSON2) Yeah, bye bye!
+That was a good one.
+(PERSON19) Thank you.
+(PERSON2) Bye.
+(PERSON29) Bye.
+(PERSON19) [PERSON37], ehm should I keep – should I keep actually the call running so that you can use it with [PERSON36] or it doesn't matter – is like it's better?
+<unintelligible/>
+(PERSON19) Okay, yeah, well, I'll close it.

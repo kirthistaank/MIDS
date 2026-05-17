@@ -1,0 +1,21 @@
+[PROJECT3] [PROJECT2] 31. 05. 2019
+
+
+Date: 31. 05. 2010
+Attendees: [PERSON6], [PERSON15], [PERSON5], [PERSON14], [PERSON10]
+Purpose of meeting:  Preparation for June event
+Agenda: 
+* Possibility of having real video mixer
+* Text client needs to debug
+* Text to text client problem
+* Testing MT, fixing batch model
+* Online ASR
+* Choosing correct subtitles
+* Connection
+
+
+
+
+
+
+Minutes submitted by:         [ANNOTATOR1]

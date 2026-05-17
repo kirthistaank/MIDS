@@ -1,0 +1,64 @@
+[PROJECT2] meeting
+Date: 16. 06. 2020
+Attendees: [PERSON6], [PERSON7], [PERSON9], [PERSON11], [PERSON3]
+Purpose of meeting: submitting the book, creating deadlines to finish the project, going over the attendees' parts to determine, what needs to be done in the next two weeks
+
+-Agreement on sending the book to Professor [PERSON5]
+--Before submitting, at least the table of contents should be sent to Professor [PERSON5].
+--Agreed, that they will send the whole book, after the sections are stabilised in their final form.
+--The sectioning should be improved as soon as possible, so the whole book can be send. 
+--It is unknown, what the reviewer-searching process will look like.
+
+-Discussing, until when the book should be finished completely
+--Original deadline cannot be met.
+--Established that the book should be written by the end of June, so the final commenting can begin.
+
+-Agreeing on future meetings
+--Attendees compare their vacation calendars, and they establish future meetings: June 23rd at 11 a.m., June 30th at 11 a.m. and July 13th at 2 p.m.
+--Suggestion that it should be specified, what particular tasks should be done by which deadline.
+---The contents of the book should be finished by end of June.
+---Commenting the content of others should be finished by mid-July.
+---Book is finished by 31st of July.
+
+-Postponing the original deadline
+--The use of the money from the grant can be postponed from the end of December to the end of January.
+--This postpone should be enough if the book is submitted officially by the end of July.
+--Due to covid-19, the grant fulfilment could be postponed for six more months and the grant money could be used for conferences in 2021.
+--Suggestion that this extension is applied for.
+--Decision that the possible extension will be dealt with after the book is submitted.
+
+-[PERSON6]'s progress check
+--[PERSON6] is working on attention metrices and different patterns.
+--[PERSON3] is helping with visualisations of the [PROJECT9] metrices.
+--Comparing [PROJECT9] and [PROJECT8] heat maps is difficult because different parameters potentially are varying the outcomes.
+---Decision that it will be mentioned in a footnote only.
+--1.1 must be reviewed and rewritten.
+--5.3.1 needs more figures, tables, and conclusion.
+--5.3.2 is almost finished.
+--5.3.3 and 5.3.4 will be written by [PERSON3].
+--5.4 needs to be rewritten with less detail. 
+
+-[PERSON11]'s progress check
+--Chapter 4 is almost ready to be read.
+---The chapter will be not have the form of a story, it will rather concentrate rather on visualisations of embeddings and comparing different visualisations.
+---The generative language models will only be mentioned shortly.
+--[PERSON11] will ask more data-specific questions on [ORGANIZATION7] and write chapter 3.
+
+-[PERSON9]'s progress check
+--Chapter 6 has its final structure already, just needs to be rewritten.
+---Decided, that 6.2 will be divided into multiple smaller subsections.
+---[PERSON3] will add some visualisations to section 6.
+---Agreed multilinguality will be in section 6.5 and copied from their previous paper without the technical details, just nice images.
+
+-[PERSON3]'s progress check
+--[PERSON3] is writing a survey about syntax in neural networks.
+---It will be submitted to [PROJECT10].
+---Some figures will be included in the book.
+
+-Conclusion
+--The chapters and sections should be set until Thursday, then it will be sent to Professor [PERSON5].
+--All visualisations in the book should look at least similar.
+---Suggestion it should be done in [OTHER2], so it corresponds with the relevant settings in [OTHER1].
+--Updates should be discussed during the week also, not only in the meetings.
+
+Minutes submitted by: [ANNOTATOR2]

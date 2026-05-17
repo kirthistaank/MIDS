@@ -1,0 +1,62 @@
+Call with [PERSON6]
+Call room: [URL]
+? PIN: 1234
+? To test in advance, use [URL]
+GoToMeeing: [URL1] (the familiar persistent ID)
+
+Participants:
+? [PERSON6] + [PERSON4]
+? [PERSON1]
+? [PERSON11]
+? [PERSON12]
+? [PERSON2] ([ORGANIZATION6], will come to [ORGANIZATION2])
+? [PERSON13] ([ORGANIZATION6], will stay at [ORGANIZATION6] and start the GoToMeeting)
+? [ORGANIZATION2] participants will all meet in the room S510, [PERSON12] has booked it 14.15-16.00
+? [PERSON11], please bring the big - wide-angle microphone
+
+Agenda:
+? Start recording
+? Everyone has agreed.
+? Date for [PROJECT1] call ([ORGANIZATION4]'s availability is missing):
+? [URL2]
+? Resolved during the call.
+? Collecting photos and videos from Trade Fair (from [PERSON6])
+? [PERSON12] and [PERSON11] received the two pictures from [PERSON6] by e-mail - DONE
+? Confirmation of proposed scheme of wiring for [ORGANIZATION8] Congress:
+? [URL] old version
+? [URL]
+? [PERSON6] says: we need as original sound from the microphones as possible, ideally the digital signal captured at the microphone
+? We need this from both the main microphone of the plenary session as well as for each of the languages from interpreters' booths that we can process (English, German, Czech, French, Spanish, Russian)
+? These outputs can be arbitrarily distributed in space, as long as ethernet wiring leading to the common switch is available
+? Analog as a fallback, and one cheaper (non-DANTE) digital output ([PERSON6] must choose in advance which one) from each mic
+? Digital interface to audio mix pult (the same mix pult should also handle interpretation booths) Options: AES50 (point-to-point only), ULTRANET (up to 16 ch.), AES / EBU (up to 2 ch.), DANTE (3x the cost on [ORGANIZATION6] side, but still acceptable-ish)
+? Microphones [main mics, audience mics?]:
+? How to define the microphones parameters for the tender?
+? Sensitivity, frequency response, noise, …
+? [PERSON6], please provide this specification for:
+? main stage wired microphones
+? interpreter's booths wired microphones
+? In the unfortunate case of wireless main stage, please also specify the characteristics of those.
+? > (frekvenční rozsah [Hz], zkreslení [%], hladina šumu [dBA], apod)?
+? Get a contact for someone from [ORGANIZATION4], who will handle the presentation platform (which should stream slides)
+? [PERSON4] will be the main contact point.
+? [PERSON6] mentioned the streaming should be HSL or something like that, an [ORGANIZATION3][2] standard
+? [PERSON12] will still keep trying to implement the slide-grabber part, incl. the streaming
+? [ORGANIZATION4] will implement the presentation part, incl. streaming projection and subtitle selection and projection
+? Will [ORGANIZATION4] also try get their ASR (e.g. for Italian?)
+? If so, [PERSON12] suggests to team up with [PERSON7] and jointly develop the integration for [PROJECT2]. ([PERSON7] would appreciate any help.)
+? Or has anyone used [PROJECT2] with [ORGANIZATION4] platform?
+? [ORGANIZATION4] uses their own ASR engine based on FBK's toolkit, already integrated
+? When will the python version of [ORGANIZATION4] platform sample connector?
+? We could change [PROJECT2] worker.py to connect to [ORGANIZATION4] mediator instead of the gstreamer server.
+? [PERSON6]: struggling with one issue with the python binding; still not working; can share it anyway
+? [PERSON6] will share the code so far to the public [PROJECT1] repo
+? [PERSON12] will pass it to [PERSON7]
+
+
+
+
++[PERSON2] + [PERSON6], [PERSON6], please check and complete the updated drawing and confirm. Thanks! [PERSON12].
+_Assigned to [PERSON6] -
++[PERSON6] [PERSON6], could you please correct my notes here? Thanks, O.
+_Assigned to [PERSON6]-

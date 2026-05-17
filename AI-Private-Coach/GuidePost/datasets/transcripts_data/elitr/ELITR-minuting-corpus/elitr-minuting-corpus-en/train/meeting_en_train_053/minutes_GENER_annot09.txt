@@ -1,0 +1,29 @@
+Minuting - virtual coffee
+07/10/2020
+38 min
+
+-Purpose of the meeting.
+-- To discuss the data (the amount and how does it look like) .
+
+-Workflow.
+-- Overview of the available data was presented.
+-- The link to the organised table of data is available from the link in the agenda.
+-- There are 2 big parts - the English meetings and the Czech meetings.
+-- The English meetings are divided into groups according to their topic.
+-- The annotators, whose codes come from the first letter of the name and surname, prepare the correction of automatic transcript and create minutes.
+-- Some of the manually corrected transcripts are corrected by another annotators.
+-- There are 150  English meetings of 116 hours and half of length, 76 manual transcripts and 76 minutes, 33 meetings are transcribed twice and 29 meetings are at least twice minuted, 80 hours of meetings are manually transcribed.
+-- For Czech there are 55 hours, out of which there come 50 transcripts and 50 minutes, 40 meetings are double annotated, so there are 40-52 hours of annotated meetings.
+-- The names of all meeting participants are available.
+-- There are data that need to be decided about, whether they should be sent to annotators or not.
+-- The TXT files are of different length.
+-- The amount of meetings annotated depends on the capacity of annotators.
+
+-Plans.
+-- There is no certainty how much data should be released for the shared task.
+-- The shorter files consisting of dialogues should be chosen.
+-- Proposal submission is in November 2020, data release is planned on January.
+-- 10 hours of meetings should be deleted and there will appear about 10 more hours of new ones.
+-- The minimal amount of data that is to be released and how that should be counted is to be considered.
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,20 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION7], [ORGANIZATION5], [ORGANIZATION4]
+Meeting Name: [PROJECT3] [ORGANIZATION3]
+Meeting Date: 30.06.2020
+Meeting Topic:  Progress on [ORGANIZATION4] book content writing 
+Meeting Participants: [PERSON17], [PERSON9], [PERSON8], [PERSON21]
+Purpose of the meeting:  To assess the progress on the content contributed to the book by each participant before the upcoming deadline.
+Deadline to stop the adding content to the book: The meeting date; i.e. 30-06-2020 midnight CET.
+To do before deadline:
+-	Finish the incomplete sections of the book and sub-sections with no content (i.e. on multi linguality)
+-	Add more pictures and of improved quality, inclusive data sources. Additional pictures to be devised from figures and tables occurring in the book as original content.
+-	Consult further resources on topics of named entities, grammatical errors and event factuality.
+-	Non-original text and pictures need to be cited accordingly, inclusive exact pages and licence attributes.
+-	Optimise the conclusions in the book; write the book introduction and summary as per series regulations.
+-	Perform formal changes, coordinate fonts, and optimise picture gloves and text embeddings.
+Next stage: To review the complete text written by all contributors to the book.
+Next meeting: 13-07-2020 at 14:00 PM CET
+Off-topic discussion:
+-	Suggested participation on pre-recorded ACL presentations, related live Q&A sessions and tutorials.
+Minutes submitted by: [ANNOTATOR1]

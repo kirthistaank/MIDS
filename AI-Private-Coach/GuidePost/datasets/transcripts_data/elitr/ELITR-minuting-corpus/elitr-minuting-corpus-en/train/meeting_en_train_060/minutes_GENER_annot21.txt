@@ -1,0 +1,72 @@
+[PROJECT3] meeting - [PROJECT4]
+Date: 21.09.2020
+Attendees: [PERSON11], [PERSON16], [PERSON12], [PERSON7]
+Purpose of meeting: discussing updates on [PROJECT4], [PROJECT1], [PROJECT2]
+
+-Objectives of this meeting.
+--Progress on [PROJECT4].
+--Update on the project [PROJECT1].
+--Discussing [PROJECT2]s.
+--Update on the [ORGANIZATION1].
+--New co-worker.
+--Trouble with receiving payment.
+--Informing about Nalejvárna.
+
+
+-Discussing the progress of work on [PROJECT4].
+--The translation is still in progress with probably up to 10 parts remaining.
+--The remaining parts of Monolingual data will be translated tomorrow (22.09.2020)
+and with the data being complete, the training of the systems can begin.
+--It will be trained on 8 GPU's in the firewall.
+--Hopefully, the results will be in 5-7 days, so if something comes up
+there is some time for carrying out other experiments.
+--Cluster is quite free at the moment.
+--The concentration is now set on the data augmentation because of the [ORGANIZATION4] deadline.
+--Participants in the call were informed, that the two people working on the data augmentation
+will consult each other and if there are good results, they will write the paper together.
+--Also the meeting creator is informing about the possibility of forwarding email from [PERSON14]
+about data sets they use for their multilingual experiments, although it is not certain,
+if the data is [PROJECT2] and thus maybe not sufficient for the task.
+--With this also informing about probable collaboration with them.
+
+-Update on [PROJECT1].
+--The number of users/collected logs has improved to 6.
+--Discussing that someone from [ORGANIZATION3] is leaving
+and it's not certain who's going to take over from their side.
+--The minimum of users to get the needed data is about 50.
+
+-[PROJECT2]s.
+--The training of the tutorial was finished and the results can be checked.
+--It was decided to do it in FrSeC.
+--As of today, the script for the training of the English-Czech model is being prepared.
+--After there are results for the model, experiments with constraint decoder can begin.
+--Continuing to follow the instructions for the project.
+--Baseline model will follow afterwards.
+--It needs to be checked which version of FrSeC is the one with constrained data.
+--The constrained coding in FrSeC was checked superficially, and it should be simple.
+
+-Update on the [ORGANIZATION1].
+--It was checked today and it should also start receiving today.
+--Email will be sent to arrange a date.
+--It will have to be checked how they will deal with the situation, that will be prepared
+after there is an answer from them.
+
+-New co-worker.
+--He will be officially starting when he comes to [LOCATION1] on 1st October.
+
+-Trouble with receiving payment for last month.
+--There was no problem on the side of [ORGANIZATION2].
+--His bank gave him the wrong IBAN that is identifying his account.
+--He will send the correct one to [PERSON9] and hopefully, it will be resolved soon.
+
+-Nalejvárna
+--It's an introduction on how to work at  [ORGANIZATION2].
+--It seems it will be on Wednesday at 2 pm Central European Time.
+--It would be great if ([PERSON7] and [PERSON12]) joined in.
+--In the case of [PERSON12], he knows most of the stuff, and if there are some issues he can
+ask others for some small details.
+-- It would be great if he joined and half paid attention.
+-- Email conversation will be sent for the information.
+
+
+Minutes submitted by: [ANNOTATOR1]

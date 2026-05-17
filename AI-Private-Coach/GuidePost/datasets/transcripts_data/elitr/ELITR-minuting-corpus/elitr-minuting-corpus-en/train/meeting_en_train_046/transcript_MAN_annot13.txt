@@ -1,0 +1,725 @@
+(PERSON12) Hello. Does it work?
+I don't hear anything.
+(PERSON1) <another_language/>
+(PERSON12) <another_language/>
+Hi [PERSON5].
+(PERSON5) Hi [PERSON12].
+(PERSON12) Yeah. 
+Yeah.
+I'm.
+I see people coming in. 
+That's great.
+Yeah.
+I am totally failing to get down to the SLT <unintelligible/> IW SLT evaluation.
+The deadline is May the 20th?
+(PERSON5) The 27th.
+(PERSON12) 27th, yeah, yeah, Okay.
+Yeah. It's getting worse and worse.
+<laugh/>
+Yep.
+Okay.
+(PERSON5) I think this weekend. 
+If we speak the weekend, we can put time on it, but don't worry about it.
+I I I'm just doing my stuff, and I'm not contributing in [PROJECT4] now.
+And so it's not blocking things.
+But I think maybe this week <parallel_talk> Yeah.</parallel_talk> we should have a meeting and decide about it. 
+And just-.
+I am touch, I am in touch with [PERSON2].
+And [PERSON2] is preparing that, that Jupiter.
+So I think everything is there and everything is fine.
+I saw it and it's good.
+So now we need you know something to me and you decide together I think so.
+(PERSON12) Yeah. 
+I am happy to hear that it it's making a good progress.
+Yeah, Okay. 
+Great.
+I see most of you are actually here, thanks.
+So let's, let's go quickly over the topics that you have listed.
+Today is the last Tuesday meeting before I have to somehow close the Surge points for this month.
+And so if you have not listed yourself yet, this is the last call.
+And I'll I'll somehow process it onwards.
+So just serious reminder.
+And then on Friday we're running the demo for the Project Officer and it is 
+surprisingly complicated.
+Be, given how many tests we have already done.
+So I'm I'm really like-.
+I was not anxious before the preparations for the demo started.
+And I'm getting more and more anxious as as they are running.
+And uh, I have 2 questions for [PERSON6] because today he mentioned in another call that we had, that we lost some of the copies of the of the [ORGANIZATION7] model.
+Is is s that true?
+Can you-?
+(PERSON6) That is definitely true.
+(PERSON12) Yeah.
+So this is-.
+(PERSON6) I tried get it back from-.
+So actually had some autom some scripts also which made work-.
+Oh sorry.
+I also had some scripts which made the work easier.
+Those have also been deleted.
+(PERSON12) Yeah.
+So this is a big big warning for everybody.
+Never, never keep only one copy of things.
+Always have things versioned and always have things like on multi, in multiple directories.
+So to say.
+(PERSON6) Yeah.
+Probably you are right.
+(PERSON12) So and and and if you remember many months ago.
+Uh.
+I have set up with directory in net data [PROJECT4], which was called something like models.
+Uh.
+And that was supposed to be the copy off all the systems or maybe systems. 
+Net net data [PROJECT4] systems.
+And that was supposed to be like a static back-up copy of all the systems.
+Uh.
+So that if anything goes wrong, we would have a a source to to copy them over.
+So, so, how much work is is needed to get this to get this local copy up again.
+(PERSON6) So actually I have the links from [PERSON14] so I just need to download them.
+So that is not a-.
+So that is like-.
+Almost like 50 percent work and then I get into to do more 50 percent.
+Like writing the scripts again.
+Then, as you said, you need also domain adaptation.
+And.
+Yeah.
+(PERSON12) So these days there is no way to do the quick domain adaptation that we used to do? 
+(PERSON6) No, not quickly. 
+Like single person, not like a key person.
+(PERSON12) And it used to be like that?
+(PERSON6) It used to, yeah.
+(PERSON12) That's-
+<laugh/>
+Okay.
+That is really a very big warning for for, everybody make.
+It is much better to have half the the mess in the files and too many copies,
+then to have one copy somewhere, because accidentally can get deleted or or damaged.
+And it's then, yeah, okay.
+So the talk level domain adaptation is also out of question for the Fri for the Friday session, right?
+(PERSON6) Yeah, that could be all released subject to worry right now, so.
+Like right now our main focus should be to get the pipeline and the whole system running successfully at least.
+You don't want to lose that.
+Forget about the domain adaptation level.
+(PERSON12) Exactly.
+Yeah, yeah, yeah.
+And my last question bef before I let others speak well. 
+<other_noise/>
+It's stupid.
+Is if anybody has ever tried injecting sound output to an application which is recording the microphone.
+So, what we want to do is to-.
+Imagine that I wanted to play a music to all of you now.
+So what should I do?
+How how should I send the sound from the Music Player whatever M Player into the exip call.
+And I've read that player control should be able to do that.
+But I've actually failed.
+So I've found a link-.
+So if anybody has ever experimented with with redirecting sound in Linux, please let me know
+(PERSON6) Yeah.
+Just give me a minute and I can try it.
+(PERSON12) Yeah, Okay.
+So actually, I think that it works for everything.
+Except-
+I try it now.
+If you will hear some some strange Czech person talking instead of me, then I have successfully switched it.
+(PERSON6) Do you hear something?
+So, did you guys hear something?
+<another_language/>
+(PERSON1) I hear a Czech lady talking.
+<another_language/>
+(PERSON5) Yes.
+(PERSON6) Yes, we can h-.
+<another_language/>
+(PERSON5)  Yes, I think [PERSON12] we cannot hear you.
+(PERSON12) And now you can hear me again and not the lady anymore.
+(PERSON6) Yeah.
+(PERSON5) Yes.
+(PERSON9) Yes.
+(PERSON6) I think you change the sound setting and took the input from the monitor, right?
+(PERSON12)  Yes, but this was not possible with Zoom.
+So Zoom ignored this. So that's a problem of the Zoom platform.
+(PERSON5) Maybe you could just br bring the Zoom on the Zoom developer forum and they they will probably reply to you even in like a day.
+(PERSON12) They will reply.
+I saw some messages which where they said it's only in Windows and Mac OS.
+(PERSON5) Oh, yes.
+That's that's the desktop kind. 
+(PERSON12) [PERSON12], I think Zoom has.
+You need to configure the input sound for Zoom separately.
+So if you're seeing Zoom at the bottom left, there is a mike option.
+And if you click there is a-.
+I will open a dialog box, which has a list of input sources.
+And I think you need to explicitly change it there.
+(PERSON12) Okay, so.
+So if.
+So that.
+Let's lets dis discuss it later with [PERSON6] when I managed to get to work.
+So I'll I'll get there around 5 I guess.
+And then we will try it.
+Ok, so it's. 
+Thank you for for this test and yeah-.
+It's always little bit more complicated than than we like expect.
+Yeah, okay.
+So with [PERSON3] there is now no need to ask for for the domain that talk level adaptation.
+(PERSON6) No. We should definitely have it in case it runs you know-.
+I can like manually do the things.
+I can get it ready.
+So I I definitely want the domain adapted words to get, to have ready in hand at least.
+(PERSON12) Okay. 
+But we don't have.
+We never had the German ASR, right?
+(PERSON6) No, no, no no. We we didn't have German ASR.
+(PERSON12) So for English there is nothing to-.
+There could be like our [PROJECT4] talks that we could list in.
+(PERSON6) Yeah.
+(PERSON12) Yeah.
+So I'll think about it ans I'll ask [PERSON3] what what he can prepare for for Friday. 
+It's very very soon.
+Okay. Yeah. Thank you.
+So now, let's go over the list.
+So [PERSON11].
+Oh, yes, [PERSON11] is on mock con interpreting conference.
+I would like to join that when get to work as well.
+And he was reviewing the data from the past mock conference.
+Fixed some bug, going to-
+Yeah, yeah. 
+So so there is an [PROJECT3] submission, which we did.
+And there is still 3 days to update it .
+So, uh, and then.
+And then so there is some sense things delated related to the paper.
+Then uh, we should receive the feedback on our IW SLT submissions in 3 days, again.
+And then we will have 10 days to improve the paper.
+And the important thing is to work on the SLT deliverables for the [PROJECT4].
+Okay, that's that's good.
+So I did it.
+I did the summary for [PERSON11].
+And now, [PERSON2], he is working-
+Oh, you are here, right?
+(PERSON2) Yes.
+Yes, I'm listening to you more right now than to the conference so.
+(PERSON12) Yeah.
+So was there anything you wanted to add?
+(PERSON2) I replied to [PERSON10]- [PERSON10] about the SLT yesterday by email.
+(PERSON12) Yeah.
+(PERSON2) Yeah.
+And I fixed one bug in the back end ASR.
+So [PERSON6] if you are using it, then you can pull new version.
+(PERSON6) Yeah. 
+Yeah.
+I'm using it right now.
+<unintelligible/>
+(PERSON12) Yeah.
+Yeah. 
+So, speaking at, still getting back to [PERSON6] and the demo for the Project Officer.
+Who is available for or-
+[PERSON6] are there tasks where you need a hand?
+Do you need some coders who would frantically help you in bug fixing?
+(PERSON6) Like what kind of bug fixing are we are we talking about?
+(PERSON12) Exactly.
+That's the, that's like-.
+Is there something that you could delegate?
+(PERSON6) I I I'm sorry.
+I didn't get your question.
+Like what is-.
+(PERSON12) Is there, is there something that you could get some help with?
+Like getting something running, getting to putting together script which whatever-.
+Ways-.
+(PERSON6) Like some extra hand.
+Kind of.
+(PERSON6) Yeah. Some extra hand?
+(PERSON12) Hmm. 
+Yeah. 
+I mean-.
+(PERSON2) I think the best would be if someone reviewed the scripts before the event.
+(PERSON6) Yes.
+Yes.
+I would like kin kind of tester kind of.
+(PERSON2) Yeah.
+(PERSON12) Yeah.
+So someone who would be kind starting the pipeline from scratch, right?
+Like on his machine, getting getting the same set up running.
+(PERSON2) Yes.
+(PERSON12) Is that the thing?
+(PERSON2) Yeah, and just check the outputs whether languages are correct.
+Whether there are not some duplicated lines in the output.
+<unintelligible/>
+(PERSON12) Yeah, I saw I saw the EN language text in in interleaved with in the Romanian outputs and things like that.
+(PERSON6)  So today I had an issue that the German to English [PROJECT5] worker, it has been integrated with [PERSON11]'s [PROJECT6] wrapper and it it it-.
+I mean it was running successfully until few days back.
+I tested it during the weekends but it was repeatedly failing today.
+And there is like a specific error which I see now and then or along with other workers also.
+I I exactly don't know how it is.
+Maybe when I I can talk to [PERSON11] about it.
+(PERSON12) Yeah, so-.
+So the now in this call who would be available for this immediate help, and and bug fixing in the coming days?
+So I'm looking at at the list of you, who are present in the call.
+I can think only of [PERSON1] actually and [PERSON4].
+<laugh/>
+I think you're the the only 2 candidates, who could help immediately.
+(PERSON1) But, maybe I m- what  <unintelligible/>
+Is there like some exact work that needs to be coded?
+I can-
+(PERSON12) Not. Not yet.
+(PERSON1) I can help to co code something if it's if you need hands [PERSON6].
+(PERSON12) But we are-.
+Various debugging.
+For example the testing whether the port is free or not.
+So [PERSON6] are we going to use back end ASR or are we going to use the old set up.
+(PERSON6) Back end ASR. Back end ASR.
+(PERSON12) Okay.
+So the back end ASR that connect to mediator and that's it, right?
+(PERSON6) Yep. 
+And if you're worry for the pipe like checking if the pipe if the port is and came on, I've already fixed that.
+In my current.
+So when I s at the check-
+When I start the [PROJECT1] it starts locally, it first-
+(PERSON12) It will tell you.
+(PERSON6) No.
+It will delete.
+It will kill all the exi existing [PROJECT1] server in there.
+And just start the new.
+(PERSON12) This is again risky.
+Because imagine that you run the script where you actually want some other instance running.
+So, it's-
+This, yeah, this is the w-.
+It is a working solution but it is a risky solution. 
+(PERSON6) Yeah.
+This is like, I don't know, I kind of agree, kind of.
+(PERSON12) Yeah, so, but can we?
+I think it would be, yes.
+So what we could do, is that is that we would give one of the set ups to [PERSON1] and [PERSON1] should test it so that it runs.
+And another set up to [PERSON4].
+If [PERSON4] is here.
+[PERSON4] are you are you on the call?
+(PERSON4) Yeah I am here. 
+I just I just don't know if I if I will have enough time.
+How how much do you estimate that it could it could be in hours?
+(PERSON12) It's only until Friday.
+Friday at 10 is the event.
+So actually it's like tomorrow, and today tomorrow and the day after tomorrow and how much you can give.
+Because it will involve some learning how to run it.
+(PERSON4) Yes, so maybe like I I have I have very little time these days.
+So maybe.
+If it woks, I can do it.
+But but if something breaks I can't guarantee that I will have the time to-.
+(PERSON12) Yeah.
+So, let's not count on you at all.
+And and [PERSON1], you are you available kind of in these days?
+(PERSON1) Yeah. 
+I can ha, I will have some time on a Thursday.
+So-.
+(PERSON12) So, that's too late.
+(PERSON1) Maybe tomorrow like evening.
+(PERSON12) Yeah.
+Yeah.
+So, we'll yeah we'll.
+Maybe we'll send you some some command that you should try running regularly and let us know if that worked for you or not. 
+And maybe not.
+Okay. 
+So that's.
+Yeah.
+So thanks.
+I I think that's that's that's it for now.
+We we cannot like do any any better.
+Oh, okay.
+Yeah.
+So.
+Now, let's lets move on with the with the progress report for the various people.
+<another_language/>
+So [PERSON2] is maybe on the call, but it doesn't work or him.
+And then he is working on the analyses of IW SLT.
+And, yes.
+So that's that's it.
+There is.
+That's a lot of work to be done.
+[PERSON6] is working on the preparation.
+The [PROJECT6] wrapper, wh wha so so far you have not used [PROJECT6] wrapper and you are starting only now? 
+Is that correct?
+(PERSON6) <unintelligible/> 
+This weekend I integrated it and I'm using it from Monday.
+Whatever test we have done until now from Monday.
+(PERSON12) Mhm. Okay.
+(PERSON5) [PERSON12]. 
+(PERSON12) Yep.
+Sorry could you-
+I think because I spoke with [PERSON2] maybe if you can't you know if you can't you know.
+Make a-
+(PERSON12) Look at this email-.
+<unintelligible/>
+(PERSON2) No, no,no, no.
+Maybe if you can give the de the details of this task you want, maybe [PERSON2] can contribute also.
+Because he has some times this week, based on what we have spoke before.
+But he-.
+Because I I think you should just inform him about what you want exactly about this.
+(PERSON12) Yeah, thanks. 
+So I'm I'm.
+So we have like three halve or quater persons yeah who who we could ask.
+Thank you.
+(PERSON5) Yes. 
+Okay, okay.
+So just-.
+(PERSON12) Yeah. Thank you.
+So the the [PROJECT6] wrapper is now in as part of the demos, part of tests, right?
+(PERSON6) Yeah, yeah.
+(PERSON12) And the [PROJECT2] model? 
+So the delay has been fixed, right?
+(PERSON6) Yeah, yeah, yeah, yeah.
+I've I've tested it also.
+(PERSON12) Yeah.
+ So which-.
+(PERSON5) Ca ca can I just ask.
+Is it is it completely fixed or is there some some small still some small delay?
+Or is it completely-.
+(PERSON6) So, I have not run kind of like a regress tests.
+It was like maybe 2 or 5 to 7 minutes minutes of read recordings it played and it was pretty fine. 
+And I could observe a significant im improvement <unintelligible/>
+(PERSON12) Le let me make a wo big warning again.
+We have now replaced a critical part of infrastructure, the [PROJECT6] cache with [PROJECT6] worker.
+(PERSON6) Yeah.
+(PERSON12) Which behaves differently and also the [PROJECT6] model going from [PERSON13]'s to [PERSON4], right? 
+So you are now using [PERSON13]'s or [PERSON4]'s set up.
+(PERSON6) I have both of them.
+<parallel_talk> Which is.</parallel_talk>
+I have both of them right now.
+(PERSON12) And we have no idea which one of them is better.
+(PERSON6) Yeah.
+(PERSON12) And both of them are new.
+So it's, that -
+(PERSON6) <unintelligible/> so basically I'll tell you that in terms of like-
+So basically both are like fast on ss same levels.
+But the quality?
+I cannot judge the quality.
+So someone has to do this.
+(PERSON12) Yeah. Yeah.
+(PERSON1) From the submission it looked like [PERSON13]'s model was better.
+(PERSON12) From what submission? The IW SLT?
+(PERSON1) Yeah.
+(PERSON12) But that was tested only on the Dev set, right?
+(PERSON1) I think so, yeah.
+(PERSON12) So, maybe I'm thinking what would be the best task-
+Would be the IW SLT test set indeed and everybody should translate the IW SLT test set with their models.
+So someone should do it with the [PERSON13] ones.
+But we did we have this, right?
+So so we need only like a preliminary number from [PERSON2], right?
+(PERSON6) Yeah, yeah, yeah.
+(PERSON12) Plain translation but the problem is that this this involves also the ASR set up.
+And we want to just assess the quality of the [PROJECT6] system alone.
+And we have not fed the true correct transcripts to the [PROJECT6] systems, have we?
+We have not, right?
+(PERSON5) For some of them, yes.
+I think for all of-.
+(PERSON12) I think none none of the systems has access to to that.
+Yeah.
+So the task is is now, yeah, there is there is some to do.
+For a few people.
+So that's like to do for the demo.
+So that would be [PERSON6] to fi or so [PERSON2] to share with everyone the true transcripts of English IW SLT test set.
+[PERSON6] to feed this through [PERSON13]'s model.
+[PERSON4] to feed this through his model.
+[PERSON2] to evaluate it, right?
+(PERSON6) <unintelligible/>
+(PERSON12) In the terms of ble only.
+(PERSON2) We have it, so-.
+(PERSON12) Yeah.
+So could this, could this be done today or tomorrow?
+(PERSON6) Yeah.
+ I I can use [PERSON11]'s scripts which he used for IW SLT.
+And it it depends on how, how many files do we have.
+(PERSON12) Yeah.
+It's not too many files.
+It's-.
+And it should be actually the [ORGANIZATION9] files and then the [ORGANIZATION2] is not that interesting.
+Well, maybe to concatenating all?
+What about concatenating all?
+Yeah. 
+And then we can split it afterwards.
+Concatenate it for [PROJECT6] systems and split again before evaluation, right?
+(PERSON5) You mean the voices, [PERSON12]?
+(PERSON12) Yeah, yeah.
+The transcripts.
+(PERSON5) Transcripts only.
+(PERSON12) So the number of lines is fixed. 
+It's only the ble evaluation.
+Yeah, so only ble scores.
+So the number of lines needs to be preserved.
+(PERSON6) I have I have like <unintelligible/>
+Which is like a quick to fix the Friday deadline.
+So [PERSON7] said that she can review the Romanian transcripts.
+If if if we generate the transcripts of any video and an we can give her.
+So, what I say is that we give the Romanian transcripts generated from the  [PERSON4]'s model and from [PERSON13]'s model and that [PERSON7] decide which which one is better.
+(PERSON12) Is better.
+Yes.
+<laugh/>
+(PERSON6) Because we want to be sure of Romanian at least.
+(PERSON12) Yeah.
+So here, here is the requirements.
+Common constraints, preserve number of lines, translate form English into Czech, German, Romanian.
+So manual check by [PERSON7] and-.
+Sorry a second.
+<another_language/>
+Okay, so-
+Manual check by [PERSON7].
+And what else can we do with the list?
+Do we-?
+We are going also from German into English, right?
+(PERSON6) Yeah, so right now I am using that [PROJECT5] workers and that was crushing today.
+(PERSON12) And why [PROJECT5] workers?
+Are they the best ones?
+Because [ORGANIZATION7] has this World War II bomb, right?
+<laugh/>
+Yeah, they had World War II bombs found in their office so they have barred people from entering.
+(PERSON12) Yeah.
+(PERSON6)  And it happens to be that that very office is very close to the server room where all the all the [PROJECT4] systems or records are.
+(PERSON12) So in the-
+To to make life easier in 3 or 4 upcoming days to make life easier, they are going to diffuse the World War II bomb found during reconstruction and they must not enter their building, so-
+<laugh/>
+And they also had some hard drive failure again so they lost some files as well.
+So this is like-.
+Yeah.
+(PERSON6) Yeah. 
+Everything crushing at once.
+(PERSON12) Yeah.
+<laugh/>
+Yeah, exactly.
+So.
+So please [PERSON2] concatenate all for [PROJECT6] systems.
+Transcripts of English and also German as the-.
+And we also want Czech actually because we also have one system for Czech.
+Yeah, we want everything.
+So we want translates from German into English, translate also from Czech into English.
+(PERSON6) Yeah, so we basically-.
+(PERSON12) Yeah, and then we will-..
+(PERSON6) Yeah, please please.
+(PERSON12) Yeah, so so [PERSON5] please ask [PERSON2] to concatenate all the files in a parallel fashion and send and or provide 3 files to [PERSON4] and [PERSON6].
+One will be English, another one will be German and another one will be Czech.
+And all these 3 should be translated by all the systems.
+(PERSON5) And then [PERSON2] can evaluate them.
+(PERSON12) Yeah.
+(PERSON5) This. 
+So you need, okay, 2 files.
+One for all the <unintelligible/> and for all test sets, yes?
+(PERSON12) For all test sets toge together, yeah.
+(PERSON5) Yes, Okay.
+(PERSON12) The whole IW SLT test set.
+(PERSON5) Okay, okay, so-.
+Maybe he is listening to us, but I think-.
+(PERSON12) Yes, please double check.
+Yeah.
+So this this should be done today.
+And today it should be translated with the existing systems.
+From English into Czech, German and Romanian.
+From German to English and from Czech to English.
+And then we will thrust the pivoting.
+(PERSON5) Okay, yes.
+Just, who can-.
+Who should receive these files?
+(PERSON12) [PERSON6] and [PERSON4].
+(PERSON5) [PERSON6] and [PERSON4], okay.
+(PERSON12) Okay, great.
+And then we have [PERSON9] and [PERSON9] says that there is test data for almost-.
+So, let's let's move on to [PERSON9].
+[PERSON9] are you on the call?
+(PERSON9) Yes, yes I am on the call.
+(PERSON12) Yeah, okay, so you could help us equally.
+Test data almost finished for 40 languages.
+Let's do this comparison as well.
+So, let's do it only for the English to-..
+(PERSON5) I just, [PERSON12].
+(PERSON12) Yes.
+(PERSON5) I leave a call because I have a call and I want to answer the phone.
+Can I leave the call now?
+(PERSON12) Yes, yes, yes.
+Than you. I think we have discussed everything.
+Thanks.
+(PERSON5) Yes, ok.
+Thank you.
+Bye.
+Goodbye everybody.
+(PERSON12) Yeah.
+So [PERSON9] you should do the same thing as [PERSON2] should do.
+Only going from English to the many languages.
+So, please have a look at your [PROJECT4] test set that you are putting together.
+Concatenate all the English files in a way in which you can easily break it up back again.
+(PERSON9) Mhm.
+(PERSON12) And then provide this long English file to [PERSON4] and to [PERSON6] and they should translate into all the languages that you have.
+So, what what is the set of languages that you have?
+So the-.
+In your email-.
+So, so the, please concatenate all the English files in reversible way, so that you can easily break it up again.
+And send to [PERSON4] and [PERSON6], uh, sorry [PERSON6].
+So this file concatenated file, the names of languages where you have the target side.
+So this will surely be Belarusian <laugh/> and or whatever you have.
+(PERSON9) Yes, sure.
+(PERSON12)  And into all these in-.
+(PERSON9) All those files are not validated. 
+Only 4 languages are validated by the annotators.
+So.
+(PERSON12) Yes.
+Are are the files at lest parallel?
+(PERSON9) Yes.
+But, I am not sure because yeah some sal some files have 1 sentences and some files has 2 has 2 sentences in the target and source side.
+So.
+<unintelligible/>
+So that's a problem maybe.
+So that's the reason I co discussed on Friday if we can assign-.
+(PERSON12) Let's preserve the line for line convention.
+(PERSON9) Okay.
+Okay.
+(PERSON12) Let's not care if there is more sentences on one line.
+Some of the systems will survive that and produce more lines, more sentences.
+But they must always produce the same number of lines.
+So it is critical that the number of lines remains correct.
+(PERSON9) Okay.
+(PERSON12) So [PERSON6] ant [PERSON4], can you make sure that this holds?
+(PERSON6) Yeah.
+This is focus, this will be the focus after after Friday right I do it.
+(PERSON12) I wanted this to be-.
+To help us to decide which system to use.
+But you're right that it's safe to give this task only to [PERSON4] and not to you, because you need to debug the pipelines.
+(PERSON6) Yes, because you wouldn't want to risk the whole system.
+(PERSON12) Yeah, yeah, yeah, yeah, yeah, yeah, yeah.
+So, and [PERSON4] you have never run anything through mediator or have you?
+(PERSON2) I have but I don't know what to run and uh-, uh-.
+Yeah, maybe it won't be-.
+Just.
+I I think that it would be just simpler to just do like a visual test.
+Like, like have the have them in the on the website.
+Like like in two columns and someone who knows the language would just see directly.
+I think that-.
+(PERSON12) It's not that simple anyway.
+<laugh/>
+Because it's like circulating 40 emails to 40 people.
+It <laugh/> and asking for their judgement.
+(PERSON2) Okay, okay. Sorry.
+I I meant like for Romanian or or something.
+Okay. So.
+(PERSON12) Okay.
+For Romanian, we'll do this for Romanian. 
+(PERSON2) Okay.
+(PERSON9) I think we have Romanian already evaluated in different <unintelligible/>
+Maybe I need to check.
+(PERSON12) Yeah. Okay.
+(PERSON9) I have a Spanish, Spanish and Spanish data.
+(PERSON12) So anyway, [PERSON9] please make sure that your, that you have as many languages parallel.
+Like line for line.
+That the number of lines matches and concatenate the English side and send it to [PERSON4] and [PERSON6].
+(PERSON9) Okay.
+(PERSON12) And also let me know where the references are.
+And be ready to receive the translations in all the many languages.
+And if we succeed, if [PERSON6] succeeds, then we will give it to you and you will score it
+with against the references.
+(PERSON9) Okay, sure.
+(PERSON12) So, actually none of these test sets are multi-parallel, correct?
+(PERSON9) Uh, some we have 22 languages, not only 20, 22 languages have multiple multilingual parallel <unintelligible/>.
+Like [ORGANIZATION5] and [ORGANIZATION3] data is equally parallel but equal translation so we can use this data.
+(PERSON12) And it is ar all committed in the properly committed in the directory, right?
+In the [PROJECT4] test set.
+Or is it still floating around somewhere?
+(PERSON9) Yes.
+[ORGANIZATION5] data is already uploaded on the data in the [PROJECT4] test set.
+And I think, uh, if I'm correctly reme if I remember correctly so Polish and some Spanish and Cata Catalan is already uploaded on [PROJECT4] but some languages are n are not uploaded.
+So I will upload maybe tonight or tomorrow.
+(PERSON12) Not maybe but for sure and do it within an hour, okay?
+<laugh/>
+Within an hour after the call.
+And I'll I'll have a look and you-.
+So so the assignment holds but there is a pre-requisite, before concatenating the files, put everything into the repository.
+And then do the concatenation.
+Essentially, send us the command line that does the proper concatenation.
+So that we we will do the the clone get clone and we will concatenate it ourselves.
+And send us both, the output of the concatenation and the command line to run.
+And we will compare whether we got the same thing.
+Okay?
+(PERSON9) Okay.
+(PERSON12) So test data.
+Please concatenate so actually it's-.
+So please, there is one thing, uh, uh, make sure to have all current test sets components.
+Current test sets components pushed to [PROJECT4] test set repo.
+Send us the command to concatenate the English sides and send us also the output 
+<other_noise/> of the concatenation.
+Yeah.
+And that's so that we can compare.
+So that we can double check we got the same thing.
+The-.
+Yeah.
+Reversible way.
+Yep, yep, yep.
+So this is all.
+This all has to be.
+This all has to be done in a reversible way and sent to [PERSON4] and [PERSON6], right.
+(PERSON9) Okay.
+Please, if you just really coul could make it as simple as possible for me because I really really-.
+I'm trying to do all the those stuff at once, so-.
+(PERSON12) Yeah. 
+So for [PERSON4] it is a-
+It should be one plain text file in English from [PERSON9] that should be translated into all the languages in your model.
+And for [PERSON4] it should be 3 input files from [PERSON2].
+One in English, that needs to go to all the languages but we need Czech, German and Romanian.
+One in German that needs to go in English.
+(PERSON9) Mhm.
+(PERSON12) And one in Czech that needs to go to English.
+And this is it.
+So it should be 4 files for [PERSON4], right?
+(PERSON9) Okay. Okay.
+(PERSON6) German to English?
+What what model is it?
+What model are we using?
+(PERSON12) Well, [PERSON4] has a German to English model as well.
+It is multi, it's English to many and many to English.
+(PERSON6) Okay.
+(PERSON2) Yeah.
+(PERSON6) So English is the pivot language, okay, okay.
+(PERSON12) Yeah. Yeah.
+(PERSON2) Okay. Okay. That is fine. Okay.
+(PERSON12) So [PERSON6]. 
+For [PERSON6] it should be these same 4 input files but [PERSON6] should run on for now only for those files from [PERSON2] and not fight with the with the with the [PERSON9] file yet.
+And I will try to help with that.
+(PERSON6) Okay.
+(PERSON12) Yeah. Okay.
+(PERSON6) And update with the Czech segmenter is that so I observed that the Czech segmenter is segmenting-.
+Sorry.
+The number of segments in the okay <unintelligible/>.
+Okay, so I manually.
+I segmented and punctuated a I'm lost.
+So I punctuated and segmented and punctuated a transcript using my segmenter which has also been also punctuated manually by you.
+It was one of your [ORGANIZATION1] lectures back in back in back in months.
+And it has more segments than  a manually <parallel_talk> That's good.</parallel_talk> devised transcript.
+(PERSON12) That's better.
+(PERSON6) Yeah.
+(PERSON12) Yeah.
+So you have this new version and that that seems to have a higher recall than even the manual one.
+Or whatever.
+Okay?
+(PERSON6) So I I I I have no nothing as of like <parallel_talk> Numbers. </parallel_talk> experimental data which says it has a more recall than a manually devised transcript.
+Kind of.
+<parallel_talk> But you.</parallel_talk>
+But I I visually I visuall I visually observed this.
+<unintelligible/>
+(PERSON12) Yeah, that's better.
+(PERSON6) So, this that's better, yeah.
+(PERSON12) Mhm, okay.
+So, let's let's quickly finish the the rest of [PERSON9]'s contribution.
+I'll be finished, hoping to be finished tomorrow. 
+Promised this Sunday to finish it today, but unfortunately it didn't happen.
+Yeah.
+Cross examination of annotated data sets.
+So this is now going to happen very quickly in this test concatenation.
+Yeah, and we we still-.
+Yeah, I need to revise the emails.
+But the demo for the Project Officer is now little bit more urg urgent.
+Yeah, building the test, filling the rest of the test data.
+Assigned tests to annotators for evaluation.
+Start preparing synthetic data.
+Yes.
+Yep.
+Okay. That's good.
+And [PERSON4] worked on the performance fixes.
+And now will translate the the 4 files.
+Yeah.
+Okay.
+I think, I think that's it for today.
+We'll be kicked in a minute, I guess.
+(PERSON6) Yeah. Yeah.
+(PERSON12) Yeah.
+So thanks everybody for participation.
+and [PERSON1] we may ask you for some assistance later on, when we decide.
+and I need to wait until my daughter comes so I'll come to the office only later.
+So [PERSON6] until when are you in the office?
+(PERSON6) Maybe 7 or 8.
+(PERSON12) Yeah.

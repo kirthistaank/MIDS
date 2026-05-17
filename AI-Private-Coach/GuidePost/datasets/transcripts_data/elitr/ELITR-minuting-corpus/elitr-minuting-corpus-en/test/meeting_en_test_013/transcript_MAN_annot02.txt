@@ -1,0 +1,397 @@
+(PERSON8) Hello, I'm going to work.
+(PERSON14) Yeah. I can hear you.
+(PERSON8) Yeah, you're, you're alone.
+(PERSON14) I can also view the lecture on [PROJECT2] [ORGANIZATION5].
+(PERSON8) So you you were watching lecture, right?
+(PERSON14) Okay.
+It has -
+It was like <unintelligible/>
+(PERSON8) I don't -
+So, sorry I don't understand you well, the lecture - .
+(PERSON14) The lecture has already <unintelligible/>.
+It was live.
+(PERSON8) It was live -
+(PERSON14) Yeah.
+(PERSON8) It was live streaming.
+Now it's <unintelligible/>.
+So, well, I think that we can discuss separately who what has done what, who has done what.
+And you have enter more data.
+[PERSON2] probably would not want to connect anyway, because says the of his like hearing issues.
+There is [PERSON4] and [PERSON15] is not writing.
+Okay.
+Yeah.
+And I don't see [PERSON6]. So, I'll leave it connected while I'll clean up here in the in the lecture room.
+(PERSON14) Okay, okay.
+(PERSON8) I know what you have been working on.
+So that's that's good.
+The Russians working caraoke star, yes.
+And transcript is processing.
+Audible cell ties data preparation first priority [PERSON9] to test the script first.What script?
+(PERSON14) So he basicly proposed that the ASR and the segmenter they should run separately.
+(PERSON8) So the ASR -
+So I'll disconnect this -
+Now I'll hear you better.
+(PERSON9) Hello.
+(PERSON8) Yes, yes.
+(PERSON14) Hi hi [PERSON9].
+(PERSON8) Ou [PERSON9] is there so, right.
+Yeah, so, I didn't understand this -
+[PERSON9] to test the script first, what script?
+(PERSON14) So [PERSON9] proposed that he would test the ASR and the segmenter independently, separately.
+(PERSON9) No, no, just run it.
+And I would to review review the scripts, not to test them.
+(PERSON14) Yeah, exactly, sorry.
+Yeah, it should happen review <unintelligible/>.
+(PERSON8) But for the audible cell ties submition we do want to run the byplan and for the locks for both, before the segmentor and after the segmenter.
+And then submit the locks after the segmenter obviously.
+(PERSON9) Yeah, yeah.
+(PERSON8) This this audible cell ties is preparation nothing that I send you an email yesterday morning I think.
+(PERSON14) Yeah exactly.
+(PERSON8) Okay.
+(PERSON14) And then, and then I'm planning -
+Yeah, I'm also planning to open lot directed today itself.
+So it's a little small task and <unintelligible/> them whether this short time so a we get over the <unintelligible/>.
+I'm still Wonder Woman to do this calculation of for <unintelligible/> Czech transcript.
+With or without transcript.
+With or without true cancer I gave up <unintelligible/> I'm still <unintelligible/> for this sound this week.
+(PERSON8) Yeah, but this, as you put it here a lower in the <unintelligible/> lower priority.
+The more the most important thing is the -
+And all of the all of the forced alignment process.
+It is not just <unintelligible/>.
+It's also -
+(PERSON14) It's [ORGANIZATION6] corpus.
+(PERSON8) No these are the easy, the [ORGANIZATION6] is easy.
+So there -
+Cause the 4 files we do not need any more, but the the the most important part are Antrecorp.
+And the longers chunks of supreme audit institutions, so the Austrian, Belgian and all these speeches.
+So these are the most Antrecorp.
+And, so, I'll just say and so long of chunks it's not important and so consecutive plus w w w what is that BGP test.
+So these are the more .
+We should not be looking at this yourself.
+So you should only run it.
+And not look at, not look at the -
+You don't know the sources like, as as a participant in the audible SLT task, you know what the sound is, but you must not look a the true transcripts.
+(PERSON14) Yeah, yeah, yeah.
+(PERSON8) Okay.
+So so you do not. Do you have the input files for this, or not yet?
+(PERSON14) Input files, I think not yet.
+(PERSON8) Yeah, exactly, [PERSON14] needs to get all the input files for <unintelligible/>, [PERSON13] has prepared those, splitting, so consecutive into smaller chunks and [PERSON4] knows where they are too.
+So I don't know wheter we have anyone of them. 
+No.
+So that's that's something that -
+Please e-mail -
+Please [PERSON14] please ask [PERSON4] and [PERSON13].
+(PERSON14) Okay.
+(PERSON8) That they provide you with the with the forced alignment.
+They both know what the problems are and you were on the copy on the e-mails today.
+<unintelligible/> did not make sense to you, so only now it will it will make sense.
+(PERSON14) Yeah, yeah, yeah.
+And the one question, these input files will be in VDD in VDD format, right?
+(PERSON8) <unintelligible/>
+These files will be, it's OST.So one sentence per line.
+And some of them the so [PROJECT3] are too long.
+It's 20 minutes in the row and so consecutive is already broken in smaller chunks manually by [PERSON13].
+(PERSON14) Ehmm, Although -
+(PERSON8) So please these are critical, because these are most important path for the evaluation actually.
+The <unintelligible/> academy is like complementary evaluated.
+And Antrecorp is short.
+So you know where Antrecorp is, right?
+Or not?
+(PERSON14) I can see the chaunce a bit mentioned.
+(PERSON8) Yeah, SL- thats it so that SLT.
+So [PERSON14] can you also have a look at the Excel Sheet?
+(PERSON14) <unintelligible/>
+<other_noise/>
+(PERSON8) So yeah, so this is -
+when releasing the set sorry here -
+go to sheet number 3 forced alignment inputs and go to sell see 5.
+Just so that I know that you are you in.
+S  System to to the number varied. It s a sheet number 3 okay?
+(PERSON8) Yeah, forced alignment inputs.
+(PERSON14) Okay. <parallel_talk/>
+(PERSON8) So are you here?
+(PERSON14) Yeah, I'm here.
+(PERSON8) Yeah, so forced alignment inputs and go to see 5.
+(PERSON14) See 5 -
+Already I can see.
+(PERSON8) Yeah.
+Perfect.
+So I just wanted to mention that [PERSON13] has already -
+So that there is some inconsistency of names now, and they are [PERSON3], [PERSON12] and [PERSON11] and also [PERSON11] and so on.
+These are person names.
+And I had to replace them in the released files with the with just language or nation names.
+So the maping is on the on the previous slide, in the column C, on the previous sheet in column C it says that [PERSON11] is Belgian, and -
+(PERSON14) Yeah cause I only process these script, these transcripts.
+(PERSON8) Yeah, well well you need, you are sitting into chairs now, as a participant of audible SLT.
+You should simply -
+(PERSON14) Not look at these transcripts.
+(PERSON8) Not look at these transcripts.
+And process the file switch are already called Belgian, Spanish or mainly Polish.
+And as the as the person who is doing the forced alignments who have this called [PERSON3].And actually the sound is now separate.
+(PERSON14) So it's the -.
+<parallel_talk/>So we don't have [PERSON13] here on the call .
+And we also don't have [PERSON4]
+(PERSON14) I can fast text too?
+(PERSON8) I'll be leaving very shortly myself.
+But, It's important told to them that we most up to date OST versions are in the in some repositor, which you do not have acces to. <laugh/>
+And so I'll put the paths so clean the code, thats it.
+Yeah, So this is up to date, and then we have test set, and also consecutive.
+(PERSON14) I hope you not to speaking can you please mute your microphone?
+(PERSON8) So Austrian, who is Austrian, which person is Austrian, if consequtive [PERSON12] so [PERSON12] is Austrian.
+So here -
+Here is the OST file.
+Austrian OST, then we have Dutch.
+Dutch is who, Dutch is [PERSON11].
+So This is the full files, and we have -
+Right, text is timestamps.
+No, this is like sentence segmented text, too often too long, too long for forced alignment.
+And this is further split better for forced alignment and that's the location of that.
+So this is -
+Yeah, and the high priority is -
+So this one goes here.
+And the true thing is -
+<parallel_talk/>
+So I'm here putting the path for the files that are in the most recent version and they are these are absolute path.
+And the it's probably I'll have to I think I'll have to do it myself so that is make sense to you.
+Unless, I know what you do now.
+So that is for you.And this should be done by [PERSON13] and [PERSON4], but they are not doing that.And also they should list will be Antrecorp is -So, yeah, okay I'll simply -
+And you should start Antrecorp, yes, you should start with Antrecorp because you already working on <unintelligible/> academy, right?
+(PERSON14) Ehm, Yeah, yeah.
+(PERSON8) So.
+So please put the path of the files that you are processing here.
+Okay.
+So I'll make a remark here.
+And then you resolve that. 
+[PERSON14] please put the paths here.
+(PERSON14) So one question.
+So at the moment some of the files I would process transcripts and in my <unintelligible/>.
+So do I need to create the support director in in a not <unintelligible/> and we have about <unintelligible/>.
+(PERSON8) Well, it is not to important where you process the files.
+So its -
+Only that after we are happy with the forced alignment, and after we have converted since to to the subtitles for the caraoke for preview and the OST format that SLTF evaluates, than we need to have it versioned.
+(PERSON14) Okay.
+Alright.
+I <unintelligible/> that.
+(PERSON8) For the processing it's not not important.
+The Antrecorp -
+(PERSON14) I'm also aware of the <unintelligible/> and the Antrecorp.
+(PERSON8) Yeah, exactly.
+So I'm copying now the Antrecorp with the texts, which is, which is okay.
+Or so this is -
+There it's -
+<censored/>
+So here is the -
+(PERSON14) If you are to change the line inside the cell you can use <unintelligible/> enter.
+(PERSON8) Yeah, I'll check that out later.
+So this is Antrecorp.
+And then we have also Antrecorp depth.
+Yeah, so.
+These files of this.
+Oh, I see, it's yeah, Antrecorp files with the test are clean all audible cell ties.
+Then you need 16 kilohertz WAVs for the forced alignment or different once?
+(PERSON14) 16, 16 k.
+(PERSON8) Yeah, so 16 k for Antrecorp.
+So here is now the Antrecorp depth and test.
+The Antrecorp test directories.
+So this is -
+And depth set is -
+Depth set -
+Since set is -
+Yeah, so it is just 2 files.
+So try processing Antrecorp.
+2 WAVs are here and the OST files are here, right?
+So this is I'll highlight these in yellow.
+So this is something that you should drive first.
+There are good lenghts.
+The lenghts it is all ready.
+And then we will have one more one the right outputs output paths.So this is a I'll now orange the cells that you should try to populate.So this is the starting point for today.
+This is the hardest part.
+And and then laid I'll also prepared bars or I'll have finally [PERSON13] and [PERSON4] to the path for these files.
+But It would be essentially the various similar to the Antrecorp.
+So try processing Antrecorp.
+(PERSON14) Path, <unintelligible/>, [PERSON8].
+(PERSON8) Okay, so.
+Yeah.
+Do we have [PERSON15]?
+Do we have [PERSON4]?
+Yes, [PERSON4], so since when are you are you here?
+[PERSON4] joined the just -
+Yeah, so, I'll have to leave already but it's important please ask [PERSON4] to -
+[PERSON4] can you hear us?
+Not does seem so.
+So it would works for [PERSON4] -
+(PERSON14) I text him.
+(PERSON8) Yeah, yeah, never mind.
+I like do it.
+We have [PERSON15] on the call, we have [PERSON9].
+So I'll <unintelligible/> forced alignment selected <unintelligible/>.
+So -
+<other_noise/>
+(PERSON14) Sorry.
+(PERSON8) So I think that I would like to hear from [PERSON15] who is still on the call whether you have started pushing anything into the new repository for [PROJECT2] test set.
+[PERSON15], have you done anything on that yet or not?
+Hmm hmm.
+Yeah, I don't know <unintelligible/>.
+Yeah, okay, so well well - <laugh/>
+I have to leave.
+[PERSON14], your real one with whom it work so far.
+So I do not hear anyone anymore at all.
+(PERSON9) <another_language/>
+(PERSON8) It's a deadline for EMT is tomorrow, right?
+(PERSON4) Yes, it's ok, no, it's ok.
+(PERSON8) Okay, so I really have to leave now.
+So [PERSON4] please synchronize with [PERSON14] on the on the audible SLT test set and depth set forced alignment files.
+Look at the forced alignment ALI inputs in the SLT data set sheet.
+So can you open that sheet well.
+[PERSON14] has that sheet opened.
+(PERSON4) Well just keep me in a moment please.
+Okay, I open, yes.
+(PERSON8) Yes,so on the third sheet forced alignment inputs.I've just done a the yellow lines, which is a good input for [PERSON14].
+So it is correct path now.
+It's the it's the version the one, that's important.
+The this is the version OST files.
+And he is already for the separation, and he should run the alignments, and produce OST files out of us to OSTP plus ASS files.
+So the OSTP files are what the SLTF should be.And the ASS files are the subtitles for preview.
+(PERSON4) Yes, just a question [PERSON8] about this Antrecorp.
+Have you chunk the WAV files there are a small.
+(PERSON8) They are a small, they are already small, yeah?
+(PERSON4) Okay.
+(PERSON8) And, I would like what I would like you to do [PERSON4] is to review the part that I have just highlighted.
+And so from B3 to D16, there we need to list the black<unintelligible/> versions.So this one the C3 for example, this is already good.So I'll remind this with with green.And this one is unclear.
+This is also good but the rest is unclear.
+The WAV files should be also from the 16 kilohertz WAV files.
+And they should use the new names, not [PERSON12] but Austrian and not Dutch but not [PERSON11] but Dutch, right?
+(PERSON4) Ehm.
+(PERSON8) This is what I renamed.So and similar thing has needs to be done for this.And most importantly, the the splits, the splits will be necessary for for this to work.So [PERSON4] your priorities now are the SLT evaluation.
+When You get some outputs from [PERSON14] and clean up of the stable in preparing the files that [PERSON14] will digest.
+(PERSON4) Ehm, yeah so, you mean the files for - 
+(PERSON8) <unintelligible/>
+(PERSON4) Yes, all of this 7 lines, yes?
+(PERSON8) It's not 7, it's 3 till 16.
+(PERSON4) 3 to 16?
+Okay.
+So you want somenthing [PERSON14] can run force alignment.
+(PERSON8) Yeah, yeah, yeah.
+(PERSON4) Okay.
+(PERSON8) The czech is of lower priority, English is important.
+And the green ones ilustrate the correct path and -
+(PERSON4) Okay so about <unintelligible/> academy I <unintelligible/> we have it now?
+So we can make it green also, because [PERSON14] has.
+(PERSON8) We list the a list the a the path there.
+(PERSON4) Okay, 6 okay, yes.
+(PERSON8) I'm highlighting with green.
+This is the ideal example.
+This is the Portuguese is the perfect thing.This is the full path to the files.The only problem is that this red, I'll make it red now.The the chunked version that does not does has has an ugly name.The path is not the full path.And and there is a risk, which I have talked to talk about to [PERSON13], there is a risk that the all Portuguese OST the concatenative file does not exactly merge the split file, because there there were some small errors, I cut most of about this.So please like, like based on the line 3 prepare all the lines, all the English lines all until 16.
+(PERSON4) Okay.Just I if it is possible I can do everything tomorrow, okay?
+(PERSON8) Okay, if I have not done that myself then do it tomorrow, okay, yep.
+(PERSON4) Okay, I will do everything because tomorrow I have a lot of times, and they can put for these.And so I'm writing, and everything is fine.
+And so you want to create a case similar to <unintelligible/> academy test set we have now <unintelligible/> and for here we should you mean   -
+(PERSON8) The path the path the path names.
+(PERSON4) Ah, yes. It's okay.
+(PERSON8) Okay, yeah, so, thanks, so, please all of you who are here go over the yours your comments and discuss anything.
+I need to run already.
+So thanks for your time sorry that it's less organised.
+I suggest that we all rehandle the Doodle poll.
+So please update your doodle poll and I figure out better time for myself because as I'm disorganised at this point now, because of the extra workload with the remote lecturing.
+It's it's difficult to run these meetings.So from next, we probably choose a different time.
+So please everybody please updated the Doodle poll.
+(PERSON4) Hmm thank you.
+And unready have any usable to [PERSON5]?
+(PERSON8) No, no.
+(PERSON4) Okay, I'll contact you.
+(PERSON8) Okay, thanks.
+(PERSON4) Thank you very much.
+(PERSON9) Yeah, so, what's new [PERSON14]?
+(PERSON14) So so yesterday I was working on this caraoke as timeview and spent on time introdate comes on -.
+So it is like partial than complete but not yet perfect because I was too -
+The main thing would <unintelligible/> refix in this caraoke <unintelligible/> is that.
+We would has to be given it's all timestamps and didn't know what <unintelligible/> that I give the one segment and I had -
+Now I give the timestamp of one complete segment.
+I didn't know view that what level timestamps and what level timestamps.
+(PERSON9) Yes.
+(PERSON14) So I'm working on that.
+Because the forced aligner is actualy doing the what level timestamping.
+And to test that the caraoke you should also have word level timestamping.
+And how it shows the word has already been spoken.
+So if you see the video and if you have, okay, I think I did not <unintelligible/>.
+Okay, I was forwarded the e-mail of how I process those.
+And -
+(PERSON9) And did you use CTM?
+(PERSON14) No, no.
+I did not use CTM.
+I created AAS file using a software [OTHER].
+(PERSON9) Aha.
+Does the what level of alignments?
+(PERSON14) So yeah, so it automaticly does the word level alignments itself.
+So which are drop I'll to realize.
+Yeah, that is that is our main focus and I completely miss that.
+(PERSON9) <unintelligible/>
+(PERSON14) Yeah, it now works so I m <unintelligible/> if you -
+Yeah he made fields <unintelligible/> I can lock time transcript if you -
+Because that's <unintelligible/> like a clickable <unintelligible/> make it automatic for all the scripts.
+So now because I have okay AAS file subtitle forward I can make a Python script
+and I can <unintelligible/> subtitle for all the -
+(PERSON9) Okay.
+(PERSON14) All the corpus that we have.
+(PERSON9) And with the audible SLT, did you do anything, ready?
+(PERSON14) No, I I not think <unintelligible/> today is the today I'm coming this <unintelligible/>.
+(PERSON9) Okay.
+I'm finishing the paper about subtitler.
+For <unintelligible/>.
+The deadline is 25th.
+So it's still plenty of time.
+And so it's seem that I don't have to do anything with audible SLT, do I?
+Right now.
+So I can write the paper.
+And I found I found that the one of the score <unintelligible/> parted <unintelligible/> was different than I thought so it's not important for for the others.
+Still different name.
+So what next?
+[PERSON15], are you here?
+(PERSON15) Yeah, yes, yes.
+(PERSON9) Do you want to share your news?
+(PERSON15) Nothing I worked on I test the data for preparing WSLT.
+I don't know.
+You for Euros because [PERSON8] told me to collect test to prepare test the data.
+So right now I'm working on 3 languages Polish and Polish, German, Russian.
+Because Polish is not in the level in the last [PROJECT1] CDs.
+So now it helps to test WSLT and that languages.
+So, right, 3000 sentences were collected for 3 languages.
+And almost cleaning part is done.
+And after that I will collect from other 43 languages.
+So this is the update.
+And I have already update <unintelligible/> [ORGANIZATION3] locks.
+(PERSON9) Yes, okay.
+(PERSON15) So nothing new.
+This week work was very slow because of some other reason, so -
+I think I can leave.
+(PERSON9) Yes, okay.
+Thank you.
+(PERSON15) Bye, bye.
+(PERSON4) See you.
+(PERSON14) See you, bye.
+(PERSON15) Bye.
+(PERSON14) And [PERSON4] we don't need to discuss anything now, right?
+(PERSON4) I think [PERSON14], yes, everything is fine.
+Just I'm checking the sheet list.
+And, okay, so exactly what, so you need JSON file, yes?
+(PERSON14) JSON file -
+So [PERSON8] forrest ask me to process this Antrecorp test which is an 17 and 18 and 19.
+(PERSON4) Yes.
+So, aha.
+Okay, so in this case you will create yourself the JSON file, yes?
+(PERSON14) Yeah, I think, because I have the Python script.
+(PERSON4) Aha, if you have Python, okay -
+So if you have Python script [PERSON2] saw for the rest.
+I will clean everything tomorrow.
+I will give you the pass for all files, okay?
+(PERSON14) Yeah, so that's the, moment, so these I meant the subtitles for this <unintelligible/> test, they are in VDD format or <unintelligible/> do that.
+(PERSON4) There, in VDD format there -
+You are speaking about <unintelligible/> academy?
+(PERSON14) Yeah, Antrecorp.
+(PERSON4) Antrecorp I haven't seen it.
+But you can check if you need a script you can tell me about it after okay in two hours.
+Tell me what exactly the files and what you need and maybe I can create this script for it.
+(PERSON14) Alright, alright.
+(PERSON4) Okay.
+Okay, so see you later.
+(PERSON14) Okay, yeah yeah, see you, bye.

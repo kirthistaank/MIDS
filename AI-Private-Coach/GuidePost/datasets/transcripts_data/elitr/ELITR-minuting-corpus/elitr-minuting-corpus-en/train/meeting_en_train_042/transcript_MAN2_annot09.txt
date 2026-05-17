@@ -1,0 +1,541 @@
+(PERSON13) Yes, so everybody is fine with- with recording.
+And I would like to ask [PERSON9] to start recording now, so hopefully we can start it.
+<laugh/>
+Yeah.
+So the first thing is the Kick-off meeting
+The date is more or less set, it's the - I think it's fifteenth of January, it's Tuesday.
+And the question is whether you would prefer a half day before that and a half day after that or a half day after that.
+So either the- the Wednesday morning, or a Monday evening as a like second half of Monday as well, and I would like to leave this so far undecided and let you know soon, obviously, we will consider the boards that you have in the Doodle.
+So please take this into account and refine your your choices around the fifteenth of January.
+Whether it is easier for you to come for Monday or to come for Wednesday.
+And the other decision, the- the- the other point, that I would like to- to have before I make the final decision is, whether we should meet in person with the [ORGANIZATION15].
+So, for those of who know, or for- for those who don't know, [ORGANIZATION15] is the company that [ORGANIZATION3] has like independently solicited to create the competing solution for the automatic translation of- of their conferences.
+And as I have already talked to [ORGANIZATION5] and [ORGANIZATION13], [ORGANIZATION3] is like half way apologetic for was situation as it- as it-  finally ended up being, because of very various tank constraints.
+They were first like talking to us, then it was not sure whether our project will be accepted,
+and in the meantime, they were already anxious, how the- will they support  their- their congress and so on, so they also searched for the commercial solution.
+And in the end, they had to have two possible providers for that.
+So I've talked to the [ORGANIZATION15] company, it's just [ORGANIZATION15] I think cz or- or com.
+their website does not mention any translation of conferences, any speech translation whatsoever.
+This is like new domain for them, but they're quite quick in- in getting the technology put together.
+They rely on [ORGANIZATION6] Tools.
+So all they do is- is just like a gathering the speech signal, then segmenting it and sending it per parts to [ORGANIZATION6] ASR.
+And then receiving these parts and sending that again per parts to [ORGANIZATION6] translate.
+And then what they have, is this presenting application on cell phones, and also web- on the Web.
+And they present the translations of- of what is being said.
+They've put together this integration tool in about two months off, like two persons,
+and they have already tested it at one of the [ORGANIZATION3] events in November.
+And they- they know like, what everything has to be improve and so on.
+And they-
+so we all know, that this is a potential very big conflict or a competition, especially with [ORGANIZATION13], but we have discussed this and we'll keep discussing it for Don.
+<censored/>
+And there is ways, in which like this collaboration instead of competition can be beneficial for everyone.
+This company does not build their own models,
+so of all the partners, who are building their speech or or text processing models, are very good like providers of solutions to this company.
+And this company is, on the other hand, could- could like help us in- in marketing and selling the- the product,
+so because they have their experience from the past, they have customers in the [LOCATION3] for other topics, they could help us in- on the business part of- of [PROJECT1].
+So I propose that those who are interested should probably meet with [ORGANIZATION15] in person, so that we will directly discuss how to partition the- the space, so that we reduce the- the competition aspect on- on- at least on the business side,
+and keep it for the- for the technological side as a competition between the models that we created versus that [ORGANIZATION6] develops.
+And for this meeting I think it would be a nice opportunity to- to collocate it with the- with the Kick-off meeting.
+And that's why I would kind of suggest you to have this the meeting with [ORGANIZATION15] around our meeting either on Monday morning or on Wednesday afternoon.
+And I'll talk to [ORGANIZATION15], if you agree, I will then talk to [ORGANIZATION15] and see what their preferences are and based on that- like set the dates for our Kick-off meeting.
+So I know that [ORGANIZATION5] is not on the call, but if [PERSON5] can- can comment on this right away, maybe in general and not necessarily specifying the date, but in general.
+(PERSON5) For me, it is okay.
+(PERSON13) Yeah.
+Yes, so- so, if I don't hear no from [PERSON12], then I will invite [ORGANIZATION15] to- to tell their date and then we'll meet.
+And again, others from the consortium can also meet this company, but it is not needed.
+So this is, this would be like up to you, whether you want to be in this discussions or not.
+Okay.
+Well, I'm- as I'm speaking, I'm not able to type, really,
+so if someone can populate the minutes, as we go in the way, that the automatic minuting would do,
+that would be great.
+So maybe <laugh/> if you are editing the document as- as well.
+Yeah.
+So then, as you see, we have set up the website.
+I'm sharing my screen, so maybe we will be able to see it on my screenshare.
+Yes.
+So the big question that we have now is whether we should use the Serif or Sans Serif font through all the- the webpage.
+If you have any opinion plea-, please let us know.
+And the- the webpage will be- will be like a regularly populated.
+We also have an e-mail address for the public.
+So this is something that gets sense to me and [PERSON10] for now.
+If you would like to- to respond to this as well then let us know,
+otherwise we'll- we'll let you know, whatever comes from- from- from the public.
+I don't have-
+(PERSON10) Here I am. Okay.
+(PERSON13) Yeah.
+(PERSON10) So as for the web, there is a section with logos of the partners, and I still haven't received the logos from [ORGANIZATION13] and [ORGANIZATION12],
+so I would like to put it there too and also the link for your website, to where you want it to be redirected, so yes.
+(PERSON13) Yeah, yeah, yeah.
+And we need to polish the ways, this maybe better logos are.
+Well, it's optimised for the cell phone for now, it seems to me.
+<laugh/> Yeah.
+It is like the logos are too big.
+Yeah. But that's- that's not a problem.
+So, yeah, anyway, we need the logos from you.
+Ok, thank you.
+Then there is the- the [PROJECT1] logo.
+You have seen it in the e-mail, and we have vectorised it and we fused the text priced version now, to- to create also some- some versions in bitmap.
+And we haven't heard from you, so we assume that you liked the logo.
+If you still had any comments., please say so now or let us know very soon,
+otherwise we'll start using the logo on the webpage,
+we already used it on one presentation in [LOCATION1] where the starting [OTHER2] projects were- were introducing themselves to- to other projects, and- and so on,
+so this logo has already appeared- appeared to some like limited public, but we still be able to- to change it.
+And then, I'll also put the logos to the website, like I mean, the images in the various formats, so that you can start using them in your presentations or the PDFs, that you create and so on.
+And gradually we should be like building some dissemination [ORGANIZATION5], like a set of files that are useful, when you are- whenever you are making any public announcements related to- to [PROJECT1].
+I'll also take the dissemination work package once the project starts, maybe we have been promised to do so.
+So is-
+Ok, so now the most important bit for today is the Grant agreements signing.
+And most of you have done this, and [ORGANIZATION12] still have not- sign that.
+I would just like to mention that it is very important to- to get the signature, well, today or tomorrow, because it is the thirtieth day, which is just the running out for-
+and- and the the signi- the Grant agreement has to be signed within 30 days since the [PERSON13] has- has circulated to us.
+So [PERSON2], or [PERSON8], could- could you please say the current status, I know that you have talked to the [PERSON10] this morning already, so-
+(PERSON2) Yes, fine.
+(PERSON13) please say what's-  what's the status?
+(PERSON2) Okay, so, first I want to apologise for the delay,
+it's just the thing that we are new to such kind of project,
+and our management team is little bit- how can I say that, yeah-
+they- they, you know, they want to do everything right,
+so it is not meant in a bad way or that we don't want to, or that we stop the project,
+however, it's just the thing that we want to manage everything in a- in a right manner,  and so therefore we had a lot discussions about Grant agreement, Consortium agree-, Consortium agreement,
+and I just got the e-mail, ten minutes before from my CEO, that when he will- when he arrives at the office, which will be around about two o'clock this, or two o'clock p.m. we will sign the Grant agreement,
+and as I tal- spoke with [PERSON10], I will also send you email as soon as we've signed everything today.
+And-
+(PERSON13) Yeah.
+(PERSON2) And the next step for us the- the contract, the Consortium agreement, we <unintelligible/> with our lawyers at the- about the backgrounds and we don't see any problem to sign the Grant agreement,
+and they really apologise for this,
+I- I just want to let you know that it is not meant in a bad way.
+(PERSON13) Yeah, okay.
+Thank you, this is-
+This is like <unintelligible/> fine, we were finding us beginning to be anxious.
+I totally understand your concerns, because I mean, this is like my 4th or 5th project in a row, so I know approximately what is- what is happening through all the project and I've seen various problems, that can arise, but I haven't seen any big ones,
+and all the problems that I ever saw were like easily resolved, but I understand that you don't have this- this history and this experience, so-
+(PERSON2) Yeah.
+(PERSON13) So whenever you are like anxious about something, I think it is, very important that you ask either me or maybe other partners in the consortium, so- so- [ORGANIZATION13] is on a similar status as you are, and they already have successfully participated in one [OTHER2] project at- at least that I know of, maybe there are more.
+So they would know what is the ways of resolving the various problems and- and- like the-, yeah.
+(PERSON2) It's- it's not the- the thing that lean on me are anxious about this, because well, how can I say that, we understand what- what's in the Grant agreement.
+It's more that we have to inform at least two or three people here about the steps about the status of the project and until we got everyone informed, until everyone is on the same page, that's- that's sometimes, you know, that takes the time.
+And that's the case now so I'm totally with you.
+We always-
+we all- we- we- we-
+you know, we are thinking about how to write this email so that you get a fast next step to our home mangement, but there are still some terms-
+(PERSON13) Yeah.
+(PERSON10) we have to inform them- <unintelligible/> and wait for the few decisions.
+(PERSON13) Yeah, yeah, okay.
+So well, hopefully, this will be resolved and I also, yeah, sorry, did you want to say something?
+(PERSON4) I- I just said sure, sure.
+(PERSON13) Yeah, well, okay.
+And also independently, [PERSON10], please, we should make sure that this Grant agreement signing is the forms A.
+So we should contact our project officer, just to be totally sure that we are handling the process..
+Because I- I said that I have been on- on many projects in the past, but this is the first I'm coordinating it and there could be like legal or- or whatever as administrative procedures that I maybe not ever opt,
+so we we need to be like super- super cautions with this.
+So we should- we should double check again what forms A are this Grant agreement.
+I think they are.
+(PERSON10) Okay.
+(PERSON13) And, yeah.
+Yeah, okay.
+So hopefully why even tonight, the- the Grant agreement will have been signed by everyone and that would be fabulous.
+And the other thing that we have to- to discuss and sign is the Consortium agreement.
+So this is just reminder that maybe some of you have still not entered the- the title and name of- of your legal signatory person in the last pages of the [PROJECT1] Consortium agreement.
+And-
+so the Consortium agreement, just to let you know do you know what the- what the most recent version is.
+That this is at the top of this document, this CA draft version open thing,
+you can open that
+and it is intended for further commenting and it- it is the status of the like background of the document as we agreed in our call number two on this.
+So this is our third call on Consortium agreement and will like valid all your possible comments and resolve them according to what we've agreed during this call.
+And that will make it a point four version for one more round of- of a commenting if necessary,
+but otherwise I think we- we actually will not need this,
+I hope that we are already far enough and everybody has- has- had their say,
+so this oh point four version could be the final one that needs to be sign.
+<censored/>
+It is all between us.
+So maybe there is not even deadlines,
+but well we should have it preferably within December so that we know when the project starts,
+what our mutual relations are and- yeah.
+Okay, so I have already this [PROJECT1] <unintelligible/>
+-scroll down through this.
+I wanted to, yeah?
+(PERSON3) You were out. Can you repeat? There was a gap.
+(PERSON13) Ok, yeah.
+(PERSON3) And we got lost.
+(PERSON13) Yeah, so well, I just mentioned that I have this- this [PROJECT1] version open pre-opened as well and we go through the the comments in a second.
+But I wanted first to- to like say aloud what we have done in the meantime, because as you know, [ORGANIZATION3] is not signing the Consortium agreement, instead [ORGANIZATION3] is preparing <unintelligible/>, oh sorry, bilateral contact- contract between us - [ORGANIZATION] and [ORGANIZATION3].
+We've already sent this draft to [ORGANIZATION3] a week ago, if I am not mistaken,
+and [ORGANIZATION3] is now looking at it.
+And it essentially contains the mix of things that are in the Grant agreement and Consortium agreement that are relevant for- for [ORGANIZATION3]'s work in- within the project,
+and we are the the linking point for the whole consortium except [ORGANIZATION3] and- and [ORGANIZATION3] through the bilateral contract.
+So it's punwise, it's very nicely organised, it like- it's- it's good, that both the Consortium agreement and bilateral agreement are in drafts at this point- at this point,
+because if something needs to be like discussed and then put into both of these contracts it can be easily done.
+So it- it has happened that we have through the like working on the- on the bilateral agreement.
+We have figure out that the official status that we've planned for [ORGANIZATION3], the affiliated entity, is not like legaly appropriate.
+So the way that I was presenting it in the last call was that the [ORGANIZATION3] will be our affiliated entity to get access to our results and test them in- in their meetings and- and the congress.
+And it turns out that this status cannot be used,
+so it's nice that we could have easily proposed a new name, a new status, partially participating entities and [ORGANIZATION3] will get this one, that's the proposal, and so- like effectively nothing is changing, it's only like relabelling,
+but it's important that this true documents are consistent with the- with the label.
+And the access rights for affiliated entities that are previously in the Consortium agreement are now duplicated there.
+One version is for the affiliated entities, but that's not applicable, this- this copy is porch 9.5.1. and it's unchanged original as it was in the- in the desktop template for- for this Consortium agreement and the second copy is 9.5.2. and that's access rights for partially participating entities,
+and this is modified in the way that we've discussed in the- the previous call, are actually in the e-mails afterwards.
+We proposed that [ORGANIZATION3] will have royalty-free access to the results of our project, to all the translation systems, the minuting tools, whatever, during the project lifetime- so during the project lifetime and fair and reasonable conditions after the project lifetime.
+And this is justified by the fact that we want [ORGANIZATION3] to be the test partner, essentially as a full partner in the project, except that they are not signing the Consortium agreement so they are not a full partner,
+but we want to give them the same access as every partner has.
+And after the project has ended all the various institutions in the consortium will have various costs associated with running the services.
+This is-
+if we really something in the open source, well [ORGANIZATION3] can- can download it and use it on their own,
+but most of the things that we will have developed will not be of this- of this type, I believe, and it will be rather services running on- on the various clusters of- of the various institutes.
+And in that case it is important that like [ORGANIZATION3], as everybody else, every other possible user of- of the services, will- will pay their- the reasonable price for- for running this.
+So this is the main change.
+Formally, it's a new status, new name - partially participating entity.
+And contentwise it is what we have proposed in the- in the email.
+So I would like to check now whether everybody is happy with this- with this new set-up.
+Or if you have any comments?
+I know that [ORGANIZATION5], who are not on the call, are fine with this.
+Yeah, so that's- that's good.
+I don't hear any complaints from you, yeah.
+So, now-
+This- this was the most important point and honestly I don't remember what other- other points were there.
+Yes, so let's- let's not browse the- the version 0\. 3 of the the Consortium agreement
+So you see that- you see that we have created one more attachment Identified Partially Participating Entities according to section 9.5.2.
+And this is- this is where [ORGANIZATION3] appears,
+so [ORGANIZATION3] no longer appears as the affiliated entity.
+Then-, yes, so hopefully-, this- this was a comment by [ORGANIZATION3], that the exploitation-
+I think, this was just a misunderstanding,
+so I hope that [ORGANIZATION3] will now resolve this- this comment.
+(PERSON11) Yeah, sure.
+It was covered by the thing you talked about before.
+That was-
+(PERSON13) Yeah.
+(PERSON11) That was it.
+So-
+(PERSON13) Ok. Yeah, yeah.
+Yeah, so just, please, clickresolve so that we're done, if you can?
+If you cannot I can do it for you.
+And then we have received some edits or proposed edits from [ORGANIZATION5]'s lawyer and essentially-
+but these- these are labeled as anonymous and they happened on the December of- on the 6th of December.
+And I don't think these edits are like affecting anyone in any way.
+It's just some refinement of the wording,
+so my plan is to sign the except all of- all of these.
+Please review them today or- or so.
+If you find any problem please let us immediately,
+but I don't think there is anything- anything dangerous in these edits by the anonymous.
+Yeah, so another thing was that we didn't like the grammatically <unintelligible/> the edit by [ORGANIZATION2] lawyer,
+so I'd like-
+If- if they are fine, the [ORGANIZATION2] lawyers could double check that, like we- we reject and go back to- to what was there before,
+if we can do this please- please confirm that.
+I hope that I'm not misunderstanding something- some intention, some in- intentional change here.
+I think it was just- just bad editing or unfortunate editing of- of the created sentence so if [ORGANIZATION2] could double check with their lawyers.
+(PERSON7) We can do that, yes.
+(PERSON13) Yeah, thank you.
+And then, what else do we have?
+This-
+Yes, this is, we're-
+So, if anybody-
+but that's not planned-
+if anybody should become the same- should- should obtain the same status [ORGANIZATION3] has, to become the partially participating entity,then this will be discussed by the Project Coordination Committee where everybody has their vote.
+So, this is just the same way as- as the other special status entities.
+Then this is nothing special, this is just like [PERSON10] has- [PERSON10]'s the project administrator, so project management office, that's- that's [PERSON10]. <laugh/>
+Then, yeah-
+so, the Project Ethics Committee, this is something that- that we don't have to discuss today at all, but, please, remember that shortly after the project start, we'll have to appoint the Project Ethics Committee.
+So think about people who would be respectable and- and would have the time to serve on our Ethics Committee and here is what- what they are expected to do.
+So please search for candidates.
+It's- it's not that every partner needs to have someone there, quite the contrary, it's three to five members in total and half of them are separate like outside from- outside of the project,
+so we need people outside of the project to- to help us.
+Then-
+this is- this is from [ORGANIZATION5].
+<unintelligible/> in- planned patent application no co-owner will grant any licence to a third party before the first filing of a patent.
+That seems reasonable.
+So this is exactly what I say,
+I plan to accept all these edits by anonymous from the 6th.
+And this is-
+-all Parties committed for dissemination, fair distribution of opportunities to publish, the copyright, <unintelligible/>.
+It's- it all seems like just refining what is natural.
+<other_noise/>
+So there is some change - the objecting party publication delay of not more than 60 days, uh, okay.
+Do you have any opinion <laugh/> on the delay?
+So all this is act 5.
+Dissemination of own results-
+it's own dissemination, an objection is justified if the production-
+during the project for a period of a 1 year after-
+the dissemination of own results by one or several parties, shall be governed by procedure of the Grant agreement,
+which is that you'll have to notify and that is also which we are- like softening.
+Prior notice shall be given at least 45 calendar days before the publication-
+this is, I thought that this was- this was resolved.
+Well, let's not look at- at it now, for the sake of our plan.
+But everybody, please, check this.
+Here we are deliberately on the soft- soft grounds of-
+we can allow- there is this-
+dissemination results, yeah, we have this 11.9,
+where we reduce the- the requirement to notify everybody for the five days before pub- publishing, that they want publish,
+and we reduce this if everybody's totally sure that no one is patenting things.
+So, then this is related to this 7.- where was that-
+This is related to- it's 8, sorry, the dissemination, 8.4. or 8.5 
+And this is where people file objections against the publication that has been made.
+So and then what- what [ORGANIZATION5] is changing is they're changing the- the number of days until one people can complain.
+Well, so, simply let's try to avoid these conflicts altogether.
+If you are publishing something and you are- and that- you have some concern then- that everybody would like to patent it, please, talk to them before you publish.
+And also, if you are planning to patent something, please, indicate that everybody should ask before they're publishing anything related,
+so that we avoid these- these problems.
+And hopefully if we do- if you all follow these- these like sensible procedures and- and- and take these precautions, hopefully, there will be no difference in in 90 or 60 days of- of filing an objection altogether.
+So I'm probably fine with accepting these edits as well.
+But, please, everybody have a look at that if- if you find some other problems.
+Yeah.
+So, there is again-
+<unintelligible/> -continuous investigation concerning possible third parties rights are not expected.
+Yeah, that's true.
+Access rights for internal research and educational issues shall be granted for-
+Yeah, yeah.
+Subject to a separate written agreement-
+Yeah, access rights, yeah.
+So this is also related to what [ORGANIZATION3] has.
+So we have agreed and will come to that in- shortly- what we get to the- to the partially participating parties in the project,
+but this is- this is also the same situation where the regular partners are in.
+If- if you want to use, other party's results for the exploitation of your own results-
+so for example, if I'm- if I'm starting to sell uh my machine translation system and I link it, with the- with the- speech recognition from [ORGANIZATION5], I need-
+first it will be done on fair and reasonable conditions and second, I need to have a separate written agreement with [ORGANIZATION5] so that they allow me to use their system.
+This is natural and it's it's like it- it is- it is not for the project purposes, it's it's outside of the project purposes, it's for some additional exploitation of my own results.
+So,just make sure that to to follow this and I think I'm- I'm happy to accept this proposal by [ORGANIZATION5].
+Yeah.
+Let's- let's move on and we will get to the-
+yeah, we're- we're there.
+So this is the access rights for affiliated entities,
+originally it was access rights for affiliated entities in one section 9.5, now it's two sections 9.5.- 9.5.1 which is the unchanged original wording and it has a fair and reasonable conditions during the project as well as after the project.
+And here for partia- partially participating entities, that's 9.5.2, that's a second copy of that paragraph,
+and it is- it is written just for [ORGANIZATION3], essentially, so [ORGANIZATION3] is listed down there and in- in the attachment.
+And it says that the partially participating entities should be granted upon written bilateral agreement, royalty free access to the results of the project during the project lifetime and on fairly reasonable conditions after the end of the project.
+So I'm highlighting this is "upon written bilateral agreement",
+I've tried to get rid of this additional layer of- of like a paperwork,
+but I think it's- in the end, it would be more complicated than- than I thought it it could be.
+And in the end I believe it is- it is sensible to have like a written report of what we are giving to [ORGANIZATION3] for the various tests and would be various situations, well, when they'll test our [PROJECT1] results.
+So it should be-
+we will try to make this process very simple, as simple as possible, but still for every occasion where [ORGANIZATION3] will need some of our results we will have a written note on that that everybody will- will sign and confirm.
+And and hopefully the- the first note, the first agreement, will be so general that it will work for most of the situations,
+and the- the later refinements of this if some other tools or new versions of the tools will be developed, like substantially new and not only retrain models, then another bill threat, we ment, will be- will be covered that. 
+So, well.
+We don't have the forms for this, like the "template" of the agreement prepared yet,
+we'll prepare it later on as- as the project runs,
+but, essentially it will be man bilateral agreements between [ORGANIZATION3] and all the- all the contributing parties from the project signing maybe the same document and this will be the- the formal written thing.
+So just keep this- keep this in mind that we need some- 
+-seems like a full stop, so I'll- change the full stop.
+No, it is not a full stop, it is a space.<laugh/>
+I don't think, it's strange- <laugh/>
+Ok.
+So this is just the little word of warning that there will be some paperwork associated with [ORGANIZATION3] getting our results,
+but we'll try to keep this minimal.
+Ok.
+And if I'm not mistaken, there- there won't be any other changes like bigger ones.
+Again this is- this is the refinements by the [ORGANIZATION5].
+So please everybody go through them.
+<censored/>
+This- <unintelligible/>
+I have no idea what this means.
+But <laugh/> again, it's- it's what works for [ORGANIZATION5] in their past consortium agreements, so there is-
+it is probably based on- on experience that-
+And we are now at the section of signatures.
+So we see our template,
+[ORGANIZATION2] has not filled who will be signing this and then [ORGANIZATION5] has not filled who will be signing,
+we know from [ORGANIZATION13], that's great.
+We don't know of from [ORGANIZATION10] and that's it because there is no- there is no signature from [ORGANIZATION3] here.
+Here is the background so, please, review the background again, but it's- it should be completed.
+And maybe this is the thing that, that [ORGANIZATION12] might like to- to like discuss with the lawyers again.
+Yeah.
+So, please,propose changes to this document and let us know.
+And please do it very quickly, because I would really like to- to close the- the content of the Consortium agreement.
+And- and as you see here is the standard form if- if we are adding one more party which we are planning,
+simplified transfer-
+this is something standard in the agreement.
+I don't really know, what it is for.
+There i- there are no identified affiliated entities according to 5.1.
+But there is identified partially participating entities, according to 9.5.2. and that's the [ORGANIZATION3].
+So that's- that's it.
+So I know that [ORGANIZATION5] is happy with the kind wording as it is proposed.
+I hope that everybody who has survived this- this <unintelligible/> browsing is happy too.
+If you want to, please, have your lawyers look at- at the little changes by [ORGANIZATION5], again.
+But I don't think, that you will find anything problematic.
+And please enter the name of the person who will be signing this,
+and we should get to signing very soon.
+It- it is Christmas,
+so as a Christmas gift having the Consortium agreement signed by everyone would be- it would be a great thing.
+Ok, any comments?
+No.
+If not, then-
+so there- then there are few more items in the agenda and they are not to critical anymore,
+but let me quickly go over them.
+So as you know, we are running the Pre-Dry Run for our technology at the Students Firms Fair.
+This is something that we are organising, and- with the help of [ORGANIZATION5] and and [ORGANIZATION13] with their technologies.
+[ORGANIZATION5] is even considering to come for the March event.
+It's the high school students, they'll be presenting in [OTHER3] and [OTHER1], and we would like to test the subtitling technology in like life, and to see, what all problems there will be.
+So far are we have not talked to [ORGANIZATION2] in detail about this and we don't think they will need any bare help for for this event to happen,
+but if [ORGANIZATION2] would like to join this- this Pre-Dry Run then, please, let us know what you would like you to do what you like to test at this- at this event.
+For me, the main reason is to test what quality of [OTHER1] ASR we will be able to develop until March with the tools that are already out there and with the data that we'll we'll collect.
+And also to see what the integration platform looks like and wha-t what all the rough- rough edges could be.
+Yeah.
+So for-
+I do not think that [ORGANIZATION2] needs to test anything on- on their own, because there are already linked with- with the [ORGANIZATION13] platform, we are not, so that's why we need this.
+The only thing that I like urgently need, but [ORGANIZATION5] is- is not here, so maybe [ORGANIZATION2] could- could provide me with the details instead, is the pointers to the toolkits that are used to train ASR models, because we need to- to build an ASR model for [OTHER1].
+And also we need the integration, so that's one more thing.
+<typing/>
+Details on the protocol with the [ORGANIZATION13] platform to link [OTHER1] MT to [ORGANIZATION13] platform.
+Yeah.
+So [PERSON5].
+If you could send me the details of what should we- what should our machine translation system be connecting to, please do so as soon as possible.
+I have the student to work on this, but he's also new to the various other things.
+So the sooner he- he knows, what- what he needs the- the better.
+(PERSON5) Hi, I was due the- the information-
+(PERSON13) Yeah, yeah.
+(PERSON5) Say, hopefully, by the end of this week. 
+(PERSON13) Yeah.
+(PERSON5) Ok?
+(PERSON13) Yeah, yeah, ok, thank you.
+And if [ORGANIZATION2] knows what [ORGANIZATION5] uses or what is a good tool kit for new network speech recognition, please let me know as well.
+So I know that [ORGANIZATION5] has the- has released their SLT.KIT tool kit.
+And that- that uses various things, and- but they mentioned that it is not good for the online speech translation.
+So maybe if- if you use something better, please let us know.
+So, so far, we are just looking at this-
+Alright then.
+So far, [ORGANIZATION1] is-
+(PERSON5) I fairly don't know, what [ORGANIZATION5] is using right now.
+(PERSON13) And what you are using?
+(PERSON5) For speech recognition [PERSON1], that's momentary-
+(PERSON13) Ok, but [PERSON1] is not new, so, yeah, do you use something else?
+(PERSON5) I think-
+well,ocassionally-
+we've had discussions in if that for project, that's training speech recognition systems [PERSON1] is a lot more complicated training NT system.
+So the speech grou here don't- I know really, they don't really <unintelligible/>-
+(PERSON13) Yeah.
+(PERSON5) requireable systems.
+<unintelligible/>
+<typing/>
+(PERSON5) - I don't think, <unintelligible/> use your network for this, it's- it's adaptable software, that's all I know.
+But we- we- we don't really know,
+(PERSON13) Ok, yeah. 
+So.
+(PERSON5) we used to build these systems, but we don't know what- what [ORGANIZATION5] uses.
+(PERSON13) So- so we have to- we have to get this information from [ORGANIZATION5], okay?
+Yeah.
+Thank you.
+So then the other point is the first workshop like the real Dry Run, not the Pre-Dry Run.
+The workshop in the year one will take place on the premises of [ORGANIZATION3] here in [LOCATION2] and it would be at the end of June.
+So this- there will be about twenty participants from eight countries,
+and this will be very similar to what I have seen what they had already done with the [ORGANIZATION15] company in November.
+The language of the workshop is [OTHER3].
+So they actually do not need us and that's good.
+But we want to translate it into many languages.
+So as soon as the project starts we'll discuss how to handle this.
+Who would be like- who would like to come for the event if- if the that is needed.
+It will be our second try already, so hopefully the the critical problems will be already resolved there on March in the Pre-Dry Run set-up.
+So the- the thing-
+This is- this is to be discuss, but I think, that we should focus on designing the mixing of materials and subtitles in the selected language, or s- or on some other way of reducing the cognitive load for the participants.
+So the- the main observation, aside from all the technical refinements, that- that [ORGANIZATION3] has already made in November, was that it is impossible to follow the slides on the overhead projector and look at the translated subtitles in your selected language on your cell phone.
+So, this mixing of materials and subtitles is- is something that we need to like design the user interface for.
+So, this is for maybe- maybe [ORGANIZATION13] to think if- if their publication platform can also support some like presenting of slides, or, copying of screens from the ov- the main overhead projector, so that it mixes at the users device, or what are the options.
+With this is- this is totally open.
+We are not obliged to do this in any particular way. 
+We should- we should just make the experience for the participant good.
+So this is as- as I mentioned- this is what what [ORGANIZATION15] has already tested.
+Okay.
+And then there are already some details on the main event, the [ORGANIZATION7] Congress.
+So I asked  [PERSON10] if- if she could create the [ORGANIZATION14] calendar for [PROJECT1] events in general, and enter all the details-
+(PERSON4) Hello?
+(PERSON13) Yeah, yeah.
+(PERSON4) You froze again, at least for me, not sure how <unintelligible/>-
+(PERSON13) Okay.
+(PERSON5) We have lost you.
+(PERSON13) Yeah, ok.
+So, is it better now?
+(PERSON4) Yes.
+(PERSON13) Yeah, I, hope it is, so, so-
+(PERSON5) Yes
+(PERSON13) So, yeah.
+So I was just saying that we know the details for the Congress from [ORGANIZATION3] already.
+It's- the Congress will take place at the end of May and early June in 2020.
+And the plenary meetings will be held in the new building of the [ORGANIZATION4] which is the old building of- of the Parliament of the communist era and it was also the [ORGANIZATION8] building after the Velvet revolution shortly.
+And the workshops will be not far from that, but still, it's like one- one tram stop from- from there, at- at the [ORGANIZATION16] in their new building.
+There will be fifty countries represented up to two hundred and fifty participants.
+The program is divided so that on one day they are in the [ORGANIZATION8] building,
+on a day two they are in the- in the workshop building,
+and there could be up to twelve- and very likely ten simultaneously running workshops, and each workshops had a topic, and we could have- and we should have one to- one topic- one workshop on next language processing and machine translation services.
+So we still have plenty of time to prepare this, but we should keep that in mind.
+And each workshop will have two copies or instances, one taking place in the morning and one in the afternoon, so that people could attend- so that people could avoid conflicts in- in the workshops and more people would learn to what- what the workshop offers.
+And then there will be two more days plenary in the [ORGANIZATION8] building.
+So, there will be some input in advance.
+So hopefully [ORGANIZATION3] will- will be successful in collecting slides and notes from the speakers, at least a week in advance, or- or maybe more.
+And [ORGANIZATION3] reminded me that this is different style of presentations from the presentations that we know from our conferences.
+This is-
+usually these presentations are written by someone else and not the main person, who is presenting officially.
+So actually 80 percent of the delivered speech is directly from the notes.
+And this is- this is good for us.
+So we should think about ways of making use of these materials.
+And we should have our pipeline ready to be able to integrate this like on the spot additional input.
+So, I know that, I am planning something for the year 2020, but remember, these goals in the research that you are going to do in the- in the coming months of [PROJECT1]
+so that we can then just find the solutions easily, when we need them.
+And [ORGANIZATION3] want's to have some- some fallback solutions, because the quality of the translation has to be excellent.
+So they will- they- they now confirmed, that there will be regular interpreters for major languages,
+and we principally could use them as re-speakers.
+There will be five booths and five interpreters running all the time for the plenary session.
+And all the participants should get all the slides translated in advance to browse them if everything else fails.
+So if if there is like a total failure of- of wi-fi, of- of everything of, well, electricity has to be there.
+But if anything beyond electricity is- is broken, then they should be at least able to browse the translated slides.
+It is yet to be discussed, even at [ORGANIZATION3] internally, if these translations of the slides and materials are expected to post-edit or not.
+And for us, within [PROJECT1] we don't have the- like a strict obligation to do the service, but we are doing the documenteral translation,
+so it could be nice test case for us.
+And if it is nice test case for us, then we'll have to find someone who will handle the the file formats.
+So in the worst case-
+this is what we have discussed with [PERSON14] when we were already writing the proposal-
+so in the worst case I think that we can like live with some pptx and and docx file formats which is generally xml.
+And if they are not to ugly we can replace the strings with a edel tex with the eximal tex.
+So as a- as a fallback solution, we can handle it.
+But if- if you had someone who'll be more interested in the handling formats and who would have the processors ready that would be very useful.
+[ORGANIZATION2] could have links to the mat- to the Made capture project and that- that is realy well supported in terms of formats as- as I've seen.
+So maybe that would be one option.
+Another option would be that we somehow split this with [ORGANIZATION15].
+So my way of thinking about [ORGANIZATION15] is that they could handle the file formats for- for [ORGANIZATION3].
+And we could feed it- we- we could support it with our machine translation engines.
+But I have not-
+so far I have- I have suggested this to [ORGANIZATION15], but I was not really successful at persuading them to- to do the file formats processing.
+Ok.
+So these are other notes.
+I don't know if you have any other comments to this or not.
+Yeah.
+And then-
+(PERSON5) <unintelligible/>
+(PERSON13) Yeah.
+(PERSON5) -have any access to file format conversion to use right now.
+So it would be great if [ORGANIZATION15] take that for us.
+Yeah, yeah, yeah.
+So let's- let's keep that in mind.
+Let's keep convincing them when we see them around our Kick-off meeting.
+I'll keep that in mind, I'll do that regularly.
+I'll also like seek for students, who could to do this,
+and I'll also check if anything on the file formats is available as open source from the [ORGANIZATION17].
+I understand, that you are not familiar with- that is- with the internals of [ORGANIZATION17].
+So, if you happen to- to get that information, please let me know, that would save my time.
+Yeah, okay.
+The last thing that is on us only for this- for this [ORGANIZATION8] building.
+There should be an [PROJECT1] booth somewhere in the- in the lobby or in the corridors,
+so this is- this is something, that we'll have to prepare like draw.
+There is plenty of time for this.
+And the the conflict that should be discussed is that [ORGANIZATION15] also wants to try the Congress.
+So one possible division is along the days.
+So some of the days could be covered by the [ORGANIZATION15] technology and some could be covered by the [PROJECT1] technology.
+And if we don't come up with any better solution or better integration of these two services then this is probably sensible way to go.
+So keep thinking about this and we can discuss this for the first time when we talk to [ORGANIZATION15] in- in person.
+And we still have plenty of time, before the actual Congress comes so all the- all the tools will develop until then and- and- and we'll see.
+Okay.
+So this was this was everything from my side.
+I hope that I have not forgotten- forgotten ever- anything.
+And I am curious, if you have any other comments from your sides.
+Well, if- if not, then it's excellent planning, it was one hour exactly, it was not meant to be so.
+But it we just ended up like that.
+Please, let me know as soon as possible, if there anything that you don't like about the current Consortium agreement.
+And if I don't hear from you, we'll finalise it by the end of this week, so that we have the last week before Christmas break to do the signing, then.
+So, if possible, finalise the consortio- your opinion on the Consortium agreement early this week and let us- let us finalise it for everyone at the end of this week.
+So that's it.
+So if there are no product comments, no questions.
+We are here for you, and thank you very much.
+And I'm not sure, if we'll make another call.
+So if we don't speak to each other in- in person before Christmas, then have a good celebration and peaceful time toward the end of the year, but we'll be surely <unintelligible/> that by- by email, and- and hopefully by also with- with these signatures, and- and all the things <unintelligible/>.
+Okay, thank you.
+(PERSON10) Okay, thank you.
+(PERSON13) Happy Christmas and, yeah, thank you.
+And bye- bye.
+(PERSON10) Wish you the same. And bye. Bye.
+<unintelligible/>
+(PERSON5) Ok, bye.

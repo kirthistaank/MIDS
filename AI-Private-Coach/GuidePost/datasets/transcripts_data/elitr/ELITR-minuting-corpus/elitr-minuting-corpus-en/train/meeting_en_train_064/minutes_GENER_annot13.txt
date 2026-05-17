@@ -1,0 +1,32 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION4], [ORGANIZATION6], [ORGANIZATION5]
+Meeting Name: Virtual Coffee Hours 
+Meeting Date: 21.10.2020
+Meeting Topic:  Manual Evaluation Dry Run
+Meeting Participants:  [PERSON5], [PERSON1], [PERSON4], [PERSON6]
+Meeting purpose: To clarify the method, the aim and the main output of the manual evaluation dry run.
+Main points of discussion:
+*	It was stipulated to all team members that the evaluation should be manual in all possible senses.
+*	The emphasis is not on the actual awarded score but on the process and thought of evaluation.
+*	Possible examination into the need of some other scale or estimation could be necessary.
+*	All team members were strongly advised to go deep into the idea of evaluation and write down all the obstacles they experience when evaluating.
+*	All team members should clearly understand what it really means to evaluate the minutes.
+*	The outcome of the dry run is the constructive discussion that results from it.
+*	The idea of semantic similarity integration into the alignment tool has been presented, however more thought is still required on the practical implementation into the tool.
+*	Questions have been raised about the integration of the newly built model into the normal interface due to its size (big GPT/(Botch) based model).
+*	Key idea is to incorporate all aspects of the evaluation together - meaning manual, automatic and semantic similarity.
+*	Annotators to be trained and given the task to synchronise/align the transcripts and the minutes using the new tool.
+*	Two separate independent tasks outlined:
+o	a) Alignment between transcript and the minutes. This doesn't concern the measure.
+o	b) Use of semantic similarity when evaluating.
+*	Within a week from the meeting, i.e. by 28 October 2020, a method of communication with annotators should be devised. Possibility of multiple sessions discussed.
+*	One-off and/or regular participation of the Project Manager has been suggested to clarify the strategy, the goals and required output of the project. And also to avoid any misunderstandings or confusion going forward. Proposition made for his participation following week when the team has more updates (on [ORGANIZATION1] corpus and semantic similarity incorporation).
+*	The Project Manager requires all team members to acquire the hands on experience with real transcript and the minutes and to base the evaluation on this experience.
+*	The evaluation is not to be based just on existing automatic measures already existing on the market.
+Administrative matters:
+*	Following two daily meetings have been cancelled.
+*	Dry run details and files (transcript, minutes, audio and instructions) for evaluation to be distributed on as soon as possible basis, ideally by early morning on 21 October 2020.
+*	Team to deliver the observations by Monday, 26 October 2020.
+
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,42 @@
+
+Date: 2019/05/31
+Attendees: [PERSON15], [PERSON10], [PERSON14], [PERSON6], [PERSON5],
+Purpose of meeting: Overview
+
+
+Summary of meeting:
+
+[PERSON15], [PERSON10]
+- Talk about presentation platform.
+- [ORGANIZATION7] working on finding solution of main stage presentation problem. 
+- There would be useful having a text client.
+- [PERSON15] specify presentation platform.
+- Discuss killing the clients.
+
+[PERSON10], [PERSON5], [PERSON14], [PERSON6], [PERSON15]
+- Discuss [PROJECT1] worker.
+- There is a problem with text to text client and it use production client.
+- Priority is to have the online mode working.
+- [PERSON14] will send audio files to [PERSON9].
+- It is important to test the machine translation.
+- [PERSON6] describe the bug.
+- The batch mode is solved differently by going to simply offline mode and will focus on the batch operation later on.
+- The segmentation workers in [ORGANIZATION5] don't work with the CTM client.
+- Agreed on test together.
+- There is needed the reconnection when the mediator dies.
+
+[PERSON15], [PERSON10]
+- Discuss connection to wifi.
+- Important point to discuss next time.
+
+Next meeting: 2019/06/07
+
+
+
+Minutes submitted by: [ANNOTATOR2]
+
+		
+
+
+
+

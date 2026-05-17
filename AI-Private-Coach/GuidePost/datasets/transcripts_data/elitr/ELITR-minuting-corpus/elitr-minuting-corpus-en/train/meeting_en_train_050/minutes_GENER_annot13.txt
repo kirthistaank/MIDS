@@ -1,0 +1,58 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION2], [ORGANIZATION5], [ORGANIZATION3]
+Meeting Name: Surge
+Meeting Date: 28.04.2020
+Meeting Topic:  General Project Progress Meeting
+Meeting Participants: [PERSON15], [PERSON11], [PERSON10], [PERSON9], [PERSON4], [PERSON16]
+Meeting head speaker/moderator: [PERSON15]
+Purpose of the meeting: To provide update on the progress made in the key areas of the Project development.
+Main points of discussion: IW SLT submissions, IW SLT segmentation, Monolingual data collection and back translation
+IW SLT Submissions
+Progress so far:
+•	Systems are in evaluation and output for these has been provided and is awaiting revision and scoring. This will be done only when all systems are available for consideration.
+•	All EAF files have been created and are in line with OST files. ASR evaluation has been created but only one system was evaluated so far.
+Priority action to take:
+•	To evaluate all systems on all files
+•	To propose unified naming convention and identical layout in submission sub-directories to allow for the efficient evaluation of the files through one evaluation script, where this script would be processing all files at the same time. This is to be done outside the “as received” directory.
+Recommendations made:
+•	Complete and concatenated scoring (such as word error rate and blascore) recommended for the submissions that do not follow required format.  Specific document has been created to list problematic submissions. Problems should be primarily resolved in-house.
+IW SLT Segmentation 
+Current Status:
+•	Initial retraining did not provide satisfactory results due to lack of sufficient data. 
+
+•	Focus on retraining of the Czech segmenter with integrated [PROJECT1] models and integrated embeddings whilst using as much data as possible (smaller and bigger size) and focal point on accuracy and saturation curve performance.
+Recommendations made:
+•	It is critical to plan carefully in advance what the test-set is going to be used for and then select test sets accordingly as per the purpose of their intended use.
+•	[PROJECT7] version 2.0 pointed out as a great source of filtered data inclusive synthetic parallel tags with correct Czech on one side.
+•	To make sure that segments in ASR files are cut frequently enough and are short enough.
+Decision taken:
+To proceed with retraining of the current Czech segmenter with retrained embeddings, observe results and continue retraining with short segments afterwards.
+
+Monolingual Data Collection and back translation
+Current status:
+•	Target size of monolingual sample data collection is 43 languages, for the purpose of test sets and language retraining. So far 21 have been collected and 22 non-[ORGANIZATION8] languages are still work in progress.
+Identified bottlenecks:
+•	Problems with data where PDF and URL are not compatible.
+•	Slow progress on the file annotation side, only 2 files annotated so far.
+•	Prolonged periods of waiting and response time.
+Recommendations given:
+•	Promptly review received data links and to speed-up allocation of files to avoid keeping annotators waiting for prolonged period of time.
+•	Data should be made available via [ORGANIZATION3] system as they are too big for GitHub repository. Tests sets are to be selected from the parallel data that can be easily found and accessed.
+•	Send files to the annotating team and collect URLs from them.
+Decisions made:
+•	Evening of 28th April 2020 given as a deadline for file allocation to annotators.
+•	Several team members have been assigned to help with the monolingual data back translation processing. 
+•	Required data format: plain text files, already sentence segmented and as parallel as possible.
+•	To translate as much monolingual data as possible into English (ideally all 43 languages), English to all target languages and then focus on ASR languages.  Aim is to have a large parallel corpus in English with synthetic target mono in 43 languages genuine.
+
+Specific important reminder made:
+Participants were and to provide concise and detailed input into Surge table in reflecting their work on the project up to date. This is to provide justification for bonus payments as some administrative headwinds are anticipated due to unprecedented pandemic situation.
+General recommendations and observations:
+•	ASR model has been made more lightweight and has faster response time.
+•	Before loading ASR on the machine, ports to be checked for availability and tested with NC. 
+•	Use netcat to probe if ports are busy.
+•	Continuous speech translation has been attempted with mixed results, further work to be done on continuous windows translation model.
+Participants have been invited to join following events:
+•	The prg.ai Meeting on 29th April at 16:00 CET.
+•	[PROJECT6] organised by the [ORGANIZATION2] starting for the public from Wednesday 29th April 2020 throughout the extended weekend till 3rd May 2020. Subtitling will be tested during this event. Confirmation was given that subtitling and/or transcripts will be provided for the meeting of prg.ai Department on Wednesday 29th April 2020.
+Minutes submitted by: [ANNOTATOR1]

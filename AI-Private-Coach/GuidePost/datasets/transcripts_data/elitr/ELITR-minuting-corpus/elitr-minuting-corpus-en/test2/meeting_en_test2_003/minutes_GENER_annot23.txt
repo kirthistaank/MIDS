@@ -1,0 +1,74 @@
+Virtual coffee hours meeting 144
+Date: 06. 01. 2021
+Attendees: [PERSON4], [PERSON1], [PERSON9], [PERSON7]
+Purpose of meeting: De-identification procedure, [PROJECT3] submission
+
+-Added information:
+--[PERSON1] is going to contact [PERSON5].
+--There could be another short call tomorrow.
+
+-Current situation:
+--It's difficult to get everybody into Prague now.
+--There is another person needed.
+--The annotators can't automate their work since they don't have the programming skills.
+
+-Members' important information:
+--[PERSON7] will be moving to Canada.
+--[PERSON9] has to come to Prague to sign contract papers.
+--[PERSON7]'s semester has already started.
+--[PERSON7] has a reference letter that needs to be filled in.
+
+-Student-made tool:
+--He's writing a thesis.
+--The goal is developing a tool that would help the annotations.
+--It won't carry out the annotations, nor polish the data.
+--It won't manage the de-identification.
+--Suggestions are welcome.
+--He won't handle the data.
+--He is also payed by another company that also wants this tool.
+--It wouldn't be a good idea to employ him on the project due to lack of his time.
+
+-Needed tasks:
+--Preparing the files for annotators.
+--Insertion of the annotations into the dataset.
+--Polishing the data (into valid XML).
+--Insertion both at the type level and the token level.
+--Final removal of the original content.
+--It's possible to try to reach out to another faculty for the needed person.
+--Exporting the indicators and put them into a clean XML format.
+--Preparing a test document.
+
+-De-identification information:
+--It's okay to have uncertain decisions about named entities in the data.
+--It's not allowed to be uncertain about the status of the process.
+--The XML markup has to be absolutely clear about the stages of the processing.
+
+-De-identification procedure ideas:
+--Annotators could bold what is the named entity and italicise what isn't.
+--The things to annotate would be highlighted in yellow.
+--It would be good if they could see the type level annotation as well.
+--The list would be applied to all the documents, using color-coding.
+--All the files would be in HTML.
+--Annotators would open the HTML in a text editor (Microsoft Word or LibreOffice).
+--There would also be sentence numbers/IDs.
+--It's probably better to present the full documents.
+--Individual sentences aren't be sufficient.
+
+-Communication with the annotators:
+--It's easier to send the files.
+--The Google Docs is another possible option.
+--It would be needed to divide access to different files for certain people when using Google Docs.
+
+-Webpage for the Scientific Committee:
+--The website is on the [PROJECT1] GitHub.
+--The changes will automatically appear on the web.
+
+-[PROJECT3] proposal:
+--The plan is to host the [PROJECT3] in some conference.
+--Possible conferences are [PROJECT2] or [ORGANIZATION2].
+--It would be good to prepare a demo of just one document.
+--All the data needs to be processed by February.
+--Once the website is reviewed, it should be okay to send the [PROJECT2] proposal.
+
+
+Minutes submitted by: [ANNOTATOR1]

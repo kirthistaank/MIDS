@@ -1,0 +1,64 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION2], [ORGANIZATION1]
+Meeting Name: Surge
+Meeting Date: 05.05.2020
+Meeting Topic:  Demo presentation for the Project Officer
+Meeting Participants: [PERSON7], [PERSON4], [PERSON3], [PERSON1]
+Meeting input from: [PERSON7], [PERSON4], [PERSON3], [PERSON8], [PERSON10], [PERSON14], [PERSON9], [PERSON6], [PERSON1]
+Meeting head speaker/moderator: [PERSON7]
+Purpose of the meeting: Setting up the priorities and distributing tasks in relation to the Project Officer Demo Presentation and [PROJECT1] Project Deliverables.
+The Project Officer Demo was given the highest urgency.
+Project Officer Demo Task
+Progress made:
+•	[ORGANIZATION2] representative appointed as a main point of contact for the project. 
+•	Decision has been made to do the integration in-house as the external integrator historically has not been successful with set-ups.
+I'mmediate actions to be taken:
+•	Summary required for the Demo document.
+•	List of Demo testing sessions required.
+•	Overseeing of testing sessions has been agreed and is to be auctioned.
+•	Three major severe conditions crash tests have been requested to be performed daily until the Demo is due, in order to build-up a robust and resilient set-up.
+Ongoing:
+•	Search for a person with skills and relevant experience in live YouTube video streaming and re-streaming
+Closely related tasks to support the Project Officer Demo:
+•	Testing of back end ASR worker that connects Kaldi ASR to the mediator
+Purpose: 
+•	Streamlining the process by eliminating the need to run a separate Kaldi server. The run will be done on a cluster with direct connection to the moderator. As such, there will be no need for complicated set-up and no port issues.
+•	If testing is successful, it will be included in the Project Officer Demo
+
+Punctuation Retraining
+•	Very promising improvement has been observed when focusing on a recall.
+•	The more sentences in the data the higher the recall whilst the precision is not decreasing too much.
+•	Target given of a recall reaching closest possible to 100 even at a cost of decreased precision. 
+•	 This approach allows hiding the full stops to the user and significantly improves responsiveness of the MT model.
+English to 41 MT Model testing:
+•	Need to perform  delay correction as only temporary fix is in place
+•	Suggestion has been made to us MT wrapper in the testing to  obtain more realistic results
+[PROJECT1] Project Deliverables
+Actions to be taken:
+•	Start testing of [PROJECT1] test set.
+•	Statistics of operational and technical data needed in order to assess performance. 
+•	Work required on the evaluation of the translation models and ASR Models.
+•	Continuous speech translation work to be sustained in windows based set-up. Represented by moving windows translation, windows of sentences to windows of sentences. Final window not yet decided. Negative testing results have been obtained but not significantly worse than baseline. Self-contained review required. 
+•	Unihack event recording was identified as possible test set. Therefore following steps have been executed in order to analyse the recording and prepare for further processing:
+- 	Subtitling was updated with logs and automated transcripts.
+- 	Retrospectively a point was made about the lack of advertisement for the event.
+- 	Review required into why the back translated Czech was better than a real ASR Czech and report is required.
+- 	ASR set-up script review was performed and scripts are deemed too slow, testing with MT wrapper suggested in order to obtain optimal results.
+- 	Late submission is awaited from a team who did not participate on-time.
+
+Important topics not related to main task at hand:
+Kudo mock conference on 12th of May
+•	Participation suggested to a team member, seeing the platform deemed beneficial
+•	Directory required and files to be checked
+•	Required confirmation on data set usage by 11th May
+•	Conference credentials to be required
+Inter speech submission deadline
+•	Confirmed as 8th of May 
+Long standing tasks to be cleared:
+•	Clean-up and polishing of run set-up folder
+•	Diagnosis of issues – specifically targeted on random slow down issues and usb-optimal performance.  Special diagnostics needed by multiple operators.
+•	High risk was identified in concentration of tasks to one person therefore distribution/shadowing is recommended
+Administrative point made:
+To fill surge data table in order to transform points into bonuses and pay.
+Meeting results: Areas of attention have been identified, priorities assigned, action plan agreed and responsibilities have been distributed.
+Minutes submitted by: [ANNOTATOR1]

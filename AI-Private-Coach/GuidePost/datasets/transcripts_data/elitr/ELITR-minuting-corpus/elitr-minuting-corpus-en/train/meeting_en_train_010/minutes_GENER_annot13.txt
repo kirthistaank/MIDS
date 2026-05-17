@@ -1,0 +1,35 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION1], [ORGANIZATION2], [ORGANIZATION3]
+Meeting Name: Surge 
+Meeting Date: 06.03.2020
+Meeting Topic:  French video watching session
+Meeting Participants: [PERSON8], [PERSON1], [PERSON6], [PERSON4], [PERSON3]
+Meeting head speaker/moderator: [PERSON8]
+Purpose of the meeting:  Assess the real client usability of the presentation interface and continuous translation, inclusive subtitling. This is performed via online synchronised video watching session.
+Technical set-up details:
+•	Original French sound with translation to German, English and Czech with continuous translation, subtitling and paragraph text view. Slightly different screen set-ups across the user board.
+•	Three levels of flickering for English and German.
+•	Synchronised online video watching.
+•	Screen recording performed for the future review and a demo video creation.
+•	The original technical system spec request is structured as a lecture translator.
+Session results:
+•	Varying degree of user experience due to poor connection. Some of the participants were not able to communicate and to assess fully the set-up functionalities, video or sound quality.
+•	Information and the message in the video were well transmitted and understood. Some degree of dependency on the background knowledge of the topic for some users.
+•	In the interface usability subtitling is hard to follow and improvements are required. The browser and segmenter need to be updated to break up the lines differently for enhanced user experience.
+•	Online text flow paragraph view proven more beneficial and easier to follow than the subtitling. Really appreciated as a catch-up tool as it offers text history. An option to introduce full manual scrolling and longer time delay between the text and the original sound to be explored - now the paragraph view follows the most up to date text, history can be harder to access which doesn't suit all users.
+•	The least frequent flickering time proven the most beneficial.
+•	No assessment of French ASR output was performed.
+Further actions to be taken for the next session:
+•	Recording to be shared in the format of screen cast in synchronisation with the recording of the call.
+•	Different presentation tool introducing longer time delay is to be tested.
+•	Presentation platform to be revised.
+•	Better preparation in terms of ability to assess ASR output.
+•	Source videos to be selected. The next French session should be run on a video where the ASR output can be calculated by objective measures, ideally with gold standard transcript. In the same fashion as the IWSLT share task.
+•	The next French watching session should be run from French to English, German and Czech. Different set-up but the same technical tools.
+•	In the next session the relation between the personal impressions and the objective measures should be established. In order to ascertain how the word error rate scale projects to the personal user experience.
+Other suggestions and topics discussed:
+•	Censorship of content for high school students.
+•	Mother tongue translation to the ear whilst reading the paragraph view to relieve the reading ability.
+
+Next session scheduled: in two weeks time, i.e. on or around 20.03.2020
+Minutes submitted by: [ANNOTATOR1]

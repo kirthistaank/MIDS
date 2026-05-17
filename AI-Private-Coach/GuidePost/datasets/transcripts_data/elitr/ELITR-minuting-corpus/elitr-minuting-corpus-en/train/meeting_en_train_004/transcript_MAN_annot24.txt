@@ -1,0 +1,979 @@
+(PERSON18) Hi, good morning.
+Hallo.
+(PERSON17) Hi, how are you?
+(PERSON11) Good, how are you?
+(PERSON17) Ehm, okay.
+<laugh/>
+(PERSON18) <laugh/>
+(PERSON17) Yeah, it could be better but well, what can one do.
+<laugh/>
+(PERSON11) Is it - ?
+Are you ill or something? 
+Or - ?
+(PERSON17) No, just the general situation is kind of depressing.
+(PERSON11) Oh.
+(PERSON17) <laugh/>
+(PERSON11) Well.
+That's that's right.
+That's right.
+(PERSON17) How is the situation in Germany?
+(PERSON11) Ehm, not -
+Well we have this <unintelligible/>
+(PERSON17) Mhm.
+Which basically means normal lockdown, but we name it other.
+<laugh/>
+(PERSON17) Mhm <laugh/>
+Okay.
+(PERSON11) Ehm, or restaurants and everything you can do just. 
+<unintelligible/> is closed, fitness studios and staff like this.
+(PERSON17) Aha and normal shops like I don't know eeh -
+(PERSON11) No, until now not, but  -
+(PERSON17) No.
+(PERSON11) Yesterday our Cancler Angela Merkel said, that we have to talk in two weeks.
+Em, yesterday the numbers went down.
+(PERSON17) Uh-huh.
+(PERSON11) But the problem with these numbers is, we're not sure if it's because of lockdown or because of other activities.
+(PERSON17) Aha.
+(PERSON11) And therefore I'm I'm not sure at the moment <unintelligible/> think we will be separated it on Christmas,eh.
+(PERSON17) Aah, right.
+(PERSON11) Because the problem with with Germany is not the number of cases, it's the number of beds in the high intensive care.
+(PERSON17) Ah, okay.
+(PERSON11) They are not that much, so -
+We'll see, we'll see.
+We have big -
+Other topic is the <unintelligible/>
+(PERSON17) Mhm.
+(PERSON11) So eh, we'll see how this will work out.
+And that's also depressing.
+<laugh/>
+(PERSON17) <laugh/>
+Okay.
+Well, I mean here the numbers finally eh, start to going down slightly.
+But also we are kind of unsure whether that's due to really oh, everything being closed down, or or not.
+But well, at least something.
+(PERSON11) Yeah, that's right, at least at least good direction.
+(PERSON17) Yeah.
+(PERSON1) Yeah.
+Hi everybody.
+I'm able to see you again.
+So I changed it to this gallery view, so that I see all your faces.
+(PERSON17) You mean all the black -
+(PERSON1) All the black -
+Well, some some faces disappeared when I tell them that I'm ha- happy to see them.
+<laugh/>
+Yeah, uh, so uh, I would like to warn you again.
+<other_noise/>
+<unintelligible/> anything against it, but we are again recording this meeting.
+Because we need data for minuting and eh, as discussed with other project, eh, s- like definitely we're not going to do anything with the data like publishing them before we ask you again for your consent.
+So now I would like eh, to to get your consent by continuing eeh, in this conversation to process the data locally and keep it within the consortium.
+And eh, once we process the data, get the transcript with, eeh through our annotators ehm, and remove all traits of personal information.
+We would ask you again for your consent.
+To eh, to publish this for the purposes of minuting work package.
+So this is the new updated procedure that we are uh, trying to eh to follow in the hope that eh, it will allow eh us - 
+It will it will give us the consent of the of the participants.
+So in short, this meeting is being recorded.
+Nobody else outside from the consortium, somehow legally bound to the consortium will have access to it, but we will try to process it and anonymize it.
+And then with the anonymized data we will ask you again, if we can use this for eh, the minuting sum- the summarization eh, shared task.
+Yeah, so this is an intro.
+So we have eh, [ORGANIZATION4], [ORGANIZATION7], [ORGANIZATION10], [ORGANIZATION8] eh, and we also have [PERSON23] from [ORGANIZATION2].
+And we have us, [ORGANIZATION9].
+So I think we are ready to start, right?
+Eh, great.
+Thanks eh, everybody for joining eh, exactly on time.
+Uh, we are following the agenda eh, in our um, remote meetings document.
+And eh, s- this is, finally, again, a standard eh, regular call, where eh, we have nothing special, no review around.
+We only have to do our work and finish the deliverables in  time for that, and and so on.
+So this is finally eh, normal, a normal call.
+So the first thing is that we really would like to close the Covid extension application.
+Eh so, eh, you have contributed some ideas, eh to eh to ex- to the explanation why we are asking for these extra three months.
+So the document is now ready and we are submitting it.
+Eeeh, full stop.
+So if you would like to have a look, please look at this shared [ORGANIZATION5] document, otherwise eh, well, you can just the uh, make it happen.
+The good news that you are have already received by e-mail is that all our reported cost were accepted eh, so eh, every partner is going to get the money that, uh, he has asked for.
+Eh, and eh, we have already received the total amount from the EU.
+So we will now distribute eh, the money to your eh, to your sites.
+And this is obviously not handled by me directly, but rather someone at the Dean's office.
+Uh, so uh, I I assume that you also have eh, some such people, and we have already done this at the very beginning of the project, if I'm not mistaken.
+So we'll try to revise those links and make sure that we we know how to send the money correctly.
+And that your uh, your accounting or finance offices will receive that.
+(PERSON17) Yes, just please be patient, because our Financial Department takes turns, and it doesn't go so smoothly this time.
+<laugh/>
+(PERSON1) Okay.
+Yeah, yeah.
+Well, the the people have changed there as well, if I'm not mistaken.
+So uh, yeah, there -
+<laugh/>
+But we'll try to to to do it as soon as possible.
+Uh, okay.
+So that's it.
+Then [PERSON25] uh, reminds all about this continuous reporting, and especially the dissemination table.
+Eh, so you can open that spreadsheet, that very familiar spreadsheet.
+Eh, so eh, the eh, spreadsheet eh, collects all the data that we need to put into the reporting system every now and then.
+And since the uh, first reporting period had been closed, [PERSON25] has made a separate new sheet, eeh, month nineteen till month thirty six dissemination and there -
+Uh, this is only one fake entry like eeh, t- t- uh, to indicate what what you should fill in eh, but eh, p- please fill in your dissemination eh, activities.
+And we have to be eh, active in this area eh, because eh, it's it's harder to make dissemination when the turtles are are limited.
+Uh.
+So the the the higher activity will counterbalance, the the the worse conditions that that we are at.
+So please eh, regularly, uh, think about where and how to disseminate.
+Eh, eh, I mean, obviously, the especially the non scientific, non-paper eh, dissemination.
+And eh, whenever you do anything like that, planned or unplanned, make sure to enter it into the table, so that we don't forget.
+The worst thing is that you do some activity, and you forget to report it.
+Then you don't get the credit.
+So that's that's a pity.
+Um, yep.
+So that is eh, this dissemination table.
+And the same spreadsheet actually also contains eh, the standard eh, sheet that we already know.
+It's eh, about uh, upcoming deliverables or all deliverables.
+And the eh, four upcoming deliverables which are due the end of this the year.
+So in less than two months from now is listed here eh, in the in the shared document, and it's eeh -
+Yeah, so I'll I'll just read all of them.
+So we need some final training data.
+Ah, and it's eh, type eh, of the report eh, type of the deliverable which says that this is like open data.
+But it anyway has to be accompanied with some eh, pdf to eh to explain what is in the data.
+So eh, take it as as a normal deliverable kind of.
+Eh, it's the main responsible here is eh, [ORGANIZATION7] because they are coordinating the work package one.
+Eh and for all the deliverables I would actually like eh, to find reviewers right away during this call.
+So eh, please volunteer and enter yourself here into uh, into the the last eh, column.
+And we will copy that into the ehm, into the shared spreadsheet table.
+So eeh, we need final training data, separating confidential um, and public version.
+Eh, and eh, it means all the data that we are eeh, going to use.
+Obviously, we can then use other data as well.
+But this is like eh, an important milestone.
+So that the [ORGANIZATION6] sees that we have relevant data and [ORGANIZATION7] has done a very good job for machine translation there.
+I think that we are eh, somewhat legging with the ASR data eh, especially for uh, the other languages.
+And and uh, we don't have any person months to to like to any transcriptions.
+But we have some person months in general, like with the consortium  to to reuse, whatever we can find.
+So eh, if there is anything that you can publish that would be better.
+If eh, you know that you are going to use some speech data that you already have it, and it's confidential.
+Eh, then please, at least mention it somehow.
+Like somehow explain what size for which languages eh, we are able to to train on, and just say that it's confidential and we can not release it.
+But we need to show that we have eh, sufficient training data for all the languages.
+Uh, that we promise to do ASR for.
+(PERSON15) <cough/>
+(PERSON1) So this is mainly for [ORGANIZATION4].
+Eh, if they could -
+Becau- I know that they have s- successfully covered all all the languages eh, for ASR, eh but eh we should eh, somewhere, and this is the place, report eh, the the details.
+Like how much is it?
+And and uh, what is that?
+And how  -
+Just to have an idea how different is that from the target domain.
+Yeah, [PERSON10], so eh, would be you, or someone else who who would know about all the systems?
+[PERSON11] again?
+(PERSON10) The ASR systems you mean?
+(PERSON1) Yeah.
+(PERSON10) Well, I know eh, hopefully sufficient about it.
+But I'm not sure what is exactly your question?
+(PERSON1) Well, it's it's not -
+I I just want you to confirm that someone from [ORGANIZATION4] will write what training data we have for eh, ASR.
+And separate what of that can be published eh, if anything.
+(PERSON15) <cough/>
+(PERSON1) And -
+(PERSON10) We haven't collected any training data in  -
+(PERSON1) Yes.
+Uh, so so then you just list what you are going to use.
+Even from the past.
+(PERSON10) I guess [PERSON11] is probably the best person to do that.
+(PERSON1) Yeah, yeah.
+Okay?
+So so and [PERSON11] will probably coordinate this deliverable, right?
+(PERSON11) Yes.
+Yeah.
+(PERSON1) Okay, great.
+Uh, so -
+(PERSON15) So is the expectation on this deliverable, that we cannot have new data to present, or is it just like, you know, this is the data we're using for training, I mean -
+(PERSON1) I have -
+I I think it's up to us.
+So we are definitely we're definitely uh, going to report all the new data, and you have this Opus one hundred, right.
+So that's a -
+(PERSON15) Yeah.
+(PERSON1) There is substantial eh, bit there and we have -
+Well, plans, but it's me and also another colleague from another project, who would like to make new version of the Czech Parliament speech data.
+Uh.
+So that would again be one new bit.
+And the the other colleagues also would like to have this before the end of the year. 
+So eh, eh and also this deliverable covers all the all the past as well.
+So I think this is first deliverable on the training data, uh, or is it it was there earlier?
+(PERSON11) No, that was no there was the very early one.
+I think it was after about six months or so on it.
+(PERSON1) Yeah, yeah, yeah.
+So so anything that happen in between should also go there and I think that some of our versions eh, of of this Czech Parliament data were in the meantime.
+So we have eh, already processed some of that.
+But then later, we found that another colleagues independently in the Department have found the same source and process the data in similar way.
+So we have like three internal groups now at [ORGANIZATION11] and we are putting their efforts together so that the next release is really joined and and makes everybody happy.
+(PERSON15) And what about [ORGANIZATION1] data?
+I mean, if if I guess <unintelligible/> complete there that would go into as well.
+(PERSON1) So uh, the w- well, the [ORGANIZATION1] is is complicated.
+So which -
+(PERSON15) Yeah.
+(PERSON1) Which uh, which particular as background -
+(PERSON15) <laugh/>
+(PERSON1) of the of the [ORGANIZATION6]-
+(PERSON15) <laugh/>
+Okay, yeah.
+I guess any anything speech related, or yeah -
+(PERSON1) Yeah.
+(PERSON15) Because -
+(PERSON1) Yes, so [PERSON15]  -
+(PERSON15) Because the text is already done I suppose.
+(PERSON1) Yes, so [PERSON15] is working on the eh, he calls it eeh, ESIC [ORGANIZATION1] simultaneous interpretation corpus while that would not be ready before the end of the year.
+And I don't see that this as a problem.
+(PERSON15) No.
+(PERSON1) And uh, also the transcriptions eh, there are only automatic, uh.
+So uh, because the the his focused more on the on the speech of the interpreters and less on the speech of the original speakers.
+And eh, the collection of the data from [ORGANIZATION1], eeh, from from the original speakers, which has some uh, unrelated eh, or not so exact transcript that we are not doing that.
+And [PERSON10] can tell you the full story that he keeps repeating every time that that, they have changed the policy, and they are no longer transcribing it verbatim or something like that.
+(PERSON15) <laugh/>
+(PERSON1) Um, so I don't think that uh, the [ORGANIZATION1] -
+(PERSON15) Uhm.
+(PERSON1) We should mention what [PERSON15] is working on.
+That's true.
+(PERSON15) Yeah.
+(PERSON1) Uh, but we do- we won't have that data as a as a something to train on.
+More important question is whether the minuting data should go there.
+And I'm now looking at [PERSON18] here.
+(PERSON15) Mmm.
+(PERSON1) Uh, because eeh, as as I described at the beginning eh, we have ehm - 
+So well, we'll get back to this when we talk about the individual work packages.
+But I think I was already talking about that last time.
+Ehm, in general, we're not going to release anything until we get the second round of consents.
+And until we anonymize it.
+Eh, so eh, so the minuting data eh -
+There will be s- eh, a lot to write about the progress of their development.
+But the data itself will not be ready before the end of the year, either, um.
+But that's, I think that's that's okay.
+We will somehow simply say that, you know -
+Here we could blame Covid as well.
+<laugh/>
+Eh, for the for the delay.
+W- we we will have the data for eh, the first eh, sample would be for January.
+And then March is the deadline eh, for eh, the shared tasks so the participants have enough time to to use the data.
+Is that correct [PERSON18]?
+(PERSON18) So I think it would be a bit early than that, earlier than that.
+Because uh, you know, like in November thirtieth there is the deadline for the shared task proposal submission.
+(PERSON1) Mhm.
+(PERSON18) And by December we will have the results that which shared tasks are so I would give that by January end we have to have all did already.
+(PERSON1) Yeah.
+Well, the timeline, the timeline of the shared task is up to us.
+So please make sure to be in touch with [PERSON22] and especially [PERSON21], eh, so that uh, we are confident that we can have the data by the date that we promised ourselves.
+And I would rather put there March <laugh/>, because uh, we know that we have to remove the uh, the names from the data.
+(PERSON18) Yeah.
+So a bit update on the on [ORGANIZATION1] things.
+So the [ORGANIZATION1] data that was part of the machine translation project eh, get sometime bad.
+So we have successfully crawled the minutes for tho- for those, and we have aligned those.
+So that is the [PROJECT2]s.
+But yeah.
+(PERSON1) Okay, so that that part then can be published already before the end of the year.
+And that actually that's the the the the that goes back to to [PERSON16].
+Eh, so it is not speech data.
+But it is eh, data for meeting summarization.
+It's the long text transcript and the abbreviated version of that, but it comes from [ORGANIZATION1].
+So when you say "the [ORGANIZATION1] data" it really becomes complicated, because you can have like speech data, interpretation data and summarization data.
+And we are eh, so [PERSON18] is eeh, is is working on the on the on the summarization data from that and [PERSON15] on the interpretation data.
+And we are not really doing anything for the speech data.
+Yeah, okay? 
+So that's -
+So, uh, so [PERSON11] you now know your contributors, at least [PERSON11] and [PERSON18] and and yourself.
+(PERSON11) Yeah.
+(PERSON1) And the reviewer.
+So who would eh, who would be a good review for this?
+I'm thinking, perhaps [ORGANIZATION8]?
+Just like tentatively?
+(PERSON25) Well eeh, eeh, okay <laugh/>
+(PERSON1) Yeah, because I hear that <laugh/>
+You're not not involved in the creation of that, so -
+(PERSON25) I I understand.
+Eeh, okay, we will  try to do our best.
+<laugh/>
+(PERSON1) So I I'll put your name with question mark, and we'll we'll see.
+Uh, okay.
+So then we have to have report, an intermediate report on multilingual machine translation.
+(PERSON15) <cough/>
+(PERSON1) Here we are the main uh, people.
+And I see [PERSON15] here, great.
+So I absolutely rely on [PERSON15] on on uh, like overseeing this.
+[PERSON15] is also working on some multilingual eh, system himself, and we eh, have the master thesis from the past.
+And we will have some more experiments from the from that student.
+But if anybody else has done anything eh, on multilingual machine translation.
+And [ORGANIZATION7] has that paper that goes with the Opus one hundred that definitely should go in.
+(PERSON11) Yeah.
+(PERSON1) I don't expect anything there from [ORGANIZATION4], but I may be wrong.
+Is there anything that [ORGANIZATION4] has to say to multilingual machine translation?
+(PERSON10) I'm pretty sure we have to say lot to multilingual machine translation.
+(PERSON1) Yeah, yeah, but like specifically <laugh/>
+I don't remember d- d- any any specific work, but t- tell please t- tell me.
+So who who would be the person, [PERSON7]?
+(PERSON10) I think I -
+Yeah, [PERSON7] and especially, but you can <unintelligible/> it with [PERSON7].
+But we have done quite some work on - 
+(PERSON1) Okay.
+(PERSON10) on MTs.
+(PERSON1) Okay, okay.
+Then it's very important for us to uh, like have the deliverables so that we learn about that.
+<laugh/>
+Yeah, uh, so uh, so [PERSON15].
+You now know your contributors.
+Eh, through [PERSON7] you will get to Lee.
+And eh, [PERSON11] will probably probably uh, provide the [ORGANIZATION7] content and their outsource.
+(PERSON24) Okay, thank you.
+(PERSON1) Yeah, thank you.
+And the reviewer.
+So.
+Well, mhm <laugh/> 
+This would again call for eh, call for eh, [ORGANIZATION8], but that would be too eh, too much.
+(PERSON25) <laugh/>
+(PERSON15) <laugh/>
+(PERSON1) <laugh/>
+<other_noise/>
+(PERSON25) Ehm, well actually maybe -
+(PERSON1) Yeah.
+(PERSON25) I can ask to someone of our researchers to do it.
+(PERSON1) Mhm.
+Yeah.
+(PERSON25) Mhm.
+(PERSON1) So I'll I'll put there double question mark, eh -
+(PERSON25) <laugh/>
+(PERSON1) We could have technically also ask [PERSON23], eh, eh but I'm not sure if if eh, yeah, if if [PERSON23] [PERSON23] will probably say in the chat that his his microphone is not working, and he cannot promise anything.
+But eh, [PERSON9] please get in touch with [PERSON23], because I I see little chance eh, that eh, [PERSON23] could do either of these two deliverables.
+And maybe the data one rather more, so -
+(PERSON25) Yeah, okay.
+(PERSON1) So so yeah.
+[PERSON23] is like eh, not exactly in the consortium.
+But it's well, it is difficult with the [ORGANIZATION2], because they didn't want any money.
+But eeh yes, we I think we can we can ask him for that review.
+(PERSON25) Okay.
+(PERSON1) Yeah.
+Yeah.
+Then the report on the uh, [ORGANIZATION3] congress, yes, obviously this will be postponed eeh -
+(PERSON25) Okay.
+<laugh/>
+(PERSON1) And the intermediate report on integration.
+And this is something which is very eh, very important.
+<other_noise/>
+That involves [ORGANIZATION10] and [ORGANIZATION10] should be coordinating that eh, development.
+But the uh, since we suggest to put to write this again in overleaf, ehm, yeah, I would like to check with [PERSON12] if eh, if they are comfortable with that.
+And think they should <laugh/>.
+(PERSON12) Yes, yes.
+(PERSON1) Yeah, yeah.
+So.
+So if you run into any technical problems, then eeh, well, get in touch with either me or [PERSON9] or anybody else in the consortium.
+Eh, essentially there is eh, a section that you will have to write for [ORGANIZATION10].
+Because you have eh, the the link to the to the inter- eh, pretation.
+So so the the the speech recognition and translation of that.
+Eh, and that is something which has been demode already at month nine.
+So eh, you need to describe how exactly that that was done, and and how that co- connects to the infrastructure.
+And and, all that.
+So that is for a part for you to write, eh, and you can write it in any like don't eeh, s- don't be s- ti- to freaked out by tech.
+Write it in any form and we'll somehow then make the typesetting work if there are any any technical issues.
+But also and that is more important.
+I would like eh, eh you [PERSON12] to to make sure that eh, the rest is also eh written by all the other.
+So to keep eh, an eye on the on the clock.And to make sure that in time, we describe what is needed to make this document self-contained.
+So, yeah.
+(PERSON12) Okay.
+(PERSON1) Yeah.
+So the main contributer there would be probably [ORGANIZATION8] describing what updates were done to the platform, right?
+(PERSON25) Mhm.
+Eh, [PERSON12], if you would like to have a meeting together with us.
+We can maybe eeh, bootstrap the structure of the documents together.
+And maybe solve possible issues on <unintelligible/>
+I think it's not that that complicated.
+(PERSON1) Yeah.
+Just a strange syntax, but -
+<laugh/>
+(PERSON1) Yeah.
+(PERSON12) <laugh/>
+Okay.
+(PERSON25) But but we can -
+It's pretty easy to learn it.
+So don't worry at all.
+(PERSON12) Great, thank you [PERSON9].
+(PERSON1) Yeah.
+Yeah.
+Thank you.
+Eh, and every -
+I expect every partner to contribute to this eeh, by describing eh, the particular things, uh, components that the partner has connected to that.
+Not in too much detail, but if there is any like common connector that we use, then that should be described.
+And if if there are specific connectors, the the for whatever different ASR systems that that also deserve some mention there.
+So everybody should be should be contributing there.
+And for the review I think that's eh, it's on us.
+That would be probably the the best option.
+So I'll say, [ORGANIZATION9] and possibly myself directly.
+Yeah.
+So for the timeline -
+(PERSON25) Eeeh, sorry, [PERSON17].
+Our reviewer for the six -
+(PERSON1) Mhm.
+(PERSON25) are you, okay?
+Okay.
+Okay, okay. 
+<laugh/>
+<laugh/>
+<other_noise/>
+(PERSON1) Yeah, I think it makes the most sense.
+So if I'm able -
+(PERSON25) Okay, thank you.
+(PERSON1) to nominate someone else from my team then I'll be happy to do that.
+<other_noise/>
+But I I don't have anyone in mind at the at the moment.
+(PERSON25) Okay, thank you.
+(PERSON1) Yeah.
+So...
+Eh, eh as for timing, eh, I think it's very important to have the first draft of the text eh, already s- like, eh on in three weeks from now for example.
+Eeh, we can then push this a little bit further.
+But the final text for the reviewer should be done like by December the sixth, or something like that.
+Uh, so that there is too weeks eeh, of working time for the review, for the internal review before the Christmas break.
+Eh, so really think about very early December, as the internal deadline for the complete text of each of these deliverables.
+I know that w- we will somehow be late, uh.
+But uh, if we really try hard.
+Then not too many of these deliverables will be late.
+And the Christmas will be not spoiled too much <laugh/>
+(PERSON15) So concretely, you're talking about something like Novem- December the fourth or something like that.
+(PERSON1) Eeeh, yeah.
+(PERSON15) Or December the seventh, I don't know
+(PERSON1) Yes, yes.
+(PERSON15) How we can do it.
+(PERSON1) Yes, exactly.
+(PERSON15) Okay.
+(PERSON1) So let's maybe put it put it here.
+Uh, internal, uh, deadline for all.
+Eh, December.
+Well, I'll put there six, which translates to fourth for the uh, for the well organized people and the seventh for the badly organized people.
+<laugh/>
+And eh, yeah.
+Eh, yeah, it's yeah.
+Eh, then we have two weeks for the review, and there is Christmas and and submission.
+Eh, so the eh, yeah.
+I think that that should work out smoothly.
+So we also have two milestones.
+Eh, and eh, one of them is improved ASR systems, uh obviously [ORGANIZATION4] has some good improvements eh, for the English ASR.
+And eh, I really would like eh, to have all the other languages deployed.
+Uh, so that [PERSON15] can use them.
+Ah, I've already told this to [PERSON10] before, so [PERSON10] I hope there is nothing bad happening.
+And the plan holds.
+(PERSON10) The plan holds, we're working on it and training on it.
+(PERSON1) Yeah.
+(PERSON10) So I mean [PERSON11] currently is still busy, because he is assist <unintelligible/> on  the twentieth.
+But in the meantime we're getting the process of t- training the other languages started, so -  
+(PERSON1) Yeah, that's great.
+So as -
+(PERSON10) <parallel_talk/>
+(PERSON1) As soon as you have any of these languages ready, please tell [PERSON15] as well, because he has the interpretation data.
+And he would like to test it out through mediator to process the interpreters eeh, outputs for all the languages, all the ASR languages.
+[PERSON15] is specifically going again to focus on Czech, English and and German.
+But we also want to extend this to other languages, as soon as we can.
+So that's why we would like to have that.
+(PERSON10) So.
+(PERSON1) Okay, thank you.  
+And then improve spoken language translation prototype eeh, so what do we c- claim for ourselves that as the improved language translation spoken language translation prototype.
+(PERSON15) Eh, well, I suppose we need to know how how good prototype is at the moment or how good the previous prototype was.
+(PERSON1) Yeah.
+Yeah, yeah.
+(PERSON15) And how good the new prototype is.
+Ehm, and spoken language prototype essentially means the whole system, doesn't it?
+(PERSON1) Yes, exactly.
+<other_noise/>
+(PERSON15) You take an <unintelligible/> view that really it's -
+(PERSON1) Yeah.
+It's the whole system.
+(PERSON15) <unintelligible/> measure and the whole thing.
+(PERSON1) Yeah.
+So and important contributer there will be us with the [PROJECT2] test sets.
+(PERSON15) Yeah, yeah.
+(PERSON1) And the results of all the components.
+But I really think that we need to have supper technical calls quite a few  -
+(PERSON15) Yeah.
+(PERSON1) of them in the mean time.
+Eh, so one unresolved thing eh, since the last, uh, s- time is the labeling of the versions of the systems.
+(PERSON15) Mmm.
+(PERSON1) So that we know how to how to label the the scores that we collect.
+(PERSON15) Yeah.
+(PERSON1) So the two two people -
+(PERSON15) <cough/>
+(PERSON1) that we have here on this, not in this call unfortunately, is eeh [PERSON1] and -
+[PERSON4] and [PERSON14].
+(PERSON15) Mmm.
+Both of them are not physically in in [LOCATION1], but in case you [PERSON11] and [PERSON16], if you have time after this call like, in thirty minutes from now.
+Uh, we could make a quick organization call with them, because they have this eh, we call it  eleven eh, eh clock morning coffee.
+In which we always like quickly discuss, what is eeh, what is going to to happen in the next day, and so on.
+So we have this every day.
+So if -
+(PERSON15) Okay, I have meeting at just after this one.
+I mean, how long is this this -
+(PERSON1) It's -
+(PERSON15) standard?
+(PERSON1) It's very short.
+It's very short.
+It's eh -
+(PERSON15) Like a standard meeting.
+(PERSON1) Yeah.
+(PERSON15) <laugh/>
+Okay.
+(PERSON1) <laugh/>
+(PERSON11) Oh, I also have a meeting, another standard meeting.
+(PERSON15) <laugh/>
+(PERSON1) Okay.
+So I can e-mail -
+(PERSON15) Ehmmm.
+So maybe we'll maybe we will finish sooner, and we could get it in the ten minutes before eleven.
+(PERSON15) That would be ideal, yeah.
+(PERSON11) That will work, yeah.
+(PERSON15) Yeah.
+No, I think we should cowork on this and, you know, it, would be -
+(PERSON1) So the purpose today would not be to to the coordination, but -
+(PERSON15) No, no, no.
+I know, I know, I mean - 
+I really have been more to it than that.
+Ehm.
+I mean, how close, I mean, how much do we have of like an end-to-end system test.
+Because I I guess  -
+(PERSON1) We have many.
+Oh, so that's the problem.
+(PERSON15) Oh, okay. <laugh/>
+(PERSON1) So we have too many possible ones.
+So we're we're doing these regular Monday tests.
+And we're also like uh, using that system for other purposes, such as the the YouTube video that I created with a Czech radio and other things.
+And  -
+(PERSON15) Okay, but this is more like, I mean I suppose a system test where you have metrics and so on.
+(PERSON1) So yes.
+So that's that is still missing.
+(PERSON15) Aha.
+So we we have many like practical tests, eh -
+(PERSON15) Yeah.
+Which can be useful, yeh.
+(PERSON1) Yeah.
+And we have the, uh, s- the the pipeline ready.
+But it was prepared by [PERSON3], before he was leaving.
+And [PERSON1] is only taking over that.
+(PERSON15) Yeah, yeah.
+(PERSON1) And he has not run it many times yet.
+So the idea is that we are - We put together the [PROJECT2] test set, SLTF and the all all the systems.
+(PERSON15) Yeah.
+(PERSON1) I have already assigned this as job to to [PERSON1] like several weeks ago, and he slowly gets to that.
+Eh, but there is also the um, eh, s- the the labeling of the systems.
+Uh, so so far, we only have some like first table with some numbers.
+Uh.
+And that was reported in the deliverable on the test sets.
+It was I think f- eh, what was that?
+One point four, the the recent August deliverable.
+Eh and there [PERSON20] has run it, run the system to to that, and we we got some numbers.
+But what's missing -
+(PERSON15) Yeah.
+(PERSON1) is the evolution of this numbers over time.
+And the different versions of the systems.
+And this is exactly something that we should coordinate.
+(PERSON15) And and this runs through basically from the speech to the the output.
+(PERSON1) Eh, the it's it's part.
+So this is something that also we have to discuss.
+Whether we want just one final number, or whether we want separate numbers.
+And I think that we want both, because -
+(PERSON15) I think so, yeah.
+Yeah.
+(PERSON1) We have alternatives for the speech component with alternatives for the translation component.
+And then we have the uh, the whole pipeline, and that also behaves differently for the different combinations.
+(PERSON15) Yeah.
+(PERSON1) So it's it's a fairly complicated thing, eh.
+We have all the bits and pieces, eh so I'm, I don't think it's it's difficult to put them together in time for eh, so that we are confident that we can tick off this milestone.
+It is just a milestone after all, not not a report.
+But it is eh, some like organization hassle to to -
+(PERSON15) Mhm.
+Y-
+Yeah, I mean I mean, okay.
+So if you take a very narrow view of it, all into the milestone is going to take it off.
+But it's -
+(PERSON1) Yes.
+(PERSON15) at the same time.
+<laugh/>
+(PERSON1) <laugh/>
+(PERSON15) You know, ehm, we should be trying to improve our SLT systems and we should be trying to measure it.
+And y- y- you know, the set up do in the Mondays and so on that's really really good for just getting things together and showing that all works and so on.
+And people can look at the interface and and -
+But at the same time, you you know, we can't sort of go to the [ORGANIZATION6] and say: Oh yeah, we looked it this year and we went to the last year, we thought it was better.
+Ehm -
+(PERSON15) <laugh/>
+(PERSON1) <parallel_talk/> No, obviously not.
+(PERSON15) We need there some kind of matrix and for ourselves.
+'Cause after Christmas then we have got to do this or charged towards [ORGANIZATION3], however, that the work or whatever, demo.
+(PERSON1) Yeah.
+(PERSON15) So we got -
+You know, we we need something there.
+(PERSON1) Yeah.
+(PERSON15) Ehm.
+(PERSON1) And also there is that that the plan to do a silent dry run for metaforum.
+Eh, so -
+(PERSON15) Oh,yeah.
+It is unfortunate.
+(PERSON1) So, so for that alone eh, for that, we would need to know, which of the components are the best to choose.
+So we need that numbers ourselves.
+(PERSON15) Yeah.
+(PERSON1) So it's -
+Yeah.
+(PERSON1) So I'm I'm now writing an e-mail to these two colleagues of mine to invite them in fifteen minutes into this call.
+Because [PERSON9] will be there as well.
+So we'll find the way how to how to coordinate.
+So that's eh, eh.
+Aah, okay, yes.
+And now eeh, let me -
+So this will be easy to tick off once we have put, have done the discussions.
+And now ple- please let's discuss the specific plans for cross-side eh, collaboration.
+Eh, so is there anything new on SLTF?
+(PERSON15) Ehm -
+(PERSON1) And [ORGANIZATION7]?
+I know there's <laugh/>
+(PERSON15) <laugh/>
+Not on my part, still on my list.
+Ehm did did you <unintelligible/> EAM?
+EASL last version I saw was not complete.
+(PERSON1) Yes.
+But I read it too late and too badly so it's yeah.
+It's -
+I'm afraid that we'll again be rejected.
+So there is also the demo deadline, which is in January.
+(PERSON15) Okay.
+(PERSON1) And it's kind of acceptable.
+So eeh s-
+Yeah, we did submit, but I don't expect much to be accepted.
+(PERSON15) Okay I lookd - <unintelligible/>
+I looked in the last overview overleaf I thought it was not complete.
+But maybe maybe there was maybe I -
+(PERSON1) We we somehow completed it.
+(PERSON15) Yeah, yeah.
+(PERSON1) Yeah, exactly.
+But uh, yeah.
+It's -
+<laugh/>
+Ehm,yeah.
+So that's -
+Okay.
+Let's let's just think about how to get some work on this.
+And actually the eh, the the discussion about the evaluation of the system will be eh, will be exactly the the <unintelligible/> from this.
+So that's -
+Then on minuting, uh, I would like to ask [PERSON18], uh, to uh, to invite specifically everybody to to to briefly describe the progress.
+Uh, and invite others to uh, to collaborate.
+(PERSON18) Okay.
+So so so the progress from our in this eh, we we have been collecting minuting data eh for our eh, for our different meetings internally.
+At the same time eh, like we are proceeding to eh, create a data from the [ORGANIZATION1] corpus like the the [ORGANIZATION1] corpus for the machine translation is already there.
+So what we did is like we created the -
+We created the minutes for each of the transcripts, and then eh, like we d- we crawled each of the minutes for each of the transcripts.
+And then put it <unintelligible/> by sessions so that now the transcripts and minutes are aligned.
+So there are a whole lot of minutes.
+So we got for around nine hundred sixty different dates from nineteen ninety six to two thousand eleven and -
+But the overlapping but overlapping meeting and minutes were for around four hundred and twenty seven dates.
+But eh, I should mention here were here like -
+Those transcripts are very very long.
+Like they have several chapters.
+Now we are moving towards splitting the minutes into the corresponding chapters of the meetings and the minutes.
+So eh, I think we'll have lots of data from the from the [ORGANIZATION1] proceedings.
+The meetings and the minutes.
+So this is what we have -
+(PERSON18) Yes, along with the -
+(PERSON1) This is different from the the type of eh, eh, meetings and minutes that we are seeking.
+So we are seeking for like project style meetings and minutes, which are bulleted lists are rather than prose.
+And if I understand correctly that it's mainly prose with the [ORGANIZATION1] data, right?
+(PERSON18) Right, those are not spontaneous, those are not spontaneous.
+(PERSON1) Yeah and on the side of the summaries.
+It is not bulleted lists, but it is rather eh, description -
+(PERSON22) Well it is quite a list.
+It's not a full text.
+(PERSON1) Okay, okay.
+(PERSON22) It's not eh, fluent.
+(PERSON1) Yeah.
+So the the high-level overview here is that we are going to run a shared task on this.
+We are going to apply for the shared task eh s- by the end of November, as [PERSON18] mentioned.
+Eh, and during the next year the whole shared ask will happen.
+The data should be out for eh, for participants at the latest in March eh.
+And we will obviously finalize the procedures on evaluation, both manual and automatic, uh, style, of evaluation.
+And we seek people who could do eh, some systems as well.
+So we will do some baseline systems ourselves but the more s- teams participating, the better for the task. 
+And um, if you have someone in your team, who is eeh, who could do any t- eh, like text summarization eh, system please get them involved.
+I have already talked to [PERSON7] about this.
+So I'm hoping that uh, [ORGANIZATION4] will contribute with their summarization system, because they they also have that, uh, like ASR independently.
+So that would be one possible eh, system, but there is still not collaboration.
+Eh, so if eh, eh, we we seek both the independent participants to this shared task.
+But we also seek collaboration on whatever evaluation measures, eh or eh, task organization, if you want it too.
+Or a joint system if we if we would like -
+Eh, if we would if we would like to do one.
+Yeah, so that's eh - 
+Please think about it, but uh, do not only think, also get in touch with [PERSON18] eh, to coordinate.
+So [PERSON18] is mainly overseeing the shared task.
+(PERSON18) Yeah, we we would specifically seek towards having a good evaluation measure like we are working on that, eh, on that for based on some alignment based mechanism.
+But we would definitely seek some collaborations on new ideas that how we can eh, like proceed in that in that direction.
+(PERSON1) Yeah, because -
+(PERSON18) Because the current summarization matrix that we have had that we have eh, especially for speech do not really work well.
+They work well for single document or multi-document summarization things to some extend, but not on speech.
+So it will be definitely a good contribution that if we can come up with something that a metric maybe from the automatic or maybe from the manual point of view.
+Eh, from the, from as a part of the shared task as well.
+(PERSON1) Yeah.
+Okay, just to give you a brief overview of the team, uh, on minuting.
+So that you know, which with with whom to contact, [PERSON18] is overseeing the shared task organization, and also part of the data.
+[PERSON22] is overseeing the creation of our own corpus there and also she is like coordinating within within that team.
+And then we have one more colleague [PERSON8] and also [PERSON2] who is labelled here as user eh, in the call.
+[PERSON2] and eeh, then [PERSON2] and [PERSON8] are those who are eh, independently working, on the metric.
+Ah, and also some potential system, some automatic method for creating the summaries.
+So -
+Yeah, that's the division of our work.
+So if you if you have someone to work on these systems, then uh, probably [PERSON8] or [PERSON2] would be the the more direct connections.
+But also myself or [PERSON18].
+If you would like to contribute to the evaluation measure it would eh, be probably more of [PERSON8].
+If you have something related to the eh, to the data, it's eeh, [PERSON22] and eh, [PERSON18] in some way.
+Okay.
+So that's brief summary.
+(PERSON15) Okay.
+I mean, yeah, we in principle we want to be involved.
+I'm not sure which of those three we could be, we should contribute to.
+(PERSON1) Yeah.
+(PERSON15) Ehm -
+(PERSON1) So they have also regular calls.
+(PERSON15) Yeah, yeah.
+(PERSON1) So if you have someone who would be the person working on that on your side.
+Maybe it would be a good idea that he joins and listens in for a number of these calls, and then he suddenly knows what to do.
+So that's another option.
+(PERSON15) Suddenly, just like that.
+(PERSON1) You, you just like by listening you <laugh/>
+(PERSON15) Yeah, yeah.
+Okay.
+Okay, right.
+(PERSON1) So -
+(PERSON15) How how -
+(PERSON1) [PERSON18] -
+(PERSON15) Regular?
+(PERSON1) Is is it every day?
+I think it's every day, because the team is distributed.
+(PERSON18) Yes, yes.
+(PERSON1) Yeah.
+(PERSON22) Yes, every day at one o'clock in the afternoon.
+(PERSON15) Okay, every day might be a little bit
+(PERSON1) No well the- there is no such obligation to that.
+(PERSON15) <laugh/>
+(PERSON1) But that's for our remote, that's our internal thing.
+(PERSON15) Yeah, yeah.
+(PERSON1) Because we are now spread across multiple time zones.
+We have to have these regular daily calls.
+<laugh/>
+Okay, and uh, the last uh, specific plan.
+There could be more.
+So if you have some other ideas for collaboration, please say so.
+That we would only get praise for that.
+But the last one is on minuting demonstrator.
+And there I had a talk with [ORGANIZATION10] sometime ago already.
+So Adleheid, are there any news about uh, your developers and your plans eh, eh and the <unintelligible/> that I suggested?
+(PERSON12) Yes, we developed now at the moment ehm, tool box, ehm, which should be can use for ehm, yeah, implementing the visit of us.
+Ehm, uhm, regarding this I would come to you with some datas suge- suggestions for another meeting eh, where where we can talk, yeah.
+(PERSON1) Yes.
+Yes, yes, so please do.
+And please, obviously, invite eh, also [ORGANIZATION8], because they are involved in that task as well.
+(PERSON12) Yes.
+(PERSON1) The the idea is that we have this promise to illustrate how automatic some meeting summarization would work for the user.
+(PERSON12) Mhm.
+(PERSON1) At the same time, we know that by the end of the project, our automatic summarization systems will not be good enough so that the user would be happy with the results.And for that purpose I'm I'm <unintelligible/> this minuting demonstrator through the <unintelligible/> strategy.
+The user interface would be there for the participants of the meeting, and there would be some, uh, man which we call the transcriber.
+Or eh, there would be a man behind the scenes doing the summarization live as the as the meeting roles.
+So [ORGANIZATION10] is eeh, is now working on the user interface for this.
+It's it's it can be fairly simple.
+It is essentially it could be just the single button that opens shared document on the site.
+And uh, what we would like to ehm, to work on more specifically, would be like the way, uh, in which eh the the transcriber interacts with the text, so that the API eh, eh is good also for some automatic system.
+And that the data that we record when we have these transcribers on the site of of regular meetings.
+Uh, uh, as a that this data is directly usable to train some automatic summarization systems.
+So it's exactly the same thing as uh, people do with interpretation.
+Uh, so there are interpreters joined to to these remote calls, and eh, eh the sound is relates through them.
+So human does the job.
+Ah, and machine can learn from from that afterwards.
+Eh, I would like to re- replicate the strategy for summarization.
+Uh, so maybe we should uh, so [PERSON12], once you have anyone who could be a transcriber.
+It would be great to invite them and maybe have our -
+And maybe that's also a question for [PERSON22].
+If you have some of your annotators who are experienced already, maybe we could invite them to our next to remote call.
+And maybe we could see live what human is capable of.
+As as as summa- summarization of of the running meeting.
+(PERSON22) Yes, I can propose it to one of my annotators.
+It's not a problem.
+(PERSON1) Yeah, so that with with some duct tape tools we should be able to to pack it togetheruh, as a first uh, like prototype.
+And then and then make it eh, a reasonable prototype to make it a minuting demonstrator.
+Okay?
+So Adleheid, please send some dates to us eh, [PERSON22], myself, [PERSON18], well, they will distribute it.
+The colleagues here will distribute it.
+And also [ORGANIZATION8].
+Eh, so that we discuss what do we want to promise to ourselves for this demonstrator.
+Okay?
+And we have three more minutes before my colleagues will join, eh and that's the [ORGANIZATION3] Congress.
+Eh, so what is what is the summary here.
+The face, face to face part, which would include workshop eh, w- yeah.
+Meanwhile, you are considered autumn or spring at the earliest. 
+Okay.
+So, uh, so I know that [PERSON23]'s microphone is eh, is bad.
+Uh, I -
+Please [PERSON23] shout in the chat oh, shout in the chat if eh, eh something is interpreted wrongly by me.
+But I assume that eh, there is going to be some remote part of of the [ORGANIZATION3] Congress, which is not changing the date.
+And is still May twenty twenty one.
+Is that correct?
+(PERSON17) Ah, I yesterday spoke with  -
+(PERSON1) Okay.
+(PERSON17) with [PERSON6] and she wrote me that there will be the first online part in the mid eh, April.
+But those will be only the necessary administrative eeh, talks, and it would not eh, we w- we are not taking part in that.
+(PERSON1) Oh.
+(PERSON17) And they are postponing the real workshops and presentation to later date, but they want to organize it, this offline face-to-face meeting.
+(PERSON1) So they they insist on the offline eh, s- which is reasonable to do in this eeh, on that.
+And they already know, it's not going to happen in May right?
+(PERSON17) Yes.
+(PERSON1) Yeah.
+So that puts us in a in the real need to have substitute events.
+Maybe it will still happen within the lifetime of [PROJECT2].
+(PERSON15) Mhm.
+(PERSON1) But we'll need to have the substitute events.
+So let's take -
+(PERSON15) Sss-
+(PERSON1) metanet as the one -
+(PERSON15) Yeah, gonna say that.
+Metaforum might be our best.
+(PERSON1) Metaforum, yeah.
+(PERSON15) <unintelligible/>
+I know there is a -
+You know in terms of the type of event it's not quite  -
+(PERSON1) Mhm.
+(PERSON15) Quite right.
+Ehm.
+(PERSON1) Yeah.
+(PERSON15) But in terms of them allowing to us to do it and being a sympathetic audience I think that -
+(PERSON1) Yeah.
+(PERSON15) That's a big of plus.
+(PERSON1) Yeah.
+So let's try searching for other events.
+Eh, everybody, this can be anything.
+So I would uh, last time, I asked specifically [ORGANIZATION10], if they have anything.
+Because I think that Germany is one of the countries who do run these eh, eh like international events and yet they use German.
+And they don't give up on their on their mother tongue too too easily.
+So that's why I'm hopeful about eh, eh about [ORGANIZATION10] having links to eh, to some companies or institutions who eh, who do that.
+So [PERSON12] can you, can you confirm that you'll like check the list of your customers and good close customers, and ask them if they would -
+(PERSON12) Yes, we will check that.
+(PERSON1) Yeah, so that's eh, we can be as invisible as as needed.
+So uh, the organizers obviously has to agree with that.
+Uh, but, uh we can technically we can only connect and only send it somewhere.
+But without the real users and er, some, uh, someone looking at the outputs.
+The the outcome is not so uh, uh not so useful for the project.
+So ehm, well, even these invisible eh, sessions are useful, but eh, having a chance to to have a real feedback is eh, is is important as well.
+Yeah, okay.
+So eh, I see that my eh, colleague, did both of them getting <talking_to_self/>.
+(PERSON22) May I have a short request, please?.
+(PERSON1) Yes, yes.
+(PERSON22) As we are preparing the data for eh, the shared task.
+We want to ask you again to sign up the ethical consents.
+So actually, it will help, it will happen very soon that I would send eh, the request to sign the consent.
+Please sign it and please ask all people you know, that have been taking part in a previous [PROJECT2] meeting to sign them too.
+So that we could ha- use the data.
+We have a lot of data from [PROJECT2] meetings.
+And it's very important for us to use it as the training data for -
+And the test data for shared task.
+So please take it seriously, and please sign it off <unintelligible/>
+(PERSON1) Yeah and [PERSON22].
+Let please confirm again, what I have uh, s- uh, summarized here at the beginning.
+The current strategy for handling e-ethics is that we get this first consent to actually be allowed to work with the data internally -
+(PERSON22) Yes.
+(PERSON1) Within the consortium.
+Through this eeh, in- internally we are going to anonymize the data of.
+For example, remove the sound finally and prepare version, which will be used for the shared task.
+Publishable version.
+And then before publishing, we will still ask again, the same people to give us the permission to publish this now anonymized version.
+And the anonymization will include project names.
+They will be replaced by placeholders, and the the years will be swapped, so that it is less easy to identify what is eh, eh where is the data coming from.
+Eh, obviously it is not a full anonymization, it would be only de-identification.
+Eh, but we hope to to do it reasonably well, so that everybody can agree with with that.
+So this first concern, first consent is only  to allow us to process the data.
+And the second round of consents eh, will eh, will be asked to uh, to publish that.
+And then if you like disagree at the at the next stage, we can remove your part or eh, agree on anything that you would like us to do.
+But you have already like s- wasted our effort.
+So if you know upfront that you you want to be excluded, maybe say so upfront.
+But otherwise we we obviously, at least in this project, we we expect you that you would agree.
+<laugh/>
+So -
+(PERSON22) Yes it's quite -
+So we need the the consents now, so that we could start to at the anonymize the data.
+And this is quite time consuming process and also will require some manual control after the automatic changes.
+So eh, it is important for us, that you kind of sure that -
+(PERSON1) Tentatively, tentatively agree that you, eh, or that you you are probably going to give us a consent in the in the second round, once you are de-identified.
+But this is not yet the uh, the the final consent.
+Yeah, okay.
+(PERSON25) Okay.
+(PERSON1) So -
+Thank you.
+And I have here the two colleagues, [PERSON4] and you see him, and also [PERSON19].
+And maybe I see his face.
+(PERSON5) Yeah.
+(PERSON1) Yeah,yeah, yeah.
+So these are the two colleagues who are now working remotely for [LOCATION1].
+Eh, [PERSON19], is uh, mainly working on the ASR systems.
+So taking over what [PERSON13] has started.
+So Czech ASR and eh ASR adaptation and so on.
+And [PERSON1] is eh the the new [PERSON3], so he is the operator of the system.
+Uh, and [PERSON1] has now uh, t- taken over the the task of evaluating all the components.
+So he should be putting together the [PROJECT2] test set, SLTF and all the systems.
+And eh, the I invited these two eh, guys here to this call uh, so that they get to know [PERSON11], who is eh, overseeing kind of - 
+Well, I don't know the exact <unintelligible/>  [PERSON16] from [ORGANIZATION7].
+Uh, they're overseeing the systems from [ORGANIZATION7].
+And [PERSON11] is developing the machine translation systems, um, and both of them are eh, involved uh, in in integrating that together.
+And also [PERSON9] from [ORGANIZATION8] eh, who is eh, the integrator, yeah, yeah.
+Who is the main integrator eh, in the project.
+So she knows everything about the mediator and that part.
+And also we have [PERSON10] eh, from [ORGANIZATION4] and [PERSON10] leads the team of eh, the mainly ASR.
+But but also translation components ehm, ehm from from [ORGANIZATION4].
+So um, I would like you all, especially the technical people to eh, organize a technical call.
+And at that call we need to eh, discuss how to version, how to label these systems.
+So that [PERSON1] can easily collect all these cores, for all the components and all the like pipeline, the complete pipelines.
+And we all know w- to which systems, these cores apply.
+So that we, uh we don't have mess in the -
+Which numbers belong to to what.
+So there needs to be a good and clean strategy, how to how each of the party can easily create new versions of their systems.
+Simply add new label and [PERSON1] would see that label.
+And in the final reporting eh, eh tables we would uh, s- like show this label again.
+Uh, so there would be website, ideally, put up eh, by [PERSON1] and updated maybe even every day or whenever there is some new version of a component.
+Eh, and everybody would easily see, uh, how the component is performing in terms of Bleu scores and other other measures.
+And what are rates eh, and other measures for for ASR.
+And also, the the delay, and eeh s- the [PROJECT1] in for the spoken language translation.
+Uh, so.
+So [PERSON1] could you please prepare Doodle poll and send it to [PROJECT2] at [ORGANIZATION11]?
+So- sorry [PROJECT2] at [ORGANIZATION11], not [PROJECT2] dash [ORGANIZATION11] at [ORGANIZATION11].
+So there is this internal versus the external mailing list.So please send it to to both of them, actually.
+But the more important is the external one.Uh, and eh, let's find the date for this technical call, and uh, also, please, prepare - 
+So does anybody remember - 
+We were already going through this in summer, uh, and eh, or like around the the original date of of the Congress.
+When we were figuring out how to label the systems.
+Do we have any documents from that time?
+[PERSON9], would you remeber?
+I think it was discussed -
+[PERSON15] was also there -
+(PERSON9) Yes, yes, we have a spreadsheet for it.
+Fingerprint mapped spreadsheet.
+(PERSON1) Mhm.
+(PERSON9) And one output fingerprint was one version of this system.
+(PERSON1) Yeah.
+So [PERSON15], please share this with [PERSON1] and explain to [PERSON1] what like what is it?
+<laugh/>
+And then [PERSON1] can start from this.
+And he already is acquainted enough with the with the big <unintelligible/> so he runs as regularly.
+So he knows where where these fingerprints appear.
+Uh, but eh s- I'm not sure if we [PERSON1]-
+So [PERSON1] please prepare like the the high-level overview, so that we know where the versioning should -
+How the versioning should be done.
+And eh, think about how to um, um, organize these labels, this system names with these cores, so that it is consise and easy to to follow.
+And then in this technical call, eh, you all will will say your comments to that, and will prove that it will it will develop that.
+So eh, indeed, the the the other best way to think about this is to to have a web page, which shows the systems that are available in the [ORGANIZATION8] platform eh, and the associate for its.Then we will have the relevance cores for for that.And we also have a roles for combinations of these systems.And again, the relevant roles.And this web page would be automatically updated by [PERSON1].So all the technical, uh, t-  technical run eh, there would be done by [PERSON1], with the full support from eh, [ORGANIZATION8].Because they know if any updates in the mediator are needed or whatever.
+Then  -
+Eh, yeah.
+Well, or if if -
+[ORGANIZATION8] will know how to do this with the with the mediator.
+Okay?
+(PERSON25) Okay.
+(PERSON1) So time is exactly up.
+(PERSON15) <laugh/>
+(PERSON1) And do you have anything else to to say?
+No, okay, so thanks to all for the participation.
+We have the reviewers assigned, we know that we should work on the deliverables.
+Uh,I think that we should have our call towards the end of November already.
+The next one.
+So [PERSON25] please start to do the poll for the next call right away.
+Because uh, Christmas is going to be packed and Christmas will start very soon, I'm afraid.
+<laugh/>
+Yeah, okay.
+So thank you very much for your participation.
+And yeah, see you next time and at various calls.
+(PERSON25) Thank you.
+(PERSON11) Thank you.
+(PERSON17) Bye.
+(PERSON18) Bye, thank you.

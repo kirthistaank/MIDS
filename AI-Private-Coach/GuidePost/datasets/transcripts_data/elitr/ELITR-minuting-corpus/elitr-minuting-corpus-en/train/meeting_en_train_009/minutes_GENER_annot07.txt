@@ -1,0 +1,31 @@
+[PROJECT1] 17. 05. 2019
+
+Date: 17. 05. 2019
+Attendees: [PERSON7], [PERSON12], [PERSON8], [PERSON11], [PERSON2], [ORGANIZATION5], [PERSON6], [PERSON13], [PERSON1], [PERSON3]
+Purpose of meeting:  Checking  the milestones and deliverables, workshop preparation
+Agenda: 
+1) Upcoming deliverables by the end of June
+a. Internal reviewing – the initial training data, separation of confidental public version
+b. Data management plan – used data for ASR
+c. Ethics
+2) Financial and periodic activity report introduction and demands
+3) Recording in the [ORGANIZATION9] platform
+4) SLT system to be part of [ORGANIZATION9] platform - CRITICAL
+5) Preparations for workshop 
+a. ASR work package
+b. Spoken language translation work package
+c. ACL papers
+6) Baseline entry model
+7) System for workshop – collaboration [ORGANIZATION5] + [ORGANIZATION1]
+8) Minuting work package
+a. Collecting data, ideas about model
+b. Minuting demonstrator
+9) [ORGANIZATION9] to participate the workshop
+10) Getting the data from people
+
+
+
+
+
+Minutes submitted by:	 [ANNOTATOR1]
+

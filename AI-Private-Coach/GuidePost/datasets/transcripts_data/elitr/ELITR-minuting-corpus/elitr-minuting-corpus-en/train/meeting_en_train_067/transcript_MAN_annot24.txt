@@ -1,0 +1,922 @@
+(PERSON6) Hi.
+(PERSON9) Hi.
+(PERSON6) Hi everyone.
+(PERSON14) Hi guys.
+(PERSON6) <talking_to_self/> Documents -
+So only [PERSON2] is missing, right?
+(PERSON9)  I guess so, yeah.
+(PERSON6) So he is on a call right now so I am not sure, whether he will join us.
+Hopefully for at least for five to ten minutes he might.
+But we will see.
+Eh, so, but other than that I think I can start right?
+Eh, so eh, there was a call last week and basically the main thing -
+It was rely- relay- related to the integration and the new NMTAPI.
+So they've been some questions from [PERSON12].
+Eh, okay for start there will be some delive- deliverable eh, ah, in December.
+But thankfully we are not expected to deliver anything.
+So in this sense we are not going to be that busy.
+Eh, other than that, yeah.
+There was question from [PERSON12] whether -
+What what we need for <unintelligible/> like navigation.
+W- what eh, sources, uh, like need to be need to be provided for the task.
+And like for the time being I told him that the <unintelligible/> list produced by the empty system should be fine.
+Again, like we will see like what methods we will come up with.
+And how we can -
+Like what we will actually implement to the final demonstration.
+But again, I'm not sure like I I told him that it should be fine for for the time being.
+Eh, and also it is expected from us to provide eh, separate model for [PROJECT1].
+Because you know, it's a diffe- a little bit different ar- architecture from what eh, from the baseline model.
+Eh, what else?
+I will -
+I need to ask [PERSON8] about details of the paraphraser, because we will need to implement it in [PROJECT4].
+And we need to know like how it actually works.
+I I definitely don't know the details right now, so if if someone knows you can tell me.
+Eh, other than that, mhmhm -
+Yeah, as far as we are eh, as we agree like other than back translation we want to provide the <unintelligible/> translation paraphrasing, right?
+To the outbound translation interface, which will be in the final product.
+Is it right?
+(PERSON9) Yes, there's a plan.
+(PERSON6) Uhm hm.
+(PERSON9) So far..
+(PERSON6) So eh, okay, so so -
+Okay.
+So maybe we can - 
+We can go to [PROJECT6] experiments, because it is based on the results, right?
+And so far, it looks that the paraphrasing and back translation is kind of usable.
+Or useful for the user, right?
+(PERSON9) I guess so -
+Just a quick update.
+(PERSON6) Mhm.
+(PERSON9) [PERSON1] set up the whole eh, <unintelligible/> annotation of the purpose translations.
+(PERSON6) Mhm.
+(PERSON9) Em, so we got some like <unintelligible/> annotations already and I put it in the figure which is in the [ORGANIZATION8] document and eh -
+(PERSON6) Mhm.
+(PERSON9) There was like interesting thing and also the worst thing that could have happenned is that quality estimation worsens user confidence and also worsens the translation quality.
+(PERSON6) Uhm hm.
+(PERSON6) So what are the current findings?
+(PERSON9) Well, the current findings are that -
+(PERSON14) So just [PERSON6], look in the look in the picture in the -
+(PERSON6) Yeah, yeah.
+I can see.
+(PERSON14) Yeah, okay so -
+So if you look at the first column, so that's the only column where the confidence, the lighter red is above the darker red.
+Which means that the confi- confidence of the users without the quality estimation is higher than with quality estimation.
+And the same holds for the quality marked by the green arrows.
+(PERSON9) Uhm hm.
+(PERSON14) And yeah -
+And your question was?
+(PERSON6) So so what are -
+What are the conclusions you have right now.
+I'm I'm just trying to -
+I am reading the -
+(PERSON14) So this is just the observation so far, it is no like -
+(PERSON9) Uhm hm.
+I put this up in like twenty minutes ago, so -
+I don't know <laugh/>
+(PERSON6) Okay.
+(PERSON9) But like it's - 
+We will have to report that that quality estimation worsens, which is like which is by itself not good.
+And also with close contradiction with previous paper <laugh/>
+(PERSON14) Uhm hm.
+(PERSON6) Ah, okay.
+Is it -
+(PERSON14) Oh I get it, okay so the quality estimation -
+<parallel_talk/>
+(PERSON6) Sorry, sorry is in contradiction with the TBML now?
+(PERSON9) Yes.
+Because in TBML help.
+(PERSON14) Yeah, but it was on smaller scale and yeah.
+(PERSON9) But, but -
+It's still very awkward to have to report this.
+(PERSON14) Yeah, yeah, okay.
+Eh, that's why you are like kind -
+(PERSON9) Yeah <laugh/>
+<parallel_talk/>
+(PERSON9) I'm just thinking that confidence in the Czech MT systems, Czech one, two and three is like the highest in Czech two which is which is the fastest one.But the overall quality was highest with the strongest one.
+So the time plays a significant role, it appears.
+(PERSON14) I think it's -
+(PERSON6) <parallel_talk/>
+Okay.
+(PERSON14) Everything in this graph is easy to explain.
+(PERSON9) Uhm hm.
+(PERSON14) Eh, without  that quality estimation, or or like also the quality estimation could be like easily explained.
+But we have to <laugh/> avoid  the knowledge that we have a different like conclusion in the previous paper.
+(PERSON9) Okay.
+(PERSON14) Because eh, like in the -
+Like from these we can we can say that okay the quality estimation eh, module is kind a -
+<unintelligible/> also told us that it's not the best one.
+(PERSON9) Uhm hm.
+(PERSON14) And so the quality estimation in this version doesn't help.
+And it's also like less confident for user or -
+(PERSON9) Uhm hm.
+(PERSON14) Or users are less confident when like looking at the output of this.
+Eh, because like the low quality combines with low informativeness there, so -
+(PERSON9) Uhm hm.
+Yeah what I am just thinking like when we are going to write the paper, and the reviewer is  going to take a look at this.
+And they are going to look at the same graph <unintelligible/>, but like - 
+(PERSON14) Okay we just -
+(PERSON9) And then I gonna to say like - 
+<parallel_talk/>
+(PERSON14) They are claiming, they are claiming that it -
+We just say that: okay, they they claim that it helps, but we did it on the larger scale, and it proved it doesn't help so much and, yeah -
+(PERSON9) Mhm, okay.
+(PERSON14) At all <laugh/>
+(PERSON9) Oh and that -
+(PERSON14) I don't know, like -
+(PERSON6) And the quality estimation module is the same one that was used in previous experiments?
+(PERSON14) Yeah, yeah.
+(PERSON9) Okay, so fair enough.
+(PERSON14) Like it it I think it happens from time to time, especially when you are working with the human annotation that -
+(PERSON9) Okay, mhm.
+(PERSON14) I think it -
+(PERSON9) Okay s-
+ is acceptable.
+W- we definitely would defend it somehow.
+(PERSON6) So just just to be in the picture you are currently trying to write the paper for the NASEL, right?
+Or -
+(PERSON14) Yes.
+(PERSON6) Okay, and you're confident about -
+(PERSON14) The good thing the good thing here in this picture is that -
+(PERSON6) Uhm hm.
+(PERSON14) Czech systems are as we expected -
+(PERSON6) Uhm hm.
+(PERSON14) Like as you said, the student is like users are more confident.
+(PERSON9) Well that that it was news for me.
+(PERSON14) And the system -
+Sorry?
+(PERSON9) That the that the fact that student one, the fastest one is -
+Like provides more confidence was is news for me.
+(PERSON14) Mhm.
+(PERSON9) As I thought the strongest one would have the highest confidence. 
+(PERSON14) Yeah.
+Okay, okay.
+Yeah, it's not yeah, yeah.
+You're right, it's not what we expected, but this is like eh.
+(PERSON9) This is like good findings.
+(PERSON14) This is good finding, yeah.
+That like we can -
+(PERSON6) So if understand it -
+<parallel_talk/>
+(PERSON6) the the it's speech or something -
+Uhm hm.
+S- so -
+(PERSON14) In terms of the quality the stu- the teacher is better.
+(PERSON6) Uhm, uhm.
+So if I understand it correctly the users are more confident if they get the response faster?
+(PERSON14) Yes.
+Yes, it seems to.
+(PERSON6) Okay.
+Like if the if the system is processing it too long they they start to like sort of doubt the quality.
+(PERSON14) Yes.
+Maybe we can also, we can also compare how many tries did they do.
+Like compare -
+(PERSON9) Uhm hm.
+If the people get the other graph, you will se this like I sort of explain that.
+The one I put just in there.
+You just -
+(PERSON6) Ehm hm.
+(PERSON9) Difference versus the the request and the time and the <unintelligible/>
+I mean, we don't have to think about it now -
+(PERSON2) Yeah, s- s- sorry for coming late.
+Eh, and like like being fairly lost in the graphs so far eh, and -
+But thanks for the the analysis.
+So let let me start over with some things.
+The Czech one, two and three, which is which?
+The -
+(PERSON9) Czech one is big, the Czech two is student of Czech three.
+The Czech three -
+(PERSON2) Okay.
+Yeah, so eeh -
+So the the relation between Czech one and Czech two is eeh, expected.
+It's eh, eh -
+And the relation -
+Both is expected, but what is unexpected eh, kind of is the reversed behavior of the confidence score for Czech two versus Czech three.
+Eh, yeah.
+And -
+(PERSON14) Our explanation is, or my explanation is that the the users are confident more confident with the student model, because it is faster.
+(PERSON2) Yeah, and -
+(PERSON14) That's I I want to maybe we can, eh, prove it, by comparing number of reponses or how much time they spent like on Czech two systems or and Czech three system.
+Because like in the following graph it's not showing this.
+Here you can see only like how the time depends on the confidence score.
+(PERSON2) Oh well, I don't understand the second graph at all yet.
+<laugh/>
+But to to ask the er, the if I understood correctly, what what [PERSON1] just said at this moment.
+Is -
+My understanding would be that if the system is fast, then people can do more edits.
+And the through these more edits, through these quicker interchange with the uh, with the translation system.
+They will be more confident about the result they have created.
+(PERSON9) No.
+No, this is not the case, because if you take a look at the second graph.
+At the red line.
+(PERSON2) Uhm hm.
+(PERSON9) You will see that like the highest confidences don't have that much like requests.
+(PERSON2) Okay, so the the mid -
+When the when the users are not so confident, they make the most uh, in- like interchanges requests.
+(PERSON14) Okay, but beyond this average overall system.
+And we should look at the such graph only for Czech two and Czech three, because -
+(PERSON2) Uhm hm.
+(PERSON14) When you have like slow systems, and you like -
+(PERSON9) Okay, okay.
+(PERSON14) You have like eh, very slow response, you just try it only twice or three times and you don't bother.
+(PERSON9) Okay.
+That makes sense, thanks.
+(PERSON14) Yeah.
+(PERSON2) And what is this time plot?
+Eh, it's the confidence eh, the time is the highest, if the confidence is like -
+It took me lot of time then I'm not so confident about it.
+And eh, sometimes I'm very fast, eh, and very confident.
+That's the five, that's the the the rightmost -
+(PERSON9) We we think that the rightmost thing is having influence by short segments.
+(PERSON2) Uhm hm, exactly, yeah.
+And the source text length, so -
+The confidence -
+(PERSON9) Oh, actually eh.
+I'm I'm sorry.
+I just put another graph in there.
+<laugh/>
+Which explains -
+I I we would move on very f- soon.
+Just if you take a look at  the following -
+(PERSON2) Uhm hm.
+(PERSON9) The following table.
+There is like the comparison of eh, of actions in -
+(PERSON2) Uhm hm.
+(PERSON9) And we will see that the fastest one produced twice as many allow for twice as many actions.
+(PERSON2) Okay.
+And the actions is when the user is actually doing some typing, or - 
+(PERSON9) Yeah, like waiting for eh, yes, waiting for eh, to translate.
+(PERSON2) Yeah.
+So what is what is really interesting here from like from the l- usability of of this whole set up is that a fast system can lead to lower quality.
+And yet make the users more confident.
+That is that is risky, very risky eh, thing.
+Which -
+This is something that we do not want to to achieve.
+So eh, like we do not want a fast system that deceives. 
+We eh, the -
+(PERSON9) Well, like if the cus-
+That depends, the customers are more happy with that than -
+(PERSON2) Well, but the translations were worse.
+(PERSON14) Yeah.
+(PERSON9)  I mean, everything it depends like if I were [ORGANIZATION8] and wanted to like push my PR.
+And give the people free MT then like then being content is more important than  -
+(PERSON2) More important than having it right, yes.
+<laugh/>
+I agree.
+But um, I don't think that we should take this every action, because in the long term this would backfire.
+Like this is eh -
+(PERSON9) O- okay so perhaps we spend too much time on this.
+(PERSON2) Yeah.
+(PERSON9) We can move on, but just we have some results.
+And -
+(PERSON2) This is good.
+I really like the results it's eh, i- it's great.
+And so this [PROJECT1] cores that is already eh-  
+(PERSON9) This is [PERSON1] actually, so -
+(PERSON2) [PERSON1]
+(PERSON1) Yeah, yeah it's, yeah [PROJECT1] it's rather connected with data augmentation experiment and -
+(PERSON2) Uhm hm.
+(PERSON1) We are working on with [PERSON7] and just after eh, our call we have like call together to interpret it.
+But yes -
+(PERSON2) Uhm hm.
+(PERSON1) So I thought it's eh, eh let me explain it -
+I will just make it larger.
+(PERSON2) Yeah, I zoomed to two hudred and that was readable.
+(PERSON1) Yeah.
+Okay, okay, sorry.
+I will zoom it as well.
+Okay.
+So there are like eight graphs.
+Each one is with different proportion of monolingual back translated data.
+Like the full proportion one hundred percent of monolingual eh, back translated data is like four hundred four hundred millions sentences or senten- yeah, sentences.Translated to back to English, and eh, I mixed this monolingual back translated data with either back translated Chang.
+Or eh, Chang back translated in the way that or let's call it diverse Chang.
+Diverse translation of Chang.
+Back to back to English.
+Which is eh, that diverse translation it is called para in this graph.
+And it's the  blue line and the normal back translation is the red line, it's the BT.
+And the dotted lines -
+(PERSON2) Sorry, clarification question, the the position where the solid line starts.
+(PERSON1) Yeah.
+(PERSON2) Does that depend on the ratio of of the mix, like if it's hundred percent or half a percent of this mono BT or not?
+(PERSON1) Oh, I don't think it depends.
+It just eh, so I ran the pre-training, it's the dotted line.
+(PERSON2) Uhm hm.
+(PERSON1) And eh, so the pre-training eh like is performed on the mix of eh, the back transla- or the monolingual back translated data.
+And the parallel back of the Chang back translated.
+Either one way or the other one.
+And then I run the fine tuning on the gold data, on like authentic Chang.
+And the solid line is the fine tune and I tried to run it on eh, like on with the configuration or the pre-training configuration that appeared to be best on the development data.Here it it's like eh, sometimes it's hidden here, because like when -
+In the meantime, I ru- run the or run the pre-training till the seventy seven hundred fifty K updates for all the systems.
+Eh, but at the time when I was running the the fine tuning.
+Those pre-training stopped at different points.
+So that's why like they start from different points.
+And at those time there these points were like the best like best performing models.
+As I have some cri- stopping criterion there.
+(PERSON2) Uhm hm.
+(PERSON1) And or I ha- I used to have stopping criterion there.
+Or different stoppe- stopping criterion that when the cross entropy doesn't eh, improve for ten times.
+Or ten for ten checkpoints, it stops.
+Now like this week I I continue training the pre-train models.
+And the stopping criterion was trained just until you reach the seven hundred fifty eh, fifty thousand.
+(PERSON2) So the these longer curves are created from the the runs, which were launched only after the fine tuning has actually happened.
+So the fine tuning was fine tuning from a different run, uh, then, the the the dotted lines here.
+But because [PROJECT4] is luckily deterministic.
+I don't quite believe that.
+Eh it's still eh, like the the the behavior the learning curve until uh, that point eh - 
+So for example, if you take the very top left picture.
+(PERSON1) Yeah.
+(PERSON2) And if you look only at the red line.
+So you made a first run of the uh, of the pre-training, and that stopped at whatever four hundred fifty.
+And based on the dev set four hundred was the best starting point.
+So you launched the fine-tuning model.
+And the fine tuning model ran and and then stopped.
+And then later, when you were doing the analysis you've also ran the the pre-training fully from zero to a seven hundred.
+(PERSON1) No no no. 
+No -
+(PERSON2) You continued.
+(PERSON1) Like I continued with the trainings.
+(PERSON2) Okay.
+Yeah, yeah, okay.
+(PERSON1) So okay, so.
+As you are saying, like like in the first run of pre-train, pre-training let's say that these red curves stopped at five hundred thousand iterations.
+(PERSON2) Uhm hm.
+(PERSON1) Iterations and these four hundred appeared to be the best like -
+(PERSON2) The best yeah.
+Yeah.
+Okay.
+(PERSON1) This is actually like this is the sliding average or moving average so so sometimes it doesn't appear that it's the best, but like -
+(PERSON2) Yeah.
+(PERSON1) The point is the best.
+(PERSON2) Okay, yeah.
+(PERSON1) And then so then I ran the fine tuning from the best point until five hundred thousand.
+And this week I just continue with pre-training until seven hundred fifty.
+(PERSON2) Mhm.
+Yeah.
+(PERSON1) Just to see and -
+All of the system actually continued to improve already in the in the pre-training scenario.
+And so -
+(PERSON2) So why why -
+(PERSON1) It's the observation here -
+(PERSON2) Why why do we see such a huge jump in the performance thanks to the fine tuning?
+So how different is the original task and the and the fine-tuning?
+Why why do we see this this jum- jump, especially for the blue curves?
+(PERSON1) Eeh, because there is like in pre-training there is no authentic data.
+(PERSON2) Mhm, okay, yeah.
+(PERSON1) And ehm s- so in fine-tuning like the first time when the the system encounters authentic data is the fine tuning.
+So that's why it improves one more Bleu point.
+(PERSON2) Uhm hm.
+Yeah and and -
+(PERSON1) And like what we want to compare is like the blue lines and the red lines.
+(PERSON2) Uhm hm.
+(PERSON1) And whether this strategy achieved the diverse translations, whether it helps the the system to improve better, and it seems to be okay.
+It's not yet finished, but but, it seems to me that it it's better when like we don't have so many uh, monolingual data available.
+Or when when we use just the parallel data back translated or with some like additional - 
+(PERSON2) So this is better setup course oppose to which picture?
+The oh point five percent mono BT?
+(PERSON1) Mmm.
+Like w- w- in what terms better setup?
+Like eh -
+That it's a -
+That the the blue line is better, or -
+(PERSON2) Well you you said that it's better to u- use not so much of monolingual data.
+So not so large synthetic part of the of the training corpus, right?
+(PERSON1) Yeah, but uh, for for one point five.It's like like the the largest gap - 
+Yeah, okay, I I don't have this conclusions for the fine tuning yet, but -
+(PERSON2) Uhm ehm.
+(PERSON1) Just looking at the pre-training.
+(PERSON2) Okay, so just looking at the pre-training.
+(PERSON1) Pre-training -
+(PERSON2) We're looking for the largest -
+<parallel_talk/> gap
+(PERSON1) blue line and red line.
+(PERSON2) Mhm.
+(PERSON1) Seems to be bigger for the systems when we don't this so many monolingual data.
+And in fact when we have one hundred it's still being trained.
+(PERSON2) Uhm hm.
+(PERSON1) <unintelligible/> with one hundred percent monolingual data.
+Here it seems to be that the back translation would be better.
+Al- already in in when we are using fifty percent.
+(PERSON2) Yo, well I suggest that you would actually plot the difference between the red and blue line.
+And you would see how f- how that differences varies across these conditions.
+(PERSON1) Yeah.
+(PERSON2) Because I'm just looking at the at the curves now, I would not say that eh -
+So I s- agree that I see the blue curve following the the red curve in the hundred percent case.
+So in - 
+If you have only the fully monolingual data for synthetic data eh, there is no eh, difference between the red and blue.
+And so so what is the red and eh, eh the red and blue?
+The eh, the one of them uses eh -
+(PERSON1) It's the way how, how you translate the -
+(PERSON2) Yeah.
+(PERSON1) The colour -
+(PERSON2) The synthetic -
+(PERSON1) The parallel corpus.
+(PERSON2) The the the parallel corpus.
+Yeah, and the the more diverse is the one with para.
+(PERSON1) Yeah, yeah, yeah.
+(PERSON2) So if you have only monolingual data, if you use only synthetic data.
+Then the more diverse back translation system is of no use.
+It doesn't help at all.
+(PERSON1) Uhm hm.
+(PERSON2) Eh, if you have fifty percent uh, of eh, your monolingual data, so not so ehm - 
+Not so large monolingual corpus.
+Then a training on this diversifying eh, set is actually worse, blue is on the -
+(PERSON1) Yeah, but it could be also worse for one hundred percent, but the blue line is not yet finished.
+(PERSON2) Yeah, yeah.
+That's true.
+Yeah.
+Okay.
+Eh, and then if you have twenty five percent of monolingual data than the blue is higher, so using diverse eh, outputs is is better.
+But I would not say, that eh, the gain is further improving.
+As you move to twelve point five.
+I think that that the twelve point five difference at the end is very similar.
+(PERSON1) Yeah, okay.
+(PERSON2) It's it is slightly bigger -
+But eeh, then er six point twenty five it's again narrower.
+(PERSON1) Yeah, yeah, yeah.
+O-
+Yeah.
+Okay, I I didn't want to say that like, okay, that there is a some dependence, inner dependancy -
+(PERSON2) Uhm hm.
+(PERSON1) On on this.
+I just observe that for those data set when we do not use so much monolingual data, the gap is there, and the blue system is better than the red one.
+And which doesn't here happen in the systems where we use like more than half of the monolingual data.
+Yeah.
+But yeah <laugh/>
+I don't know, whether the the plots wouldn't be different, if I use different eh, randomcy.
+(PERSON2) Uhm hm.
+(PERSON1) Or yeah.
+I'm not sure.
+(PERSON2) So do it with one of the setups.
+Just run one more of the baselines that -
+(PERSON1) Yeah with different randomcy
+(PERSON2) Yeah.
+Only one of these plots to see how how different they would look.
+(PERSON1) Mhm.
+(PERSON2) <talking_to_self/>
+(PERSON1) Yeah, I I still -
+Yeah, that's that's a good idea and I would like also to I would like to run the the fine tuning.
+Like on the currently best pre-trained models, because most of the models has improved when trained until seven hundred fifty.
+So I would -
+(PERSON2) Yeah.
+(PERSON1) Just train another fine tuning and let's then see what -
+(PERSON2) Yeah.
+(PERSON1) What would be the result.
+And I'm going to talk with [PERSON7] as well and maybe he will have more ideas.
+(PERSON2) So this is yeah -
+The the if I-
+The summary of the set up overall.
+It is a tool or input, you get the original sentence and then one paraphrase, right?
+No it's multi source -
+(PERSON1) Yeah.
+(PERSON2) Yeah, yeah.
+(PERSON1) No no, it's not multi source.
+Yeah, we call it multi source but still I need to create -
+(PERSON6) So this is mostly data augmentation.
+(PERSON1) Data augmentation.
+This is data augmen- augmentation.
+So it's using -
+It's just just the single source translation.
+(PERSON2) Uhm hm.
+(PERSON1) But instead of back translation back translated data we are using -
+(PERSON2) Aha.
+(PERSON1) Data which are back translated in a way that are that are diverse enough from the original translations.
+Or act- actually from the original sources, or I don't know.
+Like in Chang they are like most of most of the Chang tags sources are in English, I guess.
+Or I I'm not sure.
+But so so the the way how we create the para data set is is to be as different as possible from the original Chang.
+I mean, the the English sentences, English side of the corpus.
+So this is no multilingual setup.
+(PERSON2) Mhm.
+(PERSON1) Multi multi source, multi source.
+(PERSON2) Okay, thank you.
+(PERSON2) Also do you think about using all the data at once and using some text to eh, mark the the source, instead of fine tuning?
+Because like use all the training data from the beginning, but use some label at the start of each sentence.
+Because in my experience, uh, this kind of fine-tuning on some lot of eh, monolingual data or synthetic data it will sometimes help in Bleu scores.
+But for example the named entity translation gets really creative while we use when we fine tune on the you get better Bleu scores.
+But when you analyze just like city names or something like that.
+It starts to translate them very creatively instead of copying the names.
+And then you use at least I saw that few times when you use the text, eh, you have like more consistent eh, consistent eh, yeah, this kind of phenomena are more consistent, when not switching to data for the fine tuning. And the Bleu scores are basically the same.
+But definitely better than mixing everything from the beginning without the text.
+(PERSON1) Yeah.We haven't tried it.
+It's good idea.
+It's a -
+This is this was just maybe [PERSON7]'s idea to do it in in this like in the folowing setup.
+To start with the pre-training on on a back translation and continue with the fine tuning on on the open <unintelligible/> data.
+Because he read it somewhere in the private [ORGANIZATION3] guidelines that it's the best best thing to do.
+(PERSON2) I see.
+(PERSON1) Yeah we can like from our experience, or from experience of [PERSON5] we can say that best thing to do is just to alternate the blocks of authentic and synthetic data.
+And continue like still like switching them.
+(PERSON2) Yeah, yeah yeah.That's that's -
+(PERSON1) Yeah and this is what you are mentioning the third option what to do yeah.
+So, yeah, it's worth to try it but I'm afraid -
+(PERSON2) Sure, sure.
+Because -
+(PERSON1) <parallel_talk/>
+(PERSON2) Yeah, yeah.
+Because when I was doing the same thing as [PERSON5] did alternating stuff that's where I found out that this happens quite in a lot of systems that you will get better Bleu scores.
+But when you try collect translation of named entities, the checkpoints, which have the highest Bleu scores, which are -
+When when you take checkpoints from the back translation part of the data.
+When you are training on the back translations basically s- then it often translates the named entities when it shouldn't.
+Just it's just like more creative, when -
+(PERSON1) Yeah, yeah.
+(PERSON1) The checkpoints trained on monolingual data, so that's what why I was asking.
+(PERSON1) Mhm.
+Yeah, it's a good idea.
+And it's observation as well.
+We have to think about it.
+But yeah, I want to finish this as soon as possible, and then continue with through it multilingual.
+Because this was just side track of the multilingual, sorry multingual, multisource research.
+(PERSON2) Yeah.
+(PERSON1) And this appeared to be like more promising, the than the multisource and -
+But we want to finish it.
+But yeah, yeah and w- what's the when you are in the test time, you are giving the like you're -
+(PERSON2) Eh.
+(PERSON1) You have the the English sentence and you just <unintelligible/> it with the authentic tag.
+(PERSON2) Well, also that's that's what I didn't look into that much.
+But in terms of Bleu scores, it seemed that it doesn't matter that much.
+But like I had three tags.
+Czech monolingual, English monolingual and authentic pa- para.
+(PERSON1) Uhm hm.
+(PERSON2) And eh, yeah, the Czech monolingual which was like a monolingual Czech data back translated into English.
+I was translating from English to Czech and the Czech monolingual had the the worst Bleu scores.
+But I would eh - I would expect that the like fluency of the sentences might be better.
+And the Bleu score the lesser Bleu score will be an artifact of the test set.
+Because the test set I used was English sentences translating into Czech, so the other way around.
+(PERSON1) Hm uhm.
+(PERSON2) So it was probably like the system it was disadvantage for this tag that it generated like nice Czech sentences and not English to Czech translation.38:06 But, you know, as I was <unintelligible/> that for client work I didn't really have time to look and look into that that much.So I didn't know, but in terms of Bleu scores the authentic, or or the English mono tag worked basically the same and the Czech mono tag was worse.I think that could be it could be interesting to analyze that further, because I I think the sentences would have much more fine grained differences than just Bleu scores based on the back used.
+(PERSON1) Yeah, yeah, yeah you're right.
+(PERSON6) So can we move to the next task, or?
+(PERSON2) <unintelligible/>
+(PERSON6) So [PERSON11], do you have any updates for us?
+(PERSON11) Hey, hi everyone.
+Yeah, I I hope, I was hoping to have some results for today, but -
+(PERSON6) Uhm hm.
+(PERSON11) But I don't yet.
+I'm running it again 'cause I I found some errors and -
+(PERSON6) Uhm hm.
+(PERSON11) And to be honest I spend too much time on the documents for visas, so it -
+(PERSON6) Uhm hm.
+Okay.
+(PERSON11) Hopefully you have them today, probably at least part of them, because -
+And to be -
+Just to be clear, I'm I'm now I'm really trying to run the the constraints the lemmatized constraints.
+(PERSON6) Uhm hm.
+(PERSON11) Because we found that that issue with the the words and adjectives to -
+Sorry the section of constraints -
+(PERSON6) So yeah, yeah.
+So basically yeah.
+W- what [PERSON11] was doing, he generated the constraints directly from text, without lemmatization.
+(PERSON11) Yeah, yeah.
+(PERSON6) And sometimes if if one one word is kind like if one word generating by the translator breaks the agreement and the constraint can confuse it.
+Because it doesn't expect that exact word form eventhough the word is correct, or the constraint is correct, like semantically.
+Eeeh.
+(PERSON11) Yeah.
+(PERSON6) Is it understandable [PERSON2]?
+(PERSON2) Hm, halfway.
+So my understanding is -
+(PERSON6) So we want to we want to check how how how the behavior of the s- stem when when the constraints are provided as as lemmas.
+(PERSON2) Uhm hm.
+(PERSON6) Which I expect will still kind of break it somehow.
+And then the other plan is to try some methods to like provide either provide the possible word forms of the of the constraints.
+And and let the system choose which one is most suitable like this kind of approach.
+We don't know exactly how like -
+(PERSON2) Yeah.
+So and again is it positive or negative constraints?
+(PERSON6) This is positive constraints, yeah.
+(PERSON2) Positive constraints, so you want to make sure that the output will contain a particular, now the user specifies the Lemma.
+And you are happy whenever -
+(PERSON6) Yes.
+(PERSON2) You find any form from that lemma.
+(PERSON6) Yeah, so again, like if if we specify lemma, the system will try to output that exact surface form that lemma in the output which obviously will - 41:42
+(PERSON2) <unintelligible/>
+(PERSON6) Like it makes sense that it will break the break the decoding.
+(PERSON2) Mm-hmm.
+(PERSON6) So what we can do is that, you know, we can generate all possible word forms from that lemma, and give the system a a set of forms.
+(PERSON2) Uhm hm.
+Yeah.
+(PERSON6) And and some some softer restriction like do not include all the forms, but only one.
+(PERSON2) Any of them would be good.
+(PERSON6) Yes.
+Eh, so that's that's those are some initial ideas like, you know, maybe there might be some more another approach.
+(PERSON2) Another idea would be that you lemmatize on the fly.
+(PERSON6) Yes.
+Not necessarily lemmatize, we can do some kind of stemming.
+Like we can take just the root or not the root, the stem of the word and leave it for the system to choose the correct word ending.
+(PERSON2) Well, lemmatization is a deterministic, m-, well.
+Do deterministing mapping if you go into set of lemmas, and then -
+So the system decides to produce the word cats and to lemmatize it into cat.
+(PERSON6) Uhm hm.
+(PERSON2) Uh, and maybe cats would be also a short version of eh, concatenates.
+So imagine that some - 
+We would have we would have like crazy, the lemmatizing systems that concatenates also converts into eh cats.
+And then you would have two lemmas, one lemma would be cat and and another lemma would be concatenate.
+(PERSON6) Uhm hm.
+(PERSON2) And we were expecting the system to produce the word cat.
+There was our constraint.
+So you would check that the word cats which it has produced does include the lemma cat, which is one of the required lemmas.
+So now, the constraint is is satisfied.
+(PERSON6) Yeah, well, not necessary like this eh, we take the lemmas from the <unintelligible/> pipe.
+So it's like the best possible lemma.
+Like that's predicted by the system.
+So it is deterministic with regards to the current input, but it doesn't produce all the all the possible lemmas for a word.
+(PERSON2) Uhm hm.
+Yeah.
+So you run <unintelligible/> pipe regularly during decoding, no?
+(PERSON6) No, no, no, it's pre- generated.
+(PERSON2) It's pre-generated?
+(PERSON6) So so -
+(PERSON2) So what I'm suggesting is that you run the lemmatization during decoding.
+But it's a hard to link it that way probably.
+So -
+(PERSON6) Okay, yeah, that would be very tricky.
+And I don't think it will give us any improvements again.
+I think the stemming is better approach then lemmatization.
+Because, if if you if you wo- wo- verbs, for example "davat" and word form in the text would be "da", "dava" -
+(PERSON2) Uhm hm.
+(PERSON6) Then obviously the ending of the lemma "davat", the "at" would confuse the system.
+Because it it will try to output the whole lemma first and then decode the third, the rest of the sentence.
+It it doesn't have the system like the LMT system has no notion of eh, eh -
+It hasn't -
+Yeah, like it decodes tokens.
+It doesn't even have notion of words, technically, right?
+(PERSON2) Yeah.
+(PERSON6) We just have some tokens that together shows  -
+(PERSON2) Collected -
+(PERSON6) Yes, so we can reconstruct word boundaries.
+But again like it's not train or i- i -like it's not an eh, attribute of the system to to sh- to know where the word boundaries.
+So, yeah I don't know like there might be chance to try to enhance it or do some joined training, but this seems like too tricky to start with.
+Like we can like try it later, if we are run out of simpler ideas.
+But again right now -
+Yeah, we want to see like what's the difference.
+If we use the lemmas as a hard constraint.
+Like maybe we will see that in some cases, it might be helpful.
+So if we can identify and might helps us to build better herristic.
+But, yeah.
+Still we are just pro- probing the system.
+(PERSON6) Yeah.
+(PERSON2) Okay.
+(PERSON11) So I hope to have it the Bleu score for them today and we can -
+(PERSON6) Uhm.
+(PERSON11) Analyse this.
+And also, um, we have to have to implement correctly the the combined constraints which which is eh, using constrains from from different references.
+And this is this eh, was almost eh, finished, but -
+(PERSON6) Uhm hm.
+(PERSON11) So uhm, I'm I'm trying to finish as well -
+(PERSON6) Uhm hm.
+(PERSON11) And I think that we can compare eh, everything together.
+But uh -
+(PERSON6) So so just just to remind [PERSON2] the the combined constraints it means that we have two referential sentences that we use to generate constraints.
+And we want to take constraints from both sentences like let's take one token from each.
+(PERSON2) Uhm hm.
+(PERSON6) But we do not want to take two tokens that are s- synonyms, or identical words, right? 
+Because like it would be hard to want to translate dog as as a dog, and can- canine at the same time.
+(PERSON2) Yeah, yeah.
+(PERSON6) Yeah.
+But if we take like two two different constraints like two different wordings from two different sentences.
+We hope that it might provide a- another novel sentence or translation.
+(PERSON2) Novel sentenece, exactly, yeas.
+(PERSON6) I think that's the motivation.
+So that's that.
+Eh,  I would like to ask [PERSON11] when when are you going to the [ORGANIZATION2]?
+This week?
+Is it tomorrow or Wednesday?
+(PERSON11) Yeah, today, I'm I'm tonight actually I will be travelling to the to the first city and then I'll take the plane to -
+(PERSON6) Mhm.
+(PERSON11) To the second one tomorrow.
+(PERSON6) Okay, okay.
+(PERSON11) And then then it will be on Wednesday, yeah.
+(PERSON2) On Wednesday.
+(PERSON6) Okay, so so [PERSON13] asked me to book you a flight ticket to Czech Republic, so we can discuss it later this week.
+Like what is the date that suits you the best.
+(PERSON11) Yeah, regarding the date I I we can discuss it later, yeah.
+(PERSON6) Yes, definitely that's no problem.
+(PERSON11) because I  have to think it carefully, because I I Iwas thinking about the the Christmas and New Year, and it will be a bit strange, but -
+(PERSON6) Uhm hm.
+(PERSON11) Let's try to avoid it, but if not, if not possible, there is no problem.
+(PERSON6) Okay.
+(PERSON2) The flight is usually cheapest on the New Years Eve and -
+(PERSON11) Yeah.
+<laugh/>
+(PERSON2) <laugh/>
+(PERSON11) Yeah, I thought about that.
+(PERSON2) But but speaking of travels, colleague of ours [PERSON3] told me that the airplanes are actually the safest in terms of Covid.
+Because they change the f- all the air every sixty seconds or something like that.
+(PERSON11) Oh, that's good.
+(PERSON2) The airport is different -
+(PERSON6) So -
+(PERSON2) The airplane itself is safe.
+(PERSON1) I think the Czech Republic is not save in terms of in Covid.
+(PERSON2) Yeah, obviously.
+(PERSON1) You will not meet many of us when you are arriving.
+(PERSON2) But the numbers are getting better, I think.
+That's before you are here actually the numbers will be eh, better again.
+And the rest of the world will be will be struggling.
+(PERSON11) Yeah.
+(PERSON2) So we were we were the worst recently.
+And now while others are quite catching up.
+<laugh/>
+(PERSON1) Yeah, but it is so last for one or two months.
+(PERSON2) Mhm, yeah.
+(PERSON11) You you are always one step ahead.
+(PERSON2) Yeah, yeah. 
+(PERSON11) And then [LOCATION1] will be devastated again.
+(PERSON2) Yeah, yeah.
+<laugh/>
+Mhm, mhm.
+(PERSON6) So let's not get to side track.
+I wanted to ask [PERSON2], like based on the results [PERSON11] will here have during this week.
+I was suggesting we might have a call, separate call for the <unintelligible/> list discussion.
+Maybe some like what to do next.
+(PERSON2) Yeah, yeah, yeah.
+(PERSON6) For the for the flective languages.
+Probably together with [PERSON10] too.
+Maybe this maybe next week, I don't now, let's let us know.
+I can send the notification via e-mail and you can you can let us know when is it suitable for you?
+(PERSON2) Well.
+Let's -
+Well this week is also possible.
+(PERSON6) Like when are you free.
+(PERSON2) Okay, yeah.
+(PERSON6) Okay, so but still [PERSON11] [PERSON11] will be busy with with with the [ORGANIZATION2] and -
+(PERSON2) And visa, yeah.
+(PERSON6) We can we can leave it for the next week.
+(PERSON2) Yeah.
+(PERSON6) or maybe this week Friday I guess.
+(PERSON11) Yeah.
+Friday will be here.
+(PERSON2) So [PERSON6] we have a meeting at uh, on Friday at eleven, right? 
+(PERSON6) Yes.
+(PERSON2) So maybe after that?
+(PERSON6) No, no, after that is lunchtime.
+But yeah, it would definitely be good to do it at least at one one p.m. because you know -
+(PERSON2) Yeah.
+(PERSON6) Actually twelve might be good, because we had the daylight saving.
+Like time shift and now it's only four hour difference, right?
+So eight a.m. at [LOCATION1] in [LOCATION1] should be okay, right [PERSON11]?
+<laugh/>
+Okay, so we can -
+(PERSON2) We can do also s- s- like at one or whatever.
+(PERSON6) Okay, so like push it to one.
+So we can go to lunch.
+(PERSON2) Yeah.
+(PERSON6) Okay, that's that and maybe -
+Uhm mhm, yes, yes.
+Eh, just just quick eh, question for [PERSON10].
+Like how is who is the embe- eh, implementation going.
+(PERSON10) Yeah, so I run some experiments on the stuff I've already have implemented with the <unintelligible/> data <unintelligible/>
+(PERSON6) Uhm hm.
+(PERSON10) But it's just very basic, eh <unintelligible/> negative constraints.
+One is -
+Two of them are based only on some words, because no -
+(PERSON6) Okay.
+(PERSON11) No notion of some hold tokens or multi multi token constraints.
+(PERSON6) Uhm hm.
+(PERSON11) And one is to eh, filter eh, the beam if there's a add token that should be there, just fill out the beam.
+And the second one is to uh, add or subtract some score from logits that are in the in the list.
+So you can do posit-, positive and negative constraints with that.
+(PERSON6) Uhm hm.
+(PERSON10) And in different different different weights.
+(PERSON6) Uhm hm.
+(PERSON10) Eh, and I generated a constraints as a -
+The constraint was the translation without added constraints.
+(PERSON6) Uhm hm. 
+(PERSON10) And I evaluated it on the references on one ten or thousand references.
+(PERSON6) Uhm hm.
+(PERSON10) And I looked at the relationship between the Bleu score of the constraint translation a- against the references.
+And the Bleu score of the constraints translation against the original translation to see how diverse it is.
+(PERSON6) Uhm hm.
+(PERSON10) Well, it seems that sub-board of the logit bonus, eh, or eh, negative bonus, works little bit better.
+But it's not easy to extend it for longer longer constraints.
+(PERSON6) Uhm hm.
+(PERSON10) Whereas <unintelligible/> of the beams you you know what your logit generated.
+So you know that you are inside some constraint or something like that.
+(PERSON6) Uhm hm.
+(PERSON10) So for now, yeah.
+For -
+If you look only at the sub-boards it seems it's better to mess with the logits.
+But in terms of further further im- implementation I will do the uh, beam filtering.
+(PERSON6) Okay, so so -
+But you're already working with the trees, right?
+Like as as suggested in the -
+(PERSON10) Yes, the trees are not yet implemented that's what I'm working on.
+(PERSON6) Okay, mhm.
+(PERSON10) Also I -
+These experiments were to generate just paraphrases, not to improve translation.
+But I also tried to improve the translation by selecting the the negative constraints as tokens that are in in the eh, hypothesis generated by the system.
+But in none of the references, except the first one, and I evaluate it on the first one.
+But still that's kind of cheating, because the tokens from the first one all all the tokens are I guess -
+(PERSON2) Bad.
+(PERSON10) Are still there.
+But, yeah, it did improve the Bleu scores from like eleven to thirteen.
+So it's more like sanity check, I guess, because it seems like cheating.
+(PERSON6) Yeah, yeah, yeah.
+It's interesting like I think if you if you like eh, test the implementation more this week or like finish the finish -
+(PERSON10) Yeah.
+(PERSON6) Everything the other stuff and then like join the discussion on Friday it should be good.
+Like we can definitely decide on more detailed approach toward towards this.
+(PERSON10) Yeah, yeah.
+(PERSON6) Yeah, so I hope that's there's nothing else to discuss, because we kind of like over- overextended.
+(PERSON2) By half an hour, right?
+(PERSON6) Yes, yes, yes.
+(PERSON2) Okay.
+(PERSON6) So eh, is that everything we wanted to discuss, I guess.
+Or otherwise we like we can discuss it next week.
+(PERSON2) Okay.
+(PERSON1) Maybe we -
+(PERSON6) Mhm.
+(PERSON1) Just with [PERSON2] and -
+(PERSON6) Mhm.
+(PERSON1) [PERSON4] asked us to like to the job that we should do for her.
+And [PERSON13] asked me whether vouchers are good idea.
+And I don't think so, especially [ORGANIZATION5] vouchers.
+(PERSON2) Yeah.
+So that's eh- 
+So you share my opinion.
+I also -
+[PERSON13] also asked me eh, this.
+So I also don't think that we should be paying Czech people with [ORGANIZATION5] vouchers.
+(PERSON1) Yeah.
+(PERSON2) So in that case -
+(PERSON1) It is possible, okay [ORGANIZATION4] vouchers or [ORGANIZATION6] season vouchers, but for sure that money -
+(PERSON2) That's -
+Yeah, the money would be the best.
+So if if we do the money, then eh, well, [PERSON13] has to figure out how to receive the the funding and how to pay it then.
+But it it should not be that complicated.
+So uh, like, technically, I know this from the coordination eh, point of view.
+Now in [PROJECT2] we receive the funding from everybody like for for everybody.
+Uh, and we are now sending it to the uh, to the universities, to the partners in the consortium.
+So I think that we can simply do s- any money transfer, and then -
+Eh, so the actually the easiest way is probably that we pay it from our budget so far.
+And then uh, we will see how much it was in Czech crowns, and how that converts to Euros.
+And we will ask for that money Euros and full stop.
+And they will send those to us.
+So-
+(PERSON1) Okay, just maybe -
+I do'nt know who is now in charge of this, because I'm -
+Like like who should response to [PERSON4]?
+Because I don't think I am right in into financial stuff.
+(PERSON2) Yeah, but but the technical -
+So the technical part.
+D- do we already have the inputs for the people and do we know -
+(PERSON1) No, no, no.
+She's no, she's didn't send us anything.
+(PERSON2) Yeah.
+So how how is it planned?
+So we are going to provide the people, right?
+So we will send e-mail addresses, and she will distribute the work to towards them, or whatever.
+(PERSON1) Mmm.
+I think they will prepare the annotation environment.
+And eh, I will be the contact person who will who will send those the jobs or like the tasks to to the people.
+(PERSON2) Uhm hm.
+(PERSON1) And -
+(PERSON2) And how -
+(PERSON1) I'm not sure eh, like I think this will be this will be like negotia-
+Or or I don't -
+(PERSON2) This is still -
+(PERSON1) Know details.
+(PERSON2) This is -
+This still needs to be negotiated.
+Yeah.
+(PERSON1) Still has to be negotiated.
+(PERSON2) So my little worry is if they uh, like, um, how much money do they want to pay to them.
+Do they already have that established or not?
+(PERSON1) No.
+(PERSON2)  Yeah.
+So  -
+(PERSON1) Or or like [PERSON4] was waiting for  -
+(PERSON2) For us.
+(PERSON1) For our response that isn't possible.
+And I didn't know, and I asked you or [PERSON13] and twice and didn't response.
+(PERSON2) Yeah, yeah.
+S- sorry.
+So what what would be kind of bad, is if we were using the same people that do the annotations for us.
+(PERSON1) Yes.
+(PERSON2) And if the price was substantially different.
+So for example, if they pay double the money that would be bad.
+Uh, I think, because it would for the for the final participants.
+It was seen that they have the same type of contract with the same institution, and suddenly the prices, the the double the price.
+So that's eh, that's something which I want to avoid.
+In that case, uh, the uh, the vouchers would be better eh, t- t- in any form of.
+I don't not know if uh, s-
+(PERSON1) Yeah, but yeah.
+S- so maybe like this is something that eh, just write it to the e- mail to [PERSON4] and [PERSON13]. 
+Because I don't think I'm in charge of these financial stuff.
+And yeah, I just I would just repeat what you just said to me.
+(PERSON2) Yeah.
+(PERSON1) Then I will be just eh, just the pipe who's sending the stuff between you and [PERSON4].
+(PERSON2) Still it would be faster then I I'm on -
+(PERSON1) Yeah, or tell it to [PERSON13] because she has more information about financial stuff.
+(PERSON2) Yeah I was I was discussing this with [PERSON13] today, and I eh, s- said that the vouchers -
+I don't find the vouchers a good idea.
+And if you're the second one who doesn't like the idea, then let's not go for the for the vouchers.
+Eh, and eh, that's that's it.
+So well, I'll try to look at the e-mail.
+(PERSON6) And if there's nothing else, we can probably just end it here, right?
+(PERSON2) Yeah, okay.
+I agree.
+(PERSON1) Yeah.
+(PERSON6) Okay.
+So see you next week.
+(PERSON2) Yeah, thank you.
+(PERSON10) Bye bye.
+(PERSON9) Bye bye.
+(PERSON11) Bye

@@ -1,0 +1,69 @@
+[PROJECT2] Surge 2020 Organization
+2020/01/30  13:00
+In front of 423
+
+Attendees: [PERSON14], [PERSON3], [PERSON16], [PERSON17], [PERSON8], [PERSON2], [PERSON7]
+Purpose of meeting: Discuss items from google sheet.
+
+Summary of meeting:
+
+[PERSON14]: 
+• Draw attention to enter the achievements into google sheet.
+• Inform about presentation on [PROJECT2] on Monday seminar, 17th February: 
+- Goal is to describe the project and invite more people to join. 
+- Domain adaptation is needed. NLP and [PROJECT2] has same domain adaptation.
+• Inform about Students FirmsFare, 18th – 20th March:
+- Important for data collection.
+- Very noisy environment.
+- It is necessary to add profanity filtering. Bad words and words related to bad topics.
+- 
+[PERSON16]:
+• Worked on data collection in English and [OTHER3]. Have 1970 – 1980 pdf files. Now is needed to clean all the data.
+
+[PERSON3]:
+• Work on compress and decompress of the sound.
+• Work on multi-source model output.
+
+[PERSON17]:
+• Finished evaluation framework. Used different segmentations – wordbase and timebase.
+• Now complete files to test it and working on the paper.
+
+[PERSON14] and [PERSON2] discuss problematic setting. Idea of breaking in a small chunks and use the existing timestamps to break the long recording into shorter once.
+
+[PERSON17] and [PERSON3] agreed that [PERSON3] create the list of files and will send that.
+
+
+
+[PERSON7]:
+• Experimented with various technics and especially like domain adaptation of a language model and then acoustic finding on [PERSON4] talk.
+• Now working on a next version of the czech ASR system that should be trained on even more data.
+
+[PERSON2]:
+• Discuss with [PERSON14] about kind of compression. [PERSON3] and [PERSON11] test it. 
+• Guess that systems are actually good with mp3 compression.
+• Was working on sound segmentation. Problem with ASR system because some words get cut. Now continue with decoding. Window 4 – 8 seconds long.
+• Trained the transformer converting the audio into graphians and tested the settings. Actual translation with the transformer was quite bad. 
+• Prepare segmenter for Monday 17th.
+
+[PERSON8]:
+• [PERSON14] introduce [PERSON8].
+• Worked on paraphrasing, actualy waiting for virtual machine. 
+• Inform about [ORGANIZATION3] FastSpeech. Could try to setup.
+
+Next meeting: 
+Will be arranged by doodle.
+
+Minutes submitted by : [ANNOTATOR3]
+
+
+ 
+
+
+
+		[PROJECT2] Surge 2020 Organization
+2020/01/30
+13:00
+In front of 423
+
+
+

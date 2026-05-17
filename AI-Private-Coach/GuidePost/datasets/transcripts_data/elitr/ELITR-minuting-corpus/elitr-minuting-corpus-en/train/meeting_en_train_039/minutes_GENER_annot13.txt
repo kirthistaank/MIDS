@@ -1,0 +1,27 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION3], [ORGANIZATION7], [ORGANIZATION11]
+Meeting Name: [PROJECT1] Project Officer Demo Preparation
+Meeting Date: 04.05.2020
+Meeting Topic:  Team formation and technical set-up
+Meeting Participants: [PERSON10], [PERSON11], [PERSON14]
+Meeting purpose:  To structure the presentation team and decide technical parameters for the presentation set up.
+Main points of discussion and decision taken:
+•	Participating colleagues from [ORGANIZATION12], [ORGANIZATION12] and [ORGANIZATION6] to be confirmed.
+•	Requirement is for all participants to use Slack during the presentation.
+•	Source language has been pre-decided as Czech and/or German with English as a back-up option. This is still to be confirmed by [ORGANIZATION12]. 
+•	Aim is not to have English as a source to avoid direct competition with [ORGANIZATION10] as in English they have significant comparative advantage and very good performance results.
+•	Source language translation to be performed to the entire available language set.
+•	Special attention to be paid to the set-up testing to mitigate performance risk. The language translation with German source has not been yet tested on full language set.
+•	For correction of shortcomings in Romanian language an arrangement is being made with a former colleague to review and participate on the test sessions, if required.
+•	The exact date for the Demo presentation is to be selected via Doodle poll.
+•	Pre-demo session (possibly multiple sessions) to be run.
+•	Demo input is being carefully defined and is subject to a vigilant domain selection. 
+•	Good ASR performance on selected source videos is indispensable. German ASR to be arranged by [ORGANIZATION12].
+•	Selected data set has to be related to the [ORGANIZATION8] congress.
+•	German videos to be sourced from the respective sites or YouTube channels of German SAI, Austrian SAI and the [ORGANIZATION2].
+•	Demo presentation will be performed and the pipe will be run by the [LOCATION1] team via remote channels.  Presentation platform still needs to be chosen (but highly likely [ORGANIZATION1]).
+•	Video/screen and audio share with Project Officer will be performed via remote call where a machine will be one of the participants. Machine strength and ability so support such required action needs to be tested via conferencing platform set-up. The device is required to run the video, send the audio to the conferencing platform and send the audio to complete the subtitling pipeline. Video transmission needs to be avoided.
+•	Meeting to be held after May 11th subject to easing of the Government imposed restrictions.
+•	More capacity to be allocated to the Demo preparation after the last session of [PROJECT5] has been completed.
+
+Minutes submitted by: [ANNOTATOR3]

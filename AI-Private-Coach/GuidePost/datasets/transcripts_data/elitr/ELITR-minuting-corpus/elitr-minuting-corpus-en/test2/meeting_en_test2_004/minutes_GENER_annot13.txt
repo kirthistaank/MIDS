@@ -1,0 +1,45 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION6], [ORGANIZATION5], [ORGANIZATION4]
+Meeting Name: [PROJECT2] SurgeTech
+Meeting Date: 07.01.2021
+Meeting Topic:  Catch-up, workload distribution and upcoming sessions preparation ([PROJECT13], [PROJECT6])
+Meeting Participants: [PERSON13], [PERSON5], [PERSON12], [PERSON7], [PERSON14]
+Upcoming sessions:
+[PROJECT13] Event
+•	Spoken in Czech language
+•	Archiver person required to record the session
+•	Documents being gathered.
+•	[PROJECT5] is model set-up needed. Model to be trained on common voice biased towards non-native speakers and multiple data sets.
+[PROJECT6] 
+•	Two part event comprising of pre-recorded session interleaved with direct live recording.
+•	Session postponed till February 26th.
+•	Technical meeting on site to be held at the venue. Back-up person required to handle the set-up if necessary.
+•	Documents being gathered.
+For both sessions system should be selected on informed choice and performance numbers, not only on current availability.
+[PROJECT2] Ladder Climbing 
+•	Suggestion for tables to be made as simple HTML format as easiest solution, although difficulties with HTML may arise in performance difference assessment comparison in every new evaluation campaign.
+•	Conversion similar to Tech should be created for [PROJECT2] as well.
+•	Results to regularly stored on the web, in user friendly and immediately accessible fashion.
+•	Demo paper submission due on Friday 15th January.
+•	Automated minuting tool time is in time intensive stage.
+[PROJECT2] Deliverables D 1.5 and D 6.3
+•	Statistics about transcript is a good metric to represent numbers but lacking language pair representation. Complementary metrics are required.
+•	Ratio of two languages would be helpful.
+•	Arrange modification of [PROJECT3] input through filtering such as profanity elimination.
+•	Rare words evaluation. Explicit list of names and terms required in the output.
+•	Manual preparation of reference lists is required. Ready for [PROJECT13] event but to be done for [PROJECT1] domain. Positive and negative lists to be extracted.
+•	Segmenter needs improvement in order to increase evaluation scores.
+•	[PROJECT10] style evaluation is missing. To be discussed with partners on Wednesday 13th January. Delay scores calculated on [PROJECT2] Dev set to be presented.
+[PROJECT12] Tool
+•	Filters tor [PROJECT3]s to be applied from multiple sources to multiple outputs.
+•	To decide if English will be used as reference language not (pivoted or direct set up). [ORGANIZATION11] and [ORGANIZATION1] articles to be explored.
+
+General points:
+•	Call for additional time resources allocation to the project.
+•	Information from former team members ([PERSON11], [PERSON10]) to be passed on and retained within the team for future application.
+•	Implementation of speech language identification completed - model working for Czech, English and German.  Implemented as audio to text worker emitting time stamps. To be passed to several team members for further languages training.
+•	Subtitler study paper aiming for end of January deadline.
+•	Book release planned for the mid-year.
+•	Next meeting due on Thursday 14th January.
+
+Minutes submitted by: ANNOTATOR 13

@@ -1,0 +1,87 @@
+Dry run on Aug 12, 10am [LOCATION1] time:
+    • Credentials:
+        ◦ [URL]
+        ◦ Meeting ID: [NUMBER]
+        ◦ Passcode: 1234
+    • Re-broadcasting credentials (test for [ORGANIZATION2]'s passive attendees)
+        ◦ [URL]
+        ◦ Meeting ID: [NUMBER]
+        ◦ Passcode: 1234
+        ◦ Nobody else from [ORGANIZATION2] is watching, but feel free to come and see if it works right. I will also try to present+record the whole thing including the demos
+        ◦ I considered showing the recording to [PERSON31], so he knows what is coming next week
+        ◦ Can't speak due to technical limitations
+    • Participants of the [PROJECT3] meeting:
+        ◦  [PERSON20]
+        ◦ [ORGANIZATION2]
+        ◦ [PERSON15] (probably absent)
+        ◦ [PERSON4]
+        ◦ [PERSON28]
+        ◦ [PERSON10] (DG SCIC)
+        ◦ [PERSON35] ([ORGANIZATION1]; Czech ASR and media monitoring company)
+        ◦ [PERSON30] 
+        ◦ [PERSON8]
+        ◦ [PERSON7]
+        ◦ Also trying to invite (some of):
+            ▪ [PERSON16]
+            ▪ [PERSON38]
+            ▪ [PERSON38]
+            ▪ [PERSON38]
+    • [PERSON26]
+    • Agenda of the dry run:
+        ◦ Agenda of the [PROJECT3] meeting
+            ▪ (we announced this:
+                • present an overview of [PROJECT2] goals
+                • demo the current status and problems of live speech translation from German, English and Czech
+                • present the plans for the coming months
+                • ask you for feedback as well as any technical comments you may have
+        ◦ Proposed agenda: ([LOCATION1] timing):
+            ▪ 15.00-15.10 [PROJECT2] Overview and Goals
+            ▪ WP presentations (5 minutes each [7 WPs], 35 minutes in total without questions, allow 25 minutes for questions within this block, i.e. 3.5 mins of questions per WP on average)
+                • Each WP to present:
+                    ◦ goals, challenges, achievements, plans, open problems (not necessarily all of them)
+                    ◦ provide high-level overview + recent interesting highly technical details
+                • WP1 Data ([PERSON3])
+                    ◦ Only highlighting the publicly interesting things:
+                        ▪ [PROJECT2]-test-set (get in touch with [PERSON14])
+                        ▪ minuting dataset in preparation
+                        ▪ OPUS-based MT corpus for the current systems (because the demo is based on this)
+                            • work-in-progress: crawling data from [ORGANIZATION5]
+                            • possibly mention the cross-over of the genre (speech) and domain (audit reports), and how to deal with it
+                • WP2 ASR ([ORGANIZATION3] - [PERSON23])
+                    ◦  [ORGANIZATION4] may or may not mention their NN ASR experiments (pretraining Czech ASR on English models; not integrated yet)
+                    ◦ [ORGANIZATION6] has nothing to mention here
+                • WP3 SLT ([ORGANIZATION6] - [PERSON9]?)
+                    ◦ [PERSON9] will pick some highlights from the deliverable, choosing from research papers:
+                        ▪ 3 papers on end-to-end SLT
+                        ▪ some papers on online SLT
+                    ◦ not so much on production, that will be in WP6
+                        ▪ IWSLT paper - no need to mention our submissions
+                    ◦ Mention IWSLT shared task because we want to define the standard for live SLT evaluation (SLTev) - [PERSON19] will ask [PERSON32] to provide 1 slide with key problems of SLTev
+                        ▪ motivation: offer SLTev as the sacreBLEU for SLT
+                • WP4 MT ([ORGANIZATION4] - [PERSON17] will prepare slides, [PERSON19] will be presenting)
+                    ◦ [PERSON3]+ [PERSON12] have a paper on multilingual MT, hard to explain the connection to the project (improving zero-shot); [PERSON5] will provide 1 slide, ACL paper
+                    ◦ the challenge of doc-level evaluation; hard to see any gains; outputs are very different but the differences are hard to pinpoint/aggregate
+                • WP5 Minuting ([ORGANIZATION4] - [PERSON5]?)
+                    ◦ goal: extract suggestions on the shared task organization from the [PROJECT3]
+                        ▪ [PERSON19] will try to invite also some summarization people ([PERSON16])
+                • WP6 Integration ([ORGANIZATION9] - [PERSON22])
+                    ◦ reuse the pipeline slides, the risks of bomb discoveries etc.
+                    ◦ updates to the presentation platform
+                        ▪ please include the planned layout of the view
+                • WP9 Ethics ([PERSON1]??)
+                    ◦ motivation: have our consents practice reviewed by [PROJECT3] members
+            ▪ 16.10-16.40 Demo Sessions
+                • Brief description of user interface before each demo.
+                • Paste URLs into zoom chat before each demo
+                • Demo \#1: Subtitling Streamed Videos
+                • Demo \#2: Live Transcript of Streamed Videos
+                • Demo \#3: Live Transcript of our Discussion
+            ▪ 16.40-17.00 Further Q\&A
+        ◦ Presenters of individual WPs
+            ▪ ~5 mins per WP, summarizing: goals, achievements, plans; possibly challenges/problems
+        ◦ Slides to edit: [URL]
+        ◦ Full dry run of the demo as we had for [PERSON13]
+            ▪ Demo of video subtitling (from DE, CS, EN-interesting mainly to relate performance with BLEU scores)
+            ▪ Demo of our zoom discussion subtitling (EN only)
+        ◦ (feel free to add anything)
+

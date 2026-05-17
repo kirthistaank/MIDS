@@ -1,0 +1,26 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION2], Faculty of Mathematics and Physics, [ORGANIZATION1]
+Meeting Name: [PROJECT1] Virtual Coffee Hours
+Meeting Date: 22.09.2020
+Meeting Topic:  Remote colleagues catch-up meeting 
+Meeting Participants: [PERSON6], [PERSON3], ([PERSON8]), [PERSON7]
+Meeting purpose:  Brief catch-up and progress meeting in relation to the repository creation for the [PROJECT1] minuting data set.
+Main points of discussion:
+Repository creation for [PROJECT1] minuting data set
+*	Decision should be made as to what files should be included in the GitHub repository.
+*	Big files are generally excluded due to limited storage space and GitHub requirements. From the [PROJECT1] data set this concerns audio/video MP4 format files. Decision to be made on how to treat those.
+*	As much data as possible should be included as there is a great need for the information. However, everything cannot be incorporated due to the large aggregate size. Therefore a reasonable compromise should be reached. A rule ought to be devised and applied to all folders.
+*	It appears that some obsolete/additional files are currently present in the folders and further questions might arise from the folder organisation.
+*	Clarification to be made as to whether the development is going to be located only in one place or in two places.
+*	The data privacy regulations are applicable to the [PROJECT1] minuting data set; therefore the repository cannot be made public at the moment. These restrictions will be eased off after the shared task release.
+*	To be discussed and agreement to be reached of how the annotators are going to proceed with their work. Whether they will put all the data directly to the GitHub repository only or whether a cluster storage will be also kept (this allows for possible synchronisation issues).
+Systematic literature review
+*	The review is work in progress.
+*	Wide range of research papers is already available on selected topic, therefore the advice was given to focus on something rather specific and not a broad issue. Something niche that has not yet been researched should be explored.
+*	Suggestion made to specialise solely on the meeting summarization. 
+*	Availability of broad reviews is to be verified.
+*	Results of the research to be shared amongst colleagues and research papers of interest are to be shared electronically on the drive.
+Off topic discussion
+*	General workload and involvement in other research projects and submissions.
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,23 @@
+- Organizational stuff
+-- Monthly call will be on Thursday, 5 PM [LOCATION2] time
+---At least [PERSON6] and [PERSON2] should take part
+--- Good for [PERSON10], [PERSON6] will care about including [PERSON10] into the mailing list
+-- [PERSON10]'s coming to [LOCATION2]
+--- It is very desirable that [PERSON10] comes to [LOCATION2] in person
+--- Visa issues due to Covid situations 
+
+- [PROJECT6]
+-- [PERSON2] is trying to contact [ORGANIZATION3] colleagues, the communication is not completely perfect
+-- [PERSON9] is preparing the leaflets, [LOCATION2] is waiting
+
+- Progress on [PROJECT1]
+-- [PERSON2] is trying the back-translation
+--- It's low priority, is running on server, but may be stopped if needed.
+--- No interesting results to discuss yet. Should be discussed with [PERSON7] first, what to do next
+--- [PERSON2] may try the translations on CPUs
+
+- [PROJECT4]
+-- No special updates for now
+-- a related paper on BLEU that might be useful for evaluation
+-- Discussing metrics, using semantic metrics, different kinds of metrics
+-- Why do we need special metrics for MT

@@ -1,0 +1,615 @@
+<another_language/>
+(PERSON4) Hi, good morning.
+<another_language/>
+Good morning.
+[PERSON5] do you hear me?
+(PERSON5) Hello [PERSON4].
+Can you hear me?
+Does it do anything or not?
+I, I cannot hear you, I don't know whats with my sound setting here.
+<parallel_talk/>
+(PERSON4) This is me speaking.
+For a test.
+<parallel_talk/>
+(PERSON5) Yeah so can you hear me now?
+(PERSON4) Yes, sure, do you hear me?
+(PERSON5) Yeah, okay, yes, great.
+(PERSON4) Oh, great.
+(PERSON5) Amazing.
+If I understood correctly, <unintelligible/> is not going to join.
+(PERSON4) Okay.
+(PERSON5) Uh <unintelligible/> if he would come but he- and he said yes, but then he disappeared.
+<laugh/>
+So I do not know-
+(PERSON4) <unintelligible/>
+Okay.
+Well today <unintelligible/> should be pretty simple, simple, simple meeting.
+Actually, we, we have collected all the feedbacks received doing the, ehm, well at the June events in [LOCATION1], and during the tests, and the event sitting Autumn the correct one faculty remember.
+And so we have collected all of them, and we are going to reveal presentation platform.
+The goal is to have the new, uh for the <unintelligible/> congress in the end of May.
+Since actually, we are going to review the look and feel of the web <unintelligible/>
+We would like to have the European union, and the expecially your agreement since you are the- the project leader, and we would like to, uh, prepare somthing that acomplish the [PROJECT1] requirements.
+I'm going to share the presentation,
+(PERSON5) Mm-hmm, <unintelligible/>.
+So <unintelligible/> will connect soon, hes, hes here in the, uh, uh i cannot switch off um, like I'm already using the mic and I- Theres no way to put it through out speakers im afraid.
+<laugh/>
+(PERSON4) Okay, meanwhile I drag end up on my presentation, <unintelligible/> hm.
+Sorry, I'm going to copy, since we share <unintelligible/> share point maybe it is making some problem.
+I copied on the <unintelligible/>.
+Okay.
+<censored/>
+So until when do we need to call like, how long would would twelve 50 be sufficient to end?
+(PERSON4) Yes, sure.
+(PERSON5) Yeah, okay.
+(PERSON4) I'm not able to <unintelligible/> presentation.
+I do not know why?
+(PERSON5) <unintelligible/> sharing the screen, can you try sharing the screen?
+Guest, oh okay.
+Make host.
+I do not know to be able to prison to scream.
+<other_noise/>
+(PERSON4) Sorry, just a sec.
+<unintelligible/>
+<other_noise/>
+Okay.
+Do you see presentation now?.
+(PERSON5) Yeah yeah.
+(PERSON4) Now lets see if I'm able to move through these lights, <laugh/> okay.
+Okay, are we ready?
+<unintelligible/>
+(PERSON5) Thank you, we noticed, this is a good summary.
+(PERSON4) its the <unintelligible/> presentation platform.
+Uh, okay.
+I select the of boxes subtittles appears.
+<unintelligible/>
+<other_noise/>
+Could you commute?
+So you can you mute when you have some interview.
+Thank you can see things.
+<laugh/>
+OK.
+Expecially you [PERSON5] <unintelligible/> to let me be the user, and the find de is the subtitle of size and lenght.
+And if you remember, we encountered the problem of having three lines of subtitles.
+And the third line disappeared uh, in, eh, beneath the the box, because there is not that an enough space nor <unintelligible/> space.
+And we often talked about the possibility of having a longer the context, especially, uh that you liked the the history that see presentation so that the user is able to scroll, uh the history and read the past messages, uh, from the <unintelligible/>.
+Often people prefer to enable just one language for subtittle, most of the time, the the the language is the English or their mother tongue, and then just a couple of notes that he liked the black and white subtitles and also, the size was fine,uh, reading the questionnaire.
+From the old tomb events, uh, we weders as feedback the possibility to disable the video, because sometimes is not available at all.
+Your colleagues asked us to have the possibility to automatically load, a list of, uh, default, lets say languages, for example <unintelligible/> like that, that each time, the user enter the main page, seeing the, for example, the at least English subtitle enabled by default, we talk about the the <unintelligible/>, to make the subtitles base adaptive in order to hostile all the text.
+The then we the left justified the subtitles.
+This is pretty strange and for us because the subtitles usually appear centered, uh, but we understood that the requirements was related to the incremental <unintelligible/>, especially for the machine translation, with the change of all the while assets a new up from the ESR are, and it changed too much and its confusing for the user, and expecially during the <unintelligible/> event.
+If I correctly remember, you see the the <unintelligible/> application.
+And and you like the really not should <unintelligible/>
+(PERSON5) Have you seen our paragraph, style view?
+I think you must have seen it.
+<unintelligible/> in the in the paper.
+So I think that the paragraphs style view is kind of done by that, so I think that there is no need to uh, to force it into your interface, but we do not have the video.
+So thats,so thats, the question, whether people want the video plus the paragraph view.
+And that is something which we do not have
+(PERSON4) Mm-hmm, okay.
+Okay.
+Well reason about these requirements and reason about how to change the actual presentation platform in order to try to accomplish as much as possible on the requirements, but actually there are some unco- incompability.
+And because we need to <unintelligible/> because if you like to have, uh, the video as much should be good as possible.
+Uh, probably, we have to sacrifie all the history style view, or the possibility to have a subtitles in many languages at the same time.
+And this is true for all the, uh, uhh, lets say the three main requirements, if you would like to have the history.
+We cannot have many.
+<laugh/>
+<unintelligible/>
+<laugh/>
+So actually <unintelligible/> present you 3D <unintelligible/> let see <unintelligible/> of the new presentational platform that are only images <laugh/> <unintelligible/> has been done yet , uh, but its, uh-
+Please consider them as possible, uh, starting point for the next, uh, uhh, developments. Okay.
+The first is the history style.
+<unintelligible/>
+Pro, we have the- the video as bigger as possible.
+<unintelligible/> here told me also to be really careful expecially, because he at the moment on the market that we have both, uh, uhh, left <unintelligible/> 16 to 9 representation.
+And with 4 to 3 representation.
+We have to reason really careful on the representation, but actually, uh, uhh, this configuration could change, based on the screen size <unintelligible/>.
+(PERSON5) I like this layout.
+<laugh/>
+(PERSON4) Oh okay.
+<laugh/>
+But actually, if we maximize the video size.
+We can have the history on the left, actually its like the [ORGANIZATION5] application, but for sure it does not enable you to have many languages first time and these are, cant select just one language per time, and probably, uhh, we have to manage the incremental <unintelligible/> in some way, <unintelligible/>
+We are still on the idea to, to not put business logic inside the presentation.
+It is just a presentation layer.
+Umm, the business logic should be the prepared by the module before the presenation base.
+So that if you would like to have this kind of representation, we need to manage the incremental updates of the [ORGANIZATION4] ASR before they arrive to the presentation layer.
+Uh, we have also some doubts regarding the mobile friendly representation.
+I'm, I'm not sure, but the [PROJECT1] grand agreement it is written that people will use the presentation platform, on the person of the <unintelligible/>.
+I'm gonna first read these definition I talked about the also mobile phones or tablests as <unintelligible/>.
+Actually we seen people just use a lot of the- Please tell me if the mob- mobile friendliness is a requirement for you or not.
+(PERSON5) It is.
+It is hard to say, it was nice feature in your view.
+But I I think it is likely that the [ORGANIZATION2] people would use it.
+Because this is-
+<unintelligible/>
+Its very hard to say <laugh/>
+Uh [PERSON4], sorry to interrupt you.
+<censored/>
+I will make two phone calls, and I will be back in five minutes.
+<unintelligible/>
+(PERSON4) I promise, that in a quarter we will finish everything.
+<censored/>
+So I would like to make a phonecalls and there just ending now, so, so ill, ill have more time.
+<censored/>
+(PERSON4) Ok, and we can <unintelligible/> do not worry thank you.
+(PERSON5) So i will be back in one second.
+(PERSON4) <unintelligible/> do you have opinion regarding this representation?
+(PERSON3) <unintelligible/>
+<unintelligible/>
+<other_noise/>
+<unintelligible/>
+(PERSON4) <unintelligible/> actual presentation platform boxes.
+<unintelligible/>
+<other_noise/>
+Have you seen me?
+Have you heard me?
+(PERSON3) <unintelligible/>
+(PERSON4) Hi.
+<laugh/>
+(PERSON3) <unintelligible/>
+(PERSON4) <unintelligible/> presentation platform feature in different places inside our webpage, of course our designer will <laugh/> will provide, uh, better ideas, it will not be, uh, bold white text.
+<laugh/>
+On black screen.
+It will look much more like the chat- Have you seen the [ORGANIZATION5] application?
+Okay, it will probably look, uh, uhh, roughly like this one
+This one will be the, the design choosen by [PERSON5] of course.
+<laugh/>
+Because, this is just a proposal.
+The first one.
+We are going to see other two different proposal, in orded to review the presentation platform application.
+(PERSON3) <unintelligible/>
+(PERSON4) Your microphone its really really powerful, it catch a lot of <laugh/> uh, of different noises.
+<unintelligible/>
+Can you repeat it please?
+(PERSON3) <unintelligible/>
+<other_noise/>
+(PERSON4) I think that the <unintelligible/> presentation platform we already have a, a white label on the black boxes, in order to um, define whitch subtitle language is displayed in the box.
+My idea but its really just a picture on, on a slide for the moment.
+In this kind of representation is to have <unintelligible/> for languages for example.
+In this example you see theres the EN tab.
+But if someone would like to see the German one, can select the different tab.
+Hi [PERSON5], you are back.
+(PERSON5) Okay, I'm back.
+<other_noise/>
+<unintelligible/>
+<censored/>
+Yeah.
+So, I do not know what you have discussed.
+But as I said, I like this view.
+And in addition to the top idea I can.
+I could see an option to have the languag- two languages but not more, underneath each other so there could be like upper half for English and lower half for another language,
+(PERSON4) <unintelligible/> lets say if I select the one or two or three or four <unintelligible/> opinion creates too much <unintelligible/>
+It is not that user friendly.
+<unintelligible/>
+<unintelligible/> just one language, and if someone would like to see, for example, to switch to German subtitles select.
+For example, of course, this is just my picture <laugh/> <unintelligible/>, but I can take another, and then we discuss it, the , uh, developer.
+We already talked about this possibility, and they were not uh, uhh,
+<unintelligible/>
+(PERSON5) So the tabs are okay, or uh-
+(PERSON4) The text is just the first simple really simple idea, <unintelligible/>
+(PERSON5) Let us stick to the that.
+I think it makes sense.
+And I agree that having like two languages at the same time would be or already complication.
+I can easily easily find situations where it would be useful to have more languages in, like underneath each other, but we cannot <unintelligible/> for all the the situation.
+So it is <laugh/>.
+(PERSON4) The second proposal is the following, which is the actual.
+Uh.
+Let us see the <unintelligible/> representation.
+Here the video size.
+He read these reviews that in order to have everything in the same screen now, and the idea would be to add the history in the black box for subtitles in order to let them become scrollable, and this will be also ah, more mobile friendly in our opinion.
+But of course it looks a little bit and all the style of representation.
+(PERSON5) I don't mind the- I do not mind the old style.
+But what I'm afraid of is the is the space.
+So now you, you are showing three lines.
+I think it is <unintelligible/> its like the worst compromise, the because you do not get enough content of not enough of the paragraph view, and the font is already too small, so it is not the subtitles, which are easy to read.
+So I think thats, thats the- I would not go for this one.
+So I I like the way the that you know, the the current view, which has big fonts, but has serious problem was with the flicker.
+But that is if if the if the language <unintelligible/> allows that, then it is okay.
+But I like also your proposal with the tabs where theres the paragraph next to the video that looks the very good.
+But this is one.
+Uh, uh.
+And even if you have two languages as you are showing it now.
+I think in the it is like the something, which does not have any any benefit of either of the solutions.
+(PERSON4) Actually one of the benefits is that, so you can have more languages per time.
+You can also disable the video.
+Instead in the history representation.
+I have not been to the picture for this scenario, sorry.
+But the idea is that the big picture of the work that <unintelligible/>.
+Its just a black.
+<laugh/>
+Without the video, which is not that- Umm, its not that attractive.
+Exactly.
+But of course, we have to take some decision.
+<laugh/>
+(PERSON5) So i think that there is no- There is no need to prepare this style of view <unintelligible/> the video, because for that, the the the the presentation that all the created is sufficient.
+(PERSON4) Okay.
+Okay.
+And this is, okay.
+And these <unintelligible/>, of the <unintelligible/> video and our last propose is the following.
+And and especially our designers pressed a lot these kind of representation,
+<unintelligible/>
+The at the beginning of the project, they proposed the first this kind of representation.
+And we said," no, because we need to be able to read the text on the slide.
+And we said that having the subtitle overlay to the vindeo, video on stream.
+Can cover some text inside these lights
+Uh, this is probably the most attractive one, because <unintelligible/>, the kind of YouTube style representation of subtitles.
+And it is for sure mobile friendly, but in this representation, you can not disable, the video, for example, <unintelligible/> on the other side you can make it as bigger as possible, because you can have the video fullscreen, and still be able to <unintelligible/> subtitles.
+This situation again, one language per time.
+(PERSON5) Yeah, so I like the set up as well.
+So I think we are actually the the there is different situations, but we are coming towards three different views, and I think we should have all of them.
+So this one, which was no, another will have previously as the something which which like.
+So I would really like this one to be implemented.
+Then there is the number of changes which we need to in in your existing subtitle view.
+But these changes are not to the event, but they need not be too big.
+(PERSON4) Well I actually- The only, uh, the only the only representation, which does not require big changes is the second.
+But don't worry we have <laugh/>.
+It was the first presentation platform is the first demo in order to be able to check integration make some experiments.
+We are not afraid to move to a different representation pictured by us.
+More work do not worry.
+We used to like the third one, expecially because it can be declined in other <unintelligible/> voice applications.
+But uh, we, we have like was so to have the least try the history style in [ORGANIZATION5] history style , the first one.
+<unintelligible/>
+And at least to try.
+Uhh.
+What do you think that in the Russia [ORGANIZATION2] would be, uh, the preferable, preferable representation in your opinion?
+(PERSON5) Yeah, so, I know that there will be people just, uh, roaming around, and these will have small devices.
+So for them anything, which is like, and they will be also, they will be sometimes in the room.
+But even if they are in the room then they cannot really follow the subtitles on their cell phone and the slides in front of them.
+So they still need need to have the slides on the on the device.
+The so called then this you.
+The one that we are looking at now is that as they will select one language, probably English, or their mother de depending on what it is easier for them to follow, and they will.
+They will follow this.
+Then there will be some big screen outside of the the main presentation of the main conference room.
+And that presentations green should the in my opinion attract everybody in all their many languages, <unintelligible/> like the content of the, of the discussions, which is, uh, which is running in the in the hole.
+So it is like uh, there is this main conference happening.
+And there is off stage corridor were people gather, and they are not sure if they want to enter the hall or not.
+So they follow the, the monitor and the subtitles there.
+And for that view, I think that is the- So originally, I thought that we would have there only the man is.
+So it is it is important, show many languages.
+But it is also important to show the video, and we have slightly bigger screen the size of the screen, and also that its location is very unclear.
+<unintelligible/> lately, it is like last week, as he said, this can be negotiated.
+(PERSON4) Maybe I, I understood your your point.
+Maybe we can try to have the history style, with at most two languages.
+What do you think?
+(PERSON5) <unintelligible/> which would be English and the and the floor, or something like that, right?
+But then we would need to edit that actively.
+And to decide which of the languages should be shown.
+So- This is, this is hard decision.
+And its like, it could it induce lot of work, and then end up being hidden somewhere like the back of the corridor that no one ever sees it.
+So the so that could be <unintelligible/> effot to some extent.
+So what we could also do there is, to only show the video, and kind of just place another window next that, and use the existing paragraph view with that, or use the existing subtitle view with that.
+So we would like put this, organize this together only for that, for that simple screen.
+So I cannot imagine that we would have one person, taking care of this of the this screen.
+I think this screen has to be set up and and run all the time without any manual intervention.
+Theres no- We do not have the capacity, we will not have the capacity at the [ORGANIZATION2] to, to run it.
+<unintelligible/> to have someone who would be like switching languages, and and so on.
+So I see two options what the show on the screen, one would be English subtitles, regardless the language, which is spoken.
+And the the most of the area to be used for the, for video or all the languages that we are supporting as an advertisement, and then the <unintelligible/> or people can select their own language, and the video would be very useful there, but i don't know if we have to develop it as an application, I would just organize the windows on uh-
+(PERSON4) Uhh, moreover, I think that for the advertising, uh, view lets say, its more interesting to see, uh, many languages, and also maybe a small, small video.
+You can put them on the top of the actual <unintelligible/> application, ditch the HLS streaming, and even if its small, it is just for, lets say an informative reason.
+(PERSON5) Yeah, yeah, yeah.
+(PERSON4) The focus would be on subtitles.
+(PERSON5) Yes, yeah.
+(PERSON4) Ok.
+Uh, so- Just to recover, this is- Okay this is the <laugh/> prone and control of, of all the three possible, uh, representation.
+You like most the third one if I currently understood?
+<unintelligible/>
+Okay.
+Uhh.
+Would you like we try the paragraph for the first one, the [ORGANIZATION5] style history?
+Because otherwise we are removing completely the history requirements which could be fine <laugh/> of course.
+Just to be sure that these this is a decision, <unintelligible/>.
+(PERSON5) Hmm <laugh/>.
+(PERSON4) It is difficult, I understand <laugh/>.
+(PERSON5) I think that for, uh, the paragraph, with the depths is sufficiently mobile friendly.
+<unintelligible/>
+(PERSON4) Actually.
+(PERSON5) The [ORGANIZATION5], the history style of [ORGANIZATION5]?
+<unintelligible/>
+(PERSON4) Unfortunately, I havent the picture of a mobile here.
+Later my mobile telephone here, but actually usually people see, exactly, look at the telephone in vertical,<unintelligible/> having the history here in makes text really small and the history goes really fast.
+But we can try.
+I'm not, an definetly not a web designer <laugh/>
+(PERSON5) <unintelligible/> I'magine if they headed veritcally oriented.
+And it would be like video in the upper half or less actually.
+Then you would have obviously one language only, but you could have quite long, uh, history.
+(PERSON4) I can propose it.
+Uh, I'm not sure, I cannot promise it.
+But I understand your idea, is to have the video here and the history here.
+I can propose it.
+Would you like <unintelligible/> <unintelligible/> the [ORGANIZATION5] <unintelligible/>.
+(PERSON5) For the horizontal layout, uh, I think that is better fit for the last.
+The subtitle was setup where we have the small history, and it may prove to flickering.
+So this is something which, where you pay for the, you <unintelligible/> by the small video.
+But you have gained lot of lot of history here.
+(PERSON4) Mm-hmm, okay.
+(PERSON5) <unintelligible/> like scroll the history.
+Where is here you can observe is that does not make sense to scroll the overlay as a subtitle, that would be okay.
+<unintelligible/>
+(PERSON4) Okay.
+<unintelligible/>
+(PERSON5) <unintelligible/> and underneath we have a paragraph view, kind of the <unintelligible/> thing.
+<unintelligible/> to be wasting that the space for the decks.
+I would somehow have, I do not know, maybe just have like one setting button here that which, that would allow you to to the language instead of the deck.
+(PERSON4) Okay.
+I'm going to send you the update of the finantial requirements, but just to be sure for the ASR [ORGANIZATION2] in <unintelligible/> which represent- We are going to prepare both the lets say, history [ORGANIZATION5] style and the subtitle overlay.
+But the most important, for the <unintelligible/> [ORGANIZATION2] will be.
+(PERSON5) I think the subtitle overlay <unintelligible/>, thats my guess, it would for people roaming in the corridors, and, and like remotely watching what is happening.
+(PERSON4) Okay.
+(PERSON5) The other mode, which is the main screen, uh, somewhere like no not the the very main screen, but the, uh, the screen in the, in the lobby.
+For that we would use your existing implementation, and sh- Either your existing information with no video whatsoever, or the the the player to the paragraph view that we have somehow.
+I don't know how to make a float, that works or not.
+<laugh/> That is easy <unintelligible/> reasonably easy to add a floating slowly video player like the vision.
+(PERSON4) Uh, I cannot say <unintelligible/> sorry.
+<laugh/>
+I'm not- I do not have the technical, uh, understanding beneath the web things, <laugh/> sorry.
+(PERSON5) I think the- I think it should be organizable simply by like putting windows on on various models.
+So it could be just the standard window manager.
+And and two windows, one with the full screen web browser, and on top of that a video player, which runs the <unintelligible/>, and that would probably do the job.
+(PERSON4) Okay.
+I'm going to send you the review of the <unintelligible/> requirements.
+In order to be sure that I understood everything.
+And I hope we will start to with the development soon, because <unintelligible/> and we need to test, test everything.
+(PERSON5) So I was- I was also curious about the current interface.
+I am going to like throw that out, throw it away, or right start from scratch, or are you going to, to improve the existing one?
+(PERSON4) Uh, I don't know.
+It depends from the developer, sorry.
+(PERSON5) You mentioned, you mention some time ago that this was in Ruby, and you do not have anyone who work on ruby code anymore, or something like that.
+But I do not know-
+(PERSON4) No, no <laugh/> you, of course we have a really <unintelligible/> developer.
+I'm not gonna <unintelligible/> developer.
+<unintelligible/> you. <laugh/>
+Niether <unintelligible/> the, the developer.
+(PERSON5) So there, because my my question for- And that actually also, uh, uh, uh, uh, is related to the, the subtitle overlay.
+The the last setup.
+The the question is what is in the messages, and I think that the <unintelligible/> and I said this quite early in the communication.
+I think that the messages should be sentence oriented, as they are now coming to, into the like, subtitle.
+If you remember I'm <unintelligible/> subtitler, which was organizing sentences into these like the in the the two lines.
+But the way I created the subtitler, was that it was flexible, and did you manage to- I think I e-mailed you the link to <unintelligible/> and there was like little demo.
+And when you played the subtitler and you changed the size of the window.
+It like cleverly filled that space, and it was rolling smoothly, and when you reuse the space.
+It was rolling smooth, if it could and then it had resets.
+Do you remember it?
+The idea- Yeah.
+So this is this is like, text flow functionallity kind of.
+So its deciding which to, which text to put where as the messages are coming in.
+And it is what you are doing is that flowed the decisions like when the brake lines.
+You need to know how much of the text that fit there, and how much did not.
+And so that is why I was from saying that I think this text flow functionally should be part of the the final view.
+And if people change their phone size.
+The the final application.
+Should they did, and you fold size into account and <unintelligible/> should food or was that should fit, but the logic that does the text flow has to know the font size.
+(PERSON4) <unintelligible/>.
+Sorry, send me your present-
+(PERSON5) Yeah, so my question is if you can include in your plans to have this subtitling functionally in the in the front-end in the final the player, which no the font size.
+(PERSON4) I understood your points.
+Actually we, we would probably have noted that we have not talked about the possibility to let the user, define the look and feel of the subtitles.
+For the moment I will- It will not be available.
+And the reason is that these on-
+<unintelligible/> to the the the the uh, like the <unintelligible/> decisions by the user, but is also a responding to the actual space on the on the screen on the-
+(PERSON4) Exactly, exactly.
+<unintelligible/> managed but onto the French things.
+One thing is that the user can customize, for example, the phone size, of the subtitle.
+He now meaning these on our experience.
+The the user is not able to understand what is readable subtitle.
+And this is the reason why we do not put these kind of functionality, at least for the moment in the pressentation,<unintelligible/> <unintelligible/>.
+(PERSON5) <unintelligible/> use this control plus, and minus.
+I very often change the font size for the word pages, because the different web page designers where, will simply their preferences were incompatible with those of mine, and I like cannot read it.
+So if you, if you if you want to really, do it you for your safety.
+Then you would have the <unintelligible/> to disable this paling.
+You would have the work on on making the font size fixed and unchangeable.
+But I <unintelligible/> make it bad for the user.
+(PERSON4) A different aspects of this, this topic, is be able to have the wall subtitle in my window.
+So that having avoiding that the subtitles disappeared under the screen and so on.
+Like actually working like, right now.
+If you make three subtitles lines, the third one is pretty unreadable.
+These will be fixed instead.
+(PERSON5) But how?
+What is your-
+(PERSON4) First of all tying to define standard.
+For example, <unintelligible/> subtitles should not be longer than this and ask you, and all the partners to avoid, to send the longer messages.
+Of course, when you <unintelligible/>
+<unintelligible/>
+Yes.
+This is the reason why <unintelligible/> experience of course, we need a kind of offering which prepairs the subtitles before <unintelligible/>- I know that it is definitely something that you do not like it. <laugh/>
+And we have disabled <unintelligible/> in, in each places where it where, don't worry. <laugh/>
+But based on our experience, really thus [PROJECT1] of something each prepares the subtitles before the view.
+Uhh, maybe reasoning on punctuation and reasoning on max words to be displayed on the screen.
+And this is definitely disabled for the [PROJECT1] project but is something that <unintelligible/> project, because this helps us to make the subtitle more readable.
+<unintelligible/>
+(PERSON5) <unintelligible/> because I think that the logic behind this is very complicated, like the the-
+If you are making subtitles for movie.
+Then, they are offline like, you know, what should appear where.
+You, you have the time to fix it.
+And I'm sure that the there is someone who was checking the professionally prepared subtitles and fixing them like-
+<unintelligible/>
+(PERSON4) <unintelligible/> real time actually, um, most of the time seen <unintelligible/> with the human, uh, uhm, supervision.
+<unintelligible/>
+(PERSON5) You have- You have live human supervision.
+(PERSON4) Yes. It is the PSWV application.
+Remember, I can show you really nice demo <laugh/> of this kind of, of application, but usually the human supervision, is focused on fixing words autography and fixing ASR possible errors.
+And also on the look and feel of the subtitles.
+Look and feel of the subtitles is based on general rule.
+We know, for example, that subtitle's should not be longer than forty two characters.
+Usually its two line separated.
+Usually we prefer to have, uh, a complete phrase, in one subtitle screen, and those are all possible rules that can be applied in order to prepare readable subtitles.
+<unintelligible/>
+(PERSON5) <unintelligible/> then you have to have a delay for that, because the has to be completed.
+So, uh, yeah.
+Thats, if, if we are to introduce the delay of then I understand it is you can do all this clever logic.
+(PERSON4) Actually, it, it introduce delay expecialy <unintelligible/> introduce it in, when the machine translation is <unintelligible/>.
+But usually people prefer to <unintelligible/> prepare subtitles for deaf people.
+And then deaf- deaf people are not that affected from, from these kinds of uh, delay.
+Uhh, I can understand that for <unintelligible/>.
+<unintelligible/>
+<laugh/>
+<unintelligible/> different.
+(PERSON5) So if they already like have no way of getting the information.
+They are happy to wait three seconds and have it after three seconds.
+They do not realize that there is any delay.
+(PERSON4) Yes, <unintelligible/>.
+Uhh, when we prepare, uh, subtitles for <unintelligible/> lets say in offline solution.
+Instead we also check, for example, uh, screen changes, and we synchronize subtitles with screen changes in dismiss uhh, the subtitles, uh, lets say synchronize with the history.
+Uh, <unintelligible/> the program.
+Okay.
+Actually we have finished.
+I'm going to review everything and send you uh, the <unintelligible/>.
+I can wrote it also in the google <unintelligible/>, uhh, and I will <unintelligible/> maybe when we have something, uh, uhh, uh, something to be displayed, something <unintelligible/> correct <unintelligible/>.
+<unintelligible/>
+<unintelligible/> little bit more happy regarding our the little project is <unintelligible/>. <laugh/>
+(PERSON5) It is ok, I, I, I'm already quite satisfied with what we have now.
+So there is the the few things that really annoy me at the moment, but they are very the limited.
+And that is to be able to switch off the video.
+If I enter the MTRL, then [PERSON3] is probably not have <unintelligible/>  name language not shown, but
+I do not see that as big problem myself, because- <unintelligible/>
+(PERSON4) Theres the- Let me check it, sorry, <parallel_talk/>, because actually the label should be there.
+(PERSON5) It should be there? Oh, okay.
+<laugh/>
+(PERSON4) Sorry, I was pretty sure that-
+(PERSON5) I don't see the label <unintelligible/>.
+(PERSON4) Me too.
+But they were <laugh/>.
+(PERSON5) Oh okay.
+So maybe there is <parallel_talk/> are beating the developer uploader an update. <laugh/>
+And indeed, she did not put the correct version, sorry.
+They should be there.
+I remember that they were.
+<laugh/>
+(PERSON5) And, uh, what is this back, uh, uh, the video that [PERSON1] is now-
+<unintelligible/>
+I see the sent me an e-mail this morning, uhhh, have not yet to read it.
+Sorry.
+(PERSON5) Yeah.
+<unintelligible/> yeah, lets maybe, maybe lets even discuss this, because we know that is also difficult to actually stream the video in sufficient quality.
+Its difficult to, to, to acquire the the video signal and its difficult to spray.
+So thats why [PERSON1] is considering just sequence of images, such as the slides or streaming.
+And I do not know if this is, like, what is your opinion?
+What is your opinion on this, or if the video, a area can be actually those flexible and going to support either the standard video stream or this thing that [PERSON1] such as did.
+(PERSON4) I think that we can reason about it, of course, it could be.
+Uhh, I think that when we do not need to have, uh, real video displayed, but we would like to display just slides.
+Could be an a good idea to send images, because it still also help us in order to avoid the bend-
+(PERSON5) Yeah, exactly.
+<unintelligible/>
+And the quality is higher because the image is compressed as an image and not, not like the not <unintelligible/>
+(PERSON4) If its good for the uh, ASR [ORGANIZATION2] I suggest put it in the the requirements.
+I would like- I'm not 100 percent sure that it could be done because I'm not a web developer.
+But I would like to ask it to our developer for sure.
+(PERSON5) I think that your remark- like the mention of the ASR [ORGANIZATION2], I'm not sure, if its good for that or not because they are very actively- The organizers are very actively working kind of against slides.
+So they are- everybody is in their jokes is is the best bestowed for not having a video there.
+So they are trying to in introduce like they they will play some videos create <unintelligible/> presentations.
+So yes there will be slides, but they will be also entirely <unintelligible/> videos, and that is not good solution for- In that case, you do not want just to send , uhh, sequence of images.
+So I think that the images presentation, uhh, is important more important for <unintelligible/>, standard research talks, and much less for the ASR [ORGANIZATION2] itself.
+(PERSON4) Ok.
+So, that actually it is not, uh, number one priority, but its an appreciated feature.
+(PERSON5) Yeah, I think that, so, [PERSON1], [PERSON1] was considering this and one of the reasons is the the the the the workshop, there will be actively subtitling that will have either the slides or like a live demo.
+So we would be opening web-browsers.
+But then in that case, we cannot also stream, uh, images.
+So I do not know what is the best of the best setup.
+(PERSON4) I don't know, but we can reason about it at least.
+Maybe we can.
+<unintelligible/>
+(PERSON5) I wanted to do a get back to the, to the way that you are doing the subtitling.
+Because you had the experience so is just like I do not want to, like push my opinions.
+I have limited experience compared to the other boys, because you are doing more subtitling sessions than than we.
+(PERSON4) Yes, but remember that you are the project leader in the UK <laugh/>
+(PERSON5) Yeah, yeah, yeah, but, the way, the delay was introduced <unintelligible/> was introduced in the early version.
+It was simply not working.
+So thats why I, totally like dismiss that.
+And I I still kind of say, it is, there should not be any delay.
+And that I still do thing that it should be the only the final layer, the presentation the the we browser if its running <unintelligible/>.
+(PERSON4) <unintelligible/> software modules of departments are moving in this direction, to try to avoid the delay.
+We are also trying to prepare the, lets say <unintelligible/> which probably will not match at all the the history representation, but it could be interesting is that the for subtitle overlay.
+Unfortunately, some module that still full of box <unintelligible/>.
+<unintelligible/>
+<unintelligible/> the application, it is start becoming a pretty complex.
+But don't worry, we are, we are reason enough, really.
+(PERSON5) So im thinking, if maybe someone who sessions that we are running.
+<unintelligible/> could use some of your style of subtitling, so that we could see, how the delay works in practice, because right now, the <unintelligible/> are and the ASR are finally on the quality where <unintelligible/> I don't know if i told you, but I definetly in in some of the documents that recently, we had [PERSON2] colleague of mine speaking Czech on purpose.
+So there was a talk held in Czech.
+And there were two Indian students watching it.
+And they said," If we fully focused on the English subtitles we could get the, almost all the content of the talk. "
+So there were <unintelligible/> English- So they were happy, about, but they also really pointed out that full concentration was needed.
+And whenever they looked, when they raised their eyes from the subtitles, the the main screen for the slight as they got lost.
+And lost <unintelligible/>.
+So for them the, the way that we are looking at now.
+The the subtitle overlay that would be really the best solution.
+So subtitle overlay over sent images.
+That is the ideal thing for for this kind of talks.
+(PERSON4) And do you think that is the- Oh, sorry, I probably, I'm going to, uh, uhh, go out of battery.
+But we had pretty much finished.
+Do you think that having the subtitle overlay to possible text is not a problem?
+(PERSON5) No, I do not think it is problem, because the text of the subtitles flickers a lot and changes.
+So there is all you can see through that.
+So even if there is something underneath.
+<unintelligible/>
+You will, there be a point when the speaker's quiet, and then the, uh, subtitles will disappear, shortly, or they will change.
+So I think you can read two texts over each other.
+(PERSON4) Okay, nice.
+So at least we two sound decision-
+(PERSON5) So back to my, back to my question, uh, if you have a set up where you have your cashe subtitling working.
+Can we see it?
+Can we run it in one of our <unintelligible/> senators?
+Would there be way to put it into the <unintelligible/>line, so that for example, we have the same language, <unintelligible/> twice and people would choose.
+And in your subtitling view, they would choose which, they want to see with the delay-
+<unintelligible/>
+(PERSON4) Well its not possible to have a have two different version.
+You can choose the first one or the second one.
+(PERSON5) <unintelligible/> have, because where where is it implemented.
+(PERSON4) Hmm, in the publishing worker, publication worker, which is-
+<unintelligible/>
+(PERSON5) But still, the publication worker is that a single application?
+I thought its many different publishing, publication workers, so if youre in two of them.
+One would be that non cashing, and one would be the cashing one, and they would both, connect to the same works error, which then sends its the to the to the participants.
+Then there could be two versions, obviously the the language text would be crazy.
+But <unintelligible/> we do, we do that quite frequently that we have like we have to check, on, on English.
+We have English on EN, X zero and X one.
+So we had.
+Yeah, we, we often have like three different versions of English, because we are checking the edited and non edited model and <unintelligible/>.
+(PERSON4) <unintelligible/> the audio twice, so that you need to leave the ASR, for the moment we are, we are reasoning about the lets say the tree structure of the boxes in order to.
+(PERSON5) <unintelligible/> now.
+So, so if [PERSON3] is still on the call, if you clould discuss, sooner or later.
+<unintelligible/>
+So [PERSON3], if [PERSON4] sends different specification of briefing of brains.
+I think it would be very useful for some of the monday talks, which are held in English to also have English subtitles- Also [PERSON4] is delays, this cashing more useful for ASR, or for the translation?
+(PERSON4) I think on the ASR, we probably will benefit small.
+<unintelligible/>
+Because the machine translation, already prepares phrases, in order to be able to translate <unintelligible/> meaning for phrase.
+<unintelligible/>
+(PERSON5) Not this monday, but in two, in two weeks now or three weeks now.
+I think it would be very useful to run at one of the Monday seminars,to run a specific test, focused on that flicker like flicker versus delay.
+And what would be the best experience for the people.
+There we should have your, your full <unintelligible/> plan in comparison to our full <unintelligible/> plan, and our full <unintelligible/> plan- So it would be double audio sent, but we are now connected with wires.
+So that should be doable.
+<unintelligible/>
+(PERSON4) We will probably require, uhhh, one day at least in order to tune everything.
+And this week we are definetly busy, and also the next one.
+Maybe the first, or second week of March would be fine.
+<unintelligible/>
+(PERSON5) So plan it.
+And I would like to see is uh, so normally you are going, you have the setup for the ASR.
+So well do it for talk whitch is held in English.
+So the ASR will be delayed, and also the translation, we should try our way of presenting the subtitles, which include- [PERSON3], please remind me.
+Is subtitler included in, in the lines are not anymore?
+<unintelligible/>
+So we only use- Sorry, I can't understand.
+<unintelligible/>
+So we should, we should also run the subtitle, or there is this flicker or desire flicker setting, and we should <unintelligible/>.
+<unintelligible/>
+So before that station.
+We should just have their ways, the delays, the letters as our three said," things off recur, and see which of those we like best.
+<unintelligible/>
+And we shouold see this for the ASR language.
+And also for some target translation language.
+If it is here in [LOCATION1], then probably Czech.
+If it is for intenational audient, then probably German.
+(PERSON3) Okay.
+(PERSON4) Okay.
+Nice.
+That is all.
+Think you so much to both of you.
+<unintelligible/>
+(PERSON5) <unintelligible/> lets be in touch afterwards.
+Okay?
+<unintelligible/>
+(PERSON4) Bye.
+Bye bye.

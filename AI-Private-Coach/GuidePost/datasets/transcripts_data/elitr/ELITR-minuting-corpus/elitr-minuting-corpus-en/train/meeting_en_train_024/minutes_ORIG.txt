@@ -1,0 +1,25 @@
+Demo with [PERSON2]
+Test session 20200505-1100
+• With [PERSON5]
+• [URL]
+• First assessment:
+o Us talking English, MT into Romanian:
+• hard to understand what we were talking about
+• some sentences do make sense, some half, some don't
+• occasional random entities
+• one funny mistranslation (Czech vs cheque)
+• Second test:
+o German 
+• 2min41s [URL1]
+o [PERSON5]'s assessment
+• Could not really follow what it was about
+• It kept listening in, listening in, and then the long chunk of accumulated words was quickly emitted as a number of sentences
+• Very serious problems with sentence segmentation.
+o [PERSON4]'s observation:
+• he started the videoplayback too late, so it 
+o [PERSON3]'s observation:
+• There is way too coordination required, we need a single-point of playback
+• I was kicked from … [PERSON4]: yes, strangely [ORGANIZATION2] ended a few minutes before it was supposed to end.
+• [PERSON3], can we rejoin on skype now? My skype name is [PERSON4], I am probably invisible.
+• Was [PERSON6] on the call, too? Could she make it to the skype?
+

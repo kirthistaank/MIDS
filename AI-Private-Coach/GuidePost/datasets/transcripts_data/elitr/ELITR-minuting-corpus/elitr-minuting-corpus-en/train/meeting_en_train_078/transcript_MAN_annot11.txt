@@ -1,0 +1,150 @@
+(PERSON5) <unintelligible/>
+<other_noise/>
+(PERSON3) <unintelligible/> from someone.
+Now its better.
+Maybe you have too sensitive mic [PERSON5].
+<other_noise/>
+(PERSON2) I'm sorry for being late.
+And uh, yeah, lets, lets get started, because uh remember we will, kick, kick out of the meeting in 30 minutes or so.
+So, what are the news?
+I know everything from uh, [PERSON5].
+Well, actually, actually not everything.
+But I'm curious about the place <unintelligible/>.
+(PERSON5) <unintelligible/>
+(PERSON2) <unintelligible/>
+So [PERSON3] has a presentation right?
+[PERSON3] can you see it?
+(PERSON5) Yes, [PERSON3] <unintelligible/> presentation?
+(PERSON3) Yes and we didnt include the video.
+(PERSON2) Yeah, because we do not have any.
+There was nothing to uh, to include and the moment.
+The one, which would be most for one would be the <unintelligible/> video.
+(PERSON3) Sir, there is a  90 seconds space, what do we do?
+(PERSON2) 90 seconds, that is good.
+90 is quite a lot.
+And can you edit it somehow?.
+(PERSON3) Yes, we can.
+We can append to the end, and and they will, they will, they will paste it together for <unintelligible/> need to paste the videos.
+(PERSON2) Okay.
+Thats is good.
+So can can I see the the presentation, the recording is it available anywhere or, or not?
+(PERSON3) Yes, I can send your the link and confine it among the uploaded videos.
+(PERSON2) So that there are other presentations, also available right for by other teams?
+(PERSON3) No only by me.
+And i worry that you need to play the two videos separately, because there is one video of me talking, and the other is the recorded screen.
+(PERSON2) I see.
+(PERSON3) And they are in webm format, if you download them.
+(PERSON2) So hopefully will play for me, i think, I have seen some webm, webm files,so thats very good.
+Ok.
+So uh.
+So you know, there is there is a rage.
+<parallel_talk/>
+They not <unintelligible/> results of flicker.
+<laugh/>
+[PERSON5] <laugh/> youre again, <unintelligible/>.
+<laugh/>
+Or maybe its not [PERSON5], maybe someone else's is look at me.
+(PERSON3) Its me, because my laptop is stuck in this moment.
+I borrowed <unintelligible/>.
+(PERSON2) Okay, yeah thats good.
+Yeah.
+Thank you.
+So I will have a look at the presentation.
+The deadline is tomorrow, right?
+Tomorrow anywhere on Earth, or are those any, any specification of the time zone?
+(PERSON3) No. Maybe tomorrow, tomorrow, AOAA, AOI.
+(PERSON2) Yeah.
+Okay.
+Thank you.
+So I'm now looking at the evaluation, the this link, the <unintelligible/> scores and im still curious like confused, its video name.
+So maybour so <unintelligible/> is the one that we were subtitling.
+And how do we know-
+Okay so we do know the reference for the English maybour.
+Okay.
+So this is, this is what we can present.
+But then I'm really surprised to see the <unintelligible/> is like points to into one and two point 19 and thirteen, or fourteen into, into German.
+Why is it- Is it correct?
+It is in this, this big, uh, like it is the check that bad, or is it an issue with the segmentatio?
+In general, the checks course, look look strange.
+<other_noise/> <unintelligible/> also very very bad like.
+(PERSON3) Yeah, <unintelligible/>
+(PERSON2) Yeah so-
+(PERSON5) I would like to point here <unintelligible/> ASR <unintelligible/>.
+(PERSON2) Yes, exactly this only translation, and also need the world error rates.
+<other_noise/>
+(PERSON5) <unintelligible/>
+<unintelligible/>
+So here is the the demo.
+I'm opening the demo document now, and I'm searching for that Mabel, Mabel-
+(PERSON5) <unintelligible/> the demo document in the <unintelligible/> in the <unintelligible/> scrolled <unintelligible/>.
+(PERSON2) Okay, okay.
+Yup, yeah, okay.
+So the <unintelligible/> rate for English ASR, shefers is terrible order rate.
+Ok.
+That would explain why the <unintelligible/> are so bad, the <unintelligible/> are not so bad.
+And uh, so this is, uh, this is what we can report uh, for the <unintelligible/> check.
+And this is what we can report for the marble English speech, and actually which of the systems have we used for the demo as well- <unintelligible/>
+<parallel_talk/>
+(PERSON5) I don't know wha that domain <unintelligible/> has <unintelligible/>
+(PERSON2) Yeah. So <unintelligible/> <other_noise/>
+And so there we would need to look at the the file.
+So please, uh, uh, uh, <parallel_talk/> [PERSON5], please provide <unintelligible/> to the ASR outputs as well, as the references.
+And same for the bless course here.
+So in the [ORGANIZATION1] sheets <unintelligible/> and I'm adding two lines among, and would like to know the <unintelligible/> base directory.
+<other_noise/>
+So if you could paste here.
+<unintelligible/>
+<unintelligible/> but I do not know, where the source is.
+And then <unintelligible/>
+(PERSON5) <unintelligible/> lots of noise, if.
+<unintelligible/>
+[PERSON3] are you using headphones or not.
+(PERSON3) Yes, you can see.
+(PERSON2) It is strange that is that its making so much noise.
+(PERSON5) Yes its quite, quite <laugh/>
+So I can paste <unintelligible/>
+(PERSON2) <unintelligible/> the translation into czech was like- I would not say that this was so, it was so bad that it would deserve, it would deserve such a low score.
+And also <unintelligible/> in the German.
+<unintelligible/>
+German one were used for the translation for the demo itself.
+(PERSON5) Come again sorry, i didnt hear.
+(PERSON2) Which- So we have now, for example for the German <unintelligible/> two versions, which one was used.
+It was <unintelligible/> system like this one.
+(PERSON5) So for today, we are used <unintelligible/> ASR system <unintelligible/>
+(PERSON2) And the empty is the same in all cases right?
+(PERSON5) Yeah theyre <unintelligible/>.
+(PERSON2) Okay , yeah, yeah, yeah.
+And this missing cell, this cell C5.
+Uh, is it also the <unintelligible/> ASR, and then empty output so should it be the same as, as C7?
+(PERSON5) Yes <unintelligible/>.
+(PERSON2) I'll have a look at the and and the files and for the czech, this one was also used.
+So here in vaguely seems that <unintelligible/> system work worse, but I do not trust these numbers.
+So we we should double check.
+(PERSON5) Actually I should double check <unintelligible/> the domain adaptation, maybe that could be the reason <unintelligible/>
+(PERSON2) Yes, but youre talking about ASR scores, and not the bless scores <unintelligible/> in in this bullshit. You are talking about the the world error rates in the table from last surgical from the 90.
+(PERSON5) Yeah yeah so basically I used the sync <unintelligible/> to get to get distance script.
+<unintelligible/>
+(PERSON2) OK still, I Do not think that there is so far any like a new information that so the the general, this is what was used for the demo right?
+<parallel_talk/>
+So we can safely use these numbers in the presentation.
+And for the czech <unintelligible/> we used the general one.
+And not the adapted one.
+Right?
+(PERSON5) Yes we used he general one.
+(PERSON2) <unintelligible/> this morning- <unintelligible/>
+No.
+I'm talking about the czech the czech ASR because we also <unintelligible/> further.
+(PERSON5) <unintelligible/>
+(PERSON2) And so that was the the the general oneone.
+So there could be some little-
+(PERSON5) <unintelligible/>
+(PERSON2) Ok.
+So that is for this.
+And that there is only numbers, which should make it into the demo presentation.
+And there is no change in the plans like choice of a different video does not really goes like coming to a question at all.
+I think this is.
+This is perfect.
+So that is the the minor than things like fixing the the the <unintelligible/>.
+I did not know what the you go to it or <unintelligible/>.
+(PERSON5) <unintelligible/>
+(PERSON2) And what is important is that you run a test the with the video and the video acually finishes-

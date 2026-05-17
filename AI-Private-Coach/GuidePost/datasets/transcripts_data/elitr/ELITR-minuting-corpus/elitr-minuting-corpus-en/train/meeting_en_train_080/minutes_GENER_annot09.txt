@@ -1,0 +1,22 @@
+[PROJECT3] Surge
+23/06/2020
+13 min
+
+-Purpose of the meeting.
+-- To make sure that everybody has contributed to the document (the [PROJECT3] Surge).
+-- To inform everybody what to work on over the summer.
+
+-Workflow.
+-- There is search for a person, who would supervise the annotators (suggestion -[PERSON9]).
+-- There is search for a person, who would implement the user interface (suggestion - [PERSON9]).
+-- Someone has to stay on the call in case others come late.
+-- The demo tested previously went technically very well, however, the quality has to be improved (not usable for practice).
+
+-Plans.
+-- The calls will not happen during summer, they will start again in September.
+-- The task for summer is a clean-up.
+-- When the calls will be restarted, it is important to find a date suitable for everybody.
+-- There will be one more demo session (user and advisory board) in which the technical colleagues will be present.
+-- The demo should be kept as it is.
+
+Minutes submitted by:[ANNOTATOR2]

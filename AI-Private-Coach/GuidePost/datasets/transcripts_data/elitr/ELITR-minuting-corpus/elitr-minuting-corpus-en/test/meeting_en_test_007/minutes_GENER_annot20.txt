@@ -1,0 +1,31 @@
+[PROJECT3] CZ
+Date: 31. 08. 2020
+Attendees: [PERSON10], [PERSON2], [PERSON6], [PERSON3], ([PERSON1])
+Purpose of meeting: Project progress check – [PROJECT6], [PROJECT1], [PROJECT4]; [PERSON10]'s visa 
+
+- Organisational portion.
+-- Reminder of Thursday's call.
+--- [PERSON6] and [PERSON2] will be present.
+--- Recommended that [PERSON10] participates, too, but he was not aware of the meeting.
+--- [PERSON10] must be added to the specific mailing list.
+-- [PERSON10]'s visa and stay in [LOCATION2].
+--- Personal department needs [PERSON10] to come to the Czech Republic to enter a proper work contract.
+--- Application for the visa must be entered as soon the [ORGANIZATION4] opens again.
+--- When allowed to fly here, [PERSON10] should preferably stay for a longer time period, but it is up for discussion with [PERSON1].
+
+- Progress check.
+-- [PROJECT6].
+--- [PERSON9] is finishing testing, [PERSON3] resolving appearing issues. 
+--- [PERSON9] does not communicate well, needs to be addressed at next meeting.
+--- Problem with quality estimation is being resolved.
+--- Leaflets for participants are being prepared in the meantime.
+-- [PROJECT1].
+--- Progress is obvious from material.
+--- Focus is on back translation now.  
+--- Discussion with [PERSON7] on what should follow needed next week.
+-- [PROJECT4].
+--- [PERSON10] is getting acquainted with the project.
+--- Main idea is to explore, how many constraints can be added, before the meaning is lost.
+--- Contemplation of whether to employ machine-learned evaluation methods.
+---- They might be implemented into the pipeline, or be used for paraphrasing.
+--- Ask [PERSON1] for a meeting, so he can give his opinion. 

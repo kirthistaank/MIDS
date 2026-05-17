@@ -1,0 +1,98 @@
+[PROJECT2] Dry-run review meeting 
+Date: September 8th, 2020
+Attendees: [PERSON13], [PERSON24], [PERSON13], [PERSON8], [PERSON10], [PERSON1], [PERSON12], [PERSON14], [PERSON11] + ??
+Purpose of meeting: Review of 5 work packages, checking progress and status
+- Introduction.
+--Checking who is present and who are the new members.
+--Reviewing the agenda.
+--Organization and timing of the meeting discussed.
+--Instructions for asking questions were given.
+
+- Overview of Project and Management (work package 8).
+--Agenda for the whole day was described with timing.
+--[PROJECT2] goals (2019-2021) were presented together with main [PROJECT2] events.
+--Summary of achievements in first reporting period -in the first eighteen months of the project.
+---Integration of ASR and MT into SLT.
+---Research in ASR, MT, SLT.
+----Clarifying issues regarding encoder decoder plus attention streaming ASR.
+----Working towards integration of fully neural ASR into the vibrant processing.
+----Discussion with one meeting member- they have been already using neural as standard.
+----End to end spoken language- checking the status with [ORGANIZATION7] team.
+---Research in Minuting: Speech summarization achievements described, plus difficulties in obtaining the data.
+----Information on recording this meeting, consents will be re-approved due to ethical issues.
+---Dissemination tasks and achievements.
+--Summary of deliverables and milestones was presented.
+--Financial management was shown.
+---All partners' spending was described together with explanation; there are no major deviations from the financial plan.
+----Some mistake was found in spending for [ORGANIZATION11];the participants agreed on checking.
+--Scientific publications: all partners have published several publications and numbers of papers for individual partners were mentioned.
+---Discussing one join paper, whether it falls into this reporting period.
+--Spending for partners are not clear, should be double checked again which will be done during lunch break.
+--Short summary of the impact of the Covid pandemic on the project.
+--Conclusion- so far all looks well, all partners are aware of the financial situation and technical problems are being solved.
+--Invitation to ask questions.
+
+-Work package one presentation.
+--The topic of work package was introduced – Data collection
+---Task 1.1: Curation of speech training data. Result: creation of two hundred and sixty hours of speech training data. Data was described in the paper that was published earlier this year, in addition, three Czech ASR test sets were created.
+---Task 1.2: Collecting of data for speaker and accent adaptation task was described +an event Fair of student Firms was described in detail with the results and publication.
+----The speaker was asked for some updating and clarification.
+---Task 1.3: This task was about collecting data, for empty ESLT that covers as many of the languages as possible. OPUS-shared MT corpora. There were some strong improvements in fine tuning when evaluating on in-domain test sets.
+---Task 1.4: This task deals with collecting data for automatic minuting, this corpus is still under development.
+---Another initiative starting earlier this year is [PROJECT2] test set.
+--Conclusion, time for questions, warning about keeping the time plan. Discussion about ethical issues, agreement on sharing and exchanging data with other partners. Discussion about Russian language, question about doing [ORGANIZATION12] in IWSLT.
+-Work package two presentation.
+--Discussion about other colleagues' availability for the call.
+--The goal of the work package two is to develop the speech recognition systems.
+--State-of-the-Art before project was described with focus on Hybrid HMM/ANN systems and Sequence-to-sequence models.
+--Work package 2 task structure was introduced.
+--ASR system development.
+--Outlook for the rest of the project was introduced including the things that will be seen in the next review.
+--Time for questions.
+---Comments regarding the video and sharing it. Discussion regarding integrating the interface for live fixes and finding the right person to do it.
+---Decision was made to move this topic outside the call and organize separate meeting on this. Comments on typos in the presentation and evaluation of the presentation.
+-Work package three presentation.
+--Approach to spoken language translation. Explaining pipeline and end to end SLT.
+--Work package overview. The goal of this work package is to ensure high-quality MT for spoken language input.
+--Task 3.1 ASR transcript normalization
+--Task 3.2 Robust neural machine translation with noisy input
+--Task 3.3 End to end speech-to-text translation
+--Problems and future work.
+--Conclusion. Recommendation for the presentation structure- linking back to the tasks. Remarks regarding working well and no deviations from the plan. More explanation regarding linking back to the task, specific examples.
+-Work package four presentation.
+--Work package overview
+--Task 4.1 Baseline models
+--Task 4.2 Document-level MT. The slide is not finished.
+--Task 4.3 Multi-target MT
+--Task 4.4: Multi-source machine translation
+--Task 4.5: Flexible multi-lingual machine translation. It is scheduled for next year and hasn't started yet.
+--Summary of the work package.
+---The presentation was too short. There is a recommendation to provide details on some of the papers mentioned. Discussion on what was skipped and what should be included.
+--Doubts regarding who is going to present work package five. Problems with internet connection and the presenter speaks very quietly- it's almost not audible.
+-Work package five presentation.
+--Automatic minuting module. Problem with screen- it doesn't correspond to the presentation the speaker is giving.
+-- Overview of the individual tasks. Each of them was explained using graphs and charts.
+---Task 5.1 Transcript segmentation
+--- Task 5.2: Segment level summaries,
+---Task 5.3 Dialogue summary,
+---Task 5.4 Topic matching
+--Planning for shared task in 2021. Individual tasks were shown and described.
+---Task A
+---Task B
+---Task C
+---Task D
+--End of presentation, space for the questions. Remarks regarding the formal divisions, adding the structure, multiple comments- difficult to follow, no clear structure, slide is not matching the talk, conclusion is missing, problems with network connection.
+-Discussion among participants, if they should include summary table and concrete plans in their presentations.
+
+Minutes submitted by [ANNOTATOR1]
+
+
+
+
+
+
+
+
+
+
+

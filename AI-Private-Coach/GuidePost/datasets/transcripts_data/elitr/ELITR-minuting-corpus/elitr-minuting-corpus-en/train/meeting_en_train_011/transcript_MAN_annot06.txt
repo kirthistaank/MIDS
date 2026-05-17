@@ -1,0 +1,1221 @@
+(PERSON6) I tried disconnecting and connecting again, because the WiFi of <unintelligible/> seems unstable.
+(PERSON3) Okay.
+(PERSON6) But I may not get any Ip address on the wired connection.
+So we'll see and another reconnect with the unstable connection.
+<other_noise/>
+Yeah, hello.
+I hope you you can hear me.
+(PERSON14) Yes, yeah.
+(PERSON6) So uh, so sorry for it being like myself or not not, <unintelligible/> almost late, I'm on the Wifi which just when I started the test call uh, told me that it is unstable.
+Uh?
+So I'm trying to figure out how to get wired connection as a substitute and my colleague, is is helping me.
+So if I disappear.
+Then that that is my local.
+Uh, wireless a problem.
+We have the slides shared.
+So that should not be too big of a problem for anyone to step in and present the slides, uh.
+But the the uh.
+The the the plan is that I will be showing the slides and scrolling them for everybody.
+And yeah, the uh, the the uh.
+The fallback should be only only, should be used only in case uh, when I disappear.
+So let me do one last touch of the slides.
+Because we have one more number for you.
+Oh, okay.
+Yeah.
+So I'm delighted to see all of you coming to our user <unintelligible/> session meeting, uh, thanks for joining's thanks for taking the time to learn about our project.
+If you have any questions.
+Please do not hesitate to just unmute yourself and and step in a ask questions to all of the presentations.
+I will keep my eyes on.
+Uh, the uh, the watch.
+So I'll stop you if there is not enough time for this length this long a discussion in the middle of the of the presentations.
+Uh, we will have another a block of a questions at the end of of the session.
+So don't worry to ask immediately, but be ready to delay, uh, your questions.
+For later, if if there if they become too interesting, and and too much time consuming uh.
+So um, as as a set, I will be presenting the slides, uh.
+But I will not be a talking to all of them.
+There is many colleagues of mine from the project, so for the various work packages.
+It would be them who will be presenting it.
+And this.
+Uh, this whole presentation today is kind of an extension of a demo, which we ran for our project project officer.
+At the end of June.
+And so some of you who have attended that session we will see uh, the same demos, as we were showing a last time but what is new is the details about the work packages, uh.
+So this is definitely off interest.
+The audience today that is you.
+Uh, is is also different.
+Uh, it's mainly technical people.
+So you will understand all the details that we do not even mention in the slides, and we are a here exactly to ask you for your advice like what what is the technical detail that you are doing wrong.
+What should be doing better.
+So please, please help us.
+Some of you are official members of the user and advisory board of our project.
+And some of you are uh, just here for this single session.
+So if you find this interesting.
+Uh, then it would be good for us to uh, to invite you to this official board, but nothing more will actually happen then one more meeting of this kind in another year from now.
+Uh.
+So there would- won't be any any other work load.
+So if you if you find that interesting, uh, then please, let us know, and we will have a list use, so that we have a larger user and advisory board.
+So uh, I think it is now the right time to uh, to start the presentation.
+And for that.
+I will share my screen.
+If I'm manage.
+So by the way, this session is being recorded.
+If you are a as a as an if you do not like, that fact, please let us know, and we will surely cut you out so that you don't appear anywhere in the recording.
+It's absolutely not sure if we actually, uh, actually published this anywhere, but if the demo runs well.
+And if we succeed in in the recording it.
+Then a possibly we may.
+We may use cutouts from this.
+Ok, so.
+I hope that you can see the the slide and when other colleagues of mine are talking I'll also try to put the slides to the [ORGANIZATION4] document.
+That list the agenda, so that you can browse them in case if the connection disappears for you um, and yeah otherwise, you will get the slides after the session.
+Uh.
+So the plan for today is to give you a brief overvie- overview of the project.
+In the remaining five minutes.
+And then to present the individual work packages.
+It will be always about five minutes of presentation per work package.
+And then there is a time for three minutes per each work package.
+Uh, obviously, some of the work packages are more interesting and some of the are less interesting for you in in person.
+Uh.
+So we will just make sure that overall we finish this session a by around 4:10 in [LOCATION2] time.
+Um, so in about a hour from now.
+And then the further interesting part comes, which would be the demos.
+Uh.
+The demos will be a live in the sense that not everything of the demos would be broadcasted through this [ORGANIZATION6] interface.
+But we will also require your participation.
+Uh, you should be able and and ready to run your own web browser and follow the demo as it is being broadcast on the Internet.
+Uh.
+So as you will see how that works, but we'll.
+We'll get to that.
+So there will be two user interface is shown, and we will give you a brief description of the user interface before each of the demos.
+And as said, there is a reserve of 20 minutes, at the end of this tour slot for any further discussion.
+Uh.
+So uh, we have plenty of time.
+So, [PROJECT2] is is a research and innovation project.
+Onto the horizon 2020, work work frame.
+Uh.
+And and there several topics that are the main aims of [PROJECT2] is highly multilingual machine translation and speech translation, then document level mission translation.
+And we also have the goal of automatic uh, meeting summarization, which we call Minuting.
+[ORGANIZATION12] is the coordinator of the project.
+And our research partners are the [ORGANIZATION8].
+And [ORGANIZATION1] Institute of Technology.
+We have one integration partner the company [ORGANIZATION9] from [LOCATION3].
+And one user partner, which is the company [ORGANIZATION10].
+That's uh, one of the remote meeting, uh, companies many of you know very well.
+Uh, and we also have one additional user partner.
+And as the [ORGANIZATION8] of the Czech Republic but uh, the [ORGANIZATION8], did not want to get any single Euro from the [ORGANIZATION14].
+So they preferred to have to fund their contribution to this project by themselves.
+So that's why they are going to kind of standing outside of the consortium technically but not workwise.
+So they are very much in contact with us.
+And uh, there are many research goals.
+But there is one main event around which the project is kind of center.
+And that belocks- belongs to one of the two main use cases of the projects.
+We should be interpreting so live interpreting with machines at the [ORGANIZATION2] congress.
+This is a [ORGANIZATION3] of the [ORGANIZATION7] and close neighborhood.
+Uh, and this Congress was supposed to be held in [LOCATION2] in May this year, but due to COVID outbreak.
+It was postponed by one year.
+Uh, so uh, we would one extra year for improving the models, which is great.
+And so we are of very much hopeful that the [ORGANIZATION3] will indeed take place in May 2021.
+Uh, I've already mentioned that it's a research and innovation project.
+So are you all know that some of the the aims that we have are mainly innovations, so just putting things to uh, to practical use, while some are a highly a unstable.
+It's not clear how things should be done.
+And that's the research aspect of [PROJECT2].
+So machine and speech translation have been around for decades but the high multilingual <unintelligible/> research.
+Similarly for document level context, or uh, cross sentence context, there again.
+It's not a very clear yet how to do it reliably in in in large scale, and the automatic meeting summarization.
+It's something which is very new.
+And there we only plan to run a shared task.
+So define measures define task properly, and start the research in that area.
+We do not expect any working application.
+In pictures you know that that's easy.
+SLT is ASR + MT, and this AM is automatic minuting.
+Uh.
+We focus on number of languages.
+Our core languages are actually six English, German, and then Czech, uh, but we also cover French, Spanish, Italian and and Russian, and these are our ASR languages.
+Uh, and then for machine translation we again, focus on English, German and Czech primarily but our systems handle all European languages.
+And experimentally we are trying to cover all the languages that our user partner needs.
+This [ORGANIZATION2] languages are 24 EU + 19 additional languages.
+So Albania and Arabic many of these are a very high resource, very, very much low resource languages.
+And some are not clearly defined from the linguistic point of view, either.
+Such as this Montana green, or or others.
+Um.
+We aim at helping [ORGANIZATION7] that are in the uh, European Association of of them. 
+Um, but we also aim to help, you institutions across the EU one of the prime possible partners.
+There could be the DG the director the gen- the director general for interpretation, then possibly international companies, a local companies for easier access to cross single communication.
+And then possibly end users.
+What comes now would be the presentations of the individual work packages.
+And this is the overview of the work packages.
+Uh, we will start with the work package on data and then proceed on to the work package of speech recognition then spoken language translation, which is the combination of uh, ASR, and MT.
+The details on machine translation would then talk about work package on automatic summarization of meeting.
+And we have also a presentation on the integration, which is a very important aspect of of this.
+We are not covering management and dissemination.
+But we have a few slides on ethical issues, a new work package was added to [PROJECT2] by a request of the [ORGANIZATION5], because we are gathering data, and we should handle the providers of the data properly.
+So now we are moving to the work package on data.
+And I hope that [PERSON1] is here and can unmute himself.
+(PERSON1) Yep, I'm here I hope you can hear me.
+(PERSON6) Yeah yeah and I'll be moving the slides for you.
+(PERSON1) Okay, good afternoon everyone, my name is [PERSON8].
+And I'm from the [ORGANIZATION8].
+So I'm gonna be talking about work package one which is about data collection.
+So this work package plays a central role in project.
+And because it provides the other work packages with a training and test data that they use for building their systems.
+And for doing research.
+Some of the data.
+We produces curated from existing sources some of it's completely new.
+Wherever possible we released the train data publicly, and we also release test sets.
+So they can be used by the wider research community.
+Now <unintelligible/> have five minutes.
+So I'm gonna talk about just few highlights, and then briefly mention some ongoing work in future plans.
+OK, next slide OK so.
+So which trying to sport, huge number language pairs so there are the seven I AS- ASR languages 43 target languages and as far as possible we trying to support every every single pair.
+We were also interested in a very specific domain, the domain of order <unintelligible/>.
+There isn't <unintelligible/> in domain parallel corpus <unintelligible/> so we can't just go out and download a data set.
+So first of all what we've done is to try to cover as many language pairs as possible using data for any domain and any genre.
+So great resourceful machine translation is <unintelligible/> which is a huge collection of Polo corporate covers hundreds of language pairs and cover the <unintelligible/> range of domains and genres.
+So there are translations of the bible, subtitles from movies, elementary proceedings and so on.
+So what we've done is we sampled a large multilingual parallel corpus that's suitable for training the projects initially empty system.
+So in first version we <unintelligible/> to million sentence pairs for every language pair, cove- covering most of the the projects pairs.
+We used <unintelligible/> for pairs with less data and this gave us a corpus of 200 and 26 million sentence pairs.
+A variant of this is called opus 100, and it covers a slightly different and slightly more diverse sort of languages, and we have used up from research.
+And that is actually now available.
+As part of of opus collection <unintelligible/>.
+We've also been working with an extended version of the data set to remove this artificial one million sentence pair limit.
+And we used that for training some of the MT systems that you will see later on in the demo.
+Next slide.
+Ok so opus can give us plenty of data, but it's out of domain so for in domain data, we have to cool it and prepare it ourselves.
+So there is an other EU project called Paracrawl which is specifically focused on cooling a parallel data from <unintelligible/>.
+And we've been  using version of their cooling pipeline.
+So we started out by collecting data from the website, <unintelligible/> [ORGANIZATION7] and [ORGANIZATION2].
+That's given us a monolingual data covering 24 languages, and some languages we were able to extract lots of data.
+For others it was bit more spots.
+On an average we gotta <unintelligible/> of 40 000 sentences per language.
+We now applying similar approach to extracting parallel call pro, and we are using the reports from the website of the European court of auditors.
+So this is great resource, because the majority of their reports are published in all 24 official EU languages.
+So far, we've extracted <unintelligible/> to pairs including English.
+And that's giving us really good <unintelligible/>.
+So on average 280000 sentence pairs, per language pair.
+And we are now working on the on non Englishness.
+Ok as I said to stop we are trying to release training and test data where possible.
+So at least the test set is a GitHub repository.
+Where we collect data that we use to evaluate ASR, MT and SLT systems.
+This is a public repository, and we want other groups to adapt our data.
+So we spend time making sure everything's in a consistent and convenient format.
+Currently consists mostly of Czech, English and German documents, uh, but the goes to represent all of the [PROJECT2] languages using in domain and general recordings and texts.
+Currently we have over 16 hours of recordings of original speech <unintelligible/> 150 original documents, witchery, the written or transcribed from audio sources.
+Most documents are also translated <unintelligible/> or live interpretation.
+And in particular we've been using this for evaluating on existing SLT systems.
+And as losing proof will be able to provide measurements of the progress.
+And we can be working on expanding this data by providing additional translations and <unintelligible/> languages.
+Ok.
+Next slide.
+So in terms of data automatic minuting probably the most challenging task in the project,.
+As there are very few pre-existing resources.
+So we've been collecting and annotating data, pretty much from scratch this involves making audio recordings of meetings like this one and producing transcripts and then collecting it up pre-prepared agendas and meeting minutes.
+And then we annotate the status so the main idea of the the annotation here is to connect segments audio recordings and the transcripts with the corresponding items in the meeting minutes.
+Uh, we've been collecting data from our own meetings as well as other EU projects.
+So far we have approximately 92 hours worth of meetings in English, 50 hours were I think Czech.
+In the English meetings, most of the participants are non native speakers.
+So this makes it really challenging data set for ASR.
+This corpus is still under development.
+Um, so far it's been used as a test set for preliminary experiments in meeting summarization.
+We continuing to collect and annotate data.
+Um, I just like to highlight that there is actually open <unintelligible/> for data.
+Here you can see the link to the local post.
+Of the [PROJECT2] website on the slide.
+Um, we're hoping to collect recordings and minutes from even more even more sources with a view to running a shared task.
+And if anyone here attend regular meetings, the the on confidential.
+And the come with minutes and may be able to share that data with us that would really help us out.
+So please get in touch K.
+And final slide please [PERSON6].
+So yeah, I just quickly mentioned some other works.
+Uh, we have some recordings in transcriptions from Czech national radio.
+Last time, I checked that was about 250 hours worth, I think it's probably more.
+But now we are also working on the uh, mostly parallel corpus of speeches transcripts translations and interpretations from the [ORGANIZATION11] plenary sessions.
+Covering 2008 to 11, so that's where translations into all of the EU languages were available.
+And of course for the, automatic minuting in denying MT and [PROJECT2] test set.
+They sort of talked about already the work is ongoing, and we are continuing to gather more and more data.
+Okay, so that is all for what package one.
+If there are any immediate questions.
+We can take them now, otherwise later.
+(PERSON6) Yeah, thank you [PERSON8].
+So uh, if you have your questions please keep them for a later, rather.
+And let us move on to the ASR just to be on the on the schedule.
+So the ASR should be presented by [PERSON8], right.
+(PERSON8) Yeah, hi hi everyone.
+So I am [PERSON8] from <unintelligible/> I <unintelligible/> work package two.
+So <unintelligible/> that we we want to sequent to sequent ASR systems.
+The reason is that the current system we had it's <unintelligible/> ASR system.
+And in order to be uh <unintelligible/> we had to follow <unintelligible/>.
+Which included several components and require different expertise.
+For example I I need to to be ASR system for Czech.
+And we <unintelligible/> yeah, it it <unintelligible/> the system <unintelligible/> is not optimal because I don't know the Czech language.
+And yeah we want to sequent to sequent models to <unintelligible/> it offer end to end <unintelligible/> so if it's.
+Putting one sequent model <unintelligible/> to to <unintelligible/> text sequence.
+And yeah more important it it had better performance, and to be <unintelligible/> we want to consider two setups.
+<unintelligible/> one is very good to apply system <unintelligible/>
+And the sequent is online setups <unintelligible/> sequent to sequent model to perform low latency streaming <unintelligible/> for the spoken language translation text.
+Next slide please.
+(PERSON6) Yeah.
+(PERSON8) And I would like to present.
+<unintelligible/> investigate two sequent to sequent models one is <unintelligible/> and the other <unintelligible/>.
+And the thing we <unintelligible/> sequent to sequent model <unintelligible/> it's to the <unintelligible/> data.
+<unintelligible/> and for that we two data <unintelligible/> yeah it it.
+<unintelligible/> sub sequence sampling.
+Yeah we we have run <unintelligible/> on telephone <unintelligible/>
+And at the final result we <unintelligible/> about our <unintelligible/> with 2000 hours training data and yeah this is <unintelligible/>.
+On the text.
+And for apply setups we also consider to <unintelligible/> sequent to sequent model to perform in <unintelligible/>.
+But it had several components <unintelligible/> had latency problems.
+For example if we <unintelligible/> sequent mode <unintelligible/> with scans it always scanned <unintelligible/>.
+And also the standard <unintelligible/> to the size and it's all <unintelligible/> sequent to sequent models walk in in in not in low latencies <unintelligible/>
+So if we to achieve it had to <unintelligible/> complete input and it not low latencies <unintelligible/>.
+We propose some <unintelligible/> to to sequent to sequent model <unintelligible/>.
+Additional lost <unintelligible/> to not user <unintelligible/> fans.
+And the second thing we propose is <unintelligible/> stable hypothesis.
+Again we had done the <unintelligible/> on telephone <unintelligible/> both latency and <unintelligible/>.
+And <unintelligible/> would mention here is that the with two second delay the the <unintelligible/> online system can put you the same as the <unintelligible/>.
+(PERSON6) Yeah okay.
+Thank you.
+Are there any questions to the ASR work package or should we delay them as well.
+Timewise we are just on the schedule.
+(PERSON1) Yeah <unintelligible/> quick question [PERSON8], what languages were you trying on the telephone <unintelligible/>.
+(PERSON8) Sorry English?
+(PERSON1) Oh it was English telephone speech, okay.
+(PERSON8) I think it we <unintelligible/> English with 2000 hours.
+(PERSON14) This is this is this is the standard switch port home call test set.
+So it compares to other numbers <unintelligible/>.
+(PERSON6) Yeah okay, thank you.
+So let's move to the next work package which is on spoken language translation and you will hear about the machine translation only afterwards so this is like in the middle we put it as as number 3.
+And I would like [PERSON7] <unintelligible/> from [ORGANIZATION8] to to present this part.
+(PERSON7) Oh hi <unintelligible/>, it's [PERSON7] here um okay, so I'm gonna talk a bit about it what we are doing in spoken language.
+(PERSON6) [PERSON7] could you move closer to the microphone?
+(PERSON7) Oh okay, sorry about that.
+Can you hear me better now.
+(PERSON6) Little bit.
+(PERSON7) I can try different microphone <unintelligible/>.
+(PERSON6) Oh yeah.
+So just move the microphone closer to you.
+(PERSON7) Does this sound better?
+(PERSON6) Yes.
+That's much better.
+(PERSON7) Okay.
+I've changed microphone.
+Okay so as [PERSON6] said spoken language translation is about basically about how we put it together.
+We've got ASR and MT <unintelligible/> work together better.
+So here is the kind of motivational slide, <unintelligible/> the ASR let's say it produces an imperfect transcript and then we have to use MT to try produce hopefully a perfect <unintelligible/>
+So next slide.
+Yeah so this is the way we kind of setup the project we assume it was 3 different research areas.
+The first one is essentially take the ASR output and make it look a bit more like what the MT is used to seeing, so kind of normalization.
+The second one is well okay it's kind of the other side of that is like make the MT more robust.
+To dealing with this noisy ASR output.
+And then the last direction we are looked at is basically well can't we just skip the pipeline all together and build a model that goes straight from the way formed the foreign language output.
+Um, okay so next slide.
+Yeah so when we started putting things together at the beginning of the project one of the things that was clear was the ASR works online as we heard.
+And it has this this this property where it produces the incrementally on them, and can alter.
+We would like to make the MT work better with this, um.
+There is a couple of problems, firstly that the ASR output is obviously changing.
+So what we do the with the MT on more seriously the MT.
+The segmentation is changing.
+And um.
+So traditional text-based MT works <unintelligible/> segmentations changing and you could be real problem, um, and <unintelligible/> were like, well, shouldn't this spoken language translation also be online <unintelligible/> helpful.
+Okay.
+So we move on.
+And once you start thinking about online spoken <unintelligible/> translation.
+You realize that it needs to be evaluated somehow.
+So, and this has been.
+There is been a bit of attention on this in the last couple of years, and um is basically three different dimensions that you would think valuating this online SLT.
+The last one quality is kind of clear.
+Um.
+One thing is maybe not quite clear is we only because we have these other two evaluations.
+We only evaluate on full sentences.
+Sorry about that.
+So the other two items so latency based means that this shouldn't be an <unintelligible/> delay, and introducing the translation.
+You got someone speaking.
+So you want to actually produce the translation quickly.
+And the [PROJECT3], if you try to produce the transition too quickly.
+Then you sort of the system may change his mind and want to rewrite.
+So this latency and [PROJECT3] are both sort of user interface issues that we have to think about and hopefully find a good tradeoff.
+<unintelligible/> called SLT F and <unintelligible/> task we run. 
+Um, I did apply various different ways of measuring these these three dimensions.
+Ok, next slide, um, also thinking about on my SLT. 
+Theres really two kind of you can split the ways of doing it into two.
+The first method, which we can reach translation, which is actually what we do is the simplest method.
+Basically you get the output from ASR you feed an MT into MT.
+And each time you get an update you just retranslate.
+Um, you do not retranslate absolutely everything.
+Once the ASR stabilizes you just assume it's okay.
+And then, you just retranslate back to the last the last stable region.
+This is nice, cause it is very simple.
+And you can use any <unintelligible/> you want.
+So we must use [PROJECT1] in production, which is really fast.
+The other side of that is the streaming idea on in that you basically have to have some kind of modified, you do not have your ASR MT working a bit more <unintelligible/>.
+And the idea is that the MT system can either decide to translate produce some output, or can wait for the next input from the ASR.
+We used the retranslation.
+And we are using in production with a long latency, as you will see, because we think [PROJECT3] is bad.
+But let us move on.
+Next slide.
+Yeah, so we have done a bit of thinking about how to improve this real translation approach.
+This is some research that we've done <unintelligible/>.
+But it basically stems from this idea from a group of researchers at [ORGANIZATION4], who produce this this.
+This thing called Mass K. um, which says, when you do retranslation.
+You don't output whole sentence, but you mask the last few tokens so that the translations is always slightly behind.
+<unintelligible/> you to produce to tradeoff latency and [PROJECT3].
+And it does not affect the final quality, because when you get to the end of sentence, and you just output everything.
+Um, what we did was introduced a twist on that where we set this K dynamically um, and how do we do that.
+We look at the incoming source.
+And then we try to predict what might come next, and we can use a language model to do this, or we can actually just add some random words, um using sampling, um, and then we translate this longer section.
+And we look at this stable we use is to get a measure of instability, the translation.
+So that <unintelligible/> change then we'll do some masking.
+If not then we were more conference make an output.
+And using this with different strategies.
+We can get much better tradeoff between on latency and [PROJECT3].
+Moving on.
+<unintelligible/> what I have talked about so far has been on this pipeline approach where ASR and MT are separate.
+There is been a lot of reason interest in what we call end to end SLT.
+And this has certain promises.
+This is basically what we do is ASR and MT in one model.
+And the promises of his.
+It promises simplicity, maybe, and it should be more efficient, and it.
+Should we hope improve the coupling between the two models, because most of the work of talks about has been trying to figure out how to make MT.
+And as our work better.
+We can train together.
+Might we get an about model.
+We have done some research into this.
+Um, we have not had in production.
+So some of the research highlights could make some improvements to the architecture and actually multitask training.
+Um, we are using <unintelligible/> and we we, also looked end to end SLT, and and actually on un-segmented input, and also sort of hot warehouse we use when we make representation.
+So a move on to the last thing is this sort of the things that we are currently fighting with.
+Um, we do.
+We do have this issue where we in the live system.
+[PROJECT3] seems to be quite bad for users.
+Maybe it is better to translations better , reduce the cognitive load that we saw was that moment having large latency.
+We definitely find the MT degrades too fast when the ASR degrades.
+Um, you know, for example, just because bad ASR, and most the segmentations very disruptive for MT.
+So we need to figure out some way of doing that, but and also related minded.
+Um when the transcripts are relative quality, the fact that there are two long makes it really difficult to read.
+Um.
+So when you questions as to whether, end to end SLT will address <unintelligible/> which is what we want focus on it and the second half of the project.
+So I'm going to end there.
+(PERSON6) Yeah.
+Thank you.
+Very.
+So.
+Is there any questions?
+You can ask immediately.
+(PERSON14) Yeah quick question for [PERSON7] <unintelligible/> dimensions of evaluation slides <unintelligible/>.
+(PERSON7) Yeah sorry.
+(PERSON14) I got a sense of how you might evaluate latency and sleep quality is quality symbol, and what about how you want to quantify [PROJECT3], because I did.
+I thought might <unintelligible/>.
+(PERSON7) Yeah, sorry, about that the idea.
+[PROJECT3] is basically how much the translation changes meeting updates.
+So if you if you remember what I have is live with the <unintelligible/> the ASR output.
+I mean, this is ASR.
+But it's the same idea  um translations, you get rewritten.
+So as the use of looking at it in words, be changing on the screen on, because MT includes reordering that can be moving around.
+So it is just measure how much did change the translation changes between updates.
+And the only <unintelligible/> stand.
+Then you essentially get no [PROJECT3] because translation does not change just extends does not.
+(PERSON14) So some kind of <unintelligible/>.
+New things <unintelligible/> okay, under past.
+Okay.
+(PERSON6) So the the way I think about it is also the wasted effort in reading.
+Yeah, some of the edit's in the past may be disruptive.
+And then you have to reread all the thing from the past point, till till the current point.
+And sometimes the edit's in the past would be uh, just smaller fixes.
+And actually in that case, you would better and not show them at all, so that the the the the the letter stay in their current position.
+So there is wasted effort.
+Another idea.
+How to think about it.
+But uh, there many ways in which you can formalize that, and obviously these measures will have different outcomes than.
+(PERSON14) Yeah and for later discussion that that any psycholinguistics studies that see how much <unintelligible/>.
+(PERSON6) Yeah yeah yeah, let's talk about this later.
+And let's move on to.
+Uh, if there is no other urgent question.
+Let us move on to multilingual machine translation, uh, which is work package 4.
+And here, the presentation would given by a student and colleague of mine, [PERSON5].
+(PERSON5) Hello, so I'm going to present you work package 4 multilingual machine translation.
+This is the overview.
+Next slide please?
+So the first task, are baseline models, and we had to provide, machine translation models, between 4 to 3 [ORGANIZATION2] languages for the needs of of the auditors on the Congress.
+And also us, us a baseline for for the research, and we have either bilingual models dedicated for some higher source language pairs and multilingual models.
+In the the single <unintelligible/> decoder model as Johnson <unintelligible/>.
+They are trying with mixed multilingual training corpus.
+We targeted that their mind by a special token, and they are.
+Some of the models are English centric and their trying on data from opus, and for zero shot language pairs we use either Pivoting Pivoting via English.
+Next slide please.
+The other task is document level machine translation, because the standard in machine translation today is that it translates single sentences, very well, but it just does not handle cross sentence <unintelligible/> at all.
+And this may be crucial for spoken language translation, which many referential expressions, the challenges, and some tasks are criminal terminology, <unintelligible/> and evaluation.
+Cause current matrix are designed mostly for single sentences.
+And for that we, we propose to test suite from the document from [ORGANIZATION8]. at WMT 19 and.
+And a WMT this year.
+So we translated many documents by orders submitted systems and evaluated them manually.
+And we figure out that expert knowledge is necessary for the <unintelligible/> quality assessment, and that document specific terminology in machine translation is is disaster.
+The translation systems may handle the terminology, which which appears in common <unintelligible/>.
+But if anything must be by the terms, which which appear only in some documents are disaster.
+And this year we.
+We have another analysis on the review.
+Next slide please.
+We have two works to publish papers on context around machine translation.
+Next slide.
+Please.
+(PERSON6) Yeah, Yeah, just second, or yeah.
+(PERSON5) And the other half of this work package is multi target machine translation.
+We we are researching it for efficiency.
+We want to have one neural network which translates into several languages at once.
+So we don't need to have many networks.
+The other focus is on multi source translation and we.
+It means that when we have some when we have parallel documents.
+We can use them to improve the quality of the translation and translate them from several parallel language sources at once.
+And the and the last focus, is flexible multilingual machine translation for versatility.
+And it must be flexible on missing sources and and the targets must be optional.
+Next slide.
+Please.
+This is this is about recent work from our colleagues from [ORGANIZATION8].
+They.
+They propose of way to improve <unintelligible/> multilingual machine machine translation.
+With random online backs translation of the zero shots directions.
+They.
+They train, it on 10000 language pairs from from 100 on a 100 languages from opus and a they narrow the gap on zero shot, compared to Pivot based translation from seven <unintelligible/> points to one <unintelligible/> points.
+And this paper was published at ACL this year.
+Thank you.
+(PERSON6) Yeah, so that was the work package on machine translation.
+And we can directly move onto minuting.
+If we have <unintelligible/> to present it here, or you can also ask questions now.
+So I hope [PERSON11] is here.
+[PERSON11]?
+(PERSON11) Hello.
+(PERSON6) Yeah okay.
+So again, I will be moving the slides for you.
+So we now move to the summarization of meetings.
+(PERSON11) So hello, this is [PERSON11].
+<unintelligible/>
+So here we have a mockup of typical scenario we are working for.
+So we have many participants that are  the <unintelligible/>.
+So they are discussing of several topics that they have to agree upon.
+And of course first we have the the speed recorded.
+So we have automatic speech recognition and the transcript the the transcript <unintelligible/>.
+And and of course we have to <unintelligible/>.
+So take out of the the conclusions of this transcript and put them and create a minute.
+So the the the the the the the gel in sheer excuse me.
+Okay no problem.
+So I was saying that the the the challenging part series.
+So you are moving back and forth those.
+(PERSON6) There is a delay so I have to click next slide before you say it.
+(PERSON11) Okay, so anyway no problem.
+The biggest issue here is the red, a real minute from the transcript good minutes from a transcript and populate the agenda.
+So populate the agenda topics with the corresponding conclusions of the minute.
+Okay now, next slide please.
+So these be big task of automatic minuting <unintelligible/>.
+Easier to break it in 4 steps, first to break the transcript in segments like, clusters <unintelligible/>.
+And the <unintelligible/> discuss the same agenda topic.
+And next <unintelligible/> kind of <unintelligible/> summarization in the sense of we compress the sentences <unintelligible/> spoken language.
+That probably are there are still there.
+And the next step we performed the the main summarization like trying to to cut then to extract then put together the different conclusions of <unintelligible/> sentences.
+Forming the minute.
+And then the final step.
+We we try to match all this conclusions <unintelligible/> with corespective agenda topics that are <unintelligible/> pretty fine.
+Ok next please.
+So this an overview of the <unintelligible/> overview of the the whole task of the minuting module.
+And next please.
+So first in the lap we have the inputs that are a game a the dialogue transcript.
+That comes from the automatic speech recognition and the MT agenda in the sense that <unintelligible/> that has only the closes.
+The the discussion topics without any real <unintelligible/> from the the the <unintelligible/>.
+So next please.
+And in the right.
+We have the two desired outputs
+We have the minute the entire minute of the meeting with the dialogues with the including remarks.
+And then the filled agenda, which is supposed to have the the the the the the use the topics <unintelligible/> and the conclusion <unintelligible/> remarks for each of them.
+Next please.
+So now, first of all, we tried to kind of shortcut this chain of <unintelligible/> so that we could see like is it really reasonable to further break the task in force of tasks.
+So we try to come to get the summarization that dialogue the summarization of the minute from the transcripts directly without <unintelligible/> segmentation and segment summarization.
+routes, the army segmentation and segments.
+The results were very poor.
+Ah, and this is how somehow justifies the our first of all, the first way we conceive the the the the module.
+But it does not really mean that there is no way to do it.
+As as a single with the single model with a single big model that would somehow <unintelligible/> consider all the the the aspects of these tasks.
+So next please.
+So going on to our to our initial design.
+So first we have this the first <unintelligible/> is about segmentation.
+So here we tried <unintelligible/> learning models to kind of cluster together the different sentences that are somehow related.
+So first we break the <unintelligible/> and then we somehow <unintelligible/> together.
+We have this task is somehow looking well in the sense that the different the different outlines that we tried <unintelligible/> with each other.
+Especially when measured <unintelligible/> between <unintelligible/> of each of each of the of the transcripts we were using.
+Next please.
+Next we have the segment summarization.
+So here we have different segments of clusters of couple of sentences like for <unintelligible/> or even like up to 10 sentences.
+So basically this task is very similar to to sentence compression in the sense that <unintelligible/> are or other tags of supervised learning the the models like <unintelligible/> to to to decide which of the works of phrases are redundant and the removing them <unintelligible/>.
+Once again this this task is also performed in a supervised in a supervised form <unintelligible/> like the the <unintelligible/>.
+Next please.
+So here we have the most important subtask that is the dialogues summarization.
+From the moment we are trying the transcript.
+We are experimenting the with big models that are based on <unintelligible/> exactly <unintelligible/> which is an extractive model <unintelligible/>.
+So we need big data like large data collections and we are actually <unintelligible/>.
+And for the testing we are using less the answer either the Axel supervise learning the models like let us say," I'm sorry, you lose.
+So uh, to decide which of the words or phrases that about her down and the moving them to the matter dropped from the the the last uh, once again.
+The this is just use those or reform dinner and supper, rice the nuns arise form with the with the existing data like there are the latest credit for next maze.
+So here we have the most important.
+Combination of <unintelligible/> to popular data sets in the minuting research.
+And the <unintelligible/> once again the here we get one of the first the output of this first subtask is the the first is one of the outputs the of the model which is a dialogue minute.
+And finally next please.
+And finally as the next <unintelligible/>.
+So here we take the <unintelligible/> from the dialogue from the minute from minute from transcripts minutes, and try to match them <unintelligible/> with agenda topics in the best way so that we have completed agenda as the second output that we need.
+Next please.
+So finally we have some preliminary scores, unfortunately from <unintelligible/>.
+So as you can see our current our current prototype reaches up to 16% in <unintelligible/>.
+About 4% in <unintelligible/> and about 14% <unintelligible/>.
+So this is typically low summarization score in terms of <unintelligible/> as you should know <unintelligible/> can be highly deceptive in some cases.
+Especially higher scores <unintelligible/> quality.
+And here we have the reference in the candidate sample that the an output sample, the reference is remote only controlled television so is very concise conclusion or decision or discussion.
+And the candidate is somehow longer so <unintelligible/>.
+So if we have a careful look in the candidate  it is somehow able to to kind of represent the the reference with special different terms.
+But the the real problem is that it is not <unintelligible/> beyond expanse beyond the the the required reference.
+And this is attend <unintelligible/> that we have observed in our current results so this is exactly what we need to improve to improve in the future.
+So we'll try to reach the <unintelligible/> size summarization outputs especially in the 2 second in the in the in the last two subtasks that are the compression and the summarization and the minute summarization.
+So next.
+That's it from the moment, I guess that.
+(PERSON6) Yeah thank you [PERSON11] and sorry about the mess up with the slides.
+So if there are any questions to summarization you can ask now.
+Or we can move to the integration and deployment, and here the presentation would be given by [PERSON3] <unintelligible/>, if I'm not mistaken.
+(PERSON3) Yes, hi I a [PERSON3]  <unintelligible/> and employed in [ORGANIZATION9] an Italian company of automatic speech recognition resolutions.
+And for the [PROJECT2] we are <unintelligible/>.
+This work package addresses the aspects of the integration of partners services.
+And to provide end to end workflows for the usecases of the project.
+Next slide please.
+Thank you.
+The [PROJECT2] project mainly focuses on two different use cases.
+Face to face conferencing which means to interpret let's say frontal speeches and the workshop style discussions.
+And remote meetings, which means to interpret discussion <unintelligible/> an online platform.
+Today we will focus just on the first Usecase, but it's important to notice that we achieve both of them, relying on the same back end infrastructure, which is the [ORGANIZATION9] service architecture.
+Okay thank you next slide.
+Partners independent <unintelligible/> services and then integrate them using preshared library which manage the communication protocol.
+Toward the centralized coordination point which managing <unintelligible/> the workflow orchestration.
+The advantages of a system of this type are many but probably the most relevant one.
+Are the independence of software components, and the possibility to distribute and to replicate the services to provide the more robustness and to increase service bandwidth.
+Upon on this infrastructure next slide please.
+We develop our presentation layer integrated with the [ORGANIZATION9] service architecture to provide live transcriptions and translation to end users.
+And [ORGANIZATION12] developed the online text flow of application.
+Which provide multiple simultaneous and transcriptions and translations in paragraph view.
+[ORGANIZATION9] developed the presentation platform web application which provides multiple simultaneous transcription and translation in subtitle view.
+Together with sl- slide streaming.
+Of both of the views you will an <unintelligible/> live demo later.
+Okay next slide thank you.
+The [PROJECT2] project started in January 2019 2019 yes.
+And we have done many events since then.
+After 3 months from the beginning of the project we had the first dry run event.
+And in particular last year we managed to [ORGANIZATION8]. events one in [LOCATION2] and one in [LOCATION1].
+Next slide.
+Okay here you can find a couple of recordings of past events.
+And next slide, thanks to our project leader who encouraged us to test and measure our progress <unintelligible/>, we have collected a lot of lesson learned and user feedbacks.
+And starting from then we are planning infrastructure next step and evolution.
+For example next slide, thank you.
+The presentation platform restyle, we would like to take into account user needs to maximize video player <unintelligible/> slide content.
+And possibly achieve mobile friendly design.
+Next.
+Okay.
+The well the COVID situation impacted our plans, a lot of planned events have been canceled, we we probably prepare some extra tool in order to be able to not only cast local slides, but also on demand remote videos.
+Unfortunately of course this is not enough to restore normality.
+In any case we look confident and hopeful to 2021 we would like to plan some new events but in particular the next year we will have the main project event which is the [ORGANIZATION2] congress.
+And of course as usual we are pleased to receive your suggestion for other events.
+(PERSON6) Okay, thank you [PERSON3].
+So if there are any questions on integration then you can ask now, you will also see both of the user interfaces mentioned in the in the demos after the last presentation.
+So the last presentation will be a little shorter it's on the work package which has been added on request by the [ORGANIZATION5] it's on ethical matters.
+Here the goal is to setup procedures for recording and handling the data and that's mainly for the minuting use case, because we are not we don't have the funds to create large speech recognition data sets and other other data sets.
+So mainly the minuting data which is essentially non existent or or there are corpora for project style meetings out there and for one of them two thirds of the recor- of the meetings are actually mock meetings acted by by people and not not real meetings.
+So we are gathering the data of, for example, from all project meetings of ourselves, and this needs to get the uh, the ethical matters correctly.
+So there is some formal structure behind this work package.
+So there is a person who has the the position of being the data protection officer, and she should be double-checking, what we are doing.
+And we have project <unintelligible/> committee.
+In case, we do something wrongly, or we are not sure how to do how to handle of a particle matter.
+We have a few experts in in the area that we can consult.
+The activity is primarily the technical one, so collecting consents from human participants, and then specifying the procedure.
+What to do with the data after we record them and the outputs formerly are three deliverables.
+And these deliverables are to be public.
+And the last one will be updated to the end of the project.
+So ideally, they should serve as code of conduct for other EU projects how the matters should be handled.
+So for collecting consents.
+And this is remember this is recording meetings like project meetings.
+We have two stage agreement.
+So first, we contact the meeting organizer, and he has to approve that the meeting in general can serve this purpose.
+And the we if if that goes through then we will get in touch with every participant of that meeting, even after the meeting with those who were unexpectedly joining the a meeting, and they have to agree that their contribution to that meeting can be used for the purpose.
+And in order to uh, uh, be able to maximize the data that we gathered this way.
+Uh, we ask both the meeting organizer as well as the participants about a level of the data usability.
+Uh.
+So there can be many possible configurations.
+But we came up with this single one that can serve as an example.
+So we ask the question, you are providing the data to us the data that that we get from you.
+Can be then publicly released after day identification, uh, when we do all the the edification that we can.
+And can we release it during or after the uh [PROJECT2] project, so like, can we release it immediately or can we release it only with the delay starting from starting from like two years from now or maybe 5 years from now.
+So we believe that uh, many of the project meetings are very much sensitive and confidential today, but they will be less so in five years from now.
+And therefore we we assume that the participants would be more willing to agree with this delayed delayed release.
+But obviously, there is also the 4th option that the data must not be released for any public use the data can be used only within the project and any derivative derivates of that that would allow the reconstruction of the of the content that has to be deleted with the end of the [PROJECT2] project.
+So uh, it.
+It is simply depends on the on the particle meeting, uh, what uh, what we can get.
+And then when we have the uh, actual recordings, uh, then we have to handle content properly.
+And here, the regulation on uh, on person data in the EU is quite clear and strict.
+Uh.
+So people would have to know of for what purpose are we uh, including could their personal data.
+Uh, in the meetings, and uh, what we are doing with that.
+And and again, for what purpose.
+So rather than asking for consent to publish personal data.
+We aim to delete them from the meeting.
+So we try.
+Uh, we will try to have the meeting recordings as anonymous as possible.
+And that way.
+No GDPR sensitive information will will appear in there.
+So the ideal deidentification pipeline would in- involve a voice, anonymization but obviously, because we are doing this for technical purpose.
+Uh, that would have to be done in way, that the ASR quality is not is not sacrificed.
+And also the the ASR research is not sacrificed so so the voice, should be distorted in some way in which humans cannot recognize the person, and maybe even like uh, techniques could not recognize the speaker.
+But still the ASR would work there.
+Uh, that would the ideal.
+And then the second stage, a would be to automatically replace all personal data.
+In our case this would mainly be just names and potentially email or other contact a contact coordinates of of people with placeholder.
+So that the there is not personal data.
+This is not possible in practice, so far, or maybe <unintelligible/> suggestions we will get to closer to this.
+Our current, uh, and more realistic plan is to well simply ignore the the problem of the voice and keep the voice recordings, as they are uh.
+So anybody who knows uh, the person would be probably able to identify who is the the the particle speaker in that meeting.
+And then will automatically search for all names and other potentionally sensitive named entities or references to uh, to individual persons.
+And will manually verify this automatic surge and we will replace it with placeholders.
+So here this work package is is mainly asking for feedback from you.
+Because we have the aim to standardize ethics procedures.
+We would like to uh, to standardize sensible things, and and good.
+A good ways the the the best possible handling of this.
+So if you have people in your teams who a deal with the same.
+Uh, things.
+If you have a procedures a written down and forms of consent.
+Uh, that you give out to uh, to your subjects that provide you with with the data.
+Please get in touch.
+Uh.
+We would happily merge that in and then distribute it as a public like, deliverable, uh, some, uh, some manual hand book how to handle data collection.
+But for our pr- practical purposes we would also be very grateful for any links to tools uh, for deidentification of both sound and text, uh, because we need to release the data set.
+And the better we do the deidentification the easier it was- it would be to to publish it and  and have the consent approved.
+had the identification of the easier.
+And maybe you have other experience as well.
+So if you know of anything that we should do, or should not do in these matters.
+Please get in touch.
+And and let us know, um.
+I have people for this colleagues in the team so I'll forward any of your comments to to them so just contact me.
+a SRL for art uh, any.
+Of, your a comments to have them.
+Or or anyone else in [PROJECT2].
+So are there any questions to the presentations?
+So if there are none, then we will go to the high risk business of this of this session today.
+We are just on time, actually we are two minutes ahead of time.
+So that was the lack of questions on ethics.
+And this is we we are now give you a several demos of the whole system.
+So in the integration work package.
+[PERSON3]  <unintelligible/> was briefly presenting the [ORGANIZATION9] platform.
+And that's the central part of the of the whole pipeline.
+The central element is called the Mediator.
+A that is a server.
+And to this server.
+All the different workers, uh, get connected.
+And these workers are like service providers developed at the different universities in the uh, in the consortium.
+Uh.
+And another type of uh, the client in this several client architecture also connects to the mediator and that's the client, which has the sound, uh, and would like the sound a stream of sound.
+Actually, uh, and live coming stream of sound to be either transcribed or translated directly or also presented to the web.
+So this the client specifies what should be done with this sound  it is English sound and should be transcribed into English then segmented into sentences and then machine translated into Czech, and and and then present it on the web.
+So the specification of the client requests all these workers.
+And then when the actual sound starts coming in.
+Uh.
+This is uh, sent to the mediator.
+And then to all these components across Europe.
+Uh, and the client then receives a dummy output at the and and but uh, the the user is happy, because the subtitles or other type of information was presented on the web.
+So this set up is aimed for the live events that are happening like physically at a at a conference room, and we plug in to uh, to the sound acquisition, the the uh, devices there, and then ship it to the Internet.
+And then deliver it.
+But due to COVID.
+There were far fewer since March there were far fewer events than we planned to.
+And for the purpose of the demo.
+We actually had to develop a like a little hack.
+Uh.
+So that we ourselves are able to provide the a video of that event that we are going to subtitle.
+So.
+In the demo that you are going to see now.
+There will be one single machine running FFM pack video streaming, and that will be streaming the video for your web browser and independently.
+The machine will be sending the sound to the standard a pipeline that we have ready.
+And we are not a video streaming projects.
+So uh, there are a couple of things that we have done very suboptimal.
+Uh, so you will have to help us a little bit with some autoplay and other things.
+And also I would like to highlight that a, the delay or the the time mismatch between the delivery of the subtitles.
+And the video appearing on your screen is something which is totally beyond our control, like we will try.
+We'll do our best to have that in sync.
+But what happens in practice is that often the video streaming the delivery from our web server to your side.
+Uh.
+Is slower than the delivery of the subtitles.
+So if you see subtitles from the future, then don't be surprised.
+Uh, it is uh.
+The subtitles are being produced when that sound was available from the main streaming machine from the main source, but it took longer for the video to get to your browser, then this whole pipeline in in our system.
+So this is one setup that we will use, and another setup that we will use that will not involve any videos whatsoever.
+We will simply connect the subtitling to this call.
+So your questions spoken in English will also go through this, and they will appear on the web live transcribed and translated so that we can play with this.
+And and test how how hard the models are fighting with your accent, and uh, other things.
+So lets first demo the subtitled the the videos.
+For this I will need your help as said.
+So I would like you to open the the [PROJECT2] presentation platform.
+Here is the URL [PROJECT2] [ORGANIZATION9].com.
+There is the username [PROJECT2]@[PROJECT2].eu and the password [PROJECT2].
+And the optimal screen size is this this one.
+So if that setup does not fit very well on your screen, then you may want to reduce your font size.
+So.
+If you see your subtitles wrapping into more than two lines.
+Then you need to reduce the the font size.
+And also, uh, you will need to allow auto play so that uh, the delivery of the video to your screen is delayed as little as possible.
+And as said we are not a sub- not not a not a video broadcasting project.
+We don't know how to start the video for you when we want to present it.
+So you have to shift reload the page.
+Uh, when we tell you so.
+So uh, that will move, that will move us on to on to the next video.
+So there will be clear instructions when when to do this.
+So now for the auto play, if you are using Firefox.
+Uh, then once you are on the [PROJECT2].[ORGANIZATION9].com then there is this settings icon or dropdown menu and among the permissions there should be autoplay, and you should allow audio and video autoplay.
+If you don't have the option to enable autoplay then you will have to play these videos automatically so after the shift reload you will have to click the play button manually.
+And then you will have to click towards the end of the current video as it's being streamed, so that your delay is is the smallest.
+And you will see as the video is being broadcasted that the ending time is is increasing and if your current time is lower than the ending time then this is the additional delay that you are having in your just video presentation.
+Otherwise like we we are subtitling it at the at the broadcasting time.
+So here is the summary, I'll do that myself now.
+So I'll so here is <unintelligible/> and I'll move onto the web browser, I'll type [PROJECT2] [ORGANIZATION9] com and I'm already logged in.
+So I couldnt tol- couldnt show you the show you where to put the credentials but remember the credentials are [PROJECT2]@[PROJECT2].eu and the password is [PROJECT2], and later on I'll tell you to shift reload.
+So hopefully everybody is now not only watching my screen.
+(PERSON15) Sorry there is a question in the chat about how to enable autoplay in Chrome.
+(PERSON6) I don't think it's possible.
+So we we have tried to figure it out.
+We are afraid that in Chrome you have to do the uh, the manual clicking.
+So click on play click on the end, and then see that you are not too far behind the end.
+So there any other questions.
+I do not have screen big enough, so that I could see the chat so thanks [PERSON10] for reading this loud.
+Yeah, so this is the this is the user interface.
+Uh, I'll make it full screen.
+Uh, and what you see here is a the video area.
+Here you will be clicking the play.
+And and it is, uh, then move towards the end of the video.
+This is the one of the subtitles boxes.
+And uh, uh, currently, we are demonstrating a the English Romania and a German and Czech subtitles.
+But we have many more in the project.
+And you can click these language a buttons.
+To enable or disable the languages.
+So obviously, this setting is forgotten after the shift reload.
+So do the shift reload.
+Then you will have some extra time to select the languages that you would like to watch, um.
+And then the uh, the video will start.
+And uh, and uh, I wanted to say one more thing.
+It's usually goods to enable a the the language of the video so that you see the ASR output immediately, and also the languages that you can judge your for yourself.
+To see the translation delay.
+Okay, so in this user interface that you hopefully are setting up now.
+Uh, there will be three videos shown, the first one will be German short speech.
+All of them are like under three minutes.
+Uh.
+And this is a German short speech actually contain some bird in bird in the subtitles, uh, which are manually revised.
+And you can use them.
+Uh, to compare our outputs with with that setup.
+Then there will be a video of a three minutes of German lecture, a and then we will uh, be presenting some.
+Uh, Czech speech.
+And that will be in the domain of a [ORGANIZATION8].s.
+So there you will see our a performance in the in the domain of uh, of interest and more videos would be coming.
+So I would like to now to ask if there if everybody is kind of ready for this.
+I would like to ask my colleague, [PERSON13], and uh, on your screens in your web browsers, you should be watching this.
+And a [PERSON13] has started now the the system.
+So in second, the system should tell us all to reload, and you now hit control shift reload.
+And when you do so.
+Then the video has started the video the the logo is moving.
+And that's a confirmation.
+And I'm two seconds after uh, the the real time.
+So I'll mute myself, and will keep watching and the video will start in a second.
+So the video has already ended.
+And you still see the subtitles in the target languages of translation running.
+So I'll leave it running for a while, the reason the reason will become more clear when you see the other user interfaces.
+But the reason is that for the better us- user experience we are actually delaying the output until the full sentences are stable.
+So that the machine translation is is producing a stable output, and then this stable output is is fed to the subtitle areas.
+So that that causes the the extra delay.
+Um, here we obviously had a the chance to manually transcribe this speech as well, so by the way the word error rate for this particular short speech was around 3 3 points, that's that's very low.
+So if you have any any questions to this video you can ask now, or we will go to other demos and maybe you'll have more questions when comparing the performances there.
+So the setup for the second video would be the same one.
+Uh.
+So again, uh, you should move to your web browser, stay on the same page, and uh, when the subtitles will say so, you will do the shift reload and we'll listen to a three minutes of the German lecture, um.
+So uh, um, would like now to ask my colleague [PERSON13].
+Yes.
+So now shift reload.
+And if you see the video.
+Uh, the logo moving.
+Then you are all set a just figure out the languages that you would like to see.
+German lecture is going to be a presented.
+And I'll mute myself again.
+So that the sound is coming only from your video player in your web browser.
+Yeah.
+So here, the speech was obviously much faster, because it was spontaneously <unintelligible/> lecture.
+And also the content is accumulated in the other languages.
+So you see that the translations are still running in subtitles, and they will be running for a while.
+That simply because there is too much content being delivered by the uh, by the presenter, and we are not a shortening it as of yet.
+So you also see many translation errors, and most of them stem from the speech recognition errors.
+Um, it's up to you to to to judge whether this is already practically usable or not, uh.
+And maybe that this impression would be also different.
+If you were not able to understand the source language.
+So here again, we know the word error rate for this lecture.
+It is fourteen points approximately.
+So if you have any questions.
+Please, please, ask, or we'll move to the third video.
+Uh.
+And that would be a Czech speech again in the domain of [ORGANIZATION7] <unintelligible/>.
+So if there are no questions.
+Then, uh, let's move onto the web browser again.
+And I would like to ask [PERSON13], to uh, to start the system, which is just being done.
+And um, yes, you should now shift reload, and I see the video, the logo moving.
+So I know that the subtitling will start soon.
+I'll follow Czech, which would be the source language and I'll follow English and German translations.
+And again, the sound will be coming only from your web browser.
+I'm four seconds a behind the uh, the real video.
+So I observed a little lag in the delivery of the video to my screen.
+Maybe that was only my issue.
+Uh, otherwise, I see that uh, the subtitles in the other languages are still running.
+Again, lot of content was <unintelligible/> at the end, uh.
+And there is a kind of que, of that.
+Uh.
+So here, uh, the word error rate is about twelve points.
+And uh, I was kind of surprised by this number being so high, because when reading the Czech.
+I was happy about, the the quality in general.
+So when assessing the word error rate.
+Uh.
+I guess the same.
+A dependence on languages is appearing, because in Czech, many of the words were correct, lemmas correct base forms, but the endings were slightly different.
+And it didnt even change the meaning in some of the cases.
+But still it will it will hit the word error rate.
+I don't know, what your impression was from the translations.
+There were obviously some errors.
+But I think that some of the the the the the key messages of of that video were were preserved.
+So let now leave the area of subtitle presentation.
+And let's look at the live transcript of stream videos.
+And later on a live transcript of what we are going to say in in our call.
+Uh, so this will be the other user interface, so for this.
+You need to open another URL, and here the URL is well too ugly to to to read loud.
+So there is a tiny url that you can commit or if some colleague of mine can paste these URL links type them to the chat window that would be even more convenient.
+Uh so, the paragraph view that we are going to to see will allow for looking at the same four languages that we had in the previous demo.
+Or eight languages and actually we could also do other languages.
+So you can go either for this 8 language presentation or 4 language presentation.
+And if you would like to see another language it's quite likely that we have it in our mix so you can manually modify this URL and try putting there another language code to see if if we also deliver something in in that language.
+So the tiny urls tiny url.com/[PROJECT2]-demo- and then 4lang or 8lang.
+So I'll do that myself.
+So here.
+Tinyurl.com [PROJECT2] demo and I'll go for the 8 lang 8 language setup.
+And again I'm sorry that I'm already logged in.
+So uh, I cannot show that you have to type the username which is now [PROJECT2] only.
+And the password which is also [PROJECT2], but you can do this easily for yourself.
+And uh, what is going to be presented.
+Will be this.
+Uh, these columns.
+And each of the columns will be for.
+Uh, one of the languages.
+The ther- the individual sentences are not horizontally aligned, and that's because they differ in length.
+So it's meant not for head to head comparison between the uh, the different languages.
+But it is meant for a providing you full context within each of the languages of their own, but obviously they will appear in in Palo.
+Uh, on the right hand side, you will be able to select the languages, um.
+And if you reload.
+Or if you add a language later, you will not get it's history.
+So it is better to start with large set of languages.
+And then disable those that you don't want to that you don't want to see.
+And uh, I need to explain the color coding a little.
+Uh, so the black sentences are those.
+Which are fully finalized, and the system will never get back to them.
+Then the the uh, the the darker gray sentences still can change.
+But it is only the segmentation a module that uh, that affects them.
+So it's changing the letter casing and a full stops in there.
+Uh, and the uh, the last of the sentences, which is still incoming where the words are still authored, uh, is in the light gray setup.
+And in the previous views.
+Uh, with the subtitles.
+We were showing the full level of of of this instant or simultaneity for the ASR language, so for the speech.
+There is no such, there are no no important edit's happening really.
+So we were.
+We were showing every update.
+But for the translations, we were only showing in the subtitle window.
+Everything that was black.
+And as the- these demos will run that you will see that the grey areas are often pretty long.
+They can spend multiple sentences, and these multiple sentences are partly usable, uh, but they can still change.
+So here uh, in this, the longer context view.
+It is not so disrupting to show you the [PROJECT3].
+So you will see the [PROJECT3] in the in the in the translation languages as well, uh, but in the subtitle view this [PROJECT3] would be too too distracting so people could would not be able to uh, to uh, to follow.
+So that's why we uh, tend to prefer this type of view where the user has the ability to choose whether they want to read only the black text or focus only also on the very last words and their translations.
+So here again.
+The URLs.
+Uh, so please move onto your web browser and.
+And then uh, type in tinyurl.com/[PROJECT2]-demo or demo2 whichever you like.
+Enter the username [PROJECT2] and password [PROJECT2].
+There would be no need to reload this.
+Uh, so the reload would be useful only if you wanted to clear the history.
+The sound will be coming from the remote call.
+So I'll keep my sound coming in uh, and uh, it will not come from the presentation web page, because this presentation is actually meant for the live events, where the sound is coming from another stream.
+So <unintelligible/> videos will be only restreamed through the screen sharing, but the videos are not not so important.
+Uh, in in like the the <unintelligible/> information is not not necessarily so important for for your assessment.
+And we'll be showing three minutes of a same lecture, and we will start with a presenting the Czech constitutive interpretation of that lecture.
+Uh.
+So the speaker there in the image will be bored, because the speaker has already given a the the part of of that presentation, and now is the interpreter in Czech talking.
+And then we'll show you the original lecture, which was given in English.
+And in both cases will be translating it to all the target languages that we that we produced.
+So it will be the same three minutes, uh, uh, but for a, but first given by the interpreter.
+And second, uh, in the second video given by the original speaker.
+So here I would like [PERSON13] again to start that video, and the video is starting.
+So you will see the instructions to reload.
+Please do not.
+I'll reload only here myself so that I can stream you the the video for you.
+And now this is going to be given in czech.
+So you should be watching your web browser with the paragraph you and my screen share to get the video if you wish.
+<another_language/>
+Yes, so that was the Czech interpreter, and the main speaker was just listening to that we now still see the the <unintelligible/> of the translation a a translations appearing.
+And again we have a number for you.
+Here the word error rate of the Czech ASR was about 18 points.
+And you could judge the uh, the quality of the translations yourself.
+You also had the chance to see how the translations [PROJECT3] a in the grey part.
+So it happens, especially for the common expression, such as in total, or in some overall all these beginning of the sentences have changed a few times as the segmentation of the sentences was getting stable.
+Uh.
+At at one point, I saw that in the uh, in the paragraph view.
+And if we were presenting, these outputs of the translation into English, uh, to the uh, to the user.
+Then a lot of words would be jumping.
+And if if we are doing this jumping within the greyish part, it's not so distracting.
+But if we had only the two lines of the subtitles for this jumping, then we would have to show it.
+And then reshow.
+In the new very end and that would be very very like very hard to follow.
+Uh.
+So now I would like to move to the last video demo.
+So [PERSON13] again, if you can start it.
+You should keep watching the paragraph view, and I'll do the shift reload myself.
+Uh, so that again, you have the original English sound coming through my uh, screen sharing.
+Uh, so now, the speech will be delivered in English.
+And uh, it will be again, translated to all these languages.
+So if you have the a chance to uh, watch.
+Uh.
+Uh, the German, and watch and understand the German translation.
+This will be the most interesting output actually.
+<parallel_talk/>
+Yeah so that was it.
+So [PERSON13] can now switch on the subtitling of the of the call it'self, and I'll comment on what you have seen in the meantime.
+Uh.
+So this was the the last the broadcasted lecture.
+It was the original English lecture.
+The word error rate here was a 32 points.
+And the reason is that it's highly accented.
+It's Austrian English.
+So we also have the translation of this, because it's part of our [PROJECT2] test set.
+And uh, the <unintelligible/> when translating into German for the whole lecture.
+Is about fifteen fifteen by points, and you should so just small snippet of this.
+But by comparing these these word error rates, uh, I wanted to highlight the fact that uh, sometimes.
+Uh, the uh, English of the.
+The the the speech of the origin speaker is not the best source for your output, and uh, because we have these three minutes, on these three minutes.
+We we did a very small head to head comparison.
+It's actually just 23 sentences.
+So it's not stable, obviously, not very reliable score.
+A but the <unintelligible/> score into German was about thirteen points.
+When the source was the Czech interpreter.
+And it was about ten points when the source was the original English speech.
+And I should also highlight that the reference uh, was created from, uh, the original English speech, so that was manually segmented for the purposes of creation of uh, the reference and then manually translated.
+Uh.
+So uh, the English.
+So the German reference is technically more closer towards what was said in the in the English talk, but still because of the ASR errors and also.
+Translation divergences, the final quality of translation into German seems better from the interpreter.
+So this is this was the last demo, of video lectures.
+And we still have one more demo but that will go on through during our discussion.
+Uh keep looking at the same webpage.
+The paragraph view.
+So you don't reload anything.
+And in your web browser.
+You should suddenly see all my speech, uh, being a translated into all the languages.
+So if my accent is better is is not too strong then it will recognize me, and if I'm lucky and if I'm wording my sentences clearly enough so that the language model would be able to insert full stops where they belong.
+Then also the translation into all the languages have a chance of of being good.
+So I now really open the discussion sorry for cutting it short with the demos, a and a please ask anything, whatever you say in English will immediately be transcribed.
+Well.
+(PERSON13) Let me start by saying that the demos were quite nice, quite impressive, especially given that you are doing it.
+Over the network, and so on <unintelligible/>.
+So I will say this was a nice piece of work.
+I was not able to follow lot of the translation <unintelligible/> because other than English I don't speak or understand any other languages.
+But I'm sure some of the other who speak two of them will be able to verify what you are saying.
+And that's my first comment.
+At some point <unintelligible/> known about how humans restart the changing text and so on.
+But let me first hold that back and let others say other things that they want.
+(PERSON6) Yeah, thank you, thank you [PERSON13].
+(PERSON2) Um, can I ask a few questions?
+(PERSON6) Yes please do.
+(PERSON2) Um, so first question is how [PROJECT2] does the <unintelligible/> available on GitHub how [PROJECT2] test sets were collected, cause right before that it was <unintelligible/> was mentioned <unintelligible/> the modification of that pipeline <unintelligible/>.
+(PERSON6) No, yeah.
+So l- let me answer immediately so the [PROJECT2] test set if you are asking about the test set, that is being collected mainly manually.
+And it's it's now targeted towards the domain that we have at the moment which is auditing.
+So some of the for example this video that we have shown that was um um, that was my, that was a video delivered to YouTube or saved to YouTube by the [ORGANIZATION8]. of the Czech republic, because they ran some years ago some workshop.
+And we have taken that and we have manually transcribed that and we have provided translation for that.
+Then other parts of the [PROJECT2] test set come from the Antrecorp which was mentioned, that was the student firmfare and this student firmfar- firfair that was high school students presenting mock companies and we recorded their 90 second speeches.
+That highlight what their company is is doing.
+And their s- again we provided translations of this very much non native English into German and Czech so that is other part of that.
+And for the all diversity of languages we are we are working on something which we called exotic languages.
+So we have many annotators curating parallel data.
+And there also it's not for not from Paracrawl but it is from our targeted search for like in domain websites.
+Which are sometimes had they have parallel text and we just manually refine the sentence alignment but in in a few cases we probably will have to also provide our manual translations because the language would be so under resourced in the domain that we won't have anything.
+We are trying to avoid this we are trying to find parallel data but we are not searching for it in Paracrawl because it is by far incomplete.
+So it's better to <unintelligible/> targeted search.
+(PERSON2) Thank you very much.
+Um can I ask two more question an the rest <unintelligible/>
+So for ethics so you you only covered the data protection, have you also considered that adressing <unintelligible/> to gender and accent for maybe adressing <unintelligible/>
+(PERSON6) So well um, I don't consider this a ethical question <unintelligible/> as an ethical question.
+Um, I consider it a technical question like a for example, in the in the test set if it's too biased.
+In some way, then we are not accessing the preservation of of the aspects.
+I think that a translation systems and speech recognition systems.
+Uh, should preserve the biases of the source.
+Uh.
+So uh, they they should not artificially distort the biases that are in the source.
+And for that.
+Uh, the test set should be.
+Should be balanced.
+Uh.
+But that's not an ethical issue is just like how to over sample the underrepresented classes.
+How to figure out what is an underrepresented class and how to oversample it.
+So that is that that is the the comment that I have to that.
+In short we are gathering all we have.
+And all this rebalancing, uh, will be only up to the, uh, the whatever authors of these systems or up there further users of of our data sets.
+If we are able to gather, any metadata, such as like, who is the speaker and well not not in person, but uh, not not.
+The personality not the person himself, but but the the gender and the nationality.
+Then this metadata would be there.
+We will try to preserve but if we don't have this information there is no way to to recover it, w- we may try to recover it like automatically but someone can do it later on af- and better if with with the target focus.
+So I'll find it a technical problem how to preserve the biases that are in the source given the fact that the training data are not in good balance I do not find it an ethical issue.
+I hope.
+(PERSON2) Yeah thanks.
+Yeah yeah thanks.
+Just to clarify my question, I was wondering whether you your interested in knowing whether your system is doing particularly well on or particularly poorly on some kind of input.
+(PERSON6) Yeah yeah so.
+(PERSON2) <unintelligible/> preserving.
+(PERSON6) Yeah yeah yeah, so that's we observe this and we want this but still we are at a far simpler phenomena such as question, so essentially questions are underrepresented in the training data sets and we tend to translate or or recognize questions as as statements.
+And and translate them aside so.
+Yes the the the gender disbalance or gender distortion an sentiment distortion and and whatever this will come later.
+And yes we are aware of those problems, and we would like to test them equally across the board but at this point we are gathering all the data that we can and that's that's it.
+(PERSON2) Okay great thank you.
+A last quick question was about um, speech output so I think thanks for the demos they were very nice and and looking through the demo wondering from a user perspective what what makes more sense.
+And depending <unintelligible/> speech output.
+And whether you have like faults on this and and <unintelligible/>.
+(PERSON6) Yeah so in the project proposal.
+We explicitly excluded speech output.
+And I'm happy for that, because it turned out to be difficult enough to fit.
+Uh, the uh, the stable output in the two lines of the subtitles.
+Uh?
+So my preference, my personal preference is more towards this paragraph view, which you are now of looking at, uh, because I'm happy to read more and recover from the errors.
+If you have the small window or speech, which is essentially just cursor moving through that.
+And you cannot really go back in a sensible way, then you really have to have stable a output.
+Uh, and uh, that you can achieve either with the big delay, and there you.
+You can run any speech synthesis that you wish.
+And it will have plenty of time to to do whatever is is needed there-
+But it is it is not a simultaneous anymore.
+So I do not think that uh, speech output will be a relevant until we are able to stabilize the text output.
+So a question, because the interpreters human interpreters often make various assumptions or anticipations, about the the context, and by that, uh, they can produce translations of words.
+Of all, for example, German words, which have not been uttered yet, because these end of the sentence didnt still come
+So uh, attaching uh, speech output.
+Uh, to me is like a simple end, like last bit of a pipeline.
+Once the output is stable.
+At the same time.
+There is very interesting research question, if we can go directly speech to speech.
+Uh.
+So if we can create transformers.
+That will digest the the sound and directly produce the sound and there the alignment problem.
+Uh, becomes very very critical.
+And uh, uh, I think.
+If we do the uh, stabilization of empty output correct.
+A then have on this synthetic data for example.
+It would make sense to train speech to speech systems, but uh, we are not there yet, and it also depends on the type of content that you are translating a or interpreting, uh?
+I can imagine that a regular.
+Uh, it is like uh, of fellow, the follow like person on the street to person, person on the street, a communication.
+Uh, this will contain much shorter of sentences, uh, or rather short phrases, and they are uh.
+You essentially have enough information after a very short period of time, uh, to uh, to decide on the translation.
+So there uh, the immediate speech to speech translation makes sense.
+If we are aiming at what the [PROJECT2] <unintelligible/> 
+And that's a translation of a conference presentations.
+These sentences are much more complex, and you have to wait until the uh, the sentences has finished, until you know, what is what is the message of uh, of the sentence, uh, and only then you can properly articulate the information structure of of that sentence and target language.
+Uh?
+So uh, I don't think that for our, uh, use case, a speech to speech.
+An instant speech to speech is a is a good.
+Is a good goal.
+(PERSON2) Thank you.
+(PERSON6) So we have just run out of time.
+Um, and I'm still very much looking forward to any comments that you may have.
+So even now, if you still have the time, please keep chatting.
+(PERSON9) So <unintelligible/> let me make a few comments before of course those who need to leave at 11 can leave and if you need to some closing remarks.
+(PERSON6) Yeah yeah, so I'll I'll I would like just the closing reminder that I would like to thank everybody for their attention we are here for one more year and and few months or maybe one and half years because we may want to get some no cost extension of the project  a little one.
+So and the web page will will remain further on and also the the research team obviously will not disappear and many of the challenges that we set forth in in our project will remain relevant for another decade.
+I'm quite sure, especially the automatic summarization of meetings.
+So I would like to remind you of the few calls for ideas and calls for data that we had throughout this.
+Presentation, the slides are now in the [ORGANIZATION4] document, we are partically interested in your experience in the deidentification in your t- data for minuting.
+So whatever meetings, project meetings you have we are also happy to actually create the minutes for these meetings afterwards.
+We cannot offer it as a service but we are happy to use just the recordings of the meetings and we will provide the the summarization ourselves with our with our people.
+Because the the project meeting data is so so so hard to get that we are happy with for anything.
+So these are the two main two main calls that we had.
+And there are other ones and we would like any comments on on any other aspect.
+So thank you very much for your participation, thank you for the comments that you have had had so far.
+And looking forward to another opportunity to to like meet again remotely or at some of the conferences.
+So those of you who have to leave, thank you for attention and enjoy the rest of the day and those of you who can stay please stay.
+Thank you.
+Yeah, thank you.
+(PERSON9) <unintelligible/> one is where it comes to <unintelligible/> or forms or <unintelligible/> getting doing the current handling of the data <unintelligible/> meetings.
+I don't know if the [ORGANIZATION8] guys are <unintelligible/> still involved in <unintelligible/>.
+Because the similar data set that recorded <unintelligible/>.
+And that data is being shared with people and so on so you could find out what <unintelligible/>.
+Because I'm thinking it was <unintelligible/> GDPR.
+And I don't know whether [PERSON7] or who is from [ORGANIZATION8].
+(PERSON7) Sorry sorry, I didnt catch the name of that, there wasn't.
+(PERSON9) Oh that was a <unintelligible/>.
+Actually the people involved may have been from [ORGANIZATION13] not [ORGANIZATION8] <unintelligible/>
+(PERSON7) <unintelligible/> I'm not this.
+The speech crew is separate to us, but I don't I havent heard of it.
+(PERSON9) Yeah so ask them because the collection is called <unintelligible/> something in home <unintelligible/>
+Basically speech recognition task where the setup connect microphone <unintelligible/> in the house.
+And they had four people getting together <unintelligible/> talking spontaneously.
+And so they must have gathered some <unintelligible/> forms and add some protocol <unintelligible/>.
+Now in their case they must have got full permission because they havent <unintelligible/>.
+We don't know the names of the people.
+But <unintelligible/> identified.
+<unintelligible/> most of the time <unintelligible/>
+<unintelligible/> other <unintelligible/> people let LDC and nest to collect these things regularly they might have formed <unintelligible/> you might have known some of these people.
+Like <unintelligible/> or <unintelligible/>, so you could just ask them if they have forms, that might help with that.
+(PERSON6) Um-hum.
+(PERSON9) As far as deidentification tools I know that <unintelligible/> example the IRB at [PERSON4].
+Has pretty much started as <unintelligible/> if you have <unintelligible/> from speech from person.
+There it's pretty much identifiable.
+In the sense that you can use automatic techniques and <unintelligible/> two minutes of speech, the error rate of most is like you know, whatever.
+Less than 2 minus 4 at some <unintelligible/>.
+<laugh/>
+So basically they say look they have to give consents and the voice will be in there,
+<unintelligible/> that's a different story.
+So I don't if there are two <unintelligible/>.
+One possibility is that people who have been working on adversary <unintelligible/> trying to distort the signal a little bit so that the speaker ID system fails.
+But human can still understand the speech.
+And if some of those people are have something that we can use, that will be useful.
+The issue might be that these techniques are new enough that no <unintelligible/> proving <unintelligible/> will accept them as <unintelligible/> protecting.
+So that might be the issue but I think it always come <unintelligible/>.
+Can establish that this person cannot be identified from their voice and proving the negative <unintelligible/>.
+To show that they can be identified as easy to show that they cannot be identified as hard.
+So who knows what techniques <unintelligible/> in the future right.
+So that might be the issue <unintelligible/> people agree <unintelligible/>.
+Or like [PERSON6] you said remove the audio just keep the transcript and that might be.
+Yeah so that is, and also the second <unintelligible/> I took on this particular point as an <unintelligible/> from myself.
+But there were few others like you said.
+So if you could just summarize <unintelligible/> as participants in the follow, that would be helpful.
+(PERSON6) Okay, we'll do that, thank you.
+(PERSON9) Okay thank you.
+So otherwise this was very informative, very useful, thank you very much, it is a nice project, and we'll be in touch.
+(PERSON6) Yeah thank you.
+(PERSON9) And as you know people here you know are very interested <unintelligible/> speech translation past <unintelligible/>.
+So.
+So that will be a lot of opportunities to what together on this.
+(PERSON6) Yeah yeah.
+Yeah.
+So if there are no further questions we can also close this <unintelligible/> I'll stop the screen sharing now.
+You can still keep watching the the paragraph view of of the subtitles, so that's something that will run as long as as we talk.
+And we can play around with this, so that we can see how the sentence segmentation is under performing and how it affects the the translation then.
+Maybe yeah, I think that hindi is also <unintelligible/> if you speak hindi.
+Hindi is also among our languages so.
+Is possibly hindi output there.
+But you don't have it in the in the list at the moment.
+So so maybe [PERSON13] can provide the link so that we could see the translation into Hindi.
+We don't have at the moment, yeah so okay so so we have an Hindi system but it's not not in the pipeline today.
+<unintelligible/>
+Yeah yeah, so who else is on the on the call if yeah, so many we have [PERSON12] from <unintelligible/> and then we have also our colleague from [ORGANIZATION8]. who was also watching it.
+And I dunno if if he would have any comment or question from the user perspective but he is probably only recording in for his colleagues because some of them are on vacation.
+So he may not have the capacity the experience of the of the person from the field.
+Of auditing, he is a technical person and not not and auditor.
+So if there are no further questions.
+Then I'll just thank you again very much, I'll I'll thank to all my team for the hard work and this was again the dry run obviously for our review so remember that in about two weeks from now.
+We have the official project review and there will have to provide much more details about the research content, but it's the slides are halfway ready.
+Thanks to the <unintelligible/> already.
+Okay, so thanks very much and I'll just quickly check the chat, yes people were people were commenting on that.
+There were some problems, yup yup.
+So hopefully nothing is left unanswered.
+Okay, so thanks very much and yeah, looking forward to another opportunity to talking to you.
+(PERSON3) Okay, thank you.
+(PERSON9) Thanks [PERSON6].
+Bye bye.
+(PERSON6) Yeah yeah I will do, [PERSON13] yeah bye bye.
+Goodbye.

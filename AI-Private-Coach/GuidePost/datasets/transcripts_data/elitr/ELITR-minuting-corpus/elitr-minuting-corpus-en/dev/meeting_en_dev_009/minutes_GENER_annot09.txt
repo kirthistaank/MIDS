@@ -1,0 +1,22 @@
+Minuting – virtual coffee
+29/09/2020
+40 min
+
+-Purpose of the meeting.
+-- To discuss manually corrected transcript and the process connected with it.
+
+-Workflow.
+-- Some links are working, some are not.
+-- One can hear better with [ORGANIZATION2], however it is not going to be free anymore, [ORGANIZATION1] meet is free only for 40 minutes.
+-- Automatic speech reconstruction transcripts of a bad automatic quality are sent to the annotators, who correct the data using also an audio file sent via FileSender.
+-- After the correction the annotator writes minutes and sends it together with manually corrected ASR to their supervisor, who puts it on the server.
+-- There might be a variant that anotators would send the data via GitHub.
+-- The importance of alignment and evaluation measure is discussed.
+-- The subjectivity of human evaluation mentioned.
+
+-Plans.
+-- To discuss again the format of the data (especially the dashes + the hierarchy of the bullets) in more detail.
+-- To prepare a list of full names of the anootators and then rename them as annot01, annot02, ... – to anonymise them, to rename the files.
+-- To settle another meeting with [PERSON6] to discuss details and issues not mentioned.
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,17 @@
+15.10.2020, 14:00 CEST
+• Anonymization of meeting data 
+o [PERSON9] NE recognition model for proper nouns on English (NLTK model)
+• plan to project the same recognized named on Czech
+• Use some NE recognition model for Czech?
+o Problems with NE recognition
+• Words with dash ([PERSON17] for probably [PERSON17])
+• names of languages (English, German) - leave as they are
+• names of speakers in brackets
+• Align with the names of the same people in transcripts (OB, O and [PERSON3]). Give them the same identifiers
+o Make two-step manual annotation
+• label clear names in the data
+• according to what is annotated how - populate the list
+• use NameTag for recognition of NE types from the list. 
+• Use its web version
+• believe NameTag, especially by geographical names
+

@@ -1,0 +1,46 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION1], [ORGANIZATION5] [ORGANIZATION4]
+Meeting Name: Virtual Coffee Hours
+Meeting Date: 05.01.2021
+Meeting Topic:  [PROJECT1] Data de-identification, consent forms and recipient distribution list creation 
+Meeting Participants: [PERSON10], [PERSON4], [PERSON9], 
+Main topics of discussion:
+Project demo Submission
+•	Web page has been created
+•	Project manager satisfied with the result just the time flicker needs to be adjusted
+•	Some knowledge loss due the colleague’s relocation
+•	Keynote speakers to be selected.
+•	Application to be submitted on 7th or 8the January but no later than 10th January.
+[PROJECT1] data preparation for de-identification
+•	The list on named entities is being compiled – aim is to have a full collection of documents with named entities replaced by place holders.
+•	De-identification procedures have to be written. 
+•	Candidates on the word type level and on the content lever, to assure if it is a named entity or not.
+•	Annotation to be done on word level, content level and token level.
+•	Finest annotation details are required, need to know what has been scrutinised and with what result.
+•	Current regulations and legal requirements on data protection to be adhered to.  Need to determine what exactly is personal data and create de-identification guidelines.
+•	Currently run procedure needs to be checked and adapted to satisfy the newly created guidelines.
+•	Several rounds of data de-identification might be necessary.
+Open problems:
+•	Low data quality due to typos
+•	System suspects beginning of words to be named entities
+•	Multi-word named entities are an issue.
+•	Chains have to be co-referenced, including the speaker’s identity.
+•	All personal data needs to be removed- on appearance level and also reference in the text.
+
+Consent forms
+•	One form serving as a permission to work with the data
+•	Second form to represent a permission to publish the data in a de-identified form
+•	Currently oral permission in place for majority of participants
+•	Consent forms to be distributed and accompanied with a sample of meetings he/she has participated in.
+•	Participants will receive a link to the directory with all meetings to browse and view. E-mail should be in a HTML format.
+•	Participants will be asked for a bug report. Specific place for their feedback needs to be created.
+•	Minimum entry level to the Scientific Committee left open, but suggested on PhD.
+Timeline/ deadlines:
+•	Sample documents ready at the end of January
+•	Data de-identification consent from the participants by mid February
+•	De-identification complete by end of February
+•	Trial data ready by 16th March 
+•	Training data ready by 1st April
+
+
+Minutes submitted by: ANNOTATOR 13

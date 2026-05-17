@@ -1,0 +1,33 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION1], [ORGANIZATION6], [ORGANIZATION3]
+Meeting Name: [PROJECT3] [ORGANIZATION7]
+Meeting Date: 21. 07. 2020
+Meeting Topic:  General progress meeting without specific agenda 
+Meeting Participants: [PERSON7], [PERSON6], [PERSON3], [PERSON1]
+Main areas of the discussion:  Visualisations and the book content
+Visualisations:
+•	Made available in Slack.
+•	Embeddings have been redone to show the bands in the Glove articles.
+•	The re-training has been done and the Skip-Gram shows much clearer bands than CBOW.
+•	I'mages are present in Glove but not as per the original claim. The colour map was adapted therefore the numbers on the very high or very low end of the scale get squashed into the same colour.
+•	Some differences occur between the original image and the re-worked version.
+•	Suggestion was made for the embeddings to be evaluated.
+•	[PERSON4]'s analogy task – understood in a sense that if embeddings don't show any structure then they are not trained well.
+Book content:
+•	Parts of the text were edited and comments were acknowledged by the individual authors of the text. Some improvements still to be done to several chapters.
+•	Visualisations to be added to the section of speech tagging.
+•	An uncertainty about terminology related to the model encoding of linguistic abstractions has been clarified. 
+•	Suggestion made to encode some features. To spot some features and map them to the extractions. 
+•	It was deduced that if an analysis of abstractions is performed and similarity to syntactic is found, then it is not a feature but already as structure.
+•	Clarification given on the principle of LSTM/Cell work in the framework environment. With different application via a layer over to the entire sequence and on the cell level to only one vector.
+•	Concluded that the dimensions are not independent inside and the gates are not open for the every single dimension and that there are linear projections from the vector to the gate. More literature and data sources to be studied on this topic for better understanding i.e. [PERSON8]'s recent ACL paper.
+•	Introductory chapter of the book to be written in a meaning of answering the question how does it happen than the neural network learns language so well (coincidence, programming) and why it should learn something like that.
+•	Discussion on the level of text adaptation based on the linguistic knowledge of the book target readership.
+•	Section on negation to be deleted as it forms part of behavioural analysis and not the structural analysis, which is the main focus of the book.
+•	Pre-training task to be merged to one section only.
+•	A team member with excellent writing skill was called upon to give a hand with the book.
+•	Current book dedication and motto to be deleted and replaced.
+•	Book shall be potentially sent to the reviewers the week following this meeting but changes are slim. 
+Official deadline for book submission to the reviewers: unspecified, work on as soon as possible basis. No information known about the reviewers.
+Next meeting: 28-07-2020 at 11:00 PM CET
+Minutes submitted by: [ANNOTATOR1]

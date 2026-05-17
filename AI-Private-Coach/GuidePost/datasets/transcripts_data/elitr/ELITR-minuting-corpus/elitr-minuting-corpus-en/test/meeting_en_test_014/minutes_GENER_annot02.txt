@@ -1,0 +1,59 @@
+[PROJECT2] Surge 2020 Organization,  2020/01/24
+Attendees: [PERSON5], [PERSON9], [PERSON12], [PERSON2], [PERSON6], [PERSON10], [PERSON4], [PERSON7], [PERSON8]
+Purpose of meeting: Inform others of what everyone working on and what is prepared for the upcoming weeks.
+
+Summary of meeting:
+
+[PERSON5]: 
+•	Inform about point of the meeting – inform others of what everyone working on and what is prepared for the upcoming weeks and to make sure that no work is done twice.
+•	Inform of Thursdays meetings until the end of exam period. After exam period will be arranged new date of meetings.
+•	Inform of important documents - the surge 2020 organization, [PROJECT2] Monday topics and google sheet.
+•	Ask to download  the [ORGANIZATION1] database data and it has to be convert to plain text only once.
+•	Inform about university open day on 12th February for which is doing domain adaptation and then there will be dry run of the workshop. That we are going to give for the [ORGANIZATION1] congress. There will be colleagues from [ORGANIZATION7] and will present NLP technologies. It will be held in English. Important for [PERSON7] – event for try domain adaptation surge. There will be one more dry run and final session will be at the Congress.
+•	Inform that Monday seminar will start again – domain adaptation practice.
+•	We are going to plan and we are going to implement a back translation in the next week.
+•	Is working on back translation.
+
+[PERSON8]:
+Done things:
+•	Started transcribing the YouTube videos shared by [PERSON10]. English transcriptions are done and will start with Czech.
+•	Prepare transcript for Monday seminars. And into [PERSON6]'s ASR, followed by segmenter.
+•	Did voice domain adaptation and talk adaptation and speaking of the words.
+•	Prepare of English segmenter.
+Things to do:
+•	To focus more on sentence, boundary detection on both English and Czech segmenter. 
+•	Integrate [PERSON9]'s audio compression on these YouTube videos.
+•	Progress more on the [ORGANIZATION4] 36 empty models and doc translation. To get models used in our pipelines
+
+[PERSON5] inform [PERSON8] about person who manage to run the models – [PERSON3]
+
+[PERSON4]:
+•	Downloaded new corpora of interpret spoken language - EPIC [ORGANIZATION6] interpretation corpus and Europarl-ST. Downloading all of plenary session from parliament since July 2018. And 1.7 terabytes of audios, videos interpreting in 22 languages.
+•	Started with main project - until 6th March multi-source spoken language translation research. And bring it for English and German into Czech.
+•	Started to do the binding worker for automatic speech recognition and mediator. Is able to connect JASPER and Kaldi to mediator and not need to connect them separately.
+
+[PERSON5] add that the gathered data are very important because it would be used to retrain the ASR models and it is needed to somehow include them in the surge. And there will be a requirement for [PERSON8] to have the pipelines ready.
+
+[PERSON9]:
+•	Collaborated with [PERSON8] on compression. It is needed updates from [PERSON8]. [PERSON8] show to [PERSON9] how to evaluate via the mediator.
+•	Was working on [PROJECT1] thing.
+
+[PERSON2]:
+•	Working on the framework or for example test set for evaluation of simultaneous translation. Have a problem with segmentation, when calculate delay is wanted.
+•	Have new idea to try. [PERSON5] comment this that it is generally preparations for the SLT shared task. And it is for [PERSON8]. Together will work [PERSON2] (evaluation), [PERSON8] (pipelines) and [PERSON10] (data).
+
+[PERSON12]:
+•	Worked on data collection.
+[PERSON12] will be in touch with [PERSON7] and they will synchronize the tools to convert all the file formats.
+
+[PERSON10]:
+•	Have an overview of all the data for [ORGANIZATION1] Congress to integrate it and to create test sets (IWSLT).
+•	Will do a store on cluster.
+•	Worked with people who do manual work.
+To run regular evaluation - [PERSON10] collect outputs from [PERSON8] who process the test sets with pipelines and use the evaluation tool by [PERSON2].
+
+[PERSON6]:
+•	Done the forced alignment.
+•	Now is working on onlinezation of ASR. Have problems with with transcribing,the running window, which cuts the words in the middle and then the language model does strange things to the all words in the whole transcription.
+
+Minutes submitted by [ANNOTATOR1]

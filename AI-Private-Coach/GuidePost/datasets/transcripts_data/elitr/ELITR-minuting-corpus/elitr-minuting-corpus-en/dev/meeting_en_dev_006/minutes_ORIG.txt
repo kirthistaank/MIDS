@@ -1,0 +1,31 @@
+[PROJECT1] Surge meeting
+Thu Feb 6, 13.00
+- Please fill your regular availability:
+--  [URL]
+--   (remember, the early days are no longer used, the full week Mon-Fri is what we are looking at)
+-  Can someone try installing: [URL]
+--   This would allow us to easily collect an subtitle our videos, even when they are not on youtube.
+-  WANTED topics to choose:
+--   Gazeteer collection
+--   Gazeteer use in the model preparations (via [PERSON10]?)
+--   “[PERSON2]->[PERSON10]” regular data flow
+--   “[PERSON10]->[PERSON1]” regular data flow
+-  [PERSON10]
+--   was busy with exams, the last to take tomorrow
+--   has a collection of scripts, now to merge them to a single one
+--   creates a list of unknown words based on a directory related documents
+--   [PERSON3] reminds that this conversion must be idempotent, i.e. to gracefully process an unchanged directory repeatedly and to gracefully process any new files which may had appeared in the directory
+--   [PERSON3] expressed the additional requirement to have two layers/versions of the interface: a green one for publicly shareable content and a red one for confidential content
+--   [PERSON10] will be available for [PERSON1] to discuss the “[PERSON10]->[PERSON1] regular data flow”in 1 or 2 weeks
+-  [PERSON5]
+--   Websocket, socketio for online-text-flow
+--   [PERSON5] will coordinate the discussion with [PERSON7] on documenting and also functional requirements on presentation platforms ([PERSON3] has [PERSON7]'s PDF, [PERSON5], ask for it if you don't have it)
+-  [PERSON8]
+--   Starting to train MT on incomplete sentences
+--   to learn from [PERSON6] how to use SLTev
+-  [PERSON6]
+--   collecting data for SLTev testing
+-  [PERSON1]
+--   busy with running ASR for various older talks
+--   now will work on the evaluation of our pipelines with SLTev
+

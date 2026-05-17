@@ -1,0 +1,557 @@
+(PERSON3) <another_language/>
+Hi.
+<another_language/>
+(PERSON6) <another_language/>
+(PERSON3) Thanks for letting us know.
+I'll put a temporary note on stat MT org for new returning participants.
+OK - 
+<another_language/>
+temporary note -
+<another_language/>
+(PERSON6) OK.
+Hm.
+<another_language/>
+(PERSON3) <another_language/>
+(PERSON6) OK.
+(PERSON3) <another_language/>
+(PERSON6) <another_language/>
+OK.
+(PERSON7) <unintelligible/>.
+(PERSON6) Hello.
+(PERSON3) Hi.
+(PERSON7) Oh, yeah, hi.
+(PERSON3) Hi.
+(PERSON8) Hi.
+(PERSON7) Hello.
+Ok, O-[PERSON11] will join from, for a while, but he, he has to, uh, leave soon.
+So, I guess, uh, we'll first, uh, uh, summarize, was discussed regarding the [PROJECT7] last week because I think he was paying most of the attention, since he was discussing it, actually, with the others.
+(PERSON11) Hi, I'm here, yeah, I - s-sorry for the delay.
+Uh.
+Yeah, so, l- I'm overloaded as, as always, but it's maybe m- uhm, much worse.
+It's, it's getting worse every, every day.
+<laugh/>
+So, uh, uh, a- a- while I'm here, I would like, to first apologize to [PERSON8] for forgetting him, uh, forgetting about him in the last call, like, when I was, uh, mentioning the people.
+(PERSON8) No problem at all.
+(PERSON11) I was scanning up and down the participants lists, but for some reaso, n – 
+You, uh, so, that's, uh, stupid.
+At the same time, I think that, uh, you saw the energy like, I was really surprised to see that [ORGANIZATION1] has indeed active people on the job.
+And I think that uh, well, maybe any- everything can in the end go like, ash tray, maybe, maybe they won't, uh, put it in the browser in any form, and they will kill it for management, uh, reasons at any stage.
+But, uh, while there was the energy, I really felt, uh, that, uh, if we like, supported them, if they kept working this way, uh, uh, they, the [PROJECT4] could make a difference.
+Like, there indeed could be a, a built-in translation system in every browser on every desktop, uh, in several years from now.
+So, I think it would be, uh, great to, uh, to like, contribute, well, actively and, and make sure that everything gets in.
+We are on the side of that, uh, obviously with our outbound translation, uh.
+But still, uh, like, uh, you can easily hit forms when browsing, uh, the web in the wrong, uh, in, in foreign language.
+So, our exercises make, uh, sense there.
+And also, there are, uh, other, uh, tasks where we can help like, just, uh, uh, validating it for our languages, uh, which does include Portuguese.
+Uh, That sh- uh - 
+That definitely would help the, uh, the project.
+So, I'd like, to like, highlight this energy that I saw there.
+And uh, I think that we should try to make use of that.
+Because imagine, [ORGANIZATION3] being mentioned in credits of, of [ORGANIZATION1], uh, some years from now.
+And that would just amazing.
+So, that's, uh, the, the main message that I had from the [ORGANIZATION1] meeting.
+The other message was, uh, like, it's, it's all than u- u- up to you, so, to say to, to check that, uh, uh, the, uh, [PROJECT7] that they have agree on and is not documented in the document, uh, in, in the share document, uhm, is in line with what we are going to, to provide for, uh, the, uh, for the form filling.
+So, uh, so, far, we are running very much independently.
+We have to have finish our experiments and know watch, uh, the user needs.
+And what the user can actually, uh, make use of, uhm, but, uh, at the end of, uh, the, this at the end of the project, we will have to have some subset integrated.
+And it can be as simple as just back-translation, nothing more than pew- uh, like, playing back translation.
+But if we find anything useful, uh, like, the paraphrases, than we have to, uh, have the paraphrasing, uh, sub-module, uh, ready for them to, to somehow package it and send it.
+So, that would be a multilingual model, uh, under the hood that go, uh, the, uh, and a little, uh like, loop that goes there and back, uh, into a number of languages and, uh, shows the paraphrases.
+If we, uh, do something further complicated, such as the [PROJECT3], uh, exploration, then again, we have to make sure that the [PROJECT7] that they have agreed upon is sufficient for our, uh, thing.
+So, please, uh, always keep in mind this, and keep checking what they're doing.
+Uh, there is one thing, uh, about [PROJECT3].
+So, so, far the [PROJECT3], uh, as they were discussed, uh, they, they were like, brought, uh, to the discussion, uh, as part of o- our uh, work-package, uh, the outbound translation.
+But, uh, the actual use of the [PROJECT3] was totally without the outbound translation task in mind.
+It was only, uh, to offer the user some alternative translations of, uh, words and, and sentences on the web page that the user bro- uh, is browsing.
+So, uh, there is some risk of confusion.
+They may think that, uh, like, we are dealing with this, uh outbound translation, so- sorry, the – wit- wit- with this [PROJECT3] navigation.
+Uh, uh, we're not, obviously, we are only, uhm, uh, focusing on navigating, uh, the [PROJECT3] in the language that the user doesn't speak.
+Uh, the, uh, the [PROJECT3], uh, as they discussed, uh, that was for the user, uh, to, to see a better version of, uh the input, where the user understands the output, the user understands item in the [PROJECT3], but doesn't understand, uh, the input, or doesn't understand it sufficiently enough.
+So, this - 
+There is –
+Some risk of confusion and we have to, uh, clarify it, if we see that the confusion is, uh, happening.
+Uh, yeah.
+But that's uh, that's about it.
+And, uh, from, uh, from the [PERSON4] point of view, we need to be sure that the like, the more complicated call is sufficient for that.
+That we are getting the [PROJECT3], and that we have a way of uh, like, uh, s- using this for our purposes.
+So, if we need [PROJECT5] with modifications, which are the constraints and, and so on, then we need to make sure that this version of [PROJECT5] is the one that is going to be, uh, like, shipped with, uh, that and that we can access those, uh, extra features with the [PROJECT7].
+It's too early for now, uh, to ask for that, because we don't know if it helps, uh, at all, uh, so, uh, and we don't know what exactly is our [PROJECT7] to these extra features of [PROJECT5], because well, we don't have -
+We, we don't use [PROJECT5] yet for these experiments.
+<laugh/>
+But we need to keep that, uh, in mind, uh.
+So, that's, uh, that's the high-level overview that I just, uh, wanted to, to give and that's it, so.
+Thank you.
+And I'll, I'll keep listening for while, and then I'll disappear.
+<laugh/>
+(PERSON7) So, okay, uh.
+So, first things first, as you might have noticed, uh, we were invited to the gol- global [PROJECT4] Slack.
+So, it's, it's good to keep, keep a track of new conversations there, regarding the implementation.
+And that's basically everything general.
+So, we can move to the sub-tasks.
+So, how, how about [PROJECT1]?
+How's, how is it going?
+Are we getting more data from [ORGANIZATION2] or, or no, no updates there?
+(PERSON6) Well, actually we'll be stopping it for today and tomorrow, because of the outage, uh.
+And there is - 
+There were -
+I mean - 
+In total we have eighteen hundred OK segments.
+Which is, I guess, OK, but we need more.
+(PERSON7) Uh, uhm.
+(PERSON6) And, uh, I started working with the paper.
+I just - 
+I already wrote several sub-sections.
+I think it's going well, but, at one point, we'll need to come up with something, which is going to make the paper more original.
+Like, which is going to distinguish -
+(PERSON7) OK.
+(PERSON6) It from the 2B paper.
+(PERSON7) Uh, uhm.
+(PERSON6) And that's my biggest fear right now.
+But, uh - 
+(PERSON7) OK, so, so.
+Uh, go - go on.
+(PERSON3) So, OK.
+The la- last week, I, I was, I was working on the evaluation for like, a, uh, interface for human evaluation or the, like, e- environment for human evaluation of the translations.
+Uh, so, yeah, I come up with some website.
+And, uh, currently, yeah, I'm, I still need to, because I'm working with, only with some toy examples.
+So, so, I need to process, uh, the, uh, the logs from, from the [PROJECT1] that I have o- 
+I like - 
+(PERSON6) OK, uh, so.
+(PERSON3) Oh, you - you are doing that, or?
+(PERSON6) Yes.
+I, I'm doing it actually because I, I already wrote a section.
+If you take a look at the paper, I've wrote about the section about the first variables and how we pick them.
+So, at this point, I just have the like, the list of sentence or inputs which we want to have annotated.
+(PERSON3) Uh, uhm.
+(PERSON6) And so, I imagine it like, I just give you this, this file, where every line is, is some input which is <unintelligible/> annotated.
+(PERSON3) OK, so, in the, in the original, in the format that you asked me to send you, the, the JSON format.
+(PERSON6) Uh, what do you mean? 
+(PERSON3) Yeah, OK.
+(PERSON6) Wha- wha- wait, uh, what format? 
+(PERSON3) <unintelligible/>.
+Sorry, sorry?
+(PERSON6) What format, I'm not sure.
+Uh.
+(PERSON3) Like, you asked me, uh, like, to – 
+When I - like, this environment, or this front-end is working with back-cues as well.
+So, you asked me what the format -
+(PERSON6) Oh yeah, OK, so, I'll prepare this and send it to you.
+(PERSON3) Yes, because, I, I thought that I, I'm going to prepare this, but currently -
+(PERSON6) Oh, OK.
+(PERSON3) Yeah but if you want to prepare it, you know.
+Like, jus- we have just -
+(PERSON6) I mean, did you do any significant work on it?
+(PERSON3) Uh, not yet, because, uh, like, until Friday, I was working on the front-end.
+And since then, uh, I'm doing some review on -
+(PERSON6) Okay, well then, it's probably best that I just make it and send it to you.
+(PERSON3) OK.
+(PERSON6) Uhm, yeah, so.
+(PERSON3) Yeah, so.
+And, OK.
+So, I contact- uh, uh, I contacted [PERSON5] and, uh, she announced the annotators about the - 
+(PERSON6) Uh, uhm.
+(PERSON3) New like, annotating campaign by [PROJECT4].
+And, so, what else.
+So, [PERSON6] contacted also, other partners, that they can contribute to the paper.
+(PERSON6) Yeah, there's ten authors of this paper right now.
+(PERSON3) Yeah, OK, but.
+<laugh/>
+It's, is normal in, uh, in physics.
+You know to have like, thousands of authors.
+<laugh/>
+(PERSON6) OK.
+(PERSON3) Why, why not to do so in, in the, like, the Computer Science.
+(PERSON7) So, If I may cut in, I, I have two questions.
+One is, uh, you, you mentioned a new annotation campaign.
+So, so, what is this exactly related?
+Is it going to process the collected segments, or?
+Uh.
+(PERSON3) Uh, yeah, like, we are like – 
+We have two - 
+In [PROJECT1] there are two stations, two stages of interaction with, with the human users or participants, or a- annotators.
+And the first one it's running in, by [ORGANIZATION2].
+(PERSON7) OK.
+(PERSON3) So, those people are working with the [PROJECT1] application.
+And then, uh, so, so, we are, uh, asking them for their confidence, but we still need to find out what's the quality of the produce out- what's the quality of the produced translations.
+(PERSON7) OK.
+(PERSON3) And this, this needs to be evaluated, uh, like, a standard evaluation of, uh, human translations.
+(PERSON7) Yeah, yeah, I, I, I do, I do remember now.
+Yeah, I, I understand.
+(PERSON3) OK.
+(PERSON7) So.
+(PERSON3) So, that – 
+Sorry, so, that's the campaign.
+And this a- this a, uh, uh, this is the, and, and this is split into, uh, like, our side end the easto- Estonian side, because we have like, two target languages.
+And I already communicated with Estonia, s- uh, and they told me, OK that I would just need to inform them about the, uh, annotating, uh, environment and the guidelines.
+So, I still need to write some guidelines in English.
+Yeah, but until tomorrow, I have a lot of work with annotating, uh, sorry, with reviewing papers for coreference workshops.
+(PERSON7) Uh, uhm.
+(PERSON3) But from Wednesday I can work up on it again.
+(PERSON7) Ok, so, o-
+Ok, so, uh, another question is since we - are we still expecting more segments?
+So, the question is, uhm, I did, didn't get, uh, how are we handling the outage today?
+So, [PERSON6] is - 
+(PERSON3) Uh, <unintelligible/> to, to inform the [ORGANIZATION2] people and I informed them.
+And they told, or [PERSON1], uh, responded that he's going to, uh, just add a warning to the, uh, to the site.
+(PERSON6) Well, we are not sure, whether it's a blocking note or a non-blocking note so, anyway - 
+(PERSON3) Yeah, we are not sure, but -
+(PERSON6) I just put like, a note saying that it is unavailable at the moment and I guess <unintelligible/>.
+(PERSON3) Ok, so, so, hopefully they will understand it, and nobody will like, participate during this time, this period.
+(PERSON6) Uh.
+(PERSON3) And, uh, question about uh, at, uh, like, l- yeah.
+We are starting like, process the, the s- like, contributions that we have so, far, we have collected so, far, uh.
+And - but it doesn't mean that we are not collecting them, like, more of them, so.
+Uh, the first stage of an annotation is not finished yet, uh.
+[ORGANIZATION2] is still, uh, like, uh, [PERSON9] d- d- replied like, in, in the end of the last week that, uh, the maybe he will again t- poke the, the participants to, to do it more or, or other - 
+(PERSON6) I, I mean, ha- having, for example, two thousand, and or two thousand, and hundred, uh OK stimuli would be, like, good.
+Uh, but I have a question for [PERSON3], whether like, when are we stay- starting the, the quality annotations, like.
+If we start them, then we quit the f- first stage, or we keep the first stage rolling and then just won't have quality annotations for some of the replies.
+What do you say? 
+Or did you understand my question.
+(PERSON3) So, so, so, the questions was, whether we should, uh, finish the first stage before we start the second stage, or?
+(PERSON6) Yeah.
+(PERSON3) Sorry, I don't get the -
+(PERSON6) Yeah, or how do you plan this.
+(PERSON3) Uhm.
+(PERSON7) Yeah, yes.
+(PERSON3) Yeah, I know, I know that we, we ma- maybe we have a different opin- opinion on this.
+And like, I don't think it would harm so much, if we run this in parallel.
+(PERSON6) OK.
+(PERSON3) Because most we have collected so, far, most of the stimulis, or most of the contributions.
+So, I think we can start -
+(PERSON6) I, I, I mean.
+It's okay by me, but we'll just to – 
+Like, we would have part of data annotated in this way, but I guess that's OK.
+(PERSON3) Uh, but we can, uh, then, like, we can ask, ok, so, so, we can, uh, put the checkpoint, uh, like, what's the first part of the annotation, leave it to the second, uh, st- for, for these annotators of, or human evaluators.
+(PERSON6) Uh, uhm.
+(PERSON3) And then we can ask them again to annotate the second part, if, if we have some tim- s- still some time.
+(PERSON6) OK.
+I mean, we will have to write that we, we except this possibility of bias, but I guess it's OK.
+(PERSON3) Yeah, I know like.I still.
+(PERSON6) I - 
+Perhaps I'm worrying just too much, I guess it's OK.
+(PERSON3) Yeah, maybe we will - 
+I, I still cannot see the like, uh, so much bias there, but, uh - 
+(PERSON6) Yea, yeah, yeah, I mean, there is potentially, but I don't know what exactly, so.
+I guess it's OK.
+(PERSON3) But do you mean bias on w-
+OK, so, we can discuss this in, separately, because - 
+(PERSON6) Yeah, yeah, OK.
+(PERSON3) Maybe you aren't, others are no longer interested in this, so.
+(PERSON6) <laugh/>
+Uh, uhm.
+(PERSON7) OK, so.I think that - 
+(PERSON3) So, the, so, the final, uh, m- message from this is that, uh, like, works on [PROJECT1], are like, progressing more than it has progressed like, uh, like, three weeks ago, or, like, yeah.
+So, so, now it's – 
+We are progressing, yeah.
+(PERSON7) Uh, uhm, OK.
+Good to hear that, so, can we move to the next topic, or is there anything else?
+OK, so, let's, le-let's move to [PROJECT2], right.
+(PERSON3) Yeah, yes.
+(PERSON7) Or did you wanted to say something?
+(PERSON3) Yes, here, it's not so much progress, uh, like.
+(PERSON7) Uh, uhm.
+(PERSON3) Like, co- slowly I am still running, uhm, or training more and more systems.
+And, uh, yeah, I need to somehow after everything is done.
+(PERSON7) Uh, uhm.
+(PERSON3) And then I have time to, to do this, I have to visualize, uh, like, the, the learning curves, uh, learning curves from, from the pre-training, a learning curves from the, from the fine tuning.
+And, uh, to see, w-what are - what this curves are saying.
+Like, I have some ideas now, like, or, or the or the first observation.
+(PERSON7) Uh, uhm.
+(PERSON3) I'm still not sure if it's the, if it's true, because it really depends how many, uh, iterations were performed during the retraining.
+(PERSON7) Uh, uhm.
+(PERSON3) And, uh, I think that, uh, the difference between the, between the normally back-translated data -
+(PERSON3) Uh-hm.
+(PERSON7) And the, the back-translated data, that we called para or paraphrases, which are like, uh, which are forced to be as different from the original so, r- uh, original translations.
+(PERSON7) Uh, uhm.
+(PERSON3) As possible.
+So, different, like, using this data, it helps when we don't have, uh, enough monolingual data to be translated normally.
+I - and to be like, added - 
+To, to, like, like, back-translate the data.
+(PERSON7) Uh, uhm.
+(PERSON3) So, but I have still to - 
+This is just, like, my preliminary observation from the table.
+(PERSON7) Uh, uhm.
+(PERSON3) And I think it will be, uh, it will be mol- more clear or clearer if I, uh, when I just plot it into learning curves and see how it actually depends on the - 
+In what way I stop the pre-training and what iteration.
+(PERSON7) Uh, uhm.
+(PERSON3) I think it really depends on this factor.
+(PERSON7) OK, uh.
+(PERSON3) We discussed this with [PERSON2].
+So, what should we, what should we do with, with, with it next.
+Yeah, and so, this is the work on, uhm, augment-
+(PERSON7) -tation.
+Augmentation, right?
+(PERSON3) Data augmentation.
+And, uh, like, for a month, or more, I haven't done like, on real or true [PROJECT2].
+<laugh/>
+(PERSON7) Uh, uhm.
+(PERSON3) I haven't done much on this, or, or nothing.
+So, I think I, I should maybe finish this as soon as possible and start to concentrate on the real, mal- [PROJECT2].
+(PERSON7) Uh, uhm.
+(PERSON3) Because, yeah, no, I think, already in the -
+We have, we, we have not been ask for this thing during the last meeting, or the plenary meeting.
+(PERSON7) Uh, uhm.
+(PERSON3) But I think they will be interested how this multiple or multiple rephrasings will be employed in the, in the - 
+(PERSON7) OK.
+(PERSON3) Like, [PROJECT1], no, not [PROJECT1].
+In the [PROJECT4], in, in, integration in the, in the plug-in for Firefox.
+(PERSON7) Oh yeah, it, it's true that we have to somehow, uh, figure out, how to - 
+Well the question is, uh, so, we are, we are, there will be some communication with the users.
+An, and the user has to provide us the alternatives, right, the alternative input.
+So, so, we need to ask the [PROJECT7] people to kind of help us design the [PROJECT7] in the way that that it supports this kind of funk- functionality, right.
+But other than that, like, for example, if we provide the additional sources ourselves, for example, by paraphrasing, or back translation or anything without, uh, the user knowing we might avoid this?
+Or ac- actually, now that I think about it, even, even if we create the additional sources ourself, we would probably want to send them to the user so, he, he knows how the translation was created, right.
+I'm, I'm not sure, like.
+(PERSON3) Uhm, I'm not getting it now, but, uh.
+(PERSON7) OK, I will take note, that, that, that's definitely a thing that we might, we should mention to the, to the [PROJECT7] people that this kind of functionality might be helpful.
+Uh, I get that there's still chance that since the, the [PROJECT7] will probably support the, sim- simple input that, that we can just, uh, cheat it in a way, and, and use the symbol, single input, uh support.
+And support, and, and split the multiple sources by, by some special symbol, or, or something like, that, but I'm, I'm, I'm sure right now.
+(PERSON3) Yeah.
+Yeah, yeah.
+(PERSON7) OK, so, that's, that's good.
+(PERSON3) <unintelligible/>
+Like, my original idea from mul- [PROJECT2] translation was that, uh, yeah.
+But it would, uhm.
+My original idea was that the, the, the additional translation, uh, sorry, additional rephrasings of, uh, rephrasings of the source text would somehow, uhm, make the, make the translation more precise.
+Or, or you will, you will just add and if you add more and more, uh, rephrasings, uh, the, the translation would change.
+And this would, this could be done by, yeah, but the translation would have to somehow remember the state.
+(PERSON7) Uh, uhm.
+(PERSON3) OK, so, now - 
+Forget about it.
+We just - 
+Yeah.
+(PERSON7) Okay.
+Sorry.
+<unintelligible/>
+(PERSON3) This needs to be dealt with also on the AP sid- [PROJECT7] side.
+Cause if we want to like, provide them with more one translation, they need to know this.
+(PERSON7) OK, yeah, yeah.
+I think that, that's the, that's the most, most pressing thing right now, like, to really, uh, think it through.
+Like, what would we might need to, uh, like, what we, what we require for this from, from the [PROJECT7] side and, and tell them the - as soon as possible, so, they can properly design the, uh - 
+Well, the [PROJECT7], right.
+(PERSON3) Yeah and then.
+On our side, OK, when we somehow specify these, then we have to – 
+Uhm, yeah, I can work on it alone, but it would be grateful, if somebody could help me with this [PROJECT2] will.
+And I think, [PERSON7], you, you told <unintelligible/>.
+(PERSON7) Yeah, yes, definitely, definitely, you can count on me because I'm basically also, assigned to this, so, so.
+Uh, yeah, so, feel free to, to bother me or, or, or ask me for, uh.
+(PERSON3) Uh, uhm.
+(PERSON7) Like, help and, and s- things like, that.
+(PERSON3) And maybe I have one more comment to what [PERSON11] was saying.
+Uh.
+(PERSON7) Uh, uhm.
+(PERSON3) What was it.
+Yeah, about the integration and, uh - 
+(PERSON7) Uh, uhm.
+(PERSON3) If we want to integrate, uh, so, far, like, f- like, from the preliminary results of [PROJECT1] experiment, we know that back-translation is the best signal for the users that -
+(PERSON7) Uh, uhm.
+(PERSON3) Yeah.
+But also, the paraphrases, also, paraphrases somehow like, there are some high, somehow helpful a bit.
+(PERSON7) Uh, uhm.
+(PERSON3) And, so, if we want to, uh, integrate the paraphrasing system, like, one, that we ha- we are using now in the [PROJECT1], I think it isn't, or, not, uh, not a lot of work, but, uh, substantial work on the site of somehow, uhm, making the model smaller and work on the CPU.
+Because now we are using the implementation of, uh, uh, [PERSON10].
+(PERSON7) Uh, uhm.
+(PERSON3) And it's working, it's working on GPUs in two steps.
+So, like, a m- [PROJECT2], multitarget, uh, translation, and - 
+(PERSON7) Uh, uhm.
+(PERSON3) Yeah, so, I don't think it will be like, uh, easy task to, uh, just to change it to, to, to work sufficiently good, uh.
+(PERSON7) Uh, uhm.
+(PERSON3) And I think this is something that, uh.
+(PERSON7) So, so, you're talking about the paraphrasing in, in [PROJECT1], right? 
+(PERSON3) Sorry?
+(PERSON7) You're talking about the paraphrasing in [PROJECT1], right now.
+(PERSON3) Yeah, yeah, yeah.
+(PERSON7) Yeah, OK.
+So, i- is it implemented in [PROJECT5], or.
+(PERSON3) No.
+(PERSON7) OK.
+(PERSON3) This is like, this implementation by [PERSON10] is done in, in [PROJECT6].
+(PERSON7) OK.
+So, we - 
+I guess the best thing would be to ask [PERSON10], whether he can reproduce it in [PROJECT5], that would be good start.
+And then we can discuss - 
+(PERSON3) But [PERSON10] is - 
+[PERSON10], em- uh, employed, uh, on [PROJECT4] still, can we ask him to, to do anything more for, for this project?
+(PERSON7) Uh, Uh, uhm, I'm, I'm kinda asking [PERSON11].
+[PERSON11], [PERSON10] is still employed?
+(PERSON11) Yes.
+(PERSON7) OK.Yes.He's still employed, so, we can ask him for that.
+(PERSON3) OK.
+(PERSON7) Can you hear me? 
+Oh.
+(PERSON3) Yeah, yeah, I can hear you.I can hear you, yeah.
+(PERSON7) Yeah, definitely, I, I would start with asking [PERSON10].
+I'm not sure how, how complicated the system is or whether, whether it, it is currently supported by [PROJECT5], or, like.
+But we definitely need at least the information was needs to be implemented in [PROJECT5] to make it work.
+And, uh, yeah, basically that's it.
+And then we can - 
+(PERSON3) Like, the problem for me is there, that I think that, uh, if we want to do the same optimization that was done for standard translation system, uh, like, those - 
+The pipeline that I also, tried and it was pain, yea- pain, really painful and I did not finish it, uh, it needs to be done for 4Ds.
+And it would be much complicated, because it's not only one, like, one source language and one target language.
+But there are multiple, uh, languages on the both sides and - 
+(PERSON7) Uh, uhm.
+Yeah, but, the, it might be that it's - 
+(PERSON3) So, I am quite, I'm quite worried about that, about that [PERSON10] would do this because I don't think [PERSON10] is, uhm, like, really in, into this project, and I have -
+He's, he's working well or fine but, yeah, I have the experience with the previous work, and I don't think - 
+If we want to finish it, it needs, uh, so, me, simply more work, and more time to, to do this.
+(PERSON7) So, I think I think the thing what, what is important is to ask him as soon as possible.
+I will try it this week.
+And the, the important thing is to get the, the description how it actually works, how his implementation [PROJECT6] works.
+And, like, it's - 
+I don- I don't expect, if, if what we need to implement some additional features into [PROJECT5] NMT, that, that it will be done by [PERSON10].
+But, you know, we can, we can ask [PERSON12], whether, whether he can perform his implementation, like, how much time he things it would b- 
+Like, I think we do have people that can handle it.
+But right now, I, I just, like, would like, to know, uh, like, the differences, or what is missing for this to be, uh, done in [PROJECT5], right.
+That, that's ,that's the only thing I'm interesting right now.
+(PERSON3) Yeah.
+(PERSON7) And, oh, and the main we need to figure out -
+(PERSON3) Yeah.
+(PERSON7) And I think that should be -
+(PERSON3) I'm not mentioning it.
+I'm not saying that we have to figure out now, what, what the solution.
+Bu- but I'm just mentioning it because this one of the things we, we need to deliver something.
+(PERSON7) Uh, uhm.
+(PERSON3) And the like, back tr- like, from the [PROJECT1] experiment, uh, back translation is the best thing, but is easy.
+And we need to deli- deliver something that is more advanced, uh - 
+(PERSON7) Uh, uhm.
+(PERSON3) The first thing to come is, uh, paraphrases.
+(PERSON7) Uh, uhm.
+(PERSON3) And, uh, yeah, and, we s- we need to think about it, who will, uh, who will like, transform the solution, solution that can work on, can be run CPU.
+(PERSON7) Yes, I, I understand it.
+The, the thing is that, uh, before we can actually, uh, split the work between us, I need to know like, what the actual process is that, that he does for, you know, like, for to paraphrasing.
+I, I have just so, me, some shallow ei- idea right now.
+So, that's, that's what I'm talking about.
+So, I will, I will ask him about the details and I ca- 
+Yeah, we can definitely discuss it next week.
+(PERSON3) Uh, uhm.
+(PERSON7) Like, what are our options.
+Uh, yeah.
+But good, good thing you mention it, because it, that's definitely important, uh, but I think yeah, that, that should be it for [PROJECT2] right now, right?
+So.
+(PERSON3) Yeah.
+(PERSON7) Can we - 
+We can get some brief overview on the [PROJECT3] progress.
+[PERSON8]? 
+(PERSON8) Well, let's talk about [PROJECT3].
+Uh, what I, what I did then since our last, uh, talk, was trying to have some results, any results, just to have some idea about what, uh, we have with these experiments.
+So, uh, I implemented the split you suggested, which is, uh, taking twenty percent of, of the references as constraint providers, and the rest as references for evaluation.
+(PERSON7) Uh, uhm.
+(PERSON8) And then, then, I used the idea, the simpler idea, which is just taking one references and selecting the tokens, uh, the most important tokens, and, uh, using it as constraints in an incremental way.
+And, and generated the, the, the output in, in Czech, so.
+Now I was in no wise in the blue score obtained with different constraints.
+(PERSON7) Uh, uhm.
+(PERSON8) And it doesn't follow a pattern.
+So, it bends on each case and it, it's interesting because, uh, maybe I was expecting that in all cases when we add, uh, more constraints, have better blue score, and it's not the case for all the examples.
+So, uh, we have, in some cases, it's words.
+As a, as we add constraints, it improves, but in some cases, it just drops the blue score.
+So, for me, at least it's important to have this initial, huh, result, only po- uh, using positive constraints.
+Because now I have some idea of, of what to do and maybe what think over that.
+And uhm, and well, about the word-alignment, which is the, is the second part of his <unintelligible/> of, of creating, uh, creating this constraints, combination of, of different concerns from different references.
+And I didn't implement it in yet, but I'm, I'm, I checked, already, what, what [PERSON3] provided.
+So, I'll start working on that now and as soon as possible have the results if this combination of, of constraints as well.
+Regarding the [PROJECT5], I didn't, I didn't look at that, because, uh, I was trying to have this initial results and it took all my time and.
+So, so.
+(PERSON7) Yeah, this, this.
+(PERSON8) But maybe, [PERSON12] may say something about that because, or I can help you or something, because I didn't, I didn't do much on, on [PROJECT5].
+(PERSON7) Uh-hm, this is, this is fine, uh, definitely, we can look at the results tomorrow.
+(PERSON3) Yeah.
+(PERSON7) Just please me, please send me a link with the, with the, o- the data, or the results, so, so, I can at least briefly look at it before the discussion.
+Uh, yeah.
+It seems fine.
+Like, so, so, just a question about the alignments.
+So, so, did you run into any trouble there or is it just in pros- progress right now.
+(PERSON8) No, yeah, I'm, I'm, I didn't, I didn't try yet to, to, to use the models provided by [PERSON3].
+(PERSON7) OK.
+(PERSON8) So, I will do this today, because I was just making sure that the results are, uh, okay.
+So, if I, I was checking if there, there was any, there were any errors in my implementation.
+So, it took me some time, but today I will start that, this afternoon.
+(PERSON7) OK.
+(PERSON8) Actually, we have so, me, some limitation on the server, right?
+Uh.
+(PERSON7) Uh, what do you mean?
+What limitation?
+(PERSON8) Oh, the ow- 
+Not limitation, it's a- the cluster will be out of order, right?
+(PERSON7) Oh, yeah, you're right about that.
+So, uhm, it should be in a hour and a half.
+(PERSON8) OK.
+(PERSON7) That's that, according to schedule, right?
+(PERSON8) Yeah, eight, six PM, right? 
+(PERSON7) Yes, six PM, so, yeah, that's, that's, yeah.
+Ninety minutes, basically.
+Eighty now.
+So, yeah.
+(PERSON8) Yeah, just make sure.
+(PERSON7) Yeah, so, you can, you can try just, uh, preparing the alignment crypt or the pipeline.
+And, uh, I'm not sure whether you can make it until the outage, but, uh, you know.
+You, you can try to have, have it ready, so, you can run it after, after the servers are back on-line, so.
+(PERSON8) Yeah, yeah.
+(PERSON7) And, uh, what about, what to do, when there's the outage.
+Well you can, you can try, try re- reading so, me, re- related papers, or, or make some self-study.
+(PERSON8) Yeah, sure, sure.
+No problem about that.
+(PERSON7) That's always the back-up plan.
+So, yeah, to here - 
+(PERSON8) I must do right, I have, have some <unintelligible/> here.
+So, there's no problem.
+(PERSON7) Uh, uhm, Uh, uhm.
+OK, so, yeah.
+Sounds good.
+I'm, I'm really looking forward to the, to the, to discussing the results tomorrow, so.
+(PERSON8) Oh yeah.
+(PERSON7) So, is there anything else?
+Anything yo- like, anyone wants to add to the discussion or are we done?
+(PERSON12) Yeah, hi.
+(PERSON7) Yeah, OK.
+(PERSON12) Yeah, I.
+I had a look at the <unintelligible/> branch of the [PROJECT5] with the paraphraser, it's basically not usable for us, it's very simple.
+He just filters out hypothesis beams with, that contain uh, tokens, which are in the original sentence, but not in the paraphrase.
+So, he just filters beams to get different results.
+It's -
+<unintelligible/>
+So, that's like, uh, I'm not sure, that, that will help us in a way.
+(PERSON7) OK, but so.
+<unintelligible/>
+(PERSON12) It's just very simple and, uh, yeah, so, I, uh, had a look at the, at the FAIRSEC implementation.
+(PERSON7) Uh, uhm.
+And I will try to reimplement it in [PROJECT5] but -
+(PERSON7) Uh, uhm.
+(PERSON12) The logic is not too complicated, but the implementation probably will be.
+(PERSON7) Yeah, yeah.OK, so, so.
+(PERSON12) Yeah, that's, surprisingly.
+(PERSON7) Yeah, just, keep, keep, keep us updated, how is it going, also, good thing that you reminded, or spoke, because, yeah I'm, I'm adding, uhm, section to the, to the minutes.
+And yeah definitely, I will keep a, let's, let's keep track of, of your implementation progress.
+(PERSON12) Yeah.
+(PERSON7) Definitely good idea.
+Uh.
+(PERSON8) And if you need any help, I can, I can try to help, anyway, OK.
+(PERSON12) OK, OK, like, l-
+Right now, I'm just going, you know, basically line by line with implementation FAIRSEC and trying to figure out how to do this thing in [PROJECT5] yeah.
+(PERSON7) OK, so, uh, maybe, maybe p- 
+[PERSON12], uh, if you, if you have some question regarding the FAIRSEC, I may try to look into it and maybe I will be - 
+My – 
+I can be helpful, if necessary.
+(PERSON12) OK, OK, not yet, but I will.
+(PERSON7) Uh, uhm.
+OK, so, yeah.
+Now, that's actually good, uh.
+Oh, just, just checking.
+[PERSON12], you are working from Brno now, right?
+I guess.
+Definitely, like, good idea, to -
+(PERSON12) <unintelligible/>
+Yeah.
+(PERSON7) So, uhm, OK, I'm thinking about it, like, what, what's your, uhm -
+OK, we can, we can discuss it after, after the, after the meeting.
+I will send you, I will, I will message you on Slack and, uh, we can, we can discuss, what I want to do, like.
+But I think that, that things in general we have re-covered today, I just forgot to include attendance.
+So, uhm.
+OK.
+So, that's, that's it.
+And yeah, let's, let's hear from you next week.
+It, it got little bit longer, or it got a little bit stretched out today, but I hope it's, it's fine for all of you.
+So, again, uh, see ya next week.
+(PERSON12) See you.
+(PERSON3) Bye guys.
+(PERSON8) Bye, bye.

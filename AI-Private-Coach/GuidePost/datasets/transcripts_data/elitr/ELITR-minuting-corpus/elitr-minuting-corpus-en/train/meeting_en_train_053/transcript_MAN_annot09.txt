@@ -1,0 +1,470 @@
+(PERSON4) Thanks [PERSON7] for joining us, thanks to ehm [PERSON3] as well.
+(PERSON7) You're welcome.
+(PERSON4) mmhm
+So ehm - so [PERSON2] w- 
+we're going to discuss all the data alright today?
+(PERSON2) ehm Yes ehm, do you like me to present which data we have and so how much and how does it look like, yes? 
+(PERSON4) Yes, yes.
+Because I think [PERSON7] is also interested to doing some experiments as - <unintelligible/> in - in our meetings,
+so it would be great if you can have <unintelligible/> overview of which data we have and <unintelligible/> -
+(PERSON2) Okay, so I will share the - the screen with the table and we'll speak and show you the table.
+And if you have any questions, please, ask.
+You're <unintelligible/>, because ehm maybe I'm not quite sure what ehm - which information you sh- you want to know,
+so just a moment.
+I will just turn on the screen sharing.
+ehm There.
+Can you hear -
+ehm can you - can you see that?
+(PERSON4) Yeah, yeah.
+Yes.
+(PERSON2) So the link to that table you can find in the agenda.
+ehm So you can also open it yourself and use it.
+ehm Otherwise -
+ehm so it looks like that,
+it has ehm different ehm aspects ehm, that I marked.
+And ehm -
+so two ehm big parts - English meetings - this are all English meetings up to here,
+and then ehm Czech meetings.
+ehm So as for ehm English meetings, they are divided into groups according to the topic.
+ehm Most of our English meetings are form [PROJECT1] ehm - from the [PROJECT1] group.
+ehm So Surge meeting, our general report meetings, then some th- <unintelligible/> discussions ehm and something - some - some others.
+We also have ehm some meetings from [PROJECT2] ehm and about ehm 10 meetings from the ehm [PROJECT3] group.
+This is ehm the group of our Czech colleagues and now they have one Polish colleague,
+so they switched from Czech into English, and these are this English meetings.
+And ehm this [PROJECT2] - ehm Czech [PROJECT2] is ehm the group - th- the internal group of people working ehm on the [PROJECT2] project.
+So this is different from <unintelligible/> calls.
+These are just ehm our internal colleagues.
+These are the groups, ehm now ehm here we have the duration of the meeting.
+ehm This are kind of - this is kind of technical column, that I marked for myself if I treamed it or not,
+so I ehm worked with audio ehm and then I gave it ehm to [PERSON6], to prepare the automatic speech reconstruction.
+And he ma- he made me the Czech transcript in textual form,
+and then I gave them ehm th- th- ehm automatic transcript to annotators.
+These are the codes, the first letter of ehm name and surname of the annotator who worked on this ehm meetings.
+And then ehm they prepared the ehm correction of the automatic transcript and minutes.
+ehm As for correction, ehm I always gave each to one colleague,
+and ehm these ehm -
+to one anotator, and he prepared - he corrected the transcript and then as - as well as he already knew what was going on in the meeting, he also prepared the minutes for this meeting.
+And for -
+ehm I tried to duplicate it so to ehm achieve more than one minute ehm for a meeting.
+So I gave already tran- corrected transcript, not the automatic transcript but the already corrected, to another annotator,
+and he ehm listened to the meeting again, corrected ehm the mistakes if they were there, 
+so they mostly - mostly there are some typos- something like that, corrected it and ehm prepared other minutes.
+So for example here, for the first [PROJECT1] Surge from 24th ehm January 2020 ehm there were two annotators working on ehm the ehm - the meeting.
+A- ehm so we have actually ehm three ehm transcripts - originally done by one annotator and then corrected by second and then one small corrected by the third one.
+And ehm four people created the minutes, so we have four ehm minutes ehm of this meeting.
+Then we have manual transcript, ehm so this I just marked that we have it so that I can count it in the statistic ehm line ehm below,
+I will show you.
+ehm This is for the same purpose so I just counted how many minutes we have or-
+ehm This is a <unintelligible/> we have transcripts our minutes twice,
+and this is the concept duration of what you have.
+ehm So the statistics is here, after each language there is a line of statistics.
+So generally we have 105 meetings.
+ehm The duration - the general duration of all ehm meetings is 116 hours and half.
+ehm Put of ehm them ehm we have 76 manual transcripts and 76 minutes.
+So this is the - the numbers, actually always the same, because ehm it's kind of rule to gi- give me back c- corrected transcripts and minutes.
+ehm And for 33 of of these - ehm 33 ehm transcripts are ehm twice -
+33 min- meetings are twice ehm transcribed and 29 meetings are at least twice minuted.
+ehm And this is the duration of annotated ehm meetings.
+So we have 80 hours - almost 80 hours of ehm m- meetings, which are manually tran- ehm transcribed.
+It means ehm that automatic transcripts have been manually corrected and manually minuted.
+ehm Well, this is for English.
+An for Czech ehm we have ehm [PROJECT3] group.
+This a- these are our Czech colleagues.
+They began to ehm have meetings in Czech.
+That's why ehm many meetings are in Czech and they are here.
+Then there is an internal [PROJECT2] group.
+They also have begun in Czech, but then ehm - then they get an ehm international colleague and ehm switched to English.
+That's why we have also English [PROJECT2] ehm - Czech [PROJECT2].
+And this is the [LOCATION1] ehm com- ehm
+So this is - this is an external colleague ehm Pra-
+how to -
+ehm just a moment, I -
+ehm <unintelligible/> how to -
+[ORGANIZATION3].
+ehm They have ehm very nice meetings ehm of different kind.
+They're good - very well structured.
+And ehm they agreed to ehm record them for us,
+so ehm this is ehm -
+so we have also meetings from them.
+And ehm as for statistics, generally ehm of - for Czech we have 55 hours and out of them 50 ehm -
+we have 50 transcripts and 50 ehm minutes.
+And for ehm 40 meetings ehm are double annotated.
+So we have ehm 40 - 52 hours of annotated meetings.
+this is ehm the presentation, please ask.
+mmhm Maybe not, just a moment.
+ehm I also - I will also show you some other sheets.
+ehm This is ehm my table of annotators.
+This is the list of annotators.
+These people are working for English and this three people are working for Czech.
+And here I just write out when they got the transcript and when they gave it back.
+So this is just my internal table.
+ehm This is the sheet I began to list ehm the people who attended a meeting to ehm to control ehm the ethics -
+if the- if they sent the ethics protocol ehm - the consent forms.
+So ehm I think ehm it could be <unintelligible/>.
+This is all I can present, maybe you can ask me for something.
+(PERSON4) Okay.
+So, <unintelligible/> thanks you for ehm presenting the <unintelligible/>.
+So ehm, one quick question.
+<unintelligible/> is ehm. For the shared task ehm do you think that we should be annotating more?
+Beause ehm essentially we have ehm -
+if - if I'm talking from <unintelligible/> point of view, essentially we are having -
+(PERSON2) ehm I can hardly hear you -
+sorry, could you just get a little bit closer to the microphone?
+If we get from which point of view?
+And then - and then what?
+(PERSON4) ehm Yeah, [PERSON2], can you - can you hear me?
+(PERSON2) ehm I'll try to.
+So <unintelligible/> it seems that you're little bit far away, I don't know, what's - what's the problem.
+(PERSON4) Okay.
+So, what - what I'm trying to say is that you think that ehm -
+like I would also like to listen from others that the number of instances that we have currently for the meetings are a bit less ehm from a machine learning point of view.
+<other_noise/>
+(PERSON2) So what?
+ehm I just - I don't understand the question.
+(PERSON4) So, I'm asking that the data set that we have currently ehm, we have more annotations, right?
+Because I can see we have 76 instances of English data and around 50 <unintelligible/> instances of Czech data, right?
+(PERSON2) Yes, yes.
+(PERSON4) So ehm I think that ehm for using the data, as far for the shared task we need to do more,
+but what should be the - like what should be the exact number we should target, I don't know, but -
+(PERSON2) I don't know.
+I have no idea how much you should,
+how -
+I have no idea how much data we should release for the shared task.
+(PERSON4) Yeah, so that is something -
+maybe we need to ehm think about.
+(PERSON2) So, why not the proposition was to use ehm other open meeting corpora ESCI.
+ehm each ehm -
+probably they can be ehm proposed ehm
+there is hardware difference in how ehm minutes ehm or kind of summaries are organised, because what really ehm - what [ORGANIZATION1] corpus has are actually not ehm minutes in our understanding.
+They have either an abstact of ehm kind of coherent text for each meeting.
+So they have abstract of summaries and this is an - ehm coherent ehm paragraph of text for each meeting.
+All of them have some abstactive ehm summaries and these are excerpts of lines from the transcript.
+So ehm neither of this ehm refers to what we call minutes.
+(PERSON4) Alright.
+(PERSON2) It's all then.
+(PERSON3) ehm Excuse me [PERSON2], ehm what did you say that abstractive summaries in <unintelligible/> are not related to the minutes that we have for -
+(PERSON2) They definit-
+no, they are definitely related, of course, but they have a little bit different form, it should be stated.
+(PERSON3) ehm
+(PERSON2) Definitely kind of close to that, but they have just different form.
+(PERSON3) And by the firm format you mean the format that they are saved or format that -
+(PERSON2) No, no no, no.
+No, the idea -
+I don't mean -
+seved we can of course convert it anyhow.
+ehm But -
+so in [ORGANIZATION1] corpus ehm the ehm first of all the meetings are ehm mostly played specially for the corpus.
+So 70 <unintelligible/> corpus was ha- ehm played.
+Spec-
+the meetings were organise specially to- for the corpus to be created.
+(PERSON3) Yes.
+(PERSON2) Annotator was asked to listen to the ch- to the - to the minute - to the meetings or to the <unintelligible/> <parallel_talk/> Aha. <parallel_talk/> and to write a paragraph of text.
+(PERSON3) Yes, I get it, I guess.
+(PERSON2) So we don't have paragraph of text, we have kind of bull pointed ehm points that were discussed and some decissions mabe, some ehm generalisations,
+but ehm they look differently.
+So it could be stated at least.
+We can use it.
+Definitely they are summaries.
+But a little bit different form ehm - format.
+(PERSON3) Yeah, I got <unintelligible/>.
+(PERSON2) mmhm
+(PERSON3) And something else I want to ask ehm is that: Do we have the access to the participants of each meetings?
+The ehm - the thing that [PERSON4] wanted me to change and ehm you t- told me that you will ehm kind of organise it.
+(PERSON2) ehm You mean - you mean from ehm - for ehm consent - for our consents?
+(PERSON3) Yes, yes.
+(PERSON2) Yes, ehm mostly we h-
+so d- definitely we have e-mail adresses to all or them.
+Mostly they are ehm kind of colleagues, so we have really -
+ehm I think it should be -
+so I should ehm be - so I should -
+if you ehm take ehm - if you begin to work with that, I w- I will really  ehm
+<unintelligible/>
+I- ehm 
+so <unintelligible/> really help you a lot in that, so adjust the people, not - not to gi- to let it to the overview.
+ehm
+(PERSON3) ehm Yes, but, so- something is that we have to rename the characters in each meetings.
+And for that w- ehm I have to ehm - I have to r-
+I require having the every name in each meetings.
+So we have that?
+(PERSON2) Yes, ehm I will show you.
+ehm Again, so just a moment.
+How we <unintelligible/> looks like.
+Share screen.
+Screen -
+ehm Can you see my screen?
+ehm For example.
+Can you see my screen?
+(PERSON3) Yes, yes.
+(PERSON2) ehm So what we have ehm in manually generated minutes ehm - we have the name of attendees, for example.
+(PERSON3) mmhm
+(PERSON2) ehm So ehm mostly ehm so- or sometimes they are not -
+mostly they are <unintelligible/> surnames.
+And -
+but ehm this - this is the names I use - that I used in - in the meetings,
+and we can reconstruct the surnames if needed.
+(PERSON3) Aha, so I can work on this right away, yes?
+We have a <unintelligible/> minute.
+(PERSON2) ehm Sorry?
+(PERSON3) ehm I - I - can you hear my voice?
+(PERSON2) ehm Yes, but I'm maybe -
+yes, I can hear your voice very good.
+(PERSON3) Yes, okay.
+Let me repeat.
+I said that we have everything that we need, so I can start right away, yes?
+(PERSON2) ehm Actually yes, but we will have to excerpt the names.
+ehm If you can do that automatically.
+So probably ehm - so -
+sh-
+maybe say I-
+say me if I should ehm excerpt these names and put it to this table.
+So - so that for each meeting you have the names of the attendees.
+(PERSON3) ehm If you have time that would be good, but I can also try automatically to do that.
+(PERSON2) So I began to do that but I didn't finished it.
+Actually, for example, for [PROJECT2] meetings this is the same group of people and ehm for [PROJECT3] meetings this is also the same group of people.
+ehm Probably ehm I will worked it ehm little bit more and say - ehm
+(PERSON3) Okay so just <unintelligible/> when finish, just tell me so I can start to work.
+(PERSON2) mmhm
+(PERSON3) As soon as possible.
+(PERSON2) mmhm Okay.
+(PERSON3) I'm waiting for your statement then.
+(PERSON2) Okay, mmhm.
+Yes, I actually - it was also my plan to finish it as soon as possible and to say it to you, but I didn't finished, so -
+(PERSON3) Okayy, thank you.
+(PERSON2) There will be problems -
+so it s- seems to be the- this [PROJECT2] plenary calls are ehm very problematic and probably we will - we will have to exclude all these meetings.
+ehm This 10 meetings, because there is at least 1 person and ehm probably 2 persons who are objecting from having the ehm data in the corpus, so we should take it the data -
+I will so - I will also inform you about that.
+(PERSON3) Okay.
+<typing/>
+ehm mmhm, anything else?
+(PERSON3) ehm No, I guess.
+(PERSON4) [PERSON2], so what is the - what is the <unintelligible/> of the plan for the <unintelligible/> data, like you and Aegon was ehm <unintelligible/> to getting?
+So ehm do you think, that we should be starting ehm the manual minuting on those data?
+(PERSON2) ehm We didn't speak with [PERSON5] personally yet,
+so actually what I did I read the same e-mail from [PERSON5] ehm,
+so ehm I ehm - I ehm -
+so we with [PERSON5] should now decide ehm if ehm -
+I haven't seen the data yet, so I don't know how to look at them with eyes to keep the annotators, how ehm -
+I actually need to look at the data and I didn't - and I didn't see it yet.
+ehm So I have nothing against giving it to annotators, so ehm -
+but I should first open the data.
+<typing/>
+<unintelligible/>
+Well actually what I can see is that ehm there are quite big textual files.
+[PERSON5], are you there?
+(PERSON5) Yes, I'm here.
+(PERSON2) ehm When you looked at the data, didn't you see the agendas there?
+Or some minutes or something like that?
+Because they refer to the agenda all the time, but I can't ehm understand if there is something ehm -
+if there are agendas <unintelligible/> - they are probably not, yes?
+(PERSON5) I don't think there are -
+minutes for sure there are not, but agendas - maybe there are some short descriptions of each meeting, like -
+<unintelligible/>
+(PERSON2) So if we give this to annotators, it means that -
+(PERSON5) They will read the entire thing and they will produce the - the minutes.
+(PERSON2) And produce the minutes.
+And as I see - as I see this list of ehm many many many [ORGANIZATION4] - [ORGANIZATION4] ehm TXTs ehm -
+(PERSON5) Yes, I already specified <unintelligible/> that there are 9000 and something exactly.
+(PERSON2) Aha, and ehm how - how long are they actually in terms of, I don't know -
+(PERSON5) There are different lenghts, like there are 8000 words, 9000 words, 5000 words, 30000words...
+(PERSON2) So you <unintelligible/> -
+(PERSON5) 80000 -
+(PERSON2) 80000 words -
+(PERSON5) So there are different lenghts.
+Yes, 80000, 8000, 5000...
+So some of them are quite usable, like the 5000 or 6000 files - word files.
+(PERSON2) Maybe - we will definitely be not able to ehm annotate all of them.
+Maybe if you choose ehm a small sub- ehm set of ehm shorter meetings, I <unintelligible/> -
+(PERSON5) I already said this in the e-mail, [PERSON2], did you read the e-mail?
+(PERSON2) ehm Yes, but maybe not very attentively.
+I -
+(PERSON5) Okay, so I already said that we can select the ones that are short enough, <parallel_talk/> Yes. <parallel_talk/> like 8000, 9000 words.
+And the ones that <unintelligible/> dialog <parallel_talk/> Yes, the diary. <parallel_talk/> cause we don't need monologues.
+(PERSON2) But I would -
+(PERSON5) So I already stated this in the e-mail <unintelligible/> to - to select this - this ehm - this - this documents, that are -
+(PERSON2) Yes, this is - this is what I read, but I din't understand if you are able to technically -
+(PERSON5) Yes, I can - I can do it automatical, because the <unintelligible/> set pretty much very st-
+like I -
+properly structured and it's - it's easy to count the number of words in each file automatically.
+So I can filter the - the shorter ones, the ones up to 1000, the ones up to 8000, whatever.
+It's not really hard to do it.
+(PERSON2) Perfect.
+So then maybe ehm could I ask you to make this to <unintelligible/> ehm -
+(PERSON5) Yes, I will create some - some - I can crete the words with some folders, with each file up to -
+for example folder, which - with 10000, which contains all the - the files up to 10000 words.
+One 5000, one 7000, and then we can decide which one you use, dependin on the lenght that - that we want.
+(PERSON2) Yes, and ehm please do it only for English.
+I suppose that in Cz- for Czech it is the - they are just translated.
+(PERSON5) I don't know that, but yes, I can only for -
+(PERSON2) They would do the same, this is the parallel corpus.
+(PERSON5) I don't know, this is the source.
+This is not the parallel version that <unintelligible/> for machine translation.
+So, I'm not sure about -
+(PERSON2) Yes, but ehm [ORGANIZATION4] is just a parallel - ca- ca-
+have the idea of parallel texts, so it's - would be logical if the meeting are the same, but translated into other languages.
+(PERSON5) Okay, okay.
+(PERSON2) So let's do it for English.
+(PERSON5) Yes, sure, of course.
+(PERSON2) ehm So pleas choose, how many.
+I don't know, 40?
+Shorter dialogues - dialogue meetings.
+(PERSON5) I will produce different versions and then we can decide <unintelligible/>.
+(PERSON2) Okay.
+(PERSON5) But there is also one catch - there is also one extra thing, but somebody has to see inside and somehow remove -
+so spot the ones that are only monologues.
+Because there are couple of monologues there -
+(PERSON2) So this is what you can't do automatically, you c-
+(PERSON5) ehm No.
+So somebody has to go there and - but it's - it doesn't take a lot of time I guess, because you just see 1, 2, 3 different <unintelligible/> and you see it's a - it's a dialogue.
+(PERSON2) Okay.
+(PERSON5) If you go down, down, down and can't see different speekers, then you can delete it, cause it's monologue.
+(PERSON2) Okay.
+(PERSON5) So I don't think it takes much time.
+(PERSON2) Yes, yes yes yes.
+It will not take much time.
+ehm Perfect.
+ehm Then let's try to put <unintelligible/> and see how much meetings we will get before ehm -
+(PERSON5) Yes.
+From 9000 and then something?
+I guess we can come up with some hundreds of good propriets.
+(PERSON2) Yes ehm, yes, but I mean how many meetings we can anotate before the deadline of the data -
+(PERSON5) This - this depends on the annotation capacity.
+(PERSON2) Yes, yes, yes.
+(PERSON5) Number of annotators and their capacity.
+(PERSON2) Yes, well, let see.
+Hopefully we get something over 30. 
+Okay, this is clear.
+What next?
+(PERSON4) [PERSON2], I - I also e-mailed about the probable ehm time lenght that we should be looking for, ehm so did you have time to go through the e-mail, maybe?
+(PERSON2) Proposal submission November 2020.
+Data release Januarly - January.
+(PERSON4) Yes, yes.
+So ehm this is what we do - like ehm ensure from <unintelligible/>.
+(PERSON2) Insury for what?
+(PERSON4) ehm That - that is what we need to ensure for our <unintelligible/> that we -
+that - what data we <unintelligible/> to release.
+ehm We have to make that ready maybe by the end of this year.
+(PERSON2) mmhm
+(PERSON4) Yeah.
+(PERSON2) I means what from my side?
+(PERSON4) No, I just wanted to, like, communicate this to all ehm that this is what the time lenght we are looking for.
+And suppose -
+like we decide that ehm we have now currently 76 - ehm 76 instances of Enlish and 54 instances of Czech.
+Suppose we are - we are thinking like - maybe we would release 500 or 300 as part for - ehm as part for data sets.
+So, ehm that exact figure we need to, like, agree on and try to achieve that ehm by the end of this year.
+That's what.
+(PERSON2) That is what I cannot promise.
+(PERSON4) mmhm
+So, wh- wh- what you - what you think ehm would be ehm - would be a possible number that we could reach by December, [PERSON2]?
+(PERSON2) I would say that -
+Yes.
+I would say that it would not be more than we have now.
+Because ehm - first of all, some meetings ehm should ehm have to be deleted.
+ehm Some - so something about 10 hours will definitely be dele- deleted.
+(PERSON4) mmhm
+(PERSON2) And probably we get 10 hours more.
+But ehm I cannot definitely promise it.
+So it is possible that we get more, but ehm -
+Well actually - well I c- ehm -
+Data you mean ehm -
+<unintelligible/> -
+ehm Actually, when I look at the duration -
+This is the duration, so now we have 80 hours of transcribed and minuted minutes.
+But if we ehm look ehm at that 28 minutes are twice, which means we have about 25 hours more.
+Actually, we have now 100000.
+If we consider the same minutes for -
+if we consider minutes for the same meetings.
+How do you count it?
+How should we count it?
+(PERSON4) ehm Like I can only see <unintelligible/> point of view to ehm -
+like mostly I would count all the instances we have, ehm but ehm I think we need to do a bit of study on what should be the number of instances.
+Like we would release the <unintelligible/> training as ehm <unintelligible/>.
+(PERSON2) mmhm
+Okay, so, I will - I will - I am writing this to - to the agenda.
+So ehm you will kind of consider ehm what is the standard n-
+so how much data is the minimum possible to be released for the shared task.
+(PERSON4) Yes.
+Yes, so what I have to do [PERSON2], is I will present ehm - I will present the ehm data statistic that we have as far of our share task this year in <unintelligible/>.
+And then we can decide <unintelligible/> that.
+(PERSON2) ehm You will present, sorry, what?
+(PERSON4) I will present the shared task statictisc of the summarisation.
+ehm Shared task that we <unintelligible/> this year.
+So far that we can have an idea that should be the minimum number of data instances ww should release <unintelligible/>.
+(PERSON2) Yes, maybe also - ehm maybe also focus on dialogue data.
+(PERSON4) Yeah.
+ehm For the shared task we have any dialogue data -
+(PERSON2) I mean - I mean - so whan you use ehm -
+So speech data.
+Where you u-
+Speech manually transcribed data, so how m-
+Because this is very different when you w- you - when you work with not speech it's much more available.
+(PERSON4) Alright.
+I - I - I - I - understand your concern.
+So let me do a little review on this and maybe ehm <unintelligible/> and we will get back to you with -
+(PERSON2) mmhm
+(PERSON4) What is the statistics of the other because it's in speech -
+So -
+And also shared task - in general shared data.
+So then we can ehm, like, decide upon that.
+So it's an action point on me <unintelligible/> we do <unintelligible/>.
+(PERSON2) Yes, thank you, mmhm.
+ehm I'm writing this down to the agenda, yes?
+ehm I see the <unintelligible/> that <unintelligible/>, but I'm trying to ehm c- populate the agenda as much as I can.
+(PERSON4) Okay.
+Anythig else we want to discuss today?
+(PERSON2) ehm I would like to ask [PERSON1], is she here?
+[PERSON1], are you there?
+(PERSON1) Yes, I'm there.
+You hear me?
+(PERSON2) Hi.
+(PERSON1) Hi, hi, hi [PERSON2].
+(PERSON2) ehm I tried to ask <unintelligible/> the evaluation, have you proceeded <unintelligible/>?
+(PERSON1) mmhm ehm Yes.
+So I did ehm <unintelligible/> that ehm <unintelligible/> for that, because the manual evaluation needs the alignment.
+Can we ehm just get ehm a call with ehm - a call with the alignment too?
+(PERSON2) Yes, this -
+No, no no no no.
+This is 2 different tasks.
+First of all -
+So the first one is resolved ehm the alignment and this is what I actuall wanted to ehm do with you now.
+And the second one is using this speeches alignment, but we don't have access to here now.
+ehm So let's -
+(PERSON1) Okay.
+(PERSON2) Let's first walk ehm with ehm the criteria the, I don't know, [PERSON5] proposed.
+(PERSON1) mmhm So we have to create 2 <unintelligible/> evaluative -
+(PERSON2) <unintelligible/> some others <unintelligible/> understandability.
+So let's just think about different ehm criteria, that we can use manually and now with the alignment.
+(PERSON1) mmhm Okay.
+Okay, so I have to do it now without alignment.
+(PERSON2) Yes.
+(PERSON1) Okay.
+(PERSON2) <unintelligible/> So untif- until we have - we have the result of - the alignment results -
+(PERSON1) mmhm
+<typing/>
+(PERSON4) So I think we are running out of the [ORGANIZATION2] 40 minutes slot.
+(PERSON2) Okay, mmhm.
+ehm So, should we finish now?
+ehm Do we have any other -
+(PERSON4) Yeah.
+(PERSON2) mmhm
+(PERSON4) Yeah.
+[PERSON7] - ehm [PERSON7] or [PERSON3], if you have something to ask or something to add?
+(PERSON7) No, I'm okay.
+(PERSON7) No, no, no, thanks.
+(PERSON4) Okay, wonderful.
+So then, like, ehm we can <unintelligible/> today and then tomorrow again?
+(PERSON2) mmhm Okay.
+(PERSON4) Perfect.
+(PERSON2) And [PERSON3] I will - I will write you when I ehm get a little bit closer ehm to the end of this ehm participants list.
+(PERSON7) Okay, but if it was hard just tell me and I can do that myself.
+(PERSON2) Yes.
+Yes, I will contact you.
+So I will try to do most wh- what is easy and then ehm -
+so what - ehm what kind of demands may understand enough the situation and what ehm technical thing I will adress you.
+Thank you.
+(PERSON7) yeah, okay, thank you.
+(PERSON2) So, thank you.
+(PERSON4) Okay, thank you.
+(PERSON3) Thank you everyone.
+(PERSON2) Bye bye.
+(PERSON4) Thank you, bye bye.

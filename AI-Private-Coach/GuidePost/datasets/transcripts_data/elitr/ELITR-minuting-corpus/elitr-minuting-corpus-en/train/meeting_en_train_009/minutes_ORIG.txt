@@ -1,0 +1,97 @@
+[PROJECT1] Remote Meeting, May 17th, 2019,  11 AM CEST
+Agenda
+• Pexip: [URL4], PIN:1234
+• Start recording
+• Anything people want to add
+• Upcoming deliverables
+o [ORGANIZATION5]
+• [ORGANIZATION1]
+• Preparations for [PROJECT2]
+o Quick summary of the status
+• Progress in WPs (~5 min per WP)
+o WP1
+o WP2
+o WP3
+o WP4
+o WP5
+o WP6 → Development Team from alfatraining will show the recording function in [ORGANIZATION9] [PROJECT1] company. (therefore we have to switch to [ORGANIZATION9] video conferencing system)
+o WP7
+Minutes
+• Pexip: [URL4], PIN:1234
+• Start recording
+• Anything people want to add
+• Upcoming deliverables
+o How to send them to us guide - “Deliverables Timeline” (second sheet):
+• [URL2]
+• [PERSON7] proposes:
+• end of May: complete structure of all delivs
+• mid May: complete contents, internal review starts
+ Deliverables - EC deadline 30th June 2019: 
+ D1.1 Initial Training Data, Separating Confidential and Public Version ([ORGANIZATION5])
+• This one or the DMP below should mention WMT [PROJECT1] testsuites and Antrecorp.
+• Test sets should go to D1.2, the voice recordings are not clear
+• The domain adaptation data from TAUS should go to D1.1
+• [PERSON13] to review the deliv; maybe to provide a paragraph or two on exisitng data [ORGANIZATION4] is training their models on.
+ D8.1 Periodic Activity and Financial Reports ([ORGANIZATION1] but input from all is needed)
+• [URL]
+• Populate all the sheets in this [ORGANIZATION8] sheet with your data:
+o [URL3]
+• Provide BibTeXs of your published papers.
+• Papers under review may or may not be mentioned in the technical part, Part B.
+• For the financial part, [PERSON12] will organize a separate call within May to synchronize on this.
+o Please let [PERSON12] know the names of your financial people, esp. if they have changed.
+• [PERSON11] to review to technical part.
+ D8.3 Data Management Plan (DMP): Initial, Updates ([ORGANIZATION1] but input from most needed)
+• [URL]
+• [ORGANIZATION1], [ORGANIZATION5], [ORGANIZATION4]
+• probably [ORGANIZATION7] ([PERSON10] to review)
+ D9.3 GEN - Requirement No. 4 ([ORGANIZATION1])
+• [PERSON7] expects this to be similar to the previous ethics delivs;
+• [ORGANIZATION9] to review
+ Milestones upcoming - [ORGANIZATION3] deadline 30th June 2019
+ (the delayed milestone on recording in [ORGANIZATION9] platform)
+ test call next week; after the test, tick off the milestone, decide which calls will use it (at least the monthly calls, due to the lack of Windows machines)
+ First Spoken Language Translation Prototype ([ORGANIZATION5])
+ we think that this is done
+ Baseline MT Models for [ORGANIZATION6] Congress ([ORGANIZATION1])
+ some deliberation on the languages covered is needed, but in essence, we could claim this to be done (cutting down on the number of target languages)
+ month 8: Basic SLT in [ORGANIZATION9]® conferencing platform available
+ minimum:
+• [ORGANIZATION9] clients sending audio to [ORGANIZATION7] mediator,
+• [ORGANIZATION7] presentation platform allows all participants to choose a language version of the transcript to follow, this transcipt needs to merge ASR outputs and translations from all participating persons.
+ better version:
+• [ORGANIZATION9] runs two “half clients”
+o “outbound client” sends audio (as above)
+o “inbound client” receives text from other parties (?labelled with party IDs?), presents it somehow
+• [PERSON7] expects that [ORGANIZATION9] will find this difficult, but please consider it anyway
+ [ORGANIZATION9]&[ORGANIZATION7], please let [PERSON7] know in a week how this was accepted in your tech teams
+ Publicity achieved
+ Everyone please enter such activities into the [ORGANIZATION8] sheet:
+ “Dissemination & Communication Activities” (the forth sheet)
+ [URL1]
+• So far, nobody entered there anything…
+ Fair - video is done: [URL]
+ Preparations for [PROJECT2]
+ Quick summary of the status
+ Progress in WPs (~5 min per WP) → I've just guessed who could talk, if somebody else would be better - please, change it :) & please fill in few points about your progress
+ WP1 Data
+ WP2: ASR
+ WP3: SLT
+ [ORGANIZATION5]: Looking at incremental decoding (ie outputting results of decoding before full source sentence is seen). Start to implement this heuristic ([URL])
+ WP4: MT
+ [ORGANIZATION5]: ACL paper on document-level MT accepted
+ [ORGANIZATION4]: In the process of deploying Transformer Model, will almost certainly follow up with a multilingual model
+ WP5 Minuting
+ WP6 → Development Team from alfatraining will show the recording function in [ORGANIZATION9] [PROJECT1] company. (therefore we have to switch to [ORGANIZATION9] video conferencing system)
+[ORGANIZATION7]:
+ Contribute to [ORGANIZATION6] congress audio service architecture definition
+ Stub of python and go libraries porting as starting point
+ Improved ebclient with re-connection functionality on connection failure
+ Presentation Platform functional analysis refined and to be consolidated with [ORGANIZATION1] on Monday 20th, May
+ WP7
+ progress in various aspects all the time
+ [ORGANIZATION9] to organize/plan how can we disseminate/explain/advertise [PROJECT1] technologies for [PROJECT2] participants
+ [ORGANIZATION9]+[ORGANIZATION2] to decide what exactly to do in this respect
+• it may be useful for someone from [ORGANIZATION9] to come to [LOCATION1]
+
+

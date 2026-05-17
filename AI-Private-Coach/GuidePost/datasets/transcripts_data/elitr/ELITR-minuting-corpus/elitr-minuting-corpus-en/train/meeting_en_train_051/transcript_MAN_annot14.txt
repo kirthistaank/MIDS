@@ -1,0 +1,352 @@
+(PERSON1) Hi [PERSON7] <unintelligible/> work?
+Can you hear me?
+(PERSON9) Hello [PERSON1].
+Yes i can. 
+(PERSON1) Yeah, great.
+So thanks for joining the call.
+I was just curious whether brought him already had chance to talk to you today, because today in the morning, we discussed the manual evaluation with [PERSON2].
+Did he already talk to you or not yet? 
+(PERSON9) No,<unintelligible/> together.
+(PERSON1) Sorry, when?
+(PERSON9) Tonight.
+(PERSON1) Tonight.
+Yeah.
+So so you now have the emails from me and [PERSON2] will explain all the details.
+In essence, we were offered to, by Microsoft, they were run manual evaluation of primary submissions of <unintelligible/>  and I would like to add also human outputs, so no just the references, because the references are too <unintelligible/> with a sort segments.
+Aa, this evaluation will not be specific for ASR so it will be directly <unintelligible/>.
+The <unintelligible/> ASR is not a part of the evaluation, and therefore the segmentation is important.
+So.
+So please have a look at the emails and i think you maybe already have a, a have looked. 
+Have look at them.
+Ehm.
+So.
+Please, let me know, if anything is not clear and i hope that its like its not too complicated that, and that [PERSON4] will explain everything tonight.
+So.
+Yeah,
+This is just like <unintelligible/> or an explanation of the emails from me.
+(PERSON9) Yeah, thanks.
+(PERSON1) Ok.
+Thank you.
+So a, we have [PERSON4] here.
+We have [PERSON5], and nobody else.
+Then thats strange.
+So maybe they all the students are learning for various exams.
+And the search has ended, like in in in in some way, the search is over because thee we
+were doing the preparation for the congress which got canceled, but I still like this to to keep this date.
+So the the team synchronizes.
+So its not not so many external people here anymore, bunch at least it's us.
+So.
+One thing that I still had not written to you.
+Is that <unintelligible/> indeed distributed some money to you based on the search point stable.
+So in your pace that you will receive during June.
+There will be some extra bonuses for the works that you have done on the search.
+So that's i managed you to finish the plan as it was planned and hopefully you will really noticed some little bit bonuses for your efforts 
+So thanks <unintelligible/> and now lets quickly go over the updates.
+So i was very busy with interviewing people who join [PROJECT1] and other projects.
+And then I left the demo supervision to <unintelligible/>.
+All the partners are struggling through the get all the systems running in the new date.
+New date is being selected now.
+So there will be some efforts in the coming days, not many days for, before the, the demo, because the demo will happen in a week, or possibly two weeks from now, depending on a day chosen.
+And um, we are obviously working um, everybody working on deliverables, and i just talk about the <unintelligible/> evaluation.
+That will happen manually in addition to the automatic one, which is part of the paper.
+So that's from me.
+[PERSON5] are you here?
+(PERSON5) Yes.
+(PERSON1) So I sent you an email and i forgot what was the topic <other_noise/> <unintelligible/> the project thing <unintelligible/>. 
+Have you responded or not ?
+(PERSON5) Yes, I have.  
+(PERSON1) Oh, okay.
+I miss that one.
+<laugh/>
+(PERSON5) <unintelligible/> confirmed that i agree.
+(PERSON1) Ok.
+Great.
+(PERSON5) <unintelligible/>
+(PERSON1) And sorry, said again?
+(PERSON5) And know about a book.
+(PERSON1) Yeah, ok. 
+Great.
+That's perfect.
+So let's do it.
+Yeah.
+Great, so thanks, and now for your progress.
+(PERSON5) So I am downloading <unintelligible/> there are already know transcriptions and translations and <unintelligible/> and I am having some progress and i think that in one week we could have some talks <unintelligible/> in four weeks we could have <unintelligible/> corpus.
+And right now I am learning to use <unintelligible/> and it seems working very well.
+(PERSON1) Okay.
+(PERSON5) I cant <unintelligible/> the speaker <unintelligible/> maybe we need to go through the <unintelligible/> manually and aline them with text.
+(PERSON1) Yeah, that's great does the diarization work also online ?
+Is there any chance to run it online, or is it only offline.
+(PERSON5) I think it's only offline.
+(PERSON1) Yeah, yeah so anyway- 
+Am sorry. 
+anyways please make it like, make it tools so that [PERSON8] can use it for the <unintelligible/>.
+(PERSON5) I can show you which one <unintelligible/> i get from it.
+(PERSON1) Yeah, okay that's good.
+(PERSON5) I'm sharing. 
+<other_noise/>
+So can you.
+(PERSON1) I can see myself. 
+<laugh/>
+(PERSON5) <unintelligible/>
+(PERSON1) Yes.
+(PERSON5) Yes, so this is <unintelligible/> is one speaker and somewhere here is another speaker and-
+(PERSON1) And the M is another speaker right?
+(PERSON5) Yes.
+(PERSON1) Thats like, he also distinguished males and females?
+(PERSON5) Yes.
+(PERSON1) Okay. 
+(PERSON5) And during the gap there is some <unintelligible/>.
+(PERSON1) Hmm.
+(PERSON5) And this is the original and here below is Czech interpretation and its, I can play the audio.
+(PERSON1) Hmm, and i see this is all the <unintelligible/>.
+(PERSON5) Yes.
+(PERSON1) So <unintelligible/> also allow to show such annotation of the sound right.
+(PERSON5) Yes.
+It have here labels and i can rewrite them from home. 
+(PERSON1) Okay.
+So [PERSON7] if you also see this screen, this is something which also could be valuable for various <unintelligible/> of the [PROJECT1] <unintelligible/>.
+(PERSON5) And here need allow to upload the labels and save them in text also textfile.
+So, this is all. 
+(PERSON1) Ok.
+Great.
+Thank you.
+So then the last person on the call is <unintelligible/>.
+And Sanged has been working on the various <unintelligible/>.
+So [PERSON5] if you <unintelligible/>.
+Yeah. 
+Great.
+Yeah, so Sanged please present and I'll mute myself because I am in the same room.
+(PERSON6) Yes, so I am actually outside.
+So basically i <unintelligible/> on german transcripts and here is the <unintelligible/> google document.
+So i think all <unintelligible/> the adapted <unintelligible/> is our worker which <unintelligible/> is slightly better than those <unintelligible/> the existing.
+<unintelligible/> i was also busy with <unintelligible/> session with <unintelligible/> yesterday i  <unintelligible/> for the first time <unintelligible/> and i could <unintelligible/> before lose the game.
+And I have requested [PERSON7] to run windows <unintelligible/>.
+<unintelligible/>
+(PERSON1) Okay.
+So bless scores a pending-
+(PERSON6) <unintelligible/> as a PR.
+(PERSON1) [PERSON7] should provide them, right ? 
+(PERSON6) Yes.
+(PERSON6) But [PERSON1] - 
+(PERSON1) Yeah. 
+(PERSON9) I would like to evaluate these <unintelligible/> not a-
+(PERSON1) Yes Sacre bleu not ELTK, forget ELTK cable, lets not use ELTK.
+(PERSON6) Yeah, yeah.
+(PERSON1) Yeah.
+When I say," Bless course, I mean in general.
+So, a sacre bleu.
+<laugh/>
+(PERSON6) Yeas, so <unintelligible/> thing. 
+(PERSON1) OK, so.
+Do we have other files, which also has transcripts?
+I remember this Czech speeches.
+We could also do the same for English.
+(PERSON6) Czech? 
+You mean translations for the Czech videos?
+(PERSON1) So no.
+I just leave error rates.
+So, these two files are the only ones where we have the reference translation.
+We do not have any reference translation for the a German speech, the the German short video, German long video, neither, so, neither, for. 
+Well, we do have-
+(PERSON6) We have downloaded the subtitles from youtube and some of them were manually revise and some of them where youtube automatically generated.  
+(PERSON1) But which were manually revised, and they were not translated.
+(PERSON6) Nono, they were not translated, iam not sure which of them were manually and which of them automatic, but in the directory i have specified using a <unintelligible/>.
+(PERSON1) Yeah, so that is evolution for checked you uh, in German translation.
+And then evaluation for D, E everything test-, no videos, here we could measure word for the constants <unintelligible/> because we have a transcript, right?
+Uh.
+And, also for the, also fix them the short German one deep flag, 
+(PERSON6) Reformed <unintelligible/>.
+(PERSON1) <unintelligible/>.
+And we do not have any translations for this, right? 
+And, actually the Czech to German, this cannot work.
+Or this.
+This is Czech <unintelligible/>, right ?
+(PERSON6) Yeah, yeah, yeah.
+(PERSON1) <unintelligible/> but then for the Czech into the others we don't have the reference.
+(PERSON6) No, we don't have unluckily-
+(PERSON1) Yes, so the bless course cannot be calculated right?
+(PERSON6) Yeah, <unintelligible/> calculated <unintelligible/>
+(PERSON1) Yeah.
+So what we can do is evaluation for English into Czech and German translation.
+(PERSON6) And [PERSON5] also propose that if we <unintelligible/> number of documents assessing the worker based on blue scores we should do it carefully.
+(PERSON1) Yes, exactly so obviously these numbers are not reliable.
+Am not saying that these numbers-
+(PERSON6) Exactly
+(PERSON1) - but these numbers I think it would be very good once we select the videos it would be very good to present the videos and tell the people and by the way this was the word <unintelligible/> of something, something and this was the bless course of something, something.
+Or maybe we can tell the numbers in advance as well.
+(PERSON6) Hm.
+So this is like to give people a very rough idea of the correspondence between the quality and the, a, and the score.
+So uh.
+So yes, choosing the.
+The system is not like based on this.
+I would actually really like to see the general performance and the, talk level adapted performance.
+(PERSON6) Ehm. 
+(PERSON1) Yeah.
+For the.
+So have you already run the other?
+Do you have the lock files for this?
+For the same-
+(PERSON6) Yeah, we have the <unintelligible/> but iam not sure if we have the reference translation.
+(PERSON1) Oh we do, we do.
+This is.
+This is the part of the <unintelligible/>.
+We do have that.
+So this is the INASR and then I'll just delete these and i delete these,
+So this should be there.
+And bless course.
+(PERSON6) <unintelligible/> for English, eh, for Czech and -
+(PERSON1) No, no, lets.
+(PERSON6) - oh its English, this is English okay, okay.
+(PERSON1) So this is like this part is a probably not going to be presented.
+Its.
+I'm not sure if we are going to present it.
+Because it is a the interpreter is speaking, the <unintelligible/> interpreter is speaking and not the original speaker.
+So the original speaker like sits in the video and doesn't talk right?
+(PERSON6) Yeah, yeah, yeah.
+(PERSON1) Yeah, but this part is the part where we are planning to run it,
+(PERSON6) Yeah.
+Here the original speaker speaks himself.
+(PERSON1) Yeah.
+And uh, so uh, and and we do have the translations for that.
+So.
+(PERSON6) Yeah. you mean automatic translations?
+(PERSON1) Yes, no <unintelligible/> we have the reference translations.
+(PERSON6) Okay, I <unintelligible/> that's why I am confused <unintelligible/>.
+(PERSON1) That's the <unintelligible/> test set.
+We have them.
+(PERSON6) Okay, okay.
+(PERSON1) So we need you -
+(PERSON6) Yeah, yeah, okay, exactly you are right.
+I haven't <unintelligible/> directly, yeah, you're right. 
+(PERSON1) Yeah so, so do you see them now in the directory.
+Can you look at them, can you look at the references.
+So, so this is something that [PERSON7] should calculate the scores for.
+And and you should provide the the word <unintelligible/>. 
+(PERSON6) So just <unintelligible/> located.
+(PERSON1) Oh, sorry.
+(PERSON6) Yes, we have the Czech and German as well, which is the text <unintelligible/> translations.
+(PERSON1) Yes, exactly.
+(PERSON6) Yeah, yeah.
+(PERSON1) Yeah, so please finish these table i will <unintelligible/> because if i understand correctly nothing is missing.
+(PERSON6) Yeah, and the, okay.
+(PERSON1) And here for the German source videos, we can do it as well.
+And we have only the channel so there is nothing like <unintelligible/> adaptation.
+(PERSON6) And which we do German it was <unintelligible/>.
+So yeah, here we have the manually device transcript as well as the youtube transcript as well as the automatic German.
+(PERSON1) So use the manually revised one.
+(PERSON6) Yeah, yeah, yeah.
+(PERSON1) So after the call we will choose the videos.
+And I think that.
+Yeah, we can we can actually try everything in the demo, because it is very easy to start it now since you have all the scripts.
+(PERSON6) Uhm, hm.
+(PERSON1) So the <unintelligible/> that should work reasonably well, except that its Austrian, also in German and not German German.
+And for Czech we don't have the correct transcript, or do we?
+Do we have the correct transcript for the short video for the three minute one?
+I think i did it as well or didn't I? 
+(PERSON6) Let me check which was a <unintelligible/> they are no task here in the directory.
+(PERSON1) So by the way, the <unintelligible/> fille, the Czech Chauffeurs.
+Sorry, the English Chauffeurs.
+So the Czech Chauffeurs is like conference call lower quality.
+So there will be big difference probably between the <unintelligible/> and Chauffeurs will be much worse.
+In term of <unintelligible/> rate.
+(PERSON6) Ehm.
+(PERSON1) Okay.
+So please, please [PERSON6], provide the missing numbers-
+(PERSON6) Yes, yes, yes.
+(PERSON1)  -and will decide .
+And that's it.
+So.
+And we have already. 
+So we had [PERSON7], we have discussed things during the whole <unintelligible/>
+Now the <unintelligible/> apart off a SLTF and, yes.
+And the <unintelligible/>.
+As a pre-processing for ember segmenter, right?
+(PERSON9) Yeah, yeah.
+(PERSON1) So the segmentation is now more reliable, and you run <unintelligible/> SLT, why was this? 
+I forgot.
+(PERSON9) [PERSON5] wanted that.
+(PERSON1) Okay. 
+(PERSON5) For <unintelligible/> for few days.
+(PERSON1) For the <unintelligible/> SLT slides, but actually yes the time is getting short. 
+We have only week to do the recording.
+(PERSON5) Yes, i can do it. I can start going on Thursday for example.
+(PERSON1) Yeah.
+So Sanged, when we run these demos, please make sure that we use Zoom or whatever, and we record it because we do want this recording part of thee.
+A part of the video by [PERSON5] as well.
+(PERSON5) I <unintelligible/> in my own from 5 slides with some instructions. 
+So, I am going to do it by them and to the <unintelligible/> we are going to present slides and video and they will match it.
+It will be easy for us.
+(PERSON6) So, [PERSON5] <unintelligible/> physically present here when you do it or so what i think is that we could use the camera, let me use for the seminar.
+(PERSON5) Yes, we can use a camera.
+(PERSON6) Okay, okay.
+(PERSON1) Yeah, so there is <unintelligible/> during the semester recordings.
+It requires a. 
+<unintelligible/> option is to present the slides from windows machine and <unintelligible/> aplication that you click record and records the screen where you have the slides and then they merge it with a video of the speaker.
+(PERSON6) So what I propose is that i can have the camera <unintelligible/> [PERSON5] physically and any computer screen during the screen recording to get something to capture.
+(PERSON1) So I think the the videos.
+We should like not mix the two things.
+I think one thing is [PERSON5] presenting the slides and thats slides <unintelligible/> Windows machine recording when the slides are shown and [PERSON5] talking to them.
+And recorded on the handy cam that we have and the separate thing is the screen recorded streaming for the demo and that i think the easiest way is to like pass it through Zoom.
+Or something which can record it or because we need the synchronization there. 
+Can you do a recording of the screen including the sound.
+(PERSON6) Yes, probably.
+Yeah, yeah.
+(PERSON1) Okay, so lets. 
+These two things definitely should not be mixed and i think that in [PERSON5] slides there should be a slide and now demo and then [PERSON5] will just say now will present the demo, then make a pause and in that pause we or <unintelligible/> will cut in like <unintelligible/> the screencast one.
+(PERSON6) So if iam right [PERSON5] <unintelligible/> will be presenting the slide <unintelligible/> transcription <unintelligible/> captured. 
+Is that correct?
+(PERSON1) Was that a plan?
+Was the the plan [PERSON5]
+(PERSON5) No  i don't know how <unintelligible/> subtitles, maybe the <unintelligible/> create subtitles and-
+(PERSON1) No
+(PERSON5) -transcripts. 
+(PERSON1) Like I haven't seen that from them.
+I don't think.
+I am not sure they have it.
+(PERSON5) Ok, yeah.
+So I don't have any plans for subtitles of the speech.
+(PERSON1) I would not plan that either because we know that is. 
+It is possible to do it, we have done it for my <unintelligible/> talk.
+But its <unintelligible/> 
+(PERSON6) Complicated to do it-
+(PERSON1) And it's not-
+(PERSON6) -you can <unintelligible/>, yeah.
+(PERSON1) -yeah.
+So, a better option actually it's to after recording [PERSON5] speech to have it recognized and use the tool by [PERSON3] to convert it to youtube subtitles. 
+(PERSON6) Okay, okay.
+(PERSON1) So that's something that we could do.
+(PERSON6) Yeah, so that <unintelligible/> we synchronize.
+(PERSON1) Yeah.
+(PERSON6) Yeah.
+(PERSON1) Okay.
+So these files will be also used in the video recording for [PERSON5]'s speech.
+So I am <unintelligible/> saying these files because, actually not these once, because this is the exact test sets from the <unintelligible/> SLT task. 
+So that's why I think it's a good idea to present it.
+These files could be, could be.
+Could also be.
+Okay.
+So here the idea is that is the <unintelligible/> domain and the exact files, which were part of the test set.
+And here the idea is.
+it is Czech that is being presented.
+And it is not evaluated in the shared task, but we can uh, show how the system runs the like delivers translation, from some <unintelligible/> language into English, which everybody will understand. 
+So this is like more fun for the fully audience where this is more in line with the actual task.
+[PERSON5] think about these two options.
+What would you prefer two half in the video, and I think both would make sense.
+(PERSON5) Ok.
+I will see.
+(PERSON1) Okay. 
+So I think that's it right?
+I don't have any other ideas.
+So we managed in the half-hour.
+That's great.
+So thanks a lot.
+And again, let's plan to have this quick meeting next week, so there we up to date.
+But next week, we already should have the [PERSON5] presentation finished and the recordings <unintelligible/>.
+There is lot of things to be done before next week.
+Before next Tuesday. 
+Okay.
+Thanks very much.
+Thank you.
+Bye-bye.
+(PERSON6) Thanks. 
+(PERSON5) Hi.

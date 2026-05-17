@@ -1,0 +1,1069 @@
+"""Guidepost FastAPI backend.
+
+This module provides a minimal API for:
+- Uploading an audio file and running diarization/transcription in the background.
+- Fetching processing status (for polling from the frontend).
+- Chatting with a coaching assistant grounded in the processed conversation.
+- Exposing a small surface of the RAG system for retrieval utilities.
+
+Design notes:
+- Storage is in-memory for jobs + conversations (good for MVP; not durable across restarts).
+- Uploaded audio is persisted to disk under `GUIDEPOST_DATA_DIR` so background work can read it.
+"""
+
+from __future__ import annotations
+
+import os
+from pathlib import Path
+from src.config import PINECONE_INDEX_NAME
+from logging.handlers import RotatingFileHandler
+from src.logging_utils import get_logger
+import logging
+import sys
+# Load .env from project root (GuidePostPythonContainer) so PINECONE_API_KEY etc. are set
+# before any os.getenv, regardless of CWD (e.g. uvicorn from repo root).
+try:
+    from dotenv import load_dotenv
+    _env_file = Path(__file__).resolve().parent.parent / ".env"
+    load_dotenv(_env_file)
+except Exception:
+    pass
+
+# Read config directly from environment
+#PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "delete-test-rag-ingest-git")
+
+# setting up logger
+
+def _setup_kg_logger() -> logging.Logger:
+    """Logger for RAG retrieval pipeline: stdout + rotating file under /tmp/RAG_retrieval."""
+    logger = logging.getLogger("RAG_retrieval")
+    if logger.handlers:
+        return logger  # avoid duplicate handlers on repeated imports
+
+    logger.setLevel(logging.DEBUG)
+
+    log_dir = Path("/tmp/RAG_retrieval")
+    try:
+        log_dir.mkdir(parents=True, exist_ok=True)
+    except Exception:
+        # If /tmp is not writable, still allow stdout logging.
+        pass
+
+    fmt = logging.Formatter(
+        fmt="%(asctime)s %(levelname)s [%(name)s] %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
+
+    # Stdout handler
+    sh = logging.StreamHandler(stream=sys.stdout)
+    sh.setLevel(logging.DEBUG)
+    sh.setFormatter(fmt)
+    logger.addHandler(sh)
+
+    # Rotating file handler: 500KB each, keep 3 files total (current + 2 backups)
+    try:
+        fh_path = log_dir / "main.log"
+        fh = RotatingFileHandler(
+            filename=str(fh_path),
+            maxBytes=500 * 1024,
+            backupCount=2,
+            encoding="utf-8",
+        )
+        fh.setLevel(logging.DEBUG)
+        fh.setFormatter(fmt)
+        logger.addHandler(fh)
+    except Exception:
+        # If file handler can't be created, stdout logging still works.
+        pass
+
+    logger.propagate = False
+    logger.debug("RAG retrieval logger initialized (stdout + rotating file in /tmp/RAG_retrieval).")
+    return logger
+
+
+logger = _setup_kg_logger()
+def _normalize_embed_model(name: str) -> str:
+    """Strip quotes/whitespace and ensure full sentence-transformers/ model id."""
+    if not name:
+        return "sentence-transformers/multi-qa-mpnet-base-dot-v1"
+    name = name.strip().strip('"').strip("'")
+    if not name.startswith("sentence-transformers/"):
+        name = f"sentence-transformers/{name}"
+    return name
+
+
+HF_EMBED_MODEL = _normalize_embed_model(
+    os.getenv("HUGGING_FACE_EMBED_MODEL", "sentence-transformers/multi-qa-mpnet-base-dot-v1")
+)
+CLOUD_NEO4J_URI = os.getenv("NEO4J_URI", "")
+CLOUD_NEO4J_USERNAME = os.getenv("NEO4J_USERNAME", "")
+CLOUD_NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "")
+
+import threading
+import time
+import uuid
+from typing import Any, Literal, Optional
+
+from fastapi import BackgroundTasks, FastAPI, File, Form, HTTPException, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from openai import OpenAI
+from pydantic import BaseModel, Field
+
+from src.diarize import Diarize
+from src.database import engine
+from src.database_models import Base
+import uuid
+
+
+AudioStatus = Literal["uploaded", "processing", "ready", "error"]
+currentUserId = ""
+
+def getCurrentUserId():
+    return currentUserId
+
+
+class AudioUploadResponse(BaseModel):
+    audioId: str
+
+
+class AudioJobResponse(BaseModel):
+    audioId: str
+    status: AudioStatus
+    createdAt: float
+    updatedAt: float
+    transcript: Optional[str] = None
+    analysis: Optional[str] = None
+    finalStrategy: Optional[str] = None
+    errorMessage: Optional[str] = None
+
+
+class ChatRequest(BaseModel):
+    audioId: str
+    conversationId: Optional[str] = None
+    message: str = Field(min_length=1)
+    userContext: Optional[str] = None
+    targetName: Optional[str] = None
+    phase: Optional[str] = None  # "alignment" | "coaching"
+
+
+class ChatResponse(BaseModel):
+    reply: str
+    conversationId: Optional[str] = None
+    phase: Optional[str] = None
+    alignedFocus: Optional[str] = None
+
+
+class ReportRequest(BaseModel):
+    audioId: str
+    userContext: Optional[str] = None
+    targetName: Optional[str] = None
+    alignedFocus: Optional[str] = None
+
+class UserInput(BaseModel):
+    name: str
+    email: str
+    occupation: str
+    seniorityLevel: str
+
+class SessionsReponse(BaseModel):
+    report: str
+    cri: float
+    cei: float
+    sentiment: float
+    speaker_volatility: float
+
+
+class ReportResponse(BaseModel):
+    report: str
+    finalStrategy: Optional[str] = None
+
+
+class RetrieveContextRequest(BaseModel):
+    query: str = Field(min_length=1)
+    topK: int = Field(default=5, ge=1, le=50)
+    namespace: Optional[str] = None
+
+
+class RetrieveContextMatch(BaseModel):
+    id: str
+    score: float
+    metadata: dict[str, Any] = Field(default_factory=dict)
+
+
+class RetrieveContextResponse(BaseModel):
+    matches: list[RetrieveContextMatch]
+
+
+class ExtractQueriesRequest(BaseModel):
+    report: str = Field(min_length=1)
+
+
+class ExtractQueriesResponse(BaseModel):
+    queries: list[str]
+
+
+_DATA_DIR = Path(os.getenv("GUIDEPOST_DATA_DIR", "./data")).resolve()
+_AUDIO_DIR = _DATA_DIR / "audio_uploads"
+_AUDIO_DIR.mkdir(parents=True, exist_ok=True)
+_VOICE_REF_DIR = _DATA_DIR / "voice_references"
+_VOICE_REF_DIR.mkdir(parents=True, exist_ok=True)
+
+_LOCK = threading.Lock()
+_AUDIO_JOBS: dict[str, dict[str, Any]] = {}
+_CONVERSATIONS: dict[str, list[dict[str, str]]] = {}
+_VOICE_REFS: dict[str, str] = {}
+
+
+def _now() -> float:
+    """Return a unix timestamp (seconds since epoch).
+
+    We store timestamps as floats for simplicity and JSON-friendliness.
+    """
+    return time.time()
+
+def _parse_michelle_json(file_path: Path) -> dict[str, Any]:
+    """专门解析 michelle_1_scenario_1.json 的格式"""
+    import json
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    segments = []
+    full_transcript = []
+    
+    for line in data.get("transcript", []):
+        # 格式示例: "michelle_1_scenario_1:michelle:0.30: Who would you,"
+        parts = line.split(":", 3)
+        if len(parts) < 4:
+            continue
+        
+        speaker = parts[1].strip()
+        timestamp = float(parts[2].strip())
+        text = parts[3].strip()
+        
+        segments.append({
+            "speaker": speaker,
+            "start": timestamp,
+            "text": text
+        })
+        full_transcript.append(f"{speaker}: {text}")
+        
+    return {
+        "transcript": "\n".join(full_transcript),
+        "segments": segments
+    }
+
+
+def _require_openai_key() -> None:
+    """Fail fast if diarization is requested without an OpenAI API key.
+
+    The diarization pipeline calls OpenAI; this avoids background jobs silently failing later.
+    """
+    if not os.getenv("OPENAI_API_KEY"):
+        raise HTTPException(status_code=500, detail="Missing OPENAI_API_KEY for diarization")
+
+
+def _job_to_response(audio_id: str, job: dict[str, Any]) -> AudioJobResponse:
+    """Convert an internal job dict into the public API response shape."""
+    return AudioJobResponse(
+        audioId=audio_id,
+        status=job.get("status", "uploaded"),
+        createdAt=job.get("createdAt", 0.0),
+        updatedAt=job.get("updatedAt", 0.0),
+        transcript=job.get("transcript"),
+        analysis=job.get("analysis"),
+        finalStrategy=job.get("finalStrategy"),
+        errorMessage=job.get("errorMessage"),
+    )
+
+
+def _get_job(audio_id: str) -> dict[str, Any]:
+    """Fetch an audio job from in-memory storage.
+
+    Raises:
+      - 404 if the `audioId` does not exist.
+    """
+    with _LOCK:
+        job = _AUDIO_JOBS.get(audio_id)
+        if not job:
+            raise HTTPException(status_code=404, detail="audioId not found")
+        return dict(job)
+
+
+def _set_job(audio_id: str, patch: dict[str, Any]) -> None:
+    """Patch an existing job in-place and refresh its `updatedAt` timestamp.
+
+    This is the single write-path used by background workers + endpoints.
+    """
+    with _LOCK:
+        if audio_id not in _AUDIO_JOBS:
+            raise KeyError(audio_id)
+        _AUDIO_JOBS[audio_id].update(patch)
+        _AUDIO_JOBS[audio_id]["updatedAt"] = _now()
+
+
+def _safe_filename(name: str) -> str:
+    """Sanitize a client-provided filename for filesystem usage.
+
+    Why: uploaded filenames can contain path separators or odd characters.
+    We keep it readable but safe, and we still generate our own unique ID.
+    """
+    keep = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._"
+    cleaned = "".join([c if c in keep else "_" for c in (name or "audio")])
+    return cleaned[:180] or "audio"
+
+
+def _lazy_import_rag():
+    """Import and return `RAGQuery` lazily.
+
+    Why: `ai_coach_v3.py` pulls in heavy ML dependencies. Importing it
+    at module import-time can slow down startup and make health checks flaky.
+    """
+    from src.ai_coach_v3 import RAGQuery  # type: ignore
+
+    return RAGQuery
+
+
+def _lazy_import_kgrag():
+    """Import and return `src.KG.RAGQuery` lazily (KG + Neo4j + Pinecone pipeline)."""
+    from src.KG import RAGQuery as KGRAG  # type: ignore
+
+    return KGRAG
+
+
+def _lazy_import_logic_rag():
+    """Import and return `src.RAG_logic.RAGQuery` lazily (history-aware synthesis)."""
+    from src.RAG_logic import RAGQuery as LogicRAG  # type: ignore
+
+    return LogicRAG
+
+
+_RAG_SINGLETON = None
+_OPENAI_SINGLETON: Optional[OpenAI] = None
+_LOGIC_RAG_SINGLETON = None
+_LOGIC_RAG_LOCK = threading.Lock()
+
+
+def _get_openai() -> OpenAI:
+    """Return a singleton OpenAI client (fallback when KG/RAG is unavailable)."""
+    global _OPENAI_SINGLETON
+    if _OPENAI_SINGLETON is not None:
+        return _OPENAI_SINGLETON
+    timeout = float(os.getenv("OPENAI_TIMEOUT", "90"))
+    _OPENAI_SINGLETON = OpenAI(api_key=os.getenv("OPENAI_API_KEY"), timeout=timeout)
+    return _OPENAI_SINGLETON
+
+
+def _get_logic_rag():
+    """Return a singleton LogicRAG instance (avoids re-loading embeddings/Pinecone/Cohere on every chat/report)."""
+    global _LOGIC_RAG_SINGLETON
+    with _LOGIC_RAG_LOCK:
+        if _LOGIC_RAG_SINGLETON is not None:
+            return _LOGIC_RAG_SINGLETON
+        LogicRAG = _lazy_import_logic_rag()
+        _LOGIC_RAG_SINGLETON = LogicRAG(
+            index_name=PINECONE_INDEX_NAME,
+            embedding_model_name=HF_EMBED_MODEL,
+        )
+        return _LOGIC_RAG_SINGLETON
+
+
+def _openai_chat(*, system: str, messages: list[dict[str, str]]) -> str:
+    client = _get_openai()
+    model = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
+    res = client.chat.completions.create(
+        model=model,
+        messages=[{"role": "system", "content": system}, *messages],
+        temperature=0.2,
+    )
+    return (res.choices[0].message.content or "").strip()
+
+
+def _get_rag():
+    """Return a singleton `RAGQuery` instance.
+
+    Why singleton:
+    - `RAGQuery` initializes embeddings, Pinecone client, and an LLM wrapper.
+    - Doing that per-request would be slow and expensive.
+    """
+    global _RAG_SINGLETON
+    if _RAG_SINGLETON is not None:
+        return _RAG_SINGLETON
+
+    RAGQuery = _lazy_import_rag()
+    try:
+        _RAG_SINGLETON = RAGQuery(
+            index_name=os.getenv("PINECONE_INDEX_NAME", ""),
+            doc_namespace=os.getenv("PINECONE_DOC_NAMESPACE", "documents"),
+            mem_namespace=os.getenv("PINECONE_MEM_NAMESPACE", "history"),
+        )
+        return _RAG_SINGLETON
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to initialize RAG system: {e}") from e
+
+def _generate_report_from_segments(
+    *,
+    audio_id: str,
+    segments: list[dict[str, Any]],
+    user_context: Optional[str],
+) -> str:
+    """Generate an initial coaching report from diarized segments.
+
+    This is the "analysis" step: take diarization output and ask the coach LLM to produce
+    actionable feedback, grounded in quotes (with timestamps).
+
+    Notes:
+    - `audio_id` is currently unused in the prompt; it is included to make it easy to
+      add auditing/tracing later.
+    - This uses `rag.llm` (Cohere via LangChain in your current implementation).
+    """
+    lines: list[str] = []
+    for s in segments:
+        spk = str(s.get("speaker", "Unknown"))
+        start = float(s.get("start", 0.0))
+        text = str(s.get("text", "")).strip()
+        if not text:
+            continue
+        lines.append(f"[{start:0.2f}s] {spk}: {text}")
+
+    transcript_block = "\n".join(lines) if lines else "(no segments)"
+    context_block = user_context.strip() if user_context else "None"
+
+    from langchain_core.messages import HumanMessage, SystemMessage  # type: ignore
+
+    system = f"""You are a World-Class Human-Centric Cognitive Coach.
+
+You will be given:
+- User context (what they care about / what they want to improve)
+- A diarized conversation transcript (speaker-labeled)
+
+Your job:
+- Identify 3-6 high-leverage coaching opportunities
+- Ground feedback in specific quotes (include timestamps)
+- Provide concrete next-step experiments/questions
+
+Return a concise but actionable report.
+"""
+
+    human = f"""USER CONTEXT:
+{context_block}
+
+TRANSCRIPT (diarized):
+{transcript_block}
+"""
+
+    try:
+        rag = _get_rag()
+        res = rag.llm.invoke([SystemMessage(content=system), HumanMessage(content=human)])
+        return res.content if hasattr(res, "content") else str(res)
+    except Exception:
+        # If RAG isn't configured (e.g. Pinecone index missing), fall back to OpenAI.
+        try:
+            return _openai_chat(system=system, messages=[{"role": "user", "content": human}])
+        except Exception as e2:
+            raise HTTPException(status_code=500, detail=f"Report generation failed: {e2}") from e2
+
+
+def _process_audio_job(audio_id: str) -> None:
+    """Background worker: diarize/transcribe an uploaded audio file.
+
+    Flow:
+    - Mark job as `processing`
+    - Run diarization/transcription using `Diarize().diarize_audio(...)`
+    - Optionally generate a coaching report from the diarized segments
+    - Store results in-memory for polling + chat
+
+    Why background:
+    - Diarization can take long enough that you don't want to block the upload request.
+    """
+    try:
+        _require_openai_key()
+        diarizer = Diarize()
+
+        with _LOCK:
+            job = _AUDIO_JOBS.get(audio_id)
+            if not job:
+                return
+            audio_path = job["path"]
+            user_context = job.get("userContext")
+            _AUDIO_JOBS[audio_id]["status"] = "processing"
+            _AUDIO_JOBS[audio_id]["updatedAt"] = _now()
+
+        target_name = str(job.get("targetName") or "target")
+        target_ref = job.get("targetReferencePath") or _VOICE_REFS.get(target_name)
+
+        if target_ref:
+            diar = diarizer.diarize_target_vs_other(
+                audio_path,
+                target_name=target_name,
+                target_reference_audio=str(target_ref),
+                two_pass=False,
+            )
+        else:
+            diar = diarizer.diarize_audio(audio_path)
+
+        # Convert diarization segments into LangChain Documents for KG pipeline compatibility.
+        try:
+            from langchain_core.documents import Document  # type: ignore
+
+            docs = []
+            for s in diar.segments:
+                text = str(s.get("text", "")).strip()
+                if not text:
+                    continue
+                docs.append(
+                    Document(
+                        page_content=text,
+                        metadata={
+                            "speaker": str(s.get("speaker", "Unknown")),
+                            "timestamp": str(s.get("start", "N/A")),
+                            "source_type": "Diarization",
+                        },
+                    )
+                )
+        except Exception:
+            docs = None
+
+        _set_job(
+            audio_id,
+            {
+                "status": "ready",
+                "transcript": diar.text,
+                "segments": diar.segments,
+                # KG pipeline expects a list of Documents; keep segments separately for the API.
+                "docs": docs,
+                # Report is generated by calling the same logic as `/api/report`.
+                "analysis": None,
+            },
+        )
+
+        # Generate report using the same pipeline as the `/api/report` endpoint.
+        # This keeps UI behavior consistent whether the UI calls `/api/report` or not.
+        try:
+            create_report(
+                ReportRequest(
+                    audioId=audio_id,
+                    userContext=user_context,
+                    targetName=target_name,
+                )
+            )
+        except Exception:
+            # Report generation is best-effort; diarization success should still mark the job ready.
+            pass
+    except Exception as e:
+        try:
+            _set_job(audio_id, {"status": "error", "errorMessage": str(e)})
+        except Exception:
+            pass
+
+
+app = FastAPI(title="Guidepost API", version="0.1.0")
+
+
+@app.on_event("startup")
+def ensure_db_tables():
+    """Create DB tables (e.g. sessions, users) if they do not exist."""
+    Base.metadata.create_all(bind=engine)
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=os.getenv("CORS_ALLOW_ORIGINS", "*").split(","),
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+@app.get("/health")
+def health():
+    """Lightweight health check endpoint.
+
+    This should not depend on heavy ML/RAG initialization.
+    """
+    return {"ok": True}
+
+
+
+@app.post("/api/audio", response_model=AudioUploadResponse)
+async def upload_audio(
+    background_tasks: BackgroundTasks,
+    file: UploadFile = File(...),
+    targetName: Optional[str] = Form(default=None),
+    userContext: Optional[str] = Form(default=None),
+    targetReferenceAudio: Optional[UploadFile] = File(default=None),
+):
+    """Upload an audio file and start background diarization.
+
+    Request:
+    - multipart/form-data with field `file`
+    - optional fields:
+      - `targetName`: name of the user whose voice we want to recognize
+      - `targetReferenceAudio`: a short voice reference sample (audio/*)
+      - `userContext`: optional context used for report generation
+
+    Response:
+    - `{ audioId }` which the frontend uses to poll `/api/audio/{audioId}`.
+    """
+    audio_id = uuid.uuid4().hex
+    safe_name = _safe_filename(file.filename or "audio")
+    ext = Path(safe_name).suffix or ".bin"
+    out_path = _AUDIO_DIR / f"{audio_id}{ext}"
+
+    target_reference_path: Optional[str] = None
+    transcript_text = ""
+    all_docs = None
+
+    try:
+        contents = await file.read()
+        out_path.write_bytes(contents)
+
+        if targetReferenceAudio is not None:
+            safe_target = _safe_filename(targetName or "target")
+            safe_ref_name = _safe_filename(targetReferenceAudio.filename or "reference")
+            ref_ext = Path(safe_ref_name).suffix or ".webm"
+            ref_path = _VOICE_REF_DIR / f"{safe_target}-{audio_id}{ref_ext}"
+            ref_path.write_bytes(await targetReferenceAudio.read())
+            target_reference_path = str(ref_path)
+            if targetName:
+                with _LOCK:
+                    _VOICE_REFS[str(targetName)] = target_reference_path
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Failed to save upload: {e}") from e
+
+    with _LOCK:
+        _AUDIO_JOBS[audio_id] = { 
+            "status": "uploaded",
+            "createdAt": _now(),
+            "updatedAt": _now(),
+            "path": str(out_path),
+            "filename": safe_name,
+            "transcript": transcript_text,
+            "docs": all_docs,
+            "segments": None,
+            "analysis": None,
+            "errorMessage": None,
+            "userContext": userContext,
+            "targetName": targetName,
+            "targetReferencePath": target_reference_path,
+        }
+
+    background_tasks.add_task(_process_audio_job, audio_id)
+    return AudioUploadResponse(audioId=audio_id)
+
+
+@app.post("/api/voice_reference")
+async def upload_voice_reference(
+    targetName: str = Form(...),
+    file: UploadFile = File(...),
+):
+    """Upload and store a user's voice reference sample.
+
+    The frontend should call this right after onboarding voice recording.
+    Later diarization jobs can reference this voice sample by `targetName`.
+    """
+    ref_id = uuid.uuid4().hex
+    safe_target = _safe_filename(targetName)
+    safe_ref_name = _safe_filename(file.filename or "reference")
+    ext = Path(safe_ref_name).suffix or ".webm"
+    out_path = _VOICE_REF_DIR / f"{safe_target}-{ref_id}{ext}"
+    try:
+        out_path.write_bytes(await file.read())
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Failed to save voice reference: {e}") from e
+
+    with _LOCK:
+        _VOICE_REFS[targetName] = str(out_path)
+
+    return {"ok": True, "targetName": targetName}
+
+
+@app.get("/api/audio/{audio_id}", response_model=AudioJobResponse)
+def get_audio_status(audio_id: str):
+    """Return current processing status + any available results for an uploaded audio job."""
+    job = _get_job(audio_id)
+    return _job_to_response(audio_id, job)
+
+
+@app.post("/api/report", response_model=ReportResponse)
+def create_report(req: ReportRequest):
+    """Generate and store a coaching report for an audio job.
+
+    - Uses the KG pipeline (vector + optional Neo4j + PDF retrieval) when available.
+    - Optionally synthesizes with past coaching history (LogicRAG) keyed by `targetName`.
+    - Falls back gracefully if KG/Logic components are not configured.
+    """
+    job = _get_job(req.audioId)
+    if job["status"] != "ready":
+        raise HTTPException(status_code=409, detail="Audio is not ready yet")
+
+    user_context = (req.userContext or job.get("userContext") or "").strip()
+    target_name = (req.targetName or job.get("targetName") or "User").strip() or "User"
+    aligned_focus = (req.alignedFocus or job.get("alignedFocus") or "").strip()
+    if aligned_focus:
+        user_context = (
+            f"AGREED COACHING FOCUS (highest priority): {aligned_focus}\n\n"
+            f"Additional user context: {user_context or 'None'}"
+        )
+
+    docs = job.get("docs")
+    segments = job.get("segments") or []
+
+    # If docs are missing but we have diarization segments, convert to Documents for KG compatibility.
+    if not docs and segments:
+        try:
+            from langchain_core.documents import Document  # type: ignore
+
+            docs = [
+                Document(
+                    page_content=str(s.get("text", "")).strip(),
+                    metadata={
+                        "speaker": str(s.get("speaker", "Unknown")),
+                        "timestamp": str(s.get("start", "N/A")),
+                        "source_type": "Diarization",
+                    },
+                )
+                for s in segments
+                if str(s.get("text", "")).strip()
+            ]
+        except Exception:
+            docs = None
+
+    report_stage_1: str = ""
+    retrieved_context = "No additional scientific context retrieved."
+
+    # Step 1-2: KG diagnostic + retrieval (best effort)
+    try:
+        KGRAG = _lazy_import_kgrag()
+        #print("In KGRAG:CLOUD_NEO4J_URI :",CLOUD_NEO4J_URI)
+        #print("In CLOUD_NEO4J_USERNAME :",CLOUD_NEO4J_USERNAME)
+        #print("In CLOUD_NEO4J_PASSWORD :",CLOUD_NEO4J_PASSWORD)
+       # print("In PINECONE_INDEX_NAME :",PINECONE_INDEX_NAME)
+        #print("In HF_EMBED_MODEL :",HF_EMBED_MODEL)
+        #print("KGRAG starting ")
+        rag = KGRAG(
+            index_name=PINECONE_INDEX_NAME,
+            embedding_model_name=HF_EMBED_MODEL,
+            neo4j_uri=CLOUD_NEO4J_URI,
+            neo4j_user=CLOUD_NEO4J_USERNAME,
+            neo4j_password=CLOUD_NEO4J_PASSWORD,
+        )
+        #print("KGRAG initialized")
+        logger.info("retrieved KG RAGQuery :")
+        try:
+            if docs:
+                
+                opening, middle, closing = rag.get_strategic_segments(docs, window_size=15)
+
+                logger.info("opening, middle, closing are: %s, %s, %s", opening, middle, closing)
+                report_stage_1 = rag.run_trend_analysis(
+                    opening, middle, closing, segments, user_input=user_context or "None"
+                )
+                logger.info("report_stage_1 is: %s", report_stage_1)
+                try:
+                    search_queries = rag._extract_queries(report_stage_1)  # type: ignore[attr-defined]
+                    logger.info("search_queries are: %s", search_queries)
+
+                except Exception:
+                    search_queries = []
+                if search_queries:
+                    retrieved_context = rag.get_pdf_knowledge_optimised(queries=search_queries)
+
+                    logger.info("retrieved_context is: %s", retrieved_context)
+
+            elif segments:
+                logger.info("segments are not None")
+                report_stage_1 = _generate_report_from_segments(
+                    audio_id=req.audioId, segments=segments, user_context=user_context
+                )
+                logger.info("report_stage_1 is: %s", report_stage_1)
+            else:
+                report_stage_1 = "(no transcript available)"
+                logger.info("report_stage_1 is: %s", report_stage_1)
+
+        finally:
+            try:
+                rag.close()
+                logger.info("rag.close() is called")
+            except Exception:
+                pass
+    except Exception as e:
+        # If KG cannot initialize, fall back to the lightweight report generator.
+        logger.error("KG PIPELINE FAILED: %s", e)
+        if segments:
+            logger.info("segments are not None")
+            report_stage_1 = _generate_report_from_segments(
+                audio_id=req.audioId, segments=segments, user_context=user_context
+            )
+        else:
+            raise HTTPException(status_code=500, detail="Report generation failed: missing transcript/segments")
+
+    # Step 3-5: History-aware synthesis & memory (best effort)
+    final_strategy = report_stage_1
+    try:
+        logic_rag = _get_logic_rag()
+        logic_rag.current_user_name = target_name
+
+        past_matches = logic_rag.retrieve_context(
+            query=f"Coaching history for {target_name}",
+            top_k=5,
+            namespace=getattr(logic_rag, "mem_namespace", None),
+        )
+        past_history_text = (
+            "\n---\n".join([getattr(m, "metadata", {}).get("text", "") for m in past_matches])
+            if past_matches
+            else "No history found."
+        )
+
+        final_strategy = logic_rag.execute_final_synthesis(
+            current_report=report_stage_1,
+            past_history_text=past_history_text,
+            pdf_context_text=retrieved_context,
+        )
+
+        try:
+            logic_rag.save_to_memory(report=report_stage_1, final_strategy=final_strategy)
+        except Exception:
+            pass
+    except Exception as e:
+        # If LogicRAG fails (e.g. Cohere timeout, Pinecone), return stage-1 only; log so we can debug.
+        logger.warning(
+            "LogicRAG final synthesis skipped (report will be stage-1 only): %s",
+            e,
+            exc_info=True,
+        )
+        final_strategy = report_stage_1
+
+    with _LOCK:
+        _AUDIO_JOBS.setdefault(req.audioId, {}).update(
+            {
+                "analysis": final_strategy,
+                "finalStrategy": final_strategy,
+                "report_stage_1": report_stage_1,
+                "retrieved_context": retrieved_context,
+            }
+        )
+
+    return ReportResponse(report=final_strategy, finalStrategy=final_strategy)
+    
+
+
+@app.post("/api/rag/retrieve_context", response_model=RetrieveContextResponse)
+def rag_retrieve_context(req: RetrieveContextRequest):
+    """Expose vector retrieval from the RAG system.
+
+    Thin wrapper so other services/UI can fetch relevant chunks without running the full pipeline.
+    """
+    rag = _get_rag()
+    try:
+        matches = rag.retrieve_context(req.query, top_k=req.topK, namespace=req.namespace)
+        out: list[RetrieveContextMatch] = []
+        for m in matches or []:
+            mid = m.get("id") if isinstance(m, dict) else getattr(m, "id", None)
+            score = m.get("score") if isinstance(m, dict) else getattr(m, "score", None)
+            meta = m.get("metadata") if isinstance(m, dict) else getattr(m, "metadata", None)
+            out.append(
+                RetrieveContextMatch(
+                    id=str(mid) if mid is not None else "",
+                    score=float(score) if score is not None else 0.0,
+                    metadata=dict(meta) if meta is not None else {},
+                )
+            )
+        return RetrieveContextResponse(matches=out)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"retrieve_context failed: {e}") from e
+
+
+@app.post("/api/rag/extract_queries", response_model=ExtractQueriesResponse)
+def rag_extract_queries(req: ExtractQueriesRequest):
+    """Extract up to 3 search queries from a diagnostic report for retrieval."""
+    rag = _get_rag()
+    try:
+        qs = getattr(rag, "_extract_queries", None)
+        if not callable(qs):
+            raise HTTPException(status_code=501, detail="RAG backend does not support _extract_queries")
+        queries = qs(req.report)
+        return ExtractQueriesResponse(queries=list(queries) if queries else [])
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"extract_queries failed: {e}") from e
+
+
+_ALIGNED_FOCUS_MARKER = "ALIGNED_FOCUS:"
+
+
+def _build_alignment_system_prompt(
+    target_name: str, context: str, transcript: str,
+) -> str:
+    transcript_for_prompt = transcript[:12000]
+    if len(transcript) > 12000:
+        transcript_for_prompt += "\n\n(Transcript truncated for context window.)"
+
+    return f"""You are a concise, warm professional development coach. You are in an \
+ALIGNMENT phase — your job is to negotiate with the user about what the primary \
+coaching focus should be for their uploaded conversation.
+
+RULES:
+- On your FIRST turn (when there is no prior conversation history): identify the 2-3 \
+most significant interpersonal patterns you see in the transcript. State each in one \
+sentence. Then ask the user which resonates most, or whether they see something \
+different.
+- On SUBSEQUENT turns: listen carefully. If the user redirects you or reframes the \
+issue, acknowledge it and refine your understanding. Ask a short clarifying question \
+if needed.
+- When you and the user are in agreement, summarize the agreed focus on its own line \
+in exactly this format:
+  {_ALIGNED_FOCUS_MARKER} <one sentence describing the agreed primary focus>
+- Keep every response to 3-5 sentences. This is a negotiation, not a lecture.
+- Do NOT generate a coaching report or give advice yet. Stay in alignment mode until \
+you reach agreement.
+
+User name: {target_name}
+User's stated concern: {context or "None provided"}
+
+Transcript (reference only — do not dump it back):
+{transcript_for_prompt}
+"""
+
+
+def _build_coaching_system_prompt(
+    target_name: str, context: str, transcript: str, analysis: str,
+    aligned_focus: str,
+) -> str:
+    transcript_for_prompt = transcript[:12000]
+    if len(transcript) > 12000:
+        transcript_for_prompt += "\n\n(Transcript truncated for context window.)"
+    analysis_for_prompt = analysis[:8000]
+    if len(analysis) > 8000:
+        analysis_for_prompt += "\n\n(Analysis truncated for context window.)"
+
+    return f"""You are a concise, warm professional development coach having a \
+real-time conversation.
+
+RESPONSE RULES:
+- Keep responses to 2-4 sentences maximum unless the user explicitly asks for detail.
+- End with exactly ONE follow-up question to keep the dialogue moving.
+- Never use headers, bullet lists, or markdown formatting — write naturally.
+- If the user asks a broad question, pick the single most important point and go \
+deep on that. Do not enumerate multiple points.
+- Reference specific moments from the transcript by quoting briefly, not by \
+restating the whole analysis.
+- Never repeat information from the initial report unless the user asks about it.
+
+User name: {target_name}
+Agreed coaching focus: {aligned_focus or "General improvement"}
+User's stated concern: {context or "None provided"}
+
+Evidence available to you (reference as needed, do NOT dump):
+- Transcript: {transcript_for_prompt}
+- Prior analysis: {analysis_for_prompt}
+"""
+
+
+def _extract_aligned_focus(reply: str) -> Optional[str]:
+    """Parse the ALIGNED_FOCUS: marker from an LLM reply, if present."""
+    if _ALIGNED_FOCUS_MARKER not in reply:
+        return None
+    after_marker = reply.split(_ALIGNED_FOCUS_MARKER, 1)[1]
+    focus = after_marker.strip().split("\n")[0].strip()
+    return focus if focus else None
+
+
+@app.post("/api/chat", response_model=ChatResponse)
+async def chat_endpoint(req: ChatRequest):
+
+    job = _get_job(req.audioId)
+    if job["status"] != "ready":
+        raise HTTPException(status_code=409, detail="Audio is not ready yet")
+
+    transcript = job.get("transcript") or ""
+    analysis = job.get("analysis") or ""
+    context = (req.userContext or job.get("userContext") or "").strip()
+    target_name = (req.targetName or job.get("targetName") or "User").strip() or "User"
+    phase = req.phase or "coaching"
+    aligned_focus = job.get("alignedFocus") or ""
+
+    conversation_id = req.conversationId or uuid.uuid4().hex
+    with _LOCK:
+        history = _CONVERSATIONS.get(conversation_id, [])
+
+    from langchain_core.messages import AIMessage, HumanMessage, SystemMessage  # type: ignore
+
+    if phase == "alignment":
+        system = _build_alignment_system_prompt(target_name, context, transcript)
+    else:
+        system = _build_coaching_system_prompt(
+            target_name, context, transcript, analysis, aligned_focus,
+        )
+
+    messages: list[Any] = [SystemMessage(content=system)]
+    for m in history[-12:]:
+        if m["role"] == "user":
+            messages.append(HumanMessage(content=m["content"]))
+        else:
+            messages.append(AIMessage(content=m["content"]))
+    messages.append(HumanMessage(content=req.message))
+
+    try:
+        logic_rag = _get_logic_rag()
+        logic_rag.current_user_name = target_name
+        res = logic_rag.llm.invoke(messages)
+        reply = res.content if hasattr(res, "content") else str(res)
+    except Exception:
+        oa_messages: list[dict[str, str]] = []
+        for m in history[-12:]:
+            role = "user" if m["role"] == "user" else "assistant"
+            oa_messages.append({"role": role, "content": m["content"]})
+        oa_messages.append({"role": "user", "content": req.message})
+        try:
+            reply = _openai_chat(system=system, messages=oa_messages)
+        except Exception as e2:
+            raise HTTPException(status_code=500, detail=f"Chat failed: {e2}") from e2
+
+    with _LOCK:
+        _CONVERSATIONS.setdefault(conversation_id, []).extend(
+            [{"role": "user", "content": req.message}, {"role": "assistant", "content": reply}]
+        )
+
+    response_phase = phase
+    response_aligned_focus: Optional[str] = None
+
+    if phase == "alignment":
+        parsed_focus = _extract_aligned_focus(reply)
+        if parsed_focus:
+            response_aligned_focus = parsed_focus
+            response_phase = "coaching"
+            with _LOCK:
+                if req.audioId in _AUDIO_JOBS:
+                    _AUDIO_JOBS[req.audioId]["alignedFocus"] = parsed_focus
+
+    return ChatResponse(
+        reply=reply,
+        conversationId=conversation_id,
+        phase=response_phase,
+        alignedFocus=response_aligned_focus,
+    )
+
+
+@app.post("/api/updateUser", response_model=list[SessionsReponse])
+def create_user(req: UserInput):
+    Base.metadata.create_all(bind=engine)
+
+    from src.save_session import create_update_user
+
+    sessions, userId = create_update_user(
+        name=req.name,
+        email=req.email,
+        occupation=req.occupation,
+        seniorityLevel=req.seniorityLevel
+    )
+    global currentUserId
+    currentUserId = userId
+
+    return sessions
+
+
+_STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
+if _STATIC_DIR.is_dir():
+    app.mount("/", StaticFiles(directory=str(_STATIC_DIR), html=True), name="ui")

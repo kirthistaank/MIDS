@@ -1,0 +1,39 @@
+Meeting minutes – [PROJECT1] 06.02.2020
+
+Date: 06.02.2020
+Attendees: [PERSON3], [PERSON10], [PERSON1], [PERSON5], [PERSON8], +1
+Agenda: 
+1) Introduction of [PERSON10]'s work, goal is to compress all scripts into one
+2) The way how to upload files
+3) Confidentallity of the data
+4) Data flow from [PERSON10] to [PERSON1]
+5) [PERSON5]'s work introduction 
+6) [PERSON8]'s work introduction
+7) [PERSON8] processed time stamp and fixed the tool for English segment
+
+Next steps:
+- [PERSON10] to make policy about the file naming
+- [PERSON5] to contact [PERSON7] 
+- [PERSON8] needs to manually fix the tool for Czech segment
+- [PERSON1] to ask [PERSON4] about virtual machine
+- [PERSON1] needs to fix the mediant
+- Fill in Google sheets
+- Fill in availability to Doodle
+- Test will run on Monday
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Minutes submitted by: [ANNOTATOR2]
+Minutes approved by:

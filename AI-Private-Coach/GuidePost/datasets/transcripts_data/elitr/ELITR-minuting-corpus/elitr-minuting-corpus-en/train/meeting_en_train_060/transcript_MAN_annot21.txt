@@ -1,0 +1,267 @@
+(PERSON4) Yeah, I can hear you.
+(PERSON11) Okay.
+Ah, does anyone know if [PERSON5] is joining us today, or?
+(PERSON4) I have no idea.
+(PERSON11)  Okay, so we'll see. Uh, so anyway let's start.
+Uh, what's the progress for the [PROJECT4], or is there any?
+(PERSON4) Uh, yes, like translation is still going,
+but it's only three or four parts, or, or maybe up to ten parts remaining.
+So, definitely tomorrow it will be like a whole bunch of a, or,
+or like a  whole Monolingual data will be translated tomorrow, so I can join it and start straining the systems.
+And, uh yeah.
+So I will train it on 8 GPU's in firewall just to like, hopefully, to have the results in five,
+five to seven days. 
+Still to have some time like one week ors, or more for, for other experiments,
+or like whatever appears, or like comes up.
+(PERSON11) Okay, uh I don't know what's the situation but I think uh, the cluster's quite
+free right now, so it should be -
+(PERSON4) Yeah, yeah -
+(PERSON11) Okay -
+(PERSON4) I think so.
+(PERSON11) Yeah, yeah, good, uh.
+<other_noise/>
+(PERSON4) I still have to wait for those like ten pieces to, to be finished just to have all the data.
+(PERSON11) Mm, uh uh, okay so, uh okay so, so that's probably it for the [PROJECT5] right? 
+Or the [PROJECT4] <unintelligible/>.
+(PERSON4) Um-hum.
+(PERSON11) Okay, so the next thing is [PROJECT3].
+<laugh/>
+Do you have any update?
+(PERSON4) No updates, or you have? Okay.
+<laugh/>
+(PERSON3) Uh, yeah. Uh, the number of users, uh, it improves to six users right now, we finished it.
+(PERSON11) Um-hum.
+(PERSON4) Okay.
+(PERSON3) So, I guess if we let- wait long enough, then we will have the data we need.
+(PERSON11) Uh, I think that was the, uh the em- email conversation with [PERSON6] 
+and that he was trying to push the people from [ORGANIZATION3] but I'm not sure whether it was -
+(PERSON3) Well, the thing is that [PERSON1] is leaving, so - 
+(PERSON11) Um-hum, ye- yeah.
+(PERSON3) I'm not really sure who is going to take over from their side.
+(PERSON11) Um-hum. Okay, but that seems like something is at least happening, so, so great. 
+Uh, so about the <unintelligible/>-
+(PERSON4) Yeah, like the, like the email from, from uh, um [PERSON6],
+was that he's also pissed of [PERSON1] and uh like -
+(PERSON11) Um-hum
+(PERSON4) <laugh/>
+I had that impression from the email that uh, sorry guys I cannot help you, 
+I cannot even help myself with [PERSON1] so, like. 
+(PERSON11) Um-hum. Well uh, we'll see I guess like,
+uh if we don't have any other or any plan B that's there's nothing much we can do.
+Uh, but how man-, how many uh, participants or uh, logs do we have collected, 
+uh, like six? You were saying, or uh how many, how many people?
+(PERSON3) Yeah, si-, six people.
+(PERSON11) And we would, we would, what's the, what's the minimum we would like to have to,
+to have some - 
+(PERSON3) <other_noise/>
+[PERSON16]?
+(PERSON4) Tens -
+(PERSON3) I, I mean i-, i-
+(PERSON4) Or -
+<laugh/>
+(PERSON3) Yeah, yeah tens because you will need  -
+(PERSON11) Okay-
+(PERSON3) To have, an order of more than what we did at our faculty.
+(PERSON11) Um-hum.
+(PERSON3) And we had ten, so.
+(PERSON4) Like fifty users, or yeah, I don't know ho- how many, 
+but yeah like fifty users would be okay.
+(PERSON11) Um-hum.
+Uh, okay so yeah, so if that's -
+Is there anything else for [PROJECT3]? Probably not right?
+(PERSON4) No.
+(PERSON11) So that's, that's great, that was fast.
+Maybe last thing, uh what's, what's the progress with [PROJECT2]s, [PERSON12]?
+(PERSON10) <other_noise/>
+Hey guys, so uh -
+(PERSON4) Hi.
+I finished training the, the tutorial part of the, of -
+(PERSON11) Um-hum.
+(PERSON10) FrSeC, so we decided to Fr- FrSeC,
+and then today we start training the, the English, no, uh -
+(PERSON2) Yeah -
+(PERSON10) English-Czech model, so I'm, I'm preparing the, the script for that, 
+and I'm following the instructions from that paper you sent me [PERSON11].
+(PERSON11) Um-hum.
+(PERSON10) Um, hopefully, you will start bringing today.
+So and we'll have this, this result as soon as possible for us to make the experiments
+with the constrained decoder.
+(PERSON11) Um-hum.
+So yeah, one question uh y-, you train the model from the tutorial, 
+or did you already train it with the chained data?
+(PERSON10) No, uh first try I did the tutorial - 
+(PERSON11) Um-hum -
+(PERSON10) Part, so.
+(PERSON11) Okay.
+(PERSON10) Now I have the, the results if you want to - uh, you, you like to check right?
+That -
+(PERSON11) Yeah, okay -
+(PERSON10) The results were the same, we can do that.
+(PERSON11) Yeah, okay, you can, you can send me message on, on Slack, 
+and yeah I can, I can look at it and that would be good -
+(PERSON10) <unintelligible/>-
+(PERSON11) And after that you can, you can start training baseline, and uh,
+yeah, I need to check which version of FrSeC, has the constrained - well, 
+[PERSON8] will sending emails so, we know which version was it but uh, 
+I still haven't checked how, how are constrained coding works exactly in FrSeC so, there's that - 
+(PERSON10) Yeah, I check it superficially, but I think that it's simple.
+We, we just have to make sure to use it correctly, but -
+(PERSON11) Okay.
+(PERSON10) I think it's okay. 
+(PERSON11) Um-hum, so, um yeah, so that seems that you, you are still quite busy.
+That's good, um I don't, [PERSON16] do you have any, any suggestion, what else can be done?
+Right now, probably.
+(PERSON4) Uh-hum no, I haven't thought about it.
+(PERSON11) Um-hum, okay what I, what I think it's good like you still need the baseline model to have something to,
+to try the constraints with right?
+And that will take s-, s- some time and yeah.
+Uh, okay I guess like I'm not sure whether there's any technical stuff, okay.
+Like since we went through this, we kept quite fast.
+So uh yeah, one question,do you know, do you know [PERSON12] the up-, up-, 
+do you have an up- update for the [ORGANIZATION1]? Do you know like if, if it's open, probably not right?
+(PERSON10) Uh, perfect um, I check it today and i- it's, it will start today actually -
+(PERSON11) Um-hum.
+(PERSON10) To receive um, um, um now, I can send an email to them and try to arrange a date to -
+(PERSON11) Oh, that's great, okay. That sound-
+(PERSON10) But I'll, I will have to check exactly, um, how they would do that, because u- uh, um,
+I'm not sure how they uh, how they would deal with the, with the situation.
+I'm really far away from the embassy. So, um I will -
+(PERSON11) Um-hum.
+(PERSON10) I will prepare it and as soon as I have an, uh an answer from them uh, I let you know.
+(PERSON11) Um-hum, okay that's, that's, that's great. 
+Uh and another thing, well since [PERSON7] is here, I'm not sure [PERSON7]- but when,
+when, when are you officially starting to work with us, or?
+(PERSON2) Uh, I would say first of October.
+I think there's would you ever- 
+(PERSON11) Okay -
+(PERSON2) make up one uh -
+(PERSON11) Okay, so -
+(PERSON2) So -
+(PERSON11) So, so we donť need to uh <unintelligible/>- 
+(PERSON2) Yeah I think I -
+(PERSON11) <unintelligible/>-
+(PERSON2) So, yeah my plan is to come to the [LOCATION1] -
+(PERSON11) Um-hum -
+(PERSON2) first of October and - 
+(PERSON11) Um-hum -
+(PERSON2) But uh -
+(PERSON11) Um-hum, okay -
+(PERSON2) Yeah.
+<laugh/>
+(PERSON11) So that's, that's fine.
+Uh, and maybe, maybe last thing [PERSON12], did you receive your payment for last month?
+Hopefully there was no -
+(PERSON10) No, there was a tragedy for my, my bank -
+(PERSON11) Okay -
+(PERSON10) Actually, I didn't receive anything, because they, they gave me the wrong IBAN which -
+(PERSON11) Okay -
+(PERSON10) identify my, identifies my, my account -
+(PERSON11) Um-hum -
+(PERSON10) And they, they give me the, the wrong one, I don't know why and -
+(PERSON11) Um-hum -
+(PERSON10) Uh, I didn't receive it yet.  
+So they, now I, I, I've got the, the correct one and sent to, to [PERSON9], and they and -
+(PERSON11) Okay - 
+(PERSON10) I hope to receive someday, I don't know when.
+(PERSON11) Okay, I also - 
+(PERSON10) <laugh/>
+(PERSON11) Hope that, that uh, this will get results but,
+it seems that there was no, no problem from on, on our side hopefully, right? 
+Like the the - 
+(PERSON10) No, no your, your side is -
+(PERSON11) Okay, that's -
+(PERSON10) Correct -
+(PERSON11) That's great <unintelligible/> -
+(PERSON10) It was my bad
+<other_noise/>
+there to really to, to re-, to re- uh
+<laugh/>
+I'm really bad right - 
+(PERSON11) Um -
+(PERSON10) At trying to manage these things, okay.
+(PERSON11) Um-hum, uh yeah. 
+So I guess, I guess that's it, like I can, like if, if there's anything uh,
+more detailed that anyone needs to discuss.
+I can,  we can, we can uh, move it to, to some personal, uh call or meeting.
+Like, I think this is good for now. 
+Yeah, or uh just, just to be sure, like there's no, uh, uh like issues with the [PROJECT4], right [PERSON16]? 
+Like you're not bec- being stuck on anything right?
+(PERSON4) Uh, not yet -
+(PERSON11) Okay -
+(PERSON4) I'm just translating now and yeah l- like -
+(PERSON11) Okay -
+(PERSON4) Start training tomorrow and -
+(PERSON11) Um-hum, okay.
+(PERSON4) Yeah, I should also start doing things on the real [PROJECT4], 
+because this is the, the, just the data augmentation and I'm -
+(PERSON11) Um-hum -
+(PERSON4) concentrating on it just because of the [ORGANIZATION4] uh, deadline.
+(PERSON11) Um-hum.
+(PERSON4) And yeah, so it's the join work with [PERSON15] and -
+(PERSON11) Um-hum -
+(PERSON4) [PERSON15] is moving tomorrow to [ORGANIZATION3], and but m- most of the work,
+of the training it's up to me, and yeah I hopefully just, we we just agreed to consult things,
+and then hopefully he will help me with writing the paper if there are some like -
+(PERSON11) Um-hum.
+(PERSON4) Good results or like publishable results.
+(PERSON11) Okay, uh so, I'm not sure, 
+Yeah, I can, I can also forward you the email from [PERSON14].
+Uh, I was asking him about his data sets, they use for their multi-, uh, or multilingual experiments.
+So if you, if you have time, or if you want, you can check, check whether it can be used for,
+for your experiments, but I am not completely sure whether the data is [PROJECT4],
+so it might not be uh, like uh sufficient, like for, for the task, 
+but you know, just so you know that we are - 
+(PERSON4) Okay.
+(PERSON11) trying to -
+(PERSON4) Um-hum,
+(PERSON11) col- collaborate with them.
+Okay, so other than that, uh okay one last thing,
+if I notice correctly with the conversation with [PERSON13], uh. 
+I think [PERSON12] you also were also receiving the emails about the Nalejvárna,
+which, which is basically just some, some introduction to, how to work at [ORGANIZATION2], right? 
+(PERSON10) Yes, yes, um.
+(PERSON11) Okay, so, I think yeah, it seems it will be on Wednesday uh, at 2 pm, right?
+Uh, Central European Time, uh I guess if you're not too busy it would still be helpful
+if you also join [PERSON12] and uh, technically if, if [PERSON7] i- is free at that time,
+it would definitely be helpful if he also joined because you will receive uh,
+some well basically, uh, uh [PERSON7], [PERSON7] knows what nalejvárna means in Czech an-,
+and i- idea is that uh it's a it's -
+(PERSON10) Sure, I can imagine.
+(PERSON11) Yeah, it's, it's a crash course or tutorial on, on -
+(PERSON10) Yeah-yeah - 
+(PERSON11) How to use stuff in, in at <unintelligible/> place mainly, mainly the cluster and, and other things.
+So.
+<other_noise/> 
+In case of [PERSON12], I don't think it's completely necessary because you know the most of the stuff and you know if,
+if there's any uh, troubles or issues you can, you cas as- ask us -
+(PERSON10) Alright -
+(PERSON11) Directly, for for some small details but a- again,
+like I think it will not hurt if you at least join in and pay half attention to the, to the uh -
+(PERSON10) Sure -
+(PERSON11) Lecture -
+(PERSON10) Yeah, it would be -
+(PERSON11) Okay -
+(PERSON10) It would be coo-, it would be nice to have join them.
+(PERSON11) So, okay uh I will s- send you, uh send um [PERSON7] uh the -
+(PERSON10) Okay -
+(PERSON11) The mail
+(PERSON10) <unintelligible/>
+(PERSON11) Conversation so you are updated -
+(PERSON2) Sure.
+(PERSON11) And, yeah and just join if you can like that's the th-
+(PERSON2) Okay-
+(PERSON11) <unintelligible/>
+Uh, okay I think if there's nothing else to discuss, we can just uh,
+end it here for today and uh see you next m-, next week? 
+(PERSON10) Great, see ya.
+(PERSON4) Okay.
+(PERSON3) Okay.
+(PERSON11) Okay.
+(PERSON4) See you - 
+(PERSON10) See you soon -
+(PERSON4) Bye-
+(PERSON11) Um-hum -
+(PERSON2) Bye.
+(PERSON11) Bye, bye. 
+(PERSON4) Bye.
+(PERSON10) Bye, bye.

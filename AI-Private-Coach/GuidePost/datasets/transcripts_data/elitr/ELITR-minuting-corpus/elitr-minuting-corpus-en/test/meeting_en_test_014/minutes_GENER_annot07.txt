@@ -1,0 +1,25 @@
+[PROJECT2] 24. 01. 2020
+
+Date: 24. 01. 2020
+Attendees: [PERSON8], [PERSON5], [PERSON7], [PERSON10], [PERSON4], [PERSON6], [PERSON9], [PERSON12]
+Purpose of meeting:  Summarizing work
+Agenda: 
+1) University open day
+2) Transcribing videos, voice domain adaptation, English segmenter
+a. Boundary detection
+b. [ORGANIZATION4] models to work in [PROJECT2]
+3) Processing data from parliament
+a. Multi-source spoken language translation
+b. Binding worker for automatic speech recognition 
+4) Working on [PROJECT1] system
+5) Test set for evaluation of simultaneous translation
+6) Monolingual data collection
+7) Overview, test sets of data for [ORGANIZATION1]
+a. IWSLT test set
+8) Forced alignment
+9) Czech to English
+10) Domain adaptation 29th of January 2020
+
+
+Minutes submitted by:	 [ANNOTATOR3]
+

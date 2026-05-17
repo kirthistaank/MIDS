@@ -1,0 +1,316 @@
+(PERSON3) So [PERSON6] is the host now.
+(PERSON6) Thank you.
+Hi everyone.
+(PERSON3) Yeah.
+(PERSON4) Hello.
+<parallel_talk/> How are you?
+(PERSON3) Okay, so I think [PERSON7] is also there, so -
+[PERSON4], if you want you can like first show the inter- working of the interface, maybe, and then eh, show the installation.
+And eh, then what are the what are the synchronization works that are left.
+(PERSON4) Okay.
+So I'll start with um, documentation that has been put together ehm.
+I don't know whether you have access to it.
+(PERSON3) Yes, yes, we do have.
+(PERSON4) Ehm, okay.
+So uh, I think the installation and basic usage is eh well documented there.
+But uhm, maybe I'll share my screen.
+So I need to figure up how to do it.
+(PERSON3) <parallel_talk/> Yes, yes, okay.
+(PERSON4) Share screen -
+(PERSON3) So you can see sha-
+Yeah.
+(PERSON4) Yeah.
+Is visible my screen already?
+(PERSON3) Yes, yes.
+(PERSON4) Okay.
+So ehm, maybe the installation is eeh, more eh, interesting from the from the developer point of view, because you you'll be probably eh, managing it, eh, later.
+So eh, the installation differs for for ehm, Linux and for Windows.
+I have in the in the first quarter repository there is Linux folder and Windows folder.
+And ehm, the Linux installation is quite eh, straightforward.
+And it could give you relatively clear view of what you actually ne- need, what dependencies you need to actually install.
+And I think it's Python three which I guess is normally normally eh, standard eh, standardly shipped with the Linux.
+Ehm, then you need to have eh, Python virtual environment, because uhm, because the the tool uses some Python pac- packages .
+And I'm not really sure whether everyone wants to install the Python packages eh globally.
+So that's why eh, the installation create eh eh, creates here it is this command, creates -
+I can -
+Creates <unintelligible/> virtual environment.
+And eh, and eh all installation is eh, finished with getting the whole and latest ehm, repository from the code from the repository.
+Because it's Python, it's interpreted, so it's sufi- it's sufficient to just eh, download the deep hub repository with the code.
+So ehm, very important for you are the packages that that are required.
+Maybe you will need to ehm, update the requirements.
+The requirements are here, so it's just three packages.
+And  -
+Yeah, that's that's the installation on Linux.
+On Windows it's a bit trickier.
+Because eh, eh, Windows does not have eh, package manager, so one have to install for example the Python manually.
+And eeh, also because there are uhm, too different architectures of the Windows.
+You can have either eh, thirty two bits or sixty four bits.
+So you have to download eh, eh the right package.
+And right ehm, ehm libraries, just to, just to be compatible with each other.
+So ehm, I think that's the installation, you maybe have to go through the scripts.
+And I'm quite sure you'll have some questions about it.
+And I I can fill some more comments to the code, but just go over the code and maybe you you'll figure it out, um, maybe it's easy.
+Okay.
+So the that's the installation, ehm, and now I can just run the program.
+So programatically it's really easy.
+Just call the -
+Just execute the Run by eh, script eh, and window emerges.
+I don't know -
+Can you see the annotations window now?
+(PERSON3) Yes.
+(PERSON4) Okay, so ehm, okay, so there's a annotation eh, window.
+I o- I open new eh, existing eh, existing meeting uhm, so so ehm -
+Here eeh, you can -
+I guess I can make it bit larger.
+So ehm, here eh, the window left part of the of the window is the transcript.
+You can -
+Each meeting can have more transcript because eh, because I think that eh, each each meeting eh, has automatically created transcript by some ASR.
+And eeh, corrected transcript provided ba- by some eh, by some eh, annotator.
+So this should be the -
+This should be the corrected transcript.
+So you can choose it, so here just demo ASR transcript.
+And eeeh, ehm, there's the the whole transcript.
+In the right side of the of the window you can see eh minutes.
+You can choose eeh, which version of minutes you want to work with.
+And uhm, the colours here and here ehm, eh, are are to uh, show the dependency be- between the minute and eh, some dialogue acts.
+And you can use, you choose whatever dialogue act you want and you can link the -
+You can link them with some minutes.
+So for example, I changed the colour.
+So these mi- this dialogue acts are linked with eh, the this this minute and I can make it back. 
+I think it's here.
+And ehm, there is also some eh, context menu, you can you can choose some minutes.
+You can either reset minutes.
+That means I remove removed the colour and the the linking with the minutes here.
+And eh, you can also you have here problem column.
+It's eh, it's a special special column that I think [PERSON6] can can explain it better than me.
+But eh,  for example, this talk like: Can you hear me?
+Or ehm, or: Let's talk about another eh, topic.
+That's like organizational.
+It it has no minute in in the minute panel.
+But eh, it it's organizational.
+So eh, you can also reset problem, or I think it's back.
+And eh, there's eh, that's the third panel here in the in the right bottom.
+And it's the playback.
+Um, I -
+So, I I sh- I shift some video to to the meetings.
+Uhm, it is possible even to -
+So ehm, some meetings are recorded including eh, video.
+And because I'm using eeh, VLS player in the background for eeh, playback, it is impossible to to see the video eh, eh, from the from the recording.
+And -
+But this video is not is not integrated to the to the ehm, to this annotations window, but it's separate window.
+So ehm, you can change eeh, speed of the of the recording, you can play it, stop it.
+You can fastforward forward or backwards.
+And eh, using this eh, what is it -
+So -
+I don't know, I forget how this what's this tool here.
+<laugh/>
+But it just you can adjust eh, the time, the current time.
+Yeah, and  -
+And I think I covered it almost all.
+If you have any questions just ask me.
+(PERSON3) Okay, so eh, [PERSON4].
+I have some questions regarding the installation.
+(PERSON4) Yeah, sure, go ahead.
+(PERSON3) Okay, so so I went through your installation guide in the Linux.
+Can you open the ehm, that [ORGANIZATION1] doc, that eh, maybe you have or [PERSON6] have prepared.
+(PERSON4) Yeah.Right.
+(PERSON3) Mhm.
+Can you check that if if if it is eeh like if it is allocate with eh, with the current installation showed?
+(PERSON4) Mhmmm.
+I think it should, because ehm, the -
+Let me see that scipt.
+Ehm, yeah.
+This should, this should be everything.
+So I can check whether I have VLS installed, I have VLS installed.
+And eh, mhmh, so first, we are checking whether the Python is installed.
+Ehm, then we see whether the Python we <unintelligible/> when is installed.
+VLS is installed.
+Yeah, uf, uf, uf -
+Yeah, it seems that it should be correct.
+(PERSON3) Okay.
+Okay.
+(PERSON4) And eh, eeh it's it to install it on Wi- on eeh, Linux just just you have to just execute that install script.
+Maybe, maybe there should be ehm, this extra sudo here.
+Because eh, I'm actually not sure, because as you can see here, when you're installing some packages in in Linux, you, you must be eeh super user.
+(PERSON3) Mhm.
+(PERSON4) And eh, I I'm not sure whether it's device to to type sudo here in the installation script.
+Or you have to ehm, execute the whole installation script with super user eh, privilages.
+I'm not sure right now.
+But eh, yeah.
+Ehm, do you have some problems, with uh, running the these eh, this script on on eh, Linux? 
+(PERSON3) Yeah, I found some problems while installing it directly.
+(PERSON4) And ehm -
+Maybe you can ehm, maybe you can ehm, give me some details about it?
+Or can you, can you share you screen and -
+(PERSON3) Yes.
+(PERSON4) and install it?
+(PERSON3) Okay, so I'm in a different machine so what I will do is eh -
+Can I can I send you some screenshots maybe?
+And I will try with both Windows and Linux.
+I will send you the screenshots.
+Maybe I immediately after this meeting.
+And  -
+(PERSON4) Okay,
+(PERSON3) I think those can be resolved eh, quite easily
+<other_noise/>
+So the, okay -
+So the other thing that I want to know is eh, about the actual annotation thing.
+So you showed some highlighting things eh, in the, in the interface.
+So can you like ehm, like what is the output of this?
+Can you show that suppose -
+(PERSON4) Yes, sure.
+(PERSON3) from the beginning.
+Suppose you want to annotate, what we should -
+(PERSON4) Sure.
+Sure, sure.
+Ehm, so eh -
+It's not here, but I can do here.
+Mm-hmm, to check.
+<other_noise/>
+So ehm, this is the folder with eh, actual meeting.
+In the root folder that's the the the meeting name it's Demo.
+And eh, in a root folder there are three eh sub-folders.
+There's the annotations, minutes and transcripts folder.
+Eh, transcripts eh, contains eh, text, contains transcripts and these have eh, special structure.
+Each each line is the separate eh, dialogue act.
+Eh, it's actually CBS file or or the the format is CBS, because it has eh, four columns.
+In the first column there's the actual text of the di- dialogue act.
+In the second column there's eh, speaker and eeeh, third and fourth column are time stamps.
+First is the starting time stamps in seconds and the scond one is the time stamp eeh, of the end of the DA.
+If eeh, the synchronization between DAs and eh, eh, the recording is not provided and there's the minus one indicating there's there's no eh, time sta- time step, eh stamp avilable for the DA.
+So these this is the structure of transcripts or DAs.
+In the minutes eh, in the minutes there are -
+It's it's just simple ehm, simple text file without any any eh, formating.
+So you can -
+So, that's the [PERSON5] minutes so as you can see here the structure.
+And if I go here, [PERSON5] minutes it's just simple text file.
+So now now now formating is needed, whatsever.
+And annotations, eh, are created eh,  in a way that each version of transcript, I mean the each -
+So here's the corrected transcript and eh, is paired with for example [PERSON5] minutes.
+So you can see for example here is the:
+Corrected transcript plus, in the name, and [PERSON5] minutes.
+And eeh, here is the eh connect-, here is the eh, pairing between the the transcript, so the DAs and minutes.
+So we see in the first column, that the sixth eeh, sixth minute, eh, sorry, sixth DA, so it's the sixth DA, is eh, is connected to third minutes, yeah.
+And and here is it too because it's eeeh, the indexec are, indices are eeh, starting from zero.
+And eh, we also can see that the - 
+There's organizational problem, which is the first one.
+And in the third column, there's zero, which indicates there's the this sixth minute eeh, sixth DA is connected or paired with eeh the first problem.
+Or for example you can see that the nineth or -
+That the, sorry, fourteenth eh, DA has no problem connected to it.
+Okay, I can show it.
+There's this this problem here there's no problem connected.
+So here's none.
+In the third column.
+And eh, final thing, in the meeting structure is is in the root folder you can eeh, you can copy paste the recording of the meeting, and it can have eeeh, what -
+It can have <unintelligible/>
+So I will paste it here the office eeh, series, if you know the office series.
+And eeh, the  annotation tool will just search in the in the root folder for any any playable recording, whether it is audio recording or video.
+(PERSON3) So eh, so once the annotation is done, ehm, that eh, annotation file is automatically saved in that folder?
+(PERSON4) Eeh, I can show you that.
+Uhm, for example I will eh, I will pair the very first dialogue act with with the very first minute, yeah?
+The red coulour, you see?
+And ehm, and and I will just click save and we go to the folder.
+So that's annotations, we have been working with corrected transcript and [PERSON5] minutes, so I open this file and you can see the very first line.
+That's the zero DA is connected to the zero minute and I have I haven't <unintelligible/> any problems or there's none.
+(PERSON3) Okay.
+Thank you.
+Okay, yeah -
+(PERSON4) So any, any more questions?
+(PERSON3) I think I think up till now I have understood, I will like again try installing with the with the instru- instructions.
+And I will send you the screenshots if there's any problem.
+Eh, now that means what are the remaining things we need to do with <unintelligible/>?
+(PERSON4) So, ehm, the [PERSON2] thinks, that  has to be done is to co- is to eh, finalize or actually implement the whole eh, synchronization of of the meetings.
+Because now the only way how to actually, how annotator can actually eh, send results to the to [PERSON6] for example, is just to go to the meeting folder and click compress it and send it via e-mail or something.
+And eh, there's -
+We thought that maybe it could be interesting to use for example Git to to eh, synchronize the transcript, minutes and annotations.
+But eh, the problem is this recording, because it it's just too big to be eh, synchronized over over ehm, over Git.
+So eeh, there has to be some work around and eh, I had idea that maybe we can set up  some website.
+We need to discuss it with the IT, and we can set up some eh, web page that would eh, that could have eh for example folder recordings available.
+And maybe instead of eh, copying the video or or the recording here in the in the root folder we can just create a new file here.
+For example eeh, we can create some recording eh, text file and we can copy paste, we can give here some new URL to the to the webserver, where the where the recording leaves.
+And and annotation tool can detect the the link and could download it later, for example
+Because the annotator does not alter alter the recording, the annotator alters only minutes, transcript and annotations.
+(PERSON3) Okay.
+So you mean to set up synchronisation file <unintelligible/> is left from this interface, right?
+(PERSON4) Yes, and I guess there's one more thing -
+Eh, it's just eh, maybe I can I can do it myself, and it's that I haven't -
+I've I've talked about that synchronization between ehm, dialogue acts and eh, and and eh, and the recording.
+And as I showed you here there's the this there should be time stamps and eh, what we have to do is to implement eh, some time stamping eh, utility in cluster.
+So that eh we, if we provide, if we provide transcript, we get transcript with time stamps.
+That's on the cluster side and eeh, I haven't finished the the synchronization in the programme.
+So the idea is that when you click on some DA, it should eeh, change the time to the start of the time stamp.
+But that's just, I don't know, maybe three lines of codes that has to be added and -
+But, but the actual pr- actual problem is to create time stamping script on the cluster, yes?
+It's actually the only problem.
+(PERSON3) Okay.
+(PERSON4) But I can do it also but eeh, it will take me some time to do that.
+(PERSON3) Yeah, okay.
+(PERSON4) Right now, because I have some some deadlines to follow.
+(PERSON3) Yes, yes, we understand.
+So I think eh, this eh, this cosmetic changes are not very crucial for the current annotation, because the thing that we really need now is the <unintelligible/>
+So ehm, I think we can, eh, we can work on this?
+But that <unintelligible/> we need to like discuss and figure out how we do this.
+So what I will do right now is I will try do this both on Windows and Linux.
+I tried it only once but I will get back to you.
+With the problems.
+And then I will manu- I will do one annotation from my end.
+So just to be satisfied that-
+Okay, eh -
+We are on the same page and then maybe we can start connecting with annotators.
+Is that okay?
+(PERSON4) Yes.
+Yeah, sure.
+(PERSON3) Okay, okay.
+[PERSON6], you have any questions or [PERSON1] or [PERSON7]?
+(PERSON1) So I have one question for [PERSON4].
+(PERSON4) Yes, go ahead.
+(PERSON1) Eh, eh, [PERSON4] these these colours indicate problems in the in the transcript, right?
+(PERSON4) No the problems, the linking between eh, the dialogue acts and minutes.
+The problems are are not not indicated bu- by colour, but by the text in the problem column.
+So for example here we can see is the organizational problem.
+And for example I can s- add here the speech incomprehensible problem for this third dialogue act.
+(PERSON1) Oh, so the only these set of problems are are scripted here?
+Only these four kinds of problems?
+Or there are some other classification.
+(PERSON4) Yes.
+Maybe may-
+This this four problems are hardcorded to the program.
+But eeh, maybe we can discuss it with [PERSON6] and we can make this problems editable.
+So maybe, for example, we can I have here the settings eh, window and we can add here some some tool that could eh, add or remove some problems.
+(PERSON1) Mhm.
+But l think this four four problems can can cover almost all all problems that are ehm, in in the annotations.
+(PERSON1) Mhm.
+Mhm.
+So what does these colour indicate?
+So is there some relevance of the colour, difference of colour, or no?
+(PERSON4) No, no the the colours are ehm, random, but they are to just to distinguish that for example from six to to thirteenth eh, the dialogue acts are linked with eh, the third minute.
+And then from fourteenth DA to the sixteenth DA the linking is to the fourth minute, here
+(PERSON1) Uhm hm.
+(PERSON4) So and as as you can see eh, this minutes ther- this dialogue acts there are basically right now have now no colour.
+That means that there's no linking to the minutes.
+(PERSON1) Mhm.
+(PERSON4) And as I scroll up and eeh, more colours emerges, we can see that which which dialogue acts are linked to which eh, minutes.
+As you can see.
+(PERSON1) Mhm.
+So the linking part is coloured -
+(PERSON4) So the colour-
+Yes, yes, yes.
+It's finished.
+(PERSON1) Okay.
+Okay.
+(PERSON4) Any more questions?
+(PERSON1) I think -
+Yeah.
+[PERSON6], I think eh, manual evaluation can be easily integrated into this tool.
+Because, eh, there is actually a mapping of the eh, transcript, and the the minute.
+So eh, the annotators can also evaluate in this particular platform itselfs.
+Which [PERSON4] has formed.
+[PERSON6]?
+Oh, hey there -
+[PERSON6]?
+Oh, I think -
+Okay, maybe you go ahead with and discuss it with her later.
+You can go ahead with eh, the conversation maybe.
+(PERSON3) So we have less than a minute left.
+(PERSON1) Mhm.
+If we have no questions, I will get back to [PERSON4] offline.

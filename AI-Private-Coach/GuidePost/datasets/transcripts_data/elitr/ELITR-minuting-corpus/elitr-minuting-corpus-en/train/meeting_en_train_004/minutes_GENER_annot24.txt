@@ -1,0 +1,85 @@
+Date: November 4th, 2020
+Attendees: [PERSON18], [PERSON25], [PERSON26], [PERSON17], [PERSON16], [PERSON10], [PERSON11], [PERSON9], [PERSON12], [PERSON22], [PERSON15], [PERSON1]
+Purpose of meeting: [PROJECT2] Remote Meeting
+
+-Introduction, warning regarding recording of the meeting.
+--New updated procedure will be followed.
+--After anonymization, people will be asked for consent again.
+
+-Covid extension application closed.
+--It was submitted.
+
+-All reported costs were approved.
+--Money will be distributed to the individual sites.
+--People should be patient, as there are some changes in UK financial department.
+
+-New dissemination table was set up.
+--All the activities should be reported.
+
+-Finding reviewers for all the deliverables.
+--They need final training data, separating confidential and public version.
+--[PERSON11] from [ORGANIZATION4] will write what training data there are for ASR.
+--There are three internal groups now at [ORGANIZATION11] for training data, the effort will be put together.
+
+-[ORGANIZATION1] data.
+--[PERSON15] is working on ESIC Europal simultaneous interpretation.
+
+-Minuting data.
+--There are a lot of them, but they will not be ready till the end of the year.
+--November 30th there is the deadline for the shared task proposal submission.
+--Deadline will be March.
+--Reviewer will be [ORGANIZATION8].
+
+-There should be an intermediate report on multilingual machine translation.
+--[PERSON15] is overseeing it.
+--[ORGANIZATION4] with [PERSON7] will be engaged.
+--Reviewer will be [ORGANIZATION8] (with 2 question marks).
+--[PERSON23] from [ORGANIZATION2] can be also asked, but the situation with [ORGANIZATION2] is a bit difficult.
+
+-Intermediate report on integration.
+--Responsibility of [ORGANIZATION10].
+--The main contributor is [ORGANIZATION8].
+--Meeting is planned.
+
+-First draft of the text should be in December.
+--Internal deadline is December 6th.
+
+-There are two important milestones.
+--One of them is improved ASR systems, [ORGANIZATION4] is successful with the English ASR.
+---Extension to other languages should be done asap.
+-- Next is to improve spoken language translation prototype.
+---Two new colleagues will be engaged.
+---Meetings with current members + new members should be organized.
+---Roles and responsibilities of new members were described
+
+-Plans for cross-side collaboration.
+
+-Brief description on minuting task progress.
+--Brief overview on minuting team.
+
+-Minuting demonstrator.
+--User interface is being prepared.
+--Separate meeting will be organized.
+--Experienced annotators could join the meeting and do the online summarization.
+
+-[ORGANIZATION3] Congress is not going to happen in May.
+--Substitute events are needed- Metaforum.
+
+-Reminder to sign the consents.
+
+-Introducing "old" members to "new members".
+--Specifying the work of one new member.
+
+
+Minutes submitted by [ANNOTATOR1]
+
+
+
+
+
+
+
+
+
+
+

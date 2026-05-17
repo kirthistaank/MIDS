@@ -1,0 +1,934 @@
+(PERSON13) Yeah.
+Hi, hello, sorry for coming late.
+So are you all here?
+(PERSON15) Yes, hello.
+(PERSON13) [PERSON16].
+We have two [PERSON7]s.
+(PERSON7) Hello.
+(PERSON13) So you are.
+Uh, [PERSON7] you are trying to, uh, recover from your past, uh, missed sessions uh, uh, by coming twice.
+<laugh/>
+That's good.
+Yeah.
+I was also hoping to see [PERSON6], but yeah that's not the case.
+Never mind.
+Uh, so let's be quick and yeah.
+Uh, I would like primarily to ask [PERSON16] and [PERSON3],uh, to debag, what was the problem yesterday.
+Because yesterday, the experience was simply disastrous again.
+Uh, and, um-
+<another_language/>
+Uh, so it didn't-.
+Uh, it was, uh, very badly recognised and it was also slow.
+Uh, so, uh, uh, [PERSON16] would you have any, uh, any explanation, uh, for, the 
+slowness?
+You're muted.
+Uh.
+(PERSON16) Yeah, hi, sorry.
+So I mean, no, uh, uh, for slowness there is just one explanation.
+And that is, uh, I need to be logged into, one, of, the machines.
+(PERSON13) Yes, okay.
+So there was, uh, yeah.
+And can it also affect the recognition quality or is it just slower?
+(PERSON16) Uh, no.
+It is just slow.
+<unintelligible/>
+(PERSON13) So, uh, coul-.
+Please get in touch as I wrote yesterday.
+Please get in touch with [PERSON9], uh and, uh, try to debug the, that again.
+I will download the recording from yesterday.
+So you can, uh, probably replay that and, uh, see what we can do about the, uh, recognition quality.
+And um, uh, yes, uh, then I would-.
+[PERSON3] has added some files, uh, to the [PROJECT12] Test set.
+These are also English, non native, and in the [PROJECT16].
+So please evaluate that.
+And otherwise, what is your, uh, progress with other things, evaluation and-.
+(PERSON16) Uh, so today I'm supposed to.
+So basically, we had a call with [PERSON12] last night.
+And so I have to address this problem where the files were too big, so I could not get uploaded to [PROJECT3].
+(PERSON13) Mhm.
+(PERSON16) So I had to address that.
+So right now, I am looking into that.
+So how could I identify the files, which are too big to be uploaded to [PROJECT3].
+(PERSON13) Mhm.
+(PERSON16) Now, I am looking so i can just upload it as a link file or something like that.
+(PERSON13) Yeah, yeah, please do.
+Please commit everything that, uh, that [PERSON12] has created.
+Because it is bad that we do not have this version.
+(PERSON16) Yes.
+So I 'll do for like one folder, and then they will do it for the rest.
+(PERSON13) Mhm
+(PERSON16) So I, I was doing it it now, just before this call.
+(PERSON13) Uh and uh.
+This is, uh, mainly for the preparation for the domain adaptation, right?
+Is that.
+(PERSON16) Yes.
+For the <unintelligible/>
+And I haven't heard back from [PERSON4] on whether [ORGANIZATION1] server is up again or not.
+Yes, I will probably talk to, to him again about this.
+(PERSON13) Yeah, uh, uh, also please be in touch with [PERSON4].
+Uh, for the extended set of target languages.
+So far, and it is set of target languages.
+And are you in touch with [PERSON14] for,uh, the text files for the dominetration.
+(PERSON16) Yes, uh, he is doing that.
+So, uh, he has set up [PROJECT4] by now.
+(PERSON13) So, uh, that is uh, uh, I, don't think that is needed.
+So I think we primarily need [PERSON14] to collect the text data.
+The domain specific data.
+And yes, doing something with [PROJECT4] is useful in the long term, but it is better if people who already have that experience do it now.
+(PERSON16) Yes, uh.
+So, yeah, so he is trying to do that.
+Uh, I think he mentioned that.
+Uh, [ORGANIZATION10], uh, does not give direct access.
+So he has applied for it.
+So the data that [ORGANIZATION10] has are just view, uh, read only.
+I mean you can't download it or <unintelligible/>
+(PERSON13) Uh, well-.
+(PERSON16) Also there are videos, so that even the transcript, you can't get it it unless you apply for it.
+So first, we have to make an account to get to see the dataset.
+And then-
+(PERSON13) Uh, so is, he is that the full [PROJECT13] archive?
+(PERSON16) I think so.
+(PERSON13) So that is huge.
+So that is not the point.
+So what it should at least explain to him that there is a clear distinction between the [PROJECT13] Archive, which are the interviews with the survivors of World War II of of the Holocaust.
+And, uh, uh, some conferences about that.
+So it's like, uh, the historical evidence, the recordings, and then the historical papers and 
+presentations by historicians.
+And we are interested in the latter in the, in the historians talking about that.
+We are not so interested in the old people giving their memories as such.
+So this- 
+(PERSON16) Even their presentations, it was the case.
+So that is why I think he has applied for one.
+(PERSON13) Okay.
+(PERSON16) And he is waiting for the access. It is.
+It was the case in the [ORGANIZATION10]'s archive.
+Yeah, so I thought so.
+(PERSON13) So, in short, he should also scan the web pages of the people.
+Scan in breath, rather than in depth.
+So it is like breath for scan for the data so that he has whatever he can, even if he is still waiting for some resource.
+So please explain this to him.
+(PERSON16) Yes, I'll do that.
+(PERSON13) Okay, thank you.
+Great.
+And let us quickly move to, uh, to others.
+I see also, [PERSON3], is joining.
+That is, uh, that is good.
+Maybe since I, we have now [PERSON6] and [PERSON2].
+Yeah, unfortunately, I'm still horribly struggling with the [ORGANIZATION6], uh, [ORGANIZATION6] demo papers which are due tomorrow.
+And I really have to do it tomorrow during the day.
+Not not too late, because, like, I will be busy the the whole Saturday, and I have to go early to bed on on Friday.
+So my time is very limited.
+And, uh, I have now, uh, started worrying about the calculations of a number of things.
+So [PERSON6] and [PERSON2], will you be here after the call.
+Can we continue after, uh, we finished.
+(PERSON6) This is just because I have dentist's appointment, uh, in one hour.
+Okay, yes, but I read your comments there.
+I just wanted to assure you.
+I think for some of them, we are calculating exactly the way we should do if you see the code?
+Ah, you will see.
+(PERSON13) So, uh, the mind concern now was the alignment based thing.
+And whether it actually does the max, uh, or, uh, something, like that.
+(PERSON6) Yes, exactly.
+If we have for example, we consider we should, it should be 200.
+But the alignment waits for it saves is for number for example 800.
+We considered it the marginal one. 
+And we calculate character after that-.
+(PERSON13) Mhm.
+Okay, so please, please have a look at the [PROJECT2], the [PROJECT2] environment in the [PROJECT7] paper.
+And in the [PROJECT2] environment I explained in two cases, German to English and English to German what is probably going to-.
+What is probably happening according to the description in the paper and what should be happening.
+So that we actually give more time to the system.
+So please have a look at that.
+And like after we finish with the general call, if you're still available, if you do not have to rush for your dentist, uh, then we can discuss this.
+(PERSON6) Okay, okay, so that's-
+But-.
+Or for example, I can answer the exact about the [PROJECT2].
+I can send you an email when I come back.
+(PERSON13) Yes, uh, yeah.
+(PERSON6) <unintelligible/>
+This is exactly the reason why I came to this call.
+Because I wanted to miss this meeting, but the reason I came just to say this.
+Because, because in fourty five minutes I have the appointment.
+I want to go.
+Anyway-.
+Just I will see all of your things, and I will check the code, and we will answer everything in detail in one email to you.
+(PERSON13) Yeah, okay.
+Well, if you have time in the afternoon for a call.
+(PERSON6) Afternoon yes, yes.
+(PERSON13) That would probably be faster, but anyway write the answers, uh, down.
+Thanks.
+Okay.
+And, uh, I would like to ask [PERSON15], because he-
+(PERSON6) [PERSON13], sorry.
+[PERSON2], [PERSON2] is actually still, is still here so  and he works.
+(PERSON13) Okay, okay, that's good.
+(PERSON6) Because I'm not here but-.
+<unintelligible/>
+(PERSON13) Yeah.
+Okay, thank you.
+So the other paper is the [PROJECT12] demo paper.
+And I still, uh, did not have any chance to reopen it.
+So [PERSON15], I think you wrote most of the paper.
+Uh, am I correct?
+(PERSON15) No.
+(PERSON13) No? 
+Okay, so, so, who who wrote that actually?
+(PERSON15) I don't think so.
+(PERSON13) <laugh/>
+So, could you.
+Uh, could you perhaps, uh, try revising the paper and looking at the reviews that we got?
+And try to, uh, like a help with that one?
+(PERSON15) I don't have an access to the reviews.
+(PERSON13) Oh!
+Uh, that is strange?
+(PERSON15) Is it in our leaf?
+(PERSON13) Reviews [ORGANIZATION8].
+Yes, it is.
+(PERSON15) How is it called?
+(PERSON13) Reviews dash [ORGANIZATION8]-.
+<other_noise/>
+(PERSON15) I can't find it.
+(PERSON13) You can 't find it?
+Uh,  [PROJECT12] multilingual life subtitling.
+I will email you the link.
+<other_noise/>
+So probab-
+Is it possible that there is some different version?
+So the paper is supposed to be six, uh, pages long.
+It lists everybody.
+Yeah, you are probably there.
+So there is reviews plain text file.
+They say that we have in a little impact, or they, they don't like it.
+Uh, that is horrible.
+<laugh/>
+Yeah.
+So if you could look at this, this would be extremely, uh, extremely useful.
+Okay.
+(PERSON15) Mhm.
+(PERSON13) Uh, let's move on to-.
+Uh, yeah, experiments.
+Uh, let us move on to, yeah, uh, the, uh, the idea that I have, uh, discussed yesterday, but [ORGANIZATION2] is not too keen on that.
+So the [PROJECT14] quality is very bad for all, uh, remotely handled sessions, and especially if people are wearing face masks.
+And the the idea that I have is that we use again a brute force.
+And, uh, we pass all our training data through [PROJECT8] and other systems in an automated way so that we get the data distorted, uh, um, in the same way as these platforms distort it, and also that we will use a frequency filter to cut down on the hate, on the like high frequencies. Which mimics what the face masks do.
+And then we would, uh, either ourselves retrain that, or we would also like happily shift, send the data to [ORGANIZATION2] and ask them to train their system, because their system is is online and, uh, fully integrated.
+So if you, um, would anyone have thethe time for that?
+That it will be some scripting of of user interface in, uh, in [PROJECT15], and and uh-.
+Like it is not too bad if you, uh, if you would run it in four [PROJECT8] sessions in parallel.
+Uh, then in a week, you would get like 600 hours.
+So it's without-.
+There there would be some extra overhead, uh, um, for for the restart or whatever, but it but it should work.
+Ah, so is anybody, uh, curious about learning how to automate, uh, x Windows and, uh and or perhaps windows that can be done also with Windows.
+Oh, okay.
+Well, then I'll have to look at it myself.
+Well, but please talk to me if you if you can.
+Okay, uh?
+(PERSON16) Sorry, I can try, but still I have to see.
+(PERSON13) Yeah, so so [PERSON16], you should work on the evaluations first and fore-
+So for you, this is a lower priority I think.
+Uh, because you.
+You should be like really focusing on getting it uh, uh, getting the systems ready.
+So I've already talked to [PERSON15].
+I hope that you can have a look at the paper.
+Sorry for this last, uh, second notification again.
+And if, if you can briefly say what you have done so far.
+(PERSON15) Which paper?
+This [PROJECT12]?
+The multi- [ORGANIZATION8] demo?
+(PERSON13) [ORGANIZATION8] demo yeah.
+(PERSON15) Yes, I just opened it.
+And I need some time to read the reviews.
+(PERSON13) Yeah, yeah.
+But I mean your other work, if you can, briefly say.
+(PERSON15) I'm continuing with data preparation of [ORGANIZATION5] corpus.
+And right now, I'm running the first alignments on on the manually revised the Dev test. And then I want to rerun the alignments of source and targets of of the interpreters and do some analysis on them.
+Repeat the the old analysis I have on more accurate alignments.
+(PERSON13) Mhm.
+Yeah, us okay, so you.
+And, uh, thanks for this update.
+This is the good.
+Ah, and do you have any update from [PERSON5].
+And, oh, has he started to write the, uh, the summary of-
+(PERSON15) Uh, oh, I do not have any update.
+And he wrote at he is busy with exams-.
+(PERSON13) Yeah.
+(PERSON15)  In January.
+So I suggest that, uh, like you.
+If you have some long term processing of [ORGANIZATION5] that is like where computation time is needed, then start it.
+But otherwise I suggest that you, uh, move or give more priority to the the write up of the experiment with [PERSON5], because he will also be struggling.
+It would be like his first paper, uh, anyway.
+So, if you could start, uh, start with that.
+Uh, we would have better chance to, uh, to finish it in time.
+(PERSON15) Okay.
+(PERSON13) Thanks [PERSON7] for the suggestion, uh, to just to use [PROJECT10] audio codec.
+So perhaps you are in the best position to, uh, to process the files.
+uh, if you have any experience with with that?
+Could you get in touch with [PERSON8] and process all the files that [PERSON8] has for, um, uh,
+English, uh, training data we need.
+We need Czech-
+(PERSON7) Yeah, sure I, I can get in touch with him.
+(PERSON13) Yeah, so we need Czech as well.
+But we need Czech only in February.
+Uh, whereas we need English, uh, in, like on the 25th like in 10 days.
+I do not know whether [ORGANIZATION2] can fine tune.
+Uh, uh, any of their models.
+Uh, like continue training.
+But if we process the data that that we have for English, for them.
+Uh, they could give it a try.
+And the performance was so bad that we really need to like go into this and and try to improve, uh, that.
+(PERSON7) Oh, oh, oh, all right.
+(PERSON13) Yeah.
+Great, thanks.
+And to start a paper on the <unintelligible/> study.
+OK thanks.
+So then, [PERSON7], uh since I've already asked you, uh, please summarize for everybody.
+What is your status with the, uh, with the, uh, pipeline preparation, or pipeline configuration tool.
+Oh yeah, sure.
+(PERSON7) So basically, when we create a pipeline for some event.
+It consists of a multiple parts, like some [PROJECT14], um, some machine translation and, uh, some online, uh, subtitles.
+And for, uh, for every event, we need to, uh, make this pipeline in a different way.
+Sometimes we use one component, uh, sometimes we us, uh, another component.
+And ,uh, I'm writing a tool that, uh, will allow an operator to define the, uh, the part, of the pipeline and how they are connected.
+And the tool will make a <unintelligible/> script, that will make sure that everything is corrected as it was specified.
+And there should also be some support for a docker, uh, and part of the pipeline that are, that are in docker.
+And, yeah, so that's that.
+(PERSON13) Yeah.
+So let me let me also add to that.
+Uh, that the pipeline will be defined in terms of like abstract graph, in a way, uh, and, then
+it will be compiled to a batch launcher, or a docker launcher, or or evaluation launcher.
+And the evaluation launcher that would run the pipeline through the [PROJECT12] test set, uh, with [PROJECT7].
+That we would know, uh, which of the parts of the pipeline are, performing badly in 
+terms of translation quality.
+Uh, I just, uh-.
+It just occurred to me that there should be one more compilation target.
+And that would be like probing whether the components of the pipeline are up and running.
+Uh, like a test of availability.
+So that's another thing that, that [PERSON7], uh, uh, uh, should <unintelligible/> on-.
+if you could put this on, uh, on the to do list or on the enhancement options, that would also be very useful.
+Uh, and another thing would be, uh, like live debugging, uh, of a of a pipeline such a speed of, uh, of that.
+Okay.
+And, uh, yes, and uh, so, and then the second item you have in your list [PERSON7]. 
+Please comment on that.
+(PERSON7) All, right.
+So, uh, next Friday, uh, like, next week somewhere there there is going to be a conference about [PROJECT13] and we are going to provide life subtitles and transcription.
+And because we will have some non native English speakers in there, so we will need to get some feedback, from the people that are using our subtitles.
+Preferab-, refe-, preferably life.
+So we can, uh, see a moments like, uh, where it was working and moments where it was not working.
+So, uh ,I will make some, uh, quick took-.
+(PERSON13) [PERSON15] already has such simple tool that you could adapt.
+Um, what is more-.
+What is missing is, uh, description, of, ah, like how to use the tool.
+And also more like a generic description of how people should look at the outputs.
+So, uh, it would be best, if you could get in touch with [PERSON18].
+Because I've asked [PERSON18] to like handle the soft, uh, soft things with the participants and also with the organisers.
+And, uh, um, you and [PERSON18] should prepare very simple instructions that the participants could follow.
+And it would be both for just giving them access to the subtitles and uh, separately-.
+If the organisers say, that it is it is reasonable to ask such a thing, to get feedback from the uh, from the participants.
+You and [PERSON18], you and [PERSON18] if you could, uh, um, could come up with the strategy, like the set of things that we want to offer and that we want to ask for.
+So it would be easiest if you get directly in touch with her.
+And if you two synchronised. 
+Oh, okay.
+I will write-.
+I I I will <unintelligible/> an email.
+(PERSON13) Yeah.
+It's on the twenty fifth on January.
+So there is a week and a day.
+It's not much, but it's not starting immediately.
+Okay, thanks.
+Uh, and so.
+So, uh, and [PERSON15], if you could share with, uh, [PERSON7] your simple feedback clicking page.
+(PERSON15) Okay.
+(PERSON13) Which may be useful.
+Or or it may be like-.
+Given the quality is pretty bad, uh, we don't want to like, uh, ask the people, to tell us, it's bad, it's bad, it is bad, it's bad, like, it's-
+We, we need some, uh, some more useful information.
+Uh, and if our outputs are so bad as they were yesterday, then there is actually no point in collecting the feedback at all.
+So hopefully we'll we'll have better working system on, uh, on the twenty fifth.
+Uh, yeah, okay.
+And, uh, okay.
+So [PERSON6], you found that maximisation.
+So just the description is wrong, right?
+(PERSON6) Yes.
+Sorry.
+Just, I called my dentist and asked him, okay, I can come one hour later.
+(PERSON13) Okay.
+<laugh/>
+Okay thanks.
+(PERSON6) So I'm sitting in the chat.
+Everything, because when you finish, I want to describe what what <unintelligible/>
+(PERSON13) Okay that is, good.
+Yeah.
+So, the, uh, we have [PERSON3] so [PERSON3], please tell us what is your status.
+(PERSON3) <other_noise/>
+Sorry.
+Yeah.
+I I I I I don't know what's my status.
+(PERSON13) <laugh/>
+Yeah.
+Yeah, I sent, uh, let's uh, uh-.
+You should focus on the like separate stand alone one shot of things.
+(PERSON3) Yeah, yeah, yeah.
+(PERSON13) So please do the, uh, uh, as as I wrote in the email, uh, do the files.
+(PERSON3) Yeah.
+(PERSON13) And also, uh, if [PERSON11], uh, and and [PERSON16] find out some [PROJECT13] data in the public domain, please add them to the public part of [PROJECT12] test set.
+I have already provided, uh, [PROJECT13], one [PROJECT13] interview in the confidential part.
+Uh, so, uh-.
+(PERSON3) Yeah, about that <unintelligible/> yeah?.
+(PERSON13) Yeah, this is also for for [PERSON16].
+[PERSON16], please do evaluate the, uh, the, systems, uh, on everything.
+So that the next week same time, uh, you can present the summary, uh, of which, uh, [PROJECT14] systems and which [PROJECT1] systems we have at hand.
+Uh, and what are their scores on the various domains.
+(PERSON16) Okay, yeah.
+(PERSON3) Yeah.
+(PERSON13) So so you you two, please make sure that we evaluate everything on everything, and we, uh, can choose the the best set up.
+(PERSON3) And also has the presenter.
+The speaker of the last last week's <unintelligible/> has manually transcribed-?
+(PERSON16) No-
+They haven't.
+I haven't sent them the transcripts yet, because, uh, I shall have to rerun the transcript late.
+So that I have, uh, like clean set of transcript.
+Because, uh if I remember, uh in the meeting-.
+In the last <unintelligible/> seminar, uh, the, pipe was, stuck at a point.
+So I have to do it, uh, once again.
+(PERSON3) Okay, and, I, I will also send you another [PROJECT3] repository, which we have that,
+uh, these presenters would be-.
+Speakers generally use to erase-.
+To make some [PERSON17]es in their <unintelligible/> editor and to the manual, or a revision of more more conveniently.
+(PERSON16) Okay, thanks.
+(PERSON13) Yeah, so [PERSON1] is the last person, uh, mentioned in the uh, uh, uh, in in the in the report.
+Uh, and he successfully developed a shortening [PROJECT1], um, English to Czech.
+So there is something which makes the output 80 percent of the input length and the bleu score, yes, is lower, but just the shorter outflow the lower the bleu score.
+So by looking at the outputs, we are actually quite happy with the result.
+And this is also something that I really want [PERSON16] to include, uh, uh, in the evaluations.
+So make it a new evaluation campaign, uh, uh, in the [PROJECT12] test set evaluations.
+And put the multiple [PROJECT1] systems, including the shortening [PROJECT1] systems based on what [PERSON1] provides, so that we can look at the outputs.
+I'm saying that it has to be committed to the [PROJECT12] test set evaluations, because the bleu scores will be definitely lower.
+So we need to look at the output ourselves, right?
+(PERSON16) Yes.
+Uh, so, uh, to be evaluated in, uh, new, uh, [PROJECT12] test set evaluations, uh, campaign.
+Uh, the output needs to be manually, uh, validated or, uh, or evaluated bleus are bound to be lower.
+Okay, uh, so I think that is probably everything right?
+(PERSON6) Mhm do you want to continue.
+(PERSON13) Yes, yes, yes.
+So, uh, if if anybody has anything else to say to to all others.
+Oh, actually, [PERSON8] [PERSON8] [PERSON8] you're here and you did not say anything.
+So what is your status.
+<laugh/>
+(PERSON8) Yes, I'm I'm working on the chopped, uh, training.
+Ah, I do not know if it is relevant for others.
+But , uh, the idea is that, um, I, um, I align, uh, training data that we have.
+For example, for English, and I 'm now working on English and, um, I cut the recordings, uh, to words.
+And then, uh, using, uh, external, uh, other text resources.
+I create new recordings from, from the words from the separate words.
+So, uh, there may be, uh, two benefits for for such thing.
+And there is that we can create more robust [PROJECT14]  that is that is not for refitting any 
+speaker we can read, because we can um.
+We can, uh, for example, alter the distribution of speakers, or and uh, the second, uh, important, uh, gain that may be from this method is that the end to end [PROJECT14] models, um, are creating implicit language models within.
+And because the are the corpora, the corpora, um, the speech corpora have limited, uh,  ss- text then-.
+Uh, and if we create, uh, if if we use another text like from-.
+For for, for example, uh, some, some ,uh, some pure uh textual, uh, corpora that we can, uh, we can train on more, um, more texts or so.
+So the, so the, so the, um, implicit language model with which inside the [PROJECT14] can be more robust.
+(PERSON13) Yeah, okay.
+So, yeah, any new.
+Uh, how far, are you?
+Uh, you are.
+Generating-?
+(PERSON8) Well, uh, I'm able to generate.
+Uh, the recordings.
+Uh, now I'm str- struggling to optimize the the pipeline, because, uh, I, I've  I tried to plug it in the standard training pipeline, but it was too slow.
+So, um, well.
+I need to somehow figure out how to how to, uh, create it, uh, quickly.
+And, um, and, uh, the problem is with, uh, the big corpora the be the big textural corpora  like Czech.
+If I want to create a, uh, like for for the [PROJECT11] speech, uh, text, uh, I'm doing there is so many such manner that.
+Um, I, I just , uh, create all the recordings for the all, all sentences in the corpus.
+And I create some deal direction, and I put all the recordings.
+And, uh, I have, uh, a job running on the cluster that is, uh, constantly, uh, rewriting, uh, new versions of, of, each, text, and, uh, it, is, it.
+The the, uh, the job is bit quicker than the training is so-.
+(PERSON13) Mhm.
+(PERSON8) So in this way we are sure that each recording is, uh, seen by the, by the, uh, neural network only once.
+But, uh, the problem is with Czech, because, uh, the [PROJECT11] speech for example has a 
+, uh, less than three hundred thousands texts.
+And, uh, common with the, [PERSON17] has like fifty or millions of recordings.
+So, uh, -.
+For, for, because we do not have enough disk space and-.
+And because we can't store fifty million recordings on the disc-.
+(PERSON13) So-
+But can you do it like in a rolling buffer on the disks so that you would actually be training over whatever, let's say-.
+(PERSON8) Yeah, yeah, yeah I-.
+(PERSON13) <unintelligible/>
+(PERSON13) I thought so, I thought, so, but, uh, I need to-.
+Uh, the the training pipeline on, that, private data stood loader within the [PROJECT9], uh framework is a black box and it is quite complicated.
+So, uh, I need to, uh somehow find how it works.
+And, uh, so I either I have some, uh, precise order, of, of, of, the elements.
+And then I then maybe-.
+And then I can get it running properly in this way.
+Like in with the rolling, rolling window.
+(PERSON13) Okay, yeah, great.
+Thanks.
+(PERSON8) And and maybe one thing on [PERSON15].
+He has sent me an email with the [PROJECT5]
+Some questions about [PROJECT5].
+It was I guess how much I I want to be played from the [PROJECT5].
+Maybe this is question on you too [PERSON13].
+And, uh, we have, I guess, uh, um, uh, discussed this, uh, earlier.
+But, uh, I'm not sure I should be paid from [PERSON19]'s [PROJECT5] tool.
+So, maybe, or how, wha- what's the split.
+What should be the split with this.
+(PERSON13) Yeah.
+Uh this also needs to be.
+I will do it half and half without any further information.
+<censored/>
+(PERSON8) Yeah, yeah, yeah.
+(PERSON13) That's something that-.
+Please talk to her, uh, uh, giving, uh, uh, uh, yeah, yeah, yeah.
+So she is giving a talk, uh, this afternoon, somewhere a remote one, uh, but after that, she, she would be hopefully available for to say, what is the status with the [PROJECT5].
+So please ask her directly.
+(PERSON8) Okay, thank you.
+(PERSON13) I would I would use the same number, the same amount from the two [PROJECT5]s.
+(PERSON8) Okay.
+(PERSON13) Yeah.
+Okay, so great.
+That's.
+So that's everything for the most of you.
+And now I would like to talk to uh, uh, [PERSON6] and of course [PERSON2].
+About the, uh, [PROJECT7].
+Thanks everybody, and let us just see, eh, each other again with, uh, the latest, uh, next, next Thursday.
+Thank you.
+(PERSON8) Bye.
+(PERSON13) Yeah, bye bye.
+(PERSON15) Yeah, bye.
+(PERSON6) Yeah [PERSON13].
+(PERSON13) Yeah.
+(PERSON6) I've sent you an email.
+That's for your information.
+Because I've seen your concern, maybe I can describe and you can see the formula here. 
+And yeah, ah, I I think even in the at the beginning, we decided first to calculate C without any alignment.
+Then, when calculated with alignment.
+We just put the maximum between without alignment and with alignment.
+<unintelligible/>
+(PERSON13) Uh, yes, but this is not the same as what I'm asking for.
+So I'll, I'll share my screen.
+Uh, and open the overleaf so it will take a while, sorry.
+Uh, what is distance?
+I do not know, that is something else-.
+(PERSON6) You want the previous word.
+Yes?
+(PERSON13) Uh none ,uh, not.
+Just let me let me open the overleaf when I-?
+Oh, that is horrible.
+Uh, yeah.
+I need to-
+So that's <unintelligible/> and then overleaf.
+So I hope you can see my screen now.
+(PERSON6) Yes, yes.
+(PERSON13) Yeah, so here is the [PROJECT2] thing .
+[PROJECT2].
+Yep, so what I'm illustrating is the, uh, German and English, uh, where the German verb is split into two parts.
+And the second part is the content bearing, and ,uh, would get very likely aligned to this, uh, to the late part of the German verb would get aligned to the English word.
+So when translating from English into German.
+Uh, the uh problem I see there is, uh, that uh, the alignment information between set and "gezacht" would bring the early time stamp of the "said" to the late part.
+So this is, uh, the fí values, using, uh, alignment.
+(PERSON6) No.
+(PERSON13) Yeah, alignment only.
+Given the, uh, current max, uh, and [PROJECT11], uh, uh, there it would actually be okay.
+Due, uh, uh, uh because the, uh, the proportional position of "gezacht" is at the end of the segment.
+(PERSON6) Yes.
+(PERSON13) Yes, so that that is good.
+Um, uh, but that is not so-.
+So your solution does not have the problem here, but I think it still has the problem here.
+And the problem here is when we were going from German into England to English.
+The German sentence will say "Ich habe" and then something very long here, and something vey long and "gezacht"
+So the "gezacht" appears as late as 1500.
+And then when getting the reference.
+So the reference translation, again, has the same alignment.
+"Said" goes to "gezacht".
+Uh, and by that, we do bring in the 1500, as the expected time for "said".
+(PERSON6) Yes.
+(PERSON13) That is good.
+Uh.
+So the the verb itself is not expected any sooner than the source verb was uttered.
+Yeah.
+(PERSON6) Exactly.
+(PERSON13) But the problem I see there is with the subsequent words in the sentence.
+Who, whi- which are more more or less monotonically aligned to the to the English.
+So there from alignment they would receive time stamps like 800, 900 or 1000.
+And unfortunately, if the [PROJECT1] system decides to obey the standard English grammar, it will cash these words.
+And it will wait with them only until it has guessed the verb, and then it would emit 
+all the words at once.
+(PERSON6) Exactly.
+(PERSON13) So I, what I said.
+(PERSON6) <unintelligible/>
+(PERSON13) So, so proportionately-.
+I do not hear you well.
+Let let me finish, and then hopefully the microphone will get better in the meantime.
+Uh, proportionally, uh, the alignment values and the proportional values will be comparable.
+So it would be like, maybe not, not eight hundred, but maybe-.
+Well, it could be related the same values.
+So the proportion or alignment directly values will all require these words to be emitted, like it they would, it would expect these words to be emitted sooner than a previous word.
+So based on this linear ordering of the words in the reference.
+My proposal is to, uh, maximize not only with the value from the proportional alignment as you are doing at the moment.
+But rather with the, uh, with the value of the previous word.
+(PERSON6) Yes, but-.
+(PERSON13) So that way.
+So this, this 1500, would max out all the rest of the sentence.
+(PERSON6) Yes, yes.
+Was an impression, because at this.
+My mind was calculating everything in Persian in that time.
+For example, sometimes you can clean it.
+There were a lot of sentences in the beginning at the end.
+Maybe if the sentence is not very good, but it has a meaning.
+But in this case.
+If in German, uh, yes, if, for example, you, you cannot say the rest before saying there verb.
+I agree with you.
+So we just need to, okay, just check the maximum, eh?
+You know, increased.
+Uh, you know, progressive maximum.
+All numbers should be more than this.
+It is very easy.
+And I think it should be done.
+Yes, and I'm agreeing with you.
+(PERSON13) I'm thinking, so I'll I'll write the paper as if we are doing this already.
+And you need to fix that.
+Yeah.
+(PERSON6) Yes, it's simple.
+(PERSON13) Yeah, yeah.
+I'll I'll write this.
+Uh, uh, that we are maxing out with the previous words.
+(PERSON6) Yes.
+(PERSON13) Uh, my question on [PERSON2] and you is now, if we if you are able to, uh, come up with an example so that we would actually replace the.
+That is, that is a lot of work.
+Ah, in the pictures, these pictures are okay, but, uh, if we were able to illustrate this, uh, 
+this alignment, it, would be perhaps even better.
+So, uh, I don't, know if you have uh, anywhere in your data, uh, uh, uh, some such example.
+You have the alignment.
+Ah, uh, alignment files.
+So if you could search for a similar simple sentence, uh, that, that, has, this, uh, 
+alignment, uh, that that would be useful.
+So if [PERSON2] could look at that.
+So that's one thing.
+And another thing is whether we want to max it also with the proportional value.
+And I'm not sure about this.
+I would suggest that we do not max it with the proportional value.
+(PERSON6) Yeah, it's not correct.
+(PERSON13) Because it's not correct.
+If we if we are doing the alignment based thing, then we should follow the alignment and this like maxing, uh, uh, of the linear order progress of the maximisation.
+That makes sense.
+But maxing it with the, uh, with the, uh, with the, like proportional alignment, doesn't make sense to me.
+(PERSON6) There is another reason.
+Because for example, the only acceptable reason the translator didn't  for example write this other word is waiting for this one.
+(PERSON13) Mhm.
+(PERSON6) After that, it should <unintelligible/> both of them together, if shouldn't wait and then-
+(PERSON13) Yes, yes exactly, yes.
+(PERSON6) So I think-
+If, if, if it's a reason it should come up all in one line.
+(PERSON13) Yes, exactly.
+So it should not lose anything in in delay.
+(PERSON6) Exactly.
+(PERSON13) Yeah, the the evaluation would be different if we were producing a spoken output.
+So there there is a a recent paper.
+Where by do people [PERSON17]e the speed of the text to speech.
+So that they can then recover.
+And they are emitting these words in some intelligible way.
+Not too fast and not too slow.
+So depending on how much input they have in the pipeline, they are [PERSON17]ing the speed.
+That is a different model, uh, uh, at the output.
+Okay, so this is clear.
+So, [PERSON2], if if you could look for examples like the one in the [PROJECT2] case, that would be great. 
+Otherwise just please do the [PERSON17]es of the labels.
+As I asked for.
+Uh, about the merger of the pictures.
+I would like delay that I I think that has a lower, uh, priority.
+And then I also had the questions for the, um,-
+(PERSON6) <unintelligible/>
+(PERSON13) Yeah, so there I I 'm not sure if I actually wrote the questions down.
+So the the segmentation strategies.
+Ah, so yeah, this is.
+I see this.
+[PERSON10], please check.
+This is actually wrong.
+Uh, uh.
+(PERSON6) I will check this one and the other one.
+(PERSON13) No they-
+This is actually wrong.
+Based on what's in, uh, section on multiple refs below.
+So I will, uh, I will fix that.
+So, I I've already found the answer.
+I was I was wrong here.
+So the segmentation strategies are clear.
+But the-.
+Yes, the delay calculation, uh, the simple one.
+So, I'll [PROJECT8] the picture here.
+And are the numbers still legible?
+(PERSON6) Yes.
+(PERSON13) Yeah.
+So I was kind of expecting.
+So, it's it's okay in the simply like calculation that O is located at 235, because, that is when O was emitted. 
+I am happy to see that the "t-shirt" in German is located as at 400.
+Because that is what when this was emitted.
+That is, that is good.
+But I'm confused by the numbers in here.
+I've done the, uh, uh, the differences between each pair of, um, uh, words, and the differences are not the same.
+So is it proportional?
+And if then to what?
+(PERSON6) It isn't proportional.
+But I think last time when we made.
+We met in the seminar room again.
+We had this problem, and we put everything on the paper.
+The hand calculated, and I think those numbers, all of them was card.
+But if you want a can, again, do a calculation very clearly again, because I have not rechecked this.
+Yes, well, the difference are definitely not the same.
+So here you have a sick- 58.
+If  I'm doing the calculation right.
+Here you have a 43.
+Here you have 25.
+(PERSON6) Mhm.
+Because-.
+The reason is, uh-.
+Okay, I think it was based on the number of characters.
+Something like that [PERSON2] <unintelligible/>.
+(PERSON13) Yes, so so please have a look at it.
+I think that the current description is like excessively detailed and actually confusing and not correct .
+What what I would say is that-
+But check if it matches the code.
+That we, uh, simply equidistantly split this time, uh, into the words based on their length. And full stop.
+(PERSON6) Maybe it is that, yes.
+I will I will double check it.
+Excuse me.
+I need to write.
+<unintelligible/>
+And here-.
+Okay.
+(PERSON13) And so then.
+Then the formula, there should be a formula.
+The formula should be like, what is the value for the word "Ein" or the eath word, uh, uh,  in the table T. 
+So how do we arrive at this three o four.
+And it should be just the proportion of the characters in "Oh das ist" 
+And then I don't know whether you do include or do not include design "ein" in the total number of characters from. <another_language/>
+T-shirt as that is missing, uh.
+So the there should be just a number of characters, and the time stamp of O and the time stamp of T-shirt.
+That should be the formula, um. and the formula.
+If you apply the formula to O itself, it should obviously arrive at two, three, five.
+And if you if you apply the same formula for T-shirt, it should obviously arrive at four, four, zero. 
+(PERSON6) Mhm.
+All right.
+Because because as I remember simpler calculations.
+It should be based on only C.
+(PERSON13) Mhm.
+(PERSON6) Oh yes, yes.
+(PERSON13) It is not on C. There is two, 0,  four, and not two, three, five.
+So, this is what is also confusing to me.
+(PERSON6) Ah, first time you see the 0, the first time you see this,.
+(PERSON13) I think this is like the end of the word.
+(PERSON6) Yes, exactly.
+(PERSON13) Well, it depends what you are doing.
+I think it would actually make more sense to have.
+To really based it on C and have this, uh, h, and put here at the end of the world.
+But the end of the world is like three characters proportionally from two, 0, four.
+And that it is probably something different than two, three, five.
+(PERSON6) Yes.
+(PERSON13) So let us make it simple.
+So if please check your formulas.
+I 'm not sure if if [PERSON2] is following.
+Or you can explain that to him as well.
+So what i would suggest is, really base it on only C.
+So two, 0, four and four four zero.
+(PERSON6) Mhm.
+(PERSON13) And then the number of characters.
+And and this should be the end times of the words.
+So the end time for t shirt is this four, four, zero.
+That is good, that here the formula should work.
+But here the formula should arrive at something different, not necessarily this two, three, five.
+(PERSON6) Sure, but just give me-.
+Okay, I will I will check this very carefully and will answer you in email if it is something else.
+But or if it is not, I will write all of this details, you said.
+And [PERSON17]ed the code to, uh, I don't know.
+Answer back to the character.
+And only afterwards-.
+(PERSON13) Based on characters at the end time of ,uh, of the word.
+And based only on those time stamps in C.
+Just can I ask if, [PERSON2], if you follow, I-.
+Could you say-.
+Could you just confirm it is based on characters?
+(PERSON2) Hi everyone.
+No it is based on the words.
+(PERSON6) Words?
+So why is it different.
+So how do you check it then?
+Because I forgot it.
+(PERSON13) Fe-, feel, feel free to switch to Persian for now if it's faster.
+Because time is-.
+(PERSON6) You can answer me in Persian, it is okay, [PERSON2].
+(PERSON13) <laugh/>
+(PERSON2) <another_language/>
+(PERSON6) Okay, so.
+(PERSON2) <another_language/>
+(PERSON6) <unintelligible/>
+It considers these partial words.
+And for example takes some estimation for the first word, second word, third word.
+frourth, fifth and sixth word, so six words in English.
+But for, in our reference in German for example it is seven words.
+Somehow proportional, finds their for example destination.
+Or for example when we expect this word.
+Based on the place of this word.
+For example if it is seventh, for example if it is fifth word it calculated it.
+Something like that.
+(PERSON13) Mhm.
+Yeah, but it is so, uh-.
+Do we?
+Yeah, so I understand the the motivation.
+The motivation is to use to make use of these partial numbers.
+(PERSON6) Exactly.
+But the reason it is partial it is only to see them.
+(PERSON13) Yeah.
+(PERSON6) The first time the word appears.
+(PERSON13) Mhm.
+(PERSON6) Something like that.
+Sorry, sorry, the first time the word reaches in the C-.
+For example if they are <unintelligible/> that-.
+(PERSON13) Yeah, yeah, yeah.
+Some words can be deleted afterwards.
+(PERSON6) Exactly.
+(PERSON13) I am thinking if this is simple enough to call it simple.
+<laugh/>
+Uh, so so what you think if we, uh, if we really [PERSON17]ed the simple calculation to 
+something which is based only on the C segment and the number of characters?.
+There there will-.
+Again that will bring another set of problems obviously.
+For numbers for example.
+Like if you have, uh,1986, uh, then that would be four characters in the transcript, and then very long, uh, time span.
+So that will, in your case, that would probably work better, like your solution would probably work better.
+So I 'll let us keep your solution as it is.
+So it is not based on characters at all.
+(PERSON6) But just for information [PERSON13].
+There is another type of calculation which is only based on the C, but we are-.
+We didn't mention it on the paper.
+(PERSON13) Okay, yeah, well, let's keep the paper as it is,
+Like, let's not add any further things.
+So, then if this is based also on the partial, uh, segments.
+Then I 'm confused that they.
+Oh, that is because it is proportional in the number of words.
+I see.
+So because "das" is perfectly aligned to this.
+But that's the alignment view, and "das" is not like perfectly aligned to, uh, to this, uh if you look at it, proportionately.
+Because there are seven words in German and six in English.
+(PERSON6) But, but is is mainly for when we, for example, we do not have any alignment information.
+(PERSON13) Yeah, yeah, yeah, yeah, yeah.
+I'll.
+I now understand.
+But the problem is that there is nothing in the paper that would allow people to calculate this.
+Well, there is the formula.
+But that is very complicated.
+<laugh/>
+(PERSON6) Yes.
+But all of these calculations are in the formula, I think, because if you remember the formula.
+First ot finds the place, for example, is between the word of, for example, the first and the second word.
+It's between each of the four.
+Then based on that.
+For example, the time find the exact some estimation for when that word should appear.
+There is some in formula.
+Yes, you are right.
+It is not simple, but it is based on that formula.
+If you put on that formula, you can find this numbers.
+(PERSON13) Okay, so I 'll try to decipher the foreground now with the explanation.
+So I think I know everything.
+Please have a look at the-.
+If you can find an example with the reordering and definitely do [PERSON17]e the code towards the maximization.
+Uh, like that.
+(PERSON6) For this one, for sure today, we will finish it after this [PERSON17]e, because it is very easy.
+It is just one or two lines.
+(PERSON13) Okay, okay, thank you.
+So that is probably it.
+I'll-
+I may email you in the afternoon if I still need some help, but I hope I do not actually need.
+Uh, the only like when you, if you find an example?
+Uh, that would be, uh, better, uh, there will be, uh, one that would show the alignment,
+(PERSON6) Just one more thing [PERSON13].
+If you could repeat one comment just now in the <unintelligible/>
+You said, you will, you will fix it yourself, or I will fix or I should fix it?
+(PERSON13) Which one?
+(PERSON6) The last one you put just few minutes ago.
+(PERSON13) The the [PROJECT2]'s?
+No, no, I will fix it.
+I will fix that.
+(PERSON6) Okay, okay.
+Thank you.
+(PERSON13) Yeah.
+(PERSON6) The other one you asked me.
+Is the wording right?
+It was <unintelligible/>
+I will double check it.
+(PERSON13) Yeah, okay.
+(PERSON2) [PERSON13], please could you add, add acc-, my [PROJECT3] account to the [PROJECT12] test set and the <unintelligible/>?
+Yes, I will do it immediately. 
+I'm surprised if you still do not have that access
+(PERSON6) That's a good news [PERSON13].
+I think from the 5th of January they-
+(PERSON13) The restrictions are over.
+(PERSON6) Yes.
+(PERSON13) Okay, okay.
+So where is that?
+Oh, I need to log in.
+That is why I do not see that.
+I hope it's this one, um.
+Okay, so settings.
+So this [PROJECT12] test set.
+Manage access, uh, invite.
+So please tell me, what was that-.
+Zarivar or [PERSON2]?
+(PERSON2) Yes, Zarivar.
+Zarivar, yes.  
+Yes, 29 and 28.
+Yeah, I 'm sharing the screen.
+So please check, right?
+(PERSON2) Yes, it's correct.
+(PERSON13) Write permission.
+(PERSON6) And also, on-
+On, uh, maybe on [PROJECT6] also, so I can do that.
+(PERSON13) I will do also [PROJECT12] evaluation so you can see the outputs.
+(PERSON2) Mhm.
+(PERSON6) Actually [PERSON13].
+So we will finish this.
+And after all of this, I will send you an email, because I think I, maybe I might be not available in January to the first of February.
+<unintelligible/> for example, for [PERSON2].
+And also, he is waiting for some feedback from other people for, uh, this censorship or something like that in their pipeline.
+(PERSON13) Oh, well, do not wait.
+Uh, push, push the people to do the job, and also try to integrate it yourself.
+So here I'm adding you also to [PROJECT7].
+(PERSON6) It is it is the name of a lake, this Zarivar.
+(PERSON13) Okay, I didn't know.
+<laugh/>
+And [PROJECT7]. 
+There is also these data converters.
+That something which we have not published, but it could be useful.
+Oh, that is too bad.
+What?
+Why?
+It is not why it is so slow?
+And then do you already have access?
+So you have to click yes to all the emails.
+So actually, it just occurred to me that I'll probably also add you simply to [ORGANIZATION9] teams.
+Where is that teams-.
+<unintelligible/>
+And with this, you should, uh, uh.
+(PERSON6) Yeah, maybe you can add me there too if I'm not. 
+(PERSON13) Are you not?
+You are.
+Yes, you are here.
+(PERSON6) Okay.
+(PERSON13) Yeah, so that that should be good.
+Ah, so, uh, please like get in touch with [PERSON16] and [PERSON7] and try to integrate the profanity filtering yourselves.
+So try to get the pipeline running for yourself and try to put it in there, because [PERSON16] is busy.
+And it it would take more time.
+If you did it.
+It would be faster.
+We will get to the result faster.
+Ok, so that is I 'm.
+I 'm stopping to the sharing now, right?
+And I 'm going to work on the paper.
+And hopefully I will know everything already.
+(PERSON6) Okay, so I'm rushing to my dentist.
+See you later.
+(PERSON13) Yeah, yeah.
+Okay, thank you.
+Bye, bye.
+(PERSON6) Thank you.

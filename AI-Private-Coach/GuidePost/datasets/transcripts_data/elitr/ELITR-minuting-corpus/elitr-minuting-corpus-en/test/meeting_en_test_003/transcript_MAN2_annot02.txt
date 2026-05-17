@@ -1,0 +1,377 @@
+(PERSON8) Hello, I don't hear anybody yet. Hello. Does it work?
+(PERSON6) Hi.Yeah.
+(PERSON4) Hi.
+(PERSON12) How are you. 
+(PERSON8) Yes. 
+So, are we missing anyone? 
+We have all partners present show I- 
+If people so- 
+Thanks for coming. 
+This call should be quick, hopefully.
+There is nothing that I would know about that we need to discuss uh, like in in in a very big detail,ehm.
+So let's get started. 
+And if other people join then, well, ehm they can tell us further for the details. 
+So ehm what is my first question is to [PERSON6].
+Ehm after we have have had the call on Monday, what is the proposed development schedule. 
+And when there could be some preliminary some prototype implementation that we could test. 
+So if we have [PERSON6] on the call. 
+I saw her. 
+But her camera is disabled and I don't know if she can speak. 
+So we see [PERSON7] joining as well. 
+So [PERSON6] are you on the call?
+Or maybe she still- yeah never mind. 
+So ehm let's wait for [PERSON6]. 
+And we also,do we have [PERSON10] Here are not yet.
+(PERSON10) Yeah, I'm here,I'm here with <unintelligible/>
+(PERSON8) Yep. 
+Okay. 
+Great.
+So [PERSON10] ehm what is the status of the [PROJECT3] worker?
+Because last week, you've said that he you will ehm dust off your <unintelligible/>
+<laugh/>
+And how promising or problematic does it look now? 
+(PERSON10) Okay, so. 
+According make some <unintelligible/> steps so far. 
+So the plan is will be [ORGANIZATION1] welcome, will be [PERSON1], and in-between will be Python Sorrow that's excepts sentences for translation from the [ORGANIZATION1] worker.
+And so [ORGANIZATION1] worker workable will probably just be forwarding requests. 
+So this Python based <unintelligible/> which would I do preproccessing and he can handly many, yeah, not so well the logic, where need to be dealing with partial sentences, but - 
+(PERSON8) Yeah. 
+(PERSON10)  with partial sentences and then will forward the requester onto the [PROJECT3] server yourself. 
+So a very basic Python based, so to do the preprocessing and received request so yet - for translations forward <unintelligible/> and post him back.
+But I haven't started on the actual [ORGANIZATION1] worker yourself.
+(PERSON8) But that should be Feli- ehm easy to do that. 
+Because I think they probably even have something like that in the SLT [ORGANIZATION3] repository.
+Did you call some translation system simply by pipe as well? 
+So, I think the the there should be almost ready [ORGANIZATION1] worker available.
+(PERSON10) Okay, yes and also the <unintelligible/> empty worker ehm.
+(PERSON8) Ehm. 
+(PERSON10) Probably I need to be some little bit adaptation for what I'm doing anyway.
+(PERSON8) Yeah. 
+So that looks good. 
+So I think that next week for example, you should know whether this proof of concept worked, or what do you have running to any issues.
+(PERSON10) Yeah,and we can start thinking about the tricky.
+(PERSON8) Yeah, so for partial sentences, I think that they should be treated from the [PROJECT3] prospective as simple simply a different sentences, other sentences that we expected to process. 
+So. 
+So the [ORGANIZATION1] worker should send every segment to to [PROJECT3] for translation. 
+And and that's it.
+(PERSON10) Okay.
+(PERSON8) So [PERSON8] does not see any difference. 
+Uh, assuming that the [PROJECT3] model would be trained to work reasonably well. 
+(PERSON6) Hi, guys.
+Sorry.
+I had some problem with the internet connection.
+(PERSON8) Yeah. 
+No problem.
+Nice.
+Glad that you're here. 
+Partial sentences. 
+Okay.
+One thing that I would still like to know [PERSON10], is the handling of timestamps.
+Ehm, handling of timestamps. 
+So this is something that needs to be carefully checked, because timestamps will be later on important for the presentation platform.
+And we need to- we need to know where to start overwriting. 
+and [PERSON8]'s guess uh is that the <unintelligible/> worker should work well with timestamps and totaly hide them from the Python and [PROJECT3].
+So I think that to- like the timestamps should not go to the Python server at all, 
+(PERSON10) Okay.
+(PERSON8) But that's my guess.
+and the the limitation with this approach is that we can handle only like one single timestamp at the beginning and would be the end of the segment.
+But we don't have any finer information. 
+So the only timestamps that we have are the beginnig and end of the sentence or <unintelligible/>. 
+Is that <unintelligible/> problem. 
+So this is something for [PERSON6] to know about.
+And think how if if these two timestamps and string comparison are sufficient for the presentation.
+[ORGANIZATION1]-
+(PERSON6) Sorry, [PERSON8], 
+I didn't get the point.
+(PERSON8)  Yeah. 
+So they uhm we have discussed this on in the Monday call. 
+How do we present partial translations and partial output. 
+And how do we make sure that the updates are reasonably well displayed. 
+So for updates you don't want to repeat everything.
+And I think that we had something like the textfiled. 
+Yeah. 
+(PERSON6) Sorry, 
+at the presentation platforms must arrived only what we want to publish.
+So, the -.
+(PERSON8) Yes.
+(PERSON6) Let's say uhm [PROJECT3] out of the incremental updates must be done.
+(PERSON8) Uhm, new one. 
+I thought that our agreement on Monday was different. 
+And that the basic unit that you send to the presentation platform is called a textfield content. 
+So, but then the textfield content can be sent several times as an update. 
+And then at some point somehow there will be made a decision that let's move on to the next textfield. 
+And at that point the presentation platform would like scroll it up, and it would again start displaying whatever comes as as full textfield. 
+It will be a replacing the content of the of the textfield with with the new messages. 
+So this would be the partial sentences gradually expending gradually longer and longer sentences. 
+And then again at some point uhm the- this would be like most scrolled up. 
+And and another set of updates would be coming
+(PERSON6) No no no, the presentation platforms is just presentation <unintelligible/> here. 
+So hm it wil update the text <unintelligible/> incoming messages.
+But the incoming messages must be exactly what we want to be displayed on the uhm on the uhm subtitle. 
+Will not be implemented any logic to manage the partial hypoteses and partial translation output.
+(PERSON8) But the the scrolling the history of previous texts fields would that be supported?
+(PERSON6) Hm, 
+yes. 
+(PERSON8) Yes. 
+So when do you decide whether the textfield should be replaced or scrolled up? 
+(PERSON6) Based on messages. 
+A new message is a new subtitle to be displayed and it can subtitute the biggest one or update the let's say the button of the textfield in order to let <unintelligible/>. 
+(PERSON8) Yes, 
+so in other words yes part of the message that the presentation of platform is receiving is an indicator, whether this is an update.
+so replace the current field, or this is a new text field move the history up and populate the field with with this new content, right?
+(PERSON6) Hm, I believe they- 
+we treaty exactly at the same way. 
+Each message is intendent we new subtitle.
+(PERSON8) Aaa, that's bad. That' -
+(PERSON6) That's just whether of presentation if we want to completly replace and use the history,
+or that we history scroll up.
+(PERSON8) Yeah, I still hm we we-
+I think we need to discuss this again a <laugh/> fresh call. 
+So, so [PERSON8] ehm needs to discuss with [PERSON6] the updates versus history of text uhm text fields. 
+Yeah.
+So well once we discussed this. 
+I think that we'll arrive at the solution where the timestamp of the beginning would be the critical information. 
+And as long as the timestamp is the same, the field should be replaced with with the new content. 
+And if the timestamp is higher than the current the last text field should be like move to the history and and closed. 
+And we would be displaying the the contents from this timestamp on.
+I think the the starting timestamp would be the critical uhm point.
+(PERSON6) I suggest to discuss again about it.
+(PERSON8) Yeah.
+Okay.
+Yeah.
+Okay.
+So, for [PERSON10] I don't think there is anything changes.
+But we will let you know if if we see something like that. 
+So [PERSON6] when you were fighting with your network connection,
+I had one question on you. 
+And that was the development schedule for the presentation platform after we have discuss it on Monday.
+So, would there be any prototype available uhm-
+at a work point would would there be any prototype avalaible?
+(PERSON6) There's no prototype available at the moment,
+I'm sorry.
+(PERSON8) Yes, that's expected.
+I would not expect any prototype today. 
+<laugh/>
+(PERSON6) Okay.
+But when when would do you have one?
+(PERSON6) Last time I discuss about it the first prototype presentable should be at the 15th of June.
+I know it's realy uhm <laugh/> close to our deadline, but this is the only information I have that <unintelligible/>.
+Of course we can on work on our let's say raw prototype <unintelligible/>.
+(PERSON8) Yes, yes, so
+(PERSON6) Probably the development team <unintelligible/> have something close to be fine advertial to use as prototype, but we can have some working maybe for <unintelligible/>.
+I don't have any other information. 
+(PERSON8) Yeah. 
+Yeah. 
+So yes, 
+I would really like to see let's finish prototype sooner.
+So that to me like find whatever problems are are there as soon as possible. 
+(PERSON6) Yes, I understand.
+(PERSON8) Yeah, okay.
+Great, so another question that I have and that's maybe for [ORGANIZATION3] if-
+So who who we have from [ORGANIZATION3], only [PERSON11].
+So maybe [PERSON11] would not would not like have have the power to decide this. 
+Do we plan to run any [ORGANIZATION2] workers in [LOCATION1], so especially the ASR the ASRs of English and other things as a fall back solution. 
+And also this could be relevant to the [ORGANIZATION2] calls with live subtitling. 
+We have not-
+We have decided not to use the [ORGANIZATION2] platform today, because we are still checking some of the recording qualities. 
+And we have people here with Linux machines only.
+But essentially [ORGANIZATION2] is very far in the implementation. 
+So they are able to connect to the [ORGANIZATION1] platform and then the whole chat window is flooded with the messages not enough workers available. 
+So I thought that it would be interesting, uh maybe good idea to start as many workers as possible at uh in [ORGANIZATION3].
+And if there is some hardware limits, we can also run some from here. 
+So that's that's why I'm asking this clones of alpha workers to run in [LOCATION1].
+[PERSON11], would you ehm would you have any idea, if if this is easy to do of interest and useful. 
+And and so on? 
+Ty I only <unintelligible/> more worker and now is sexteen or fifteen worker ASR, who are close connected <unintelligible/>.
+It's one thing.
+And second thing are not sure about that wayteh-
+It will we have the platform.
+I will have the <unintelligible/> and whether we can start I think it maybe ok.
+And it be can view some no <unintelligible/> voice and <unintelligible/> somewhere I think it is okay we also <unintelligible/> other things.
+So our thing is okay.
+(PERSON8) Yeah, okay. 
+So so is good that there that many workers now, so I I actually suggest that we try after this c- .
+This part of the call to switch to the [ORGANIZATION2] platform, at least with some of us those who are interested, 
+and we could see how that works with the workers available. 
+So I would like to make use of that you spend some time to run them. 
+So I would be curious myself to see how that works if the workers are available. 
+Okay, so the summary is that [ORGANIZATION3] will prepare an image, 
+and [ORGANIZATION4] will try to get that running.
+Yeah.
+ok, but-
+But since you are able to provide sixteen workers, and it is not too big burden for you, right?
+Sixteen workers it's okay. 
+You can do it like whenever we like and and then for them. 
+Yeah?
+(PERSON10) Now I think we need to sets worker with-
+also I have the things I'm <unintelligible/> and ehm the things running on the same <unintelligible/> 
+so, yeah, some <unintelligible/> we stand when we need more worker I think we have to stop limit number workers.
+(PERSON8) Yeah. So what is what is-
+so sixteen is already not comfortable for you?
+(PERSON10) I have been check it carefully I- 
+yeah because we have the limit number<unintelligible/> 
+and maybe that it the same time <unintelligible/>  
+working at the same time maybe <unintelligible/> 
+like we have the.
+I mean it is one list <unintelligible/> internet <unintelligible/> with,
+<unintelligible/> and the also from memory or <unintelligible/> 
+limit number to memory also <unintelligible/>.
+(PERSON8) Okay, 
+so yes. 
+So in in the long-term, it would be useful to have this image spread out for the various reasons that you mentioned, for the uh workshop itself we should be good.
+Okay. 
+Yeah. 
+So it's the priority of this image is not- uh not high. 
+And so the-
+there is no real rush with this image. 
+I would say.
+So I think that we we should be fine relying on, but that's please talk to [PERSON3], what he thinks, because in some early stage we discuss that for just for a backup purposes.
+It would be better to have this.
+Uuh, to have two sides providing the workers. 
+Um. 
+So ask [PERSON3] agrees that backup sides of ASR workers is very-
+<laugh/> 
+well sensible thing to do.
+Yeah.
+Okay. 
+Yeah, thank you very much. 
+And after the call I'll reboot to windows. 
+And I'll see if I can connect that room. 
+If if I see the workers. 
+So whoever is curious on the presentation,
+please use the [ORGANIZATION2] link, well
+[PERSON5] if you could find this [ORGANIZATION2] link and aaa- and posted here.
+Yeah.
+To be tested with [ORGANIZATION2] after this call, and here'll be the oral. 
+Yep. 
+<unintelligible/> platform is ready. 
+So [PERSON2] are you here? 
+We have, I seen you but I cannot hear yet. 
+So once [PERSON2], can can speak?
+Hopefully we will learn where when we will be getting the files for domain adaptation and so on.
+Yes, [PERSON2], was that you?
+That was someone.
+Yeah, ASR worker the bug.
+So this is this is probably something that [PERSON4] added.
+(PERSON4) Yes.
+(PERSON8) Yeah.
+So what-ehm-
+have we seen another situation?
+I know that in the call yesterday, with [ORGANIZATION2] the workers worked at the beginning.
+But at the end of the call it seemed that there are totally know available worker.
+So it seemed like that during the uh, the session yesterday.
+The workers have one by one died out.
+(PERSON4) Yeah. I didn't attend the yesterday meeting, but the bug that I mentioning is that sometimes the work, one worker can handle several sessions, but then it's, but then it stocks and it doesn't return any output.
+(PERSON8) So, and when you see say several session you mean consecutive ones like one after another.
+(PERSON4) Yes.
+It seems that it's it's available.
+But in fact he doesn't output anything.
+So.
+Ty Yeah. I will <unintelligible/> us, but yesterday so yeah I don't know what is happening there, because we <unintelligible/> when I do know what <unintelligible/>prophones it was able to handling several sessions.
+And that <unintelligible/> I think it in one sentence it ehm it yeah output <unintelligible/> and  I can't <unintelligible/>  fancy <unintelligible/> call but it <unintelligible/> it was in call,
+So I have no idea,
+I think I--
+this is a <unintelligible/> I think I had to <unintelligible/> information and then <unintelligible/> maybe I can hopefully I can see the one simply wrong come from-
+(PERSON8) Yeah.
+So I think it's-
+it's very important [PERSON11] that you create a script that will like replicate it this bug.
+So that you will maybe set up, maybe maybe there could be a set up support [ORGANIZATION1] mediator, and you would connect only one worker to this mediator <other_yawn/> and and
+(PERSON4) Our only support input fingerprint.
+Or in-
+(PERSON8) Yes, yes, yes.
+So use as input fingerprint and keep like loading importer or keep requesting ASR from one copy.
+One instance of your worker.
+In a script.
+Do it with offline it we have the same problem with offline ASR.
+So not only online ASR.
+So do it with offline ASR.
+As and as soon as as the worker stops responding.
+And I don't know.
+So, so this script is should be like a stress test, and you can put it to the cruise control repository.
+And then mo- most importantly you need to run it and figure out where the problem is and then the bucket, but-
+Yeah.
+(PERSON6) Okay.
+of course.
+If there is anything we can do in order to help you the publing the problem, we stand us careful <unintelligible/> the mediator <unintelligible/> to test just your worker for some-
+Or anything else we are avalaible.
+(PERSON8) And a single worker and ehm stress test it yeah.
+Okay.
+Great.
+Thank you.
+The production client-
+Yeah, so this is from [PERSON4].
+(PERSON4) Yes. That this point the production client is different from the simple one only by a by-
+I change only the default parameters and comment send documentations, and I removed to Windows version.
+So so is it okay for everyone?
+That we don't need to support Windows version of the client.
+(PERSON6) For us is fine.
+Also Linux based the-
+(PERSON4) Yeah.
+(PERSON8) Yeah,
+okay, yes,
+and then the text text client.
+That's also the same ebclient or not?
+(PERSON4) Yes, it's it's it's also.
+No if you click on this on this test that it's different different script.
+But it's also from the from the sample.
+It's the same as in the sample and it didn't for for me this week.
+I wrote email to [PERSON6] and [PERSON11] and [PERSON9].
+I didn't get any replies.
+So.
+If can you look at it.
+(PERSON8) Yes. So, ehm.
+(PERSON6) May I ask you to for one it's to be?
+(PERSON4) Okay, yes.
+(PERSON6) Sorry.
+(PERSON4) I write you again.
+(PERSON8) [PERSON4] will resend the email.
+Yeah.
+So.
+[PERSON6] and [PERSON9], yeah.
+(PERSON4) But  I'm not sure if [PERSON9] is the rigt persons for it.
+(PERSON8) Yeah.
+(PERSON4) Can you confirm [PERSON11]?
+Who is responsible for MT clients on your side.
+(PERSON10) Hmmm, you mean the person?
+I think-
+(PERSON8) Yes.
+(PERSON10) [PERSON9] is working for the MT-
+(PERSON4) Yeah, okay.
+So I will,
+I will try.
+(PERSON8) Yeah, okay.
+(PERSON4) Thank you.
+(PERSON8) Thank you.
+So the last point, uh, is uh, the schedule.
+Well this is all the weeks.
+So we have up to four calls.
+And then we already have the the workshop, so is anybody, does anybody know that they are not able to make it to the the uh, since uh, the same time, an hour earlier than today on Fridays?
+If you have any problems with these calls.
+and if there is more people who though problem, please put it in the in the document here, and we will find a slightly different hour.
+But I think that in general we just need to synchronize.
+So we don't always need everybody.
+Yeah and seeing the workshop dates.
+Uh. Is anybody planning to come to [LOCATION1]?
+Last time, you didn't respond.
+So if you are starting to uh, to plan it,
+please let us know.
+(PERSON6) I will not be there, sorry, I I hope be more useful here in Trento checking blogs and everything.
+<laugh/>
+(PERSON8) Okay. Okay,
+(PERSON6) But I can be with you with my heart.
+<laugh/>
+(PERSON8) [PERSON6] to support us remotly.
+Yeah.
+Okay, so, I think it's still too early to solid final lists are in the MT models.
+This is what was kind of plan for today.
+Uh, I don't have any other comments or questions now,
+so I'm going to reboot
+and I'll try to lodge the [ORGANIZATION2].
+You can try launching it in the meantime yourself, if it works for you, if you are all Windows already.
+And uh if you don't connect to [ORGANIZATION2].
+Then thanks lot.
+And and will be in touch and speak to you next week.
+Next Friday.
+(PERSON6) Okay, bye.
+(PERSON8) Bye.
+(PERSON4) bye.

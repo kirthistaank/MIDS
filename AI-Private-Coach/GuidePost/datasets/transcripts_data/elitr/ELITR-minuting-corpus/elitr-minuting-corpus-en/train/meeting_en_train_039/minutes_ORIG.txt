@@ -1,0 +1,51 @@
+Demo with [PERSON3]
+Proposed schedule: May 4-17 2020
+Our proposal: May 11-17 2020
+Duration of the demo: TODO
+Internal doodle: [URL]
+External doodle: TODO
+Slack to be used while the demo is starting/running:  [PROJECT1].slack.com (the channel #live-testing)
+ Meeting 4. 5., 2020
+Todo list:
+• Share doodle for scheduling internally
+• Share doodle for scheduling with [PERSON3]
+• Define the set of languages involved
+German as input (English as backup). [PERSON10] asks if german is ready for the demo
+o English pivot
+o Translated to all the possible available languages
+o Do we have Romanian people to check translation understandability? ([ORGANIZATION6])
+• [PERSON11] asked [PERSON1]
+• Define the demo input (TED talk, News, …)
+o Concerns: domain match with our systems
+o Possible ideas:
+• [URL]
+• a German speaker speaking English, Google is too good on this I guess
+• [URL1]
+• German text, Google also already pretty good…
+• Channel of Austrian SAI: 
+• [URL]
+• Playlist of German TEDx talks
+• [URL]
+• I think these will be quite challenging, because speakers don't speak that clearly or structured.
+• Automatic Youtube subtitles are excellent, but probably generated offline
+• They also don't generate punctuation, which is the weakpoint of the German model right now
+• This one might be good:
+• [URL2]
+• Czech:
+• 3min: [URL]
+• [URL]
+• …. these are probably the best sources, because we do not directly compete with [ORGANIZATION10]
+• Define the demo location ([ORGANIZATION3])
+o i.e. who will start the pipeline
+o probably [PERSON9] + [PERSON11], each sitting in another room, or possibly already in the [ORGANIZATION3] office in [LOCATION1] (it will be permitted after May 11)
+o To test for [PERSON9]:
+• connect 2 machines to a conferencing platform
+• one is for you to talk to others
+• the other one needs to be good enough to:
+• 1. run the video in youtube,
+• 2. send the audio to the conferencing platform
+• 3. send the audio to the complete subtitling pipeline
+• Define who will present the demo [PERSON11]
+• Schedule internal tests with all the parties (May 4-8)
+• Test, test, test, test
+

@@ -1,0 +1,21 @@
+[PROJECT1] [PROJECT2] 14.6.2019
+
+Date: 14.06.2019
+Attendees: [PERSON12], [PERSON3], [PERSON11], [PERSON9], [PERSON4], [PERSON2], [PERSON10]
+Purpose of meeting: Testing presenting the subtitles
+Agenda:
+* Running segmenters
+* Trying out the creation of subtitles 
+* Presentation issue - showing twice the same thing
+* Browser issue
+* Streaming video issue
+* Adding default languages 
+* Map of fingerprints used needed
+* Testing Google drawings
+* Video optimalization for desktop and mobile device
+o So that subtitles are visible
+
+
+
+
+Minutes submitted by: [ANNOTATOR1]

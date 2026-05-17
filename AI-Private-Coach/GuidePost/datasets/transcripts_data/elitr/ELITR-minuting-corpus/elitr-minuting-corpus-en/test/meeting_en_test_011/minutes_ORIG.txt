@@ -1,0 +1,12 @@
+[PROJECT1] Minutes
+22.10.2019
+
+- [PERSON5]'s master thesis topic
+- [PERSON6] (stazista u [ORGANIZATION2] na dva mesice) -- pozval bych ho na call
+  - plan je extrahovat syntakticke vztahy z attentions
+    - jak pozname ktere hlavy jsou syntakticke?
+    - jak to delaj v "heavy lifting" paperu?
+    - idea: pro dve vety, lisici se lexikalne ale ne syntakticky, by mely attention matrices syntaktickejch hlav bejt stejny? (A pro vety co lisej syntaxi by mely bejt ruzny.)
+  - a idealne s nima pak jeste neco delat
+    - pouzit jako strukturu pro graph [OTHER1] encoder na nejakej task kde syntax pomaha? To by nam dalo extrinsickou evaluaci toho jak dobra ta syntax je
+    - Dela se nejaka extrinsic eval v [OTHER6]?

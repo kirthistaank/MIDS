@@ -1,0 +1,21 @@
+[PROJECT3] 31. 03. 2020
+
+Date: 31. 03. 2020
+Attendees: [PERSON1], [PERSON10], [PERSON11], [PERSON9], [PERSON6], [PERSON2], [PERSON7]
+Purpose of meeting:  Work update
+Agenda: 
+* Subtitling
+* SLT test set
+* Domain adaptation
+* Different levels of Czech ASR
+* Data [ORGANIZATION6] languages
+* Description for the annotators
+* Evaluation of multilingual model
+* SLT F data
+* [ORGANIZATION2] worker, Czech worker, [PERSON3]'s worker
+* IWSLT data set
+* Use data for training model with partial inputs
+
+
+Minutes submitted by: [ANNOTATOR1]
+

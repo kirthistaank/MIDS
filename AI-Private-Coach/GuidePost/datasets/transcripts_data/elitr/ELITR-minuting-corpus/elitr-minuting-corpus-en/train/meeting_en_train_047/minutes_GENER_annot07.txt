@@ -1,0 +1,30 @@
+[PROJECT6] 16. 04. 2019
+
+Date: 16. 04. 2019
+Attendees: [PERSON14], [PERSON19], [PERSON5], [PERSON21], [PERSON9], [PERSON10], [PERSON2], [ORGANIZATION8]
+Purpose of meeting:  Regular summary and emphasis on filling the timesheets
+Agenda: 
+1) Upcoming [ORGANIZATION4] workshop in Luxembourg
+a. Attendees: [PERSON4], [PERSON10], [PERSON7] (instead of [PERSON14])
+2) Keeping [ORGANIZATION5] sheets updated - spendings
+3) Conference in Brussel – possibility to listen it in English/German
+4) Milestones 
+a. [ORGANIZATION9] platform recording
+b. Number of workers /recording clients
+5) Deliverable DMPs
+a. Have them done ideally by the end of the May
+6) Fill in the sheets with info using in ASR system
+7) By the end of June – first spoken language translation prototype by [ORGANIZATION8]
+8) Baseline MT models for [ORGANIZATION7] Congress
+9) Testing mediator – DONE
+10) Unification of excel timesheets
+a. Fill them continuously
+11) [PERSON5] has some missing data protection – will contact specific persons
+
+
+
+
+
+
+Minutes submitted by:	 [ANNOTATOR1]
+

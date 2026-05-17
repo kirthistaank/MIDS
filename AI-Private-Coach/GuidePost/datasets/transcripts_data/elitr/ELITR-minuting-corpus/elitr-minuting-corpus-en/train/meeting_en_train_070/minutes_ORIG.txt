@@ -1,0 +1,14 @@
+Meeting 24. 8. 2020:
+•	Attendance:
+o	[PERSON9], [PERSON11], [PERSON3], [PERSON12], [PERSON2]
+•	[PERSON2] and [PERSON3] should gain access to browsermt github
+o	[PERSON9] sent email to [PERSON6]
+•	[PROJECT2]:
+o	[PERSON11] focus on the data augmentation until [ORGANIZATION3]
+o	[PERSON9] Work with Parabank created data and paraphrase translation
+•	[PROJECT6]:
+o	we need to “nudge” [ORGANIZATION1] to start their part of the experiments
+•	[PROJECT3]
+o	we might need to focus on implementing the positive constraints in [PROJECT4]
+o	discussion about research focus
+

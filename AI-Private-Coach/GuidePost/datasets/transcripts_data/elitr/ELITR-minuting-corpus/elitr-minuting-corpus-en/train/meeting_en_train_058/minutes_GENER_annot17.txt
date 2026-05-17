@@ -1,0 +1,79 @@
+Virtual coffee hours minutes evaluation
+Date: 12. 11. 2020
+Attendees: [PERSON3], [PERSON8], [PERSON6], [PERSON9], [PERSON11].
+Purpose of meeting: evaluating minutes, selecting criteria for evaluating minutes, discussing what makes good minutes
+
+
+- Minutes 02. 
+-- advantages: grouped according to the topics.
+-- disadvantages: unnecessary details, too long, spelling mistakes, factual inconsistencies, the annotator did not understand all the points. 
+-- Length is not the only problem, it is rather the length combined with inconsistencies. 
+-- Double summarization: objectives are listed at the top, then topics described in more detail. 
+--- This would pose a problem when aligning, since the tool does not allow many to many alignments.
+-- [PERSON6] deemed some sentences incomplete.
+--- However, [PERSON3], who was present at the meeting thought that they were perfectly fine.
+--- They differed on what they found understandable. 
+
+- Minutes 03. 
+-- advantages: also has two levels including a high level summary. 
+-- disadvantages: too short, abstract, not exhaustive, not informative enough, incorrect spelling, ambiguity. 
+-- Done by [PERSON6].
+-- [PERSON3] is unsure of the completeness, but understands the details fully. 
+-- Some sentences will be understandable to participants of the meeting, but not to somebody external. 
+
+- Minutes 04.
+-- advantages: correct, relevant, readable, topical, understandable.
+-- disadvantages: not informative enough, missing topics, abstract, action points are not really visible. 
+-- Seem like a text.
+-- Done by [PERSON11]. 
+
+- Minutes 05. 
+-- advantages: probably the best, the annotator understood the content, decisions were grouped together with topics, relevant, correct, informative, thorough. 
+-- disadvantages: reason for extension of the project (COVID) was not mentioned in the minutes, spelling mistakes.
+-- [PERSON6] and [PERSON3] again disagreed on the understandability of some sentences.
+
+- Minutes 06.
+-- advantages: detailed.
+-- disadvantages: contains details which are not in the transcript (such as links), incomplete.
+-- Going beyond the transcript to retrieve links etc. can never be done by a system. 
+-- The system would be really confused if it was trained by these minutes.
+-- These minutes were the original agenda for the meeting, prepared by [PERSON3]. 
+
+- Minutes 07.
+-- Done by [PERSON8].
+-- She wanted to make an example of bad minutes.
+-- But she did not finish them. 
+
+- Minutes 08.
+-- advantages: on topic, grouped according to topics.
+-- disadvantages: too many details, redundant, some information not relevant, some ideas not fully understood. 
+-- One of the headings was NLP technologies, but the discussion was about a report on NLP technologies, not the technologies themselves. 
+-- Done by an annotator who has worked with minutes half-professionally. 
+-- Similar to meeting 05, but [PERSON9] would rate 05 higher. 
+-- Seem more like jotting down points rather than minuting. 
+-- The automatic system will probably generate similar minutes to these. 
+
+- Minutes 09. 
+-- advantages: milestones are mentioned.
+-- disadvantages: not informative, errors, transcript was not fully understood, not structured, not hierarchical, unbalanced.
+-- The worst minutes. 
+-- Seem like key words.
+-- They seem to be created by a program, even though they were created by a human. 
+
+- Summarizing the criteria for good minutes.
+-- Information preservation is probably the most important. 
+-- [PERSON8]'s criteria for evaluating: correctness, relevance, coverage, readability, informativeness. 
+-- Grammaticality is the least important criterion. 
+-- It is important to think about who the audience of the minutes will be. 
+-- The hierarchical structure of the meeting should be uncovered.
+-- Action points have to be mentioned along with what has been done earlier.
+
+- To do next.
+-- [PERSON9] will share his notes with everybody. 
+-- [PERSON11] will create automatic minutes of this particular transcript. 
+--- Through that we will find out how they are different from the human summaries. 
+-- Proceed with designing the manual evaluation method.
+--- Formalize what was talked about into evaluation metrics.
+--- Train annotators in this method (can be done later - April-May).
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,20 @@
+[PROJECT3] meeting, 2020-06-30
+
+Participants of the meeting: [PERSON9], [PERSON8], [PERSON19], [PERSON21], [PERSON17]
+
+It was discussed at the meeting:
+
+- in the book is still missing part about multilinguality
+- rules for adding pictures into the book
+- [PERSON8] is unable to create images, he can just extracte them from the papers
+- it is necessary to rewrite [PERSON9]'s first part
+- in 5.3 is still missing the last part and some discussion
+- the pictures in the book must be done better
+- it is necessary to finish subsection 3.1 a 3.2
+- [PERSON21] finally managed to train FastText embeddings
+- [PERSON21] needs to rewrite subsection 4.1, 4.2 and 4.3 tonight
+- everyone must read the whole book and comment on what's missing, what's wrong
+- the next meeting will be 13th June
+- planning watching ACL lectures
+
+The minutes was written by: [ANNOTATOR2]

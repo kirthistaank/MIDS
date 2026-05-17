@@ -1,0 +1,31 @@
+[PROJECT2], [PROJECT3] – dry-run
+12/08/2020
+111 min
+
+-Purposes of the meeting.
+-- To discuss the agenda – the timing, work-package presentations, the slides, the demo sessions.
+-- To go through the work-packages.
+-- To test the demos (one of the videos with burnt-in subtitles).
+
+-Workflow.
+-- The attendees were discussing the content of presentations, the slides.
+-- People should present the goals of the work-package, the challenges, the achievements so far, plans and open problems, but not necessarily all of these.
+-- [ORGANIZATION7] is considered to be much more a user than a technical contributor, not present on the call, not responding.
+-- [PROJECT2] will provide the set of standard matrix - the [PROJECT2] test set would contain references for both ASR and machine translation.
+-- The description of the user interface – the subtitle view and the paragraph view – doesn't have to be mentioned in the presentations beforehead.
+-- There was a suggestion to distinguish the lines of the subtitles by colour (black – grey) to make it synoptical, but it was considered too difficult.
+-- Only the German segmentors were running, not the English ones.
+
+-Problems.
+-- Only empty and speech people were invited to the workshop.
+-- There was a delay during the demo test caused by segmentation.
+-- Only the German segmentors were running, not the English ones.
+
+-Plan.
+-- The whole session should fit into 2 hours (an hour for presentations including the initial overview).
+-- 8 work-packages – 5 minutes for presentation + 2,5 minutes for questions per the work-package –> the dissemination work-package will be left out, so eventually 7 work-packages.
+-- The presentations should include high-level overview + recent interesting technical details.
+-- Also some summarisation people should be invited to the workshop.
+-- The next call was scheduled on Friday 11:00.
+
+Minutes submitted by: [ANNOTATOR1]

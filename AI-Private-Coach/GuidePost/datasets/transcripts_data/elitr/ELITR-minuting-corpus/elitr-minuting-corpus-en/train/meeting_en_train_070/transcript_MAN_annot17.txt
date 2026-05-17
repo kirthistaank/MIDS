@@ -1,0 +1,644 @@
+(PERSON4) Um [PERSON11] do you have any information about [ORGANIZATION1] um regarding the- 
+(PERSON11) Mhm no, no. 
+(PERSON4) Because uh I'm looking at the logs and there is like user 25.
+(PERSON11) Uh huh. 
+(PERSON4) And that's all. <laugh/>
+(PERSON11) Ok. Mmm. 
+(PERSON4) I I I think we can-
+(PERSON11) Ok so so we can I can I can try I can try writing them like tonight or tomorrow what's going on.
+(PERSON4) Because from what I remember, we discussed the issues and we like uh ended up the conversation and the last thing they said to us was like we'll see or <unintelligible/>.
+(PERSON11) I think I think we approved everything that is everything is ready for for launch. 
+And uh uh like uh I think my last mail when [PERSON5] asked me whether he should launch it, I I I told him that yes. 
+That it's ready. 
+So I I don't know what's going on. 
+(PERSON9) Okay, hi everyone.
+(PERSON11) Hi.
+(PERSON4) Hi, [PERSON9]. 
+(PERSON9) Um okay, w- 
+Ok, so I see uh [PERSON3] joined us for the first time, so let me introduce him, or he's he should introduce himself. 
+He will be uh working with us since starting October.
+(PERSON3) Yeah, ri- right, from October. 
+(PERSON9) Okay.
+(PERSON3) Hi everybody. 
+Well-
+(PERSON11) Hey.
+(PERSON3) I guess I'll be working on some [PROJECT4] related stuffs since I have some experience with that, with multi-source models and uh implementation of different types of attention and so on and that's probably where I start. 
+And then we will see. 
+(PERSON9) Mhm, yeah, definitely, that's a good start.
+We will uh discuss it in more detail like at the end of September, like for the time being it's good to have you here.
+And uh you can get some general idea, how-
+(PERSON3) Sure.
+(PERSON9) How we are working on the project, uh so yeah. 
+I- okay, I will take some notes first. 
+Okay, so first of all, let's take care of the administrative business.
+Uh both [PERSON3] and [PERSON2] still need to get uh access to the project GitHub.
+(PERSON3) Mhm.
+(PERSON9) So I will send e-mail to [PERSON6] and include you to the uh mm copy and basically, I think the only thing you need to do is send him your login and SSH key to get the access.
+(PERSON3) Okay.
+(PERSON9) Or he will tell you if if there is anything else. Uh.
+(PERSON3) Okay, thanks.
+(PERSON9) So other than that, I don't think there's anything like administrative in general, so let's jump uh into it. 
+We discussed with [PERSON11] our <unintelligible/> last week, uh I think there is no progress, right? 
+At least on [PERSON11]'s part.
+(PERSON11) You mean since then? <laugh/>
+(PERSON9) Yeah yeah yeah. 
+(PERSON11) Um. 
+Like uh I started uh like training uh some of the systems.
+Yeah and I'm downloading the data for man- monolingual data to get the back translations. 
+(PERSON9) Mhm.
+(PERSON11) So this is like maybe inf- information just for you, because you are like you have an inside <unintelligible/> on what I'm doing and-
+(PERSON9) Uh t- no no progress so far?
+(PERSON11) <laugh/> Not yet, no.
+(PERSON9) Okay, that's good.
+So I I d- didn't look at the <unintelligible/> bank yet, so that's f- update from me.
+(PERSON11) Okay.
+(PERSON9) So I've already heard something about [PROJECT6].
+Uh, we are waiting for [ORGANIZATION1], right? 
+(PERSON11) Yea- mm. 
+I'm I will write them tonight or like after the call, what's going on, because yeah last discussion, the last discussion we had was on 19th of August.
+And yeah, on 18 18th of August I told [PERSON5] that he should launch it and then he just uh together with [PERSON12], they just uh changed s- some e-mails, like technical e-mails, and then the last e-mail from [PERSON5] was OK.
+So I guess he's starting, but mm [PERSON12] is saying that there is nothing in logs or only one user-
+(PERSON4) Or is is possible they started, but nobody joined. <laugh/>
+(PERSON11) Yeah. 
+I I I have to ask them to whether they started or not. 
+(PERSON9) Yeah, it's definitely good to get some update, right. 
+So uh-
+(PERSON11) Yes.
+(PERSON9) Uh what other than that you're you're currently just waiting, right?
+You don't have anything to uh do on this part of the project, right?
+(PERSON11) Mhm.
+No.
+(PERSON9) Yeah, so just-
+(PERSON11) Or I'm-
+(PERSON9) So just-
+(PERSON11) Yeah, I I think like the we have to collect the data.
+(PERSON9) Mhm.
+(PERSON11) And <unintelligible/> that's like, what [ORGANIZATION1] has or should start-
+(PERSON9) So mhm-
+(PERSON11) And then then we can process the data.
+(PERSON9) Mm okay so-
+(PERSON11) Second stage of annotation and yeah and then- <unintelligible/>
+(PERSON9) So technically, uh, technically, d- do we have a possible uh plan B? 
+Like, you know, in case they again like will be too late with starting their part, like I don't know, can we bother our annotators again? 
+Like like last time?
+Or is it is it not possible this time?
+(PERSON11) I don't know like, mhm.
+Because we have already used our annotators.
+(PERSON9) Mhm.
+(PERSON11) For like for- and yeah.
+F- for like uh [PERSON12] collected those statistics and uh he already used it in the paper and like it's not enough uh people. 
+You know, so.
+(PERSON9) Oh yeah, okay.
+(PERSON11) And some of them and some of them uh know some Czech, so it's uh problematic and yeah.
+(PERSON9) Mhm.
+(PERSON11) So so we have some small statistics that <unintelligible/> from this from this data.
+But uh if I know it correctly, everything like uh what is in- interesting in those data that it it was published or is going to be published in the [PROJECT5] article-
+(PERSON9) Yeah.
+(PERSON11) Or paper by me or [PERSON12] and me.
+(PERSON9) Okay.
+Uh I don't know, maybe uh [PERSON12] is planning to use [ORGANIZATION4] or or some platform for this or?
+Uh do you know the details? 
+Or do they have physical like uh some people from from their university to do the annotations?
+(PERSON11) They have a they have some they have a list of people that do like share mhm those links or or like among them.
+And uh if they successfully finish all the stimuli, they are they will be given a voucher for [ORGANIZATION5] or I don't know, something like this.
+So they are not paid directly, but through those vouchers.
+(PERSON9) Mhm.
+(PERSON11) Because we-
+(PERSON9) Uh-
+(PERSON11) We objected that the beginning that uh is is not that the parts <unintelligible/> not gonna be paid and they have some issues with that, because of coronavirus, with employing new new people and then they somehow figure out this solution with the vouchers. 
+(PERSON9) Yeah, so so- 
+Because the thing is that well there's the deadline for [ORGANIZATION3], right?
+(PERSON11) Yeah, I know.
+(PERSON9) And-
+(PERSON11) I told them I told them that uh we would like to have all the all the data collectek collected till the end of August.
+But since uh I think it it hasn't started yet.
+So I'm a bit doubtful about it.
+(PERSON9) Mhm.
+Uh, t- well there's a chance to submit it for later conference, right?
+But-
+(PERSON11) Yeah.
+(PERSON9) And also we're not pressured by the project itself, so so technically it's not such disaster.
+But uh yeah, I can imagine that we want to uh like dr- draw the line behind the this part, like finish it completely, right?
+(PERSON11) Yeah yeah yeah yeah.
+() Because this is like very <laugh/> l- long long-lasting project, this paper and [PROJECT6], so I would also like to have it finished.
+(PERSON9) Yeah, okay, so so let's focus on uh uh yeah, pushing the word in during their part.
+Which reminds me I didn't ask if uh [PERSON6] was uh planning to do a meeting this week or next week, but there is still no, there was still no decision for the date, right? 
+(PERSON11) Ah okay, I didn't I haven't me- s- noticed it. 
+(PERSON9) Mmm, I think it went to the official mailing list. 
+There was a call.
+(PERSON11) Mhm, okay. 
+(PERSON9) Then I think-
+(PERSON11) Ah okay, they <unintelligible/> for a new meeting the- new <unintelligible/>.
+You mean this one, yeah? 
+(PERSON9) Yes. 
+Well, yeah, definitely.
+But this is not uh regular schedule, this is like for the next one <unintelligible/> discuss maybe other dates, I don't know. 
+But it seems that it will be next Thursday, so.
+(PERSON11) Mhm.
+(PERSON9) Bu- but I guess it's good idea to to also mention it on on this this meeting.
+It might be uh-
+(PERSON11) Uh that what to mention on this meeting?
+Uh uh you mean that this meeting with-
+(PERSON9) Uh just just, well this will be meeting like the regular meeting with the partners, right?
+But-
+(PERSON11) Yeah yeah.
+(PERSON9) <unintelligible/> nice to mention meeting like call right?
+It will be good to mention it there, that we are waiting for the [ORGANIZATION1].
+A- or maybe ask them what's-
+(PERSON11) Ah okay, okay. 
+Okay, I see.
+Uh, yeah. 
+Yeah yeah, so I definitely ask them uh today what's going on, because like last email which we had from them was from last Wednesday, okay?
+So then I have two days of vacation, so I didn't like solve anything.
+So, yeah, I can now ask h- ask them what's the progress. 
+And uh uh I think they will started d- definitely by the <laugh/> like this week. 
+There is no reason why they shouldn't uh-
+(PERSON9) Okay. 
+Yeah, but yeah again- <unintelligible/>
+(PERSON11) I I will I have to prompt th- I prompt them and I will, so.
+(PERSON9) Yeah, good.
+So I think the last thing uh is uh and best is navigation.
+So [PERSON2], did you did you think thought about the problem? 
+(PERSON8) Yes.
+(PERSON9) Okay, good.
+(PERSON8) Which yes. 
+So first of all I'd like to discuss something, that I was thinking while reading the the description of the task. 
+(PERSON9) Mhm.
+(PERSON8) So-
+And uh, correct me if I'm wrong.
+But uh uh I understood that we are we will provide to the user a list of paraphrases and variations of sentence of the sentence of the translated sentence to the user decide uh something decide wh- which is better and or or something.
+But in this task, w- we are assuming that the user doesn't know the target language, right?
+So, I maybe this uh uh maybe I understand- understanding this uh in a wrong way, but if the the the user doesn't understand the target language, how can he uh select the best uh option? 
+Uh so <other_yawn/> uh-
+(PERSON9) So-
+(PERSON8) Uh oh uh I I so I thought in a solution to that.
+But I I need to know if this is exactly what uh the task uh means.
+Providing the user and best list, right, of of variations of of the translation, paraphrases.
+Is it correct?
+(PERSON9) Uh, so basically I think there are two options.
+Like uh, we can uh, implement both positive and negative constraints.
+Like positive constraints might be for example uh that user can definitely see if if some of the named entities are not translated correctly, right?
+Even though he doesn't understand the target language.
+So, he can't basically hard and force these constraints like we I need these words to be translated literally.
+And that would be the positive constraint, right?
+And that would be constraint on translation in this case.
+(PERSON11) Yeah oh-
+(PERSON9) And that's one of- <unintelligible/>
+(PERSON11) Yeah I'm sorry just maybe to maybe just to extend what you are saying.
+(PERSON9) Mhm.
+(PERSON11) And this can be this can be uh like in the target language, e- any even though that the user doesn't understand, he can understand some bits of it.
+Like f for instance, named entities.
+And he can enf- enforce the the named entities are exactly the same as he knows them in his language or like uh uh you know, like name of person or something that it's not screwed up.
+So this is one thing that uh can be a positive constraint in the target language that the user cannot understand.
+Okay, so continue [PERSON9] <laugh/>, sorry to interrupt you.
+(PERSON9) Mhm, yes. 
+So so obviously uhm it the uh the positive constrains can be enforced in other scenarios, but uh let's say, the other option is that since we have a module for paraphrasing, uh we can uh try to offer user- well we offer user different paraphrases and this might be like uh.
+I don't know if we can directly implement the negative constraints or constraining in itself.
+But the idea with paraphrasing is that when we generate the paraphrases, let's say for example by back translating the uh target sentence, we can constrain the decoder in a way that that the produced <unintelligible/> list from the decoder will be more vari- well varied than than the default one, right?
+(PERSON8) Oh, hi, I understand uh uh but uhm I I was thinking that if we're providing uh this-
+Uh I understand that the constraints would would help and and more examples of the-
+But I I the point is, we're providing uh the uh the end the the this list of paraphrases in the target language.
+This is the point.
+Is it correct, right?
+This is correct?
+(PERSON11) No or uh like-
+(PERSON8) We are providing from the back translation that's so this is variations of the input, just uh uh-
+(PERSON11) Variations of the input, so so the source language.
+(PERSON8) Okay okay.
+(PERSON11) Like paraphrases are in the source language.
+(PERSON8) That was my problem, because I wasn't- uh I I was understanding it wrong, because I thought okay maybe this uh is in the target language and the user won't understand.
+So uh something that I thought about it, uh, was can you provide discord to this paraphrases?
+Or something that uh shows to the user that oh oh this using this k- type of a range, of words, or or uh can be uh helpful to the translation?
+Or or something?
+Like this?
+Because uh uh so uh if if he doesn't know what is happening inside of the this translation, uh uh we need to do some hints about it and uh with you talk about <unintelligible/> estimation methods in the description of the task and I think that this could help but <unintelligible/> to decide the best ones or or or give ideas about using some words or s- or other stuff to the user to decide uh what to select uh.
+(PERSON11) This was something that we have uh somehow already finished doing uh.
+It was the source complexity task and uh.
+And in this task we were about to provide the user with like h- or highlight the words that are prone to error in the translation.
+And uh yeah, okay we haven't like in the end, we uh used a system called the estimation system, uh that was implemented by [ORGANIZATION8] guys, uh so yeah, definitely some more research would be great for in in this area or in this aspect, but we have already finished this task.
+(PERSON8) Okay, no problem.
+(PERSON11) So we are not needed to continue in it till uh- 
+But but if we can cast the uh this uh [PROJECT3] in a way that it fits or or ol- the other way around, cast this scoring or something in a way that it fits the [PROJECT3], so then it's should be okay.
+It's all about the presentation <laugh/>.
+(PERSON8) Well but this is just an idea, actually.
+Uh what we have to do is to finish [PERSON1]'s implementation, right?
+Of of uh he he's implementing <unintelligible/> approach, right?
+So maybe we can finish and see what happens and and and then think about alternatives.
+I was uh-
+I have a question also uh I regarding the negative constraints uh.
+Do you guys think this would be uh useful in in some way?
+Cause I I I thought I I found an approach-
+I'm sorry about the noises, my the street is a mess, but-
+<laugh/> 
+Regarding these negative constraints, I I I actually I have found uh I found an approach that uses uh I don't know if you know [PERSON10] transformer?
+To to create constrain- to apply constraints but uh just the positive ones.
+Not the negative ones.
+We could try this one also, because it seems to be faster and it seems to have good results, but I I didn't investigate it.
+Uh but I I'm just uh asking about the negative constraints.
+Uh because the positive ones I understand that the person is is selecting the named entities that he wants to remain in the the the translation.
+But what about the negative ones?
+I'm sorry, I'm taking too long to explain myself, but-
+(PERSON9) No, that's alright.
+Well negative ones, I can imagine like if it's a single token, like that can be implemented quite easily, just by disabling or not disabling, unmasking, masking the word in a open dictionary, therefore the word will never be outputed by the system.
+I guess it might be little bit trickier when you disable a certain phrase, or like uh uh an- list of not list of tokens, sequence of tokens.
+Because you might again only want to restrict the system to output the exact sequence of tokens, but still want to be able output the tokens separately in different context, I guess, but yeah, okay.
+Uh the fact is that uh if you think that we will not need the negative constraining, we we can definitely uh not focus on it.
+Like that's that was just one of the ideas, or one of the uh let's say methods or approaches we could take.
+(PERSON11) Maybe just uh uhm if I can step in.
+(PERSON2) you are asking for the implementation?
+Or how to implement it?
+Or what is the purpose of uh negative constraints?
+(PERSON8) Actually, the general purpose of of-
+No, no the negative- I understand the negative constraints, the idea of not using a certain word or phrase.
+(PERSON11) Mhm.
+(PERSON8) But uhm-
+(PERSON11) How to implement it, or?
+(PERSON8) Oh how to implement- yeah-
+(PERSON11) Or what was your question?
+(PERSON8) Actually, the the the need to this implementation, because in this specific task.
+If people-
+But it this this is not a problem.
+(PERSON11) Okay, so so you are asking for purpose in this pec- sp- specific task.
+(PERSON8) Yeah, in this specific task.
+Yeah.
+(PERSON11) Uh.
+(PERSON8) Because the the the user is uh given us input a text that he wants to be translated.
+Uh-
+Why uh uh-
+But but this is just I'm just thinking aloud about the the the task maybe, I should still like- <unintelligible/> the things-
+(PERSON11) Okay, hm um-
+Just one possible purpose is that okay if we imagine that this use case that the uh uh translation system or the [PROJECT3] or this constraint decoding be going from let's say English to Czech. 
+And you will see a Czech word uh that uh you certainly know from some cues that shouldn't be there, so you can put a negative constraint-
+(PERSON8) Yeah, constraint-
+(PERSON11) On this word, yeah?
+(PERSON8) Yeah, okay. 
+Yeah.
+(PERSON11) And uhm, yeah.
+And maybe the other thing that [PERSON9] has- hasn't mentioned is uh that okay, this is a big complicated.
+But it can go translation or this constraint [PROJECT3] can go to the third language.
+(PERSON8) Yeah, yeah.
+(PERSON11) The language that the user user knows.
+(PERSON8) Maybe knows.
+(PERSON11) And maybe is close to the target language or something and or it's easier from the this third language to translate to the target language and uh he can uh select those <unintelligible/> lists uh in this th- third language.
+But yeah I see that it's a bit uh complications with everything and it's like-
+(PERSON8) Yeah, there's no problem of having-
+Sorry, sorry-
+(PERSON11) Yeah yeah, we don't know whether it it it doesn't be too overwhelming for the user and like too complicated and with uh not such a benefit for it, yeah.
+So we don't know whether it's worth doing such a thing.
+(PERSON8) Yeah yeah ye- just thinking thinking out loud.
+Because it was uh uh I was thinking about the task and asking myself about this situation or the pro- possible situations so-
+W- uh ba- regarding the third language, we have to uh-
+We can give this option to the user, right?
+Oh, select a language that uh you understand from this list.
+And maybe it could help, right?
+So the the remaining question about it is uh about the let's say uh what makes the user to s- s- to change its input, given the [PROJECT3]?
+Because uh let's say I'm changing my input to improve the translation and I'm seeing the bar- paraphrases that are are are the system are showing, the system is showing, and uh but what makes me uh ensure, have the confidence that I am proving the translation?
+Uh uh you know? 
+Uh.
+(PERSON11) Mhm that's that's one thing that we are we want to test in this <unintelligible/> experiment, because we are trying to test there uh three components.
+Uh one is back translation, the other one is uh paraphrasing through pivot languages and third one is the the quality estimation.
+And uh like we uh we like we have- we are going to test it uh what is the effect of these three components to not only to the transl- final translation, but also the confidence of the user.
+And uh like with the pre- preliminary results, we know that they are most confident with the back translation.
+(PERSON8) Yeah.
+(PERSON11) And not so confident with the w- quality estimation or that word highlighting that we have implemented so far.
+And paraphrasing paraphrasing is like kinda yeah. 
+It's sometimes it's helpful, and sometimes not.
+So yeah.
+Like the most helpful is uh back translation for them.
+Like from from those preliminary results.
+But this is still what we are like um like doing a researching still.
+(PERSON8) Okay.
+I'm sorry for the this bunch of questions, I was just thinking about it and and and thinking about wh- what direction should I should take here.
+But the idea, the main idea here is to implement uh this uh constraint decoder and use it, right?
+(PERSON9) Yeah, that that's definitely definitely good thing that that you are thinking about it in in the grand scale, because first of all, yeah.
+We will defi- it- it'll help us avoid implementing or focusing on implementation of stuff, we will not even be needing in later experiments.
+So it like thinking this through at the beginning is definitely good good approach.
+And goops- good start.
+And I don't know technically, well, first of all, uh I think if there is not anything else, we need to discuss like if people are not in like-
+People that are not involved in [PROJECT3] and are not interesting in this conversation, can definitely leave and-
+Goodbye, just in case.
+And we can sort of like mhm extend this meeting and and talk talk in more detail on on on the work.
+On your work.
+Uh so, I don't know, uh.
+Okay, so let's let's continue.
+And. 
+Um so w- w- so what is- 
+If I remember correctly, the email from [PERSON1] was that he already did some implementation, right?
+Of the of the constraint decoding?
+B- but I don't remembel w- which type of constraint was actually implemented.
+(PERSON11) Negative constraints.
+It's uh like in my view, it's just the w- mm implementation of negative constraints and nothing else.
+So-
+But I don't think that it should be too complicated to implement- 
+This is something that we were thinking about for uh like first thing for [PERSON3] to do, maybe.
+Uh, maybe because you are most uh skilled with [PROJECT4] and-
+(PERSON9) Yeah yeah, I see that.
+(PERSON11) Yeah. 
+And so uh there is an implementation of constraint decoding, just maybe let me let m- briefly explain if you haven't understood from our discussion so far.
+So what is that constraint decoding.
+You just put negative or positive constraints in the form of words and phrases, negatives are those that shouldn't appear in the output, in the translation and the positives th- that should appear in the in the output.
+So uh-
+(PERSON9) Yeah.
+(PERSON11) And this constraint decoding uh there is a paper of uh uh just help me recall to recall-
+[PERSON13] and uh somebody, [PERSON14] or I don't know his s- first name.
+And it's about it's about this decoding, uh constraint decoding, and they have implemented this thing in sokai framework.
+(PERSON9) Mhm.
+(PERSON11) So uh and okay, and uh [PERSON1] <unintelligible/> which is a guy from [ORGANIZATION1].
+Uh he has been doing some experiments with negative constrainting, so he has implemented some negative constrainting into [PROJECT4].
+(PERSON9) Mhm.
+(PERSON11) Already.
+And so as- I asked him what's the status and whether he wants to continue with it, he told me that he don't he doesn't want to continue, but he can help us if we want to continue with this and implement maybe positive constraints in there.
+So w- so he promised uh to help us with the uh or maybe to discuss the things uh in the end of September or beginning of October when <unintelligible/> you jo- [PERSON2] and [PERSON3] join us.
+Or it will be after [ORGANIZATION3] deadlines, so he prefer not to solve this thing.
+(PERSON9) Yeah, right.
+(PERSON11) [ORGANIZATION3] deadline.
+(PERSON3) Well, yeah, I I tried so- something a little bit similar, but only on just only on token level, because we wanted to integrate translation memories into decoding to upweight uh things that uh that were found in translation memory.
+But we only experimented with very very simple type of constraints, like uh we computed some score and added that to the to the <unintelligible/> and p- yeah, only on token level, not ngrams or phrases.
+(PERSON11) Mhm.
+(PERSON3) So, that I guess that will get complicated pretty quickly with [PROJECT4] <unintelligible/>.
+(PERSON11) Okay. I can point you to the paper that I was talking about-
+(PERSON3) Okay.
+(PERSON11) Because is one paper and there is an extension of this paper and I'm not sure which one of like whether this extension is also implemented in the sokai-
+(PERSON3) Mhm.
+(PERSON11) But paper is implemented.
+So you can just skim through it and uh-
+I read it and uh like it seemed to me not to not to be be as difficult or so difficult to implement, like just-
+(PERSON3) Yeah, it's something like Fast Lexically Constrained Decoding with Dynamic Beam Allocation <unintelligible/>-
+(PERSON11) Yeah, yeah, yeah, this one..
+(PERSON3) Yeah, okay.
+Okay.
+(PERSON11) Uh fast lexical is from Hu et al.?
+Yeah, isn't it?
+Or or not?
+Fast is from [PERSON14]?
+(PERSON3) No, it's [PERSON13].
+Yeah yeah.
+(PERSON11) [PERSON13], okay.
+Be- because there is then extension and it's from Hu et al. and it's called improved lexical-
+(PERSON3) Mhm.
+(PERSON11) It's the same, it starts with- instead of fast, you have improved.
+(PERSON9) Okay, I'll have a look on that too.
+(PERSON11) Yeah.
+But most of the thing it's like uh they explain it in the [PERSON13] paper and this is just an extension uh maybe how to make it even faster, or like to to or to enable uh batch batching or batched processing or something like this, I don't remember exactly.
+(PERSON3) Yeah, okay.
+I'll I'll h- I'll have a look on it.
+(PERSON11) Yeah.
+Okay, so so this is the thing that we are we were thinking to start with-
+(PERSON3) Mhm, okay.
+(PERSON11) Like with that co- constraint decoding or that [PROJECT3].
+Yeah but this is something low level, how to how to make the constraint decoding happen or how to how to-
+(PERSON3) Mhm.
+(PERSON11) Let the user select, what he wants to be in the output or what he wha- doesn't want to be in the output and-
+But we still don't know what to, how to construct the experiment, this like uh yeah.
+That we asked [PERSON2] to think about it.
+Okay and maybe uh I don't remember <laugh/> the beginning where I started, so maybe just [PERSON9] you can return me to the <laugh/> to the path <laugh/>.
+(PERSON9) Well, the the thing is that uh yeah.
+We still we still need to discuss in more detail, like what we will focus on more, but what I want to uh remind you is that it's still good to try to think about the problem outside of the task itself.
+Uh mm like we can handle it more general way and then in the end just to show the reviewers of the project uh our work, w- where we will show the possible research results and our approach to implementing these results into let's say the TNT translator, but in this case like we at least don't like it's not expected that we will evaluate whether this particular application of the results in the TNT t- translator is actually helpful for the users for for example.
+This this is probably not expected.
+Or this is definitely not expected.
+Because we didn't promise it in the project specification, so yeah, I just want to remind tha- that keep that in mind.
+Uh that means that you can you can really just take the take the previous work from the Hu et al. and look at the mhm let's say uh like uh was- weaknesses of their presented approach and try to focus on improving those, right?
+So that doesn't mean that you need to have the solution right away, but well, m- maybe maybe it's a good thing start thinking about it from from this point of view, right?
+Or like uh uh it would be good to discuss this also with [PERSON8], so so like maybe maybe I'm not following what what he he he had in mind, but yeah, but I think that this should be fine.
+Uh anyway, from fr- from the short-
+Can you hear me, right?
+(PERSON11) Yes, I can hear you.
+(PERSON3) Yeah.
+(PERSON9) <laugh/> I don't want to start talking with muted microphone.
+Okay so the thing is uh yeah, from the short term perspective until next week.
+Yeah, let's let's look at our possibilities of implementing the positive constraints, because I think we agreed on the fact that they will be useful in the future.
+Like compared to the negative constraints, right?
+I think we we agree on that, am I right?
+Or or not?
+Like?
+(PERSON8) Yes, yes.
+(PERSON9) Yeah, okay.
+So yeah yeah let's let's let's look into this issue and uh what might might be the problems with implementations, I guess I guess you can discuss that with uh [PERSON3].
+Uh in in DMs or maybe via email.
+And we can uh uhm again, like we can talk about it mo- some more uh next week.
+(PERSON11) Yeah, but mhm.
+Maybe okay, you can you can start think about this, but then in the end I would because because I told [PERSON1] that we will consult this thing with them as they imp- like because he has implemented something with [PROJECT4] already and-
+(PERSON9) Mhm.
+(PERSON11) Uh, yeah.
+Okay, so you can you can definitely start and then i- if you come up with anything so we can just ask them.
+But he prefers uh not to solve it before [ORGANIZATION3].
+That's what I'm just-
+Uh uh like have the message from him.
+(PERSON9) Mhm.
+Uh mhm maybe maybe as I mentioned, the more general approach, I mean uh the you you mentioned the assumption that the user doesn't know the target language.
+Uh, yes, that's true in the in the context of uh uh outbound translation, but again, we can focus on the more general thing.
+When we can assume that he knows the target language and we just uh want to i- like do the constraint decoding with the without dropping the translation quality, right?
+And then uh simply on anecdotal ev- evidence have some examples in our TMT framework, when we include the the methods.
+In this case, let's say that the the positive constraints and we can show the reviewers that uh if we want to keep this and this in our uh uh like we want to keep the named entities in from the source sentence in the target this uh uh implementation in the framework actually uh mhm like what's the term uh s- satisfies this condition and even though like we expect that the user doesn't know that it is correctly translated they can see that it is correctly translated, right?
+Because the the the cues about the correct translations that the- they should be provided by other bo- modules, other output of of the word package, o- o- other tasks.
+And we focus on the on how to provide cues in other tasks and let's say now we we have this available.
+Maybe it's not like perfect, but we can assume that we have some some uhm uh modules or or way of informing the user about the translation.
+(PERSON8) Okay, yeah, again, I'm sorry about that- this initial questions.
+That was just my uh- I'm just trying to understand what was the point of of the task.
+But now now I know that uh we're just trying to apply this constraints correctly and make it uh appear to the user that the constraints are being applied to the tar- to the target language, okay.
+(PERSON9) Yeah, yeah, the thing the thing is maybe it wasn't completely clear, is that again, think about thinking about it on the module level level.
+Like if you if you thought about it as a whole, like you would really be be stuck on the fact that you also need to like provide the additional information to the user.
+But and and he he really has to learn that uh the output of the let's say navigation itself is useful for him.
+But again, you can just skip this and assume that you have the other stuff that you would need to uh have the complete package, right.
+So, still still there's there's the thing that you need to somehow evaluate, whether the constraints themselves are for example are not too restrictive, or what is the level, how you can restrict the decoding.
+Like I can't imagine if I if I say that I want to translate any sentence in a way that it will contain the the phrase at all costs, like there are definitely sentences that will not be translated or will definitely be translated poorly, if if that phrase must be included, right.
+So so may- th- that's possible, the one possible way how to study the problem, right uhm like.
+What is the level, how much we can actually constrain a system to still produce reasonable translations?
+I think I think no one actually looked into it that way, but again, that that there are other issues how how how to or or foc- the other issues with this approach, you need to properly design the way to evaluate this and and such and study it.
+(PERSON8) Okay, yeah, I understand. 
+This is really interesting, right.
+We need to d- to define the the threshold of the constraints right-
+(PERSON9) Mhm, yeah.
+Yeah, if if I remember correctly, in the previous work from Hu et al., for example they evaluated the the performance, but there they their data was basically, they took the standard test sets and by uh uh s- uh I think it was deterministic or not?, yeah I thonks there was some <unintelligible/> algorithm to kinda induce a constraint from this data.
+Like what might be the constraint that the user wants. 
+And constrain the system and then evaluated it and they measured the performance speed and measured the whether the quality of the system drops, right.
+But this doesn't mean that the constraints are actually real life constraints, whether whether they are not um completely like uh nonsense, right.
+I think they did not do proper or at least not thorough evaluation of of the way how they pick the the constraints, right.
+They were not handmade.
+So, yeah. 
+Um-
+(PERSON8) I understand, yeah. 
+Yeah.
+This is something we can try to to evaluate in this way.
+<other_yawn/>
+(PERSON9) Uh, yeah, but definitely, d- definitely good that you that you come up with these question, because it it's a good good starting point for everyone.
+(PERSON8) Yeah, but-
+I I maybe I forgot to think about the the constraint itself, this is the mo- the most important part, so I will look for alternatives on how to evaluate this.
+The number of constraints, how constraints can can lead to something that doesn't make sense, or how-
+(PERSON9) Like in in this- it's still still- the thing is I uh it would be helpful hopefully next week [PERSON8] will be available.
+Uh it would be helpful to get his feedback on this, because he he still has the best use case examples for the task itself and that might also bring some inspiration.
+So, yeah.
+I- if if you think this through a little bit more that's definitely useful but I think uh next week we can uh discuss it and and make more of a progress, so-
+(PERSON8) Right.
+(PERSON9) It's fine.
+Okay, other than that, is there anything else we want to discuss or need to discuss?
+Like technically, we we sort of extended it to your daily meeting, like is there anything more more specific that that you come acr- came across on Friday, I guess?
+(PERSON8) No no, I'm fine.
+I was just reading other papers uh derived from Hu et all, or previous to th- to it, just to understand better the constraint, because-
+(PERSON9) Okay, okay, that's great.
+(PERSON11) And and the one with the [PERSON10] decoding, uh isn't it the one that was presented at th- this year's [ORGANIZATION6]?
+(PERSON8) Oh, I didn't check that, I just uh fou- found it somewhere, I don't know exactly <laugh/>, th- but but I can check this-
+(PERSON11) Cause I remember from there something about [PERSON10], it's uh <unintelligible/> decoding and I think that there was something with the with constraint decoding, but I'm not sure what the- what's the-
+(PERSON8) Yeah, they apply positive constraints, just modifying the Leven- [PERSON10] transformer by uh adding adding the constraints in the beginning of the uh of the classifier.
+They have three clas- classifiers, right? Deletion deletion-
+(PERSON11) Yeah yeah yeah.
+(PERSON8) Placeholder and token.
+So they add this uh in the in the beginning and then then masks the the constraints to to to for the tokens not to be deleted, right, during the process.
+And then just the place and for the placeholder, for example, if you have a p- phrase that can be uh divided, so it forces the th- the classifier not to place to the the placeholder between the this phrase. 
+So-
+(PERSON11) Mhm.
+(PERSON8) It achieves some some good results, but uh I didn- I I read it today <laugh/>, so I'm not sure about the details yet, but it it's an interest- interesting because it's not it just it i- it keeps the same uh speed on the the standard [PERSON10] [PERSON10].
+As far as I'm concerned.
+This was the-
+But I didn't know the [PERSON10] [PERSON10]-
+(PERSON11) Uh, [PERSON10] transformer it's a some kind on-
+Because normally you have uh uh autoregressive uh trans- uh like decoding that uh everything you uh decode at one time, you it's like depends on what's you have decoded so far.
+So you are like decoding uh one word at the time, or one token at the time.
+And with this non autoregressive approach it was actually [PERSON7]'s, it a colleague of us, he's leaving to [ORGANIZATION1], it was his like uh research area.
+And uh yeah.
+But the thing is that in the end like okay, the theoretically this non autoregressive decoders are good or they are theoretically faster.
+But when those guys in [ORGANIZATION1] apply all of those hacks and um quantizations and uh model distillations and everything uh their autoregressive decodin- decoding is much faster than any non autoregressive decoding so far.
+But yeah, but theoretically is-, yeah.
+(PERSON8) Ok I understand.
+(PERSON11) <unintelligible/> To explore, but-
+(PERSON8) Yeah because-
+(PERSON11) In the end, [PERSON6] [PERSON6] will always ask you that okay but uh is it really faster than [PROJECT4]? When-
+(PERSON8) In practice, we don't-
+(PERSON11) Yeah.
+(PERSON8) It is different.
+But okay, yeah, I was just trying to find alternatives and-
+(PERSON11) Yeah yeah, just feel free.
+(PERSON8) Okay, yeah.
+But-
+(PERSON11) I saw that you have I I've approved you to the Zotero um library-
+(PERSON8) I don't know if I should I don't know if I should join that-
+(PERSON11) Yeah, yeah, definitely.
+It's like um I only um maybe it's just me who is using it regularly.
+Or regularly, yeah, okay.
+So I collected there several papers that I'm just collected o- in the end of the last year or the beginning of the 2020 when we were thinking about doing some uh how it's called?
+Descri- uh- 
+No, those generative net- networks, mm sorry I forgot <laugh/>.
+And yeah, so I have collected several papers there and there is a like also there are those two papers about constraint decoding.
+So just feel free to add anything interesting there and add any notes there, mm yeah.
+(PERSON8) Okay, yeah, [PERSON9] told me to create this Zotero account and and to manage, make a better arrangement of these papers.
+(PERSON11) [PERSON9] can also join our group <laugh/>.
+(PERSON8) <laugh/>
+(PERSON9) Yeah, I I'm kinda you know individualistic <laugh/>.
+I I don't have papers that are useful for everyone, so I I'm ever really include that.
+But I can do some some look up.
+(PERSON11) Yeah.
+(PERSON8) Yeah, I didn't know if I s- should join, but I I I clicked that.
+(PERSON9) Oh, definitely, if you have something if you have something related to the project, include it there, like just because I don't do it doesn't mean that you you shouldn't. 
+Like that's the whole point of the of the [PROJECT1] Zotero or of the <unintelligible/>.
+(PERSON8) Yeah, okay. 
+Yeah, great. 
+Yeah, so like the bu- the list of papers about this lexic- lexically constraint approaches of machine translation and maybe-
+But there are also approaches about genera- text generation, right.
+I don't know if I can use text generation machine translation yet.
+<unintelligible/>
+(PERSON11) You mean in those collection of papers? 
+In Zotero?
+(PERSON8) No, sorry I I was I changed the subject during the during my speech, sorry, it wasn't just uh uh-
+Forget about it.
+About Zotero, yeah, I will add something there, I think it's interesting about this constraints and-
+(PERSON11) It's, uh Zo- Zotero is just feel to feel free to add anything there.
+Maybe you can also create the special folder for lexically constrained decoding and put all those papers that are related to this topic to this folder.
+(PERSON8) Yeah, using this way already in my own uh fo- my own organization.
+(PERSON11) Yeah yeah, or just put text, you can tag the papers or yeah.
+(PERSON8) Yeah, it's really good, yeah. 
+It's helpful.
+(PERSON9) Also, you mentioned the the text generation.
+Again it's well- there might be some uh things that we can use.
+But in our case we do do sort of conditional text generation, right. 
+Translation is text generation, but it is conditioned on the input sentence.
+(PERSON8) <unintelligible/>.
+(PERSON9) But technically yeah. 
+The the decoding part is text generation and and the the the text generation papers might be relevant to to this research, so there's no problem with that.
+(PERSON8) Oh oh I found I found a paper-
+I'm sorry I have today, I have lots of things to say.
+(PERSON9) No that's good, that's good.
+(PERSON8) Normally, I don't have that much.
+But um uh uh-
+Well I found one that deals with noisy constraints, so the idea that the user is uh writing things to be constrained.
+But it it's wrong in some way or uh there is a problem with that so I didn't finish the the reading yet, but is this something to worry about or forget about it and think that everything that will pass to to be constrained will be correct?
+(PERSON9) Uh I'm not sure, uh can you can you send me the link for the paper and maybe yeah we can look into it tomorrow?
+(PERSON8) Yeah, sure, I will will read it today and we can discuss a little bit also, okay.
+(PERSON9) Yeah yeah.
+I will at least try to look at the abstract and the summary of the of the paper to get the general idea.
+But yeah-
+(PERSON11) I can imagine-
+(PERSON9) But definitely-
+(PERSON11) Like if the constraint is noisy, you mean like that there are some typos in it?
+Or something like this?
+(PERSON8) Yes.
+(PERSON11) Yeah so I like I think that there might be use case, because you are you as a user you're maybe you're in a hurry you want the translation like as fast as quick as possible, you make a typo and uh if if the those cues are robust enough to get or to deal with the typo, it would be great, yeah.
+So, yeah, we can also be interested in those like noisy things.
+(PERSON8) Okay, yeah.
+I will I will send the link and we can discuss tomorrow and I will have I will describe it better. 
+Because I didn't read it I didn't read it yet.
+So well for me, for my side, from my side, it's everything.
+I I- 
+Thank you for all the explanations.
+(PERSON9) Oh well hopefully, they were helpful, alright, yeah okay.
+So so yeah we we can <unintelligible/> so we will talk to each other tomorrow and this is fine I guess.
+Yeah, okay, so so uh I guess in case of [PERSON3], uh I think it's fine if you join us next week.
+(PERSON3) Okay. 
+(PERSON9) Just to still be sort of updated and have have some idea-
+(PERSON3) Sure.
+(PERSON9) What is going on with this.
+We will we will not push you into m- much uh push you too much now that you're still not officially employed, so I think it's fine.
+Yeah.
+(PERSON3) Ok, ok.
+(PERSON11) Normally we want those these meetings to <laugh/> to spend only 30 minutes, but this time-
+<censored/>
+(PERSON3) Sure.
+(PERSON11) We decided that from the beginning that we should regular meetings for him with him just for him to be part of the team.
+Uh so that's why it was prolonged to an hour we discussed. 
+So sorry about that.
+(PERSON9) Yeah so so so basically-
+No no-
+(PERSON11) Normally it's spent only or should spent only like 30 minutes.
+(PERSON9) Yeah, so so so the idea yes the that today this this meetings are sort of updates.
+And you know to well originally, it was to keep [PERSON8] updated that everything is going to plan and such.
+But it's true that that <unintelligible/> list is now now starting and we definitely should try to discuss and and have maybe semi-regular meetings like once per week, when we can talk about uh the the uh options or like the the possible research direction in more detail that's definitely going to be necessary.
+(PERSON11) Mhm. 
+Yeah and we should we should definitely uh write it down somehow, or all the ideas because just talking about it is great. 
+But I will remember nothing.
+(PERSON9) Th- That's what the that's what the [ORGANIZATION7] Doc is for.
+(PERSON11) So the agenda agenda doc?
+(PERSON9) Yeah yeah that's what the bullet points that's what the bullet points are for there.
+(PERSON11) Or maybe the doc that we created for [PERSON2] should be more suitable for this.
+If we want to <unintelligible/> list.
+(PERSON9) Okay, we can-
+Like if it going to create a document for the task itself, it should definitely be linked in the agenda document too.
+So we can easily like get get to that.
+But yeah, I-
+(PERSON11) There is one, [PERSON9], there is one that we created for [PERSON2] in the beginning, and uh yeah so.
+(PERSON8) Yeah, it explains the task and so can use that.
+(PERSON11) We can continue in like in this document to write everything.
+(PERSON9) Yeah, that's definitely good idea.
+Uh, yeah can you please send me the link in [ORGANIZATION2]?
+I will include it on top of the agenda document <unintelligible/>-
+(PERSON8) I can send you.
+(PERSON9) Yes, definitely.
+Okay thanks.
+(PERSON3) Oh yeah cou- could somebody add me to the [ORGANIZATION2] workspace?
+(PERSON9) Okay, I-
+(PERSON3) Because I'm not there yet.
+(PERSON9) Okay I I will send it send it to through email.
+(PERSON3) Great, thanks.
+(PERSON9) Okay, so I will do that and I will uh tell [PERSON6] to include you to the project repository.
+(PERSON3) Yeah.
+(PERSON9) And I think that's everything we needed to discuss today.
+So I guess see you see you in a week and <laugh/> see you [PERSON3] in a week and see you [PERSON2] tomorrow.
+(PERSON8) Tomorrow. <laugh/>
+(PERSON3) Okay, see you guys.
+(PERSON9) Okay, bye.
+(PERSON8) See you.
+(PERSON11) See you, bye.
+(PERSON8) Nice to meet you, [PERSON3].
+(PERSON3) Nice to meet you too.
+(PERSON11) Nice to meet you, bye.
+(PERSON8) Bye.
+(PERSON9) Bye.

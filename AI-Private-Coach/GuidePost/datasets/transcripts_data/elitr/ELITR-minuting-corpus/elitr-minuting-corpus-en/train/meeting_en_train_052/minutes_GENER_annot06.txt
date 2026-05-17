@@ -1,0 +1,17 @@
+[PROJECT3] demo preparations 15.05.2020
+Attendees: [PERSON7], [PERSON15], [PERSON13], [PERSON14], [PERSON6], [PERSON17]
+Purpose of meeting: Testing live subtitles, discussion about [ORGANIZATION9] demo
+
+Summary
+• IWSLT is without website
+• optimal screen resolution for demo should be 1920x1080
+• developing and improving systems for speech recognition of English, German, French, Spanish
+• Overleaf is obscruing the public access
+• many words for segmenter
+• segmenter is slow
+		Milestones
+		• Congress meeting was shifted one year (May 2021)
+
+
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,21 @@
+[PROJECT1] meeting, 2020-08-08
+
+Participants of the meeting: [PERSON7], [PERSON4], [PERSON8], [PERSON5], [PERSON1]
+
+
+It was discussed at the meeting:
+
+- [PERSON7] did not contact any reviewers yet, because he wasn't sure who he could contact
+- [PERSON1] asked [PERSON6] and he agreed that he could do the review of the book
+- [PERSON9] wanted 3 revieweres, so it's need to find 2 more reviewers
+- [PERSON7] try to ask [PERSON2] and [PERSON11] if they could write a review
+- Review should have one or two pages
+- Everybody agree that [PERSON4] should be co-author of the book
+- [PERSON4]'s paper was accepted to [PROJECT4]
+- [PERSON1]'s paper from Helsinky was accepted to [PROJECT2]
+- Everybody should continue with writing book
+- The book must be send to the reviewers in October, [PERSON1] would like to have it finish earlier
+- The book should be finished like at the end of September
+- [PERSON5] left some comments in the book
+
+The minutes were written by: [ANNOTATOR1]

@@ -1,0 +1,71 @@
+[PROJECT5] Remote Meeting
+Minutes of 4.6.2020 11AM CEST
+• Connection:
+o [ORGANIZATION1] is busy, we have to use zoom. Web-based zoom connection should be also possible, please try it some time in advance.
+--   [URL]
+--   Meeting ID: [NUMBER]
+--   Meeting Password 1234
+-  Doodle for postponed review: [URL1]
+-  Financial tables (deadline end of May)
+--   [PERSON11] received from: [ORGANIZATION11], [ORGANIZATION2], [ORGANIZATION6]
+-  I'll go through it and let you know if I need anything clarified.
+-  Deliverables
+--   Internal deadline (complete draft) Jun 8 → All due Jun 30
+--   Status?
+--- D2.1    [ORGANIZATION2] Report 1 on Initial ASR Systems (reviewer - [PERSON22])   [URL] 
+--- D3.1 [ORGANIZATION11]  Report 1 on Spoken Language Translation (reviewer [PERSON3]) [URL] 
+--- D5.1 [ORGANIZATION3] Initial Report on Summarization (reviewer - [PERSON2]) [URL]
+--- D7.2 [ORGANIZATION3] Report on NLP Technologies Workshop at [ORGANIZATION10] Congress ([ORGANIZATION3] will officially ask for deadline extension) (reviewer - [PERSON12])
+--- D7.4 [ORGANIZATION5] Report on Dissemination Activites: Intermediate, Final (reviewer - [PERSON11]) [URL]
+--- D8.2 [ORGANIZATION3] Project Management Guide: Initial, Updates (reviewer - [PERSON14]) [PERSON11]: first draft done [URL]
+-  D7.2: DPO suggested "D7.2 Report on NLP Technologies Workshop at [ORGANIZATION10] Congress" I would propose to change the due date. IF it is OK with you, please propose a new due date. We can still get some feedback from the reviewers if we have a draft D7.2 report. It is easier to change the due dates of deliverables. However, we are proposing the'partial report' for milestones, as these are set in the grant agreement and can only be changed through an amendment.
+-  D7.4: Please be aware that input from everyone will be needed! You can start by filling out the google sheet: [URL]
+
+-  Milestones
+--   [ORGANIZATION10] Congress - We will leave M11 open until after the real congress.
+-  New Congress date!
+--   30th  May – 3rd June 2021
+-  Workshop day (i.e. our performance) - Tue 1st June 2021
+
+-  Demo - now for [PERSON5] and EC, later for Congress
+--   We should musime odlisit produkcni system od novych testu.
+--   Demo was and is terribly endangered by every partner improving the their components (that's good), but they do not fit together as one pipeline
+--   [PERSON10] proposes:
+-  We should have *all* our components replicated at other sites, so that we can survive such situations. I'magine it happened for the congress itself.
+-  So every research partner please find a "secondary partner" within our team and make sure to provide this secondary partner with a runnable backup of your component(s).
+-  [PERSON22]: What about having dockerised versions of our components. That way anyone can run them (or they can be run in a rented cloud server). If we show a secondary partner how to run the component, then I bet by the time the need comes to run the backup, the component will have changed, and the instructions won't work. Or the instructions never worked anyway. Dockerisation forces you to make explicit the dependencies required. 
+--   I appreciate that this is extra infrastuctural work so needs to be agreed at the project level.
+--   Also, it doesn't have to be docker, could be some other framework providing similar componentisation. 
+-  [PERSON10] agrees (never done any dockerization himself; what about the root-less singletons?) [PERSON22]: Singularity - I have heard of these but have no experience.
+--   [ORGANIZATION3] needs to provide their setups to a backup site:
+-  [PROJECT2] systems to [ORGANIZATION2] (it's only CPU-based)
+-  Punctuator to [ORGANIZATION6] (it's only CPU-based)
+-  [PERSON13]/[PROJECT4] systems to [ORGANIZATION11] [this already halfway happening for [PROJECT1] teacher-student evaluation]
+--   [ORGANIZATION6]: the backup solution is not yet stable to grant a successful demo but we are working hard (especially [ORGANIZATION3] and [ORGANIZATION2], thank you guys) to have the whole solution running as soon as possible.
+-  [ORGANIZATION2] has installed dockerized segmenter and MT on [ORGANIZATION6] virtual machine
+-  [ORGANIZATION3] is running [ORGANIZATION2] ASR for German and English
+-  Testing hard but power outages on both sides have made things a little bit complex this and last week.
+-  Last week we mailed [PERSON5] to let him know that we are still working to replicate services.
+-  Meanwhile a Romanian mother tongue person reviewed the demo translations (German to Romanian). Please have a look at it:
+[URL]
+--   Demo remarks:
+-  [ORGANIZATION3] prepared videos for which we also have ASR transcripts (English, Czech, not quite sure about German at the moment), and even some en->{de,cs} reference translations. We should have scores soon.
+-  This is meant to give the viewers of the demo (incl. ourselves) a clear idea about what score values correspond to what quality.
+-  
+  
+-  [PERSON22] - have we been asked if we want to extend the project? One consideration is that currently all final deliverables are due for Dec 31st, which is bad timing. A short extension could help with this. A longer extension could help if we are under-spending budgets.
+--   [ORGANIZATION11]: 2-3 months
+--   [ORGANIZATION2]: 3 months
+--   [PERSON5]:
+--   [ORGANIZATION6]: 
+--   [ORGANIZATION3]: 2-3 months sound good
+--   we will decide on June 10 and ask for the extension before June 15
+-  IWSLT results discussion call ([PERSON10] suggested)
+--   To know, which workers are the best candidate options
+--   Review the methodology
+--   ...let's use one of the dry run demo sessions for this, [PERSON10] will send IWSLT Findings PDF
+-  IWSLT remote presentation:
+--   [PERSON10]+[PERSON14] need to agree on main results presentation (live? pre-recorded?)
+--   [PERSON8] is starting to prepare slides + video for pre-recorded system paper presentation; should include essentially the demo for [PERSON5], a little live-translated video
+--   [PERSON8] will share overleaf, anybody welcome to contribute
+

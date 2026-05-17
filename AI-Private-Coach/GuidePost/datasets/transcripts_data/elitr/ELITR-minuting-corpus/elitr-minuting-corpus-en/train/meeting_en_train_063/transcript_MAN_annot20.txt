@@ -1,0 +1,727 @@
+(PERSON2) <laugh/>
+I don't know what's the matter, something changed.
+(PERSON4) Uh-uhm. 
+<other_noise/>
+<unintelligible/>
+(PERSON2) Thank you, thank you for minutes, everybody.
+Uh, now I'm good from everybody.
+I really have all variants of minutes, and I will say your -
+Uh, I will send you in an hour probably, because I have just got five minutes ago the last minute.
+Uh, I've, I, I will send you their, uhm, uh, a set of minutes for the evaluation.
+And otherwise, [PERSON4], did you discuss with [PERSON1], uh, their annotation?
+(PERSON4) Ah, yeah.
+So, uhm, I guess [PERSON1] was a bit busy today.
+So, might be we can meet, uh, later today or maybe tomorrow morning.
+But I have some updates on the [ORGANIZATION2].
+(PERSON2) Yeah, <unintelligible/>.
+Tell us it. 
+(PERSON4) So, the minutes are almost ready from 2006.
+So, we guess, uh, we have the [ORGANIZATION2] thing from, uhm, 2006, right?
+(PERSON2) Uh, r-, f-, more than one year, right.
+It's 2006 till 2011, I think.
+(PERSON4) No, think - 
+11, yeah. 
+So, I have -
+Uh, so, I have now all the minutes in the format that we require.
+For those years.
+(PERSON2) Really. 
+(PERSON4) Now.
+(PERSON1) Uh-uhm.
+(PERSON4) Yeah, so, now what we need is - 
+But the thing is that in the [ORGANIZATION2] data, uhm, I went to the data, s-, that <unintelligible/> has segregated in terms of some maximum and mini- minimum word limit, right.
+(PERSON2) Uh-uhm.
+(PERSON4) So, uh, there, there are many meetings which are splitted, right. 
+Like, uh, those are not continuous.
+(PERSON2) Yeah, interchapters.
+(PERSON4) Yeah, interchapters, right.
+(PERSON2) Uh-uhm.
+(PERSON4) Uh, but <unintelligible/> that we have now is the entire minute.
+(PERSON2) For the whole meeting.
+(PERSON4) For that -
+Yeah, for that, for the whole meeting. 
+(PERSON2) I think it's <unintelligible/>.
+(PERSON4) Uh-uhm.
+(PERSON2) Uh-uhm.
+(PERSON4) So, uhm.
+Should we, like, uh, like, now I'm, like, uh, thinking about the alignment.
+So, how should we do the alignment, because -
+Should we keep all the transcripts belonging to one bit in one single folder along with the corresponding minute?
+(PERSON2) Uh, uh. 
+Could you specify once more this alignment, it has too many minutes.
+Uh, too many m- meanings. 
+What did you mean by a lot -
+(PERSON4) <unintelligible/>.
+Sorry, sorry, sorry.
+I should not have to ali-alignment. 
+So, the thing is, like, we want the, uh, transcript and the minute together in one place, right?
+(PERSON2) Yes.
+(PERSON4) Now I have the -
+(PERSON2) Yes.
+(PERSON1) Uh-uhm.
+(PERSON4) Now I have the entire minute in one single, uh, uh, in one single file. 
+(PERSON2) Uh-uhm.
+(PERSON4) But in [ORGANIZATION2], uh, many minutes are split into chapters. 
+(PERSON2) Uh-uhm. 
+Yes.
+They are. 
+Uh-uhm.
+(PERSON4) So, uhm, how do you want the data to be, uh, there. 
+Like, all the -
+(PERSON2) Are they split - 
+So, you asked, if we should split the mi-, uh, split the transcripts, or put together minutes, yes?
+This is, this is th-the, the alternative. 
+(PERSON4) Yeah.
+Either we join all the transcripts for a given day into one and then keep the minutes along with it, or then, the other way round is to -
+You have to again split the minutes according to the chapters. 
+(PERSON2) How long are the chapters? 
+Uh, just, uh, average. 
+(PERSON4) Uh, the chapters are really long. 
+But the minutes belonging to the chapters are usually very short. 
+(PERSON2) Yeah, yes, I have seen the minutes. 
+Uh, uh, I think it's more, uh, it's more logical to make it, uh, uh, one chapter, one minute.
+Not to join, but to split.
+(PERSON4) Split the minutes.
+(PERSON2) If nobody has any objections, I would propose rather to split transcripts than to join the minutes.
+Because - 
+(PERSON4) Ok, please let me know.
+(PERSON2) Because the minutes are already kind of ready unit. 
+So, it, uh, probably has no sense to make one more complicated unit from already ready units.
+(PERSON4) The minutes are in one single file.
+So, if you - 
+If we want to like, uh, create minutes for each chapters, then we have to split that large file into the consequent files. 
+OK. 
+So -
+(PERSON2) Well, is it, is it hard to do so, w-, how actually, how -
+(PERSON4) No, no.
+It is not hard, OK.
+I just wanted - 
+(PERSON2) Yeah, because they're actually marked. 
+I-in the chapters, you f-
+Yes. 
+It's, it's actually easy because it is marked.
+Yes.
+(PERSON4) Yeah, I want our decision from you all.
+So, either we split the minutes, or we join the transcript. 
+So, whatever you decide, I will do accordingly. 
+(PERSON2) Uh, on the contrary, uh, either we split the transcript or join the minutes.
+(PERSON4) Yeah.
+(PERSON2) You have, you have t-, you have to-
+(PERSON4) No. 
+(PERSON2) Y-
+(PERSON4) No, I said the transcripts in the [ORGANIZATION2] data are splitted into various chapters right. 
+(PERSON2) Yes. 
+And chapter <unintelligible/> as a separate minutes.
+(PERSON4) Each chapter has separate minutes but whatever data I have now <unintelligible/> from the website, we have all the minutes in one place. 
+Or a given day.
+Or a given transcript. 
+(PERSON2) Uh-uhm.
+(PERSON4) OK.
+So, that's what I'm trying to understand that should I like, uhm, split the minutes into separate chapters?
+(PERSON2) Minutes?
+(PERSON4) Yeah. 
+(PERSON2) Minutes are already for each separate chapter, no?
+So, I really -
+I, I, I -
+(PERSON4) I think -
+<unintelligible/>
+(PERSON2) So now I think I don't understand the question.
+So, as I, uh, as I -
+<parallel_talk/>
+The minutes.
+Uh, it looked like each chapter has its special summary.
+Uh, If I'm not.
+<unintelligible/>
+(PERSON4) Yes, yes, I know. 
+I know. 
+You are talking about the website, OK?
+Not, le-let me make it clear.
+(PERSON2) Yes, maybe, maybe scr- share your screen and show me what you fee-, what you, uh, uhm, what you mean.
+(PERSON4) Ah, OK.
+But I guess that will be difficult.
+<unintelligible/>
+Different.
+(PERSON2) I, I'm getting -
+(PERSON4) I'm already <unintelligible/>.
+OK.
+OK.
+Let me try.
+Hold on.
+(PERSON2) <another_language/>
+Split the minutes.
+(PERSON2) <another_language/>
+(PERSON4) Just hold on a bit, [PERSON2].
+(PERSON2) <another_language/>
+(PERSON4) OK, so, can you see my screen?
+[PERSON2]?
+(PERSON2) Just a moment. 
+Yes.
+(PERSON4) Wow.
+(PERSON2) Yes, I can see it.
+(PERSON4) <laugh/>
+So, uh.
+So, I, uh.
+So, I think, so this is how like <unintelligible/> has split it in the [ORGANIZATION2].
+(PERSON2) Yes. 
+Yes.
+(PERSON4) Offering to <unintelligible/>.
+OK.
+(PERSON2) Uh-uhm.
+(PERSON4) So now.
+Let me get inside any one.
+OK, so, uh.
+Suppose we are talking about certain, uhm, meeting.
+Suppose, uh, this one.
+(PERSON2) Uh-uhm.
+(PERSON4) I'm highlighting.
+So, this is not a good example because this is just one.
+Uh.
+OK.
+Suppose we are talking about this.
+This there.
+(PERSON2) Yes. 
+Uh-uhm.
+(PERSON4) OK.
+(PERSON2) Yes.
+(PERSON4) So, you know like, uh.
+On a given date, so the date for this, uh, particular, uh, meeting, is 7, 7, 2011. 
+Right.
+(PERSON2) Yes. 
+Uh-uhm.
+(PERSON4) And, uh, this is, I guess, chapter 1.
+And this I guess chapter 2 and chapter 3.
+(PERSON2) Yes. 
+Uh-uhm.
+(PERSON4) OK.
+(PERSON2) Yes.
+(PERSON4) But s-
+But these are all part of the same sh- sheshn. 
+(PERSON2) Uh-uhm.
+(PERSON4) But they are split into different chapters.
+So, what I'm asking is - 
+Now the meeti-
+(PERSON2) But these are s-, these are, uh, transcripts.
+(PERSON4) These are transcripts, just part of the same meeting.
+(PERSON2) Uh-uhm.
+(PERSON4) So, I'm asking is, like, do you want to join the transcripts of a given meeting?
+Do you want to do that? 
+(PERSON2) Uh, but within this three, three chapters, do you have several ch-, uh, uh, uh, no. 
+Uh, within this three files, do you have sep- several chapters or just one chapter?
+(PERSON4) It's just one chapter, I guess.
+(PERSON2) Uh, are you sure?
+Because.
+(PERSON4) Yeah, yeah.
+I -
+(PERSON2) Transcripts, uh, when you open, uh- some uh-.
+So, when I open some of these transcripts, I have seen, uh, that the transcript included several chapters, and it was within one transcript.
+So, you're totally sure that all these three parts of, uh, July 7.
+(PERSON4) <unintelligible/>
+(PERSON2) Are just one chapter.
+(PERSON4) No, then I have to double check because I have checked not many. 
+So, few of them.
+And I, like, saw, that, uhm, those are -
+(PERSON2) Could you open a - could you open it now, so this one, two, three things.
+(PERSON4) Uh, yeah.
+I think I could better.
+I have some downloaded alr- already.
+(PERSON2) But you can just - 
+We can just look at this one if it is already here.
+(PERSON4) OK, yeah, so there are multiple -
+(PERSON2) Can you see there - 
+Yes, they're, these are multiple chapters.
+(PERSON4) Uh-uhm.
+(PERSON2) And I think, these -
+<unintelligible/>
+Open because, quite often, because, uh, these, uh, chapters are summaried according to some topic and one they included more topics. 
+And one transcript is mo-, uh, more or less one day.
+And, uh, uh, uh, if, if 
+A- a- as you can see they are just seldom separated into part one, two and three and I don't know the reason for this separation.
+Because otherwise, uh, this could be quite long transcripts also including many chapters but not separated.
+So, this, uh, uh, so this is what, uh, what I don't know, why they are actually separated, and that's why I can't even answer.
+So, I would be for the idea to divide one transcript for one chapter aligned with one minute for these chapter.
+So, I vote for that.
+(PERSON4) Uhm, OK.
+(PERSON2) But, uh, if, uh, well, I don't know. 
+(PERSON4) Yeah, OK.
+I, I understand your point.
+Uhm, so, you want that whatever is there in the [ORGANIZATION2] data, we align the meetings, uh, minutes accordingly.
+We don't join the transcript.
+Right?
+(PERSON2) Uhm.
+I'm not sure that was the point.
+The point is -
+Uh, so I don't know what is in these three tra- transcripts.
+That's why I can't really answer if we join or no join.
+It could also happen that this, uh, 0, 1 contains half of the chapter, I don't know, 15. 
+And the second half of the chapter 15 is the 0, 2.
+I on't know.
+     
+(PERSON4) OK. 
+Hold on, then.
+(PERSON2) Let's open it.
+Let's - 
+I could just try to, try to open this 1, 2, 3 and look wh- where it, uh, stops and where this 0, 1 begins.
+(PERSON4) Uh-uhm.
+(PERSON2) Probably - 
+(PERSON4) Yeah, OK. 
+Just a second.
+(PERSON2) I really, really suppose it has no reason to divide the chapters and it's quite, uh, un-, uh, unprobable, je, that chapter will be splitted.
+(PERSON4) Yeah, OK. 
+<other_noise/>
+Let me open this -
+(PERSON2) <another_language/>
+<other_noise/>
+<another_language/>
+(PERSON4) OK, so let us look at those -
+(PERSON2) Uh-uhm.
+(PERSON4) I'm sharing my screen again. 
+Yeah.
+(PERSON2) Eh, moment.
+Yes.
+Uh-uhm.
+(PERSON4) OK, so you see th-the - 
+This is the chapter ID 1, 11, OK?
+(PERSON2) Uh-uhm.
+<unintelligible/>
+(PERSON4) The first one?
+(PERSON2) Uh-uhm.
+(PERSON4) And then. 
+This is just the one chapter, yeah.
+(PERSON2) Uh, try to, uh.
+Maybe search for chapter.
+(PERSON4) Yeah, you see, this is chapter ID.
+(PERSON2) Yes.
+(PERSON4) OK.
+Many posted here.
+0, 1, 1, 0, 1.
+(PERSON2) Yeah.
+(PERSON4) OK?
+(PERSON2) Well, then, that's OK.
+Then it's -
+(PERSON4) And then we have another chapter - 
+(PERSON2) <unintelligible/>
+(PERSON4) Yeah.
+(PERSON2) Uh-uhm.
+So, in this case, it's s- i- it seems to be correspondence, all the chapters to their transcripts. 
+To the, uh, uh, sorry, minutes.
+(PERSON4) Yeah, and I guess they're all different things, so I guess.
+Let us keep, how it is there already. 
+<unintelligible/>
+(PERSON2) Yeah, it's different, yes.
+Congo and then Indonesia, yes.
+(PERSON4) Yeah.
+(PERSON2) Including attacks on minorities.
+Yes, it's just different.
+Well, uh. 
+Well, uh. 
+So, uh, in this case and  s- still the decision, uh, from my, uh, my opinion is that each chapter should have its minutes and its transcri- transcript.
+(PERSON4) Yeah, yeah, OK.
+(PERSON2) I think it's just kind of intuitional decision.
+(PERSON4) Uh-uhm.
+(PERSON2) Intuitive.
+(PERSON4) OK, so.
+Uhm.
+I'm now also calling the other years.
+So, I think we can, uh, have whatever is there in the [ORGANIZATION2] data.
+But I think it will, like, maybe take this, like -
+By Monday maybe we can have the aligned things.
+By Monday or Tuesday, I don't know.
+Yes.
+(PERSON2) Uh-uhm.
+(PERSON4) Bu- the, but the data set would be really soon.
+(PERSON2) OK, well, uhm, fine, good to hear that.
+(PERSON4) And yeah, so, I n-, I needed to talk to [PERSON1], but, uh -
+(PERSON2) Uh, [PERSON1] is here.
+<unintelligible/>
+(PERSON4) She's there?
+(PERSON1) Yeah, I'm there.
+(PERSON4) Oh, OK.
+So, you got, uh, free today?
+<unintelligible/>
+(PERSON1) As I said, you, you can, uh, just e-mail me, maybe, or do you just wanna talk, you can discuss now also.
+(PERSON4) No, well maybe we have to discuss via screensharing or something, uh, so only when you are - 
+(PERSON1) Uh-uh.
+(PERSON4) We can discuss.
+(PERSON1) Uh, yeah, so, uh, you can share your screen, maybe?
+Now.
+(PERSON4) Now?
+(PERSON1) Yeah.
+(PERSON4) Maybe not in this meeting. 
+Maybe not in this meeting.
+(PERSON1) OK.
+(PERSON4) Maybe we have the, yeah.
+Talk separately on this.
+So, uh, how about - how about tomorrow morning for you? 
+(PERSON1) Uh, tomorrow.
+Uh-uhm.
+<unintelligible/>
+(PERSON4) Your screen to be shared, so maybe we can do via [ORGANIZATION1] Meet.
+(PERSON1) Uh, you want my screen also to be shared?
+(PERSON4) Yeah, yeah, because you have already installed that, right? 
+That interface.
+(PERSON1) Yeah.
+Yes, I have installed, uh, only, the, uh, the annotation, uh, thing, the tool.
+(PERSON4) Yeah, and it is working, right?
+(PERSON1) Yeah, it's working. 
+(PERSON4) Yeah, in, in, in wh- what happened - 
+What is happening to my side is -
+(PERSON1) Uh-uhm.
+(PERSON4) Like its working but, uh, some package, did you do some package called QP or something. 
+(PERSON1) Uh-uhm.
+(PERSON4) It is giving - 
+<unintelligible/>
+Result. 
+OK.
+(PERSON1) Uh-uhm.
+(PERSON4) So, I need to see from you and since we need to quickly move on this so maybe we can, like, quickly discuss -
+(PERSON1) Uh-uhm.
+(PERSON4) Like, how can we give it to our annotators.
+(PERSON1) Uh-uhm. Yeah, so, what - what is the idea actually.
+I, I am, because I, I'm totally, uh, uh, new to what, uh, what are you thinking, uh, like, uh, what is the approach with this.
+(PERSON4) Yeah, that -
+Yeah,  that's what we have to discuss.
+Once, once, there, uh, uh, once we do one annotation, b-, like both of us and then how would we communicate this to our annotators, that we have to think. 
+OK.
+(PERSON1) OK.
+Uh-uhm.
+So, you've already thought of the idea that, uh, how are these things gonna -
+(PERSON4) Yeah, wh- one simple thing is we- we s- we d- directly give them and they give us the outputs, but.
+(PERSON1) Uh-uhm.
+(PERSON4) For that I need to personally see the output.
+What the - 
+What it looks like.
+But in my, my end -
+(PERSON1) Uh-uhm.
+(PERSON4) I am not getting the output correctly. 
+Because due to some -
+(PERSON1) Uh-uhm.
+(PERSON4) error or something, I don't understand.
+(PERSON1) Uh-uhm.
+Did you - did you try that, uh, the same which, uh, which is there on the GitHub?
+(PERSON4) Yeah, yeah, yeah, that one.
+Because whatever has [PERSON3] uploaded in the website, it is wrong. 
+It pointing to some wrong, uh, file. 
+So -
+(PERSON1) Yeah, but the GitHub one is correct, which [PERSON3] has uploaded.
+(PERSON4) Yeah, yeah, yeah.
+(PERSON1) So maybe you can also try to uninstall it and maybe install. 
+It will work, I think.
+(PERSON4) Yeah, yeah, I tried it, it, in Mac, in Windows.
+And in, Ubuntu, but.
+(PERSON1) Uh, OK.
+(PERSON4) There's something -
+(PERSON1) OK.
+(PERSON4) So, so, so, tell m-
+Did you - 
+Did you install it on, U-Ubuntu, or did you install it on Windows.
+Because, I don't know, uh, how, like, in which operating system the annotators are working.
+(PERSON2) Annotators are mostly working on Windows.
+(PERSON4) Uh, so that's why you like have to be - 
+Make it run in Windows.
+And you were - 
+Uh, so.
+Uh, [PERSON1], it's running on Windows or in Ubuntu in your end?
+(PERSON1) So, actually, I have Windows by, uh, default, uh, I have, too, Windows on my system.
+Sometimes I use Ubuntu, sometime I use, uh, it is dual booted.
+Uh, but then, I also use, uh - 
+I have a client on Windows, which, uh, through which I, uh, actually run the <unintelligible/> all those time.
+So.
+(PERSON4) So, it is running on Windows, right?
+(PERSON1) Yeah, it is running in Windows.
+(PERSON4) Wonderful, that is wonderful.
+So let us, uh, catch up maybe tomorrow, when you are a bit free from your work and -
+(PERSON1) Uh-uhm, uh-uhm, yeah.
+(PERSON4) Uh, finalise it-
+Finalise it by tomorrow.
+And in tomorrow's meeting, then we can discuss this with [PERSON2].
+(PERSON1) Uh-uhm.
+So, uh, actually, uh, no, I have one thing to like, uh, uh, I - just my confusion only, I think.
+So, uh, we were able to see the output, I think.
+[PERSON3] already made us see the output, so. 
+Uh, like, uh, what is the, uh, uh, like, what is, uh, going on in your mind, maybe.
+OK let's discuss it when we work tomorrow. 
+(PERSON4) No, that's, just it's, so think of it a- as a dryland on our end, because whatever [PERSON3]'s showed to us -
+(PERSON1) Uh-uh.
+(PERSON4) And that will not <unintelligible/>.
+OK, we are confident about, uh, whatever we are giving to our annotators and whatever output we are expecting.
+(PERSON1) Uh-uhm.
+(PERSON4) And then maybe, uh, because, uh, installing the Windows, I thought, uh, for a non-technical person, it won't be very straight-forward.
+(PERSON1) Uh-uhm.
+(PERSON4) In Ubuntu, uh - 
+In Ubuntu, it was easy.
+(PERSON1) Uh-uhm.
+(PERSON4) These things, we have to, like, communicate very clearly before giving the interface to the annotators.
+Let us work.
+(PERSON1) OK.
+(PERSON4) It's just that <unintelligible/> idea.
+(PERSON1) Uh-uhm.
+OK.
+OK, so, let's meet tomorrow, maybe. 
+So, we can maybe do that dry run.
+(PERSON4) Yeah, maybe you can also point to me that web with some packages and things.
+Because I spend at least one or one and half hours on that but I still could not figure it out.
+(PERSON1) OK, OK. 
+So, did you write to [PERSON3]? 
+Uh, about that?
+(PERSON4) Yeah, yeah, yeah.
+I wri- I wrote to [PERSON3] and uh yeah, uh, so, and expecting his replay.
+But, since, uh, on your end it is alr- already running, so there's -
+(PERSON1) Yeah, yeah. 
+Yeah.
+So maybe, uh, to see if, uh, uhm, because I'm not, uh, because I'm not, uh, spend much time on that, so, yeah, I think it- it is something which you want. 
+So, maybe just, uh, have a look at it, uh, and maybe, uh, we'll discuss, what exactly, uh, the idea you want to be communicated to annotators.
+(PERSON4) Yeah, I think, I think I want to see what output the interface is giving.
+(PERSON1) Uh-uhm. 
+OK.
+(PERSON4) And what many people think that they got off that.
+So, once I have that.
+(PERSON1) Uh-uhm.
+(PERSON4) Then we can move forward, OK?
+(PERSON1) Uh-uhm. 
+OK.
+(PERSON4) OK, uhm.
+Uh, yeah.
+So, [PERSON2], anything else?
+(PERSON2) Uh, no, well I'm really looking forward, that, uh, you make it work this alignment.
+That we can start with the annotators.
+(PERSON4) Oh, yeah, the interface, you mean, right?
+(PERSON2) Yes.
+Well, just all the communication.
+With annotators.
+(PERSON4) Yes. 
+Yes, yes.
+(PERSON2) Eagerly waiti- waiting for the result.
+(PERSON1) <laugh/>
+(PERSON4) We will resolve it, don't worry.
+(PERSON2) I will send you the - 
+I will send you, your, the meetings.
+Uh, now, so the, uh, the minutes for evaluation.
+A- so, uh, I will send you the e-mail with, a, the minutes.
+Ask for evaluation and, uh, uh, when we can discuss it.
+At the end of next week, I suppose, probably, uh, uh.
+Is it enough to have a week, for, uh, you to, for the manual evaluation?
+(PERSON4) So, how many minutes I have to evaluate?
+(PERSON2) Uh, 5.
+(PERSON4) 5 minutes?
+(PERSON2) Maybe 6.
+Yes.
+(PERSON4) Wow.
+(PERSON1) Each of us?
+(PERSON2) No, just, you will get, uh, 5 or 6, uh, minutes.
+One of them is yours. 
+Uh.
+And, uh.
+You will look at them, compare, think about, uh, different measurements, how, uh, so, you, and, yeah, uh, evaluate, so just, uh.
+Evaluate these meetin- mee- minutes for the same meeting.
+All of them are for the same meeting.
+(PERSON4) Is the evaluation based on the overleaf, right?
+Based on whatever is there on overleaf.
+(PERSON1) No, no, no, no, no, no, no, no. 
+(PERSON2) No, based on your, uh, based on your evalu- all of your possible evaluating properties.
+(PERSON4) Uh. 
+OK.
+(PERSON2) It can include -
+Uh, you can, do, you can also use automatic -
+<unintelligible/>
+If you have, but, uh, you can use, uh, this overleaf document and overleaf techniques, but first of all, use your mind.
+So really think about problems that arise while evaluating, eh.
+So, eh, think, uh, think of -, think of it as much as you can and write down the problems, so just really, to, uh get, uh, the, uh, uh, discussion.
+So, d- 
+(PERSON4) Yeah, so.
+So, so let me quickly point, uh, like, just, uh, while doing the annotation, my quick thoughts on this is number 1, the task is super tough, even for humans, and s-, the meetings that we have are super unstructured.
+(PERSON2) Uh-uhm.
+(PERSON4) So.
+Yeah.
+Now, when I did the minutes, uh, and when I saw them, after creating the minutes, I really  thought that these minutes are actually the action points, what came out from that. 
+Yeah.
+(PERSON2) Your minutes.
+(PERSON4) Yeah, right.
+My minutes are actually the action points that needs to be done after the meeting is over.
+(PERSON2) Well, this is your output.
+You will, uh, see also the outputs of the others and, uh.
+(PERSON4) Yeah, yeah.
+(PERSON2) Then you also can see -
+(PERSON4) <unintelligible/>
+I need to talk about that, why, why doing the minuting, so this what i thought, uh, like, what came out from my end.
+(PERSON2) Yeah, and this is what we want to discuss, so this is, so d-
+You are now already starting to discuss, what I want to make, uh, kind of general discussion, say, in a week.
+(PERSON4) Yeah, OK.
+OK, So.
+(PERSON2) Uh-uhm.
+(PERSON4) You, [PERSON2], you were saying - 
+(PERSON2) No, write down these things.
+(PERSON4) Yeah, you have to evaluate five minutes.
+So, [PERSON2], so please give us a one week time, so let us discuss - 
+(PERSON2) Yes, yes. T- till next Friday, say.
+Yes.
+(PERSON4) Yeah, Friday, yeah, wonderful. 
+(PERSON2) Till next Friday, I will send you the minutes, and, uh, the plan, for, uh, the, for the evaluation, for the next Friday, and - 
+(PERSON4) And we complete the evaluation by maybe Thursday and on Friday and we discuss all of us.
+Like we have a longer meeting to discuss - 
+(PERSON2) Yes.
+(PERSON4) What we found out. 
+Yeah. 
+OK.
+(PERSON1) S- so, uh, I have one question.
+Uh, each of us is gonna, uh, do the evaluation for say 5 or 6 minutes? [PERSON2]?
+(PERSON2) Yes.
+(PERSON1) Each of us?
+Or, or, uh.
+(PERSON2) Yes.
+Yes.
+Each of us.
+(PERSON1) One of us.
+OK.
+(PERSON2) No, each of us.
+(PERSON1) Uh-uhm, OK, OK.
+(PERSON2) It's more interesting, so everybody has some, uh, s-some, uh, so some decisions, some thoughts about that, some idears.
+(PERSON1) Yeah.
+(PERSON2) So, each of us should look at everybody's minutes and -
+(PERSON1) Uh-uhm.
+(PERSON2) And their own judgements.
+(PERSON1) Uh-uhm.
+(PERSON4) And [PERSON2], please, uh, rename the minutes according, uh, accordingly, so, uh. 
+Like, uh, for a given minute, it is evaluated by 3 of us or 4 of us.
+Uhm, we can easily identify of which minutes we are talking about.
+(PERSON2) OK. 
+Uh-uhm.
+OK, I will, I will name it somehow.
+(PERSON4) Uh-uhm.
+(PERSON2) Uh-uhm. 
+Yes. 
+They -
+(PERSON4) Wonderful.
+(PERSON2) Uh-uhm. 
+Thank you.
+Well, OK.
+Uh, then, this is all from -
+(PERSON4) Yeah.
+So yeah, now like - 
+Uh, next week, then after next week, we have to really be focused on the proposal and the shared task that, OK, by the next week I think the [ORGANIZATION2] data would be ready to us, for us.
+And, uh, and we need to really, like now, segregate what are the data that would be available to us from our meetings, because some of them we have to discard, right?
+[PERSON2]?
+And that exact data statistic should go inside the proposal.
+(PERSON2) Uhm, I didn't get thi-
+<another_language/>
+Sorry for that, I didn't understand you, because my children are quarrelling.
+(PERSON4) <laugh/> 
+OK.
+(PERSON1) <laugh/> 
+(PERSON2) They are, they are playing cards and they, uh, they are very unhappy with each other, I'm sorry.
+(PERSON4) And you were, like, discussing so boring things with us, so, I understand.
+(PERSON2) They don't understand it - 
+They don't speak English, but -
+<laugh/>
+(PERSON1) <laugh/> 
+(PERSON2) Uh, so what did you ask -
+(PERSON4) OK, so -
+<unintelligible/>
+Yeah, maybe only the, uhm, maybe uh, that week after the next week we have to be very sure about the data that we are going to release as part of the shared task.
+(PERSON2) Ah, so yeah OK.
+So, you want to in, in, in 2 weeks you want to know which meeting will be open to the community and which are not.
+(PERSON4) Uh, in two weeks I think it would be very, uh, very early for you, I don't know.
+But, uh, let's say, uh, we need to have the data with us, by No- by November 15th.
+(PERSON2) By November 15th. 
+OK.
+(PERSON1) Uhm, that's in two weeks.
+(PERSON2) It's in two weeks.
+<laugh/>
+(PERSON4) Yeah, yeah.
+(PERSON1) <laugh/>
+(PERSON2) OK.
+<laugh/>
+(PERSON4) OK, uh, because, uh, the proposal submission deadline is November 30. 
+(PERSON2) Oh.
+(PERSON4) So just to make sure, you.
+Yeah, so we can extend it maybe to 20 or 21? 
+Uh, but.
+The data, the evaluation matrix, all these things should be, uh, at least 70 percent clear to us before we submit the proposal.
+Because it can eventually change, uhm, while we upload the shared task, but uhm.
+Majority of the, of the things should be ready.
+(PERSON2) Yeah, yeah, well, I understand it and I really know that I should do that.
+This is kind of a big piece of work I should do.
+That I should go through all the meetings and look at the perp - the people who are all inside there, but this, uh, so, this is realistic, but I have, uh, I really don't want to do that.
+So, I don't start.
+So, I s-, I know that I -
+<unintelligible/>
+Do that but, uhm, I kind of have no, uh, emotional -
+<laugh/>
+But I will do that.
+No, no - 
+So, I have no choice.
+(PERSON4) OK.
+[PERSON2], this is - this is not super important now, so you can take some time.
+(PERSON2) Yeah, I will.
+<unintelligible/>
+(PERSON2) Yeah, I will do it next week, I think, I will be in [LOCATION1] and I will do that.
+(PERSON4) Oh, OK.
+OK. 
+Wonderful.
+(PERSON2) Uh-uhm.
+(PERSON4) OK, so we are like, huh, running towards, uh.
+(PERSON2) Yeah, towards the end of - for today.
+(PERSON4) To just ask you, [PERSON1].
+Uh, tomorrow, in the morning, are you - 
+<unintelligible/>
+Maybe?
+(PERSON1) Uh, uh, morning, uhm, wouldn't be that much. 
+<unintelligible/>
+If we can do it in maybe, uh, later after-afternoon.
+(PERSON4) OK, OK. 
+<unintelligible/>.
+(PERSON1) Because actually, uhm, I came to New Delhi for, uh, some documentation today -
+(PERSON4) OK.
+(PERSON1) And I, I have travelling tomorrow morning, because, because of the travel, I got uneasy and today I was, uh, I was having lots of vomiting. 
+And so, I, I couldn't travel back to my home.
+It's too far to here.
+So, I have to - tomorrow morning I'll be travelling.
+Uh, we can have the meeting, uh, maybe, after-afternoon, if, if, if  that suits you well.
+(PERSON4) <unintelligible/>
+Whenever.
+<unintelligible/>
+(PERSON1) Uh-uhm.
+(PERSON4) Yeah, yeah, yeah.
+(PERSON1) OK.
+(PERSON4) Ju- just drop me a message on WhatsApp and then we can figure it out when we'll see.
+OK?
+(PERSON1) OK. 
+Uh-uhm.
+(PERSON4) OK.
+OK, then.
+Take care, all of you.
+(PERSON2) OK. 
+(PERSON1) Uh-uhm.
+(PERSON2) Thank you all.
+Thank you all of you.
+(PERSON4) Bye, Bye.
+(PERSON1) OK, bye, bye.
+(PERSON4) Bye.
+(PERSON2) Uh, [PERSON1], did you call me yesterday?
+(PERSON1) Uh, yeah, so, eh, my, eh, because, uh, I, I, my internet was not working.
+I was calling you. 
+<unintelligible/>
+Just is the meeting over? 
+Eh, like, some, uh, did I miss something.
+But then I - 
+(PERSON2) Yesterday, I haven't -
+(PERSON1) It didn't happen, yeah.
+(PERSON2) Yeah, yeah.
+ I did - I haven't been there.
+Yeah, we had -
+(PERSON1) Yeah.
+(PERSON2) Actually.
+(PERSON1) Yeah, then I saw the message.
+(PERSON2) Yeah. 
+<laugh/>
+OK.
+So.
+<unintelligible/>
+To discuss, yes?
+(PERSON1) Yeah?
+(PERSON2) OK.
+So, it f- it will finish now.
+Uh, so, have a nice time and call if - 
+(PERSON1) OK.
+(PERSON2) Call or write me, I just didn't see it yesterday.
+Bye, bye. 
+(PERSON1) Uh-uhm.
+Bye, bye.

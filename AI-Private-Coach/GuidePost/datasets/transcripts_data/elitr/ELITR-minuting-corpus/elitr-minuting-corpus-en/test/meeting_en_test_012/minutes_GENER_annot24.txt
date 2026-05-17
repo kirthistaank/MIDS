@@ -1,0 +1,67 @@
+Virtual Coffee Hours 
+Date: October 15, 2020
+Attendees: [PERSON20], [PERSON12], [PERSON9], [PERSON3], [PERSON19]+ ??
+Purpose of meeting: Discussing current issues regarding minuting task
+
+- Small talk.
+--Covid19 situation in the Czech Republic.
+--Covid19 situation in India.
+--Checking who is present.
+
+- Named entity recognition model.
+--There are mistakes to identify the proper nouns.
+--UK has a good named entity recognition model.
+--Maybe they need manual annotation.
+--There should be special marks to recognise the individual speakers.
+---Letters will be used for speakers, the question is if A, B, C or D etc.
+--Assistance of [PERSON3] is needed, if he is free he should join the meeting.
+--Words ending with dash-clarification, if the proper noun finishes with dash, it can be removed.
+--Two step manual identification is suggested.
+---This task will be assigned to the annotators, they will add A, B or C to each line, indicating name, not a name or question mark.
+---Geographical names will also be anonymized.
+---Name tag was introduced to one of the participants.
+---Days of the week will not be considered as named entities, maybe it will be solved later on together with months.
+---Work with name tag was described, at first stage the name tag should be trusted, then the rest of the words goes to annotators.
+---Names of languages-are they proper names? Nobody knows.
+
+-Information on end of session.
+
+-Anonymization of the speakers' names.
+--Angle brackets were suggested together with ID and hashtag.
+--MT five sum is prefferred as it is not reversible.
+--If there is some mistake due to misunderstanding in the transcript, it shouldn't be bothered with, otherwise it could go on forever.
+
+-Information about [PERSON15].
+--His involvement in the minuting will be limited due to PhD studies.
+--The tool will be probably transferred to [PERSON20].
+--[PERSON20] and [PERSON15] will have the session together.
+
+
+-Mock annotation.
+--Two people will do the test annotation and two people will do the evaluation, after that the problems will be discussed.
+
+-Two participants left.
+
+-Mock annotation is discussed in more details.
+--The original idea is to read the transcripts and to produce the minutes and do the evaluation.
+---Twenty or forty meetings should be selected?
+---Who begins, who chooses the meetings, who chooses the number of meetings?
+---Meeting are too long, reading and creating the minutes is a big work.
+---Some participants don't agree with this approach, suggest just evaluating or preparing one meeting + minutes.
+--Nobody knows the timing and how many transcripts they should read and process and why.
+--[PERSON3] should answer these questions.
+
+
+
+Minutes submitted by [ANNOTATOR1]
+
+
+
+
+
+
+
+
+
+
+

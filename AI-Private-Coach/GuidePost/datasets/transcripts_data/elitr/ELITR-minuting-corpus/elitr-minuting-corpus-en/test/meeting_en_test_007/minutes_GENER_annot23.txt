@@ -1,0 +1,36 @@
+Meeting [PROJECT3]
+Date: 31. 08. 2020
+Attendees: [PERSON10], [PERSON2], [PERSON3] [PERSON6], [PERSON1]
+Purpose of meeting: Discussing [PROJECT6], [PROJECT1] and [PROJECT4]
+
+-Call on Thursday
+--It isn't necessary for everybody to join, but it might give more insight into the project.
+--It is at 5 p.m. of [LOCATION2] time.
+
+-[PERSON10]'s visit
+--[PERSON10] will need to visit [LOCATION2] as soon as possible to enter a proper work contract.
+--He needs to come for the paperwork, then return and work remotely.
+--It would be better if he could stay here in person.
+--[PERSON8] will provide the paperwork.
+
+-[PROJECT6]
+--They don't know whether [ORGANIZATION3] has started or not.
+--The problem will be raised on the Thursday call.
+--The certificate used for the quality estimation has just expired.
+--Leaflets are being prepared, they will be handed out to the participants.
+
+-[PROJECT4]
+--They are trying the back translation.
+--There are many CPUs that aren't being used now, so they could utilise them for the translations to make it quicker.
+
+-[PROJECT4]
+--They are still catching up with the state of the art.
+--They are training a model to do the evaluation.
+--There are doubts whether the model should be used for the evaluation itself, since it might be sensitive to domain shift.
+--The [PROJECT5] is creating semantically rich representations.
+--If they take the pre-trained model and fine-tune it during training, it might be useful for finding semantic similarities.
+--The metric can be used to guarantee that the paraphrasing doesn't stray away from the original meaning.
+--They will try and add as many constraints as they want and find when it loses the meaning.
+--It could be valuable since the papers focused on the constraint decoding don't use this perspective.
+
+Minutes submitted by: [ANNOTATOR3]

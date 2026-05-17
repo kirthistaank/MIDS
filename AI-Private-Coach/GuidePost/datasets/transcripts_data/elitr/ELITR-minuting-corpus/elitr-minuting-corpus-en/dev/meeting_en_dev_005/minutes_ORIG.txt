@@ -1,0 +1,46 @@
+[PROJECT2] Surge 2020 Organization
+
+Thu Jan 30, 13.00, in front of 423
+- [PERSON14]:
+-- upcoming sessions where domain adaptation would be good:
+- [PERSON14], [PERSON15], … doing a dry-run workshop on Feb 12 at [ORGANIZATION1]
+- [PERSON14] (or possibly someone else?) giving Monday seminar on [PROJECT2] on Feb 17; domain-adapted subtitling expected, who can help with domain adaptation?
+- Student Firms Fair: March 18-20
+- this will need serious preparations, all non-native high-school students
+- PROFANITY FILTERING is severely WANTED for this
+-- both pre-listed bad words
+-- as well as *live* adding of other bad words
+-- in source, or MT outputs
+- Another option
+ 
+-- Search for future topics/tasks in [PROJECT2] Monday Tests, not all are marked by WANTED; see esp. the last two sessions.
+- [PERSON16]:
+-- 1970-1980 PDF files from the [OTHER3] court of auditors (bundesrechnungshof)
+-- 15k sentences is now the corpus in English and [OTHER3]; cleaning is now needed
+- [PERSON3]
+-- adding the command to decompress audio
+-- working on multi-source config of [PROJECT1]
+- [PERSON17]
+-- evaluation tool is finished, now writing up the paper draft
+-- recommends to organize them in a google drive folder
+- [PERSON7]
+-- worked on [LOCATION1] ASR adaptation for [PERSON4]'s talks
+-- big improvements achieved, many domain specific words were recognized
+- [PERSON2]
+-- Asking about compression; the Librispeech was converted to mp3, then flac, then to wav; so [PERSON2]'s 
+-- Sound segmentation: some words get cut at window boundaries
+- The current improved implementation works for windows of 4 to 8 seconds, first finding word boundaries, then respecting them
+-- Waiting for [PERSON13] to test this new segmenter.
+-- Segmentation has to respect speaker boundaries (but that is generally not an issue in our setups).
+- [PERSON8]
+-- ([PERSON14] quickly introduced [PERSON8])
+-- Waiting for virtual machine for the paraphrasing server
+-- Will start visualization of sound input, all channels; as if audacity was recording but without recording.
+-- Paper FastSpeech, Dec 2019, [ORGANIZATION3] 300x faster, so could run locally.
+- WANTED check if 4there is code for that and integrate it
+- [PERSON11]
+-- Getting scripts ready for [PERSON4]'s talk.
+-- Not much work done this week,next -To-do's
+- Prime focus (segmenter)- full stop and its recall
+- Implement truecasing,  capitalization of Proper Nouns.
+

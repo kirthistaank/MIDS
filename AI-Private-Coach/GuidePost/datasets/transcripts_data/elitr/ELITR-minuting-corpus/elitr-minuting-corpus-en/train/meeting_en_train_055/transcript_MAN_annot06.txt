@@ -1,0 +1,360 @@
+(PERSON6) Okay so you have the tools now.
+(PERSON1) What are we discussing today.
+(PERSON6) Um, I have some updates on [ORGANIZATION1] work.
+(PERSON1) But you rather.
+(PERSON6) So I want to show you some.
+(PERSON1) Oh okay.
+(PERSON6) Yeah, you said something?
+(PERSON1) No.
+(PERSON6) Okay so I <unintelligible/> for [PERSON5] to join to talk about the interface.
+(PERSON1) Um hum.
+(PERSON6) So just a second I am transfering my files to this machine so that I can show something okay?
+(PERSON1) Um hum.
+<other_noise/>
+(PERSON5) Oh hi everyone.
+(PERSON1) Hi.
+(PERSON5) Hi [PERSON6] I wanted to um um talk to you and I couldnt find time so actually I there is actually some problem in it, the annotation tool.
+I tried to fix all the problems but then the interface is not opening, so I did even write to [PERSON3].  
+So earlier it was uh showing <unintelligible/> but I dunno what is in <unintelligible/> the name of that the package inside the files inside the uh package and uh <unintelligible/> some updates in it.
+So I think we need to talk to [PERSON3].
+About that.
+(PERSON6) Same problem I just found problem with one of the packets that is <unintelligible/>.
+So.
+(PERSON5) Oh <unintelligible/> plugin I was able to do that but then he has actually replaced one file of requirement from uh the uh program folder and he has placed that somewhere else like out of all the folders.
+And all the like for the installation the program which he has made he has made that program in the folder of this so.
+Requirement in the folder of program, so thats why there is there was some problem and even the name of the folder was not correct.
+In the installations, so the yeah so that was that I tried to fix like I I renamed it so try it to fix it but then there is still a problem so I think we need to talk to [PERSON3] about that.
+(PERSON6) And is that interface <unintelligible/>.
+(PERSON5) Um hum.
+(PERSON6) We cannot figure out that how like we have to give to them in order <unintelligible/> thing.
+(PERSON5) Yeah.
+(PERSON6) So that <unintelligible/> we are to ask.
+(PERSON5) Um hum.
+So I did write email to [PERSON3] <unintelligible/>.
+(PERSON6) Yeah I got this he <unintelligible/> busy nowadays I got a response from him.
+Uh.
+Maybe <unintelligible/> sometime.
+(PERSON5) Yeah maybe just to lets have a quick call with him.
+(PERSON6) Yeah yeah.
+(PERSON5) So <unintelligible/> very fast like when I wrote him the last email he replied the same day uh but today he did not responded.
+Maybe he's busy.
+(PERSON6) Um hum.
+(PERSON5) But there is a error actually with the problem is he has actually <unintelligible/>.
+(PERSON6) Just like <unintelligible/>  yeah.
+(PERSON5) Yeah but why why he is a <unintelligible/> the <unintelligible/> depositary.
+(PERSON6) I dunno.
+<laugh/>
+(PERSON5) I was wondering so he has changed the the email order things so and there are <unintelligible/> the one which is shared by [PERSON1] the documentation.
+Its different.
+[PERSON1] you have it in your system no?
+The annotation tool.
+(PERSON1) Sorry?
+(PERSON5) You have the you have that annotation on your system installed?
+(PERSON1) Not so I did install it but I don't at the moment because uh I also had some problems and then I changed it and that so the final step is that it doesnt work again.
+(PERSON5) Oh.
+So yeah like because [PERSON6], um hum.
+Because [PERSON6] wanted to see the <unintelligible/> so.
+I was wondering if its working in your system.
+(PERSON1) No.
+(PERSON5) Oh.
+No its o working?
+(PERSON1) Um.
+(PERSON6) Not working, like it has to work in all of four systems.
+(PERSON5) Yeah yeah then only annotators will be able to <unintelligible/>.
+(PERSON6) And especially it should work on Windows.
+(PERSON5) Yeah Windows the there is not asset problem, like there is no problem of the of the operating system, the problem lays into the uh this entire package itself.
+(PERSON6) So what is happening with <unintelligible/> whenever I'm trying to learn it uh in.
+Basically is not <unintelligible/> like going away.
+(PERSON5) Oh.
+(PERSON6) Yeah.
+(PERSON5) Okay.
+(PERSON6) That the blue screen from with <unintelligible/> you have to accept all the dependencies.
+So thats <unintelligible/>
+(PERSON5) Oh, so uh, maybe I will make a video call <unintelligible/> that is for me that was not a problem.
+<unintelligible/> that the requirement was not lying in that folder.
+(PERSON6) Oh okay.
+No we really need to fix this thing with [PERSON3] fast.
+(PERSON5) Yeah yeah.
+(PERSON6) Because we wont expect annotators to be like <unintelligible/> with this, run in every environment.
+With Windows Mac or Linux <unintelligible/>.
+Especially Windows.
+(PERSON5) Yes.
+And even and even its <unintelligible/> because in order to walk for to run it it should be.
+(PERSON6) Okay so and I will just share my screen and I will show how the minuting is now looking like.
+Okay.
+Uh can you see?
+(PERSON1) Yes.
+(PERSON6) Okay.
+So okay so this is the minute of a certain date it is 11th of December 2012, it is name <unintelligible/>.
+So you know like in the European corpus you have also the um transcripts with the corresponding dates.
+(PERSON1) Um hum.
+(PERSON6) Yeah, so I prefer to rename like those and yeah so.
+This is how it looks like now.
+(PERSON1) Stupid stupid stupid.
+(PERSON6) Um hum.
+Okay so these are the initial things the minutes doesnt start from here.
+(PERSON1) Its more like a book.
+(PERSON6) Yeah we have to do some kind of pre processing and you know like the minute start is starting from here.
+Can you see?
+(PERSON1) Um hum um hum.
+(PERSON6) Yeah okay.
+So you know like this is the 11th of December 2012 and these are the minutes.
+(PERSON6) Um hum.
+(PERSON1) If you if you go to the website you can also see the same format.
+(PERSON1) Um hum.
+(PERSON6) Yeah, this is the minute.
+Um yeah.
+Its very long very long.
+And it consists of several sections.
+(PERSON1) So this is something very very different from that from what we saw.
+Ye.
+On the web Thursday, what is that actually.
+(PERSON6) Is it different I I found I find <unintelligible/> its same.
+(PERSON1) Its the same.
+Why is it.
+(PERSON6) Yeah.
+(PERSON1) Why is it so long, this is for.
+(PERSON6) <unintelligible/> you know the what you saw in the web was <unintelligible/>.
+(PERSON1) For all the.
+(PERSON6) That was only only this portion.
+(PERSON1) Um hum yes okay.
+(PERSON6) <unintelligible/> minute of <unintelligible/> for the date.
+(PERSON1) Yes um hum.
+(PERSON6) Uh so yeah.
+So its very long.
+(PERSON1) Yes.
+(PERSON6) And finally like you know I dunno how this will be important to us like you know like <unintelligible/> vote, so these are all just names.
+(PERSON1) Um not really um.
+(PERSON6) Yeah these are all just names and finally uh.
+(PERSON1) We don't want names we want to get uh get rid of them.
+(PERSON6) Yeah, but this is part of minutes, so.
+(PERSON1) Yes.
+(PERSON6) Programatically is not possible to <unintelligible/> only the names because its different <unintelligible/>.
+(PERSON1) Um hum.
+(PERSON6) And finally for all the minutes is like the sign of its yeah <unintelligible/>
+So this weekend removed so we can.
+This is not <unintelligible/>.
+Certain portions we can remove but this is how the minutes are looking.
+(PERSON1) Um hum yeah.
+(PERSON6) Okay so the other thing that I will try to do which will not be stripped for work is to split the minutes based on the chatters that are there on the European corpus.
+And that will take some time you know.
+(PERSON1) Why is it complicated?
+(PERSON6) Its complicated because you have to go inside the minutes and then find the exact chatter and then split from <unintelligible/>.
+(PERSON1) Is it is it not normal?
+(PERSON6) Uh.
+I guess that is no chatter in for this particular minute.
+So its just um, reporting from a date.
+(PERSON1) It is not easier to extract from web?
+(PERSON6) Yeah.
+(PERSON1) This already <unintelligible/> there, so maybe is it not maybe easier to take it not from this pdf but from website?
+(PERSON6) Oh yeah scraping the <unintelligible/> that will that will I think will induce further complications because.
+(PERSON1) [PERSON4] told that it is that it was realistic but I cannot estimate it I don't know how to do that.
+(PERSON6) No its realistic but you know like <unintelligible/> take care of the um meeting ideas and stuff.
+(PERSON1) Um hum.
+(PERSON6) Okay so then each fragment <unintelligible/> which so that will be um bit um we <unintelligible/> but I think like <unintelligible/> each of those segments are separated I dunno <unintelligible/> any marker in that to actually to find to to which meeting or minuting it belongs.
+(PERSON1) Yes okay if you consider considered more complicated then its up to you.
+(PERSON6) Yeah but but but uh I would like to know how do you require the minutes if I can have a sense of this and then I can try.
+(PERSON1) <unintelligible/> have a sense of this.
+No.
+(PERSON6) How like how do you want to see the minutes you want to have it aligned with the European corpus.
+(PERSON1) Yes.
+(PERSON6) Right so that can be done from here.
+(PERSON1) Okay.
+(PERSON6) That can be done from here, just that we have to <unintelligible/> find the proper markers.
+And also like like uh not all the meetings have minutes posted in the [ORGANIZATION1].
+(PERSON1) And then <unintelligible/> just included.
+(PERSON6) Yes.
+(PERSON1) I think this is not question to me because you are people who will use corpus for creating programs.
+So make it in such a way that you can use it and give it as the data for the shared task.
+(PERSON6) Yeah yeah yeah <unintelligible/> what I'm telling you is that its not that we can use <unintelligible/> corpus for for this  purpose because in like in the [ORGANIZATION1] corpus there weree some meetings from 96 so like the year 1996 so those minutes are not <unintelligible/> in the [ORGANIZATION1] website.
+(PERSON1) So what do you propose I didnt get it.
+(PERSON6)  So whatever we have we have to work with that.
+(PERSON1) Yes yes.
+(PERSON6) <unintelligible/> website, we can only work with those, because those I think I think uh like the earlier minutes they have like list from the website I could not find those. 
+Like we have minutes from I guess 1999 or 2001 onwards, you want that, yeah.
+(PERSON1) Aha okay.
+(PERSON6) Else that we don't have.
+(PERSON1) Um hum um hum.
+(PERSON6) But this is a good amount of data like.
+(PERSON1) Yes.
+(PERSON6) Like the number of the number of entire minutes like <unintelligible/> uh.
+Till 2012 is almost near about uh near about 750 .
+(PERSON1) <unintelligible/> 750?
+(PERSON6) 750 yeah.
+(PERSON1) Um hum um hum.
+(PERSON6) And if you split those up then the number will go up.
+(PERSON1) Um hum.
+(PERSON6) So the next thing is to <unintelligible/> the [ORGANIZATION1] data set and then like create the minutes according to the fragments they have.
+(PERSON1) Um hum yes.
+(PERSON6) Yeah, so this is but now the thing is that we have the minutes we <unintelligible/>.
+And these are very different from the kind of meetings we have.
+(PERSON1) Yes this is true but we decided to pause it like that just <unintelligible/> these are different data their <unintelligible/>.
+Or do you think now that doesnt have sense or what?
+(PERSON6) No no it it completely have sense, these arent even truly minutes like so this is different challenge <unintelligible/> have.
+(PERSON1) Yes yes.
+(PERSON6) In in language anything anything is possible and that is a challenge.
+(PERSON1) Um hum yes.
+(PERSON6) Okay.
+Uh.
+Yeah so that is what I have from my side, then yeah it will take some time to figure out which are their and which things are not their.
+The [ORGANIZATION1] congress and then split the files sent read the aligned like transcript aligned minutes.
+(PERSON1) Um hum.
+(PERSON6) But I think this will be done before we actually release data.
+So another thing I want to like clarify from [PERSON4], this is not our data this is from the [ORGANIZATION1] so uh.
+We are like there should there should not be any problem if we release it as part of the shared task. 
+That we need to <unintelligible/>.
+(PERSON1) Yes but this is a lot of out work within that so.
+We took it and transformed wherenot its open data.
+(PERSON6) Yeah yeah I know open data but sometimes like uh published materials there are many ethical concerns that we are really not <unintelligible/>.
+Like I came to know certain things uh like you know even the newspaper <unintelligible/> public domain right.
+So many people do create purpose <unintelligible/> but ethically you should have to take permission from the newwspapers for <unintelligible/>
+(PERSON1) So you think.
+(PERSON6) So we so.
+Yeah because its a published content and then wer are again publishing it as a púart of the shared task, so I dunno like if we have to take <unintelligible/> or something I'm really not available on the ethics thing.
+But I know that this thing sometimes gets tricky, so thats what [PERSON4] said.
+Like if you are on a small entity no one is going to look at you, but if you are big then people will come after you.
+(PERSON1) Um hum.
+(PERSON6) Um so I think like.
+(PERSON1) You think what
+(PERSON6) I think [PERSON4] session with [PERSON4] would be the best to comment on this like.
+Eventually if we like are sharing this data which we <unintelligible/> from the [ORGANIZATION1] side, so we are republlishing the same thing right.
+So we should be on the same <unintelligible/> that okay it is okay to go ahead.
+(PERSON1) Uh so what do you propose, that I should [PERSON4] or make a session with [PERSON4] about <unintelligible/>.
+(PERSON6) Yes you can ask <unintelligible/> yeah I just want [PERSON4] to <unintelligible/>.
+(PERSON1) Okay.
+Um hum.
+Oh well lets do that.
+(PERSON6) Okay so what else we are going to discuss.
+<other_noise/>
+So I see [PERSON1] you have sent us the minutes to <unintelligible/> right?
+(PERSON1) Yes.
+(PERSON6) This is action point on, yeah this is an action <unintelligible/>.
+Okay.
+Uh.
+The thing is like we need to really know get to lost [PERSON3] to understand that why <unintelligible/> which was working sometime back why its not working now.
+(PERSON1) Um did you write <unintelligible/>.
+You already contacted him.
+(PERSON6) Yes.
+(PERSON1) <unintelligible/> he will answer.
+(PERSON6) <unintelligible/> he might be available next week yeah.
+This is a minor problem guess <unintelligible/>.
+(PERSON1) Yes yes I also think so yes I also think so.
+I hope it is.
+<laugh/>
+(PERSON6) Yes.
+Okay.
+So what else, anything else we want to talk?
+(PERSON1) Uh.
+Maybe not I don't have anything else, its raining strongly.
+(PERSON2) Hi, so I'm looking to this minutes that [PERSON1] just sent us.
+(PERSON1) Um hum.
+(PERSON2) So who is using bullets again, we already agreed not to use bullets anymore.
+(PERSON1) Which bullets.
+(PERSON2) In one of the five minutes <unintelligible/> bullets.
+(PERSON1) Um no it should be one of the old uh annotations.
+(PERSON2) Okay, and I see many many.
+Like not <unintelligible/> summaries not real summaries at all.
+(PERSON1) Uh this is not these are not summarized they are minutes, minutes are never fluent.
+They actually cannot be fluent.
+(PERSON2) Oh okay.
+But the high quality ones are the ones that <unintelligible/> fluent anyway not problem, so for the experimentation <unintelligible/> just this bullet should be removed than the <unintelligible/> in minutes <unintelligible/>
+(PERSON1) In which minutes did you say, in which number.
+(PERSON2) Minutes 0 3 0 3.
+(PERSON1) 0 3 uh uh.
+They just should I change it or does it.
+(PERSON2) Yes you should change it to dashes.
+(PERSON1) Okay.
+And actually just a <unintelligible/> ffor no- not minutes from meetings are never can never be fluent can never as a text this are not minutes in this way so if you read any instructions how to make minutes how to create minutes which are the instruction that have been written at the beginning of the 20th century.
+Uh minutes are kind of forbidden to be readen as <unintelligible/> text.
+Because they should be because this is not obvious then so minutes are kind of ideas separated but not a fluent text.
+(PERSON2) It don't have to be like that actually.
+(PERSON1) I just this is uh question of terminology of course what can we what do we say are minutes what do we say are summaries summaries the saem as minutes and so on.
+But anyway I don't think I don't agree with you in the opint that good mintes are fgluent.
+(PERSON2) Good minutes are fluent, you don't agree with that?
+(PERSON1) Definitely I do not agree with that, so so.
+(PERSON2) Oh really?
+(PERSON1) Good good newspapers summaries may be fluent this I I could agree with that but that meetings meetings minutes should not be fluent uh and totally uh sure.
+(PERSON2) Oh you are sure, but what about the late <unintelligible/> that I'm just reviewing days.
+(PERSON1) The <unintelligible/> should doesnt say that well maybe we differently understand the word fluent.
+This is.
+(PERSON2) Fluent in the sense that continues sense that continues sentences.
+Like the one that I produced.
+(PERSON1) Uh.
+(PERSON2) Minute 4 is mine is my output and its fluent in the sense that the senses go one after each other.
+And that is how the objective of summaries <unintelligible/> also extracted summarization the so the objective is to produce summaries that are fluent and readable and that is also very popular criteria for evaluationg the summaries for <unintelligible/>
+(PERSON1) <unintelligible/> what did you read?
+(PERSON2) What did I read?
+(PERSON1) Yeah because I alsor ead a lot of books on that topic and I never found that it should look like a text with <unintelligible/> references.
+Actually I I I'm really very unsure about anaphoric references in the minutes because they make rather MS then a good idea.
+So when you have they in minutes it rather disturbs.
+(PERSON2) Okay.
+(PERSON1) So what did you read?
+(PERSON2) I read the literature [PERSON1].
+(PERSON1) Which one?
+(PERSON2) All the literature <unintelligible/> reviewing, its already in the clusterr.
+(PERSON1) But, this is about summaries not about minutes.
+(PERSON2) Summary and the mintues are the same <unintelligible/>.
+(PERSON1) No, its not the same, so actually the summary is much broader, summary everything summarized.
+You can summarize newspaper article you can summarize the book you can summarize <unintelligible/>
+(PERSON2) Yes.
+And we are going to summarized meeting that are minutes.
+(PERSON1) No, minutes from meetings are not summaries from books, and they have.
+(PERSON2) Summaries from meetings from meeting transcript.
+(PERSON1) Uh it doesnt matter if its if it is summary from meeting transcript or meeting as a recording, but anyway I think that meeting uh uh is no so its a different entity so its not a text its not fluent its as is if its made from different authors it is it has different opinions and it also might have different structure and if you are so .
+When I prepared the paper about uh how many <unintelligible/> that very old I dunno two years ago, that you didnt want to participate in.
+I also read som epopular information not about summaries as a <unintelligible/> but meetings from minutes that are created for people who use that.
+So this is actually maybe different aspect of looking on that, but the this is true so people who are making minutes from meetings do not make it fluent in the sense you say its just the fact.
+So you.
+(PERSON2) Okay okay okay.
+(PERSON1) Maybe if you if you want to think about it further look at literature i refer there.
+(PERSON2) No I don't thinkits relevant I think literature that is relevant is the one that we are reviewing now.
+Or the literature <unintelligible/>we are preparing.
+(PERSON1) No <unintelligible/> if you want to make a product that will help pepole to make theri minutes and people who make their minutes do not make it fluent never.
+So why we should create fluent pieces of text uh if we are trying to help people to create their minutes and these people never make it fluent just this is same like <unintelligible/> so kind of misunderstanding between us.
+Because what you you get you take a task from their feed of summarization and I kind of take a task from the point of view of the final product.
+So I.
+(PERSON2) Okay sure.
+(PERSON1) So this is just different aspects of none thing and in this point they kind of meet <unintelligible/> and partly controversional.
+So I understand how you come to this fluency, its really important to have it in summaries, but it is uh onreachable there is not good to have it in minutes.
+(PERSON2) Good I don't know anyway okay so you have your own work <unintelligible/> and literature that you are basedc on so okay you can go on that way.
+I'm usually used to to <unintelligible/> to the literature that is the research literature of this domain so not problem.
+(PERSON1) This is not a search literature on this domain, this is literature of how uh engine summarizes.
+So this is the so you're you are based on research literature of on of summarization.
+(PERSON2) No its research literature about minutes of meetings so if you want you can check the titles of the papers.
+They are specificalyl refering to the uh for example extrafcted summarization of the <unintelligible/>.
+(PERSON1) Really miss a lot big piece of information.
+I will i will control it I will.
+(PERSON2) Okay okay.
+(PERSON1) And so its quite possible why not.
+(PERSON6) Okay then so maybe we meet on Monday?
+(PERSON1) Um hum.
+Uh on Monday.
+Well I hope I can it may have been that something happens.
+<laugh/>
+But probably not.
+(PERSON6) Yeah many things can happen.
+<laugh/>
+So lets meet on Monday and.
+(PERSON1) Yes.
+(PERSON6) And hope that [PERSON3] <unintelligible/> time on Monday and we really fix this issue really quick.
+(PERSON1) Yes.
+(PERSON6) Okay then take care guys also the this protocol human evaluation protocol for minuting is <unintelligible/> changed.
+And the so yes probably [PERSON5] has edit some things there.
+<unintelligible/>.
+(PERSON1) Yes she spoke a lot about it during out meetings here.
+(PERSON6) Yes so just the fluency so because the way I created this is with my setup and mine but since we have <unintelligible/> about it I mean this is also supposed to be changed.
+bnecause I see no reason for having fluency at this point, so that was okay the topicality okay <unintelligible/> for sure its okay.
+(PERSON5) Uh I would like to interrupt you that we have not analyzed this yet, its just that from the literature we have all the measures which we need to <unintelligible/>.
+(PERSON2) Yes yes but from this dicussion with [PERSON1] now I'm <unintelligible/> the fluency score that I put here initially was with my own way of thinking based on the literature but since [PERSON1] <unintelligible/> fluency is not supposed stay there, then we have to kind of reflect this change also in this document.
+We don't we cannot put it there because it is obvious that <unintelligible/> fluency in the samples so.
+(PERSON1) Yeah but <unintelligible/> this paper is our kind of final product not ready yet and now we are evaluating not basing on this document, we are evaluating all possible measures.
+(PERSON2) Yes sure sure yes.
+(PERSON1) And we will probably change make changes in the document according on on.
+(PERSON2) Yes this is what I'm saying that we will may need to to to reflect it here as well and this is what I'm.
+(PERSON1) Yeah definitely yes of course.
+(PERSON2) Yes.
+(PERSON1) Okay I'll see you on Monday yes?
+(PERSON2) Yeah take care bye bye.
+(PERSON1) You too you too.
+Bye.
+(PERSON5) Bye.

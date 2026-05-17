@@ -1,0 +1,107 @@
+[PROJECT1] Pre-Dry Run at International Trade Fair of Student Firms
+[URL1]
+
+Call on March 4, 2019 at 10.00
+Platform: 
+? [URL3]
+? PIN: 1234
+? The above room is already active and [PROJECT1] is there. Please test it.
+? For general tests at any time (that you can connect and that your speech gets through), use this testing room: [URL]
+? 10-12 AM CET
+- Participants: [PERSON4]; [PERSON21]; [PERSON20]; [PERSON15]; [PERSON8]; [PERSON14]; [PERSON12]; [PERSON2]; [PERSON9]; [PERSON17] 
+
+Agenda:
+? [ORGANIZATION5]: [PROJECT1].[ORGANIZATION5].com
+? [PERSON21] does not really use [ORGANIZATION5], [ORGANIZATION5] is not any more reliable than e-mail, so always ask people for confirmation of receipt.
+? [URL] -- very brief demo
+? What is the “API”? What are registered services?
+? Physical layout: (what we need to cover)
+? Main stage:
+? subtitling (ASR+MT)
+? videomixing of subtitles and presentations
+? Recording
+? to have SLT data for later use
+? Secondary stage 
+? subtitling (ASR+MT) … if we get a second videomixer
+? Recording
+? All talks -- to have SLT data for later
+? Clearest Voice competition (aka “90s in a lift”) => separate files one per competitor are needed (manual segmentation at the secondary stage)
+? Transcription space
+? Manual transcriptions for the Clearest Voice competition
+? WER evaluation
+? Offline presentation booth
+? Roll-up? (TODO)
+? Robot Nao? (TODO)
+? Etc. TODO
+? Wiring (Network, audio, video):
+? Still in negotiation, we need to specify what we need.
+? Main stage:
+? We expect to connect [ORGANIZATION4]'s male XLR connector ([URL]) to the mixing device to get sound.
+? Confirmed by [ORGANIZATION4].
+? We expect to provide [ORGANIZATION2]'s? head sets to the speakers?
+? Confirmed by [ORGANIZATION4], [ORGANIZATION4] will suggest some headsets, [PERSON2] will negotiate their connection with Antre
+? Which to buy? [URL] (professional wireless handheld mic, could not find head sets)
+- Does require adapter cable to connect
+? preferably at [ORGANIZATION8] ([PERSON15] will send)
+? How many: 2 for this stage should be fine; 1 would make it time-critical
+? We expect to get Antre's male VGA connector AND/OR their male HDMI connector to plug to [ORGANIZATION1]'s Epiphan female VGA and female HDMI.
+? [ORGANIZATION1] has so far used only DVI
+? In theory it should also support VGA, but it needs to be tested. [PERSON15] will test. [PERSON2] will ask Antre which they provide.
+? We expect [ORGANIZATION1]'s separate videomixing notebook to offer both VGA and HDMI for Antre's overhead projector to present slides+subtitles.
+? Ethernet male cable will be provided by Antre.
+? WHAT OVERALL BANDWIDTH to the Internet do we need?
+- upstream is critical! With 1Mbit upstream we should be safe.
+- it has to be reliable!
+? Firewall setting overall! (Mediator uses specific ports.)
+? Double check with Antre the IP configuration (DHCP/static addresses…)
+? On the 19 March, in the morning, Antre will install the wires; we are allowed to come after 14.00 in the afternoon.
+? The fair starts on 20 March in the afternoon.
+? 2 NBs provided by [ORGANIZATION1], both need wired connection
+? Secondary stage:
+? We expect [ORGANIZATION1]'s male XLR connector to connect to the mixing device.
+? We expect to provide [ORGANIZATION2]'s head sets to the speakers
+? How many: 4-5 for this stage.
+- 2x2 needed, 1 for backup
+? We count on having only one channel and saying that ASR fails with two people speaking at the same time.
+? Situation with videomixing unclear. We don't have a second Epiphan, see below.
+? Notebooks:
+? Audio recordings: [ORGANIZATION1] should have one more, but [ORGANIZATION2] should have a backup. (For the recording client: Linux or Mac; for the subtitles anything with Web)
+? Videomixing was done on Windows only so far (Mac tried once).
+? Ethernet male cable will be provided by Antre.
+? Transcription space:
+? Very likely no ethernet, only Antre's wifi (risk of cramped wifi channels by other participants!)
+? Offline presentation booth:
+? power socket provided by Antre?
+? No ethernet, no wifi assumed.
+? HW Setup:
+? New videomixer
+? [ORGANIZATION2] needs to know from [ORGANIZATION1] *now*, if any of the used devices on eBay are the ones we should buy, or if there are any alternative devices. Possible links [PERSON21] found so far:
+? [URL]
+? [URL]
+? [URL2]
+? After getting this second device, [ORGANIZATION2] will need support from [ORGANIZATION1] to get the second videomixer running (so the installation, scripts etc.). Who from [ORGANIZATION1] can help us with this?
+? [PERSON15] can help [ORGANIZATION2], once we have the epiphan.
+? Nao part -- [PERSON8] is asking a colleague, what's the current status?
+? [PERSON9] has some experience; robots have bad TTS, [ORGANIZATION7] TTS in much better.
+? [PERSON9] recommends to avoid bad TTS, rather scratch the idea altogether.
+? Software Setup:
+? Initial plan of SW components -- see image below 
+? Is it feasible? Is there a correct distinguishing between clients and workers? (E.g. The “en subtitling recorder” must be a worker, not a client, right? Because clients can not only receive.)
+? Some streams must be connected to several components, e.g. en-speech goes to ASR and Clearest voice audio segmenter. Does it need to be sent through the network to Mediator twice? Is it possible to optimalize it?
+? Clearest Voice -- Record & Cut & Label & Save samples tool:
+? [PERSON10]'s help appreciated (we have to sync about it)
+? How to connect it to audio? Rather directly through a mixing pult, or through Mediator? (preferred)
+? New idea: save the exact time stamp of beginning and end
+? Feedback: “save everything” must be a worker
+? Dresscode ([PERSON2]'s suggestion: -- black trousers, white shirt, blue bowtie, blue suspenders (she will buy the bowties and suspenders)
+? Basic MT support:
+? {en, cs} -> {de, en, cs} 
+? What's the status of MT components?
+? Extended MT support (very optional):
+? The numbers of fair participating companies by countries/languages (corresponds to number of participants):
+? 52 cs + 3 sk, 19 de-AT, 19 it, 13 Belgium (= Dutch + French, probably), 7 ro, 4 es, 3 ru, 3 Bulgarian, 1 Luxembourg (Luxembourgish, French, German, probably)
+? => languages by priority: 1. EN, 2. CS, 3.-4. IT ([ORGANIZATION1]), DE-AT, 5. FR-BE+FR-LUX ([ORGANIZATION1]), 6. NL-BE, 7. RO, 8. ES ([ORGANIZATION1]), 9.-10. RU, BG, 11. SK, (12. LUX, Catalan, Basque...)
+
+
+
+

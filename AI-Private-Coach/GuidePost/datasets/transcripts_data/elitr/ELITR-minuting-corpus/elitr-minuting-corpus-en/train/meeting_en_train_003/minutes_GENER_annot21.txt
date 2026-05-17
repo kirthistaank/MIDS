@@ -1,0 +1,41 @@
+Virtual coffee hours
+Date: 03.11.2020
+Attendees: [PERSON4], [PERSON1], [PERSON6]
+Purpose of meeting: annotation tool, processing data for the shared task
+
+-Objectives of this meeting.
+--Annotation interface problem.
+--Installation of the interface with the annotators.
+--Alignment.
+--Guidlines for the interface.
+--Formalizing data for the shared task.
+
+-Discussing the problem with the annotation interface
+--They were able to install the annotation interface after few takes.
+--But when a file containing TXT files (minutes,transcript) is selected,
+through the system the TXT files are not appearing, it is not uploading the files.
+--They have contacted [PERSON3] and are waiting for his response, to resolve this.
+
+-Installation of the interface 
+--For each annotator there will be an individual installation session.
+--With this help, the annotator will install the interface on his computer.
+--Not all annotators will have the same operating system.
+--Installation will begin after the problem with the interface is resolved.
+--When they are confident that the interface is working, 
+they will install it and give insturctions to the annotators.
+
+-Alignment.
+--Discussing how many annotators will be working on this task.
+
+-Guidelines for the interface.
+--The guidlines will be formed after the problem with the annotation tool is resolved.
+
+-Formalizing data for the shared task.
+--The deadline is near.
+--The data from the [ORGANIZATION1] corpus has to be cleand up.
+--The minutes have to be splitted into corresponding chapters.
+--Within the week they will figure out what kind of data is in the [PROJECT1] meetings.
+--Figure out, what is the total number of data after splitting it.
+--Next week select potential meetings and minutes from the data.
+
+Minutes submitted by: [ANNOTATOR1]

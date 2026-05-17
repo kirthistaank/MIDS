@@ -1,0 +1,40 @@
+[PROJECT5] Remote Meeting 
+Thur, the 6th of June 2020
+Attendees: [PERSON10], [PERSON12], [PERSON11], [PERSON15], [PERSON14], [PERSON22], [PERSON8], [PERSON18], [PERSON7], other participants from [ORGANIZATION11], [ORGANIZATION2], and [ORGANIZATION6]
+
+- Organisation of IWSLT presentations.
+- Prepare pre-recorded presentations.
+- Finalize a date for the review.
+- Get financial tables from all the [PROJECT5] partners.
+- Dry-run of the review meeting before the actual meeting.
+- F volunteers to be reviewer for the report on NLP technologies.
+- [PERSON3] is reviewing the spoken language translation.
+- [ORGANIZATION5] should write the report but everyone should contribute their data, enter all dissemination activities remote, or in person into the continuous reporting table.
+- More input in the scientific dissemination part; to write about the planned workshop, dry-run sessions, preparations in the workshop; specify that due to the Covid crisis the dissemination didn't happen.
+- Collect all information (BibTEX) for all papers that acknowledges [PROJECT5] and integrate in the report.
+- Inform all in a week or two in what format the papers are needed for the report.
+- [PERSON12] would review the NLP workshop proposal.
+- Send the reports to the reviewer of the deliverable by Monday.
+- Submit all the deliverables by the last of June.
+- Please report whoever among the partners are not contributing to the deliverable.
+- [PERSON5] is proposing a partial report for milestones.
+- To sort out what exactly to do for an event which has a milestone but the event has not taken place.
+- The new congress date is out and it is from 30th of May till 3rd of June 2021 and the workshop is on June 1st which is well within the projects's duration.
+- [PERSON15] to prepare an internal poll and then offer dates to the project officer ([PERSON5]) for the demo.
+- [ORGANIZATION3] is the least safe site to run the MT systems, so [ORGANIZATION11] might take the lead for translation systems and ASR could run at [ORGANIZATION2].
+- We must have components replicated across sites (learning from the power outage).
+- Avoid updating systems before the demo.
+- Docker containers cannot be run at [ORGANIZATION8] clusters.
+- [PERSON6] has something very promising for the MT: German to English but not tested on our models.
+- To do a test session before the Demo.
+- Evaluate which systems are the best based on fingerprinting.
+- Have a number of demo, dry-run sessions and the date of the demo will be chosen.
+- Extension of the project due to Covid?
+- By the end of next week everybody should fill the table, writeup of the deliverables.
+- Will send the IWSLT paper to all.
+- Make use of IWSLT shared task to choose the best system.
+- [PERSON8] is preparing the slides and video pre-recording for the IWSLT presentation on [PROJECT5] system paper.
+- To include the IWSLT presentation in one of the dry-run sessions.
+- [PERSON8] will share the overleaf link of the presentation and anyone willing is welcome to contribute.
+- Several doodle polls to come: for dry-run, for offering slots to the project officer.
+- To discuss the learnings from the IWSLT submission in the dry-run sessions.

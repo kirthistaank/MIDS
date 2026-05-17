@@ -1,0 +1,6 @@
+4.12.2020 13.00 CEST
+Attendees: [PERSON2], [PERSON1], [PERSON4]
+- Shared Task proposal
+-- Needed to add from [PERSON2]: Bio, Manual evaluation metrics, Dara description, Ethics
+-- Why our shared tasks is good for special session: brainstorming
+-- Ask [PERSON3] to attend the meeting on Monday

@@ -1,0 +1,1087 @@
+(PERSON9) Hello, hi [PERSON13].
+No.
+<unintelligible/>
+Meetings.
+<another_language/>
+Hi.
+Hi [PERSON5].
+Yeah so, can you hear me?
+Can you hear me?
+(PERSON8) Yes.
+Ok.
+And [PERSON16] is also connecting.
+That's great.
+Okay.
+And [PERSON11] and [PERSON16] so you are on the same machine with [PERSON4] or on a separate machine?
+(PERSON16) [PERSON4] is next to me, can you hear me?
+(PERSON9) Yeah, we can hear you.
+(PERSON16) [PERSON4] need voice picker.
+Do you have it there [PERSON9].
+(PERSON9) <another_language/>
+(PERSON16) Yes okay.
+[PERSON4] can you go to [PERSON9] and.
+(PERSON9) Yeah.
+(PERSON16) So he's going.
+(PERSON9) Yeah.
+So we are now in in a second, I need to hand this over to to [PERSON4] our new colleague.
+Who will be working on [PROJECT2]:
+And as soon as [PERSON4] connects you will also see him in in like in the picture at least.
+So since [PERSON16] is starting his PHD studies I would like to relieve some of the like technical duties of [PERSON16].
+And that is why we were lucky to get [PERSON4], so in a second, he will join.
+And for the dry run in [LOCATION1], this will be the first opportunity for [PERSON4] to get and get acquainted with everything.
+But from now on I would like [PERSON4] to be like the most responsible person to be like supervising the whole system as [PERSON16] was has been doing so far.
+So that's the an introduction of of new person.
+And then for this call, I would like [PERSON16] to lead the call, and you know that the live event is happening in week and a day from now.
+So we have just a seven times 24 hours for any preparations.
+So that's that's very limited time, an during that time would like, uh, some like dry run to happen.
+Maybe Thursday, or Friday.
+This is up to you to decide.
+And I would also like primarily [PERSON4] but with the help of all of you to scrutinize the bugs or limitations that we know.
+And that we have recorded in in our [ORGANIZATION8] document from the last session.
+I don't like any.
+Any of the bugs any of these bugs will be resolved or fix by next week.
+But we need to to like remind ourselves of them, and uh, work on fixing them at least, by designing test cases that that that reproduce the bugs.
+Yeah, so this is slightly the very overview picture.
+If you are looking, at the at the agenda for the call today, reminder of the coordinates it's in [LOCATION1] next Wednesday.
+Is anyone interested in coming to [LOCATION1] or not, I expect I don't expect anyone, but I have to ask.
+<laugh/>
+Yeah.
+And the setup is there English and respoken English.
+And we should be quickly able to.
+We should be able to quickly switch between the two.
+So this this us for me.
+This is the main challenge for uh, for this event.
+I would like to have the setup to be flexible enough so that we can easily uh, change the source language.
+I'm less interested in in.
+Well, it's also something that we are testing.
+But uh, that is not the main target for me now.
+The language is that we are covering.
+So I expected that we will launch all the systems that we have.
+If there is some languages that we don't have.
+Then well, we will not ham- n- n- not have them in the subtitles, that's that's okay, um.
+But we should set up.
+We should test the the full setup as much as as many languages as we can.
+Still the main thing to should be the switching between the different sources as one of the English streams would be better or worse.
+So that's that's my my goal for that, uh, as I said please pick test run session.
+I would suggest for Thursday or Friday.
+(PERSON14) This is not good for us.
+(PERSON9) Okay, so what day.
+(PERSON14) Thursday is national holiday in Germany and.
+In Friday off.
+(PERSON9) Okay, so tomorrow.
+(PERSON14) It has to happen this week then tomorrow is the only day.
+(PERSON9) Okay.
+Yeah.
+So what what are your options.
+So Wednesday, at what time what would be the the best timing.
+So [PERSON16] when are you available?
+I'm.
+<censored/>
+So I'm not available in the morning, at all, but I don't have to be there.
+(PERSON16) In the afternoon.
+(PERSON9) Yeah so what time.
+(PERSON16) Can you hear me?
+(PERSON9) Yes yes, we can hear you.
+(PERSON16) So in the afternoon?
+Let's say at one.
+(PERSON9) So would that be okay for everybody.
+(PERSON16) It would be good if everybody will be available on slack, I think that we don't need live calls very long.
+(PERSON14) Wednesday afternoon is okay for me.
+(PERSON16) Yeah great.
+(PERSON15) Fine, so I badly I didn't get any before this so.
+(PERSON9) Yeah so, we have only agreed on the test run which will happen tomorrow in the afternoon and everybody.
+Yeah?
+(PERSON8) Do you need people from [ORGANIZATION10] I don't I think I'm gonna have trouble joining tomorrow.
+(PERSON9) So we need the systems running.
+And we need response if the systems are not running as expected.
+(PERSON8) Right right.
+(PERSON9) So I dunno if [PERSON11] can.
+(PERSON3) I can start the systems today.
+I'll be able to check slack some with the <unintelligible/> if we are starting at 12.
+UK time tomorrow, I can check for maybe a couple of hours.
+(PERSON9) Yeah.
+Okay so that's that's it's an acceptable time.
+That that's good.
+Okay, and then.
+Yup.-
+(PERSON17) We as [ORGANIZATION2] we are <unintelligible/> lunch at 1 so we would probably back at one, one and a half.
+You know one thirty or two.
+(PERSON9) Yeah yeah.
+But essentially everything is running from your point of view, so there is no no involvement should be necessary.
+(PERSON17) Exactly yes.
+Yeah everything is just still running.
+(PERSON9) Yeah.
+(PERSON17) It will be running.
+(PERSON9) Yeah, one important question is not for the test session but mainly for deliberate session know, whether it is different workers and different mediator.
+From the [ORGANIZATION6].
+Because we don't want to the [ORGANIZATION6] sess- the [ORGANIZATION6] session to im- to suddenly interrupt the live event in [LOCATION1].
+This is something which is critical.
+So is it different setup?
+Or the same setup.
+(PERSON17) The mediator is actually the same uhm.
+We can setup a second one if if you want.
+We.
+We'll have to see, if we do all workers will will have to register to the second mediator so.
+(PERSON9) Um hum.
+But then the the benefit of having a separate mediator is that we clearly see which workers are available where.
+And if overall one of the sides is short of resources well then, we have to like somehow compromise the the like scale down the setup.
+But it the clear the two setups are clearly separate.
+So it cannot happen that suddenly the [ORGANIZATION6] setup would would break and and steal workers from the [LOCATION1] setup.
+So this is something which I would prefer.
+I dunno what what everybody else thinks.
+Yeah so I, yeah.
+Everybody is quiet so I suggest that we indeed should use different mediator right?
+(PERSON16) Okay.
+(PERSON9) Yeah.
+(PERSON12) Testing echo, it works.
+(PERSON9) What.
+Yeah yeah [PERSON2] we heard you what yeah.
+Mediator.
+The question is whether the test session should already run with the new mediator.
+And I would suggest it should.
+So.
+<laugh/>
+<other_noise/>
+(PERSON17) Ah so okay, we.
+Okay we already have we have a different, separate <unintelligible/> I dunno if we can use that.
+Alternatively we can add a second instance <unintelligible/> machine.
+(PERSON9) Um-hum.
+(PERSON17) And use a different set of ports, so the switch should be extremely fast.
+I don't think I think one mediator to our machine will impact performance.
+(PERSON9) Um-hum yeah.
+(PERSON17) And so yeah, I just need a quick meeting as a [ORGANIZATION2] and then we can set this up.
+And we we we select <unintelligible/> ports we have.
+And share them with everyone.
+(PERSON9) Yep, thank you.
+So this is this is a message for everybody then.
+When you are preparing the workers, the details of the mediator will be available here in this [ORGANIZATION8] Document, where I just asked [PERSON13] to enter the details.
+(PERSON14) Which [ORGANIZATION8] Document is that?
+(PERSON9) [PROJECT2] okay that's important.
+<laugh/>
+So you don't have the link, do you have the link for the remote for for the review yeah.
+The the document that we are looking in the morning at.
+So I'm just pasting the link there sorry that was the wrong place where I pasted it.
+Technical call.
+This is the correct place.
+So here yeah.
+That's.
+And to make things clear this [PROJECT2] second dry run [LOCATION1] is our only document that we will use for the for the [LOCATION1] session.
+So every all the questions all the preparations all the setup for [LOCATION1] will will be only in this single document.
+Yeah so.
+Let's now very quickly go over the languages.
+Because [PERSON11] probably remembers by hard which target languages his models support.
+<laugh/>
+Do you [PERSON11]?
+(PERSON3) Okay so we definitely have Hungarian, German.
+(PERSON9) Yeah so.
+(PERSON3) I think Polish um.
+(PERSON9) So Hungarian, <unintelligible/> impossible to read it.
+I'll make dark or no no no <unintelligible/> highlight green.
+So Hungarian, German, Polish.
+(PERSON3) Yeah um, Spanish.
+And.
+I think that's it.
+We may have um, we may have the other languages but just um, we don't <unintelligible/> translation system.
+(PERSON9) Yep, so please.
+So I'll just mark this as updated.
+So.
+<parallel_talk/>
+Yeah so [PERSON11] once you.
+I've asked you in the document to to highlight the languages that you can support.
+This may be important for [ORGANIZATION2] so that they know what languages should be in the subtitling platform.
+And there is also one thing which is not discussed here yet, and that's the subtit- sorry the streaming of slides.
+Slides streaming setup.
+And this is something that [PERSON2] and [PERSON19] put together in [LOCATION2] during the the [PROJECT1] session.
+And essentially, we don't know how to reproduce it or I dunno how to reproduce it.
+So [PERSON2] are you here?
+I'm not sure if [PERSON2] is listening, he seems to be present on the call but.
+Okay yeah, so the question is whether he has dug out the scripts the the setup for recording and streaming of slides to the to the presentation platform of [ORGANIZATION2].
+(PERSON2) Sorry what?
+Streams sorry slides whenever stream through the mediator, they they were streamed directly.
+(PERSON9) Okay well, yeah, so I didn't know.
+For me it appeared as as yeah as in the presentation platform, so [PERSON2], are you going to take care of this in [LOCATION1] yourself again or.
+Should someone else be working.
+(PERSON2) I asked my colleagues to prepare all the computers in the room and well I have to tomorrow and Friday to do it so.
+Yeah hopefully.
+(PERSON9) Okay, yeah.
+And this is not related to any of our tests, so this is to be tested only in [LOCATION1] right?
+Like yeah.
+Internal you will test it at <unintelligible/> at [ORGANIZATION4] premises tomorrow or on Friday or but then this will be tested only in.
+(PERSON2) <unintelligible/> small problem, [ORGANIZATION2] to change the URL which the media is taken but that should be.
+(PERSON9) Um hum, yeah.
+(PERSON17) Yeah exactly should be a it it is just one parameter on the presentation platform.
+(PERSON9) Okay yeah, so at this point I will probably like leave the call myself, but [PERSON16] will be still be here right [PERSON16]?
+Is your connection stable now?
+And I would like everybody to walk through the list of critical observations and that's that's what we have here further down in the document.
+One of the the critical observations is this question by [PERSON10] and for each of the problems that we had in the past please discuss whether we are running into the problem again.
+Whether we have a test case for this so like test unit test for that so that we can reproduce the problem.
+And whether there is any chance to to fix it and how critical the problem is for for the overall setup.
+So as I said I'm not expecting these problems to be resolve for the [LOCATION1] event.
+But I expect them to be fully resolved in some way for the [ORGANIZATION11] congress, so that's that's what we are aiming at.
+[LOCATION1] is for us, there will be live people live people but they don't need us at all, again its only our our test case.
+The [ORGANIZATION11] congress is the reverse, we will be kind of needed there, yeah.
+(PERSON8) And since the <unintelligible/> test case are we are we sure we gonna gather all the data.
+That we need or that we can gather.
+(PERSON9) So what what data you mean?
+(PERSON8) Yeah, I suppose basically all the audio, can we gather the can we keep the audio.
+(PERSON9) This is something that [ORGANIZATION4] will again have to decide in the retrospect.
+But we will be recording it, so that's something that we normally run [PERSON16] will make sure that the recording is is happening.
+(PERSON8) <unintelligible/> I guess basically the audio and then all the outputs <unintelligible/> components along the pipeline.
+(PERSON9) Yeah.
+(PERSON8) Segmentation the MT and so on.
+I don't I'm not really sure how I mean we can we can record sounds of the MT but.
+Yeah, I'm not sure how well we'll setup to to capture all of that.
+It is hard to say at the moment <unintelligible/> will be useful but.
+You know as much <unintelligible/> we can capture and then if we have to do some hacking and processing to gather data <unintelligible/> that's okay but.
+(PERSON9) Yeah, so we have collected our logs from the [PROJECT1] session but I'm not sure if [PERSON16] ever had time to like organize them.
+Do- [PERSON16] what is the yeah yeah exactly.
+So we have them somewhere so.
+I think it's important to to have like clean collection of things that are repeatedly usable and that will be whatever tests or or test sets we we create from that.
+So this is we are definitely going to record the audio, because this can become a basis of of a test set.
+The logs are useful like for immediate debugging but later on its better to always work with the live instance and debug the your actual current code.
+So we need what we need is is the input and maybe kind of expected outputs.
+So that we can run cruise control over the whole setup in in some way.
+So I'm your question was probably aiming at like the the interaction between the ASR and machine translation.
+And also the the final presentation of the subtitles because we had the flickering effect, [PERSON16] remembers.
+So there is there is many things that that will go wrong because of the components are not exactly like well well seem together.
+(PERSON8) <unintelligible/> audio then we could we could even just replay parts of the conference, and replays since what happens.
+(PERSON9) Yes yes yes yes.
+So we can do this already with the with the recordings that we internally have for for from the [PROJECT1].
+(PERSON8) Yeah yeah.
+(PERSON9) So this actually this [LOCATION1] event comes for us a little bit too early, like its but its that's life.
+So let's let's just make use of this gather some new problems observe whatever still wrong.
+And then we'll keep working with just the recorded audio over the coming months to to polish the the pipeline.
+(PERSON8) Um-hum.
+(PERSON9) Okay, so if there are no questions on me then I'll I'll disappear and please go over the over the problems and discuss how important they were and and how to best resolve them and all that.
+(PERSON17) Yes yes, I have a question for you [PERSON9].
+[PERSON19] asked me if if can have an official recap.
+By you instead of I be I have been taking notes, but it would be nice to have an you know an official minuting let's say.
+A recap by mail from you so.
+(PERSON9) From from um.
+Yeah and and he mented specifically for this call or all calls or whatever.
+(PERSON17) Actually he was <unintelligible/> this <unintelligible/> call.
+So.
+(PERSON9) This morning call okay that's important yes.
+So I'll I'll make sure that we we like let everybody know when the document [ORGANIZATION8] document is up to date with all the request.
+And it it should appear yes you writed it make sense to to have it also like separate outside of the [ORGANIZATION8] document as a fixed thing in your email.
+(PERSON17) Yeah thank you.
+(PERSON9) Yeah.
+Okay, thanks and I'll then ask [PERSON16] how far you've got, and I'll see that also in the [ORGANIZATION8] doc.
+Yeah so thanks to all.
+(PERSON16) Hi, so I'm going to share the screen.
+And we are all can go to.
+Can you can you see my screen?
+I can't think so.
+<parallel_talk/>
+Can you hear me?
+(PERSON8) Yes, you're back.
+(PERSON16) Yes, I'm.
+<parallel_talk/>
+Sorry.
+<parallel_talk/>
+Hello again.
+(PERSON17) Hi.
+(PERSON16) Hello.
+It works.
+(PERSON8) K.
+(PERSON17) We can see the screen now.
+(PERSON16) Yeah, so.
+First was the question from [PERSON7], <unintelligible/> ASR fixed.
+So can you <unintelligible/>.
+(PERSON8) Yeah so when we look to the logs um that we got from <unintelligible/> meeting.
+The incremental ASR wasn't working as it was described by [ORGANIZATION5].
+And the updates weren't looking different <unintelligible/> in the description by [ORGANIZATION5].
+And the timestamps were missing, so there was no way for us to tell the difference between stable text and unstable text.
+So stable stable text would be never be revised on unstable text can be revised.
+But without the timestamps we can't tell this.
+Now I did some testing and spoke to [PERSON5] about this and did some testing with the text client, and everything works fine but the text client.
+And [PERSON5] wasn't really sure what the difference was and the setup so.
+Yeah.
+(PERSON14) My own experiments with the ASR output including the incremental one, the timestamps are there.
+(PERSON8) Yeah yeah.
+(PERSON14) They are there, you should not be relying on the timestamps of the entire package.
+If I if you request unsegmented text you get the get that output and something called a token.
+And boundaries of the whole <unintelligible/> will just be <unintelligible/> with the first token and the end of the last token.
+Um <unintelligible/> on on the level of individual tokens.
+And sometimes the start and end times don't match exactly.
+So I had basically good success but.
+Doing the different matching it's just a.
+You receive a token again that overlaps the token you already have.
+Then that's where the resending starts, I suppose.
+And everything.
+(PERSON8) See see I actually have some matches <unintelligible/> the text.
+In order to.
+Sorry.
+(PERSON14) No.
+There are timestamps they are timestamps for each token.
+(PERSON8) Okay it's just we didn't get them in the WG session.
+(PERSON14) You usually have to you you have to modify the client output them.
+They are in the packages.
+(PERSON8) Right, but they weren't there in the in the and the the.
+It wasn't just the timestamps were missing it was the updates I mean we looked at the logs and the updates.
+Did not work as.
+As described, they I I think I've I can't remember the details I mean I wrote an email about it.
+And then we looked to them, the text client everything were absolutely fine as described.
+That's, you its.
+So.
+So I was a bit confused.
+(PERSON14) As a worker <unintelligible/> you can request the same language that is spoken by this text and you will get <unintelligible/> with the segmentation.
+So the punctuation with the capitalization and and with the protocol with the text client.
+And yes.
+(PERSON8) About they way.
+I think we are requesting text yeah cuz I don't think we don't really want unsegmented text.
+(PERSON14) If you are requesting text then there is absolutely no difference with the.
+(PERSON8) Okay, but it was different.
+I mean we looked to the logs and it was different so that was that was the question, I don't read the.
+We cant really explain the difference.
+Cuz we haven't had a dry run since then we don't really know how to how to debug this.
+(PERSON14) You can you can always <unintelligible/> the client and just send an audio file.
+(PERSON8) Yeah but that works that works fine.
+It did not work in the dry run.
+That that was the puzzle.
+(PERSON14) Really be no difference then.
+(PERSON8) Yeah but there is a difference.
+(PERSON14) There is not difference for the client between <unintelligible/> audio file and receiving <unintelligible/> stream.
+(PERSON8) Yeah, its not there is this one thing that I haven't fully investigated.
+There's and argument that you can supply to the text client think something like [ORGANIZATION7] and like that.
+(PERSON14) There is a real time mode and if you send <unintelligible/> I would recommend you that you use that.
+(PERSON8) Real time mode doesn't work.
+(PERSON14) And and that that t- t- the ASR workers don't like that.
+With the real time mode though, the client will send the audio file one second per second.
+(PERSON8) So w- which mode <unintelligible/> in the dry run?
+(PERSON14) In the dry run it would be live audio so obviously real time.
+(PERSON8) Yeah so maybe its the maybe there's a problem with the real time mode.
+Ok yeah.
+I I I don't.
+Yeah.
+(PERSON16) One important thing is that I I use two clients, one for one instance of the client, can you hear me?
+(PERSON8) Yeah yeah.
+(PERSON16) One process was was audio client and here is unsegmented text.
+And another client or anot- and and it sent it through pipe.
+To text client and it didn't send any any timestamps to second client.
+So the timestamp.
+(PERSON14) Use case.
+I cannot use that.
+If you want translated text then request translator text.
+(PERSON16) Yes of course, but but we don't use audio into translated text.
+But but audio into unsegmented text and another another client worker for unsegmented to segmented.
+(PERSON14) Why.
+(PERSON16) Why?
+Because this was, this way we don't need so many ASR workers.
+We need translations into many languages at once and we used only one.
+(PERSON14) Multiple fingerprints with the client and multiple output fingerprints, you can you can do that without running multiple clients.
+(PERSON16) But it didn't work.
+For for us.
+It was.
+(PERSON14) Modify the client and add it that code but you supply one <unintelligible/> and you can request English, German, French, Italian, Spanish.
+All at once and you will receive all of those messages.
+(PERSON16) This setup employs several ASR workers at at once even <unintelligible/> they were identical.
+So we.
+I checked it on I we tried this and it used many ASR workers so we switched.
+Can you hear me am I there?
+Some network connection error.
+Really?
+Confused.
+So [PERSON10] I think that if if you need fingerprints in MT you should you should measure the times when you receive the messages.
+And they will match or is why you get the fingerprints right now.
+(PERSON8) So we have to <unintelligible/> on timestamps.
+(PERSON16) Yes.
+(PERSON8) And and I'm not really sure how that's gonna work.
+But.
+But the problem is we need.
+Because I mean when I I run the text client its really clear from the logs you know I can see the ASR output coming in.
+And when the timestamp <unintelligible/> code written that can detect I can tell a difference between stable and unstable text.
+If I look at the logs from the WG I can tell very strange things happening, I'm trying to find an email that I wrote.
+Yeah.
+<other_noise/>
+The text the text updates have non monotonic start time.
+So sometime the start time decreases.
+I'm not, well this I can tell from looking at the text, cuz we have no timestamps.
+But you know sometimes it, its sort of transmits yeah, and this is not a specified.
+So it transmits <unintelligible/> and then the next update might sort of roll back the start and translates.
+Transmits some earlier text.
+But I don't see this in the text client I just see this in the logs from the session.
+I don't really know we weren't monitoring detail what was going on in the session I dunno <unintelligible/>.
+But I was just.
+<unintelligible/> maybe we just look and see what happens this time.
+Maybe its <unintelligible/> I'm not really sure.
+(PERSON16) Yes.
+So <unintelligible/> new meeting, its important for [PERSON4].
+<other_noise/>
+So monitor of all sound channels, the monitor is there but its only on the laptop which is sending the audio, do you think its important for everyone?
+To have access to to the incoming audio?
+To and everyone who is abroad.
+Who is remotely.
+Remote.
+(PERSON8) You mean you meant live monitoring or or just recording.
+(PERSON16) <unintelligible/>.
+Any comments?
+If not then then we edit to the list with with very low priority.
+Cuz obviously could be interesting but not very important, cuz sometimes I I.
+I inputted different language than expected so.
+So there was German ASR with with Czech speech.
+So obviously it was very very bad subtitles.
+Yeah, so another point.
+Can we somehow <unintelligible/> in the platform.
+<unintelligible/>.
+Web browser to su-, there is simply so many updates <unintelligible/>.
+So there is some long discussion.
+(PERSON8) I mean one thing yeah I think.
+The presentation layer isn't isn't ideal <unintelligible/> sort of refreshes subtitles and so on.
+Its a bit difficult to describe but can we capture some video of the presentation layer?
+So that we can actually kind of.
+You know replay it as an actually you know cuz we, I think people have written down <unintelligible/>.
+What happened to the presentation layer as they were watching it.
+<unintelligible/> slightly different memories.
+Um <unintelligible/>, what to be mean.
+If we just had to <unintelligible/> capture screen grab video, not the whole thing.
+The whole thing just isn't really necessary, but for some part of that I think it might be easier to to discuss afterwards.
+(PERSON16) Yes there is.
+<parallel_talk/>
+Yeah.
+I think we can manage it if we have.
+(PERSON2) Then it should be possible to capture it and archive it.
+Will do it.
+(PERSON8) Someway to <unintelligible/> figure out.
+<unintelligible/> things look like, I dunno if it <unintelligible/> screen grab.
+(PERSON16) Yes this is the <unintelligible/> so we need just to don't forget to run it.
+It should be pretty simple.
+So so solid <unintelligible/>.
+ASR models.
+Okay.
+I think this is clear but who is going to work on it.
+<unintelligible/>.
+We would we have many or maybe [PERSON18] <unintelligible/>.
+<unintelligible/> ask him.
+How far is the, is the test set.
+ASR quality simple you shows <unintelligible/>.
+People are disturbing are always up to <unintelligible/> or subtitling.
+<unintelligible/> disturbance.
+So any wrong word is critical.
+Any other comment and yes.
+Lets move <unintelligible/>.
+They wants record <unintelligible/> to the ASR to the avoid it.
+We need somehow handle it.
+Any ideas or anyone who working working on this.
+<other_noise/>
+This is some particular <unintelligible/>.
+And otherwise we don't have anything.
+<unintelligible/>.
+<unintelligible/> final hypothesis.
+You seem to oscillate between <unintelligible/> hypothesis.
+<unintelligible/>.
+Particular setting and processing to <unintelligible/>.
+<unintelligible/> single pipeline.
+<unintelligible/>.
+They queued <unintelligible/>.
+Setup correctly, the new updates should have priority <unintelligible/>.
+(PERSON17) Ah yes, we we are working on that on a newer version the published worker.
+I cant promise you that it would be right before the for the next event, but you would like most likely be ready for the the <unintelligible/>.
+(PERSON16) <parallel_talk/>
+<unintelligible/> have not seen this at all, but now it <unintelligible/>.
+Empty deliverance some output was number segment.
+Yes.
+So this is the.
+This should be, or maybe.
+One of the reason is that empty <unintelligible/> very long segment and there is not enough space into subtitle window so.
+First option to fix it which would be to change the subtitling window.
+Simi- similar to lecture translator, so it there is very long text.
+And you see and they either can <unintelligible/> read the whole paragraph at once.
+Or second as.
+(PERSON17) That its that is risky because the the presentation platform is not, you know.
+Is not enough display space to actually display a paragraph so we need to we are forced to to to to split I think <unintelligible/>.
+Currently we have two lines of text <unintelligible/>.
+We are set to display up to 42 characters per line right now.
+It is computable but we did some test.
+We run a test internally and that is usually you know, what is.
+Easily readable via DIR person.
+So, we are right now we are configure like that.
+We also.
+We have an experimental setup which just dumps everything everything that gets sent by, everything comes to the end of the pipeline.
+That appear to not to do it work was.
+So.
+We um, okay, <unintelligible/> testing, okay lets say its very hard for us right now to replicate a situation that is just bad as I have been told it was during the event.
+So maybe.
+(PERSON16) So do you need test test case to find.
+(PERSON17) I um, yes I think if the if there are recordings of the the audio from the event.
+<unintelligible/> may actually be useful to to replicate the the amount of of published text we should expect.
+(PERSON16) Maybe we watch the presentation from [PROJECT1] or do replay and watch.
+Watch the subtitles and when this appears and we <unintelligible/> and to a test case for it from it.
+<parallel_talk/>
+And will be possible that there will be two options to show the subtitles, one will be similar to <unintelligible/> translator so on the screen they see see the history.
+Or of the speech and when they, they click on some button they see slides and and only one one line of text.
+(PERSON17) Right now the the presentation platform you can select you can enable or disable individual languages and you may want to see or not see.
+(PERSON16) Yes I know.
+(PERSON17) But for for each language you select, for each language you enable you will see its own panel with its own text.
+And the amount of text depends on the configuration of the publisher for that language.
+We can we can theoretically um um configure the publisher for each language in its own way.
+But we cannot change it live, we would need to restart the whole worker.
+So all the instances.
+All the publishers.
+Together.
+(PERSON16) I mean this this would be a brand new feature of of the publisher <unintelligible/> or it would need.
+(PERSON17) Its not exactly new we have both alternative, one one well the oldest one which is the one set to 42characters per line.
+Is the one which ran during the the last event don't exactly remember when it was.
+But it was a two day event I remember on the second day we um um we switch to um an experiment <unintelligible/>.
+And the I don't exactly recall what it was, but it seems to perform worse than the the <unintelligible/>.
+So we actually I think we use the for them.
+It ran in the morning of the second day, and then we switched back to the old one.
+We still have both implementations available.
+(PERSON16) What was the difference?
+(PERSON17) Um, one lets say the old one attempts to feel <unintelligible/>.
+So if we if two short messages are are published in very quickly.
+They are they are <unintelligible/> so the first and then the second one they appear on the same line.
+But that, lets say it we had feedback immediate feedback that was very very unpleasant to read.
+So we si- switched the <unintelligible/> the second implementation.
+Which just published each piece on its own.
+That was apparently too fast and we also got feedback on that.
+That was um, just too fast to short messages to quick and they were.
+They were running so fast you cannot read them.
+But then at least it was um, it was more responsive so.
+The other one <unintelligible/> that delays build up as the presentation run and so the delay increased increased increased until until the subtitles were <unintelligible/>.
+(PERSON16) So maybe some of the, some of the comments about about this are on the on the on the new setup.
+Which you already sold by.
+(PERSON17) I would call it sold actually, we.
+But we have not been able to replicate any of the okay, we have replicated the situation its not it has not appeared to be as worse as bad as it was described.
+So I think we still lacking some s- s- some information is missing because we cannot replicate such bad performances.
+(PERSON16) Okay I mean we have some comments about and feedback maybe they reported to the situation <unintelligible/> experimental setup.
+Of of the mediator and there were many.
+The updates of the subtitles were very fast so they <unintelligible/> maybe maybe it was this experiment.
+Which was which was replaced back to this.
+(PERSON2) The word were jumping too much.
+It would be nice if it was somehow possible that you would scroll <unintelligible/> by lines and not have the have a single word jump left and right and yeah.
+I found founded that I was using too much time looking at the place where I should be actually reading.
+(PERSON16) Yeah, and do you remember which day was it?
+If it was second day then it was this experiment.
+(PERSON2) No I think the second day would be scrolling too much, because the message <unintelligible/> and they would just <unintelligible/>
+My problem was that the work was jumping left and right on the same line.
+When <unintelligible/> coming in.
+(PERSON16) Okay.
+(PERSON17) Oh think I remember.
+Yes okay this issues was we think it was due to partial hypothesis being combined in a line instead of <unintelligible/> a line.
+This was supposedly fixed by the segmentation worker I think I have not.
+Heard any update on that so I I thought that was fixed, maybe I'm wrong but.
+<other_noise/>
+(PERSON16) Okay.
+Real time display is critical in this <unintelligible/> interpreters respeakers to <unintelligible/>
+Actually the interpreters told us that they have too many problems with catching interpreting and they don't have time to follow our our ASR.
+(PERSON16) Our ASR which they do not want to follow <unintelligible/> subtitles.
+Maybe only they ask them to to do it.
+We ask them to <unintelligible/> interpret and you do not want to follow the subtitles <unintelligible/> understand the language <unintelligible/> speaker.
+<unintelligible/>
+(PERSON9) I know there was one point when he said, it would be useful.
+And actually real interpreters, when one is interpreting the other one usually does this for the the <unintelligible/> one that this <unintelligible/> writing down numbers.
+<other_noise/>
+<unintelligible/> so the do not have to remember that
+<parallel_talk/>
+actually, uh the inactive interpreter writes down these numbers for the other one to, uh to read. 
+(PERSON16) Yes, but they but they <other_noise/> the screen are correct so they have to understand follow on their own without our <other_noise/> our tool .
+<other_noise/>
+She <unintelligible/> perhaps only the last bit of deliverance translations to the presentation <unintelligible/> at once.
+<unintelligible/>
+(PERSON8) I do not see why UDP would make this better I think.
+It could be handled higher level.
+What it means is the ones everything to be asynchronous I suppose.
+(PERSON16) <unintelligible/>
+(PERSON8) It is not.
+I assume that is from from, from <unintelligible/>
+That is not technically feasible either.
+(PERSON17) I know it is not it.
+Yea, it would require to do the architecture again <unintelligible/>.
+(PERSON8) take the first point that everything should be passed through as quickly as possible um.
+Changing the underlying wire protocol is not going to make much difference <unintelligible/> I do not think.
+(PERSON16) <unintelligible/>
+He should have chance to <unintelligible/> because sometimes people suddenly <unintelligible/>.
+<other_noise/>.
+<parallel_talk/>
+<other_noise/>
+<unintelligible/> telling you which subtitles are you seeing.
+<other_noise/>
+You can see several like windows <unintelligible/> presentation interface, and <unintelligible/> which <unintelligible/>
+Sending any content and it disappears.
+<unintelligible/> have to kill all of them.
+(PERSON14) There is actually something else about this.
+(PERSON16) Yes.
+(PERSON14) Stop the client by pressing control c.
+I believe the signal is not being caught inside the client, which means the client never sends a done <unintelligible/>.
+(PERSON17) Yeah I can confirm that.
+(PERSON14) Yes that's not how it supposed to be is it.
+(PERSON16) Yes.
+(PERSON17) No its not.
+Its session should be closed properly so the the correct way to to shutdown session is to close <unintelligible/>.
+I dunno if the <unintelligible/> to accept to accept standard input, but if it is then control d would be the the way <unintelligible/>
+(PERSON16) Okay okay.
+Very good comment.
+(PERSON14) The EB client does not read from standard input.
+(PERSON16) No, they they <unintelligible/>.
+(PERSON14) Oh it does <unintelligible/>.
+It shoul- its not a big I don't think its that difficult I'm not a C programmer but I think its not that difficult to add in the the client <unintelligible/> signal <unintelligible/> by pressing control c and then <unintelligible/> properly.
+(PERSON8) But they will be cases where the session is not shut down properly I mean.
+<unintelligible/>
+(PERSON14) In normal case.
+Because I think the normal case is stopping, most people do it with control c, especially when they are sending an audio file.
+<unintelligible/>.
+(PERSON16) Okay, this week or very very soon we should review all all my scripts and I should check this.
+Because <unintelligible/> pipeline which tends <unintelligible/> and I pressed only one control c.
+And it it seemed to be stopped but later as I I saw some processes in background like.
+(PERSON8) But doesn't the server notice that the socket is closed.
+(PERSON17) It does but it takes quite long time to to shutdown to to cut there is a <unintelligible/> that monitors the activity.
+The value is computable if I <unintelligible/> correctly, I'm not sure, but its on a long timeout lets say.
+I wouldn't to to, yeah sorry.
+(PERSON8) So it only notices that the socket is closed, because there is no no activity on it.
+(PERSON17) Exactly yes.
+(PERSON8) Okay yeah yes.
+Yeah.
+(PERSON17) No we don't want to <unintelligible/> because.
+Especially well the architecture is was designed to <unintelligible/> conferences so.
+So I think quite a long silence from a speaker is a is actually expected from time to time.
+So it well, <unintelligible/> if we shorten that timeout it maybe <unintelligible/>.
+<other_noise/>
+(PERSON16) Okay.
+<unintelligible/>.
+Czech ASR anyone here <unintelligible/> Czech ASR.
+Yeah I spoke with the interpreters and they said that what would have been <unintelligible/> but only the specific terms yeah.
+Which nowadays <unintelligible/>, but.
+Do interpreters want to not to see the whole, whole output but only some specific times.
+<unintelligible/>.
+They said that they would have done far better if they had the presentations ahead most of the , then from the translating English Czech quite hard.
+But even the English <unintelligible/> was not that easy.
+<unintelligible/> unprepared.
+<unintelligible/>.
+So.
+<parallel_talk/>
+To ASR.
+<unintelligible/> from the systems ASR is possible adaptation <unintelligible/>.
+<unintelligible/>.
+Are you working on on some speaker adaptation ASR or.
+(PERSON14) Not right now as far as I know.
+We used to have some some of that speaker adaptation but.
+End to end system.
+And I do have the ability <unintelligible/> hybrid system, language model adaptation.
+Names for <unintelligible/>.
+Could be recognized <unintelligible/>.
+<unintelligible/>.
+(PERSON16) So any and do you plan any.
+Wait.
+<unintelligible/>
+Do you plan any updates on on the quality of the ASR.
+(PERSON14) Yes always.
+(PERSON16) And there would be something until May until the congress.
+(PERSON14) The congress is um early next year.
+(PERSON16) No its in May next year, or <unintelligible/>.
+(PERSON14) [PERSON11] has has had to <unintelligible/>.
+There are definitely <unintelligible/>.
+But don't know the example right here.
+(PERSON16) Okay.
+<parallel_talk/>
+So debugging all the subtitles until I s- shown <unintelligible/> output.
+Anyone knows what is chopper?
+Its its [PERSON9]'s script which shops haven't.
+(PERSON8) <unintelligible/> repeated text.
+(PERSON16) <unintelligible/> and sends shorter lines than <unintelligible/>.
+Instead of 150 <unintelligible/> it sends only 100 and the rest with the next message.
+Its <unintelligible/>.
+To find <unintelligible/> current update.
+<unintelligible/>.
+<parallel_talk/>
+Lets go for one.
+Yeah yeah.
+So we are back to incremental ASR what we did at the beginning.
+Yeah one one way of the timestamping is is that these the timestamps in in the text.
+And then when we need to make some protocol on the content from the timestamps.
+(PERSON8) Seems like a bad idea.
+The bad idea I mean it the timestamps are coming we are getting time- timestamps into empty without having having to embed it to the text.
+Or anything like that.
+Um, that is just strange.
+But truly there is a way to send a a I mean isn't there a way send timestamps in the protocol without actually just pasting them into the text.
+(PERSON14) The timestamps.
+(PERSON8) Sorry?
+(PERSON14) <unintelligible/> further up in the document.
+Um, yeah two timestamps two different timestamps into text <unintelligible/>.
+And there is a release called <unintelligible/>.
+(PERSON8) Yeah, <unintelligible/>, stop off sad.
+(PERSON14) Yes those are strings and <unintelligible/> I believe I think we make use of the <unintelligible/>.
+(PERSON8) Okay, so I'm looking at the logs and the <unintelligible/> offsets are actually empty.
+The start and stop did have something in them but they were bogus.
+(PERSON14) Yeah but there there is the quite strange.
+Timestamps, I know we we use them and we use them somehow but its <unintelligible/>.
+(PERSON8) <unintelligible/> to [PERSON16] yes is there is in this <unintelligible/> that's transmitted down the between components there is a slot for the timestamp.
+So we shouldn't embed it with the text.
+(PERSON14) Yeah ideally there there is definitely some meta information in the packages which is <unintelligible/> not should go into the text.
+The text <unintelligible/> text from the segment.
+(PERSON8) Exactly, yeah.
+I think the empty probably isn't sending all the timestamps I have to check that.
+(PERSON14) I would be surprised if that was the case.
+(PERSON3) I think it is I think its just.
+(PERSON8) Oh okay right.
+Stand correct.
+(PERSON16) Or.
+Where we can bypass.
+The timestamps are necessary or they come from ASR and they are necessary only in presentation, aren't they?
+(PERSON8) Yeah I think they're necessary <unintelligible/> components to know when you know you see two se- sections of the text with the same timestamp but <unintelligible/> you know that the ASR is updated as output.
+Yeah.
+And I think you do want.
+You do want the actual timestamps you don't want other components having their own timestamps I don't.
+<other_noise/>
+(PERSON14) As far as I can tell from looking at the, we should be populating all of the timestamps fields <unintelligible/>.
+If you are requesting the text output.
+Not <unintelligible/>
+Um.
+I would have to look at the output from the client again.
+(PERSON8) Yeah.
+(PERSON14) To make sure.
+I mean I think the the the the output of the client as it is I think its not that useful, it does show you usually zeros or empty fields or a stuff like that.
+Because its not looking at the correct fields for the.
+(PERSON17) But no actually it <unintelligible/> not even designed to correct to propagate <unintelligible/> data, its just make a.
+(PERSON14) Yeah.
+(PERSON17) Just it was meant just to to see if stuff was was getting back.
+Uh, uh well I'm not the <unintelligible/> right now but I I remember packages are sent back to the client then its up to the the client to the same <unintelligible/>.
+EB client selects just the text content from the the token messages I think.
+(PERSON14) <unintelligible/> other information as well, however that information is not usually populated in the packages and so its actually always going to be I think its always a zero and one.
+And no matter what actually back.
+(PERSON16) Yeah.
+(PERSON14) But its its a small modification to make this work.
+(PERSON16) Yeah.
+Okay, can you repeat it or write write here into summary I didn't hear you now.
+(PERSON14) I don't know if we need those options.
+Because an option exists <unintelligible/> even using right now which is use the mediator protocol.
+We put the timestamps in the fields in the packages for the mediator where they should go.
+(PERSON16) Yeah but it has to draw back that then we don't have access to immediate result.
+<unintelligible/>.
+And empty and so on and we don't know which component.
+(PERSON14) You always <unintelligible/> the immediate results if you request them in the client, you can request.
+If the same client and the same connector requests anything you will not get double connection.
+For example if if your client is English audio and it request unsegmented text.
+An English segmented text and German text.
+<unintelligible/> requested only once, even <unintelligible/>.
+All the <unintelligible/>.
+(PERSON16) Lets try to any <unintelligible/> and if its not necessary then I will go for this.
+This is <unintelligible/>.
+Question was that the ASR <unintelligible/> than the English one despite this just a first <unintelligible/> it has <unintelligible/> most likely that <unintelligible/> like English was spoken exclusively by non native speakers.
+<unintelligible/> as a consortium we should collectively create a reasonable big non native English speech outputs.
+<unintelligible/>.
+Select some interesting English documents and have <unintelligible/>.
+Possible.
+<unintelligible/> for extremely long German sentences.
+<unintelligible/> for user should be wasted <unintelligible/>.
+<other_noise/>
+So this is comment on the.
+The size of content that is displays to the user.
+That we solved for.
+So [PERSON10] this is what the timestamp look like in the <unintelligible/>.
+(PERSON8) This is what we had from dry run and they they they're following a very regular <unintelligible/>.
+(PERSON14) Yes, which what client are you using, what is your input.
+(PERSON8) <unintelligible/>.
+It will be it will be the segmented text yeah.
+(PERSON14) So you are inputting text?
+(PERSON16) Yeah.
+(PERSON14) Yes the inputting the text client is not supplying.
+(PERSON8) This isn't this isn't from the text client, this is from the MT client.
+(PERSON16) Yes, I think I think.
+(PERSON14) There is no empty there is an empty worker.
+The client.
+Translation, what is your input, is it text or is it audio.
+(PERSON8) I don't think it can be audio.
+(PERSON14) Because this definitely is the text I remember the text client just has these bogus offsets because the text information has no time.
+There is no there is no sensible of-.
+(PERSON8) Okay, how do we get it then.
+Because so it EB client it works fine.
+(PERSON14) <unintelligible/> EB client.
+(PERSON8) Sorry?
+(PERSON14) EB client <unintelligible/> transmitting audio, I can show you my log output, looks more.
+(PERSON17) If I may EB client only accepts audio as as input.
+(PERSON16) Yes and then then we have also text client which accepts text.
+But I think.
+(PERSON8) <unintelligible/> we lose the timestamps from the ASR.
+Because when we got a text the timestamps are gone.
+(PERSON16) Yeah but we should we should fix this.
+(PERSON8) Yeah.
+I think we need them in order to know when when the text is being updated, when its transmitting from unstable to stable, otherwise we have to resort.
+Tryna match all the text and that's gonna be.
+(PERSON14) Question if this timestamps for the text client are set in the sensible way why are you even getting partial translation.
+(PERSON8) I I don't know.
+We just get what we get.
+(PERSON14) <unintelligible/> very much.
+(PERSON8) Yeah.
+(PERSON16) [PERSON9] did some distinguishing of of partial, not partial hypothesis in his chapter.
+And he did only on the <unintelligible/>.
+(PERSON8) Yeah I mean, that that is kind of doable but the point is that this information is available, the ASR.
+I mean when I use the EB client I can get this information so when I'm using the the system.
+That we have set up for the dry run, the information is being lost.
+So it just be useful if the information could be retrieved.
+(PERSON14) In- information okay, so if you use the text client there never is any time information to begin with.
+There is nothing being lost because there never was anything.
+(PERSON8) I don't really understand because there was audio so audio.
+(PERSON14) The text client sends on line at the time and each time you see this <unintelligible/> will automatically increase the offset by one second and have one millisecond.
+(PERSON8) Okay, so I'm talking about using using E- using EB client where I send audio into the system and I get text out.
+Yeah so you are telling that's an audio client is it.
+(PERSON14) Yes, my my log output that I posted the <unintelligible/> is an audio client and.
+(PERSON8) So how do I know I've got an audio client to text client.
+(PERSON14) Yes there is an audio <unintelligible/> yes.
+(PERSON8) So what is the which oh the empty is neither its the worker.
+(PERSON14) The empty is a worker yes.
+(PERSON8) Okay, but it gets some input from somewhere.
+(PERSON14) It does get input from somewhere but it does not attach timing information, it just pass the.
+(PERSON8) I know I don't want it to attach the timing information but I would like it get the timing information from ASR.
+(PERSON14) It does.
+<unintelligible/> you can see in my log output the timing information is there.
+If a time information is coming from actual audio which does have time information.
+It is passed through the the pipeline.
+(PERSON8) So your log <unintelligible/> is from your empty worker is it?
+(PERSON14) No this is from the client.
+I did did modify so it prints the correct fields and the packages.
+(PERSON8) Yeah yeah.
+I've done that as well with the client and that works fine.
+What I don't understand is why the empty worker can- cannot access this information.
+(PERSON14) <unintelligible/> I mean it really can.
+(PERSON8) Okay, well that.
+(PERSON14) <unintelligible/>
+(PERSON8) Yeah,thats what we don't really understand, when it <unintelligible/> stop offsets, there these bogus ones.
+(PERSON17) If I may, could it be this due to the the chopper?
+(PERSON8) After the MT.
+(PERSON17) No I think it it is before, because the ASR the, it is because the type matching in the fingerprints correctly I think.
+Okay we have some ASR set that produce text and some they unseg text.
+But but the empty workers they want text right.
+(PERSON8) Right.
+(PERSON17) Some some paths have to pass through a chopper which preserves the, which does not translate but the converts the type of the fingerprint between unseg and text.
+And that may lose the time information.
+(PERSON8) Okay maybe yeah maybe that's why I got this weird ASR output.
+(PERSON17) I I.
+(PERSON8) The the the <unintelligible/> drawback or.
+I don't know the chopper was in between the ASR and the MT.
+(PERSON17) This is this is due to the path selection so it has to be the <unintelligible/> because otherwise the the translator worker could not accept the.
+(PERSON14) Chopper is something completely different.
+The chopper is something that that um.
+That [PERSON9] wrote that has to do with the subtitled presentation.
+There is a component in between ASR and MT we call it the segmenter.
+(PERSON8) Yeah yeah, and that's fine.
+(PERSON14) I just want to make sure that we use the same terms so that you will not be <unintelligible/>
+(PERSON8) Oh yeah, the segmenter is is doing what I expected to do as far as I can say.
+(PERSON14) Ah yes, my output that I posted also has used the segmenter.
+(PERSON8) Yeah; yeah I mean I can run EB client and I can get this output, what I don't understand and maybe we have to look at our code and maybe try and figure out what's going.
+Is why we don't get this from MT.
+(PERSON14) Oh there are.
+Okay, so two things.
+You don't get a I'm almost <unintelligible/> output that you post is it is the <unintelligible/> from your worker is that correct?
+(PERSON8) Yeah, yeah well it is this is, sorry [PERSON11] can explain.
+(PERSON14) The worker can print the time information as it find it in the packages.
+The packages which are really constructed by the client was sending the input and <unintelligible/>.
+If this is the text client it will send these strange <unintelligible/> offsets.
+And your worker is in the timing information, that does it never was.
+(PERSON8) Yes so I'm completely okay I fundamentally don't understand the architecture so, I don't understand, to me.
+(PERSON14) The time offset.
+(PERSON8) Sorry.
+(PERSON14) Time offset is not <unintelligible/>.
+The package was sent.
+It is a time <unintelligible/> that is just written into the package <unintelligible/> time information.
+This offset is supposed to be number of milliseconds <unintelligible/>.
+(PERSON8) Yeah.
+<unintelligible/>.
+Right.
+But I don't understand why we cant get it from the audio.
+(PERSON14) That I'm not sure about.
+I mean the the client the normally EB client <unintelligible/>.
+(PERSON8) Yeah yeah.
+(PERSON14) This log output I just made now is EB client.
+(PERSON8) Yeah no, that's good and I I see that as well with EB client but I don't understand why don't see with MT.
+(PERSON14) Yes, okay.
+Even if you use your empty workers with EB client you still get this output.
+(PERSON8) But, sorry I'm not that's why I said <unintelligible/> the architecture.
+Because I don't really know <unintelligible/>.
+So so in the dry run setup right, there's audio, yeah.
+Which comes from the speaker.
+The audio goes through ASR then goes through.
+(PERSON14) <unintelligible/> to the client.
+(PERSON16) <unintelligible/>.
+(PERSON14) The audio, the audio for goes to a client who who attach this timing information so, if the client sends one second of audio there would be a start and the stop <unintelligible/>.
+(PERSON8) So the audio goes through the client the audio goes through the client first, and then then where does it go.
+(PERSON14) Then it goes to the ASR which is, <unintelligible/> then have a timing information which is <unintelligible/>
+(PERSON8) Its the correct timing information is milliseconds since the start of the each whatever.
+RIght, and then this audio so this and the text comes out of the ASR and it somehow has timing information which relays to the time of the actual audio.
+Then it goes to the normalization.
+(PERSON14) Yes the the ASR recognizers work someway in this in this audio and will have the timing information for each word.
+(PERSON8) Right, so then it goes to the normalization.
+It goes to the normalization and that preserves this this time set.
+And then it goes to MT <unintelligible/> this time it has gone.
+(PERSON14) It should I mean.
+(PERSON8) Right so that's, so that is the mystery.
+(PERSON17) I I well I have an hypothesis if I'm looking at this this pipeline wr- written right here.
+So, if the if the text is actually dunked back on the client so it goes it goes to the architecture and comes down.
+Until it is in the architecture the the streaming is um, the strea- the the pipeline is composed of a serious of a <unintelligible/> messages, right?
+And also <unintelligible/>.
+But I my guess is that the text client outputs just a plain text.
+So that in that point, the all the others are lost I think.
+Because then it <unintelligible/> should.
+I think, no.
+It would then.
+(PERSON8) Between ASR.
+<unintelligible/>
+Component between ASR, there's ASR normalization and then the some other <unintelligible/> and then sending it onto MT.
+(PERSON14) No, no no no no no no.
+This component does not strip of any headers, that would that would completely destroy the whole pipeline, it does not do that.
+(PERSON8) Um hum, stripping of some headers.
+(PERSON17) But but the component is not part of the pipeline, there are actually two pipelines.
+And its <unintelligible/> in between them there is the client but the these text client its outside of the architecture, right?
+(PERSON14) The text client is is a client its a beginning and end of the pipeline.
+<unintelligible/>
+(PERSON8) How can a text client <unintelligible/> end.
+(PERSON14) Because in both <unintelligible/> and receives the final output.
+So its <unintelligible/>.
+(PERSON8) So it sends in the audio and then.
+(PERSON14) Not not the text client.
+(PERSON8) Okay.
+<unintelligible/>
+Right, in the [PROJECT1] live demo which client is sending the audio.
+(PERSON14) EB client should be.
+(PERSON8) EB client is sending the audio and the audio goes to ASR it goes to normalization so it goes to ASR it comes out of the ASR as text but it still has the timestamps then it goes to normalization and then it goes to MT but which time no longer has the timestamps.
+(PERSON14) And I'm I'm saying this is this cannot be this cannot be correct that it does not have the timestamps because our MT workers are using these timestamps.
+(PERSON8) Okay okay I get I get I get that.
+(PERSON14) But I'm saying that.
+The time <unintelligible/> in your log output are because the timing information does not come from any audio information any audio timing but artificial <unintelligible/>.
+(PERSON8) Yeah okay but I don't understand why who is where are these timestamps being removed the good timestamps that we want the ones that come from the audio.
+Are being replaced by these bogus timestamps, where is that happening.
+(PERSON14) In the log output that you are showing <unintelligible/> outputs because there has never been any audio input.
+(PERSON8) Wait there is audio.
+There is audio.
+(PERSON14) Are you sure.
+(PERSON8) Yeah cuz these logs are from the live the dry run.
+(PERSON14) But we were using it during the dry run was working.
+I I very <unintelligible/>.
+<unintelligible/> timestamps like this.
+(PERSON8) I mean its quite possible that we are doing something wrong but I don't know how <unintelligible/> looking for it.
+(PERSON16) Maybe it wasn't implemented or, we were lucky that we we.
+<unintelligible/> but we drop the timestamps at some point.
+(PERSON14) All models would be completely going crazy <unintelligible/> timestamps again.
+But I mean I really cannot say what happened in that log file I guess.
+Maybe some implementation changed maybe someone <unintelligible/>.
+(PERSON8) <unintelligible/> I appreciate that yeah.
+(PERSON14) If you are on the client right now and and show look at the log output there, then then we can talk about because we know what the implementation.
+(PERSON8) Okay that's what I've been doing in that works <unintelligible/> during the dry run.
+(PERSON14) I see.
+(PERSON8) So something maybe changed, but I'm not sure what.
+(PERSON14) Um um <unintelligible/>.
+(PERSON8) Maybe changed <unintelligible/>.
+(PERSON14) Maybe we were testing at some point the text client also during the dry run and we check from different section in the dry run maybe there's a different time.
+(PERSON8) So I think in the first day of the dry run this started offset and miss lets see, the start offset and the stop offset were missing.
+(PERSON3) There was no coding <unintelligible/>.
+<unintelligible/>
+I added that of the first day.
+(PERSON8) Right they were not logged.
+But this this strange pattern in this start and stop time was there.
+All the way through.
+(PERSON14) The reason why I'm so I'm so sure that its the text <unintelligible/> going with [PERSON1] through the text client and making this specific putting in specific pattern.
+Because otherwise the if the timestamps aren't <unintelligible/> it causes other problems.
+(PERSON8) Yeah yeah.
+(PERSON14) 1000 milliseconds and then 1 millisecond <unintelligible/>.
+(PERSON8) <unintelligible/> from the text client.
+<unintelligible/> but we don't really know why because there was definitely audio <unintelligible/> system.
+(PERSON14) <unintelligible/> some later portion of the logs maybe.
+(PERSON8) That is the end of the logs.
+<unintelligible/>.
+(PERSON14) Then maybe some earlier section .
+(PERSON8) Its the same <unintelligible/>.
+<other_noise/>
+(PERSON14) Maybe it might be related to this multiple clients that [PERSON2] was talking about.
+<unintelligible/> if if I'm <unintelligible/> you have EB client and then you feed it again into text client so.
+If if you at some point feed your input into the text client then yes you are losing the timing information, you just rely on the normal pipeline from from the mediator.
+Requesting <unintelligible/> multiple output thing.
+<unintelligible/>
+I I think I understand okay I think I'm beginning to understand yes, I understand the thing you wrote at the bottom.
+The EB client only runs the ASR.
+And <unintelligible/> still has audio information then its pipe again <unintelligible/> so starting another pipeline.
+(PERSON8) Yeah.
+(PERSON14) <unintelligible/> timing information.
+(PERSON8) Right right that makes sense.
+(PERSON14) This cannot work, this pipeline cannot produce useful results.
+If you want multiple <unintelligible/>.
+If it is not working right now than we need to figure out how it can work, but <unintelligible/> run.
+<unintelligible/> request a <unintelligible/>
+<parallel_talk/>
+(PERSON17) In principle we can, uh it is possible to specify <unintelligible/> output requests <unintelligible/> sorry, input requests, because it is it is upside down <parallel_talk/>
+(PERSON14) <unintelligible/> right now but uh, definitely <unintelligible/>.
+(PERSON17) Yes, it is yes, we may have a different sample.
+<other_noise/>
+(PERSON14) <unintelligible/> I definitely understand how how um <unintelligible/>.
+Could be that was wrong time information as I see it,<unintelligible/>.
+<parallel_talk/>
+(PERSON8) That is that is what I was asking <unintelligible/> was or between our MTN ASR.
+<unintelligible/> there was something there.
+(PERSON17) Yeah.
+We can make it work all in a single pipeline, but it.
+Well,<parallel_talk/>
+Yeah.
+Well, in principle for <unintelligible/> client you should be able to request, uh multiple, uh request, uh ah, and I do not remember <unintelligible/> you can have you declare one output, which is the audio you are providing, and then you, you can request multiple inputs streams, which is what you expect  back from the architecture, and you can specify a different fingerprints and types of for each of them so <unintelligible/>.
+In principal if we, if we build ok.
+And if we can assume we had on <unintelligible/> workers to match to create the path.
+We could attach one session of <unintelligible/> client.
+Uh, providing input, in one language, to a serious <unintelligible/> to a text <unintelligible/>, in a single pipe.
+<parallel_talk/>
+<unintelligible/>
+(PERSON14) They realize that they are also workers right?
+(PERSON17) The publisher <unintelligible/> workers <unintelligible/>.
+We are using, you know, the the third, the part of the fingerprint which, uh the first is the count in the not the language than the county.
+Then you have ah, <unintelligible/> specifier, which, is orbitary, uh we use whatever languages is this minus Bob no <unintelligible/> and then .
+<parallel_talk/>
+<unintelligible/> it may require <unintelligible/> I am not sure about that but it also requires, you know, harder in the client, which is not the case right now but then 
+This, this would require a whole piper, uh in the mediator must be able to provide this channel.
+So we still need .
+We still need to address the issue between the <unintelligible/> and text on <unintelligible/>, our <unintelligible/> in our all our segment is working, right now, or on some of them scripts?
+(PERSON14) No the are all workers.
+Ok.
+So this should work in principle 
+(PERSON14) Yes I think so.
+The only difference is that was that the proper <unintelligible/> presentation platform needs to be implemented as part of the presentation platform because it cannot be run of the separate script somewhere <unintelligible/>
+In my opinion with the dropper is an aspect of the presentation anyway.
+Yes.
+<parallel_talk/>
+(PERSON14) <unintelligible/> fingerprint, which think in some point is that using 
+<parallel_talk/>
+(PERSON17) It could be a worker and be and be pipe inside <unintelligible/>.
+(PERSON8) You are probably right is actually part of the presentation.
+It is just.
+It is the choice of how to present that they presented the <unintelligible/>
+(PERSON17) Yes.
+If this is because, but I I'm thinking about he could be that all the all the <unintelligible/>.
+We <unintelligible/> with, um, uh, multiple hypotheses, and such.
+It may disappear.
+Once the machine translation that <unintelligible/> like the translations workers are getting the proper at times input.
+(PERSON8) And yeah, well, what <unintelligible/> we would be able to think about what strategy sues the downstream components of the moment, we just translate everything, because we can't do anything else.
+(PERSON17) Right.
+(PERSON8) So it would just disappear.
+And we have to do something.
+(PERSON17) Uh, yes, but having better input will will do better translations right.
+Yeah, and then we can <unintelligible/>.
+I mean, that was why I opened this whole thing up, because I thought, how can we we decide what to translate.
+(PERSON17) Right.
+At the moment we can not because we do not have well, in the in the dry run, and we did not have the correct time-stamps.
+When I run the using the <unintelligible/> client.
+I can get the correct time-stamps.
+So that, yeah.
+<other_noise/>
+(PERSON16) We do not have access to these locks.
+I like this pipeline more because 
+(PERSON8) You got these intermediate logs.
+(PERSON16) Yes, it is  much better.
+<parallel_talk/>
+(PERSON14) for example, in the in the command <unintelligible/> the German.
+Which is only <unintelligible/> only <unintelligible/>
+But you also get the English translation and the German translation.
+You get all of this.
+<parallel_talk/>
+I think the issue is we are losing the intermediate steps.
+<parallel_talk/>
+(PERSON17) No immediate fingerprints, if you want them.
+(PERSON14) And yes, we can have immediate fingerprints um-hum.
+OK.
+So we are trying.
+But I have to check if this <unintelligible/> ASR workers as they are the outputs.
+<parallel_talk/>.
+<unintelligible/>
+<other_noise/>
+(PERSON8) So what is this minus I and minus F? 
+<parallel_talk/>
+(PERSON14) request in the in the in <unintelligible/> fingerprint.
+It is it is a bit confusing because for the client 
+<parallel_talk/>
+(PERSON8) I read, this is initial and final round.
+(PERSON14) Yes.

@@ -1,0 +1,30 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION6], [ORGANIZATION8], [ORGANIZATION4]
+Meeting Name: Surge
+Meeting Date: 12.05.2020
+Meeting Topic:  Demo presentation for the Project Officer
+Meeting Participants: [PERSON12], [PERSON6], [PERSON2], [PERSON5], [PERSON9], [PERSON1], [PERSON4]
+Meeting head speaker/moderator: [PERSON12]
+Purpose of the meeting: Setting up the priorities and distributing tasks in relation to the preparation Project Officer Demo Presentation scheduled to take place on 15th May 2020 at 10AM CET.
+Important points of discussion and pivotal tasks to be performed i  relation to the Project Demo:
+•	Eliminate the time delay, operational and reputational impact related to the significant system and data loss caused by a human error and also external counterparty server failure.  
+•	Significant work on the system recovery and testing is to be done to assure optimal performance of newly built system. So far around 50% of the work has been done. Request has been made to pull immediate resources and work capacity to complete this task and focus on fixing bugs in pipeline and checking the scripts before the Project Demo event. 
+•	Location has been given for files serving as a static back-up copy for all the systems.
+•	All available test data need to be uploaded to the [PROJECT4] test set repository.
+•	Reversible parallel concatenation of all available files in IW SLT test set needs to be performed by two separate individuals and all existing translation models. This should be done on the 12th May 2020. The concatenated output as well as the relevant command line is to be circulated to relevant team members and output will be then compared. Pivoting will be done afterwards.
+•	It is critical that the number of lines provided in the output remains intact; line for line convention needs to be preserved.
+•	Translation is to be done from English to Czech, German and Romanian; from German to English and from Czech to English. As well as from English to all other languages where target side is available.
+Other important events and deadlines:
+•	[PROJECT3] submission has been made and feedback is awaited by the 18th of May 2020. By 28th May 2020 submission needs to be updated if deemed necessary after the feedback received.
+•	IW SLT evaluation deadline is 27th May 2020 and decisions need to be made within a week in relation to this.
+Further deliverables:
+•	Preparation of talk level domain adaptation for the Project Officer Demo
+•	Work on SLT deliverables for [PROJECT4] Project
+
+Progress made in other areas of the Project:
+•	Performance of the Czech segmenter has been improved to the level of manually devised transcript as per visual observation.
+•	Work on “Jupiter” is progressing well and further steps are to be decided.
+Administrative point made:
+To fill surge data table in order to transform points into bonuses and pay.
+Meeting results: Areas of attention have been identified, priorities assigned, action plan agreed and responsibilities have been distributed.
+Minutes submitted by: [ANNOTATOR1]

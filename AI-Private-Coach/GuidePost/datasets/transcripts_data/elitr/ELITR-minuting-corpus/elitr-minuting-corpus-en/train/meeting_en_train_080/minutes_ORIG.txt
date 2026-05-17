@@ -1,0 +1,26 @@
+[PROJECT3] Surge 2020 Organization
+Tue June 23, 16.00-16.30
+•	Last meeting before summer.
+•	[PERSON10]
+o	Demo went well, users not quite happy
+o	We will redo the demo for [PROJECT1]
+•	[PERSON8]:
+o	Still crawling, parsing, diarizing europarl interpretations
+	The webmasters changed the web and migrated the videos during my work on it. It slowed me down :( , but I found more efficient way how to download streamed videos with youtube-dl
+o	Most probably any results until COLING deadline in 8 days
+o	Submitted subtitler to ITAT WAFNL
+o	Do we have a meeting tomorrow? 
+	What next?
+How about the START grant?
+•	[PERSON8], [PERSON9], [ANNOTATOR1], and [PERSON4]
+o	Going to substitute [PERSON9] at IWSLT QA session (merging [PROJECT3] and [PERSON9] QA into one)
+•	[PERSON3]
+o	Working on the SLTev paper.
+•	[PERSON6]
+o	Working on [PROJECT3]-testset:
+	Added czech asr-testset, [PROJECT2] czech and respeakers
+	Working on checks and indices
+	Looking for a person to coordinate annotators
+•	[PERSON9]
+o	Summer plans: annotating tool for [PERSON2]
+

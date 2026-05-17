@@ -1,0 +1,530 @@
+(PERSON1) Hello.
+(PERSON2) Hi [PERSON1].
+(PERSON1) Hello [PERSON2].
+(PERSON2) Hi, I didn't know where we are.
+If we are on our link or on this [PERSON3]'s link.
+(PERSON1) Oh, okay.
+So do do you think that [PERSON3] will join us today?
+(PERSON2) Uh, I don't know.
+(PERSON1) Oh, okay.
+(PERSON2) Uh, didn't you speak to him?
+(PERSON1) Yeah, I emailed him.
+(PERSON2) And what?
+(PERSON1) But I think that he was very busy this week.
+(PERSON2) Yesterday I spoke to him.
+But he didn't even answer.
+He was just running somewhere, I had <unintelligible/>.
+<laugh/>
+Because it was the this end of the <unintelligible/> and he was really extremely busy.
+(PERSON1) Aha, aha.
+(PERSON2) No possibility to ask anything.
+And I-.
+I was running after him and I didn't catch him.
+(PERSON1) Mhm. Okay.
+So [PERSON2], uh, later today like I'm going to share you the like a brief draft.
+It is not complete yet.
+Of the proposal.
+(PERSON2) Mhm.
+(PERSON1) And we need to discuss on this.
+(PERSON2) Mhm, mhm.
+<unintelligible/> again.
+Wow.
+Really sorry.
+(PERSON1) Yes?
+(PERSON2) I haven't sent you the biographical sentences yet.
+Really sorry for that.
+I will find it now somewhere.
+Yes, okay, just sure, sorry, it just was apropo.
+(PERSON1) Yeah, yeah, so [PERSON4] is busy with an annotator.
+So let us both of us start, at least, because I want to finish the proposal, uh, by today itself.
+(PERSON2) Yes.
+(PERSON1) Maybe.
+(PERSON2) Mhm.
+(PERSON1) I have posted the proposal link.
+(PERSON2) Uh, [PERSON1], should I call [PERSON3] right now?
+(PERSON1) Uh, it would be great that if he could join.
+But otherwise if he, if he can join on Monday it is still okay for us.
+(PERSON2) Uh, so, I I wouldn't call him yes.
+Rather, or what do you think?
+(PERSON1) No, if he is available or otherwise, just leave it so we are finished from our end.
+That will be better, right?
+(PERSON2) Uh-huh mm, what?
+Sorry, I didn't hear.
+(PERSON1) So I think that let's-.
+So let us finish from our end, first.
+(PERSON2) Yes.
+(PERSON1) And then maybe on Monday-.
+[PERSON3] can see it, right?
+(PERSON2) Yes, yes, yes.
+Mhm.
+Okay.
+Now I'm looking at the proposal.
+(PERSON1) Mhm.
+Uh, so I have like-.
+I have to write about the introduction and background that I will do very quickly today.
+Uh, because, uh, like I had to borrow something from your paper.
+(PERSON2) Mhm.
+For this part, mhm, and, uh, most specifically.
+Uh, I-.
+We have to answer, like.
+If you can go to section four point ten.
+(PERSON2) At the section ah, ah.
+Uh, [PERSON4] is here.
+Uh, I just re- just a moment.
+I will re-, re-.
+Ah, forward her to us.
+I think [PERSON4] is wanting to join us.
+(PERSON1) Uh, [PERSON4] is on the 40 minutes link.
+(PERSON2) Yes.
+(PERSON1) She is handling some annotator, and she will join within five minutes.
+(PERSON2) Oh, okay, okay, mhm.
+(PERSON1) Mhm.
+(PERSON2) So she knows that we are here uh-huh.
+Okay, uh.
+(PERSON1) Mhm, okay.
+(PERSON2) No, I didn't tell her.
+Uh, I put a question, if we are meeting or not.
+(PERSON1) Okay.
+She could join, no problem.
+(PERSON2) Mhm.
+(PERSON1) So, uh, so [PERSON2], I will, uh, require your input in the following sections.
+(PERSON2) In fo-
+(PERSON1) Uh, in section four point three.
+(PERSON2) Four point three - data description.
+<unintelligible/> technical meetings, technical?
+Project meeting.
+Meetings.
+(PERSON1) Okay.
+(PERSON2) Go there.
+(PERSON1) We can. Mhm.
+(PERSON2) Technical is strange.
+We collect our data from our technical mutual-.
+(PERSON1) Project meetings.
+(PERSON2) Manually-.
+So you want me to write a little bit more about that, or what is there?
+(PERSON1) Uh, maybe.
+Uh, a little, if you want a little bit more, and also the data statistics for, for only the [PROJECT2] one.
+I will do for the a [ORGANIZATION5] one.
+(PERSON2) Aha, so the [ORGANIZATION5] is not ready, yet?
+(PERSON1) Uh, we will give a tentative thing.
+(PERSON2) Uh, so-
+(PERSON1) Like we will give a- <unintelligible/>.
+Are ready.
+So I think we can-.
+(PERSON2) [PERSON1], I'm sorry.
+I I kind of need that we speak about,uh, it a little bit slower and more structurally.
+I, because I'm a little bit lost in all these things.
+Uh, I-
+(PERSON1) Okay.
+(PERSON2) I guess that I miss some basic information.
+So now, now, ah, I really don't <unintelligible/> what to do.
+So the first thing is, my question is now is, if are we supposed to include into these four point three section, some, uh, uh,  statistics data some table about our data, how large the description should be.
+(PERSON1) Okay.
+So the thing is [PERSON2] you can, uh, like ,um.
+If it can be four to five sentences in text.
+And even if it is even if the table is not available.
+Uh, the number of instances of the meeting and the number of hours for Emglish and Czech that is available.
+Would be great.
+(PERSON2) Mhm, okay.
+(PERSON1) And also fow how, like, uh, like some of the meetings are doubly annotated, right?
+Like for some of the meetings-.
+(PERSON2) Mhm.
+(PERSON1) There are for some of the meetings.
+There are more than like four, five annotations, right?
+(PERSON2) Mhm, mhm.
+(PERSON1) So, we don't specify for how many minutes such things are done, but we say that for tasks D and C, especially for task C we have annotated
+Uh, like, we have created multiple minutes for the same meeting.
+(PERSON2) Mhm.
+Uh.
+(PERSON1) And uh, uh, was it a bit clearer [PERSON2]?
+(PERSON2) Yes.
+<other_noise/>
+That is why I said I didn't want slides.
+(PERSON1) So in which section, you are currently in, [PERSON2]?
+(PERSON2) I am look-.
+I am I am in in another [ORGANIZATION2], I am looking for this short description.
+I have already done it for some VP.
+For some, uh, deliverables.
+So I'm just trying to find it in the [ORGANIZATION2] and copy paste the data.
+So I have already written it once so I'm looking in the list.
+(PERSON1) Okay, so [PERSON2] so can I like say the other sections that I need your help, maybe?
+(PERSON2) Mhm, yes.
+(PERSON1) Okay.
+So, uh, you are clear with this portion.
+Right [PERSON2]?
+For the data description portion, what I like, what you need to put?
+(PERSON2) I'm, I'm clear with four point three.
+(PERSON1) Okay, okay, wonderful.
+Then I require a few lines of text on the ethical, uh, things.
+So maybe a link to the [ORGANIZATION6] Drive would be great.
+[ORGANIZATION6] form, that we are collecting.
+The content from the participants in our project meetings.
+(PERSON2) Mhm.
+(PERSON1)  To release the data.
+And since the [ORGANIZATION5] data is already available in the public domain.
+So there is no a point of picking content.
+(PERSON2) Ah, that what's released to the public domain.
+What did you say?
+(PERSON1) The the [ORGANIZATION5] data is already available in the public domain.
+(PERSON2)  Uh-huh.
+Ah, that [ORGANIZATION5], mhm.
+(PERSON2) Yes.
+(PERSON1) So, uh, there is no point of asking content right?
+Which is already available.
+So anyone can see and view.
+(PERSON2) Mhm.
+(PERSON1) And, uh, the third thing that I would request from you is the manual metric.
+So I'm not sure which three, four criteria we should include here.
+(PERSON2) Uh-huh okay.
+Uh, uh, may-, uh, yes.
+Okay.
+I will look at it.
+Uh, probably now.
+(PERSON1) Mhm.
+(PERSON2) And will write something and proba-.
+Till what time are you available?
+Maybe we could speak once more.
+For shor-.
+Shortly after I create the input, and you will look through that, and we could discuss on-.
+If you need to add something.
+So I understand that I should, uh, enter some information into four sections, including my own, uh, biography sentences.
+(PERSON1) Yes, mhm.
+(PERSON2) And then then you look at it.
+(PERSON1) Yes, yes, okay.
+(PERSON2) Probably I will start now, yes.
+Or do you want to any-.
+(PERSON1) Okay, okay.
+(PERSON2) Mhm.
+Do you want any-?
+(PERSON1) Uh, and the other-.
+Yeah, the other thing [PERSON2] I wanted to discuss with you is actually section four point ten.
+So here I am a bit struggling that.
+Uh-.
+(PERSON2) Four point then.
+(PERSON1) I -
+Ah, why?
+Why a special session is required for this task?
+(PERSON2) What is a special session?
+(PERSON1) So, the question-.
+(PERSON2) What is special session?
+(PERSON1) So this particular shared task is going to be a part of the [PROJECT1] special session.
+Okay, so whatever, uh, challenges of the shared task that are currently in in the speech, they are in the special session, not as part of the main conference.
+(PERSON2) Oh, I don't understand at all.
+So what is special session of what?
+T Ah, okay, let me share you the link.
+(PERSON2) So there is some [PROJECT1] conference.
+And our shared task is in the whole sh- [PROJECT1] conference, but within a special section.
+(PERSON1) Ah like, ah, the challenges are they usually held in special session.
+Which are run parallel with the main conference.
+(PERSON2) Why, uh, we are in in a special section.
+Do you know that?
+So I don't understand at all.
+What does it does not mean to be in a special section.
+(PERSON1) So okay, let me <unintelligible/> to you.
+Do you know that in a conference, there are parallel workshops as well as a main conference, right?
+(PERSON2) Yes.
+And I suppose that the official section-.
+(PERSON1) So what-?
+(PERSON2) Because we were not accepted to the general session, isn't it?
+(PERSON1) No, the general session would not allow for you to float your own task.
+That is a general conference,
+(PERSON2) Yeah, but-.
+(PERSON1) We would bring our own task in parallel with [PROJECT1].
+So [PROJECT1] won't allow like-.
+For example, for example, why do we do workshops, because in in the conferences.
+The reason being, we want to focus on a very particular thing.
+Not in the overall conference, right?
+(PERSON2) <laugh/>
+(PERSON1) So this is the reason that why we go for workshops or special sessions.
+So you can check in this link.
+(PERSON2) Mhm.
+(PERSON1) So all the challenges and the shared tasks in [PROJECT1], are held in as part of the special sessions.
+(PERSON2) Okay, so why should we?
+In this case, why should we answer this question?
+It is just clear, because we have shared task and all share tasks here are in special session.
+(PERSON1) Okay.
+Yes, yes.
+(PERSON2) <laugh/>
+(PERSON1) So that is the question that they are-
+(PERSON2) <laugh/>
+I don't understand it.
+(PERSON1) Asking as part of their submission.
+Yeah.
+Like.
+The question is-
+(PERSON2) Yeah, I know, I know.
+[PERSON1] I know.
+Uh, I think we could say maybe-
+So-.
+It will be very rude now.
+But the idea is that making a summarizations of project meetings and making minu- minutes automatically.
+And automatic minutes of, uh, project meetings is a very, very, very, extremely hard task, not realisable.
+And we actually don't really believe that it is realisable, uh, and nobody can do that in at least a little bit appropriate way.
+That's why we don't know how to do it.
+And that's why we want to organize a shared task, as probably some will -.
+Somebody can try.
+So we organised shared us because we don't know how to do it ourselves.
+This is the reality.
+(PERSON1) Yeah, this is the reality.
+I totally agree, but this has to like sugar coat it.
+<laugh/>
+(PERSON2) <laugh/>
+(PERSON1) Yeah.
+(PERSON2) But probably we can say something like that.
+This is extremely hard task.
+That is that no-.
+That is-
+That I do not know.
+Today's level of, uh, technical possibilities not reached yet.
+So our first try is to open it with, with a shared task.
+We cannot open it resi- in a normal session, because normal session supposes that some people already have some results and compare these results.
+And we ju- want to give a try.
+So we are, we are not comparing the resu-.
+We don't have results yet, but we want to give this task a try
+(PERSON1) Um-hum, uh?
+Yes, uh, because, uh, this question.
+And another question that, uh, that is there at the beginning.
+Uh, like, uh, why is this special.
+<laugh/>
+(PERSON2) <laugh/>
+I'm really unable to answer this, these questions, and it is really awkward-
+<laugh/>
+(PERSON1) Yeah.
+(PERSON2) It's not my field.
+Sorry.
+(PERSON1) Yes.
+(PERSON2) I'm very direct.
+This is the only possibility though.
+<laugh/>
+(PERSON1) So, but like, I have to include five points on why this session is special.
+And then, why a special session is required in spite of the main conference.
+So that we have to clearly explain.
+Fighting on, which can also help us here a bit.
+(PERSON2) Yeah.
+But this, I do not think that my idea is bad.
+So why not to say-.
+(PERSON1) Your-
+(PERSON2) It is so hard, that we cannot demand re- ready long papers, just not ready from long papers.
+So the task is so hard that, uh, first, to people should give it a try.
+And that is why we give more than one task, we gave these three tasks?
+Ah, uh, so that we let people approach it from different sides.
+I don't know blah blah blah.
+But, so, uh, uh, really use this?
+This, compli- ,uh.
+This, uh, hardness of the task but, still that it has, sense, because, uh, it will help i don't know what-.
+Uh, uh, so, I, I, really, kind, of, believe, that, it, this task, has sense and I even believe that, it may be sometimes have some results.
+Uh, but not at today's level of I don't know what, the neural science.
+So let's give it a try.
+Why not?
+Well-
+<laugh/>
+Maybe, maybe I am not a good person to ask about it.
+[PERSON3] will be definitely better.
+He's all-.
+(PERSON1) I got an-.
+I got an important point from you.
+(PERSON2) What?
+(PERSON1) I got an, I got an important point from you to write.
+So, so, the point is that, uh, the task is hard so our attempt is to lower down the entry barrier towards this task so that it can get popularised in the community.
+(PERSON2) Probably, yes.
+Yes.
+I don't-
+I didn't understand all the words you say, but I think the idea was the same.
+(PERSON1) Yes, so, we want to make it is simple.
+(PERSON2) Yes.
+(PERSON1) So we want to lower down the entry barrier.
+(PERSON2) Yes.
+Yes, you want to make it closer to people.
+So if you are just-
+If we put it as a normal call in, as a conference session.
+Nobody will kind of apply, because nobody does it yet.
+And this is our to to-
+Kind kind of get closer to programmers.
+So when you-.
+So when I now address the Russian colleagues, uh, if I address them, uh,
+with the proposition to write a long paper to the conference session about summarization of meeting, nobody would apply.
+Because nobody still does a summarization of  su-, me- , meet- minutes of meetings.
+But if I.
+If we form a share task, trying to summarise whatever, dialog texts, a min-, minutes.
+So people may say, okay, I have worked with dialog texts, and I may also try things.
+Why not try, why not to try making some minutes.
+If I already did something like dialogue summarizations.
+Uh, so that's why the shared task is kind of really approaching so we ha-.
+So I have got three Russian colleagues, just uh, for two days.
+Because-.
+And these are not people who are do, who are doing minutes for meetings.
+So this is like.
+It has very strong reasons to make this special sessions.
+So if, if you-.
+If this was the question, I'm not sure.
+<laugh/>
+(PERSON1)
+Yeah, yeah, I think some.
+I think, uh, that was like really helpful.
+I will input this.
+(PERSON2) Okay, perfect.
+Thank you.
+<laugh/>
+I'm not sure if I understood the question correctly, but if you got something for that I'm happy.
+(PERSON1) Yeah, yeah, yeah.
+(PERSON2) <laugh/>
+(PERSON1) I think I got something to write.
+And then [PERSON3] can work on that.
+(PERSON2) 
+<laugh/>
+Yeah.
+Okay.
+This, this.
+Uh, by the way, this understanding each other feature is very, very, very interesting linguistic item tools.
+(PERSON1)  And it is also important for the status of the project, you know.
+(PERSON2)  Yes.
+<laugh/>
+(PERSON1) Okay, anyway.
+So these are the things that I request [PERSON2].
+And yeah, um, and [PERSON4] are you there in the link.
+(PERSON4) Yeah, yeah I'm there.
+I am listening to both of you.
+<laugh/>
+(PERSON1) No, I'm asking, are you there in the [ORGANIZATION2] link.
+I can't see you.
+(PERSON4) Oh, which overleaf link, where is the [ORGANIZATION2] link?
+I don't know.
+(PERSON1) Oh, okay.
+(PERSON2) Just send her again.
+Maybe it-.
+In [ORGANIZATION4] you have to send it again.
+Because if she-.
+If [PERSON4] haven't been there, she can't see it.
+(PERSON4) Yeah.
+No, I can't see.
+(PERSON1) What can I want?
+I would need your bio here.
+(PERSON4) Yeah, they will attach it.
+So I cannot.
+I am logged in with my phone, and I cannot open it.
+(PERSON2) So-.
+(PERSON1) Okay, no issues.
+So I will send it over chat maybe?
+(PERSON4) Yeah, maybe.
+(PERSON1) Can we create another linqua chat?
+Is it possible?
+(PERSON2) Yes, of course.
+Why not?
+(PERSON1) Like a group chat.
+How, how, how do we make it?
+(PERSON2) Just this little chat.
+I don't know how to do that.
+[PERSON5] did that.
+(PERSON4) No, I just go to , uh, uh, -
+(PERSON2) Conversation.
+View-.
+Aha.
+I have new-.
+I can make conversation.
+(PERSON4) Connect, yeah.
+(PERSON2) Speak to your-.
+Aha.
+Mhm.
+(PERSON1) New conversation.
+And-.
+(PERSON2) No.
+It's something different.
+No, it's not.
+Something different.
+(PERSON1) How can we add participants?
+(PERSON2) I do not know, I never did it.
+New conversation is something different.
+It's-.
+Aha-
+Maybe.
+No, it's different.
+New conversation isn't.
+It is not creating group.
+It is creating just dialogue.
+(PERSON4) Uh, but he can send in the group of, I think.
+(PERSON1) Yeah, we can send.
+I thought, like the group to create another, uh, like chat.
+Like the <unintelligible/> way one we have we hang out for this.
+For quick communication amongst us.
+Anyway.
+Yeah.
+Well, [PERSON1] I will just start working on these four points, before I have to go.
+So that I manage to do it today.
+(PERSON1) Yeah, yeah, yeah, like.
+(PERSON2) Do we have other issues?
+(PERSON1) No.
+(PERSON2) So, I'm still-.
+(PERSON1) <unintelligible/>
+(PERSON2) Well, so I'm going to this overleaf and starting to write something.
+(PERSON1) Okay.
+(PERSON2) Okay.
+So-.
+(PERSON1) Okay.
+(PERSON2) I leave to [ORGANIZATION2].
+Bye, bye.
+(PERSON1) Okay.
+<laugh/>
+(PERSON2) <laugh/>
+(PERSON1) Uh, another thing.
+Uh, [PERSON2], like, uh, if you have some, uh, like points to in, like, put in the introduction and 
+background that would also be great.
+(PERSON2) Okay.
+(PERSON1) Like if you want-.
+I'm like, anyway, I'm writing-.
+So, if you want I can also-.
+(PERSON2)  Okay, I will-.
+I will look for that.
+But i am very very bad at all this formal advertisement and kind of kind of, uh, speaking things.
+I really, really-.
+I have never did anything like that and I have kind of anti-.
+Uh, kind of-
+Uh, how to say that.
+Uh, uh, frustration about creating such popular thing.
+I'm, uh,  well-.
+(PERSON1) Okay.
+Don't worry.
+(PERSON2) I will try to write some ads but ,uh, psychologically, I am very bad at addressing group of people, groups of people.
+So I am I am good in the individual communication.
+But in this group communication, uh, uh, I will try to, but-.
+I'm-.
+Don't expect great results.
+(PERSON1) Don't worry.
+Absolutely don't worry, uh, like three, see two sections four point three and four point four.
+(PERSON2) 
+And yes, it takes four point three - manual metrics and biography.
+(PERSON1) Yes, that would be enough.
+(PERSON2) Mhm, okay.
+And then we will go for the rest.
+Ok, well, bye, bye.
+I'm trying to do.
+I will try to do something.
+(PERSON1) Okay, okay, bye, bye.
+So, [PERSON4] are you there in the link?
+(PERSON4) Ah, yes.
+Ah, I did you send it on the chat?
+(PERSON1) Yes.
+(PERSON4) [ORGANIZATION4] chat?
+(PERSON1) Yes.
+(PERSON4) Oh.
+Can you, please, send it on the [ORGANIZATION4] chat?
+I cannot see the link.
+Did you send it?
+(PERSON1) Yes I did.
+(PERSON4) In the [ORGANIZATION4] chat?
+(PERSON1) Yes, yes, I did.
+(PERSON4) <other_noise/>
+So from me, you need only bio, right?.
+(PERSON1) Yeah.
+And if you have some inputs.
+That would be great.
+(PERSON4) Actually, my WiFi is not working right now.
+(PERSON1) Okay, no issues.
+(PERSON4) Okay, I will check it and I will revert to you.
+(PERSON1) Yes, yes.
+(PERSON4) Okay, maybe we can talk about it in the chat?
+(PERSON1) Yes, yes, sure, sure.
+(PERSON4) Okay?
+(PERSON1) Okay, okay.
+Bye, bye.
+(PERSON4) Bye, bye.
+(PERSON1) Mhm.

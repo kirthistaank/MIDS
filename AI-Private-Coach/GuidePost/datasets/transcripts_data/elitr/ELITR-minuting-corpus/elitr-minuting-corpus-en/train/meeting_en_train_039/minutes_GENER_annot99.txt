@@ -1,0 +1,24 @@
+
+Planning for Demo:
+•	[PERSON10] shared the document for demo and doodle pools.
+•	[PERSON11] believes we need [PERSON13] from [ORGANIZATION12] and [PERSON13] from [ORGANIZATION6] on slack during the demo.
+•	For the demo language German as input and English as back up and translate them in all available languages.
+•	The testing of speech-language translation for  Czech into English and then from English into the other languages have already been performed but for german as the source language, it is not been tested yet.
+•	[PERSON11] believes German to English [ORGANIZATION12] model will perform well anyway we have English as a backup which is best in all times.
+•	[PERSON11] suggests to double-check the target languages and inform Alexandr with Romanian which is not up to standard.
+•	To test the Romanian demo translation, we have some speakers in [ORGANIZATION6]. [PERSON1] from [ORGANIZATION6] with [PERSON13] 
+•	Create a Map of colleagues who can speak some Romanian or some languages.
+•	Dates for Demo and pre-demo needs to be chosen along with [PERSON1].
+•	[PERSON10] believes domain of input can cause a problem and something need to prepared for [ORGANIZATION8] congress.
+•	For domain data, we have resource Czech-German youtube video, TED talks, [ORGANIZATION4] sessions but still [ORGANIZATION12] needs to be consulted for German ASR.
+•	[ORGANIZATION12] needs to be checked with their domain of ASR.
+•	Comparing it to google performs much better in domain matching.
+•	Checking with the possibility of languages to be considered for demo such as Dutch, German, English, Italian, Czech to be presented remotely by [PERSON11]
+•	[PERSON9] needs to perform testing of the lightest platform for conferencing, playing a video for a demo by connecting 2 machines.
+•	After 11 may [PERSON11] will start the pipeline and will be able to meet as government restrictions will get lower down.
+•	[PERSON9] is helping [PERSON4] and another colleague for remote subtitling in Czech for [PROJECT5] which runs over this weekend in like only the plenary sessions.
+•	After the [PROJECT5] [PERSON9] can focus on the demo by internal test.
+
+
+
+

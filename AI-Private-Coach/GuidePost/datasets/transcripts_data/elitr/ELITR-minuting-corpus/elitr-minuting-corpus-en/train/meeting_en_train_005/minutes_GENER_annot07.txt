@@ -1,0 +1,19 @@
+[PROJECT1] Surge
+
+
+Date: 05. 05. 2020
+Attendees: [PERSON7], [PERSON3], [PERSON4], [PERSON1], [PERSON6],
+Purpose of meeting:  Work status update
+Agenda: 
+* Uni hack subtitling
+* [PROJECT1] test set
+* [PERSON10]'s worker
+	* works slow - why? correction has been made
+* Kaldi servers set up
+* Creating the demo - doing tests
+* Kudo conference
+* [PERSON3]'s window based model
+* Distribution of bonuses
+
+
+Minutes submitted by: [ANNOTATOR2]

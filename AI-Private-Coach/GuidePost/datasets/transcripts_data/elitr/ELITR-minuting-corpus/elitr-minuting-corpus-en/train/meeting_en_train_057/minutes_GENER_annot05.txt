@@ -1,0 +1,242 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION1], [ORGANIZATION2], [ORGANIZATION4]
+Meeting Name: [PROJECT4] Miniworkshop
+Meeting Date: 11.08.2020
+Meeting Participants: [PERSON2], [PERSON8], [PERSON9], ([PERSON7]), [PERSON6], [PERSON5], [PERSON4]
+
+Meeting purposes:  
+* Introduce the team members to one another; unify the team members knowledge about the [PROJECT4] Project and the progress already made. Clearly define team roles and future deliverables.
+*  
+General notes:
+*	Participants experienced significant technical and connection issues affecting the quality of communication
+*   Mention of the Python workbench environment that could be made available to all team members via GitHub repository to allow for easier collaboration and time efficiencies in the individual system set ups.
+*	[PERSON2], [PERSON8], [PERSON6], [PERSON9] and ([PERSON7]) assigned as key people to contribute to the exact definition of the shared task.
+*   It is considered a challenging task due to the nature of the text and the character of spoken language. It is not easy to preserve correctness and identity main topics, phrases and sentences in the meeting transcript.
+
+*
+Main points of discussion:
+*	Purpose of the meeting relayed to the participants, administrative and contract details discussed with certain team members.
+*	Document shared - describing team member roles, experience and what is expected of them. Participants were asked to correct information related to them, if deemed necessary and give a short presentation to introduce themselves.
+*	Roles and contribution of individual team members to be fixed, even though initial discussion have already taken place.  
+*	Several goals/targets have been identified:
+a) To distinguish two minutes one from another and whether they belong to the same meeting or not.
+b) Determine how similar are two minutes from a particular meeting.
+Deep neural network is being built in relation to this.
+*	Explanation given to the "representations". 
+First presentation on the topic of comparison of manual transcripts to the output of automatic speech recognition output:
+*	Inside given to the methodology and creation of guidelines for the transcript and meeting minutes.
+*	Database and data set was described as to the language, type and format of files it contains;  i.e. video, audio files, automatic and manual transcripts, minutes.
+*	Insight was given to the structure and management of annotators work with the outlook of the automatic minutes creation.
+Explanations given to the "representations":
+*	For smaller and longer units of text; i.e. words, sentences, utterances and even longer sections of text, maybe even a meeting as a whole.
+Special attention given to the explanations of [PROJECT4] project goals:
+*	The essential goal of the [PROJECT4] project determined as a good research and innovation action towards the working system.
+*	Clearly defined task with measurable improvement in the system performance towards working application is a success of the [PROJECT4] project.
+*	If there is not an application at the end of the Project, it is not considered as a failure.
+*	Note has been made to the different sources of Project funding.
+*	The research the team should be focusing on should aim to answer the question of contextualisation of vectors or their creation in another type of aggregation.
+*	Research question is whether the Cosine similarity is in any reasonable and interesting relation with the similarity desired by the Project team.
+*	Desire is to have two semantically similar minutes from the meeting. The assumption is, that they are similar.
+*	The question is how to design the automatic measure so that it reflects the properties that users of the original object want.
+Introduction of [OTHER] Grant:
+*	Research programme where the goal is a good research paper.
+*	With the aim to explain what the networks are doing.
+*	Aim to create paragraph and snippet embeddings  with the ability to measure them for the similarity (i.e. vector similarity)
+*	The need has been identified for the semantic workers and contextual vectors to assure measureable similarity metric.
+Further explanation given to the embeddings i.e. representations as the essential foundations for the model building work, the criteria and central direction of the research discussed:
+*	Representations further explained as words, utterances, sequences of utterances, possibly the whole meetings and in the context of minutes - key words, single lines or sub trees within hierarchical minutes.
+*	Common embeddings are for words and can be averaged, contextualised or created in a different manner.
+*	Embeddings can be also created for longer units of text such as utterances, sequences of utterances and corresponding summaries. 
+*	Team member allocated to look after the exploration of these various options of how to create embeddings for various pieces of text and transcribed speech and how they can be related to one another.
+*	The desire is for the long units of transcribed speech text to be represented with similar vectors as the short summaries. Founding question is defined as: "How to create the vector so it has this property."
+*	Challenge is to construct the embeddings for each of the varying lengths of text so they are relatable to one another.
+*	Model development matter: "Is it desirable to devise automated metric for the extractive and abstractive method separately or joint one would suit better?"
+*	Deemed that the extractiveness and abstractiveness of the model bears no significance for the end user but is important for the model creator in order to incorporate right method into the model.
+*	At the moment the preferences for extractive and abstractive approach are not known; therefore the research for both methods should be carried out.
+*	For the end user the precision and recall are of essential importance.
+*	First sub-task is to develop a measure that distinguishes whether any given summary is abstractive or extractive. This will be then applied to the manually generated summaries to indicate the preference for abstractive and extractive style. Essentially this will then steer the model metric development focus.
+*	Tangible results needed as soon as possible.
+Research paper discussed on the topic of training data evaluation:
+*	The model should be evaluated with gradually expanding amount of training data i.e. 50%, 75% and 100% of the data while measuring performance.
+*	This approach enables to see if the model has a future or not.
+*	However, this methodology is not related to the meeting summarization.
+
+*	Individual annotators apply different style in minutes preparation. Therefore the sentences are not in the same sequence and comparing a document in the semantic sense is a challenge. 
+*	Manual and automatic scoring of the submissions should be prepared.
+*	Recognised importance of having a methodology for evaluation the submissions irrespective of their quantity.
+*	Given the difference in the domain and task structure the team will inevitably run into the limitations of existing evaluation methods and should therefore strive to invent new ones, nevertheless linked to the existing ones.
+*	Suggestion made for the team to organise workshop dedicated to the shared task of spoken language summarization. 
+*	Survey to be performed on the results of DUC conferences and their results. What are the notable observations and knowledge that the team could build on.
+Given Presentations:
+*	Presentation given (by [PERSON7]) on the role in the team with explanation of his main field of work and research in the area of peer review analysis in the scholarly scenario. In the [PROJECT4] project his role will be to look after all aspects of the shared task. Expressed desire to design a metric that would assure more coverage than Rouge score. 
+*	Presentation given (by [PERSON6]) on the introduction to the shared task.  Expressed difference of opinions on the amount of data required to launch the shared task.  Clearly defined way of determining the best performing system is of crucial importance.
+*	Presentation given (by [PERSON6]) on the role within the team and practical experience with the models, abstractive and extractive approach to to the text summarization, data set creation and text length predictions. For the [PROJECT4] project the imminent task is to complete the pipeline and have the design of the first basic working prototype. The major indentified obstacle is non-availability of sufficient amount of readily available grammatically correct meeting summaries.
+
+
+Colleague Introduction - [PERSON4]:
+*	To follow up on the previous very early experiments on automatic summarization inclusive black box approach to the training of deep neural network. Previous results were mainly negative.
+*	Goal is to obtain a research paper or other tangible results.
+Presentation of annotation user interface:
+*	User interface is being developed by a side member of the [PROJECT4] team.
+*	Annotation interface deemed as a critical design component in the [PROJECT4] main goal.
+Annotation interface features:
+*	Several panels important for the annotators, the user can choose the transcript and minutes to be worked on. Even in the scenario where multiple (improved) versions of the same transcript are available.
+*	Minutes can be easily edited and/or added.
+*	Linking between the dialog and the minutes is done by colours. Each minute has its own colour and is represented as an independent line in the panel.
+*	Potential problems (such as incomprehensible speech) are highlighted and brought to attention.
+*	The whole meeting is in one directory which contains three sub folders - annotations, minutes, transcripts.
+*	Representations of minutes and transcripts are in the plain text.
+*	The synchronisation should be implemented into the interface by adding interactive time stamps.
+*	Annotations - linking between the dialog add and the problems is done by the plain text file.
+*	The interface is developed in Python and it is not a web based tool nor it will be.
+*	Main purpose of the interface is not to create the minutes but to link the minutes with the transcript
+*	It serves as a preparation tool for the measures of precision and recall of the minutes.
+*	Annotations in the interface are not yet available as it is in the final stages of development and to be tested on the annotators.
+*	Minutes will be connected to the transcripts in a fashion that the corresponding line in the text is visible. This feature can be then used in further experiments.
+*	This interface can be also used to browse the meetings, transcripts and the summaries even before the annotations are completed.
+*	This interface is yet to be versioned in the GitHub repository.
+
+[PROJECT4] pipeline model presentation delivered for the scenario of different peers speaking in a variety of languages on pre-defined agenda and topics:
+Fundamental defined steps:
+*	Speech recognition
+*	Machine translation
+*	Minuting
+*	Transcript in one common language (English)
+System perquisites:
+*	Participants speaking in different languages and the input into the system is their speech.
+*	Followed by the automatic speech recognition that creates the transcript of the dialogues.
+*	The machine translation module uses the methods to normalise the output of ACR i.e. centred boundaries identification.
+*	Minuting tool and minuting demonstrator to be tested by [ORGANIZATION6].
+Current task: Automatic Minuting Task
+Sub tasks:
+*	Text/Transcript segmentation - resulting clusters are required to keep semantically related phrases.
+*	Segment level summaries - need to reduce the size, their content in order to produce concise utterances.
+*	Transcript summarization -produces the overall minutes
+*	Topic matching.
+Input:
+*	Whole meeting transcript and pre-defined agenda with topics.
+*	Pre-defined agenda - list of topics to be discussed.
+Output:
+*	Minutes of the entire transcript and filled agenda with the sentences matched to the topics.
+Obstacles:
+*	System needs to be able to handle some predictable issues resulting from non-discussed topics or new topics resulting from the meeting discussion.
+*	Data scarcity issues - lack of readily available summaries and minutes as most institutions apply restrictions on their published content and data. Furthermore the available data is in XML format and conversion to plain text was required. Automatic conversion code is now available in GitHub repository. 
+*	Main Available data sources are [ORGANIZATION7], [PROJECT1] corpora and [ORGANIZATION4] internal meetings. However for big models larger amount of data is required.
+*	Big neural network based models need large amount of data, therefore additional sources were identified for model training purposes (CNN Daily Mail and English GigaBoard).
+*	Short cutting scheme was applied in order to omit segmentation and compression steps but the results were of poor quality and very low Rouge scores.
+Deliverable:
+*	To produce publishable corpora that can be used also by other researchers.
+Natural Language Processing Task:
+Steps:
+*	Spoken language cleaning services i.e. tokenization, removal of obsolete symbols etc.
+*	Breaking the spoken language into segments or grammatically related clusters
+*	Segment summarization - aim is to further improve the text quality. Grammatical correctness needs to be preserved in each of the clusters. Reference made to the studies using LSTM networks and cloning the sentence trees.
+Additional feature in development:
+*	Diarisation - identifies the speaker. Currently dummy diarisation is available with anonymous speakers.
+Dialog Summarization sub-task:
+*	Grammatical and logical correctness preservation is crucial.
+*	Generated phrases need to be concise.
+*	Both extractive and abstractive approaches are being explored. In certain areas, such as legal domain, extractive approach is preferred due to the need to preserve sentence phrasing. 
+*	CNN daily mail is being used for the training purposes but the results are not satisfactory.
+Demonstrator tool:
+*	Considered a final stage of the pipeline or possibly an extra feature beyond the basic prototype module.
+*	A software tool, an autonomous script with a capability to read the transcript and work in real time. Reading the transcript and producing almost in real time the summary.
+*	Every time the defined number of words is reached, the script activates itself, produces the summary and goes back to sleep until the next batch of words is reached. 
+*	Should produce summary and active agenda up to the real time activity point.
+
+[PROJECT4] Pipeline presentation related information:
+*	All information is available in the GitHub repository.
+*	Dialog summarization task - working prototype that goes from dialog transcript via text segmentation, segment summarization, dialog summarization to dialog minutes is not yet available. The first results are not satisfactory and previous steps need to be revisited.
+*	Text summarization task produces good results and is considered and finished component.
+*	Task 5.2 and 5.3 need improvement in the terms of the output quality.
+*	Automatic system is not able to distinguish whether the two summarizations are coming from the same text, automatic evaluation is very partial and human evaluation is crucial.
+*	Measures and scores for each task are to be shared so the team can see the pipeline performance.
+*	All experiments were conducted using the union of [ORGANIZATION7] and [PROJECT1] data.
+*	Interest expressed to compare [ORGANIZATION7] and [PROJECT1] data with the manual summarization.
+*	Pipeline code to be revisited to see what methods used for the text segmentation ( NLTK/NLT)
+*	For task 5.1 clustered algorithms were used.
+*	All codes were created in the Python environment.
+*	For task 5.3 existing transformer based architecture, sequence to sequence matching models were applied, using big data. 
+*	Questions related to the use of methods related to the semantic comparison of two minutes. Suggested: Cosine similarity, LDA and LDS methods compare text fragments and give scoring as output.
+Current status of the experiments:
+*	Successful use of [PROJECT1] and [ORGANIZATION7] corpora to go through the task 5.1.
+*	Summarization segment also deemed satisfactory as there is reasonable number of data sets accessible.
+*	Task 5.3 disappointing results but preliminary outputs are available.
+*	No results available for the task 5.4.
+*	Sample outputs of the test results to be shared to determine the current baseline.
+*	Source files to be shared so the team members can try aligning them.
+*	Output quality considered too low for a review by a linguist.
+*	Grammatical and semantic correctness to be taken into account.
+Approaches suggested going forward:
+*	Pipeline system - Individual team members will run competing approaches in the shared task. The viability of each approach should be assessed.
+*	Short cutting approach - should be tried again by training the neural network so it produces the dialog summarization, through abstractive approach similar to sequence to sequence from machine translation. With applicable difference of the input being a long text whilst the output should be concise and short.
+*	Extractive approach - as being preferred by certain professional domains.
+Output evaluation:
+*	Strong need for the automatic evaluation to be followed by the human evaluation. Team to discuss this in September.
+*	Methodology and evaluation scale need to be devised for manual and automatically generated summaries.
+*	Survey required to the available methods of manual evaluation of summaries.
+*	Suggested star system for manual evaluation bears similarities to the direct assessment from the [PROJECT2] machine translation evaluation.
+*	Preference expressed for separate precision and recall evaluation.
+*	Manual scoring is required to be fast and easy.
+
+
+General observations:
+*	Files to be converted to the format applicable in the Pipeline model.
+*	In comparison to the [ORGANIZATION7] and [PROJECT1] corpora, [ORGANIZATION4]'s data set contains more summaries.
+*	[ORGANIZATION7]'s data set doesn't contain double summaries.
+*	[ORGANIZATION4] data quality looked good from the distributed assessment sample.
+English:
+*	Just under 100 hours of meetings
+*	64 meetings transcribed (24 double transcribed)
+*	63 minutes generated (17 double minuted)
+Czech:
+*	50 hours of meetings
+*	Almost all Czech meetings are minuted and transcribed
+Other topics of discussion:
+*	Within two months timeframe a colleague should be assigned to the team to help arrange official procedure related to the preparation of clean and publishable data sets.
+*	Work of annotators to be planned ahead to clean up the data sets.
+Team members to follow up with:
+[PERSON6]
+*	Scores
+*	Sample outputs
+*	Details of what is required to redo the experiments using [ORGANIZATION4] English and Czech data.
+*	For the Czech data reference made to Sumecek system corpus available on [PROJECT3]. 
+*	Evaluation of the pipeline in its current status, for each of the components.
+*	Retrain the Czech pipeline on Sumecek.
+*	Identify the need for file format conversion and arrange free capacity with other colleagues ([PERSON4]) if necessary.
+[PERSON7]
+*	To   work on shared task proposal for submission by 5. 10. 2020.
+*	Find out the outcome of DUC conferences.
+*	Work on building up own models.
+[PERSON9]
+*	Attempt to devise an automated measure.
+*	Work on extractiveness and abstractivenss.
+*	Help [PERSON6] with shortcutting approach.
+*	Try training sequence to sequence model based on machine translation experience. 
+
+Other points of discussion:
+*	Suggestion for newly joining team member to be allocated a task of looking into the network processes and explanation of what is going on. 
+*	The rest of the team should focus on the success in the application, the corresponding measure.
+*	The measure needs to be defined first.
+
+	
+*Administrative note:
+*	Format of [ORGANIZATION4] members coordinates distributed for future need or reference.
+*	
+*Determined deadlines:
+5th October to write and submit a proposal for the shared task.
+
+Important dates:
+*	08. 09. 2020 Official review of the whole [PROJECT4] project. 
+*	05. 10. 2020 shared task submission deadline.
+
+Important events scheduled: 
+User and Advisory Board Meeting on 19. 08. 2020
+Preparatory Meeting for the above on the 12.08.2020 at 10:00 AM CET
+*	Slides of the presentation to be complemented with the figures of individual component's performance
+*	Sample outputs should be included so the audience can form its own judgement
+
+Other team arrangements:
+*	Second joint meeting to be arranged after the [PROJECT4] review.
+*	Means of communication with remote colleagues to be established.
+*	Daily meeting slots arranged for the remote colleagues as a touch base opportunity.

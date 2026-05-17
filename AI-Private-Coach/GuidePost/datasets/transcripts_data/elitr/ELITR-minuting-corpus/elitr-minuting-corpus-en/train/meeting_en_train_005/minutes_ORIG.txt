@@ -1,0 +1,56 @@
+[PROJECT1] Surge 2020 Organization
+Tue May 5, 16.00-16.30
+•	[PERSON7]:
+o	Upcoming Demo for [PERSON5]:
+- 	[URL1]
+•	[PERSON4]
+o	UniHack subtitling and recording
+- 	[PERSON7] needs to ask [PERSON9] how it did go, some kind of a report
+- 	Czech backtranslated from English was supposedly better than Czech ASR
+o	Eng-to-41 MTs model testing
+- 	the lag was still there
+- 	[PERSON10] + [PERSON4] will look at it
+- 	[PERSON7] reminds of the need to start ‘ladder climbing' with [PROJECT1] test set
+o	CS Punctuator re-trained. Stats are below
+- 	
+Recall	Czeng1.7
+ 5M	Czeng1.7+Pre-trained embb	Czeng2.0
+38M
+,COMMA	76.2	77.8	78.6
+.PERIOD	77.9	78.0	85.2
+?QUESTIONMARK	59.9	61.1	71.9
+- 	[PERSON7] suggests to really try overshooting recall.
+•	The full stops could be then used only internally, not shown to the users, but still they would greatly improve the responsiveness of MT.
+o	TODO-
+- 	Preparation for meeting with [PERSON5]
+•	[URL1]
+•	[PERSON7] asks or many and nasty tests: tearing off the ethernet cable etc.
+o	...so that we know how the system behaves and how to fix it as quickly as possible
+•	[PERSON4] to share all test session slots with [PERSON3], so that [PERSON3] can be available (but [PERSON3] should be needed only in emergence)
+- 	Start testing on the [PROJECT1] test-sets
+•	Ladder climbing and getting BLEU scores
+- 	Using MT wrappers for SLT demo
+- 	
+			
+•	[PERSON6]
+o	Scripts were written to run SLTev and ASRev over submissions. 
+o	I put results in [PATH]  and, I put problems in the google docs and, I made a TSV file for them.
+o	[PERSON7] has received a remark from a team who failed to participate in time, [PERSON7] asked them if they could participate late, so possibly there could be one more (late) submission coming.
+o	TODO:
+- 	Make a jupyter program for analyzing the TSV file	
+•	[PERSON3]
+o	Yesterday: a list of submissions
+o	Review of [URL] -- [ORGANIZATION2] janus-asr startup script
+o	Small review of this: [URL] ([PERSON10]'s workers)
+o	Today: backendASR -- connection of (Kaldi) ASR and mediator
+o	TODO:
+- 	Consider taking part in the KUDO-based mock conference next week.
+- Check the KUDO files from the previous one.
+•	[PATH]
+•	-> make sense out of it
+•	before Monday 11th
+- 	These results by [PERSON3] (the negative ones) should go into [URL]
+•	[PERSON1]
+o	TODO: get in touch with [PERSON3] about window-based translation
+o	working on interspeech submission: Friday, May 8, 2020, 23:59, Anywhere on Earth.
+

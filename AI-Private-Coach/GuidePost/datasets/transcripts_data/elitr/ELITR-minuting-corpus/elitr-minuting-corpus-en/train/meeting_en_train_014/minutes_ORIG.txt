@@ -1,0 +1,46 @@
+[PROJECT3] Surge organization
+Tue Mar 31, 16.00-16.30
+•	[ORGANIZATION5] Congress is probably going to be postponed by exactly 1 year.
+•	Remember to add your progress here, ideally before the call starts.
+•	Remember to add your accomplishments to the Surge Points Table above.
+•	[PERSON10]
+o	supervising the creation of IWSLT test set and [PROJECT3] test set
+-	[URL] (private)
+-	[URL] (public)
+o	running weekly tests of the platform: monday seminars (remote in one way or another) and [PERSON10]'s (remote) lectures on [PROJECT2]
+•	[PERSON1]
+o	Domain adaptation
+-	Some issues with training new lang model. Maybe it needs the installation of JRTK toolkit.
+o	Installation issues with Boost for ‘live audio visualizer.'
+•	[PERSON9]
+o	working on his thesis
+-	an alternative evaluation based on some hard words recognized
+-	Experiments with various adaptation approaches
+o	found a segmenter by [ORGANIZATION1], will share the link with [PERSON1]
+o	Punctuation and Capitalization from [ORGANIZATION1]: [URL] 
+•	[PERSON7]
+o	supervising [PERSON4]
+o	working on SLTev
+-	provided two new simplification scripts
+-	using sacrebleu now
+•	[PERSON2]
+o	Extracting test data from [ORGANIZATION7]
+-	Extracted English-Turkish test data from Independent Audit Reports
+-	Extracted Turskih monolingual audit report from Independent Audit Reports
+-	Cleaning the previous files
+•	[PERSON11]
+o	Batching of [ORGANIZATION2] workers done (with [PERSON5])
+o	Initial SLTev done, but not useful
+o	IWSLT leaderboard done:
+-	OSt BLEU+chrf, ASR BLEU+chrf, erasure, translation latency
+-	Few values for [ORGANIZATION4] are missing or broken
+o	TBD:
+-	Going to share the new leaderboard with everyone
+-	Going to start writing a paper
+-	Going to tune the mask-k
+•	[PERSON6]
+o	testing his multi-lingual model on IWSLT 2015
+-	[PERSON10] asks [PERSON6] to include this test set to “[PROJECT3] test sets” and [PERSON6]+[PERSON1] to a) integrate the models by [PERSON6] and more importantly b) use “[PROJECT3] test sets” to evaluate this model
+* 	English policy
+
+

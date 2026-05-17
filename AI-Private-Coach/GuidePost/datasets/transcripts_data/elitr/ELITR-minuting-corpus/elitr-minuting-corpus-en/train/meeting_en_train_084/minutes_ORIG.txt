@@ -1,0 +1,87 @@
+Call on Feb 12, 2019
+Platform:
+? [URL1]
+? Connect as a Guest; room passcode: 1234
+? Participants:
+? [PERSON17], [PERSON13], [PERSON15], [PERSON3], [PERSON10], [PERSON5], [PERSON4], [PERSON6], [PERSON19]
+Agenda:
+? Reminder: [ORGANIZATION4]&[ORGANIZATION3]: please provide details on wiring
+? The description of cables together with graphical map (of how do you want to be connected to interpretation booth) ? this is for [ORGANIZATION5] Congress (they will buy those cables)
+? As for the Trade Fair [ORGANIZATION3]? will come (with cables), but we still have to ensure that they are compatible with the other devices
+? Reminder: [PERSON3] is the one coming for the Fair?
+? Remember to tell [PERSON9] and coordinate the hotel etc. with her.
+? Technical differences between [ORGANIZATION3] platform and [ORGANIZATION4] platform?
+? [ORGANIZATION4] platform connector thoroughly described here:
+? [URL]
+? [ORGANIZATION3] platform should be the very same thing, [PERSON16] says that one small test should validate this.
+? [ORGANIZATION1] needs to connect their MT
+? [ORGANIZATION1] needs to train ASR
+? we would be perhaps faster with [PROJECT3], but [PROJECT3] needs to be connected…
+? Getting full replica of the system in [LOCATION1]
+? ...to test it with our MT etc.
+? ...to get our assistant (a high-school student from Antre) to know very well how to use it
+? ...to find out how to also record their speech (for manual transcription)
+? ...to have a backup in case of technical problems
+? Possible for [ORGANIZATION3]/[ORGANIZATION4] platform?
+? To be discussed with [PERSON14] (not present)
+? The main difficulty will be to get the whole system up and running, it's many pieces.
+? Fallback: access to your running platforms
+? [ORGANIZATION4] has a mediator already running.
+? URL: mediator.[ORGANIZATION4].com
+? NO_SSL_WORKER_PORT: 60021
+? NO_SSL_CLIENT_PORT: 4445
+? SSL_WORKER_PORT: 60419
+? SSL_CLIENT_PORT: 4444
+? This is actually the one that we can use for the Fair. (Or possibly a new one will be started.)
+? [ORGANIZATION3] will connect their tools to this running mediator. For the Fair, we will need:
+? One or two sessions (sites at the Fair to run the subtitling), each of:
+? [OTHER3]/[OTHER5] (to be provided by [ORGANIZATION1])/possibly [OTHER4] ASR
+? [OTHER3]&lt;-&gt;[OTHER4] MT
+? [OTHER3]&lt;-&gt;[OTHER5] MT (to be provided by [ORGANIZATION1])
+? web presentation platform
+? for all independent users/readers
+? for the final videomixer
+? audio recording client (to be provided by [ORGANIZATION4])
+? [ORGANIZATION3] will let [ORGANIZATION1] know when this is running.
+? [ORGANIZATION6 will test this and get ready for the Fair setup.
+? [PERSON15] mentions that [ORGANIZATION4] has some “recording worker example”, but this is not stable yet.
+? [ORGANIZATION1] needs this as soon as possible, to test it out.
+? Is there any chance that [ORGANIZATION4] could polish and debug the recording worker example to a production level?
+? [ORGANIZATION1] will test their MT against this.
+? Remote Training Session on [ORGANIZATION4] Platform
+? [PERSON4]/[PERSON15], all, please enter any details or links to relevant documents here.
+? The sample connector code:
+? [URL]
+? Presentation by [PERSON15]:
+? [URL]
+? For clients, the best example is this:
+? [URL]
+? The command-line options allow to select the online or batch mode.
+? It should also have an option to simulate live streaming from an audio file. Not tested recently.
+? For workers, the most complete example is this:
+? [URL]
+? and there is also the MT and audio recording example
+? Questions on the [ORGANIZATION4] platform by [PERSON17]:
+? Will the platform seamlessly scale up to the [ORGANIZATION5] usecase with 6 input ASR channels and up to 43 target language subtitles? The overhead of “multiplexing” within the platform may be too large.
+? [PERSON15]: the platform should scale up to this easily, maybe it just was not tested.
+? Once we have multi-target MT systems (that translate from 1 language to 6 different target languages at once, thanks to a multi-lingual model and [OTHER2] parallelism), there is a room saving of the overhead by some special support. One such multi-target MT system would have to register as 6 different workers but perhaps we will come up with a better solution with [ORGANIZATION4].
+? Are there any useful tools for long-run testing (e.g. to ensure there are no memory leaks in workers and clients?).
+? Not really, perhaps the exampleClientBidir which should be able to feed in audio as a simulated live stream.
+? The platform distinguishes between the batch and online processing mode.
+? [ORGANIZATION1] will definitely use the online mode and possibly also the batched mode.
+? [ORGANIZATION6] will use probably only the online mode.
+? There should be no practical limits on the size of the batches in batch processing mode: it should possibly survive an 8 hour video upload etc. But this was not really ever tested.
+? Recording capacity of [ORGANIZATION6] (due for milestone 1, March)
+? As the DoA says ([URL]), [ORGANIZATION6] should support recording “through the [ORGANIZATION4] platform” by March and we should test it in project calls.
+? That said, nobody would pest us if the [ORGANIZATION6] records separately, outside of [ORGANIZATION4] platform.
+? [ORGANIZATION6] is working on the recording facility, by saving the each channel as a separate file on Amazon AWS S3 ( = Amazon Simple Storage Solution, which is comparable to an FTP Storage)
+? The great benefit here is that speakers are automatically separate, no speaker diarization is needed.
+? We identified a problem that no global time stamps are stored with the files, so that the overall mixed sound may not be recreatable.
+? [ORGANIZATION6] needs to discuss with [ORGANIZATION4] and decide internally, if [ORGANIZATION6] prefers to switch to recording through [ORGANIZATION4] platform, or to add time stamps to their own recording.
+? Any packets that go through the [ORGANIZATION4] platform get time stamps automatically.
+? Channels in the [ORGANIZATION4] platform:
+? The [ORGANIZATION4] platform has no fixed concept of channels, it does not care about the channels.
+? The platform has a concept of sessions (i.e. fully separate “workspaces” within a single mediator).
+? There are no principal constraints on channels vs. sessions, it's up to the design of the system.
+? Some components are designed for one session only, for example presenting subtitles from across sessions may need an update of the presentation client.
+

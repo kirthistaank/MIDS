@@ -1,0 +1,25 @@
+Demo preparation
+04/05/2020
+36 min.
+
+-Purpose of the meeting.
+-- To discuss the preparation for the demo session.
+
+-Workflow.
+-- There were problems with the Internet connection.
+-- Someone from [ORGANIZATION12] and someone from [ORGANIZATION6] is needed.
+-- The input language was discussed – [ORGANIZATION12] proposed German, so it will be German or it can be switched into English.
+-- The machine translations have beed tested only for English and Czech.
+-- There is no access to any Romanian speakers.
+-- There was a search for suitable videos, many of them are available at the channel of the [ORGANIZATION2].
+
+-Plans.
+-- The slack should be used while the demo is running.
+-- The target languages should be went through and one has to make sure that Romanian is not above standards.
+-- The date for the demo itself should be chosen.
+-- A pre-demo session should be run.
+-- It should be checked, whether the machine will be able to play the video for everybody – to connect two machines to the conferencing platform (one for YouTube talk to the others, the other needs to be good enough to run the video on YouTube, send the video to the conferencing platform and send the audio to the complete subtitling pipeline).
+-- The conferencing platform should be chosen (probably [ORGANIZATION1]).
+-- One has to make sure that everybody agrees when to run the tests.
+
+Minutes submitted by: [ANNOTATOR1]

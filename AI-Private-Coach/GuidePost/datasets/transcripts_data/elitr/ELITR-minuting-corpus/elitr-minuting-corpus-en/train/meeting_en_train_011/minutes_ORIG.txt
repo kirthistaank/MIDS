@@ -1,0 +1,44 @@
+[PROJECT2] [PROJECT4] Meeting Aug 19, 2020
+Date:
+● Wednesday, August 19
+● 6.00 Seattle (sorry)
+● 9.00 Baltimore, New York, ...
+● 14.00 Edinburgh, London, ...
+● 15.00 Prague, Brussels, Berlin, Paris, ...
+Credentials:
+● Direct link:
+○ [URL]
+● Meeting ID: [NUMBER]
+● Password: 1234
+● One tap mobile
+○ [PHONE]
+○ [PHONE]
+● Dial by your location
+○ [PHONE]
+○ [PHONE]
+○ [PHONE]
+○ Meeting ID: [NUMBER]
+○ Find your local number: [URL]
+● Slides: [URL]
+Goals:
+● present an overview of [PROJECT2] goals
+● demo the current status and problems of live speech translation from German, English and Czech
+● present the plans for the coming months
+● ask you for feedback as well as any technical comments you may have
+Agenda ([LOCATION2] timezone):
+● 15.00-15.10 [PROJECT2] Overview and Goals
+● 15.10-16.10 WP presentations
+○ (5 minutes per WP + ~3 minutes of discussion per WP on average)
+○ WP1 Data
+○ WP2 ASR
+○ WP3 SLT
+○ WP4 MT
+○ WP5 Minuting
+○ WP6 Integration
+○ WP9 Ethics
+● 16.10-16.40 Demo Sessions
+○ Brief description of user interface before each demo.
+○ Demo #1: Subtitling Streamed Videos
+○ Demo #2: Live Transcript of Streamed Videos
+○ Demo #3: Live Transcript of our Discussion
+● 16.40-17.00 Further discussion

@@ -1,0 +1,19 @@
+[PROJECT1] meeting 24.06.2020
+Attendees: [PERSON1], [PERSON13], [PERSON9], [PERSON11], [PERSON5]
+Purpose of meeting: Discussing 
+
+Summary
+• one credential for all people participating in the workshop
+• need of combining the common prefix
+• failed streaming slide from notebook and desktop pc
+• missing interpreters
+• putting segmentation only in one place
+• delay in the admin interface about workers
+• discussing about session ID to restart idle workers
+• session ID implemented in the log file
+		Milestones
+		• test run (24-25.06.2019)
+
+
+
+Minutes submitted by: [ANNOTATOR1]

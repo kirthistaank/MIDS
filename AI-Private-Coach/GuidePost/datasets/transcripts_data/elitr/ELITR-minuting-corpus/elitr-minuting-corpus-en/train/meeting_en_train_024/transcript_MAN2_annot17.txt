@@ -1,0 +1,725 @@
+(PERSON3) Hi [PERSON1].
+(PERSON1) Hi, hi [PERSON3], how are you?
+(PERSON3) Uh. So I- 
+Uh, sorry I I, yeah. 
+My set up is not straight. 
+Ah and there's [PERSON5] too, ok.
+(PERSON5) Hello <laugh/>.
+(PERSON3) Hi.
+(PERSON5) Hi, how are you?
+(PERSON3) I mean hi.
+(PERSON5) <laugh/>
+(PERSON1) Hi, hi, hi. 
+Hi everyone.
+(PERSON3) So [PERSON5], you don't know me, I guess. 
+I uh <unintelligible/> let me adjust the volume because I've been <unintelligible/> very subtle. 
+Ok. 
+Uh, uh, I'm, <unintelligible/> this is [PERSON3] from [ORGANIZATION1].
+(PERSON5) Nice to meet you.
+(PERSON3) Well, I I am a developer, uh uh, we s-, sort of mundane infrastructure. 
+And uh uh [PERSON6] will join us in uh 20 minutes or so. 
+Uh, the objective of today's meeting is to uh well uh work out with [PERSON1] how we are going to uh display the demo. 
+So I am told by [PERSON4] that uh uh we're going to show the uh the what's the word uh.
+(PERSON1) The the subtitles?
+(PERSON3) Uh no I'm think- 
+The person who is going to watch the demo. <unintelligible/> 
+Comisor? The reviewer. The uh-
+(PERSON1) Uh huh he's a uh uh uh [PERSON2] I think.
+(PERSON3) [PERSON2] yes uh.
+(PERSON1) Yeah.
+(PERSON5) Yeah.
+(PERSON3) The is <unintelligible/> commissioner. 
+(PERSON5) Project officer.
+(PERSON1) Yeah yeah.
+(PERSON3) Uh huh ok. 
+The officer is going to see, is going to connect to uh a meeting like this one. 
+And we are going to show him uh a a screen capture I guess. 
+Which uh is going to be split into 2 vertical, 2 vertical parts. 
+Uh the the video with the subtitles on the upper side and on the lower side there's going to be uh [ORGANIZATION1]'s presentation platform, showing the subtitles mhm again. 
+The idea is to uh uh well have some some video from from YouTube or from some other source. 
+Uh uh with either uh German or English spoken language. 
+Which is going to be transcribed and then translate that to Romanian and shown on the split screen. 
+Today's objectives are to uh first we uh we must uh ok. 
+We need uh we need to uh test this set up and see if it works. 
+Then we need to uh ehm you know select one of the uh a video to to translate. 
+And then we are going to need uh [PERSON5]'s feedback on the quality of the uh on the uh uh translation to Romanian. 
+Uh I'm told [PERSON1], ah sorry. 
+Is it [PERSON1] with the soft g or [PERSON1] with the hard g? 
+No, I can't hear you now. 
+I guess you're mute.
+(PERSON1) Yeah, so the little one, it's [PERSON1] with hard g.
+(PERSON3) Oh ok. So now we know. 
+<laugh/> Thank you. 
+So [PERSON1] I need you to uh I'm told you have uh some kind of powerful server I guess uh-
+(PERSON1) Yeah is-
+(PERSON3) Which is going to to perform almost everything, right?
+(PERSON1) Yeah yeah. 
+(PERSON3) Okay.
+(PERSON1) So uh uh uh uh first introduce myself. 
+Hi [PERSON5], I'm [PERSON1]. 
+I'm working close with professor [PERSON4] and uh I'm I'm responsible for maintaining and running the system from uh from [ORGANIZATION4]. 
+And right now uh so our conversation is being live subtitled. 
+And I would like to share you the the server where you can see the live subtitles.
+(PERSON5) Mhm.
+(PERSON1) Let me copy it.
+So here in the tap box I'm I'll be where is the message box, yeah.
+(PERSON5) Hi [PERSON4] <laugh/>.
+(PERSON3) Hi.
+(PERSON1) <unintelligible/> Send messages. <unintelligible/> Uh huh. <unintelligible/> 
+() Tap box in this, how do I send message? 
+In i- i- in here? 
+Ok I I'll I'll paste in the [ORGANIZATION3] document.
+(PERSON5) There's the side panel, you can use. 
+If you click side panel maybe, there you could send a message.
+(PERSON1) I can see only the list of the persons' name-
+It has to be somewhere.
+(PERSON5) If you click side panel, it's where-
+(PERSON1) Aha, ok, I got it yeah. 
+So I send the link there and uh if you click there if you click it. 
+(PERSON5) Mhm.
+(PERSON1) And password, user name password is editor editor. 
+I'll try that too. 
+So it will once you once you're able to view the uh subtitling platform.
+(PERSON5) Ok <laugh/>, I-
+(PERSON1) So there are like lot of languages.
+(PERSON5) Ok.
+(PERSON1) And you might want to like unselect uh most of the languages from the left side. 
+From from the right side.
+(PERSON5) Ok, so now I see them all and I would have to click on each of them to un- unselect them?
+(PERSON1) Yeah <unintelligible/> yeah. 
+(PERSON5) Ok. Ca- Can I left only- Oh. 
+Well I think instead of Romanian it's showing Russian.
+(PERSON1) I, yeah, I- I I already switch last night I think. 
+I think Russian and Romanian they are like swapped. 
+I I I I will soon. 
+So ca- can you choose Russian?
+(PERSON5) Yeah, no, mhm, Russian looks more like Czech or Slovak I think- 
+Oh ok, there are thing they are like Polish is uh Romanian. 
+So I think they're just uh, mhm, the UI is just ma- it should be <unintelligible/>. <laugh/>
+(PERSON1) Yeah, o- o- ok. 
+So th- th- that's slight bug backward that means.
+So I I I'll fix it <unintelligible/> finding it now.
+So uh right now the Polish is the real Romanian right?
+(PERSON5) Yes.
+(PERSON1) Ok, ok. 
+So uh uh we need to keep up in in order to view the subtitles. <laugh/>
+So uh I I think [PERSON4] will might want to take over from here. <laugh/>
+(PERSON5) I think now it stopped. The thing.
+(PERSON1) Yeah, because we aren't talking so. <laugh/> 
+So. 
+Uh, so, mhm, what we see, uh. 
+So c- c- can you comment anything about the subtitles, the Romanian subtitles? 
+I mean uh i- if you look at the real English ASR and compare how how worse is it? 
+Or is it?
+(PERSON5) Uh, so I think it does have a little bit of trouble uh telling when new turn started. 
+Or maybe just has lag. 
+And it does have some some non sense in there to be honest.
+(PERSON1) Uh huh.
+(PERSON5) But I don't know if it's because of the quality of the uh how how we're speaking. 
+Um, so I can- I couldn't say what we were talking about by reading, um.
+(PERSON1) Uh, ok, uh, yeah please.
+(PERSON5) I I guess I would also, I'm curious, if you have some uh mhm like what kind of quality feedback would you like me to give. 
+Maybe I could look over the transcript later on and give it some annotations or do you want just a general feel to it?
+(PERSON1) [PERSON4], we cannot hear you. 
+Yeah, is uh uh we have not been hearing for you for long time.
+(PERSON4) Oh yeah. I keep forgetting. <laugh/> Yeah.
+(PERSON3) Now I hear.
+(PERSON4) Yeah, ok. So that's uh I I pasted the shorter URL and you didn't hear me when I was ok yeah.
+(PERSON1) Yeah.
+(PERSON4) So, yeah. So so to answer [PERSON5]'s question uh. 
+For now uh a general assessment uh is just like a a uh general uh confirmation whether it is usable or not. 
+With all the troubles that are common to to machine translation. 
+Is a- would be enough. 
+Later on we actually do not have anyone to review Romanian. 
+Uh and what we are doing is we're collecting uh uh very diverse test set and uh we are asking people to not really to translate, but to uh t- uh check the uh alignment of uh documents so that they can serve uh reliably as as test sets in our case. 
+But Romanian was uh was also included in [PROJECT1] in some years ago. 
+So we're focusing- 
+So th- this is what we should do. 
+And we have not uh like uh carefully evaluated uh uh uh Romanian with numbers yet. 
+But uh we would like to have this test set focused on the auditing domain. 
+So uh right now I see that [PERSON1] set up is recognizing uh what I'm saying in English. 
+Uh and uh that is, uh that means that the system is following the uh t- the audio output of of th- his own machine. 
+If he starts playing uh uh a video on YouTube then we all should be watching the same video and uh s- we should we should be able to assess also the delay with that. 
+And you should give us a general uh t- uh uh assessment, like how bad the the Romanian is. 
+And the set up that we would like to present to the project officer would be starting with Czech instead of starting with English.
+And uh there it would be good if you could uh like tell us how bad is the Romanian compared to the English. 
+Which is already a result of a translation.
+(PERSON5) Mhm, so Cz- Czech audio which has English subtitles and I would be looking at the Romanian-
+(PERSON4) Yes.
+(PERSON5) Subtitles that are generated with your your-
+(PERSON4) From the English.
+(PERSON5) From, ok, ok-
+(PERSON4) So would there be, would there be, would there be a source language that you could uh you could understand the source as well? 
+Czech is obviously not the one. <laugh/>
+(PERSON5) Yeah. 
+Well maybe we could make sense to do both. 
+One where I don't understand the language so I can tell you if I understand what the Romanian is saying about. Um.
+(PERSON4) Yeah.
+(PERSON5) Yeah English <laugh/> would be the source that I would understand best um. 
+And maybe something like Spanish would be-
+(PERSON4) Oh, yeah, I'm not sure if-
+(PERSON5) <unintelligible/> Or French or Italian, then maybe- 
+(PERSON4) French.
+(PERSON5) French maybe I would understand a little bit.
+(PERSON4) Ok.
+(PERSON5) German very little, but we could try it. 
+But probably French would be if it's not a lot of colloquial stuff I might understand a little bit.
+(PERSON4) Mhm, yeah, ok. 
+So, so we have tested French ASR uh some weeks ago.
+Uh, so [PERSON1] can you check whether French ASR is available? 
+At the moment? 
+(PERSON1) Yes.
+(PERSON4) And right now, [PERSON5] you can check whether uh the uh Romanian translation of what uh what I was saying in English is uh acceptable or or not. <laugh/> 
+(PERSON5) And should I follow-
+(PERSON4) And it is delayed. 
+It is delayed again, I don't know why. 
+(PERSON1) Yeah, it is delayed, yeah, you're you're right. Mm.
+(PERSON5) So so what is it translating from? 
+Is it English to-
+(PERSON4) From English.
+(PERSON5) Ok.
+(PERSON1) Yeah.
+(PERSON4) From English, yeah.
+(PERSON1) So right now we have German ASR and French ASR. 
+So I can star- start either of them.
+(PERSON4) Mhm. And then we need some uh source uh to uh to follow. 
+Some some like real speech-
+(PERSON1) Yeah.
+(PERSON4) In French.
+(PERSON1) So actually I have German set up ready. 
+And it can be started instantaneously.
+(PERSON4) Ok.
+(PERSON1) So if you'd like to, if you'd like me to start the German set up.
+(PERSON4) Yeah, yeah, yeah. 
+So I'll I'll b- briefly- 
+So are you all looking also at this uh demo with [PERSON2] <unintelligible/> that uh that document, right?
+(PERSON1) Document, ye- yeah, yeah, yeah.
+(PERSON4) So at the bottom, I'm starting like notes from this uh test session.
+(PERSON1) Mhm, yeah.
+(PERSON4) And uh so uh first uh uh assessment uh and that was simply uh us talking English MT into Romanian. 
+And here mm mhm uh so yeah. 
+Hard to understand what we were talking about, right? 
+Is that is that a kind of a summary [PERSON5]?
+(PERSON5) Um, yeah, I was looking to that translate. <laugh/>
+I say like some sentences do make sense but others are uh yeah don't make sense. 
+And occasionally there's some random en- entities in there. 
+I I I found one. 
+Yeah, funny. <laugh/> Oops. 
+It was trying to translate Czech <laugh/> but that in Romanian is the same as writing like a bank check. 
+(PERSON4) Mhm mhm. <laugh/>
+(PERSON5) So there there is a few confusions. 
+Yeah. Um. 
+Yeah there are a few sentences that make sense and then some that are kind of half make sense.
+(PERSON4) Mhm. Yeah. Uh. So ok. 
+Thank you. 
+So this is this is uh the result that I was hoping for. <laugh/> 
+Because obviously it's not error proof at all. 
+And uh it was not domain adapted for this particular um uh setting discussing about the system and the languages. 
+Um, uh we should do better in the domain of interest, but I'm not sure whether we will do better.
+So uh there is a channel <unintelligible/> general text <unintelligible/> Uh yep. 
+So here is a video, I'll copy uh the link.
+It's, how long is that. 
+Tell me, um. 
+() Copy the link, copy link location. 
+So [PERSON1] can you now try and we we all should try looking at this video.
+In the German uh subsection.
+(PERSON1) Ok.
+(PERSON4) Yeah, that's just 2 minutes. 2 uh and, 2 minutes 40 uh 1 seconds. 
+(PERSON1) Wh- Where's the video?
+(PERSON4) 41 seconds. That's the video. So the link is at the very bottom of the [ORGANIZATION3] document.
+(PERSON1) Aha, ok ok ok. Sorry.
+(PERSON4) So if you can switch now the system to follow German-
+(PERSON1) Yeah, so I will I I-
+(PERSON4) And the question is-
+(PERSON1) So I-
+(PERSON4) How do we-
+(PERSON1) So I-
+(PERSON4) How do we play it, so that we all have it like uh shared with the- 
+How do we play the video so that we all see it at the same time? 
+(PERSON1) Uh huh.
+(PERSON5) Maybe somebody could share their screen?
+(PERSON4) But then the-
+(PERSON1) I can try to share my screen, yeah.
+(PERSON4) But that yes, you can try. 
+But that will kill the performance of your machine. 
+Because it would be like downloading the video, and sending the video and also doing the recognition and and  sending the so that's uh-
+And and the video quality will be pretty bad when when screen shared. 
+I'm afraid.
+(PERSON1) So I can try it uh once. 
+So I think now you'd be h seeing the YouTube.
+(PERSON4) Yes.
+(PERSON1) Yeah, ok. 
+So I I <unintelligible/> Set up.
+(PERSON5) Mhm.
+(PERSON4) So maybe, maybe before uh cli- uh just click play. 
+So that we will see whether it will play. 
+And. And then in the meantime try setting up uh. 
+Yeah, it's delayed, horribly delayed.
+(PERSON5) Mm, I'm going to turn my camera off for a bit now. So that mind.
+(PERSON4) Yeah, yeah, feel free to do so but I don't think that it will help. 
+Yeah, so there is no way.
+There is no way to watch a video in uh in this uh like shared session.
+So the way, [PERSON5] if you can hear me.
+(PERSON5) Mhm, yeah.
+(PERSON4) So [PERSON1] please stop the video now.
+Or actually stop sharing the screen because that is uh that is only killing the the perform- the performance.
+So what we have done in the past was that we all had our mouse buttons ready on the play button.
+(PERSON5) Mhm.
+(PERSON4) And uh through this uh shared umm uh conference call we clicked uh uh we said 3 2 1 go and on the go we clicked the play buttons. 
+And everybody was watching his own copy of the video.
+Uh and this-
+(PERSON5) Ok, we can try that. <laugh/>
+(PERSON4) The start was synchronized. 
+And uh and [PERSON1] did that on the machine which was recognizing. 
+So the subtitles were uh then uh available in the uh as as you are looking at them, in the online text uh flow window.
+(PERSON1) Sorry, I have to mute the audio in order to transmit the YouTube audio.
+(PERSON4) Sorry, say it again?
+(PERSON1) I have to mute the meeting audio in order to transmit the uh the YouTube audio to the pipeline.
+(PERSON5) Oh, okay.
+(PERSON4) Ok, so that means that that you will be there but we would not be able to talk to you anymore? 
+Because you could not hear us?
+(PERSON1) Yeah, because if you if you speak again the your audio will also be transmitted to the pipeline.
+(PERSON5) Mhm.
+(PERSON4) Yeah, so that's why you should have for the real demo, 2 machines.
+(PERSON1) Yeah, exactly, yeah, you're right, 2 machines, yeah.
+(PERSON4) And with one of the machines uh the speakers f- uh will be muted from from the [ORGANIZATION2] call. 
+(PERSON1) Yeah, yeah.
+And only the video would be uh there, right?
+(PERSON1) Yeah, yeah.
+(PERSON4) Do you have a cellphone that you could connect with as well at this moment or not? 
+And that actually does [ORGANIZATION2] work with cellphones.
+(PERSON1) I have a iPad which might work with [ORGANIZATION2] but uh, so right now we do not have any like login credential with [ORGANIZATION2], we just use like guest link.
+(PERSON4) Y- yeah.
+(PERSON1) And that hasn't been working with with cellphones and tabs. 
+So do you want me to try it uh uh in <unintelligible/>? 
+(PERSON4) Uh, s- uh no no, let's let's do it later. 
+(PERSON1) Okay.
+(PERSON4) So please stop sharing your screen.
+(PERSON1) Okay.
+(PERSON4) But then if, uh uh when when you mute the [ORGANIZATION2] uh, uh then you s- still can talk to us, right?
+Your microphone- No. 
+Can you, can you still talk to us or not?
+How do we synchronize the start? <laugh/>
+(PERSON1) Yeah, so I I I can speak but I I have to mute your audio.
+(PERSON4) Yeah.
+(PERSON1) Yeah.
+(PERSON4) Ok. So are you ready for the German sound input?
+(PERSON1) Yeah, uh so I I- 
+(PERSON4) So please set it up. 
+Please set it up so that now uh if we keep looking at the same uh thing, the same screen.
+Then still hopefully it will like be recognizing. 
+So should I now <another_language/>
+(PERSON1) Ok, so. I have to restart it now I stopped it.
+(PERSON4) Yeah, ok.
+(PERSON1) Yeah, it's there now.
+(PERSON4) Yeah, so now uh when I speak German it should be recognizing German, right?
+(PERSON1) Yeah, yeah, definitely.
+(PERSON4) Yeah. <another_language/> 
+So so well. <laugh/>
+So in principle it is set up now. 
+So [PERSON1], we will now everybody will now go to the video tab. 
+And everybody will prepare a window uh the uh window so that we see both.
+The uh uh the subtitles and the the video.
+ And you will say 3 2 1 and on GO you will click the play for the video link, right?
+(PERSON1) Ok, so-
+(PERSON4) And and a- and we will hear, everybody will click that at the same uh point, at the same time on the GO signal.
+And we will hear, everybody will hear their own copy of the YouTube video and everyone will see the uh the subtitles that you are uh presenting uh in the uh [PROJECT2] platform, right?
+(PERSON1) Yeah. 
+Yeah, right, I got it.
+(PERSON5) So uh so I will uh look into this text flow window to see the subtitles and then have another window in in parallel where I'll just watch the YouTube, yes?
+Uh, that's where I keep the tab subtitles. 
+Where they're displayed now.
+(PERSON4) Yeah I'll-
+(PERSON5) Okay.
+(PERSON4) I'll try to illustrate that on by sharing my screen.
+Where is that, [ORGANIZATION2] uh, share my screen uh, entire screen, uh, allow.
+So this is uh what I'm sharing uh now.
+So I have the video in the left hand part.
+And I have the subtitles in the right hand part and they they are uh like uh, I need to scroll them to the very bottom.
+I'll disable whatever I don't want to follow. 
+Uh so I'll keep following Czech, I'll keep uh following English and uh no, I'll I'll kept-
+Yeah, ok. 
+And then I I I would probably disable uh the other languages.
+So 3 languages fit reasonably well.
+So you, in your case, it will be uh good uh to see the German, English and Romanian.
+(PERSON5) I I don't know if I will be able to follow. 
+(PERSON4) Yes. And then you can- 
+(PERSON5) <laugh/> so many languages
+(PERSON4) Yes exactly. And then you can dis- 
+So you can keep just one.
+So whatever, it's up to you.
+(PERSON5) Yeah, I'll try Romanian and for now, that's it I think <unintelligible/>. 
+(PERSON4) And then and then [PERSON1] will say 3 2 1 GO.
+(PERSON1) Okay.
+(PERSON4) And then I have as I've- I don't whether you have seen that but I've played the video for myself. 
+And I heard this also in my headphones. 
+Uh and the subtitles uh on the uh on the video are by [ORGANIZATION3]. <laugh/>
+So uh [ORGANIZATION3] is uh pretty good uh with subtitling. 
+This is auto generated German and they can also auto generate into whatever we like.
+So I don't know whether you are seeing that.
+(PERSON1) I can see that, yeah.
+(PERSON3) Yes.
+(PERSON4) So, oh. This is no Afrikaans, I don't want Afrikaans. <laugh/>
+I wanted- uh oh gosh.
+Subtitles, auto translate. 
+I wanted to scroll it, if there is Romanian.
+Russian, yes, there is Romanian.
+(PERSON5) Mhm.
+(PERSON4) So this is the [ORGANIZATION3] performance. 
+And there uh they are pretty good.
+I'm uh I'm afraid.
+So you can probably watch just Romanian by [ORGANIZATION3] and Romanian by us.
+(PERSON5) Ok. Um ok.
+(PERSON4) So does that make sense?
+(PERSON5) So- Mhm, yeah. Can you share the link to the YouTube video?
+(PERSON4) Yes.
+(PERSON5) So I can set up the windows.
+(PERSON4) So, the [PROJECT2] window, that's here. Yep. 
+So this is the YouTube video link.
+I'll I'm stopping my screen sharing now.
+But this is something we need to simplify. 
+Hm, I think we heard that.
+(PERSON5) <laugh/> Ok, it's ready to-
+(PERSON4) Yeah, but it's interesting, it's interesting that I was that I heard that actually s-
+(PERSON1) Yeah yeah yeah.
+(PERSON5) Yeah, I I have headphones, so. 
+I don't know how.
+(PERSON4) Yeah.
+(PERSON5) Let me just um-
+(PERSON1) Are are are we re- ready now?
+(PERSON5) So so how do I put the translation on?
+(PERSON4) The [ORGANIZATION3] one?
+(PERSON5) Ok, German uh auto translate. 
+Ok I found it.
+I'll I'm just setting up to for the YouTube one to have Romanian. 
+Ok. Ok. 
+Ok, ok, well I'm I set up my window so hopefully. <laugh/>
+Ah. When you- when everybody else is ready, I can start.
+(PERSON4) Yeah, so everybody should have now their-
+(PERSON1) <unintelligible/>
+(PERSON4) So and we should not be talking-
+(PERSON1) <unintelligible/> yeah, definitely <unintelligible/>.
+(PERSON4) and you should actually mute us.
+So so [PERSON1] please mute us of- on your machine. 
+And then uh get ready to play and then say 3 2 1 GO and on the GO we all will click the play buttons. <laugh/> 
+(PERSON1) Ok. 
+So, ok. 
+Right now, ok, got it. 
+So on a count of 3 I will get started.
+So 1 2 3. 
+<another_language/>
+Ok ok uh uh-
+(PERSON5) Sorry?
+(PERSON1) So we have, we have audio being repeated from s- s- some someone. 
+I think it's-
+(PERSON5) I'm going to mute my-
+(PERSON4) Yeah, no but then you would not be able to hear the German.
+Is that a problem or not? 
+Yeah, ok. 
+So so. 
+So [PERSON5] mute.
+(PERSON1) Yeah, she can see it in the video.
+(PERSON4) Yeah.
+(PERSON5) Uh let me just uh. 
+Yeah, I don't know-
+(PERSON4) Or, since we, since we all hear you, let's make use of this. 
+So I will mute my video.
+And and you. I will get the sound from you through the [ORGANIZATION2] call. 
+But then this is too bad for [PERSON1], because [PERSON1] will get it twice.
+(PERSON1) No, I I I can even pause myself.
+Pause the video and only-
+(PERSON4) No but that's that's that's that's low quality.
+(PERSON5) So so to be honest I don't understand anything in German from <unintelligible/> the woman saying audio. 
+I could also cut the sound on my video display.
+(PERSON4) So so cut the s- 
+Please cut the sound on your video.
+And [PERSON1], remember, you need to mute the speakers, right?
+So, so there is mute incoming audio. 
+So there is there is this button on the [ORGANIZATION2] control panel. 
+(PERSON1) Aha, yeah yeah, s- sorry. 
+Got it, yeah, s- sorry. 
+Yeah, yeah uh uh I got it now, yeah, uh ok.
+(PERSON4) So so please try muting incoming audio now.
+And then confirm, that you cannot hear me anymore. 
+So I hope that you cannot hear me.
+Can you hear me?
+Now it's muted.
+And please keep saying, please keep s- keep talking, so that we know that the outgoing audio is fine. 
+Please keep talking. 
+(PERSON1) Yeah, ok.
+(PERSON4) So are you-
+(PERSON1) So, yeah, I I I just muted my audio and I can't hear you <unintelligible/> anything.
+(PERSON4) Yeah, and we can we can hear you. 
+Yeah yeah yeah. <laugh/> 
+And we can hear you all the time, that's good.
+So please mute, mute your incoming audio.
+And then tell us like 3 2 1 uh uh uh or you prefer 1 2 3, right? 
+Yeah?
+(PERSON1) 3 2 1 <unintelligible/> is fine. 3-
+(PERSON4) So no no no. <laugh/>
+Don't change it. <laugh/>
+(PERSON1) <laugh/>
+(PERSON4) So just do whatever you like but just one. <laugh/>
+And remember, everybody remember to scroll the the set the video to the very beginning.
+(PERSON1) Yeah. <unintelligible/> 
+Ju- Just press zero and it will search back to the zero.
+(PERSON4) Oh, zero? Oh, ok. I didn't know about that. Yeah, ok. 
+(PERSON1) So, I'm muting myself.
+(PERSON4) Mhm. 
+So now should we be no longer recognized, when I say.
+<another_language/>
+Yeah, when I say anything in German it is not doing anything on the recognition.
+But he didn't tell us where to start. 
+<another_language/>
+(PERSON5) I can't really follow, do you mind if we restart?
+(PERSON4) Yes, sorry sorry [PERSON5], I've stopped my uh German now.
+(PERSON5) I wasn't able to follow any of it.
+(PERSON4) Yeah, yeah yeah it was too-
+(PERSON5) And I think, and I think I started a bit later the video.
+(PERSON4) Exactly. 
+Because we didn't hear [PERSON1]. 
+So I'll I'll yeah.
+(PERSON5) But also it's hard to read 2 subtitles at the same time. 
+(PERSON4) Yeah, exactly.
+(PERSON5) I couldn't even read the YouTube subtitles.
+(PERSON4) Yeah. 
+Exactly, <laugh/> I couldn't follow either. 
+So I was trying to do the same and it's very difficult to uh uh to follow it. 
+Uh, so how how can we simplify uh? The set up.
+(PERSON5) Well I think I could try just following your subtitles.
+(PERSON4) Yes.
+(PERSON5) And then seeing if I understand, then we can talk about whether I understood what video was talking about reading the subtitles. 
+If-
+(PERSON4) Yeah. 
+So [PERSON1], can you hear us now? 
+Yeah.
+So we- 
+Did did you say the 3 2 1 GO?
+(PERSON1) Uh uh I say fingers, with fingers.
+(PERSON5) <laugh/>
+(PERSON4) Oh I didn't see at all. <laugh/>
+But I think that your voice is not recognized, right? 
+In the in the set up.
+<another_language/>
+<another_language/>
+No? Yeah, aha, ok. 
+Y- yeah, so it will not take my audio because it is taking the audio from the speakers and my audio isn't on microphone <unintelligible/>.
+(PERSON4) Yeah, exactly. 
+Yeah, so you can safely talk to us. 
+So you can safely say 3 2 1 GO, while we are muted, so we do not disrupt your video. 
+(PERSON1) Ok. So so we shall start again.
+(PERSON4) And there is one more problem, there is no Czech. 
+The Czech is stuck.
+For some reason, I don't see Czech translations. 
+But uh-
+(PERSON1) So it was <unintelligible/>.
+The CS is is the real ASR one <unintelligible/>-
+(PERSON4) Oh, ok ok ok. I didn't know that. So I'll uh uh-
+(PERSON1) Actually we <unintelligible/> watch the back translation also and they were like yeah.
+(PERSON4) So I need to copy the link uh.
+So this is this is something that we really need to make very simple. 
+So-
+(PERSON1) Yeah. We definitely will make simple this. 
+I made the set up to watch the real ASR Czech and the back translated Czech.
+(PERSON4) So I'll watch German, English and CZ.
+(PERSON1) Yeah, yeah, yeah.
+(PERSON4) This is my set of languages. 
+Ok. 
+So my set of languages is now ready.
+Can I I don't see anything, is it running?
+<another_language/>
+Mhm, I don't see anything.
+(PERSON3) I do.
+(PERSON4) Aha, ok. So I can share my- 
+(PERSON1) <unintelligible/> S- Sometime it happens. 
+I I don't know why it happens.
+(PERSON4) So should I reload?
+(PERSON1) Uh uh no I think you will need to. 
+I don't know why it happens, but it happen with me and I had to like re-type the whole link. 
+Like manual <unintelligible/> CZ then <unintelligible/>.
+(PERSON4) Menu, German, English, CZ.
+(PERSON1) You you might wh-.
+Ok. So let me send you another link. 
+So you click that this one and it should work for you. <unintelligible/> 
+That's it.
+(PERSON4) So wh- What could be the problem with this? 
+This is something that we have not.
+Yes, so this one works.
+So what is the problem?
+(PERSON1) I don't know, <laugh/> it happen with me like-
+(PERSON4) Yeah, yeah, yeah. 
+So we'll have to- <unintelligible/> and I'll disable the CS. 
+So I think the problem is that if I disable the CS, that's probably killing it, for some reason. 
+No <laugh/>, you're right. 
+I'll have to use the link that you sent me.
+So [PERSON3], what is what is wrong with your set up?
+(PERSON3) Oh no, nothing.
+(PERSON4) It works for you.
+(PERSON3) Yes. Yeah, I can deactivate languages and enable them and they work.
+(PERSON4) Ok, that's good. 
+So I'll I'm just stuck with some bad set up myself, but that's not a problem.
+So I think we are ready now.
+So, I'm seeing German, English and Czech. 
+<another_language/>
+So, yeah, so so there were there were couple of seconds of delay, I don't know why that happened again.
+There is a big risk that the uh heavy network traffic on your machine [PERSON1] will will be slowing things down.
+(PERSON1) Yeah, that that's could be possible.
+(PERSON4) So we need to test this actually uh separate of uh uh like separate of [PERSON5].
+We don't want to waste so much time of of [PERSON5].
+But now it's actually working, if you look at the translations.
+Uh there should be me counting into uh up to 8, right? Yes.
+(PERSON5) I saw that, yeah.
+(PERSON4) Yeah. And I'll do that again just to clear the buffers. <laugh/> 
+That's also important.
+And in the meantime, uh uh [PERSON1] you should uh mute us and then say the uh and and what will you be saying? 
+So, uh tell us exactly, what.
+(PERSON1) 1 2 3 and-
+(PERSON4) Yeah, and on 3-
+(PERSON1) <unintelligible/>
+(PERSON4) On 3 we will all click uh the the uh video play button, right? 
+Yeah. 
+(PERSON1) Yeah, yeah.
+(PERSON4) So everybody reset every- 
+(PERSON1) As soon as you hear 3 you just click it.
+(PERSON4) Yes.
+(PERSON1) Your play button.
+(PERSON3) You could also say click I I-
+(PERSON4) 1 2 click.
+(PERSON3) Ok.
+(PERSON1) 1 2 click, ok. 
+1 2 click will be my statement.
+(PERSON4) Yeah, ok great. 
+So we're ready for that.
+(PERSON1) So I'm going to mute myself so I- <unintelligible/>
+(PERSON4) No m- mute ourselves and I'll- <another_language/>
+(PERSON1) So 1 2 Click.
+(PERSON4) <another_language/>
+(PERSON1) Yeah, so. 
+I can hear you now guys. <unintelligible/>
+(PERSON4) Yeah, there was horrible delay, it is still feeding uh the the German there.
+(PERSON1) Really? 
+(PERSON4) Mhm.
+(PERSON1) You mean test roll?
+(PERSON4) Yeah.
+(PERSON1) So I think I soon a- as soon as I stopped the video it has started <unintelligible/> different for you guys. 
+I don't know.
+(PERSON4) So can you share the screen with what you saw in the text online text flow?
+Because I- 
+So that's it's too complicated of a system because-
+(PERSON1) So so- <unintelligible/>
+(PERSON4) So [PERSON5] was it delayed f- for you as well?
+You're muted probably, I don't I don't hear you. <laugh/>
+(PERSON5) I th- I might have been delayed.
+But I couldn't really think it without audio. <laugh/>
+(PERSON4) Mhm.
+(PERSON5) I couldn't follow, um.
+What I did note is-
+So I can't honestly say what exactly it was talking about.
+Something with services or with birds or with monitoring something.
+(PERSON4) Aha, aha, yeah.
+(PERSON5) So maybe I could read over it again.
+And I could also l- listen with the YouTube su- subtitles to see if I can understand more about it from there.
+I did notice it got really for example at line 181, it kept listening in listening in and it kept trying to generate this long sentence.
+(PERSON1) Yeah, yeah, yeah.
+(PERSON5) And then I don't know how it broke up the-
+So then there was a flow of like 2, 3 lines one after each other.
+But there was like this long, that time when, uh yeah. 
+It was trying to compute one sentence.
+Uh, so there is I noticed that thing uhm.
+I mean, I think it is having a very technical like something with the-
+How do you say that in English? 
+<another_language/>
+It sounds like uh bureaucratic European talk. <laugh/> 
+I think it gets <laugh/> the general idea. 
+But yeah, I had trouble fo- following the doc flow at some point starting with 181.
+(PERSON4) Yeah. 
+We- the the numbers are unfortunately not the same for e- everybody I think.
+I'll check my numbers uh. 
+(PERSON1) So I think- 
+(PERSON4) So actually I-
+(PERSON1) I feel that see my screen uh as as I paused the video it is start that line number 187.
+So here is selected-
+(PERSON4) So I don't see your screen, for some reason, I don't see your screen.
+(PERSON5) Yeah.
+(PERSON1) No? Ok. 
+I'll try to share again.
+(PERSON5) Yeah, I also- I reading the script 187 is the the last 1 that make sense with the previous one.
+(PERSON1) 187 is what was the last detected.
+(PERSON5) Yeah.
+(PERSON4) Yeah. That's true, uh-
+(PERSON1) And I think it stopped as soon as as I paused the video.
+I don't know how it kept emitting for for you, maybe.
+(PERSON4) So it for me it also stopped at 187, but the problem was that it was still something which was said earlier.
+These are not the last sentences of the video.
+(PERSON1) Aha. And and how <unintelligible/> ASR <unintelligible/>-
+Ok, so I know that at the MT does that it keeps emitting the all.
+But I think if the line number-
+(PERSON4) The line numbers correspond.
+(PERSON1) Yeah the line numbers are matching so they must be updated I mean.
+So I mean there will be quite latest uh did-
+(PERSON4) Actually yeah you're right. 
+So it is probably the last sentences of the, of the video.
+But so for some-
+So maybe the reason was that I I click the video playback too late myself, and that caused the little delay.
+That is, that is possible.
+<another_language/>
+Yeah yeah, you're right.Yeah so it was, I was, my video playback was late.
+And that that's why. 
+That's why the video was still was talking for me.
+And the yeah, so this is.
+Ok, so there is no way that we will ask the people watching this to actually click the play button.
+That's too risky.
+(PERSON1) Yeah, yeah.
+(PERSON4) So we have to come up with a way to to launch it for them.
+And then there are the problem for the segmentation.
+That's what [PERSON5] said.
+The the big chunk, the listening in.
+So actually the this particular talk is not to euro speak. <laugh/>
+These long sentences are not naturally uh uh there.
+The sentences the the speaker makes are are r- reasonable.
+It's our system that fails to uh find the th- uh uh the division of sentences.
+So that's the, that's the problem.
+(PERSON5) Um, yeah. I mean, it it in the end it seems like it did break it apart.
+Um, but as I was-
+Yeah but I think there's some error there.
+Um. But yeah, I can-
+Maybe I could listen to the-
+I mean it's definitely something with audit and Austrian birds and this.
+(PERSON4) Yeah so, it was not not the birds.
+Nothing about birds.
+It's all about-
+(PERSON5) No?
+(PERSON4) No. <laugh/>
+(PERSON5) <unintelligible/> There is something with birds in in the the <laugh/> transcript.
+(PERSON4) So so, now now you can try playing the video with the YouTube subtitles.
+(PERSON5) Ok. I will, I will I will do this now.
+(PERSON4) And and you will probably understand what it's about. 
+Because I I could follow.
+They the YouTube subtitles are uh like pre-computed, so they're not live.
+(PERSON1) So I I I'd like to hear speaker like you can view in YouTube's transcript, German transcript at once.
+And you will get like kind of history logs as we see it and I would like to show you how you can get that.
+(PERSON4) Aha, in YouTube? So- 
+(PERSON1) Yeah yeah yeah.
+(PERSON4) Are you sharing the screen now?
+(PERSON1) Yeah, I want to share my screen.
+(PERSON4) I don't-
+(PERSON1) So here you see-
+(PERSON4) I don't see your screen. 
+I don't see your screen.
+It tells me that you have started the presentation, but I don't see it.
+(PERSON1) <unintelligible/> view. Do you see it now?
+(PERSON4) Maybe we'll have to wait. But I don't see it. 
+(PERSON3) No.
+(PERSON4) It says that you have started presentation.
+But I still see only your face. 
+Like live. Yeah I see on your camera.
+(PERSON1) Uh uh <unintelligible/> so in the video description you have like this like shared save.
+(PERSON4) Mhm, mhm.
+(PERSON1) And there there- 
+(PERSON4) 3 dots?
+(PERSON1) 3 little dots, yeah.
+(PERSON4) Open transcript.
+(PERSON1) Yeah.
+(PERSON4) Open transcript. 
+Yeah, ok.
+(PERSON5) Mhm. 

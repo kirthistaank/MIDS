@@ -1,0 +1,23 @@
+Meeting 14. 9. 2020:
+Attendance: [PERSON6], [PERSON8], [PERSON3], [PERSON5]
+
+-  [PROJECT5]:
+--   backtranslation of monolingual data still running (both on GPUs and CPUs) - many people use GPUs these days, so the translation slowed down significantly
+--   => cannot make it for [ORGANIZATION6] deadline :(
+-  deadline moved to 7th October :)
+-  [PROJECT3]:
+--   paper for [PROJECT1] accepted
+-  camera-ready due 17.9.
+-  [PERSON11] is going to read it and check it all this week
+--   experiment 2
+-  already running by [ORGANIZATION7]
+-  the number of participants seems to be critically low, but [PERSON6] should know more
+-  [PERSON4] wrote 5 days ago: “I think we have to start a wider campaign of dissemination for this experiment.”
+-  [PERSON11]: I know no channels how to disseminate such things (and c'mon, it should've been [ORGANIZATION7]'s responsibility)
+-  advert: [URL]
+-  [PERSON5] emailed [PERSON12] asking about the [ORGANIZATION7] progress
+-  [PROJECT7]:
+--   multi-reference testset:
+-  ~ 50 sentences
+--   possibly a separate weekly meeting?
+

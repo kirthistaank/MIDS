@@ -1,0 +1,1338 @@
+(PERSON4) Hi.
+(PERSON8) Hmm.
+Hello, [PERSON7], [PERSON17].
+Hi.
+(PERSON4) It's only me, I have to change, sorry.
+(PERSON8) I don't mi- 
+yeah, okay, yeah, uh, never mind. <laugh/>
+So hi, [PERSON7].
+Uh, so have you seen my, uh, uh, request or, uh, the e-mail to consider, uh, work package leadership? <other_yawn/>
+(PERSON4) Um, yes, so we can't- 
+uh, uh, so idea- 
+sorry.
+We are both-
+some are not there in the office today, uh, this week, so it's a little bit -
+(PERSON8) Yeah.
+(PERSON4) busy.
+So I'll be also -
+(PERSON8) Yeah.
+(PERSON4) a little bit late with writing.
+Um, so I think one problem with data might be that currently, we don't have, um, <other_noise/> person-months in there. 
+(PERSON8) Uh, well, the- 
+so this is or-
+s- so I don't know what is your status of person-months, 
+like wheth- whether you have already reached what seems, uh, reasonable, 
+or whether you _ 
+(PERSON4) I- I -
+(PERSON8) can still add more?
+(PERSON4) I think we hadn't but if you can add more, that's of course great.
+The problem was that we <other_noise/> also- um, I mean, we're very few in SLT and MT yet because we had to put so- quite some on- on ASR.
+(PERSON8) Mm-hmm.
+(PERSON4) <other_noise/> Because nobody else is doing it.
+We would like to do more on- on the other 3 task, SLT, MT and-
+but of course, -
+(PERSON8) Mm-hmm.
+(PERSON4) we are somehow limited.
+Um, if you want-
+I mean, that's-
+because we were already involved in 4 work packages like ASR, MT, SLT -
+(PERSON8) Mm-hmm.
+(PERSON4) and, uh, um, <other_noise/> minuting.
+(PERSON8) Yeah.
+(PERSON4) That's why we didn't put-
+(PERSON8) I don't think that should be a problem.
+(PERSON4) Okay, yeah.
+I mean, but we have to- yeah.
+But, um, so- but if you want, I guess, we could also lead that.
+Or we could wor- lead the, um, um -
+(PERSON10) <unintelligible/>
+um, last 1, uh, the minuting.
+(PERSON10) <unintelligible/>
+(PERSON13) Hi everyone.
+(PERSON8) Uh, yeah, yeah.
+Hello?
+Hello.
+Uh, okay.
+So, uh, well, we'll- we'll discuss this, [PERSON7], in- in a second, also with, uh, uh, with [ORGANIZATION5]
+because I also haven't heard from, uh, [PERSON1] on this.
+So, uh, I think we are all, uh, because [PERSON12] is not going to join today, and also, uh, [ORGANIZATION14] uh, [ORGANIZATION14] is not going to join the call, although they, uh, have, uh, created this, uh, GoToMeeting for us.
+And by the way, the GoToMeeting is being recorded, so the <unintelligible/>- this is for the exercise of- of the minuting to have some- uh, some recordings.
+So I hope you're all okay with this and thanks for, uh, coming and welcome.
+<other_yawn/> And, uh, uh, so, as you see, uh, the- uh, the agenda in the [ORGANIZATION1] doc has- uh, has grown a bit.
+Have you- uh, did you see my screen or not?
+(PERSON4) Yes, we see your screen.
+(PERSON8) Yes, okay, yeah, yeah, that's good.
+Uh, so, uh, so the first point is an update on [ORGANIZATION14] status.
+Uh, that's like the official way of- of their involvement in the project, and we are discussing this, and- and we're in contact with the contact points and- and all that.
+Uh, so, uh, in the P part it seems that they should be- uh, at least for now list- be listed as a- as a partner.
+But in the actual application, they will be the 3rd party linked through us and the-
+<censored/>
+<censored/>
+<censored/>
+Uh, so that's- uh, uh, that's why the- uh, the proposal, uh, in the- uh, uh, in-
+<censored/>
+Uh, so there's the requested [ORGANIZATION2] contribution.
+And the requested key- [ORGANIZATION2] contribution is somewhat lower than the total- uh, total estimated eligible costs. 
+<censored/>
+So this is the current- uh, this is the current status. 
+Uh, from the, uh, technical point of view, we should probably treat them as- as a standalone partner contributing rather few person-months.
+Uh, and the, uh, responsibility, uh, that this happens is on us, because they're linked through us.
+<other_yawn/> Uh, okay.
+So then, uh, the other thing is something that, uh, I need to discuss, uh, probably only with, uh, [ORGANIZATION5] and [ORGANIZATION12].
+And that's the leadership of work packages. 
+Because as [ORGANIZATION14] are like not- not a standalone, not- not a full partner here, uh, they cannot lead the work package, uh, on data.
+Uh, so, uh, I thought that, uh, uh, it- it would be the- good that one of the research partners, uh, does this.
+And, uh, we are responsible for the multilingual MT and management and for- uh, now for minuting as well. 
+Uh, uh, so, uh, like we have data and minuting kind of available, uh, for [ORGANIZATION12], uh, or [ORGANIZATION5], or we can do it, uh, uh, s- as well, but, uh-
+yeah, so, uh, yeah, this is-
+I don't know if [ORGANIZATION5] has any opinion on this?
+(PERSON10) So, uh, I think it would make more sense if, uh, [ORGANIZATION13] keeps the minuting part because you also, uh -
+(PERSON8) Okay.
+(PERSON10) you- you've- meaning the, um, getting at the concept- you have the most involvement there.
+(PERSON8) Yeah <unintelligible/> -
+(PERSON10) And I think, uh, it's okay, to have the data work package.
+Either us or [ORGANIZATION12] <unintelligible/> [ORGANIZATION12] what they- what their position is.
+(PERSON4) Yeah -
+(PERSON8) Yeah, so I've talked to-
+yeah, [PERSON7], [PERSON7], s- please, say this- say that.
+(PERSON4) So yeah, I mean, uh, <unintelligible/> of course you wrote most of it, so we can also keep the minuting, otherwise since [ORGANIZATION5], uh, [ORGANIZATION5] has more on- on data, I would have suggested that [ORGANIZATION5] does data and we do minuting, but I'm fine with anything else too.
+(PERSON8) Okay, yeah, so that's- that's very flexible.
+Uh, thank you.
+So I would suggest indeed that [ORGANIZATION5] takes the data, uh, and then, uh, we or [ORGANIZATION12] we will do minuting.
+And we'll see like-
+<laugh/> it's- it's not very important actually.
+So I'll check the involvement and planned involvement of [ORGANIZATION12].
+And if it's- uh, if the involvement is really imbalance, and if- if there is totally us in the end, when the numbers are polished, it's probably better if w- we keep that.
+Uh, but if- if it's like, uh-
+we c- we can have the majority of person-months, but still, if it's- if it's kind of comparable, then, uh, it would be okay also to- uh, to give it to- to [ORGANIZATION12].
+Okay?
+So [PERSON1] _ 
+() <unintelligible/> 
+the main question-
+uh, uh, uh <parallel_talk/> will, uh, lead data <parallel_talk/> 
+Is that okay?
+(PERSON10) <other_noise/> Yes.
+(PERSON8) Yeah, thank you.
+Uh, okay.
+And then the next bit is, uh, the involvement of everybody in the integration work package. 
+So [PERSON12] is traveling and that's why he's not available, uh, in this call today.
+And, uh, the- uh, the [ORGANIZATION4] is- uh, is not very, uh, z- easily editable for, uh, uh, him.
+So we agreed that for the work package 6, uh, there is this separate [ORGANIZATION1] document for now.
+And that's where he is describing the- uh, the work package, uh, and I will part- then port this to, uh, the [ORGANIZATION4].
+So- so this is the authoritative document for, uh, integration.
+<other_yawn/> And, uh, it's important that everybody, uh, will check this document and provide, uh, input to- uh, to [PERSON12].
+And this should be finished tomorrow.
+So [PERSON12] is- is like accessing this document every now and then, and he plans to have the complete draft ready tomorrow.
+So everybody please check this and contribute to this.
+The most important parts are these missing, uh, uh, bits.
+S- uh, for task 6.2 as now proposed the integration with the unified communication platform.
+And this is something that A- [ORGANIZATION6] and [ORGANIZATION11] have to discuss, uh, like, uh, s- directly with each other so they know their- their technical, uh, preferences and- and constraints and- and all that.
+Uh, and, uh, s- th-
+from like the management or the user point of view, uh, there's- if someone is- is, uh, using the [ORGANIZATION6], uh, [ORGANIZATION6] t- teleconferencing, uh, thing, uh, there will be simply some like the- the- Translate this for me or Interpret this for me, and the subtitles should pop up.
+And technically, uh, there will be some link between [ORGANIZATION6] and- and [ORGANIZATION11],
+and it has to be created at some point during the project.
+So that's the- that's my understanding of what the unified communication platform is. 
+And my understanding is that this unified communication platform is, uh, only for the online meetings.
+For the live meetings, uh, that's, uh, something that, uh, [PERSON12] put now into, uh, the, uh, last task, uh, uh, which is, uh, the [ORGANIZATION14] events and in- and the publishing platform.
+So the idea is that, uh, there w- 
+at the conference or at the workshop- 
+there will be the microphones, and that the signal will be gathered and translated somewhere, and then it has to be delivered to the participants in- as subtitles.
+Uh, and that's the publishing platform, this- this delivering the subtitles to the- uh, to the users.
+And that can be anything on cell phones, uh, so- s-
+yeah, so <other_yawn/> uh, I- I've been trying to persuade [PERSON12] to have the separate, uh, so that we would be- have 1 task on the platform deli- uh, development.
+And another task on the actual presence of the technical people at these events, uh, to- uh, to debug the thing, uh, as- as it is running.
+Uh, if [PERSON12] is fine, then we will have actually 5 tasks and- and not, uh, 4. 
+Uh, and, uh, if- if he's strongly opposed, then this task will probably be merged. 
+Or there is another option, uh, to like merge this publishing platform into this unified communication, uh, platform.
+Uh, and I don't know what is- uh, what is better.
+So this is- this is for, uh, [ORGANIZATION6] and, uh, [ORGANIZATION11] to discuss directly, and I'm happy to join that, uh, communication, but mainly all the decisions will be on- on you.
+So if [ORGANIZATION6] can confirm that they are, uh, aware of this, and they will, uh, try to get in touch with [PERSON12], and we could have a separate call, uh, tomorrow on this.
+Uh, I don't know what is your availability, um, uh, [ORGANIZATION6].
+(PERSON8) So we -
+(PERSON13) I think we can coordinate, yeah, we can coordinate that.
+Um, -
+(PERSON8) Yeah.
+(PERSON13) maybe not tomorrow, <unintelligible/> know.
+(PERSON8) Mm-hmm.
+(PERSON13) But we'll, yeah, we'll figure it out.
+(PERSON8) Yeah.
+So another thing, which is very much related to this, uh, is the integration of the minuting.
+And that is something where we also need to be present.
+Uh, so that's task which is now planned, uh, uh, as task 6.3.
+And I estimated that this would be the 2nd and 3rd year of the project, uh, because first the- the minuting obviously has to be, uh, created.
+And there are some Milestones related to this, that, uh, the actual summarizations offer should be expected only in the middle of the 2nd year or something like that.
+So there is like a half year uh, s- uh, uh s- head or [ORGANIZATION9] time at the beginning, uh, so that, uh, [ORGANIZATION6] can, uh, create what they need.
+Uh, so that's- uh, <other_yawn/> yeah, this is- this is also something that- that we should, uh, discuss.
+And if you can I would prefer to- to have at least a short meeting tomorrow, uh, because well, time is really running up and we need to- to write the text that, uh, describes what we're going to do, so what we should agree on those things very early.
+So that- but that's something that w- yeah, [ORGANIZATION6] and- and [ORGANIZATION11], uh, and us have to- uh, have to talk about primarily.
+<other_yawn/> And then, uh, hmm, below- uh, further below is what [PERSON12] proposed under the title Deliverables.
+And he listed just the months and the titles. 
+And I suggested to have fewer deliverables here.
+So this is important for like all the partners because that's the integration.
+Um, <other_yawn/> uh, and, uh, s- I suggest to have, uh, the- uh, the first engine integrated, uh, only as a Milestone, not as a Deliverable.
+Then the preparatory event should be also a Milestone as- as I see it.
+Uh, there, uh-
+for the publishing platform, uh, I would actually make it a deliverable, uh, which is a software and the report.
+But I don't have this confirm from [PERSON12] yet.
+Uh, and then the unified communication platform is the, uh, link between [ORGANIZATION6], [ORGANIZATION11] and then, uh, like s- s- r- remotely also, uh, all us, uh, but we are like hidden, we- we are- uh, we are behind the- the [ORGANIZATION11] wall.
+Uh, and, uh, I think that this could be probably a Milestone only, but it could be also a Deliverable with the report, like a software delivered.
+So at s- uh, that is- this is something that, uh, [ORGANIZATION6] and- and [ORGANIZATION11] have to, uh, um, agree <other_yawn/> on.
+And then, uh, the [ORGANIZATION3] event.
+That's the [ORGANIZATION10] that's the main conference.
+Uh, I'm, uh, re- uh, considering, uh, to- to make it a deliverable actually.
+Uh, maybe later, uh, with some [ORGANIZATION9] time after the- uh, after the actual conference.
+So a- there will be a task, the task which is now 6.3 I b- uh, 6.4 I believe.
+There would be for all the partners to attend, uh, the conference, uh, well, rather the servers-room during the conference time,
+and- and, uh, hack and fix whatever is needed to- to g- give a smooth performance of the systems.
+And then I would suggest that this deliverable with some months later should describe, uh, what has been done. 
+And part of this as a digest could have a form of a journal paper, like that we have delivered this automatic interpreting and- and how all that worked.
+So does this make sense to- uh, to do the research partners? 
+And also to-
+uh, well, [ORGANIZATION11] is not here- 
+uh, uh, but, uh, to- to [ORGANIZATION6] for the dissemination, uh, purpose for example? 
+Does this make sense?
+(PERSON13) Yeah, this- this makes sense.
+Okay, so I have to activate my microphone all the time but-
+Yeah.
+(PERSON8) Yeah, yeah, yeah.
+ <laugh/> Sorry <laugh/>.
+Yeah, okay.
+So I'll- uh, we'll see whether [PERSON12] likes this as well and hopefully, uh, he will. 
+So that's- uh, that- that would be a deliverable associated with the [ORGANIZATION3] Congress.
+Uh, and then there is a- what I would make a milestone.
+Uh, uh, the automatic minuting integrated, uh, with the platform.
+Uh, so the- I've said that- that's the first version.
+And the reason is that, uh, still, the tasks on the development of the minuting are running, uh, f- bel- uh, uh, even after this month, uh, 28.
+Uh, so that's why I expect that there will be like a final version, uh, f- closer, uh, towards the end of the project.
+But I know that time is packed and- uh, at that, uh, time of the project already.
+So- uh, so this is something which I, uh, did- the first version of is something that I put into, uh, brackets there, and I might actually remove it.
+Uh, <other_yawn/> and for, uh, the other events that we will have, uh, after the [ORGANIZATION3], uh, Conference,
+I suggest that we have, uh, again, uh, reports of deliverable that will describe how these ran.
+And- but that would not be like probably that much, uh, publicity needed towards that, 
+because these would be smaller meetings, and we still need to learn from the experience.
+And- and like, uh, c- collect the- i- uh, the user complaints, and collect technical, uh, s- issues that we encountered, and- and propose fixes which- what's for month 32, 
+which hardly, uh, be fixed th- by the- <unintelligible/> of the service at the end of the project.
+So, please, everybody and especially [ORGANIZATION6], contribute to this.
+Uh, uh, the involvements, the number of person-months-
+uh, uh, it's, uh-
+like everybody should have person-months, uh, in, for example, the integration.
+Uh, so the person-month, uh, should not go into this [ORGANIZATION1] doc.
+Please put the person-months into the- uh, the [ORGANIZATION4], uh, or treat the [ORGANIZATION4], uh, tentative in this- uh, in this respect until this is merged in.
+And that should happen, uh, over the weekend, hopefully.
+So hopefully most of this document will be, uh, finished tomorrow, and I can merge it, uh, to the [ORGANIZATION4] over the weekend.
+<other_yawn/> So that's a- that's a- the inform- uh integration work package.
+And now let's move to the overall, uh, proposal.
+Uh, so the- the big thing is the project name.
+And, uh, I've asked also other colleagues, but not too many.
+So I'll- I- I invite you to ask around as well, because we have now, uh, two, uh, names with, uh, like, uh, general p- uh, s- general preferences, uh, on- on them.
+And one of them is the [PROJECT1] and the other one is the [PROJECT2].
+Uh, [PROJECT2]
+Uh, uh, yeah, I'm- I'm undecided.
+Uh, so-
+yeah, <laugh/> ask around if you have any s- strong opinions.
+I think both names are- are good.
+Uh, yeah.
+Any- any opinions how to proceed?
+(PERSON10) I think both acronyms <unintelligible/> fine, but if you actually spell it out, [PROJECT2] kind of has a nicer <unintelligible/> than -
+(PERSON8) Yes, yeah, yeah, yeah.
+(PERSON4) <unintelligible/>
+(PERSON8) Yeah. <parallel_talk/> [PROJECT2] has a- a nicer content, <laugh/> uh, spelled-out version. <parallel_talk/>
+Yeah.
+So the problem of [PROJECT2], uh, being too similar to liter is not-
+if- if we pronounce [PROJECT2], uh, then- then it's okay, I think. <laugh/>
+So there is- there is now slide shift like a- at least in my head towards [PROJECT2], so I've- we might end up as- as [PROJECT2].
+Uh, okay?
+(PERSON8) <other_yawn/> So -
+(PERSON10) I think even if it's not- it's [PROJECT2], it's- it's s- <unintelligible/> -
+(PERSON8) [PROJECT2], yeah.
+(PERSON4) close.
+(PERSON8) [PROJECT2] is close -
+(PERSON10) <unintelligible/> elite than it is to liter.
+<laugh/> My s- my -
+(PERSON8) Yeah, that's right.
+Yeah, yeah, yeah. <laugh/>
+So, <parallel_talk/> So we will probably, uh, have this. <parallel_talk/>
+Yeah.
+Uh, okay.
+<other_yawn/> Uh, so now, uh, the next point is that every work package leader, uh, should present, uh, the, uh, respective work package <unintelligible/>.
+[PERSON15] is commenting something.
+<other_yawn/>
+Yeah.
+<parallel_talk/> Yeah, yeah, that's the pronunciation.<parallel_talk/>
+Uh, so, uh, I would like now to, uh, ask a- every work package leader to present their work package, and now we'll run into the problem that we are not quite decided who is going to lead which work package.
+Um, uh, so, hmm, the- the best way to look at work packages and our commitments is to look at these, uh, compact tables.
+And that's why we prefer to have, uh, uh, the, uh, proposal organized this way.
+So the 1st work package, uh, is on data. 
+Uh, and, uh, it was supposed to be led by [ORGANIZATION14], but this is now changing.
+It could be us or it could be, uh, s- [ORGANIZATION5].
+And, uh, I'm, uh, happy to present it, uh, s- a- at the beginning.
+And the- the person-month that I've put here-
+uh, I think I've put also like the person-month for- uh, for other research partners in- 
+and- and for [ORGANIZATION14] myself.
+So the- treat these numbers as very tentative and- and consider, uh, any updates
+and do any updates in the [ORGANIZATION4] as- uh, as- as you like.
+Uh, so overall, this work package-
+well, there's one more thing.
+Uh, the, uh, maybe to give you an overview.
+We have a picture.
+You might not have noticed, but we have a picture of the project structure, and that picture fairly reflects this.
+This is the picture.
+It says that- that data provides, uh, input to all the research work packages, uh, and, uh, uh, then their research work packages, uh, the ASR and MT, c- uh, contribute to SLT,
+and ASR contributes to minuting and data, uh, also contributes to minuting, and the work package on integration somehow get theirs all the results from these work packages.
+I may did this, uh, inexplicit because, uh, the ASR will also be directly used in the integration.
+Some people would like maybe to see just the [OTHER5] subtitles without any translation,
+and, uh, we are deliberately not very specific about the machine translation service, uh,
+that we are delivering, uh, like for text, uh, documents.
+Uh, that's- that's something that <other_yawn/> is boring to do and, in the worst case, we- we can do it, but we kind of rely also on the SEF, the [OTHER3], uh, translation, uh, uh, facility run by DGT, that we will rather provide technology to them and- and leave the- uh, the translation on them.
+So this is a- there is no deployment of the translation service planned in the- uh, in the project.
+But there is research, uh, plan, um, <other_yawn/> th- re- research plans.
+And the work package dissemination then, uh, publicizes, uh, all these, uh, results, uh, from the work packages, uh, and the management, uh, like stands on the side and- and checks that everything proceeds smoothly.
+So now let's, uh, move to the work package on data.
+Uh, and then the next one will be, uh, [ORGANIZATION12], uh, presenting the- uh, this- uh, the planned task in the work package, uh, on, um, ASR.
+So within data, uh, I've created tasks for data for speaker and accent adaptation.
+Uh, uh, so, uh, here, uh, the idea is that, uh, we will, uh, record, re-speakers and, uh, um, process this data and create the training data set.
+And- and then the ASR work package will use this data set.
+Um, and, uh, we will also, uh, transcribe the data that we need to tr- uh, to transcribe.
+So for example, if we know who will be the main speaker at the conference, uh, we can get some of his old speeches and transcribe these and thus get data for, uh, the speaker adaptation.
+So this is- this is a task where the main partner should be [ORGANIZATION12] because they know how to process the data.
+Uh, but, uh, we will, for example, uh, purchase the- the equipment to the- the recordings
+and for- for the re-speakers.
+And [ORGANIZATION11] will probably do the, uh, same.
+If [ORGANIZATION5] would like al- also to have, uh, some of the re-speakers, uh, then- 
+uh, like, a- f- coming from their side- 
+uh, then, uh, they- uh, they w- might, uh, enter themselves.
+There is one related thing, so let me jump ahead in the agenda.
+In the, uh, [ORGANIZATION1] sheet, uh, there is this- uh, um, uh, there is this budget, uh, the- the third sheet, uh, in this- in this [ORGANIZATION1] document <other_yawn/> uh, is like a collection of, uh, hours and, uh, number of speakers that we would like to record data from.
+That's for the adaptation purposes.
+And also the number of speakers or re-speakers that we want to have, uh, present at the conferences and workshops to actually do the re-speaking.
+Uh, and I've added only, uh, some for [OTHER7] and, uh, some for [OTHER5], and I actually, uh, forgot to include the [OTHER5], uh, for the purpose of- of sitting at the conference.
+So I would like to ask especially [ORGANIZATION12], uh, to- uh, to add any lines, uh, for them.
+If they need, uh, to- uh, um, uh, if- if they need to, uh, record some, um, specific persons,
+and if they, uh, want to- uh, if they want us to do it, like so that it goes through our budget, that's also possible.
+So, uh, like then it- uh, then, uh, enter us, uh, as- as, uh, uh, having the people in, uh,
+and here in- in the comments say that like this is for [ORGANIZATION12] e- experiments, uh, or, uh, whatever.
+So- so we can do the- uh, the recording for you, because we probably will need the- the re-speakers, uh, primarily in [LOCATION1].
+Uh, but, uh, you, uh, uh, may have specific ideas, uh, like how many hours do you need per person.
+These numbers are now, uh, based on, uh, the estimates, uh, that [PERSON12] provided me with.
+And [PERSON12] is also- uh, [PERSON12] als- should also put here some- some lines for, uh, for [ORGANIZATION11] here, because they also want to focus on [OTHER9], so there will be some speaker adaptation for [OTHER9], uh, uh, as well.
+And one more thing.
+If you decide to actually run the- uh, the recording at your side is that, uh, preferably, the speakers should, uh, also be recorded in a genuine re-speaking session, because then the voice is different for- uh, due to the pressure, uh, that's put on the speaker.
+<other_yawn/> Uh, so, uh, so [ORGANIZATION5] and [ORGANIZATION12], please, consider, uh, how many hours do we need in the project, and how many hours d- do you want to record, uh, yourself.
+Uh, if you do not want to record yourself, then, uh, say that we should do the recording.
+And this will give us the total, uh, number of person-months.
+Uh, uh, this is the total number of hours, which is something that the ASR people should check whether this is sufficient or-
+well, this- this is a- this is for also the attendance of the conferences.
+So, uh, for the- for the adaptation, you should check whether these numbers are sufficient.
+And, uh, for the number of person-months per partner, this is something which contributes to the budget.
+So, uh, then this is the number that w- I will add or- or you will add to the data work package, uh, and uh, this will then, uh, get po- um, propagated, uh, to the number of- uh, number of hours here, and that will, uh, like, uh, contribute, uh, to the budget.
+<other_yawn/> Okay?
+So it's that clear?
+[ORGANIZATION5] and, uh, and [ORGANIZATION12]?
+(PERSON13) Yes.
+() <unintelligible/>
+(PERSON8) Yeah, okay, thank you.
+(PERSON13) Sorry [LOCATION1], I suppose one general question about the -
+(PERSON8) Yeah.
+(PERSON13) data operation is whether we need -
+<unintelligible/>.
+whether we- we need to have as a personnel budget or a subcontracting budget?
+<unintelligible/> as we were- here we were thinking about the translation test sets, but -
+(PERSON8) Mm-hmm.
+(PERSON13) could apply to the- the speaker or at least -
+(PERSON8) Yeah, uh, <other_yawn/>
+(PERSON13) I'm not really -
+(PERSON8) So, I dunno- <laugh/>
+yeah, I don't have, uh, any opinion on this.
+So I think that subcontracting is covered as well.
+It's probably, uh, uh, just a different, uh, box in the- in the proposal.
+So, uh -
+(PERSON13) <unintelligible/> It's something you should- you should <unintelligible/> -
+(PERSON8) Announce.
+(PERSON13) at proposal time.
+And -
+(PERSON8) Yeah, okay.
+(PERSON13) we- we were) very-
+they're not really like <unintelligible/> subcontracting.
+(PERSON8) Yeah.
+(PERSON13) And I expect to be difficult if you want to add extra subcontracters <unintelligible/> personnel's subcontracting, that's not really -
+(PERSON8) Yeah.
+(PERSON13) possible.
+Probably -
+(PERSON8) Yeah, yeah, exactly.
+(PERSON13) <unintelligible/> personnel <unintelligible/> possible <unintelligible/>.
+(PERSON8) Yeah, yeah.
+So for us- uh, s- uh, for us, uh, it's probably easier to have it as personal upfront, uh, because we can handle this- uh, w- we do handle the- the number of annotators- 
+that large numbers of annotators anyway-
+<censored/>
+So they- they do it for us.
+Uh, if you- if you yourself would like to have this as subcontracts, then, uh, uh, in this table, uh -
+(PERSON10) S- so I- I think -
+(PERSON8) I s-
+Yep?
+(PERSON10) A- and I think we prob- wouldn't produce any re-speaker data ourselves, um, but -
+(PERSON8) Yeah.
+(PERSON10) comes around that I think <unintelligible/> talk about who creates us the test sets, and we can- we should also discuss that.
+(PERSON8) Y- yeah, s- that's- that's a good question. <laugh/>
+Um, so if- uh, if it turns out that, uh, some data should be gathered, uh, like outside of [LOCATION1],
+uh, and, uh, [ORGANIZATION5] or [ORGANIZATION12] would like to do it through subcontracting, please, uh, say so here in the comment, and I'll see that, and I'll, uh, like make sure that these person-months are not there yet and- but somehow, uh, we should have, uh, an estimate on- on the costs of that.
+So, if you make it a subcontracting, then, uh -
+<parallel_talk/> Ours total <parallel_talk/>
+Yeah, well, I'll modify this sheet, this sheet is flexible, this is- this is something that we can get away.
+So, so then maybe just create a column like "This is subcontracting and it will be this mu- this much Euros."
+And I'll create a summary table that- that assembles the- the subcontractings,
+and I'm like make sure that the person-months, uh, are not like a- added as person-months, but rather only as the subcontracting.
+So the subcontracting will not go through, uh, the [ORGANIZATION4], the subcontracting would go directly into this table, into the- uh, uh, into this part.
+(PERSON13) <unintelligible/> the re-speakers that gonna be at the conference?
+(PERSON8) Yes, so the res- and workshops.
+So the workshops- 
+that's- there is the main event conference.
+And, uh, we said that we want at least one, uh, event, uh, before that, uh, and that could be like a smaller scale and that will be mainly the [OTHER5], uh, uh, held discussion.
+Uh, but it's non-native speakers, uh, w- and we need to adapt to them.
+And we have the re-speakers, uh, to- uh, to help this, uh, uh, to help the event run- event to run smoothly,
+so there is one before the conference, then there are several during the conference, when the plenary session is not running, 
+and then, uh, in the proposal, we currently estimate that there will be 2 afterwards.
+Uh, either during- uh, one of them during already the 2nd year, uh, and one in the 3rd year or 2 in the 3rd year or something like that.
+Uh, so -
+() Yeah.
+(PERSON13) Just does that) mean that- so I suppose the problem is that if we hire re-speaker, we would have to get them out of [LOCATION1]? Which is also -
+(PERSON8) Yes, yes, exactly.
+(PERSON13) problematic. So I- I- I don't know which of those options that's the easier?
+Um. 
+(PERSON8) So I think it's, uh, it's- it's easier if we do it- uh, if we find the re-speaker, and if <other_yawn/> like you as ASR experts will say: "We need the f- to- to handle the conference and the workshops in the amount as- as like outline in the proposal,
+we have to have this many re-speakers, and for each re-speaker we have to have this many hours so that the system can adapt to that.”
+[PERSON12] mentioned that this, uh, depends on the ASR system, like the number of hours that you need per person.
+Uh, and then, uh, you will say that we should, uh, find the re-speakers, and- and record it for them and- and we will do it.
+Uh, and it will be persons located in [LOCATION1], and- and hopefully they will not get sick on the- <laugh/> on the important days. <laugh/>
+(PERSON13) <laugh/>
+(PERSON8) Yeah, uh, okay, uh, so please populate this table, uh, and feel free to enter even like non-standard, uh, uh, information.
+Like, uh, "I want someone else to do it, but I need this to be done" and- and all that.
+So don- don't worry about that, but make sure the information gets- uh, gets in there.
+<other_yawn/> So that was the 1st task and let's- <laugh/> uh, let's proceed.
+Uh, so there is- the 2nd task is calling external resources for machine translation and spoken language translation.
+And this is uh, um, uh-
+yeah, this is the- the- the downloading work and- and, uh, polishing, uh, work for, uh, the MT part.
+Uh, I don't know whether we should have a separate task-
+we probably should-
+on like creating the ASR, uh, the training data, because the- the plan is that we will not really record, uh, and create any new transcripts, uh, for training data except for s- adaptation, uh, for ASR.
+So for ASR we should rely on available data sets.
+But there may be some work needed to- to k- polish them, accurate them, uh, for the purposes, uh, of the project.
+So this would be m- on [ORGANIZATION12] to add such a task.
+Uh, and maybe [ORGANIZATION5], uh, a- t- and to estimate how many person-months should- uh, should be devoted to that.
+So, uh, yeah.
+There could be one more task.
+Uh, um, um, [PERSON7], maybe if you could, uh, uh, could take a note and- ad- add it,
+or i- if you think that this can be like easily done, uh, and doesn't need a task here, uh, that's also possible, but I think it's- it's better to have that in.
+Okay?
+Then, uh, there is some, uh, non-trivial time for, uh, the minuting data.
+For the minuting data, we need to record, uh, or gather existing, uh, online meetings
+and manually revise the transcript.
+So we should gather transcripts from some ASR system, but we should- we should revise them.
+And we should a create, uh, or collect and polish the, uh, documents related to that.
+So the agendas and the minutes afterwards, and make it a data set.
+Both training and test data set, uh, for the purposes of- of minuting.
+So this is like major, uh, preliminary, uh, work before the research on minuting can- can begin.
+<other_yawn/> The deliverables here, uh, are-
+() <unintelligible/>
+Yeah?
+(PERSON14) Point to the test sets.
+Shouldn't we include that maybe in task 1.1 or so?
+Becau- <other_yawn/> if we anyway collect this adaptation and development data,
+it would make sense to directly include the test sets, because they should be from the same domain and -
+(PERSON8) Yes, yes, yes, that's good.
+Uh, so I- when I wrote this, I thought that like test sets will be then taken out as a part of- uh, from- from the data.
+But it's g- actually better to, uh, explicitly say so in- in the task description.
+So, so please, add that comment, uh, here to the description- to the short description, uh,
+and especially to the long description of- uh, of the task.
+Uh, this is a kind of reflected in the- uh, in the deliverables here.
+Because in the deliverables, I say that we'll release a- the training data twice, uh, for all the, uh, various, uh, activities or the- or the technologies.
+Uh, the 1st develop- uh, 1st release will be, uh, very early, at month 6 already,
+so that we can use the data for training, uh, the systems for the [ORGANIZATION14], uh, Congress.
+Uh, and the 2nd release will be towards the, uh, end of the project, well, at the end of year 2.
+So that, uh, the year th- 3, models can be, uh, recreated on- on the much and large data sets.
+So this is the training data, and for test sets, I actually planned to have 3, uh, different test sets.
+Uh, and 1 on end of month 10, uh, then month 20 and month 30, to give us enough time, uh, to- to use these test sets, uh, for the evaluation.
+And I kind of assume that these test set would- uh, would like be- uh, be obtained for free, uh, by taking parts of- uh, of, uh, the data collected in these tasks.
+But we should say so explicitly mainly for ourselves.
+So that we never release something in the training data that we want to use in the test set afterwards.
+Yeah. <laugh/>
+So that's- that's a good, uh, uh, good comment.
+<other_yawn/> And then, uh, the corpus of the minutes, uh, is a task which is directly- uh, a deliverable directly related to the task 1.3.
+Uh, so that's- uh, that's the training data for the, uh, summarization.
+Uh, and, uh, wherever possible, uh, we will release the data, uh, in a public form, uh, but there will probably be a 2nd, uh, uh, level of- of deployment that- that will be within the consortium and, uh, as you know from the other part of- uh, uh, of the proposal, there is also some data, uh, which will, uh, be deleted, uh, s- uh, after the project-
+well, there's- there's other part of the data that- that will be published, uh, but only with some delay.
+So this is something which is already outside of the time spent of the, uh, project.
+So there is no associated deliverable with that.
+And, uh, uh, at the end of the project we will simply know which data are fine to be, uh, released now, and which data need to wait.
+Uh, yeah.
+Okay?
+So, any comments on this?
+If not then let's move quickly-
+the time is really running up.
+Uh, actually, we have 2 hours on this go-to-meeting.
+But I'm not sure, whether all of you have 2 hours, uh, uh, yourself.
+So, uh, that's, uh, why we should- uh, we should rush.
+Let's move on to work package 2.
+And I'd like to ask [PERSON7] to briefly present, uh, the plans here.
+I know it's not yet written, but what- what will be written when it's written. <laugh/>.
+(PERSON4) Yeah.
+I- I can try it, I mean, uh, it's not my main thing, since it's ASR and mainly it's done by [PERSON17] to keep there.
+I try to do it.
+So I mean, we- we s- have the other 3 tasks <other_yawn/> for the ASR,
+where we think is like the main thing we- we have to, uh, improve to- to get really to the thing that we can use it in the conferences.
+Uh, the one thing is, um, uh, the robust acoustic modeling, so improving the br- robustness.
+Um, a- for example also for, uh, accents and things like that.
+And we have task 2.2, s- and supervised <unintelligible/> semi-supervised the language model adaptation.
+And then finally 2.3, the lifelong learning during deployment, especially if we have something like key words or i- in the [ORGANIZATION6] where it's used over time.
+The system should improve over time and get some feedback, and- and the system should get used to the speakers and get better.
+And that's mainly done in 2.3.
+So it's 3 different things we want to improve in the ASR in order to get ready performance which can be used in all the used cases we address.
+(PERSON8) Yeah, so one thing that, uh-
+th- thanks for this brief summary-
+the- the one thing that is missing already on this page is the deliverables.
+So do you have any plans what will be the structure of deliverables?
+Like would it be a yearly reports, or?
+(PERSON4) Um, yes, I guess something like that.
+I have to talk in detail, but I mean, either we do it by task, so not a report about everything, -
+(PERSON8) Mm-hmm.
+(PERSON4) but like by task, all we do is summary and then-
+I do not know if we need yearly or- or like twice, like after half -
+(PERSON8) Twice.
+(PERSON4) of the project.
+(PERSON8) Yeah.
+(PERSON4) And then -
+(PERSON8) Yeah.
+(PERSON4) at the end of the project, something like that.
+(PERSON8) Yeah, yeah, yeah.
+So in- in- with deliverables, it is probably wise to try to spread them, uh, uh, ac- across months, uh, so that we don't have, uh, like, uh, high, uh, uh, s- high peaks of too many deliverables that have to be delivered at the same month.
+And one thing, which is very much- uh, s-
+<parallel_talk/> It's now refreshing <parallel_talk/>
+which is very much related to this, uh, is the timing of the tasks.
+And, uh, when- when this appears, eventually, I'll actually- I'll probably download it as a PDF, so then we can browse it safer.
+<other_yawn/> Uh, so here is the- is the timing.
+Uh. <parallel_talk/> <censored/>
+<laugh/> 
+No, not any better. <parallel_talk/>
+<laugh/>
+Um, yeah, so the- the timing here, uh, seems kind of very tentative for this work package.
+Uh, it seems that you will have a gap, uh, around, uh, the conference.
+Maybe that's intentional, maybe not, so -
+<laugh/>
+(PERSON4) Now I think that -
+(PERSON8) so make sure that- <laugh/>
+Yeah?
+(PERSON4) <unintelligible/> initial, yeah.
+I mean -
+(PERSON8) Yeah.
+(PERSON4) I think most of the thing will be over longer time, maybe life-long learning will start a little bit later, and then be-
+but it's mainly more- it will be more similar to work package 3 where mainly everything is done, uh, over -
+(PERSON8) Yeah.
+(PERSON13) the whole time.
+(PERSON8) Yeah, okay.
+So thank you.
+So now let's move to work package 3, which is, uh, spoken language translation.
+And that's like in the middle- um, realized in both ASR and- uh, and, uh, machine translation.
+So, uh, [PERSON1], or- or [PERSON15], can you please present that?
+(PERSON10) <unintelligible/> So we have 3 tasks.
+Tasks 3.1 would, uh-
+to transcript normalization trying to do together the ASR output and the machine translation system.
+Uh, it's quite standard.
+(PERSON8) I'm- yeah, I'm not doing anything, it's- <laugh/>
+sorry. <laugh/>
+(PERSON10) And 3.2 is, um, trying to make the, uh, machine translation systems more robust towards noise in the input.
+Um, we're thinking about things like looking at different architectures language representation, maybe latest input, output, also other things to make the- the whole thing quality when the- when there is noise like speech dissfluencies or ASR <unintelligible/> uh, have less impact.
+And the 3rd task 3.3 will be end-to-end speech- speech-to-text translation.
+The most research here with the 3, um, tasks.
+It would bypass having separate ASR and MT systems.
+(PERSON8) Yeah.
+And the deliverables?
+Thank you.
+(PERSON10) Uh, we have 3 prototypes, roughly 1 per year, with the last 1 a bit earlier.
+Um, we are a bit worried what these will contain.
+I assume the 1st prototype will mainly have transcript normalization.
+And we're- and later, we will try to add, um, also end-to-end speech and text translation systems.
+And, um, two reports.
+One in the middle, one at the end of the project.
+(PERSON8) Yeah, uh, so this is, uh, something that needs to be aligned with the integration in- in some way.
+So we should be aware of- of the linguist- uh, the integration work package somehow.
+So, so, uh, check with, uh, [PERSON12], uh, and, uh, maybe align the prototypes with, uh-
+or- yeah, I d- I don't know how to structure that, whether it- uh, what the integration so far is- uh, is like continuous, it doesn't say, uh, too many, uh, specific milestones.
+And you have definitely more milestones and uh, r- deliverables that- uh, than they have.
+So just make sure that these, uh, 2 things are- are in line.
+(PERSON10) Okay.
+(PERSON4) One question.
+D- I mean just what- I mean, can we just write "prototype"?
+Or do we have to specify who mis- submitting it?
+Or if it's like which language pair and all these things?
+Or is it-
+I dunno.
+Or is it enough to just write "prototype"?
+(PERSON8) Well, so didn't like -
+(PERSON4) Why did you <unintelligible/>
+Maybe I didn't see it, sorry.
+(PERSON8) Yeah.
+So the- uh, the languages are, uh, uh, kind of promised here at the very beginning, uh, within the object -
+(PERSON4) <unintelligible/> -
+(PERSON8) is all ready.
+(PERSON4) if we say a prototype, do we have to build a prototype for all language pairs?
+Or can it be?
+Because maybe that's a lot, I don't know, or can we also say only some languages?
+Or I dunno.
+(PERSON8) I would be- make <laugh/> -
+(PERSON10) I- I would assume as long we don't make a promise there, we can define ourselves what extent we want -
+(PERSON8) Yeah.
+(PERSON10) prototypes to be.
+() That's -
+(PERSON8) Yeah, yeah, yeah, yeah.
+() that's definitely good.
+(PERSON8) Yeah.
+So, exactly, I would-
+so the 1st prototype could be prototype because it's the full technology, but it likes most languages.
+The 2nd prototype could be all languages, but lacking the technology or someth-
+I think we- we, uh, should leave ourselves the- the flexibility.
+Uh, in general, uh, this is, uh, uh-
+yeah, yeah.
+Is- uh, i- in general, this- um, there is, uh, like, uh, s- types of languages.
+There is the primary focus, there is the covered languages which we promised to deliver, so that [ORGANIZATION14] knows that they- they can use it.
+And, uh-
+but we are not promising that the technology, uh, advances is used for these languages.
+So, uh, like we could use standard, uh, models and- and the quality will obviously suffer, uh, but we're flexible in terms of how much, uh, we m- we actually meant it.
+<unintelligible/> something which we do not even promise that we'll do all.
+We can try, uh, but, uh, it will be mainly probes of- of languages.
+So, uh, [PERSON1] s- uh, suggested to include languages, uh, that have some business reason.
+And that's a question for, uh,  [ORGANIZATION6], uh, where the- uh, whether dissemination is, uh, uh, possible.
+Like what woul- what would you expect, what languages would be- would be needed?
+The ones that I listed so far, uh, was [OTHER2] because it's one of the [ORGANIZATION8] language, and it has some data available.
+Uh, I've also listed [OTHER6] because, uh -
+() <unintelligible/>
+(PERSON8) it-
+yep?
+[ORGANIZATION6]? 
+Please, go on.
+(PERSON3) Yes, um, no, I- I mean, [PERSON16], are you listening?
+Can you- um, <unintelligible/> the stage already say something to that point?
+Yeah, apparently not.
+(PERSON8) Yeah, so if- if [PERSON16] is not -
+() <unintelligible/>
+(PERSON8) not here at the moment -
+(PERSON22) Excuse me, I was- I was interrupted here, locally.
+Uh, so can- can you say the question again?
+(PERSON8) What languages would be of interest for [ORGANIZATION6] for a- for, uh, business reasons.
+So we are like-
+if you see the screen now-
+this is very early.
+This is already the objective, uh, the- the very first part of the proposal.
+And here, uh, I say that in the experimental set of languages we have actually all, uh, possible languages-
+well, [OTHER8] is not there actually-
+uh, so uh, I would like to refine with examples what languages we are likely to focus on from this, uh, experimental set, or even beyond that experimental set.
+So this is, uh, uh, something that [ORGANIZATION6] could- uh, could provide us with input.
+(PERSON22) Yeah, so currently we're- uh, we have the [OTHER5] language and the [OTHER4] language, but we can easily, uh, adapt to- to other languages.
+So we have a- um, a word-file and we can <other_yawn/> integrate where-
+and the user interface can be easily updated with other languages.
+When it comes to -
+(PERSON3) <unintelligible/>
+(PERSON3) implementing the- the text-to-speech and the- the other, uh, uh, features, we are open.
+I mean, um -
+(PERSON8) Yeah, so the question is if you could ask for any, what languages would you ask for?
+And not for technical reason but for business reasons.
+So maybe that's another question for [PERSON16]. <laugh/> 
+(PERSON22) I would- I would go for- I would go for languages, uh, in the order of how they are commonly used.
+So this would [OTHER5] at 1st, and then I guess [OTHER1] and so forth.
+I'm not quite sure, so.
+(PERSON3) Yeah.
+(PERSON8) Yeah.
+(PERSON22) Well [OTHER8] would be great but I think you already mentioned that, uh, this is not, uh, included at the moment, not planned.
+(PERSON8) Yeah, so if- if you have like- if you would have some concrete plans to go, uh, for [OTHER1]
+so- sorry for- for [OTHER8]
+then, uh, we can put that in here, and that will kind of excuse us in case if we i- indeed do it.
+If we do not mention [OTHER8] here, it will be very hard to- uh, to defend it afterwards.
+(PERSON3) Okay, um, well, I mean, we are already, um, happy with all languages that you are, well, provided, that you- which you've mentioned before,
+so, um, for- as for business reasons we do not have to include another languages at this stage.
+(PERSON8) Yeah, okay, yeah.
+So [PERSON1] will probably just remove- remove your comment because we- we don't have any things- that's <unintelligible/>.
+So maybe- uh, or maybe, well, [OTHER4] is already primary focus, so yeah.
+(PERSON10) But- but still I- I- I fee- feel that the reviewers see - will see little bit of [OTHER6], because at WSLT relation.
+That's not the <unintelligible/> -
+(PERSON8) Yeah, okay, okay.
+<unintelligible/>
+So you should ha-
+Yeah, yeah, yeah. <laugh/>
+Yeah.
+So the idea is that- that we should remove [OTHER6] <laugh/> from this list.
+(PERSON10) Yeah, maybe remove [OTHER6] from this list, yeah.
+Maybe we can still to do it, but just for -
+(PERSON8) Yeah.
+(PERSON10) <unintelligible/>
+() I guess [ORGANIZATION3] -
+(PERSON8) Yeah, yeah. I thi- -
+(PERSON10) Yeah.
+(PERSON8) It's sti- what's- e- exactly, it's one of the [ORGANIZATION3] languages, and- uh, and [LOCATION2] is one of the countries who are, if I'm not mistaken, like trying to- uh, to- to have discussions with the [ORGANIZATION2] to- to potentially join them.
+I'm- I'm not really sure about this, but I think so.
+So, uh, it may not be a- uh, as- as strange as- uh, as- as it seems, but it depends on the- on the reviewer obviously, how- uh, how knowledgeable they are about the- the yo- [ORGANIZATION2] very long-term policies or plans.
+Uh, okay?
+Uh, so let's move, uh, on, uh, to the work package on multilingual machine translation.
+Here I put a task, which is, uh, the- the 1st task-
+obviously, well, the- the goal of this work package is- is to, um, <other_yawn/> support the- uh, the project with the machine translation service, uh, and do the research in machine translation.
+So the 1st task, task, uh, 4.1 is the, uh, baseline supporting thing, and there I put, uh, ourselves, [ORGANIZATION5] and [ORGANIZATION12], uh, to train domain-dependent separate systems.
+Uh, and this task is actually, uh, uh, planned very, uh, early in the-
+<parallel_talk/> do I have it somewhere? <parallel_talk/>
+hmm, hmm, that's strange, I thought I have- I had the PDF, uh, somewhere, but it- 
+for some reason-
+no.
+Yep.
+<other_yawn/> Uh, well, I'm already looking at the PDF. <laugh/>
+Uh, so let's- let's open this part as well.
+This task is planned very early in the project.
+So that it- this baseline system can, uh, be used, uh, to test the integration and t- uh-
+<parallel_talk/> Where are they?
+Yeah, that's is the set of task. <parallel_talk/>
+It's- uh, so the baseline models should be worked on-  for- uh, during the 1st half of the- uh, uh, half of the 1st year.
+Uh, and- and, uh, n- not any further.
+So that's the- uh, uh, that's the idea.
+So we should quickly do the baseline.
+And I'm here, uh, quite specific about, uh, the languages.
+Uh, and, uh, k- I would like to check, uh, with [ORGANIZATION12] and [ORGANIZATION5] whether they can propose any better wording so that we are not that specific,
+but yet, uh, uh, we are specific enough for the reviewer to- to like the task description.
+Uh, so let's not discuss this, uh -
+(PERSON4) But -
+uh, now, simply add comments.
+Uh, or if you- if you can say it quickly, say so now but w- w- I think that w- we are just -
+(PERSON4) <unintelligible/>
+(PERSON8) trying to find the wording.
+(PERSON4) Yes, several langua-
+also, I don't know if we need to build all- all them as- as single systems, or just can- 
+for several of the pairs-
+can directly go to a multi-target or something.
+Because it's just huge computation and we don't really gain anything.
+We can just select a representative subset of the language pairs, build their translation systems, and then for the rest only go for the multilingual systems.
+(PERSON8) Yeah.
+So- so the- the reason-
+y- yeah, so if there is-
+uh, so maybe- maybe the wording should be changed, that if, uh, the multi-target, uh, is available in some way, and you say it is, we c- we will, uh, consider it,
+but this is like the baseline, and the baseline search 2 purposes.
+1 of the person- uh, purposes is to- to deliver the MT to [ORGANIZATION11] into the integration,
+so that it's actually available for the conference, for the dry-run event and for the- for the conference.
+And the other, uh, purpose is to have baselines for the- uh, for the research, uh, uh, afterwards.
+So how- how much do we lose of the performance, uh, if we, uh, put more languages together, and- a- and other things.
+Or if we actually improve the- uh, the performance, uh, in terms of translation quality
+when we put- uh, put the languages together.
+So, uh, I think we have to cover all target, uh, languages, all the [ORGANIZATION3] ones, at some minimum level.
+I'm totally, uh, open to like having some of them covered by multilingual systems already.
+So pl- feel free to- to modify this wording of the task, because you're- you're involved in- in the task, uh, anyway.
+Uh, and uh, uh, uh, ts-
+yeah.
+Yeah, so thanks for- thanks for your suggestion and- and let's reword this.
+And if you- if we can find- if- uh, a wording that is not as specific as I'm now, uh, but still specific enough, then even better.
+Uh, okay?
+The next task is called document level translation.
+And there is, uh, uh, entering high quality of machine transition beyond, uh, level of individual sentences.
+Here, the focus is- uh, it's- it's not clear whether it is for speech or for text.
+And I- I think I should probably explicitly say that it is for both.
+They are different, uh, like discourse phenomena, uh, happening in speech, and different discourse- uh, or longer, uh, text phenomena, uh, happening in text.
+So we should, uh, focus on both.
+In terms of timing, this task is the one that runs through all the 3 years.
+Uh, and then, uh, the other tasks are on multi-tar- uh, uh, or om- on the multi-languages-mul- multiple languages.
+First, uh, we focus on the multi-target.
+And the reason is that we have the conference, uh, coming in the middle of, uh, 2nd- in the s- uh, in the middle of 2nd year.
+And for the conference, we need to translate from 6, uh, or how many languages
+into all the- the 44 if- uh, or the 43 if- if possible.
+So this task multi-target runs in the 1st year.
+And then is kind of used, uh, uh, in- in the middle of the, uh, 2nd year, but the research has been concluded by the end of the 1st year.
+The 2nd year of the research is focused on the multi-source.
+And here, the primary, uh, uh, goal is to gain in translation quality, uh, when we are training on more source languages.
+Uh, and, uh, then, the final task, uh, which is planned for the 3rd year, is called flexible multilingual machine translation.
+So I've slightly changed this, uh, from the original, uh, division into task that we had into the [ORGANIZATION1] doc.
+Um, uh, the flexible multilingual machine translation, uh, is, uh, designing in an system architecture that is capable of translating from 1 or more languages at the same time, uh, and, uh, into 1 or more languages on the target site.
+Uh, and, uh, the- the input should be flexible.
+Uh, if you have only 1 input, uh, language, then feed in 1, if you have 2- if you already have 2 versions of the document, feed 2, and the system should- should gracefully, uh, handle that and benefit from the additional, uh, source.
+So the difference between this multi-source and this flexible multilingual is that in the multi-source you always expect multi parallel input-
+uh, if you have multiple inputs-
+or, uh, that you focus only on 1 language- 1 source language and- but train on others and try to benefit from the multi-task.
+So the- the multi-source machine translation is either 1 input or multiple input,
+whereas the flexible multilingual is any subset of the languages at once.
+So far, I do not have any deliverables planned here, and I think I'll simply mimic the- uh, the reporting.
+So it's, uh, b- based on the- uh, <other_yawn/> uh, on the timing by year.
+I think that having yearly reports is probably the most appropriate thing, <other_yawn/> and I don't think there will be, uh, any-
+well, yes, there should the deliverable on the baseline MT models.
+So there should be 1 deliverable on the baseline MT models, and there should be the yearly reports.
+And that's probably it.
+Okay?
+So then the- uh, then the task on minuting.
+And this is something that- uh, yeah, I- I've done partly with uh, for-
+the- the main contribution comes from my colleague [PERSON9]
+So I'll try to briefly summarize this, but I'm not sure, uh, I- I'll uh, uh, do it, uh, totally correctly, uh, so -
+() <unintelligible/> [PERSON20] <unintelligible/>
+(PERSON8) Yeah, okay, so.
+Uh, let's- let me interrupt the- uh, this presentation and let -
+(PERSON3) [PERSON20]?
+(PERSON8) Yep?
+You are also going to leave?
+(PERSON3) Um, I'm going to leave as well, yes.
+Um, so, um, I just wanted to add that we will, um, add further information to the work package 7, and, um, my colleges told me that you wanted to, um, meet with, um, [ORGANIZATION11] tomorrow.
+(PERSON8) Yes.
+(PERSON3) Uh, we will be not office tomorrow, but maybe we can arrange something that, um, will -
+(PERSON8) Remote.
+(PERSON3) add the passages and all the texts and we will go through it.
+Could you tell us, uh, when you will need the answer by the latest?
+Uh.
+(PERSON8) Y- w- y- yeah, so well, I will- I will merged it during the weekend, but I don't know when-
+so I think it will not be like a set of question and set of answers.
+So, uh, try to provide the input to [PERSON12] early in the day or even today, and then he will probably ask and you should have a look and- and try to answer.
+I'll send an email, uh, to- to find, uh, out if- if there is any time, uh, point where we could like meet, uh, remotely, remotely.
+Yeah, uh, okay.
+So let me- let me then quickly- uh, quickly present at least this.
+So the gaps in the introductory sections.
+So, uh, I've seen that most of the people, uh, h- have already partner descriptions.
+It would be good if could, uh, list 2 persons per partner in this- uh, in this setting.
+Uh, and then, uh, uh, for the, uh-
+so that's like the- actually the- the tail, uh, section of the proposal, and there is the introductory sections.
+Everybody please read and comment the objectives, uh, the relation to the work program and also the early parts of the concept.
+The methodology needs a lot of polishing-
+sorry-
+uh, and, uh, I would suggest to do this like by 2 partners in- for- for each of the, uh, paragraphs in there.
+So the remote conferencing is something that, uh, comes originally from [ORGANIZATION6].
+I've edited it.
+So maybe if [ORGANIZATION12] could review whether this makes sense.
+The, uh, ASR, uh, the state of the <unintelligible/> on ASR is missing, so I would like to ask [ORGANIZATION12], uh, to- to write it and review it by [ORGANIZATION5],
+or the other way around if- if [ORGANIZATION5] is- is still available and [ORGANIZATION12] is- is busy.
+The machine translation is still incomplete, so I'll finish that.
+It's- it's a bit- sorry, but it's not finished.
+And I will probably ask- would like to ask [ORGANIZATION5] to- to like we review that.
+Uh, and, uh, the, uh, spoken language translation is written by [ORGANIZATION5], uh, I believe, and- so I'll review that.
+<other_yawn/> The summarization is, uh, probably quite finished-
+I haven't talked to [PERSON9], but there is a lot of text-
+so maybe if [ORGANIZATION5] or- or [ORGANIZATION12].
+(PERSON4) Till when do you need it?
+(PERSON8) Uh, th- well, uh, over the weekend?
+(PERSON4) Yeah, I think can have look at least.
+I don't know if I can do it over the weekend or on Monday, but I'll try to do it.
+(PERSON8) Yeah, yeah, okay.
+So I should- I should-
+uh, I dunno if [PERSON1] is still here-
+but I'll write [ORGANIZATION12]
+remember, [PERSON7], that you- uh, you need to write your sections as well.
+Uh, then there is a section on minuting tools.
+And I think that it would be great if [ORGANIZATION6], uh, could review this, because they would see what- what is out there, and where is the room for their potential product.
+So, that's maybe for [PERSON20]?
+I dunno if [PERSON16] is still -
+(PERSON22) Yeah, can- ca- yeah, I'm listening, I'm- I can do that.
+(PERSON13) O-
+(PERSON8) Yeah, yeah.
+Uh, so I'll remove the question marks and-
+well, [PERSON1] was silent and that means that <laugh/> he- he was fine with that. <laugh/>
+So I'll remove the question marks.
+Um, and then there is a section on handling humans.
+Uh, so I- I would like everyone, especially [ORGANIZATION6], uh, uh, but, uh, everyone to- uh, to see whether this, uh, makes sense, uh- yeah.
+And then, the concept is still rather weak, uh, so if [ORGANIZATION6], while populating they- their, uh, dissemination work package, can provide further a- activities.
+The ambition is missing, so I'll- uh, uh, s- I'll, uh, try to- uh, to cr- to write one, and early next week, uh, it should be ready for- uh, for review by someone, so.
+And the expected impact has many impacts that I proposed.
+Uh, so I would like everyone to- to review them, to t- like think about them whether they make sense, uh, or not.
+And possibly to- uh, to suggest more.
+And I will, uh, finish, uh, this section, uh, as well.
+And the impact maximization, uh, thanks to [ORGANIZATION6] for their paragraph.
+So I'll- I'll maybe restructure it, uh, a little bit, uh, but I would like to ask [ORGANIZATION6] to derive specific tasks from this.
+So the work-package on- uh, on dissemination is very unpopulated yet.
+Uh, so I'm suggesting that you could derive tasks such as managing social media, so pro- promoting the project and the research results, uh, and that should run for some months, and- and there should be some description of this.
+And you mentioned local press releases, so again if you could provide any details.
+And you mentioned C- uh, [ORGANIZATION7] or [ORGANIZATION7].
+Then, uh, my question is whether we can actually promise to- to be there?
+Uh, is it just a question of money?
+Or is there some competition that you have to win in order to be able to, uh, present there?
+And if it's just a question of money, should the budget be, uh, allocated for that?
+So this is all for [ORGANIZATION6], uh, because I would like [ORGANIZATION6] to populate the- uh, the, uh, dissemination work package.
+The- the website is- is something very easy to, uh, to do and, uh, yes, they- we- we'll have the website.
+Uh, but there is other tasks that- that you have listed, suggested, but, uh, they need to be also in the tasks.
+So [ORGANIZATION6], can you- can you confirm that, uh -
+(PERSON3) As we- uh, we will form this with the months, um, we will give them more details.
+And I think we can, uh, technically go to the [ORGANIZATION7].
+Um, I donno, I- I've sent you an email about the marketing bu- uh, budgets.
+Maybe you can -
+(PERSON8) Yeah, yeah.
+(PERSON3) have a look <unintelligible/>
+(PERSON8) Yes, sorry, that's-
+I- I- I remember that you- you have e- reminded me of that, yeah.
+So, uh, I think, uh, the- the short answer is that, uh, everything which makes sense, is like good value for money for the [ORGANIZATION2], is okay.
+Uh, uh, so I b- so I ha- haven't I sent you that- that in one of the project, uh, the10 000 Euros in the end were spent, uh, on some like promotion video.
+This is something very uncommon.
+Uh, uh, but if it makes sense, it is probably, uh, okay to put such a thing there as well.
+I thought that I've written that e-mail.
+Maybe it- it ended up in my drafts only and not- um, uh, yeah.
+So, uh, think for yourself and, uh, of- think for yourself as a, uh, [ORGANIZATION2] tax payer, what makes sense. <laugh/>
+And, uh, then propose- propose any specific activities and propose them n- not only in the pros, but also as- as tasks.
+And if you have any technical issues, then- then send me a list that "I would like to have this task running for these months" and I'll fix that.
+Uh, but, uh, the structure- uh, the structured information is important.
+(PERSON3) Okay, alright.
+(PERSON8) Yeah, uh, okay.
+So that was- that was the list of kind of to-do lists, and, uh, then, yeah.
+We ha- we have been discussing deliverables.
+And, uh, we h- I've already s- started discussing this, the recordings and the hours- uh, hours of usage of- of re-speakers.
+So, uh, uh, we are now- uh, we have quickly jumped through the rest of the agenda.
+So please, use this list and do what is necessary.
+And those of you who have to depart, uh, you probably may depart now, uh, otherwise, if you still can stay on, please stay on, because we will, um, get to the integration and the dissemination as it is now.
+So, who is leaving?
+And who is staying? <laugh/>
+(PERSON13) We're leaving, bye, [PERSON20].
+() Yeah, I also have to leave.
+(PERSON4) Yeah, thank you, thanks.
+() Bye.
+(PERSON8) Okay.
+[ORGANIZATION12] is also gone.
+And, uh, can, uh, someone from [ORGANIZATION6] stay?
+Because I know- I know that, uh, [PERSON11] was leaving.
+(PERSON5) <unintelligible/> [PERSON21] has left, um, I can stay -
+(PERSON8) Okay.
+(PERSON5) but I'm- I'm not able to say anything to the technical, uh, details.
+(PERSON8) Yeah, that's- that's not a problem. <laugh/>
+Uh, and [PERSON16]?
+(PERSON22) Yeah, I'm still here.
+(PERSON8) Okay, yeah.
+So let's- uh, let's make use of this because now it's only me and, uh, [ORGANIZATION6].
+Uh, let's make use, uh, of this time to discuss the, uh, dissemination work package.
+So we, uh-
+Or, well, actually, uh, that's p- perfect timing.
+So, uh, here, uh, the minuting.
+So I'm not going to talk about, uh, how do we want to do the minuting under the hood,
+which is the discourse segmentation, segment-level summarization, document level summarization, <other_yawn/> and sequence to structure.
+Uh, maybe the sequence to structure.
+So the-
+to give you a big, uh, overview of- of what we want to do is that we will, uh, have a transcript coming from the ASR, and this transcript will be first like split into individual items,
+uh, and then these items will be shortened, uh, and then some of these items will be removed, uh, uh, because they are not important for the summary of that- uh, of- of that, uh, uh, discussion.
+And then, uh, these shortened, uh, and, uh, s- reduced in- in number it- uh, items will be, uh, put into the structure that was created, that- that comes from the agenda already.
+So this is- this is an overview of what the tasks are supposed to do.
+And there is one task, which I planned, uh, to be a direct collaboration between you and, uh, us.
+Uh, and I call it the Live minutes platform.
+Uh, and this is something that- that I need to, uh, m- check with you, whether you would like to work on this, and whether you, uh, indeed do want to have many person-months on this.
+I've- I've put there quite a few, uh, 24.
+Uh, so <other_yawn/> well, 24 is the total, but you don't have involvement in- at a- in another of task.
+So that's like for- for the live platform.
+And my idea as- as a potential user of this would be that, while we are talking, I'll be, uh, uh, uh, I'll have al- also like one more tab, which will be the live document, and this live document would have the transcript, uh, appearing at the bottom,
+and then at the top, there will be the agenda and the agenda would- would get populated automatically as we speak, uh, and as- as the system decides that something is important
+and something belongs here and there.
+So the question is, uh, this live document, it's like redoing [ORGANIZATION1] docs or doing a plug-in for [ORGANIZATION1] docs.
+Uh, how much of the programming for this would you like to do?
+What should be the promised result for the [ORGANIZATION2]?
+Uh, and how much, uh, of-, uh, uh, of- of this, uh, online, uh, part, like how much live should it be from the technical point of view?
+We could run it in the baseline mode, where we get the transcript offline and we offline create the summary and populate the agenda and- and this document- one short <unintelligible/> will be shipped to the participants by email.
+And that's- that's a perfect solution as well.
+But if you, uh, are interested in getting [ORGANIZATION2] money for developing this online interface 
+and the live, uh, uh, capacity, then this is the- the place to put it.
+So what is your, uh, take on this?
+(PERSON22) So, first of all, the- um, the output of the- of the live minutes, um, comes from your side, right?
+So -
+(PERSON8) S- so what- what i- what is the output?
+The output is the- the summary, right?
+(PERSON22) The- the- the raw- the raw data that should be displayed, for example -
+(PERSON8) The raw data.
+(PERSON22) in a- in a- in a [ORGANIZATION1] doc.
+(PERSON8) Yes, yes, the raw data is something which will come from a- a research prototype that we will develop and I have obviously no -
+(PERSON22) So why -
+(PERSON8) idea how -
+(PERSON22) yeah.
+(PERSON8) yeah, how this will be good for practice. <laugh/>
+(PERSON22) So, um, why don't you access the- the [ORGANIZATION1] API and- and then put it- put it into a- into a [ORGANIZATION1] doc?
+(PERSON8) Yeah.
+(PERSON22) Why -
+(PERSON8) <unintelligible/>
+(PERSON22) who put it- yeah?
+(PERSON8) That's like a- that's the baseline solution, and that's what -
+(PERSON22) Mm-hmm.
+(PERSON8) <censored/>
+But if- if you saw it as- as like a nice extension to the [ORGANIZATION6] platform, -
+(PERSON22) Mm-hmm.
+(PERSON8) so that the document is part of, uh, the environment of [ORGANIZATION6], then it makes sense for you to develop that and- and we -
+(PERSON22) Okay.
+(PERSON8) will be interfacing you.
+So that's -
+(PERSON22) I understand -
+(PERSON8) something we have -
+(PERSON22) but -
+(PERSON8) Yeah.
+(PERSON22) but that- that would require us to- to have a- um, you know, a coll- kind of a collaboration tool inside the [ORGANIZATION6] client.
+(PERSON8) Yes, yes.
+(PERSON22) So -
+(PERSON8) Yes.
+(PERSON22) that would be preliminary work.
+Uh, we would have to do and it is quite- it is quite a- a big thing, so.
+Um, I'm- I'm having this something similar t- like- like a [ORGANIZATION1] doc, um.
+(PERSON8) Mm-hmm.
+(PERSON22) Um, it is- I think it's not doable within the scope of this project.
+So we would have to look for something that we can adapt to, maybe a- a- an existing open source project, which allows for -
+(PERSON8) Yeah.
+(PERSON22) coedi- co-editing, which can also be integrated into the- the [ORGANIZATION6] client.
+And we have not done any research on that yet.
+(PERSON8) Mm-hmm. Yeah.
+(PERSON22) So this could be- this could be a potential, uh, outlet for- for the, um, meeting minutes data, that is true.
+(PERSON8) Hmm. 
+(PERSON22) And I would also l- like to see that.
+And not have to go to- to- to a [ORGANIZATION1] doc for that.
+(PERSON8) Yeah, yeah.
+So do you think that 2 years would be too little?
+Or, uh, or even if we say that it- it needs the preliminary work, it would be the full 3 years,
+so that you would, uh, -
+(PERSON22) Mm-hmm. Yeah.
+(PERSON8) allocate <unintelligible/>.
+Well, I know that there is shortage of programmers, uh, across [LOCATION3] I believe.
+<censored/>
+(PERSON3) Yeah.
+I mean the- the- the-
+it's- I think it's not a matter of- of- of time.
+It's- it's just how many, uh -
+(PERSON8) Yeah.
+(PERSON22) workforce you put behind this.
+I mean, 3 years sounds- sounds long, but, um, if you reduce it to the- to the man-hours here, um, s- some co-editing tool is- yeah, it's quite a task.
+So I think we'll have to do some more research on that.
+(PERSON8) Mm-hmm. 
+(PERSON22) Uh, how it's finally gonna be like.
+I mean, if we- if we add a co-editing feature -
+(PERSON8) Mm-hmm.
+(PERSON22) that is not within the scope of this project, -
+(PERSON8) Mm-hmm.
+(PERSON22) um, then I could- yeah, I could- I could think of, uh, using it for- for this project.
+Um, if we come up with a- with the co-editing solution, especially for this project, I think it will be something quite, uh, basic, okay?
+(PERSON8) Yeah, yeah, that's alright.
+I think it's- that's totally okay for- uh, to- to have it- like, uh, the co-editing-
+uh, the- the core word processor that is edited by more people at once -
+(PERSON22) Mm-hmm.
+(PERSON8) could be, uh, any- any basic, uh, thing.
+So, uh, the task, if it is- if it- if there is any task, uh, as such, uh, at all, uh -
+(PERSON22) Mm-hmm.
+(PERSON8) can say that, uh, first- during the first year, we will investigate what are the online solutions, because we are aware of the fact how much effort it takes to develop [ORGANIZATION1] docs.
+Or if we want to interface one of the existing ones, uh -
+(PERSON22) Mm-hmm.
+(PERSON8) or if- if [ORGANIZATION6] decides to develop on their own, uh, their, uh, one, if- if that would be the good, uh, one.
+(PERSON22) Mm-hmm.
+So the- like design of the interfacing with that, uh, and then in the 2nd year, implementing the interfacing to whatever, uh, we decide to use.
+And if -
+(PERSON22) Mm-hmm.
+(PERSON8) if we- in the 1st year- uh, if we find that there is no such solution that we should sta- w- we can start from, uh, we will- uh, we can even, uh, do like a change in the- uh, uh, in the plan.
+<censored/>
+(PERSON22) Mm-hmm.
+(PERSON8) So, uh, uh, I think we can- we can easily extend this task, uh, this task as you see it now on the- on the screen, is like uh, uh, 2 lines, uh, uh, uh, and it's- it's very unfinished.
+Uh, so, uh, it's-
+w- we can- uh, we can add, uh, a few more ideas here and we can change it, so it <unintelligible/> find, uh, solutions for the editor, uh, prop design interfacing with the editor, uh, and, uh, implement this, uh, integration and evaluate it throughout the 3 years.
+And there is also an associated, uh, longer part of this, as you know, before, uh, these tables.
+Uh, and the longer part is not written yet at all.
+And this longer part, uh, uh, that can be v- even a- a page of text, uh, saying, uh: 
+"All the complications that we see at the moment and all the challenges that need to be, uh, resolved."
+<censored/>
+<censored/>
+I think Open office had- uh, had some- some opened, uh, uh, 
+(PERSON22) <other_yawn/>
+(PERSON8) s- I- I'm not sure.
+Yeah, so, uh, so -
+(PERSON22) Yeah, I'm afraid it- it's not gonna be as easy as that because we have to lo-  um, make a l- uh, take a look at, um, you know, the interface.
+It's gonna -
+(PERSON8) Yes.
+(PERSON22) It is- it's gonna be a- a C++ uh, application.
+We cannot use- make- make use of, um, web-based tools at- at this point and-
+<censored/> <laugh/>
+(PERSON8) <unintelligible/> well, 10 minutes will be enough to- to a- add the links to the potential, uh, uh, s- tools to the proposal.
+And then, uh, the task should review them, and this review is a planned activity that should run for the 2 or 3 months even.
+Part of this task.
+(PERSON22) Okay. <laugh/>.
+(PERSON8) So does that make sense?
+Like it's, uh -
+(PERSON22) That's point-
+<censored/>
+<censored/>
+I would put more effort in <unintelligible/> potential solutions.
+(PERSON8) Ye- yeah, so this is like examples.
+So y-
+(PERSON22) Yeah.
+(PERSON8) y- yes, so it's not that -
+(PERSON22) Ah, okay, I see.
+Ah, okay, okay, I see.
+(PERSON8) So, so we are saying: "We plan- we want to have this g- live document that gets automatically populated and at the moment we don't know how to, uh, do the live document at all. Uh, we know that there is these 3 solutions, but at the moment, we have not really checked the details and, uh, some of them may become -
+(PERSON22) Alright, I see. Okay.
+(PERSON8) Yeah, yeah.
+(PERSON22) Mm-hmm, okay.
+(PERSON8) So if you could- if you could write this text, either in the [ORGANIZATION4] or in a separate [ORGANIZATION1] doc or- or the- a- anywhere, uh -
+(PERSON22) Mm-hmm.
+(PERSON8) that- that would be great because I need the input from [ORGANIZATION6].
+I need to know what is your thinking about this, uh, uh-
+and y- you mentioned that you are potentially planning to have -
+(PERSON22) Yeah.
+(PERSON8) uh, this live document, uh, the shared space.
+(PERSON22) Mm-hmm.
+(PERSON8) So that should be there as well.
+And it's totally okay to say that [ORGANIZATION6] is still considering a j- is still only considering that feature -
+(PERSON22) Mm-hmm.
+(PERSON8) because, uh, it is risky, it is a lot of effort -
+(PERSON22) Mm-hmm.
+(PERSON8) and other competitors have that partly, but they don't have the obviously the- the conferencing thing.
+(PERSON22) Mm-hmm.
+(PERSON8) Uh, so it's- it's still a business decision to make.
+(PERSON22) Yeah.
+(PERSON8) Uh, but for the project, uh, we- if [ORGANIZATION6] doesn't decide to do it on their own -
+(PERSON22) Mm-hmm.
+(PERSON8) then we will find a substitute solution.
+And even as a fallback, we will do it like with some baseline, uh, solution.
+(PERSON22) Yeah.
+(PERSON8) But I think it's- uh, it's- it makes sense to have this task, because it- uh, it will show the- uh, um, uh, the overall results, uh, of this to the user.
+(PERSON22) Mm-hmm.
+(PERSON8) And that's- that's something which- uh, which is very good for the proposal.
+(PERSON22) Yeah, <other_yawn/> yeah, I agree, it- it- it- the- the output of this live minutes, I mean, it's basic- it's- it's the- the essence of this whole project, right?
+And it has to -
+(PERSON8) Yeah.
+(PERSON22) has to live on a kind of stage and not just -
+(PERSON8) Yeah.
+(PERSON22) be put somewhere and- yeah.
+(PERSON8) Yeah, in- in the deliverables, in the- in the reports that we -
+(PERSON22) Yeah, yeah.
+(PERSON8) uh, yeah.
+So here, uh, the- the- uh, the reports that I planned here are exactly 2 research reports-
+oh, sorry-
+that's- it's crazy it's scrolling for like- <laugh/> 
+I'm not doing anything but it's- the- the button is stuck.
+So, uh, I had this initial report of summarization at month 18, in the middle of the project,
+and final report on the summarization on the- on the, uh, back-end, uh, technologies, uh,
+and all the problems they have.
+Uh, a- and I also have, uh, the- uh, the- uh, the proposed deliverable, uh, to- uh, for the software, uh, so we can rename it in any way.
+Uh, so we can call it like a Demonstrator, uh, which is the standard word used, uh, uh,
+and the demonstrator in the longer description of the ta- 
+like this would be the result of task 5.5, and the- the longer description would say that, uh,
+"At the moment we cannot really say what the Demonstrator will be based on because that will be the research of- of the 1st months of the project."
+And there is an associated milestone, which will be like, uh, at the end of year 1.
+Decide what is the platform for- uh, for this demonstrator. 
+And then in year 2, the integration with that will be- uh, will be implemented, uh, and- and  year- year 2 and 3, the implementation- uh, the integration will be implemented and- and tested.
+So does that sound reasonable?
+(PERSON22) Yep. <unintelligible/>
+(PERSON8) Yeah, so if you- yeah, i- if you can please create this task description.
+I'll make, uh, sure that we c- cover the other task and I'll make sure that I integrate the text from you, but, uh, the more you write, uh, the- the better.
+Uh, yeah, and I'll- I'll- yeah, I'll- I'll polish that in- in- anyway, uh.
+(PERSON5) <unintelligible/> [PERSON20]?
+(PERSON8) Yeah?
+(PERSON5) <unintelligible/> would that be possible for you to add the task description?
+(PERSON22) Yeah, we could work together.
+Or we should work together at the- on this thing.
+I will do the basic research but maybe you can add- bring it in- in form.
+(PERSON5) Yeah.
+And, uh, regarding, um, generally our edition to the [ORGANIZATION4], [PERSON20].
+(PERSON8) Yep.
+(PERSON5) Um, we will be out of office until Monday, so -
+(PERSON8) Mm-hmm.
+(PERSON5) we will have a chance to add a- the content on Monday.
+Um, would that be okay for you?
+Oh well, I mean it's- for us it's difficult, I don't think that we will have a chance to add today any details, uh, overview -
+(PERSON8) Yeah.
+and any documents and, um, tomorrow we are not here so, um -
+(PERSON8) Yeah, so it is -
+(PERSON5) we will -
+(PERSON8) <unintelligible/> Yeah. 
+(PERSON5) <unintelligible/> on Monday if you like, that would be, uh, uh- if- if you think that will be a good idea, but, um, just so that you know that, uh, we cannot -
+(PERSON8) Yeah.
+(PERSON5) work, um -
+(PERSON8) Yeah, it's all- it's all online, so if you- uh, if you talk with [PERSON16] directly and if you create a force- like if it makes things easier for you if you create a separate [ORGANIZATION1] doc with this task description and you edit it online with [PERSON16], then I'll can at least see it during the weekend and I can write texts- uh, other parts of the text based on what -
+(PERSON5) But -
+(PERSON8) what I see in the- uh, in the proposal, which c- uh, can help me.
+If- if you -
+(PERSON5) <unintelligible/>
+(PERSON8) really cannot work, if you are offline, uh, and you do not plan to work on- on this, uh, then yes, just give it to me on Monday, like what- <laugh/> what else? <laugh/>
+(PERSON5) No, we- we c- we can s- instruct a thing on Monday, but we will not be able to w- work on that u- until Monday, it's just that you know.
+(PERSON8) Yeah, yeah, yeah, yeah.
+Uh, okay, yeah, so the- the sooner I get it, uh, from you the better.
+And the form is not that important.
+If you do it in the [ORGANIZATION4] that's great because it save my time.
+If you do it outside of [ORGANIZATION4], uh, I- I- I can put it into [ORGANIZATION4], uh, myself.
+I'll have to read it, uh, and like process it anyway.
+Uh, so it's- uh, it's just the- the editing, uh, work that- uh, that like I have to do again.
+If you do it in [ORGANIZATION4], uh, I- I- I don't have to do it myself.
+So do whatever is easiest for you, uh, to- to provide the content, and the sooner you give it to me the- uh, the better.
+I'm aware of the fact that you are, uh, going to be offline and not available for the next 3 days.
+Okay?
+So let's quickly s- uh, move on to the-
+so the work package 6, uh, is the integration, and we have discussed this, so the integration has the separate, uh, [ORGANIZATION1] doc.
+That's this one.
+Uh, so this is something, that hopefully we will get some input from [PERSON12], or- or you can provide some, uh, suggestions and question to this [ORGANIZATION1] doc, uh, for [PERSON12] to, uh, to look at tomorrow.
+So this is, uh-
+there is 2 p- uh, parts.
+Uh, one part is the integration with the unified platform.
+So that is delivering the translations, uh, uh, like the- uh, getting the speech from- uh, from [ORGANIZATION6], and, uh, translating it- uh, interpreting it at [ORGANIZATION11] through our systems in the end, uh, and then, uh, s- shipping the subtitles, uh, uh, to [ORGANIZATION6].
+So that's probably the unified communication platform.
+And there's ha- has to be some description like when and what will be done for this, uh, to- to happen, and to be- to be ready for- for [ORGANIZATION14], uh, to- to use-
+uh, this is for the online meetings, not, uh, for the, uh, live meetings-
+and then the integration of the minuting, uh, which is something we- uh, that I'm totally not sure about because right now, we have discussed like a direct integration of the minuting backend to the- to some of the [ORGANIZATION1] Doc thing.
+And, uh, uh, maybe- I'm- I'm not sure, uh, uh, how much [ORGANIZATION11] should be involved in this, uh, or not, so they now- like it falls into the- uh, the integration work package because it's some integration work.
+But it- uh, it's not clear to me wh- why would we need [ORGANIZATION11].
+So, uh, uh, so maybe r- if- uh, if you could, uh, s- like-
+when thinking about this integration task from the global point of view, uh, uh-
+when- if you could write here for [PERSON12], uh, like w- uh, where do you see, uh, [ORGANIZATION11] role here, or if you don't see, uh, any, then ask him where- where does he see it.
+Yeah, so -
+(PERSON22) Mm-hmm.
+(PERSON8) uh, i- if it is- formally, it can also be that the task that we have discussed, uh, uh, a second ago here, when we were discussing task 5.5, uh, that the task will be, uh, there as- as we've discussed it, but not as 5.5 but rather as 6.3.
+And it might exclude [ORGANIZATION11].
+So it could be within the integration work package with [ORGANIZATION6] and ourselves working there, and, uh, put into the work package overseen by [ORGANIZATION11] because it is integration activity, but we will actually just report to [ORGANIZATION11], "Yes, we're working on this."
+And- and [ORGANIZATION11] will be not involved in that task at all.
+So that's- that's also, uh, a possible, uh, setup.
+So, yeah, we need to discuss- this is something that we need to discuss with, uh, uh, [ORGANIZATION11] to see how much they, uh, want to be in that.
+I think that, uh- yes, they- they are involved, yeah, they are involved in the transcript generation.
+Because we assume that we get transcripts.
+And we don't -
+(PERSON22) Exactly, so -
+(PERSON8) Yeah.
+(PERSON22) I- I think they are needed here.
+(PERSON8) Yeah, yeah.
+So maybe the task 5.5, as we have discussed it, should not be 5.5 but rather 6.3.
+And, uh, it should include [ORGANIZATION11] because you will ship the speech to them, and then we will get the speech from them and we will interface to something that you will find -
+(PERSON22) Mm-hmm.
+(PERSON5) and modify so that it accepts, uh, the- uh, the minutes.
+(PERSON5) Mm-hmm, yep.
+(PERSON8) Yeah, okay.
+So- so we have resolved this.
+So this is a- yeah, tha- this is- <laugh/> 
+I'll- I'll write it down immediately.
+So, uh: <parallel_talk/> Uh, this, uh, will stem from task 5.5, uh, that [ORGANIZATION6] and [ORGANIZATION13] discussed, uh, and task 5.5 will be, uh, deleted. <parallel_talk/>
+Okay?
+So let's, uh, move on.
+Uh, then, uh, the, uh, running the [ORGANIZATION14] events.
+You are not really involved, uh, in this, uh, and, uh, hm, you-
+yeah, this is the- so the integration, uh, work package, uh, is the integration of, uh, all the technologies.
+And [ORGANIZATION6] is here mainly to make sure that you a- are w- working on the interface to connect to- to [ORGANIZATION11].
+(PERSON22) Mm-hmm. 
+(PERSON8) Uh, uh, so the integration of the s- ASR and- and SLT will be done once between [ORGANIZATION11] and [ORGANIZATION6] and then it will be used, uh, for the online meetings, uh, and for the life meetings like separately.
+And you will not be involved in the- uh, in the live meetings happening.
+Uh, and then y- you are involved in the- uh, uh, in the running of the event.
+No, you- sorry, you're not involved in the running of the, uh, events at all. 
+Uh, <other_yawn/> uh, but you are involved in the dissemination part around that. 
+So the dissemination work package is- is the one that I would like you to populate with as many tasks as- as, uh, you can, uh, find out.
+I- like not many in number, but, uh, but -
+(PERSON22) <laugh/>
+(PERSON8) clearly specified activities for- for those tasks.
+And the only one that I have so far, is, uh, that we could run a workshop on NLP technologies at the [ORGANIZATION3] Congress, so that we will have all the representatives of- of those countries.
+And we-
+this is a nice place to promote- uh, promote the technologies there-
+<censored/>
+it will be in the middle of 2nd year-
+"so and we are starting on the automatic, uh, minuting, so, uh, aside from the recordings of the session and its transcript, which is already available, you will also get an automatic, uh, summary."
+And- uh, and then, uh, we can collect, uh, user feedback, so what would they like to have.
+And, uh, this is all the, uh, if- if- uh, uf- if we promise to this, I- I hope that [ORGANIZATION14] will-
+like [ORGANIZATION14] h- supposedly have seen this-
+uh, um, so, uh, then, uh, uh, we will have access to the 50, uh, uh, [ORGANIZATION3], the- the [ORGANIZATION14] [ORGANIZATION14] [ORGANIZATION14] ac- across [LOCATION3]. 
+And this is people who have their meetings, uh, l- every now and then with various partners.
+So this is a great- uh, uh, great venue to talk to.
+So hopefully, we'll have, uh, this chance and it's good to- uh, to plan it.
+So this is something where [ORGANIZATION6], uh, should be active, uh, in the dissemination, uh, of- of, uh, the other work, not in- uh, not in running the- uh, the- uh, the actual technologies for the- uh, for the workshop.
+And for the conference.
+So is that clear?
+So for- for this- this is like a- a- a little conference, uh, only for ourselves, among totally like nontechnical people.
+(PERSON4) Mm-hmm.
+(PERSON8) Uh, the s- the [ORGANIZATION7], uh, activity is a different one.
+It's among the technical people, uh, who, uh, already like are partly interested in these technologies, uh, and they are like looking where to- where to use this.
+This is for the potential users who are not aware of the fact that they could even use GoToMeeting, like [ORGANIZATION14] is- uh, uh, is- is- <other_yawn/> pretty advance probably,
+that they use GoToMeeting. <laugh/>
+(PERSON22) Um, hey Kitty, can you- can you answer that question or?
+(PERSON6) Yeah, um, yeah, we're, uh, working on this work, uh, package.
+(PERSON8) Mm-hmm.
+(PERSON6) Um, we will define a bit more about the- the task, like [ORGANIZATION7] and the other things you've mentioned and we've mentioned, uh, already.
+Um, I'm not sure about the feedback you've, um, mentioned in your task.
+(PERSON8) Yeah, so that's-
+(PERSON6) Uh.
+(PERSON8) Yeah, that's something that- it's usually- uh, th- when you already have the people, it's- it's good to ask them something and, uh, you can easily do it with [ORGANIZATION1] forms.
+Uh, and then you gather something and you add it as an attachment to- to report.
+So- so I proposed a deliverable-
+again, you can- uh, you can propose any other, uh, thing-
+but I proposed to have a deliverable that would say:
+(PERSON22) <laugh/> 
+(PERSON8) "Yes, we've present it, we have this many attendees." 
+And then we- we-
+in the discussion it turns out that someone like this, someone like that-
+and then we ask everybody to fill this <unintelligible/>, and they like came back home and- and we first them then and then indeed they filled out the form so we know that, uh, they run 3 meetings per month and they need these languages and, uh, the- the- yeah they've- they are very interested in or they are not at- at all interested in the automatic minuting.
+And for the automatic minuting their agendas look very different from what- what we see, so.
+Uh, I think it's- it's good to ask them and to record what- what we get.
+Uh, and it's not too much w- extra work- tha- it is some editing work, obviously, and some organization work but it's- uh, it's- uh, like it's worthwhile because we get input, uh, so I'm happy to- uh, uh, to like, uh, s- t- take part in this preparation, uh, uh, of- of that workshop a- and, uh, of- of the feedback, uh, collection as well.
+Uh, so I shouldn't -
+(PERSON6) [PERSON20]?
+(PERSON8) Mm-hmm?
+(PERSON6) Do you want to sep- participate on the workshop or is it just, um, <unintelligible/> preparations?
+(PERSON8) So, uh, for the wor- well, I'll be here definitely for the- uh, for the conference because, uh, that's, uh, t- yeah, I'll be, uh, checking whether the MT systems run and- and- and all that. 
+Uh, whether I can like personally present at the workshop is something that we should leave, uh, for future, uh, decision, like depending on how many people have- we have in the team and- and all that, but in principle yes, uh, but I'm afraid that I'll be also uh, uh, like-
+I- I've- I know, I've organized several, uh, similar workshops, and when I'm organizing it's hard to find time to actually present.
+Uh, so if- if you do, uh, the organization or [ORGANIZATION14] does the organization-
+and this is something that, uh, should be l- kept flexible-
+uh, so, so far, the number of person months here is very limited.
+So you- you say how many person months do you want to- to work on the dissemination overall, and how many person months you want to work on- on this particular workshop. 
+In the preparation in the presents and- and also in the reporting. 
+And, uh, uh, s- based on that, well, the- you or ourselves or [ORGANIZATION14] will- will do it and- and, uh, I can contribute to that.
+Uh, if it's in the proposal and if you don't do the work, then well, I'll- I'll have to a- as- as the coordinator, I'll have to somehow have the work done. <laugh/> 
+So, uh, yeah, I'm- I'm- I hope that I'm answering your- your questions, so.
+I'm happy to contribute ideas.
+And- but when the time, uh, is running out and I'm- I'm totally busy then yeah, I might be silent as well.
+Uh, but if I promised to- to give a talk at the workshop, I'll be there. <laugh/>
+Yeah.
+(PERSON22) Okay.
+(PERSON8) So it- yeah, so one thing, that is, uh- when- when working on these tasks, uh, please, uh, always keep in mind that the task should be put into some specific time.
+So for example, for the [ORGANIZATION7], if we can note dates or the- the particular part of the year, uh,
+we can plan the task for- for that very occasion, which is done here for the congress.
+Uh, the task should be actually longer, because it- it should, uh, digest also the results from the- uh, the congress so I'll- I'll probably extend this ratio.
+If the task is something that's, uh, like totally, uh, uh, s- m- what lasting over, uh, all, uh, we- we- I don't know the word- uh, so which- which runs all the time, such as the- uh, publishing, uh, p- posting some tweets or- uh, or whatever then make the task run through all the project. 
+Uh, but it- I like to h- see some structure in the timing, so if- if the task that you come up with, uh, have a sensible time placement, please make use of that.
+If there is no sensible, uh, time constraining, then make them run through all the project and that's- that's fine too.
+(PERSON6) Okay.
+(PERSON8) Uh, the one task which is kind of missing, uh, is the website.
+So the reason is that, uh, uh, I've copied the- the management, uh, work package from a project.
+And the, uh, management had this, uh-
+<parallel_talk/> Where I saw that? <parallel_talk/> 
+internal website, yes.
+So it has internal project website and a public project website and updates.
+So there is no task in the management on the website, but there is a deliverable, which doesn't make much sense.
+So I'll move this deliverable to the dissemination and, uh, I'll, uh, um, also create-
+or you or I will create the task for the website.
+So there- there should be one task in the dissemination for the- for the website.
+And the associated deliverables is- is the one that you have just seen.
+Uh, I don't know if- uh, yeah.
+At least, uh, if nothing more, we should have like annual- or, uh, uh -
+() <laugh/>
+(PERSON8) yeah, annual reports on the dissemination which would- these would be shorter documents, but they would just say like: "We have attended these conferences."
+Uh, and, uh, the- the- the- that's- that's only, uh, to- uh, to like justify the costs that- that incurred.
+So remember, in the budget, there is the direct costs, and you should plan, uh, roughly the spending for- uh, for the travels to w- w- whatever occasions.
+And then, if you want to claim these, there- it's nice to have a report that mentions that we were there and we presented this.
+Because then in the- in the like spending declaration receipts there is the report and- and, uh, the report, uh- yeah, it- it just fits together.
+So that's why the reports are good, uh, but they should be short.
+We don't want to like spent too much time writing them.
+() <other_yawn/>
+(PERSON8) Okay?
+So is that all clear?
+I th- uh, I think that I should really stop, because it's t- too many- the more I speak, the more, uh, items, uh, uh, is there on your to-do list and that's bad, so the- <laugh/>
+(PERSON22) Yeah, I think we've- we- we've gathered quite some tasks now.
+(PERSON8) Yeah. <laugh/>
+(PERSON22) Um, yeah. <laugh/>
+(PERSON8) So the- please, I think [PERSON16], you should probably focus only, uh, on the platform, uh, like w- uh, because this is something that I'm relying on you.
+So you will decide how do- which- which base- which bases do we choose.
+(PERSON22) Mm-hmm.
+(PERSON8) <censored/>
+And in that case, uh, the- the demonstrator will be, well, just a web page that, uh, reloads and shows the- uh, shows the minutes or, uh, the -
+(PERSON4) Mm-hmm.
+(PERSON8) so there- there is simplistic solutions, uh, everywa- ev- yeah.<unintelligible/>.
+(PERSON22) Yeah, so f- f- first I guess, we will do the best-case scenario. 
+(PERSON8) Yeah.
+(PERSON22) Uh, talk about that, talk about that tools, -
+(PERSON8) Yeah.
+(PERSON22) talk about the implementation and then maybe -
+(PERSON8) Do the fallback.
+(PERSON22) yeah, do the fallback solutions and, yeah.
+(PERSON8) Yes, yes, exactly, yeah.
+(PERSON22) <unintelligible/>
+(PERSON8) Yeah, and- and [PERSON11] and- and [PERSON21], if- uh, if you could work on the tasks in the dissemination, that would be, uh, the most useful, uh, bit.
+Like to- to structure what you've- you have already proposed many of those, uh, in- in the paragraph that you have written.
+Uh, so just try structure it, uh, so that w- we can populate this- uh, this work package with a s- with the structured information.
+(PERSON5) Yes, alright. <other_yawn/>
+(PERSON22) Yeah, okay.
+(PERSON8) Okay, yeah, so thanks a lot.
+Sorry for so many items on your to-do list.
+(PERSON22) <laugh/>
+(PERSON8) But, <laugh/> uh, I- I'm not showing you my to-do list. <laugh/>
+(PERSON22) I imagine.
+(PERSON8) Uh, yeah, yeah, I'll- I'll again send a Doodle poll for a call next week so we'll-
+uh, and- and I- I- most importantly, I'll send an e-mail f- uh, to [PERSON12], uh, to learn where we can synchronize, uh, on the- on the integration, uh, work package.
+(PERSON22) <other_yawn/> Alright. <unintelligible/> this.
+(PERSON8) Okay, so thanks a lot, thanks a lot for- uh, for joining and, uh, best luck with, uh, this thing of course that would be- <laugh/> write it well.
+(PERSON22) <laugh/>
+(PERSON8) <laugh/> Yeah.
+(PERSON22) Thank you too.
+(PERSON8) Okay.
+(PERSON22) And I'll see you soon.
+(PERSON8) Yeah, thank you.
+(PERSON22) Alright, bye bye.
+(PERSON8) Yeah, see you.
+() Bye bye.
+(PERSON5) Bye.
+(PERSON8) Bye, bye.

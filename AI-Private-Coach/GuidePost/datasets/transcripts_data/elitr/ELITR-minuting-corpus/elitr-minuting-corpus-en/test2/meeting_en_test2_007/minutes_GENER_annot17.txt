@@ -1,0 +1,74 @@
+Project updates 
+Date: January 2021  
+Attendees: [PERSON13], [PERSON3], [PERSON16], [PERSON8], [PERSON15], [PERSON6], [PERSON7], [PERSON2]
+Purpose of meeting: discussing various updates: [PROJECT12] demo paper, evaluations, experiments, [PROJECT7]
+ 
+- General updates.
+-- Yesterday the session was disastrous: bad recognition and slow.
+--- [PERSON13] asked [PERSON16] and [PERSON3] to debug, also get in touch with [PERSON9] about it.
+--- The slowness happened because [PERSON16] wasn't connected into one of the machines. But this has no influence on recognition quality.
+-- [PERSON3] added some files to [PROJECT12] test set.
+--- [PERSON16] was asked to evaluate them: priority!
+
+- [PERSON16]'s updates. 
+-- Had a call with [PERSON12] yesterday.
+-- Right now working on solving the problem of files that were too big to get uploaded to [PROJECT3].
+--- Maybe will upload them as a link only.
+-- Haven't heard from [PERSON4] if [ORGANIZATION1] server is up again or not. 
+-- [PERSON13] reminds [PERSON16] to be in touch with [PERSON4] also about the extended set of target languages. 
+-- [PERSON16] is also in touch with [PERSON14] about the text files.
+--- [PERSON14] has set up [PROJECT4] by now. 
+---- [PERSON13] says that we primarily need [PERSON14] to collect the domain specific text data. 
+---- [PERSON13] clarifies that we are not interested in the [PROJECT13] Archive (interview with survivors of WW II), but in the historians' analyses and presentations. 
+---- For the data, [PERSON14] should scan in breadth, rather than in depth.
+---- People who have experience with [PROJECT4] should work with it instead of [PERSON14]. 
+---- But [PROJECT4] is definitely useful in the long term.
+
+- [PERSON13]'s updates.
+-- Struggling with [ORGANIZATION6] demo papers, due tomorrow. 
+
+- [PROJECT12] demo paper.
+-- [PERSON15] should revise the [PROJECT12] demo paper and look at the reviews.
+--- The reviews are not that positive: they don't like the paper, it has 'little impact'. 
+
+- The experiments.
+-- [PROJECT14] quality is very bad for all remotely handled sessions, especially if people wear face masks. 
+-- Ideas for improvement.
+--- Pass training data through [PROJECT8] in an automated way so that the data gets distorted.
+--- Use a frequency filter to cut down on the high frequencies (this mimics what face masks do). 
+--- Then it will be retrained by us or [ORGANIZATION2] (their system is online & fully integrated).
+-- [PERSON13] will do that ([PERSON16] offered, but the priority for him is to work on evaluations). 
+
+- [PERSON15]'s updates.
+-- Working on data preparation of [ORGANIZATION5] corpus. 
+-- Running the first alignments.
+-- Will rerun the alignments of source and targets of the interpreters and analyze them.
+-- Will write a paper with [PERSON5], who is currently busy with exams. 
+
+- To do for [PERSON7].
+-- Get in touch with [PERSON8] and process all the training data.
+--- We need English on 25/1, Czech later: in February.
+
+- [PERSON7]'s updates.
+-- [PERSON7] summarizes the process of preparing pipeline / pipeline configuration tool. 
+--- For every event, the pipeline is made a different way.
+--- Pipeline consists of [PROJECT14], [PROJECT1] and online subtitles. 
+--- [PERSON7] is writing a tool that will allow an operator to define all the components of a pipeline and how they are connected.
+--- [PERSON13] suggested one more compilation target: probing if the pipeline components are up and running ('a test of availability', 'live debugging').
+---- [PERSON7] will do that. 
+-- Next Friday a [PROJECT13] conference, we will provide life subtitles and transcription.
+--- We will need to get feedback about what's (not) working.
+---- [PERSON7] to get in touch with [PERSON18] about that.
+
+- [PERSON8]'s updates. 
+-- Currently aligning the training data, building a more robust [PROJECT14].
+-- Struggling to optimize the pipeline. 
+-- [PERSON8] should talk to [PERSON19] about her [PROJECT5] tool and how they will be paid.
+
+- [PERSON13] discussing alignment issues in German/English in [PROJECT7] with [PERSON6] and [PERSON2]. 
+-- [PERSON6] will check and correct the progressive maximum, increase the numbers.
+-- [PERSON13] discovered a mistake in the segmentation strategies: they are not proportional.
+--- [PERSON6] will double check.
+-- [PERSON13] will give access to [PERSON2]'s [PROJECT3] account to the [PROJECT12] test set.
+
+Minutes submitted by: [ANNOTATOR1]

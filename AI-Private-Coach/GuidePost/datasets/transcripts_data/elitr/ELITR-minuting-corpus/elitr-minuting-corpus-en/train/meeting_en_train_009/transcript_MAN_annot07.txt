@@ -1,0 +1,551 @@
+(PERSON7) <laugh/> <unintelligible/> work package please let us know, otherwise, we are already recording great. 
+(PERSON11) <laugh/> 
+(PERSON7) <other_yawn/> So, there is too many things to discuss in the. 
+There is a number of upcoming deliverables. 
+So, we have spreadsheet for that, and if you open this spread sheet, the upcoming deliverables are one, two, three, four by the end of June. 
+What I would like people to populate is the column for internal reviewing.
+So that's I think is column number column "O". 
+Yes, and it would be very useful, if you could fill yourself to review these deliverables, the initial training data, separation of confidential public versionThen we have periodic activity and function reports, data management plan, and then the ethics variable. 
+So we as [ORGANIZATION1] are responsible for the periodic reports, and the data management plan. 
+I know, what the data management plan is, it describes all the data that we are collecting or using in the project. 
+So we will prepare schedule, and we will prepare structure for this deliverable and i will ask all of you to fill in what data that you are using. 
+So the actually this involves us, [ORGANIZATION5], mainly [ORGANIZATION5], because that they will have the most complicated part they are probably, and then [ORGANIZATION4].
+It needs to describe the data that we are used for your ASR models and the data that you plan to use and prepare. 
+And also it will clearly describe the data that this use that we have prepared rule with the help of [ORGANIZATION2]. 
+So it will be simply a directory off all the data sets that are relevant for the project, the existing from the past, the ones being created now, and also the future what other data sets we are planning to uh, to prepare. 
+And since we have [ORGANIZATION2] on the call I would like to ask, if we will be able to use the data from the workshop, if we can promise the data from the workshop in the data management plan, or if this is still under discussion. 
+So [PERSON3], are you there? 
+Or who is there for themself. <other_noise/> 
+(PERSON7) We don't hear anything, so maybe it's not working. 
+So who is there from the [ORGANIZATION2]. 
+Are you following us? 
+Well, okay, well, this is this is something that we will have to figure out.
+ So I hope I will be able to uh, to also include the data from the workshop and include them in the data management plan. 
+Yes, so that is the data management plan. 
+I see, yeah i hear [PERSON12] speaking in Chinese. 
+Okay. 
+So let's go back to the agenda, and uh, the upcoming I would like everybody to think if they can review the promise to review the deliverables.
+At what date do we want them for the internal or should be the internal deadline. 
+I think the internal. <other_noise/> 
+[PERSON6] had some on this side, right. 
+If I'm not mistaken, or was it for another project. 
+I think there are some concurrents at the [ORGANIZATION5] side, because [ORGANIZATION5] we're in an another project with [ORGANIZATION5]. 
+And I think the first drafts, like the sketches might be incomplete in contents. 
+But, complete in structure. 
+Even better you have them by the end of May, so that we have a full month and for their for the internal review. 
+We should have at least two weeks or so so mid-May. 
+Sorry. 
+So mid-June should be the internal deadline for the complete deliverables, and the the beginning of June should be the deadline for the complete structure, and maybe not complete contents for all these deliverables. 
+Do you agree? 
+So only proposes, end of May complete structure of all delivs and mid-May complete contents internal review stars. 
+(PERSON8) Ok, of course, [ORGANIZATION7] is available for the the review activity. 
+I'm not able to choose one of the promised deliverables, maybe the PM may be choose one for us. 
+<laugh/> And for the last time. 
+(PERSON7) Yeah. 
+(PERSON8) Ok thank you. 
+(PERSON7) Ok, so let's agree on this on this schedule. 
+And let's talk about the individual deliverables now. 
+You know that the um, the deadline is at the end of June, and the initial training data, this is for for [ORGANIZATION5]. 
+Who will be the person, it's [PERSON6] right?
+ 
+(PERSON6) Yes, yes. 
+(PERSON7) Excellent. 
+(PERSON6) Beating other reading of this. 
+(PERSON7) Yes. 
+And again,I expect you to expect input from us, and also from [ORGANIZATION4] maybe , but mainly from us. 
+And and from yourself, the schedule is fine with you right. 
+(PERSON6) Yes, yeah that should be fine for us. 
+But yeah,I guess there are some questions over exactly what fixing to which deliverable. 
+(PERSON7) Um-hum. 
+(PERSON6) I think the 1.2 is to the end of the month ten, which covers some test sets. 
+So, for example, these you talk about that a WMT lead, but sweets 
+(PERSON7) Yes. 
+(PERSON6) But I was thinking, maybe those actually belonging to the deliverable 1.2. 
+(PERSON7) 1.2 okay, yes. 
+(PERSON6) And that is not one- oh yeah,for task one point two the data speaker accent, I don't hink test corpus both recordings and transcripts from the student fair. 
+(PERSON7) Uh-hum. 
+(PERSON6) Which I think probably also belongs into deliverable 1.2, but it's arguable was or should go into 1.1, but I guess we need to pick it right now. 
+(PERSON7) Yeah, well, I don't think it's too important. 
+There will not be any review in the mean time. 
+There will be, well, there could be the remote review and that could happen already during September or during month ten, so well we'll just decide this as the write, and the the voice recordings are not clear. 
+I think this is this is mainly what should go here would be the domain adapted to the domain adaptation data that we get from Taos. 
+(PERSON6) Oh yeah, yeah. 
+(PERSON7) So the uh, addition data from Taos should go to the 1.1. 
+And I think that [ORGANIZATION4] probably should be those who will reviewing this because they will not be contributing much, or is there anything that your training at [ORGANIZATION4] actually. 
+Are you training any new models, are you..? 
+(PERSON13) I don't think that we currently training any new model, we training new models but necessary on new data. 
+(PERSON7) Yeah, so in that case, it may be useful just to mention in this deliverable that what data sets you are using, and that you are not collecting any new data. 
+Just so that well, the little describe what- what we use. <unintelligible/> 
+(PERSON13) Yeah, yeah, okay. 
+(PERSON7) So [PERSON13] to review the deliverable and maybe maybe to provide paragraph or two on existing data [ORGANIZATION4] is training their models on. 
+Okay, thank you. 
+Then I'll skip over the periodic activity for now, and I'll mention the data management plan. 
+Uh. 
+This is the briefly talked about it already. 
+So this is the directory of the data that would be created was created in and is being created and will prepare the structure and will ask for input, uh, this one could be reviewed by her voice, ask [PERSON10], suggested. 
+So this is our probably, probably-[ORGANIZATION7] [PERSON10] to review. 
+Thank you. 
+And then the deliverable on a ethics. 
+This is something that we have to create. 
+And really it is not clear what will the contents should be? 
+But I think that the best reviewer for this would be [ORGANIZATION9], because they are the closest to the people to like and users, and their data so will figure out what exactly is expected here. 
+I am no clear idea at the moment, but I expect it to be similar to the previews, ethics deliverables, like describing the procedures. 
+And listing the contents that we are collecting and so on So [PERSON7] expects this to be similar to the previous ethics, deliverables. And if [ORGANIZATION9] is fine with that to review. 
+Okay? 
+So I do not hear anyone from [ORGANIZATION9], I know that- 
+(PERSON1) 
+Do you hear me [PERSON7]? 
+(PERSON7) Yes, yes, yes, okay, thank you [PERSON1]. 
+Fine so then, financial and the periodic activity reports, so [PERSON12] please can you briefly say what you have figured out so far about this? 
+(PERSON12) Okay. 
+(PERSON7) So we can open the link. 
+There is this part A and the part B. 
+(PERSON12) And yes, this report has two parts. One is technical part and one is the a financial part. The technical part has two parts, part A that has to be filled for Sigma For the Participant Research cartel, and the part B that should be a PDF which we will write abour what we are doing. What we are doing and how we got closer to our goals. 
+(PERSON7) So for me, this part B is like the easy part, it covers all the work packages and each workbook page, and each task have to have so think that each task needs half a page of status update what has been done and each work package needs a summary of what the tasks, how the work package as a whole is proceeding. 
+So for this, i will need input from every work package leader, and obviously, we are collaborating on the task so again, the work package leader, can ask back for the details on the tasks. 
+But assume that for every task, we need either statement that this task is not to be has not been scheduled, and is not running or this task has not been scheduled, and we are ahead of schedule. 
+And we have this nice progress or this task is proceeding according to the plan, and we have these and these things. So half a page for task is like the, the rough estimate, it can be longer. 
+It can be shorter. It can report on. 
+It can refer to any publication if there are any that would be very good. 
+So that is like the standard report update, what I'm not sure is the part A. 
+(PERSON12) It should have been filled for Sigma that's what i tried to put into that [ORGANIZATION8] sheet of the continuous reporting. 
+And those are the milestone, dissemination, gender and publications. 
+(PERSON7) Yeah, so just everybody know what's- that's this sheet. 
+So it is not only is the deliverable,but it is also the dissemination activities. 
+(PERSON12) Which nobody filled so far, if you are being the agenda.
+(PERSON7) There is the gender details.
+(PERSON13) This is a blatant line, we have filled something in there like a 20 seconds ago. 
+(PERSON7) OK great, excellent. <laugh/> 
+(PERSON12) Ok, thank you. 
+(PERSON7) So we need more input like that, and if i understand correctly this if everybody fills these dissemination, gender, patents, I don't expect we have any patents. 
+But still, publications. 
+What is that? 
+The summer of publication should be written as a standalone BibTeX. 
+Well, i don't know what they want here, but I would like to receive BibTeXs. So please for publications please send us BibTeXs. 
+Here the short summary is populate all the sheets in this [ORGANIZATION8] sheet with your data. 
+So [PERSON12] please paste the URL and provide BibTeXs of your published papers and papers under review, may or may not be mentioned in the technical part, which is called part B. 
+So well, if even if you don't have a lot of you should describe the work what you have done. 
+And if if there is a paper being submitted from this you may say so, or you may not need to say so, 
+(PERSON12) Actually I'm not sure if we as coordinators should be filling all those datas or if each partner should fill them in Sigma separately. 
+(PERSON7) Uh-huh? Okay. So this is something that will figure out what we need to have the information anyway. 
+So use this spread sheet as the data collection place and please, collect all your possible data. 
+(PERSON8) - you plate the link here again? 
+(PERSON13) I have, i already have it. 
+(PERSON7) The link is here. 
+That's this one. I just highlighted it. Okay, so that would be the data. And there is also the financial report, which is another part of that, right? 
+(PERSON12) Yes. 
+(PERSON7) Reports, yes. And for the financial report- individual financial statements explanation on the use of resources, and the information on some cont- some contracting in kind to the contributions, and periodic summary of financial statement, including the request for interim payment. 
+I do not know what- if this is- we're not requesting any interim payments i think. 
+(PERSON12) Maybe i would collect names from like each partner with who i could have call about the financial report. 
+(PERSON7) I think you already have names from the past, it's the probably, so if the financial people have not changed, you should you should know them. 
+But if they have changed please let us know. 
+And I agree with [PERSON12] that the best way to uh, to get the ready for this would be to organize separate call on the financial reporting, with the financial people so that they know what the data to collect. 
+In shorted will be spending in the categories like personal, direct calls,. 
+And then for each of these spendings, listing what were the most expensive items there. 
+And how were they used in the various tasks. So that would be for the financial part, [PERSON12] will organize separate call, preferably the call should happen next week or the week after that, so within May, for sure. 
+(PERSON12) [PERSON13]? 
+I have a question I have here as a financial person Bentronimus, but i'm not sure if you want to be on that call. 
+(PERSON13) They are really taking everything over, so there's not really much i can do. 
+(PERSON12) Okay. 
+(PERSON13) The thing is we would have to double check with <unintelligible/>. 
+If you double check within four days or so we might again, but I have to doublecheck <unintelligible/>. 
+(PERSON12) Okay. 
+(PERSON13) Might make sense that maybe our secretary Mrs. <unintelligible/>. 
+(PERSON12) Sure, so if you just send me the names of people that should be on the call. 
+(PERSON7) Okay, this is hopefully an easy way to get to the periodic activity in financial reports, and who should review this. 
+I would suggest maybe [ORGANIZATION5] to review it, because they have experience- the internal review. 
+So [PERSON6] could you give it to someone who has successfully passed from the coordinators perspective, this periodic reporting already. 
+(PERSON6) That's probably me, isn't it? 
+(PERSON7) Yes,right. 
+(PERSON6) Sorry, this is just a scientific part, though, I don't really-. 
+(PERSON7) Yeah. 
+(PERSON6) I don't really want to review the financial part. 
+(PERSON7) Yeah, okay, so, [PERSON11] to review the technical part and we would trust that the financial people know what they are reporting. 
+(PERSON6) I yeah, i mean, i'm not going to be up to review table numbers and save it.
+(PERSON7) Okay, thank you. So that's it. 
+(PERSON6) Uh-hum. 
+(PERSON7) Yeah, the upcoming milestones, so remember, there is still the non ticked off milestone. And that's the reporting, sorry that's a recording in the [ORGANIZATION9] platform. 
+And I know that [PERSON8] has asked [PERSON12] if we are going to run this call in [ORGANIZATION9] platform already. 
+And I said that I have for some reason I was still was not in touch with our main, so that we have not tested it yet. 
+So can we test it early next week? 
+(PERSON1) Sure, sure, we talked to our developers and they will see how what are the schedule for next week, and then will send you few appointments, which would be possible when we could do a test. 
+(PERSON8) I would prefer if we could decide the date today. 
+(PERSON7) Yeah, okay. 
+So test call next week and after that, if that works. 
+I'll both tick off the milestone and also we can have the workshop preparations calls on Friday within the [ORGANIZATION9] platform. 
+The bad thing is that it will require Windows. 
+So who has or Mac possibly i'm not sure. 
+(PERSON11) It's Mac and Windows yeah. 
+(PERSON7) So uh, who will have troubles with this or can everyone accomodate? 
+(PERSON6) I think i will have troubles. 
+(PERSON7) So you'll have troubles. 
+(PERSON6) Sorry, is this for the consorting meetings or what are we going to be using this for. 
+(PERSON12) No it's technical. 
+(PERSON7) Whatever, the sooner- the benefit if I'm not mistaken is that the recording would have separate channels from the- for the individual participants, so the data collected through this would be easier to process. 
+That's the benefit. 
+But if the benefit is like causing too much trouble to- for the technical discussions. 
+Because that will you would have to reboot, and all that, then I'm happy to say that we will use it only for the monthly meetings, the project level, and and reduce that. Yeah,ok. 
+(PERSON11) Yeah, I'm not sure at the moment how we organize that. 
+I do not really want to sell windows. 
+(PERSON7) Well, I have a separate machine for this exactly for that. 
+(PERSON11) I mean, we could buy a laptop, but seems like a waste though. 
+(PERSON7) So this is this is essentially, what would we do, we just already have it. 
+(PERSON11) I don't know, yeah, we should, [PERSON6] has a Mac, so we could share [PERSON6]'s Mac maybe.
+(PERSON6) There are lightly defeats the purpose of separating it, separating out the speakers i have. 
+(PERSON7) I know. 
+(PERSON11) It does, but I mean buying three separate machines in order we can separate the speakers a bit. <laugh/> 
+(PERSON7) Yeah. 
+So after the test, tick off the milestone and then decide which calls will use it. 
+I will say, atleast the monthly calls due to the like of windows machines. 
+Yeah, and we will see. 
+So, I will let you know how the test went and will decide something called for technical, but we need to have this done anyway, so this is, and it will be also important for the integration of the translation, uh, service, and and all that into the [ORGANIZATION9] platform. 
+So none of the work at [ORGANIZATION9] was any type of waste. 
+Okay.
+So then what other milestone is there. 
+The first spoken language translation prototype, when is that as you do, do we remember? 
+(PERSON12) That's by the end of June. 
+(PERSON7) Oh, okay. 
+(PERSON11) Um, right does that mean, what's the actual requirement there, i mean what do we, what's the means of verification be like. 
+I mean, we have translation prototypes i mean. 
+(PERSON7) Uh-hum. 
+(PERSON1) The system and we went at the student fair can that be considered to be a close prototype. 
+(PERSON7) Possibly, so that we could simply tick it off. <laugh/> 
+(PERSON11) Well, I mean, we're gonna deliver definitely translation systems and would gonna deliver <unintelligible/> or by the end of June. 
+(PERSON7) Yes, exactly, so I'm also not concerned much about this. 
+(PERSON11) When do we will have translation system that's actually tuned to a spoken language translation is a bit more of an open question, we are going to do this thing with open the senses fragments. 
+(PERSON7) So milestone month six baseline first spoken system available to the consortium. 
+Okay, that's pretty vague and that's the only occurrence of this MS2 throughout the whole proposal. So there is no further information on this milestone. 
+(PERSON11) Well, I mean, the milestones a really for internal usage, page 2020 project. 
+So the question is, what does the consortia want? 
+Is it's- I mean, so [PERSON6] isn't going to be, is gonna be wrapping this. 
+The least producing a [PROJECT3] wrapper and will endeavor to produce let's say the best system we can for that under the circumstances for the application in mind can now be consider the first prototype. 
+(PERSON7) Yes, yes, so I think that the will definitely have this prototype solved, because we will be doing the the workshop, and we have already had the fair. So I think this this milestone can already be done. 
+Uh, for the Congress needs this is the milestone that we are written to be responsible for, but I don't know what that appears. B
+ecause it's not here maybe it is because we are the leaders of the MT work package, could be, but [PERSON6] is helping us a lot with this. 
+So here, i don't know whether I should tick this of as soon as the multimodel the multilingual models are available. 
+Even if it is limited set of target languages. 
+(PERSON11) We should look bit on milestone four, because what I think the project pioneers is to done deliver say milestone two, and then that feeds into milestone four. 
+(PERSON7) Yeah, yeah. 
+(PERSON11) So that means this SLT system is going to [ORGANIZATION9] platform. So that some more difficult proposition problem is, there is more unknowns for me there. 
+(PERSON7) Yes, yes, i totally agree. And this will happen in August. 
+(PERSON11) Yeah, yeah. 
+(PERSON7) So it's quite early and while there be summer, so it will be difficult to chase people around. 
+(PERSON11) Yeah. So what is making available on the [ORGANIZATION7] platform sufficient for milestone four, or is there something else we need to do. 
+(PERSON7) Yes. 
+So this is is built upon the the recording, but actually the recording has been now done separately outside of the, the [ORGANIZATION7] integrator, right? So what we have for now, is the [ORGANIZATION7] mediator that anybody can connect to. 
+And send the ASR, send the sound too, the mediator will pass it to the ASR workers, and the ASR workers can pass it.
+So this has been tested at the fair. 
+What has not been tested, is any integration with the [ORGANIZATION9] platform so and the. 
+So [PERSON1] and [PERSON8], what are your plans for this? 
+You need to, well, we had the blocker with the goal language. 
+And then you have in the end decided to do the recording separately. 
+So the recording has not has not provided as much useful preparation, preparatory steps for this. 
+So how far are you with the integration of the, or with the interfacing to the to the [ORGANIZATION7] platform. 
+(PERSON8) But maybe we discuss, with technicality 
+(PERSON1) Yes without developers. 
+(PERSON7) Yeah. Yeah, so this is this is something which should be discuss a very soon, because there is limited time to implement it somehow, and also it's somewhat linked to the presentation, but I'm not saying presentation platform, but there has to be way in which the participants of [ORGANIZATION9] calls could see the speech, translated. 
+And one option is that a while having the [ORGANIZATION9] call you would be also, you would have in another window, a web page that would use the presentation platform from [ORGANIZATION7], and it would be looking at the translation in the presentation platform, from [ORGANIZATION7], it is not a not a nice solution, but it could be the basics spoken language interface, it would be kind of available. 
+It is not exactly in the platform, but it would serve the purpose. 
+So that is like the fallback solution that you. 
+So I think that for milestone four, what is absolutely critical. <other_yawn/> 
+Is that [ORGANIZATION9] sends the sound to the mediator and then the rest is kind of available. 
+The better version would be that you are also able to connect with like- to get the the text back, and to present text in some way within your platform, but I understood from [PERSON14], a previously that this is not easy to do. So this would be like more more work. 
+So please take notes on this and i think that please report to us during the next week, what the developers think about these these commitments here. 
+So the minimum is shipping voice to the mediator. 
+And will be, the users will be looking at the translation outputs in the mediator, sorry in the [ORGANIZATION7] presentation platform which will be ready for the workshop at the end of June The better version is that you will connect, send the audio and also receive the text channel in some way. 
+But obviously, it is a different setup than the from the one that we are normally using in our tests, normally when we connect this bit direction client, the Eb client. 
+We send the audio, and we receive the transcript and or translation of that audio in your set up, you need to send your audio, but receive the transcript of other parties audios. 
+And you don't want to receive the transcript and the translation of your own speech. 
+(PERSON1) I guess the best way would be if we discussed it with our development team, because I lean on me, both not developers 
+(PERSON7) So if you need any technical call on this, please propose some dates, and I think it would be good, if [PERSON10] was on those calls as well.
+Because she would know how different the set up is from the normal operation of the mediator, because the channels are now like mixing, you need to connect two half clients in in some way. 
+Like one half client is sending my audio to someone else is half client who is this playing the transcript or translation of this. 
+And I have another half clients running, which is showing the transcript from all the other parties.
+This is like the ideal- 
+(PERSON8) Okay, i understand the use case of actually i have to reason about this. 
+Sorry i'm not able tell you right now if it's feasible. 
+(PERSON7) Yeah, yeah. 
+(PERSON8) Or how to arrange it. 
+(PERSON7) As i told you that the fallback solution, which should be okay for this, for this milestone. Would be that the all the clients, all the [ORGANIZATION9] like all the participants in the [ORGANIZATION9] call will be sending their audio signals to the mediator, and the mediator would be doing whatever translation is there, and it will be presenting all the speech in this single a presentation platform. So i would see also my speech, translated into whatever language i choose. 
+And I would see what other people also said, so in the presentation platform that will be one page, one web page that I open next to the [ORGANIZATION9] system. 
+And then this single webpage, outputs from more sessions in the current terminology. So that needs a little bit of adaptation of the presentation platform. So does that make sense? 
+So actually this is this is, we we we think that this is done, here some like deliberation on the languages covered is needed, but in essence we could claim this to be done. 
+Cutting down on the number of target languages, but what is critical is actually, and what was the name, the name was basic SLT, so here, this is month eight, so for the month eight the fallback or minimum, [ORGANIZATION9] clients sending audio to [ORGANIZATION7] mediator, [ORGANIZATION7] presentation platform allows all participants to choose language version of the transcript to follow, this transcript, this transcript needs to merge, trans, ASR outputs and translations from all participating persons. 
+So that's the minimum, and it requires [ORGANIZATION9] to send the audio and [ORGANIZATION7] presentation platform to have that slight update that more sessions can contribute to the same thing. 
+And the better version, [ORGANIZATION9] runs two half clients, outbound client sends audio as above, inbound client receives text from other parties and is like labeled with party IDs, this is something which is important as well.And presents it somehow, and [PERSON7] expects that [ORGANIZATION9] will find this difficult, but please consider it anyway. 
+Okay? 
+So i think, we know some of that deadlines are totally okay, some of the deadlines are risky, and some of the milestones really needs good thinking and yeah. 
+So [ORGANIZATION9] and [ORGANIZATION7] please let [PERSON7] know in week how this was accepted in your tech teams. 
+Yeah, okay, so let's move on further, publicity achieved, this is actually something which we are already collecting for it would for the mentioned that for the reports. 
+And yes there is the video i think i've emailed everybody. 
+So if you have any friends or colleagues have them watch this video, because the more views we have the better we feel, well i'm kidding. 
+<laugh/> So, but any way we can make use of this video for for various purposes, so yeah 
+So the next point is the preparations for the workshop. We have spent, we are spending a lot of time on this. 
+And thanks for all of you who will support us this is a really taking a lot of our time. 
+And we were just on the edge off of being able to to do it right. 
+And we need to keep running fast so that we do not lose that edge, and we actually deliver that. 
+So the Czech ASR remains very risky it may not be there. 
+And even if we do not have the Czech ASR what we will have for the workshop. So I will summarize it quickly for those who or are not present to our technical calls. 
+It's workshop of about 20 participants. 
+Everybody will be speaking in English, only there will have presentations some of them. Maybe there will be a related materials. We have a half-way ready platform for the participants to upload their supplementary files such as the presentations,and any other reports, we will make use of these files to possibly adapt the ASR to the domain. 
+And sure, for sure to adapt the machine translation systems based on these text files, then at the actual workshop we will have for students of interpreting present, with four cabins of of these interpreters. 
+There will be two respeakers cabins. 
+So two persons will be repeating what has been said in English, and one person will be translating into Czech. 
+And one person will be translating this Czech further on into German. We will have ASR connected to the English floor, the main input signal, the two respeakers, and then possibly to the Czech version, and then surely to the German version that they interpreted speech in German. 
+This German is with the double delay, because it goes through the Czech interpreter first. 
+And then from these ASR inputs will somehow, probably on the fly indeed and manually select which of these ASR outputs is the best one to feeding to, the machine translation systems. 
+If it is from the English, then like directly after the ASR the empty the multilingual machine transitions system comes if it is from the German, then the German will first machine translated into English, and then from this English into all target languages, so that adds the delay, and all these outputs will be made available in the presentation platform. 
+In the, this presentation platform is something which we still need to like discuss technically, but the participants will have their notebooks, this is something which which we have not discussed in detail. 
+And the idea is that they will have webpage open. 
+And that webpage will be the presentation platform, and it will show the streaming of the main slides and below that, below those stream slides. 
+There will be the stream of the subtitles in the selected target language. 
+So the participants of the workshop will have the option to watch the main screen and at the main screen, we will be probably presenting the English ASR subtitles, or nothing at all, and in on their screens will be presenting the, the stream diversion of the slides, essentially the same slide, but with a little delay. 
+And then below that the subtitles in the language of choice, we are like, if we do,if our translations are totally bad, it is not a problem, because the participants don't need these subtitles. 
+They are expected to talk in English, but we actually want the subtitles to be useful, because that is our serious important test for the for the Congress, which will come in less than a year after that. 
+Okay. 
+So this is the quick summary of what is what is planned. 
+And, yeah, it is in preparation. 
+Yep, so. And now on the work packages, do we really need to uh, to go over the individual work packages. 
+Maybe very quickly. Just so that we remember the work package names. 
+What is work package one? <laugh/> 
+Is the data here, yeah, so data, and this is the minuting. 
+Ok, so for the data here,the main thing will be the deliverable that describes the data we have collected for ASR, I would like to learn more about the progress of ASR, so take this as, please tell me know what is happening in your tasks within the ASR work package. 
+So am I still sharing the screen, because the plan and the planning for this ASR packages, really free, we are free to do. 
+Anything, there is no schedule for that. So I would like to know what is happening in the robustness, language model adaptation and lifelong learning. 
+(PERSON1) <unintelligible/> fundamental experiment going on, they are working on completely new type model <unintelligible/>. 
+() [PERSON7] I'm curious about this, this domain, the robustness, because there was a paper. 
+I would like to find out for other purposes as well, which said," Essentially, if your model is huge, if your data is huge, you don't need to do any domain adaptation whatsoever. 
+It is multi domain by default. I
+s that essentially what your also confirming right, 
+(PERSON1) Nah depends on the speech recognition system we are using. 
+So <unintelligible/> the hybrid systems that we are using in the stream, for the stream. 
+Are not to mean robust, if you train on more data. You can show that these position of systems, actually suffer if you use more data. 
+And only the new will end to end systems seem to be able <unintelligible/> the multi domain mix, and then are more robust to the default domains. 
+(PERSON7) Ok, that is interesting. 
+(PERSON1) The problem is that all these new end to end models can't be used in the slow latency run on ASR yet. 
+(PERSON7) Yeah. So they are a bit directional right? 
+(PERSON1) They are all directional that makes it difficult, so that it requires essentially tuning whether they are on possibilities to limit the sort of white context, the future context that you need, it's a good question whether it's or not, and then they are still <unintelligible/> behind and performances quickly, if you have strains on the computing power. 
+It's super fast if you can run them in batch mode on a GPU, so for that processing that's okay, but you know for low latency, streaming processing even if you limit yourself at the lookahead that you do in the future, you might still have problems with performance. 
+(PERSON7) Yeah, and that is interesting, so that you obviously have like good progress, maybe like still open. Many open questions. 
+(PERSON1) It's okay, we may focus. 
+(PERSON7) Yeah, and for the lifelong learning, what plans you half in the long-term not necessary like for this year. 
+Would that be some more learning from the input, as you process it. 
+(PERSON1) That's the idea that we learned from the input as we process it. 
+(PERSON7) So, this is in sharp contrast, with the current ways of training of neural networks. 
+So, do you want to like to get some feedback. 
+(PERSON1) <unintelligible/>, one is that we actually get human supervision, so that humans correct errors, and then the <unintelligible/> learn from these errors <unintelligible/>, and then hopefully you will be able to <unintelligible/> <other_noise/> <unintelligible/>. 
+So currently we are having a couple of students that are starting to work on that. 
+(PERSON7) Okay, thank you, so that's very interesting, everything. So you will have surely enough to write in the periodic report. Let's move on to work package on spoken language translation, looking at incremental decoding, altering results of decoding before full source sentences seen starting to implement the juristic okay. So this is the like we our research and innovation action. So this would be the innovation part. Do we have any research outputs planned or expected in work package three. 
+(PERSON11) Yeah, we have not really been progressing the research very well here. 
+We have resourcing problems. 
+(PERSON7) Uh-hum. 
+(PERSON11) So yeah, i mean, we are thinking of, we have been looking at transcript normalization, so we starts to collect some transcripts. 
+But, that is about as far as we got with that. We started thinking about the incremental empty after the, the review, the feedback from the workshop around Easter, there is something we need. I think the the heuristic i mentioned is not. 
+It was quite an early effort. So, oh wow you've got a misrange of the screens. <laugh/> 
+(PERSON7) Yeah, yeah sorry. 
+(PERSON11) <unintelligible/> But it is a starting point to see what I'm,see how it looks and see how we can progress that, looking at the output of your segment of the segmentery looks completely different to what I would expect it. 
+So um, I don't know, is specific error specific set up. 
+(PERSON7) We have like separate research results. 
+(PERSON11) I realize that, but I mean, in you know, in the research. 
+You gotta make some model of what you expect to have the input to be in the system. 
+And you know, there is in this early there is an expectation that you would just potentially you would feed in the words want of time, you would see the words one at a time. 
+But that is quite different for what the way the output is appearing from the segmenter. You know, you got this output, and then suddenly it changes are. Suddenly it gets completely resegmented. 
+So yeah, now there is a research question is to how you deal with such output. 
+And I don't know, i'm not sure if it has been dealt with, maybe the sentence fragmentation trainees enough, for that. 
+I have not seen enough testing. 
+(PERSON7) Yeah, okay. 
+So that is that is more of the like segmentation issue. 
+So that is a better integration between ASR entry. 
+And do we have any plans for the end to end spoken language translation, i don't expect that you have done anything in the past. 
+(PERSON11) We have a student coming who is meant to work on this and this. 
+And that is been subject to some delays, so he is supposed to now come in July 
+(PERSON7) Ok. 
+(PERSON11) They are having delays. So they should have started few months ago, um, yeah. But the idea is to start first July now. 
+(PERSON7) Yeah. Okay, and that's good though,thanks. 
+And so I think that there again be enough to write for the report, so for the empty. So you have the a ACL paper on document level empty accepted. 
+Thats perfect because we are experiments are like, inconclusive so to say, it is hard it's very hard to find improvements at the document level. We have tried some document level setups and we are describing those in the "W" empty paper, to be submitted as the system paper. 
+But it is hard to, to convincing ourselves that it works well that it does something useful, because the it is to the shaded like these too many possibily references, the reference <unintelligible/> is no longer useful for the evaluation of documents level. 
+So on be curious to read, what would you have done there to actually show that it helps. 
+(PERSON1) Yes, so we can find movements in terms <unintelligible/> specific phenomenon, like a translation of eliptical constructions, or consistent translations of names, and with that we could measure, the system does improve, and these test sets could also be useful for us in the future.
+(PERSON7) Okay, yeah, so that is part of the ACL paper.
+(PERSON1) Yeah. 
+(PERSON7) That's good, you are better than we are. 
+[ORGANIZATION4] process of deploying transfer model. 
+Ok, yes multi model setup, do we want to synchronize on this somehow? 
+I have one student as I mentioned working on this, but his results. So far are rather negative that if if he has multi target systems, then it's decreasing the performance. And there is papers around would say that you should not be sharing everything in transform model. 
+Atleast the final <unintelligible/> should be should be separate. So, i don't know if we want to write some join paper on this in one way or another, or if we proceed independently. 
+So I'm too busy with the practical set up of the workshops to actually do any reasonable research in this area.
+That is, this will get somewhat better after the workshop, but if we can get some nicer outputs things to collaboration that would be useful. 
+So yeah, please get in touch, I do not know who is it, is it [PERSON5] in [ORGANIZATION4], who is doing this. 
+(PERSON4) Not me personally, I think it will be <unintelligible/> to collaborate on a practical <unintelligible/>, because of very different frameworks and libraries and all that being involved. 
+(PERSON7) Yeah, so you are saying it is better to do work separately and have separate paper right, if i understand correctly? 
+(PERSON4) I'm not sure that this is necessarily the paper. 
+(PERSON7) Yeah, okay. 
+(PERSON4) I don't think that <unintelligible/> is such development paperwork result from that, it's all been done. 
+(PERSON7) Yeah, okay, so that again the like integration part the innovation part. So you are improving your system so that they use the better transform models internally. 
+(PERSON4) Yes.
+(PERSON7) That is the thing to report. 
+Okay, so the baseline entry model this is the milestone, this is like the deadline month fix. And then the document level translation is something which should be spending over the whole three years, and then multi target is something which we will have still six more months to work on,and i hope to extract some useful outputs from the student of mine and also we should work together with [ORGANIZATION5], because [PERSON6] has these systems for his training. 
+Now, the the single system for the what workshop. 
+But I don't know if [PERSON6] has any capacity for evaluating like, how much the performance goes down. 
+If if they are more languages. 
+Or if you are only training a single like single run, so what type of ablation analysis could you make not necessarily before the workshop, but like after the workshop and later on. And if we could collaborate on this in one way, or another 
+(PERSON6) Sure, yeah, I think this will happen off to the workshop. 
+Probably, but yeah, at the very minimum, I would be comparing the performance of the multilingual system against bilingual systems trained on the same data. 
+(PERSON7) Yeah. 
+(PERSON6) <unintelligible/> We are only dealing with fairly small sort of target languages, of the workshop systems at least. 
+And so I don't think that is gonna have too much of a home full impact on translation quality. 
+(PERSON7) So we tried languages from the UN corpus. 
+And there was always a loss in bless core compared to the [ORGANIZATION7] models. Okay, yes, for the the workshop is a proof of concept. 
+So, it is okay, even if the the bless course, are like three points worse, or maybe even five points worse. 
+Then there will be separate systems would deliver. 
+But we need to, like measure this precisely after the workshop, and then see how to proceed for the Congress. 
+And the what is the final like scientific result from this as well. 
+So let's plan to do more <unintelligible/> after the workshop and let's do it <unintelligible/> So this is something that [PERSON2] should also like the be aware of helped me to to over to oversee this. 
+[PERSON2], are you here? 
+(PERSON2) Yes, I am. 
+(PERSON7) Yeah,so nothing is planned for the multi source for this year, and the flexible modeling release is still to come. 
+For document level i've already mentioned that we tried some setups form for the the news task. 
+And we also created test suit of the [PROJECT1] document. 
+So the, of the saw documents, and we are going to have evaluate this with the help of [ORGANIZATION2] auditors and for English to Czech translation. 
+I have like a mixed news, the systems appeared too good. 
+So it is very hard to evaluate the outputs. That was on Wednesday, I was talking to three auditors, i was showing them the outputs of [PROJECT3] and transform, and then <unintelligible/> output, and also of [ORGANIZATION8] translate and they were discussing things, which are totally like irrelevant and not touched upon by the the training regime. They were discussing which synonyms are better to choose or near synonyms are better to choose and that for the area of value added tax. 
+One particle translation is self of payer is acceptable and for their taxes, except for that other translations of payer are not possible. 
+And and so on, there was also one case where two of these auditors said that they don't like some translation. 
+And the most knowledgeable the third one said: "No,no, this is a good translation." 
+So you really need to be domain expert in order to judge the empty systems. 
+So this is an interesting input for translation quality as a whole. And also for the document level setup. 
+When we have big enough training data and good enough empty systems. 
+It seems to be impossible to evaluate it and find a better system, and also find ways to improve on that. 
+It is not that there would not be any errors. 
+But it's that the errors are too scars and too different in nature. 
+So there are only two errors that you could like work on directly. 
+One of them is that the half of the second half of the sentence is forgotten, and you can check this was with alignment. 
+And other repeating problem was that the abbreviations are wrong, but that's it. 
+The other errors were really <unintelligible/>, and you have shortage of expert people to evaluate it. 
+So you cannot do a large collection evaluation. 
+So if you would evaluate many documents, you would then spot errors to repeat, but you do not have the resources to do that. 
+And with small probes, you don't see any errors repeated. 
+So I don't know how to proceed in the long term. 
+This is an interesting like research problem. 
+So, this will be our message for this in the various papers. 
+Okay, so let's move on to the minuting work package, if there are no further comments or if anybody has anything to say to the little, like, the state of confusion of mine i do not know how to proceed with if the systems are that good. 
+So for minuting we are mainly spending time on a collecting the data, and this schedule is something which I made up fully, when I was proposing the project. 
+So will havea person, we have a person who is already working on like thinking about the models that could be useful for the meeting summarization. 
+Will have one hopefully one summer interm to coming for this with some experiments. 
+And I think that the main result of year one, will be the validation, of the proposed schedule. 
+So I think it is quite possible that we will figure out that the separation, the stepwise processing. 
+Would be different than from what I sketched, but we will have to have the reasons for for these changes. 
+And so so, we are mainly collecting data, and we have some first ideas how to do the modeling. 
+But we still have lot of time to work on that. 
+Okay, then the integration yeah, therefore. 
+So we have discussed this recording and in the [ORGANIZATION9] at length. 
+And we have also discuss the the upcoming milestone, so essentially these things. 
+Someone wants to say something? 
+(PERSON2) No, sorry. 
+(PERSON7) So the, for the [ORGANIZATION9] we know that Sorry? for the [ORGANIZATION9] we know that we are like struggling for time. 
+And for the [ORGANIZATION7], this is the various outputs. 
+And we know that we need to work on the presentation platform. 
+So here, the integration for the purposes of meeting for the purpose of conference and workshop translations is forcing us to have progress. 
+So I'm sure we will have progress there, my concern is more for the things, which do not have the exact the immediate use. 
+And that's usage of remote meetings translation. 
+And also, as the timeline says," The minuting demonstrator." 
+And this is something which has the it is planned for the whole duration of the project. 
+Obviously, we don't have any minuting prototype at all at this stage. 
+Will have the best models, which will only roughly do something at the end of the project. 
+But still, we need the presentation part of the demonstration, the demonstrator. 
+So this is something which [ORGANIZATION9] needs to like pick up again and think if there is some useful work. 
+They should do during year one. 
+For the minuting demonstrator, like what type of planning is needed to be done so that the implementation of the user interface does not have to rush later on. 
+So for the minuting demonstrator i do not expect any software implemented in year one, but I expect the specification to be done within year one. 
+So this is something that we need to synchronize with [ORGANIZATION9] and start working on that. 
+So [PERSON8] and [PERSON1] please please, take a note, again this can wait after the workshop. 
+It's not critical. 
+It can also easily wait after the milestone in month 8. 
+After the spoken language translation like prototype. 
+But we have to do something in this task by the end of the year. 
+So it is totally okay to say in the entering report now that we have not started working on the minuting demonstrator because it is too early for that. B
+ut at the end of the year we have to have some thinking completed. 
+Okay. 
+Now, and for the dissemination, i think we are doing everything very well. 
+And and uh, oh, yeah, there is one thing to to do. 
+And that is this workshop for users. I think this is an explanation or some presentation of what we are doing. 
+What is the technology for the for the workshop at [ORGANIZATION2], and it is it has been planned for month ten, but it is actually happening in June. 
+So we are totally over our capacity for thinking what should we present to the participants. 
+So i would like to ask [ORGANIZATION9] if they could like help us to organize the whatever we want to present. 
+So the thing, that you will be one of the participants at the workshop. 
+You would come there. 
+You would be, you would come to [LOCATION1] to discuss your value added tax topics, you will be given notebook by the organizer, and there hopefully would be the subtitles running. 
+And there will be some limited extra time, very limited extra time. 
+Where we could present the technology and somehow explain this. 
+So could [ORGANIZATION9] come up with some ideas for materials, so that we would then distribute them to the people, or whatever. 
+We have the <unintelligible/>, but i think there could be something more. 
+So that's, please [ORGANIZATION9], have a look at the specification in here in the description, what we actually have we though of these workshops could be. 
+The workshop in the middle of the project, the workshop at you site, something which is already being prepared. 
+There would be a half a day workshop indeed. 
+We will cover that, we will be presenting not only a speech translation, but also other language processing technologies. 
+So the, this middle workshop will be easily covered. 
+But I think that we need to have something to say that we have done, some type of dissemination at this June workshop. 
+So [ORGANIZATION2], sorry, [ORGANIZATION9], please handle that someway, we are busy with the technical part. 
+Okay, so here, it's like progress, well in various aspects all the time, but the most, so [ORGANIZATION9] to organize plan how can we disseminate [PROJECT1] technologies for <unintelligible/> explain, advertise, participants. 
+So again, [ORGANIZATION2] is listening, [ORGANIZATION2] is still on the call, yes? <other_noise/> 
+But i do not hear anything from them. 
+So it would be good if they were in touch with you. 
+And if they confirmed what can we do at the workshop, or what can be done at the workshop. 
+So, if you decide, so based on, based on the communication. 
+Of the decide what exactly to do in this respects, and it may be useful for someone from [ORGANIZATION9] to come to [LOCATION1], but it may be not so it depends. 
+It depends on what [ORGANIZATION2] will say. 
+If we are given a half an hour to present something, that would be good. 
+But if we are not given that, if we can only like handout materials. 
+Then there is no need to come. We can simply print the materials and give them all to people. 
+If we are given this half an hour, i would probably prefer someone from [ORGANIZATION9], to work on this presentation, because we will be totally crazy about that the technology. 
+And this presentation can be broader again. 
+It need not only talk about, what we are testing at the workshop. 
+It can talk about the other tools that could be useful for the auditors, but please talk to [ORGANIZATION2] if will be given this opportunity or not, right? [ORGANIZATION9], so [PERSON8] or [PERSON1]. 
+(PERSON1) Yeah, we got it. 
+(PERSON7) Okay, excellent. 
+That's it. 
+(PERSON3) For the record i heard it, if it works, does it work? 
+(PERSON7) Okay, yes, excellent. 
+So [PERSON3], i have two questions, one of them or one is please synchronize with [ORGANIZATION9] on the dissemination at the workshop. 
+What options would be fine for [ORGANIZATION2], and what should we do, what should we prepare for that. 
+And the first question, which i asked at the beggining of the call is the data, the data recorded at the workshop, would they be useful, would they be available to the <unintelligible/>, and would they be also available for the public. 
+Could we release them as the corpus later on. 
+(PERSON3) I'm still waiting to hear back from relevant department. 
+(PERSON7) Okay, yeah, okay, we would need to know this, when we are writing the data management plan, or the data deliverables. 
+And obviously we need to know before the workshop. 
+If there are any consents. 
+That is important. 
+Yes? So,that's if the relevant department says," 
+Possibly, but the individual participant have to agree, then please let us know, and this has to be prepared in advance, so that we have the consent forms and all that." 
+In the various the discussions that I had with the for example the director general for interpretation. 
+I was told that the consent, personal consent <other_noise/> is the weakest possible way of securing your data, that's actually the least preferred method, because the individual people <unintelligible/> later on. 
+So there are better ways. 
+If that is possible in the particle situation. 
+So the best way is that people are forced by some law or regulation to provide the data of that kind, that does not apply in our case. 
+The second case is that, the people do it as part of their jobs, so based on their like work agreement. 
+They are expected to produce this data, and then the, their employer has the rights for the data. 
+And I think that this in principle could be applicable. 
+But this has to be like discussed if that is the case for the workshop for, and who are the employers of this. 
+So maybe ask this question. 
+As just an suggestion like how the data could be legally transferred to the, like for the use of the [PROJECT1] project. 
+If this work agreement would be available option or not. 
+And if it is not the case. 
+Then if we need the consents. And what the consents need to have. 
+And then eventually, like if the final answer is, yes, you can use that. 
+(PERSON3) Yes, but first we need to figure out if we can actually share the data if they are perhaps it will turn out that for some presentation, that needs to be non disclosure agreement of some sort. 
+All this need to be figured out. 
+(PERSON7) Yeah. We are happy for any subset of the presentations. 
+So whatever you can give us that's fine. 
+If you can give us small part, and you have, we have delete some sessions that's, that's totally okay. 
+Okay. So thank you very much. I don't have any further questions, i'm sorry that it took so long. 
+Somehow there is too many things to be discussed and done, but we have managed. 
+I'm stopping the screen sharing. <other_noise/> 
+Oh, i'm not stopping. It doesn't work Stop present, yeah. 
+Okay, so thank you. 
+Please stay in touch, and keep up the good work. 
+(PERSON8) Thank you [PERSON7], bye. 
+(PERSON6) Thank you 
+(PERSON11) Bye 
+(PERSON4) Bye bye 
+(PERSON7) Bye

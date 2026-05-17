@@ -1,0 +1,61 @@
+Next meeting: Tue May 12, 16.00-16.30
+• !! Last call for entering yourselves into the Surge points sheet.
+• Upcoming demo for [PERSON8]:
+o @[PERSON6]: can we revive [ORGANIZATION4] copies of [ORGANIZATION7] ASR?
+o @[PERSON6]: can we do talk-level domain adaptation for the selected talks?
+o Anyone skilled with pavucontrol?
+• [PERSON3]
+o Will prepare a redis container for querying inflections during the domain adaptation process
+o Will further smooth out the process and hopefully commit something to the repo
+• [PERSON11]
+o I'm on a mock interpreted conference now
+o I reviewed and sorted the mock conference data from 21/4
+o Fixed one bug in backendASR
+o Going to clean the subtitler paper for [PROJECT3] until 15/5
+• Official template has smaller font -> we are almost OK with length
+• EAMT reviews complained there is no correlation of the usability with the automatic measures, at least for some user case
+• 
+o TODO:
+• Expecting IWSLT review feedback on 15th, then update system description paper, until 25/5
+• SLT Deliverable until ⅙
+• [PERSON2]
+o I have written a Jupyter file to analyse TSV (outputs of ASRev and SLTev scripts) files. 
+
+• [PERSON6]
+o Prep for the demo meeting.
+o Pipeline integration with [PERSON11]'s [PROJECT6] wrapper
+o Testing of [PERSON4]'s [PROJECT2] model. Works fine now. Delay was eliminated by [PERSON4] in his latest commit.
+o New Czech punctuator is live and running - has more segments than manually revised transcripts.
+o Tests..tests..tests
+• TODO for [PERSON8] DEMO:
+o [PERSON2] to share with everyone the true transcripts of English IWSLT Test set and also German as the 
+• Concatenate it for [PROJECT6] systems
+o [PERSON6] to feed this through [PERSON13]'s model
+o [PERSON4] to feed this through his model
+o Common constraints:
+• preserve number of lines
+• translate from En into Czech, German, Romainian (manual check by [PERSON7])
+• translate also from German to English
+• translate also from Czech into English
+o [PERSON2] to evaluate it in terms of BLEU only
+• Split again before evaluation
+• [PERSON9]
+o Test data sets are almost finished in 40 languages.
+• Please:
+• Make sure to have all current test set components pushed to [PROJECT4]-test set repo (uploaded 30lgs cleaned test data)
+• Send us the command to concatenate the English sides
+• Send us also the output of the concatenation, so that we can double check we got the same thing.
+• this all has to be done in a reversible way
+• and sent to [PERSON4] and [PERSON6]:
+• this concatenated file
+• the names of languages where you have the target side
+• Belarussian, ...
+o Cleaning part is still going on. I am hoping it will be finished tomorrow (I promised this sunday to finish it by today. Unfortunately it could not happen.)
+o Cross-examination of annotated test data.
+o Prepared the draft email and waiting response.
+o TODO: build and clean rest of the test data, assign test to annotators for validation and start preparing synthetic data
+• [PERSON4]
+o Performance issues fixed
+o Will translate what we discussed
+• 4 files: 2 from EN into all, 1 from DE into EN, 1 from CS into EN
+

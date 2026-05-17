@@ -1,0 +1,31 @@
+Date: 2019/10/22
+Attendees: [PERSON6], [PERSON9], [PERSON4], [PERSON1], [PERSON5], [PERSON7]
+Purpose of meeting: Informative meeting.
+
+
+Summary of meeting:
+
+[PERSON7], [PERSON5], [PERSON9]:
+- discuss probing on transformer networks and features. In paper is used [ORGANIZATION1]. Recommendation start with [PROJECT5], maybe try [OTHER4] or for example single perceptor and will see the result.
+- [PERSON5] ask about collaboration discuss in [LOCATION3]. There is plan to come to [LOCATION1] for two weeks and collaborate on something. After organized skype call will be [PERSON5] informed.
+- [PERSON7] will send to [PERSON5] links to download the treebank and the other link he need to start experimenting.
+- Agree with using research for master thesis.
+
+[PERSON7], [PERSON1], [PERSON9]:
+- [PERSON1] worked on transformer attention matrices. Work with dependency trees where some heads correlates with relation in different laytions in syntactic tree. Look at balustrade heads and it seems that the different heads do different stuff. Plan is to try extract the graph structures and compare how was like similar syntactic trees. Approach can be checked for conclusions use the structure with a graph conclusion layers. The idea was to try to replicate this and to compare it with the extract from the attentions. The syntax relations can improve machine translations. In December they can meet personally in [LOCATION2].
+
+[PERSON6], [PERSON5]:
+- [PERSON6] add [PERSON5] to [OTHER2] group. Will be send invitation e-mail.
+
+[PERSON6], [PERSON9], [PERSON1], [PERSON5]:
+- discuss about working and using [PROJECT5] and transformer.
+
+Next meeting will be in 14 days.
+
+Minutes submitted by: [ANNOTATOR1]
+
+		
+
+
+
+

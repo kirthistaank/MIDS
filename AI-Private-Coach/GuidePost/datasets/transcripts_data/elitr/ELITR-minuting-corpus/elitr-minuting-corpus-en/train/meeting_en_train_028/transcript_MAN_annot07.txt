@@ -1,0 +1,1191 @@
+(PERSON7) Hello, does it work?
+(PERSON9) Hello.
+(PERSON7) Yes, oh, ok, it actually works so I I don't understand this.
+So were able were already connected for the last few minutes or not?
+(PERSON9) Yeah, I was connected.
+(PERSON7) Yeah, ok.
+So it, because didn't seem like connected.
+Ok.
+So.
+Yes we we have we are still waiting for [PERSON14].
+So one thing that I didn't finish writing in that comment in the [ORGANIZATION7] doc is the question about from you about the cheating.
+Obviously I would not pretend that fo- the the cheating with having the language model over fit for the particular talk.
+Obviously we would not be pretending that we don't have this in, but it would be a nice contrast to show one session which has that the speech available.
+As in a former language model and one session which does not have it.
+So that there is very often the situation where the speech actually prepared well head of time.
+And all the like the speeches sometimes even given by someone who has not written it.
+And in that case the it's fair to have that speech within the language model of the system.
+So it's good good to be able to compare.
+So how far are we [PERSON9] from from using some language model over fitting for a talk?
+(PERSON9) As far as I know for the for the hybrid ASR model it's possible to adapt the language model and.
+Now I'm I'm not super sure what we've done before in this topic is often to go through the transcript and add words which we which we don't language model as is and we can have those words in language model.
+I don't think that they do like re-training of language model to that specific the match the the same structure-
+(PERSON7) To the engrams.
+(PERSON9) Yeah, I I don't think that they usually do that but [PERSON13] would know the details about that.
+(PERSON7) Yeah, so please activate [PERSON13] on this so that we could als-
+If I don't know what what is it's capacity.
+I don't know what is the the circumstances of your offices.
+Whether <unintelligible/>
+(PERSON9) That's that's not a problem.
+The problem right now is that apparently some sort of catastrophe has happened and then in the server room.
+A yesterday when the when the workers were saying to fix the power they were saying this would take between 5 and 6 hours.
+Today the power is not up and they're saying it will take all day today and tomorrow.
+So in in in a classic construction fashion they appear to have fix it worse.
+So [PERSON10] is is in communication with them right now.
+I imagine quite angry.
+(PERSON7) Yeah.
+(PERSON9) And I mean probably we should we should determine some sort of time at which we you know pull the parachute and say we have to postpone the meeting because we don't have any ASR workers.
+(PERSON7) So we have so we can run our own, we can do Czech sure.
+Because that's so [PERSON4] please confirm.
+We can do Czech for sure, and we have the English copy of [ORGANIZATION6] model here.
+But we don't have segmentor, aah that's the problem.
+(PERSON9) Yes.
+(PERSON7) I I don't hear you, are you muted?
+(PERSON4) So in worst case we can use [PERSON11]'s ASR and my segmentor.
+(PERSON9) But are we-
+Like <unintelligible/> postpone the demo or to give a demo with like worst case scenario workers and very restrictive set of languages.
+(PERSON7) So I think the set of languages is ok.
+So we can from Czech ASR.
+And we have the segmentor for Czech which we have tested before.
+So that is reasonable.
+But we would not have the German input because we don't have any German ASR.
+And for the English with the with the segmentor of ours it's not as good as your is.
+So that's that's a clear drawback.
+(PERSON14) [PERSON7].
+(PERSON7) Yeah.
+(PERSON14) Good morning.
+(PERSON7) Morning, morning, yeah, sorry.
+(PERSON14) Do you think that it will be so so bad to ask for a re-schedule of the demo which since actually we will not be able to show all the power of we add in editor models of ASR and machine translation.
+And I think ready, the project officer I I really like the the Czech demo actually.
+But I think that we will not be able to fill one hour and half of demo just this kind of input.
+(PERSON7) Yeah, that's right.
+Yeah.
+So that's.
+(PERSON14) It's actually a definitely a good good thing to say.
+Well we do not have a control over power outage of servers and.
+(PERSON7) We should have some like <unintelligible/> plan so to say.
+We should have a set which is resilient to that.
+So I see that as, like regardless whether we ask for postponing or not.
+I see this as again a very important like lesson.
+I'magine that this would have happened during the congress itself.
+And it is possible that this could happen during the congress.
+So we really need to be we need to have backup plan for one or two sides going of power.
+(PERSON14) Ok.
+(PERSON7) So I know that the there is when the corona virus was starting and when when they were not sure whether the whether to like how to handle the congress when they were still considering to run it.
+They already had and I think they always have a plan to have replacement building so so in case someone like some there is a like bomb alarm they still have chance to to put these 400 people elsewhere.
+So we have we need to have the same thing.
+So so about the deadline for the parachute plug or so on.
+Will [PERSON10] let you know immediately after he learn something from the workers?
+Yeah, so like when.
+I think that we, if we want to postpone the demo, we definitely need to send the e-mail by today say 2 in the afternoon.
+(PERSON14) Well, we can also tell [PERSON15] if he prefer to see just the Czech or to have a -
+(PERSON7) Yeah, yeah, yeah.
+So let's I think I think that would that would look better.
+Because that would document that we're not like using false excuse. 
+It would say that we have one site problem and we can show limited demo.
+Because I imagine it could be firmly difficult to find a slot for all the participants. 
+And also how much do we need to postpone that so by how much?
+(PERSON14) Well actually it depends based on.
+(PERSON9) I wish I could give you an estimate but it seems like the estimate <unintelligible/> from construction workers.
+Optimistic.
+<laugh/>
+(PERSON8) I would say volatile but I will not want to use that word so postpone <unintelligible/>.
+(PERSON9) Yes.
+(PERSON7) So when when is the construction going to be over because-
+(PERSON9) The construction it will be for another year.
+(PERSON7) Oh, ok.
+(PERSON14) Yeah, but the power outage.
+<laugh/>
+(PERSON7) Yeah, yeah because like we are experiencing also network failures.
+Like 2 days ago serious one.
+And that's because there has been a building completed for our department our school of informatics.
+And they are now changing the network so that the other building is also like connected, fully connected with with the machines there.
+But often they misconfigure things and we loose our connectivity like fully.
+So that that has happened in the last 2 days as well.
+And they they keep touching thing these days.
+So, but that's there is equal risk as I see it for tomorrow as for 2 weeks from now so I don't see any difference in that.
+There could be-
+(PERSON9) There is a risk, there is a risk 2 weeks from now but there is a definitive power outage right now.
+(PERSON7) Yeah.
+(PERSON9) As far as having some sort of back up location we cannot duplicate our server infrastructure elsewhere.
+It was very difficult even to get a second server room that we can expand.
+It is not possible within [ORGANIZATION6] to get another server room and to have some some sort of <unintelligible/>.
+() We could-
+(PERSON9) I mean I don't know I can discuss with our server admin maybe we can move some like some of the essential servers to the to the other side.
+So at least we have some basic servers running but I mean that just moves the critical infrastructure to a different failure point.
+You know the power-
+(PERSON7) Yeah.
+(PERSON9) <unintelligible/> building.
+(PERSON7) And that involves like moving a server is half a day.
+So.
+(PERSON9) Yes and and the real problem with that is we we don't have physical access to the server room - we want.
+In the other building, in a old server room it can go whenever we want.
+The other building is very strict about that, only the IT admins from that building are allowed to open the server room, they have to be there all the time as we have to actually schedule whenever we need to go in and press the button.
+(PERSON7) Yeah, yeah, yeah.
+(PERSON9) So, and I'm not sure that that will increase the reliability of our system.
+(PERSON7) So I think that we need to replicate your your workers elsewhere.
+I think that [PERSON13] has already prepared a docr machine for segmentor, hasn't he?
+Did that happen?
+Yeah.
+(PERSON4) Yeah, so I did have <unintelligible/> for the segmentor and we have a start alone machine here dedicated only for segmentor because our machine did not support docr.
+But I spent week and I spent almost like more than a week in starting the segmentor and its dependencies but I I never <unintelligible/> successful.
+(PERSON9) Really?
+What what did we send you for the segmentor?
+Do we just send you like a zip <unintelligible/> because that doesn't need any dependencies.
+(PERSON4) Yeah you sent a zip doc.
+So it failed during installation, there were some issues with-
+(PERSON9) Oh I remember going back yeah I I seem to remember that conversation and you were trying to build <unintelligible/>.
+(PERSON14) Well, if it's if it's just a matter of servers, of course [ORGANIZATION4] can make vailable some <unintelligible/> web server.
+But it's not something we can start in half a day actually.
+(PERSON7) Yeah, I was hoping that this this should be able to, so so [PERSON4].
+I'll probably go outside because we have 2 microphones here.
+(PERSON4) Yeah.
+(PERSON7) Yeah.
+So we have 2 microphones in the same room and that's not good idea.
+So I think that it should be easy enough to deploy a docr on <unintelligible/> server.
+So I think it's really should be doable within a few hours so half a day.
+But <unintelligible/> so what what there be an option that the zip image that [PERSON4] has from [PERSON13] would be simply forwarded to [ORGANIZATION4] and [ORGANIZATION4] would get this segmentation worker running.
+Because that would solve it.
+We would not have the German ASR but we would have the English good segmentor and we would have the Czech.
+(PERSON14) I can make running our <unintelligible/> server, pretty fast I can grant you also our SSH access to it.
+If you give me your public IP.
+So that we can restrict SSH just from your IP.
+And but it will be a completely new server so you need to install docr and all the other things by yourself.
+(PERSON7) So [PERSON9]-
+(PERSON14) And then make it running and configure it properly I think it's not that fast.
+But if if you ask it I will start it.
+(PERSON7) So [PERSON9], what do you think?
+(PERSON9) Ehm, so I checked, because right now I couldn't send you a docr image even if I wanted to.
+Because-
+(PERSON7) You don't have it.
+(PERSON9) Servers are physically off but the docr image which I sent to [PERSON4] was uploaded to [ORGANIZATION7] drive so.
+That link <unintelligible/>.
+(PERSON14) Ok.
+If you would like to make this kind of test at least I'm just going to ask permission in order to run a new control machine.
+(PERSON7) Yeah.
+(PERSON14) Meanwhile, please, test with [PERSON4] the Czechs demo, please please please please.
+(PERSON7) Yeah, yeah, yeah.
+So my question was now on [PERSON8] whether there is any update for the autoplay or not?
+If there is any chance to have it.
+But obviously the autoplay is nice to have feature.
+(PERSON8) Eh, yes, ok, so.
+The autoplay is definitely it's impossible we cannot the web up in conti based on on the simple player which depends on your browser.
+What we cannot with is I have, ok [PERSON4] already has a copy of a script I posted.
+The idea is this.
+Instead of playing the video exactly <unintelligible/> is on Youtube ok we we already add to process it in order to to make it faster to the stream, ok?
+And additional <unintelligible/> step is to prepare to the video a 5 seconds of a clip, it's a clip.
+It right now is 5 seconds it is it's a parameter so we can change it.
+It's it shows the literal logo for 5 seconds.
+During those 5 seconds people connecting to the demo will have to refresh and refresh the page on the publication platform and then click play.
+They have 5 seconds they all should manage once they click they are all sort of <unintelligible/> with the everything else.
+The playlist is already playing on the on [PERSON4] side so the streaming is already ongoing and the the transcript is also going and all pipeline is going.
+(PERSON7) Yeah, ok.
+So I think it's good idea so the the solution is that there would be an image shown and I think that if this image if the first frame of the video contains also like instructions that remember to click play and then remember to-
+(PERSON8) Going to be shown on the subtitles <unintelligible/>
+(PERSON7) Yeah, but the image, the image could also include arrows like where you should click.
+(PERSON8) Aaah.
+(PERSON14) Please.
+(PERSON8) Ok, it took a whole day just to have the logo.
+(PERSON7) Oh.
+Whole day.
+Ok.
+(PERSON8) I mean, I do not I must rest I do not know anything about FM peg about video editing and stuff.
+(PERSON14) Exactly.
+(PERSON7) Ok, so I'll have a look what what is available.
+I though it's easy.
+<laugh/>
+(PERSON8) Ok, the scripting relies on a single static image if I can edit that image-
+(PERSON7) Yeah, yeah, exactly.
+This is what I meant, this is what I meant a single static image which has these arrows.
+(PERSON8) Arrows spotting down I guess.
+(PERSON7) Yeah, yeah.
+No animation because remember the image will be shown static.
+Until people click play.
+So it has to be static.
+The information -
+(PERSON8) Yeah, ah.
+Ok, this is somewhat doable.
+(PERSON7) Ok.
+(PERSON8) Ok, I can work on a <unintelligible/>.
+Despite all of this once we have the image the whole proce- there are 2 steps of the recording so the actually it takes let's say 50 minutes to run video so <unintelligible/> for the demo itself.
+(PERSON7) Yeah.
+(PERSON8) So and this this is time [PERSON4]'s servers has to run it because there is no way for us to share the video and code it right so.
+(PERSON7) Yeah.
+(PERSON14) Guys.
+(PERSON7) Yeah.
+(PERSON8) Have to download the video again and run this processing.
+(PERSON7) Yeah, ok.
+(PERSON14) Which, guys sorry.
+Which kind of operating system do you prefer on <unintelligible/> machine?
+[PERSON4] is fine for you?
+Santo 7.
+(PERSON9) I mean probably we have the problems if the docr contains running the same system as the as the host.
+Which is 18 0 4 I think.
+If that's possible.
+(PERSON7) So [PERSON4] can you confirm that the machine where we tested the image his was Ubuntu 18 0 4?
+Can you log in there just to check?
+(PERSON4) Yeah, yeah, I can log in definitely.
+(PERSON9) Also our our machine is <unintelligible/> machine and the docr image <unintelligible/> I don't know how well docr works when you're running a different <unintelligible/>
+(PERSON14) She not be a problem but for me is the same.
+(PERSON4) It is open to <unintelligible/>
+(PERSON7) Yeah.
+(PERSON14) <unintelligible/> L LTS.
+(PERSON9) 18 0 4 8 <unintelligible/>
+(PERSON14) Ok.
+I'm going to prepare the virtual machine.
+Just please send me your public IPs in order to grant you SSH access to the virtual machine ok.
+(PERSON9) Can I send you a public key?
+(PERSON14) I think yes.
+Yep.
+(PERSON9) I would prefer that.
+(PERSON14) Oh no no, because actually there is a kind of firewall in front of this kind of virtual machine.
+We have to.
+I I have to check, I check it.
+(PERSON9) I don't have a static IP.
+(PERSON14) Yeah, I understand exactly.
+Ok.
+Let me let me check it.
+Meanwhile please test the fall back solution just just the Czechs one.
+(PERSON7) Yeah yeah, so.
+[PERSON4] please let us know whenever we should.
+(PERSON4) So obviously we we can test ehm English and German right now because we don't have segmentors for English.
+(PERSON7) No no, but Czech Czech input.
+(PERSON4) Yeah so for Czech I'm connect with [PERSON3] and he's helping me with fixing with MT wrapper.
+(PERSON7) So so let us know whenever this-
+(PERSON4) Yeah sure sure I'm just connect to him.
+(PERSON7) So in the meantime there we still need to prepare the slides so I'll I'll be doing that.
+If you have any-
+The link to the slides is already in the document.
+And if you have any work plans like future plans to be mentioned in this demo at the end of the demo session, please put them there to the slides.
+So create, feel free to create new slides there.
+This would be particularly I would expect [ORGANIZATION6] to mention something, for example the ASR end to end systems.
+And also [ORGANIZATION3] if they have any end to end SLT experiments or plans.
+(PERSON13) We should probably ask [PERSON2] to take a look.
+(PERSON7) Yeah.
+There is so far nothing in this slides and if you add something then make sure that you know how to comment it during the live session.
+So I I can try commenting myself but there should be someone to step in in case like more details are needed.
+But this would be very vague these these people would be some of them would be probably technical people but some of them would be simple like potential users of of our systems I guess.
+(PERSON9) Yeah so the question is even how how useful is talking about end to end ASR <unintelligible/> mean to the users.
+(PERSON7) Well it I think it is useful to if we can illustrate it then it is useful.
+So the what are the main benefits of end to end ASR.
+(PERSON9) Right now works better.
+(PERSON7) Does it work better in in the word error rate but it's that's still offline set up and not online.
+And it's not well connected with the segmentation.
+So I think this is this is easy enough message to to present.
+Because people understand that the offline and online use can be different and if we have a system which is better in offline mode it is very good idea to try to to also adapt it for the online use when we want it.
+So.
+Yeah.
+So [PERSON14] I'm sending you the 3, and also [PERSON9] in in copy, the 3 machines that I came up with with static addresses from which will be mostly connecting.
+(PERSON14) Ok.
+(PERSON7) But if you actually could allow the whole sub network then I think that would be safe, so.
+(PERSON14) I I probably will rent SSH well I have to reason about it.
+But don't worry.
+(PERSON7) So it's -
+So the first 3 numbers in the IP addresses are all the same so allowing all of them would would be safer.
+So [PERSON4] what are we waiting now for?
+What is what is the current problem?
+(PERSON4) Current problem is MT wrapper.
+(PERSON7) So what has happened with MT wrapper?
+(PERSON4) I don't know so.
+It's pretty messed up right now.
+And [PERSON3] is helping.
+There is just like just one little bug which is ruining the complete pipeline.
+When the Czech is getting translated, into English.
+Because English is the pivot language.
+(PERSON7) And how come that we didn't have this problem before?
+(PERSON4) Because we were using MT cash.
+(PERSON7) Ok.
+(PERSON4) And it was like super <unintelligible/>.
+MT, MT wrapper is quite, it's complicated but it's very sophisticated.
+So in all to effort it it need some time.
+(PERSON7) And can you go to the in the meantime, do you still have the older set up so that you would launch it with the older set up?
+(PERSON4) Older set up.
+(PERSON7) So this I suggest that you have like various versions of the script.
+And the older set up would be using the MT cash not MT wrapper.
+Which doesn't suffer from this broken pipe problem.
+(PERSON4) And if-
+Is like I'm really regularly <unintelligible/> the script, so it's difficult to <unintelligible/>.
+(PERSON7) No, but whenever you have something that works, give it a name and don't update it and don't touch it.
+From that point on words.
+We need to have a version to to rivet to.
+(PERSON4) Yes, I agree.
+(PERSON7) So [PERSON9], are you in the meantime, you have located the the [ORGANIZATION7] drive link, right?
+So whenever you get access to that to the machine, you can get you can try to get the segments running, right?
+And we're waiting for [PERSON10] to let us know whether the power will be on during today.
+So [PERSON13] , how is your model, so can you, in the meantime tell me some details about the models that you have been training and you said that something new will emerge today or.
+(PERSON13) Ok, so I've been training models for each of the 7 source languages the ASR source languages.
+Ehm.
+The translate into as many of the [ORGANIZATION8] and [ORGANIZATION2] languages as I can get data full.
+So that's pretty much all of the languages apart from like 2 or 3.
+When there's no data in <unintelligible/>.
+(PERSON7) And it's a single model for all the 7 inputs and 43 targets, right?
+(PERSON13) Ehm, 7 models, each have a single source language.
+(PERSON7) Yeah, ok.
+(PERSON13) And translate into roughly 40 target languages.
+(PERSON7) Yeah, ok.
+(PERSON13) So the trained on <unintelligible/> from <unintelligible/>.
+So in the models I used in first year there was a cap for million sentence pairs per language <unintelligible/> remember.
+So I removed I removed that cap but because obviously there is a lot small data for some language pairs and others.
+I've used smoothed distribution sound put with them for the smooth distribution.
+And the same with sub <unintelligible/>.
+So for some language pairs it's over <unintelligible/> like open subtitles data.
+For example so we try to balance <unintelligible/>.
+The English version is fine tune on <unintelligible/> of the sentence pairs.
+Kind of similar to what [ORGANIZATION6] do but it's a simple <unintelligible/> when we don't use <unintelligible/>.
+But I don't need on that for the English version of that.
+(PERSON7) Yeah, and these are now deployed as workers.
+(PERSON13) Ehm, so the English and German are deployed as workers on setting setting the Czech one up right now.
+(PERSON7) Ok, yep.
+(PERSON13) So hopefully within the next maybe half an hour will be live.
+(PERSON7) Yeah.
+(PERSON13) The others I could set up-
+(PERSON7) I don't think that's necessary.
+(PERSON13) Ok.
+(PERSON7) And the older ones are still available as workers, right?
+So [PERSON4] can choose.
+(PERSON13) Well actually they're they're configured and they're like ready to deploy but they're not running.
+We kinda sure on GPUs at the moment, so if if we would it would be nice to have them running as back up I guess.
+But I may have to ask some people to experiments.
+(PERSON7) Yeah.
+So yeah.
+So the thing is that we have not really evaluated this models and I find it a bit risky.
+To to just test them live.
+(PERSON13) Right, right.
+So yeah the the English one is the model what was used in the edible SLT submission.
+So I mean we've test it yet.
+In that setting.
+(PERSON7) Yeah.
+(PERSON13) Yeah the other hopefully the the other models perform as well.
+(PERSON7) Yeah.
+(PERSON13) But there not tested.
+(PERSON7) There is there is there is a big risk that well someone will just mess up the fingerprints.
+And if we're still so much fidling with the set up it can happen that we'll be translating from the wrong language.
+Or so.
+So yep.
+Problem is that at the moment really cannot cannot do anything because we're waiting for the segmentor.
+(PERSON13) Yeah.
+(PERSON7) So [PERSON13] you have sent the translations of using- there was using the older models, right?
+(PERSON13) No, this is using the Ni models.
+(PERSON7) Ok.
+But you still mention that something, ooh ok.
+Yeah.
+So maybe, no you cannot deploy these even for the translation because you don't have any GPUs at the moment right?
+So you cannot translate the files with the older model just for comparison.
+(PERSON13) Ehm, hang on, let me let me take a look <unintelligible/>.
+(PERSON7) Because [PERSON6] is now or will be running blascores over these and comparing also to [PERSON1].
+(PERSON13) Ok, ok.
+(PERSON7) But again this this blascores would be full segment based and not the partial segments and the impression can be different again so.
+(PERSON13) Ok.
+So actually we do have couple of GPUs free so.
+(PERSON7) Yeah, take them.
+<laugh/>
+(PERSON13) So I couldn't run everything at the same time but I can run your test sets through them one by one.
+And send you the outputs.
+(PERSON7) Yeah, yeah.
+I mean I mean deployed as run it as a worker, right?
+The older model as well.
+(PERSON13) Yes.
+(PERSON7) But the critical question is whether the fingerprint differs, so that there is no confusion which model is being used.
+(PERSON13) Yes.
+Yeah, the fingerprint is different.
+(PERSON7) Yeah.
+(PERSON13) Yeah, so we have we have at most MT workers running at the same time in the past.
+So yeah we've come up with <unintelligible/> fingerprints.
+So they the each have unique fingerprints.
+(PERSON7) Yeah.
+So I see [PERSON14] is sending the.
+(PERSON14) Yes, the <unintelligible/> machine is up and running at the moment SSH access is allowed to everyone.
+With the password.
+I will change this of course.
+But meanwhile please check if the it's what you've expected.
+It's the correct operating system or not.
+In order to become root sudo minus I and the same password, ok?
+Ehm.
+It's it's good virtual machine and I will switch it off after demo ok?
+<laugh/>
+Otherwise [PERSON5] will kill me.
+(PERSON7) Yeah.
+Thank you.
+(PERSON14) No worry.
+I hope this this will help us in order to accomplish access for demo.
+Ok.
+Tell me if it's the correct operating system.
+It's it's ubunto ubuntu 18 0 4 LTS.
+(PERSON9) Yeah, yeah that's it.
+(PERSON14) I haven't found configuration for also dot 4, but I think that is just a minor.
+(PERSON9) Yeah, that shouldn't be a problem.
+(PERSON14) Ok.
+Another recommendation.
+This virtual machine has been deployed in the let's say [PROJECT2] production infrastructure we have <unintelligible/> is the the one where we run also mediator and presentation platform.
+This means that actually you can reach also the other machines.
+Please don't.
+<laugh/>
+Please don't, access just this machine.
+I I tell it because you will you will be you will have the power to become root.
+And this could be-
+(PERSON7) A disaster.
+(PERSON14) Yep.
+(PERSON7) So I've manage successfully to log in and but, well I don't have the the files and I have never really work with docr, so [PERSON9] can you step in?
+Does it work for you?
+(PERSON9) Sorry, I'm I'm getting the call from [PERSON10].
+(PERSON7) Ok, yep.
+(PERSON13) So [PERSON7], coming to the question of testing these models.
+So actually German model was running during the last test we did with [PERSON12] into Romanian.
+(PERSON7) Ok.
+(PERSON13) First test she did was using the old model, the second using the new model.
+(PERSON7) Ok, I see that.
+(PERSON13) She thought the new-
+(PERSON7) The new one was better, yes.
+Yeah, yeah.
+That's good.
+(PERSON13) And there was a lot less ehm <unintelligible/>
+(PERSON7) But that was the, that was the ASR segmentation workers which are not accessible at the moment at all.
+(PERSON13) Right, right.
+So yeah I guess it was tested on the ideal conditions.
+(PERSON7) Yeah, yeah.
+(PERSON4) Ok, so I have the pipeline done.
+[PERSON3] fixed there were there were 2 little box and MT wrapper.
+And there <unintelligible/>.
+And we can see it running now.
+(PERSON7) Ok, so should we go to the [PROJECT2] [ORGANIZATION4] platform view?
+(PERSON4) <unintelligible/>
+(PERSON7) So I'll be back in a second.
+(PERSON4) Yeah.
+(PERSON14) I can also resize maybe presentation platform.
+How far we are from starting the the test of the demo?
+(PERSON4) It's [PERSON3] we're done.
+And just a <unintelligible/> thing.
+(PERSON14) Ok, ok ok.
+I wait.
+(PERSON4) I also implemented I frames so <unintelligible/> to see [ORGANIZATION4] and <unintelligible/> in the same.
+Like a compact window.
+(PERSON7) Paste the link to the [ORGANIZATION7] document.
+(PERSON4) <unintelligible/> in the in the same repository.
+(PERSON7) But so that people know worker watches.
+(PERSON4) <unintelligible/>
+(PERSON7) Ok, yeah.
+(PERSON9) Allright.
+(PERSON7) Yep.
+(PERSON9) So it's it's it's really it's the classical comedy of error going on at that construction site.
+They they <unintelligible/> power line on Tuesday.
+Plan to then completely dig it up and you know view the view the damage yesterday and the <unintelligible/> and they didn't have another one so this morning they're getting a new digger to dig up the power language.
+They have done nothing yet.
+Like literally nothing.
+And supposedly the electrician will get back to [PERSON10] at 1.
+And then we then we will know whether they can fix the damage today or not.
+No, I don't know how much <unintelligible/> I place in that whether he will be at lunch break at 1 or whether he will actually calls [PERSON10] at 1.
+It's it's <unintelligible/> over there.
+(PERSON14) Does couple of these <unintelligible/>.
+(PERSON9) I I I suggested that to [PERSON10] he he disagrees <unintelligible/>.
+(PERSON14) Ok.
+<laugh/>
+Guys, do I have time to make also presentation platform virtual machine resize or not?
+(PERSON4) Yeah so there's I firm estimate file which I post which I have pushed in the.
+(PERSON7) Please, paste web page link on in the Github repository so that we can see the file as as well.
+So that we know where it is in is somewhere in cruise control.
+(PERSON4) Ok.
+(PERSON7) Thanks for the the news, well.
+So I'll have to leave before like I have less than an hour now.
+And I'll have to go home and then like be with the kids in in yeah, whatever it's compli.
+(PERSON4) Yes, yes.
+(PERSON7) So between 1 and 2 we will synchronize by e-mail.
+And at 2 we will send the e-mail to the project officer ted we have we give them the option to have the full demo in what do we say week?
+Exact same time?
+Or more?
+I think week should be enough but.
+(PERSON9) I I should hope that week will be enough.
+(PERSON7) Yeah, so.
+So ok, so this is the plan for the few hours now, until we learn from the electrician.
+And [PERSON9] please now try to getting the segmentor running on that virtual machine that [PERSON14] provided.
+Because that-
+(PERSON9) Yeah, I'm working on that now.
+(PERSON7) Yeah, yeah, ok.
+(PERSON14) Thank you [PERSON9].
+(PERSON7) Thank you.
+(PERSON4) So I'm updating the [ORGANIZATION7] document on on how you can set up the thing.
+So.
+(PERSON7) So you have to download this extension,ok.
+(PERSON4) Yeah, so this extension basically enables iphone policy.
+(PERSON7) Yep.
+(PERSON14) This one.
+Well it's not bad.
+Probably I don't need to resize presentation platform virtual machine.
+Just have to check what we run during <unintelligible/> workshop.
+Just to be sure.
+But actually it's a good <unintelligible/>.
+(PERSON4) So I need to start a few more instancies of the [PROJECT1] worker and <unintelligible/> start test.
+(PERSON14) [PERSON9], if you have some problem reaching mediator and so on, I have seen to open probably some ports on the file wall.
+So please tell me if you get stuck somewhere, ok?
+(PERSON9) Ok.
+(PERSON4) Guys, we have it running now so let's start.
+(PERSON14) Ok.
+(PERSON7) Yeah, so you have to download that file the easier set up is to just go to this page.
+But you probably need the extension so.
+(PERSON4) Me?
+(PERSON7) Yeah, everybody.
+Like who wants to see both subtitles and paragraphes.
+Then yeah.
+Then they can use this link which I'm just highlighting in the [ORGANIZATION7] document.
+(PERSON14) Ok.
+(PERSON4) I can share my screen if you guys want.
+Because I have a [ORGANIZATION9] client and it won't share the complete window, extended window.
+It will be like.
+(PERSON7) I think it's ok, yeah.
+(PERSON4) Yes, ok.
+(PERSON14) Look really strange on my side but maybe it's just a matter of browser.
+(PERSON7) Well.
+(PERSON4) And.
+(PERSON7) It doesn't look strange.
+(PERSON4) [PERSON8]?
+[PERSON8] is here?
+(PERSON8) Yes.
+(PERSON4) Yes, yes, thank you.
+In order to get the 5 seconds of pre-video do I need to like do anything?
+(PERSON8) Yes, so at this time you can you can ru-
+I merge my my latest updates.
+(PERSON4) Yeah, I already pull it.
+(PERSON8) Ok, if you run the one shot one shot preprocess script.
+Ok?
+You give it one the input name and the output name.
+And that does the the pre-processing and it depends of 5 seconds of the logo before that.
+(PERSON4) Ok, so I need to run the pre-process again with with the same same and it will automatically take the logo.
+(PERSON8) Yes, the logo is <unintelligible/> it's the same folder.
+(PERSON4) Ok, ok.
+I get it.
+(PERSON8) The script expects the original MP4 video from Youtube.
+(PERSON4) Yes, yes, I understand.
+So yeah, let me done it so that we just to run it so I can heard.
+(PERSON14) Sorry [PERSON7]?
+(PERSON7) Yeah.
+(PERSON14) Do I need to do anything in order to correctly see the iframe solution?
+Because actually I'm able to see at least a part of the presentation platform in the bottom of the of the iframe, but the upper part it isn't displayed.
+(PERSON7) So can you share the screen so that we see what you're seeing.
+(PERSON4) I think it's because of the iframe policy of, maybe she is opening on [ORGANIZATION7] Chrome and [ORGANIZATION7] Chrome-
+(PERSON14) Ok, which browser works?
+(PERSON7) Firefox.
+(PERSON4) Firefox.
+(PERSON14) Ok <unintelligible/>
+(PERSON7) Yeah.
+(PERSON4) [PERSON8] in which directory is the preprocessing script?
+(PERSON8) It's the same set up set ups FFM peg with the longest name possible.
+(PERSON4) Yeah, but I don't see that preprocessing script.
+(PERSON8) Ok, let me check.
+(PERSON4) Maybe I have <unintelligible/> let me check.
+(PERSON8) Ok, I push the master at 10 something I think so.
+(PERSON7) So by the way, I've opened a private window with this URL to to see both this subtitles and paragraphs.
+And the video started on auto- in autoplay for me.
+So it's browser dependent it really some browsers play it upfront and some don't.
+I don't get it.
+(PERSON4) So it's not one check process instead of preprocess I think.
+(PERSON8) Yes.
+(PERSON4) Ok, ok.
+Yes it's working and I'll get the video ready.
+(PERSON8) Yes, it's going to incode the thing twice so it's going to take a while.
+(PERSON4) Yeah, no problem.
+(PERSON8) Yeah, also the version you're running will just have the logo on on a white background.
+I'm I paint the image will be instructions but I I'm still testing that it works.
+(PERSON4) Ok,ok.
+And [PERSON7] in this set up would you like to have the opening instructions.
+(PERSON7) I didn't get the question, sorry?
+(PERSON4) So with this set up, would you like to have the opening instructions, the <unintelligible/> basically.
+(PERSON7) Yes, I think that I think that, I think every every video should have this instructions.
+They, maybe not 5 but, well 5 is ok.
+I think all the video should have this 5 seconds delay at the beginning.
+(PERSON4) And the thing is that [PERSON8] again after 5 second you will have to reload the page.
+(PERSON8) Yes, so, I thought about that, ok.
+The point is the the 5 seconds of logo are not meant they only work after the refresh.
+So only once the playlist is active.
+That means FFM peg is already streaming.
+(PERSON4) Yeah, yeah, exactly.
+And that happens only after-
+(PERSON8) Only after the refresh.
+(PERSON4) Yeah.
+(PERSON8) So I'm also preparing now a different, a completely separate video which can be streamed before, it is going to loop and that video is going to show the instructions.
+It's going to say once the countdown reaches the 0, refresh the page.
+(PERSON7) It behaves differently for me, so I don't.
+(PERSON8) I have no-
+(PERSON7) I don't see the problem that you are-
+(PERSON8) Oh, ok.
+The issue is this.
+[PERSON7], I think you're lost, I lost you.
+(PERSON14) Wait a second [PERSON8], because we lost [PERSON7].
+(PERSON8) Yes.
+We also lost [PERSON4]?
+I don't know.
+(PERSON14) [PERSON9] is still there?
+(PERSON9) Yeah, I'm here.
+(PERSON14) Ok.
+(PERSON8) Ok, let me repeat the let me state this idea just so, yeah, sure.
+Ok, the the current proposal is this.
+When we are not showing anything, we must also be showing something.
+Otherwise people won't won't have a let say ok.
+The set up is always have a playlist available.
+When we are not streaming something.
+So when the demo is let say not active, the playlist we show is going to have a loop showing only the static image of the logo and instruction which are saying "Watch, watch the stream and when you see the countdown below reaching zero, refresh".
+When you refresh.
+(PERSON14) A good idea I don't know if actually we are going to have the countdown.
+We have the countdown?
+(PERSON8) Well, I though we have a countdown.
+Ok.
+The point is.
+(PERSON14) Please please check it carefully with [PERSON4].
+(PERSON8) I cannot check anything with [PERSON4] because, check it from here. 
+(PERSON7) So guess guess what happened.
+The whole [ORGANIZATION1] network was like stop working.
+So this this is the network disruption that I-
+(PERSON14) [PERSON7], do you have, [PERSON7] do you have a backup as speaker for tomorrow?
+<laugh/>
+(PERSON7) We do [PERSON4] has a big data plan, so.
+<laugh/>
+He has already working he has been starting that from his cellphone.
+Yeah.
+But the problem is that if the servers are affective by this, then we do not have a second.
+(PERSON9) So what you're telling you do not have a second server room of side.
+(PERSON7) We have 2 server rooms at different sites in [LOCATION1], but we don't have the entry points to them.
+Like I don't know how to log in to them.
+So I think they the machines in the server rooms are not affected by this network error.
+But they could, you know there there is the network administrators are now like running with diggers everywhere.
+Only only technically not physically but it's, yes, they're re-configuring the network.
+So they, yeah.
+They can dig into any wire at any moment.
+(PERSON14) Of course the [ORGANIZATION4] virtual machine can host all of you guys.
+<laugh/>
+I have just to check disc size.
+(PERSON9) [PROJECT2] is now sponzored by [ORGANIZATION5] AWS.
+(PERSON7) Yeah, yeah.
+<laugh/>
+(PERSON14) No, no no, we are on asian unfortunately.
+(PERSON7) This is crazy.
+(PERSON14) At least we are really doing our best in order to test <unintelligible/>
+(PERSON7) Yeah.
+Ok so [PERSON4] if you are connected.
+You're now muted probably so.
+(PERSON14) [PERSON8] was explaining.
+(PERSON4) Yeah, I'm connected.
+(PERSON14) Before a network problem.
+[PERSON8].
+Would you like to repeat it?
+[PERSON8].
+(PERSON8) Yes.
+So,ok.
+I can only explain what I can manage to do.
+Not something else.
+So.
+The idea is, ok.
+The the problem I see still is that.
+People are going to connect to presentation platform.
+They are going to see whatever playlist we have left on the on the web folder.
+The plan is now this.
+Before we run, ok, when [PERSON4] is not actually streaming.
+A video which is going to be subtitle and everything he is going to stream a different video, that video is going to be static.
+Is going to be of course is going to be a dynamic playlist but it's going to show something static.
+That is going to be the the logo and visual instruction saying to the peopl- to people "watch the the countdown in a subtitles".
+Are we still going to add the countdown?
+Ok.
+So.
+(PERSON14) No no no no.
+Are we still going to have the countdown?
+[PERSON7], [PERSON4], do we will this countdown instructions?
+(PERSON7) We don't need it anymore.
+Because we, yeah, we we tested it on Tuesday night when we were running the 10 machines or 20 machines in in the lab.
+And they're whenever we connected a new machine, all we did was to open web page on the [PROJECT2] platform, click play and click like live, which is clicking the very last bit of the of the slider of the video.
+And that joined the live streaming.
+The subtitles were always in sync and the the video was also very close to to in sync.
+So we do not need the countdown anymore.
+(PERSON4) Ok.
+(PERSON14) So the instructions has  to be fixed or we need to put the countdown in order to tell people when to refresh their pages.
+(PERSON7) So they the question is when the refresh is needed.
+In our experience the refresh is needed when we change the video.
+(PERSON8) Yes.
+(PERSON14) Exactly.
+(PERSON7) When the FFM peg is stopped and started again.
+(PERSON14) Exactly, so the first video, the one who shows the logo and just instructions is the first one.
+The second one is the one which actually plays the video demo.
+So we're going to stop one FFM peg in order to start the second one.
+(PERSON7) Yeah.
+(PERSON14) And here probably refresh is required.
+And [PERSON8] prepare the first video with the-
+(PERSON8) I'm working on it.
+Does not exist yet.
+(PERSON14) Is going to prepare the first video in order to show the [PROJECT2] logo and instruction telling people to refresh their pages when-
+(PERSON7) When we tell them.
+When we tell them.
+(PERSON4) So [PERSON8], could you look at this error which I got from the one shot process.
+I think it's the FFM peg version again maybe.
+(PERSON7) There is a file-
+(PERSON8) This is about frame rate.
+Videos are supposed to have a, you see the 48000 that is the audio frame rate.
+(PERSON4) Ok.
+(PERSON8) Can you show me the the input video you are using?
+The name.
+(PERSON4) Yeah, yeah, ok, so the name is is this NK use cz mp4.
+(PERSON8) I only manage to test videos with 44 and 100.
+(PERSON14) Ok, which-
+(PERSON4) We can we can test this logo after we let's just hold it for a moment.
+And let's test our original set up and once-
+(PERSON14) Ok, but may I ask you just a second to make FF probe of this video?
+Write you the - .
+Ah ok perfect.
+This is correct, it's the same as usual [PERSON8].
+(PERSON8) Ah, it's not the us- the same as mine other- anyway the script should be creating the logo with the proper the proper audio frequency and it's not working and I don't know why.
+(PERSON14) It say that it cannot find the-
+(PERSON8) Find the file, yes.
+(PERSON14) Some some wrong path somewhere.
+(PERSON4) Yeah, not a problem so let's hold this for some time and let's get back to original set up.
+And you guys can switch back to your screen.
+Where you see the where you see the 2 presenter window in iframe.
+And.
+(PERSON8) Ok, the script is, do you have the the PNG logo locally at.
+Everything I'm making is supposed to be run from the same folder of course.
+Not meant to.
+(PERSON4) Aha, ok.
+(PERSON8) You need logo dot png <unintelligible/> logo dot png to make this work.
+(PERSON4) Yeah I have the white logo png and logo png in same folder but the video is <unintelligible/>
+(PERSON8) Yeah, but where you running the the call from this folder.
+(PERSON4) Yeah, yeah, yeah, so I <unintelligible/> the video so in the current folder.
+(PERSON7) Just a side note, everybody should avoid any remove commands in their shell scripts.
+(PERSON8) Yes, <unintelligible/>
+(PERSON4) Disrupt.
+(PERSON7) Oh.
+Just comment this out it's or-
+(PERSON8) Temporary files and they are <unintelligible/> but yeah you can comment your line.
+(PERSON7) They will just remain there.
+Yeah.
+(PERSON8) Ok.
+Find, ok, this.
+You're going to get a lot of temporary videos concused inside this so.
+(PERSON4) Yes.
+(PERSON8) Watch your <unintelligible/>.
+[PERSON4] can you scroll up I saw I think I saw an error.
+(PERSON4) Yes.
+(PERSON8) I guess I somehow the yeah the the logo it's failing to generate the the movie of the logo from the image.
+(PERSON4) I think it's the FFM peg version.
+If it's working for <unintelligible/>.
+(PERSON14) [PERSON8].
+(PERSON8) Yeah.
+(PERSON14) May I ask you to prepare the video for [PERSON4] and upload it?
+(PERSON8) Yes, where?
+(PERSON4) Just upload it in [ORGANIZATION7] drive.
+[ORGANIZATION7] drive-
+(PERSON8) I already have a copy here but.
+(PERSON4) [ORGANIZATION7] drive just do it in [ORGANIZATION7] drive and and I have a very short command which should download it.
+(PERSON14) Ok.
+Virtual machine could be also used to as CP files and.
+(PERSON8) Ok.
+(PERSON14) I know I don't know nothing regarding your internet connection so [PERSON8] is it possible?
+(PERSON8) I can only a <unintelligible/>.
+(PERSON4) <unintelligible/> hold this <unintelligible/> and run the remaining the old set up.
+So.
+Shall shall I start it?
+(PERSON7) Yes please do so, what should we do?
+(PERSON4) You just have to so.
+(PERSON7) Reload.
+(PERSON4) Yeah, yeah, yeah, definitely reload.
+(PERSON7) It is playing.
+(PERSON4) But I haven't started the system.
+Just do when they ask it, ok?
+So I'm starting in 5 4 3 2 1.
+Yeah yeah.
+<another_language/>
+(PERSON7) So I'm going to interrupt you because I've been watching it and I my video has already stop playing and I still see the subtitles coming so my video was 10 seconds at least ahead of the subtitles.
+(PERSON4) So the sub- video also stopped in my system and there are still subtitles.
+Basically so these are the very last sentence which I still render rendering <unintelligible/>.
+(PERSON7) But how is that possible that the ASR is so delayed.
+The ASR still getting some input that doesn't make any sense. 
+(PERSON4) Ok, wait a minute.
+(PERSON7) So in the-
+(PERSON4) Ok it's taking from, no, that is.
+Something is wrong.
+(PERSON7) So in the meantime [PERSON13] I've seen that in, there is oh, so there is just belgian or whatever language tag as the beginning of Romanian outputs right?
+If you look at the Romanian outputs there is always this BBB.
+(PERSON13) Oh, ok, I didn't actually look at the outputs.
+<laugh/>
+(PERSON7) I did so.
+(PERSON4) Ok, so this is some <unintelligible/> from my side I think.
+(PERSON7) But how was that playing happening, how come that it was so that I saw the video so much earlier than the subtitles.
+(PERSON4) Yeah, that's-
+(PERSON14) Well, sorry guys.
+(PERSON7) Yeah.
+(PERSON14) First, please consider that could also be the case that the ASR server is still just processing things and maybe it's not that a powerful machine and just a little bit slow.
+Moreover consider that we are all streaming everything <unintelligible/> internet lag <unintelligible/>.
+But I would like to <unintelligible/> the noise problem.
+Have you seen that from the Czech ASR the label <unintelligible/> noise underscore.
+Is outputted.
+And it's gonna be translated and making a mess in the translations.
+(PERSON7) Yeah.
+(PERSON4) Yes, it does, yeah.
+You're right.
+Ok, I'll make this <unintelligible/>
+So [PERSON7], so.
+(PERSON7) Yeah.
+(PERSON4) So can you take your sub- the [ORGANIZATION1] presenter and see if the very last subtitles are very are related to the video or they're like some rubbish.
+(PERSON7) There was, so I see sometimes forgotten sentences or sentence parts.
+Which is strange.
+So as if there was some sound input missing during some like portions of that stream.
+But when this is not the problem then the quality is good.
+So I don't know whether I don't know how to check but we should be listening, ideally listening to the sound which is going to the ASR.
+I think that in your new set up when you are probably directly sending from FFM peg to the EB client.
+It's seems like that there could be lex or skipped parts of audio and there could be also this edit delay happen.
+(PERSON4) Yes, yes, you're right.
+(PERSON14) Ok, but except from these I really liked the the demo.
+I checked both in the just presentation platform and also I really liked the splits screen in the -
+(PERSON7) I think the split screen is good for us but it is bad for the.
+So and we also have the problem of jumping subtitles so it's again the segmentor is not perfect here.
+So the the split screen is complicated.
+I have a smaller laptop screen laptop here and it's quite impossible to fit it so that I see it well.
+(PERSON14) Ok.
+(PERSON7) I don't think that audience will manage.
+I think the audience needs to show only needs to see only the [PROJECT2] platform subtitles.
+(PERSON14) Ok.
+But I enjoyed also the split screen it was really interesting and I check just the English translation and except from the noise problem the translation was good.
+I understood the at least the phrases <unintelligible/>.
+Something that really works it's really nice.
+(PERSON4) So [PERSON7] I'm starting it just again I made a little change in on how-
+(PERSON7) Ok.
+(PERSON4) Output of FFM peg is fed to the EB client.
+(PERSON7) So I'm going to open the [PROJECT2] platform only as if I was the participant.
+I see the last video bit there.
+(PERSON4) Yes.
+(PERSON7) And that's only the last segment.
+So it should ideally be the the loop looping video that [PERSON8] was talking about.
+I'm going to enable Czech and English, yes.
+And German.
+And I'm going to, well, but when I refresh, so you tell us when we should refresh, right?
+(PERSON4) Yes.
+So you should refresh in-
+(PERSON7) We can refresh later, that I don't think that's a problem of.
+(PERSON4) Ok.
+(PERSON7) Or actually I can refresh whenever I see this subtitles appearing.
+(PERSON4) Let me run it a once, let me see if-
+(PERSON7) Yeah.
+(PERSON4) Things really works.
+(PERSON7) So should, is it ready?
+Is the video playing?
+(PERSON4) It should play.
+(PERSON7) No.
+(PERSON4) It's not.
+(PERSON8) When after FFM peg stop streaming the playlist stays there.
+So what you are saying now is the last-
+(PERSON7) Last bit, yes.
+(PERSON8) Of the previous playing.
+(PERSON7) Yeah exactly.
+(PERSON8) Ok, I'm meanwhile I ok, I'm making videos in 48000 audio <unintelligible/> for [PERSON4].
+I'm uploading them to the machine <unintelligible/> I let you know when I'm finished.
+(PERSON4) Yes, yes.
+(PERSON14) Thank you [PERSON8], but may I ask you to move it from TMP.
+Leave it in the PVAD mean <unintelligible/> because you know that it needs to restart-
+(PERSON7) Just restart the loose the TMPS.
+(PERSON14) Just just as backup.
+At least we have a copy of all the files somewhere.
+(PERSON7) So [PERSON4], let us know when we should-
+(PERSON4) Yeah, yeah, sure.
+So it's strange.
+(PERSON14) Meanwhile, [PERSON9], I'm going to open a set of ports in the firewall for the <unintelligible/> virtual machine.
+So if you have some network problem probably it's me that I'm updating <unintelligible/>, ok?
+(PERSON9) Yes.
+I'm just gathering the files right now anyway.
+(PERSON8) The videos are uploaded, they are in the home of PD admin.
+They are called please wait and refresh on countdown so they are, they are called as they say.
+(PERSON4) So [PERSON7].
+(PERSON7) Yep.
+(PERSON4) <unintelligible/> help here.
+(PERSON7) Should I come over?
+(PERSON4) Yeah, probably, that would be better.
+(PERSON7) Yep, yep.
+(PERSON4) So here...
+(PERSON9) Ok, so I started the docr and compile and <unintelligible/> built it from sources <unintelligible/>.
+<unintelligible/>
+And I'm gonna be-
+<parallel_talk/>
+(PERSON7) So just to let you know we're not there just yet because [PERSON4] can now play like stream the video.
+But we are not good at sending it at the same time to the [PROJECT2] platform.
+We need to figure out how to add the output from FFM peg.
+[PERSON4] could you mute yourself while yeah, yeah.
+So I need to be in the same room as [PERSON4] so that I can diagnose but I'll I'll have to leave very shortly.
+And.
+(PERSON14) So maybe first we have to schedule the next test session this afternoon.
+(PERSON7) Yeah, yeah.
+So schedule something I'll I'll be busy and my machine will be busy with my kids and their like school duties.
+So I'll be at home with with the kids and they will be using my machine from during some time, not all the time.
+So schedule anything.
+You need to unmute yourself.
+(PERSON4) And about this, ok.
+Ok and about the segmentor if because I have most of the thing set up, already set up.
+It's just some like <unintelligible/> installation issue.
+So I think if [PERSON9] can assist me like one to one help, this can be diagnose quickly <unintelligible/>.
+Is [PERSON9] here?
+(PERSON14) I think he needs <unintelligible/> for a moments.
+(PERSON4) Ok, ok, ok.
+(PERSON14) And.
+Is it fine for you to be back at 15?
+(PERSON4) Yeah, yeah, yeah.
+It's completely fine.
+(PERSON14) Ok, we will use always this [ORGANIZATION9] call.
+(PERSON7) This one will be busy.
+Like please provide another [ORGANIZATION9] link because this is going, yeah.
+(PERSON14) In any case I can provide the usual 40 minutes.
+[PERSON9] is on <unintelligible/> we will link in the document.
+(PERSON7) Yeah, yeah.
+And-
+(PERSON14) Some point-
+(PERSON7) I'll be busy until prob- like sometime after 15 probably so well join without me.
+(PERSON14) Yeah.
+(PERSON7) For sure.
+And also it'll be good to learn from [PERSON9] if he's succeeding with the substitute server.
+(PERSON14) Exactly.
+(PERSON7) And I have a question on [PERSON8].
+The FFM peg-
+(PERSON14) [PERSON8] is not here.
+Right now.
+(PERSON8) No I'm here right now.
+(PERSON7) Ok.
+(PERSON14) Sorry [PERSON8], scuza.
+(PERSON7) So the question is, the FFM peg command that you crea- that you use to create the times the short snippets of the of the video.
+(PERSON8) Yes.
+(PERSON7) It outputs something to STD out, some data.
+Do you know what it is?
+Because-
+(PERSON8) Ehm, no I don't keep the locks.
+(PERSON7) It's not the locks, it's some data it's binary format.
+It's, I'm not talking about some error, I'm talking about the standard output of that command.
+And I have no experience with FFM peg you have now much better experience that I have.
+So.
+What is the output of FFM peg, how can we find out what the data is.
+Can we somehow find out what is the output of FFM peg?
+(PERSON14) Well, the one <unintelligible/> in input to EB client it's raw file, so actually.
+(PERSON8) Aah, ok, now ok, now I understand the question, sorry.
+(PERSON14) If you write the output of FFM peg into a file actually it will be a valid PCM file.
+(PERSON8) Yes.
+(PERSON7) This is this is what we assumed.
+This is what we oh I see that, the PCM as 16 LE there is-
+(PERSON8) Yes, that is raw audio.
+(PERSON7) But that has caused the delay.
+That's the problem.
+So it has caused the horrible delay in the in the set up.
+So this is what [PERSON4] did in the morning test.
+Like when it work in the morning.
+So I'm trying to figure out how come that there was this huge delay.
+EB client was receiving the the sound.
+We saw the correct subtitles.
+But the delay was in seconds, like 10 seconds easily.
+(PERSON14) Well the ehm, the audio features are the only one which the presen- the [ORGANIZATION4] architecture is able to process.
+So maybe you would like to resample the video.
+(PERSON7) What's resampling?
+No, we need, we need to avoid buffering from FFM peg.
+So FFM peg has some output buffer and it doesn't emit the sound quickly enough.
+(PERSON14) Well, when.
+(PERSON8) Well that that piece is already on copy so there there is no way to make it faster.
+And.
+(PERSON14) Exactly.
+<another_language/>
+(PERSON8) Re-encoding.
+(PERSON14) Re-encoding.
+The re-encoding is-
+(PERSON8) The re-encoding is already taking care in the pre-process script.
+(PERSON7) Well, I I think there is a problem with FFM peg or some buffering of of standard output.
+So maybe Linux buffering on the pipe is is stepping in.
+So [PERSON4] can can you try using this unbuffered we have this unbuffered prefix.
+Please put this in front of the FFM peg as well.
+So let's try that.
+That's.
+Like it is, that our machines are too slow for this video?
+(PERSON8) Well, in principle it could be I mean the.
+If the video, you are you are passing through you're calling that Linux set up, right?
+Is that it.
+(PERSON7) Well [PERSON4] listen to that and I'll mute myself and [PERSON4] will now talk.
+(PERSON8) Oh ok.
+Just to make sure, [PERSON4] you're running the Linux set up right?
+(PERSON4) Yeah, I run it the set up, yeah.
+(PERSON8) Ok, ok.
+The this path, this script expects a pre-processed video input.
+(PERSON4) Yes, yes, yes.
+(PERSON8) The encoding so it is already been done.
+It is assume that it is already done and this call just copies the input to the output.
+There is no re-encoding.
+So it cannot be possibly faster than this.
+(PERSON4) So what I what just saying that could it be the-
+(PERSON8) The EB client could also delay it itself, I think.
+Because is goin-
+Well, is going to establish the connection and and everything.
+That is going to take some time but there is no way to to make it shorter.
+You cannot prebuffer EB client.
+(PERSON4) That's strange.
+(PERSON8) We can consider, you know, for the future.
+You can, we can try a different set up which has-
+We could have, I don't know EB client already running from a queue, a <unintelligible/> some kind.
+And then I don't know FFM peg right to that so there is no connection establishing delay.
+Or EB client but yeah, that this <unintelligible/> at this point.
+They cannot be done.
+(PERSON14) This picture is really is really.
+(PERSON8) Yes, I mean.
+(PERSON14) No, exactly, for tomorrow it's not possible to do a different solution.
+(PERSON4) Yes, yes I I agree.
+So what I was thinking that could it be due to the quality of the video.
+The quality of the video is like too high.
+(PERSON14) No.
+(PERSON8) No, no.
+(PERSON14) The connection face of EB client cannot be affected by video quality.
+It's not something you can fix.
+(PERSON4) No, no I'm saying that maybe FFM peg is intentionally causing delay.
+Due to the quality of the video.
+(PERSON14) But it's not FFM peg.
+[PERSON8] [PERSON8] said that the when EB client starts, [PERSON8] tell me if I understood-
+(PERSON8) Yes.
+(PERSON14) When EB client starts, there's the end shake phase with mediator.
+And this probably is introducing the delay.
+And this cannot be avoided.
+(PERSON7) Yeah, I see, so what do you -
+<parallel_talk/>
+So there is the delay-
+(PERSON8) Connect to the mediator then the mediator establish the pipeline and then the audio is getting process from <unintelligible/> is getting send to ASR.
+(PERSON14) Please remember that everything as being prepared for face to face conferences.
+So, and not for play video.
+So I think that actually we are doing really the best solution possible at the moment.
+It's not possible to reduce also-
+(PERSON7) Yeah, so in that case in that case the best solution is to have the machine following its own sound that we have done beforehand.
+So the EB client should be started all the time and it should be listening to the sound output of the machine.
+And we need to ensure that we run the FFM peg streaming simultaneously with a regular play of that movie.
+And the same video will be started from 2 like running in 2 streams.
+One stream would be playing it to the sound cart and the EB client would be stealing that sound output.
+And the streaming with FFM peg will go through the web server to to all the participants.
+And that will avoid the lag at the EB client start up.
+Because the EB client will be prepared already beforehand.
+And whenever someone else would say something in Czech on that machine then yes that would that would also get to these pipes.
+And it would also get subtitled.
+I think that's the safest option now.
+So the these the streaming from FFM peg to EB client has this lag of start up which is inevitable.
+And that's why we should not choose this.
+Ok, did I get it correctly?
+(PERSON14) If you are able to make the other option working.
+(PERSON7) Yeah, yeah.
+I'll also I tried grabbing the standard output from your FFM peg command.
+Which is supposed to be PCM s 16 little <unintelligible/>.
+(PERSON8) Yes.
+(PERSON7) And I tried to play it with A play minus F S 16 underscore LE.
+And it was playing like very slowly.
+So there was a mismatch in the in the sampling rate.
+And I'm wondering if there is if there is any other difference in formats if it's PCM-
+(PERSON14) [PERSON7].
+(PERSON14) Yeah.
+(PERSON14) Copy and paste your comment please so so that I can check it.
+(PERSON7) Yeah, it's again on different machine so it's it's not easy.
+But I'll I'll so for, [PERSON4]-
+(PERSON4) I can do that.
+(PERSON7) Yes, [PERSON4] paste the FFM peg command and I'm pasting what I played this way.
+So I used A play minus F S.
+(PERSON4) I think [PERSON7]'s right about the very noise which which is being emitted in in the very beginning.
+Because I see <unintelligible/> underscore as a subtitler so.
+(PERSON7) The file with <unintelligible/> from.
+(PERSON4) Shall I paste the command in the chat window.
+(PERSON7) Yes, so please do.
+So what I've pasted into chat window is how I played it.
+And the way to obtain this file was to run the command that [PERSON4] will paste and that command <unintelligible/> and captured the output to this yeah, exactly.
+So you see these standard error being <unintelligible/> standard output to this the file with STD out.
+So when I did this sequence of FFM peg <unintelligible/> and playing with it with A play I heard like very slow speach.
+And when I tried S44 then there was some horrible noise and some, so so I was not able to reproduce the sound properly.
+Which indicated in my setting I was not able to confirm that EB client is receiving the correct sound.
+(PERSON14) Yes, I'm going to check it.
+(PERSON7) Yeah.
+(PERSON8) Yeah, it can be-
+(PERSON7) Ok, so let's I suggest to end this call now anyway.
+And [PERSON9] should let us know any news from the electrician.
+And also, so there is horrible echo, can you mute yourself [PERSON4]?
+(PERSON4) Ok, sorry.
+(PERSON7) It's so annoying to be like in you have to always switch and like be in the same not be room, same machine, different machine, yeah.
+So [PERSON9] please let us know about the electrician.
+[PERSON9] are you here or not?
+(PERSON13) I think [PERSON9] is away.
+(PERSON7) Yeah, yeah, ok.
+(PERSON14) Ok.
+(PERSON7) So he, please tell him when he appears reappears to let us know about the elctrician.
+And also the status of the segmentation worker.
+And between 1 and 2 we will make the decision and yeah.
+It's seems more likely that we'll have to postpone the demo.
+I'm afraid.
+But I think that we should give the option to have this simple and now walk over to [PERSON4] to help him with the set up that I have in mind.
+And [PERSON14] you can debug the debug the or double check, tell us how to play the standard output of the FFM peg so that we hear it correctly.
+Right?
+(PERSON14) In order to fix it I just need probably a couple of minutes.
+(PERSON7) Yeah, sure, yeah.
+(PERSON14) I will write you the the commands in the <unintelligible/> is it fine for you?
+(PERSON7) Yes, yes, perfect.
+Ok.
+(PERSON14) And <unintelligible/> e-mails in order to define what tell-
+(PERSON7) Yes.
+(PERSON14) Ok.
+Yeah, ok, thank you, so I'm I'm like leaving the call now.
+[PERSON4] will probably remain connected and I'll be sitting for few more minutes at his desk.
+But let's avoid any more connected machines.
+Thank you.
+(PERSON14) Bye.
+(PERSON8) <another_language/>
+(PERSON14) [PERSON9]?
+Is everything fine with the virtual machine?
+(PERSON8) <another_language/>
+(PERSON14) [PERSON4]?
+[PERSON4]?
+[PERSON4]?
+<another_language/>
+(PERSON14) Hi [PERSON9]
+(PERSON9) Hello.
+(PERSON8) Hi.
+(PERSON14) I was trying [PERSON4].
+<laugh/>
+I was trying to get [PERSON4] attention.
+<laugh/>
+The FFM peg problem check the command [PERSON8] copy and pasted in the chat.
+With this one actually he's able to verify that the command it's playing audio correctly.
+Check it please.
+[PERSON8] has been faster than me.
+(PERSON7) Oh, can you also paste it to the thing, can you also paste it to the [ORGANIZATION7] doc, because-
+(PERSON14) Yes, sure.
+(PERSON7) On the machine where I can test it.
+Chat is not available there.
+And.
+(PERSON14) <unintelligible/>
+(PERSON7) I was not on the call for second, so any news?
+Either on the electrician or on the the set up of the segmentation worker on the <unintelligible/> machine?
+(PERSON9) So it seems like the <unintelligible/> succeeded.
+(PERSON7) Say it again?
+(PERSON9) It seems like the build for the docr container succeeded.
+I'm now uploading the the train model to see if I can run it.
+(PERSON7) Ok, so there-
+(PERSON9) And as for the reconstruction <unintelligible/>
+(PERSON7) Yeah, so I'm about to leave now but at 1 or at quarter past 1, please send us all an e-mail with 2 status.
+(PERSON9) I will update you as soon as I <unintelligible/>
+(PERSON7) Yea, yeah, yeah.
+Whatever [ORGANIZATION10] or e-mail.
+And it's not only the electricity it's also the the segmentation worker.
+(PERSON9) Yeah.
+(PERSON7) Yeah, ok, thanks, so yeah.
+I think that's that's it for for this session so let's let's get in touch afterwards, right?
+(PERSON14) Ok.
+(PERSON8) Did you paste the.
+(PERSON7) Sorry?
+(PERSON8) Did [PERSON14] paste the the FF the FF play command somewhere on the [ORGANIZATION7] doc or am I going to-
+(PERSON14) Yes, yes, yes I did it.
+(PERSON8) Oh, ok, I cannot find it but ok I trust you.
+(PERSON7) I'll I'll try that.
+(PERSON14) It's under next test session section.
+(PERSON7) Yeah, ok, so we're leaving out, ok, thanks, bye.
+(PERSON4) Bye, bye, bye.
+(PERSON14) Super.
+(PERSON9) Oh you guys are still here.
+Of course.
+Yeah, the segmentor is running.
+(PERSON8) Yes we are.
+(PERSON9) I'm running 2 right now I don't know how much the machine can do if you need more you can let me know or you can scale the service yourself.
+(PERSON14) I really, actually I don't know how many segmentors are required for the demo.
+But the machine should support several instances of of services because actually it's a good one.
+I were fixing connection policies and I forget to finish this part.
+If at some point you have problem accessing the service tell me.
+[PERSON8].
+<another_language/>
+(PERSON9) Ok, so if there is nothing else immediately to discuss I'm gonna leave the call.
+I will keep you guys updated by [ORGANIZATION10] about the power situation.
+(PERSON14) Ok.
+I think also we can close the meeting here because we will, we are all going to leave for lunch.
+So thank you.
+Thank you guys and see you later.
+(PERSON8) Bye.
+(PERSON14) Bye.

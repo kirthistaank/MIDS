@@ -1,0 +1,44 @@
+Fri 24.6.2019 at 14:30 AM,
+[PROJECT1] [PROJECT2] KUFR
+Minutes:
+Pexip: [URL], PIN: 1234
+
+-  Status of the components: (to be discussed at 14.30)
+--   ASR workers:
+-  [ORGANIZATION3] not present on the call, [PERSON12] not responding, [PERSON11] has mentioned he would be giving a lecture at this time.
+-  How many MT outputs were we able to get running at most?
+-  6 were used at once at most.
+-  “remote kill” feature for swift restarts?
+--   MT workers:
+-  These seem OK but [PERSON1] is a little worried because they have not been really tested yet...
+--   Publishers
+-  ...some strange problem, not running now.
+-  [PERSON5] will still investigate.
+--   Presentation platform in general
+-  What credentials should we use?
+-  user-view: [EMAIL], password: [PASSWORD]
+-  admin-view: [EMAIL], password: [PASSWORD]
+-  To log out, use the button in the bottom-right corner
+
+--   Streaming of subtitles
+-  [PERSON1] failed to stream subtitles from his laptop behind a firewall (“failed to read RTMP packet header...Unknown error”) and from his desktop (“not enough frames to estimate rate; consider increasing probesize...Input/output error”)
+-  Can we make [ORGANIZATION2] platform running locally within [ORGANIZATION1] wired network?
+-  Without this, the serving NB won't be able to stream through the firewall…
+-  Yes, this will 
+--   Delivering subtitles to interpreters' booth?
+-  X1...X4 should work, [ORGANIZATION2] will add them this afternoon.
+--   Critical things to fix today+tomorrow:
+-  test streaming of slides
+-  debug ASR workers and/or create multiplexing client
+-  Given the technical and communication problems today, [PERSON1] would really like to have another debugging call on Monday. Everyone please confirm your availability here:
+--   [PERSON1]: 11-15 (maybe also earlier)
+--   [PERSON9]: 9:30-16
+--   [PERSON13] ([ORGANIZATION2]): 09:00-18:00
+--   [PERSON5] ([ORGANIZATION2]): 09:00-12:30 14:00-18:00
+--   [PERSON12]: 10-16
+--   [PERSON11]: 10-16
+--   [PERSON12]: 9:00-18:00
+--   anyone else?
+-  Even without the call, [PERSON9] and [PERSON8] will be testing the whole thing (for the rest of today and) from 9am on Monday again.
+--   [ORGANIZATION3], [ORGANIZATION2], [ORGANIZATION4], please have someone on [PROJECT1].slack.com #live-testing channel present from 9am.
+

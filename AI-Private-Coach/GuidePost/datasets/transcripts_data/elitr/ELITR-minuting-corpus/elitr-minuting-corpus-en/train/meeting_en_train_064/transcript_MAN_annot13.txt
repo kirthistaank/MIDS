@@ -1,0 +1,595 @@
+(PERSON4) Yes, yes, you have the-.
+(PERSON5) Yes, yes, yes, yes.
+(PERSON4) Yeah.
+(PERSON5) 
+Yes.
+Maybe, uh, it would-
+You could give me also.
+So is it doesn't change the situation.
+Well it doesn't.
+Hold on a sec.
+(PERSON4) Can you hear me?
+(PERSON5) Yes.
+I can hear you.
+<other_noise/>
+And I didn't send you the meeting for, uh, uh, for evaluation yet.
+I know which meeting I want to send.
+But I didn't didn't do it yet.
+(PERSON4) And and the evaluation measures would be based on the [ORGANIZATION3] document, right?
+(PERSON5) No. 
+Um, not really.
+So actually, uh, maybe I -.
+Maybe we should-
+We will wait for [PERSON1] and I will, uh, say it, uh, well I can repeat it afterwards.
+But, uh, our evaluation should be really manual in all senses.
+So, uh, we are supposed to read very carefully the transcript.
+And if you like, I can also send you the audio files.
+And read the minutes. 
+And esti-.
+Uh, so we can use the document with the manual evaluation, which everyone and [PERSON1] prepared.
+But our task is to evaluate it from all possible ways we are able to evaluate.
+So, uh, is-.
+This is not just give the numbers but to really think about this evaluation.
+So to you think about if, uh, maybe possibly we need some other scale, some other estimation.
+So re-.
+So if we have-.
+So su-
+Important is, uh, not to get the number, but to write down, to fix, to understand what, uh, problems we explored when evaluating.
+Yes?
+(PERSON4) Yeah, yeah, okay.
+(PERSON5) Mhm.
+[PERSON6].
+[PERSON6] are you there?
+(PERSON6) Yes I'm here.
+(PERSON5) Fine.
+I just-.
+Uh, uh, did I say it correctly?
+This is what you discussed with [PERSON3], didn't you.
+(PERSON6) I don't remember that.
+(PERSON5) I mean, that, uh, no this evaluation, this uh, uh, evaluation of the document I'm sending to you.
+You read, uh, the transcript or listen to the recording, and evaluate the minutes from all possible ways you are able to evaluate it.
+And write down all your comments to that.
+Not just give the number from one to five.
+But you, you personally, especially you really think about what is, uh, possible to evaluate.
+What is not poss-.
+So really think about it.
+Go deep into the idea of evaluation.
+(PERSON6) Why would I do that?
+(PERSON5) Uh, ask [PERSON3].
+Because it was discussed many times already.
+Really think about evaluation the minutes from all possible ways.
+Uh, why you do that?
+Because, uh, the task-
+The-.
+So, uh-
+We want all, uh, all of all of our team should know what does it really mean ,uh, to evaluate the minute.
+(PERSON6) Yes, but for this [PERSON3] said we should do one or two samples.
+(PERSON5) Yes, I-.
+(PERSON6) We should write the summaries of one or two samples and then <unintelligible/> away.
+(PERSON5) Yes.
+(PERSON6) The <unintelligible/>
+(PERSON5) Yes, we will take just one sample for the moment-.
+(PERSON6) Yes.
+(PERSON5) And several minutes.
+And for this one sample-.
+(PERSON6) Yeah.
+(PERSON5) We will-.
+You.
+So you will evaluate.
+Make this evaluation and write down all the problems.
+(PERSON6) All the problems?
+(PERSON5) Well.
+All you've-.
+So, uh, uh, the output of this dry run of the evaluation is the discussion that comes out of it.
+So, that all of us will have a meeting after evaluating it and discuss, uh, the problems we met, when evaluating.
+This is the main output, not the numbers but-.
+(PERSON6) Yes.
+(PERSON5) But-.
+Yes.
+This is just everything.
+<other_noise/>
+Okay.
+[PERSON1] are you here?
+Yes, I see you here.
+Hi.
+(PERSON1) Yes, I'm there [PERSON5], hi.
+(PERSON5) Yes.
+I'm just sp-
+We are just discussing this dry run evaluation for one document.
+(PERSON1) Yeah.
+I think-.
+(PERSON5) <unintelligible/> 
+And this-.
+And I just will shortly repeat that the idea is not to, uhm, measure-.
+Not to get the number, not just to use all the uh, uh,-.
+Or not just to use the document that you and everyone will pre- present.
+(PERSON1) Mhm.
+(PERSON5) But to think about really evaluating this concrete meeting and uh, uh, and open-.
+So, uh, uh, find all the problems that appear when trying to evaluate.
+Write it down and <unintelligible/>
+(PERSON1) Mhm.
+(PERSON5) Mhm.
+Okay.
+(PERSON1) Mhm.
+Yes, yes.
+(PERSON5) Yes.
+This is all that-.
+For this evaluation.
+I will sent you the file today.
+Sorry for-.
+(PERSON1) Mhm.
+(PERSON5) For the delay. 
+(PERSON1) Uh, [PERSON5], I have quite a more progress.
+So, uh, I did make that, uh, semantic similarity for an the deep a neural model for it.
+So, uh, I I was thinking that maybe we can-.
+uh, I will show you and maybe we then can also integrate that with the alignment tool.
+(PERSON5) Uh, uh, integrate the similarity measure into the alignment tool?
+(PERSON1) Yeah, so, yeah so because-.
+Because, uh, because we have the minutes and the original meeting and how similar they are, so it will also be a score there.
+Sim-.
+About the semantic similarity of it.
+(PERSON5) Uh, I-
+How-.
+(PERSON1) So I don't know whether it can-.
+(PERSON5) So, just, just just I didn't I didn't get it.
+The similarity between what and what.
+(PERSON1) Between the, uh, meeting and the minutes.
+(PERSON5) Meeting you mean transcript.
+(PERSON1) Yes.
+The transcript and the minutes and two different minutes as well.
+(PERSON5) Yeah, but how to integrate it, uh, into the alignment tool.
+So, you mean.
+(PERSON1) Yeah.
+I have to look at it.
+(PERSON5) So just there is-.
+So you as the annotator open the tool.
+You see on the left side the transcript.
+On the right side the minutes and what is this measure for.
+Or how -.
+Where do you see it.
+So what, what-.
+(PERSON1) Yeah, so as I as we already discussed that, uh, we will be integrating the manual evaluation with the annotation tool for the annotators, uh, to give the scores.
+Based on our manual evaluation aspects.
+So can, uh, the semantic similarity, uh, can also integrated to it.
+I just have to look at it.
+(PERSON5) Yes, aha.
+(PERSON1) I just had that idea in my mind.
+I have to look at the practical aspect.
+I, uh, I actually I'm right now working on [PERSON2]'s alignment tool.
+I was, uh, running it and I was seeing how can we could integrate.
+Because understanding someone else code is is difficult for me.
+So I was trying to understand this code-.
+(PERSON5) Yes, It is always so.
+Mhm.
+(PERSON1) Yeah.
+So I was trying to understand figure it out, where can I put-
+<unintelligible/> and which code is for what.
+So I was trying to understand it.
+(PERSON5) Yes.
+Uh, uh, well.
+But-.
+I will just repeat, uh, uh, the essence if got it.
+(PERSON1) Mhm.
+Uh, we use-
+We integrate your, uh, similarity measure not during the annotation of the alignment.
+This is task one and this is something individual from the evaluation.
+Uh, and so we do, uh, this, uh, alignment between the transcript and the minutes.
+This is the task one and this doesn't concern the measure.
+And then you propose to evaluate.
+Uh, to to use, uh, the similarity measure when evaluating, yes?
+(PERSON1) Yes, yes.
+(PERSON5) This is-.
+I totally agree with that.
+Of course it is good to integrate.
+Yes.
+Thank you.
+It's a very good idea.
+(PERSON1) Yeah.
+(PERSON5) Mhm.
+(PERSON4) Hello [PERSON1].
+(PERSON1) Mhm. So I have.
+So my model is training for two days.
+And I think I will show you that model which I've made.
+Yeah, I think I need to look at-.
+(PERSON4) [PERSON1], [PERSON1] I just want to understand.
+(PERSON1) Yes, yes, yeah.
+(PERSON4) I just want to understand that, uh-.
+You said it's a big model like it's a big model.
+(PERSON1) Yeah, yeah, yeah.
+(PERSON4) So do you think you can integrate that big model into a very normal interface would be straight forward?
+(PERSON1) Oh, well, we can, we can do that easily.
+Uh, we can, we can, uh, uh, integrate, uh, uh, saved model and we can integrate that.
+That's not a problem.
+(PERSON4) <unintelligible/>
+Okay.
+So you want to train that model and then that we will involve that model for the testing. Right?
+(PERSON1) No, no.
+(PERSON4) Okay.
+(PERSON1) So, I think we do have, uh, uh, uh, way out.
+That we can save any model which you have trained into an interface by making it as a FAU? 
+Like, like a pickled file or like a .hf file or any file will just give you an output.
+(PERSON4) Yeah, yeah I understand.
+So you want to save the trained model and integrate.
+(PERSON1) Yes, yes, you got me correct, yes.
+So only the score will be calculated for the semantic similarity of documents and of the transcript and the minutes.
+So actually the key idea was to make everything together.
+Like, uh, all the evaluation, all the, uh, semantic sense.
+So because this is actually all evaluation part, the manual, automatic and the semantic similarity, they are all evaluation.
+Like all the parts of evaluation.
+So the key idea is to integrate all the evaluation thing into one place.
+And not to segregate them, so we have something to demonstrate.
+(PERSON4) So what is metric, what is the metric for the semantic similarity?
+(PERSON1)  Uh, it is based on the Botch model but then GPT is also involved into it.
+The <unintelligible/> model.
+(PERSON4) GPT what, two or three?
+(PERSON1) Uh, two.
+(PERSON4) Okay, and then the metric metric is what kind of similarity?
+Can you like-.
+Maybe if you, uh, have that-.
+Can you demonstrate that?
+Like what what it looks like?
+Or how it actually-.
+<unintelligible/>
+(PERSON1) Uh, uh, de- definitely, definitely I will when I'm in the stage to.
+But I was just discussing the idea that we can integrate it with, uh, this same annotation tool that is the only proper site now to have this conversation, so.
+(PERSON4) Mhm.
+Hello.
+(PERSON1) Yeah.
+(PERSON4) Hello.
+(PERSON5) Hi, hi.
+(PERSON4) Okay.
+(PERSON1) Yeah.
+(PERSON4) Okay.
+What else An- [PERSON5]?
+(PERSON5) Uh, you wanted to-.
+We wanted to discuss something yesterday.
+I don't know what it was.
+Uh, you and me.
+(PERSON4) It was about the, yeah, yeah, it was about the synchronisation of that-.
+(PERSON5) Aha.
+Yes, yes, and work with annotators.
+Yes?
+(PERSON4) Yeah, yeah, yeah.
+(PERSON5) Are you ready to discuss it with me?
+Do you have it prepared so that I can learn how to use it and give it to annotators?
+(PERSON4) Uhm, no, not yet.
+(PERSON5) Okay.
+(PERSON4) I'm still in the development thing.
+Let me, let me finish it first.
+(PERSON5) Okay.
+Yes, yes I agree.
+I just asked.
+Mhm.
+We will do it next time.
+(PERSON4) Yeah, yeah, sure.
+(PERSON5) Uh, then I don't have anything else.
+I'll send you the file.
+(PERSON4) It, it should be straight forward.
+(PERSON5) Mhm.
+Yes, it should but I don't know how.
+I have <laugh/>
+At the moment I have no instructions.
+(PERSON1) Oh, [PERSON5]?
+(PERSON5) Yeah.
+(PERSON1) [PERSON5] we discussed yesterday that, uh, anyhow we don't need synchronisation now because we decided that someone will be there.
+Uh, uh, that-.
+Who will be the ,uh, moderator between the annotators and the GitHub.
+So, do we need synchronisation?
+(PERSON4) Yeah, that's what I mean by synchronisation.
+(PERSON5) That's different.
+That's something different.
+Synchronisation is the annotation within the [PERSON2]'s tool, uh, the synchronisation between the transcripts and minutes.
+And this is needed.
+(PERSON1) Mhmm.
+(PERSON5) It is-.
+Yeah.
+(PERSON1) Synchronisation between transcripts and minutes.
+(PERSON5) Yes.
+(PERSON1) It is not done yet?
+(PERSON5) No.
+(PERSON1) Oh, okay.
+That's what [PERSON2] was, uh, talking about that day.
+(PERSON4) I I didn't understand.
+(PERSON1) Yeah.
+You didn't understand now?
+Or you didn't understand that?
+(PERSON4) I didn't understand.
+No, what is this?
+(PERSON1) Okay, so-.
+(PERSON4) So what is-.
+(PERSON5) What we need to do is to give our annotators the task to synchronise transcripts and minutes wit-, using [PERSON2]'s tool.
+And this is not done.
+(PERSON4) Synchronise means alignment, like -.
+(PERSON5) Yes.
+Let's to-.
+I I always use the word alignment and then you say synchronisation so this is actually-.
+(PERSON4) No, no, no, no.
+You know I meant by synchronisation means I meant that how synchronising the process.
+Like how yuo would give it to the annotators, how they use it and how deliver the work of that.
+It is interpreted-.
+(PERSON5) Aha, now I get it.
+(PERSON4) Yeah.
+<laugh/>
+(PERSON5) So we need to do alignment.
+<laugh/>
+(PERSON4) Yeah, exactly.
+(PERSON5) And before that-.
+Before doing alignment we should, uh, uh, speak about synchronisation.
+<laugh/>
+Okay.
+Yes.
+(PERSON4) Yeah.
+(PERSON5) Yes.
+(PERSON4) Mhm.
+(PERSON5) So this is-.
+(PERSON4) Uh, uh, I guess al-, alignment is already there in the tool.
+Uh, we need to like train the annotators how to do that.
+(PERSON5) Yes, we should, yes,
+Train the annotators.
+Give them the task.
+So this is what I don't know how to do. 
+(PERSON4) Yeah, uh, so that maybe, like-.
+ Let us do it early early next week.
+Maybe early next week we can have like the the method how we would communicate with the annotators.
+And how they would revert back to us, okay?
+And then you can like call your annotators and we can give give them demonstration, uh, how they should do it.
+(PERSON5) Mhm, yes it's it's not a bad idea.
+Yes, so we can do a common call on how to do that.
+(PERSON4) Yeah, right.
+(PERSON5) So I I can try.
+It's not so easy actually I've never heard them and they are very sporadic.
+So, everybody is working in their own, uh, uh.
+I don't know when they are working and if they are able divulge some concrete time for that.
+But I will try to.
+(PERSON4) Yeah.
+I think we can do multiple sessions because it won't take much time.
+(PERSON5) Mhm, yes.
+(PERSON4) Right?
+(PERSON5) Yes, it won't take much time.
+(PERSON4) Yeah.
+So what we can do is, we can we can yeah we can float a <unintelligible/> to meet link.
+And ask them their, uh, schedule and based on that we can do that.
+(PERSON5) Yes, yes very good idea.
+Okay, so let's let's finish for today.
+Yeah?
+(PERSON4) I don't have much else.
+Oh, okay.
+So next two days I can't be there in the coffee call because I have conference to present my research so.
+(PERSON5) Mhm.
+(PERSON4) Yeah, so next two days-.
+(PERSON5) And [PERSON4] is it possible somehow that i can record the meeting so because otherwise-.
+(PERSON4) Oh, I am not at the call.
+I can't actually do that.
+Maybe if you cold do me.
+If you could give me the, uh, I don't know, uh, uh, the password and the e-mail <unintelligible/> to [ORGANIZATION2]?
+I can, I don't know.
+(PERSON4) Yeah, yeah, yeah.
+Yeah, or or else what you can do [PERSON5] is you can schedule a new [ORGANIZATION2] meet.
+Like-
+(PERSON5) Well but it means that-.
+(PERSON4) For the two days.
+(PERSON5) It means that I make another link and then we are all lost in all this.
+(PERSON4) No, no, just for two days.
+<laugh/>
+Like.
+It should be easy.
+<laugh/>
+(PERSON5) How to do that.
+Okay, I will, I will, I will.
+(PERSON4) But the other thing that I can do is, just, I can start the meeting and I leave.
+(PERSON5)  Okay, this is also possible.
+(PERSON4) Yeah, yeah, yeah.
+Like.
+(PERSON5) I actually don't know.
+Should maybe-.
+Maybe we should cancel these two meetings for tomorrow and the day after tomorrow.
+Because should should-.
+If we-.
+I don't-.
+If [PERSON6] doesn't have anything serious to discuss with us, do you?
+Uh.
+(PERSON4) Then like we can-.
+(PERSON6) What about [PERSON3].
+Is it possible to have [PERSON3] in one of these meetings?
+(PERSON5) Uh, tomorrow and the day after tomorrow?
+(PERSON6) I don't know.
+One of these days.
+(PERSON5) Yes, it is possible.
+It it-.
+So, normally it is.
+It works so, that if I want, if we want, if we want to have him in the meeting I ask him and he asks what we want to discuss and when I say what we want to discuss, he joins.
+What I, what are we going to discuss.
+(PERSON6) About these things.
+I mean.
+I see there is a little bit of confusion on what we are saying so maybe he can join and clarify a little bit the tasks that we are working on.
+(PERSON5) But you mean this evaluation.
+(PERSON6) Yes.
+(PERSON5) Or something else.
+Or or some other things.
+(PERSON6) Around the evaluation, the thing that we are building like this tool that we are building.
+(PERSON5) Uh, so about-.
+(PERSON6) He should be, he should be part of the discussion I mean.
+(PERSON5) Yes, yes, I agree I totally agree.
+But on the other hand if [PERSON4] cannot be present tomorrow and the day after tomorrow, it it maybe possibly a loss of information, to ask [PERSON3] to come and to let him describe everything without [PERSON4].
+(PERSON6) Okay, okay.
+(PERSON5) So we would rather ask him to join next week and discuss -.
+(PERSON4) I think, I think [PERSON5] this is a good plan, because, uh, I think by the next week if [PERSON3] joins I can like also maybe show him the [ORGANIZATION1] corpus from our end.
+(PERSON5) Mhm.
+(PERSON4) I think that that may be done.
+I'm not, I'm still not sure.
+(PERSON6) Okay.
+(PERSON4) And maybe by that time-.
+(PERSON5) So I'll ask him to join next week, mhm.
+(PERSON4) Yeah, maybe by that time [PERSON1] can also come up with that bit she is saying.
+So we will have completed updates and bits to show him.
+And it would be better that he like comments how to like go forward.
+(PERSON5) Okay.
+Mhm.
+(PERSON4) We would be much better prepared to talk to him I think.
+(PERSON5) Okay, okay.
+We will schedule it, uh, with him like next week.
+Fine then, uh.
+(PERSON4) Like but but if if [PERSON6] has to discuss anything urgent then I think then we can-.
+(PERSON6) No, no I have nothing urgent, I I have nothing urgent but I mean that the things we discuss.
+There is like a confusion or there is unclarity on what to do, how to do it and I think [PERSON3] is important that [PERSON3] takes part, just fifteen minutes of I mean.
+So it's good that [PERSON3] is.
+(PERSON5) But [PERSON6] maybe there.
+(PERSON6) Takes part in this discussion.
+(PERSON5) [PERSON6] I think there is a little bit, I think there could be a misunderstanding of what you consider to be a confusion.
+Could you write it down to the agenda for example.
+So, because I don't know what do you think to be a confusion.
+And, uh, maybe I have some, uh, connotations with confusion so I can suppose something that shouldn't be that one that should be.
+What you mean by confusion.
+Could you write it down?
+(PERSON1) I was also thinking the same.
+Because we know what we are working on and we are doing that-.
+(PERSON6) Ah, okay okay.
+I mean-.
+(PERSON5) So maybe [PERSON6].
+(PERSON6) [PERSON3] should be aware of what we are discussing.
+This is I mean to to to clarify things.
+(PERSON1) Yeah, yeah.
+So, [PERSON6] he actually.
+(PERSON6) He needs to know about what we are doing.
+Because maybe what we are doing is not really what we need.
+So he is the project manager, he has to be aware of the things.
+(PERSON5) But maybe.
+(PERSON1) He is.
+(PERSON5) Could you, could you [PERSON6] please write down four bullet points of what you are not sure about.
+Because it is really important.
+(PERSON6) Yeah.
+(PERSON5) It's really important that you are not confused.
+(PERSON6) I'm not clear about what you're saying in the evaluation phase.
+I mean we're saying a lot of different things <other_noise/> about the evaluation and I see a lot of redundancy or a lot o.
+I mean for example you are saying that we have-.
+You said that we have to like write to explain all the difficulties or something like that.
+(PERSON5) Yes, this is what [PERSON3] said.
+This is, many times and he also said he said that he also told that to you.
+So this is his very very strong idea, we spoke longer than an hour yesterday on that topic.
+That he wants all of you really to go through the transcript to go deep into the transcript.
+(PERSON6) Yes.
+(PERSON5) And uh, uh, analyse the meetings and look at, uh, uh, analyse the minutes look at the minutes and evaluate them from your point of view.
+Right all of it down and come up with something what is good and what is bad.
+And discuss it.
+This is just-.
+This is what I am saying I am just transferring my yesterday's talk with [PERSON3].
+(PERSON4) So, yeah, [PERSON5] I I got this.
+I got your message.
+(PERSON6) This is my point.
+[PERSON5] this is the point.
+This is who I am saying.
+This is what I am saying.
+[PERSON3] has to say it explicitly it to all of us in such meetings.
+Not just to tell it to you or me and then we we tell to to each other.
+(PERSON5) Okay, okay, okay.
+Fine.
+(PERSON6) It creates a lot of misunderstanding.
+A lot of misinterpretation you know of the of the verbage, of the wording.
+(PERSON5) Okay, I got it, I got it.
+(PERSON6) This is what I was saying.
+That [PERSON3] should say it life to all of us so that there is, so that there is not a you know uh, uh, like a misinterpretation of the the of the the wording of of-.
+(PERSON5) Yes.
+(PERSON6) The from from him to us, or from him to me and to us.
+This is what I am saying that it's important that he spends ten minutes of in one day to take part in this discussions rather than than delivering his message to the two of us and then we explain to the others.
+So this is what I'm saying.
+That it is better to have hime here for ten minutes not more because he is busy and have-.
+To be more clear with each other.
+This is-.
+I don't have anything specific, but I'm saying it's better to proceed like this.
+Because to avoid misunderstandings.
+(PERSON5) Okay.
+I got it.
+(PERSON1) Mhm.
+(PERSON5) Uh, uh, I will ask [PERSON3] to present this idea to us once more.
+Okay.
+(PERSON6) Yes.
+And also possibly take part in these things, just ten minutes a day.
+We don't have to make this call at two, we can adjust it based on his availability.
+(PERSON5) Okay.
+(PERSON6) <unintelligible/>
+(PERSON5) Okay, well, I'm not sure really if if he will be able.
+So this second thing I'm not sure.
+He will definitely-.
+(PERSON4) Yes, I'm also not sure, yes.
+(PERSON5) <laugh/>
+Okay, but, I I got the idea.
+So-.
+<laugh/>
+(PERSON4) So, uh, the thing is [PERSON5] for what [PERSON3] said as I learned from you and I am completely in sync what you said.
+(PERSON5) Mhm.
+(PERSON4) So, what I understand stood from [PERSON3] it's, uh, the idea is that we don't want to do a formal evaluation measure that we have listed, like [PERSON1] and [PERSON6] have listed.
+We just want our perspective of what we think about the minutes. 
+In a, in a <unintelligible/> and then maybe from our summarisation, like what we find out, then we can like translate them into some formal measures.
+That are already there.
+(PERSON5) Also-.
+(PERSON4) So.
+(PERSON5) Also, so it's kind of independence, an independent tasks in some sense.
+(PERSON4) Yeah, yeah.
+(PERSON5) So, of course creating automatic as well as manual evaluation measures is very very important.
+For the shared task and for our task in the [PROJECT1] as well.
+But, to be able to prepare all these measures, especially you as programmers, as or persons who are working with different automatic tools, he wants us, all of us, to be kind of inside the program.
+To understand how the meeting looks like, how the minutes look like.
+How the annotators create the minutes from the transcript, so he wants us, and especially you, to see with our own eyes, uh, uh, the real minutes from the meeting.
+So that evaluations are based, uh, evaluation measures as well as results, are based on some reasonable thinking.
+Because this is a very very new task.
+But not just on existing automatic measures that are on the market.
+(PERSON1) Yeah, I I do totally agree to that.
+That is actually the correct way to do it.
+What [PERSON3] said, than taking some, uh, measures and evaluating it.
+But we can come up with new good ideas, I think by doing that way.
+(PERSON5)  Yes, yes that's why, that's why this dry run.
+(PERSON1) Yeahm.
+(PERSON5) Did you get it, [PERSON4]?
+[PERSON4]?
+(PERSON4) Yeah.
+(PERSON5) Mhm.
+Uh, okay.
+(PERSON4) <unintelligible/>
+(PERSON5) I can't hear you.
+Technical problem.
+I don't know, you are on a kind of-.
+(PERSON4) <unintelligible/>
+(PERSON5) I can't hear you.
+Maybe my internet connection, but-.
+<unintelligible/>
+(PERSON1) Uh, no, it's for me as well.
+It is a shaky voice.
+(PERSON5) Mhm.
+Now he is-.
+[PERSON4] is lost.
+You're lost.
+We don't hear.
+(PERSON4) Right, can can you hear me?
+(PERSON5) Right.
+Yes, now we can.
+(PERSON1) <laugh/>
+(PERSON4) I wanted that-.
+So [PERSON5] if you can, uh, send the dry run details, uh, soon.
+So that we can come up with our observations by Monday.
+In the Monday meeting, so we have something to <unintelligible/>
+(PERSON5) Yeah, so I will summarise it as follows.
+Tomorrow and the day after tomorrow we are not going to have any meetings.
+But, today, late today or ear- early tomorrow I will send you, uh, the transcript.
+I will send you the minutes to that transcript and some instruction what can I-.
+So what can I se, se, kind of summarise to that topic.
+What [PERSON3] and me want from all of us.
+And, uh-.
+(PERSON4) Yeah.
+(PERSON5) Yes, okay.
+(PERSON4) Okay.
+(PERSON5) Uh, so it's all for today.
+(PERSON4) Yeah, yeah I think it's over from my side.
+(PERSON5) Yeah, and from my side too.
+So see you on Monday, yeah?
+(PERSON4) Yes.
+(PERSON5) Mhm.
+Okay.
+(PERSON4) Have a wonderful weekend.
+(PERSON5) And you too.
+For you too.
+Okay.
+Bye.
+(PERSON4) Thank you.
+Bye, bye.
+(PERSON5) Bye, bye.
+(PERSON1) Goodbye.

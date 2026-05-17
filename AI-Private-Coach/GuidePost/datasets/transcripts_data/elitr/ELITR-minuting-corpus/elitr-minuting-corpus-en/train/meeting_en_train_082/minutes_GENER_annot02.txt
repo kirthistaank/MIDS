@@ -1,0 +1,34 @@
+
+Date: 2020/02/11
+Attendees: [PERSON7], [PERSON8], [PERSON4], [PERSON3], [PERSON6]
+Purpose of meeting: Evaluation of latency.
+
+Summary of meeting:
+
+
+[PERSON4]
+- had problem with connection and couldn't fully join the discussion, but heard that.
+
+[PERSON8], [PERSON7], [PERSON4], [PERSON3]
+- discuss evaluation of latency.
+- The paper was little bit confusing in terms of their evaluation, there are several different input and output variables.
+- BIOS beam research is quite useful, it stops the output from flickering, but it needs a bit more testing.
+- Main difference between the way we approach things and papers approach things, is that we have really ASR with time stamps in milliseconds and not words.
+- Explain details and current strategy about time stamps.
+- Important is measure of delay between words.
+- To introduce the alignment is one of the strategies that it would be aligned segment to segment, and another option consider to have like a maybe sliding window or an adjacent windows.
+- Consider putting wrapper around the ASR system, which would have its time monitoring and then emit an extra full stop.
+- Discuss data set from [ORGANIZATION7] and other work with that.
+- Deadline is on 17th March.
+- Evaluation asset is implemented, but it has not been tested yet.
+- [PERSON3] will send created ASR output to [PERSON8].
+
+
+
+Minutes submitted by: [ANNOTATOR1]
+
+		
+
+
+
+

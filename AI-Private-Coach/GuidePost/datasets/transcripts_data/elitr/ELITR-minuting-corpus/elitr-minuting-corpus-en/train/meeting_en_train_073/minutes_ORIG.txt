@@ -1,0 +1,30 @@
+Meeting 19. 10. 2020:
+-  Attendance:
+-- [PERSON7], [PERSON8], [PERSON12], [PERSON3], [PERSON6], [PERSON11]
+-  Translation [PROJECT7]:
+-- documentation of the [PROJECT7]:
+--   we currently do not know which [PROJECT1] modules will be in the final product so we did not request anything Outbound Translation specific for the [PROJECT7]
+--   any other specific request for our side?
+-  [PROJECT4] Global Slack (see link at the top)
+-  Deplyoment of paraphrasing from [PERSON10]
+--   ask him how it can be implemented in [PROJECT5]        
+-  [PROJECT1]
+--   1800 ok segments
+--- [ORGANIZATION2] still tries to provide more segments
+--- we have announced new annotation campaign for evaluation of the collected segments
+--- [PERSON3] is working on human evaluation interface
+--   [PERSON6] started writing the paper
+--- contacted the partner authors
+--   we have informed [ORGANIZATION2] about the power outage on 19.-20. 10.
+-  [PROJECT2]
+--   data augmentation
+--- some experiments still running
+--- [PERSON3] is working on the visualization of the training process
+--   request [PROJECT7] support for getting sending information about multiple source inputs
+-  [PROJECT3]
+--   data ready for the positive constraint experiments
+--- simple iterative constraining - done - analysing the results now
+--- “combined” constraining - preparing the alignments (models provided by [PERSON3])
+-  Implementation
+--   [PERSON12] looked at the negative constraints in [PROJECT5]
+

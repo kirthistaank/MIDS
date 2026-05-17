@@ -1,0 +1,62 @@
+[PROJECT1] Internal
+Date: 24. 08. 2020
+Attendees: [PERSON11], [PERSON9], [PERSON2], [PERSON3], ??
+Purpose of meeting: discussing project updates, initiating new colleagues into the project, discussing constraint decoding in relation to the task and in general. 
+
+- Introducing the new colleague.
+-- He will be working on [PROJECT4] since he has experience with [PROJECT2] models etc. 
+- Discussing progress from last week.
+-- Some systems started to be trained, monolingual data is being downloaded to get the back translations.
+- But mainly, awaiting [ORGANIZATION1]'s answer, unsure about their status and progress.
+-- The last discussion with them happened on 19 August.
+- Current priority: collection of data, so that it can be processed. 
+- Discussion of possible plan B, if [ORGANIZATION1] is too late with starting their part. 
+-- Using annotators will not be possible.
+--- Annotators already worked on this project, there are not enough annotators and some of them know Czech, so it is problematic.
+--- Moreover, the interesting statistics from this data have already been published (or will be published) in a separate paper.
+-- Colleagues from another university make use of the Mechanical Turk platform to hire remote workers to perform the annotations.
+- Delay in the project is probable, but it is not the biggest problem.
+-- Initially, all the data was meant to be collected by the end of August. 
+- What needs to be done to finish this long-lasting project.
+-- The priority is getting [ORGANIZATION1] to do their part, still waiting for them.
+
+- Discussing details about the task. 
+-- Clarifying many doubts and incorrect conceptions about the task. 
+-- Discussing positive and negative constraints. 
+-- Discussing adopting positive constraints.
+--- Even if the user doesn't fully understand the target language, he still understands some words, such as named entities. 
+-- Discussing adopting paraphrasing. 
+--- The user will be offered different paraphrases in the source language to help.
+-- Discussing the source complexity task, which is already finished.
+-- The user was provided with highlighted words that are prone to erroneous translation.
+-- For this task, estimation system was used.
+--- This system was implemented by researchers from [ORGANIZATION8]. 
+-- Discussing negative constraints. 
+--- Discussing an approach that uses the Levenshtein transformer and applies only positive constraints.
+--- The participants generally agreed that negative constraining is not necessary in this task.
+-- Clarifying that three components need to be tested in this experiment.
+--- Back translation; paraphrasing through pivot languages and quality estimation. 
+---- Through preliminary results we know that users are most confident with the back translation.
+---- Users are not very confident with quality estimation and word highlighting. 
+---- Paraphrasing proved to be sometimes helpful, but sometimes not.  
+
+- Discussing constraint decoding, clarifying its definition, the need for its implementation. 
+-- Discussing various papers related to constraint decoding (Matt Post, Hu et al.).
+-- Some implementations of negative constraints into [PROJECT4] have already been done by [ORGANIZATION1] researchers.
+--- [ORGANIZATION1] researchers have no further plans to continue with these implementations, but can definitely help if needed, especially with implementing positive constraints. 
+-- The focus of the approach to implementation needs to be clarified.
+-- Possibly look at weaknesses from the various papers and try to improve these weaknesses. 
+-- Discussing constraints outside of the task itself, thinking more generally about it. 
+--- Demystifying: The constraints are being applied to the target language. 
+-- Other possible approach towards analyzing constraints.
+--- How much can we actually constrain a system to still produce reasonable translations.
+---- Nobody has looked into it yet, but the experiment would need to be properly designed.  
+-- Auto regressive and non autoregressive decoders. 
+-- Discussing the Zotero shared library.
+--- It will be used for papers related to this topic of constraining. 
+-- Discussing noisy constraints, they are to be discussed in more detail in a later meeting. 
+
+- The ideas from this meeting and the follow-up meetings will be recorded in a document which was created previously and which contains explanations of the task. 
+
+
+Minutes submitted by: [ANNOTATOR1]

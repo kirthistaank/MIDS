@@ -1,0 +1,19 @@
+[PROJECT1] Plenary
+Attendees: 
+Purpose of meeting:
+
+Summary
+• Problem with packets
+• Annotation tool problems
+• Pre processing the minutes
+• Split the minutes based on the chatters
+• The data is from [ORGANIZATION1] parliamenting
+• Sharing data from the [ORGANIZATION1] side
+• Minutes fluency
+		Milestones
+		• 
+		• 
+
+
+
+Minutes submitted by: [ANNOTATOR1]

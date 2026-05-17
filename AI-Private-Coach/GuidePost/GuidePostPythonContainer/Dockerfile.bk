@@ -1,0 +1,84 @@
+# Build from repo root: docker build -f GuidePostPythonContainer/Dockerfile .
+# Context must be repo root so both GuidePostPythonContainer and ui are available.
+
+FROM python:3.11-slim AS builder
+
+ARG APP_DIR=/app
+WORKDIR ${APP_DIR}
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    POETRY_VERSION=2.1.4 \
+    POETRY_NO_INTERACTION=1 \
+    POETRY_VIRTUALENVS_IN_PROJECT=true
+
+# System deps needed to install Python packages (builder only)
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends curl build-essential libffi-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN apt-get install -y curl
+# Install Poetry (builder only)
+RUN curl -sSL https://install.python-poetry.org | python3 -
+
+# Put Poetry on PATH (we'll use the in-project venv after install)
+ENV PATH=/root/.local/bin:$PATH
+
+# Copy dependency files first for better layer caching (paths relative to repo root)
+COPY GuidePostPythonContainer/pyproject.toml GuidePostPythonContainer/poetry.lock* ./
+
+# Install dependencies (Poetry will create /app/.venv because POETRY_VIRTUALENVS_IN_PROJECT=true)
+RUN poetry install --no-root --no-ansi
+
+# Use the just-created in-project venv for subsequent RUN steps
+ENV PATH=${APP_DIR}/.venv/bin:$PATH
+
+COPY GuidePostPythonContainer/.env /app/.env
+
+# Download NLTK data at build time (so the container doesn't need network at runtime)
+RUN python -m nltk.downloader vader_lexicon -d /usr/local/share/nltk_data
+
+# Copy code last (so code changes don't invalidate dependency layers)
+COPY GuidePostPythonContainer/src ./src
+COPY GuidePostPythonContainer/Btr001_meeting_transcript.json ./Btr001_meeting_transcript.json
+# Knowledge chunk texts used by KG/RAG retrieval
+COPY GuidePostPythonContainer/chunk_texts ./chunk_texts
+
+# ---- UI build ----
+FROM node:20-alpine AS ui-builder
+WORKDIR /ui
+COPY ui/package.json ./
+RUN npm install
+COPY ui/ ./
+RUN npm run build
+
+# ---- Runtime ----
+FROM python:3.11-slim AS runtime
+
+ARG APP_DIR=/app
+WORKDIR ${APP_DIR}
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PATH=${APP_DIR}/.venv/bin:$PATH \
+    NLTK_DATA=/usr/local/share/nltk_data
+# Install curl and vim, then clean up apt cache to keep image small
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends curl vim \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy the pre-built venv and NLTK data from the builder
+COPY --from=builder ${APP_DIR}/.venv ${APP_DIR}/.venv
+COPY --from=builder /usr/local/share/nltk_data /usr/local/share/nltk_data
+
+# Copy runtime application files only
+COPY --from=builder ${APP_DIR}/src ${APP_DIR}/src
+COPY --from=builder ${APP_DIR}/chunk_texts ${APP_DIR}/chunk_texts
+
+# Copy built UI (SPA) for FastAPI to serve
+COPY --from=ui-builder /ui/dist ${APP_DIR}/static
+
+EXPOSE 8000
+
+# App Runner typically sets PORT; default to 8000 for local/Docker runs.
+CMD ["sh", "-c", "uvicorn src.main:app --host 0.0.0.0 --port ${PORT:-8000}"]

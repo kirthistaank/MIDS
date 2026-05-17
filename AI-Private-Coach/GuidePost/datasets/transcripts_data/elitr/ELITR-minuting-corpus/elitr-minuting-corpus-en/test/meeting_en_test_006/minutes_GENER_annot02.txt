@@ -1,0 +1,69 @@
+
+Date: 2020/04/29
+Attendees: [PERSON11], [PERSON4], [PERSON8], [PERSON10], [PERSON9], [PERSON15], [PERSON13]
+Purpose of meeting: Regular call.
+
+Summary of meeting:
+
+[PERSON11]:
+- Inform about postpone regular meeting.
+Ask everyone for vote in Doodle.
+Meeting will be in September, probably online.
+
+[PERSON11], [PERSON8], [PERSON10], [PERSON9], [PERSON13]:
+- Inform about deliverables in June.
+It is needed to choose internal review person.
+Initial ASR system will review [PERSON10].
+3.1 will review probably [PERSON13], he will let know.
+Management guide will write [PERSON11] and [PERSON3].
+Management guide should be cross reviewed between [ORGANIZATION3] and [ORGANIZATION2].
+Internal review should be ready 8th June.
+
+[PERSON11], [PERSON8], [PERSON9]:
+- Talk about milestones.
+Complete set up for [ORGANIZATION4] Congress is technically prepared.
+
+- There will be one more deliverable, the year 2 test set, till the end of August.
+[PROJECT1] test set will pick up [PERSON9].
+Technical thing will discuss [PERSON9] and [PERSON8].
+It is assorted collection of documents and whenever someone wants to test will select a subset of files with the require set of languages.
+Should be populated and described by August.
+Is working on SLTF which should serve ideal set up.
+
+[PERSON8]:
+- Inform that [PERSON12] should coordinate annotators.
+If he won't then there is [PERSON6] who is now finishing the overview of the audible SLT test set.
+- Forced alignment
+
+- Appeal to everyone for step in and provide feedback on the layout, upload data sets.
+
+[PERSON8], [PERSON15], [PERSON10]:
+- Discuss possibility of sending lock file because of python unpublished code.
+Only way to do the comparison really fairly is to run or serve the models.
+
+- Discuss ASR retranslation and end-to-end ASR and its stability.
+The problem with the integration of the ASR and MT will remain even the new generation of the ASR models is there.
+It will depend on users preference.
+
+[PERSON8], [PERSON13], [PERSON4]:
+- Ask if it would be possible that [ORGANIZATION5] would manage and make sure that demo is delivered.
+[PERSON2] will be running the systems but is needed someone to make sure that it happened.
+Explain ideas of work.
+The date should be 17th May.
+[PERSON13] create Doodle Poll and then ask [PERSON5].
+[PERSON8] and [PERSON4] agreed on screen sharing and screen a broadcasting to present the results.
+
+
+Next meeting will be in May.
+
+
+
+
+
+Minutes submitted by: [ANNOTATOR1]
+
+		
+
+
+
+

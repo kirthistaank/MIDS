@@ -1,0 +1,42 @@
+[PROJECT1] Remote Meeting 
+Mon, 29 of June
+Time and place?
+
+Attendees: [PERSON17], [PERSON8], [PERSON3], [PERSON16], [PERSON11], [PERSON9], [PERSON2], [PERSON15], [PERSON14], [PERSON13]
+The purpose: To discuss the status of the deliverables
+
+A formal roles in the project management: 
+	To make sure that nobody's opposed to listing of the names into the deliverable: Project management guide 
+	Partner representatives in the formal ‘Project Coordination Committee'
+
+Deliverables: Every main author to present the state of deliverable - finished/reviewed 
+	The cover page should contain formalities like a type - not demonstrator but a report, the main author and contributing partners, the date 
+	Initial ASR systems: [ORGANIZATION5]
+		Not finished: To resolve unanswered comments during today 
+		Reviewed: Some work is not included to the deliverable, a plan to have this like a part of periodic report
+			To provide a periodic report till 30th of July, by the end of July to be ready before the review 
+	Spoken language translation systems 
+		Finished and reviewed: To resolve unanswered queries till tomorrow morning
+	Summarization:
+		Written by [ORGANIZATION8] and reviewed by [ORGANIZATION7]
+		To add some more details, numbers and a few more examples - Probably it will be not edited
+		To summarize the 4 attached papers
+	Workshop at [ORGANIZATION2] Congress
+		Not reviewed at the moment: It's necessary to review the text itself
+	A report on dissemination activities
+		Everyone to propose outlook on events and the conclusion
+		Everybody to make sure that no one publications missing 
+		To mention events, they are likely to happen as an option: 
+			Congress, Monday seminars
+			Tedx - [PROJECT1] was presented at Tedx but it's not included to the deliverable 
+			MT marathon in [LOCATION1] - postponed to January
+			CCC Conference in Leipzig -  whether or not it will happen will be known in October
+			Metaphorum - not included, but [PROJECT1] was attended
+		To make a list of events at the beginning of non-scientific dissemination, like an overview and a short description
+	The project management guide
+	The deliverables will be submitted tomorrow: Everyone to deliver financial reports and progress reports - to have it ready for the reviewers at the end of July or early August
+		The numbers from [ORGANIZATION4] still missing
+Pre-review
+	To prepare presentation of every work-package
+	Dry run should be ideally on Friday the 4th: To create a doodle poll and to ask everybody (review is in 8th of September)
+A date for the meeting with the advisory committee: The 19th of August looks the best

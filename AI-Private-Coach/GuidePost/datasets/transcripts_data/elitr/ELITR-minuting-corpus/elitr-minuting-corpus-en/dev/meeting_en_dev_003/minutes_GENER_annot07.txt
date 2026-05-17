@@ -1,0 +1,19 @@
+[PROJECT4] [ORGANIZATION2]
+
+
+Date: 09. 06. 2020
+Attendees: [PERSON12], [PERSON11], [PERSON3], [PERSON4], [PERSON1]
+Purpose of meeting: Work update
+Agenda: 
+* [PROJECT2] registration
+* introduction of each participant's progress
+	* [PERSON3]'s work - models
+	* [PERSON12]'s work - chapters, head types 
+* Reviewers of the book
+* Conferences - virtually
+* Money, grants
+	* how it can be used
+
+
+
+Minutes submitted by:         [ANNOTATOR1]

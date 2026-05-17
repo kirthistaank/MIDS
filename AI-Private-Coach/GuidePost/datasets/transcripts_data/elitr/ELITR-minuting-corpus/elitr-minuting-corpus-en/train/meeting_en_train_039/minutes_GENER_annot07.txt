@@ -1,0 +1,19 @@
+[PROJECT1] Demo
+
+
+Date: 04. 05. 2020
+Attendees: [PERSON10], [PERSON11], [PERSON14]
+Purpose of meeting: Preparation for demo 
+Agenda: 
+* Choosing person from [ORGANIZATION12] and [ORGANIZATION6]
+* Choosing the language
+* Romanian language
+* German ASR input
+	* Czech audio on Youtube
+* Who and where it will be run
+* Which platform will be used
+* Cooperation with [PERSON9]
+	* [PROJECT5] subtitling	 
+
+
+Minutes submitted by:         [ANNOTATOR2]

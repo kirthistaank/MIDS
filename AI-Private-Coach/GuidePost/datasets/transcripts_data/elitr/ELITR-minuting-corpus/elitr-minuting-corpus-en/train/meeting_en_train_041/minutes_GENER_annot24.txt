@@ -1,0 +1,55 @@
+Virtual Coffee Hours 
+Date: October 16, 2020
+Attendees: [PERSON3], [PERSON6], [PERSON1], [PERSON4], [PERSON7]
+Purpose of meeting: To explain the installation and usage of the annotation tool.
+
+-Introduction, checking who is present.
+
+-Documentation and installation.
+--Everybody has an access to the documentation.
+--Installation on Linux was described.
+---Python is normally shipped with Linux.
+--Installation on Windows is a bit trickier, Python must be installed manually.
+
+-Running the programme.
+--Choose Run by script and window emerges.
+
+-Annotation window was described.
+--On the left side there is a transcript, on the right side the minutes.
+--Colours show the dependency between dialogue act and the part of minutes.
+--Problem column was described -e.g. organizational problem.
+--Using Playback it is possible to shift some video to the meeting.
+
+-Time for questions-first person.
+--Problem with installation, some troubles with installation on Linux.
+---The person will try installing later and will send screenshots to discuss.
+--Discussing the output of annotation with root folder and time stamps.
+--Pairing of the minutes and dialogue acts was showed and described, together with timing.
+--Next step is the synchronization of the whole process, currently the results are send by e-mail.
+---Git might be used for this purpose.
+---There will be trouble with the recording-it's too big.
+---Setting up of the special website was suggested.
+---Synchronization between dialogue acts and the recording would be useful.
+---These cosmetic changes are not crucial at the moment.
+
+-Time for questions-second person
+--Clarification of the function of colours in the annotation window.
+---They do not show the problems and there's no "special meaning" of the colour.
+---The colour just show the link between dialogue act and the line of the minutes.
+--There are 4 categories of problems, they might make them editable, but probably they cover most of the problems.
+--Manual evaluation could be integrated into this tool - will be discussed.
+
+
+
+Minutes submitted by [ANNOTATOR1]
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+pandas
+numpy
+tqdm
+dotenv
+python-dotenv 
+scikit-learn
+torch
+accelerate
+protobuf
+
+docling
+ebooklib>=0.18
+beautifulsoup4>=4.12
+lxml>=5.0
+pypdf
+pymupdf
+pyct # dependecy for pyviz
+pyvis
+neo4j
+qdrant-client
+pinecone
+sentence-transformers
+openai
+#cohere==4.52
+huggingface_hub
+
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+#langchain-embeddings # requires <3.11, use conda create --name <envname> python=3.10
+#langchain-retrievers # requires <3.11, use conda create --name <envname> python=3.10
+langchain-qdrant
+langchain-pinecone
+langchain-cohere
+langchain-neo4j
+torch
+torchvision
+
+
+# for pipeline version onwards
+#transformers
+ollama
+# on mac required additional dependencies for matplotlib
+#brew install freetype  
+# brew install libpng    
+#brew install pkg-config 
+
+# langchain-text-splitters==0.2.2 # need to install this version for langchain-core==0.3.16
+# langchain-core==0.3.16
+# langchain-community==0.3.16
+# langchain-huggingface==0.3.16
+# langchain-qdrant==0.3.16
+# langchain-pinecone==0.3.16
+# langchain-neo4j==0.3.16
+sentence-transformers
+sentencepiece
+langchain-text-splitters
+pinecone
+neo4j==6.1.0

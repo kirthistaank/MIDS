@@ -1,0 +1,18 @@
+Date: 9.10.2020
+Attendees:
+[PERSON4], [PERSON6], [PERSON1], [PERSON3], [PERSON5]?
+
+-Mentioned:
+
+--[PERSON4] started the meeting.
+--[ORGANIZATION3] - their meetings, minutes.
+--Structure of [ORGANIZATION3] data for annotators.
+--So far, 100 meetings from [ORGANIZATION3] will be processed.
+--[PERSON3] finds the word limit between short, medium and long meetings.
+--[PERSON6] will create folders according to these sizes from [PERSON3].
+--Spontaneous dialogues versus formal speech.
+--The next date of the meeting will be Monday.
+--[PERSON6] suggests to cripple down any chat (Hangout...) outside of [ORGANIZATION4].
+
+
+Minutes submitted by: [ANNOTATOR1]

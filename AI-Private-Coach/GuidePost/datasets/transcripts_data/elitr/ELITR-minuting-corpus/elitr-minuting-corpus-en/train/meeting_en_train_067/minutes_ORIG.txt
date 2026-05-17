@@ -1,0 +1,31 @@
+Meeting 2. 11. 2020:
+[PROJECT3] [ORGANIZATION1] internal meeting
+
+- Attendance:
+o [PERSON9], [PERSON1], [PERSON11], [PERSON6], [PERSON2], [PERSON10]
+- 29.10. Call “summary”:
+--  What input do we expect for n-best list navigation / multisource-translation?
+--- N-best list produced by the MT system should be fine
+- We expect n-best sentences, not n-best tokens.
+--- We will provide a separate model for [PROJECT1]
+--  How can we implement Paraphrasing in [PROJECT4]?
+--- How exactly is it implemented by [PERSON8]?
+- [PERSON6] Discuss this with [PERSON8]
+--  Collaborate with [ORGANIZATION7] and their multi-lingual models
+- Can we use them for pivoting?
+- Are they working with [PROJECT4]?
+- Are they using it as a black-box system?
+-- Massive multi-lingual system from Facebook. Is it available?
+- [URL]
+- ([PERSON6]) Since it is in Fairseq, we can use it as baseline, and compare it with modular model - however, this might require eventual implementation of the modular networks into [PROJECT4] NMT
+--  We are expected to do some work on multi-lingual translation (because of paraphrasing - pivot translation)
+--- multi-source translation might be enough
+- [PROJECT6]:
+--  Work is ongoing. Mind the QE:
+
+
+- Data augmentation
+
+- [PROJECT5]
+- Implementation
+

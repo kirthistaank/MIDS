@@ -1,0 +1,36 @@
+[PROJECT1] Surge 2020 Organization
+Tue June 16, 16.00-16.30
+• [PERSON5]
+o Demo preparation
+• [PERSON7]
+o Prepared data for Manual evaluation by [PERSON1].
+• Now waiting for [PERSON2] to confirm
+• @[PERSON7]: please put the path of the data to be shipped directly here:
+• Path in IWSLT github repo: [PATH]
+• In each sub-folder, *.for-human-eval.txt
+
+[PATH]
+[URL]
+o BLEU Scores
+• [URL]
+o Evaluated ASR systems (for [PERSON3]) 
+o Evaluated movie transcripts (for [PERSON5])
+• [PERSON3]
+o recorded and submitted IWSLT presentation
+• main issue: not clear results of Flicker and Simultaneity
+• Final recording: [URL]
+• Overleaf: [URL]
+• 
+• [PERSON6]:
+o Recorded presentation for IWSLT
+• Video: [URL]
+• Overleaf:  [URL]
+o Submitted thesis, preparing for exams
+• [PERSON4]:
+o a little out of the loop
+o evaluating paraphrasing system
+o 6-to-6 model better than 39-to-39 for all the 6 languages for paraphrasing
+• ...it would be good to use this 6-to-6 model also in the evaluation as done with [PERSON7]'s input files
+• [PERSON2]:
+o These calls will be interrupted over July and August, and continue in September
+

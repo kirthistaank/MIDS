@@ -1,0 +1,16 @@
+[PROJECT1] demo
+Meeting Minutes
+22th October 2019
+
+Attendants: [PERSON6], [PERSON3], [PERSON2]
+
+Topic: Creation of a demo video
+
+Goal: to record a video of a speaker with simultaneous multilingual subtitles
+
+Summary: due to continues technical difficulties with audio transmission and internet connections the goal was not completed.
+No new tasks assigned. 
+
+
+Minutes submitted by [ANNOTATOR1]
+

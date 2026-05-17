@@ -1,0 +1,12 @@
+[PROJECT1] meeting 22.9.2020
+Attendees: [PERSON5], [PERSON1], [PERSON6]
+Purpose of meeting: file properties and details regarding minor discrepancies and minor issues
+
+Summary
+• It is needed to decide when to talk about the meeting and others in each meeting folder.
+• Proposal to use everything possible, due to the need for information, but on the other hand it cannot be included everything because the files are too large. So a compromise.
+• It was reminded that [PERSON2] asked to create a repository.
+• Everything else (recordings) is in the kilobites and kilobyte formate is not problem.
+• Everything is in kilobytes if the recordings will be excluded the MP4 files, then everything else would be included.
+
+Minutes submitted by: [ANNOTATOR2]

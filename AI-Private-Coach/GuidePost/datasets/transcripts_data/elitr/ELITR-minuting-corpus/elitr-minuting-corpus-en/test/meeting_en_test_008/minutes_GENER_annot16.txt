@@ -1,0 +1,43 @@
+
+Minuting virtual coffee 
+
+Date of the meeting: 14.10.2020
+Attendees: [PERSON5], [PERSON8], [PERSON7]
+Name of the meeting: Discussion about the best way to achieve good transcript and minutes results.
+Meeting creator: [PERSON5]
+
+
+-How will the interface look like.
+--Somebody with the user rating and the user queries needed.
+--Annotators get set of cautions that they answer to see if the summarisation and cautions are useful.
+---They are asked by scene board.
+--Regarding evaluation matrix some of the papers have the interface as a fact-based.
+--The idea is to build the interface that shows transcript and summarisation.
+---Annotators give the rating to it.
+---The awaited score will be calculated.
+---Annotators do not have to compute each equation.
+
+
+-Detailed objectives of this meeting
+--Uploading the [ORGANIZATION3] sources and making the alignment.
+--Preapairing criterias for the evaluation.
+--Implemented summarisation is done with their own data.
+--They will not draft the minutes but judge them to finalize the draft.
+--It is not a problem to make more data from all the years if they are able to align minutes and transcripts automatically.
+--Each transcript finds its minutes.
+--They will get transcript and two different minutes and judge it to finalize the draft.
+
+
+
+-Conclusion: findings, concerns, ideas, decisions
+--Web base interface for manual evaluation could be better for annotators.
+--Building an interface would be a good idea.
+--Giving the annotators link of the interface to evaluate it would be better than building guidelines.
+---First they need a rating scale to be sure about that.
+---Drafting should be finalized.
+--Humans are supposed to read the cautions and the equation will be computered automatically: it takes much more time for annotators, so not the best suggestion.
+--They can add some constant values to the interface.
+
+Minutes submitted by: [ANNOTATOR1]
+
+

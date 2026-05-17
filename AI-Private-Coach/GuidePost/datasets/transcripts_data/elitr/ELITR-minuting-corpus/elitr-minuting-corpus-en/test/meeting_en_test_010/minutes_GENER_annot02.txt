@@ -1,0 +1,59 @@
+
+Date: 2018/04/03
+Attendees: [PERSON5], [PERSON2], [PERSON1], [PERSON4]
+Purpose of meeting: Informative meeting.
+
+Summary of meeting:
+
+[PERSON5], [PERSON2]:
+- [PERSON5] asked if there are news about [ORGANIZATION4] status.
+- [PERSON2] don't have any answer yet.
+
+[PERSON5], [PERSON1]:
+- [PERSON5] and [PERSON1] clarify situation about money from [PROJECT1].
+- [PERSON1] assure that they really don't want any money.
+- [PERSON5] notice that in this case they will modify the budget but at the same time will be allocated person month.
+- [ORGANIZATION4] should allocate those in the Overleaf.
+
+- [ORGANIZATION6] doesn't want to have speech to speech translation and they don't want to ship translated audio to the partners parties in the remote conference calls.
+- [ORGANIZATION4] don't have experience with shipping voice to individual cell phones and have to identify the final platform for the delivery of the translation.
+- For the remote meetings will be used the [ORGANIZATION6] platform and then the subtitles are delivered through [ORGANIZATION2] into the [ORGANIZATION6] platform.
+
+- Talk about other direct costs.
+- [PERSON5] show how to include these to table.
+
+[PERSON5], [PERSON1], [PERSON2]:
+- [PERSON5] would like to clarify the task and deliverables related to the [ORGANIZATION9] congress.
+- They agreed on 1 dry run, one main [ORGANIZATION9] congress and then 2 follow-up experiments.
+
+- [ORGANIZATION2] would like to work on [OTHER2].
+- [PERSON5] accept it and need to know more details.
+- [PERSON1] inform about [ORGANIZATION2] activity in the ASR field - provide ASR for 30 language.
+- Person month for ASR model vary from 3 to 6 month.
+- In test at the [OTHER2] parliament they reach the accuracy up to 98 percent.
+
+- [PERSON5] talk about re-speaker data, explain the table.
+- Currently there are raw guess.
+- For usage of recording is needed the baseline acoustic model.
+- [PERSON1] notice that the hours depend on the ASR system and most important for the adaptation is to have the transcription.
+- [PERSON1] recommend to collect real re-speaking sessions to model not only the voice, but also the way it is.
+
+[PERSON5], [PERSON4]:
+- Discuss deliverables.
+
+
+Next call will be on Thursday.
+Time will be specified.
+
+
+
+
+
+
+Minutes submitted by: [ANNOTATOR1]
+
+		
+
+
+
+

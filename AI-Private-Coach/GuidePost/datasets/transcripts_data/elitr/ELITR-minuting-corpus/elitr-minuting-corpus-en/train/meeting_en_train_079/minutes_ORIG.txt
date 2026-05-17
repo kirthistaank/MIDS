@@ -1,0 +1,41 @@
+[PROJECT1] remote meeting
+Agenda for Mon, 16 Mar, 10 AM CET
+- Connection
+-- [ORGANIZATION2]:
+-   [URL1]
+-   The PIN is 1234
+--   ([ORGANIZATION5] is switched to [ORGANIZATION9] ASR and as such it does not record; also, we lost the previous recording because [ORGANIZATION5] keeps it only for 30 days)
+--   [ORGANIZATION5] could be used as the second option if [ORGANIZATION2] fails/is too overloaded.
+-   There is a non-public linux version of [ORGANIZATION5] client.
+-   Financial table
+--   Will be needed for the review (also good for us as a summary)
+--   2 sheets in Excel
+-   Use of resources - more detailed: Personnel costs, Other direct costs (travel, equipment)
+-   Report form C - the overview table, which you have in GA
+--   To whom should I send it for filling out?
+-   [ORGANIZATION1] - [PERSON3]
+-   [ORGANIZATION13] - [PERSON10]
+-   [ORGANIZATION4] - [PERSON15] (put [PERSON9] in CC)
+-   [ORGANIZATION5] - [PERSON19]
+-   IWSLT preparations:
+--   Is mp3 OK as input files, or would ASR people frown too much?
+-   [ORGANIZATION4]: WAV 16KHz
+-   Consider: flac1 -- not lossy
+-   IWSLT Joint submission
+--   [PERSON12]+[PERSON13] get ready today+tomorrow
+--   First full run on Wednesday
+--   then improved versions
+--   Logdirs need to record detailed versions of each component.
+-   Our other IWSLT submissions?
+--   Maybe [PERSON7] ([ORGANIZATION14]) en->cs only
+--   no [ORGANIZATION13], no [ORGANIZATION1]
+--   ...but still please ask around, outside of [PROJECT1]
+-   Upcoming deliverables plan
+--   include papers
+-   those on arxiv are easy to include -- this is esp. the way to go for [PROJECT2] submissions: make sure to put them on arxiv before the anonymity period, during the anonymity period, include their arxiv versions to the deliverable
+-   those without arxiv and under review deserve a delay in deliverable publication (not deliverable submission; the deliverable has to be submitted to the EC at the original deadline).
+-   [ORGANIZATION14] is checking with [PERSON2] if the publication can be delayed
+-   those published are ideal
+--   ask [PERSON2] for a later publication of the deliverable
+--   create and distribute overleaf links
+

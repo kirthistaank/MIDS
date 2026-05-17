@@ -1,0 +1,98 @@
+[PROJECT2] Remote Meeting
+Date: 25. 11. 2020
+Attendees: [PERSON16], [PERSON13], [PERSON9], [PERSON3], [PERSON7], [PERSON26], [PERSON15], [PERSON24], [PERSON1], [PERSON4], [PERSON21], [PERSON29], [PERSON10], [PERSON25]
+Purpose of meeting: discussing [PROJECT2] updates, summaries of progress in various workpackages.
+
+- Two urgent matters to be discussed today.
+-- Next week's sessions.
+-- Technical preparations for META-FORUM and SG1.
+
+- Admistrative updates.
+-- Payments have been sent.
+-- A poster is needed for META-FORUM.
+--- If anyone has it, they should put it in the repository. 
+
+- META-FORUM.
+-- The demo session will happen next Wednesday at 12:30 Berlin time. 
+-- Our slot will be one hour long. 
+-- We will be primarily showing the technology.
+--- Participants can test it themselves.
+-- Colleagues are very welcome to join for the summarization part.
+-- The META-FORUM session is also to be used as a dry run for other conferences. 
+-- [PERSON2] is working at domain adaptation. 
+-- If anybody has some potentially useful modal components, get in touch with [PERSON14], [PERSON2] or [PERSON1]. 
+--- The components will be evaluated by them with the [PROJECT2] test set. 
+-- Discussion about future conferences. 
+--- [ORGANIZATION11] congress might be postponed to a much later date. 
+--- Probably META-FORUM 2021 will be the main event we are aiming for.   
+---- For this event, all the materials about domain adaptation are relevant. 
+-- The English ASR system is ready to be tested live next week in the session. 
+--- The systems need to be evaluated.
+---- Discussion about types of evaluation.
+---- [PERSON14] is the main person for testing and running the systems. 
+----- He has had some problems with power supply in the past.
+------ Because of this, we are looking for people who could replace [PERSON14] if necessary.
+
+- SG1 meeting.
+-- Will happen next Thursday, December 3. 
+-- Two systems will be running at the same time.
+--- 1) computational linguistics domain.
+--- 2) [ORGANIZATION11] domain. 
+-- In this meeting, we will discuss the postponement of [ORGANIZATION11] congress.
+
+- Participation and input needed from all.
+-- All the participants should think about what they can provide for these two events.
+--- E.g. new bilingual or multilingual modals, better quality ASR etc.
+-- Likely we will have three ASRs.
+--- 1) standard cascaded ASR.
+--- 2) domain adapted cascaded ASR.
+--- 3) fully neural ASR from [ORGANIZATION3]. 
+
+- Discussing the best methods to present the technology. 
+
+- The future of [ORGANIZATION11] congress.
+-- It will probably be divided into parts. 
+-- The first part will be online only, scheduled to be in April.
+--- This is earlier than we planned, important for our system development.
+-- In-person meeting will happen when it's safe.
+
+- Discussing deliverables.
+-- The plan is to have the full text ready in early December.
+-- Final training data: Separating confidential and public version.
+--- Good progress in this deliverable. 
+-- Integration is on schedule, to be finished in early December. 
+-- ESET deadline is December 6.
+-- Discussing reviewers. 
+-- Systems are being trained for various languages, it all depends on the amount of training data.
+
+- Discussing workpackages.
+-- The [ORGANIZATION12] workpackage.
+--- It is for us to decide what we want there. 
+--- Mainly what's needed is the report from the [PROJECT2] test set and SLTF, evaluating different versions of that. 
+--- Working on it. 
+-- We need to show collaboration, the more, the better. 
+-- Discussing the data set from the European court of auditors.
+--- Minor complications: domain auditing data not showing any improvement.
+-- Briefly discussing workpackage 4.
+-- Discussing the ongoing [ORGANIZATION2] and preliminary session. 
+-- Discussing the minuting corpus. 
+--- We have more than 9000 segments of meeting and minutes aligned data.
+--- Hopefully by early December the data sets should be ready for minuting. 
+--- Working a lot on alignment right now, human annotators will do it.   
+-- Discussing SLT. 
+--- Slow start. 
+--- Problematic with verb final languages. 
+--- It would be best to use [PROJECT4] for deployment. 
+--- Possibly will add somebody new to the team, so that might help with speeding things up.
+-- Discussing latency, masking words and the flicker feature.
+-- What should be published in our papers is observation from real systems (demos).
+--- This is what is missing in the academic papers that are out there.
+-- [ORGANIZATION6]'s input.
+-- [PERSON6] Srdecny is working on the packaging of all the various components discussed.
+-- [ORGANIZATION4]'s input.  
+--- More demos will be planned.
+-- Discussing ethics.
+--- We still don't have the consents. 
+
+
+Minutes submitted by: [ANNOTATOR1]

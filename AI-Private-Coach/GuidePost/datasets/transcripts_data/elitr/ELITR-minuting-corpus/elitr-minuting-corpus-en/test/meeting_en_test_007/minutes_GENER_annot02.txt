@@ -1,0 +1,51 @@
+
+Date: 2020/08/31
+Attendees: [PERSON10], [PERSON2], [PERSON3], [PERSON6]
+ Purpose of meeting: Regular meeting - actualities and task progress.
+
+Summary of meeting:
+
+[PERSON6], [PERSON10]
+- Inform about regular meeting on Thursday, 5 pm [LOCATION2] time.
+- It is possible to join but it is not necessary.
+- [PERSON10] probably is not at mailing list yet, [PERSON6] take care about it.
+
+[PERSON6], [PERSON10], [PERSON1]
+- Explain the situation with work contract for [PERSON10].
+- It is needed to come personally to [LOCATION2] as soon as it would be possible.
+
+[PERSON2], [PERSON6], [PERSON3]
+- Discuss progress with [PROJECT6].
+- The server just expired, and transfixed it.
+- There are prepared the leaflets and would be handing out to participants.
+- It has been discussed at Thursday meeting.
+- There is not perfect communication.
+
+[PERSON2], [PERSON6]
+- Discuss [PROJECT1].
+- It is worked on the back translation.
+- On the cluster are fourty jobs, but they are low priority.
+- The translation will be maybe run on CPUs, because there are many CPUs that are now not used.
+
+[PERSON6], [PERSON10], [PERSON2]
+- There were basically training a model to do the metric evaluation.
+- It might be useful, but it is not sure if it could be used for the evaluation itself.
+- It might be somehow implemented into the pipeline.
+- It seems it might be useful approach in the paper, it is good to keep that in mind.
+- The problem is if the decoder generates a sentence that has the same meaning but different words.
+- The argument is that the [PROJECT5] is actually creating semantically rich representations.
+- This metric can be used to guarantee that the paraphrase or the alternative sentence does not stray away from the original meaning too far.
+- The idea is that we could add as many constraints we want and see how many can we add until we lose the meaning completely.
+- Check the point where it starts making no sense.
+- That would be the valuable.
+- It will be discussed more.
+
+
+Next meeting: Next Thursday.
+
+
+
+
+
+
+Minutes submitted by: [ANNOTATOR1]

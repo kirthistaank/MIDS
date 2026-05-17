@@ -1,0 +1,41 @@
+Minuting coffee
+Date: 30. 09. 2020
+Attendees: [PERSON2], [PERSON4], [PERSON5], [PERSON6]
+Meeting purpose: Preparation for the survey, how to organize papers and divide tasks.
+
+
+Obstacles, basic steps of the process:
+- Participants had difficulties downloading the papers from [ORGANIZATION5].
+- Papers from [ORGANIZATION5] will be transferred to the Temp folder.
+- If a file is relevant, the process starts with renaming the end of the file name.
+-- only after verifying the relevance should they be moved to MLR folder.
+
+
+Conclusions, detailed objectives:
+- It will be both dialogue and meeting summarization papers from [PROJECT2].
+-- Too much restriction would lead to few papers.
+- There are 45 papers in the [PROJECT2] folder.
+- Both the label and the record should be put into the Excel sheet "Automatic minuting".
+-- D already went through 30 papers.
+- There are 78 papers in total (including [PROJECT2] papers).
+- It is important to rename the file and find the corresponding pip tag at the same time.
+-- If a file is not relevant, it shouldn't be renamed.
+
+
+Optimization of the process, important notes:
+- Special folder named Not relevant was created.
+- It is necessary to check the title in MLR to avoid duplicates
+-- In case of duplicates the file in the Temp folder should be deleted.
+- The overall process consists of: Verifying relevance, putting the label, finding the pip tag, updating Excel sheet and the pip tag file in Overleaf. 
+- [ORGANIZATION5] repository was completely deleted.
+- Choosing the right pip tag from the corresponding category is important. 
+- The labels should be added to columns A and F in the Excel sheet.
+- Dividing the papers seems a little confusing to the participants.
+- B has created a document to make the division easier.
+-- Lead column was created to avoid confusion.
+- Recorded calls will be used as datasets to create agenda and minutes. 
+
+
+
+
+minutes submitted by: [ANNOTATOR1]

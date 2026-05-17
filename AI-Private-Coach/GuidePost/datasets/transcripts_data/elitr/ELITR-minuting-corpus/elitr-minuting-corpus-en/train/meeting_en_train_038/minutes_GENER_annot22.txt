@@ -1,0 +1,37 @@
+Date: 2020_09_14
+Attendees: [PERSON6], [PERSON2], [PERSON7], [PERSON3], [PERSON5].
+Meeting summary:
+- Reassure that the annotation process is understood by all parties.
+- Extension of data description.
+- Discussion of gold standard problem.
+- Ethical problems with shared data.
+- Next steps.
+
+
+Annotation process:
+1st Automatic ASR.
+2nd Correction of the automatic ASR – creation of manual transcript.
+3rd Creation of reference summary using the transcript (created by annotators).
+4th Alignment of summary with transcript (not yet functional). 
+Table tooltips:
+[PROJECT1] minuting table:
+- “MAN” = manually corrected transcript.
+- Colon “Twice transcript”/”Twice minutes” – “0” = done once, “1” = done twice.
+Qualitative analysis document:
+- “ORIG” = original minute by meeting organizer or secretary.
+- “GENER” = additionally created minutes by annotators.
+Qualitative analysis document:
+- Represents which tasks are already done.
+- Also represents what is needed to be done by participants.
+Gold standard:
+- [PERSON2] is working on evaluation system that could help to solve the gold standard problem.
+Ethical problems with shared data
+- Data has to be anonymized (names won't be stated).
+- Only release transcript, reference summary and evaluation scores.
+- Create a paper/electronic/PDF document where all parties will give a consent for sharing the data till November ([PERSON6] will create, [PERSON7] will double-check).
+- When sending the consent document send also a snipper that will showcase how the data is anonymized.
+Next steps:
+- When the alignment tool is ready, annotators will be given 2 tasks. Instead of just the alignment they will also have to estimate the quality of the summary. For that some questions have to be framed up.
+- [PERSON5] will take care of those questions.
+- Set up the meeting with [PERSON1] and discuss this new approach.
+

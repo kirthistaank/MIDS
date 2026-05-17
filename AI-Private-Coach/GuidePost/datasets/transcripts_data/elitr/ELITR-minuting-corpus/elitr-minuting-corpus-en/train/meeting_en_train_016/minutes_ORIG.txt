@@ -1,0 +1,21 @@
+Meeting 12. 10. 2020:
+- Attendance:
+-- [PERSON7], [PERSON13], [PERSON15], [PERSON10], [PERSON7], [PERSON14]
+-   [PROJECT6]:
+--    paraphrase data augmentation
+--- system still being trained
+-   varying amount of monolingual data
+-   [PROJECT5]:
+--    [PERSON7] started a paper - should I sent invitation to edit to all of the authors?
+--    1686 ok stimuli
+--    Just continue working on the paper. The figures will be updated with incoming data.
+--    working on the web environment for human evaluation of translations
+--    [PERSON7]: specify the task for [PERSON2] to allocate Czech human forces
+--    [PERSON7]: ask [ORGANIZATION2] people to provide us with questionnaire answers for each of the participants
+-   [PROJECT3]:
+--    fairseq does not have negative constraint support
+--- it is available in [PROJECT1], therefore later, we can switch for these experiments
+--    token ranking via tf-idf and choice of single positive constraint
+--    [PERSON10] investigate an alternative of positive constraints in [PROJECT1] by forcing tokens on phrase table.
+--    [PERSON13] check the [PERSON3]s code and try to implement positive constraints in [PROJECT1]
+

@@ -1,0 +1,839 @@
+(PERSON6) Hello?
+(PERSON5) Hello.
+(PERSON6) Yeah, it works.
+Yeah.
+And we have [PERSON7] as well.
+Yes.
+(PERSON3) Yes.
+I just please turn off your camera.
+(PERSON7) Yeah.
+Right.
+(PERSON3) Okay.
+Okay.
+I still, eh, what what what are <unintelligible/> presentation? <other_noise/>
+Oh, I hear myself <unintelligible/>.
+It should the definition of the task.
+And now, we should just <unintelligible/> the details.
+(PERSON5) Hello.
+(PERSON6) Yes.
+(PERSON5) Okay.
+So, I'm going <unintelligible/> to something.
+(PERSON6) Eh, well, eh, I couldn't hear what what [PERSON3] said.
+Sound quality was distorted. 
+It was bad all the time.
+So, I, was that question on me really?
+I'm looking at top of document.
+And I agree with what what [PERSON3] probably has written here.
+Ehm, and I agree that one of the intermediate goals is to ident-, one of the use <unintelligible/> goals is to identified what degree the manualy created part a meetings are abstractive or extractive.
+I'm highlighting what I'm saying in the [ORGANIZATION2] document.
+And the similarity of multiple manual minutes for the same meeting is also something we should tell us how divert the output the people are.
+And then what we have some minutes created automatically.
+We'll already know whether we are like in the range, or whether we are again far away from eh from that.
+So, eh, yeah, you don't have the the data here.
+I think it's, eh, the best way is that either you in in call you two in calls of [PERSON7] or and [PERSON5] together or each of you separately.
+Eh, we'll try to come up with some proposed measures of either <unintelligible/> the extractivness, abstractivness as wild goals or the similarity measure for for meanings.
+(PERSON7) Ehm.
+(PERSON6) And then test it, describe it and and discuss it and and see what other thing as well.
+(PERSON7) Ehmm.
+(PERSON6) I don't have any more precise like specifications for the task.
+These both paths are just stepping stones.
+They are preparation for the main task, which I explained to [PERSON5] quite even for detail and I think to [PERSON7] as as well.
+And that goal is too around a shared task in minuting, in automatic summarization, and prepare the data for it, but the exact definition of what the task should be what is the <unintelligible/> inputs outputs. 
+This is something that we have to discuss and propose ourselves.
+There is no one else to to tell us more.
+(PERSON7) mm-hmm,
+So, <unintelligible/> <other_noise/>
+(PERSON6) Yeah.
+Sorry.
+The sound is very bad.
+I suggest that everybody who is not talking shou- should switch off their microphone.
+So I'm switching off my microphone hopefully that reuse the echo.
+(PERSON7) Okay.
+So, eh, we wanted to ask that in the shared document there is a generated minutes <unintelligible/> by annotators A and B.
+So, eh, so there are, eh, annotators are actually eh like, the the, who are these annotators unlittle B and A.
+Who are these annotators?
+There are like <unintelligible/> -.
+(PERSON3) Eh, yes.
+This is a question for me.
+The annotators are human beings.
+So, original each document we have automatic transcripts but then the human annotators wrote correct- corrected this human tr- these automatic transcripts.
+So the result is the rated human transcripts. 
+And then afterwards different annotators made minutes for base of this main transcripts.
+So data we have now is generated trans- generated minutes mail.
+I don't have automatic summarizations at the moment for these meetings.
+Maybe [PERSON4] is more -. 
+(PERSON7) Ah, that's what I wanted to wanted to ask that.
+So we have a system for generating automatic minutes <unintelligible/>.
+Are we, I'm sorry once -.
+We have a system for generating automatic minutes.
+Great.
+(PERSON6) Yes?
+And as of now we don't have anything.
+So what we have tried is using, well, of the shelve system of someone tasks actually.
+So, there is the like the maybe you know the web page talking to transformers.
+So there is its transformer model that is trained on very large data and that transformer model can do summarization if you feed it with preceding text and then eh as a last sentence you put in this TL semicolon DR and it will start summarizing by itself because in the many datas, data sets it has seem also so like longer longer e-mails and that had this too long don't treat interaction to a summary.
+So then some little summary starts appearing.
+Very abstractive one.
+Obviously non extractive.
+So one of our colleagues has has tried this.
+And then also there was [PERSON2] for for [PERSON3] and the other one was [PERSON2] and he has train transformer to convert like machine translation model again.
+But now not strain on the large data but strain directly of the task of summarizing.
+So the input was, for example, full article from news and the expected output was the first paragraph which is often the summary of the article.
+Or it was the full paragraph and the title as the target.
+But we don't have any data that would be directly corresponding to the data that you are looking at.
+All the summarization training data that we have are from like available data sets, and these are mainly a news.
+So the domain is very different and therefore the results are very bad.
+So [PERSON3] I think you you probably have some some of those horrible outputs, don't you have those as well?
+(PERSON3) Yeah.
+I'm look for <unintelligible/>.
+But do you think this <unintelligible/>.
+(PERSON6) Later later if you can please later show these horrible outputs to the [PERSON7] and [PERSON5].
+It would be helpful to for them to see how bad the current baseline is.
+It is like a very poor baseline.
+It's it's just we like, you read without any any clever training.
+And I'm not sure if we still have something from last year, when [PERSON1] was working on this.
+Did he he leave us with any outputs?
+I think he has.
+You can you can also contact him, and he will probably respond.
+So the what we did back then was to train model on this on these larger data sets.
+The news CNN daily mirror summarization data set.
+And then to find unit a little on this.
+But I'm the I'm the experiments were not quite finished.
+But definitely they didn't really help.
+So the we are very, very much starting with with the automatic method.
+We we don't have anything that would work at this moment.
+(PERSON3) And, yeah.
+And <unintelligible/> preliminary.
+You can't work with that.
+So this summarization of the meetings are very poor.
+So the only that can be used that if you contact him, and then, I don't know, use some <unintelligible/> but not the results.
+(PERSON7) OK.
+So the ultimate goal will be to design this automatic minuting system are include that you can say that include that are really existing automatic minuting system.
+<other_noise/>
+And this is analyzing the data or the ultimate goal used to <unintelligible/>.
+(PERSON6) Yes, the the ultimate goal is to create a system which will automatically summarize meetings.
+But I think that this goal is very like far.
+And I do- actually I do not trust that we will have a chance to build it.
+At the same time we let's tried let's let's go for the directly let let's really focus on that.
+But internally I would be happy already when we run a share task on this and have some our system there, and get to some reasonably good starting point.
+But at this moment, we don't have anything, which would be called reasonably good starting point.
+So we we are.
+And the very beginning we we do not have anything.
+So I agree, yes, the ultimate goal is to have an automatic system.
+But I don't think that we will get there.
+And the most important that we do not understand what should be done with the word.
+So so so to say.
+So, if you want to implement something that will work automatically, you need to have like a mechanistic view on on the task.
+And then when you have this mechanistic view.
+If you have some weak idea what should be read from where, and and which words should be selected, and which word should be ignored, which should, which words should be rewritten.
+Then you will probably propose a model technique that has some chance of success if especially in the case when you don't have training data.
+If we had huge amounts of of training data, we could leave this like exploratory work, to a deep neural network.
+But we don't have the data.
+So we have to use our experience and somehow simplify the task.
+So there is multiple possible ways.
+One as first to get acquainted with what the data looks like.
+Another option is to start syntatizing this data.
+So this is something that we have not tried and and someone of you could pick this up as well.
+You could start with summaries and generate fake meetings for for them and then train the model on this syntetic data.
+That that also has a chance to uh, to work.
+(PERSON7) So I <other_noise/> I'm not sure, so what she did right that.
+I have to depth <unintelligible/> deep neural network.
+So probably depth deep neural network would be the same, right?
+Or I'm like on the -.
+(PERSON6) What was the beginning of your sentence?
+(PERSON7) So I said [PERSON3] did write the mail.
+And that include <unintelligible/> that [PERSON5] would be developing shared task and I will be developing deep neural network.
+(PERSON6) So this is this is our preliminary suggestion of what you two could work on.
+This is up to you to divide it differently.
+Perhaps, or like joined forces for while and work together on the same thing.
+So this is the this is our first proposition, and you can change it if you prefer something else.
+But I think it's it's good if people have their own goal, so feel free to change it.
+But if you don't change it this would be our proposal.
+(PERSON7) Eh, so, <other_noise/> I want to ask is that that <unintelligible/> network is supposed to be need for the analysis of this generated minutes?
+Or is it supposed to be like for generated the minutes?
+Or is it just for analysis, the deep network which - ?
+(PERSON6) For generating the summaries already.
+So the an- for the analysis, I would use standard use which are like easy to interpret and you have have some experience in data analysis as as far as I know.
+So uh, I would start with some frequency analysis of the words that appear in the transcripts.
+I would check if the words that appear in a minutes then can be easily like the selected from the words in the transcripts by TF-IDF.
+Or if the this is this is somewhat towards the question how much the the minutes are extractive and how much they are abstractive.
+If the words and sequences of words in the minutes are very different, from what appears in the transcripts, then we will call it abstractive.
+And if it's anagrams the longer the anagrams are directly copied the more extractive we will call it.
+So, the analysis of what what people did for the summarization watch key indicate what type of of approach should we choose for the automatic method.
+If we go for the abstractive style, because people do it more abstractive, then we need to train sequences to sequences deep network, and then see that the train to find some data, which resembles, which is very similar to what what we have in the minutes.
+And and uh, or perhaps syntatizes and I said, if we realize that a lot of the meetings are ex- extractive.
+Then we will instead create methods that will kind of highlight parts of the transcripts and assemble these highlighted parts together.
+So that we are more more extractive.
+It will be approach.
+So, the analysis of abstractivness extractivness is is useful because it kind of suggest what should be the main approach.
+The the the the question, whether we want to use the neural networks or not.
+That is just a technical question.
+So it's we don't have to.
+It is just that they are the most of the likely devise to work for the abstractive style.
+And there are probably the also also good device for the extractive style but eh having a reasonable, even rulebase baseline which is purely like implemented by hand, would be useful.
+Because we we do not have anything at the moment.
+(PERSON7) Mm-hmm.
+(PERSON6) So did that answer your question [PERSON7]?
+(PERSON7) Yes, [PERSON6], thank you so much.
+I probably think and and would the better who <unintelligible/> of whether have to do.
+So I think I think -
+This the example to which [PERSON3] [PERSON3] <unintelligible/> that has different minutes but in meeting from the [PROJECT1] description and Ltd meeting.
+Could this be specified like ehm are this software <unintelligible/> summaries?
+(PERSON6) Say it again please.
+So when in the document, there is the ASR transcript and there is if you scroll for the down, there is two meetings, right?
+That's very long the transcript, eh.
+Oh, that's really very long. <laugh/>
+(PERSON3) One meeting when <unintelligible/> .
+(PERSON6) Yeah, so example one example, yes, so the outline -
+(PERSON3) <unintelligible/>
+(PERSON6) Yeah, yeah.
+So, there is one thing that I also wanted to to mention the if you use the outlining the [ORGANIZATION2] doc.
+You can easily jump with an example one on the either original ASR transcript, or the manually corrected transcripts.
+And you can jump to the original minutes.
+The original minutes are pretty detailed and this is what I originaly was hoping for.
+And then the generated minutes by annotator A and annotator B.
+These were generated by the annotators humans that [PERSON3] found and and like supervised.
+And these generated minutes are already restricted in a way, which carry on recommended so -
+(PERSON3) Actually not all of them.
+(PERSON6) Yeah.
+(PERSON3) The instruction was to make minute eh <unintelligible/> most of information is the is in video and but at the same time they are not very detailed.
+When you -
+If you look at the example one generated minutes by the annotator A and annotator B you se- you can see that they are very different in ranks too, so there.
+Annotator A made it short, much shorter than annotator B.
+And the annotator B made it even more detailed than the original minutes.
+(PERSON6) So, well, thanks for the details.
+I just wanted to say that eh different people will have different opinions on what is good minutes.
+And we will have to liquid this.
+So, we should come up with a measure which is semi-automatic or fully automatic that will indicate or even fully manual.
+That will indicate how happy we are with the eh with the minutes.
+And this measure should be based on some existing experience obviously.
+So rouge is one of these methods but I have not really used rouge myself.
+That's fully automatic.
+For the fully manual approach, in order to be reproducible.
+We need to break down the task into smaller units.
+So that more annotators would give the the same score to the same minutes.
+So so imagine that we are now already running the share task.
+And it was humans who competed in the tasks, not the systems.
+And we have the original transcript as as you see it in the document.
+And then we have two participants.
+And these two participants are two of the three possible minutes that we have there.
+So we have the original once, A and B.
+So we picked that the original once, for example, could be the reference.
+And then we have the A and B.
+So I want to get a number.
+And the number for each of the A and B summaries.
+The number would say how good is the summary is.
+And the number or maybe more numbers should indicate whether it is adequate?.
+So precise, in some way, so that it doesn't say wrong things.
+And it should also indicate to what extent it is complete.
+So what the details are are missing.
+And eh for a start we could do this manualy.
+Each of us could like come up with some technique.
+What should I read in the minutes.
+What should I read in the transcript.
+How many counts should I collect there.
+What should I divide by what.
+And and and then, uh, arrive at a number.
+And we need to come up with the method for this, which by which several people would arrive at approximately the same score.
+So that would be a good manual method.
+Good manual method would be eh such that multiple now again.
+Annotators by this time scorers off of the summaries would give the very comparable scores to the to the summaries.
+So this is yet another task.
+And this task is more important for eh for the shared task then the preliminary explorations because in the shared task we will need to come up with the scoring of the like of rules.
+And we need will need to say, who was the best best in the share task.
+Not for the sake of of choosing the winner but for like the understanding what the results are.
+So it could be multiple measure is one of the competitors could be best in precision, and very bad in in in the coverage.
+Another could be great in coverage of reasonably precision, but very hard in truancy, or whatever we come up with.
+(PERSON7) So, <unintelligible/> eh.
+That is our sharpness and the end the ASR transcript and manualy corrected transcript.
+So  minutes are supposed to be analyzed with manual and ASR transcripts.
+That's the task, right?
+(PERSON3) Ehm.
+(PERSON6) Ehm, yes and no.
+It's not -
+If we don't have a word  -.
+Yes, if this is helpfull for you to be able to think about it, do it like that.
+But the assignment is very fluid.
+So to say.
+So you can -.
+At this moment we are starting the expiration.
+So we don't have any, uh, any like strict assignment that is what the annotators do.
+The annotators are given the the transcript, eh, first they are given the ASR output and they just listen to the sound and revise the text, and break it into sentences.
+This first round of annotators.
+Second round of annotators reads these transcripts and create the minutes the the A and B.
+And these are people who do not have to thing about like how to do it.
+They they they are in the task itself.
+But not thinking about the task.
+It's helpful for everybody to start with doing the same thing.
+So that you can see what you're doing.
+So maybe yes, maybe it will make eh sense for you to to read the transcript the corrected one and create your own minutes from that.
+And then see how your own summary differed from the A and B, and how it differed from the original one kind of.
+Eh, so that maybe maybe that is a good starting point.
+So that both [PERSON5] and [PERSON7] would create summary C and summary D.
+And you will see what you are choosing as the interesting parts.
+And then once you finish.
+You will look at what A and B did.
+And what the other colleague of of you did.
+And that way we will already have a first way idea how to do it.
+(PERSON3) Yeah, now.
+And I say the issue you agree to do that I will send you there file and maybe and also not not these one that you haven't example but another one.
+So you can <unintelligible/> to always the audio maybe <unintelligible/> maybe it helps.
+(PERSON7) So, [PERSON3], there is one more example there, example two?
+which has define minutes in the same meeting, and that in used to other meetings.
+Is it, is it, eh, an automatic system or is it this also manual one?
+(PERSON3) No, both are manual.
+This is also -.
+These are also minutes by annotator one and annotator two.
+And <unintelligible/> just the second run.
+And this is an example how different of how different the minutes can look like.
+So, for example, for two point one may give at discussion, and you can't get the summarization is similar very well.
+But it's very very different in in the content.
+And this is big <unintelligible/> the is quite long.
+The annotator listens to it and chooses what he compared consideres to be important.
+And still annotators <unintelligible/>.
+(PERSON7) It depends upon the perception and poison, that's why they are different.
+(PERSON3) Yes, yes.
+(PERSON7) Ok.
+Thank you so much [PERSON3].
+I think <unintelligible/>.
+(PERSON3) <unintelligible/> similar.
+(PERSON6) So if I add if I may add one more like level of thinking even high level one.
+I talk briefly talk about this one distant colleague and both, me and him, share the opinion that it's difficult to construct summaries if you do not know who is the target reader of the summary.
+(PERSON3) Hmm, yeah.
+(PERSON6) So if you have a project meeting and project meeting mixes topics on administration and the scientific content of that meeting and then some other organisation of like peoples time and whenever.
+Then different people will like would like to read different parts of would like to be like notified about different parts of that.
+So, eh, this is this is for [PERSON5].
+Are you still here?
+[PERSON5]?
+Just checking.
+(PERSON5) Hello.
+Hello.
+(PERSON6) Yeah, yeah.
+So we, we have doesn't -.
+We've just lost [PERSON7].
+So, the once [PERSON7] recordings then ehm.
+(PERSON3) [PERSON7] is not.
+(PERSON6) [PERSON7], [PERSON7] is now not here.
+For some reason she she probably the conection get lost.
+So the the question is whether we can define the share task.
+So that also, uh, we somehow specify who is the intended reader of the summary.
+So if we can somehow personalize the summaries in some way.
+(PERSON5) <unintelligible/>.
+(PERSON6) So the example would be that I will give you the the the I will to the program that the the each of the participants should create.
+I would give the input the which would consist of the ASR output so the full transcript.
+Hello [PERSON7].
+Sorry for -.
+(PERSON7) Yeah.
+(PERSON6) Yeah.
+So I hope your connection is good now.
+I'm the the further complication the further level of abstraction, the further level of discussion that I added was that, um, uh, meeting summaries, uh, should be perhaps tailored to the needs of a particularly reader.
+So if someone is an administrative person, they will have no interest in the technical details.
+If someone is the technical person, then they would be happy with just seeing one line that says administrative topics and no details about that.
+But they would be technical person would like to have the very much expended area expended summary on like which server was run how what programming language would these technical things how things were done.
+So ehm I'm thinking if we could somehow specified the task of automatic meeting summarization.
+So that the input is not only the transcript the of the meeting.
+But also some indication some like set of questions kind of or description of what the person, who is reading the summaries, already knows.
+So there is either we can specify what what the person is interested in, or you can specify what the person knows, and therefore they are not that much interested in those details.
+So it's this is very open question.
+I don't have any specific proposal.
+One proposal could be that I will give you the ASR output for the meeting, and I will give you a a list of sentences that the person knows.
+And I would like you to create the summary of like what I have what new should the person read in the in the ASR transcript.
+So this is the this is one further possible complication.
+We may want to to to add, because the task of creating a summary for someone is a much more adequate from the practical point of view I would say.
+The task that we are giving to the annotators now like created summary of this meeting is is pretty hard.
+They have to summarize everything, they the the the the the yeah.
+I don't probably <unintelligible/> task.
+(PERSON3) One more aspect is not just not not only for who you create the minutes but also who creates the minutes.
+So the technical person with will summarize more technical things.
+And the administrative person more administrative things.
+And then we have a students, a students or all annotators they just eh write down what they understand of the content.
+This is is is just another part of the same aspect.
+For whom and -.
+(PERSON6) And who creates this, so the the annotators keep what they do know.
+(PERSON3) Yeah.
+(PERSON7) This seems to be so interesting but I don't know what constraints are usualy there but it seems to me very interesting to the lot that?
+(PERSON6) Yeah.
+Well, you ask about constraints.
+The constraints are up to us.
+We can define any constraints we like.
+We just need to come up with the sensible task.
+Sensible shared task we define our own assignment.
+And then we tried to fulfil the assignment.
+And we would describe it carefully and and clearly.
+The the the best description that we have, but we can depart from that is the description of work that I sent to [PERSON5].
+And I hope I send it to you as well.
+Some time ago.
+Maybe [PERSON5] if you could forward, that email then is the of that is the description of the tasks of the minuting word package.
+But that's that's just like an indication is not the not the necessary way to go.
+So, eh, yeah.
+We have too many options.
+We need to deliver results.
+A delivered result would be share task.
+So training data, some which would be out of domain than in-domain training data and in input inputs outputs expected and measure that would evaluate who was how successful in in that task.
+This is a deliberate result.
+This is something that we have to achieve.
+We should take part in this.
+So we should have a baseline system, which which runs this task.
+And doesn't perform two unreasonably and then we will have some knowledge like how to do it.
+How to do this summarization.
+And and what doesn't work.
+And the complication about for whom it is could be an extra step or it could be an inherent part of of this task.
+So I see at this point I see two extreme ways to go.
+One extreme way to go is to create a summary for everyone.
+So that nothing is forgotten.
+So that kind of only the structure of the dialogue is simplified.
+So that the statements are not repeated.
+And the the summary essentially very closly follows the time sequence and tries to not drop any important word.
+So a the summary is not very very average?
+It's not shorten in the text too much.
+This is more similar to the original summary that that you have in the document in the example one.
+That's one extreme.
+Another extreme is eh line, the example A an example B.
+These are kind of I would say high level topic, eh, topic and conclusions summaries.
+So for very long part of the of the meeting only one line is written, and that somehow tries to summarize it.
+So this is the the other extreme.
+And for this other extreme it to me it makes sense to also add the reader somehow so -.
+For example, if we if we represented the reader with the set of sentences that he knows.
+We would measure the sentences from the transcript with respect to similar to this set and the the the similarity would be high enough then we would ignore them.
+And that would cut down the the total content.
+So this is this is the two two cases I would suggest.
+So, um, yeah, I don't, I don't know um, I I I can like give you an assignment, but I would be making it up fully making it up.
+I don't have real experience with the data.
+And so I feel that this is risky.
+I thing it's better if you define the assignment for yourself after you have seen a few meetings yourself.
+And then we will like match your own definition of the assignment to the one that we need in the project.
+I could put you in the in the in the position of a worker who does only follows my ideas.
+But my ideas are pretty weak and this guidance is not not perfect.
+So that's why I'm like kind of hesit- .
+I don't want to constrain your minds.
+That's another reason why I'm I'm not not giving you the an exact assignment like read this, implement this.
+Um, I'm trying to extract the the the ideas from you.
+(PERSON3) And maybe when you see the data.
+If you see the data.
+You will have more clear understanding of what you can do with that and what you can't.
+(PERSON3) So I will - .
+(PERSON5) <unintelligible/>
+(PERSON6) Yes, please go ahead and try to speak up for go closer to the microphone.
+(PERSON5) Yeah.
+Okay.
+So, professor [PERSON6], do you have do you have a timeline for the share task and  when you want to do that.
+Is there any timeline for this?
+(PERSON6) No, we just have to make it up.
+I think it's and is a great idea to to have a timeline, like this week, for example.
+So the project ends with the end of 2021.
+So we have the rest of this year, and the full next year.
+And the the there are conferences planned.
+So the best idea would be to make sure there is a workshop that we are on a workshop for a conference.
+And, so if you could start with looking at the conferences, which are planned for 2021.
+And something which is towards the end of the year, which could be I don't know if the [PROJECT3] is every year, every second year. 
+So that could be one option.
+Running it was the [PROJECT3] because the thence to being like November, or ACL, yeah, I'm just not sure what is what is happening at the end of next year.
+So we should run a workshop towards the end of the next year attached to conference and going back from this date giving ourselves sometime to like uh, several months to to analyse the outputs way we should come up with the schedule.
+And the schedule will probably require us to make a call for that call for participation at the beginning of the next year.
+So like in January, and really is the data in a March, for example, and then have the shared task in May or or June.
+And then this summer will be kind of skipped.
+So was September and October would be for the analysis or yeah -.
+So, yeah, this would be one possible schedule.
+So, please, [PERSON5] come up with a proposal at which conference we would like to to join.
+Check when there have the call for a workshops.
+And, let's -.
+Yeah.
+(PERSON5) Yeah.
+So, <unintelligible/> call for proposal <unintelligible/> conference would start in September as I think.
+And and the <unintelligible/> submition would be <unintelligible/> October or November.
+For the make clear because the <unintelligible/> also start <unintelligible/> also lots of proposal together and then to divide among the conferences.
+So I think we should come up with a proposal by October.
+(PERSON6) Great, yes.
+Perfect.
+It's great that you know this eh this eh, routine in then and that you know the dates.
+That's perfect.
+Please keep an eye on this.
+So that we have the proposal ready early and that we safely submitted by the required date, which, yes, I could be around the time around October.
+(PERSON5) Yes.
+Because activity <unintelligible/> when you running a workshop at [PROJECT3] and because also what list for summarization <unintelligible/>.
+Is it is it on already document so I don't probably <unintelligible/> submitted <unintelligible/>.
+So yeah.
+So, yeah, we can target of it.
+(PERSON6) So, I again, I don't quite understand you because of the sound distorted.
+But you mentioned that currently you're coorganizing workshops and that includes some summarization, right?
+So -.
+(PERSON5) Yes, yes.
+(PERSON6) So maybe you are the best person to tell [PERSON7] and us as well, what are the current best working methods for text summarization.
+And which of these methods seem to have a chance on the uh, to the speech data on the on the discussions style of origin, of input documents.
+So, maybe if you could prepare like a brief summarization, like overview or tutorial.
+Not too long, just pointers to existing systems, and what are their properties and whether they are available to to run, and so on.
+So that we would get some experience with that.
+Another person aside from you [PERSON5], who knows something about this, should be [PERSON4]?
+And we should ask -.
+[PERSON3] please ask [PERSON4]?
+He has presented something in I think Luxembourg last year on on that.
+So there was a workshop in Luxembourg [PERSON4] attended.
+And he was presented our goals there and others were also presenting some summarization methods.
+So let's let's get this knowledge.
+Let's try to learn from that.
+So that the baseline, um, in meeting summarization builds up on the baseline in replaying written text summarization.
+(PERSON3) Okay.
+Let's get [PERSON4] <unintelligible/> at the moment.
+(PERSON5) Mm-hmm.
+Professor [PERSON6] I didn't <unintelligible/> you want to do this presentation.
+And I'm not to regarding the <unintelligible/> and not exactly into I do have much <unintelligible/> summarization.
+But I can definitely be in touch with people and know <unintelligible/> in certainly <unintelligible/> and make up presentation for the group.
+(PERSON6) Yes, that would be great.
+So, you asked about the date, the kind of so how much time do we want to give ourselves for this.
+So I'll be again very hard to reach during the next week.
+So for me, the the the best time in August, actually for me the best time would be as late as September.
+But to avoid slowing things down for example, Tuesday the 11th of August or Wednesday the 12th of August could be also possible.
+So I don't know what -.
+If we can do it.
+This, it's not too it's not too early actually from now.
+If if you have the time for that.
+I don't but -.
+If you have then we could plan it for Tuesday the 11th.
+Like a an internal workshop on available summarization models.
+(PERSON7) So you can <unintelligible/> <other_noise/>
+It's not peak in all we lear and we all that we are going in the right direction.
+<unintelligible/> even I help me out with that in TSED?
+(PERSON6) Yes, that will be great.
+So the more experience we can gather the the better.
+(PERSON7) Ehm.
+(PERSON6) So what do you think about the date?
+The 11th or 12th of August.
+Or if we wait to September then it will be much better with me.
+(PERSON7) [PERSON5] needs to I guess. <laugh/>
+So, I'll I'll I'll probably working from the 1st of August, because I'm I'll be leaving from my current <unintelligible/> post.
+So I'll be fully onto this from 1st of August.
+So I don't know what [PERSON5].
+I think, is he there with us?
+(PERSON6) So with [PERSON5], he he would be formally available from the beginning of September.
+But informally, August should be also okay, right?
+(PERSON7) Sorry, I no way is [PERSON5] work.
+(PERSON6) Maybe the connection is not working for him.
+(PERSON7) Yeah.
+(PERSON6) So anyway, I'll put that into my calendar for the for the 11th.
+And I'll put it there, for example, at the time that we have like 14:30 [LOCATION1] time.
+So, we <unintelligible/> on summarization perhaps internal workshop at guess there, doesn't still know you, [PERSON5], you doesn't know, I'll add [PERSON3] and and I'll add you later on as well.
+And I'll try to invite you for this column.
+Let's let's try to put all the experience that we have.
+And [PERSON3], if you are still here -.
+(PERSON3) Yeah, yeah.
+(PERSON6) Could you also invite, if that would work, or get the old reports that we have from from [PERSON1]?
+Because we we like let that unfinished.
+And that's a pity.
+It's it would be good to to see what we what he has done, and and to start to to build up on that experience as well.
+This this was -.
+There was some serious effort put into that the data was was limited.
+We didn't have that much data back then yet.
+But still the experiment that he did was was reasonable.
+And we learned that the methods didn't work.
+But we don't want to repeat the failed attempts.
+We want to just read about them now.
+(PERSON3) Okay.
+<unintelligible/>
+(PERSON6) Yeah, okay.
+So, I'll I'll put that into your calendars as an invite.
+The 11th of August the time when we met.
+And we can change it afterwards.
+I'll be on my email all the time.
+But it's hard for me to to find focus spent of time.
+So that's why I, it's difficult to plan meetings.
+So.
+I I hope that you have like better idea of what the task is.
+And that the main task now is to defined the task.
+Is to to come up with the assignment.
+And I think it's the the easest would be really that each of you would trying to create a summary of ehm of a meeting.
+And [PERSON3] will send you some edited corrected ASR outputs.
+And and she will not provide you with the with the original transcript view, the original original summary.
+So you will have to create something that you saw like these A and B.
+And she write to create the summary in the two styles that I've discussed.
+First try, a detailed one, that like contains all the information.
+That is the style, which is more similar to the original summary that we have in example one.
+And then try the very much a breached which is like the example A and example B.
+And try to take notes on the techniques that you use.
+Uh, so how would you automate yourself then.
+Once you have done this task.
+So that's -.
+(PERSON7) Is that for -.
+Yes, yes, [PERSON6].
+That <unintelligible/> sense in -.
+I think that will help us to design the eh metric to the task one.
+And I think that will also help us eventually for building the system up.
+Yeah, so -.
+(PERSON6) Okay, yeah, great.
+So, let me now quit the call.
+Feel free to continue.
+The call was available for one more hour, at least.
+I think I've I've said it [PERSON3] you are also admin of this call by the way on on pexip.
+(PERSON3) Ehm, okay.
+(PERSON6) So, you could make it even longer.
+But I've I said it for two hours since when we started.
+So one more hour is still there.
+(PERSON3) Okay.
+(PERSON6) Yeah.
+So thanks.
+I'll send the invite for the call or workshop on that random date the 11th of August.
+And ah, please said take notes from this call as well.
+So make a make a some original summary of this meeting.
+And this meeting will also go through the standard pipeline that we have now with the annotators.
+So someone will transcribe it, and someone will create a summary for us.
+So this is also contributing.
+I hope that you agree with that.
+But this is also contributing to our collection of of project meetings that we need to be summarized.
+So you can take this one as the mental example.
+But [PERSON3] will give you, eh, some other meeting, which already has the refined the manualy corrected transcript.
+(PERSON3) Yes.
+I will.
+(PERSON6) Yeah, okay, so.
+I'm I'm leaving, but feel free to to discuss further.
+Thank you.
+(PERSON7) [PERSON6], <unintelligible/>? <other_noise/>
+(PERSON6) Yeah, yeah, yeah, yeah.
+(PERSON7) So the the task which is the share task is supposed to be a <unintelligible/>.
+That is part that is only for summarization or is it supposed to be need for automatic minuting.
+What are you focusing on?
+(PERSON6) Oh, oh, what is the difference for you?
+For me these are synonyms. <laugh/>
+Summarization of meetings we call it minuting.
+(PERSON7) Oh, suddenly what I have a <unintelligible/> that you must recreate a summarization of everything.
+But what needs to be done all about bad meeting.
+Like what up what up <unintelligible/> the objectives are minuting.
+Are the minutes of the meeting.
+So I -.
+(PERSON6) Okay.
+Both we have not really focused on this.
+Ehm this is what some existing tools do.
+They like create action items.
+And then you read the action items.
+And that is kind of the summary.
+This is one way to go.
+I see it as a little bit formalization of these general meeting summary.
+So I would not force us to go for these action items, because I think it limits too much what what people can decide to do.
+But it is it is reasonable way to go as well.
+So um, if if you want to reserve that minuting, for the construction of these ehm of these lists of action items and and and decisions, or or whatever, yes, feel free to do.
+So.
+In that case, I would say we want this meeting summarization.
+And that summary can include these action items.
+But to me, this is more like further labeling classification of the final statements that we create.
+So, yes, this, choosing either of the two.
+And committing to doing one of these style of summaries.
+And not the other one is part of the task specification.
+So, before we make the call for the share task we need to make our minds on this.
+But we don't have to dec-.
+I don't have the the decision at the moment.
+We have to arrive to the the decision ourselves until before we make the call for the sharetask.
+So until of the early October for example, we have to discuss this and choose which which we like better.
+Whether we want to go to something which is more open ended.
+Or whether we want to go for these <unintelligible/> limited action items.
+Both is is credible.
+We can do either of them.
+Both is fine.
+I don't have the the decision for myself yet.
+(PERSON7) Okay, [PERSON6].
+I think [PERSON5] actually can hear us but he cannot speak.
+So, he just steps up.
+So he can hear all the meeting, so -.
+(PERSON6) Okay, yeah, okay.
+So thank you.
+I'm disconnecting now.
+And hopefully you will make some sense of of this for yourself and follow us.
+Okay.
+Thank you.
+Bye-bye.
+(PERSON7) <unintelligible/> <other_noise/>
+(PERSON6) Bye-bye.
+Yeah.
+(PERSON7) [PERSON3]?
+Well, we are, we have us.
+So only questions at you.
+If we could like a could you one something to be total less?
+(PERSON3) Do we have [PERSON5]?
+Yeah.
+(PERSON7) Yeah, actually he saying that can use web summarize because actually he can he cannot start.
+Like -.
+We are able to yealing and eh but he is able to hear us.
+I don't know why.
+(PERSON3) Aha, aha.
+Okay, okay.
+Actually we discovered as well <unintelligible/> what I was like I thought <unintelligible/> very good very good beginning is to got the two your <unintelligible/>.  
+So I think in the next hours I will choose something for you and we'll send them.
+The date <unintelligible/> so you can download a meeting.
+And I think that would <unintelligible/> so you two resend to it that would be easy not just to read a transcript but also to download the video.
+Do you have these, do you have the possibility to download something about 600 megabytes? 
+(PERSON7) Yes, we can.
+Probably yes.
+And eh, [PERSON3], one <unintelligible/> there was a, there is one one section which <unintelligible/> shared with us.
+Which is <unintelligible/>.
+With the <unintelligible/>.
+So we have to come up with a with a measure, which is clean to be applied to this in text, which actually has a similarity measures for the text, which are which are the <unintelligible/> meetings.
+(PERSON3) Yes.
+So ah, what I meant is that you come with some measure can distinguish meet in the same meetings from the minutes from different meeting.
+(PERSON7) Ehm.
+So, there is something on Asa Jet friends text and there is something <unintelligible/> though degenerated text.
+So the generated text is a the D and E.
+The generated minutes.
+And I guess the reference is the one <unintelligible/>.
+(PERSON5) Hello, can you hear me?
+Hello.
+(PERSON3) Yeah, we can hear.
+(PERSON7) Yeah.
+(PERSON5) Hello, can you hear me?
+(PERSON3) Yes.
+(PERSON7) Yes, [PERSON5] we can hear you.
+(PERSON5) Okay.
+So, I was there in a meeting but I don't know why you can't hear me.
+Ehm, I was so to the [ORGANIZATION2] meeting somewhere else because I think I repeat just late there is to much effort in this <unintelligible/> record doing it somewhere.
+(PERSON3) You can switch to [ORGANIZATION2] Meet again if you want.
+(PERSON7) But I think -.
+(PERSON5) It will recording of the meeting is the really <unintelligible/>.
+What do you think, pardon?
+(PERSON7) Yeah, that's collection of the data I guess.
+(PERSON3) Yeah, we can we can finish it now and switch to [ORGANIZATION2] Meet if it's better for you.
+(PERSON5) Okay.
+So let's now continue over here, because now I think it's somewhere toolkit.
+But if there is a problem we can switch to the <unintelligible/> link that I shared.
+(PERSON3) Ah, okay, okay.
+(PERSON5) Is that okay?
+Yeah, okay.
+(PERSON3) It's not very good I can't understand all everything you -.
+Hello, hello?
+Yeah, everything you say.
+(PERSON5) Yeah, I say that we just continue over here but if <unintelligible/> we can switch to the [PERSON3] read for [ORGANIZATION2] Meet.
+(PERSON3) Yeah, yeah, yes, of course.
+(PERSON5) Ehm.
+Okay.
+So I was about to see that I would report to keep the presentation for the little summarization reffered in September.
+And by that time, I would be reaching to the export <unintelligible/> workshop who are exporting summarization and we have <unintelligible/> summarization task for <unintelligible/>.
+And then <unintelligible/> are comprehensive internal presentation contact.
+(PERSON3) Well, okay, I think [PERSON6] agree to that.
+So I don't -.
+(PERSON5) Okay.
+(PERSON3) Ehm.
+(PERSON5) Okay.
+So.
+To make clean, I want ask you [PERSON3].
+So, I think you said that you will give us the link to the concrete data that we have <unintelligible/>.
+(PERSON3) Yes, but this is link to our server.
+So, that's very hard data.
+That's a lot of megabytes.
+And you shared, you should have an approach there.
+I think, and will say, I will send you extra package of data, which include a transcripts and minutes without the audio.
+You don't need audio, do you?
+(PERSON5) Yes, yes.
+I don't need.
+I don't need <unintelligible/> audio.
+Yeah.
+(PERSON3) I will just, I will just the texts.
+And if it doesn't, if it is not enough, we will I will I'll connect you to our IT manager who can gived you give you the acces to the server.
+And I'm not sure it's needed.
+So let's let's first do the work with the texts.
+This is the first thing I will send you.
+And then I will send you the audio of the meeting for to try to make this summ- summaries yourself.
+So you can as <unintelligible/> spoke about with [PERSON6] some minutes before that you can try to make two types of summarizations yourself.
+And look at the techniques you use by summarizing.
+(PERSON5) Okay.
+And [PERSON3] I <unintelligible/> want to know.
+Like [PERSON6] mention that you have some annotators who are doing this.
+So, could you share share with us the annotation guidelines?
+How the extract <unintelligible/> minutes?
+(PERSON3) Yes, of course, I will share.
+Yes.
+I will share you the guidelines.
+(PERSON5) Ehm.
+Okay.
+And <unintelligible/> mention from.
+Oh yeah, I have e-mail <unintelligible/>.  
+I don't know, like <unintelligible/> Doodle but do you want to use [ORGANIZATION1] or maybe some other   messaging instead of e-mail?
+(PERSON3) E-mail is better.
+(PERSON5) E-mail is better, okay, okay.
+(PERSON3) [PERSON5], <unintelligible/>, I don't control it often, so.
+It can be -.
+(PERSON5) Okay, okay.
+I got it.
+(PERSON3) I don't have it <unintelligible/> I should supportly look at.
+And if you don't mind I will I will just <unintelligible/> e-mails.
+(PERSON5) Yeah, yeah.
+(PERSON3) Ehm.
+(PERSON5) Okay.
+(PERSON7) [PERSON3]?
+(PERSON5) So, <unintelligible/> because idea with the share task.
+The timeline.
+Yeah, so we are expecting <unintelligible/> guidelines and data founded, yeah.
+(PERSON3) Ehm.
+(PERSON5) Yes, [PERSON7] words.
+(PERSON7) So, [PERSON3], one more requesting onto me.
+Can you just send me request to the [ORGANIZATION1]?
+Because I was to adding people <unintelligible/> mail but since we are hurry in discussion.
+(PERSON3) Request for the [ORGANIZATION1]?
+(PERSON7) Yeah, yeah, yeah.
+So, you need disembled request.
+So that I can just I can I can just agree them.
+(PERSON3) I'll try to.
+I don't really use [ORGANIZATION1].
+I'm ordinary use it.
+(PERSON7) Okay, okay, fine.
+(PERSON5) So, [PERSON7] I did, [PERSON7] is talking about the [PROJECT2] [ORGANIZATION1] where where the [PROJECT2] personals are there.
+I think [PERSON6] shared <unintelligible/> to me.
+Maybe we have the we have the admin <unintelligible/> to share.
+(PERSON7) Okay.
+We can breach out [PERSON3] on e-mail.
+That's that's perfectly fine [PERSON3].
+So, [PERSON3], one one one thing I think to ask is that I was already asking.
+And, so datings in other to create in metrics.
+You are something <unintelligible/> and the generated text.
+From the generated text here is the DNP <unintelligible/> minutes by annotator A and B.
+And -.
+Did you say something [PERSON3]?
+I think I try to do.
+(PERSON3) Engine.
+I just then -.
+(PERSON7) In the in the in the example one in the shared document?
+(PERSON3) Aha.
+(PERSON7) <unintelligible/> annotator two and generated minutes by annotator B.
+(PERSON3) Yes, yeah.
+(PERSON7) So that B part of it which is <unintelligible/>.
+(PERSON3) Aha.
+(PERSON7) So you you required reference text so the reference text is going to be the additional <unintelligible/>.
+This is the generated text which you need to compare with.
+In other to analyse them how accurate do are.
+(PERSON3) So, could you repeat, eh, so I so -.
+We have original minutes, generate- generated minutes by annotator B and generated minutes by annotator A.
+(PERSON7) Aha.
+(PERSON3) Accuracy -.
+I didn't make, I didn't control the accuracy very detaily.
+Because the accuracy of original minutes themselves is also a question.
+So it is not always the template how it should look like.
+So we, so we, this is what we writ- have written down during the meetings.
+And it's not template of what is it the best and kind of.
+So actually, of these three variance I have this <unintelligible/> they're not, this generated once.
+Maybe even more detailed and more precise.
+(PERSON7) Okay.
+So, there is there is not a lot a standed benchmark which is supposed to be compared with all of <unintelligible/>, right?
+(PERSON3) Yes.
+They are, all all all of them are similarly eh, the same value.
+(PERSON7) Okay, okay [PERSON3].
+So, eh, so in <unintelligible/> the matrice has just to analyse what there minutes generated minutes are abstracted or extracted.
+(PERSON3) This is wrong thing but what I actually want to know if we can differentiate the minutes from the same meeting from the minutes from the different minutes meetings.
+What I can observe without any technology is that it's not it's not very easy.
+So the minutes written for the same minutes are still very different.
+I'm interested in if we can automatically find the measure to define to distinguish minutes for <unintelligible/> from another.
+And each explain us what is their what is what is actually good.
+If we later generate automatic minutes we can use the results of this task to say if our generated minutes are good.
+(PERSON7) Ehm.
+Okay.
+Right.
+(PERSON3) Did you did -.
+<unintelligible/> should, maybe I -.
+(PERSON7) Yes, [PERSON3].
+I I I did understood it perfectly.
+And so that is there are two tasking making making the automatic measures .
+The one is the different the all these meetings.
+What does the difference.
+So do I make a measure which could actually analyse the difference in all of the meetings, right?
+And one if we make the whether it's the generated meetings are extractive or abstractive.
+(PERSON3) Yes.
+Ehm, yes.
+(PERSON7) So the definitely meetings from one to another will actually require text similarity measure.
+(PERSON3) Yes, yes.
+(PERSON7) Okay.
+Okay, I understood kind <unintelligible/> [PERSON3]. 
+(PERSON3) Ehm.
+So this is kind of the first step before generating befo- the first step which helps to measure the quality of <unintelligible/> minutes.

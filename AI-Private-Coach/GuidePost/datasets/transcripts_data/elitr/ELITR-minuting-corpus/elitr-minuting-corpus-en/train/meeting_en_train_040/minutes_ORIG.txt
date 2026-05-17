@@ -1,0 +1,49 @@
+[PROJECT2] Surge organization
+Feb 27, 10.40
+- [PERSON11] won't be available, the meeting will be run by [PERSON4].
+- Please, everyone, write here your updates:
+- [PERSON4]:
+-- I worked on pref-mt-wrapper.py for wrapping MT workers for translating sliding windows of sentences at once. It works and is connectible to mediator and online-text-flow-client. I'm going to evaluate it soon.
+--  I'm going to use SLTev.py soon. See my first feedback in Github.
+--  I found installation bug in online-text-flow. [PERSON5], please see the issue on GitHub.
+--  I did review of [PERSON3]'s segmenter.
+- [PERSON5]
+--  Updating the Deliverable 6.1 report based on [PERSON10]'s comments
+--  Waiting for some resolution of the websockets via Apache+Nginx+Hypercorn on Quest, discussed with [PERSON6], some more diagnostics/research needed
+--  I will look into the issue reported by [PERSON4] now, but I will be offline 29.2.-7.3.
+- [PERSON7]
+--  Currently working on the files-collector app for uploading documents
+--  Changes will be soon on github in some branch
+--  The app is now dockerized for easier deployment (with uwsgi server)
+- Using docker-compose, so it should be easy to integrate a load balancer, for example
+- A sanity check from someone who's actually going to deploy the app would be great
+--  Each event has 2 subdirectories, public and confidential
+- With green and red colors, respectively
+- Right now I'm working on the security (password-protected file download and removal)
+- Is this necessary, though?
+- [PERSON3]
+--  New language model for domain adaptation.
+--  Failure with running segmenters on [ORGANIZATION1] cluster- failure with installation of [PROJECT]
+--  Lots of Audio transcription. Worked on scripts for automatic audio transcripts (for Czech)
+--  Trained new model for Czech Trucasing (Using Czech [ORGANIZATION2] dataset)  and integrated it with the segmenter
+--  Currently working on-
+- Forced aligner- trying to get it running, but...
+- Fixing reviews on TrueCasing from [PERSON4].
+- Run truecaser only on words, which punctuazer lowercased 
+- Try only unigrams
+- Try only list of words to capitalize, not to lowercase
+- TED talks translated into Czech: [PATH]
+- Training a new Model for Czech Segmenter (using- SumeCzech dataset- 6M sentences)
+- Pipeline sentence embeddings
+--  To Do-
+- Train TruCasing model using Czeng Data.
+- [PERSON8]: 
+-- Collection of other languages monolingual data link
+-- Trying to setup back translation for German and french (but got some error in the collected data)
+-- Cleaning of the collected data
+ 
+- [PROJECT1]: 
+Connected the sentence embedding approach with the SumeCzech database so that we can now search through ~1M headlines/abstracts and find the most relevant articles for our domain. We then collect full articles based on this “most relevant” search and use them as part of our domain language model data and lexicon. The experiments so far seem to give improvements across different domains.
+  
+- Others didn't show and didn't let us know
+

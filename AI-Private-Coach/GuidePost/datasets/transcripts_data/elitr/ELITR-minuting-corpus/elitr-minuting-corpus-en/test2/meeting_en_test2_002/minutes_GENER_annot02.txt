@@ -1,0 +1,128 @@
+Date: 2020/12/10
+Attendees: [PERSON15], [PERSON6], [PERSON3], [PERSON18], [PERSON1], [PERSON7], [PERSON12], [PERSON16], [PERSON24]
+Purpose of meeting: Regular meeting - actual progress, news.
+
+Summary of meeting:
+
+[PERSON15], [PERSON24], [PERSON12]
+- Little bit stuck with experiments.
+- There are problems with mistakes.
+- It is baseline.
+- Complete the GPU test and to know that one new version of [PROJECT3] really works.
+- It trains on floating point FP 16.
+- Worry about multi-source status deliverable.
+- It is waited for input from [ORGANIZATION1], there are needed data at first, the interpretation corpus.
+- It is promised by Thursday.
+- Then will be finished the executive summary.
+- It is needed comment on [PERSON25]'s paper.
+- Moving to spoken multi-source.
+- There could be done the multi-source research also in the text domain.
+- Texts from [ORGANIZATION6] could be used.
+- [PERSON12]'s assumption is that there is no gain to be expected from multi-source.
+- It will be tested empirically.
+- Agreed on separate call about text based multi-source.
+
+[PERSON15], [PERSON3], [PERSON6], [PERSON8]
+- Inform about [PERSON10]'s leaving.
+- [PERSON10] will finish the language model checking of ASR outputs.
+- [PERSON10] should be in touch with whom who is getting his original tasks.
+- Then would be live monitoring of whether the ASR is producing something sensible or whether something is terribly wrong.
+- Integration will be more on [PERSON8] and [PERSON3].
+- Together, they will synchronize developed tools.
+
+[PERSON15], [PERSON3], [PERSON6]
+- Talk about need of having the set up that everyone can actually integrate and test yourself - do it yourself integration.
+- The testing approach and full pipeline should be easily accessible to everyone who develops a new useful component.
+- Discuss actual set up and possibilities for [PERSON6].
+
+[PERSON15], [PERSON3], [PERSON8], [PERSON6], [PERSON1]
+- Discuss profanity filtering and spasm detection and removal.
+- The profanity filtering should be employed twice - first after ASR, second after MT.
+- [PERSON3], [PERSON8] and [PERSON10] have to solve domain adaptation - it should be as automated as possible.
+
+[PERSON15], [PERSON3], [PERSON1]
+- Discuss multi-accent Enghlish.
+- Will be mainly on [PERSON1], [PERSON3] is interested in.
+- Discuss record segmentation - cutting the recordings to words and done getting together to create a new recordings with different sentences and do this across different speakers.
+- These sentences solve the problem with the implicit language model.
+- Another idea - dropping out a time bands and frequency bands from the sound.
+- The training pipeline probably uses this same technique.
+
+[PERSON15], [PERSON18], [PERSON8], [PERSON3], [PERSON16]
+- Discuss yesterday situation when start of pipeline rely on one person.
+- Pipeline is very complicated to someone who see it first time.
+- [PERSON8] is working on cleaner configuration.
+- [PERSON8], [PERSON18] and [PERSON3] will discuss how it should be more self-explanatory, less error prone and a more modular, easy to integrate profanity filtering, rainbow worker etc.
+- [PERSON8], [PERSON18] and [PERSON3] will work on first specification of requirements for a pipeline set ups.
+- Discuss multiple scripts - there could be done one script with different parametres.
+- Discuss particular workers and its using. 
+- [PERSON16]'s worker will probably good for creating the the syntethic data, as the fall back solution the [PROJECT3] models running as a worker, launch [PERSON14]'s rainbow worker on our cluster.
+- Get in touch with [PERSON24].
+- Talk about [ORGANIZATION5] mailing list and its using for these technical issues and communication platform.
+
+[PERSON16], [PERSON18], [PERSON12]
+- Talk about problems with [PROJECT3].
+
+[PERSON15], [PERSON16]
+- Inform about working on the shortening and extending models.
+- Discuss possible space for huge data.
+
+[PERSON15], [PERSON16]
+- Talk about participating with [PERSON19] and agreed on call.
+
+[PERSON15], [PERSON18]
+- Talk about process for PHD application and joining to [PROJECT5].
+
+[PERSON15]
+- Reminded everybody to record what they saw and read and their experience.
+
+[PERSON15], [PERSON3], [PERSON7]
+- Discuss [PROJECT5] test set automated.
+- The code is almost finished with that discussion.
+- It could be wrap it up today.
+- The script is taking an input of taking the index file as an input and it will generate the ASR from whatever model there is mentioned in the script.
+- After that will be the script discussed with [PERSON7]. 
+- Agreed on meeting after it will be finished.
+
+[PERSON15]
+- Draws attention to availability of important people during meetings.
+- It is needed to know what is our fallback solution if that party is not not present.
+
+[PERSON15], [PERSON3], [PERSON1], [PERSON16]
+- Discuss long term focus and spotted things which need attention.
+- Non native accent - [PERSON3] and [PERSON1].
+- Monday test document, immediate domain adaptation - [PERSON3].
+- Techniques to put dictionaries to use in the systems - [PERSON10], [PERSON3], [PERSON1].
+- Dictionary is well included, domain adaptation was tested with a non domain adapted model.
+- [PERSON15] asks for convincing with outputs and also numbers that it's doing the job.
+- [PERSON3] will test the latest one for sure.
+- Consider to have an independent keyword spotting from sound.
+- Then domain adapted [PROJECT2] set up, which is used only to spot the keywords.
+- If there would be someone curious about that, let know - it could be accepted as a paper.
+- [PERSON16] proposal the use some tool to download basically these kinds of filter and videos from [ORGANIZATION3] and make training set out of them.
+
+[PERSON15], [PERSON1], [PERSON3], [PERSON16]
+- Talk about profanity and positive speak.
+- Mention as an example debate about African languages and change words discussing x disgusting.
+- Proposal to use sentiment analysis - adapt it to agressive sentiment.
+- [PERSON3] don't have good experience with that.
+- Other proposal to use some datasets to filter profanity like social media.
+- [PERSON16] supplement information from cable competition and will send a link.
+- Notice that the setting is slightly different because there is not expectation that the speakers use abusive language but more official speech.
+- It would be in our logs, but it won't be displayed on the subtitling platforms.
+- It could be option for someone who would like to supervise a student.
+
+
+
+
+Next meeting: 2020/12/17
+
+
+
+Minutes submitted by: [PERSON23]
+
+		
+
+
+
+

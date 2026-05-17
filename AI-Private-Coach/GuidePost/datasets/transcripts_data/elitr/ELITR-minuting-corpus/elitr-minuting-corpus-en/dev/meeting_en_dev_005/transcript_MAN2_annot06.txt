@@ -1,0 +1,347 @@
+<another_language/>
+<other_noise/>
+(PERSON14) We still didn't have [PERSON11].
+I'm not sure if he will connect
+I expect him to connect.
+So anyway let's get started.
+Thanks for coming.
+Again we are trying to record this call to see if we are able to summarize it automatically.
+<parallel_talk/>
+Document we are talking about -
+So our probably -
+So so the point of of these meetings is that everybody very loudly says and enters in the list actually in the in the google sheet, that is more important, the number of items that you have worked on and that you think you deserve some <unintelligible/>.
+So that's the that's the point of the meetings.
+So that's list.
+So please make sure that your point from the last week already have a row and then when they have the row I can end the I can end that.
+So briefly describe all what you did what do you think deserve some <unintelligible/> because it is usefull for at the all all of that.
+So it is a practise in selling your homework.
+And that that aplies also to [PERSON8], [PERSON2] and [PERSON7] of course.
+And everybody else who should also come later.
+So that's yeah -
+One thing that I want you to say loud is that I've agreed, I was asked by [PERSON9] to give her presentation on [PROJECT2] on the Monday seminar so as from subtitling we are also expecting to describe of what we are doing regular talk there.
+The date I think the date is possible the 17th February so in little bit more than two weeks from now.
+And the goal of office would be obviously to describe the pipeline say where there problems and to invite more people to join us.
+So that's why I pick this every day.
+So that's thats one modification for this.
+This is the early session that I'm <unintelligible/> of approach we need some domain adaptation again.
+So I need to work on this which is so so this is a good place for better to use English as English models because I think that this english models could be better adapted.
+Also maybe [PERSON11] can adapt the just the vocabulary of the [PERSON7] talkage.
+So the standard as that we are using.
+But that would need input from people are not here.
+From [PERSON6] and maybe [PERSON1].
+So let's let's <unintelligible/> they the optional.
+So that is the early session for the adaptation.
+And then the other domain adaptation session that will need that will be a harsh one.
+So there will be then other Monday seminars.
+For these other Monday seminars we don't have to do anything it's just an opportunity to try it again.
+But one event will require that.
+And that is there is two upcoming events so <other_yawn/> actually event big for them maybe.
+So the Monday seminar on the 17th happens the week after we have some dry run of a workshop where we are describing various language technologies and that's for the [ORGANIZATION5] congress the part like the site activity.
+We are not only subtitling but we are also advertising for NLP.
+And already wednesday of the 12th of February we are having our first dry run.
+And the idea is that that we say there will be also recorded and used for domain adaptation later on.
+And the second dry run and then the final workshop.
+So there will be us non-native speakers very likely presenting in English.
+Because the workshop will be held in English.
+That would benefit from the same type of domain adaptation as we will need for the 17th of February.
+So so there two events which have the same type of adaptation.
+It's NLP and [PROJECT2] on the 12th and the 17th of February.
+So two weeks from now and a little bit later.
+And then the the important big event that I wanted to talk about is the students firm fair thats something which we have done only last year.
+And last year nothing was really working.
+And we were only reusing the system from [ORGANIZATION4] and it went for single minute of the two days.
+But it was an important event for data collection because students are presenting their their companies and we record them and they transcribe it and they compete in how well their work- their voice was recognized.
+And it's very noisy environment it's like fair or congress in big hall of many stands and there is little a little side It's not really room, it's just a dedicated area where this competition of the firm presentations is is running.
+So it's a big challenge for equaliate.
+And we are also going to writers, well it will depend what the they will let us or not, last year we were we were showing some of the subtitles and because that was were appearing just once.
+But because there is four hundred high school students, they are able to take pictures of that and they were then sharing that across networks they were laughing at at other teams.
+So it is it is an risky activity.
+And that's a big for us it's a big opportunity to test that.
+So that's the 18th and till 20th March and for that we would highly benefit from having some profanity filtering.
+So so this is an invitation.
+This is one of the to do or wanted items to add some filter and f- populated what words that we don't want to show at all.
+So it's it's not always only bad words it could be just words related to bad topics. <laugh/>
+So that's it is top so it's also the questions what to do of these topics then rather we should removes such words or not.
+But this is something that we have a months or more for.
+And we really should work on this.
+Some some censorship upcoding construct.
+So as you remember on the the day before yesterday were [PERSON4] giving advering talk one [LOCATION1] word which has nothing in relation that was translated as scrotum and so this is exactly the type of word which is bad for high school students.
+So - <laugh/>
+So that's an invitation for for well domain adaptation because we don't know in part no no in part but kind of -
+We may know the names of the companies at least and maybe some description live up what is their core bussiness or topic of business.
+And to that we should adapt because they going to present their companies.
+And It will be non-native speakers of English.
+So this is already like a big challenge.
+And then the filtering of the profanity would be would be <unintelligible/> are useful for that.
+So and I would like to ask everybody to to say what they did and think about what activity they would like to work on.
+So maybe [PERSON16] you can start.
+(PERSON11) Okay.
+This week I work on do the collection is business for [OTHER3] and English.
+And because the from the [OTHER3] thing of the office I have downloaded 1970 to 1980 pdf files which is extracted which was extracted from the [OTHER2] using texted [OTHER1] so just can work in text format.
+And 15000 sentences is crawled automatic using automatic clover for English and [OTHER3].
+From these supreme article this.
+So and we need I need clean all the data because some duplicate sentences and some other garbage values.
+So member [PERSON6] is I think he was busy exams all times.
+(PERSON14) Who?
+(PERSON11) [PERSON6].
+(PERSON14)  Aha, okay.
+(PERSON11) Sometime that United interrupted because -
+So this is the picture.
+(PERSON14) OK, so so what would be your collaboration with [PERSON6] then if you if you were available?
+(PERSON11) So we will -
+We will use it -
+(PERSON14) He would use it as language model and he would extract the terms from that or -?
+(PERSON11) I don't know what he is using the tools what is the aplication so it would be nice when we would be -
+(PERSON14) So I didn't catch the details, the numbers.
+Maybe later if you can correct that.
+But the first which is so far there were mostly in English or only in English or all the languages, that's a mix of languages?
+(PERSON11) <unintelligible/> English and <unintelligible/> [OTHER3].
+(PERSON14) So only only English and [OTHER3].
+(PERSON11) Little bit. Monolingualy.
+(PERSON14) So for the English or for both of them these are languages anyway so there the adaptation by [PERSON6] make sense it's good to put this into the collection and start organizing the collection.
+Ok, great, so thanks.
+(PERSON11) So [PERSON11] updated me yesterday.
+There was some problem of the -
+(PERSON14) So I think I understood the problem from the comment.
+So if the idea is that the compress sound goes always to network and is directly decompress before begin sent.
+So have you added the required command?
+(PERSON11) Yes I could interprate.
+It's there.
+(PERSON14) So [PERSON11] will test it whenever.
+(PERSON11) So that's one thing, second thing.
+I was looking into that MultiSource model output <unintelligible/> output [PROJECT1].
+So I did some thing one that.
+But one specific question I had was regarding the profanity filtery and give after [PERSON4] <unintelligible/>.
+So let it circumstance we had that the that is not actually <unintelligible/> that is not supposed to be a prophane what coming up.
+(PERSON14) <unintelligible/>
+(PERSON11) Yeah, yeah, so but I believe in the putting up the <unintelligible/> top of list.
+Do you think I mean I don't think that briefly most effective thing because we would blocking on many  <unintelligible/>.
+So better something I would like to aplain like a like to thinkable.
+(PERSON14) So I have an idea but I don't know if we have the person for that and the idea is exactly responding to the to the fake that.
+The list will never be complete and it will contain many word which we actually like would like to have an as the output or as the input.
+So the idea is here the bad word was created by an error in the translation system.
+So somehow there was lighter the Czech word was <another_language>"šoupátko"</another_language> which is a slider actually and for some reason in some of the corpora this must have been in the same sentence as as the error came from.
+So it just made up a follow low frequency pattern which was unreliable.
+So the idea I have in mind is to train empty systems on corpora which are refind to contain only higher frequency words so like safe word corpora or safe vocabulary corpora.
+Safe is not in the sense that it's not bad word but safe in the sense that it has enough occurancies.
+And I would like to -
+So this is if we do this type of filtering firstly together a very huge corpus then we need to set up threshold like what was the safe we can work work frequent boundary and then we need to create the corpus which is somehow limited to these words.
+And that is hard, somewhat, but I think that we could do it monolingualy and use back translation to create the other part.
+And maybe put out sentences which are <unintelligible/>. 
+There is two ways either we can brought sentences which contain infrequent word infrequent words or we can replace infrequent words in the sentences with some like placeholder things like forgetting.
+So then we use the rest of the sentence and non just these kept these unknow words.
+And the third option is to use this filtering on in the monolingual setting only and use backtranslation to get the other side.
+And we need to evaluate which of these approaches is the best interupt.
+So all preservation of quality and avoidance of bad words.
+So this is like a large topic and it's totaly unlagged to refiltering on the fly.
+One further twist in the on the fly furthering would be like to add words live and we go.
+So the tool that does this filtering should actually be regularly checking this has appearance some list.
+So then we can immediately prevent <unintelligible/> respond of them.
+Well in the TOK on Tuesday [PERSON4] didn't say <another_language>"šoupátko"<another_language/> again so the scrotum did not reappear.
+But still we would like to have a chance to prevent it from that.
+So that's a like a bigger experiment and I would probably find someone new for that one semestr stars from the students but it's it is an option.
+Okay.
+So yeah.
+So your main homework word compression, the the further experiment in word multisource and just this comment on the limitation profanity filtering.
+Okay.
+Thank you.
+So now maybe [PERSON17].
+(PERSON17) So as you may know I finished evaluation framework and it's ready but maybe for some test maybe I should do some a small changes but I think it's ready.
+We approved that time base and word base segmentation to find the for example where is the may I want to calculated delay I should estimate that time of each word should be the time expected time for each word.
+So I used two different segmentation for this, one is timebase and second is wordbase anyway everything is almost ready. 
+And now maybe I need something like <unintelligible/> complete files to test it to test our there framework.
+I prepare a small things myself manualy and it works now. 
+So this is the team and now I me and [PERSON10] working on the I and [PERSON10] are working on the paper for exceptement and I think that's on.
+So -
+(PERSON14) So the bad thing -
+[PERSON2] is on the call.
+The bad thing is that I haven't heard from <unintelligible/> -
+A Okay.
+So there is four -
+I've received that e-mail yesterday from [PERSON1]
+The MI Corporas the MI Corporas has time stamps for word.
+So we should be able to convert that.
+So the problematic setting.
+[PERSON2]?
+Are you on the call?
+(PERSON2) Yes.
+(PERSON14) So the remember that we have the recorded from MI Corporas where your forced alignment totaly fails.
+And we have the idea of breaking in a small chunks.
+So realize and then [PERSON1] has double checked this corporas actually.
+(PERSON2) Yeah I have already read a mail.
+(PERSON14) Yeah, okay.
+So I think that it would still be interesting to run your forced alignment of this data and we you can now use the existing time stamps to break the long recording into shorter ones.
+So that you see whether it like cashes up with these shorter segments.
+And that is important to know for some future corpora what will not have the time stamps.
+(PERSON2) Okay.
+I will looking to that.
+(PERSON14) But for for the evaluation we have now something that we can do <unintelligible/> we will actually sometime.
+It appears that thursday lunch time is the bad time.
+Last time it was also very noisy in this -.
+(PERSON17) Maybe we should do it after lunch or maybe in the morning.
+(PERSON14) Yes.
+It's I don't know I don't know why it's a case normaly recorders it's much quieters.
+(PERSON17) But the question <unintelligible/> corpus we had the English and [LOCATION1] parts or only-
+(PERSON14) So no, we have only one recordings translated into [LOCATION1] and [OTHER3].
+(PERSON17) Okay, so it's a [OTHER3] but we won't have do we have English is are we have - 
+(PERSON14) Yes.
+We have correct English transcript much large of volume and we have limited file only in [LOCATION1].
+(PERSON17) Okay, and the mode) English it's time stamped.
+(PERSON14) Yes.
+(PERSON17) Okay.
+(PERSON14) This is what something which I didn't realise before because I <unintelligible/> with that like intense enough myself.
+(PERSON17) Yes.
+So in this case I can convert the second we can use it but we can discuss about it later.
+(PERSON14) Yeah, okay.
+So to cut down, evaluation too is finished.
+Now, why do not -
+<parallel_talk/>
+(PERSON17) Yes, I have a question about this board files.
+Is there any trajectory to how have together?
+(PERSON14) No we don't have that.
+(PERSON17) Because unfortunately I'm not sure I have access to <unintelligible/>.  
+Because I have access to some of them because it's a little bit - 
+So maybe if we can have name of files. 
+It could help someone somebody like me.
+Because I know we have lot of these files now.
+(PERSON11) <unintelligible/> create a list of them and then send <unintelligible/>.
+(PERSON17) Maybe could help because I'm confused about this files I cannot find to use.
+(PERSON14) So that's <unintelligible/>.
+And now let's move to those who are present remotly.
+So maybe [PERSON7] if you can start?
+You understand at all?
+(PERSON7) Yes, yes.
+I have been listening.
+So I have mainly concentrated on the adaptation of czech ASR for [PERSON4] talk that took place yesterday.
+So I've experimented with various technics and especially like domain adaptation of a language model and then acoustic fine tuning on [PERSON4] talk.
+So I think that I was quite happy with result then during the presentation as like quite a lot of domain specific words were recognized by the model.
+So that's good sign for me that some how works these technics and -
+Yes, right now I'm working on a next version of the czech ASR system that should be trained on even more data.
+So I'm preparing this.
+(PERSON14) Ok, so remember the thing that I said at the beginning.
+Please enter your achievements also into the google sheets so that thing once for that.
+Whenever you think it something big and I think this the improvement [PERSON4] talk it's very good one so definitely deserve to be listed.  
+Please let's make sure you do that.
+Don't forget.
+(PERSON7) Yeah, okay.
+(PERSON14) So now let's move to [PERSON2].
+(PERSON2) So first question regarding the compression.
+Which kind of compression it is.
+And It will be applied to all ASR systems?
+(PERSON14) So that's something that we're just testing and [PERSON11] said that he would evaluated.
+[PERSON11] has found the appropriate command flacs so that the audio is compress to mp3 then shiped as mp3 to network and then decompress before being sent to the ASR.
+And the question is what effect does this have on the ASR quality.
+So if the if there is something we can lost of of  <unintelligible/>  then we don't want to do it but if it's like the same then will write to <unintelligible/> because it simply makes the communication more abased less likely to be to be effected by network long.
+So [PERSON11] will evaluated soon and he can evaluated with everything and because had already been integrated.
+And -
+So so if your assistance -
+I belive could evaluated yourself as well supportly or if your assistance will be already included and delivered stable output which is the problem that we still have.
+Then [PERSON11] would evaluated for you.
+(PERSON2) Yeah.
+Jus-
+Because I noticed when I read the paper about Librispeech that the recordings were before in mp3 format and then they were actually converted into flac format and then I had to convert it into WAV format so and the and the common voice is also in mp3.
+So I guess that my systems are actually good with mp3 compression.
+So that's the first thing had.
+The second thing is I was working on the sound segmentation.
+It's there is a problem with ASR system because some words get cut in the middle.
+Now my systemlooks in the window with a greedy decoding and looks for pauses bef- between words and I have window that must be at least four seconds long and maximum is eight seconds found find the the most probable pause between the words and then I cut the windows there.
+So this makes the decoding a bit better.
+I also trained the transformer converting the phonings into graphians and I tested to the settings.
+But the results were at least for at least for some [ORGANIZATION6] talks they were really bad because the the corpora on which the transform were trade was trained is for casual speak and and fairy tales and so on.
+So that's actual translation with the with the transformer was quite bad and the transform-hallucinated some words.
+It was funny laugh.
+And I I sent an e-mail to [PERSON13] and I haven't received any any comments to to this new segment- to this new windowing from him.
+So -
+(PERSON14) Sorry.
+So you have already integrated right?
+So anybody can tests it at this news.
+(PERSON2) No, I had some temporary folder for this hot updates but I need some feedback from [PERSON13] of how this works with his segmenter.
+And I will have some more recording from the from yesterday so we can use use this non-native English for some find uniquals our models.
+(PERSON14) Okay.
+So do you estimate that than your segmenter could be operational in the two weeks from now for the Monday talk by 17th or even for the dry run sesion of the workshop on the 12th and you can talk.
+(PERSON2) I hope so but I haven't heard from [PERSON13] yet.
+So I don't know wheter it works.
+And the next problem is that the segmentation should be done on speaker separately because when there is some conversation the windows can overlap to speakers and the problem is then then the transformer translate these sentences into nonsense.
+(PERSON14) The problem is that we don't have speaker diarization on fly so we simply do not know when there is a speaker change.
+(PERSON7) Yeah that's a problem but if if if the talks are only with one speaker then there is no problem with this.
+(PERSON14) So the talks in general are one speaker only but do it also as an for example for the remote calls there conference calls on the interview platform, there each speaker has different chanel so the diarization is there for free and it's not not mixed.
+(PERSON2) That sould be better and the next problem is that the windows overlaped sentences and this causes some problems too.
+And I I now I don't have some- now no solution to this problem.
+(PERSON14) Yeah.
+So so are you waiting for [PERSON13] also please getting dash with [PERSON11] because I think that [PERSON11] made be more responsive these days. 
+[PERSON11] is coming back to back to [LOCATION5] on the weekend.
+Who won't be available during the <unintelligible/>
+Then may have more time for for that.
+(PERSON2) Good.
+I will have new better models by [PERSON1] so maybe this will work.
+(PERSON14) Yeah, okay.
+Thank you.
+So everybody please review what have in document I was trying to do something but I'm not perfect I can roll it follow.
+So the Last person we have here today is [PERSON8].
+So I don't know if the rest of team has ever met you in person.
+Maybe not.
+[PERSON8] has already worked on the project last june when he was helping us to put all the byplan together and -
+So I just remember that his reimplementation or his treak of the TEE programme TEE rescue the project because TEE was cashing its output.
+And we need the byplans to be wilow cashing so we created an modify version and there was there was one of the early sessions. 
+And [PERSON8] is now in [LOCATION3].
+So he can participate only remotedly and there for also whatever he does has to be like self contain as little interaction with others as as possible.
+So now [PERSON8] please let us know what if you have work on anything.
+I think you work on paraphrasing.
+So you are in touch with some other colleagues from here who are actually <unintelligible/> today.
+But in the paraphrasing goal it's not for [PROJECT2] that's for different that's for different project.
+So is there anything that you have work on it's useful for [PROJECT2] from the subtitling.
+(PERSON5) Yes, so so far I have only worked on the paraphrasing and actually I just w- I just wanted to say that right now I'm just waiting for a virtual machine for the paraphrasing server but otherwise it is done and working.
+Otherwise I was planning to work on to work on the division <unintelligible/> of of the levels of of microphone. 
+I know is that still -
+(PERSON14) It is still deleted.
+(PERSON12) Okay, if it is still deleted then I can then I can started next week.
+But my first priority was the paraphrasi- was the paraphrasing so I didn't didn't <unintelligible/> yet.
+(PERSON14) So that the problem is that [PERSON13] is not responding.
+I remember that I have asked him to check if the virtual machine set up is is reasonable and something like that and then forward to the IT department.
+If you don't get any response from [PERSON13] even after the weekend then please make sure to to like treasure ask for that yourself without waiting.
+(PERSON5) Okay, okay so I don't have anything interesting to report you right now.
+(PERSON14) Yeah.
+The visualisation of sound it's something that we will need.
+This is something that [PERSON11] would check.
+I think it should be simply and totaly independent process for now which anybody could run to adition to be sound acqusition pipeline and would that see which of the input chanell is receiving what output.
+So it's very similar to Audacity recording chanells except it is not recording.
+(PERSON5) Yeah, okay.
+Ou, there is one thing that isn't exactly I don't know important maybe.
+But then I just saw it today.
+And I told you might be interested in it. 
+I saw that there's any paper from [ORGANIZATION3] from december on ASR and it is called FastSpeech.
+Have you have you seen it?
+(PERSON14) I heard about it somewhere where have I saw it -
+(PERSON5) Yeah, so I just try it today and it's just basicly sais that it's like three hundred times faster for ASR so so so it could I just told it could actually be used to do ASR like on on the spot and it couldn't have to be sent and the delay problem could be eliminated.
+(PERSON14) ehmm
+(PERSON5) And they also say it is that it is robust and dust nearly eliminates words keeping <unintelligible/> which is also interesting interesting so I can just send it to you if you like.
+(PERSON14) Well the question is wheter it is available as code, it is? Is it?
+(PERSON5) I haven't I haven't get didn't get try yet. <laugh/>
+(PERSON14) So that in that case that would be obviously interesting so that we would try in our set up.
+(PERSON5) Yeah, I <unintelligible/>.
+(PERSON14) Fastspeech <parallel_talk/>, yeah, it seems like it it should <unintelligible/>.
+So so again.
+I think I wanted <unintelligible/>.
+<parallel_talk/>
+Check if there is code for that and integrate - <parallel_talk/>
+So that's that's it.
+Thank you.
+(PERSON5) Anyway I do my exams period is ending maybe I would be able to come to [LOCATION5] for for maybe one week or something like that.
+(PERSON14) Yeah, okay.
+And a colleague of mine ask me wheter you are from [LOCATION2] or not and I don't remember.
+(PERSON5) No no.
+(PERSON14) Are you? Are you from Kos-
+(PERSON5) No, I'm not, I'm from [LOCATION4].
+(PERSON14) [LOCATION4] okay.
+Yeah, so that's different. <laugh/>
+So, I think that's we should stop again today it's then spent more time we wanted.
+Please review this list and please think what you to do from the wanted topics.
+So that next week we should be meeting at the same time, still thursday and -
+Okay, so what so you prefer friday instead of thursday right?
+So should we all then make do a call for a doodle because thing changed for others as well.
+<parallel_talk/>
+Okay so.
+(PERSON7) Bye.
+Thank you much.
+(PERSON5) Bye.
+(PERSON2) Bye.

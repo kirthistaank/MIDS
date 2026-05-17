@@ -1,0 +1,51 @@
+Tue Apr 28, 16.00-16.30
+• [PERSON15]:
+o ! Please list all your past activities here:
+• [URL]
+o Thanks for your IWSLT submissions!
+o UniHack:
+• [URL]
+• [PERSON10]
+o All EAF files in testset dataset were checked (find mismatch words between OSt and EAF files )
+o ASRev script was written and SLTev was updated to evaluate ASR files. 
+o A bash script was made to evaluate [ORGANIZATION6]-[ORGANIZATION6] submission. 
+o TODO:
+• Make bash scripts for the other submissions. 
+• Make a copy of all submissions and change name and files format ([PERSON15] suggest)
+• [PERSON11]
+o IWSLT submission
+o TODO:
+• CS- Segmenter- re-train using increased word vocab size and pre-trained embeddings
+• [PERSON15] says to use as much data as possible and use small sentences.
+• [PERSON15] mentioned about Czech 2.0 (refer- [PERSON8]). [PROJECT7] also has synthetic parallel data from Czech news.
+• Daily testing of Czech SLT and English SLT 
+• [PERSON13]'s [PROJECT5] Model to be integrated for the daily testing sessions
+• Coming up- UniHack
+• [PERSON16]
+o collecting mono data for non-[ORGANIZATION8] langs
+• these will appear: ….please add the path
+• The goal is to have a large synth-parallel corpus, English synthetic, target mono in 43 languages genuine
+o collecting bitexts based on seed urls from annotators
+o Status of annotators:
+• [URL]
+o Status of languages for test set:
+• [URL]
+• [PERSON9]
+o Updated ASR model, loading time much faster.
+o Waiting for some adaptation texts
+• [PERSON15] asks: please do not wait but rather actively check if [PERSON18] is collecting some texts
+o @[PERSON11] or @[PERSON9], test the port with nc before loading ASR
+o Starting working on [PROJECT2] paper
+o Getting in touch with [PERSON2], meeting recordings have revised transcript so they could serve for evaluation or adaptation
+• [PERSON4]
+o working on IWSLT, running on evaluation and models
+o starting to consider window-based translation, should get in touch with [PERSON3] who already worked on this and has some results.
+• [PERSON13]
+o Didn't have a lot of time this week
+o Researched options to collect speaker ID data from Zoom calls
+• Waiting for next version of Zoom web SDK, which should be in 1-2 weeks, will enable me to send who's speaking live
+• Possible to do through windows->wine as plan B
+• When done, will result in a custom [PROJECT3] zoom client, which can then also be used to download audio
+• Will eventually require small modifications to [PERSON20]'s server etc.
+o Researching options to improve performance of models on noisy data
+

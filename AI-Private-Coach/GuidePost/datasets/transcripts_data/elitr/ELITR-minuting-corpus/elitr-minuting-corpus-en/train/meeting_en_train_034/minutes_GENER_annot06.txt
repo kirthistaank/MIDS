@@ -1,0 +1,19 @@
+[PROJECT3] Plenary 20.05.2019
+Attendees: [PERSON4], [PERSON9], [PERSON3]
+Purpose of meeting: Fallback solutions, preparing for meetings, discussion about [ORGANIZATION6] congress preparations
+
+Summary
+• fallback solution will work for June and August milestone
+• [PERSON4] proposed to still operate at the level of text fields in the server
+• decision when input is finished should not be based on the prefix indentity but rather on timestamps
+• FullHD is still too bad compared to direct presentation
+• multiple selected languages in subtitles
+• summary of foreseen uses of [ORGANIZATION5]
+• fallback solution for [ORGANIZATION2] platform (all remote participants of session will be sending their audio to [ORGANIZATION5] mediator)
+
+
+
+
+Minutes submitted by: [ANNOTATOR1]
+
+

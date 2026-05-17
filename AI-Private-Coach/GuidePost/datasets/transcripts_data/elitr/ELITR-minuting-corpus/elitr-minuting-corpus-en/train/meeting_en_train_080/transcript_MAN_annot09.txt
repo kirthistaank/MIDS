@@ -1,0 +1,174 @@
+(PERSON10) Hello.
+(PERSON6) Hello.
+(PERSON10) Yeah, sorry for the delay and sorry for)  being <unintelligible/> again ehm –
+so it's like on – on a more comlicated ehm connection.
+ehm Due to the ehm limitations of the connection, I don't really want to ehm be ehm with you for the whole – ehm for the whole thirty minutes,
+ehm so ehm I just wanted to ask you if you contribute to the document.
+I see that [PERSON8] has done it, ehm [PERSON3] is still working on the ehm paper, great, and [PERSON6] is here.
+that – that's good.
+ehm So ehm this is ehm a rare opportunity ehm for you to ehm talk directly ehm to [PERSON6] ehm from – ehm from September.
+When we restart this calls we will find a date, which is – time, which is suitable also for [PERSON6].
+So [PERSON6] is, as you know, ehm working on the ehm  [PROJECT3] test set and he was supposed to have colleague who would supervise the annotators, but just yesterday ehm the colleague ehm set that she –
+due to heath reasons she cannot ehm join ehm us.
+ehm So we're still searching for someone ehm to ehm help with the supervision of annotators.
+(PERSON6) mmhm Yes, I have an idea.
+(PERSON10) Yeah?
+(PERSON7) ehm I – ehm I – I wanted to find such person and I don't know about the – the other annotators, but ehm the one who – who did the English ehm anno- anno- annotations – [ANNOTATOR1].
+(PERSON10) mmhm
+(PERSON6) ehm I think she also speaks several languages and maybe she could <unintelligible/> it.
+I don't want whether she wants to, but I'd think she is a reliable person to the – to such thing.
+(PERSON10) Yes, so, definitely ask ehm if she would like to do that, ehm because we need some supp- ehm some – some help ehm with that.
+(PERSON6) Okay.
+(PERSON10) So I don't want to spend ehm too much money on like growing the ehm test set too big or – or ehm to ehm like – ehm polish it accessively,
+ehm but still it's definitely not in the shape where we would want to ehm – to leave it.
+So we definitely need some – ehm some support.
+So if we'll not be like he would work and not work till the end of the project, but it will be some work and we need a person for that, so, please ask, that – that's great.
+(PERSON6) Okay, okay.
+(PERSON10) ehm Okay, ehm so ehm m- [PERSON3] is working on the paper, that's – that's good, ehm and PERSON9 is –
+I – I saw the subtitle submission, thank you, ehm and ehm –
+yes, okay, ehm the substitute for ehm – for [PERSON9], that's ehm fine,
+and ehm most probably any results until deadline –
+so w- ehm –
+you mean no results for calling, or do you – do you expect [PERSON8] to have – to have anything for – for calling?
+(PERSON8) Yes, I have nothing for calling.
+No r- no results.
+(PERSON10) Yeah, ehm well, the- that's life, ehm so if you still find something, that would be great, but obviously ehm there will be other conferences, so don't – ehm don't worry.
+(PERSON8) Okay.
+(PERSON10) ehm Yeah, thank you,
+ehm and ehm we also have ehm [PERSON9] in the call,
+ehm so [PERSON9], do you have the link to the document ehm that we are always –
+<other_noise/>
+(PERSON9) Sorry – sorry I have some problems, can you repeat it?
+(PERSON10) Do you have the link to the document that we are always editting?
+The  [PROJECT3] Surge –
+(PERSON9) Yes, yes, I – I have opened it.
+(PERSON10) Yeah, okay, yeah, so – so – ehm so, please, just add what – you have been working on or your state exam is over, or is it still going to happen?
+(PERSON9) ehm That's actually the reason, why [PERSON8] is substituting me,
+(PERSON10) Okay <laugh/>.
+(PERSON9) because I – I have –
+they –
+I have always <unintelligible/>, so –
+(PERSON10) Yeah, okay, clear.
+All clear, <laugh/> yeah, so that's ehm –
+I'll – I'll keep my fingers crossed for that, because <parallel_talk/> Thank you. <parallel_talk/> unfortunately for the defence date, which is the same date ehm –
+(PERSON9) It's a day before. <unintelligible/>
+(PERSON10) Yeah, so on neither of these days I'll be in [LOCATION1] ehm, I still have to actually write the – ehm the positive review for your ehm thesis, but ehm then someone will read it and it should be [PERSON1] <unintelligible/>.
+ehm So ehm that's ehm – yeah, that's ehm what I remember.
+I wanted to –
+I remember one thing and that is from [PERSON2],
+ehm because [PERSON2] would still seek someone, who would implement the user interface, some simple ehm annotation tool ehm for the minuting annotation.
+And I know that [PERSON9] had many thoughts about it, ehm but then ehm obviously you were busy with ehm the – the systems, the thesis, now the state exams –
+ehm in the summer, would you like to ehm wo- would you have time to work on this and would you like to?
+Or are we kind of in the search for another person?
+(PERSON9) I am still planning to work on that.
+(PERSON10) Okay, yeah, so the – so that's – that's good.
+So if you are planning that's – that's great, so that – that will be –
+I think ehm you are in the best position to do that,
+ehm but ehm still ehm I ehm –
+yeah, I just wanted to ehm – to say that [PERSON2] is now ehm in the s- in the situation where we would – where she would ehm like to have the tool,
+but I'll –
+like state exam is the – is ehm a very good excuse.
+(PERSON9) Okay.
+(PERSON10) <laugh/> ehm So ehm I –
+how about the <unintelligible/> –
+oh, great, <laugh/>, do we have a meeting to work crazy?
+Yes!
+So, ehm that's ehm a very good remark from [PERSON8] ehm and it ehm also considers [PERSON9],
+so, I'm – I'll try to find the slot, and I'll – I'll be –
+I assume, [PERSON9], you are available ehm anytime, but ehm actually you should not ehm like spend any time ehm with our things than – than learning, right?
+(PERSON9) It would be better for me, yeah, if I could connect remotely.
+(PERSON10) Yes, yes, yes.
+ehm So I'll try ehm to ehm find ehm some slots tomorrow or on Thursday, ehm because we need to discuss some [ORGANIZATION3] grant and that – that ehm considers PERSON9 and you as well, and [ANNOTATOR1] and [PERSON4].
+So that's like a foreseen – ehm foreseen thing,
+and thanks for the reminder, that's – that's very good ehm one.
+(PERSON6) I'm sorry, ehm we're also supposed to have a meeting together tomorrow, ehm –
+(PERSON10) Yes.
+(PERSON6) Will you be a- available?
+(PERSON10) Yes.
+(PERSON6) Okay.
+(PERSON10) Yes, that holds, ehm so I –
+maybe a time <unintelligible/> little late, because at 8:30 I will be collecting something at Plzeňská street and then I'll get to [ORGANIZATION1] ehm,
+<parallel_talk/> mmhm Okay. <parallel_talk/>, but the – otherwise ehm it – it should be fine.
+Yeah, and I have [PERSON11] for 9:30,
+so I'll – I – I hope not to be late <laugh/>.
+(PERSON6) Okay, okay.
+(PERSON10) ehm Yeah.
+So ehm from my ehm point of view ehm s-
+<typing/> <unintelligible/>
+from my point of view I don't have anything ehm on you, because I need to review all the deliverables and make sure that they are d- d- done and ehm,
+so ehm I'm ehm overloaded with this.
+And then ehm obviously with some ehm exams ehm co- correction of – of the exams.
+ehm And [PERSON4], yeah.
+<typing/>
+Okay, so , that's probably ehm <unintelligible/> yeah, great.
+So I think that's – that's everything from – ehm from me and if you don't have anything extra urgent, then ehm –
+I would like to ask someone to stay on the call just in case others come late for the remaining 19 minutes,
+ehm but if no one comes, then I think we're – ehm we're done.
+Do the idea ehm, as you see, is that over the summer ehm everybody should be working their hours,
+th- those that you ehm are ehm being paid for or if you are on the flexible hours ehm then ehm whatever is needed.
+ehm And –
+But we don't have –
+we won't have these – ehm these calls,
+and we will start them ehm with ehm September.
+ehm Yeah, so, that's ehm –
+as far as I ehm can think this is – that's everything I wanted to say,
+so, when you are not working, then enjouy summer.
+It's summer day today.
+Hopefully it will remain for a while and hopefully will be not too hot and too dry and – and – <unintelligible/> again.
+Yeah, okay.
+So, if ehm – if you don't have anything –
+(PERSON5) Hi, it's [PERSON5] here.
+(PERSON10) Yes, okay, hi [PERSON5].
+() PERSON9, he's labeled like [PERSON8].
+(PERSON5) Yeah, I'm using [PERSON8]'s –
+so ehm I – I – don't have task – I don't have tasks this week.
+(PERSON10) mmhm
+(PERSON5) Probably) today PERSON9 has gave) me <unintelligible/> recognition to keep the work on –
+ehm I think that's the –
+well, yeah, that's <unintelligible/>
+(PERSON10) mmhm You have – you have the big summer task and the big summer task is to clean the start fol- the starting folder.
+(PERSON5) Yeah, yeah yeah, the – the <unintelligible/> of the <unintelligible/> control instead your <unintelligible/>.
+(PERSON10) Yeah, the <unintelligible/> control, clean-up of the <unintelligible/> control.
+So, whenever you s- your mind says I don't have anything to do, then this is a big thing and you need to chip it ehm off like ehm bit by bit,
+ehm slowly clean clean it up.
+ehm There is one thing that the demo – the demo session that we had for the project officer ehm –
+so actually <unintelligible/> everybody after this, I'm sure.
+ehm The demo technically went very well,
+ehm but the ehm response is that the quality still needs to be improved.
+So, <laugh/>, so the users are ehm – like they were happy about the way the demo was presented ehm and technically everything worked perfectly.
+ehm But the quality of all the components is ehm below what they find usable for practice.
+So there is a r- request for everyone ehm to work on their systems ehm, add data, re-train ehm everything.
+ehm And ehm I'm talking about the demo because I ehm wanted to ehm mention –
+and especially in front of [PERSON5], ehm that tehre will be one more ehm such demo session, when we ehm organise it,
+and it's – it will be user and advisory board, that something – ehm some colleagues ehm in the field, so not ehm officers from the [ORGANIZATION2], but technical ehm colleagues.
+ehm And we promised to have a meeting last year, but we forgot.
+So we are now ehm trying to find a date ehm and we will show them ehm essentially the same demo plus ehm any presentations on any other ehm work-package in ehm – in  [PROJECT3].
+So this is ehm f- warning.
+Please, keep the demo as it is, don't break it,
+ehm but ehm do the polishing ehm in a new holder or whatever.
+And  ehm we have a person ehm who is going to ehm be in the similar position that you are [PERSON5], once you leave,
+and I'm trying to get the – ehm the biggest overlap between ehm him and you.
+ehm And hopefully he'll agree, hopefully he'll join us.
+ehm And ehm then ehm you'll have ehm immediately th- due to your explaining evetyrhing ehm to – ehm to this person.
+So I – I cannot th- confirm that for 100% yet, but ehm we have selected him and we have notified him, so hopefully he'll <unintelligible/>.
+(PERSON5) Okay, <unintelligible/>
+(PERSON10) Yeah.
+Okay, so, now that's –
+ehm yeah, so may- maybe someone could quickly take notes of what I said about the demo and the review of the demo for the  [PROJECT3] and advisory board.
+So I'll – I'll – yeah.
+<typing/>
+<unintelligible/>
+ehm demo and <unintelligible/> users not quite happy,
+ehm and then ehm
+<unintelligible/>
+<other_noise/>
+Okay, so that's it.
+I have other things to do and I have to drive back to [LOCATION1], ehm so ehm I'll – I'll leave now myself,
+but please someone for – ehm for the remaining ehm few minutes, until – ehm until half past 4.
+Okay, right.
+Is that everything from everybody?
+(PERSON5) Thank you.
+(PERSON6) Thank you [PERSON10].
+(PERSON9) Thank you.
+(PERSON10) So, thank you very much, enjoy the summer, as I said, except, obviously, when you have to work.
+Thank you, bye bye!

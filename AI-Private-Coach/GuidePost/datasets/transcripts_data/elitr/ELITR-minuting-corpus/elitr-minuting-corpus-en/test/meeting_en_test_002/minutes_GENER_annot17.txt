@@ -1,0 +1,48 @@
+[PROJECT2] Internal
+Date: 14. 09. 2020
+Attendees: [PERSON8], [PERSON5], [PERSON6], [PERSON3], [PERSON11]
+Purpose of meeting: discussing project updates: [PROJECT3], [PROJECT7], [ORGANIZATION2] experiment, [PROJECT5].
+
+- Discussing [PROJECT3].
+-- A paper is being prepared, will probably be submitted to [PROJECT1].
+-- There are not enough participants for the experiments.
+--- This was a responsibility of the colleagues from [ORGANIZATION4].
+--- They did not provide the participants (Native English speakers).
+--- So far, there are only two participants.
+---- Therefore, there are not enough data. 
+-- Because of these complications, there will probably be only one paper instead of two. 
+-- The paper submitted to [PROJECT1] will not be a collaboration with [ORGANIZATION4], even though it was supposed to be. 
+-- An e-mail to [ORGANIZATION4] colleagues has been sent, urging them to do their part - to provide the speakers.
+-- It is their problem, not ours, but we are still the leaders of this project. 
+
+- Discussing [PROJECT7].
+-- Started working on a paper. 
+--- It will be submitted to the [ORGANIZATION6]. 
+--- The [ORGANIZATION6] deadline was moved to a later date. 
+-- There is a [ORGANIZATION1] Calendar that contains an overview of important dates for conferences.
+--- A link to it will be shared with everybody.
+-- The next conference is [ORGANIZATION5], we will submit to this one as well.
+-- Discussing all the available data sets with multiple reference translations. 
+--- There are many data sets with various languages: English, Czech, German, Arabic, Chinese. 
+--- All of these data sets will be shared with everybody as well.   
+--- The most useful data set will be used for the [PROJECT7]. 
+-- Daily calls about this project will be kept. 
+
+- Discussing the experiment with [ORGANIZATION2].
+-- Last week, there was a meeting, but not many new things were discussed.
+-- [ORGANIZATION2] will find translators for post editing.
+-- [ORGANIZATION2] will also set the price, which will give us an estimate on the total number of sentences we can do. 
+-- What needs to be done now is to set up the proposal for [ORGANIZATION2]. 
+-- There are minor complications with the communication.
+--- [ORGANIZATION2] wanted the experiment done very fast, but they have still not provided the people or number of sentences.
+
+- Discussing [PROJECT5].
+-- Currently: running back translation on monolingual data. 
+-- In a couple of days, all the data will be translated.
+-- Then, the systems will be trained with this data included.
+
+- Discussing participating in [ORGANIZATION6] system demonstration submissions.
+-- We will participate with [PROJECT4] and probably also with [PROJECT3]. 
+-- The submission should consist of a demonstration and a paper. 
+
+Minutes submitted by: [ANNOTATOR1]

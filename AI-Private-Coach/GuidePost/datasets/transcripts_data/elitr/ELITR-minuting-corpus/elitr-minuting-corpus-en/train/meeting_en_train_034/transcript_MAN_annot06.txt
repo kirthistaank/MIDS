@@ -1,0 +1,1342 @@
+(PERSON4) Hello.
+Yes.
+Hi [PERSON9].
+(PERSON5) Hi.
+(PERSON4) Hello, hi.
+So I just talked to [PERSON3], and he was not <unintelligible/> of the call, and he will join us in about fifteen minutes.
+So.
+(PERSON5) Ok.
+(PERSON4) I think its important that uh, that, he also confirms what what we will be presenting a the what what is what would be the technical.
+(PERSON5) Of course, we can wait for [PERSON3].
+No problem.
+(PERSON4) Or we could or we could start with the uh, the technical things that are not the important for uh, for him, so.
+(PERSON5) Okay, just give me a second.
+(PERSON4) [PERSON2] or [PERSON10]?
+(PERSON5) Yep, exactly.
+(PERSON4) So lets wait.
+Lets wait.
+(PERSON5) I just going to check if [PERSON2] will join us or not because actually he is on another call.
+(PERSON4) Oh so and does the pexip link work?
+Like I heard your uh, complained about the number of participants.
+Hello.
+Thats not doing anything.
+It is.
+(PERSON5) No, unfortunately, [PERSON2] will not join us.
+(PERSON4) Ok.
+(PERSON5) I'm sorry.
+I will try to do my best, in answering your technical questions regarding the architecture of the audio service. 
+<laugh/>
+Which, is that absolutely not my scope.
+(PERSON4) Yeah.
+(PERSON5) Okay.
+(PERSON4) [PERSON10], and [PERSON10]?
+We are still waiting for [PERSON10] right?
+(PERSON5) No [PERSON10] will not join the meeting.
+I will report him the the outcome.
+Yep.
+(PERSON4) Okay and I also don't expect [PERSON6] the the head of the the boss of [PERSON3] to to join.
+So, well.
+I dunno how to start.
+There are too many things.
+I think that we should, yes.
+So, one thing is that, have you ever worked with uh, with the subtitling sorry, with with the capturing the video from machine like video mixer, the device that [ORGANIZATION7] has recommended us Epifun.
+So so are are you by the way are you looking [PROJECT2] [PROJECT1] document?
+(PERSON5) Yep, but unfortunately I have no experience with with the video mixer sorry.
+But we can <unintelligible/> together of course.
+<laugh/>
+(PERSON4) Yeah, yeah yeah.
+So so actually maybe I'll I'll start sharing my screen and another thing is that that this session is hopefully being recorded.
+I hope you do not <unintelligible/>.
+(PERSON5) Yes, no no no problem.
+(PERSON4) Just screen, so that you know exactly where I am looking at.
+So this Epifun, thats a device that you connect to the video output of whatever presentation computer, and it will.
+And then you connect, the other end to USB.
+And it works as the webcam for the for the like video, mixing notebook.
+So what you get is is fake webcam.
+And this webcam sees, what is on the screen of the main presentation system.
+(PERSON5) Okay.
+(PERSON4) And I have worked with that we have tested.
+We bought one the price was about 300 euros.
+I think or maybe.
+Yeah.
+Something like that, maybe more, and maybe 400 euros, and then uh, its.
+It works.
+Technically it works.
+If you can accept both VGA and HDMI.
+The webcam size is like does not always match the rectangle of the of the screen.
+But somehow it is all there.
+But the compression seems sometimes a bit too aggressive.
+So it distortes a little the image of the of that screen.
+(PERSON5) Ok.
+You plan to use these kind of solution to cast these lights.
+Let say.
+(PERSON4) So this is a that is that is something that we need to discuss.
+(PERSON5) Okay.
+(PERSON4) This is the easiest to set up so big.
+This is the easiest to attach to anyone's machine.
+So whoever will be presenting.
+We could simply plug this in and steal the image, and then do the video mixing, and all that.
+If we are.
+So this is something for for [PERSON3], also to check, and I will invite him for for that.
+But there is a slight risk that.
+[ORGANIZATION3] will say that the distortion of the screen is is too bad.
+And we don't want this.
+(PERSON5) Oh, okay.
+(PERSON4) And then, so.
+(PERSON5) Oh what happened.
+(PERSON4) Yeah sorry I'm.
+Hello, does it work again?
+(PERSON5) Yes.
+(PERSON4) So sorry for some reason it just died.
+(PERSON5) Thats not a problem.
+(PERSON4) Yeah, it is a problem.
+I don't like.
+<laugh/>
+So wha- what have you still heard.
+(PERSON5) We arrived at <unintelligible/> [ORGANIZATION3] sees that <unintelligible/> Epifun solution is not good due to quality of the image.
+(PERSON4) Well [ORGANIZATION3], well [ORGANIZATION3] has not saved said that yet.
+So it is possible.
+So its only if [ORGANIZATION3] says, so maybe they will say, I'm just working on this in the case if they don't like it.
+Yeah.
+And then the question is, can we duplicate the duplicate video signals somehow.
+So HDMI from presentation notebook to overhead projector.
+So no subtitles.
+Mixed in.
+And at the same time.
+Yep, sorry.
+And at the same time to be Epifun.
+Would you?
+Would you know how to do this?
+(PERSON5) Well, actually, if we say that there is no requirement on having the subtitles on the main stage.
+We can run Epifun in order to cast those lights.
+And use the the usual, the desktop sharing to cast the slides on the main stage for example.
+(PERSON4) But then the video quality is already bad, because it go through Epifun.
+Thats what I'm saying.
+So as soon.
+So.
+(PERSON5) You say that.
+Okay.
+(PERSON4) Yeah I'm I'm my my worry is that whenever we do anything with the video signal from the presentation machine to the overhead projector.
+We will decrease the quality.
+So I think we should go only directly to the overhead a projector.
+(PERSON5) How bad be the, please.
+(PERSON4) Yeah.
+At the at the same time we we need to steal the image.
+So the question is how to uh, produce a video from a from random computer, a presentation notebook or whatever directly to the overhead screen, the <unintelligible/> projector.
+And at the same time to steal it.
+Uh, for uh, for the streaming.
+(PERSON5) Well, actually, it and probably could be done in the video mixer.
+But I I'm not an expert about the mixers so.
+Audio and video.
+(PERSON4) <unintelligible/> video mixer, we actually always meant only the Epifun and a notebook.
+So the the the Epifun is stealing the image but its not creating any copy of that any further.
+It is they are actually putting it to USB and the webcams <unintelligible/> signal.
+And then.
+(PERSON5) Let me check what Epifun is.
+(PERSON4) Well, I'll I'll.
+Thats a company <parallel_talk/>.
+Paste the link.
+We have the link probably already.
+But.
+<parallel_talk/>
+So this is, this is the this is the link.
+(PERSON5) Okay, got you.
+(PERSON4) Yeah.
+It says <unintelligible/>.
+And it probably is.
+But the problem is that Full HD is still too bad for like compared to the direct presentation.
+(PERSON5) Well, actually its says that it cast high definition videos.
+And we have to cast slight than how bad could became an image.
+(PERSON4) Yeah, it is.
+Well so I'll okay, so lets lets leave this question for later on for [PERSON3].
+(PERSON5) Of course I will check it with [PERSON2] which is much more experienced than me on this kind of things.
+Okay, we check it.
+(PERSON4) Yeah so the question for the [PERSON2] would be this.
+Can we duplicate video signal somehow so that it would go to the overhead projector uninterrupted and at the same time to Epifun, so we would only get a copy.
+(PERSON5) Yep.
+Um.
+<parallel_talk/>
+Probably <unintelligible/> two different Epifun <unintelligible/> an external a video card.
+(PERSON4) No, it is, well, yes or no it depends.
+But its Epifun is invisible to the presentation notebook, so from where you are presenting the slides or you could be playing YouTube videos or whatever.
+Epifun is invisible to that.
+Epifun is is sits where the overhead would normally be, but instead of beeming it to the wall it sends it through USB as a webcam signal to another machine.
+And there in the another machine you can do with this webcam video whatever you like.
+You can show it live on the screen, and then you can like further project it with an overhead projector or you can also do the streaming thats for whoever is else is watching.
+So the I think for the streaming the quality is good.
+It is definitely ok, we cannot expect to pass more through the network, a, but for the overhead projection.
+It is little bit distorted.
+It simply it is.
+So the question is how to how to do the like duplicate the signal so that we get it separately to the overhead projector.
+And to Epifun without Epifun interfering in this presentation.
+So thats the, the simple question.
+(PERSON5) Okay, I took the notes and I hope we can back with some answer.
+(PERSON4) Yeah.
+Thank you.
+So we, I still don't have.
+I see don't see [PERSON3] here in the call.
+Oh, hello [PERSON3], are you here.
+We can see you but we don't hear you.
+<parallel_talk/>
+So [PERSON3] is there with instances.
+(PERSON5) Yep.
+(PERSON4) So.
+<parallel_talk/>
+So before [PERSON3] solves the sound issues.
+Then we can discuss the other thing.
+And thats the streaming of the slides.
+Have you had chance to look at the simple solution.
+(PERSON5) No.
+(PERSON4) Ok, yeah.
+(PERSON5) No unfortunately no, but we will do it absolutely.
+And we I want to check the <unintelligible/> you mentioned in the last meeting.
+(PERSON4) Yeah.
+(PERSON5) Okay, we will check it.
+(PERSON4) Yeah, so.
+I have no experience with HTML stream viewers.
+So it would be very good.
+I'll now highlight this again with word.
+So I'm I'm for the download on the Google Doc.
+I think that that sharing the screen killed my machine.
+So I wont do that.
+(PERSON5) Okay, no problem.
+(PERSON4) Yeah.
+So I've highlighted now involved this.
+Uh, the thing about stream viewers.
+So your presentation platform, will be presented from a web browser right?
+(PERSON5) Yep.
+So it could be used also <unintelligible/> on personal devices and also presenting full screen lets say on the main stage, which was one of the the requirements.
+(PERSON4) Yes, that is that is very good think it is also the the uh, like the the most flexible solution for for the future.
+I'm um, but we need to have the video player for the slides portable.
+And I have no experience with this.
+So if you could along with checking for the latency issue in this repository in this one that I highlighted now.
+If you could if you could also paste or like a push a file an HTML file, which will would does demo of of the streaming.
+So just empty page with one video player in there that place a realtime video from the RTM protocol.
+This would be very useful so that I could also like test it on my side, and and see how that.
+(PERSON5) Yeah, ok.
+We, can do it, of course.
+I cannot promise you when.
+<laugh/> 
+We will do it, but we can provide you some kind of raw example.
+(PERSON4) Yeah.
+This this presentation of of the stream is an important part for the participants if we are able to stream the slides.
+We need the participants to be able to see them.
+Uh.
+So um it.
+It should be ready by the end of June as well.
+And the sooner you had the sooner you send me some useful HTML code the sooner I can test it on my side.
+Because yeah.
+So there is still one option, and that would be direct screen grabbing.
+So we could live without Epifun.
+If the presentation notebook is the same as the video streaming notebook.
+So if you were like presenting the slides from the same machine that will do the streaming, uh?
+Then this machine would be doing standard like stream screen casting.
+So it would be presenting sending the uh, its screen.
+Uh, to the uh, the the the the read read <unintelligible/> particle server.
+And then, um, the the same machine would be presenting the video signals to the overhead projector uninterrupted with no Epifun in between.
+And then the same machine would be sending this stream of of office the screen to everybody.
+Uh, and with this setup, we would not have the problem of of the decreased quality.
+Uh, I'm, we would have to.
+(PERSON5) If I correctly understood this second scenario could be the one where the on the presentation laptop we read the vid- slides directly from the.
+Yep, exactly.
+And then we capture the screen and we cast it.
+(PERSON4) Yes, yes.
+(PERSON5) <unintelligible/> okay.
+Oh it sounds a little bit more tricky for me but something we can reason about it of course.
+(PERSON4) Well, I dunno.
+<laugh/>
+I ca- I could do this in Linux.
+So my my exam code, on this subtitling prototype streaming in this repositary.
+That already shows how to grab the screen and send it.
+So I can.
+I can run the the web server for this live streaming on Linux machine, and it will emmit its screen as screencast.
+So this this work for me but [ORGANIZATION3] may not like to present their presentations from Linux laptop.
+So thats my worry again.
+So they would have to convert the the presentations to something that is viewable correctly on Linux.
+Which is PDF's um, but they don't normally work with PDF's.
+So I dunno know if they would accept that, and then the machine has to be strong enough to present the slides comfortably, and and stream the the the screen, which should be doable.
+Uh?
+So I think this is this is like, technically the preferred option, because it has the fewest components.
+It is single system single machine and it it does directly the screaming the Epifun is not involved.
+So that that look good.
+It also in principle, offers the option to mix in the subtitles with some on screen displays.
+So there is a library for Linux, that can write subtitles directly on the screen.
+I have not played played with this.
+Like recently, about I've done that some years ago, uh, for just when when I wanted a some notifications.
+So, so it was from simple scripts.
+I like pasted notifications that appeared on my screen.
+So I think it.
+It could be doable.
+In that case, the uh, the presentation client would have to be different.
+Uh.
+So it would be not.
+Uh, not HTML thing.
+But it would be something which grabs the subtitles from a particle plays, and then the presents them with this on screen display.
+So I don't expect that you would like to implement this.
+But we could do it.
+So there is a number of the conditions that have to be met for the solutions to to be to be the chosen one.
+One of this is that [ORGANIZATION3] is happy with that.
+Uh, the other one is that we are able like setup the streaming in that it works.
+And optionally that we are able to develop a client that reads the subtitles and present them on screen.
+So thats to me.
+This would be the cleanest solution.
+Yeah.
+Lets see.
+The the the the set up that you have for.
+Uh, the city of Rome, uh, that is being presented with an overhead projector or only stream over the web.
+I saw a demo.
+(PERSON5) You see the live subtitling service in the <unintelligible/>.
+Actually it is performed by the the the audio video service of the rooms <unintelligible/>.
+There is some mixer who performs the streaming I can check with our technician of course.
+So in order to understand that little bit more, how the streaming is performed.
+But its performed by another company.
+(PERSON4) Okay.
+Yeah.
+(PERSON5) The audio service one.
+(PERSON4) Yeah and it is visible in the setup that I saw.
+So I saw someone presenting, and the like talking of the the use of city council of the city of Rome, and there were subtitles next to the the the person in some Greyish, with a little grey background, and I assumed that this video is available only over the Internet, and it is never displayed on any screens in the rooms themselves, or is it?
+Is it like the projected, no?.
+(PERSON5) No, no.
+Its only casted.
+(PERSON4) Yeah, okay.
+So then if we if we were the only casting.
+Then we would be of the same quality level that Epifun is good for.
+But we need the the the slides, so thats different.
+So we still don't have [PERSON3] on the call, is that possible.
+So disconnected disconnected.
+So I'm available now
+Okay.
+So can you talk [PERSON3]?
+We don't hear you [PERSON3].
+Okay.
+Yes, so one thing that I really need to review.
+What I have not reviewed is the document that you wrote.
+And [PERSON3] is surely not seen it either.
+So maybe if you could quickly through the document with us once [PERSON3] is there.
+(PERSON5) Yes, sure.
+(PERSON4) That would be the best option.
+So if if sreen sharing works for you.
+(PERSON5) I will try, yes.
+<laugh/>
+Okay.
+(PERSON4) So where is [PERSON3].
+Is he is he online.
+I can hear you but okay.
+Okay.
+[PERSON9] will present and you need to type fast, and before before [PERSON9] so [PERSON3] is here.
+So I'll quickly talk about the begging of the [ORGANIZATION4] document and then [PERSON9] will present the the details.
+So the hardware setup is that there are some self-presentation computer that goes to video mixer, and the video mixers <unintelligible/> Epifun.
+So <unintelligible/> I should say.
+So HDMI or VGA.
+To video grabber we have one then this goes to [PROJECT2] video mixing notebook.
+And that goes to <unintelligible/> via ethernet to all the participants as a stream and.
+The video output of this notebook to the main screen.
+Uh, discussed  [PERSON3] need to come to [PERSON4] or vice versa.
+And we need to test Epifun with the overhead projector.
+And real slides, so that [ORGANIZATION3] confirms the video quality.
+And there is, yeah, so this is the <unintelligible/>.
+So here is the the question to [PERSON2] for for the for the like for the case if the quality of the video grabbing is not sufficient and then.
+The option b which is here.
+Option b.
+[ORGANIZATION3] presentation computer is directly the video mixing computer of [PROJECT2].
+It is used for reading slides in their format PDF.
+<laugh/>
+Serving the or screen grabbing.
+Grabbing of its own screen, serving the stream of the screen to the ethernet and then presenting its screen to overhead projector.
+And then receiving subtitles and presenting them as OSD on screen.
+Display over the presentation so.
+Option b the benefits.
+Best quality of slides.
+Then need to implement, oh thats not a benefit.
+<laugh/>
+Drawbacks need to implement the subtitles to OSD and.
+<parallel_talk/>
+Single machine no, Epifun needed.
+And another drawback is that Linux only [PERSON4] cant imagine doing this in Windows although it is surely possible to but I don't have the programming experience for that.
+Yeah, so [PERSON3] please confirm in writing that you will talk to me and that we will test if we can go for option a.
+(PERSON3) <unintelligible/>.
+(PERSON4) Oh yeah, it works, great.
+(PERSON3) Finally, but <unintelligible/> unfortunately <unintelligible/> things you said.
+(PERSON4) Oh okay, so there is two options in short.
+We, need to meet.
+And we need to test the video grabbing from your presentation machine.
+And presenting it also to your overhead projector, and you will confirm whether the quality of the slides is sufficient um.
+And if it is, then a perfect.
+We will go for something which is now called option A.
+Uh.
+And I hope this would be the case.
+The option B is that, um, we would need to the the.
+We would need to do the presentation and mixing of the slides on the same machine, um.
+And in that case, I think it would have to be Linux, machine.
+So the slides for the workshop would have to be in PDF or something that Linux can present well.
+It could also be html slides like [ORGANIZATION4] slides.
+Uh, but it cannot be PowerPoint.
+Yeah so.
+(PERSON3) <unintelligible/> use some <unintelligible/> not work.
+(PERSON4) Yes exactly.
+So thats the thats the limitation.
+And its why I call it option B.
+So lets hope for option A.
+And if this is if we go for the option A.
+Its ideal, because we can use the same.
+The same presentation platform that [ORGANIZATION5] will develop for all our purposes.
+It will be for handheld devices.
+It would be for uh, the main presentation.
+And in in a full screen mode.
+It would be for the participants notebooks.
+So when can we meet?
+This is something that we need to discuss.
+So let me know one day when I can come to you.
+Probably I'll bring the video mixer, and you will need to have the overhead projector ready, and some presentation notebook as the test one.
+And some presentations and will present it in through the video grabber, and we will see how that works.
+Okay.
+So now, lets look at the.
+Yeah?
+(PERSON3) <unintelligible/> video.
+<unintelligible/>.
+(PERSON4) Okay. 
+(PERSON3) <unintelligible/>.
+(PERSON4) I'll stop my webcam.
+How do I stop that.
+Yeah.
+I stopped my webcam, so this should reduce the load.
+Oh.
+[PERSON9]?
+Are you still there?
+Yes.
+Your video is also stopped.
+(PERSON5) Yes yes, I stopped too.
+I'm going to upload the document of the functional analysis.
+So we can have a look at it together.
+(PERSON4) Yeah.
+(PERSON3) Ok I stopped my video completely, I will see if it works.
+But yesterday yeah <unintelligible/>.
+(PERSON4) Yeah, it works.
+Okay, so lets lets keep looking unitl [PERSON9] uploads the the en- analysis the functional analysis document.
+We can look at the [PROJECT1] [ORGANIZATION4] document.
+And there is the item overview of the presentation modes to be supported that [PROJECT1].
+And this is mainly for [PERSON3] to confirm.
+So a subtitles on the main screen.
+Are we expected to do them.
+I assume the answer is yes unless we.
+(PERSON5) Yes, of course.
+<laugh/>
+Yes of course.
+(PERSON3) I am not sure.
+I'm getting <unintelligible/> I think you want to try I think we are in different to it.
+(PERSON4) Okay, yeah okay.
+So thats true.
+[PROJECT2] wants to try it. 
+[ORGANIZATION3] is in different, I dunno how many <unintelligible/>.
+Or [ORGANIZATION3] [ORGANIZATION3].
+So we will try.
+<laugh/>
+Yeah, so the preffered solution is indeed, as we discussed the presentation platform has the full screen no waste mode, so that the exact same presentation platform can be used in people's web-browsers, and on the [PROJECT2] video mixing notebook.
+And the fallback solution is this is hacking, uh, or possibly a , uh, yeah and fallback solutions C.
+And we have a fallback solution B, as well.
+Fallback solution B C above.
+Subtitles on each participants notebook.
+So is this expected or again [ORGANIZATION3] is in different.
+(PERSON3) <unintelligible/>.
+(PERSON4) Say it again.
+(PERSON3) This is expected.
+(PERSON4) This is expected, okay.
+(PERSON3) <unintelligible/> on the notebooks in front <unintelligible/>.
+(PERSON4) This is expected by [ORGANIZATION3].
+I cant hear, so maybe please type into the [ORGANIZATION4] Document what exactly is expected.
+Is it or I'll have it every participant, yeah <unintelligible/>.
+Every participant is free to choose.
+Uh, the uh, the language.
+They like right?
+Um, should they see more?
+Should is should be allowed to see more languages.
+(PERSON3) Yeah sure, why not?
+(PERSON4) Yeah.
+Okay.
+(PERSON3) Its after them which language works for them the best,
+(PERSON4) Yeah.
+(PERSON5) Um, sorry just a question.
+Able to see more than one language subtitle at the same time?
+(PERSON4) Yes, I assume.
+(PERSON5) Okay.
+I'm asking if the participant is free to choose the language and one or more than one.
+And when more than one language is selected.
+More than one subtitle is displayed.
+Okay.
+[PERSON3]?
+(PERSON3) <unintelligible/> [PERSON4] to decide how he wants it.
+<unintelligible/> participants should definitely be able to <unintelligible/>.
+Because <unintelligible/> language for them.
+But regarding the multiple languages I dunno will it be usable with slides in the background.
+(PERSON5) No it in my opinion no.
+<laugh/>
+But I was asking in order to check it of course.
+(PERSON4) Yeah, yeah.
+So I was thinking about the lecture translator.
+I'm sure you know the interface.
+[PERSON9].
+(PERSON5) Yes.
+(PERSON4) <unintelligible/> yeah.-
+I think that it can be very useful for the participants to follow both.
+(PERSON5) Oh, okay.
+Because the translation at some for the level of like confusion.
+So for this purpose.
+I think it would be useful to allow, two languages <unintelligible/> to choose up to two languages.
+So uh.
+So the screen layout would be like the top part would be the slides.
+And then the bottom part of would be either just one like bench, like like one bar off of the subtitles, or this same bar split into two with two subtitles in English.
+Well, again languages of of your choice.
+So so they could decide to follow French, and <unintelligible/> they mother tongue Polish or something like that.
+(PERSON5) mm-hmm.
+(PERSON4) It could be useful for the for the participant.
+Following three of the languages is something which is probably not going to be useful for more people than me than myself and others.
+So I do not think that three languages would be necessary.
+Uh, and if you if it is hard for you.
+I think it is okay, to say that only one language has to be chosen.
+(PERSON5) Well, actually its not the more hard, than displaying one language.
+But for me is actually I knew knew functional requirements, then probably it will not be ready for June, but for 2020 it could be done.
+(PERSON4) Yeah, okay yes.
+So please take a note and please.
+(PERSON5) Yes.
+(PERSON4) Yeah yeah okay.
+So.
+<parallel_talk/>
+<other_noise/>
+Sorry.
+<parallel_talk/>
+Yeah okay.
+One critical thing is this is no need to restart the session.
+It must be reconnect automatically, and that applies to all the components.
+So I'm highlighting this.
+Because I know from the the the fair where we tested the technology.
+That that we restarted the underlying client.
+So EB EB client and the the sessions and the worker pipeline.
+Many times during the day, and every time it created a new session ID.
+So every time we also had to change the uh, the, the presentation, we have to touch the presentation device.
+And first of all we do not want to like notify the participants that they need the restart that client .
+And and they need to like like I use a different ID somewhere.
+And second for the main screen.
+We, also don't want any restarts.
+We don't.
+We don't want to to have to go to that machine.
+We just want this machine to reconnect automatically whenever the underlying service is changed.
+So I hope that your setup allows this, so that there is like a symbolic name of the session, and that the main screen presentation as well as the participants connect to this symbolic name.
+And the underlying session ID's can be the totally like regenerated many times and it.
+It will gracefully jump from one another.
+To follow those sessions.
+Is that.
+(PERSON5) OK probably, the presentation blocks <unintelligible/> way respects to the the these <unintelligible/> clients of the <unintelligible/>.
+It will be just lets see.
+Publishing platform.
+Then there will be something on the [ORGANIZATION5] service architecture who will push subtitles to the presentation platform.
+In order to manage the.
+The.
+The case where a worker dissapear or there some problem.
+We have reasoned about it.
+And we choose to define a kind of queue of streams when a stream dissapear it start taking subtitles from a different stream.
+For example if we are going to display English subtitles, okay.
+Now we are going to display German subtitles translated from the English stream.
+And these pipe in at some point dissapears.
+Maybe we can display German subtitles translated from the interpreters.
+From the one who speaks lets say Russian Russian translated into German and display this stream.
+We have decided to manage it with kind of fullback queue lets say.
+These should should work.
+And it actually, its not that easy to manage it in order to also restart taking subtitles from the prefered stream when it comes back.
+Of course we <unintelligible/>.
+(PERSON4) This was my question.
+So what if what if the main.
+Setup that we prefer the most becomes available again.
+How do we notify the overhead presentation platform to <unintelligible/> again.
+(PERSON5) In the exact implementation we have not yet reasoned about it.
+But I expect that each stream for example has kind of indentification of the source.
+And <unintelligible/> preferd source.
+And we prefer always the first one lets say.
+When the first one comes back its it it start taking subtitles from the first one.
+(PERSON4) I'mmediately starts taking subtitles from the first one.
+(PERSON5) This is of course just still and idea.
+Not yet implemented.
+But could work in some sense this way.
+(PERSON4) Yeah.
+There is actually two situations.
+One is that we want automatic and immediate fallback if something, uh, or especially if we like kill it kill the whole thing, um, and and restart it.
+We want the presentation systems to pick it up again.
+But there is also the thing that we probably need to discuss later today, like during the call.
+And thats, um, if there are on our side, more possible inputs.
+And we want to choose on the fly, which of them is the best, now.
+So thats like.
+(PERSON5) Okay.
+(PERSON4) Do we have that planned.
+Okay, yeah so thats not planned for the call today.
+But I had this idea that we would be recording, uh, the many the multiple English.
+So actually, we could have the floor English.
+And then two respeakers.
+And we, we need some way of looking at the outputs of ASR of each of those like looking at it without interrupting it.
+And then we need to select which one of them should be the source for the machine translation, and also, which should go to the to the main screen with the English subtitles.
+And this can change from speaker to speakers so to say, so.
+(PERSON5) May I ask you?
+To go to, or or to check what assure on the.
+Okay.
+The second image for example.
+<unintelligible/> six.
+This place whats what we call the configuration sorry.
+The configuration GUI.
+You are asking to have also.
+Lets say a box.
+On the right for example.
+For pair in order to have a preview of what is published as subtitles in order to perform.
+(PERSON4) Visual check.
+(PERSON5) Okay.
+Okay, okay.
+But this is done at presentation level.
+You are asking also to choose what to send to machine translation workers.
+(PERSON4) Mm-hm.
+Yes.
+(PERSON5) Ok but this is has to be done in a completely different place.
+Because presentation platforms just receives subtitles.
+And its not.
+It doesnt perform any <unintelligible/> regarding service architecture pipes.
+The pipes are controlled by the fingerprint mechanism.
+(PERSON4) Yeah yeah.
+So for this please scroll down into [ORGANIZATION4] document.
+There is a section called livestream selection.
+(PERSON5) Okay.
+(PERSON4) And this is where I outlined what I would like to have in the like the backstage, uh. 
+(PERSON5) Sorry.
+Livestream 
+(PERSON4) Selection.
+It is on <parallel_talk/>.
+It has an on the side it has a note assigned to you.
+(PERSON5) Ah, okay.
+<unintelligible/> okay, I I found it.
+(PERSON4) Yeah yeah excellent.
+Yeah.
+<parallel_talk/>
+So if everything runs smoothly.
+We will have four or five possible inputs.
+ASR from the floor.
+ASR of respoken English.
+ASR of Czech.
+And ASR of German.
+This will has, this will have the a double the delay, because in the.
+Through Czech.
+So I would like to uh, to have a multilingual stream selection worker.
+This is what a this is what is needed.
+And you see from the in in in worker that indeed, it is not related to the presentation platform.
+Ideally, if we are able to set this up.
+It would be a simply user interface, that will work on the chosen sub set off ASR screens as they are rolling.
+It will show them and like preview, as we mentioned, and a human operator would be monitoring these outputs, blocking or allowing, each of them separately.
+Uh.
+So under each of the monitors screens the operator would could also manually enter <unintelligible/>.
+This is like really in the long term for the uh, for the 2020, uh.
+So they could enter <unintelligible/> of two kinds <unintelligible/> that gets simply erased from the stream.
+So it.
+It is already a worker on its own.
+It is <unintelligible/> its its changing what is in the stream.
+But also stop words that block the uh, entire stream until manually released again.
+So we can easily have come to situations where we a find speaker who mispronounce his something, and we get some horrible unexpected bad words.
+And for this case.
+We first we will try to just remove the stop words from the output.
+But if we see that is too common, to frequently pop pop <unintelligible/>.
+We would <unintelligible/> say okay, whenever this happens again.
+Just stop this input, don't consider it any further.
+And so this is this is something that we ideally would like to have.
+This is like an immediate response to some people's uh, miss pronunciations.
+(PERSON5) Okay okay.
+Actually.
+You are talking about two different things probably.
+You are talking about lets say an application.
+Whos able to choose the ASR input for the machine translation.
+And you are talking about solution to to review.
+Lets say subtitles before publishing them.
+Its correct?
+(PERSON4) No this is this is.
+(PERSON5) Okay, sorry.
+(PERSON4) Output of the ASR.
+If the ASR is then directly put to the subtitles.
+Then yes you are actually reviewing the subtitles, but you are right its good idea to separate this.
+Because we may want to do the same type of review also for the outputs of machine translation and not only for the ASR.
+(PERSON5) Yes, and we put a kin- kind of idea lets say a kind of requirement on the presentation platform regarding the possibility to review subtitles before publishing them.
+Ok, the these probably will be done for in the next year.
+But you say that.
+(PERSON4) This is yeah yeah.
+I agree with you that is good to have this option as part of the presentation platform.
+But at the same time.
+It is important to have this option for reviewing the input for machine translation.
+Because if your ASR has some bad bad word.
+You don't want to kill it after all the target languages in in the the publishing platforms for the different target languages.
+You want to kill it at before the before the machine translation takes it.
+So this review has to happen after the ASR.
+And also possibly after the machine translation.
+(PERSON5) Ok.
+This probably is a completely different application.
+(PERSON4) Mm-hmm.
+(PERSON5) Okay, of course.
+We can imagine.
+For example, as lets say.
+A kind of many in the middle.
+<laugh/>
+Of the service architecture,a kind of.
+Well actually.
+Yep, exactly.
+Is something who takes ASR output checks it and forwards it to the machine translation.
+Its not that easy to imaginate working in the actual [ORGANIZATION5] service architecture.
+(PERSON4) I think its, let me just quickly say how if I had to implement it how I would do it.
+But correct me if I'm wrong.
+So there is this segmentation workers, that normally takes <unintelligible/> that take text.
+And then publish other text somehow modified under different fingerprint obviously.
+So I think that if we had the same.
+Uh, like a segmentation worker style.
+For interfacing the the mediator.
+And then this would be running in one thread in a multi thread application, and the user interface would be running in a separate thread, uh, then the user interface.
+So so the, the main.
+The main thread would be always doing plain copy.
+Whatever I get as the ASR output.
+I directly emmit.
+So there will be no human involved in in for most of the time.
+But every now, and then the the human with its with.
+It is the very slow speed.
+They would realize, oh, there is something bad.
+Uh, lets kill this stream for now.
+So they would click on the on the preview, and the the main a thread would be notified don't emmit anything from now on.
+So this.
+This would be the met men in the middle console would be a multi thread application.
+One thread serving the user user interface, and then the two or more threads, or one one or more threads.
+Serving the interseption of the workers.
+And each of these additional threads would be indeed the the worker for the uh, for the mediator setup.
+So.
+If one the the way the one would start this.
+Would that I would launch the platform.
+The platform would register itself as an interception worker for all these different languages that I can review as a person.
+And then the the the main like clients that start that provide the sound or whatever to the to the mediator.
+They would get started with such fingerprint so that the pipeline goes through my interception system and then yes everything would start.
+As as as normally, everything would go through this interception system and this interception system would immediately emit what it receives.
+And at the same time.
+It would also present it on screen for each of these threads separately.
+And when I say block this one, it wont from prom- produce any further output on those particle threads.
+So I think this is doable with the current mediator.
+And it is not too cumbersome actually, but obviously, it takes lot of time to implement.
+So I don't think that we'll be able to have it for for for June.
+(PERSON5) No.
+For June no.
+<laugh/>
+But for me is a completely new requirements also for the project.
+We have to discuss it with [PERSON2].
+Actually I I understood the point of course.
+And I will explain it to [PERSON2].
+(PERSON4) So lets quickly finish this.
+The worker was simply pass the allowed stream back to the mediator for further processing.
+More such workers could be connected simultaneously thats the multiple threads that I set.
+For human operators, capable of accessing <unintelligible/> English alone or English and Czech and German.
+So if I'm confident in three languages.
+I would be just looking at these these uh, at these subtitles.
+And I would say yes yes yes, these all go.
+So these workers should attachable to both ASR outputs as well as <unintelligible/> outputs.
+<parallel_talk/>
+What are these cascades.
+As well as yeah, to one another to form short and simple cascade.
+So one of the cascades could be our [PROJECT1] case.
+One stream selection worker would be for Czech from English with operator needs to speak Czech and German.
+<parallel_talk/>
+So, into.
+This is this is my note.
+<laugh/>
+(PERSON5) Dont worry.
+(PERSON4) <laugh/>
+(PERSON5) You say that someone is talking English its translated to Czech.
+And then its translated to German.
+Probably.
+(PERSON4) Yep, exactly.
+<parallel_talk/>
+Yeah okay, so what I'm saying is that, in the cascade there is indeed one selection worker.
+For Czech and German.
+So this is one person who speaks Czech and German, and here he sees how the ASR of Czech look, and how the ASR.
+So the operator validates the ASR outputs of Czech ASR and of German ASR.
+He can block any of them at any time.
+Then the empty systems are attached to each of these separate streams.
+So one Czech to English AS- empty system is attached.
+And one German to English system is attached there.
+And there is like a second stream selection worker in the pipeline.
+And thats some- someone who checks the quality of the English that we got.
+So we got the English.
+So this is the original.
+<parallel_talk/>
+So we have the English from the floor.
+We have the English as respoken and recognized.
+<parallel_talk/>
+English respoken and <unintelligible/>.
+English from Czech yeah.
+<parallel_talk/>
+And English from, so this is English empty output from German to English system from German.
+And this German actually got created by AS- from German ASR from German interpreter interpreting Czech.
+<laugh/>
+Yeah so this is.
+No <unintelligible/>.
+<parallel_talk/>
+Yeah this is the same, I think that was that was already the one.
+So there will be multiple Englishes available.
+And for each of these Englishes the operator will again choose the best one yeah, so the.
+<parallel_talk/>
+So ideally we would have this huge setup with two persons one validating the various inputs of the ASR.
+And another one selecting the best English.
+(PERSON5) Ok.
+The second one is already planned in the presentation platform.
+And the first one is what we talked before regarding the many in the middle solution lets say.
+Which is actually for me.
+<laugh/>
+We have to discuss.
+(PERSON4) Except except the way except the way of planned this second one.
+Is that only at the stage of subtitles.
+Its not before any empty.
+(PERSON5) No, only at the stage of subtitles.
+(PERSON4) So that means that we would have to the problem of this set up that you have now is is left in the like better than nothing.
+But the problem is that we would need to be able to review Hungarian.
+(PERSON5) It it could be explained to be could be done before subtitle publishing.
+But still at subtitle level.
+(PERSON4) Yeah, but then still that that would not help.
+So the the problem that I'm pointing at is that in our in the overall [PROJECT2] setup.
+There is up to 43 target languages, and we cannot expect to have validators for each of those.
+So thats why its important to review already the input to the machine translation systems.
+(PERSON5) Okay.
+(PERSON4) So, I dunno if if you have already put effort  into this review of the subtitles, m- ma-ma- maybe yes maybe no.
+But I don't think that its important for [PROJECT2] setup.
+(PERSON5) Okay.
+(PERSON4) So.
+(PERSON5) Its much more important to have a review before machine translation step for you.
+(PERSON4) I would say so, yes.
+(PERSON5) Okay.
+(PERSON4) I'm I'm not sure if if [PERSON3] is still on the call.
+[PERSON3] are you there?
+Yeah I dunno.
+(PERSON3) <unintelligible/>.
+(PERSON5) Yep.
+(PERSON4) Yes now we can hear you.
+So [PERSON3], what dou you think, what is more important to review subtitles before they are published or to review the machine translation outputs.
+(PERSON3) <unintelligible/> sentence hello?
+Can you start sentence again?
+(PERSON4) Yeah.
+So we were discussing what is more important, whether to review the subtitles in their final language before they are published, or whether it is more important to review already the input to the machine translation system.
+And my argument is that the input of the machine transitions system is more important, because it will be English most likely.
+And we will have.
+It is easy to find operators to validate English.
+But it is difficult or impossible to have operators, validating all the different target languages that uh, that the whole setup will produce.
+(PERSON3) <unintelligible/> I agree also I agree because I would probably use just the English ASR and maybe not even use the translation.
+<unintelligible/> participants.
+So I think also expecting expect more problems <unintelligible/> on the ASR side than the translation but I'm just guessing you are the one who should know.
+(PERSON4) Yeah yeah.
+Yeah so so.
+[PERSON9] at what stage is the development of this subtitle reviewing.
+Is it only planned.
+(PERSON5) No no the the.
+The review is not yet implemented.
+We are still reasoning about these function.
+Actually starting from this <unintelligible/>.
+I have already a couple of points.
+And a couple of modifications <unintelligible/> inside the document.
+And this is why we asked you to have this kind of.
+Yep.
+(PERSON4) Yeah thank you.
+So as I said I don't think its worth while for the [PROJECT2] setup.
+To review the subtitles only.
+(PERSON5) I've got to point also for the having people speaking so many different languages.
+Okay actually it could not be done at presentation layer lets say.
+Should be done at the different layer and this is not what we planned.
+<laugh/>
+We have to talk with [PERSON2] regarding these points.
+But I absolutely got the point.
+(PERSON4) Yeah okay, thank you.
+So again we can scroll up to the screen and up to the <unintelligible/> document.
+So we have discussed the presentation modes.
+So we we've jumped from this <unintelligible/> to restart this session must reconnect automatically.
+So this reconnection is automatically reconnection obviously applies also to the setups once there are this this automatic th- this this like men in the middle workers.
+And it has to be compatible, so the men in the middle will probably like just mute some of the outputs.
+And technically muted output is is, okay, uh?
+But it is not delivering any signals.
+So the presentation platform should jump to the non muted ones.
+So that is the the thing is the into account when when designing how to exactly implement it.
+And uh, the next point is just a summary of foreseen uses of the presentation platform.
+In the fallback solution of for [ORGANIZATION2] SL yes yes.
+So this this in the last call on Friday, when [PERSON7] brought up the the critical a milestone in August.
+Where what we should have some spoken language translation, a preliminary version available in [ORGANIZATION2].
+I said that the fallback solution for the [ORGANIZATION2] platform.
+Is that all the remote meeting participants of [ORGANIZATION2] session.
+Will be sending their audio to [ORGANIZATION5] mediator.
+This has been tried.
+But then [ORGANIZATION2] has cancelled that I believe, because they are doing the recording on their own.
+But they should get back to the recording anyway.
+That you they should get back to sending the audio to [ORGANIZATION5] mediator anyway.
+And then uh, for the participants to receive the the the translations.
+Um.
+They would open a separate web browser window where they would be looking at the [ORGANIZATION5] presentation platform.
+They should be again, able to select one language.
+But all subtitles, uh, will be present in that language.
+So it is merging outputs from all other [ORGANIZATION2] meeting participants.
+(PERSON5) Mm-hmm, the.
+I I've got the point of this solution on Friday and I talk about it with [PERSON2].
+We were reasoning about the fact that the main solution, the one completely integrated  the [ORGANIZATION2] platform.
+Should have one speaker sends his audio through the [ORGANIZATION2] platform.
+But receives only subtitles of all the other participants and not its owns.
+Which was a pretty strange for me, and they talk about it with [PERSON2].
+And and.
+He has add another point to the overall reasoning.
+He told me what if the if the speaker doesnt see his his subtitles.
+How could it he be able to to understand if people are reading something wrong for example.
+Something wrong coming out from his his transcription.
+And actually its a good point for me.
+<laugh/>
+I think that.
+My opinion.
+Okay.
+(PERSON4) People should see also the ASR of their own a voice.
+(PERSON5) Yeah, I think that we should be much more preferable.
+(PERSON4) Yeah, Yeah, I agree, uh, <unintelligible/> like I havent realize this during the Friday call.
+But I think an important part of the success of this set up is that people adapt their pronunciation.
+So that really, <unintelligible/> always like misunderstanding what what I'm saying.
+I will try to say differently.
+(PERSON5) Mm-hmm.
+(PERSON4) So.
+The there is still an issue with the like on the will with the the load on the on the brain of the speaker.
+If I'm speaking, and if I was hearing my voice.
+Uh, in my in my headphones with some delay.
+It would confuse me, and I would not be able to speak.
+(PERSON5) Yes.
+But probably the conference system doesnt let you hear your own voice.
+(PERSON4) Yes yes yes.
+But I'm worried from this confusion if I see my messages being transcribed in front of me with some delay.
+(PERSON5) OK.
+(PERSON4) So this is similar.
+It it like works on on a different part of the brain.
+It is reading and not listening.
+But still I think that for some people, it may be a very disrupt- like disturbing to read.
+It would be with the delay of of four seconds, for example.
+(PERSON5) But actually we work a lot in the dictation field.
+And we actually, we perform just the automatic transcription, then the delay its usually in much nowhere its around 3 seconds lets say.
+From one to three seconds.
+People interacting, which this kind of systems feel not that uncomfortable they just put the posies in their speaking waiting for their outputs.
+Which is not that bad.
+(PERSON4) Thats not that bad.
+Thats thats good to know its that you have this experience.
+So putting this, so I agree with [PERSON2] and you.
+So putting this back to the particle setup for the uh, [ORGANIZATION2] case you would need to present the outputs of the ASR.
+To the person immediately.
+So the lack must not be increased by the [ORGANIZATION2] platform.
+And its also important to realize that the stream mix in very diverse ways.
+So if I'm if I'm talking in English, and you are only talking Italian then uh, like I need to see myself from the English ASR with very immediate response.
+And I'm happy to get the translation from Italian ASR to English with some delay.
+Technically on your side it is coming from different sessions.
+I think.
+So that the the this is like this is not relevant for the workshop in June at all, but it is relevant for the overall design of the remote conferencing for [ORGANIZATION2] for the upcoming years of the project.
+So thank you for revising, the uh, even you can you can modify the the document the main call and then say that you have discussed this later on and you think that the person should see theri own speech transcribed and all that.
+Just modified so that we have that information.
+And yeah think about it in in planning further.
+(PERSON5) For actually for as fallback solution it will prefectly work at one you propose the for the August milestone.
+Then, if if we can we are able to run it at June it will for sure work also in August.
+<laugh/>
+(PERSON4) Yeah, thank you.
+So the presentation platform connects to many sessions, right?
+I think.
+(PERSON5) Actually it doesnt connect anywhere.
+It receives.
+(PERSON4) Or observes many sessions.
+Or.
+Yeah yeah thats good.
+So exactly to t- for this presentation platform to serve for the August milestone.
+There would be only some like book keeping or like orchestration.
+(PERSON5) Sorry.
+Sorry [PERSON4] I lose the the audio, can you repeat it please?
+(PERSON4) Yeah.
+So for the for the  August milestone, I think that uh, the only uh, thing that would be missing would be like some orchestration.
+When multiple people connect to the [ORGANIZATION2] platform, all of them open some URL.
+This URL on the your server side it needs to know the various ideas of the of the sessions that it should present concurrently.
+So this like orchestration, that happens at the beginning of the call will be missing.
+But its not too complicated and the platform itself already will will work very well.
+Okay, exactly.
+The actually I'm not aware of the technology choosen to develope the presentation platform.
+But it could also be the case where the URL of one streaming one subtitles is it could be in further lets say starting from the languages and so we can put some kind of automatic system of who allows people to open directly on the correct page.
+But I'm just lets say.
+<laugh/>
+Just reasoning about it right now.
+Its not yet planned.
+(PERSON4) Yeah, yeah.
+(PERSON5) But we could be done probably.
+(PERSON4) Okay, so.
+This is thats very good to hear and whenever you can talk to [ORGANIZATION2] when you are in touch with [ORGANIZATION2]..
+Please remind them that they need to send audio to you at least.
+if that so that the the fallback solution is, uh, is doable for for the August.
+(PERSON5) Well, if they want to have some kind of.
+<laugh/>
+Subtitles, they need to send us the audio for transcription.
+<laugh/>
+Yeah it will probably, it will probably done.
+(PERSON4) Well but but but they so so far they have like skipped away from that.
+They they've decided to do the all the recording themselves.
+(PERSON5) Yep.
+<unintelligible/> encountered some problem interfacing with us due to the fact that they belong they developing <unintelligible/>.
+And we havent.
+Exactly.
+(PERSON4) Yeah, this this problem has not gone away.
+So, we need to like reopen it and and implement it anyway.
+(PERSON5) mm-hmm.
+(PERSON4) Okay.
+That is that is very good.
+So we've already discussed this.
+The HTML viewer so the if you send me some.
+I can try my streaming, uh, the presentation platform were also run in the full screen mode.
+One thing that I would like to have here is.
+<parallel_talk/>
+(PERSON5) Yep.
+(PERSON4) <laugh/>
+(PERSON5) No, no, you are completely right.
+(PERSON4) And [PERSON1] has read the the proposal.
+I was not able to talk to him directly.
+Uh, he just send me short message in Czech.
+And he says that it is it is all sounds reasonable.
+That he only says that for debugging purposes.
+It would be useful a to test presentation platform with audio and video from file, um and.
+(PERSON5) Ok.
+(PERSON4) Like and subtitles that are like pretranslated.
+So, that the the you, you can test the whole thing, even without ASR workers and without empty workers running.
+So I'll I'll translate it.
+(PERSON5) It will probably not be prepared.
+Ok.
+I understand it the bug proposes of course.
+But putting the possibility of for example uploading an audio file or us SR SRT files, which are the subtitles <unintelligible/> lets say.
+In the platform directly in the platform it its its a different functional requirements, probably we can arrange <unintelligible/> client lets say, who takes video and file and send it to the platform.
+(PERSON4) Yeah I think thats the way [PERSON1] also meant it not that the platform itself would digest the files, but rather that we that there are command lines that take the audio and the subtitles and they simulate and stream it stream it to the plat- to the mediator.
+(PERSON5) Maybe it could be done with VLC.
+Software.
+Because on VLC you are able to of course open a video file open subtitle and then stream them.
+(PERSON4) So thats thats VLC also stream the subtitles?
+I don't think so.
+(PERSON5) I dunno.
+But could be.
+Could be actually is a really powerful software.
+<laugh/>
+We can expect it.
+(PERSON4) I know that so the the the streaming that I use for my tests.
+Are internally probably very similar to what VLC does.
+So VLC probably runs its own <unintelligible/> server.
+The <unintelligible/> protocol server.
+So I do I'm doing this just on the command line.
+But yeah yeah.
+<parallel_talk/>
+Yeah.
+And one another thing that he would like to have is the uh, to agree on the simple plain text format.
+Which will contain the subtitles.
+So the question is like.
+What is the uh, data format for subtitles.
+And you've mentioned SRT.
+Is that the thing or not.
+(PERSON5) Well, actually, probably in the presentation platform there will be just a text field.
+Lets say.
+This because I'm not aware of any any worker yet running on the mediator that it is able to output directly some kind of subtitle format.
+And the text field solution is the most flexible one.
+(PERSON4) And when you say text fill.
+(PERSON5) Field.
+(PERSON4) Text field, yeah.
+So with every message uh, the field will be like fully replaced with what.
+(PERSON5) Yes.
+(PERSON4) <parallel_talk/>
+Or how does it work actually.
+How does it yeah, this is this is quite important for the end user, like end points for the web thing, because it is extremely useful to be able to scroll somewhat in the in the past transcript.
+(PERSON5) We reason about it of course but the main drawbacks of having the whirlign text is that.
+If the system has outputs some kind of terrible error.
+<laugh/>
+Users are are exactly.
+And this is the reason why we choose to replace each time.
+Also because if people choose language <unintelligible/> of course people are able to choose just one language <unintelligible/> you asked for having at most to different languages.
+But this is a different point.
+If people change a language while subtitles are running.
+Of course, uh, on their personal devices previous subtitles on the different language are not available.
+Then you, you will not be able always to <unintelligible/> subtitles and this is and also another drawbacks.
+(PERSON4) Yeah so this would.
+This would be okay, with me.
+So I think its, it would be totally okay for the client to cash only the subtitles it has seen.
+So if I have, if I'm have not followed German, and I suddenly start.
+I will only start receiving German from now on this is.
+This is OK uh.
+The, the thing about like hiding the bad outputs with by by replacing them with the newer ones.
+I would prefer from the user's point of view, I would prefer to have this scrolling capacity.
+Even if it contains the bordering words, because very often for me, uh.
+It would be too like I would I would like to have some more time to to read the subtitles.
+And if they disappeared, then I'm I'm screwed.
+So uh, obviously, not for the full screen mode.
+But I think that for the end user, usecase as well as for the [ORGANIZATION2] setup.
+It would be very useful.
+Uh, to see the messages like as as they extend.
+So in in the same way, as the lecture translator has it.
+So the lection translator gradually expands.
+What what is there.
+And then so so maybe maybe it is indeed, just the client like logic in the client.
+So that the underlying concept is indeed, the stacks fields.
+You are receiving text fields.
+And as long as the text field has the same beginning, you keep extending the text field.
+And then when the new beginning comes, you will say," well, this next tex field has been closed.
+Lets make it like black, move it upwards and then start putting the new text field, again in grey or dark grey there as as it being extended.
+(PERSON5) And what if.
+Sorry, what if the end user select for example Italian subtitles then moves to the German subtitles and then moves back to Italian subtitles.
+It will be he sorry will not be completed.
+(PERSON4) Yes, the history will be rainbow.
+The history will be in all the languages he has chosen.
+(PERSON5) Okay.
+(PERSON4) So I think the is the best setup.
+If you is the screen size permits.
+And if your user interface would permit this.
+I would like to have like two such two or possibly even three such windows next to each other.
+And in the first one I would start with English in the second one I would start with German.
+And the third I will start with Czech.
+I would be receiving histories in three languages.
+The way that I just described.
+Then I would see that the Czech is garbage so I would switch the Czech to Swedish if I can speak Swedish obviously.
+And then I would skip I would keep  seeing the complete English, because I was following that this all the time.
+I would have there the whole German as well and for Czech and Swedish.
+I would have the respective parts that I saw in the in the respected languages.
+So this way.
+If we have multiple views, rolling views.
+That behave the same way.
+Then I can let one of these views to keep following English, so that I can always refer the.
+And I can play around with my main language.
+Uh, whichever I choose.
+And yeah, so this is the most flexible.
+(PERSON5) Um-hum okay.
+I will talk about it with the development team.
+Of course, I will extend the functional analysis, and I will send you the uh, updating documents
+(PERSON4) Um-hum.
+Um-hum.
+Okay, so I'll say past sub- subtitles.
+<parallel_talk/>
+(PERSON3) I wonder <unintelligible/> say if the ASR decide it decides <unintelligible/> the first <unintelligible/> something now.
+(PERSON4) Thats a good.
+(PERSON5) Sorry?
+(PERSON4) Yeah.
+So [PERSON3] remind that the ASR can sometimes review its decisions.
+So actually yeah so.
+<parallel_talk/>
+Decision when input is finished, should not be based on the prefix identity but rather on timestamps
+(PERSON5) Okay, you are talking about partial hypothesis output the <unintelligible/> workers.
+Well actually in the last calls, we [PERSON8] didnt participate and probably he's the one who will have some kind of answer for us.
+But I expect that their their outputs partial hypothesis partially but at at some point says, which one is the final one.
+Because is the is the usual behavior probably is just matter configuration.
+Oh, actually I hope so.
+(PERSON4) So the ASR should tell us what is final at that point the the presentation platform should move to the new text field.
+Still this is this is tricky.
+The segmentation is is tricky.
+(PERSON5) Yes the, partial hypothesis may change also time-stamps, of words, even even words stays the same.
+I dunno how you manage it in the in the <unintelligible/>.
+Okay.
+Exactly.
+(PERSON4) So so at the March fair.
+It was <unintelligible/> were systems, the lecture translator.
+And it worked reasonably well.
+For if if there was no translation involved and for the translation itself.
+Uh, the the Czech translation there was some crashing client.
+And that had very long, a lag, because it was always waiting for the full sentence, and only then it sent it to the machien translation,
+For the German a translation into German of their lag was shorter.
+And it was like fixing, it was updating the the empty output.
+But still, it was like swallowing words, and even the ASR was swallowing words.
+It it produced some good part of the sentence.
+And then suddenly it decided that this is not a like not valid for some reason.
+But it was good.
+It was matching the what the speaker said.
+And it replays this whole part with what he said after that.
+So it was like.
+(PERSON5) It was not working actually.
+(PERSON4) It was updating to <unintelligible/> so to say.
+So its somehow decided that that he has corrected himself but he has not.
+(PERSON5) Ah its tricky at this point.
+(PERSON4) Yeah.
+Yeah.
+And what I'm also very much concerned about is if we rely on the ASR doing the segmentation.
+Then the there could be too much text.
+Collected to present in the in the text field, like not that the computer will struggle with that.
+But the layout of the user interface will struggle with that.
+(PERSON5) Um, in fact as lets say future works.
+We have to reason also about subtitles readability.
+Because, of course, you know that there are rules to let the subtitles be readable.
+And we have to take care of it.
+(PERSON4) Um-hum, yeah exactly.
+So there could be again, like subtitle readability worker, which would be connected at the end of ASR or at the end of machine translation and there it would be doing some online like readable subtitles.
+(PERSON5) From machine translation actually.
+I'm not aware on how [ORGANIZATION7] workers, [ORGANIZATION7] machine translation works.
+But probably read they will always require in order to prepare better translation.
+The <unintelligible/> phrase.
+Been probably.
+(PERSON4) No no, they.
+(PERSON5) Okay.
+(PERSON4) And we are also, thats what we discussed on Friday.
+And I think we discussed before the main on, but you were on both of the calls right?
+(PERSON5) Um-hum.
+(PERSON4) Yeah, so we we discussed that machine transition has to accept partial sentences as well.
+So the machine transitional will run many times uh, for the same sentence.
+With its as the sentences gradually growing.
+Uh?
+So the machine translation should be emitting also updates.
+Uh, including the time-stamps.
+So.
+The machine translation say that from these like minus five min- seconds ago.
+There is the uh, the the translation.
+And then in the second after that, the next message will be still from the very same origin, minus five now minus six seconds.
+Here is the output, um, and it will be slightly extended hypothesis.
+So.
+(PERSON5) Ok,ok.
+(PERSON4) Yeah, so, I think that the uh, that, the subtitle, readability worker, uh, should have like accept this stream of updates, and it should somehow balance what the what <unintelligible/> on the on the screen, and where to put new lines into that.
+And then, when there is an update from newer timestamp it would say ok the previous one is is finished and never never opening back.
+So I hope.
+I dunno but I hope that the ASR is never a like going back to the past.
+So if it if it once closes, if it once moves the timestamp like the originmark in of timestamps if it once moves it forward.
+I hope it never update the previous segment anymore.
+But I'm not sure.
+(PERSON5) Me neither.
+<laugh/>
+(PERSON4) Ok.
+(PERSON3) <unintelligible/> that would be useful feature to not open them again.
+But for a transcript it would make sense if it if the ASR could revise even five sentences.
+Yes.
+(PERSON4) Thats the offline mode.
+So I don't think <unintelligible/> not concerned about the offline mode here at all.
+So [PERSON9].
+What in in your whole document.
+Is there something which we have not touched, and we should have.
+(PERSON5) It is a good question.
+Let me check it briefly.
+Oh maybe lets have a check to typical translation table.
+I'm moving to.
+Oh this one.
+Because actually I checked need grant agreement document, but I havent found any any indica-.
+(PERSON4) Yes.
+(PERSON5) Yes, indication regarding how many concurrent user.
+How long are the session.
+Or and so on.
+So probably this is one of the parts that its probably needs to be checked.
+First of all how many concurrent user should support the platform.
+(PERSON4) Yeah, 1000 per day does it mean.
+Yeah, up to 1000 concurrent.
+I think thats totally okay.
+[PERSON3] confirm for the for the congress.
+The congress will have 400 participants.
+Uh-huh, half of them will be following this on their handheld devices.
+And when I say half them.
+Uh, one participant can actually be more devices at the same time.
+So I think that this 1000 concurrent users is just about uh, what we expect.
+It is an upper bound for the people on on the edge at the venue.
+And I dunno know if we should worry about people attaching from abroad.
+Then.
+Yes, this could be like more, but I don't think it will grow an order of magnitude in higher.
+So if you design for, or if you tested for 1000.
+I think we should be okay even with remote participants being curious of the congress.
+[PERSON3] can you yes?
+(PERSON3) Reasonable, also I expect that you will have some kind of cash or something on the side that the <unintelligible/> participants on side will consume different net worker <unintelligible/> participants abroad.
+Does it make sense.
+(PERSON5) Yes, and also the platform who host lets say the presentation platform may support so many connection multiple connection.
+(PERSON4) Yeah.
+(PERSON5) That I will probably write 4000.
+<laugh/>
+(PERSON4) Yeah, right, 4000 per day and in that case I think we are we are good.
+(PERSON5) Yes.
+In the solution must be available also offline.
+Lets say, it should be hosted locally within the conference.
+If something happened to the Internet connection, for example.
+(PERSON4) Actually, we are planning to be online only.
+Because.
+(PERSON5) Ah okay.
+(PERSON4) The translation workes and so on.
+I think they, it would be really too much work to to make them installable offline.
+(PERSON5) Mm-hmm.
+Okay, okay.
+Because in the March fair.
+We prepare everything to be available also offline so I was thinking it should be the same.
+(PERSON4) That was like for the booth.
+(PERSON5) Ok, ok.
+(PERSON4) So the, it was not as a fallback it was not planned as a fallback if the network breaks down.
+Uh, but it was because we know that there it would be impossible to get some network to the presentation booth.
+So that was the reason why it was prepared, but that was [ORGANIZATION7] offline setup.
+And for yeah I think we'll simply have to rely on internet connection.
+(PERSON5) Okay.
+(PERSON4) For both the the June workshop, and also for the main event.
+(PERSON5) Okay okay.
+(PERSON4) Confirm or it should be really cautious, and should we try this a lot of work.
+This is like stealing.
+(PERSON3) I agree.
+That would be crazy to do <unintelligible/> not intelligent to stream everything from say abroad to everyone of the devices.
+I was, I thought more about this part of the <unintelligible/>.
+(PERSON4) Yeah thats right so the thing that should be really, um, carefully designed is the distribution of the uh, of the the the whole thing to the participants at the venue.
+Because their WIFI would be failing.
+(PERSON5) Well probably, we will lets say publish it maybe on the internet lets say, so people may use their own inter- internet connection.
+(PERSON4) But then the like.
+Yeah okay, but still then I think that we could even overload the LTE.
+<laugh/>
+400 people will start following than the network has no information about the identity the the the the whole thing is the same.
+The network <unintelligible/>.
+So the network will do 200 copies of this if if 200 people start watching videos on their cell cell phones.
+I don't think that this this works.
+(PERSON5) It wont work.
+Okay.
+Okay, we have to be careful in designing the solution for the local connection.
+(PERSON4) So is there, this this again.
+Please take a note.
+I don't, I don't have the experience.
+But if you have network engineers around.
+Then I think what should be viable would be some WiFi broadcasting.
+So that like the stream is being sent once once for all.
+And anybody can can like steal the information and show it in the in the presentation platform.
+(PERSON5) But probably it could be done.
+But again, everyone that is connecting to the local network.
+In order to catch the streaming, which she sent just one and stored locally.
+Everyone has to connect to these local placing in order to get the streaming.
+(PERSON4) Yeah yeah but the thing, is how the the stream, the stream itself the data.
+So there is obviously individual negotiation for by the way, the subtitles, because I need to select subtitles that in my language of choice.
+But the the video is the more demanding part.
+And I think it could be possible the video to be send by UDP packets to like a broadcast address that everybody can read.
+So that all the, so the packets of containing the video signal would be sent in such a way that actually all the devices react together and display them.
+(PERSON5) Um-hum.
+(PERSON4) But I'm not network engineer like.
+My knowledge is not deep enough to uh, to be sure about this.
+And also to be sure about uh, web web, based the viewers of such stream of packets.
+So [PERSON3] do you have any any experience with this, or or any any knowledge about broadcasting a videos.
+(PERSON3) I would say no.
+But uh, I would <unintelligible/> something else.
+I <unintelligible/> as you that the in the call <unintelligible/> the specification for WiFi, I'm not sure how it was specified but it should be able to deliver the video, it they should deploy sufficient amount of access point.
+So the the viewer <unintelligible/> separated in segments or something that so, they have <unintelligible/> available.
+To where I expect more problems is the internet connection if its not multiplied on some local server.
+(PERSON4) Well, yeah, I'm quite sceptical.
+I'm um, I live in uh, just like a block of flats.
+Uh, and when the UPC the cable cable Tv company brought internet.
+Uh, everybody bought one WiFi router and from that point on the Internet for everybody got much worse.
+Uh?
+So it is not the bottleneck of the internet connection, but its actually the bottle neck of the of the channels.
+So if there are two WiFi's talking over the same channel.
+Uh.
+Then it is already like a complicated.
+You should be using channels like not not in not immediately neighboring channels.
+You should be using.
+You should skip like one channel number, uh, and there is too many apartments around.
+So.
+I think that even if this company brings the the the the WiFi like routers, uh, and they all deliver the same network of the the network with the same assets.
+It is a network ID uh, over all the available channels.
+If.
+All the people of the connect to this.
+Uh, maybe.
+You, can locate people.
+So that.
+Like one 10th uses.
+There is only fourteen channels, uh, or if even less in in Europe.
+And if you if you divide people into the groups 10 groups.
+Still, if all the people that would be a.
+If there are 400 people.
+It could be indeed 1000 devices.
+But lets.
+Lets think 500 devices.
+You know, if we have 500 devices divided by 10 that is 50 people on one a channel.
+Uh.
+We should actually double this because you should not use channels next to each other.
+So it would be 100 notebooks on one channel.
+And if 100 people start following the same video, and they receive like we ship the video 100 times, then it wont work.
+(PERSON3) If they use home routers, they obviously wont.
+I mean there is a big difference when there are cheap routers that do not cooperate in neighbouring flats.
+And if <unintelligible/> equipment that negotiates between the routers and cooperates and also if <unintelligible/> all direction at once.
+I think company can do this.
+(PERSON4) I dunno I'm I'm from the <unintelligible/> well from the school lof computer science and our network <unintelligible/>.
+Our network people told us that its virtually impossible to gather for 100 notebooks in one room.
+So.
+(PERSON3) Let me tell you, its impossible what you currently <unintelligible/> or impossible don't have a lot of money <unintelligible/>.
+(PERSON4) I think impossible even if you have a lot of money.
+I think its.

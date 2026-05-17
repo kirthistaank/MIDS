@@ -1,0 +1,708 @@
+(PERSON10) Hello. 
+Can you hear me?
+Does it work? 
+(PERSON15) Well, yes, I can hear you. 
+(PERSON10) Yes, excellent.
+Works good.
+(PERSON2) Hi.
+(PERSON10) Hi.
+We have [PERSON13] and [PERSON13] probably mean [PERSON17] as well?
+(PERSON17) No, it's just me, [PERSON17].
+<unintelligible/>.
+(PERSON10) Okay it's <unintelligible/>.
+Yeah, okay.
+Great.
+So, we have [ORGANIZATION2].
+<other_noise/>
+We have [ORGANIZATION10]. 
+And [PERSON15], you are the only one from [ORGANIZATION10], right, for today? 
+(PERSON15) Yeah. 
+(PERSON10) So are we waiting for anyone? 
+I don't think so. 
+I think that we are full.
+That we're complete.
+Is it okay.
+So thanks, everybody, for working hard on on the report and other things. 
+And and the project <unintelligible/> and thanks for joining this call.
+This call is again being recorded for the purposes of our minuting.
+So I hope that you are fine with that. 
+And let's let's move quickly to the agenda for today, which is in the [ORGANIZATION11] document. 
+It was very messy still early in the morning, 
+but we've worked hard to to make some sense of that now. 
+So please interrupt me at any stage and otherwise, 
+I'll try to be as quick as possible with this call 
+because we have some things to to do to finish quickly. 
+So the most important thing is that there is other calls. 
+There was kind of too many goals planned. 
+So it was confusing for everybody. 
+But two more calls are planned. 
+One is for this afternoon and that will be a technical call for the second dry run that we will do at in [LOCATION4]. 
+So there there there would be me, [PERSON20], [PERSON17] and [PERSON13], not [PERSON2], if I'm not mistaken. But [PERSON15] will be there, [PERSON9], [PERSON13] and maybe maybe [PERSON25] could join.
+(PERSON2) [PERSON25] is coming. 
+(PERSON10) [PERSON25] is is coming for the meeting.
+For the af 
+(PERSON2) Yes.
+(PERSON10) For the afternoon. 
+Yes, okay.
+Yeah, so that will be good. 
+And yeah.
+(PERSON11) Sorry, Andre, what time was that call at ? 
+That <unintelligible/> is it?
+(PERSON10) 1 [LOCATION3] time.
+(PERSON11) Oh, it's 1 [LOCATION3] time, okay.
+(PERSON10) So 12 in your time. 
+That's that's 12 of your time.
+(PERSON11) That's the <unintelligible/> after this one. 
+Sorry. 
+(PERSON10) No, it's not. 
+There there is -
+(PERSON11) Well, yeah, right.
+(PERSON10) But for you, that might be too early of of for lunch break. 
+Yeah, okay.
+(PERSON11) So yeah, okay. 
+(PERSON10) So- sorry, I I am -
+Yeah.
+Okay, and the other call is for minuting demonstrator. 
+And this is something that doesn't need to be -
+Anything doesn't have to be developed, or car- carefully designed. 
+But by the end of the year, we have to have a clear idea 
+what the minuting demonstrator will be.
+And I would like to have a vague idea of this before we have the remote review. 
+So that's why I'm I'm trying to get this call done before the remote review, 
+which is on October 23rd. 
+Yes. 
+And currently the slot has been picked for Friday, October 11th at 10 [LOCATION3] time. 
+And this is - 
+So please, especially [ORGANIZATION10] and [ORGANIZATION2], make sure, that you have this slot available. 
+I know that that [ORGANIZATION2] is is busy with many things,
+but [PERSON21], or [PERSON3], or whoever.
+Please, make sure, that [PERSON23] and [PERSON5] are available before for for this date. 
+So this is- this is important. 
+Uhm, yeah.
+Okay. 
+And for the review meeting, there is a number of materials that we would like to prepare 
+and that we would like to actually submit by -
+Well at the end of October 8th or during October 9th or two weeks before the remote review. 
+And these materials are financial status, the status on dissemination and the overall progress report. 
+So for the financial status, I think that everybody has filled their data in. 
+So I would just like to hear from you, that you think, that your data is is in.
+(PERSON2) There is still from [ORGANIZATION2] we're missing the estimates for month 18.
+Otherwise - 
+(PERSON16) Yeah, yeah.
+We are We're sorry, we currently don't have those because both friends and [PERSON23] are currently sick.
+(PERSON10) Okay.
+(PERSON16) And I'm usually not -
+I haven't joined a single call, so this is my first time and -
+(PERSON10) Yeah, yeah.
+(PERSON16) So I'm very sorry. 
+So I just wanted to be here anyways. 
+I don't know where the rest of [ORGANIZATION2] is in terms of project management. 
+So, so sorry about that. 
+I will tell friends and [PERSON23] about the - 
+About October 11th  and I'll talk to the guys to get the -
+Estimate it.
+(PERSON10) Yeah.
+(PERSON16) I'll make it <unintelligible/>.
+(PERSON10) Yeah. 
+So please talk directly to [PERSON11] about this so that we have these these numbers 
+and we'll process them.
+And if anything is unclear, 
+we will ask the respective partner because we need to make sense of that and we need to present this at the remote review. 
+And also maybe we would like to write it down in the progress report
+that we are submitting in in a week from now. 
+Yeah. 
+Okay. 
+Then the dissemination and communication activities. 
+This is the continuous reporting spreadsheet. 
+So if you look into that spreadsheet, there is a number of steps 
+and one of those steps is called dissemination. 
+And this is where we are gathering the non-paper, non non-scientific things. 
+So this is often very hard to to collect from research partners 
+because everybody is focused on the papers. 
+So please think again, were have you presented [PROJECT4] so far, 
+where where you have mentioned that and fill this table. 
+This is actually input for [ORGANIZATION2]. 
+Because [ORGANIZATION2] is is the kind of responsible for our dissemination activities. 
+So [ORGANIZATION2] will - 
+Should like make sure that this picture is is as complete as possible. 
+And an interesting for the reviewers to to hear. 
+So I've said the date for this in 2 days from now,
+because I think that many of us have entered things there.
+If something is missing, well, we are just not selling what we have done. 
+And that's a pity, but it's not too bad. 
+So that's why I'm not like too stressed about the deadline in 2 days. 
+But think, what you have done and please fill that table.
+(PERSON2) Okay and that table has also the second part below. 
+And some of you sometimes forget to sell the numbers 
+about the people the amount of people who attended that event.
+(PERSON10) Yeah.
+(PERSON2) So this don't forget.
+(PERSON10) So that's like an estimate of impact. 
+So how you- how successful the the particular presentation was in terms of,
+well, people addressed.
+(PERSON11) And and how empty -  
+And however we supposed to get this breakdown of them?
+(PERSON10) Well.
+(PERSON11) <unintelligible/>.
+(PERSON10) I'm I'm just making it harder.
+(PERSON11) <censored/>
+(PERSON10) <censored/>
+Because like I was - 
+I added a column all last week. 
+And this is -
+I was at the <unintelligible/>, I was presenting, I saw some people, 
+who were clearly from the scientific community. 
+There were - 
+I knew it was like a festival that was also run for public. 
+So I knew that there were some people like from the street, essentially, 
+that I just made made up an estimate.
+(PERSON11) Okay, alright.
+I I just discovered that 200 registered thematic forum.
+But <unintelligible/> obviously we're getting a breakdown a bit difficult. 
+<other_noise/>
+(PERSON10) No.
+Yeah, well.
+Then - 
+Yeah. 
+Whenever -
+(PERSON11) <censored/>
+(PERSON10) Yeah.
+Okay. 
+So that's that the that's the dissemination, communication activities 
+and then the progress report. 
+Thanks again everybody for writing, or many paragraphs and sections to that report. 
+As of now we have about 23 sections, so so 23 pages.
+So that's that's reasonable. 
+We will carefully reviewed review that.
+And one thing that I want to say is, that we will sub we will be submitting this at the end of October 8th. 
+So in a week from now, or maybe the October of 9th, but not later. 
+But what is missing is the publications, the scientific ones. 
+So please enter your publications in standard BibTeX format in section 9.2 into this [ORGANIZATION8]. 
+So this is something that you have valid.
+You have published many, many papers.
+Whenever a paper acknowledge [PROJECT4], make sure to include Bib entry 
+and briefly comment in just one sentence, how the paper is related to the project. 
+We will be doing this collection later on for the for the meet-project review in a proper way, 
+where we will need also the PDFs, I guess. 
+And and yeah -
+But for now, we just want to show off that we are working on the scientific part like diligently. 
+So this is something, which is very much like up-to-date, ve- very much needed in the coming days.
+So please, do this. 
+Do any of finalization, any edits of the report that you would like to do by the end of the week, including Sunday. 
+So that we have one or two days to to polish each and submitted them.
+And then it already will be time to start preparing presentations for the remote review. 
+As I said, the remote review will be in 2, 3, 3 weeks from now. 
+So it's in the agenda which is linked here below. 
+There is- there are people nominated who are responsible for presenting.
+If you want someone else from your from your institution to present, just change the agenda. 
+So don't worry to change the agenda, but as long as your name is there, 
+you're responsible for making the slide. 
+Remember, therefore the slides we have some templates, both [ORGANIZATION11] slides and [ORGANIZATION8] 
+So share whatever you like. 
+We'll we'll probably send around a reminder with links like how to how to best prepare they at the slides, but the content is on you essentially. 
+So regardless the template, please start collecting the the content. 
+And most of the content is actually what it's already written by you in the progress report. So that should not be too much work either, but it's good to be ready for that.
+Yes. 
+So the the important - 
+Yeah. 
+(PERSON19) Will <unintelligible/> ? 
+(PERSON10) Sorry ?
+(PERSON19) Is there template for the slides ? 
+(PERSON10) Yes, there is templates. 
+There is either a [ORGANIZATION11] slide template for or [ORGANIZATION8] template, so Latex beamer template.
+So both is available and we will send the links to these - 
+So maybe, maybe [PERSON11] write down and [PERSON11] finished before your prepares presentations. 
+Yeah, yeah.
+<parallel_talk/> So [ORGANIZATION5] will send a reminder with the templates of the slides. <parallel_talk/>
+Yeah, so and this is for -
+Okay, so now for the milestones. 
+There is one milestone, which is which was due yesterday. 
+And I didn't take it off. 
+So let's discuss this first if we can take it off. 
+The milestone says initial ASR systems and the initial ASR systems should be available to the consortium.
+That's a system available to the consortium. 
+That's like the means of verification. 
+And there is no further details on this milestones anywhere in our description of work. 
+So it's up to us what we what we include as as the important part. 
+We know that we need some of the languages. 
+This is the set of languages that we need. 
+We have English done, German is also available at [ORGANIZATION7], we have Czech working some first version at [ORGANIZATION5]. 
+So I would like you to to hear about the status of the other languages.
+(PERSON19) Okay, so for French, Spanish, Italian, we have initial systems. 
+<censored/>
+(PERSON10) Uhm.
+<censored/>
+And Italian is someone between French and Spanish. 
+So it's not as French <unintelligible/>. 
+Not as okay as Spanish. 
+(PERSON10) Uhm, yeah, okay. 
+(PERSON19) And Russian we are left behind. 
+My fault I just said, the data <unintelligible/> Russians systems. 
+(PERSON10) So you - So you're working - you're working on Russian as well.
+(PERSON19) <unintelligible/> started Russian as well.
+It's -
+(PERSON10) Yeah. 
+So the question is, can we can we take the milestone off or should we delayed? 
+What What would you recommend?
+(PERSON19) <censored/>
+<censored/>
+<censored/>
+(PERSON10) To train the new one.
+(PERSON19) To train the new.
+But if you want to kick off the milestone, I mean, we can say we have the Russians systems but - 
+(PERSON10) Yeah, yeah.
+I suggest - 
+Yeah. 
+So I suggest that I take it because we -
+(PERSON19) <censored/>
+(PERSON10) Sorry, I didn't hear you well.
+(PERSON19) So if you want to take off the milestone, you can say we have a Russian system and that's all. 
+<censored/>.
+(PERSON10) Yeah, yeah.
+Okay, So I'll I'll suggest that I'll take it off. 
+We're already one day late but yeah - 
+Let's take it off. 
+The milestone was not specific about the set of languages anyway.
+So this is - 
+(PERSON19) That is you know leave out Russian.
+(PERSON10) Yeah.
+So well, it's in - 
+We know that the Russian is the one of the languages that we promised to cover. 
+(PERSON19) Yeah.
+(PERSON10) But that's not directly linked to the milestone.
+<laugh/>
+So that's why we can be like no- not very specific about that. 
+And I think that the set of language that we do have covered is sufficient for like a successful run for the [ORGANIZATION1] Congress. 
+So I think that from this point of view, it's okay to take the milestone off. 
+So I'll do that today.
+Thank you.
+And for the milestone, which was supposed to be finished by the end of August,
+I would like to know this adjust from [ORGANIZATION2], because that that's a pity that [PERSON] is sick.
+But I was hoping that we could run a demo session in [ORGANIZATION2] platform now for everybody,
+who is running on Windows so that we would see h- how like how far did you get, but yeah. 
+So please let me know what is what is the status.
+(PERSON10) [PERSON3] -
+(PERSON8) I am talking <unintelligible/>. 
+Do you want to go ahead? 
+Or should I?
+(PERSON16) Go ahead. 
+(PERSON8) All right. 
+So currently the status as we implement the translated or English as the language as you can select them on the web page. 
+Which one you want to select, which ones you want to have translated to. 
+And you also have implemented to overlay in the client itself. 
+So the languages get translated or get presented, then declined itself. 
+Whichever you chose on the web page you will have translated to.
+(PERSON10) Yeah, so so from your point of view, it's seems like finished.
+It's translating and -  
+(PERSON16) It's been a rough deployment state.
+So It is deployed right now.
+We can show you.
+(PERSON10) Uhm.
+(PERSON16) So the, <unintelligible/> company on production that you use, there's three rooms. 
+The first one translates to has translation enabled to English. 
+The second one to German. 
+And the third because we're missing the client integration has both enabled. 
+So it will be translated into both, 
+which means you will see a mix of the spoken words interspersed in different messages. 
+But for both languages and the integration that you can actually focus on 
+the single language and switch between those is forthcoming. 
+I don't have an estimate on that. 
+I just want to say that it's on our radar to - 
+(PERSON10) Yeah.
+(PERSON16) To do that. 
+And there's currently not not everyone can edit those rooms, 
+but [PERSON5] said to me that a sufficient amount of people have that ability. 
+So we need to <unintelligible/> the permissions down on that so that there's not a whole lot going on. 
+And everyone is not just doing all 9 language- all 9 target languages in a single room
+are over <unintelligible/> and using all of the workers at the same time. 
+So is in that state that we promise, even though it was a bit late -
+And we have to fix a couple of minor things, 
+but each we should be able to to send out if you have the spoken language in your profile set correctly to the language that practically speaking. 
+(PERSON10) Yeah. 
+(PERSON16) So that we could download that for you. 
+Yes.
+(PERSON10) Okay, so that's great. 
+So let's let's please do the demo right after this call. 
+And now we're very optimistic that we could finish the call in 10 minutes from now. 
+<laugh/>
+So we could we could then switch to the [ORGANIZATION2] 
+and I know that [ORGANIZATION9] will be not connecting. 
+Is there anyone else who is without Windows machine so who cannot see the demo? 
+I hope that [ORGANIZATION10] can stay there.
+Right? 
+Are you - ? 
+Okay, that's good.
+And also, maybe if [PERSON9] or [PERSON10] can stay there for [ORGANIZATION7]. 
+So that we know like what is the load on workers when when we run this demo.
+(PERSON19) It works micro SSL <unintelligible/>.
+(PERSON10) Yes. 
+(PERSON16) Yes.
+(PERSON10) Yeah, okay.
+So that that's that's very good. 
+So as of now, I'm quite optimistic. 
+I I I cannot say at the moment yet, 
+whether I will take off the the milestone also for for this SLT and [ORGANIZATION2]. 
+But after the demo,I'll I'll let you know when I think it it could be it could be done. 
+That could be -
+That will be great.
+(PERSON16) So what other operating sys
+Sorry for barging in on.
+What are our operating systems are used like the Linux ?
+(PERSON10) We need we need Linux.
+We need Linux.
+Everybody need Linux. 
+(PERSON11) I think <unintelligible/>.
+(PERSON10) I always borrow a a special Windows machine to make these calls. 
+So I would also appreciate Linux.
+<laugh/>
+Okay, so here - 
+<parallel_talk/> So very good progress. <parallel_talk/>
+<parallel_talk/> We'll do demo after the call and decide if to kick it off.<parallel_talk/>
+(PERSON16) I'm just going to go out on a <unintelligible/> and so we do have Linux version.
+But you could use that for testing in this call. 
+<censored/>
+<censored/>
+But I I think [PERSON21] is already using it.
+So if you want to try that, we could give that to you. 
+<censored/>
+So please -
+(PERSON10) Yeah, yeah.
+(PERSON16) Tell me that information any further.
+It's on our radar, but we're working on it. 
+But it's -
+Yeah. 
+(PERSON10) Okay.
+(PERSON16) <censored/> 
+<unintelligible/>.
+(PERSON10) That's great.
+So I would I would like to get one and very probably two. 
+(PERSON11) Yeah, that would be useful, yeah. 
+We have to install something I assume. 
+(PERSON8) Yes it's in that the package. 
+(PERSON11) Okay, yeah.
+It's no problem.
+(PERSON8) Question would be -
+ Do I have your e-mail address ans somehow so I can make you <unintelligible/> the upload anyway yet. 
+(PERSON11) You should -
+(PERSON10) Le- let's just write it down into the [ORGANIZATION11] doc.
+(PERSON8) Oh, yeah.
+(PERSON11) Good idea.
+Good idea. 
+(PERSON10) So.
+And then [PERSON17], if you can complete, so did I don't - 
+(PERSON17) Oh, yeah, yeah.
+<unintelligible/>
+I'll do that.
+(PERSON10) <censored/>
+(PERSON17) Yeah, that's good to yeah. 
+(PERSON10) Okay, right.
+(PERSON16) <censored/>
+Yeah, so.
+<laugh/>
+(PERSON10) That's the reason why you must not that's that's that's the -
+<censored/>
+<laugh/>
+So it's it's safe in this <unintelligible/>. 
+Okay, so my last point is just a reminder of the deliverables. 
+I'm not reminding ourselves of the deliverables dude the end of the year. 
+But the one deliverable which might be of interest 
+because it's very close to the view date is the 1 by the end of October. 
+And the and that's your own test sets. 
+So I would like to -
+If the if the deliverable is in good shape, I would like to sedn- send it also to the reviewers on October 8th.
+It doesn't have to be complete, it can be just a draft. 
+And I think it is in the reasonably well written shape already.
+So maybe we -
+(PERSON11) <unintelligible/>.
+(PERSON10) Yeah, okay. 
+(PERSON17) No, actually it's more or less <unintelligible/> at the moment. 
+So there's -
+(PERSON10) Okay.
+(PERSON17) So there's a more [ORGANIZATION8] document with sections for people to fill in -
+(PERSON10) Yeah.
+(PERSON17) Who I contacted a few weeks ago. 
+Basically, nobody has done that yet, including myself. 
+I haven't <unintelligible/>. 
+(PERSON10) Okay, yeah, yeah. 
+(PERSON17) I need to I need to chase people. 
+So it's a few different people need to contribute as fairly small amount of work.
+<unintelligible/>.
+(PERSON11) Do you want <unintelligible/>.
+(PERSON1) <unintelligible/> <censored/> 
+(PERSON11) <censored/>
+Can we just consider them chase, now?
+(PERSON17) A most of them are on this call. 
+(PERSON11) Okay, okay.
+(PERSON10) It's like the technical people like [PERSON4] and - 
+(PERSON17) It's mostly yeah, it's mostly of <unintelligible/>. 
+(PERSON10) Yeah. 
+(PERSON17) <unintelligible/>.
+(PERSON19) Am I only is anybody okay the on the list in need to chase ?
+(PERSON17) I know actually not -  
+<unintelligible/>
+(PERSON10) Probably not.
+(PERSON17) <unintelligible/> by [ORGANIZATION7] on that work package, but if you if you know of something, then please to please to -
+(PERSON10) There is there is one thing which would be great. 
+And [PERSON10] I remember you send me an email awhile ago 
+on the IWSLT evaluation campaign and I haven't got to that yet.
+But I think it would be good if we included a section on like plans, 
+what to you do with these test sets. 
+And that would be on on you then on [PERSON10] for the IWSLT.
+So that's - 
+(PERSON19) One thing I'm wondering about, is that it's it's not work.
+But <unintelligible/> things so these have be English - Czech text translation task will be IWSLT this year but -
+Importantly, it's it wasn't <unintelligible/> I I I need to <unintelligible/> money, it wasn't need to be done. 
+By, you know, wan't need done by [PROJECT4] personal <unintelligible/>.
+But it was done because [PROJECT4] <unintelligible/> and me had asked for it.
+I don't know how to spell it.
+(PERSON10) Well, it's - 
+I think it's good to like repackage it so that you will clearly say that this was done by [ORGANIZATION6] 
+but it fits the [PROJECT4] set up. 
+So we will also work with that.
+So it's not  <other_noise/> it's not clearly -
+(PERSON19) Yeah, we can say, it was started by request of [PROJECT4] .
+(PERSON10) Yeah, yeah. 
+So there will be - 
+So please -
+Yeah, maybe [PERSON13], can you had the Overleaf link here? 
+So that [PERSON10] also sees the the link.
+(PERSON16) Yes, oh, you'll find the email.
+(PERSON10) Yeah, so that will be useful.
+And any case, we need to review this deliverable and the review should have ideally two weeks. 
+So by mid October we should have the deliverable written
+and then by the end of October submitted. 
+So, okay. 
+I don't see it a- as a realistic thing that we will have the deliverable by October 8. 
+But the internal draft, finished draft should be ready by mid October, 
+which is one week more.
+And if that looks good, we can send it to the reviewers like shortly before the review.
+So that they see that the upcoming deliverable is in is in good shape.
+(PERSON1) Okay, that sound- sounds realistically.
+(PERSON10) Yeah, yeah.
+So here is the already document 
+and I'll write down that <parallel_talk/> internal  deadline - mid October to accomplish internal review safely. <parallel_talk/>
+Do we have an internal reviewer nominated for this are not yet?
+<parallel_talk/> Deliverables -  we don't have anyone reviewing this. 
+So either it could be [ORGANIZATION7] or it could be [ORGANIZATION2] 
+or p- [ORGANIZATION10]. <parallel_talk/>
+[ORGANIZATION10] is not much  involved in the content right?
+I n- need someone technical, who will understand the importance of the test sets
+and yet who is not contributing much to the deliverable. 
+So who who could that be? 
+Would that be rather [ORGANIZATION2] or rather [ORGANIZATION10]?
+Or perhaps perhaps [ORGANIZATION7] ?
+(PERSON19) It <unintelligible/> except me <unintelligible/> because I don't think we have much time.
+(PERSON16) I couldn't say anything about [ORGANIZATION2].
+Not from -
+I don't even know what this is about.
+<laugh/>
+(PERSON10) Yeah, yeah.
+(PERSON16) Sorry
+(PERSON10) So so it seems like [PERSON15] would be the best reviewer then.
+<laugh/>
+(PERSON15) Well, actually, ah okay, yes. 
+I myself or or? -
+(PERSON10) Or you know what?
+You or [PERSON2].
+(PERSON15) I think [PERSON2] maybe be suitable for this. 
+I have to ask, of course.
+(PERSON10) Well okay, yeah, yeah. 
+So <parallel_talk/> probably [PERSON2] if she is not too opposed. <parallel_talk/>
+Okay.
+(PERSON11) It should be a short deliverable, right? 
+(PERSON10) Yes, yes, yes. 
+(PERSON11) Yeah, so it shouldn't be that hard to - 
+I mean -
+Yeah.
+Not so much work to review it.
+(PERSON10) Okay.
+And my question, my last point in the agent is something
+which I realized that I wanted to ask as well.
+If [PERSON10] has any news on the Tedx event in Tren- event in Trento.
+(PERSON15) We have no update on the site, so -
+(PERSON10) Yeah, so so pro- yeah.
+So yeah, I ask wrong I ask the wrong person. 
+I meant I meant [ORGANIZATION10] yeah, sorry.
+(PERSON15) Okay, sorry.
+Yeah, I have literally no update on that. 
+I can not say anything.
+<other_noise/>
+I am not -
+Let's say I'm not negotiating this in person and I have no report, yeah, sorry.
+(PERSON10) Yeah, so it was -
+The idea was to run it like on the fringe of Tedx with no direct link, 
+with the Tedx organizers just like being in front of their room 
+and then doing the subtitling in many languages and going from Italian.
+But that was an idea by [PERSON22] and [PERSON2].
+So neither of them is available.  
+So [PERSON15], please check with them if there is any update, 
+please, let us know as soon as possible because it's mid November,
+but still it involves travel and set up.
+So there will be some work. 
+Some preparation is necessary for that and [LOCATION1] ASR will be needed.
+Which is <unintelligible/>.
+(PERSON19) So so my question would be, can we -
+You had or [ORGANIZATION10] has an ASR we can use?
+Because I mean the Italian -
+We fused that in the past. 
+<censored/>
+The most <unintelligible/> all we have.
+(PERSON15) We certainly have Italian ASR. 
+So.
+We have a few running on <unintelligible/> mediator I think. 
+Well, I I have to ask. 
+Oh, well, or if shouldn't be a huge problem to use our translators, transcriptors sorry.
+Yeah and I am aware that time is running out about Tedx, but we are still trying to. 
+It's quite difficult actually to to get information from the organizators so -
+I was struggling to.
+(PERSON10) Yeah, okay.
+Thought, taken the notes on this. 
+So is there anything else that we need to discuss?
+I don't think that that's - 
+(PERSON19) Just one quick <unintelligible/>.
+(PERSON10) Yeah.
+(PERSON19) To operate IWSLT, I need to discuss what we would like to propose for the next evaluation.
+We have work team <unintelligible/>.
+At the end of October in Hong Kong where the student committee will take <unintelligible/> place.
+Plus, the evaluation will be very early next year because it will be -
+It's not going to be in conjunction with other <unintelligible/> because IWSLT it's going to be in <unintelligible/>.
+<unintelligible/>.
+(PERSON11) I think you were talking about first quarter next year. 
+(PERSON19) Yeah -
+(PERSON11) I'm going to see. 
+So the the I have the camera I have open here. 
+The camera ready for ASL is -
+Sorry, the workshop papers are due in April.
+Yeah.
+Okay so -
+(PERSON19) <unintelligible/>
+Just one. 
+Okay, here we go so - 
+(PERSON11) So we are gone.
+(PERSON19) So they they want to have that ACL, exactly in Seattle -
+And ACL in Seattle is going to happen - 
+(PERSON11) In July.
+(PERSON19) In July so that means for the evaluation campaign, 
+I mean, we can keep the evaluation. 
+So we have to stick with the paper deadlines by then?
+(PERSON11) Em, more or less yes. 
+I mean, we've managed to push them back before two weeks maybe.
+It can be -
+<unintelligible/> about it.
+(PERSON19) Yeah. 
+So suddenly - 
+And yeah, the beginning of July, July 5th. 
+So we could do a deadline for the evaluation by end of May or something like that. 
+I mean, the the scientific papers are nice. 
+Maybe we can negotiate with them, but they are technical papers for the system descriptions can be some later.
+But but non- nonetheless, it's going to be much earlier next year than it was this year.
+(PERSON10) Yeah.
+So they so this is already set. 
+It's already fixed that the IWSLT -
+(PERSON11) <unintelligible/>
+(PERSON10) <unintelligible/>
+(PERSON11) It's applied, yes, yes, yes.
+(PERSON10) It's applied in that way. 
+Yes. 
+So if they accept it, it will be in Seattle in July. 
+And did I understand correctly that the evaluation week would be by at  the end of May right?
+(PERSON19) No, I think it's -
+(PERSON10) Or earlier?
+(PERSON19) Or earlier.
+So the thing is if we have to stick with the paper submission deadlines,
+that means that by the end of April, things would have to be submitted. 
+(PERSON11) <unintelligible/>
+Yeah, for [PROJECT3] we're looking at an evaluation. 
+We we're with the MLP, we hope. 
+But we're looking at evaluation week at the end of May, beginning of June. 
+(PERSON19) Okay, so -
+(PERSON11) We should do beginning of June. 
+(PERSON10) Remember that -
+(PERSON11) <unintelligible/>
+I mean, sorry?
+(PERSON10) That there is the [ORGANIZATION1] Congress.
+(PERSON11) There is the [ORGANIZATION1] Congress. 
+I just saw that at my calendar. 
+(PERSON10) <laugh/>
+(PERSON11) But I think we're - 
+Yeah. 
+Our evaluation week is going to be around, then I don't know. 
+Maybe we can have a little bit later. 
+(PERSON10) Yeah. 
+(PERSON11) It's probably [PROJECT3] question. 
+I don't know. 
+But -
+(PERSON10) Yeah.
+(PERSON11) There is a potential collision there. 
+I don't know if it's a serious collision. 
+(PERSON19) But same way IWSLT evaluation have sometimes <unintelligible/>.
+(PERSON11) Spring, yeah.
+(PERSON10) <censored/>
+so that they would directly help us for the [ORGANIZATION1] Congress. 
+And this is something that I would like to see as as a bonus. 
+So could we do this?
+So what what is a set of languages and tasks covered there? 
+And this is very much linked to the to the test test sets that we are packaging 
+just well for the end of October.
+(PERSON19) So basically, essentially, it will be whatever we will decide the next steering committee meeting at the end of October. 
+And I will be the <unintelligible/> what in that meeting and -
+(PERSON10) Okay.
+(PERSON19) <unintelligible/> advertise and push for whatever we decided by then and what I can offer.
+ And that's why I also put [PERSON6] in CC
+because [PERSON6] can also help to <unintelligible/> for whatever we would like have for [PROJECT4]. 
+And then of course, <unintelligible/> steering committee members that might have other plans.
+(PERSON10) Uhm.
+(PERSON19) <censored/>
+(PERSON10) Yeah.
+(PERSON19) And we'll see what we can <unintelligible/>.
+(PERSON10) So it's important for me to respond to that email -
+(PERSON19) Exactly.
+(PERSON10) And like, yeah, uhm.
+(PERSON19) And we n- we need to coordinate, to make sure 
+that when I travel to Hong Kong end of October, 
+that I have a package with me that I can present to them. 
+As you know, [PROJECT4] has the same time would like to do with this <unintelligible/> Asia 
+and I don't know, maybe we can help with <unintelligible/> and data preparation and stuff like that. That makes an for interesting case.
+We can also maybe promise participation from the consortium. 
+That's also <unintelligible/> we could argument if we know that we will have participants <unintelligible/>.
+(PERSON10) Uhm.
+Yeah. 
+Okay.
+So we'll I'll keep an eye on this and I'll make sure 
+that we'll make use of IWT IW IWSLT  in the best way that we can. 
+Okay, so that's that's important, thanks.
+Any other of new pieces of information or things to consider?
+If not, then I would like to thank everybody for joining this call. 
+Remember the deadlines in the very few days from now, 
+the dissemination and the and the publications 
+and any any edits that you would like to do or for the progress report. 
+Please keep checking your emails, be responsive 
+because we will need to ask you maybe if or of some financial issues 
+or some clarification issues in in the report when we are reviewing it.
+So please, please respond. 
+We'll be submitting all these things in a week from now. 
+And now let's let's switch over to the [ORGANIZATION2]. 
+So so maybe can can [ORGANIZATION2] still paste the link to somewhere <laugh/>
+at the top of this [ORGANIZATION11] doc or -
+Yeah. 
+So thanks for everybody.
+And I'll keep running this [ORGANIZATION3] call until I'm able to also start the [ORGANIZATION2] call. 
+But we are officially closed here and we are moving to the [ORGANIZATION2] to see the demo. 
+<laugh/>
+(PERSON16) All right.
+So the the link that is in the minutes in for Wednesday, August 28th 
+at at the second page of that [ORGANIZATION11] doc.
+(PERSON10) Okay.
+(PERSON16) That is still active. 
+You can still use that. 
+(PERSON10) Okay.
+(PERSON16) To join <unintelligible/>. 
+() Hello see you soon. 
+(PERSON10) Yeah.
+(PERSON8) And as in a few more minutes to send you  to the Linux version of [ORGANIZATION2],
+but it should be there in a few minutes. 
+(PERSON10) Okay.
+Still I just -
+<unintelligible/> 
+<other_noise/>
+<unintelligible/>

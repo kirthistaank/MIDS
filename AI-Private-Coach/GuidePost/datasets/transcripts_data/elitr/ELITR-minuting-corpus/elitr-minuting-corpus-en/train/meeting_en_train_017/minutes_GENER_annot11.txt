@@ -1,0 +1,26 @@
+[PROJECT1] meeting 11.02.2020
+Attendees: [PERSON5], [PERSON4]
+Purpose of meeting: Discussion about improvement of details, side functions, programming and web designing
+
+Summary
+• Meeting as many requirements as possible
+• Sacrifice history style view in order to have as many language translations at one time
+• Add the history in the black box for subtitles in order to let them become scrollable, to make this also more mobile friendly for user
+• Agreeing on a maximum number of languages, in history style, of two
+• Text flow functionally should be part of the the final view
+• Mentioning the necessary dose of attention to understand the contents of the interview, if spoken in other language and translated by the ASR                                                                          
+• Planning the revealing of the presentation platform                                                                          
+• Mentioning review of web feel and look
+• Establishing the possibility to automatically load a list of default languages
+• [PERSON5] appreciated the variant in an effort to reach the largest possible screen, there was also a discussion about the possibilities of 16:9 and 4:3 layouts
+• [PERSON5] like also [PERSON4]'s proposal with the tabs where theres the paragraph next to the video 
+• [PERSON5] mentions the importance of showing a lot of languages in the main conference room
+• In [PERSON5] opinion, it is inconceivable that anyone would take care of the main screen on the fly ,,The screen has to be set up and and run all the time without any manual intervention"
+• [PERSON4] suggests that subtitles should be rather shorter than longer, and all the partners should avoid sending longer messages.
+• [PERSON5] refuses option with delay of the text flow
+• [PERSON5] mentions the problem with maintaining constant signal quality, it is therefore a possibility to consider sequence of images, such as the slides or streaming
+• [PERSON4] agrees with the comment that the images presentation is more important for standard research talks, and much less for the ASR congress itself
+• [PERSON1] was considering, that one of the workshop features, that there will be active subtitling that will have either the slides or live demo.
+
+
+ Minutes submitted by: [ANNOTATOR2]

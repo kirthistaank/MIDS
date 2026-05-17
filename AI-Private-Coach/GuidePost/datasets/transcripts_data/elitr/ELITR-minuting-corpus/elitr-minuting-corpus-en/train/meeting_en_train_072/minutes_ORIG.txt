@@ -1,0 +1,91 @@
+[PROJECT2] [PROJECT1] KUFR 
+or a list what to bring with us
+Preparatory Calls
+The goal is to have a call every week, so that we are sure we are on track with a
+
+Thu 9.5. at 10 AM
+* Pexip: [URL1]
+o PIN: 1234
+o (the room is ready :)
+* Participants: [PERSON9], [PERSON14], [PERSON13], [PERSON4], [PERSON2], [PERSON11]
+* ([PERSON8] will be absent; [PERSON14] will take the lead.)
+* A summary of all components to be deployed at [PROJECT1]; status of their preparations.
+o Ebclient
+* Production ready version (we still operate with the "sample") 
+* C or Python?
+* .NET soon
+o Text-to-text clients to test MT and segmentation workers
+o Tests
+* Test the workers are running
+* Test they return plausible output
+* Test robustness (they don't die on long audio or on silence)
+* [PERSON2] doesn't have access to cruise-control !!!!
+o AdminWeb
+* Advanced admin web? 
+* or scripts to make a summary on demand?
+* Script to check fingerprints automatically
+o Save and allow browsing all logs to everyone?
+* This may be useful and easy to set up at [ORGANIZATION6], we just need to symlink the directory to something presented on our technical web.
+* It's not easy for [PROJECT1] -> maybe for future events
+* [PERSON2] asks if [ORGANIZATION5] can get access to their servers to check their logs online
+o ASR workers: 
+* Are there any special tags emitted from [ORGANIZATION3] ASR? E.g. &lt;applause&gt; , &lt;laugh/&gt; etc.?
+o Special tag for noise, but it is not transmitted to MT
+* en 2x
+* De,
+* Cs
+o Punctuation and segmentation workers
+* En
+* De
+* Cs
+* Maybe sentence buffer workers, if we use sentence-level MT
+* [PERSON8] would prefer not to have them at all, but the critical condition is that MT would handle sentence fragments well. ([PERSON14] is working on this.)
+* Language agnostic
+* Configurable online
+* -> add functionality to allow [PROJECT3] MT integrator to ignore incomplete sentences (for sentence-level only MT)
+* OR, segment and punctuate together with MT?
+o MT workers
+* -- subsentence level or sentence level?
+* Subsentence means beginning of sent. And missing end
+* -- single-target or multi-target?
+* No multisource is assumed for [PROJECT1] production. [ORGANIZATION5] *may* try to train something but only very experimentally. => not in [ORGANIZATION8] mediator in June
+* [ORGANIZATION4] is training multi-target system
+* PLEASE, WRITE YOUR NAMES IF YOU'RE GOING TO TRAIN THEM. We can have versions from more people for some directions.
+* En -> Cs ([PERSON14], [PERSON4])
+* En -> fr -- [ORGANIZATION3] ([PERSON4], )
+* En -> de -- [ORGANIZATION3]? [PERSON4]
+* En->HU ([PERSON4])
+* En->NL ([PERSON4])
+* En->PL ([PERSON4])
+* En->Ro ([PERSON4])
+* De->CS ([PERSON14])
+* De->EN [ORGANIZATION3]
+* De->FR/IT/ES
+* Cs->En ([PERSON14]) (hoping that we will have Czech ASR)
+o Integration of [PROJECT3] as MT worker !!
+* This is critical. Who has the capacity? How far are we?
+* [PERSON4] is going to do it ([PERSON8] is relieved :-)
+o Live stream selection -- GUI/console UI (have a look at the libraby curses) and Audio UI
+* It's going to be a part of presentation platform
+o Presentation platform
+* The platform must automatically jump on the available sessions, even if we restart the ebclient as many times we like we go.
+* Probably not in June
+* Selection of languages to show.
+* Presentation of streamed slides
+* [PERSON8] promised to do videograbbing+streaming in addition to global subtitles for the main screen. The main screen could however also use the standard presentation platform, if the corresponding web interface works well in fullscreen.
+* Fallback needed: the grabbed slides quality may be poor to present on the main screen. If [ORGANIZATION9] says that want the original (i.e. no subtitles mixed in), we won't be able to get the slides to stream at all...
+* EN ASR adaptation based on documents provided by participants
+* Yes, [ORGANIZATION3] will try
+* MT adaptation -- we can get [PROJECT1] from TAUS, anyone interested?
+* If yes, for which language pairs?
+* [ORGANIZATION4]: Parallel yes, for all EN->..., monolingual no
+* [PERSON8] asks: by monolingual you mean target, right? So you are saying that you will happily finetune on parallel closer-matching data but you do not plan any backtranslation to make use of target-only texts, right? ([PERSON8] fully supports this approach.)
+* If [PERSON8] is correct, yes, [ORGANIZATION5] will proceed and try to get TAUS data for in-domain, whatever will be available.
+
+* Methodology for selecting the final models
+* ASR
+* MT
+* Live switching during the conference?
+* Which test sets?
+* Parallel from TAUS ([PROJECT1])
+

@@ -1,0 +1,612 @@
+<unintelligible/>
+<other_noise/>
+(PERSON13) <another_language/>
+() <another_language/>
+() <another_language/>
+(PERSON13) Hi [PERSON7].
+(PERSON9) Hi.
+(PERSON13) There, yeah, I I don't have headphones here.
+So I'll move to the <unintelligible/> floor.
+I may disconnect for a second.
+(PERSON9) <unintelligible/>.
+(PERSON13) And uh -
+So please, whatever someone come, 
+please make sure the the populate the uh surge document and I'll I'll <unintelligible/>.
+(PERSON9) Uhm, uhm.
+(PERSON13) In a few second, but I'll -
+My time is again limited so -
+I'm here, but uh, <unintelligible/>.
+(PERSON9) <unintelligible/>.
+(PERSON13) Through the floors.
+So the connection would be unstable.
+(PERSON9) Yeah, yeah, yes.
+<other_noise/>
+(PERSON13) <another_language/>
+<other_noise/>
+<another_language/>
+<other_noise/>
+<another_language/>
+<other_noise/>
+<another_language/>
+<other_noise/>
+(PERSON13) Hi to reconnect.
+(PERSON9) Yeah, I knew it.
+(PERSON13) Yeah, okay, good, it works.
+Hi.
+So we don't have anyone.
+I hope, that the people will confirm -
+[PERSON10] will prepare domain adaptation for Monday seminar.
+Yes, there is 2.
+Uh, so I'll I'll comment on that.
+Uh, [PERSON10] -
+<other_sigh/>
+<parallel_talk/> Please tune, there is 2 seminars at all.
+Like just in a rough this Monday, both speaking uh, [OTHER8] and uh, just join them. <parallel_talk/>
+Yeah, so what what [PERSON10] wrote, is w- where <unintelligible/> get document, 
+that he will prepare the for the Monday seminar.
+I confirmed that it will be good.
+Uh, the Monday seminar will be done through Zoom.
+So I will get ready for that by follow- by connecting Zoom <unintelligible/> notebook 
+and following the sound output of the machine itself.
+Uh, so we'll see, how the sound quality is de- degraded,
+when people are connected to remotely.
+This is also som- something, that would be worth measuring.
+So when you are bored, it would be good to uh, s- pass the to -
+Well, you have not probably received the credentials for the Zoom thing, but -
+(PERSON9) No, not yet.
+(PERSON13) Yeah, but we we could try it,
+so that I would  stream some of the audio files uh, from here through Zoom
+and you would record those and then we would have like a secondary audio, 
+which is often degraded quality,
+and we would see we could measure the word error rate increase by that.
+(PERSON9) Um-hum, Um-hum, Um-hum.
+(PERSON13) So this is this is simi- very similar to what uh, we uh, should be doing with the compression, that [PERSON3] still has not provided.
+So that would be uh, that would be uh, good thing to try.
+Uh, and then try to get fe 
+(PERSON9) You mean recording the audio if
+recording the audio you mean <unintelligible/> wording, whatever we hear from the speakers. 
+(PERSON13) Yes, yes.
+So you would be a participant,
+I would be sending the audios,
+so I would be -
+My microphone would be such to the playback to the monitor of my playback.
+I would play the recording, that we have from some past,
+uh, like from the the microphone, like AUDACITY base recording for example.
+And then, I would send that through Zoom 
+and you would receive that through Zoom 
+and that would give us a new audio.
+So you'd be recording your sound output
+and that would give us a new audio, 
+that we could asses the loss in in precision through that.
+(PERSON9) Um-hum.
+(PERSON13) Yep. 
+Okay, so [PERSON10] provided his input that's good 
+and you did <unintelligible/> setup, it's ready, including the videos, right?
+(PERSON9) Yeah, in- including the videos.
+(PERSON13) Okay, yeah, so please, uh, uh, <parallel_talk/> please here sample path to the video. <parallel_talk/>
+So that just an as an example.
+Yeah, that's good.
+Then you have been working on the forced alignment 
+and are uh, like uh, w- w- putting this more to [PERSON6] right?
+(PERSON9) Um-hum, yeah right -
+(PERSON13) So how <unintelligible/>?
+(PERSON9) To- to- today, we have a meeting uh, 
+I have a meeting with [PERSON6], so I'll tell him, how to run the forced alignment.
+(PERSON13) Yeah, yeah.
+(PERSON9) And I'll <unintelligible/> them <unintelligible/>.
+(PERSON13) Yeah, I suggest to use probably a [ORGANIZATION3] document along with the call 
+because he is in [LOCATION4].
+And the sound quality is pretty bad.
+When he starts talking, immediately it like it degrades and and gets lost.
+So he can say short and easy things, but not complicated things.
+(PERSON9) Um-hum.
+(PERSON13) And the uh, the chat is not g- good for that.
+So I suggest, that you -
+(PERSON9) Yes, so far I have not that human the <unintelligible/>.
+(PERSON13) Yes, like is another option.
+So, but w- w- whatever you do, uh, uh -
+So actually, try to use as much primary resources as possible
+and the primary resources, that means, 
+there is the README that goes with the forced aligner.
+(PERSON9) Uh, yeah.
+(PERSON13) So go through that README and improve that README.
+So that the next person, who who has to start from scratch will have an easier position.
+(PERSON9) Um-hum, yeah, yeah, yeah.
+(PERSON13) Yeah, so that the [OTHER5] is fine, discuss that on [OTHER5] 
+and you don't need a [ORGANIZATION3] document.
+So we use the the primary sources and and [OTHER5] to to explain if if there is any problems. That that's great, okay.
+Then -
+Okay, so you have done all the log from Mock conference.
+Okay.
+So again, please, please, put the path here, uh.
+(PERSON9) Yeah, yeah, yeah.
+(PERSON13) Yeah, I'll -
+<parallel_talk/> [PERSON4] will try to forward it to <unintelligible/> for exploration. <parallel_talk/> 
+So that we know.
+And then, you are doing the ASR for [PERSON12] and [PERSON16].
+That's great and you are working on SL- uh, [OTHER2] of of what?
+(PERSON9) Uh, f- for the -
+Um, ju- just I I mean, that I I I so that you release some data for [OTHER2].
+(PERSON13) Um-hum.
+(PERSON9) So I downloaded data ASR and I uh, but [PERSON1] questioned me to uh, to doodle MT
+those ASR -
+(PERSON13) Um-hum.
+(PERSON9) And I re- I retrain ASR with <unintelligible/> MT, 
+than the MT and [ORGANIZATION4] MT,
+and saying may it is kind of <unintelligible/>
+(PERSON13) Yeah, synchronize with [PERSON1].
+(PERSON9) Yeah, yeah, yeah.
+(PERSON13) Because he is done, he has done some of  this maybe himself.
+So just make sure, that you are in very close very close touch with him.
+Okay, great, that's good.
+And the -
+So not implement, just integrate.
+Uh, so it's uh, implemented by [PERSON17].
+(PERSON9) [PERSON17], yeah.
+(PERSON13)  And then, logs from -
+(PERSON9) Logs for <unintelligible/> for [PERSON8] and <unintelligible/>.
+(PERSON13) Yeah, but this is actually the this identical.
+Uh, uh, <parallel_talk/> This is identical to doing the [OTHER2] runs. <parallel_talk/>
+(PERSON9) Aha, okay.
+(PERSON13) So this is exactly the same thing.
+(PERSON9) Yeah, yeah, yeah, yeah it's the same thing, yeah.
+(PERSON13) And logs for uh, Lang yeah, <unintelligible/> that is for the for the manual transcription.
+Right?
+(PERSON9) Yeah, yep.
+(PERSON13) Yep, so when doing these, please, make sure, 
+that you preserve segment level timing.
+So the idea is that for forced aligner, 
+we need to chop a long speeches into smaller ones.
+So when the transcribers are revising the transcript from the ASR,
+they should keep many of the timestamps there.
+And they will modify the sentences.
+In many cases they will have to like rejoin sentences.
+So the timestamps of uh, of a sentence beginning should not be interesting,
+uh, they would have to be removed, but many will remain.
+So as soon as the correct sentence beginning coincides with the 1,
+that was proposed by ASR.
+We can reuse the time stamp and then we can chop at those timestamps.
+So by preserving the timestamps in the manual revision,
+1st you make it easier to like revise that.
+You you can make it easier for the human to jump to the appropriate part of the of the sound.
+And 2nd, the sound can be broken up into the sorter sounds for the forced aligner.
+(PERSON9) Um-hmm.
+(PERSON13) So please, come up with the format,
+that mixes the segments from the uh, from the ASR, the sentences.
+And the timestamps, I suggest it would be something very simple, 
+like just the numbers.
+Uh, uh if there is a line, which contains only numbers and columns,
+it is a timestamp, and other lines are the transcript.
+So it would be like interleave lines.
+Sometimes, there would be no timestamp between the sentences,
+that's ne- that's not a problem.
+Sometimes, or yes, there could even 2 timestamps after another
+and no no text between them.
+If for example, there was long piece of silence.
+So so I would suggest just interleaved segments and timestamps
+as the input to the annotators.
+Right?
+<parallel_talk/> [PERSON4] uh, recommends to keep a seg-level timestamps in the format of interleaved a lines - some lines are text, some lines contain just the numeric timestamp.<parallel_talk/>
+Uh.
+<other_sigh/>
+<parallel_talk/> More text <unintelligible/> in a row. <parallel_talk/>
+Yep.
+So okay, thanks.
+So that was [PERSON7].
+And now we have [PERSON1].
+We also hear someone, that's pro- probably [PERSON1], right?
+(PERSON5) Uh, yes, uh.
+(PERSON13) Yes, yeah.
+So your your sound quality is is bad.
+So I'll I'll have to leave very soon myself, so please [PERSON17],
+I wasn't in touch with your for a while, 
+so please, briefly tell us, how is life in [LOCATION5]?
+<laugh/>
+(PERSON5) How is life in [LOCATION5]?
+<unintelligible/>
+Ca- can you hear me?
+(PERSON13) Yes, it' it's bad sound quality.
+I think it's because you probably don't use any headphones.
+(PERSON5) Uh, i- is it better now?
+(PERSON13) Yes, it is better, much better.
+(PERSON5) Oh, okay, okay.
+It was my kick.
+Okay.
+So have uh -
+Yeah.
+M- maybe for [PERSON7].
+I have finished the audio visualization tool.
+(PERSON13) Yeah.
+(PERSON5) Have you have you tried it?
+Does it work okay?
+(PERSON9) Not yet, I I I hadn't have ti- I haven't time yet, so no.
+() like this is my to-do list for for the next week.
+(PERSON5) Um-hmm, okay, okay so then, just let me know.
+(PERSON9) Yeah, yeah, yeah sure.
+(PERSON5) And I have also trained the model for for uh, 
+I think it was 27, no, it was uh, uh, 
+basically for a- all the languages from from the data set in [ORGANIZATION4].
+(PERSON13) Um-hmm.
+And can we integrate this?
+Is it uh, is it the same [PROJECT2], or whatever, that we have integrated?
+(PERSON5) It is the same uh, exactly the same uh, 
+[PROJECT2] as the as the 7 to se- as the 6 to 6 model.
+(PERSON13) Uh, which I don't know whether -
+(PERSON5) Which I which I have integrated in -
+(PERSON13) Okay.
+Yes, so please, this is another thing for [PERSON7] and you.
+Please, synchronize on this, so that we can really use this model.
+And it is now the ideal time for evolution, which of the models works better.
+Uh please, include them in the evaluation of desk set [OTHER2].
+Right?
+(PERSON5) Um-hmm.
+(PERSON13) [PERSON7]?
+(PERSON9) Um-hmm um-hmm, yeah, yeah, yeah.
+(PERSON13) That's that's good.
+(PERSON5) Yeah.
+And and also, I haven't really evaluated the models,
+so so well, so I will have to evaluate in on all languages yet.
+(PERSON13) Um-hmm.
+(PERSON5) And it is still possible that it that it is too small for all the all the languages
+because I used -
+(PERSON13) Okay.
+(PERSON5) I I used the very sm- like I used the vocabulary of 64000 just 6 languages
+and now I use the same like a vocabulary uh, for all the languages.
+So it is possible -
+(PERSON13) Um-hmm.
+(PERSON5) It w- it won't have enough vocabulary,
+but i will have to to test that as well.
+(PERSON13) Yeah.
+Okay so this is -
+Plea- please, just proceed with this and do it.
+So the the the deadline for [OTHER2] has been extended.
+It's the 20th of April for the submission, or f- the system outputs.
+Uh, and the deadline for the paper submission has not been extended
+and that comes only 4 days after that, on 24th or something like that.
+So please, if if it works, if your multi-ling- lingual model is included in the evaluation,
+regardless if we choose it as the primary submission or not,
+please, described that as well.
+So please, talk to [PERSON7] and [PERSON1] where the paper will be and yes
+and and and have the description included.
+(PERSON5) Mm-hmm.
+(PERSON13) Great, that's good.
+Okay.
+Uh, and any other thing?
+(PERSON5) Ah, from uh, I don't think so though.
+(PERSON13) Yes, Tuesday at 4, would that be a good time for for these calls for you?
+(PERSON5) Tuesday, I think yes.
+(PERSON13) Yeah.
+So I'll I'll I'm trying add this actually question on everybody.
+I'm trying to move that from -
+Yeah.
+Move away from uh, from Thursday to Tuesday.
+And I hope, that it will also uh, help us to get more people here
+because well, is only only s- only the 3 of you or 2 of you.
+<laugh/>
+I don't know, where the others are.
+Despite I sent the e-mail this morning to remind everybody uh.
+(PERSON5) Yeah, I I also -
+For me, it was very like l- very much like the day the day saw it.
+(PERSON13) Okay.
+(PERSON5) So usually you read the e-mails in like, later.
+(PERSON13) Ah, I see, yeah yeah.
+(PERSON5) And when you just said it and when you just sent it i- i- in the morning,
+that I'm later.
+(PERSON13) Yeah, yeah.
+I know, I know, but it's -
+(PERSON5) <unintelligible/> 10 minutes after the call started so.
+<laugh/>
+(PERSON13) Yeah, but it is it is actually a regular meeting.
+So that's, why I thought that people should be coming anyway.
+And this is a confirmation of regular call.
+So I'm now moving in to to Tuesday and and making the regular for Tuesday hopefully. 
+(PERSON5) Because because I I thought, that the the you would be move it already this week,
+when you resend the e-mails.
+(PERSON13) Yes, yes, but will only [PERSON1] f- updated the doodle.
+So it's ma- maybe others for fine with that, but still the they didn't join to -
+Okay.
+I'll -
+<laugh/>
+Never mind. 
+<laugh/>
+Uh, yep.
+And uh, and as um so [LOCATION5] is doing good or bad within the? -
+(PERSON5) Yeah, a- a- actually actually you would think, that they would do more,
+more sayings the the government.
+(PERSON13) Yeah.
+(PERSON5)  But, but they were quite slow to react so.
+(PERSON13) Um-hum, so.
+You don't have a trouble.
+(PERSON5) Yes, so last week uh, everyone was just uh, yeah, well, 
+they call it spazieren, or something like <laugh/> like that.
+Like they were ta- taking walks.
+(PERSON13) Yeah, Um-hum.
+(PERSON5) Of on the streets like as if n- as if nothing was happening and so.
+And so that would n- n- now, 
+they are writing more more cases per per -
+(PERSON13) <unintelligible/>.
+(PERSON5) Per population than in [LOCATION8], but it's like -
+(PERSON13) Yeah, yeah.
+(PERSON9) And <unintelligible/> the [LOCATION5] is the most infective after after [LOCATION3].
+So there is a [LOCATION6], [LOCATION8], [LOCATION3], uh, [LOCATION1], then [LOCATION3] then then is [LOCATION5].
+So it's like -
+(PERSON5) Yeah, but <unintelligible/>.
+(PERSON9)  A [LOCATION7] is a -
+(PERSON13) Yeah.
+(PERSON9) <unintelligible/> yeah.
+(PERSON5) Yeah, yeah, but basically, that I I have ordered instant food 
+and I have food for months, so I don't care.
+(PERSON13) <laugh/>
+Okay.
+Good, that you bought it because it will be out s- foc- out of supplies soon.
+(PERSON5) Would I did actually, 
+I I ordered instant food from a [LOCATION2] company called [ORGANIZATION2].
+(PERSON13) <laugh/>
+Okay.
+(PERSON5) And they make these food, 
+that contains a 100% of everything it it it's just like dust,  like flour so.
+(PERSON13) Okay.
+<laugh/>
+Yeah.
+So thanks for the details, I'll have to uh, get uh, go home at the moment.
+So [PERSON1], maybe if can very briefly say the most important parts.
+That's the submitted papers, thanks a lot for that again.
+So is [PERSON1] listening?
+(PERSON5) It looks li- it looks like he's video is frozen.
+(PERSON13) Ah, okay.
+So maybe he is a pro- promote the connection.
+(PERSON9) So [PERSON17], if you could document what we said <unintelligible/>.
+(PERSON13) Yeah.
+(PERSON9) In in in the in the [ORGANIZATION3] document in to-do list.
+(PERSON13) To-do list <unintelligible/>.
+(PERSON5) Ah, yes, sorry.
+(PERSON13) <parallel_talk/>
+(PERSON5) So [PROJECT1] Surge 2020 document.
+(PERSON9) Yeah.
+(PERSON13) Yeah.
+(PERSON5) <unintelligible/> okay.
+(PERSON13) So thanks thanks to all.
+Please, keep this uh, you can still be until 11:30 on this call so
+and then it will probably end.
+So feel free to discuss whatever uh it's you like and I'll I'm I'm leaving.
+So thanks a lot.
+And and next Tuesday, hopefully there will be more people.
+Thanks.
+Bye bye.
+(PERSON9) Bye, bye, bye, bye.
+(PERSON5) Bye.
+(PERSON9) <other_sigh/>
+(PERSON5) Okay, I'll be back here in a minute.
+(PERSON9) Um-hum, okay, yeah, yeah, yeah.
+Hi, uh, [PERSON1] can can can you hear me?
+<other_noise/>
+Yes, we are we we can't hear you in -
+Hello, hello [PERSON1]?
+<other_noise/>
+And [PERSON1]?
+Ca- ca- can you say something?
+No, no, no, no, nothing from [PERSON1].
+(PERSON5) Hello.
+(PERSON9) Yeah, I can hear you [PERSON17].
+(PERSON5) Yeah, I have one more question.
+(PERSON9) Yeah, yeah, yeah please <unintelligible/>.
+(PERSON5) Uh, I actually forgot how to how to send uh, <unintelligible/> 
+or or how exactly do send data through through the pipeline e- ev client, 
+uh, when I want to ASR for example.
+(PERSON9) Uh, <unintelligible/>.
+(PERSON5) And I'm not sure and I'm not sure, what are tho- all those fingerprints and so on
+and I don't have them any- anywhere written.
+(PERSON9) Ah, okay, okay.
+So uh, basically, so you want to get ASR out put from when of the ASR workers, 
+like our ASR worker or [ORGANIZATION5] ASR worker?
+Uh, and I mean get the ASR put and if you did to the y- y- your uh, uh 
+M- MT many to many MT.
+Is that what do you want?
+(PERSON5) Yeah, well, I I'm just like uh, 
+basically to to have all the like possible command listed somewhere.
+is it there repository, somewhere, where I can see all the commands?
+(PERSON9) So that's not like a command,
+but we have prepared some scripts, which does ASR
+and add this together, but uh, if you want uh, <unintelligible/> added on [OTHER5]?
+(PERSON5) Uh, yeah.
+(PERSON9) I can check.
+(PERSON5) I think, I am there, yes.
+I will just have to -
+(PERSON9) Yep, so <unintelligible/>.
+(PERSON5) Uh, what is the name of the [OTHER5]?
+[PROJECT1]?
+(PERSON9) Yeah, [PROJECT1] [OTHER5].
+(PERSON5) Key.
+No, I just have to guess the password.
+<laugh/>
+<other_noise/>
+Nice.
+<other_noise/>
+(PERSON9) Aha okay, so <unintelligible/> fingerprints.
+(PERSON5) Yeah.
+Ah, okay.
+Okay, thanks.
+Because I I was trying to run something through it.
+(PERSON9) Um-hum. 
+(PERSON5) This week and -
+(PERSON9) Ah, okay, okay.
+At 28th you were talking what like how do get uh, uh, <unintelligible/> de- descripts <unintelligible/> how to get ASR and and -
+(PERSON5) Yeah, I I just  wasn't sure, how the call it,
+but but basically, I just ca- called and it and it always just said,
+that that it doesn't know the language or something so.
+I didn't know more than <unintelligible/> to write there.
+(PERSON9) Yeah, okay, then.
+Okay, so so <unintelligible/> [PERSON1] uh, he has uh, uh, <unintelligible/>.
+I think, uh, so for <unintelligible/> to 44 uh, I think <unintelligible/> we are working on <unintelligible/>.
+[PERSON1], if you <unintelligible/> like uh.
+So I'm talking, what your point number 4, 
+where you wrote about uh, evaluation of 10 [OTHER8] to [OTHER3] 
+and [OTHER8] to [LOCATION2] MT models [OTHER2].
+(PERSON9) <parallel_talk/>
+(PERSON5) Uh, sorry, could you said it again?
+I didn't hear you.
+(PERSON9) Uh, yeah, I I I I I'm talking to I'm just saying to a [PERSON1].
+So he has internet and he was evaluating the 10,
+[OTHER8] to [OTHER3] and [OTHER8] to [LOCATION2] MT models for [OTHER2].
+And I think, this is what -
+I I started to work, but I could not make it uh, completely 
+because I [PERSON1] uh -
+I I need to came to relay, shouldn't type the different MTs front uh, 
+give me like uh, from give me and yeah, ID 
+in [ORGANIZATION4], have to be treated differently and I I'm not get time <unintelligible/> [OTHER3] <unintelligible/>.
+So now from today, I have uh, uh, all the feedback for this 
+and I'll be happy to uh, <unintelligible/> on on on this so.
+Yeah, that's was all thing [PERSON1].
+So I I I I already have the scripts, which I modified from you,
+so I just make a few <unintelligible/> and then in data.
+I think, that they should <unintelligible/>.
+<unintelligible/>.
+So if you have already further tasks <unintelligible/> in this data, we can <unintelligible/>.
+<unintelligible/>.
+So I I would think, the uh, if you have anything uh, more uh, uh, 
+that you uh, uh, I I I can do for you, then that you can let me know.
+You can could go <unintelligible/> than I think, that's all I have.
+And also, uh, [PERSON1], so this week  I m- I'll be able to fix uh, the a s- s- segmentor thing
+because that it's a little <unintelligible/> other branch for a segmentor division
+and I did not have time to fix it.
+So hopefully this time I'll I'll make uh, I'll make some clean option the segmentor,
+so that really have this <unintelligible/> uh, s- s- segmentor 
+and and to <unintelligible/> some 1 segmentor instead of 2 at all.
+<unintelligible/>
+Okay, okay, okay.
+<unintelligible/>
+<other_sigh/>
+And and [PERSON1] did the -
+Seriously, we were discussing <unintelligible/> to [PERSON8] with regarding the segment-level.
+Uh, segment-level timestamps.
+I mean actual audio.
+So did you uh, b- will you successful uh, on that <unintelligible/> successfully.
+Okay, ah, sorry obvious I I <unintelligible/> works.
+So I'm saying, that uh, yesterday, we, you and E- [PERSON8] -
+We and [PERSON8]- we eval- discussing with [PERSON8] 
+regarding how to get segment level timestamps of the o- o- of the MT segment.
+As in the actual audio so.
+So uh, will you successfully running that?
+In getting the actual timestamp of the MT.
+As <unintelligible/> video time in in in the audio.
+So <unintelligible/>.
+Okay, okay, yeah, yeah, you <unintelligible/> tried it.
+Okay, then, that's all from -
+<unintelligible/>
+Okay, okay, okay, okay.
+Okay, so.
+So [PERSON17], I I have -
+(PERSON5) Yep.
+(PERSON9) So you have a create a many to many MT m- models -
+(PERSON5) Uh, yeah, I'm just going to start the evaluation on the languages now.
+It's just uh, just for technical reasons uh, I can do it all at once so.
+(PERSON9) Uh, I didn't hear, you must <unintelligible/> can you repeat that?
+(PERSON5) Yeah, I'm going to start the evaluation now, 
+just for technical reasons I can't do it all at the same time.
+So I will have to do it separately for each language.
+(PERSON9) Ah, okay.
+(PERSON5) And -
+(PERSON9) So
+(PERSON5) And and and make it more complicated is that the -
+It's basically like I think it's 42 or something language uh -
+(PERSON9) Yeah, yeah, yeah, exactly.
+(PERSON5) Like per a-  I'm going to to evaluated on pairs with [OTHER8], if that's okay.
+(PERSON9) Um-hum, um-hum.
+(PERSON5) Because I be- because it was trained as [OTHER8] <unintelligible/>.
+(PERSON9) Ah, ah, yeah, yeah, yeah.
+From uh, or from more <unintelligible/> language to [OTHER8] 
+and then from [OTHER8] to again, all the <unintelligible/> languages
+(PERSON5) Uh, sorry?
+(PERSON9) So so by En- En- [OTHER8] at the center language,
+you <unintelligible/> from all the 42 languages to E- [OTHER8] 
+and from [OTHER8] then <unintelligible/> to all <unintelligible/> to languages.
+(PERSON5) Yes, yes, yes, yes.
+(PERSON9) And can you side the source for these uh, an MT -
+So are you using the [ORGANIZATION4]'s model?
+(PERSON5) Uh, I am using [ORGANIZATION4]'s data.
+(PERSON9) Aha, aha.
+(PERSON5) But I'm using the -
+(PERSON9) So the thing is [ORGANIZATION4] also has a many too many models.
+So I I was just finding, if you using the same,
+or you have trained uh, separate uh, uh kind of lape.
+(PERSON5) Yes, so I I was I was using the many too many model, 
+that they had before.
+(PERSON9) Aha, aha, aha.
+(PERSON5)  But it was like totally unusable, when we tried it.
+(PERSON9) Yeah, yeah, I I just <unintelligible/> yeah, yeah, it recently work yeah.
+(PERSON5) Uh, so so that's actually, why I I I made this fun. 
+(PERSON9) Um-hum.
+(PERSON5) But I but I'm not sure, if it is usable on all the languages it,
+but I I know, that in 6 to 6 it works a quite well.
+(PERSON9) Aha, aha.
+(PERSON5) And they also tried it in the uh, paraphraser.
+And they -
+(PERSON9) Um-hum, um-hum.
+(PERSON5)  may be some evaluation on it, likes uh, 
+s- some of their matrics, like fluency and and I do not know what,
+what they do there, so so probably it -
+They should have it somewhere in in their in their paper.
+I don't have it, but I am going to evaluate it on on the data, 
+that I have myself.
+Oh, oh yeah, the evaluation data for -
+Yeah.
+Uh, I know, that someone wrote me something about evaluation data, 
+but I'm not I don't remember exactly, what it was.
+(PERSON9) Um-hum.
+(PERSON5) Evaluation.
+Now, we only have 5 minutes left.
+(PERSON9) Y- yeah, yeah <unintelligible/>.
+(PERSON5) Yeah, so o-o- on which data should I should I evaluate it?
+So so so the w- so that we can compare it with with the other models.
+(PERSON9) Uh, which data to evaluate?
+I think, I'm not sure about this question 
+because I didn't know the test set.
+Uh I think, [PERSON12] would be the the right person to to answer your question,
+thus until I [PERSON12] has been supervising the test set.
+(PERSON5) Yeah, so uh -
+So so my question was like -
+Sorry.
+My question was what what [PERSON4] was saying uh, 
+about about comparing it with with other models.
+Uh, he was saying something like that before.
+(PERSON9) Um-hum.
+(PERSON5) Right. 
+(PERSON9) And and right, okay.
+(PERSON5) And so uh, what is that about?
+Uh.
+(PERSON9) I'm not sure if I if I can say something to you <unintelligible/>, 
+but is you write e-mail to [PERSON4] and [PERSON12] <unintelligible/>.
+(PERSON5) Well, [PERSON12] who?
+Maybe I will just check the check this thing, this document,
+if there is something about it.
+Yeah, I I also received the mail from [PERSON1].
+(PERSON9) Um.hum.
+(PERSON5) Uh, following table issue, I evaluate some MT workers from the the
+for quality, latency and flicker.
+<unintelligible/>.
+Yes, so it is [OTHER2] dot test 2015.
+Is [PERSON1] here?
+(PERSON9) Uh.
+(PERSON5) Uh.
+(PERSON9) Yeah, he is tipping and he he is here.
+(PERSON5) Yes, so uh, so you wrote uh, it the e-mail about the about this.
+So perhaps the -
+Uh, and can I find the the data set, that you used somewhere?
+Do you have it somewhere available, like?
+Or if you find it somewhere, can?-
+Okay, okay, so so i- so if I just the use it from the there, it would be the exact same data set, okay.
+Okay.
+Okay, then, thank you.
+Okay.
+(PERSON9)So I think, if we go offline <unintelligible/> yet.
+<unintelligible/>.
+(PERSON5) Yeah.
+(PERSON9) I don't think system works.
+<unintelligible/>.
+(PERSON5) Yeah, I don't know either.
+<laugh/>
+(PERSON9) Okay so bye, we can say bye to each other.
+(PERSON5) Yeah, yeah, bye everyone.
+(PERSON9) Bye, bye, bye.
+Yeah, and any questions w- we can <unintelligible/> on [OTHER5].
+(PERSON5) Okay, okay, I'm adding the [OTHER5] to my

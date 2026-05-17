@@ -1,0 +1,148 @@
+(PERSON11) Hi [PERSON10], hello. Hello, does it work?
+(PERSON10) Hi [PERSON11].
+(PERSON11) Yes, it works, ok. Great. Yeah, so sorry for for being late. But yeah. You found the link.
+(PERSON10) Going to re-share everything with with [PERSON14].
+(PERSON11) Ok.
+(PERSON10) <unintelligible/>
+(PERSON11) I see [PERSON14] on the call. <another_language/>
+(PERSON10) Ok. And this might work. <unintelligible/>
+(PERSON11) Yeah, yeah. Internet work is low. I I've disabled my camera. Just to save the bandwith.
+(PERSON10) Sorry.
+(PERSON11) Yeah, I've disabled my camera to save the bandwith and I don't see you anyway. But that's not a problem.
+(PERSON10) Oh I hear you really really bad unfortunately.
+(PERSON11) Oh. Ok.
+(PERSON10) I switch off my webcam so maybe it dispers. Some bandwith.
+(PERSON11) Yeah, that's strange because my connection seems ok.
+(PERSON10) Ok, yes. Maybe it's mine. Well, I share also the [ORGANIZATION1] link with [PERSON8], he should join us at some point. Hopefully.
+(PERSON11) Yeah, yeah, ok. So I'm sending the e-mail. And I forgot to mention the pin. But I just send reply to that e-mail.
+(PERSON10) Sorry?
+(PERSON11) Yeah, I've I've shared-
+(PERSON10) Ok, nice I see your-I try to go out and re-login just to try to fix this problem with my internet connection.
+(PERSON11) It could be my issue as well, but I I can hear you very well. I just don't see you I see some bad image. But I I hear you very well. So maybe it's my upload. I don't know.
+(PERSON14) Oh well, I can hear [PERSON11], I can hear you very decently.
+(PERSON11) Yeah, like ok.
+(PERSON10) Ok, I hear also [PERSON14] pretty bad. Maybe it's just my.
+(PERSON11) Ok.
+(PERSON10) Just a second. Ok.
+(PERSON11) Yeah <unintelligible/>
+(PERSON10) Oh I hear you much better. I change the <unintelligible/>
+(PERSON11) Ok, yeah.
+(PERSON10) Nice. Have you seen the <unintelligible/> document for the demo?
+(PERSON11) Well, I'm I'm just open it.
+(PERSON10) Ok.
+(PERSON11) So I can browse it now. I haven't <unintelligible/> before hand.
+(PERSON10) Ok, I'm going to check the <unintelligible/>
+(PERSON11) And I need to fill the Doodle which I'm-Only [PERSON9], yes. So we specifically need surely [ORGANIZATION12] and also [ORGANIZATION6]. So someone from [ORGANIZATION12] and someone from [ORGANIZATION6].
+(PERSON10) Ok.
+(PERSON11) So maybe [PERSON13] will be probably the the [ORGANIZATION12] person. And then-
+(PERSON10) Yeah, but we don't know [PERSON13] doesn't appear really often.
+(PERSON11) No, no. But but he if if-I mean he, but he response up to e-mails pretty quickly.
+(PERSON10) Yeah.
+(PERSON11) So he should-
+(PERSON10) Ok, nice.
+(PERSON11) But maybe maybe he's not receiving the the general [PROJECT1] e-mail. I'll check. Contact, distribution list, [PROJECT1], project, yeah yeah yeah. So we don't have [PERSON13] here apparently. No, yeah, he's there. [PERSON13]. Yes, so he is receiving that the [PROJECT1] at [ORGANIZATION11] mailing list. So [PERSON13]-
+(PERSON10) Ok. We will prompt it here <unintelligible/> directly of this call.
+(PERSON11) Yeah, yeah, yeah.
+(PERSON10) And the from [ORGANIZATION6]. [PERSON7]?
+(PERSON11) So, maybe [PERSON13] would be the-
+(PERSON10) Ok.
+(PERSON11) Because it's [PERSON13] is usually responding and also the the [ORGANIZATION5] for that is like we always use a [ORGANIZATION5] when the session is running. But we don't use it normally for the for the arrangement like when to start and so on. So. But. Yeah. So I'd say [PERSON13] from [ORGANIZATION6] and then ma- We need to make sure that everybody will be on [ORGANIZATION5] during the demo itself.
+(PERSON10) Hmm mmm.
+(PERSON11) [ORGANIZATION5] to be used while the demo is running. Is there a way to make a link directly to some [ORGANIZATION5] channel?
+(PERSON10) Mmm I don't know.
+(PERSON11) Yeah, that's, exactly. Ok. So Monday seminar setting. Screensharing. Yeah, yeah, so exactly. So the demo input, I think everybody I'm going through to do list. And I think that the set of the languages it should be all we have at the moment. But the main question is which should be the input language and in the call they [ORGANIZATION12] said the German would be ok for them. So I think we should be ready for for German source.
+(PERSON10) Ok, nice.
+(PERSON11) And like double check with them but <unintelligible/> if they if they now realize that German is a bad idea then that's now a problem and we switch to English as the source.
+(PERSON10) Ok. I'm going to adds this one. German as input and English as back up. Ok. Well, and translate it in all the available languages are we sure?
+(PERSON11) Yeah, I would say so. Why not?It's, what would, what could be the problem?
+(PERSON10) I don't know. Do we have a tested the machine translation, well the speech language translation starting from German to so all the other possible languages?
+(PERSON11) So it goes via English of course. And what we have tested several times is from Czech into English and then from English into the other languages. So we have not tested-
+(PERSON10) Ok.
+(PERSON11) With German source, I agree. But I kind of trust the German to English [ORGANIZATION12] model. And I the the English to everything is the best that we have all the time. Like it's-
+(PERSON10) Ok, ok.
+(PERSON11) We should we should double check the target languages and and make a clear warning to [PERSON3] with Romanian is not to up to our standard so to say.
+(PERSON10) Sorry?
+(PERSON11) So so [PERSON3] is Romanian. And we have-
+(PERSON10) Ok.
+(PERSON11) Romanian speakers, there are some in, or there used to be, some in [ORGANIZATION6]. So we should probably do demo run and we should ask some Romanian people to to check. So that would be another question for for the [ORGANIZATION6] people.
+(PERSON10) Ok. <unintelligible/> For the 2 check the unders-
+(PERSON11) Yeah, yeah the quality of-
+(PERSON10) Yeah, I I didn't know how to to formulate it. Ehm. Ok. Do we have Romanian.
+(PERSON11) And the Romanian speakers that we know about. No, ok. So we don't have-We are not aware of any Romanian speakers.
+(PERSON10) Ok. Ok, write write-
+(PERSON11) Map of colleagues who can speak some Romanian or some languages. We have this [ORGANIZATION11] language map. We don't have access to any any Romanian speaker.
+(PERSON10) No, we have but would you like we check with some Romanian people-
+(PERSON11) Yes, if you can-Yeah.
+(PERSON10) Actually we do not have a sources. Romanian sources. But you you told us that maybe the [ORGANIZATION6] have.
+(PERSON11) They used to have. But-
+(PERSON10) Ok.
+(PERSON11) That's like a year and half ago. When that colleague defended her thesis. And I'm not sure if she's if she's with [ORGANIZATION6] or not. I'll actually e-mail her. I'll try to find an e-mail. If I have it. Yep, yep, yep. But I have only her [ORGANIZATION6] e-mail. Ok. So I'll try. So I'll ask if if she could review that for us and I'll e-mail you. Can you check. And I'll copy actually [PERSON9] as well. Who else should-So I think that for [PERSON1]-Her name is [PERSON1]. And I'm thinking who should be involved in the testing. Maybe [PERSON13] then as well. Because there should be like one session that she would watch.
+(PERSON10) Mmm mmm.
+(PERSON11) Translation of probably German speech into. Yeah. So I've I've asked her and hopefully she will be able to to check this for us. I have no idea. So we'll see. So that's it. So that's we need we need to choose the date for the demo itself. That's the Doodle pool. I need to fill it for myself. We really should run a pre-demo session. And we can run it when we are available. And also we should run it when [PERSON1] is available for the second like. Possibly at the same time or at some other time. Ok. And we need to choose the the source, here. [PERSON11] ask [PERSON1] which date. Define demo input. Yeah. What demo input. So can you pick something or.
+(PERSON10) Yes, actually I'm little bit worried about the domain of the input. Because actually we need something that performs <unintelligible/>. First of all-ASR.
+(PERSON11) That's right.
+(PERSON10) And I don't know. Actually we as let's say, as as project we have to prepare something related to the [ORGANIZATION8] congress.
+(PERSON11) Yes, that's right.
+(PERSON10) But i don't know if we have actually real data or not. Or if the <unintelligible/> prepared or not.
+(PERSON11) Yeah, that's-
+(PERSON10) Usually-
+(PERSON11) That's very good point, so there are. What we have is some Youtube videos that are already consecutevely translated into Czech. So we have one Czech-German video. I'll try to find it. Data. Youtube. Youtube channels. Youtube selected. Translation, German, port view.
+(PERSON10) Often the the training data are from TED talks. But also [ORGANIZATION4] sessions. And maybe also an EUROPEAN <unintelligible/> session like the something that looks like a congress let's say. But is perfectly in domain, I don't know. I don't know, we have to ask first to to [ORGANIZATION12] to for the German ASR-
+(PERSON11) Sorry, I'm loosing you now. Because I'm, this is. What is this language.
+(PERSON10) We have to ask to [ORGANIZATION12] the domain of their ASR.
+(PERSON11) Yes. I'm now checking the video. But this is all English, it was supposed to be German. So [ORGANIZATION10] is very good. And it would be hard to compete with [ORGANIZATION10]. So that's why we should pick really something which is not in English. Because [ORGANIZATION10]'s ASR so-Possible idea's, well concerns. And that's domain match with our systems. Yeah, possible ideas. So this is.
+(PERSON10) Ok. Let me check it.
+(PERSON11) This is a German speaker. But he speaks English.
+(PERSON10) Ok.
+(PERSON11) [ORGANIZATION10] is too good on this I guess. So I thought that it was-Actually this is strange, Dutch-I'll double check again. So this is another one would be part of the [PROJECT1] edible SLT test set if I'm not mistaken. My ball, yeah. So I don't I hear anything. Speaking. That's again ok. That's still again English, yeah. I see. So I will-Youtube channel. We had some which was German. So how about how about going for Italian source. Would that be risky?How is your-
+(PERSON10) Yes, it will be risky. Because we never test the Italian ASR together with everything.
+(PERSON11) That's right. Yeah. How do I get-If I know a channel ID.
+(PERSON10) If the problem is to search for German videos, well don't worry, we we can do it with within this week we can search for something, don't worry.
+(PERSON11) Yes, so well. We already have some link and that's why I'm trying to revive some of those. That's probably it. You see view. The channel ID has changed. Strange. So here's to me, this is just-Aha. Mmm, [ORGANIZATION10] is great also also for German that's too bad. [ORGANIZATION10] is very very good. So this is.
+(PERSON10) Well, you you test it several times <unintelligible/>
+(PERSON11) We could.
+(PERSON10) Actually you have tested each Monday for several weeks.
+(PERSON11) Most of these were actually in English. So it were, there were few more sessions in Czech than in English. But it was like native speakers of Czech speaking English. But. Yeah, so doing doing Czech would be also-German text. [ORGANIZATION10] also already pretty good. That's too bad. And I'll actually list the. So this is the channel. Channel of German SAI or of Austrian SAI. And for. So this is something which you could choose from. And I'll also check that the Czech one. So Czech. There's is so difficult to-<another_language/> Yep. Oh they have 22 subscribers and 50 videos. That's a plenty. So there is like 3 minute video. So Czech 3 minute and 10. <another_language/> So just a second I'll get someone some paper. So so here are some Czech videos. There is a channel of the [ORGANIZATION2]. Some of the videos are in English and some are in Czech.
+(PERSON10) Yes, but-
+(PERSON11) So there is there are very short like 1 minute. They're really very very short. There is, yes. 5 years, there is 40, there is 46 minutes. So lower in the list. There is a conference of 5 years of some reform or whatever. Yeah, so so now I'm checking one of the random longer videos. The 4 minute one. And that is the the person is is like slipping, his tongue is slipping. Like I don't know the English term for that. <laugh/> So that's probably to that's something to choose from. If we really. These are probably the best sources because we do not directly compete with [ORGANIZATION10].
+(PERSON10) Yes, but we have to check the ASR performance.
+(PERSON11) Yeah, yeah. We have to choose something which which seems to.
+(PERSON10) Transcription of those videos to.
+(PERSON11) Say that again, sorry?
+(PERSON10) We do not have the verbal transcription of those videos.
+(PERSON11) No, no. Of course not. But that's the point. Like it's, it would not be fair to to include it into language model I think.
+(PERSON10) The performance. <laugh/> Is required.
+(PERSON11) Yeah, yeah, ok. So if you wanted like the exact evaluation. Yes that. So if we-I think the point of the demo is to show how it runs when it runs. Like.
+(PERSON10) Ok. That's definitely fair. Ok, ok. We will search for other possible ideas, of course.
+(PERSON11) Yeah.
+(PERSON10) In focus on the German <unintelligible/> languages-
+(PERSON11) Sources. Yeah.
+(PERSON10) Sources, ok.
+(PERSON11) Who'll present the demo. Yes. I can. So the location. Like the location if we'll be remote. So how do we do it?
+(PERSON10) Who will run the pipe?
+(PERSON11) Who will run the pipe, yes. Probably us, I agree. Yes, yes, yes. So probably.
+(PERSON10) I thought about this parts actually. We have to think about how to share also the audio. With with project officer because actually sharing the screen is fine in order to let him see the results. But sharing the audio might be a little bit more complex, unfortunately.
+(PERSON11) So what are the options. We actually need-So it should be like remote call. And then one of the participants should be the machine which place the video. For everybody but then.
+(PERSON10) Yep. Could, yes.
+(PERSON11) But then we really need to check that the machine is strong enough for that. Because it will be both like watching the video-Yes, so this is something for [PERSON9] to test. So to test for [PERSON9]. So run the video in Youtube. So so connect 2 machines. That's it, so. Connect 2 machines to conferencing platform. Run the Youtube. So. So 1 is for you to talk to others. The other one needs to be good enough to run the video in Youtube. Send the audio to the conferencing platform. Send the audio to the complete subtitling pipeline. Yeah.
+(PERSON10) Do we ever, <unintelligible/> conference single platform?To be used for the call?
+(PERSON11) No, we can choose anything. So I don't know which is the most light weight. So [ORGANIZATION1] should be ok.
+(PERSON10) Ok.
+(PERSON14) [ORGANIZATION1] is this one, right?
+(PERSON11) Yes. But we need to book it obviously. And we can also use [ORGANIZATION9] but [ORGANIZATION9] was kind of heavy. So yeah please talk to talk to [PERSON9]. What work best. So far. So I'll actually. [PERSON9]. Please check which conferencing platform is the lightest for this. Obviously we should avoid any videos transmission. Only the sound and only out going. Yeah, so I've. Will. Who will start the pipeline. After May 11. So actually the restrictions in the Czech republic are are getting easier and easier. So I think that we should be able to meet after MAy 11. It's actually a date in one of the recent regulation by the government.
+(PERSON10) Ok, nice.
+(PERSON11) So <unintelligible/> test. Yes, exactly. So the test, test, test, test. I totally agree. Yep.
+(PERSON10) Well.
+(PERSON11) So what else?I think this is it, for for now. Yes. So please make sure that everybody agrees when when to make these tests.
+(PERSON10) I I hope maybe will be able to schedule <unintelligible/> check with my agenda because <unintelligible/> are really crazy. Ok, maybe we can mix some more tests tomorrow with [PERSON9]. I I I will <unintelligible/> [PERSON9] in order to start checking the first things.
+(PERSON11) Yeah. So today it-Yeah, today it's 6, [PERSON9] is still probably helping [PERSON4] another colleague of mine, the Uni hack. The [PROJECT5] I may- Maybe I have mentioned it maybe not. We are trying to do remote subtitling for [PROJECT5] which run over this weekend in like only the plannery sessions. Which run in the Czech language this this last weekend. And today is the closing day so the already closing session, if I'm not mistaken. So from tomorrow on word [PERSON9] can focus on the demo. And there is no other session planned except the demo, so he can really put all his effort into that.
+(PERSON10) Ok. I read about the [PROJECT5] in your e-mails.
+(PERSON11) Yeah, ok.
+(PERSON10) <unintelligible/> Ok. I think that for today it's-
+(PERSON11) Ok, great, great. So thanks. I'll fill the Doodle shortly. But that's not important, most important are the other and the tests.
+(PERSON14) Yes.
+(PERSON11) Ok, great. Thank you.
+(PERSON10) Ok, thank you [PERSON11].
+(PERSON11) Thank you, bye bye.
+(PERSON10) Bye bye.
+(PERSON11) Bye bye.

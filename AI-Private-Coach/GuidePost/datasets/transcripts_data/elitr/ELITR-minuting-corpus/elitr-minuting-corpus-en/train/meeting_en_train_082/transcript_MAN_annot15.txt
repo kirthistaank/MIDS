@@ -1,0 +1,1064 @@
+(PERSON7) Hi [PERSON4].
+(PERSON4) Hi. 
+(PERSON7)  Yeah, so it works. 
+Let's wait for [PERSON8] because we haven't heard from the chinese person yet.
+(PERSON4) <unintelligible/>
+(PERSON7) Your connection seems very bad.
+So maybe it-
+(PERSON4) Hmm?
+(PERSON7) Your voice is very interrupted.
+So if it doesn't get better <other_noise/> then it maybe-
+yeah and also do you have any headphones because - 
+(PERSON4) <unintelligible/>
+(PERSON7) the microphone helps a lot.
+(PERSON4) Just a moment, I will check.
+(PERSON7) Yeah, yeah, I don't understand anything at all.
+<unintelligible/>
+<other_noise/>
+<another_language/>
+<other_noise/>
+(PERSON4) Hi. 
+(PERSON7) So, hello.
+(PERSON3) Hi, eh, hi everyone.
+(PERSON8) Hello.
+(PERSON7) So [PERSON3] - yeah, so [PERSON3], again if you could mute yourself.
+(PERSON3) Yeah, yeah, exactly. <other_noise/>
+(PERSON7) For some reason it is catching all the, eehh, it is catching the noise from the environment so it seems that your input, eehh, microphone is something different than the one eh on next to your mouth.
+So maybe maybe it is set to to follow the -
+(PERSON3) Yes, so I mute to my <unintelligible/><other_noise/>
+(PERSON7) So hi [PERSON8].
+(PERSON8) Hello, so -
+(PERSON7) Yeah, your connection is great. 
+Are we waiting for your, eehh, for, eehh -
+(PERSON8) Yeah, yeah, he said that he would join.
+(PERSON7) Ok, so let's wait for -
+(PERSON8) Let me see -
+(PERSON7) And i don't know if [PERSON4]‘s connection got better because [PERSON4] was not- I couldn't understand [PERSON4].
+(PERSON8) Hmm.
+Ok.
+(PERSON7) So let‘s wait for [PERSON1].
+(PERSON8) Yeah.
+(PERSON7) Maybe he is still trying to connect.
+(PERSON8) He could still be trying to connect hopefully he understood the time correctly.
+It seemed clear to me but.
+(PERSON7) Oh, I see.
+(PERSON8) Oh yeah, here we go, yeah.
+(PERSON7) Ok, great.
+Hi [PERSON1].
+(PERSON1) Hi.
+(PERSON7) So I'm, again -
+I am again recording this meeting because we are gathering whatever we can for for the purposes minuting.
+So if, are you fine with that?
+Is everyone fine with that?
+(PERSON1) Yeah.
+(PERSON8) Yeah.
+(PERSON7) So, so how do we proceed? 
+Yeah.
+(PERSON8) Yeah, I think I I just, I brought this up when you mentioned in the, when you mentioned in the call last week.
+That you are working on measurement and latency.
+(PERSON7) Yeah.
+(PERSON8) Yeah and evaluation and latency so I know I said that we we've been thinking about that a bit.
+But more we've been looking at incremental SL- SLT models and noticed there's a few different definitions of latency going about.
+Em.
+There - 
+and again there's different definitions on the flicker, or erasure or whatever.
+Em, yeah I just thought it was kind of useful to understand what we are doing I- I- 
+I see what what you are doing is EV-, 
+I mean you got this work bench what was it called again the EV-
+(PERSON7) SLT- SLTEV, SLTEV, SLTEV.
+(PERSON8) SLTEV, yeah.
+And your already have a paper about it or -
+(PERSON7) No, no, a draft.
+(PERSON8) No, no, a draft paper yeah, sure.
+We know.
+(PERSON7) Yeah.
+(PERSON8) So I mean maybe we just maybe we tell you roughly what what we're doing is –
+We talked a bit about between the different ways of doing incremental SLT.
+And and then we focused in on this paper which you referenced the one by -
+(PERSON7) The [ORGANIZATION5], the [ORGANIZATION5] december.
+(PERSON8) Yeah, we‘re calling it the [ORGANIZATION5] paper so I am not sure how to say that Ari Pendragon or something like that?
+(PERSON7) I know -
+(PERSON8) Yeah, I am not sure.
+(PERSON7) I know one of the Mecharized is some of the authors.
+I think Wolfang Mecharized is one of the authors.
+(PERSON8) Yeah, yeah, yeah, but yeah, the first author is a guy call I think is called Airy Pedragon.
+He also did a bit doing work on on a multilingual MT as well and had some papers on that.
+Em.
+So [PERSON1] has implemented device beam search and the mass key,
+the mass key comes straight forward.
+Or wait is it mass key, I think, yeah.
+So we have the bias beam search working on Nemesis not really suitable for production, but just used the experiments with it, em.
+And it seems,
+well, the way the paper was pronounced it was little bit confusing in a terms of their evaluation, there is, there is like several different variables, if you like there are several different input variables and several different output variables and they move things around and shows a couple of settings and reported them.
+Em, so we have some,
+so a little bit more detail on that that.
+<other_noise/>
+(PERSON8) And the-
+<other_noise/>
+(PERSON8) What is that?
+<other_noise/>
+(PERSON8) Is it the [PERSON3]?
+(PERSON7) Yeah, [PERSON3] can you mute yourself?
+(PERSON3) Sorry, yeah.
+(PERSON8) I don't -
+(PERSON7) Yeah mute yourself somehow, yeah.
+(PERSON8) Yeah, em, I mean it, experiments are still going on, but it does look good the BIOS beam research is quite useful just as it is.
+I mean, it basically, it stops the output from flickering without, I mean, it does obviously has a little bit of penalty on performance, which needs a bit more testing.
+Sorry, on quality which needs a bit more testing.
+(PERSON7) Uhm.
+(PERSON8) But you know, if it is just the right value, it does prevent the flickering. 
+Em, the wait key we're sort of less sure about, because it‘s a very easy way of reducing the flicker.
+But you lose a bit of latency.
+Umm, yeah, I was- been looking at models of trying to predict, when you should wait.
+Which it looks a little bit like word conference model, like you act, why don't you say „well I am confident in this“ and then you just, you keep it, if you are not confident, maybe you wait until -
+(PERSON7) Uhm.
+(PERSON8) there is more speech comes out.
+Em, but in terms of the latency evaluation, i guess we are taking a sort of, we are trying to do us laboratory focused evaluation, where we just take a -
+(PERSON7) Or sequence of words.
+(PERSON8) Yeah, but just build a specific system and then, or evaluating in isolation, you know, because they -
+Em, yeah we consider the ASR is fixed really.
+Em, the Airy Padragon evaluation was a bit strange, because they sort of conflated the stability and the latency in the sense, that they don't, they don't –
+they don't count a word as being delivered, until it is actually stable.
+You know, so if you deliver a word and then you revise it, it is not stamped, it is not time stamped, it is delivered, um.
+Until it is stable, so if you are a bit unstable, it messes up your latency.
+Em, where as in the Stako paper, which it seemed quite clear.
+It was from last year i think, no, 2018, em.
+They first criticised the older measures of latency, which was something like, what was proposed by Esipova and Cho.
+In a much older paper.
+When I say much older, I mean 2016, which is ages ago now and <laugh/>
+(PERSON7) Yeah.
+(PERSON8) Then <laugh/> and then they produced another – 
+I think it was called Average, Average something.
+(PERSON7) Average Like.
+(PERSON8) Yeah, I think it was Average Like.
+(PERSON1) Paper called Average proportion and down on paper proposed the Average Like.
+(PERSON8) Yeah.
+(PERSON7) Average Liking.
+(PERSON8) Average Like seemed the most sensible but -
+I mean -
+We are aware that, you know, for for [PROJECT2] we sort of – 
+We want to think at the system level as opposed to laboratory level .
+(PERSON7) Yeah.
+Yeah, yeah.
+(PERSON8) Which is something you are doing doing a lot more than we are.
+(PERSON7) We are trying to.
+But I think I see a main difference between the way we approach things and all these papers approach things,
+is that we have really ASR with time stamps in milliseconds and not words.
+So that‘s a big difference because 
+(PERSON8) Uhm.
+(PERSON7) if wait key it's not, we are not waiting for key words, we will be waiting for milliseconds.
+We don't have any such system.
+(PERSON8) Mmmm, yeah.
+(PERSON7) And, and SLT system.
+But so with this - with this evaluation, that evaluation tool, that [PERSON4] is developing,
+I am paving my way towards the other task that we have,
+the word package and simultaneous <other_noise/> translation.
+Or we should have hand to hand systems.
+And there the input is the sound and the output is already the translated text.
+(PERSON8) Hmmm, hmmm, mm.
+(PERSON7) That, that also makes this strategies, ehh, more natural, ehh, so -
+(PERSON8) Hmmm.
+(PERSON7) So if you train a model for wait key –
+(PERSON8) Yeah.
+(PERSON7) and then you are waiting for key words, it can be too much time in terms of milliseconds.
+So I think it would be really better to, ehh, to to plan for a system, which, ehh, emits the translations, even if the the words are incomplete, but if there was a time delay of the output.
+(PERSON8) Hmmmmm.
+I see what you mean.
+So you can have a strategy, that just, yeah, waits for key seconds or something. Uhm. Yeah.
+(PERSON7) Yeah, yeah, yeah.
+Which doesn't make sense in the incremental machine translation, ehh, or or interactive sorry interactive machine translation setup.
+Because when, when people say interactive machine translation, they only mean text input produced and text output, ehh, produced word by word.
+Whereas SLT im- implies that you start from a time stamped eehh input.
+(PERSON8) Eehh, ok, well, I mean, I am thinking about time stamped input, I suppose the limitation is that, em –
+It's much easier to experiment with word by word input.
+There isn't so much time stamped in to put around there around -
+(PERSON7) Yes, so, exactly .
+We are getting our own by recording, what came out from the ASR and then playing it back.
+So the, the way we do it is, that we have the pipeline, which emits various things to mediator and, and back,
+and we have team which timestamps the lines. 
+So we are gathering the timestamps, the emission time stamps, ehh, and we can put this at anywhere and obviously, we do not want to re-do all the ASR, we, we like want to replay. 
+(PERSON8) Yeah, yeah.
+(PERSON7) The ASR from, but replay the real time.
+(PERSON8) Hmm, hmm.
+(PERSON7) So when, when you are focusing on the, on fund presentation, which especially if it's subtitles.
+Then it really makes a difference, ehh, depending on how you replace.
+Ehh, replay the, ehh, the input.
+So you do not want to re-do the ASR,
+you want to save the the computing power, but you want to reply it at real time. 
+(PERSON8) Hm, mm, yeah, yeah, yeah.
+I mean, we did start, I did start doing a bit of that and then I got lost down the rabbit hole of not having the correct time stamps and that that -
+(PERSON7) This is something - 
+(PERSON8) that was a little bit detour, but that is now all fixed and sound, isn‘t it?
+(PERSON7) So the, the time stamps, that we are getting now, still need two adjustments, because when we have a recording of a sound,
+then eh the way we did it, was that we recorded absolute timestamps in the T commands and we started the playback of this, ehh, of this audio file at a specific time using the ADD command, ehh,
+so so all the pipeline was set up,
+it takes some time to to start it and then the issue an AT command to to run it with some delay or some rounded time and then you have to subtract this starting time. So -
+We don't have that fully automated yet, but it is our current strategy of recording that- those files.
+And [PERSON3] is collecting a nice like directory of various talks that we had here that have transcripts and we also want to eh do it with various TED talks for example.
+So you have to re-play the audio -
+(PERSON8) Hmmm.
+(PERSON7) you have to re- re-do the ASR, then you get the timestamps, or you can also use forced alignment,
+(PERSON8) Hmmmmm.
+(PERSON7) between the correct transcript and the sound, which will give you like true transcript with timestamps and then you can re-play it. 
+So this is some of this has been done, 
+we have achieved some of those things.
+(PERSON8) Yeah.
+(PERSON7) Some of these are only planned so we have not -
+(PERSON8) Yeah, yeah, so instead of word by word you want to know exactly, how long each word takes to say.
+(PERSON7) Yeah, kind of the -  <laugh/>
+(PERSON8) Yeah, yeah, yeah.
+Ok.
+(PERSON7) It is not, is not because we want to be this precise in terms of words, but it is more important to to have,  ehh, the measure of delays between words.
+So when people stop talking – 
+(PERSON8) Yeah.
+(PERSON7) you still want to finish the output. 
+So that's the current main issue that I see in the in the [ORGANIZATION6] setup.
+When people stop talking.
+(PERSON8) Sorry.
+What do you mean when people stop talking?
+(PERSON7) When people stop talking -
+(PERSON8) Ya.
+(PERSON7) often the ASR will have emitted this word, but the segmenter, which takes the sequence of nonpunctuated words, is still waiting for some more words to add a full stop.
+(PERSON8) Hmm.
+(PERSON7) And – 
+then <other_noise/> the second speaker comes and -
+(PERSON8) Hmm.
+(PERSON7) starts to talk about something completely different and these two parts get joined together in one into one sentence and that se-
+(PERSON8) Wow.
+(PERSON7) sentence gets translated. So -
+(PERSON8) Wow, ok, so really -
+(PERSON7) this is something that definitely want to avoid.
+(PERSON8) so really, the pause is a clue, that you should just put a, put a full stop there.
+(PERSON7) Yeah, yeah.
+But there is no way to, to feed it to the current pipeline. 
+Because the <laugh/>, well, the the ASR system we could, we could put a wrapper around the ASR system, which would have its time monitoring and then emit an extra full stop. 
+Maybe that is something, [PERSON3], that we should do like to -
+(PERSON3) <laugh/>
+(PERSON8) Mmmm, guys, you've got, you saying you've got this ASR log, but you would like to, you better just try to figure, how to replay the log into the system. 
+(PERSON7) The, we have the, to replay the log that's easy, so we do this.
+We would have a screw, which replays the log.
+(PERSON8) Yeah, ok. 
+(PERSON7) So we, we have a small but growing data set, which was serve as the test set. 
+So that will be the regular test suit for for [PROJECT2] and for, for the EUROSAI congress.
+Now it is focused only on the ASR, but will also edge the translations, where we can and when we, for example re-do the ASR on TED talks, then we have already the translations from the <other_noise/> subtitles from TED talks, so then that will be the ideal set up that [PERSON4] is now working on.
+So [PERSON4], am I right that TED talks is or [ORGANIZATION2], right? 
+Which, which there, which is actually the same thing.
+<other_noise/>
+(PERSON7) You, you are probably muted or we can not hear you, [PERSON4].
+(PERSON8) I think, think his microphone is not working.
+(PERSON7) Yeah the microphone is not working probably or -
+Yeah.
+But anyway, yeah, just just indicate yes or –
+I think, I think we - I think we used [ORGANIZATION2] or we have planned to use [ORGANIZATION2]. 
+(PERSON8) Ok, to generate the appropriate data for these measurements.
+(PERSON7) Yeah.
+(PERSON8) Ok, ok, yeah.
+(PERSON7) So the, our real intention- 
+Oh, he is in now.
+(PERSON8) Yeah, he is.
+(PERSON7) My- mine -
+Yeah.
+My- mine real intention behind this SLTF is to have the measure, which is also applicable to human interpreters, so I want to see the same number-
+(PERSON8) Oh, ok.
+(PERSON7) style of numbers -
+(PERSON8) Yeah.
+(PERSON7) where the emission timestamps is when the interpreter has pronounced the word,
+and we are also trying to gather data, where there is some input speech, the correct transcript of that, interpretation, transcript of that interpretation, eehh -
+(PERSON8) Hmmm.
+(PERSON7) and also text based translation of the original thing.
+(PERSON8) Ok, ok, so that's –
+was that your interest, your interest as in [ORGANIZATION7].
+Because as part of that doesn‘t it
+(PERSON7) Yes, exactly, so [ORGANIZATION7] has part of that.
+For some years there is, there is maybe in both of that.
+(PERSON8) Yeah, I don't think they took, they don't take transcription of the interpreters, is that right?
+(PERSON7) But they have the recordings of the interpreters for some years.
+(PERSON8) They would have the recordings, yeah.
+(PERSON7) And, and then we are not quite sure if these, these were shifted in time, eh.
+So, what we would have to, like, double check or, or maybe do the evaluation with the slightly moving it around to see how the result differ. 
+So there is some uncertainty, how delayed were the interpreters, but i would like to have the same type of measure for our systems and for <other_noise/> interpreters.
+And I, I can see, that there are, be very like the style differences in, in what they do, the interpreter would have huge lag, but much better precision and obviously the, the recall is something which is dis- like unclear.
+They can be bad on recall and they can be good on the recall so this is, ehh -
+(PERSON8) Hm, hm.
+And the, and the erasure is a bit difficult to assess as well, because they do, do that probably -
+(PERSON7) They don't.
+(PERSON8) No, they don't?
+(PERSON7) I ha- <other_noise/> noticed.
+(PERSON8) Hm, not sure, oh yeah, don't notice, ok.
+(PERSON4) So could you hear me now?
+(PERSON7) Yeah, sounds good.
+(PERSON8) Yes, yes.
+(PERSON4) Ok, so ok.
+About this [ORGANIZATION7], I think I sent one email to [PERSON7], has seen it?  
+I think I sent you monday morning.
+(PERSON7) I‘m not sure.
+Yeah, more likely I‘m not.
+Yeah.
+(PERSON4) I can I -
+(PERSON7) Yeah, so i am not, yes, yes that was the- <unintelligible/> number of six directories, yeah.
+So that was about the data set, so [ORGANIZATION7] is probably the, that's, that's the best setup, where we have the original speech, then the correct transcript of that-
+(PERSON4) Yes.
+(PERSON7) and then interpreter's <other_noise/> recording,
+(PERSON4) Not recording.
+(PERSON7) including transcript.
+(PERSON4) Only the transcript.
+We should do the forced alignment.
+(PERSON7) And we need to do forced alignment, ok, so -
+(PERSON4) Exactly.
+(PERSON7) But we have the sound, so we, once we have the-
+<unintelligible/>
+(PERSON7) there are, ehh, I can not hear, actually.
+(PERSON4) We have this <unintelligible/> ok
+<unintelligible/>
+(PERSON8) I can't really understand it, [PERSON4].
+(PERSON7) Yeah, it's, yeah, I think the connection is doing it.
+Maybe if you switch off your video, maybe -
+(PERSON4) Yeah, I will do this. 
+(PERSON7) Yes, so, ok, so, now try again.
+(PERSON4) Is it better now?
+(PERSON7) Somewhat better.
+(PERSON4) Is it that, ok so.
+About this, about this data set, we have the source, for example in English, we have transcript of it and the translation, transcript on it, transcript .
+So if we want to create our ASR timestamped transcript, we can do forced alignment, because there are some needed information about the starting and ending time of each person who talks, to we can
+and the time and ASR we can evaluate translation of the, the reasons, the voice of the speakers -
+(PERSON7) The voice of the interpreters. 
+(PERSON4) The voice of the interpreters, yes.
+(PERSON8) But it is not there.
+(PERSON4) No, it is not there.
+(PERSON7) But it, but I think this is what [PERSON5] said, it should be possible to get it from separate website.
+(PERSON4) Maybe inside the data there are some parallel data set there, but if you because there are some directories for each language interpreted,
+one speaker talks in one language and they tries to translate it to, I think other 5 languages, and the
+final data <unintelligible/>.
+But maybe it gets from other website, ok, I'll think -
+(PERSON7) Ok, we need to, yeah, we need to talk to [PERSON5] again, because I think that he has discovered that there is a certain period of the years in which -
+(PERSON8) Hm.
+(PERSON7) which are also include in this Euro file ST. 
+Where there is not only the source side audio and corrected transcript but also the recordings of the interpreters.
+I would not expect to have correct transcripts of the interpreters -
+(PERSON8) No.
+(PERSON7) but we are probably happy to do this, it is not to, like for for test TED size is not too big, it is not to <unintelligible/>.
+(PERSON8) Yeah, cause it your translation, sorry.
+(PERSON4) <unintelligible/> for each in there, for each language we have transcripter for interpreters, but for the audio, i couldn't find them.
+I don't know. 
+(PERSON7) Ah, ok. 
+So we have -
+(PERSON4) We have transcripts of  interpreters.
+(PERSON7) Hm, but we can not, so, so for the evaluation and, but now i don't know, how to make sure that we understand, what you're saying, [PERSON4], because the connection is really bad.
+(PERSON8) <laugh/>
+(PERSON4) Maybe it is, maybe it is my microphone, now it is better?
+(PERSON7) Now it is better.
+(PERSON4) I change it now.
+Ok.
+Ok, we have -
+Ok, we have the transcripts of interpreters.
+So for example if the source is English, for other 5 languages we have translations as it, for example, when they start each sentence, when they start and when they ends. 
+On the similar time.
+(PERSON7) So -
+(PERSON4) On the similar time in event to the source language.
+(PERSON7) but is it really -
+(PERSON4) I sent you some files.
+I sent you some files.
+(PERSON7) I'll have a look at those files.
+(PERSON8) Ok, I mean, we have -
+This translation in EUROPAL understood they were not the same as the, what the interpreter said. 
+Yeah, the translations were done after, the fact -
+(PERSON7) Yes, exactly, so we have to be very careful about this. 
+Yeah.
+(PERSON8) at least they are cleaned up, I mean, I am not sure -
+(PERSON4) It is - 
+(PERSON7) So, eh, yes, so the <parallel_talk> speeches, speaker speeches –
+and <unintelligible/> president was <unintelligible/> and speeches - </parallel_talk>
+Yes, so this must not be, I am sure that this is not the interpreters,
+because it is like line by line aligned. 
+(PERSON4) Translations, yes.
+(PERSON7) This is translations on the transcript.
+(PERSON8) Hm, but even transcript -
+(PERSON7) Yeah.
+(PERSON8) even the transcript is quite clean, isn‘t it? 
+I mean - 
+(PERSON7) Yeah.
+(PERSON8) how close is it to a real transcript?
+(PERSON7) I think it is clea- ehh, well, it is clean, but I think it is, it is –
+I think it is close.
+We have not tried our ASR on that yet, but - 
+(PERSON8) Yeah.
+(PERSON7) I think the people often reach their speeches, so i would not be surprised, if they really, really if they produce correct sentences.
+(PERSON8) Yeah, yeah.
+(PERSON4) You are right, I think. 
+Though maybe in other, because there are some other directories and if it can find something exactly that time happens, maybe we can do this parallel thing, but other directories not in the -
+(PERSON7) Yeah, yeah. 
+So this is exactly what we have to do. 
+We have to align the interpreter's sound with the intre- with, and then, and then create the transcript of the interpreters.
+And then we will see, how much the interpreted translation differs from the written translations, because i assume -
+(PERSON4) Yes.
+(PERSON7) that these -
+(PERSON8) Hm.
+(PERSON7) that these files, that we have so far, are written translation. 
+So the, ehh, the only data set, where we are really going to have it very soon, will be for the purposes of audible self evaluation, will be the [PROJECT3], the data from [ORGANIZATION1] which wa- which we collected in June,
+and there we have student interpreters interpreting English into Czech but these are student interpreters so there is again - 
+(PERSON8) Hmm.
+(PERSON7) little bit problem with that. 
+And we have the transcript of the floor and the transcript of the floor is now being corrected, manually corrected, so we have the English source,
+(PERSON8) Hmmm. 
+(PERSON7) the corrected transcript, we will have, we, we, as soon as the transcript is, is finished, we will send it to translation agencies to translate it sentence by sentence, 
+and we do already do have the interpretation by the student interpreters.
+And then we can compare. 
+But this is, this is all like the, the data set particularities, but the important thing is that the tool should support this type of evaluation so -
+(PERSON8) Yeah, yeah.
+(PERSON7) So [PERSON4], if you can now summarize, what are the expected inputs to, to your tool.
+(PERSON4) Hm, so I can <unintelligible/>
+(PERSON7) I didn't hear, the microphone, do the, the magic so the microphone works.
+(PERSON4) So, yeah, now microphone is working?
+(PERSON7) Yeah, it's better -
+(PERSON8) Hm.
+(PERSON4) Ok.
+Oh, yes. 
+Oh yes, we changed the microphone, sorry about that.
+Ok, what we have now, what i need for our system is one transcript timestamp of the source language,
+something alike, for example says, for example a partial sentence, partial, partial, until it is complete.
+So we have the time off, for example something like window, when this part of sentence is started and when it's ended. 
+Using this I can lose estimation on, then, for example, we expect the first second or third or until the end. Words will appear in the translation.
+And I did one reference for, for the translation.
+And the output of machine translation system, which is similar to this timestamped transcript, but it is output of the system.
+So - 
+(PERSON7) Yeah.
+(PERSON4) I have something rather partial, but partial <other_noise/> completed <unintelligible/> and using this <unintelligible/> <other_noise/> I can calculate the delay on the data.
+(PERSON8) Hmm.
+(PERSON4) For flicker and the quality, 
+it's crazy, because, ehh, after that, ehh, alignment sentence alignment, I can calculate the delay and flicker.
+Is it about for delay, 
+I am using the expected time of each working ASR or, or just timestamped transcript file.
+(PERSON8) Uhm, hmm.
+(PERSON7) So.
+(PERSON8) And yeah, you have an alignment based method, is that right for computing the expected -
+(PERSON7) Yeah, the reason -
+(PERSON8) expected type -
+(PERSON7) to introduce the alignment the intro- 
+So there is two types of alignments involved.
+One of them is the alignment of segments, because we do not assume, we do not require, ehh, the machine translation system, which is based on the ASR output -
+(PERSON8) Hm.
+(PERSON7) follow the same segmentation as the true transcript has.
+So there can be, there can be segmentation mismatches.
+(PERSON8) Yeah, ok.
+(PERSON7) But then the quality has to be evaluated or what, what,
+we have two strategies, one of the strategies is that it would be aligned segment to segment - 
+(PERSON8) Hm.
+(PERSON7) the script that people use for this is the [ORGANIZATION4] MWMR - 
+(PERSON8) MR, yeah. Yeah.
+Saw that, yeah.
+(PERSON7) we rely on that as well.
+And another option that we consider is to have like a maybe sliding window or an adjacent windows - 
+(PERSON8) Yeah.
+(PERSON7) of time and seeing if -
+So the cascade of the ASR and MT is expected to say to which words these output words link to.
+And so like when was the original time when this target word was uttered in the source language.
+Is that clear?
+So, there is this original speech -
+(PERSON8) Yeah, yeah.
+(PERSON7) words appear in some sequence -
+(PERSON8) Yeah. 
+(PERSON7) the ASR has a little delay and some errors and then the machine translation suffles those a lot but still -
+(PERSON8) Yeah, yeah.
+(PERSON7) the machine translation emits a segment at some time it can be partial -
+(PERSON8) Yeah. 
+(PERSON7) or complete, but it emits some segment and from this we can, eh, eh, from the, eh, eh, we expect the,
+and the output to also say which portion of the input it connects to.
+(PERSON8) Right, so you want, you want to basically to look at the output word and say, you want to try right back and say, which portion, when does this, this audio actually come out if you like -
+(PERSON7) Yeah, yeah, yeah.
+(PERSON8) and you have  to do that using the Giza alignment.
+(PERSON4) Yes, exactly, <unintelligible/> because the alignment is the Giza alignment we use it to this word alignment, for example if the verb, the term-, the interpreter can say, the verb is end of sentence, we give some a space for this delay, so we don't consider the delay, if the interpreter could  <unintelligible/>, because it do the word alignment also instead of this our system.
+(PERSON7) Yeah, I'm not sure we get anything from your message, like this is -
+(PERSON8) Yeah, it's a bit, I don't know.
+(PERSON4) I‘m sorry.
+(PERSON7) Some, some is too -
+So this is -
+(PERSON4) Sorry about that, maybe next time, ok.
+(PERSON8) Yeah. 
+(PERSON7) So this is -
+(PERSON4) Ok, next time, I mean -
+(PERSON7) Use a different mic -
+(PERSON4) Ok, sorry about that. 
+I think, sorry, I have two or three microphone, but I think, maybe the kind I am using there is something it may breaks it, 
+so could you hear me now?
+(PERSON7) It is still the same.
+(PERSON8) It is quite distorted, yeah, or it's, it's choppy, I don't know the right word.
+(PERSON4) Ok.
+(PERSON8) It is chopped.
+(PERSON7) Yeah, exactly, so -
+(PERSON4) Ok, maybe I will write it <unintelligible/>.
+I can write it here. 
+(PERSON8) <laugh/>
+(PERSON7) Yeah, well, I think, let's, so - 
+(PERSON8) So -
+(PERSON7) the question is, what, what, what should we do together and what -
+(PERSON8) what should we do, well, I -
+Yeah, I mean, I mean -
+You have -
+I would like to understand, what you're doing.
+I supposed you sent me the part, that draft of the paper.
+(PERSON7) Yeah.
+(PERSON8) So I can have a look at and I see the code is there, em -
+I guess, what we are doing is probably a bit more limited, we are trying to do it in more, in a lab setting, when we're looking at ways of playing around with the decoder and see what effect that has.
+But then -
+(PERSON7) But that's, that's very important as well, so I think we -
+(PERSON8) Yeah.
+(PERSON7) we are starting at the end and you are proceeding forward, 
+so we would just need to link <laugh/>.
+(PERSON8) Yeah, cause, I, I mean, I started back last year sort of trying to look at what's happening to the whole system, but there was a lot of frustrations with not knowing really how it fits together and then having problems with timestamps and so on, em - 
+So, I mean, I suppose one of the things was wondering if you –
+And you said you weren't really sure about this –
+Do you have insights as to what, what people actually want when they talk about latency,
+but you said you can't, it is difficult to separate that from the user interface which is -
+(PERSON7) Yep.
+(PERSON8) I mean, you can imagine these two things, this, there is one is like they want the words to come out quickly, but the other is they want things to be kind of even.
+So it shouldn't be like some words come out really quickly and then there is a bit of pause and then –
+more words come out.
+Or maybe not, I am not really sure, but it's probably quite good a bit -
+You know, you know, 
+you have the idea of progress bar, and if your progress bar sticks, so that's really bad because you want your progress bar to be making smooth progress. 
+(PERSON7) Yeah, yeah, yeah.
+(PERSON8) And maybe the tests you do, do this.
+I am not really sure, but these are what, as you say, these are things that the user interface can do some fakery here probably, and make it look like something is happening or may- 
+(PERSON7) Yeah, I would –
+That's, that's an-
+(PERSON8) may- maybe it can't, I don't know.
+(PERSON7) but thats an option, but I would like to le-  let's avoid the fakery, because there - 
+(PERSON8) <laugh/>
+(PERSON7) For success for fakery, you first have to have a clear idea what you want to show, and I don't think that, that we are at that position.
+(PERSON8) I, I don't really suggesting that we can't, that we should do this, but I am saying that this -
+(PERSON7) This is what [ORGANIZATION3] does often.
+(PERSON8) Yeah.
+(PERSON7) For example the smooth scrolling which, which for me makes excel values bland anymore, because I am so distracted by this scrolling so - <laugh/>
+(PERSON8) I, I, I, I, I never use excel so I don't -
+(PERSON7) Yeah, yeah.
+So answer, so do so don't I, so there is one more reason for that now <laugh/> and -
+So we had a call with [PERSON2] today and -
+(PERSON8) Oh, yeah.
+(PERSON7) she insisted –
+Well she was happy to, to keep the older system as real time as possible. 
+So to minimize any delays and avoid any caching in the presentation, ehh, part which, ehh, because we want to avoid caching.
+But at the same time from her experience and from Purwell's experience they say, that it is better to wait like two, three seconds and deliver a stable output, and they do it for the deaf people, because these do not know when is something being said.
+So then they don't realize -
+(PERSON8) Hmm. 
+(PERSON7) that there is a delay I think <other_noise/> and this is pretty different from people, who see what is, what is being like -
+(PERSON8) Hmmm, mmm, mm.
+<other_noise/> 
+(PERSON7) See also if you -
+(PERSON8) Yeah, ok, so you, if you -
+If you listen to the audio and you are waiting for something to come up in the screen, yeah, that's, that could be annoying -
+(PERSON7) That- that's annoying, exactly.
+(PERSON8) if you can't hear the audio, then whatever  -
+Yeah, doesn't -
+(PERSON7) Then –
+Yeah, and if you don't understand the language, then also the delay <unintelligible/> is good for you,
+it doesn't bother you, but if you do understand the source, but not quite, so you need -
+(PERSON8) Yeah.
+(PERSON7) some, some kind of assistance, then this caching in your brain or uncaching, that's something, which is very hard to do -
+(PERSON8) Yeah.
+(PERSON7) like realizing, what I've heard a second ago in language that I don't quite speak, and, and, what I if it is, if it's -
+Just a second then it fits into the same time frame - 
+(PERSON8) Yeah.
+(PERSON7) of the brain but, but if it, the delay is longer, then you can not really recover the, the meaning
+(PERSON8) Yeah.
+(PERSON7) So. 
+(PERSON8) Yeah.
+(PERSON7) So there is very different use cases, ehh, a-
+(PERSON8) Yeah.
+(PERSON7) and they do not seem so different, if you first describe them, but then, if you really sit in them, then you realize, how, how different setting is.
+So that's why I would, ehh, like leave the, ehh, presentation as a totally separate topic.
+(PERSON8) Yeah.
+(PERSON7) Ehh.
+(PERSON8) Yeah.
+(PERSON7) And, ehh, there's further issue is like, how much of content can you show. 
+And this is again something that we are  like discussing with -
+(PERSON8) Yeah.
+(PERSON7) [PERSON2], because they have the subtitle idea and we have this experimentation that some of the systems, ehh, some of the language pairs and given particular set of MT systems would introduce too much resets or like total, ehh -
+(PERSON8) Total rewrites.
+(PERSON7) total rewrites of these, ehh-
+(PERSON8) Yeah, yeah.
+(PERSON7) of these - 
+(PERSON8) Ok.
+(PERSON7) two lines.
+Whereas this total rewrites are not harmful, if it's, if it's rewriting the middle of a paragraph, you don't bother, you, you just like the, the stable top remains there, so you have some-
+(PERSON8) Ok.
+(PERSON7) thing to rely your eyes on and you know, what has changed.
+(PERSON8) Yeah, yeah, it's not realy hard to measure, wasn't it?
+Yeah, but that -
+(PERSON7) It's, it's, well, you just have the log file, so the,I like the simplicity of the [ORGANIZATION5] paper - 
+(PERSON8) Yeah. 
+(PERSON7) because they, all they have, is this event log and they record what happens when, and then ehh -
+(PERSON8) Hmmm, mm.
+(PERSON7) eh like, I like your observation that they're conflated flicker and latency.
+I haven't realized that.
+I liked when you said that, in previous call, I didn't know where that comes from, but since they count the  the word as, as if it has appeared only once it's stable, then I understand that it increases the latency.
+(PERSON8) Hm.
+(PERSON7) So, so -
+[PERSON4], this is something the we should really make sure we do differently, because we have a number of different types of evaluation and at this point I am not fully sure that we have the right ones, ehh, ehh -
+(PERSON8) Yeah, that -
+(PERSON7) <laugh/>
+(PERSON8) I mean from what?
+(PERSON7) So and -
+(PERSON8) Yeah.
+(PERSON7) Yeah.
+(PERSON8) From what you're saying about the use cases, it's not really clear, what the right one is,
+so having lots of measures, is actually quite good but - 
+(PERSON7) Yeah.
+(PERSON8) we have to understand what they mean.
+<unintelligible/>
+(PERSON7) Yeah, yeah, yeah.
+So the way I see it, is that we should finalize SLTF and actually test it on the data, which is something which has not  -
+(PERSON8) Yeah.
+(PERSON7) ehh, yeah - 
+which is something, which has not, ehh, has been done yet, so maybe there was like one file, so [PERSON4] is testing it for bugs, but not yet testing for -
+(PERSON8) Yeah.
+(PERSON7) for the numbers he is emitting.
+And I think that, ehh, we simply want the, now the set up, which is also the, the basis of the addable selfie task and -
+(PERSON8) Uhm.
+(PERSON7) the basis is, that you have the sound in the source language, which is English and - 
+(PERSON8) Hm.
+(PERSON7) you are showing timestamped MT outputs, partial and complete sentences, and each of these MT outputs is labeled with the emission time, when the user saw it - 
+(PERSON8) Yeah.
+(PERSON7) and it's also labeled with the timestamp's start and end of the of the source audio, to which input sequence of or to which input, ehh - 
+(PERSON8) Yeah.
+(PERSON7) stamp or sound it refers.
+(PERSON8) But sorry, so which – 
+So in the task, one of the the users are given the audio, is that, just the audio, is that right?
+And they have to produce this MT output.
+(PERSON7) Yeah.
+<other_noise/>
+(PERSON8) Sorry, they'll have the audio with the timestamps, <other_noise/> and they'll have to use the MT output which also have has timestamps or what do they have to, have to add to it?
+(PERSON7) What, so they are getting as the input the audio and they are expected to produce target language text. 
+(PERSON8) Yeah. 
+(PERSON7) The minimum style of evaluation is that they simply emit one full text with no updates, just junk and without any timestamps. 
+That will, that is the basis of the doc, it's, it's nonnative s- focused on nonnative, eh, eh - 
+(PERSON8) Hmm.
+(PERSON7) spoke language translation, so there the, the bleh score and standard things like that for the whole thing will be the core measure, but if they can –
+We would - 
+And our protocol suggest them to do it - 
+We would really like to get the translation in parts.
+(PERSON8) Hmm.
+(PERSON7) As many parts as they like, indicating, which of these parts are stable and which are just partial updates -
+(PERSON8) Hmm, hmm.
+(PERSON7) and for each of such message, that comes from the MT output, the message should be labeled with the source time and end time, start time and end time, ehh -
+(PERSON8) Uhmm , uhmm.
+(PERSON7) which span of input, this tran- this output of the translation refers to.
+And also the emission time.
+(PERSON8) Also they have to do the Giza alignment then?
+(PERSON7) Yes.
+(PERSON8) Ok.
+(PERSON7) They don't have to do the Giza alignment. 
+(PERSON8) No?
+(PERSON7) Because they, they had, it depends on their systems, but if we are participating ourselves, which I am afraid that we could be the only participants, but anyway <laugh/> -
+If w- <laugh/> if we participate ourselves - 
+(PERSON8) Will you win then?
+(PERSON7) then we have the ASR, we have this sentence segmenter, the sentence segmenter, ehh, knows where was the first word in terms of time of the sentence, and where was the last word of the sentence, so the -
+B Yeah. 
+(PERSON7) segmenter emits the sentence labeled with timestamps and then the machine translation just copies these timestamps.
+(PERSON8) Yeah.
+(PERSON7) So the, the sentence gets shuffled - 
+(PERSON8) Yeah.
+(PERSON7) there is some word or- word order changes, whatever is necessary, but the claim is, that this sentence is a translation of this sound.
+(PERSON8) Right, so, it's gonna be some continuous chunk of audio - 
+(PERSON7) Yes, yeah.
+(PERSON8) as converted to a sentence.
+Ah, ok. 
+(PERSON7) Yeah.
+(PERSON8) But they don't have to align within that.
+(PERSON7) Yes, yes.
+(PERSON8) No, that's, that's what the evaluation does, it figured out exactly -
+(PERSON7) Yeah.
+(PERSON8) within that -
+(PERSON7) Yeah.
+(PERSON8) what's alike, yeah.
+(PERSON7) Yeah, yeah, yeah.
+(PERSON7) And then there we have two options.
+One is based on the order alignments by Giza and another one is something, ehh, which only uses the timestamps and like expands it, as like a border, where the words can also land and then, it it kind of assumes that the word, that the reordering was not too wild, but this is, I don't - 
+(PERSON8) Yeah.
+(PERSON7) like that much, but [PERSON4] prefers - 
+(PERSON8) Hmmm.
+(PERSON7) this, which is simple.
+(PERSON8) It's like a distortion limit, isn't it?
+(PERSON7) Yeah, like the distortion limit at the boundaries of sentences.
+(PERSON8) Yeah.
+(PERSON4) Could you hear me now?
+(PERSON7) It's still the same, but <laugh/>
+(PERSON4) <unintelligible/> because, I, ok.
+(PERSON7) Yeah.
+That's unfortunate, it's still the same.
+(PERSON8) Mmm.
+(PERSON4) Now?
+Is it better?
+(PERSON7) So I think -
+(PERSON8) So -
+(PERSON7) so how to proceed.
+We'll simply proceed on our own -
+(PERSON8) Yeah. 
+(PERSON7) with the data set preparation -
+(PERSON8) Yeah.
+(PERSON7) which, as i said, means to collect various a- SLT systems run on audios, when we also have the correct transcript and we also have the reference translation and ideally, where we also have the reference interpretation and then -
+(PERSON8) Hm.
+(PERSON7) then we can compare how the system differs in these measures compare to the, to the human interpreter -
+(PERSON8) Uhm, hm.
+(PERSON7) so that's the, that's the long term plan.
+(PERSON8) Yeah.
+(PERSON7) And long term in the sense, that we don't need the humans to, ehh, to, we don't need the human data now, we only need for the addable selfie task, we only need the measure and the MT outputs, but not yet the comparison with humans.
+(PERSON8) Uhm, uhm.
+(PERSON4) <unintelligible/> microphone, is it ok now?
+(PERSON7) No. 
+So it's probably the -
+It could be the sound card or the connection, maybe the, the connector of the microphone or if you, or if you can switch to the built-in microphone, then maybe also better, I don't know.
+But that was -
+Actually no, it was it was bad already with the, with the with the built-in microphone.
+I remember that you were -
+(PERSON4) <unintelligible/> I can not change the built-in microphone in this program because - 
+(PERSON7) So cou-
+(PERSON4) could that be I changed the font
+Unfortunately I, it doesn't change in the pixie
+(PERSON7) Yeah, yeah.
+It could, it could it be that your machine is overloaded? 
+That the CPU is overloaded? 
+Is the machine warming up?
+(PERSON4) Maybe it's overloaded.
+(PERSON8) Uhmm.
+(PERSON7) Yeah, so, ehh, sss- 
+I think that the, the best way to collaborate is, if you - 
+(PERSON8) Hm.
+(PERSON7) could also come up with, like some missions to the addable selfie tasks, not necessarily for the task, but just -
+(PERSON8) No.
+(PERSON7) the same style going from English into German and Czech -
+(PERSON8) Hmm.
+(PERSON7) separately, but using the incremental systems. 
+And there we would use our measures and -
+(PERSON8) Uhm.
+(PERSON7) we will see, how the incremental systems are better or worse in terms of the, the stability and delay, ehh, compare to the current [ORGANIZATION6] style of set up.
+(PERSON8) Yeah, that could be interesting, em.
+For the task, I assume, well, you need to produce ASR for the task -
+<other_noise/>
+(PERSON8) Sorry.
+(PERSON7) And, and what you are saying is, that you, is that you don't have any ASR systems running?
+(PERSON8) I won't, actually, we don't have one running, we should have one but we don't, em.
+(PERSON7) Yeah.
+(PERSON8) Is is the -
+(PERSON7) So [PERSON3] can easily, [PERSON3] can easily create this ASR outputs for you -
+<other_noise/>
+(PERSON8) Do you have a, do you have a local company -
+(PERSON3) <unintelligible/>
+(PERSON8) do you have a local company to <unintelligible/> system?
+(PERSON7) Ehh, yes, [PERSON3] has it.
+(PERSON3) Yeah, we have about <other_noise/> <unintelligible/>
+(PERSON8) Is that easy to get?
+(PERSON3) <other_noise/> I can send you but<unintelligible/> them find some labels <unintelligible/> and it could be <unintelligible/>. 
+It is easy, yeah.
+(PERSON7) So, ehh, maybe - 
+(PERSON8) Ok.
+(PERSON7) [PERSON3], [PERSON3], in your sound setting, <other_noise/> isn't your microphone main set too high?
+Open your sound setting and try to, try to –
+I think there is, there is input <other_noise/> input volume and maybe that <other_noise/> slider, that‘s too high.
+(PERSON8) Mmm, all these people working in spoken language translation, they aren't very good with microphones <laugh/>
+(PERSON7) I know why, because -
+(PERSON8) <laugh/>
+(PERSON7) we keep playing with them and and all your - 
+(PERSON8) Ok.
+(PERSON7) settings are changed by different peoples -
+(PERSON8) No.
+(PERSON7) using the same machine, so whenever you get the machine -
+(PERSON8) Ok. 
+(PERSON7) it's like totally misconfigured.
+(PERSON8) So there's too much microphone experimentation going on -
+(PERSON7) Yeah, yeah.
+(PERSON8) over there, eeem.
+(PERSON4) <unintelligible/>
+(PERSON8) Ok, so I see you did -
+(PERSON7) Yeah, it's probably better -
+(PERSON7) [PERSON3]?
+[PERSON3]?
+Are you talking or not?
+(PERSON4) <unintelligible/> if you hear me now?
+(PERSON7) Yes, [PERSON4] is still the same, I don't know <laugh/>
+(PERSON4) <unintelligible/>
+(PERSON7) Yeah, it‘s too bad.
+(PERSON8) So let- yeah, I mean, the, this sounds interesting, emm.
+(PERSON7) So the deadline is the 17th of March, which is quite early.
+(PERSON8) Yeah, yeah. 
+(PERSON7) Ehh.
+(PERSON8) So, we, I mean, the situation we are in is that [PERSON1] was finishing, basically in in a month or four weeks really. 
+(PERSON7) Uhm.
+(PERSON8) So we're, we're trying to sort of work at such a way, that we round things off a bit - 
+(PERSON7) Yeah.
+(PERSON8) and then we're not sure what's gonna happen, em.
+(PERSON7) Uhm.
+(PERSON8) Em, so -
+But, yeah, potentially, especially, we have the ASR outputs, we can run, em, run them through whatever we have and see how it looks, em.
+(PERSON7) And these, these models, do they expect sentences as the input or do they expect a window of words?
+Ehh, I assume -
+(PERSON8) I would be -
+(PERSON7) I am not the expert at punctuation, but -
+(PERSON8) Yeah, yeah, yeah, so we're -
+That's right, isn't it, yeah, that you are working with -
+I mean, we put in prefixes, but, yeah, it's, would be -
+(PERSON7) Prefixes?
+Ok.
+So that's the ideal set up, because we, what we have is the ASR followed by a punctuation <other_noise/> insertion and followed by something which we call online text flow events <laugh/>,
+crazy stupid name, but it creates sentence events, so to say, so that's word events - 
+(PERSON8) Uhmmm.
+(PERSON7)  come from. 
+And the, ehh, it's always every event is one either complete sentence or -
+(PERSON8) Hm.
+(PERSON7) the last, the current last sentence, which is possibly incomplete -
+(PERSON8) Yeah.
+Yeah, so we are gonna feeding, I mean, I guess it goes from the start of the sentence to at a certain point -
+(PERSON7) Yeah. 
+(PERSON8) prefixes, to evaluate it -
+(PERSON7) Yeah.
+(PERSON8) and yeah.
+(PERSON7) So if you, [PERSON3], if you could, if you could for all the files <other_noise/> that we have now, and you do <other_noise/> only English into what?
+<other_noise/> 
+(PERSON7) What is your translation directions, [PERSON8]? 
+(PERSON8) What are you trained [PERSON1]?
+Just check.
+(PERSON1) I do English to German.
+(PERSON7) English to German.
+Ok, that's good, yeah.
+(PERSON8) Yeah, yes.
+<other_noise/>
+(PERSON8) It's, it's only trained on, em, smallish data like, what is it small speciality
+(PERSON1) To database the SRT17.
+(PERSON8) So yeah, but that, just the 300000 sentence from the -
+(PERSON1) Yeah.
+(PERSON7) Yeah.
+(PERSON8) So, but yeah, so, so far that's what we're experimenting with -
+(PERSON7) So, ehh, so how <other_noise/> where doesnt the  <other_noise/> stability of the search come from?
+(PERSON8) The stability of the search?
+(PERSON7) Yeah, if you like -
+(PERSON8) Yeah.
+(PERSON7) if you, if you are receiving - 
+(PERSON8) Yeah.
+(PERSON7) extending longer and longer prefixes - 
+(PERSON8) Yeah.
+(PERSON7) will your outputs be stable at the beginnings or will they also flick away?
+(PERSON8) Well, it depends.
+I mean, the, the idea, so it's always a retranslation, em - 
+(PERSON7) Uhm.
+(PERSON8) so-
+Sorry, it's not, actually, it's not really.
+It's not real incremental MT, so it's re-translation -
+(PERSON7) Uhm.
+(PERSON8) em, and the idea of the BIOS beam search is just <other_noise/>
+It's kind of straight forward <other_noise/> 
+You have the prefix you translated last time, before you extend it, and you just add a small penalty to the - 
+(PERSON7) Yo.
+(PERSON8) to the probability, to the score provided by the translation system, which penalizes if it moves too far away from the previous prefix -
+(PERSON7) Uhm, yeah.
+(PERSON8) and - 
+(PERSON7) So - 
+(PERSON8) I think -
+(PERSON7) so you should get a log from us, which will contain these prefixes -
+(PERSON8) Yeah.
+(PERSON7) one after another, but -
+(PERSON8) Yeah.
+(PERSON7) they will be sometimes interleafed also with the complete sentences, because, well, you will see <laugh/>
+(PERSON8) Yeah.
+(PERSON7) Hopefully you'll still be able to like recover the sequence of growing prefixes  -
+(PERSON8) Hmm, hmm.
+(PERSON7) to introduce the penalty at the right points, and essentially if you send us back the exact same number of lines as the log had -
+(PERSON8) Yeah.
+(PERSON7) except that the, the, it will be translated –
+(PERSON8) Translated, yeah.
+(PERSON7) this is what we -
+(PERSON8) that's what‘s used to evaluate
+(PERSON7) this is was we use to evaluate it.
+(PERSON8) Ok.
+That should be possible, yeah.
+I think.
+(PERSON7) So, so, the good, the good setup for, the good thing about this is that we can very easily send it to any MT system, which will translate full sentences quite well, and these partial sentences it will probably round them off and introduce full - 
+(PERSON8) Hmmm, mmm.
+(PERSON7) stops <laugh/> and in that case your, your system would be, work better, ehh -
+So -
+(PERSON8) Yeah w- yeah, yeah, I mean, I mean, yeah.
+I tried diversion of the system on prefixes and obviously, well, for English to German it does do better on the prefixes obviously, because it doesn't try to make full sentences.
+(PERSON7) Yeah, yeah.
+(PERSON8) Em. 
+So.
+I think there were, the results from English to Chinese were little different, but that's still -
+Yeah. 
+I haven't figured that out yet, em.
+(PERSON7) So if, if tha- 
+Well, our evaluation asset is, is like it's implemented, but it has not been tested yet, and we actually do not have sufficient different MT outputs - 
+(PERSON8) tough
+(PERSON7) so having one of, one from your side would be, also, ee, helping.
+(PERSON8) Ok.
+(PERSON7) We can also like copy pasted to whatever system are there, and then [PERSON4] can collect the numbers and we will see, how bad the situation is, because the segments don't match the reference, so the the full set up is to only focus on lower- longer windows like half a minute -
+(PERSON8) Yeah.
+(PERSON7) or things like that.
+And evaluate bleh score on this half a minute -
+(PERSON8) Yeah.
+(PERSON7) translated - 
+(PERSON8) Yeah.
+(PERSON7) text, which is easy to recover from the log file, you will only - 
+(PERSON8) Yeah.
+(PERSON7) call that things, collect the translations and only take the final ones and -
+(PERSON8) So this is a general problem evaluating SLT, because bleh expects segmented text and that's ok, ok.
+(PERSON7) So, so, [PERSON3], if you simply could send all inputs that we have –
+You don't need any –
+You may want to, to have also the audio just for, for your reference, so if you want the audio, [PERSON8], let us know -
+(PERSON8) Ok.
+(PERSON7) it is, it is often our own presentations and it is not too big and -
+(PERSON8) Yeah.
+(PERSON7) yeah.
+There should be the addable selfie depth set ready 11 days ago already, yeah, but I haven‘t put that together <laugh/> yet -
+(PERSON8) But it's not ready <laugh/>
+(PERSON7) it is almost ready, but not not fully.
+And, ehh, so that will be also another set of files, which have reference translations into German and Czech and source sound.
+And [PERSON3] will provide it with the output, well, actually, do all the full log directories, so we have a log directory, which is at various steps of the pipeline.
+The output of the ASR, <other_noise/>  the output of the punctuation insertion and the output of the sentence caching or sentences advancing - 
+(PERSON8) Yeah.
+(PERSON7) and the output of our MT as well, that's, that's so that you can also see what our MT is is producing there -
+(PERSON8) Yeah, yeah.
+(PERSON7) and you would take the sentence aligned or sentence event files and you would translate that so the sentence event files have already the correct number of, of, well, some number of lines and this number of lines is preserved in machine translation.
+(PERSON8) Yeah.
+So it's just a piece of text we translated and then, yeah.
+(PERSON7) Yeah, what and some three numbers in front of that to be pasted in front of that as well -
+(PERSON8) Yeah.
+(PERSON7) so you don't change the timestamps in the translation.
+(PERSON8) Yes, yeah.
+(PERSON7) Yeah.
+So, [PERSON3], maybe you can directly send the, the last email, where you had this, you already had one, one such example that you sent to [PERSON4] recently,
+so simply send it to, to [PERSON8]. 
+That's one file which you can already have a look at and if anything is not clear there, then [PERSON3] can explain, or [PERSON4] can explain, or I can explain.
+And you will try translating it to German and seeing how that differs.
+And we also have the reference and not for this doc. 
+So we don't have yet the reference translations in a nice way and, yeah. 
+(PERSON8) Hmmm.
+(PERSON7) But we are getting there.
+(PERSON8) Ok, yep, that's, it sounds reasonable.
+(PERSON7) Yeah. 
+Is there any chance that you would also train a big system, because right now you will be comparing relatively strong -
+(PERSON8) Yeah. 
+(PERSON7) English to German system with a weak one, which has better chance of of stability, so -
+(PERSON8) Yeah, I see what you mean, em, yeah.
+I'm not sure if we can.
+Yeah, we, we talk about that, I'm not sure which beca- 
+As I say like because, yeah, Yael finishes in like 4 weeks, I'm just trying to <other_noise/>  
+I bring things to some conclusion, so - 
+(PERSON7) Yeah, so I think it would be -
+(PERSON8) it's not like most things left hanging, so -
+(PERSON7) it would be probably better to to train a standard system on the very same training data that you have for the smaller one, so that you have two weak systems, one -
+(PERSON8) Mmm.
+(PERSON7) is one with proper segmentation, one with the standard <unintelligible/> the less stable and the the more stable and -
+(PERSON8) Mmm.
+(PERSON7) the translations that we are producing with the stronger systems would be kind of reference point. 
+(PERSON8) Yeah, the BIOS beam search is only run, it is a translation time, so I mean, the system is, it's a regular system and then you just change the beam search -
+(PERSON7) Yeah.
+(PERSON8) Em - 
+(PERSON7) Ehh -
+(PERSON8) so, it can be -
+(PERSON7) so, so, one, it -
+(PERSON8) so it can be run with them without BIOS beam search-
+(PERSON7) Yeah, yeah, yeah, the one is like -
+(PERSON8) defini-
+And there is the parameter for how strong BIOS is, em -
+(PERSON7) so there is truly no chance, that you would have maybe someone else to add this to [PROJECT1], because our system -
+(PERSON8) Em, that's, that's unlikely, em –
+There is some rumour that it may get added to [PROJECT1]. 
+I mean, basically, you know, [ORGANIZATION3] get wind that this is useful, then it may end up in [PROJECT1] any way.
+Hello, is everyone frozen?
+(PERSON4) Hey, <unintelligible/>
+(PERSON8) Maybe just [PERSON7] is.
+(PERSON4) Yes, because I think there is a problem in [ORGANIZATION8] internet, because nothing at email is inaccessible,  [ORGANIZATION8] internet, I - 
+(PERSON8) Ou.
+(PERSON4) think there is, yes, as I see, I think -
+(PERSON8) [PERSON3] has come back, but [PERSON7] is
+(PERSON4) yes, cause I - 
+Yes, even I can not open the [ORGANIZATION8] email.
+It is hard and maybe there are some problems inside the department as I see <unintelligible/> open it.
+(PERSON8) Ok.
+(PERSON4) Yes, now I can see the email, yes.
+(PERSON8) Maybe it come back.
+(PERSON4) Yes.
+Ok, now I am sorry of the quality of the voice, because now I restarted everything on my computer -
+(PERSON8) I, is, is a little better, I mean, I can still hear some distortion -
+(PERSON4) Ok, so <unintelligible/>.
+Yes, yes, so the problem I, I run the email, the problem is, I think, on whatsapp <unintelligible/>, what's the problem.
+(PERSON8) Aaa, yeah, I mean, maybe we should just –
+Let's see, papapapapa.
+(PERSON4) The problem is on my, on my computer I have <unintelligible/> microphone <unintelligible/> I don't, I can not see them, I just, I just have the default microphone on my computer.
+(PERSON8) I, em, yeah, it still sounds a bit distorted.
+I wonder maybe we should, if, if [PERSON7] is not coming back, 
+maybe we leave the call just now, 
+I can add some notes about the last question into the [ORGANIZATION5] document.
+(PERSON4) Yes, [PERSON7] is coming, but now, no he is frozen, yes.
+(PERSON8) Yeah, he's frozen.
+(PERSON4) Yes, I think, what is in the [ORGANIZATION8] internet because our website, [ORGANIZATION8] internet has problem also, now I am not there, I am not in Czech Republic yet. 
+(PERSON8) Yeah.
+(PERSON4) Now I came back to [LOCATION1] and yes, the problem is -
+(PERSON8) Yeah, yeah.
+And [PERSON3] is silent.
+(PERSON4) [PERSON3], do you hear us?
+(PERSON8) Right, I think, I think, we should, we should leave it just now, cause it's not, I am not - 
+(PERSON4) Ok.
+(PERSON8) hearing people, I can't hear [PERSON3], actually.
+Ah, let me make a couple of notes on the [ORGANIZATION5] doc and -
+<other_noise/>
+(PERSON4) <unintelligible/>
+(PERSON8) Oh, oh, wa- 
+It is a matter of [PERSON4].
+(PERSON3) Can you hear me? 
+It is [PERSON3].
+(PERSON8) <other_noise/> I can hear you now, yeah. 
+<other_noise/>
+(PERSON3) <other_noise/> Ok, yes, I was saying there are some tests, testing going on, guys are, IT guys are doing some test thats why we went out of connection, so maybe [PERSON7] needs - 
+(PERSON8) Ok, I got a, I got a mail from [PERSON7], so, yeah, ok, so, he add summarizes, ok, maybe we just leave that now and I will write some notes to [ORGANIZATION5] doc.
+(PERSON3) Yeah, exactly.
+And I propose [PERSON4] to write to what he meant to say in the [ORGANIZATION5] doc and later on if you proposes to explain.
+(PERSON8) Ok.
+(PERSON3) Oh, yeah. 
+(PERSON8) Ok.
+Alright.
+(PERSON3) Ehh, and -
+(PERSON8) Thank you everyone.
+Oh, sorry.
+(PERSON3) [PERSON8], e,e- do you want me to send the, the directory or file, using which you could run the English ASR, it's English ASR, do you want?
+(PERSON8) Yeah, I mean, if you have the English text, we can run that through, translate that -
+ <unintelligible/> 
+(PERSON3) No, no, no, I am asking, so actually I have the audio and I have the system to transcribe the- those audio, so do you want those, the directory or the Giza ASR system to run on your system?
+(PERSON8) Em, yes, we would like that, but it's not – 
+I mean, yes, at some point, yeah, we would like that, em. 
+(PERSON3) Alright, ok.
+(PERSON8) Yeah. 
+(PERSON3) I didn't, em, I just, I'm gonna send you the file, which on the side have the timestamp and MT output and outputs in the different stages of file, alright.
+(PERSON8) Yeah.
+<unintelligible/>
+(PERSON3) So the, that's all from me.
+(PERSON8) Ok.
+<other_noise/>
+(PERSON8) Ok.
+(PERSON8) Alright <laugh/>
+(PERSON4) Ok, so I think, there is problem, so we can say goodbye now.
+(PERSON8) Yeah.
+Yeah.
+(PERSON4) Ok.
+Sorry <unintelligible/> 
+(PERSON8) Ok.
+(PERSON4) I have bad luck today. 
+Ok, so have a good evening and sorry about these problems happened from my side and just, and I promise one -
+(PERSON3) I think it is clear now after -
+(PERSON8) <laugh/>
+(PERSON4) <laugh/>
+I think if it's clear, do you want to, do you want this more information about the segmentation?
+We have to <unintelligible/> of segmentation, first ideas is using time and <unintelligible/> [ORGANIZATION4].
+(PERSON8) Ok, your audio, your audio is going again.
+(PERSON3) Yeah.
+(PERSON4) <unintelligible/> maybe later, later I will, I will <unintelligible/> more information from me.
+(PERSON3) Yeah, yeah –
+(PERSON8) Ok.
+(PERSON3) exactly, yeah.
+(PERSON4) Ok.
+(PERSON8) Ok, thank you.
+(PERSON3) Thank you, thank you, [PERSON8].
+(PERSON4) Thank you very much.
+(PERSON1) Thank you.
+(PERSON3) Thank you, thank you to everyone.
+(PERSON8) Bye.
+(PERSON3) Bye bye.
+(PERSON8) Bye.
+(PERSON3) Bye bye.

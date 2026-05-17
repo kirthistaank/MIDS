@@ -1,0 +1,19 @@
+Meeting [PROJECT3], 2020-06-23
+
+Participants of the meeting: [PERSON5], [PERSON9], [PERSON8], [PERSON10], [PERSON18]
+
+It was discussed at the meeting:
+
+- need to be selected 3 reviewers
+- make introductory paragraph for interpretation
+- methods used for interpretation (probing, classifier)
+- [PERSON8] plans (start language model before neural network and neural language models)
+- [PERSON8] plans to include PCA or maybe ICA to the Glove
+- [PERSON9] need to rewrite introductions of Glove
+- [PERSON5] is working on integrating stuff from other papers
+- ask [PERSON2] on details about reviewers
+- everybody said what's new in the book
+- every chapter can have conclusion
+- create a table of what is still missing in the book
+
+The minutes was written by: [ANNOTATOR1]

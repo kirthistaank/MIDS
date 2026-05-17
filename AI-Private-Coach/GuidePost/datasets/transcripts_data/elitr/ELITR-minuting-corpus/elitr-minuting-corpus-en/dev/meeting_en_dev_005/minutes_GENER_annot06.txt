@@ -1,0 +1,18 @@
+[PROJECT2] meeting 30.01.2020
+Attendees: [PERSON14], [PERSON7], [PERSON8],[PERSON2], [PERSON11], [PERSON16], [PERSON17]
+Purpose of meeting: Discussion about what work has been done
+
+Summary
+• [PERSON17] finished evaluation framework
+• [PERSON7] improved domain adaptation and is working on next version of [LOCATION1] ASR
+• [PERSON2] systems are better with mp3 compression instead of flac format
+• FastSpeech ASR from [ORGANIZATION3] better in delay and is robust (try to download code)
+		Milestones
+		• [PROJECT2] presentation (17.02.2020)
+		• dry run (12.02.2020)
+		• test domain adaptation (18-20.03.2020)
+
+
+
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,26 @@
+Minuting demonstrator 11.10.2019
+Attendees: [PERSON8], [PERSON3], [PERSON2], [PERSON4], [PERSON6],
+Purpose of meeting: Discussion about minuting and more complex discussion about demonstrator
+
+Summary
+• [PERSON8] wanted this call to happen before the review
+• this meeting is used as source for minuting task 
+• minuting demonstrator is in integration work package 6
+• [ORGANIZATION1] has many more person months than 25 person months
+• division between various tasks has never been reported to [ORGANIZATION1]
+• spent more person months than planned but used correct amount of money
+• second step is automation of the minute creation
+• [PERSON8] wants to have good user interface when someone is taking notes or doing summarization behind the scenes
+• need to have three machines to work
+• for every participant there would be one agent
+• document application doesn't work with architecture
+• real time is not required
+• [ORGANIZATION1] had a chance to edit demonstrator
+
+		Milestones
+		• ticked milestone related to minuting
+		• 20 months to develop demonstrator 
+
+
+
+Minutes submitted by: [ANNOTATOR1]

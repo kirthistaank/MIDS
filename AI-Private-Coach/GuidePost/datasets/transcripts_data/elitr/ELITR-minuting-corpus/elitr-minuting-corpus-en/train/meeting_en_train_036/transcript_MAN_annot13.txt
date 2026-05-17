@@ -1,0 +1,495 @@
+(PERSON5) Yeah.
+Hi [PERSON3], so I'm here.
+(PERSON3) Yeah, yeah, yeah.
+Great, yep.
+(PERSON5) Can you hear me?
+(PERSON3) Yeah, yeah, yeah, I can hear you.
+So, uh, first of all how are you doing?
+Have you understood the the regulation that now applies to you?
+<laugh/>
+(PERSON5) Uh, yeah, I think so.
+I understand that I do not need to go outside except for work or buying groceries or medicines.
+(PERSON3) Yeah, exactly.
+(PERSON5) And no one necessarily walking outside.
+<laugh/>
+(PERSON3) Yeah, yeah, yeah.
+<laugh/>
+(PERSON5) Yeah.
+So I was working on the karaoke and I didn't understand what exactly needs to be done here.
+So I have, uh, written here few, uh, a few of my doubts.
+(PERSON3) Okay.
+(PERSON5) So, I'll start with the first of them.
+So, okay, okay, okay.
+So, uh, I need to understand like what exactly, uh, the forced aligner does.
+So in the forced alignment review that input as adjacent file which has multiple adjacent objects during the duration of the audio path <unintelligible/> you know.
+That's the test segment.
+(PERSON3) Yeah, that is-, that is just like a file list.
+So the adjacent is essentially just a file list which tells tells you what all files should be processed.
+And it paralyses them as it as it likes.
+Uh and, uh, for each of them you provide the text and it it will emit the words aligned to some positions in the time.
+So this is only like a  batch procession of of a a large number of files.
+(PERSON5) Ah, okay.
+So, uh, uh, am, so as far as I know the forced aligner it also does ASRs.
+So are we deliberating the ASR in any way?
+(PERSON3) Oh, uh, well in internally it uses ASR because it searches-.
+It tries to process the input and then it finds in in the full <unintelligible/> of candidates where the words that we require are located.
+So we we don't make the use of this ASR ourselves.
+It is being used by the forced aligner.
+And that's it.
+So we only want to see the time stamps.
+(PERSON5) I I am not sure if I understand that.
+Like, uh, what does, uh, the how does the forced alignment uses the ASR?
+(PERSON3) Uh, uh, it it processes the input sound.
+It creates like a lattice like a set of candidates and then in this set of-.
+So the good thing about this set of candidates is that it knows where the words were found.
+But it doesn't know which words are the correct ones.
+(PERSON5) Yeah, okay.
+(PERSON3) And, uh, by itself.
+Uh, so if it's only the normal ASR it will then emit the most likely candidates from this set.
+But in the forced set up you are telling it pick this word pick this word pick this word and so on.
+So you are choosing path in the lattice but the lattice is all time stamped.
+And when you chose the path, you will know the time stamps at which these words occurred in the, in the, in the, in the speech.
+So that's exactly how you obtain the alignments.
+(PERSON5) Okay, okay, okay.
+So basically the times, the time stamps after each word that is done by the forced aligner.
+And yeah, okay, I start to get some sense out of it.
+(PERSON3) It's as if if a human was doing, if a human was doing it.
+You would you would be like listening.
+If it was like a very slow pace, you would be writing down a time when you heard the word  and as a human you would already get the single best path.
+You would understand it perfectly.
+Uh, so then you would only like copy form your time stamped record the times to the, to the expected output.
+(PERSON5) Yeah, okay, okay, I get it.
+(PERSON3) Yeah, so what it, what it.
+The the karaoke-.
+The reason why we want to do this karaoke is that we want quick visual inspection of this word uh, uh, word aligned, or word time stamped transcripts.
+So imagine -.
+This is what I was just doing, uh, for the IWSLT test set anonymisation.
+Uh, I was doing only the text part, so I was, uh, like reading the transcript and whenever I saw like one of the names of the participants of the meeting I replaced that name with censored, with with some key word only.
+And now the next step is for [PERSON4] and he needs to find the appropriate position in in the recording and do the <unintelligible/> of that.
+(PERSON5) I get it, yeah.
+(PERSON3) And so if if he would be able to like scroll the movie which highlights the words then he would scroll the movie to the point where it shows censored and he would listen whether it's the right position.
+And I also kind of needed this facility.
+It is essentially, uh, like a full text search within audio.
+So, uh, I also needed this because when reading the transcripts, I realised there were some errors.
+Like some nonsensical sentences and I wanted to check, uh, whether the person has understood it the best way they could.
+Uh, so I had to scroll the movie, the the sound and it was like jumping and then searching where I am-.
+<unintelligible/>
+(PERSON3) If by playing the movie a I would see in the text the word highlighted-.
+(PERSON5) Yes, exactly.
+(PERSON3) That would be perfect.
+That would have saved a lot of time.
+(PERSON5) Yeah, I get it.
+(PERSON3) So, so I think the.
+The most promising, uh, uh, approach is indeed the web based subtitles.
+So there is one more thing.
+IMSC1.
+I don't have any-.
+I'll I'll paste the link to to chat window now.
+There is some render there.
+Have a look at that.
+I'm afraid that <unintelligible/>
+<unintelligible/> is downloaded here, okay, so there is there is some-
+Oh, the file is not found.
+<laugh/>
+So I'm not sure if this works at all.
+But-.
+<parallel_talk> Media in seconds. Yeah.</parallel_talk>
+So this is some render of one of the formats of subtitles.
+Yeah and it is XML based TTML playing <unintelligible/>
+<unintelligible/>
+Yeah, yeah, yeah.
+So there is another important link that I found yesterday or the da day before yesterday and that's, uh, the jungle of video streaming.
+<laugh/>
+And it also has, uh, a section on-
+Oh, that's already about subtitles, yeah, yeah, yeah.
+So there is the-.
+If you scroll like to the fifth of the document, uh, quite early.
+Uh, from the Monty Python and the Holy Grail, uh, there is four, uh, four formats.
+So the burned into video, the open captions is what we want to achieve from something which is easier to produce for ourselves.
+So the TTML looks uh, uh, uh, like reasonable, that's what the render, that's what the render would be able to uh, to show.
+So yeah, this is a subtitle-.
+The idea is here-.
+So, there is -.
+The the oh so there is some diagram of different T, TTML profiles.
+That's crazy.
+<laugh/>
+(PERSON5) Yeah, yeah, yeah.
+(PERSON3) It's really like haven't read it yet.
+So this is obvly obviously overly complicated.
+Finally to bring some sense of the circus of profiles, yes.
+Recent specification, yeah, uh, IM, IMSC1 which is a new recommendation.
+So this IMSC1 is probably the best thing.
+Specification-.
+And then fortunately -.
+<unintelligible/>
+And it, uh, consists of plain text but it can reference CSS for styling.
+(PERSON3) Okay.
+(PERSON3) So in one of the demo queues -.
+<unintelligible/>
+<parallel_talk> Start may be applied using simple mark up <unintelligible/> to appear at particular times. </parallel_talk>
+Yes, so if you search for the word karaoke in this document you exactly get the-.
+<laugh/>
+(PERSON5) Yeah, yeah, yeah.
+It's in the section web VTT.
+(PERSON3) Yeah, yeah, yeah, exactly.
+So there is a specification.
+Supports play out of web PGE in a Apple HLS and MPEG dash.
+So web VT web VTT is the best thing.
+Unified packager can convert SRT <unintelligible/>
+(PERSON5) Mhm.
+(PERSON3) When preparing content as intended for use on the web only, web VGT has deeper integration which will probably make it better suited than TTML.
+Yes, so we should go for a web VTT.
+(PERSON5) Okay.
+(PERSON3) By doing this, we are already preparing for, uh, like the, uh, the sessions, the remote conferencing for example.
+(PERSON5) Mhm, mhm.
+(PERSON3) So if we know how to produce web VTT then, uh, it's, uh, it will be useful, uh, useful later on.
+So this this IMSC1 is probably more complicated than needed.
+I don't know if there is any web VTT renderer.
+<parallel_talk> Web VTT renderer. </parallel_talk>
+(PERSON5) So this karaoke will have the audio playing.
+I mean, uh, so like last week I chunked the audios, segmented the audios.
+So I need to, I need to concatenate all these audio segments-.
+I mean-.
+(PERSON3) So, so, so, what you, uh, you you are talking about the Khan Academy, right?
+(PERSON5) Yeah, yeah, exactly, I am.
+(PERSON3) Yeah, yeah.
+So exactly, this is this is now needed.
+Uh, so, well I would first debug the the karaoke viewer on the individual segments.
+So do it segment by segment.
+But then, after, uh, the karaoke, uh, preview is is ready, uh, concatenate all the segments back.
+(PERSON5) Mhm.
+(PERSON3) Or actually use the original the original file and concatenate the forced, uh, uh, the, uh, like time stamped, uh, captions.
+Uh -.
+(PERSON5) Okay.
+(PERSON3) With concatenating of the, uh, of of this of the transcripts, you need to shift the time stamps obviously.
+(PERSON5) Shift.
+Like what do you mean shift.
+(PERSON3) Oh well, the problem is that in segment 1 time 0 means 0 but in segment 2 time 0 means something else.
+It's at the end of, uh, segment 1.
+(PERSON5) Mhm.
+(PERSON3) The forced aligner runs always like from the beginning of the segment.
+(PERSON5) Okay.
+(PERSON3) So the timing of the words is relative to big relative to the beginning of the segment.
+(PERSON5) Okay, okay, okay.
+(PERSON3) But the beginnings of the segments like grow in time as as you proceed through, uh, through the recording.
+(PERSON5) Aha.
+Yeah I've seen like I've just I was just playing some of the audios and it would I don't remember the word-.
+It was-.
+So the the audio is not properly captured inside that very audio segment.
+(PERSON3) Mhm.
+(PERSON5) And and it's too little <unintelligible/>
+(PERSON3) So-
+(PERSON5) So so the time stamps stamps were not exact so that's I I had to like, uh, you know play with the time stamps to get the actual audio captured.
+Or to hear the audio actually captured.
+(PERSON3) Yeah, so I've played the set, the sequence of files that you have created the the simple karaoke.
+(PERSON5) Yeah, yeah, yeah.
+(PERSON3) And I've heard that uh it's uh uh like uh the word has been already said in on the previous word and only now the caption comes.
+So the captions are late.
+(PERSON5) Yeah, yeah, yeah, exactly.
+(PERSON3) And I think the reason is that, uh, the neural network, uh, takes some time to process it in a way.
+So it is confident about the word only after the word has been finished.
+(PERSON5) Yeah, exactly.
+(PERSON3) And I think that we can live with this.
+So the karaoke will will show this to us.
+Uh, and we could do some like a general little shift if we really like but I I think it's safer to to stick to what network has provided us with.
+(PERSON5) Yeah, yeah.
+(PERSON3) So, uh, uh, so, uh, there is two things the conversion of the output of forced aligner, which is the time stamped words.
+Uh, into, uh, into the ka-
+(PERSON5) Time stamped
+(PERSON3) Into the karaoke, into the VTT.
+(PERSON5) Mhm, okay, okay.
+(PERSON3) And and talk to [PERSON1].
+So think-.
+(PERSON5) Okay.
+(PERSON3) Is there already a script that converts the output of forced aligner to [PERSON1]'s expected output?
+Which is the growing sentences.
+Or not yet?
+(PERSON5) Yeah exactly.
+<unintelligible/>
+There is a script which [PERSON1] created but I was playing with it last night but it didn't seem to work out.
+(PERSON3) Okay.
+(PERSON5) So I thought maybe it's an issue with the karaoke corpus <unintelligible/> is not able to process.
+I I even tried with the demo corpus.
+That demo directory which is n the forced alignment directory.
+And it it perfectly but I even-.
+(PERSON3) Aha.
+(PERSON5) But the other one in the directory does not work.
+With this [PERSON1]'s script so I I need to talk to <unintelligible/> [PERSON1].
+(PERSON3) Yes, please please talk to him and I think that format that his script provides.
+Uh, which is the growing sentences is the ideal input format for, uh, for the web VTT view.
+(PERSON5) Okay, okay.
+(PERSON3) So uh, uh, we would be like gradually highlighting more and more of the sentence and then we would every now and then move to another subtitle and and again have the colour grow, uh.
+(PERSON5) Yeah, yeah, yeah, yeah.
+(PERSON3) So this is, uh, this is probably what we, what we want ot start with.
+So so you should first, uh, write these web VTT files manually just to see that it works.
+(PERSON5) Mhm, mhm.
+(PERSON3) Then play with them, like have them appear, have them, uh, have them work in your set up.
+(PERSON5) Mhm.
+(PERSON3) And then create the script which converts the growing sentences of [PERSON1] into this web VTT for the for the life view of of for the preview of of these files.
+And then, uh, work on the concatenation of the Khan Academy, uh, transcripts, uh, so that the time stamps are properly shifted and then, uh, yeah, yeah.
+(PERSON5) Okay, I just need to write it.
+(PERSON3) Yeah.
+(PERSON5) So the first step will be to convert the-.
+I need to convert the subtitles into web VTT-.
+(PERSON3) Yeah, so learn how how to write the web VTT so that it highlight the beginning of the the first half of the subtitle and that you can grow the highlighted part in time.
+(PERSON5) Okay, alright, alright.
+(PERSON3) Then apply it on one of the segments and test that it works.
+And then apply it on the concatenated segments and test it against the original full non-split ASR.
+Uh, non-split sound file.
+(PERSON5) So I I'm still like confused.
+So first I the the karaoke, in karaoke so so the the audio that play in the background it will have uh-.
+No the audio playing in the background in karaoke it will be the original audio with, uh, with the audio segment.
+(PERSON3) Yes.
+(PERSON5) Okay, and the the subtitles.
+The, the, sorry, the the transcripts will be the original transcripts not from the forced aligner.
+(PERSON3) Uh, from the forced aligner.
+Those-.
+So the original -.
+When you say original transcript, uh, you mean the manually revised files which we called OST, right?
+(PERSON5) Yeah, yeah, yeah, exactly, yeah.
+(PERSON3) Yeah, so the OST files contain only one sentence per line.
+(PERSON5) Aha, okay.
+(PERSON3) And no time stamps so there is no way to display them.
+We need to move from OST to something which we call OSTT.
+So that's original sound transcript transcribed.
+Sorry sorry transcript time stamped.
+So the TT the second T is for time stamped, uh, and that is the format which has time stamps and the same line is like repeated and it's growing.
+In the same way as you, uh, know it from, uh, from the ASR outputs.
+(PERSON5) And in order to get this OSTT I will use [PERSON1]'s sript.
+(PERSON3) Yes, exactly.
+(PERSON5) Okay, alright alright.
+So it will ahve the audio playing in the background and these OSTT uh-.
+(PERSON3) Yeah, so I will I will try to figer out, f find one video which displays the-.
+(PERSON5) Yeah exactly and-.
+<other_noise/>
+(PERSON3) Yeah so this is like <unintelligible/> so no one is singing.
+Yeah, I'm searching -.
+Yeah, so here is one sample YouTube video where no-one sings.
+But if you wanted to sing like Elvis Presley, uh, you would you sing at the point when the word is, is being highlighted.
+(PERSON5) Alright, yeah, yeah, yeah, I get it.
+Yeah, yeah.
+I was -.
+Okay, so-.
+I understand it better and it's more clear.
+One issue is that-.
+I saw at first, in after the forced alignment, after every, uh.
+I mean so the forced aligner loses a few first words in the transcript.
+(PERSON3) Oh, okay.
+(PERSON5) I'm not sure why.
+(PERSON3) That's bad.
+So talk to [PERSON2] about this.
+So I know that he has added something which ensures that, uh, uh, the for that his ASR processes full words.
+Because if you if you cut sound in the middle of the word it happily tries to like recover from that and it will recover this half word into a full word.
+So his search is for like a chunk, he he removes the head and tail so that he is confident that he has full words.
+But for the forced aligner we should not use this feature.
+So talk to him of what is the proper way of, mhm, of using this forced aligner so that it doesn't chop out the the words.
+(PERSON5) Okay.
+(PERSON3) If it's something more complex.
+If he does not have this chopping off end, head and tail, then, well we're we're screwed.
+There is not-.
+There is nothing we can do about it.
+(PERSON5) So actually it does not happen in like all of the chunks but like in some-.
+Okay so it's be better if I show you here.
+(PERSON3) Mhm
+(PERSON5) And I will start the-
+So uh can can you see this?
+(PERSON3) Yeah.
+It said that you started-.
+Yes I see something.
+<laugh/>
+But it's pretty small.
+(PERSON5) Yeah, exactly.
+And I I okay.
+<unintelligible/>
+(PERSON3) So maybe just Control+ should increase the font size.
+(PERSON5) Like this?
+(PERSON3) Yes, it takes a while until it updates.
+Uh, so yes this is this readable.
+And I can see line number 2, line number 1 is still, uh, like obsured by your your window and my window.
+Oh no I can mo move it, okay.
+I cannot move myself, so, uh,-
+(PERSON5) So yeah, even second segment is good.
+So you can see the segment.
+It starts from A.V.E-.
+(PERSON3) F-.
+(PERSON5) Yeah, but it is about the second segment.
+But if you want this-.
+I would like to show you this-.
+(PERSON3) This is, this is "have" this should be "have".
+(PERSON5) I I I exactly so.
+The sentence is-.
+The sentence is: "Do I have to" <unintelligible/>.
+(PERSON3) So even "Do I?"
+(PERSON5) So it completely, so it completely missed this uh "Do I-".
+(PERSON3) Mhm.
+Yeah.
+So talk to [PERSON2].
+I have no idea what, why this could be happening.
+Send him these two files, the input file and the output file.
+(PERSON5) Yeah, yeah, yeah.
+(PERSON3) Just actually send him the path name of that, uh, of this adjacent files but copy paste that these two lines into the into the email right away.
+(PERSON5) Yeah, exactly, exactly.
+So, yeah <unintelligible/> talked about this.
+Okay, so the last question is about an email which you sent a few days ago or probably last week.
+(PERSON3) Mhm.
+(PERSON5) So you talked about the alphabets in forced alignments and there was this configuration file <unintelligible/>.
+(PERSON3) Mhm.
+(PERSON5) And at the bottom point it w it had a list of letters which forced alignment accepts.
+So it was-.
+If I properly understand what this means is that forced alignment can only accept a lower case letters, no punctuations and no upper case letters.
+Is that is that?
+(PERSON3) Yes, yeah.
+(PERSON5) Alright.
+(PERSON3) So-.
+(PERSON5) Yeah, yeah, okay, yeah.
+Say.
+(PERSON3) But beware I think that the Czech model accepts only upper case.
+So it's like -.
+That's very much configuration dependant.
+(PERSON5) Aha, okay.
+(PERSON3) So, so have a look at the-.
+For now you need only English forced aligner.
+So for now focus on the English.
+(PERSON5) Yeah, yeah, yeah.
+(PERSON3) And there is-.
+I think it accepts apostrophe as well-
+Uh, uh, but not new lines obviously and not, uh, not numbers so there-.
+So we need to do some trick with numbers, uh, so the numbers should be actually spelled out.
+<laugh/>
+(PERSON5) Mhm mhm.
+(PERSON3) There are not too many numbers but there are some in the, uh, in the transcripts.
+(PERSON5) Like what you mean of-.
+(PERSON3) Like 2020.
+(PERSON5)  2 0 in yeah in numbers.
+(PERSON3) So if you have 2020 then in the transcript like as one word, like 4 characters 2 0 2 0.
+Then it should be spelled out in some way in which it was spelled out.
+<laugh/>
+In the, uh,  in the text.
+So that's uh-.
+Well this is annoying, uh, well we'll see how far we get with this, like-.
+[PERSON2] will know how to convert numbers to the spoken versions of them, because he
+also had to do it guess.
+So talk to him about this as well.
+(PERSON5) Okay.
+Okay, I'll talk to him.
+(PERSON3) For Czech, [PERSON6] surely has a script that does that.
+(PERSON5) Mhm.
+(PERSON3) Obviously the person, the person could have said the number differently, uh, and then we are screwed.
+(PERSON5) Mhm.
+(PERSON3) But  yeah.
+This is not so likely.
+(PERSON5) So you you mean these numbers are not acceptable in the forced aligner.
+(PERSON3) The forced aligner, uh, oh, uh, yeah, it's just yeah-.
+It just, it just doesn't work.
+It excess it expects the the letters that corresponds to the, uh, to the like vowels and consonants of the to the phonemes in the in the speech.
+And if the letters are the the digit 2 then there uh, uh, is no clear correspondence to phonemes.
+(PERSON5) Yeah, yeah, yeah.
+Okay.
+Yeah so it all-.
+So basically I need to refer to the configuration files.
+Yeah, okay.
+And that is all that I have written down.
+And I will start working on this karaoke, then I will discuss with [PERSON1] and then I I will start working on the log.
+To get the log directories for the, uh, uh, for the meeting for the last conference.
+And I -.
+(PERSON3) Yeah, for the mock conference, great.
+Yeah, yeah.
+(PERSON5) Yeah, for the mock conference.
+(PERSON3) And when I, when I talked about the getting the versions of the systems.
+Uh, this is something which can be tested on anything, including the mock conferences obviously.
+So uh-
+(PERSON5) Version of the system, like what do you mean.
+(PERSON3) So like in the log dir we need to know which version of the [ORGANIZATION1] system was in use.
+(PERSON5) Okay, alright.
+(PERSON3) This was, this was mentioned in the call, uh, this morning.
+(PERSON5) Yeah, yeah, yeah.
+Yeah, yeah.
+I understand, yeah.
+(PERSON3) So this is, this also an opportunity to, to like work on that, on gathering that information.
+(PERSON5) Mhm, okay, okay.
+And these log directories-.
+So basically, uh, we had like, I don't know what we had appro, we had like 6 channel being spoken in this.
+(PERSON3) Yeah.
+(PERSON5) So this-.
+These audio recordings have 6 channel so I need to separate each of them out and do the ASR.
+<unintelligible/>
+(PERSON5) They are already separated.
+(PERSON3) Oh, well the record cut script work for them.
+So maybe they are already separate files.
+(PERSON5) Yeah, exactly.
+(PERSON3) Or the record cut script, yeah.
+(PERSON5) Okay, so by <unintelligible/> preparing <unintelligible/> you mean generating the ASR and generating the MNTs, right?
+(PERSON3) Yeah.
+(PERSON5) Time stamped.
+(PERSON3) Yes, so for for now you need to do it for each of the channels separately.
+(PERSON5) Okay, okay.
+(PERSON3) And you can do it one by one.
+You do not have to do it at the same time.
+(PERSON5) Yeah, exactly, yeah.
+(PERSON3) The good thing about these channels is that they start at very same-.
+They are synchronised.
+(PERSON5) <unintelligible/>
+(PERSON3) So they start at the time 0 and that's perfect.
+Uh, so, uh that means that we can then observe all the many different English versions and the time stamps will will match.
+So we would be like playing for ourselves the different English versions simultaneously and trying to figure out which of them is the best at the given moment.
+So we should like-.
+So when you prepare these log dirs we should then run a test session with annotators including ourselves and, uh, figuring out at what time stamps-.
+At what stamps of time we prefer this English at what times do we prepare this one.
+So like time based labelling which of the English streams is good.
+(PERSON5) Mhm, mhm.
+(PERSON3) And then, uh, after we figure out how to do it ourselves, we can consider what should be the user interface for anybody, like a non-skilled person.
+And whether the task as such is is doable at all.
+Or whether it is too much load on the on the human brain.
+(PERSON5) Mhm, okay, okay, okay.
+And that's -.
+Like so suppose the main audios the main speaker in, is speaking in French.
+(PERSON3) Yeah.
+(PERSON5) And we have the interpretation, interpreter in Czech.
+(PERSON3) Yes.
+(PERSON5) So I need to get the English MT, from the, uh, from the Czech interpreter.
+(PERSON3) Yes.
+(PERSON5) Otherwise English MT from the French ASR.
+(PERSON3) Uh.
+Yes, if we have system for that, yes.
+(PERSON5) And then we need to check which English is better.
+(PERSON3) Yes, exactly.
+(PERSON5) Is that, is that what you are talking about.
+Right?
+(PERSON3) Yes, exactly.
+Yeah.
+(PERSON5) Okay, alright, alright, alright, alright.
+(PERSON3) Yeah.
+(PERSON5) Okay, like okay, is it's it's clear now.
+<unintelligible/>
+(PERSON3) So I'm afraid that the Pexip room will, is booked for 2 minutes more only and then it will possibly close.
+(PERSON5) Okay, okay, yeah, I I I I'm I'm done I'm done.
+<unintelligible/>
+Yeah, okay, okay.
+So thank you for your time again and yeah-.
+And have a great-.
+(PERSON3) Great, thanks.
+I'll be in the office in the afternoon from like 3, 4ish till, uh, probably 7 or 8.
+Uh, uh, today.
+But but you don't have to come.
+(PERSON5) <unintelligible/> department?
+(PERSON3) Yeah, well on foot it's it's not far from, far away from me, for me so it's it's a nice exercise.
+<laugh/>
+(PERSON5) Okay, alright.
+Yeah.
+<laugh/>
+So, yeah, okay, so, uh.
+Let's, let's yeah, let's speak.
+(PERSON3) Yeah but you don't have to, you don't have to come there in person at at all.
+(PERSON5) Okay, okay.
+Yeah, yeah.
+Thank you then.
+(PERSON3) Great, thanks.
+And and talk to you.
+We'll be in touch.
+Thank you.
+(PERSON5) Yeah, sure.
+Okay.
+Bye.
+(PERSON3) Bye, bye.
+Thanks.
+(PERSON5) Bye, bye, bye.

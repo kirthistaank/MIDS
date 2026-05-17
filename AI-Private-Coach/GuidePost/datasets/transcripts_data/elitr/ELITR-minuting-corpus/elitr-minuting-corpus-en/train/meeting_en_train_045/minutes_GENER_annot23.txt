@@ -1,0 +1,35 @@
+Meeting [PROJECT1]
+Date: 18. 08. 2020
+Attendees: [PERSON8], [PERSON7], [PERSON1], [PERSON5], [PERSON4]
+Purpose of meeting: Discussion of their book, talking about reviewers and their understanding of the book's topic
+
+
+-Discussing reviews
+-- They wanted to contact the reviewers but weren't sure whether the text was suitable for linguists, since they wouldn't understand it.
+-- They will get reviews from different kinds of people, with or without the knowledge of neural networks.
+-- That way, they will get different points of view.
+-- Only a one-page review is needed.
+
+-Details about potential reviewers
+-- They will ask an assistant professor from [LOCATION2] for a review.
+-- They could ask somebody from [LOCATION1].
+
+-Problems with past reviews
+-- Sometimes the reviewers wrote a positive review but then unofficially told them what to do differently (without writing it in the review).
+-- Some reviewed a wrong version of the paper.
+
+-Added information
+-- Adding [PERSON4] as a co-author of the book.
+-- [PERSON4]'s paper was accepted to [PROJECT4].
+-- One paper was submitted and accepted by [PROJECT2].
+-- There are now two articles in journals about this project.
+
+-Conclusion and future plans
+-- The book doesn't need to be submitted for printing this year.
+-- The reviewers must receive it in October, but it would be better to have it done earlier.
+-- Thus the book should be done in the middle of 2021.
+-- Finishing their chapters.
+-- One of the chapters has some issues with terminology.
+-- They could have another meeting this afternoon if needed.
+
+Minutes submitted by: [ANNOTATOR16

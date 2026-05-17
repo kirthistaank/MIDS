@@ -1,0 +1,16 @@
+[PROJECT2] meeting 05.03.2020
+Attendees: [PERSON3], [PERSON6]
+Purpose of meeting: Improving ASR, fixing errors
+
+Summary
+• problem with paragraph comprising of multiple sentences (fixed)
+• improving ASR (integrate and then run ASR with person speaking [LOCATION1]) 
+• supervisor for data collection 
+• translation time (200 miliseconds)
+		Milestones
+		• [PERSON3] need to prepare data for SLT
+		• [PERSON6] will work on [PROJECT2] [OTHER3] submission (17.03.2020)
+
+
+
+Minutes submitted by: [ANNOTATOR1]

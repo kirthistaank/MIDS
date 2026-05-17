@@ -1,0 +1,130 @@
+[PROJECT2] Pre-project meeting 2018
+Fri, May 04, 2018
+time and place?
+Attendees: [ORGANIZATION13], [ORGANIZATION12], [ORGANIZATION5], [ORGANIZATION6], ?
+The purpose: To familiarize attendees with individual work-packages, to discuss the division of labor and tune some details about the project
+
+An update on [ORGANIZATION14] status
+● A partner in the B part, in the actual application 3rd part, linked through other partners 
+● A separate columns in the budget draft especially for [ORGANIZATION14] - later included in total afterward
+● Technically, standalone partner contributing a few person-months
+
+Leadership of work-packages
+● [ORGANIZATION13] - multilingual MT, management and probably also keeps minuting
+● [ORGANIZATION5] will lead data work-package
+
+Involvement on partners in the integration work-package 6
+● Everybody to check and provide input till tomorrow to draft should be completed
+
+Deliverables 
+● Publishing platform - software and report (not confirmed yet)
+● Other events after the [ORGANIZATION3] event for month 32 - a report about running
+
+Milestones
+● first engine integrated with the platform
+● first preparatory event at [ORGANIZATION14]
+● Unified communication platform integrated - could also be deliverable, it's on the agreement between [ORGANIZATION6] and [ORGANIZATION11]
+● [ORGANIZATION3] event - also deliverable - a report in the form of journal paper describing technical aspects of the running the event
+● Automatic minuting integrated with platform - first version
+
+The project name
+● Probably [PROJECT2] - nicer content and spelled-out version
+
+Presentation of the respective work-packages by work-package leaders - at first to decide who leads which WP
+WP1 - Data
+The data for speaker and accent adaptation
+● [ORGANIZATION12] - the leading partner
+● A budget contribution - [ORGANIZATION12] and [ORGANIZATION5] to consider:
+● Number of demanded hours per speaker, number of speakers for recordings - adaptation purposes and presence at the conferences
+External resources for MT and SLT
+● A new data will be created only for the ASR adaptation
+● [ORGANIZATION12] to add tasks and [ORGANIZATION5] to estimate the number of devoted person-months
+ Collecting minuting data
+● To gather existing online meetings and manually revise the transcript
+● Creating and collecting documents - agendas, minutes for making training and test sets
+ Deliverables
+● Initial release if the training data month 6, a final release at the end of second year
+● Three different test sets months 10, 20, 30
+● The corpus of the minutes - training data for the summarization
+WP2 ASR
+Robustness of acoustic modeling
+Semi-supervised language adaptation
+Lifelong learning during deployment
+Deliverables missing
+
+WP3 SLT
+Transcript normalization
+Developing methods to increase the robustness of MT systems towards noisy input texts
+End-to-end speech text translation
+Deliverables
+● Three prototypes - alignment of prototypes are required
+● Reports in the middle and at the end of the project
+ Suggestion to include some languages for business reasons
+● A question to [ORGANIZATION6] about languages in their interest - [OTHER5], [OTHER1], [OTHER8] would also be good
+● Actually is also listed [OTHER2] and [OTHER6]
+
+WP4 Multilingual MT
+ The baseline model - [ORGANIZATION13], [ORGANIZATION12], [ORGANIZATION5] - It runs during the first half on first year
+● Two purposes: delivery of the MT to [ORGANIZATION11] into the integration and for the research afterward
+● Suggestion to go some of the languages only for the multilingual systems
+ Document-level translation - Runs throughout three years
+● For speech and also for the test
+Multi-target MT - in the first year
+● For the conference in the middle of the second year - translation from 6 to 43 languages
+ Multi-source - second year
+● Training on more sources of language to gain in translation quality
+ Flexible multilingual MT
+● Capable of translating from one-more languages into one-more languages at the same time
+Deliverables missing - probably yearly reports and one deliverable on the baseline MT models
+
+The gaps in introductory sections
+● Partner description - everybody has to mention two people
+
+Objectives, the relation to the work program, the early parts of the concept
+● Everyone should read it and comment it
+
+Methodology polishment required - two partners for each part
+● Remote conferencing - reviewed by [ORGANIZATION12]
+● The state of ASR missing - to write by [ORGANIZATION12] and [ORGANIZATION5] to review
+● MT incomplete - [ORGANIZATION13] to fill and [ORGANIZATION5] will review it
+● SLT - hopefully written by [ORGANIZATION5], reviewed by [ORGANIZATION13]
+● The summarization is also probably finished - [ORGANIZATION12] to review it
+● Minuting tools - reviewed by [ORGANIZATION6]
+● Handling people - should be reviewed by everyone
+
+The concept seems rather weak - [ORGANIZATION6] to provide further dissemination
+
+Ambition missing - will be written by [ORGANIZATION13]
+Expected impacts - Everyone to review it, every suggestion is welcome
+
+Impact maximization - [ORGANIZATION6] to derive specific tasks for dissemination work-package
+● Managing social media, local press releases, [ORGANIZATION7] - description and planned activities
+
+WP5 Minuting
+Discussion about the task “The live minute platform.”
+● Collaboration between [ORGANIZATION13] and [ORGANIZATION6] is necessary
+● According to [ORGANIZATION6], it is not doable with the scope of this project - only in case, it would be found some co-editing solution, especially for the actual project.
+●  The first year - only research focused on online solutions - in case of failure end here for a while
+● The second year - a possibility of implementing the interface
+● Deliverables - two research reports to first year (initial, final) and demonstrator
+
+WP6 The integration of the system 
+The integration with the unified platform - [ORGANIZATION6] to describe the task
+The integration of the minuting: [ORGANIZATION6], [ORGANIZATION13], [ORGANIZATION11] - clarification of the role of [ORGANIZATION11] - transcript generation
+Task 6.3 will be replaced by task 5.5
+
+WP7 Dissemination
+ Lead by [ORGANIZATION6] - to populate tasks and to specify activities 
+ Workshop on NLP technology at the [ORGANIZATION3] Congress
+● To promote and disseminate technologies and collect user feedback
+● [ORGANIZATION13] also plans to contribute to the organization of the workshop and feedback collection
+ Deliverables - A short report about the workshop
+
+Every task should be put into some specific time
+
+[ORGANIZATION13] or [ORGANIZATION6] have to create task related to the website
+
+[LOCATION4] should focus only on the platform task, [PERSON11] and [PERSON21] mainly to dissemination task
+
+
+Minutes submitted by [ANNOTATOR1]

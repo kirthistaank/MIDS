@@ -1,0 +1,135 @@
+[PROJECT2] minuting experiments
+
+Date: 2020/07/27
+Attendees: [PERSON6], [PERSON3], [PERSON7], [PERSON5]
+Purpose of meeting: Summarizing and minuting task
+
+Summary of meeting:
+
+Specification of the task
+- One of the intermediate goals is to identify what degree of manualy created part of meetings are abstractive or extractive.
+- Try to come up with some proposed measures of the extractivness, abstractivness or similarity measure for meanings.
+- Then test it, describe it and discuss it.
+- Other task is in minuting, in automatic summarization, and prepare the data for it.
+- Now, there is no specification or exact definition of the tasks.
+
+Annotators specification
+- Clearify that annotators are human beings.
+- Automatic transcript is corrected by annotators, then different annotators made minutes.
+
+Minutes
+- There are original minutes, generated minutes by annotator B and generated minutes by annotator A.
+- Accuracy was not control very detaily.
+- The accuracy of original minutes themselves is also a question.
+- All of them are similarly, the same value.
+- The matrice has just to analyse what there minutes generated minutes are abstracted or extracted.
+
+Summarization
+- At the moment doesn't exist automatic summarizing system.
+- There is used transformer model that is trained on very large data and that transformer model can do more abstractive summarization.
+- Also there is trained transformer to convert like machine translation model again.
+- All the summarization training data are from available data sets, mainly a news, so the domain is very different and therefore the results are very bad.
+- Earlier horrible outputs would be helpful to see how bad the current baseline is and will be sent.
+- There was trained model on larger data sets.
+- But the experiments were not quite finished and they didn't really help.
+- There is anything that would work at this moment.
+
+Automatic summarization system
+- The ultimate goal is to create a system which will automatically summarize meetings, but there probably won't be a chance to build it.
+- Internally, it would be great when will be ran a share task on this and some our system there, and get to some reasonably good starting point.
+- The most important that we do not understand what should be done with the word.
+- With idea what should be read from where, which words should be selected, which word should be ignored, which should, which words should be rewritten, then will probably propose a model technique that has some chance of success especially in the case when there are not training data.
+- With huge amounts of training data, is possible to start with deep neural network.
+- It is needed to simplify the task.
+- First way is to get acquainted with what the data looks like and another option is not tried and means to start syntatizing this data.
+- Preliminary suggestion of work on is developing shared task and developing deep neural network but could be changed.
+- The analysis of what people did for the summarization watch key indicate what type of approach should we choose for the automatic method.
+- The words that appear in a minutes then can be easily like the selected from the words in the transcripts by TF-IDF.
+- In case of abstractive minutes is needed to train sequences to sequences deep network, and then see that the train to find some data, which resembles.
+- In case of extractive meetings then could be created methods that will kind of highlight parts of the transcripts and assemble these highlighted parts together.
+- The analysis of abstractivness and extractivness is useful because it suggest what should be the main approach.
+
+Differences in minutes and measuring
+- If the outlining [ORGANIZATION2] doc is used, is possible easily jump with an example one on the either original ASR transcript, or the manually corrected transcripts and jump to the original minutes.
+- The original minutes are pretty detailed and this is what was originaly hoping for.
+- The instruction was to make minute and most of information is in video, but at the same time they are not very detailed.
+- Generated minutes are very different in ranks too, annotator A made it short, much shorter than annotator B and the annotator B made it even more detailed than the original minutes.
+- Different people will have different opinions on what is good minutes ant it is needed to eliminate this.
+- We should come up with a measure which is semi-automatic or fully automatic that will indicate or even fully manual, which will indicate satisfaction with the minutes.
+- Measure should be based on some existing experience.
+- It is needed to break down the task into smaller units.
+- More annotators would give the the same score to the same minutes.
+- Annotators by this time scorers of the summaries would give the very comparable scores to the summaries.
+- This task is more important for the shared task then the preliminary explorations because in the shared task will be needed to come up with the scoring of the rules.
+- It could be good starting point to read the corrected transcript and create own minutes from that.
+- And then see how own summary differed from the A and B, and how it differed from the original one.
+- Will be sent another one example.
+
+Summarization influences
+- It's difficult to construct summaries it is not known who is the target reader of the summary.
+- The question is whether we can define the share task, so if we can somehow personalize the summaries.
+- There is not any specific proposal.
+- The task of creating a summary for someone is a much more adequate from the practical point of view.
+- Now everything is summarized.
+- One more aspect is also who creates the minutes.
+
+Creation of summary
+- The description of the tasks of the minuting word package was send by e-mail.
+- There are many options.
+- Training data, some which would be out of domain than in-domain training data and in inputs outputs expected and measure that would evaluate who was how successful in the task.
+- There are two extreme ways to go.
+- One extreme way to go is to create a summary for everyone.
+- And other one topic and conclusions summaries, so for very long part of the of the meeting only one line is written, and that somehow tries to summarize it.
+- It's better to define the assignment for yourself after will be seen a few meetings yourself.
+- Timeline is this week.
+
+Conferences
+- It should be start with looking at the conferences, which are planned for 2021 and something which is towards the end of the year.
+- Schedule will probably require us to make a call for participation at the beginning of the next year.
+- Come up with a proposal at which conference we would like to join.
+- So that we have the proposal ready early and that we safely submitted by the required date.
+
+Current methods
+- Get information about current best working methods for text summarization.
+- And which of these methods seem to have a chance to the speech data on the on the discussions style of origin, of input documents.
+- Prepare a brief summarization, overview or tutorial.
+- Get baseline in meeting summarization builds up on the baseline in replaying written text summarization.
+
+Experience
+- There was some serious effort to put into that the data was limited.
+- The experiment which has been done was reasonable and shows which methods didn't work.
+
+Current assignments
+- There are no strict assignment for the annotators.
+- First annotators give the ASR output and they just listen to the sound and revise the text, and break it into sentences.
+- Then annotators reads these transcripts and create the minutes.
+- The main task now is to defined the task.
+- Based on some edited corrected ASR outputs will be create a summary of ehm of a meeting.
+- There should be taken notes on the used techniques.
+- Come with some measure can distinguish minutes in the same meetings from the minutes from different meeting.
+
+Tools
+- Some existing tools create action items, which are kind of the summary.
+- This is more like further labeling classification of the final statements that will be created.
+- There is not the decision at the moment.
+- It is needed to arrive to the decision until the share task.
+- Until the early October for example, we have to discuss this and choose which would be better.
+
+To done
+- Will be sent extra package of data, which include a transcripts and minutes without the audio.
+- Audio is not needed.
+- Will be shared the annotator guidelines.
+- Wasn't agreed use [ORGANIZATION1] or some other messaging instead of e-mail.
+
+
+Next meeting: 11th August, 14:30 [LOCATION1] time
+
+
+
+Minutes submitted by: [ANNOTATOR1]
+
+		
+
+
+
+

@@ -1,0 +1,24 @@
+Meeting 5. 10. 2020:
+- Attendance:
+-- [PERSON11], [PERSON9], [PERSON6], [PERSON4], [PERSON8], [PERSON7]
+-    T6.2 (integration)
+--     we should help [ORGANIZATION5] with teaching them how to train their own models
+--     do we have some specific models / training process?
+-    We need to have Outbound Translation integrated in the final “product”
+--     (hopefully) taken care of by the UI team
+--     it might be good to think whether and how we can include new stuff ([PROJECT9], n-best list) into current outbound translation interface ([PROJECT7] or the version integrated by UI?)
+--     [PERSON11]: [PROJECT3] navigation is not easy to integrate into [PROJECT7], but TNT is made just for that.
+-    [PROJECT7] 2a: 1533 OK segments. That's 2x more than from 2b, but still not enough.
+--     Data analysis by both [ORGANIZATION6] and [ORGANIZATION1]
+-    paraphrase-based data augmentation for MT :
+--     data:
+--- ORIG: original CzEng; 60M authentic Czech-English sent pairs
+--- BT: backtranslated CzEng; 60M Czech sents -> English
+--- PARA: paraphrased CzEng; 60M Czech sents translated to English so that the translations are as diverse from the English reference as possible but still good enough in some respect
+--- MONOBT: backtranslated monolingual data; 410M Czech sents -> English
+--     experiments:
+--- BT_ORIG vs. PARA_ORIG: comparing systems pre-trained either on BT or on PARA, and then fine-tuned on ORIG
+--- BT@MONOBT_ORIG vs. PARA@MONOBT_ORIG: same as (i) but pre-training data extended with MONOBT
+--- BT@MONOBT-0.5_ORIG vs. PARA@MONOBT-0.5_ORIG: same as (ii), but using 50% of MONOBT; running the same also with 25%, 12.5% and 6.25% of MONOBT
+--     results live: [URL]
+

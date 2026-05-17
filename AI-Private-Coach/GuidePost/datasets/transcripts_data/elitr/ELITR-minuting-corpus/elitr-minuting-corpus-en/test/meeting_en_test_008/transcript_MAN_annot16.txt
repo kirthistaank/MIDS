@@ -1,0 +1,484 @@
+(PERSON5) Ehm, thank you.
+[PERSON8] what are you doing?
+You are preparing the link into the-
+(PERSON8) Ye, Ye, Ye
+No, no, I'm just aligning that link of the web interface, which is already there one in the corrector-
+(PERSON5) So [PERSON7] we have discussed with [PERSON8] your negotation.
+And we are talking about how to implement the negotation.
+[PERSON8] prepaired some crieteria, so the guidelines for the evaluation. 
+But they are not fully ready yet so as far as they will be ready she will share it with us.
+And ehm well, just reference.
+(PERSON7) Also are there any links to them for the menu of the evaluation thing?
+(PERSON5) What?
+(PERSON7) Are there any links to that of the-
+Ye, for the manual evaluation thing.
+Are there any links that we can see or what?
+(PERSON5) [PERSON8] is searching for some reference to the evaluation.
+[PERSON8]?
+(PERSON8) Ye, I am searching I I did hadn't half of the copy of it.
+And I am finding-
+(PERSON5) Okay
+And I had so many papers to find.
+(PERSON5) Okay, Take your time and maybe as you have it just paste it please.
+(PERSON8) Ye I will, I'm just finding it.
+(PERSON5) So I actually wanted to talk to [PERSON2] today and he planned to join us.
+But i don't see him up at the moment.
+So [PERSON7] did you manage to upload-
+ayeye.
+<parallel_talk/>
+Did you manage to upload the [ORGANIZATION3] sources?
+Was it okay?
+Did you try to make the alignment script?
+(PERSON7) I did with you [PERSON5] for like I have to collect the minutes so-
+I don't understand this upload thing.
+(PERSON5) Well not upload, so did you do something with that already?
+(PERSON7) Ye, ye, so, the thing is like I'm starting the I'm starting the web that how to croll those minutes.
+And how to like find what is actually there in the [ORGANIZATION3] corpus and how we do that link with the web.
+So that kinda need to understand first.
+And I'm also in touch with [PERSON3] <unintelligible/> because he has done-
+(PERSON5) Ehm, Ehm, okay.
+(PERSON7) So I just connected with him and maybe will be skipping meeting later this week.
+So.
+(PERSON5) With [PERSON3]?
+(PERSON7) Ye, ye, with the [PERSON3], ye.
+(PERSON5) Okay, so this is clear.
+What should we disscus today else-
+What else should we?
+(PERSON7) I just want to know a few things from you regarding that [ORGANIZATION3] website maybe you can guide me.
+(PERSON5) Yea.
+I'm not sure, okay I will try to.
+(PERSON7) Okay, so from the source like from the transcripts that we have.
+Can you look at the minute in the website?
+(PERSON5) Yes, so for each transcript in [ORGANIZATION3] you can find the minutes.
+(PERSON7) So can you just show me that?
+Can you just share the screen-
+(PERSON5) Ye, if you see the gender.
+This is the link to the from 9. from 9. October.
+I will copy paste it to the today's gender.
+So that you can also open it.
+I will show the screen.
+(PERSON7) Ye
+(PERSON5) Can you see it?
+(PERSON7) Ye, Ye.
+(PERSON5) Ye, so if I follow the link I may open this search for minutes, here's minutes, and here's a search.
+And I am searching recent the years.
+For example 2009 to 2014.
+And let's search for some ehm name.
+And the name could be from if you go to the data, [ORGANIZATION3] data.
+Let's find some.
+Let's find some meeting from 2011 for example.
+<censored/>
+And we can look in the title.
+Just copy paste it and search.
+I didn't find it I don't know why.
+(PERSON7) So it might be in the other range, so the [ORGANIZATION3] script is from 9 to 14 I guess.
+That must be in other range.
+(PERSON5) No I found it, but yes.
+(PERSON7) Okay.
+(PERSON5) Yes, this is the one, there were certain additional to that.
+So this seems to be the one.
+Six six, oh maybe.
+Yes, so you can see ah, six six 2011, this is six six 2011.
+And here you can see that this name corresponds to chapter eight year, sixteen.
+And this is here, you just click on it.
+(PERSON7) So once you open it we get the minutes?
+(PERSON5) Yes, now, here are the minutes.
+(PERSON7) This is just the minute right?
+(PERSON5) Yes.
+(PERSON7) Okay.
+I don't know if this website has gotten index of the minutes just like it had for the transcripts.
+(PERSON5) Which index, the index does not correspond.
+Because the indexes here, these ones correspond to the court was not the whole [ORGANIZATION3].
+And here we are so on the web we are within [ORGANIZATION3] website.
+And here here we are not on within the [ORGANIZATION3] website.
+We are within the corpus created for machine translation purposes.
+(PERSON7) Ye, ye, ye.
+So I think this corresponds with manually verified this corresponds cause this one is a-
+(PERSON5) Yes, yes.
+(PERSON7) So chapter that is 16 is also like 16.
+(PERSON5) Yes, yes.
+(PERSON7) Okay.
+(PERSON8) [PERSON5], I have linked the reference in the agenda.
+They has on the intereface maybe you can just have a look.
+So they have shown snapshot of the interface.
+(PERSON5) I can't open it.
+Oh, no sorry is my-
+(PERSON8) There are two links, one to different links.
+(PERSON5) What is that?
+This is some paper.
+(PERSON8) Ye this is some paper, they have shown the interface.
+So you want to just see that what they are following like the based or is it some kind of the-
+So they have shown us a snapshot of the interface which they have done for the annotation tool
+(PERSON5) But what should I do with that?
+(PERSON8) You can see the snapshot.
+How they have built this tool for annotation of the valuation.
+(PERSON7) This is from [ORGANIZATION2], oh, interesting.
+(PERSON5) This [PERSON6] is a colleague.
+(PERSON7) Oh, okay.
+(PERSON5) Where is the snapshot?
+(PERSON8) Yea at the end, at the end of-
+(PERSON5) Ehm, ehm.
+(PERSON8) There were some interface and the example of it can be shown.
+Which can be delivered to the human annotators.
+(PERSON5) Which figure is that?
+(PERSON8) You have opened Fact-based Content Weighting?
+Or Evaluating Interacting Summarisation?
+First link or second link?
+(PERSON5) Fact-based.
+(PERSON8) Okay, so in the fact-based the figure number ehm.
+After the in the after the references you can find that.
+(PERSON5) Entry aha.
+(PERSON8) Number two-
+(PERSON5) Yes, this one says looking at now.
+Yes?
+(PERSON8) Yea, they have an interface.
+But this paper does not have their base interface as a meeting.
+The interface we haven't shown it-
+(PERSON5) Okay
+(PERSON8) It is the based our it is not by base.
+We haven't mentioned it.
+But the other paper they it is it is ehm.
+(PERSON5) This one?
+(PERSON8) Are you sharing your screen?
+(PERSON5) Yes.
+(PERSON8) Ehm, yea.
+If you could just scroll down after the references.
+Yea.
+(PERSON5) There is anything, where is it?.
+(PERSON8) Yea, so I wanted to show you that here itself in on page number-
+(PERSON5) This blue one, yes?
+(PERSON8) Ye, at the bottom implementation details.
+Ye, see.
+Can you see this web application I just retry it.
+Web develop this web application for the front-end.
+(PERSON5) No.
+(PERSON8) They have just in this diagram.
+They have just it is not shown the transcript and the summarisation.
+But this is just a web application which they have shown the snapshot.
+But in the implementation details they have mentioned the entire thing.
+That where they have this summary and transcript which they have put in the web application.
+(PERSON5) Now you speaking about which figure.
+(PERSON8) So I'm this is the interface which can be seen in web application.
+(PERSON5) Where?
+(PERSON8) The blue one.
+It does have web application front-end which.
+Ye the figure number two.
+The figure number two.
+They have they have given this for user ratings.
+As you can see from the description of the figure.
+So it needs somebody with the user rating and user queries.
+This is query and summary based system.
+A little different than our.
+But they have the for the ratings they have this web application.
+(PERSON5) So you propose to make something like that?
+(PERSON8) So I and if you see to like after the references can you just go after the references?
+After the references theres a before this yea before this 
+There is a section.
+B section and B.
+B section.
+Yea, yea.
+So this practical task, ye.
+Here, ye this page.
+Just scroll down.
+Scroll down a little [PERSON5], ye.
+If you can see here they have this Evaluation Session Collection.
+So they have these cautions.
+Which the humans human annotators do answer.
+That how usefull was the summerization and all these cautions.
+It starts from the previous page.
+Maybe you can see the previous page as well it-
+(PERSON5) Ehm.
+(PERSON8) Yea so if you can see the Trap Task.
+There are different cautions which are answered by annotators.
+And how good is the summary
+So they have this entire web interface.
+So we will disscussing whether we should have web interface or something.
+So this is a paper from 2020 September.
+Recent paper.
+So I told you that what i reviewed from the various papers regarding the evaluation.
+So regarding evaluation matrix some of them have the their interface as a fact-base.
+And some of them does not have.
+So I just wanted to show you how how what kind of people-
+What kind of manually valuation people are performing for the summarisation systems.
+(PERSON5) Okay.
+So they are giving some set of cautions to the annotators.
+And based on the web-
+There are annotators are asking by scene board the transcript and the summary.
+(PERSON5) Well, fine. 
+I'm totally happy with that.
+So if you create something like this.
+This is very good.
+(PERSON8) Okay, so I will form this airdraft and send you and please finalize.
+And then I will do the implemetation.
+(PERSON5) Yes thank you.
+Yes thank you.
+(PERSON8) So I just wanted to confirm that is the web base good for us or something else is is.
+Are you expecting something else like.
+(PERSON5) No, we are not expecting any specific.
+I think you just come up with what you consider to be the best.
+Taking to any-
+(PERSON8) Ehm.
+(PERSON5) In the state of <unintelligible/> or what is.
+So what you've already done is very beautiful.
+So you have some papers, you have confirmed fact-based.
+And non non web web based and have have chosen web base.
+So it's totally okay if it works.
+(PERSON8) Yea, even I wanted to ask the contented would it would it be good for shared task.
+Because I think the annotators will be able to evaluate it in in a better way.
+If you just have web base interface for manually evaluation.
+What do you say?
+(PERSON7) I want to understand the work for first.
+How would it work.
+(PERSON8) Ehm.
+(PERSON7) Like <unintelligible/> beginning.
+How would it work.
+(PERSON8) So, what I proposed is that we have the transcript and the reference in the interface.
+So we build inteface which shows the transcipt and the summarisation.
+And then the annotators do give rating to it.
+And that awaited score can be calculated automatically.
+So the annotators do not have to compute each and-
+Because there are so many minutes and the ones which are generated.
+So the annotator cannot do it manually each each equation.
+The start system which we made.
+So building an interface for it would be a good thing.
+Would it help our shared task.
+(PERSON7) So I just want to understand that supposed we have the interface.
+And we will have the questions for while which the annotators would.
+Would replay.
+So do you want to do it for all the data.
+(PERSON8) Yea, yea, yea.
+All the data.
+(PERSON7) You mean the train test where you just share everything, yes?
+(PERSON8) Yea, because the main purpose to build this manually evaluation.
+Is to help by shared task, right?
+So-
+(PERSON7) Yea, I would like to understand how.
+How, how.
+(PERSON8) So how will we evaluate the generated minutes by the participants.
+(PERSON7) So that's what I'm asking.
+So thank you for the prooving details we already <unintelligible/> for the testing data.
+(PERSON8) So what do we want?
+That's what I'm asking that what do we want for shared task.
+Do you want it for training data.
+Or you want it for both?
+(PERSON7) I'm still not sure how the manual evaluation work mutely.
+I don't unders-
+We have a very <unintelligible/> set of questions here.
+So that is that that is really like depending on a writer.
+And maybe we need that early.
+So that we can see and we can agree that.
+Okay, based on this question.
+This is a good summary and this is a bad summary.
+Can we do that?
+(PERSON8) Ye, ye, we can do that.
+Maybe I will I will send you a both draft.
+And you can just see to that.
+And that's what I was asking that building an interface would be a good thing.
+And will it help our shared task.
+Because interface would a better thing.
+Like doing it manually.
+Just building the guidelines and heading forward to annotators.
+I don't think that would be a good thing but.
+Building an interface and giving them the link of the interface.
+So they can just evaluate it.
+That could be better-
+(PERSON7) Ye, interface is fine.
+Interface is fine.
+I'm absolutely okay with the interface.
+But before the interface we need to be sure about that.
+Rating scale that we have-
+(PERSON8) Ye, ye, this is what.
+Yea, hmm.
+(PERSON7) That is that is.
+Because once we have the rating scale.
+I'm absolutely okay with the inteface.
+But it is at the annotator's task.
+But first what are the question ye.
+What is the rating scale.
+What are the rates to each of the questions.
+And then we have very cris example that what is a good summary and what is a bad summary.
+So, once we haven't have that.
+We are okay with the interface.
+(PERSON8) Ye, that's that's that's what [PERSON5] and I discussed that for the drafting of each should be finalized.
+And then we can-
+(PERSON7) The drafting yes, the drafting is very much boring.
+The drafting from our link is very much boring.
+When you start the manual evaluation question there or maybe is that you are suggesting.
+Or maybe what [PERSON5] suggested.
+So that should be clear soon.
+Ye.
+(PERSON8) So let me share the draft maybe.
+And then you will all please have a look on that.
+So I was reading the paper how to actually add interface some constant values.
+In that equation.
+And there's something I'm reffering to it.
+I'm reading the papers because I have some more measures into it.
+Like coherence and read ability.
+To three more measures.
+Which people were considered a lot in their summarization systems.
+So actually multiplying them with the constant value is is thing to be decided.
+Okay so I will send the-
+(PERSON7) So as I underst-
+Understand so the coherence with the read ability and all these scores.
+So that would be the human judgement, right?
+(PERSON8) Yes.
+What is automatically going to be is.
+So humans are going to read on the cautions one to five.
+And the equation will be computered automatically.
+(PERSON7) Ye, ye that-
+(PERSON5) I would just like to add.
+I'd like to add that it would be that it is very hard work to make these evoluations.
+So probably.
+It will so it will take much very much time and very much effort.
+(PERSON8) For the annotators?
+(PERSON5) Yea.
+(PERSON8) So yea, but [PERSON5] I think we need this in another way also.
+Because to compare our automatic matrix.
+(PERSON5) Yea, ye definitely.
+But-
+(PERSON8) Yea, so that we know that.
+(PERSON5) And anyways it has a sense to speak about it after we see your <unintelligible/> criterias.
+(PERSON8) Yes, yes.
+So should I make a different-
+(PERSON7) [PERSON8].
+Ye [PERSON8] please also while you put your criterias please also evaluate two minutes-
+(PERSON8) Hmm, okay
+(PERSON7) Okay, so that we can have the same set up of what good and bad minute looks like.
+(PERSON8) Hmm, okay.
+So [PERSON5] can you can you please do me a favor.
+Can you choose some two minutes which are easier.
+(PERSON5) So you want two different-
+(PERSON8) Yea two small small minutes so that I can evaluate based on the measures.
+[PERSON5], do you have any example how my cautions do work on a minutes.
+(PERSON5) Yes I will-
+(PERSON7) Maybe we all can-
+(PERSON8) This is a good thing-
+(PERSON7) Maybe we all can do like.
+We all can annotate a single minute and then we will see based on [PERSON8]'s criteria.
+Or audience criteria with judgement we all <unintelligible/>-
+(PERSON5) So we all three we will judge not draft the minutes.
+We all of us will get-
+(PERSON7) Judge, ye.
+(PERSON5) Yes, everybody-
+(PERSON7) With the transcript, ye.
+(PERSON5) Yea, we will get transcripts and two different minutes.
+And we will judge.
+(PERSON7) Okay, yes.
+(PERSON5) I will prepare it, I will prepare it.
+(PERSON8) Yea, so it is it is I think a good idea so we can easily finalize the draft
+(PERSON7) Yes.
+So we may have conflicting opinions regarding the judgment.
+But that is good to finally freeze out something.
+(PERSON8) Yea, because anyway, if we do have annotators.
+They are also gonna have the same thing.
+Because if you give to ten annotators.
+Definitely they are also gonna have judge.
+(PERSON7) So [PERSON5] I would like to ask like for currently then we are not going ahead with the alignment thing, right?
+(PERSON5) Say it once more, please.
+(PERSON7) So currently we are not going ahead with the alignment thing.
+(PERSON5) No, if you don't know anything me neither.
+(PERSON7) I think for the first.
+Yea, I think for the first shared task I would like absolutely keep everything as simple as possible.
+And then once we have experience on that.
+We go ahead with some innovations or novelties based on that.
+And also the response from the participants.
+(PERSON5) Yea, well I.
+(PERSON7) So I would like to ask [PERSON8].
+[PERSON8], if you have any progress on the automatic part?
+(PERSON8) No, no I don't have.
+Yea, I I do not have any progress with the new thing.
+I did implement all of the existing to matrix.
+But not something new.
+(PERSON7) What are those?
+What are those? 
+What are the pr-
+(PERSON8) So some eval and the one was the another paper <unintelligible/>.
+So I implemented the all the beginning of the paper.
+But I didn't do something new.
+So I was facing difficulties in those quotes only.
+So I did.
+It took me really long time to fix that.
+(PERSON7) Okay, so can we just <unintelligible/> about that.
+(PERSON8) Hmm, about the papers which?
+(PERSON7) Yea, no, I thought the matrix that you that you did.
+(PERSON8) Okay, so I maybe link the papers which I implemented.
+In the agenda.
+(PERSON7) Yea, okay.
+So did you try with our data or some other data?
+(PERSON8) Yea, so I did try with our data.
+That is one thing which I'm insure towards small portion.
+But I do insure it with the <unintelligible/>.
+So this is only a new thing which I'm doing.
+I'm trying to do it with our data which.
+Also the summarisation which I'm implementing.
+I'm doing it with our data and not the [ORGANIZATION1] and the [PROJECT1] corpora.
+So-
+(PERSON7) So on our paper do you have any figures that how the matrix work.
+(PERSON8) So I haven't made my matrix until now.
+It's really something-
+(PERSON7) Yea, sorry, yea I mean.
+Until now-
+(PERSON8) Existed.
+(PERSON7) Okay, so do you have any insights that how those work?
+(PERSON8) Umm, so how do they work?
+Maybe you can refer to the link.
+(PERSON7) Okay.
+(PERSON8) So I think you also might have done the papers I think.
+There are only three four papers on on this-
+(PERSON7) Evaluation.
+(PERSON8) Yea, evaluation.
+One is some eval so you also might also have come across that.
+Did you?
+(PERSON7) Yea, ye, ye.
+(PERSON5) I have sent you the meeting with one transcript and two short minutes.
+(PERSON8) Okay, thank you so much [PERSON5].
+(PERSON7) And when [PERSON8] need to share the evaluation criteria and we would all would annotate.
+(PERSON8) Yes, yes, sure.
+(PERSON7) Yea, so I think if we can have like the europarl data with the transcript and the minutes align.
+We we need not to worry about the data sights because if we-
+(PERSON5) Yes.
+One more note to that.
+If we are able to align minutes and transcripts automatically what.
+This is what you are doing [PERSON7] at the moment.
+Then this is not a big difference to make much more data from all the years.
+So I don't know if it makes sense but probably technically it will no-
+These are already exemples these transcripts.
+And the minutes are also available and if they are-
+Even automatically extractable it may have sense to extract all the meetings that are available.
+Then the data set is even more.
+Not just europarl-
+(PERSON7) So you mean.
+So you mean the europarl-
+Okay, okay so you mean that-
+(PERSON5) So not just this 6 years but all the years.
+(PERSON7) Yea, but let us draft for the 6 years.
+<laugh/>
+And see how it looks like. 
+So one thing [PERSON5] so you buy alignment so I'm like getting a little bit confused.
+But alignment you mean that within a folder for one meeting.
+You have the ASR and the minute, right.
+(PERSON5) Yes, so to find for each meeting-
+(PERSON7) Okay, because for-
+(PERSON5) Each transcript finds its minutes this is the-
+(PERSON7) The minutes, yes.
+Because I did know we were talking about alignments between the transcript and-
+(PERSON5) No, no, it's different.
+(PERSON7) So yea, so let's not be 
+(PERSON5) Ye, ye it seems bigger but I meant just finding minutes for each transcript. 
+(PERSON7) Right, right so okay.
+(PERSON5) Okay, somehow you didn't push us away today so they granted us woth extra time.
+(PERSON7) No it's about to end in two minutes.
+(PERSON5) Ah, okay, aha well fine.
+So let's finish it for today.
+(PERSON7) Yea I think yea.
+And [PERSON8] and please also send the automatic evaluation that the paper of <unintelligible/> want to.
+And we can also like discuss it offline.
+(PERSON8) Yes, yes, sure, I am just linking them.
+So I have them on the cluster also.
+So maybe I can.
+The implementation I've done on <unintelligible/>.
+I will I will link them in five minutes I think just opening the-
+(PERSON7) Yea, sure, sure, okay.
+(PERSON5) Okay, thank you.
+(PERSON7) Okay, thank you, bye, bye.
+(PERSON8) Okay, goodbye.

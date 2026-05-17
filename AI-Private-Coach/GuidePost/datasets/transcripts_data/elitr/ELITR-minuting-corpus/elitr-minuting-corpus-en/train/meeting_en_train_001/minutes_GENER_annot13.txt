@@ -1,0 +1,43 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION7], [ORGANIZATION3], [ORGANIZATION5]
+Meeting Name: Surge
+Meeting Date: 02.06.2020
+Meeting Topic:  General Progress Meeting
+Meeting Participants: [PERSON13], [PERSON6], [PERSON19], [PERSON18], [PERSON10], [PERSON3]
+Meeting head speaker/moderator: [PERSON13]
+Purpose of the meeting: Setting up the priorities and distributing tasks in relation to the preparation of [PROJECT3] IWSLT Deliverables with internal deadline 8th June 2020 and Project Officer Demo Presentation scheduled to take place on 17th June 2020.
+Assigned priorities according to the urgency are as follows:
+•	Demo for the Project Officer.
+•	Ladder climbing in the meaning of building up the [PROJECT3] test set and regularly testing on it. 
+•	[PROJECT3] deliverables.
+Fixed deadlines in place:
+•	4th June 2020 submission for [PROJECT3] back-up sites suggestions
+•	8th June 2020 [PROJECT3] IWSLT submissions
+•	17th June Project Officer Demo and presentation 
+Important points of discussion and pivotal tasks to be performed in relation to the assigned priorities and Project Officer Demo
+•	New testing sessions to be organised with external partners to assure a set up of successful testing session with reliable run inclusive the segmenter. Previous sessions did not bring satisfactory results.
+•	Listen to all the files in the Project Officer Demo directory to make sure there is no between the file names and their content. One possible discrepancy was uncovered on the Czech video files when calculating the word error rate.
+•	For the English videos the word error rate evaluation of ASR, machine translation quality and even SLT should be performed. This represents English input for English sound via golden English transcript to ASR. Translation to Czech and German so the verification of direct translation quality can be performed.
+•	Request made to find another partner who would run the replicas of the [ORGANIZATION5] [PROJECT3] systems, specifically [PROJECT1] models, [PROJECT2] servers and segmenters in order to reduce operational, performance and reputational risk. Substitute site for each system should be suggested latest by 4th June 2020.
+•	Substantial amount of work to be done on the evaluation side of the project in order to obtain more consistent and reliable data. Team is facing unpredictability in the performance of evaluation tools such as NLTK, enverse segmener and tokeniser. These are having significant impact on the trustworthiness of the evaluation results. 
+•	It is anticipated and fully supported that [PROJECT3] team will be supplying plural requests to [PROJECT2] and will establish itself as a supplier of [PROJECT2] improvements.
+Fundamental decisions made:
+•	Not to use the NLTK as evaluation tool at all.
+•	Forceful tokenisation to be avoided.
+•	Extremely rigorous tests of amber segmenter should be put in place.
+•	Proceeding with error rate calculation on word level deemed risky. Working on sentence level is highly recommended together with purposeful tokenisation.
+•	Tokeniser should be used before enverse segmenter. Segmenter not reliable on non-tokenised text.
+•	Following sequence of evaluation process should occur: tokenisation, segmentation, de-tokenisation, reconstruction of the original tokenisation, SacreBLEU score calculation.
+Further deliverables:
+•	Full back-up of all [PROJECT3] systems has been required.
+•	Explore if binary level changes to [PROJECT2] server could be also adapted and implemented to  [PROJECT2] worker. And if so, then incorporate those to the log files. It is beneficial for the SLTF  and the simultaneity of speech.
+•	New assignment to be written on how the tokenisation should be handled.
+•	Systems to be trained to reduce the length of the output. Experiments to start soon.
+•	Further investigation of “emotion detection using speech” feature and its potential to be made into a dashboard or even a model.
+Progress made in other areas of the Project:
+•	The set-up of [PROJECT2] server has been improved and the output updates 10 times faster now and it has become possible to obtain the word level time stamps. 
+•	Work has been done on [PROJECT3] deliverables concerning punctuator and through-caser, results subject to a review.
+•	Czech segmenter was updated to be capable of receiving one message and emitting two messages. It works with on-line text flow as well.
+•	Significant progress has been made on collection of multilingual data sets and their distribution to annotators for verification.
+Meeting results: Areas of attention have been identified, priorities assigned, action plan agreed and responsibilities have been distributed.
+Minutes submitted by: [ANNOTATOR1]

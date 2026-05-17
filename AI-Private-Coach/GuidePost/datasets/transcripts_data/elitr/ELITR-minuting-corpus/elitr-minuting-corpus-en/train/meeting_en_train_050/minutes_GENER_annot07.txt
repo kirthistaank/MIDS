@@ -1,0 +1,21 @@
+[PROJECT3] Surge
+
+
+Date: 28. 04. 2020
+Attendees: [PERSON15], [PERSON9], [PERSON11], [PERSON4], [PERSON10], [PERSON16]
+Purpose of meeting:  Work status update
+Agenda: 
+* Fill in papers for bonuses
+* [PERSON10] - manual shuffling of the files in Git 
+* Retraining segmentor
+* [PERSON16]'s work - data collection
+	* Send data to annotators immediately
+* Back translation
+* [PERSON9]'s updated model
+	* prg.ai meeting  
+	* [PROJECT2]
+* [PERSON4] - transforming model
+	* Finding sentence boundaries 
+
+
+Minutes submitted by:         [ANNOTATOR2]

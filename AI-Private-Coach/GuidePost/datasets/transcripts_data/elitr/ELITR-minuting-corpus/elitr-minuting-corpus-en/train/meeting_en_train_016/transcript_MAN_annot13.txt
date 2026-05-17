@@ -1,0 +1,586 @@
+(PERSON12) Hello.
+(PERSON14) Okay, yeah, sorry for the delay I'm I'm here too.
+<another_language/>
+(PERSON13) Hi.
+(PERSON14) Yeah.
+(PERSON12) <another_language/>
+(PERSON7) Okay, hi.
+(PERSON14) <another_language/>
+(PERSON12) Is is [PERSON15] here?
+(PERSON14) Zoom ei-.
+Zoom seven is [PERSON15].
+(PERSON15) I I'm here.
+It's just-.
+(PERSON14) Yeah, okay, yeah, yeah.
+(PERSON15) Uh, yeah, this is, oh my God, this is still from the last last one, uh.
+Yeah, well this is me.
+Uh, uh, yeah so, uh today, uh.
+So there will be call this week.
+Just noticed that.
+[PERSON4] was sending an email so again, uh, I don't know who should be there as as mandatory attendance but again like if you want to join it's it's definitely, uh, possible.
+Uh, so about the progress.
+I don't know like how we moved on since last week.
+I think [PERSON7] was still still doing the experiments, right?
+Can we, can we start with with the demo source?
+(PERSON7) Yeah, sure.
+So, I'm running the experiments still because, uh, like it's plenty of training time.
+And yeah so, uh, currently I've finished with all those systems that are built on larger portions of monolingual or with larger portions of monolingual data.
+And so when larger portions of monolingual data are used, uh, there is no difference between those two versions, uh, of the-.
+With the standard back translated and the way the back translation is done to be, uh, distant from the original translation from the parallel corpus.
+So, uh, I'm still waiting for the, for the experiments, or the training for the systems to be trained, uh, where, uh, I use like only one person, three person and one person of the monolingual data.
+So, it's still in progress, uh, but yeah like it's getting, uh, some contours.
+I have to discuss it with with [PERSON11] also, like who, like we are both working on it.
+Like currently only me but yeah, he is still involved in some parts.
+So I have to discuss what to do next.
+And what are the conclusions from those experiments.
+(PERSON15) Okay.
+Yeah, from, from my, from my side we will have consultation with [PERSON14] tomorrow regarding some other stuff too.
+But, but hopefully I should also slowly start working on some multilingual <unintelligible/> source experiments.
+This month so <unintelligible/> I will also keep you updated.
+So, okay, next is [PROJECT5], so I guess if-.
+The question is, did the [ORGANIZATION2] provided more results?
+I guess that's either <unintelligible/> -
+<unintelligible/>
+(PERSON7) Yeah, so so [PERSON12] I guess said, or like put into the document now like sixteen hundred or almost seventeen hundred documents, or sorry Stimuly are okay and done.
+And but I think it's still about the same number, isn't it?
+(PERSON12) Uh, it improved a little.
+(PERSON7) Okay.
+(PERSON12) But I I think our, um, um, our procedures should be that we stat examining the data now.
+And just keep the experiments rolling.
+And just after the paper deadline we update the tables and the graphs.
+Uh, yeah.
+(PERSON7) Yeah, so we have a discussion, uh, on Friday about how to deal with manual evaluation of the translation.
+So currently we decided that I somehow adjust the systems for the evaluation from the [PROJECT4] project like, uh, from one one of the papers I like contributed to, uh, one, one and half year ago.
+And so, I'm now working on the hat system, or the web evaluation for or or web environment for human evaluation.
+And we discussed it with, uh, or-.
+I announced, uh, [ORGANIZATION6] people that they should somehow allocate the human forces and they agreed and they just-.
+They are just waiting for us to specify, uh, what what the environment would look like and how what the annotation guidelines would be.
+(PERSON15) Okay, so.
+There is also, there is also question from [PERSON12], [PERSON12], uh, like who who should be included as co-authors for the papers.
+(PERSON12) We already decided who should be the co-authors.
+There is like eight or nine of us.
+It's kind of funny.
+(PERSON15) Okay.
+Okay, so-
+(PERSON12) Uh, my question was, rather, at what point should I tell others to start colla- collaborating on the paper.
+Because so far it's like one and half page.
+So it's not like-.
+(PERSON15) I guess it depends on how much, how much, uh, contributions towards the fri- writing of the paper you need from the other authors like, uh, you know.
+You can ask them, like please edit this this, uh, section or this paragraph or there.
+And they can do it.
+But if if that's not been required I guess, it's, you are not in in a hurry, in in this sense I guess.
+(PERSON12) Okay.
+(PERSON7) Yeah, I think like, uh, in my view we need most of the collaboration from the [ORGANIZATION2] guys.
+(PERSON12) Mhm.
+(PERSON7) Because, uh, uh, what we need about the components that work is back like back end components, so so one of them is like QE by [ORGANIZATION9].
+But I think that most of the, about, like most of the content about the QE system they have already explained it into the deliverable.
+So we can easily copy pate the deliverable and just ask them to adjust things or maybe shorten the text.
+(PERSON12) Mhm.
+(PERSON7) So, I guess, and from our experience with [ORGANIZATION2] guys, it will be it will be most problematic to get some content from them. 
+(PERSON15) Also I think it might be a good idea to ask them for some proof reading, since they are like native English users, right?
+(PERSON7) Yeah
+(PERSON12) I mean, like I would expect that their contribution would be the proof reading and some description of how they got the annotators and what their profiles are.
+(PERSON7) Yeah, yeah, That's that's it.
+(PERSON12) And the rest is for us.
+(PERSON7) and we need also.
+Like I I want to ask them also to to to provide us with the with the profile of the annotators because we-.
+It's also for our statistics that we will be processing it will be interesting to know what languages they speak, uh, those annotators.
+(PERSON12) And do they have this information?
+Is this in their questionnaire?
+Are you sure?
+(PERSON7) It should be, it it's, it was in the quote prix questionnaire.
+So-.
+(PERSON12) Okay, okay, okay.
+(PERSON7) Like many, many, many questions on language competence.
+(PERSON15) Okay and from [PERSON1] and [PERSON8], are we expecting anything?
+(PERSON7) Uhm I guess not, I think not, I think not not so many things. 
+Or not like-.
+<laugh/>
+(PERSON12) Okay. <laugh/>
+(PERSON7) Only. 
+Only like how many annotators were like in the second stage of annotation, on on like I mean the human evaluation of translation.
+How many of them were working on it and so some basic information.
+I don't think they will contribute-.
+(PERSON12) Okay, that that's okay.
+(PERSON7) We need them just to provide us with some Estonian speaking people.
+(PERSON15) Yeah, yeah that's okay.
+So, yeah, I I just got some picture of it and I continue working.
+And keep you updated.
+(PERSON7) Yeah, they can.
+For sure they can proof read the final text.
+But I don't think we need some like content from them.
+(PERSON15) Yeah, that's okay.
+(PERSON7) Okay, so I guess that leaves us with [PROJECT3].
+Uh, [PERSON10], can you give us some updates, please?
+<another_language/>
+<laugh/>
+(PERSON7) Hi.
+(PERSON14) Hi.
+(PERSON15) Hi.
+(PERSON10) Well, uh, so we this last week we, we've been working with <unintelligible/> and I've noticed that four sectors have negative constraints.
+So an implementation of negative constraints, so, they will open an issue asking for that.
+Or maybe I will start implementing.
+So we have been discussing these these options.
+And then we, we proceeded, uh, with the positive constraints experience.
+So, so far what I'm doing is, is using TF and IDF to rank tokens of references as suggested by [PERSON14].
+And so I'm using them.
+So the most import-.
+My first idea was to use the constraints-.
+The first, the first constraint, use the single constraints with the most important code.
+And see what is the output.
+Then I had-.
+Then I implemented the second most important, uh, token, second constraint and see the output.
+And so on.
+But, um, um, the initial results are are a bit strange.
+So they are-.
+I'm I'm using a single-.
+I'm sorry I'm having some cats around here.
+(PERSON7) <laugh/>
+(PERSON10) So, um, I'm I'm noticed that it it generates different sentences and and, uh, noticed also that, uh, FairSec hasn't the implementation of the order constraints, so I had to change it to order it so-.
+<other_noise/>
+And it, uh, but I was just discussing with [PERSON15], that, uh, this is quite trivial.
+That it's trivial to conclude that that if I add many constraints I will have uh, uh, the output similar to the reference only by the the this this token.
+So I don't-
+We are, we are discussing, uh, different approaches to the different experiments that will be  a better contribution to the, uh, to this task.
+(PERSON15) Mhm.
+(PERSON10) So, uh, so [PERSON15] gave the idea of, of trying to generate paraphrases right [PERSON15], is it correct?
+(PERSON15) Well, sort of, right.
+Well, currently the paraphrases are based on, uh, it's like that we have multiple referential sentences so we want to try it with that right?
+(PERSON10) Yeah, so, uh, every every time I add, uh, one one constraint I I have-.
+So this is, this is one point that we need to discuss yet.
+But every time I add a constraint, it generates in our-, a a kind of a paraphrase from from the reference I want and in the end it is not the reference I want neither the the the main the main target, uh, sentence.
+(PERSON15) Mhm.
+(PERSON10) This is something to discuss and actually I'm having some some difficulties on on that.
+Although [PERSON15] is is doing his best to help me on that.
+(PERSON15) Mhm.
+(PERSON10) But, but I still don't have, uh, let me check, I still don't have the results for, for this first experiment but, uh, I will try to to have it, uh, as soon as possible so we can discuss.
+But it's as I as I said the blue scores will improve as we as we add constraints to the to the sentence, to the English sentence, right?
+(PERSON15) Okay, so, so you're still just trying a single constraint.
+Thee, like in the experiments run right <unintelligible/>
+Or or are you increasing the number of constraints, like-?
+<unintelligible/>
+(PERSON10) I'm increasing the number of constraints.
+(PERSON15) Okay.
+(PERSON10) Yeah.
+(PERSON15) And when you increase the number of tokens inevitably the blue score is getting better, right?
+(PERSON10) Yeah.
+(PERSON15) Okay, okay, so that's, that's-.
+(PERSON10) I still have to do more experiments about using this.
+But, uh, the sy-
+I'm using only one reference now and adding tokens about that and <unintelligible/> and checking the blue score.
+But I have to do it for many of them.
+But, uh, it seem like you repeat for every every sentence I use, so.
+(PERSON15) Okay.
+(PERSON10) Well, I will keep that and I have to check this negative constraints issue.
+(PERSON15) Mhm.
+(PERSON10) And see how to amend that and and try to think about new ideas or yeah, different.
+(PERSON14) So thank you for the good progress.
+So one comment is on the negative constraints.
+You said that they are not in FairSeq and that you are considering adding them there.
+Uh, it will be definitely much better to switch to [PROJECT1] with everything.
+Because it is actually one other thing that we were asked to, uh, do at the review, if I'm not mistaken.
+So the reviewers preferred that all the experiments are done in, like finally, and especially for the purposes of integration, uh, uh, they have to be done in in [PROJECT1].
+So if the FairSeq is good for the positive constraints do the experiments there.
+Uh, but if you already need to implement anything.
+Rather move to [PROJECT1] and do the implementation, uh, of the other missing, uh, of the missing part, uh, in in [PROJECT1] even if it is the other, uh, thing.
+For the evaluation that's, uh, if I understand correctly, that's that's really a big problem that 
+like it it didn't fully occur to me, uh, when I was suggesting the multiple reference data-sets.
+But as soon as you ask for some word, even if it's from the other references, right, the bleu score increases.
+(PERSON10) Yeah. 
+Actually maybe, maybe, what I'm doing is taking a reference, one of the references and using the tokens for from that preference to as a constraint trying to have this output.
+But it will happen happen eventually, because as I add the constraints we will have this.
+(PERSON14) Yeah.
+(PERSON10) Or a similar one, right.
+(PERSON14) Yeah, so the so, uh, it definitely if you are asking for the same reference, if you are evaluating your modified, uh, output against the same reference.
+Yes, then, in a way you are like cheating in a way, because you are telling the system what it will score on.
+Uh, but , for that I was hoping that for that you could actually use the multiple reference data sets.
+Uh, and then you would be evaluating on the other references.
+And you st-.
+And there is, uh, the big risk that you will be getting this always guaranteed increase of the bleu score.
+<laugh/>
+So is that, is that  a case?
+Are you already getting this on the other sentences?
+(PERSON10) No, no not on the other sentences but when you, when you say that you you think I will compare the sentence that has the same constraint but is a different sentence.
+I mean, because-.
+(PERSON14) Yeah, so if you have multiple references.
+You have like one, one candidate and then you have four references.
+And then this candidate was created by taking constraints from the first reference so let's take this, uh, so one out and let's evaluate those three references only.
+So we evaluate the baseline system and the system, which, uh, has this extra constraint from the first one.
+Uh, the reason is to re-evaluate that obviously the bleu scores are only comparable only if you have the fixed set of sentences.
+So, you have to limit yourself to those three sentences, uh, in the reference only.
+Now the point that you are bringing up, is whether this word, that we demand that we asked for, actually does appear in these, uh, references or not.
+If it does appear there, then yes, you are going to gain.
+But if it doesn't appear there, you still may get other, uh, imp-, improvements .
+And  and also if does appear there, is no longer cheating, uh, because, uh, you, didn't know, uh, what the other reference said.
+You only like had an external knowledge of the world, like what is what is expected there.
+So, if if the if you see the bleu scores on these three extra sentences, uh, yes, we have to warn, but it's no longer cheating.
+So we will see how, uh, how big the gains are.
+But ultimately I fully agree, uh, we have to do a manual evaluation.
+And see like how many constraints are needed to see some significant improvement in manual scores, uh.
+(PERSON10) Okay, yeah.
+<other_noise/>
+So, yeah, I'll think about it-.
+<unintelligible/>
+(PERSON14) It is a bit problematic, it is problematic.
+If someone can come up with a , uh, with yet another twist to evaluate these constraints that would be better, uh, but, uh, at least this is not like flout.
+<laugh/>
+(PERSON10) Yeah.
+<laugh/>
+Yeah. It's better.
+Okay, uh, I'll I'll test that.
+Because now I'm I'm I'm understanding something that is trivial for for you but the idea that if I'm if I'm comparing to these three references I'm I'm making sure that it has some, uh, the sense I we want, right, the meaning we want.
+So, I okay, it's it's fine.
+(PERSON14) Yeah.
+(PERSON10) So I'm not comparing to the to the to the ones the one I'm taking the the constraints, perfect.
+And one the ideas was to stress the constraints so.
+Actually to use too many constraints to see what happens, but from different parts of it and and see.
+But maybe this is-.
+We should have to think better about this actually.
+(PERSON14) Mhm.
+(PERSON10) But perfect, I'll implement this and and I'll-
+<unintelligible/>
+(PERSON14) Yeah, it's just a different type of evaluation.
+It's not a new model, it's only new evaluation.
+(PERSON10) Yeah.
+You told at the previous internal-.
+(PERSON14) Yeah, that's okay.
+That's normal.
+(PERSON10) The previous meeting and I I forgot to implement that.
+Okay.
+Thank you.
+<another_language/>
+(PERSON14) Yeah.
+ Oh so, you are already practicing for, uh, for the, uh, for the arrival to [LOCATION1].
+That's great.
+(PERSON10) Just the, just the first words of of Duolingo.
+(PERSON14) Yeah, okay.
+<laugh/>
+(PERSON10) Okay, thank you.
+(PERSON15) So just, the technical part.
+Just to be sure.
+Uh, in [PROJECT1] there was some implementation of constraints decoding, right?
+Or wasn't?
+Like I-.
+(PERSON13) Well-.
+Yeah, there is, uh-.
+(PERSON15) Mhm.
+(PERSON13) Like you can-.
+It's very simple implementation, you can supply, uh, something like, uh, phrase table from Moses or something like that.
+And then, uh, it's not ordered anyhow or it's just-.
+If you have these words from the source side or phrases at the source side, uh, then only the words that, uh, are possible in the phrase table on the target parts can be generated.
+Like the the Softmax is masked, uh, so that no other tokens can be generated, but that's it.
+That's all.
+(PERSON15) Okay, so so it's a little bit different from what is recorded in the in the related <unintelligible/> from the paper from, uh, NetPost, was it NetPost?
+(PERSON15) Yeah, yeah, yeah.
+It's it's different.
+This is just globally.
+It's-.
+It just masks the Softmax to not generate something that doesn't appear in the phrase table on the target sides.
+(PERSON15) Okay.
+(PERSON7) And in the same that, because like now, in the in that data augmentation experiment we work with uh, data generated by like a branch of [PROJECT1].
+By [PERSON3] and yeah, he also implemented only the negative constraints.
+(PERSON13) Mhm.
+(PERSON7) But he told us that it's exactly the implementation like.
+It just copies the implementation of NetPosts.
+(PERSON13) Mhm.
+(PERSON7) With the only difference that they didn't implement positive, uh, constraints.
+(PERSON13) Okay, I didn't see that.
+But in the main branch it's only just a work list-.
+But yeah, okay.
+(PERSON7) Okay, okay.
+This is Niko-, this is not in-.
+(PERSON13) Yeah, sure,
+(PERSON7) This is not in the main branch, so-.
+(PERSON13) Yeah, yeah, yeah.
+Okay, I didn't see that.
+(PERSON14) So, please let me ask again about the positive constraints.
+Uh, uh, the the contribution that [PERSON13] has there.
+Or [PERSON13], uh, the, uh, the question is-.
+You you've mentioned that it's like a source and target.
+So, uh, what is not clear to me is when the source is being checked.
+And when is the target being required.
+Uh, because, uh, if you are producing the output left to right, uh, essentially the attention can look anywhere.
+(PERSON10) Uh, no.
+So, it's like global for all the sentences.
+It doesn't matter where the attention looks.
+It's-.
+(PERSON14) Mhm.
+(PERSON13) They look for all the possible occurrences of the phrases at the source side, at the phrase table.
+And then, they find all the possible tokens at the target side of the phrase table.
+And then they mask everything else out in the Softmax.
+(PERSON15) Mhm
+(PERSON14) Which is which is problematic, because, uh, that means that your positive uh, list, actually has to mention all the possible formulations.
+(PERSON13) Yeah, yeah.
+(PERSON14) So-.
+(PERSON13) Yeah, yeah, yeah.
+They they don't expect any like gains from that.
+That's ju-, mainly because for the speed up on CPU's.
+So that they don't have to compute every probability in the Softmax but only a small sub-set of them.
+So it's not, it's not expected to improve the translation.
+It's just just for the speed up on the CPU's.
+(PERSON14) Mhm.
+So if we want to use this truly as a positive constraint for our purposes, uh, like we want to ensure the target sentence will contain this term.
+This is hard.
+(PERSON13) Yeah, yeah.
+I don't think-.
+I-.
+At first I thought I can just, uh, modify this implementation.
+But now I think I will have to look at the look at other branch or start from scratch.
+(PERSON14) Yeah.
+But still it will be <unintelligible/> conceptually, probably.
+(PERSON7) Yeah, when I <unintelligible/>
+Two weeks ago or three weeks ago or like a month, I can't remember.
+<laugh/>
+I communicated with [PERSON3] and he promised us to help us with this.
+At least to point us to the implementation that he did, where he implemented the negative constraints.
+So we don't have to implement it from the scratch.
+(PERSON13) Okay, I'll I'll send him an email or something and I'll talk with him.
+(PERSON7) So if you are-.
+ If if now you are in the point starting with the implementation of the-.
+(PERSON13) Yeah, yeah, I had a look at the-
+I wanted to implement it the same way or very similarly to FairSeq.
+I had a look at FairSeq code.
+But yeah, I will ask him and I will see.
+What he's got.
+(PERSON7) Yeah.
+I just wanted to-.
+(PERSON14) Uh, the negative constraints are easy-.
+(PERSON7) I just wanted to, I just wanted to remind that-.
+(PERSON13) Yeah.
+(PERSON14) Yeah.
+So the negative constraints, please locate the code by [PERSON3].
+That's better.
+(PERSON13) Mhm.
+(PERSON14) Hopefully that will work out of the box.
+(PERSON10) Sure.
+(PERSON14) And there will be no need to, mhm, mhm, implement negative constraints.
+But for the positive constrains, I agree with [PERSON13].
+That this really has to be done, uh, starting from scratch and even-.
+(PERSON13) Yeah.
+(PERSON14) Maybe, uh, it first first has to be re-designed.
+We we have to know how to achieve that.
+Because it's like, uh, difficult to require the decoder to produce something when you do not know how many words is the decoder still going to produce.
+(PERSON15) Mhm.
+(PERSON14) So maybe we could still think of a way of using the current implementation.
+So like-.
+Uh, two people should think about this.
+Uh, [PERSON13], about the proper handling, if there is any.
+Like how to make sure that before the sentence finishes, uh, the, uh, some of the words was used.
+That can be achieved by filtering, at uh, at, the furthering of the <unintelligible/> or something like that-.
+Uh, which is poor man solution.
+We could try it.
+But at the same time I think that [PERSON10] can starting thinking about the way how to use the current implementation and uh, filter this like phrase table, so, uh, that it, uh, mhm, uh, release to this forced style of translation.
+It would not be applicable to all the words, but it could be applicable to content <unintelligible/>.
+So, uh, if we know-.
+So, imagine that we have the phrase table created on a very lar-, from a very large corpus, where obviously content word have many different translations and there is also noise, like non content words, uh, uh, linked with them.
+We extract just one to one phrase table, uh, which, uh, uh, like, says, uh, that whatever Praha is translated to Prague or Pragl, and, uh, because there will be also some Brno, Brno dialect there.
+And we want to ensure that the Pragl is is  used there , uh, then, uh, we could run the positive constraints as it is implemented now, with this phrase table filtered so that, no Praha appears there, and only Pragl does.
+And that way, uh, the, uh, like taking the universum and separating the things we don't want, we can actually, uh, ensure that, uh, that the positive implication its done there.
+It's heavy, I kn-, I I agree.
+But if if if the, if the the universum itself comes as an as a speed up for the Softmax, then maybe we could, we could achieve that.
+Obviously, this will be further complicated by the sub-word units.
+So, uh, like, uh, there is still a risk that it will still create Praha from the sub words, uh, despite the fact that we have removed the option to produce Praha as a single unit.
+But we could at least explore this.
+So I think that two people can simultaneously look at two different ways of how to achieve the positive constraints.
+(PERSON10) Yeah, okay.
+(PERSON7) Uh, just, just let me step in.
+I think like everything, mhm, mhm, I think like the the the way how it it can be achieved is explained in the NetPost paper and it has been already implemented in the Sokai.
+Both the positive and negative constraints in the same place, so we don't need to re-, reinvent the wheel, but-.
+(PERSON14) Okay.
+So what is-.
+(PERSON7) So maybe I'm I'm-.
+I didn't understand.
+(PERSON14) Yeah, well, I haven't read the paper.
+It could be there.
+I'm I'm reinventing the wheel because I haven't read it.
+So what is-.
+How do they-.
+So how is that different from, uh, how how do they do it.
+Yeah, that's-.
+(PERSON7) I I don't know the details I I read it but I already forgot it.
+But it's, uh, I reme-, like I remember there is a nice figure how to, how decoding works.
+With both positive and negative constraints, and they also think about, uh, that, the words that are there like, uh, there are like words pieces not the words.
+(PERSON14) Yeah.
+(PERSON7) And, yeah.
+(PERSON10) We can try that, yeah.
+(PERSON14) But [PERSON13] has read this paper, right?
+(PERSON13) Yeah, yeah.
+(PERSON14) When [PERSON13] said that they do it only for the purposes of of like,uh, pr-.
+(PERSON13) No, no, no, that's that's-.
+(PERSON14) No, no, no.
+(PERSON13) No, no, no, uh, that's-.
+I was talking about the [PROJECT1] implementation.
+What's implemented in [PROJECT1] right now.
+(PERSON14) Okay, okay, yeah.
+(PERSON13) In the main branch
+(PERSON14) Okay.
+(PERSON13) That's something different, yeah.
+Well, yeah, that that approach from the paper is-.
+Well we'd have to implement the approach from the paper from the scratch in [PROJECT1].
+I don't know about, uh, [PERSON3] branch.
+I don't know about that.
+I that's something similar, okay, then.
+But, right now, yeah-.
+Paper can be-.
+It's very similar to FairSeq approach or the FairSeq code is just an improvement over the paper.
+And it also has the paper itself.
+But yeah, the, uh, the original implementation is in Sokai and I also looked at it and yeah, I think we can re-implement that in [PROJECT1].
+But-.
+(PERSON14) Okay, so, my my idea of two people looking at this is true.
+But the assignments are slightly different.
+Uh, uh, [PERSON10] can, uh, look into like the simpler approach, like what is in [PROJECT1] in in [PERSON13]'s branch already.
+(PERSON10) Yeah.
+(PERSON14) And [PERSON13] will look at the paper by NetPost and also the existing implementations which are-.
+(PERSON13) Yeah.
+(PERSON14) Everywhere else except [PROJECT1].
+And [PERSON13] will re-implement this in [PROJECT1].
+To have the positive constraints there on top of the code by [PERSON3], which already are negative constraints, right?
+(PERSON13) Right.
+Well, I will see the [PERSON3]'s code if that's the same.
+It's-, uh, the code from the paper or something else.
+(PERSON14) Yeah, great.
+(PERSON7) Sorry, I I just-.
+My Zoom crashed for a while, so it-.
+Could you repeat the conclusion of it?
+(PERSON14) Yeah, the conclusion is still two people can look at it.
+And it makes sense.
+Uh, the first person would be [PERSON10], uh, who should, uh, uh, try thinking about this crazy, uh, set up, uh, that I described.
+Like, reusing [PERSON13]'s code.
+Which is like the positive constraints, uh, uh,  but it's positive but you have to list that whole universum, uh, in addition to that.
+And, uh, [PERSON13] will look at the code by [PERSON3] and, uh, like  start from-.
+Which which already contains the negative constraints and start from that in prder to add the positive constraints as they are described in the, uh, uh, NetPost paper and implemented in FairSeq and [PROJECT1].
+Sorry, in FairSeq and [ORGANIZATION1] to to get it into [PROJECT1].
+(PERSON7) Uh, and maybe just last remark.
+Don't forget on the Sokai implementation because both, the positive and negative constraints have been implemented-.
+(PERSON13) Yeah, yeah.
+I'll already, I already looked at Sokai-.
+Also about the, about the evaluation of the constraints-.
+I did an experiment, about two years ago.
+Something similar, when we tried to integrate the translation memories with the translation.
+With an MT and we added larger like probability-.
+It was very simple implementation, only increased probability of-.
+Like we had a translation memory which was in Lucene.
+So, when you had a source sentence, there was some TF IDF like scoring and the most similar sentences in the memory were retrieved.
+And we had, uh, work alignments, so we knew, also in the database, so we knew which parts of the source sentence are the the same as in the in the-.
+Like we knew which part of the source sentences are, uh, present in the translation memory.
+And we knew which part on the target in translation memory corresponds to the to these parts of the source sentence.
+So we only added some bonus probability in the Soft Max to these tokens, in translating.
+And yeah, we-.
+The way we evaluated is that we had domain specific databases and test sets.
+And, uh, we just computed the blue score, blue scores there.
+And it seemed to help, when the domain was really close, even with the WMT test sets.
+We used I think the news commentary or something like that.
+And also we improved the blue scores a little bit.
+So maybe the evaluation can be done in this way.
+Like, uh, to have some translation memory or database with very similar sentences and retrieve them automatically and not to use the references as, uh, as the source for the, uh, for the constraints.
+But to retrieve the constraints, from some-, something similar.
+(PERSON14) The problem is that we don't have any translation memory ourselves-.
+(PERSON13) Mhm, yeah, right.
+(PERSON14) We could, well-.
+We could create it obviously from parallel corpora.
+Uh, so, but we don't have it labelled for domains.
+And that's the benefit that you probably had.
+(PERSON13) Mhm.
+Yeah, yeah, yeah.
+It was about domain.
+(PERSON14) We are slowly working to-, towards like domain specific test sets in, uh, [PROJECT4].
+Because there we have the auditing domain and other domains as well.
+So that could be in principal used, but it's very small at the moment.
+Uh, we could create the, uh, like domain specific translation memories from the training data there.
+Uh, so that could-.
+If we moved to to that situation, yes we we would have some data at hand from sister project.
+So that makes sense.
+So please, le-, let's keep this in mind.
+And I wanted to say, uh, one more thing.
+And that is, yes, from [PROJECT4], uh, uh, I have, uh, uh, I have one or two people who are also looking at evaluation of domain specific, uh, systems.
+And the goal there is to improve the translation of like domain specific terms.
+So, uh, we are not that interested in in bleu score increase overall.
+Because we believe that the rest of the sentences will remain like incomparably similar.
+Uh, but. uh, we are looking at some like lexical checks for very small number of words and ,uh, we would like to see some improvements for these word specific.
+So that would be, uh, like further extension of the evaluation that you did , uh, uh, in the past for [ORGANIZATION3].
+Uh, we want to do something like that in [PROJECT4].
+So that may be a secondary evaluation, that would arrive from from there.
+The the people there are [PERSON6] and [PERSON9].
+I am just telling that so that we, we have the links, uh, to, uh, to them.
+So if they come up-
+<unintelligible/>
+(PERSON13) I also think -
+(PERSON14) <unintelligible/> evaluation of key words we should apply it here as well.
+(PERSON13) If I remember correctly, I think I also did some tests on some [PROJECT] data.
+So maybe that's like a domain specific corpus, corpora and test set?
+(PERSON14) Yes, yea, yes.
+(PERSON13) And I think maybe-.
+(PERSON14) that's definitely-
+(PERSON13) I think that kind of worked there also-.
+Little bit-.
+(PERSON14) Mhm.
+Yeah, so that's, that's it.
+So maybe I'll put you in touch, uh, with, uh, uh, [PERSON6] and , uh, [PERSON9] so that you-.
+Probably you can't, you can no longer access those, uh, old experiments by [ORGANIZATION3].
+But, you could redo them, uh, with the resources that we have here.
+(PERSON13) Well, I think I can find them somewhere.
+It's-
+I can have a look.
+(PERSON14) Yeah.
+(PERSON13) It's like three years ago, but I think-.
+(PERSON14) Yeah, if, if, if, yeah, it would be great.
+So if [PERSON9] comes up with some evaluation measure, uh, then, uh, it would be great if you could test it on your existing data if it shows, uh, uh, a bigger improvement than, than a medium improvement.
+(PERSON13) Yeah, sure.
+(PERSON14) Because it would focus on these specific terms.
+(PERSON13) Yeah.
+(PERSON14) That would be great, thanks.
+(PERSON13) Okay.
+(PERSON15) So, I, yeah.
+So this is all, I guess, right?
+Or is there anything else we need to discuss?
+Okay, just a just a quick question [PERSON10] how is how is the visa process going, is it is it moving well?
+(PERSON13) Yeah, it's okay.
+I've bought the tickets for [LOCATION2], to go to [LOCATION2].
+And and there I will make the visa, it will be in November.
+And as soon as I have the visa, I can go.
+(PERSON15) Okay.
+So, again, I'm reminding you just keep all the travel receipts and maybe we will see like what are the options.
+Like anyway, right?
+Okay, that I think that's that's it.
+Maybe maybe [PERSON10] can can you please add the part [PERSON14] asked you to to do.
+Because I missed it.
+So just add it to the [ORGANIZATION8] Doc, please.
+Uh, and yeah, I think that's that's all and see you see you next week.
+Or, oh, one one thing I forgot.
+Like there is [ORGANIZATION7] beer from six PM today and everyone is invited.
+And I know [PERSON10] that you will technically still be working but you can you can definitely-.
+<laugh/>
+Or [PERSON14] I think i think that is is possible that he can take a break sooner and and join in too.
+I think we should.
+(PERSON14) Sure, and I'm sure he will be more productive after a couple of beers that he will drink on his own connected -.
+<laugh/>
+(PERSON15) Yeah, so he will have an open chance to to meet other people from our department and yeah we are starting at six so which is in eighty eight minutes and hopefully it will take at least one or two hours.
+(PERSON14) Yeah.
+I'm I'm not joining this time unfortunately but-.
+Will you do, singing again?
+(PERSON15) Signing or singing?
+(PERSON14) Singing singing singing not signing?
+<laugh/>
+(PERSON15) I don't know if there was singing on the last Zoom.
+(PERSON14) Sometimes if if it's in person then there is often singing but-
+<laugh/>
+(PERSON15) We will see <unintelligible/> based on attendance.
+(PERSON15) Yes, the only, the only singing was when all all of our group were in in a flat.
+And you were just online.
+(PERSON14) Okay, okay.
+<laugh/>
+(PERSON15) So, it was possible to sing <laugh/> and for you just to listen.
+But I can't imagine doing it <laugh/> via Zoom.
+Everybody is-.
+(PERSON15) Well, it can be done I guess but-.
+(PERSON15) It can be done, yeah.
+(PERSON14) <laugh/>
+(PERSON15) Okay, so technically, like yeah, that's it.
+This is it for this week and see you on the [ORGANIZATION7] beer right yes.
+Okay, so thanks.
+(PERSON14) Yeah.
+Bye, bye.
+(PERSON13) Bye.
+(PERSON7) Bye
+(PERSON5) Bye, bye.
+(PERSON10) Bye.

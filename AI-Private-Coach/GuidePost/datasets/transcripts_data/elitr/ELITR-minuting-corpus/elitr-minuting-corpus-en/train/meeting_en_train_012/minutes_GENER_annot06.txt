@@ -1,0 +1,38 @@
+[PROJECT3] dry run 7.9.2020
+Attendees: [PERSON11], [PERSON9], [PERSON1], [PERSON2], [PERSON14], [PERSON13], [PERSON10], [PERSON5], [PERSON12]
+Purpose of meeting: Presentation of slides for each work package, discussion about ethical issues
+
+Summary
+• WP 6.1 - main goal is to provide and then hands the integration platform in order to make platform usable
+	• integrate the NLP engines
+	• work package is organized into four tasks
+		• 1st - platform dates meaning the evolution of [ORGANIZATION3] and [ORGANIZATION6] to handle all use cases
+		• 2nd - integration of the engines that are provided by all of the plans 
+		• 3rd - minuting demonstrator (development) 
+		• 4th - running [ORGANIZATION2] and [ORGANIZATION5] events	 
+• Details of the task update as of month 18 
+	• first half of the project - collect user feedbacks, focus on the use case requirements
+	• results - being able to coordinate workflows among over 90 different services
+	• [ORGANIZATION2] in June 2019 - delivered live and automatic subtitles to roughly 30 participants in 10 different languages
+	• WP 6.2 task - concerns the integration of the components developed by the research partners
+	• 6.3 task - implementation of the minuting demonstrator (provide minuting to participants of online meetings)
+	• 6.4 task - several events, particular year 2019 managed two [ORGANIZATION5] events, one in [LOCATION1] and one in [LOCATION2] 
+	• [PROJECT1] workshop [LOCATION1] - delivered live transcribed and translated subtitles in 10 different languages to 30 participants, 
+	• [LOCATION2] [ORGANIZATION2] - tested improved ASR and SLT configuration 
+• if video is uploaded to Youtube it can be banned 
+• workshop on NLP technologies is postponed to May 2021
+• T7.1 project
+	• [ORGANIZATION7] managed mainly the website
+	• Twitter and Instagram social media account for more traffic to this project
+	• GDPR - companies are so scared about GDPR
+• Work package 9
+	• main task is to handle GDPR stuff and ethical issues
+	• supposed to have no personal information in the resulting collect data
+• cluster for live demo test was not responding so the demo did not happen
+• disseminate the strength and utility of natural language processing
+• Google has near human ASR quality
+• specific landing page for companies
+
+
+
+Minutes submitted by: [ANNOTATOR1]

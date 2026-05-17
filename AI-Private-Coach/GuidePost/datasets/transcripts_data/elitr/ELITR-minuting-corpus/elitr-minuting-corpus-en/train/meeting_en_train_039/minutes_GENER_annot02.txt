@@ -1,0 +1,44 @@
+
+Date: 2020/05/04
+Attendees: [PERSON11], [PERSON10], [PERSON14]
+Purpose of meeting: Demo preparations.
+
+Summary of meeting:
+
+[PERSON10], [PERSON11]
+- choose [ORGANIZATION12] and [ORGANIZATION6] persons.
+- From [ORGANIZATION12] is chosen [PERSON13], from [ORGANIZATION6] [PERSON13].
+
+[PERSON10], [PERSON11]
+- discuss demo input.
+- German as input and English as back up.
+- There are prepared some Youtube videos that are already consecutevely translated into Czech.
+
+[PERSON11]
+- ask [PERSON13] for check Romanian.
+
+[PERSON11]
+- needed to choose the date for the demo itself.
+- There should be run a pre-demo session.
+- Will be arranged by Doodle poll.
+
+[PERSON10], [PERSON11]
+- is worried about the domain of the input.
+- Have to ask to [ORGANIZATION12] the domain of their ASR.
+
+[PERSON11]
+- Ask [PERSON9] for check which conferencing platform is the lightest for the demo.
+
+[PERSON11], [PERSON10]
+- [PERSON11] will present the demo.
+- Location will be probably remote.
+- The pipe will be run from [LOCATION1].
+
+
+Minutes submitted by: [ANNOTATOR4]
+
+		
+
+
+
+

@@ -1,0 +1,72 @@
+[PROJECT3] meeting - [PROJECT1]
+Date: 31.08. 2020
+Attandees: [PERSON10], [PERSON2], [PERSON3], [PERSON6], [PERSON1]
+Purpose of meeting: Discussing updates on [PROJECT1], [PROJECT6] and [PROJECT4] .
+
+-Objectives of the meeting.
+--Organizational things, upcoming meetings and discussing paperwork with a new co-worker.
+--Progress on [PROJECT6].
+--Update on [PROJECT1].
+--Discussing [PROJECT4].
+
+-Organizational things.
+--There will be a call on Thursday at 5 pm CET (03.09.2020).
+--The call is with the other project partners and it's usually held every month.
+--[PERSON2] and [PERSON6] will attend the call, also it would be great if [PERSON10] joined just to get more insight into the project itself.
+--Add [PERSON10] to mail list.
+
+-Discussing paperwork and details with a new co-worker.
+--It is needed for [PERSON10] to come to [LOCATION2] and enter a proper work contract.
+--Hosting agreement and other paperwork is being prepared.
+--Regarding the duration of the stay, mainly he needs to come because of the paperwork
+and then he can return home and work remotely, but it would be welcomed if he stayed.
+--The letter that has to be shown to the [ORGANIZATION4] in [LOCATION1],
+when applying for a visa, hasn't been delivered.
+--The [ORGANIZATION4] is closed at the moment, so he can't apply at the moment.
+--The paperwork will come from [PERSON8], so he should check the status of it with her.
+--And as soon as possible apply for the visa.
+
+-Progress on [PROJECT6].
+--Updates on [ORGANIZATION3],  after being nudged [PERSON9] is finishing the testing.
+--[PERSON3] resolved issues that [PERSON9] came across.
+--[PERSON9] was contacted again on Friday but haven't replied since,
+again the same situation, it's not known whether they started or not.
+--The communication is not very ideal and they will mention it on the Thursday call.
+--The main problem is that he mentions new and new issues.
+--There is also an objective problem with quality estimation.
+--The certificate on the server, which is used for decorative submission
+just expired but it was transfixed.
+--[PERSON9] is preparing the leaflets that will be handed out to the participants.
+--Hopefully next year a paper will be published.
+
+-[PROJECT1].
+--The back translation has begun.
+--There are already 4O parts/jobs running on the cluster, but they're set as low priority
+and can be skipped if it's necessary.
+--Every part takes about two hours.
+--There are no issues, they just have to discuss what's the next step.
+--The translations may also run on CPUs because many CPUs are not used at the moment,  so just to make it quicker.
+
+-Updates on {PROJECT25].
+--Taking inspiration from someone's paper where they were training a model to the metric evaluation.
+--Being a bit sceptical to machine-learned evaluation methods,
+whether it can be used for the evaluation itself as
+it might be sensitive to domain shift, etc.
+--It could be implemented in the pipeline.
+--The metric is semantically sensitive, so for example
+it could be used for paraphrasing to estimate semantic similarities.
+--Discussing that if they take the pre-trained model and fine-tune it during
+training it could be used for distinguishing.
+--With this, the semantic similarity could be guaranteed, which is something that older metric
+doesn't capture, because it's only using the surface forms for the evaluation.
+--The idea is the possibility to add as many constraints as they want
+and see how many can be added until it starts to make no sense.
+--This is what they will focus on at the moment until there are new alternatives.
+--Later the metric can be useful during some fine-tuning or development phases,
+but that will be discussed later.
+--Next week a meeting for this task will be arranged together with [PERSON1],
+so he can share his opinion on this matter.
+--It seems to be a good approach to the task, depending on the time consumption
+and how it will develop another or additional research direction can be added.
+
+Minutes submitted by: [ANNOTATOR2]

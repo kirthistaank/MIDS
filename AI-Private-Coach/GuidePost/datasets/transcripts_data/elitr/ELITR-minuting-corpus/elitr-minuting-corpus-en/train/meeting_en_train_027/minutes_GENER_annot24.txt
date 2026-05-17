@@ -1,0 +1,83 @@
+[PROJECT2] Remote meeting 
+Date: October 6th, 2020
+Attendees: [PERSON17], [PERSON18], [PERSON33], [PERSON34], [PERSON6], [PERSON10], [PERSON1], [PERSON32], [PERSON2], [PERSON29], [PERSON22], [PERSON10]
+Purpose of meeting: Progress checking, discussing current issues
+
+-Introduction.
+--Checking who is Me.
+
+-Discussing the deadline of manual annotation for WMT.
+--The conference is 18th November.
+--They are late this year with everything.
+
+-Who is analyzing the data.
+--[PERSON12]+ [PERSON15] + maybe [PERSON7].
+
+- Official welcome.
+--Checking participants.
+--Reminder regarding recording the meeting and giving consents.
+-Progress report checking
+--There were 2 recommendations given by reviewers.
+---They should specify what basic research advances are going to be integrated.
+---Everybody should try not only to develop the systems for research papers.
+----But also wrap them and include them as workers.
+---Summary of the publications should be improved and [ORGANIZATION3] should improve wording around life long learning.
+----Everybody should check publications. 
+----In multitasking, end-to-end ASR with language model has not worked.
+----Report will be submitted at the end of the week.
+-Recommendations for future work.
+--Preserve documents also in multilingual data collections.
+--Recommendation on joint paper.
+---Partners should propose collaboration.
+---Joint papers don't have to be limited on research partners.
+
+-Checking the progress of minuting shared task planning.
+--No progress.
+--Description of current work in [ORGANIZATION3].
+--Description of minuting team and its work.
+--Agreement on cooperation on shared task.
+
+-Issues on ethics.
+--There will be one person working on ethics from the high level point of view, starting in January.
+--First trial data for the shared task participants should be released in March.
+--Removal of people's names will happen in the autumn and early winter.
+--[PROJECT4] call issues with consent.
+---New people didn't agree with recording the meeting and [PERSON5] was upset about publishing the data.
+---Not giving the consents is problem especially when people speak a lot during call- everything must be removed.
+--Discussing withdrawal of consent in various stages.
+--Discussing consent just for certain purposes- meeting summarization, public usage, life-shipping to participants.
+--Anonymization/synonymization possibilities and their impact on the data.
+
+-Possible collaboration between [ORGANIZATION15] and [ORGANIZATION3].
+--End-to-end spoken language translation.
+
+-Recommendation number three.
+--There should be a mitigation plan for the case there's no [ORGANIZATION12] Congress.
+---[ORGANIZATION2] was suggested-not the best idea, they didn't take part in a tender - not sufficient technology + people, but anyway, they will contact project officer.
+---Meta forum was proposed including advantages/disadvantages and trying to find information on meta events.
+----Meta forum twenty twenty will be used as a test event. 
+----Systems will be run there without too much publicity.
+-Suggestion to provide subtitle service on various events.
+--Discussion what type of events.
+--Conferences in India were proposed.
+
+-Covid extension.
+--Will be filed.
+--Parties should prepare arguments in order to justify the request for extension by the end of the week.
+
+-Summary of the meeting, other things will be discussed in small groups.
+
+
+
+Minutes submitted by [ANNOTATOR1]
+
+
+
+
+
+
+
+
+
+
+

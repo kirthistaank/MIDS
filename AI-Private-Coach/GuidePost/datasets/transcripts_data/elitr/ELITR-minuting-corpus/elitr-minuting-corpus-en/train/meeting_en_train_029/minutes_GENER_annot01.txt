@@ -1,0 +1,41 @@
+[PROJECT1] Surge Organisation 
+Thu, March of 26th, 2020
+10:40, (place?)
+
+Attendees: [PERSON4], [PERSON7], [PERSON17], [PERSON1]
+The purpose: A summary of the work, which was done.
+
+[PERSON10]
+Preparing the domain adaptation for the Monday seminar done through Zoom
+    Two Monday seminars at all - both [OTHER8] speaking 
+
+Possibility of measuring word error rate increase caused by quality degradation at the remotely organized Monday seminar
+    It can also be tested at some older audios to access loss in precision.
+
+[PERSON7]
+Forced alignment 
+    Through the README and [OTHER5] to explain [PERSON6], how to run ut
+Log for Mock conference 
+    To put the path here
+ASR for [PERSON12] and [PERSON16]
+[OTHER2] - MT
+To integrate live audio visualizer - implemented by [PERSON17]
+Log for Lang tool
+    To preserve segment level timing
+    The format of interleaved lines - some lines are text, some lines contain just the numeric timestamp.
+
+[PERSON17]
+Audio visualization tool is finished
+The model training for all the languages from data set in [ORGANIZATION4]
+To do - evaluate the model on all the languages, if it works to describe it as well
+    After the evaluation, the model should be comparable with other models
+
+The deadline for [OTHER2] was extended - April of 20th - it is for the system outputs, but not for the paper submission
+
+Discussion between [LOCATION2] and [PERSON7] about commands repository
+
+[PERSON1]
+Paper submission
+Evaluation of ten [OTHER8] to [OTHER3], [OTHER8] to [LOCATION2] MT models for [OTHER2] - still working on that
+
+

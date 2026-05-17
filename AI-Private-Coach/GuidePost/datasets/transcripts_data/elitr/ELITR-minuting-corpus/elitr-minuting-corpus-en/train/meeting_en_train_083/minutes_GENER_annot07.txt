@@ -1,0 +1,26 @@
+[PROJECT1] Surge
+
+
+Date: 07. 04. 2020
+Attendees: [PERSON12], [PERSON8], [PERSON6], [PERSON3], [PERSON10], [PERSON14], [PERSON11]
+Purpose of meeting:  Work status update
+Agenda: 
+* Tool segmenting the audio
+* Multiparallel test set
+* Audio visualization
+* Other [PERSON3]'s task
+* 21 languages test set
+* [PERSON11] be in touch with annotators
+* ASR worker not as good
+	* Creating new own one 
+* Czech ASR experiment
+* Tool to find the end of the sentence
+* 42 to 42 model
+* [PERSON10]'s free TPU capacity
+* Back translation
+
+
+
+
+
+Minutes submitted by:         [ANNOTATOR1]

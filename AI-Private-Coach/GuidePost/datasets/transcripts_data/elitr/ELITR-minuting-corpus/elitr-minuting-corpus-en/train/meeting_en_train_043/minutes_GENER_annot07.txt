@@ -1,0 +1,22 @@
+[PROJECT5] Surge
+
+
+Date: 14. 04. 2020
+Attendees: [PERSON16], [PERSON3], [PERSON6], [PERSON14], [PERSON4], [PERSON12], [PERSON9]
+Purpose of meeting:  Work status update
+Agenda: 
+* Work error rate
+	* [ORGANIZATION7] ASR comparison	 
+* [PERSON9]'s outputs
+* [PERSON6]'s work - [PROJECT3] wrapper and online text flow
+	* Big batches problem
+* Preparation for dry run
+* 21 [ORGANIZATION2] languages
+	* [PROJECT1] 
+* Multilingual system
+	* Demo 
+* Papers to send to [PERSON17]
+
+
+
+Minutes submitted by:  [ANNOTATOR1]

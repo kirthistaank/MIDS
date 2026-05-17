@@ -1,0 +1,904 @@
+(PERSON7) Everybody is busy,
+so let's make this very quick.
+Ehm, hmm, this is just an update, ehm,
+so let's follow the agenda on the [ORGANIZATION4] document,
+the presentation platform, uh,
+[PERSON12], what do you mean by functionalities to be checked?
+(PERSON12) Okay.
+(PERSON7) Yeah.
+<laugh/>
+(PERSON12) Do you hear me?
+Yes, hm, okay.
+We have refined the function of analyses of presentation platform 
+and ehm, we would like to share it with you [PERSON7] and [PERSON6] can your team.
+In order to check if we misunderstood something,
+or if there something  we need to add to our analyses, 
+to check in- in this.
+(PERSON7) Hmm, exactly.
+So if you scroll down little bit in the agenda,
+there is a slot on pr- presentation platform.
+So I just learn from you,
+what is the status of development.
+You have the the plan,
+you also has a timeline, 
+like after we agree, 
+if we agree on the functions that should there you in the next week.
+When could there be a prototype?
+(PERSON12) Yeh, 
+it's, hmm, we are still planning the development.
+Of course we started,
+but there is not due date at the moment, some some.
+(PERSON7) Yeah, yeah. 
+So, what it
+(PERSON12) But, mmm...
+First of all we have to check the function analysis.
+(PERSON7) I totally agree.
+Let's just think that uh, we already need it really working in well tested, uh,at the end of June.
+So I think that the first prototype should be ideally ready, uh, on the 7th of June, like the first very first shot with with box and all of that.
+Would that be feasible?
+(PERSON12) Ooo, I am not able to tell you if it's feasible, 
+but I taking notes.
+And I will sure it we <unintelligible/> the team.
+(PERSON7) Ehmm, yeah, okay, 
+and ehm find a slot for the technical discussion.
+That's exactly what you want.
+And I wanted.
+<laugh/>
+So, are you when is your earliest date for uh, for technical call, eeeeh,
+tomoo-
+To to like this the next week would-
+(PERSON12) Yes, sure.
+(PERSON7) Monday, Monday morning?
+(PERSON12) Nn, Monday morning, ahh, 
+actually, we have a call twelve o'clock,
+but early it's perfectly fine for us.
+(PERSON7) Okay, yes, so Monday, at nine, or ten or as you wish.
+(PERSON12) Well, Monday at 10, let's see.
+(PERSON7) Okay, okay.
+Perfect.
+(PERSON12) Nice.
+(PERSON7) So Monday the 20th of May at ten, 
+and will discuss what what we need in the platform and-.
+Yeah, perfect.
+So this all is resolve the presentation platform.
+Then the integration with [PROJECT4].
+So.
+Actually I have noticed if [PERSON4] is on the call.
+(PERSON4) Yes, yes.
+(PERSON7) Yeah, perfect.
+So great that you are ready to start calling.
+Excellent.
+So again, when t- eehm-
+When do you expect to have the the prototype?
+How difficult is this?
+Is it for two weeks or three weeks <unintelligible/> it's hard to gets?
+(PERSON4) Okay, okay, ehm,
+I refuse the [ORGANIZATION2] tutorial,
+I have taking a look at the some work <unintelligible/>. I don't think <unintelligible/> dusted off my copy <unintelligible/> 
+(PERSON7) Okay.
+(PERSON4) Number, yes...
+I, yeah I think I know what I need to do.
+So I'm gonna start coding next week.
+I'm very optimistic.
+I can have a prototype soon like within a couple of weeks <unintelligible/>
+(PERSON7) Yeah.
+(PERSON4) <unintelligible/> Translation of all sentences.
+(PERSON7) Yeah, yeah.
+The incomplete sentences are question.
+(PERSON4) Yeah, that's where the big question mark so at the moment, that's what I'm not so sure.
+(PERSON7) So for th- for this we have tried creating corpus of incomplete sentences.
+And we are continuing translation of our sentence level transformer for these incomplete sentences.
+And for some reason the training diverged,
+[PERSON6] could tell you more, ehm,
+but we have tried only once.
+So we need to try a few more times and
+Do we have any one from eehm-
+yeah, we have [PERSON3].
+So, [PERSON3], could you disclose,
+how should we best handle the- the incomplete sentences, 
+because what we do not want to do is to rely on the cashing client.
+One reason is that we don't have the time to to fix the cashing client,
+or it's reliable and all that.
+But the main reason is the cashing client makes the latency too big for the final users.
+So what we really want to have is ehm to translation of incomplete sentences for the user experience.
+So the question is, ehhhm, ho- 
+what is the output of the ASR actually, 
+when does the ASR decide to to start a new segment, 
+like to close the the previous segment.
+When I'm looking at the outputs of of the ASR,
+it's not complete sentences,
+but it's closing off every now and then, 
+so how does this work?
+And what can we expect to to receive for the MT part?
+(PERSON6) The ASR does not close sentences at all.
+ <unintelligible/> is continues sequent <unintelligible/>
+(PERSON7) Okay.
+(PERSON6) Sequence labeling task which labels were <unintelligible/> 
+ And eventually will place a label to end the sentence.
+(PERSON7) And that's where if you if you like bur-
+If you run into in in the EB client, 
+and you see the lines great deal extending, 
+and then suddenly the lines being cut short.
+This is where the segmentation worker has decided to to end the sentence, right?
+(PERSON3) If you request in the EB client text, 
+then yes.
+If you want to see right ASR output I'm not sure if <unintelligible/> you will have to request the unsegmented text.
+(PERSON7) Yes.
+So the from the client.
+And there is-
+you see individual words there, uh, 
+in the vertical format, so that one word per line
+and the time stamps, 
+yeh, 
+so the the question is,
+which approach should we take as the input for for [PROJECT4] client.
+Should we rather rely on the segmented output already
+but then we need to create the segmenters for all the ASR languages. 
+Well, you have English,
+you have German, 
+but we don't have Czech.
+And still it's it was not sentences like what what I was getting there.
+(PERSON6) <unintelligible/> Both we calls <unintelligible/> completely spokens of <unintelligible/> and ASR can change <unintelligible/>
+When when ASR decides that given given that causes so far, maybe <unintelligible/> sentence would be better.
+And so the ASR can change it's mind.
+(PERSON7) Yeah, so and the output, if you look at the individual segmen-, 
+individual tokens from the if you if you look at the unsegmented output.
+It would mean that he would suddenly see the same timestamp that you already saw before.
+But with the same timestamp there would be new token,
+and if this if the timestamp still falls in the range, 
+which is like operational in the segmentation worker, 
+then it will correct it.
+And emit he new hypoteses within intermediate work changed.
+And it can-
+maybe also happen that the uhhh-
+that segmentation worker has already closed the sentence.
+But still the ASR worker decides to fix word before this end of the sentence is that possible?
+(PERSON6) I don't know the exact technical detail of that bound about right.
+But the ASR signals is explicitly, but come a time when the when the sentences markets final 
+And that will also <unintelligible/>
+(PERSON7) Yeah, so what do-
+in general if we run the the segmentation worker,
+if you run pipeline and if we look at the outputs of segmentation workers,
+we should train our empty systems to work on all the individual lines that we are getting from these.
+And some of these lines will be complete sentences.
+And some of these lines will be partial sentences.
+But generally they will be starting at the beginning of a sentence, 
+right?
+Is that correct?
+(PERSON6) Yes,
+I'm-
+I'm not train with these system myself I think we're in the process of doing them,
+but my intuition would be do not put too much emphasis the incomplete sentences.
+(PERSON7) Ehm.
+(PERSON6) The algoritm what the system will be judged by the final translation, 
+and you should <unintelligible/>  the translation was by having incomplete sentences, 
+which I'm probably not going to be useful translations.
+(PERSON7) So. Let me-
+yeah, let me let me do copy paste of an ugly, or-
+Actually, I might try share a screen if that works,
+how do I share the screen,
+that one select window or screen.
+And there is screen, hmm, 
+allow.
+So hopefully I'm now sharing my screen, 
+if you yes, 
+and this is this is the output that we get that we got at the last conference, 
+the mock conference with the interpreters.
+So this is the output of the secon- English unsegmented text, 
+to s- to text.
+So.
+This is the segmenta- English segmentatiton worker, 
+and we are getting outputs like this.
+So you see that it has been already process by the segmentation worker, 
+and you have the punctuation, 
+but it's still extending the sentences.
+And then suddenly we see such eee such a message like wanted to do more later on.
+I saw statistics on the Internet.
+And in said that I'm.
+So uh, 
+is this the type of input that our empty system should be ready for,
+which is starting in the middle of a sentence, 
+having full sentence.
+And then continuing with the third one for example,
+it can happen here that- 
+this one, the middle line.
+Can.
+Can you see it?
+Is it.
+Is it legible on?
+(PERSON6) I can see it.
+(PERSON7) Yeah.
+(PERSON6) And have to check in details to logs. 
+But I think that is what <unintelligible/>, yes.
+(PERSON7) Yeah.
+Okay, so [PERSON4].
+I think that we should proceed, 
+[PERSON] play with [PERSON6] and you.
+And we should change our training data for the MT systems,
+so that they would gracefully handle input like this.
+(PERSON4) Okay.
+(PERSON7) Translating partial sentences and even more sentences in one go.
+This is not far from the context,
+dependent mission translation that we have tried for for this [PROJECT1] so technically the segments are not too long, 
+they never spent too too much beyond this,
+what what beyond  this language that your looking at now, 
+and we just need to make sure that the the transform model handle that well.
+And our idea is to is to train normal sentence to sentence models, 
+those that you already training.
+And and find tune on these strange- strangely segmented inputs.
+(PERSON4) Sorry, [PERSON7], why does segmentation change, though it it sort of- it has.
+I wanted to do more later on.
+(PERSON7) Ehm.
+(PERSON4) It is off the eye?
+Whats going on what's that mean?
+(PERSON7) [PERSON3] would know, 
+I have, I have no idea 
+(PERSON3) Um <unintelligible/> for one thing it's also possible that if it is I'm it knew hypothesis, the segmentation as we run output segmentation might be different.
+That's one possibility.
+The other possibility is that maybe if ASR only changes one word for the fact that my <unintelligible/> one word.
+Um, I would have to be at the coding <unintelligible/>
+(PERSON4) Hmm, cause cause the first segmentation is fine.
+And then then a split softly eyes.
+We wanted your empty system was use the first segmentation.
+I want to do more later on which is absolutely fine and then it is gone crazy. 
+And you if-
+(PERSON7) it is not really crazy. What what I'm miss here,
+and I think that's that's a problem that has to be solve very soon is that the herd zero.
+These are probably the timestamps.
+And the segmentation worker is not emitting timestamps,
+it receives timestamps with the individual tokens from the ASR,
+but it doesn't emit them.
+Right? 
+Is that is that correct [PERSON3]?
+(PERSON3) Ehm, it doesn't emit something.
+I'm not sure what exactly those on.
+(PERSON7) Yeah, so I would.
+I think that this is something that [ORGANIZATION6] needs to investigate and and improve the the segmentation worker so that it emits the timestamps 
+because these timestamps would then allow us to like handle the translation well.
+We need you.
+Uh, realize that this part.
+This saw statistics on the internet,
+actually starts in the middle of or like is it some continuation ehm of of something which already output.
+And then the alignment <unintelligible/>
+[PERSON1]
+(PERSON6) I'm not sure it is <unintelligible/> here.
+<unintelligible/>
+(PERSON6) We have already probably getting good translation of that sentence.
+So we really don't wanna be translating again and complainig about <unintelligible/> time.
+(PERSON7) Yes, yes.
+Yeah.
+So the problem is that if we have from these.
+Even if if these are not zeros.
+If the are-
+If these are the timestamps of the beginning
+and the end of this later and not,
+then we we are not uhm,
+we do not know the the timestamps for the individual parts like here internet full stop.
+And then we don't know where to where to start, uh, 
+like redoing the translation.
+So there will be quite quite on tricky coordination between the components.
+Uhm.
+So how do we proceed?
+We have some of the sample data.
+I think that yeah.
+I think that the the order of-
+the thing that the thing that we have to do is first.
+We need to ask [PERSON3], 
+or someone from [ORGANIZATION6] to validate these locks to to help us create a reliable locks from the ASR workers,
+so that we are seeing what we are supposed to be seeing,
+and this should include timestamps.
+And then we should, eehm, yeah,
+and then we should decide how to-
+the baseline would be indeed to follow the segmentation coming from the segmentation worker, 
+which uh, 
+which get worse, here with the- with the eyes saw statistics, 
+and then the final experience of the the user experience the of translation would not be good, 
+because the statistics of on the internet will translate only the later part of of sentence.
+I think we should go for this baseline for for the workshop.
+So the baseline would be to have models that translates this.
+And even if it's damaging the tail of the sentence which was previously translate better.
+I would prefer that uh,over like-
+over translate over waiting for full sentences.
+When the cashing cli-
+cashing worker.
+So I think for the user experience it will be better
+if we translate these incomplete and slightly damaging sentences, 
+uhm, rather than having the cashing worker, 
+which we have had in the past, uh, as as a fair.
+And the cashing worker took too much time to actually close the sentences.
+And and only the junk for translated to lights.
+So the baseline is to uh, 
+keep the segmentation coming from the segmentation worker and translate sentences like this.
+The improved goal probably not for this-
+this workshop would be to preserved the good part, 
+as it was translated already, 
+and, ehm, then only update the next part.
+And this could be also done actually at the level of of this source words strinks.
+So we didn't -
+We do not necessarily have to rely on the alignment.
+We can realize that we already saw this.
+I saw statistics on the internet.
+We could realize that this is the suffix of that, 
+and we could realize that we don't-
+we want to skip this from the imput.
+So we could uh, this this-
+This cleverness could be part of the empty empty worker
+(PERSON3)  I don't want to <unintelligible/>
+and the risk of false information for for the most part I think the empty worker does do these things 
+and <unintelligible/> details I <unintelligible/> recommend  you have to <unintelligible/> that I posted last time <unintelligible/> 
+which is the code for the emptyworker, 
+not the actual MT part
+but every everything from the moment it's <unintelligible/> your network and after it get back from your network
+So all the the change  together, were <unintelligible/> this part and <unintelligible/>
+(PERSON7) Yeah.
+So this is this is important for [PERSON4].
+If you and [PERSON4] could like synchronize
+and make sure that [PERSON4] will know where the relevant code is,
+then [PERSON4] can decide whether in his re-implementation for [PROJECT4].
+He can directly use that code,
+uh, or whether he has to like created that from scratch for some reasons, 
+and then we would have to postpone it.
+And it will have only the baseline that I just described for the workshop.
+Does that make sense?
+Do you agree?
+(PERSON4) That sounds reasonable to me here.
+(PERSON7) Yeah, so [PERSON4] please, take an old, 
+and and make sure to try to look up of this thing in the existing code, uh, in the <unintelligible/>  ticket. 
+And then let me know, 
+maybe in the call next week, 
+like  whether whether do this worked but for the-
+I think that [PERSON4] we should try to train the models to be ready to accept like partial sentences, 
+and even inputs that started at the middle of of of sentence.
+So me and [PERSON6] will try to get the  this part working, which is like finetuning normal empty models for a bad-  
+badly segmented inputs.
+So [PERSON6] please take the note on your side, 
+but we need to figure out what why we failed
+and we should get that running, 
+and that way, hopefully uh, 
+will have the correct segmentation from the existing old from the [ORGANIZATION6] emtpty workers, 
+available also in the new [PROJECT4] empty worker.
+But as a fall back we should have a models that are ready for for such input.
+And one thing is still missing.
+And that the segmentation worker trained for Czech,
+but that that is also really depended obviously on the on the ASR for Czech.
+Ok.
+So I'll stop sharing the screen, 
+and let's move to the- let's move to the [ORGANIZATION4] document again.
+So there is, 
+where are we integration of [PROJECT4]
+This is what we have covered.
+So, still not sure how to best handle two options, 
+two options reuse called from [ORGANIZATION6].
+[PERSON4] to synchronize with [PERSON3].
+And tell us next week if this works.
+Option two is to train MT or fine tune send level models to gracefully handle badly segmented input.
+And this will make a fall back solution for <unintelligible/>
+Well,
+fully following uhm the segmentation from the segmentation worker.
+Even if it damages tails of previously translated sentences.
+Okay.
+Then the production client.
+That's [PERSON6].
+Well, the the thing is that EB client will now <unintelligible/> in a different connector.
+And it's uh, the the main-
+What is the main message [PERSON6].
+Well.
+We would just rename that, 
+right?
+<laugh/>
+[PERSON6], are you there?
+We can not hear you.
+I do not know what's uhm,
+Yeah,
+I don't know, if [PERSON6]'s here.
+No, we can not hear you.
+Okay,
+so never mind.
+The idea is that we are-
+we are working on this cruise control.
+And it will use this report, 
+which is now called the production connectors, 
+so that it is no longer labor prototype.
+And and we are testing it in the in the dry runs.
+Okay, do we have?
+If if [PERSON6] is able to connect better later on,
+then we can learn perhaps more details.
+we don't have [PERSON9] here English and German ASR, 
+what is the status there.
+I think [PERSON3] can say that-
+You probably think it's all right.
+It is it is working, 
+and nothing has to be done,
+right? 
+Or are there any, uh, any changes with this?
+(PERSON6) <unintelligible/> ASR working fine.
+(PERSON7) Yeah, okay.
+(PERSON6) We spoke yesterday <unintelligible/>
+(PERSON7) Yeah, one thing is the language model adaptation.
+So that's uh, adaptatiton.
+Are you ready for us to send the plain text files and add work granularity.
+We can have plain text files with relevant well slide-
+from the slides from related documents, 
+and we can give it to you at the level of individual presentations, 
+or we can lump all of those together for the day, 
+or for the whole today workshop.
+Uh, so, what type of data can you make use of.
+(PERSON6) Generally any any sort of text is <unintelligible/>,
+on sure exactly how detailed it has to be
+I'm, I'm not sure.
+(PERSON7) Yeah.
+So please investigate 
+whether in the end, you are going to lumb them all together, 
+and prepare one language model
+and like start the workers with the one language model for this workshop, 
+or whether there is a mechanism that we could make it presentation or per day.
+I do not know how difficult is it,
+to get it change to a different language model.
+(PERSON6) So the minds of the mechanism,
+we are not using such a mechanism anymore <unintelligible/>
+we have one thing it's a lot of effort <unintelligible/> language models and it's also possible that models system don't need adaptation any more.
+(PERSON7) Okay.
+(PERSON6) I will have to ask back ASR people 
+(PERSON7) Yeah.
+So, please you,
+let us know next week, 
+yeah, 
+[PERSON3] to investigate what will be supported at [PROJECT3].
+So it's up to you.
+If you decide that you don't want to do any ASR adaptation to the text, 
+that's fine,
+if you do it and because you you, you find it like useless,
+If it is the model is is the domin indepedant enough that that will be sufficient.
+If you decide that you would like it from us at the level of individual presentations,
+we will have to discuss the technical details like where to put the files and all that we're surely collecting the files.
+And will try to do fine tuning of the machine translation models based on <unintelligible/> that that we can get based on the mono- monolingual include files.
+So we're surely doing domain adaptation somehow,
+and will see how far and get it.
+[PERSON3], ehm, okay.
+Okay, 
+so please tell us next week then,
+please tell us next week.
+Excellent.
+The Czech ASR.
+Well, [PERSON11] is not here, 
+but he is working hard to get the pipeline, 
+the training for call the running, 
+what we are.
+So, uhm, yes,
+we should call the integration,
+call the integration and segmentation worker for Czech.
+We are still in the face of creating the ASR models ourselves.
+And, uhm, we have not yet started with the called integration,
+really like coding the-
+we do not have the final decision, 
+how we do it.
+So this is still very risky, uhm,
+whether we will have Czech ASR for the work- workshop or not, 
+but still-
+the workshop runs in English.
+And as you know, 
+we are organizing to have student translators there.
+So there will be, uhm, originally English from the floor.
+There will be one or two English respeakers,
+like parallel respeakers to choose the one which works better.
+There will be one interpretation of from English into Czech and one interpretation from Czech into German.
+So the German would be double delayed ehhh, 
+but still thanks to this double digestion it can be better.
+So we will see in practice, 
+whether we like-
+which output we like best.
+Whether from the ASRs of English,
+and which one of those.
+We can skip ASR if we don't have it.
+And we can have the ASR from, uh, from German,
+if that's if that appears the best.
+Okay, so this is to give you the the whole picture.
+[PERSON6] should be able to speak now,
+but-
+(PERSON6) Yes, can you hear me now?
+(PERSON7) Yes, yes,
+(PERSON6) Perfect.
+(PERSON7) So is there anything about the connector to the the main client to say? 
+(PERSON6) I don't think so just- there will be another <unintelligible/> I changed <unintelligible/> the whole structure and we will continue deployment there.
+(PERSON7) Yeah, okay. 
+Then for the daily testing so far-
+uh, we don't have the daily test yet,
+but we have the install and test scripts, 
+and we run them every now and then.
+So I think we should as weeks pause we should indeed do this on a daily basis.
+But it is not critical.
+We're, we're already using that report.
+And and we are,
+we are doing the test manually not not automatically.
+But it's-
+(PERSON6) Yes.
+(PERSON7) It's there.
+And then the machine translation systems,
+multilingual English tool any is currently training,
+okay,
+that's good, because the the student I have for this is not delivering anything.
+He is still like-
+he knows how to train [PROJECT4],
+but somehow it doesn't really work for for him.
+So if if we can get the models from [PERSON4],
+that's more-
+is much safer, yeah.
+<laugh/>
+Uh, and the <unintelligible/>
+I think we have discussed this 
+(PERSON6) Yeah, we already cover that point, I guess um, 
+you mentioned you will gonna try to get some data from [PERSON8].
+(PERSON7) Yes, ehm.
+(PERSON6)  It any further with that?
+(PERSON7) So thi- this will be.
+Well,
+I have not emailed, ehm, you know him as well <unintelligible/>, 
+but I've talked to him before,
+and I don't have the data, the input data now,
+because we are still collecting them from-
+Actually we're,
+shortly we should be deploying the platform, 
+the tiny webpage to collect the documents,
+then  the [ORGANIZATION3] will populate this with the documents, 
+then I will convert the documents the plain text.
+Then I will send these plane text to [ORGANIZATION7], 
+then [ORGANIZATION7] will extract uh, all they have.
+And then will get the data from the [ORGANIZATION7].
+So this is something that well has a long pipeline, 
+but we'll get there, uh, someday.
+So uh, what is the latest date,
+when we needs the input for the fine tuning?
+So, we need the MT domain dependent data for MT fine tuning by.
+So.
+(PERSON4) Fine tuning I guess we don't need too much time, probably-
+(PERSON7) Yeah.
+(PERSON4) One week of the event would be okay.
+(PERSON7) Wednesday, June 19, yeah.
+Still it's quite early.
+Okay, so I'll work back from this date, 
+and and hopefully will have it um-hum.
+Yeah, [PERSON3] is  empty that's on a German to English, 
+mainly because the the English ASR will be a uhm,
+so so then, our main input will be the English ASR 
+or one of those from the rich speakers,
+the secondary, like the fall back input could be from German to English, 
+and then I would indeed ehm rely on the [ORGANIZATION2]  platform to do to do the pipoting.
+So if we r-
+if we select the German ASR as the most reliable source, 
+even with the double delay.
+And the extra pivoting,
+then we would need the German to English empty system, 
+and then the English to multilingual empty system.
+So I would now like to learn from [PERSON3], 
+that this empty system works and emits outputs in such way that the the subsequent English to something, 
+and the system can directly connect and [ORGANIZATION2] platform will will do it,
+is that true?
+(PERSON10) So it depends emits output, 
+I don't think that the the the <unintelligible/> that should work, 
+I I can report back to you. But I can say that English- German to English is probably our best translations systems <unintelligible/>  transform model so would get better.
+(PERSON7) Yeah, from English for ehm <other_yawn/>.
+Yeah, so and also [PERSON12].
+So this is something where [PERSON12] and you should coordinate.
+And tested whether the platform indeed support pivoting, 
+cause you, at the [ORGANIZATION6] you also have English to something empty systems.
+So please try a pipeline where you use your-
+where you use German ASR,
+German to English empty system
+and then English to anything just for the sake of testing this this pipeline.
+(PERSON12) Okay, just I'm taking note.
+We see German ASR,
+German to English machine translation, 
+(PERSON7) Yeah.
+(PERSON12) Okay, and?
+(PERSON7) And English to anything machine translation and the presentation platform at the end.
+(PERSON12) English to anything..translation... 
+(PERSON7) Yes, this pipeline, ehm,
+and German, yes, the German ASR [ORGANIZATION6] German English empty,
+[ORGANIZATION6] English whatever,
+whatever empty and then presentation.
+(PERSON12) Okay, ehm,
+sorry what do you mean for pivoting.
+(PERSON7) Well, the pivoting is that you connect these two empty systems.
+That's the,
+that's the idea of pivoting,
+that you are translating to whatever via English.
+(PERSON12) Okay, okay.
+Thank you.
+(PERSON7) So please, test this, 
+and let us know again next week, 
+if this works, 
+because then we will be replacing this part was the [PROJECT4] worker that [PERSON4] will be developing,
+but we need to know that the rest works.
+Okay.
+Thank you.
+Uh, so [PERSON6].
+Test the fine tuning from start document on <unintelligible/> real.
+Uh, yes.
+So there is a new idea.
+Big <unintelligible/> next only corpus.
+(PERSON3) I will alreday  report everything works.
+(PERSON7) This works?
+Okay?
+Excellent.
+(PERSON6) <unintelligible/> ASR outputs
+(PERSON7) [PERSON3], what were you saying?
+What works?
+This the German ASR this one.
+[PERSON3]  are-
+[PERSON3], are you looking at the [ORGANIZATION4] document?
+[PERSON3] confirms this works except the new [ORGANIZATION2]  except the nonexisting
+<laugh/> 
+[ORGANIZATION2]  presentation platform. 
+Right?
+(PERSON3) Yeah,
+so I just tested by starting one about English workers and pivoting over English worker.
+(PERSON7) Yeah, 
+and it was in the at the level of partial sentences?
+So there was no cashing, 
+cashing worker involved?
+(PERSON3) Yeah.
+(PERSON7) Yeah, 
+okay, 
+right.
+Yep.
+So than [PERSON6]
+can you very briefly say about this, 
+because we were discussing this ehm, what is your idea.
+(PERSON6) Yes.
+(PERSON7) Wide failed, 
+and then so on.
+(PERSON6) Ehm, 
+so I tried to fine tunder original model on on on sub sentence window of size three to fifty words 
+and we did to cuts on alignments.
+So we have-
+So we have paralel subsentence corpus, 
+and we have for now only to that corpus two milions of words,
+about one thousand documents-
+and soon we have audias of these documents.
+So we can run ASR on this and train on the-
+on the output from ASR with errors against the references.
+(PERSON7) Ehm.
+(PERSON6) But for it we need to the final hypoteses from ASR.
+And now I had publick-
+Now, now I have new idea that we can take paralel big paralel text only corpus then we are text to speech on it,
+and then ASR,
+and we try and on the output from ASR with- with errors against the original targets.
+(PERSON7) Hm, yes.
+So aa-
+[PERSON3] would you expect this to work reasonably well, 
+and what text to speech should we use?
+I would, ehm-
+I would be somewhat skeptical about ASR from t-
+from text to speech.
+(PERSON3) Yeah, so would I on this very most important thing would be text to speech on models one speaker.
+And know, know background conditions, very, very <unintelligible/> I am not ASR researcher.
+But I don't think that it would be <unintelligible/> data at all.
+(PERSON10) But it will do the same errors on name entities and rire works as usual speaker at least.
+So I think um, the empty system can prepared for the such errors.
+(PERSON6) Yeah.
+Looked to one of the the top as SLT systems in last year's <unintelligible/>, 
+and they were using this technique as-
+It was only one aspect of their systems.
+So I'm not sure exactly how- 
+(PERSON6) Important-
+(PERSON10) How effective it was but they were using this.
+(PERSON7) So,
+Let's us keep this idea in mind.
+But I don't think that it's-
+It's good to for suite for this workshop at the end of June.
+(PERSON6) Yeah.
+(PERSON7) So uh.
+So let's plan it-
+So let's postpone this after [PROJECT3]. 
+What I like though is the first one to train on real ASR from <unintelligible/> docks.
+So this is this is something that you are probably already doing so uhm for this.
+Uh.
+We need to run [ORGANIZATION6] ASR on the <unintelligible/> docks,
+record the locks, 
+ah including timestamps, 
+and then, and then like fiddle with the alignments and segmentation ,
+uhm, 
+yeah making our paralel data for training of empty similar to the uh segmentation 
+or like miss segmentation ehm that we get from the ASR segmentation worker.
+So this is this is like a realistic test,
+where we have the audio, 
+and we can observe real segmentation as we get it from the segmentation worker.
+And then we can use this segmentation with uh the paralel data to change the paralel data,
+so that are segmentation mimics what the what the segmentation workers is doing, 
+and this would be the uh, the data for fine tuning the empty systems.
+So.
+Okay, so we will let you know uh the next week, 
+how this whether we've succeeded, 
+whether we were able to uh, to proceed to to process that docks with [ORGANIZATION6] with the existing workers or whether we failed,
+and so on. 
+Yeah, 
+okay,
+thank you.
+And yes, ah, waiting for the integration.
+So will know from [PERSON4] how that works.
+The <unintelligible/> binding,
+I agree.
+It's not a priority at the moment 
+because we are planning to rely on the on the [PROJECT4],
+then anything, uh, yeah, yeah,
+so anyone coming to [LOCATION1] in person?
+This is just to do the planning.
+Are you, is anyone planning to come for the workshop?
+() I do. 
+(PERSON7) Well, you are in [LOCATION1].
+<laugh/>
+() Oh, yes.
+(PERSON7) So let us know, 
+or especially [PERSON5] know, 
+if you were planning to come in person to to see it live.
+I think it would be useful.
+But it is not critical.
+It would be.
+It would be useful, 
+but we could do it,
+ehm, even say, would be extremely useful for you to see the whole thing in in practice, 
+because the last person we had here were [PERSON2].
+Uh, who knows how things work,
+and then it is a <unintelligible/> getting <unintelligible/>.
+[PROJECT5].
+Yeah, and and [PROJECT5], but [PROJECT5] is known project.
+So it would be better if if someone from the project was was here.
+Just let us know later on.
+We have discuss the presentation platform, 
+and then is it-
+Is there anyway this like a feature request for [ORGANIZATION2]?
+Is there a way to avoid broken workers while starting a client?
+If we know that some work-
+Yeah?
+(PERSON12) May I ask you to explain me a little bit more this-
+(PERSON7) Yeah.
+So we know from experience that [ORGANIZATION6] is running age ASR workers for English, 
+and four of them don't emit any output.
+And if we run the same client, 
+the same pipeline concurently six times,
+we will end up with four lines four pipelines four sessions ineffective, 
+and the fith and sixth one working well.
+So like in in search for components that work,
+it would be better if we could simply say please start this pipeline again 
+and avoid this worker, 
+because it's under the control of [ORGANIZATION6] the worker claims it's working, 
+but it's not delivering the output.
+So we would like to as the users at the end of the client, 
+would like to say,
+we want to build this pipeline, 
+but avoid this particle worker, 
+because last time it didn't work for us.
+(PERSON12) So you are asking a-
+a kind of a ban of not working workers.
+(PERSON7) Yes.
+(PERSON12) No, 
+at the moment it's not possible.
+Of course, is being on the idea that 
+<other_yawn/>
+Who subscribes the mediator as service is able to provide the service, 
+but I can take a note and check it with the team.
+It is possible something like this.
+Uhhm, 
+I have to say that it's not easy,
+because of course, 
+[ORGANIZATION2]  platform is based on uhm having distributed services allowed you would join.
+And leave the service,
+it's not that easy to imaging such kind of behaviour,
+but we can reason about it, of course, 
+(PERSON7) Another option would be to  somehow like have tests of workers, 
+and the workers should themselves or the the the party, who is providing the workers should should be able to test individual workers.
+And if they don't work as the party themselves expect,
+they would kill the worker.
+So like I imagine that at [ORGANIZATION6],  
+there could be a script every two minutes or whatever, uh, 
+looking at all the ideal workers 
+and asking for a particle worker, uh, 
+to test it.
+And if the test fails, 
+then [ORGANIZATION6] would know which worker is it.
+And they would kill it on their side, 
+and then it would not be available anymore in the platform.
+So that's another options.
+So another, [PERSON7] says another  option would be to force the platform to use particular worker for pipeline or for session,
+use quick test session as they side of AG [ORGANIZATION6] for each of their workers 
+and if they do not pass their test, [ORGANIZATION6] could kill them.
+(PERSON12) Yes, ehm, of course, 
+we have to define what suitable <unintelligible/> for each kind of service 
+It's not that easy to manage it also in this way.
+But of course is something we can reason about.
+(PERSON7) Yeah.
+Yeah, okay, yeah.
+Thank you.
+Well, is there any further questions,
+please ask,
+otherwise let us give us give ourselves at least ten minutes break before the next call.
+(PERSON12) Okay, just.
+(PERSON7) Right?
+(PERSON12) I has just a question regarding your note in presentation platform the [PERSON7] experiments,
+fix experiments,
+probably we discussed about it on Monday.
+(PERSON7) Yes, exactly this is-
+this is this is to be-
+this is to be discussed on Monday.
+So we don't-
+But you can ask now.
+(PERSON12) Yes, in the mean by if you want to share with us your experiment,
+we can check it.
+(PERSON7) Hm, okay.
+(PERSON12) Maybe this afternoon in order be more prepared on Monday.
+(PERSON7) Okay, yes.
+(PERSON12) Thank you.
+(PERSON7) Thank you.
+So I I-
+I add note for myself.
+Thank you.
+Any other questions?
+(PERSON3) I would like to press some of the ASR clients or the <unintelligible/> are not working.
+Then you have to tell us.
+And then we can.
+We can do something about that.
+(PERSON7) Yeah,
+we will apply <unintelligible/>
+[PERSON9] is responsive,
+I know though we we just email him, 
+and then get him on on slack.
+And then he restarts it and it works.
+We just find it like off-
+We don't want to bother you.
+If if we can work it-
+work around for that ourselves for our quick test at random times of the day.
+So I'm-
+I was not complaining in anyway exactly as I said, 
+[PERSON9] has always quickly helped us.
+But still there is this risk that [PERSON9] would be giving lecture, 
+or or whatever would not be available.
+Uh.
+And in that case, it may be very useful to have this to have this option.
+(PERSON3) Does this happen often? 
+(PERSON7) Every time we try like after a week of not trying.
+(PERSON3) We have.
+We have sessions starting, stoping with regular election tranclation so it's four to six times a day, 
+and the worker is still all work after three weeks.
+So I'm I'm wondering why you are having this problem all, 
+and then we <unintelligible/>.
+(PERSON7) Yeah,
+so we should try to investigate,
+the when whenever this happens again.
+Will tell not only [PERSON9] but also you,
+so that you could diagnose,
+right?
+(PERSON3) Interesting is also is the the usual problem that the the person <unintelligible/>  the worker is not free dubt <unintelligible/> as mark is busy in which case you couldn't even start new session, 
+because-
+(PERSON7) That's not the case ,
+that's different 
+(PERSON3) And we're having even a different problem.
+I personally not able see. 
+(PERSON7) Yeah, we're simply not receiving any output from the worker.
+It connects
+But it doesn't emit any output at all.
+Will let you know.
+(PERSON3) Doodle let us know maybe we can have a - 
+I think there's a <unintelligible/> mechanism, WiFi something.
+<unintelligible/> worker is hearing <unintelligible/>
+(PERSON7) Yeah, 
+okay, 
+yeah, 
+yeah, 
+Thank you.
+So [PERSON6] please please remember that next time we we would like to make <unintelligible/> of such failure to debug thats.
+Okay.
+Thanks a lot.
+And let's let's talk in five minutes again, 
+maybe not all of you, 
+but  the general [PROJECT2] call.
+Okay,
+so thank you very much for your time.
+I was hoping to have this faster,
+but-
+well, there is too many things to discuss.
+Sorry.
+Thank you.
+<laugh/>
+(PERSON12) Bye.
+(PERSON7) Bye, bye.
+Bye

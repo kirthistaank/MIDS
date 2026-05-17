@@ -1,0 +1,838 @@
+(PERSON6) Yeah let's, so as so I hope that eh everybody's fine with recording of the session for the purposes of eh the project.
+The minuting exercise.
+We will decide later on whether we eh can actually publish this as part of the corpus that we will collect, but for the purposes of project, your voices will be recorded.
+And and we will review what you have said, and we will transcribe this and we will try to like use this as a test case for for the minuting exercise.
+So if, I hope, that everybody's OK with this.
+If not, please, let me know
+now, or by command to the chat or whatever.
+Okay.
+So eh you can now start the recording.
+(PERSON2) Oh, sorry.
+I guess i'll should.
+(PERSON3) Instant.
+(PERSON2) It's already started.
+(PERSON3) Okay.
+I did not-
+Yeah,
+<laugh/>
+so there is no indication of that, or yes?
+Yes, there is.
+(PERSON2) On the bottom of the main panel.
+(PERSON3) Yeah, yeah, yeah, yeah, there is too many buttons.
+<laugh/>
+OK.
+So thank you, everybody.
+And I will try to share my screen now, is it sharing my screen?
+(PERSON2) It is.
+It is working!
+(PERSON3) Excellent, so.
+The agenda for today has grown in the last few minutes, but that's okay.
+Let me quickly tell you the status of the agreements.
+So it took a while until we, like discovered all the buttons and and steps that all the partners have to do, but at the moment, I believe that we have correctly submitted everything what was needed by the [ORGANIZATION1] to consider our ground agreement.
+Remember, the ground agreement is the agreement that is signed by all the partners, eh and also the the funding party, the [ORGANIZATION1] commission.
+And it eh, contents everything, the budgets.
+It contains also the detail description of work, which is essentially what we have written in the proposal in the in the past.
+So this is the the work packages the deliverables, the milestones, the timing, everything.
+So that is that is in the system.
+And the now it's submitted, so we cannot edit it anymore.
+If the [ORGANIZATION1] still finds, something strange, they re-open it for us and then correct it.
+But hopefully it's, we have already gone through this, and hopefully, this is finished.
+I'm not totally sure, when this is to be signed.
+At one point, I understood, that the grand agreement is being prepared,
+like at the same time was consortium agreement.
+And then the consortium agreement should be signed before the grant agreement.
+So, we'll see.
+The most important thing is, that the very ultimate deadline for the ground agreements, signature is the December of 18th, but that's very late.
+So I actually expect this to happen several weeks before this deadline.
+<censored/>
+So are there any comments or questions to the status of the ground agreement?
+<unintelligible/>
+Yeah, yeah.
+If not, then let's move to the consortium agreement.
+And the consortium agreement is this sign- 
+is is the document that is signed by all the partners, but not the funding party.
+And the, the main reason reason to have this consortium agreement, is to commit everybody to provide the resources, that are needed for the project.
+So that we can cooperate freely and can focus on the research and do not be slowed down by licensing and and all that.
+So that, so this consortium agreement like, says the uh, the working environment, with respect to resources, nice for us researchers.
+And and also for for all the other partners, and the team.
+And then, eh, the other things, that are held by the consortium agreement concern, also like the running of that eh o of the project, so that some formal aspects that we have this 
+board, where every partner is represented by one person.
+And and things like that, how often we meet formally eh, and this is our and the coordinators duty to to prepare such meetings, and and so on.
+And eh other sections talk about the dissemination of their results and their exploitation.
+So if
+in in essence, everybody can exploit things, that they have created alone, as they would be able to exploit anyway. 
+And for shared eh results, there has to be an agreement between those, who have who have contributed to that shared result.
+So that's that's in very rough terms, what is then precisely written in consortium agreement.
+So, has everybody, eh browsed or carefully read the consortium agreement draft, that we recently hit?
+Please confirm now that you have.
+Like, I've seen comments from various people, but not from everybody.
+So, everybody, please confirm, that you have had some chance to, to look at it.
+(PERSON5) I have, I have looked through.
+(PERSON8) Yeah.
+(PERSON5) I haven't seen anything controversial.
+But I haven't got any feedback from the legal people about it.
+(PERSON3) Yeah.
+And, so are you still expecting any?
+(PERSON5) Well, yeah, mainly because they would be the ones, that have to approve it before it would be signed, so I <unintelligible/> anything.
+Our administrative person was on holiday till last week, she's back today.
+Hopefully, they get some update during in this week.
+(PERSON3) Yeah, OK.
+(PERSON5) So that was the to the <unintelligible/> controversial.
+But.
+Yeah, I'm not the one who has an eye to it.
+(PERSON3) Yeah.
+Maybe any any form procedures on everybody's partners side, so.
+<parallel_talk> at everybody's eh, site </parallel_talk>.
+So, are there any, like deadlines or or time frames, that everybody expects their legal people to talk about this consortium agreement?
+So that do we have to agree on some time line?
+So that by some date, it is a fix document, that you will then show to your legal people and in two weeks from that time, you will get it back, eh or
+would would such a formal timing be useful, or can we simply go through this today, and everybody will go home with their, with the specific questions.
+And in two weeks from now, we will join again and, like result the the questions and that would be, that would be it?
+(PERSON5) I think that sounds fine.
+I think, Yeah.
+(PERSON8) Yeah.
+It sounds fine.
+(PERSON3) Yeah, yeah.
+<parallel_talk/> 
+So no formal procedures, eh timing, uhm, topics or questions raised today.
+Will be discussed internally at each site in about two weeks from now.
+We will discuss them and resolve them jointly
+<parallel_talk/>
+Yea, okay.
+So, thank you for for this confirmation.
+And eh then, I, I, my critical question to towards the consortium agreement is, whether the [ORGANIZATION2] is signing it or not.
+And as I've just read from [ORGANIZATION2], they're still eh
+discussing this. Que
+It's not a problem for the project, in either case.
+Because if they are signing the consortium agreement, that means that they will have access to the resources and it would be very easy for them to provide data to the project and and exploit, or like experiment with the, with the results of the project during the project lifetime.
+So the consortium agreement will make the collaboration easier, a the little bit from the whole point of view.
+But if they decide not to sign it, they will be covered by us.
+And I've talked to our legal people, and our legal people said, "well, that is easy, we will simply prepare two things, probably one memorandum that that like,
+in broad terms says, that the [ORGANIZATION3] and [ORGANIZATION2] eh collaborate and then there will be a specific small agreement, that will talk about the data".
+So, and and also to the use of of the tools that that we developed here.
+So that, on basis of this, the just the bilateral agreement between the [ORGANIZATION3] and [ORGANIZATION2].
+[ORGANIZATION2] will be providing the meeting, the meetings, and and the documents to translate and all of that to the to the coordinator and thus to the, to the consortium.
+And on the other hand, [ORGANIZATION2] will be entitled to use the technologies that we developed here for the purposes of projects, for the evaluation, at the Congress.
+For the [ORGANIZATION5] congress and so on.
+So this is, I do not think it it changes anything from the technical point of view, but it has to be cleared out from the legal point of view.
+What is easier for [ORGANIZATION2] to sign, whether the consortium agreement, or whether they prefer the bilateral binding to us.
+(PERSON5) Uhm
+(PERSON3) Yeah.
+So if if there any questions or comments or suggestions maybe from the past, you know, what is what is easier than this, let me know.
+Otherwise, we
+<other_noise/>
+will simply proceed.
+I will make sure that our legal people talk to [ORGANIZATION2] legal people, and they agree in one way, or another.
+(PERSON5) And and how you think about it agreement, because-
+(PERSON3) It definitely has to be before the end of the year, sure, yes.
+Before the project starts.
+So that time frame is the same.
+(PERSON5) But the consortium agreement is kind of, it can really be finalised, until, you know-
+(PERSON3) Well, uh.
+So the consortium agreement, cannot be finalised, until the decision is known.
+So if [ORGANIZATION2] is signing consortium agreement, then this is easy, and they will result the things themselves.
+Eh, in that time frame of for the consortium agreement.
+If [ORGANIZATION2] is not signing it, we will mention [ORGANIZATION2] and one of the attendances there.
+That's for the affiliated parties, or whatever.
+And the the bilateral agreements between [ORGANIZATION3] and [ORGANIZATION2] will be prepared independently of this.
+And may yeah, this is this, yea.
+I think that that it should be doable in very few weeks, like two or three weeks.
+Eh, but [PERSON4], please confirm, or that your legal people are accessible at this space.
+<laugh/>
+Whether you can simply talk to them, and in , you expect them them to be able to sign the bilateral agreement in two weeks from from the point when you ask?
+So [PERSON4]?
+Are you
+<other_noise/>
+(PERSON4) Now it looks, yeah.
+(PERSON3) Yeah.
+(PERSON4) It's a double mute feature, I really
+it's a bad thing.
+(PERSON3) Okay, yeah.
+<laugh/>
+(PERSON4) So at least I know-
+(PERSON3) So?
+(PERSON4) That means off, okay.
+Well, it won't be me talking to the rea legal people, it will be [PERSON6], and I have no experience with them whatsoever, so?
+But I think it sounds reasonable but, well.
+I don't know.
+(PERSON3) Yeah, yeah, this is something that should be, like clarified quickly.
+Like, it doesn't have to be
+<cough/>
+(PERSON3) Done quickly,
+but it has to be made.
+We have to be confident, that this is easy to archieve.
+Eh, so please, wheve as soon as you talk to to your boss [PERSON6], please, ask about the legal thing.
+And the sooner we get our legal people talk to your legal people directly, the better.
+And I think it should happen definitely, well, this week, like today, tomorrow.
+(PERSON4) Yeah, I agree.
+(PERSON3) Okay.
+Yeah, so we will we will proceed along this, and then, we will let everybody know which uh, what happens.
+For everybody else, I don't think that eh, that it affects anything.
+If we go for the bilateral agreement, then we will probably like, well, it's.
+Essentially, it is it is up.
+...
+Cleaned up, and that we can carry out the project.
+So that we can get the data from you and, and so on.
+If, yeah.
+We might ask you for experience.
+Or if, if any partner, especially [ORGANIZATION9], for example, who are still not here, eh or or [ORGANIZATION7], if they feel, that some particular access rights to thing, so some some access to some data or some use of some technology, has to be explicitly mentioned in this agreement, and if it's the bilateral agreement-style, then please, talk to me.
+So that we make sure that it is explicitly mentioned.
+So if you-
+(PERSON8) Yeah.
+(PERSON3) Had concerns, that [ORGANIZATION2] might have problems or or, might be slow in probe,
+in providing something, or if you had concerns about [ORGANIZATION2] using [ORGANIZATION7] in in some way, or another way, this is something that, that should be clarified in the in the agreement beforehand.
+And then, that's, let's let's warn about it as soon as you realise.
+So even if, if there are like flaws in the agreements, we can always create other like further bilateral agreements, for example, between [ORGANIZATION7] and [ORGANIZATION2] independently, and we can also refine, like update this consortium agreement, and all that.
+So so it is not as an irreversible thing.
+If we make an error, we can always fix it.
+But it's most important to to keep the communication running, and and discuss things and and prim problems, if that's possible.
+<other_noise/> 
+Yeah, I see someone's ringing.
+<laugh/>
+Yeah, yeah, okay.
+So, eh, yeah, so this is this is-
+I'm sorry.
+So I will just add one comment.
+<parallel_talk/>
+During this week, [ORGANIZATION3] and [ORGANIZATION2] will make sure their legal people talk to each other and agree eh in uh week from now to sign CA or to go for the bilateral a a agreements.
+<parallel_talk/>
+Yep, okay, so then, another thing, that we need to discuss, are the various comments and options that we pre-selected in the consortium agreement.
+And one particle thing, that I just wanted to highlight is, that there is one section on on those like intellectual property topics.
+And for this one, we have pasted in the module that is aimed for the the software style of intellectual property.
+All this is essentially a template that was created by [ORGANIZATION1] project called [PROJECT2] and this [PROJECT2] project simply create create a sampled agreement for consortium with some modules and we have selected what we found most appropriate.
+And
+I would suggest to go over the over the consortium agreement now.
+Like we can either proceed along the comments, or we can proceed top to bottom.
+Or we can simply do it by silent agreement so that we will open only the comments that everybody remembers they they need to open.
+So which one do you prefer?
+Do you prefer go to top to bottom, or go over the comments, or only if anybody is not confident or not not sure about the the the proposed choice, they should speak?
+(PERSON5) I think, [PERSON3], we just kind of go through the whole document, obviously.
+That thing you just have to, as you said go to the bottom and pick out the things that that you think are-
+(PERSON3) Yeah, yeah.
+(PERSON5) Interesting for discussion or available as anything else.
+And between them that you shared.
+(PERSON3) Yeah yeah.
+So um.
+Yeah, so I'm going to very quickly scroll through this.
+And, okay.
+So this is an important thing.
+[ORGANIZATION7] GmbH.
+I'll accept this comment right away.
+Do you want to make a copy first?
+That's difficult thing.
+<laugh/>
+Eh, so well, I'll just say to be accepted.
+Because I want to record the history.
+So that's why I'm I'm kind of hesitating to accept the the comments right away.
+So if you spot any any topic that you would like to discuss, please say so.
+This is all, the comments that I have skipped so far, are related to whether the [ORGANIZATION2] is signing or not.
+And we have discussed this in the past.
+Uh, someone commented, on the agenda for the form meetings.
+Whether the the timings, the requirement to send the agenda 14 days before the meeting or 7 days before the extraordinary meeting are reasonable.
+And um,I think we should simply keep it as it is, because this is intended for the formal meetings.
+It's not for the regular project meetings that will have on uh, as needed.
+We will have them much more often than these formal meetings.
+So, these formal meetings are to discuss whatever the the final financial statements, or if if some party is is not providing what they are supposed to.
+So for these formal things, I think the the the time,
+the the specified time minutations are are reasonable, and and they should be there.
+But it doesn't require us obviously, to say two weeks beforehand whether, when do we want to discuss the the programming language for one partical tool kit or whatever.
+(PERSON5) Yeah.
+(PERSON4) Yeah, that is reasonable. I was afraid that all meetings will be at this this way, that would be horrible.
+(PERSON3) No, no, no, no.
+(PERSON10) It would be so-
+OK.
+(PERSON3) Yeah, yeah.
+So, we will try to keep the formal meetings to their minimum and the minimum is actually formerly described in this document.
+I have and I have a an assistant to take care of this, because I'm bad at deadlines myself.
+And she is surely more reliable than me.
+So the formal meetings will happen at least once a year, if I'm not mistaken.
+Maybe it says like ever- twice a year, but we won't have plan to have them in person, obviously, we will have them, I think, like every six months remotely.
+But with the formal agenda sent beforehand.
+And in the in between, there will be regular meetings, especially as the the deadlines for deliverables, or milestones will be approaching.
+Yeah, okay, so there is there is, yeah.
+Simple majority or majority of deals to thirds.
+<parallel_talk/>
+We proposed to take things simple, and depending depends on the final six,simple majority is 3 or 4, oh, someone was doing the maths.
+<laugh/>
+<parallel_talk/>
+(PERSON5) I'm gonna- I think we shouldn't get hung up on these things.
+Cuz this-
+(PERSON3) Yeah.
+(PERSON5) It definetly, it's like a sort of safety net.
+(PERSON3) Yeah.
+Yeah, exactly.
+(PERSON5) Yeah, we go off back like this.
+But
+<cough/>
+in general, decision should be a consensus.
+(PERSON3) Yes.
+(PERSON5) We would really get stuck then.
+(PERSON3) Yeah, yeah.
+So it's, it's not important at all, whether it is two thirds or or a majority.
+Because we first have to agree on on the content.
+Yeah.
+So someone asked what, whether this, the the minutes will be sent and then duplicates what if they be like properly signed with something which I don't know at all.
+It does compliant electronic signature.
+So I hope not, I hope that we trust ourselves.
+But if anybody will require us to sign something in some way, I'm sure the [ORGANIZATION3] will find a way to sign it.
+So
+<laugh/> 
+yeah.
+So I would simply resolve this.
+Yeah.
+And then, when I mention the bodies.
+So the bodies of the project, we have this
+<parallel_talk/>
+what's it
+<parallel_talk/>
+the General Assembly.
+<parallel_talk/>
+where is this
+<parallel_talk/>
+(PERSON5) What was this?
+(PERSON3) I'm scrolling decisionaly, <unintelligible/>.
+Yeah, it's called "Project Coordination" committee and in the original describing, it was called the the General Assembly.
+This is us.
+This is the the the body, that has every partner represented by one person and one one voice in that.
+And this is how we are making the especially the formal decisions, such as eh whether overall party from the consortium and and all these things.
+We are the the coordinator and we are responsible for the various things.
+Uh, and the project management office will be most likely simply that single assistant of mine, who will like send the
+invitations and all this.
+We have the user and advisory board.
+And the that is something which we have specified in the project proposal.
+And the the user and advisory board will have their meetings with us and it will happen at least once a year, we will present what we are after.
+And what the project is is doing, and the outside entities, the representatives of them will will tell us whether they like it and that they can find what they see the other ways of exploiting this, or what they would do something better.
+The people we have for this already, like asked beforehand, are rather interesting, I would say.
+We have [PERSON10] from the [ORGANIZATION1], the machine translation at [ORGANIZATION1], we also have a person from the Interpreting Department there.
+They like, they have in the past agreed that they will serve in this board.
+And one question that I have in in this respect, is whether we want someone from [ORGANIZATION6] there as well, or not?
+Because as you as you might have noticed, [ORGANIZATION2] is independently talking to [ORGANIZATION6] to provide the the translation and interpreting at the [ORGANIZATION5] congress.
+So there could be this head-to-head competition.
+And I would always like to make sure that this head-to head competition is only in the scientific terms and not in in person-
+and never taken in personal terms.
+So I would call it a friendly competition.
+And with with that in mind, I see it as as a nice and a potentionaly nice thing to have someone from the [ORGANIZATION6] among the user and adviser on board.
+So this is just my question, whther you would be opposed to this, or whether you would promote that?
+I don't have any pers-
+any particular person in my in my mind on mid on my mind yet.
+But just in general, since they are our competitors in the comparative project, it's something that should be discussed.
+So any ideas on, like avoiding the competitors in user-and-advisory board, or or promoting that?
+(PERSON2) [PERSON3]?
+Hello, sorry to be lated.
+(PERSON3) Yeah, no problem, thank you for joining.
+(PERSON5) Regarding [ORGANIZATION6] joining the board.
+(PERSON3) Uhm, yeah?
+(PERSON5) Let me ask you - we-
+the role of [ORGANIZATION6] in the advisory board in this case?
+Because y-
+in the past, the you know, we put the spirit to [PROJECT1] [PROJECT1] project then, and we had a reviews from other companies.
+For example, we had people from the la-
+of one of the biggest eh-
+(PERSON3) Uhm?
+(PERSON5) companies of <unintelligible/>.
+So, which would be the role of [ORGANIZATION6] in the advisory board.
+Because I'm a little bit
+confused about how this-
+(PERSON3) Yeah, yea.
+So-
+(PERSON5) Out of presenting to-
+it's not something what we have to present to the [ORGANIZATION1] commission.
+But-
+(PERSON3) Yeah.
+Yeah, I see your point, so that that is a very important point that that you have raised.
+<censored/>
+<censored/>
+<censored/>
+<censored/>
+(PERSON5) <censored/>
+But even you know, the one way.
+(PERSON3) Yeah.
+(PERSON5) So I'm not.
+I'm not sure what the-
+(PERSON3) Yeah.
+(PERSON5) It sounds odd there.
+(PERSON3) Yeah.
+(PERSON5) <censored/>
+(PERSON3) Yeah.
+Okay?
+So let's
+I'll just forget this idea uh, oh, another way to look at this would be, that potentionally, if the project is successful, they could be the, like the one who buys this technology and then, it, it would be easier to to approach them if they already knew what exactly is behind the scenes and-.
+So it eh it could be way of exploiting our results by giving them away for some licensing thesis or whatever to to [ORGANIZATION6].
+So that's a but a-
+Yeah, this may be looking too far away in the future and-
+(PERSON5) I don't think [ORGANIZATION6] have licensed anything, like I guess they always develop it themselves.
+(PERSON3) Yeah, yeah, okay.
+So there is just forget the idea and let's keep the real enthusiasts as our advisory guard.
+Thank you.
+(PERSON5) Yeah, it's a question of what we want from this advise guards.
+Cuz I never quite heard the advisory guards really doing projects uhm-
+(PERSON3) Yeah, so they're here-
+(PERSON5) <unintelligible/> people.
+(PERSON3) Yeah, we expressively promised in the proposal to talk to the to the users, to the institutions to and try to persuade them to to consider the technology and test it in their particular use cases.
+So the the, I see this user advisory board mainly as a networking body, so that like we meet with the people, we have, we have a reason to send them an email, and to to send them the details.
+And if we word the details interestingly, and if the results in the in the presentations to use their advisory board look promising, they will hopefully want to try it out and it will help the dissemination.
+So I see it mainly as an advertising
+venue.
+Maybe there are other uses.
+So they could eh like the the the-
+they this, the outspok-
+this is, this is the the way I see it.
+The explicitly expressed motivation for this is that they will provide us with use cases, they need to cover and add comments to the way we have like simplified things for us.
+If this simply-
+if this simplifications are reasonable, or if their business is slightly different.
+Uh.
+So it is it is, like, comments on the processes that we have that we have designed and and that we are supporting with our tools.
+So if they, yeah, so if they don't, uh, so that I agree with you that we have only very rarely heard commands that like influenced what we do.
+That have changed our decisions.
+<censored/>
+Um, I see it primarily as the dissemination of the body.
+(PERSON5) Uhm, Okay, so you're looking for people who are interested in running multilingual meetings is that the sort of?
+(PERSON3) Yes, yes.
+(PERSON5) And that's the reason why you gone for the IUS1?
+(PERSON3) Yeah, yeah.
+(PERSON5) Yeah, okay.
+(PERSON3) Okay so this is the user-advisory board.
+This is-
+So we have talked about it, because it is the formal body of that, of the project, and uh, yeah.
+(PERSON5) But uh, but also, we should have this body in place.
+(PERSON3) Yes, yes, yes, exactly.
+So if you have someone, there is already few names listed in the the description of action.
+And uh,
+this, we will contact these people.
+If you have other suggestions, please send them to, to me, and we will, will then before inviting the people, we'll let everybody know that we are starting inviting our user advisory board members, this is the current list, if you have anyone to add, if you have anyone to remove, please let us know.
+(PERSON5) Uhm.
+(PERSON3) Yeah.
+So then we have this [PROJECT3] data protection officer.
+And this is someone who we'll have to select someone also very soon.
+And the foreback is the assistant of mine, who will
+come to full <unintelligible/> position at the beginning of November, so actually before the project starts.
+But it could be anybody else as well.
+It is someone, who simply oversees, how data is handled, uh and whether GDPR is is done properly within the project.
+So if you have someone experienced, you can nominate him, that would be useful.
+This particular assistant of mine is is willing to learn things, but she has little experience with this herself.
+So if you have experienced people, that might help us.
+So it could be more persons, it doesn't have to be a single person.
+And then we will also have to have a Project Ethics Committee.
+And it will be three or five members, at least half of
+which will be not connected to the to the project.
+So they will they will be from outside.
+And the reason for having this ethics committee is to validate the procedures that that we are going to propose.
+And this is,
+if you remember, at the beginning of this call, I was saying something like "remember this call is being recorded for these and these purposes".
+So this was very informal and very'ad hoc' way of of trying to preempt any ethics issues. And we, when doing this at large scale and not within the project, when doing this with the newcomers, with people outside from project, plain users, plain participants in everybody else's meetings.
+The procedure of handling this has to be simply, like streamlined.
+It has to be very easy, and very cleal clear, what is happening with the data.
+So these are the the data handling rules that we will design and write.
+The assistant of mine is already working on the on the wardings of the of the consens, that people will be signing either by clicking a button or actually when the meeting happens in person or at the site.
+So the committee is then to validate all these procedures.
+So if you have someone experienced in in ethics, and and data collection and handling human participants, please let me know, we will have to find very soon people to populate this this board and to so that we have the feedback for our procedures early in the project.
+Yeah, so, so that is the bodies.
+And let's scroll down for then in the consortium agreement.
+<parallel_talk>
+It is not scrolling.
+</parallel_talk>
+<other_yawn/>
+<parallel_talk/> It is it is zooming, okay.
+<laugh/>
+They had just
+went crazy.
+Yeah, so the financial provisions
+here is, yeah I have no idea, the payments schedule?
+<parallel_talk/>
+Yes.
+So we have selected here that we will not use internal payments, simply.
+We will, use, this is just simplification of how you receive money and.
+<parallel_talk/> 
+<censored/>
+<parallel_talk/>
+So we selected an option that seems easier for us.
+So the coordinator will simply uh, send, the money to the parties, unless the party is is own or something.
+In short.
+If you have any comments, let us know.
+Yeah, here is this joint ownership and, yeah.
+So we are again taking a simpler statement.
+So that if something is created jointly by several parties, every party can exploit the result as it sees fit and grant non-exclusive licenses without any consent consent from other parties who have contributed to this joint result.
+So it is like it is an two, it is an X with two sides.
+It can be both useful for each of the party so that they can exploit the result and on the other hand, if if,
+it will allow everybody else to exploit the results under the same conditions.
+Yeah, so this is, if you have no problems with this, let's select the easier option.
+Then, there is this transfer of results eh,
+the legal person from our [ORGANIZATION3] said, that there is some.
+So, actually, he he corrected the template, because he he said that there is copyright licences and the ownership.
+And this wording, the previous wording was limited to just of, to just one form of of the legal ownership of the intellectual right.
+So so he has improved the wording, I I cannot say anything to this.
+If you
+<other_yawn/>
+if you understand the differences, then then let me know, otherwise we'll simply accept what what he has proposed.
+Uhh, what else do we have?
+<parallel_talk/>
+The dissemination, cooperation, background including.
+<parallel_talk/>
+Yes!
+So the background is very important.
+In attachment one, the parties have identified and agreed on the background of the project, and have also informed each other that access to specific uhm background is subject to to legal restrictions or limits.
+Anything not identified in item one, ehh, in attachment one, shall not be the object of access right obligations regarding background.
+So this background is something that I need everybody to fill in.
+So please send me the background sections.
+I'll now, I'll actually show you the background of.
+<parallel_talk/>
+Where is that?
+<parallel_talk/>
+(PERSON5) <unintelligible/>
+<other_yawn/>
+That sentence, that you've just courted.
+(PERSON3) Which one?
+Anything not identified?
+(PERSON5) Not identified, it has two negatives in there, so if anything is not identified, it shall not be-
+(PERSON3) Should not be-
+(PERSON5) An access right obligations.
+OK, so that means that if-
+(PERSON3) Yeah.
+(PERSON5) So if it is not identified.
+(PERSON3) So access right-
+Yeah.
+(PERSON5) The parties have no right to have access, but yes, as well, but as well what I'm getting at is it.
+If things are open source.
+(PERSON3) Yes?
+(PERSON5) They don't need to specify them at all, because-
+(PERSON3) Yes.
+That's right.
+(PERSON5) Because parties, not having the right to access will have an access to them anyway.
+So there is no point in it, really.
+(PERSON3) Yes.
+(PERSON5) That is my opinion.
+(PERSON3) Ye.
+(PERSON5) Right.
+(PERSON3) So the, the whole idea of of this background is that, eh.
+<other_yawn/>
+(PERSON3) So the the whole idea of this background is that everybody says, "Here are my things, my family jewels that you would have to buy from me, because this is the well, the way I do business.
+But for the purposes of the project, we will need this jointly, and for the purposes of the projects you can use it.
+So the background is something which is owned of by the particular party, and everybody sees that the project will need it.
+So the party says, "Yes, this is the background that I'm bringing into the project for the benefit of the project."
+(PERSON5) Uhm, okay.
+(PERSON3) So, for some reason I haven't received an email that I sent to myself
+<laugh/>
+And I'll open the consortium agreement that worked very well in the past,
+that's, that's the [PROJECT] project.
+And there is background.
+Just to give you an illustration.
+So, here is our background section in that.
+So I need everybody, I need every partner to provide-
+<parallel_talk/>
+Uh, so this is [ORGANIZATION4], where is us?
+This is us, yeah.
+<parallel_talk/>
+So the the form is not that not that critical.
+There is some table and, so [ORGANIZATION4] has filled this table, essentially saying that the software is is open source.
+And and that is it.
+So there was the background brought by [ORGANIZATION4].
+We brought in various corpora
+to the project.
+So.
+This is something which has various licenses, and just to make things simple, we put them into the background, which meant that we are dual licensing them also for the project for free.
+So we have a repository, so we have various corpora and dictionaries.
+And we have simply listed them, and we were like, acessive, this list is is an big supse-
+big super set of things that were actually needed by the project.
+But just to make things simpler, we said, " yes, this is the background that we are bringing in. 
+And if if that was then found in the project useful, and if anybody wanted it from the project, they could simply use it.
+So this is, yeah.
+This is, this is it.
+So I want every partner to somehow specify, what they are bringing into the project.
+So [ORGANIZATION9] should bring in their platform.
+And [ORGANIZATION7] should bring in the the infrastructure.
+The the the the [ORGANIZATION7]'s service.
+And you need to specify it in some way, which is like, which makes sense both to you and us.
+<laugh/>
+(PERSON8) Yeah.
+<other_yawn/>
+(PERSON3) Yeah, so for us, this is generally easy, because we develop tools, and we develop, like data, and then we list all the tools and the data.
+And all of them are-
+Or all of them do have some, like public presents.
+They have UIL that describes them.
+So you don't have-
+[PROJECT1] are all the describes the [ORGANIZATION7] software that you are bringing.
+So you will have to describe it in words, so simply describe what what you are providing for the project, and please do this preferably in the draft version, by the end of this week, or in a week from now.
+It is not very complex.
+[PROJECT1] know what
+<other_yawn/>
+half of page, or at least at most a page of text.
+(PERSON8) Yeah, okay.
+(PERSON3) Or maybe just a single item.
+Like a simple item could be also fine.
+If if you can describe the the jewel very concisely, it's perfect as well, so to get this, there is a template for this attachment.
+It's at the end, so simply make a copy, so this will be found on page 17, the background is, this is the signatures, this is the background.
+So simply, copy this, take part in one and you can do it directly in this document or you can do it elsewhere separately and send it to me by e-mail.
+In the end, it will all end in the same document, and it will be a part of the consortium agreement signed by everybody.
+So the, I do not see any prob, like anything what is better for us.
+It is always better to to include more in the background, then less, because if you include more then it would be easier to use it within the project.
+If you include less, and then we find it necessary to use one more item in the project, then we will have to update this, or like, talk about this with special
+special arrangements.
+If you if you are able to include things up front, it is better.
+And also anything that's part of the background is obviously not result of the project.
+So this is something, that like nobody can say, " well, we have contributed to your, we have we have improved your if if you have provided it in the background. "
+Yeah, so please, everybody, send me your background descriptions,
+preferably during this week.
+<parallel_talk/>
+Okay so this was page- yeah page 17.
+<parallel_talk/>
+So that's the access rights, that's the backglound.
+Here is the general principles that describe that.
+Yeah, and here is access rights for exploitation.
+So, yeah.
+So here we have suggestion from [PERSON7] to preffer
+option 1.
+So this is the two options.
+So so the option one, that we have discarded in, or we have proposed to discard was "access rights to results if needed for exploitation of a party's own results, should be granted on the fair and reasonable conditions, access rights to results for internal research activities shall be granted on royalty-free basis."
+So this means, that  if my machine transmitting translation system depends on the [ORGANIZATION8] ASR, and I want to to use the the [ORGANIZATION8] ASR, then, I will have to talk to [ORGANIZATION8] and make it fair and reasonable. 
+Option 2 was that if I need to present my machine translation system, that depends on the [ORGANIZATION8] ASR, [ORGANIZATION8] should give me the,
+like not the sources of the system, but the the way of some running or operational-functional form of that on royalty-free basis.
+So our
+idea was to'let's make things simpler and let's, let's simply expect everybody to provide support to other parties' results on royalty-free basis.
+But [PERSON7] preffers option 1.
+So what is, what are other people's options?
+I'm we are probably fine with the option one.
+(PERSON2) <unintelligible/> I would also prefer option one, I don't think that option two is reasonable.
+(PERSON3) Okay. 
+(PERSON2) Because providing the things like separate, providing a service that wants the ASR from <unintelligible/> implies costs.
+So that might cost us something.
+(PERSON3) Yeah, yeah.
+(PERSON2) That's an unreasonable option to to use both these-
+(PERSON3) I have the one-
+Yeah, yea.
+The royalty-free basis probably means, that we would have to pay these costs, but you would not charge as anything extra.
+That is my understanding of royalty-free.
+<censored/>
+So I'm probably fine with option one as well.
+So let's
+yeah.
+So,
+<parallel_talk/>
+We will switch to option one. <unintelligible/>
+<parallel_talk/>
+Yeah, okay.
+So this will actually this will actually be, sorry,
+<parallel_talk/>
+I did not want this, I want to suggest this, such this thing.
+<parallel_talk/>
+So so option two will be deleted.
+Okay.
+Yep.
+So thanks for this comment.
+I think this is, this is exactly what we have to, like consider, and and and discuss.
+And I'm happy to see an an update.
+Yeah, okay.
+So, then the <unintelligible/> entities that's related to if [ORGANIZATION2] is signing or not.
+Then
+in the yeah.
+There is this
+<laugh/>
+this something that I do not understand, actually.
+Additional access rights.
+I do not know, if you understand this.
+<parallel_talk/>
+For the evidence of doubt and grown to access rights, not covered by the ground agreement for has shown you did <unintelligible/>.
+<parallel_talk/>
+So, this is what we have selected there, and the other option. 
+Yeah, that's it.
+<parallel_talk/>
+The party has agreed to negotiate in good faith.
+And any additional access Rights uses results as might be asked for by any party upon adequate financial conditions to be agreed.
+<parallel_talk/>
+Okay, so I do not understand the the differences.
+So I selected option one.
+<laugh/>
+(PERSON5) Okay.
+(PERSON2) I'm not lawyer, but I I believe the difference between option one and option two is that option one, you can always say
+<other_yawn/>
+<censored/>
+And the option two says:
+<censored/>
+(PERSON3) Uhm.
+(PERSON2) So I would also prefer option one.
+(PERSON3) Uhm, yeah. Yeah, so.
+(PERSON2) If I think, I mean in under consortium, we will always be able to negotiate a good pay and other reasonable terms.
+But not-
+<censored/>
+(PERSON3) Yeah.
+So maybe this is one thing that you might want to ask your legal people, if they have any opinion on this.
+Otherwise, if you do not ask, or if if they don't say anything bad, we will go with the option one, whatever that means.
+<laugh/>
+Okay, thank you.
+<censored/>
+And then just refines the access rights to software, separating the access rights to the source versus the access rights to the service that the software provides.
+And, well, it was, like standard legal legalise, I did not have any comments to this.
+So hopefully, it regulates things in a reasonable way.
+So then there is this non-disclosure information and
+<parallel_talk/>
+whatever
+<parallel_talk/>
+and that's that's not, that is like essentially an NDA among our <unintelligible/>.
+And then we have various things here, and we have, yeah.
+So there is a settlement of dispute
+<laugh/>
+Yeah.
+The important sentence is here:
+"The parties shall endeavour to settle their disputes amicably."
+So this is what what essentially
+what essentially we we hope will happen.
+And first of all, we hope, that there won't be any any real disputes.
+And we have selected, un-
+<other_yawn/>
+less you have other options, we have selected option one: "we mediation" of not one-one, but one-two.
+Yeah.
+So this is this is what our lawyers have recommended.
+They have suggested to extend some of the days and they suggested to remove the specific words here, from this line and leaving there just the "The case shall be brought to court", which means it should be brought to the respective court of wherever they them is handling, has happened.
+So if, if-
+(PERSON2) One, one comment.
+<unintelligible/> He because I have also see up there you have replaced <unintelligible/> to threads.
+(PERSON3) Yes, yeah.
+(PERSON2) So I am- <unintelligible/> happened, but I'm pretty sure my legal department always is not very willing to accept anything but [LOCATION1] law, because they say that "if"
+(PERSON3) Okay.
+(PERSON2) "if something happens, they would have to get a lawyer in the [PERSON7].
+And they couldn't say anything on it and etc, etc."
+So usually, the compromise, they settle on this [LOCATION1] law.
+(PERSON3) So [ORGANIZATION8] also prefers-
+(PERSON2) It also depends what the other legal department.
+(PERSON3) [LOCATION2], yeah.
+(PERSON5) I would imagine our legal department would prefer [LOCATION2].
+I can't really speak for them, but then, we have, I have seen other <unintelligible/>, to the Belgian law, by <unintelligible/> is okay.
+(PERSON3) <censored/>
+<laugh/>
+And-
+<laugh/>
+Hey, I know that the second sentence should be [OTHER1].
+So hopefully that, that will make things easier.
+So eh, in in general, I think we'll, we'll probably say say yes to to [LOCATION2].
+I will ask again our legal people.
+If if there is a strong reason for us to to demand [LOCATION3].
+But I do not think they will be strong enough to to uh, like
+outweigh the the preferences of the three of you, or or perhaps more.
+So this will
+<parallel_talk/>
+This will this will very likely be reverted to [LOCATION2].
+<parallel_talk/>
+Yeah.
+So sorry, sorry that I first missed this point.
+I knew that was there, but I just scrolled too far away.
+Okay, so that's the, that's the place.
+And then, here is the selection of of the mediator.
+So I have nothing to to say about this.
+The legal people told me that I see it as expensive for whatever.
+And if you don't have any preferences, if your legal people are fine with with these, then we will accept the comments as, except the suggestions and remove option two as suggested.
+So please, if if you have concerns about this, please, talk to your legal people and have them comment on this.
+Otherwise, we will we will simply accept this.
+And there is, if you know, in the grand agreement, there is section 29.1..
+And this section demands to notify everybody 45 days before disseminating and in the result that, this is going to happen.
+And we have found in the past, that the for scientific papers, there is no way you have your paper ready 45 days before the submission deadline to show it to your partners and ask for permission to publish it.
+So our legal person has proposed this particle wording, which says,
+"this obligation for the 45 days is not needed, unless you would be disseminating a result that we wanted to have patented".
+So for things that parties in general do not wish to obtain patent protection, or which cannot be patented anyway, because of the way the patent, patent system works.
+There is no obligation to announce it beforehand.
+(PERSON5) But how do we know it could be patented?
+(PERSON3) Yeah, ye, I know, I know.
+So if you are, if you have concerns, then notify us.
+And and it's-
+(PERSON5) Okay.
+(PERSON3) Yeah.
+<laugh/>
+So if you are not sure whether you, whether someone who was going to patent something,
+then it's better to to follow the instructions in section 1, 29.1.
+But if you are like confident, that no one is patenting anything, or if, like just from the talking to the people or if your lawyers are confident that this cannot be patented, then, well in in,
+Yeah, it's all it is all unclear and soft.
+Obviously.
+(PERSON5) I mean, you know.
+I mean, I totally agree that this 45 day rule is is is impractical.
+And you know, when sees his rules.
+<censored/>
+(PERSON3) Yeah.
+<censored/>
+(PERSON5) Uh, yea.
+I mean, I'm happy to.
+I mean, we can circulate a copy of a paper as it is submitted.
+Yeah.
+This is quite practical to do an made use.
+They have 45 days.
+But you must meet 45 days before submittion, before publication.
+I mean, either way becomes.
+It is kind of difficult.
+(PERSON3) It's kind of difficult in any case.
+Because then you would have to check whether the with the the the some of the Governor of the deadline is 45 days from the submittion deadline, or something like that.
+So yeah.
+(PERSON5) So that I mean, does that I mean, OK.
+I mean if this, if this is OK, then, I would leave it as it is and yeah.
+(PERSON3) <censored/>
+<laugh/>
+<censored/>
+<censored/>
+We can say, that we have done it, because we knew that no one would be patenting anything.
+So let put put the other way round.
+If anyone from you would have the the desire to do some software patents or whatever, please make sure that everybody in the project kind of knows this.
+So that you are interested in patenting things, because then, special precautions have to be made.
+And remember, it is always like everybody is,
+there is no way that you could patent other party's results.
+You could be only patenting your own results.
+So the, this is the the this is like the to prevent one party disclosing something about other party's results.
+So this is also like general sanity thing.
+It is - do not disclose other people's results.
+And then you are safe.
+(PERSON5) Okay.
+(PERSON3) Yeah.
+So then there is just the signatures.
+And after the signatures, there is the background information.
+So it's yeah.
+Background needed from every partner, preferably by the end of the week.
+<parallel_talk/>
+At the end of the week in some draft form.
+<parallel_talk/>
+Yeah, someone cleverly asked about the Kickoff date and location.
+Our preference will be [LOCATION3], early January, between 10th and 23rd.
+If you have any strong opinions against this, or if you would like to coordinate this Kickoff with other projects Kickoff, please, let us know.
+But otherwise we will proceed with this tentative plan and we will send the do-to poll soon and, like book.
+Like so everybody can book the dates and we will find the reasonable dates to do the poll and and all that.
+(PERSON5) Yeah, so I will have to go to at least one other kickoff, perhaps more. So that's why-
+(PERSON3) Yes.
+(PERSON5) That's why I'm asking.
+(PERSON3) Yeah.
+(PERSON5) And the dates and locations are whatever expected, so I'll just say that, you know it's me to organise if a letter comes early, then they will get the data, and everything else would have fit in around it.
+It is good I mean.
+(PERSON3) Yeah, I see, yeah, yeah.
+Okay.
+<laugh/>
+So we should send the do-to polls soon. And make <unintelligible/>.
+(PERSON5) Yeah.
+(PERSON3) I will have to leave rather soon, unfortunately, so there is this, this other comment not directly related to the to the consortium agreement, but in a way, there is a link as well, because the consortium agreement like, controls, how the data is is used.
+And so, so who has entered data generated for ourselves?
+(PERSON8) Excuse me, excuse me, I mean, yeah-
+(PERSON3) Huh?
+(PERSON5) Alright, that might be-
+Yeah-
+(PERSON8) Yeah. 
+Maybe, [PERSON7] could write aspect about a new one out of appointments for us and our developers?
+(PERSON3) Yes.
+So this, this is what I wanted to suggest. That you two talk directly and all the technical things.
+(PERSON8) Yeah we wrote, [PERSON7], are you still here?
+Can you hear me?
+(PERSON7) Yes.
+(PERSON8) Because I asked.
+(PERSON) Yes.
+(PERSON8) Maybe you can answer our last email so we can make a new app-
+appointment, yes?
+(PERSON7) Yes, sure.
+(PERSON8) Okay, thanks, perfect.
+(PERSON7) Yep.
+(PERSON8) Yeah.
+(PERSON7) Okay.
+(PERSON3) So unless there are any other comments or questions?
+I would like to thank you very much for the preparations and for this productive meeting.
+So remember, talk to your legal people. 
+If if they had any concerns about the consortium agreement, they should say it now, because in a at most two weeks from now, we will finalise this by clicking yes yes yes yes yes to all these, or to do these to do these sugg- 
+these suggestions that we have just walked through.
+So, thank you very much for joining.
+(PERSON8) Thank you.
+(PERSON3) And-
+(PERSON7) Thank you.
+(PERSON3) Yeah.
+(PERSON5) Thank you.
+(PERSON2) Thank you.
+(PERSON8) Bye
+(PERSON5) Bye-bye.

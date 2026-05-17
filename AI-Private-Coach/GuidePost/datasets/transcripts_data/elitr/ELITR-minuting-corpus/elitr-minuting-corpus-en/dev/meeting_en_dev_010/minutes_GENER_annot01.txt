@@ -1,0 +1,51 @@
+[PROJECT5] Remote Meeting 
+Thur, the 6th of June
+Time and place?
+
+Attendees: [PERSON10], [PERSON12], [PERSON11], [PERSON15], [PERSON14], [PERSON22], [PERSON8], [PERSON18], [PERSON7], other participants from [ORGANIZATION11], [ORGANIZATION2], and [ORGANIZATION6]
+The purpose: To go through the points of the agenda - IWSLT remote presentation,  the financial tables complement, the fine-tuning of the demo, a discussion about the time extension of the project, to set a new dates 
+
+IWSLT remote presentations organization
+	Discussion about the results: agreement on the  pre-recorded presentation for the [PROJECT5] system paper
+	One slot to present overall results 
+	Preparation of the slides + video: attempt to include the demo into the IWSLT presentation
+The postponed review: doodle with voting for a new date, possible to decide already now
+The financial tables
+	The deadline from [ORGANIZATION7] to finalize these numbers: 2 months
+	[ORGANIZATION3] can provide the final numbers at the earliest 2 weeks or 3 weeks after the respective month has ended
+	Financial tables with May's deadline need to be delivered for testing purposes
+	Estimated numbers from [ORGANIZATION5] missing due to problems with the [ORGANIZATION5]s side's financial department: it will be resolved and sent as soon as possible
+	The final versions including June need to be prepared in mid-July
+	Until the end of August it's necessary to finalize the report
+Deliverables
+	To choose a reviewer for NLP technologies: [ORGANIZATION5]
+	A report and dissemination: written by [ORGANIZATION5], everybody to enter the dissemination activities into the reporting table, mainly scientific dissemination part, the workshop and NLP technologies 
+	The workshop to refer to separate deliverable 7.2: didn't take place because of COVID crisis, to describe only preparation
+	Entering the [PROJECT5] papers to the report: to enter only things not associated with the paper
+	A sum of dissemination activities: table plus the papers
+	Papers: to choose the appropriate official form of the papers to prevent the necessity of manual conversions - Bibtech sounds good 
+	A reviewer for project management guide initial and updates: [PERSON14]
+	Submitting of the deliverables: on the last of June
+Milestones
+	To sort out what the milestones for the events, which have not taken place
+A new congress date: the 30th of May to the 3rd of June 2021, a workshop day the 1st of June
+The demo
+	To prepare the options of a new date for the project officer: probably in the 2nd half of June
+	The necessity to have a worker runnable at another partner as a backup - to replicate components across the site
+	Proposal of dockerisation: [ORGANIZATION3] needs to provide their setups to a backup site
+	To make sure that ASR systems could be run in [ORGANIZATION2] and translation systems in [ORGANIZATION11]
+	Puctuator: CPU based to [ORGANIZATION6]
+	To avoid doing any updates to their workers week or 2 before the demo
+	Regular testing of the systems integrated into the pipeline: to put all the results into the table
+	A new model promising for the better ASR: tested under research conditions only, a decision not to demo it
+	Frozen fingerprints for the demo and research fingerprints for testing 
+	A new date for the demo will be sorted out during the dry run sessions
+	A suggestion of presenting the videos twice: the devset chosen system and test set chosen system, somebody opposed?
+A time extension of the project
+	2 or 3 months probably
+	Voting to mid the next week: to fill the table how many months and the reason for that 
+	To decide until the 10th of June and to ask until the 15th of June
+IWSLT results
+	To review the methodology during the one of the dry run demo sessions
+	To send IWSLT findings PDF to the partners
+ 	 				

@@ -1,0 +1,60 @@
+[PROJECT2] Surge organization
+Thu Mar 5, 10.40
+- [PERSON2] will be there of the first 3 minutes only (and will try to be there from 10.30.
+- Needed:
+-- A volunteer to test/sanity-check [PERSON8]'s data collection application.
+-  [PERSON7]: 
+--  Worked on searching monolingual data for 22 EU languages. But most of the documents/reports are available in multilingual languages (bilingual corpus).
+--  Parallel data links are saved in the shared data collection link.
+--  Some cleaning of 5 eurosai languages 
+-  [PERSON4]:
+--  Preparing the ami corpus corresponding files for [OTHER3] devset. Now, we need the translations in de and cz.
+--  Changing the log files of cruise control into desired input of SLTev. It has been done before and only I need to test and debug everything.
+--  Testing the SLTev using real dataset which should be ready by Friday.
+-  [PERSON3]:
+- Paragraph comprising of multiple sentences failed
+- Need to prepare data for SLT
+- Supervising data collection test
+- Update [PROJECT1] MT to enable batching
+--  Trying different data for TruCasing- Europarl/Sumeczech/Czeng. But finally Sumeczech gave the best result. This has been integrated with the [LOCATION1] Segmenter.
+-  WER on czech transcript- with and without trucaser.
+--  Oflately- was busy with take-home assignment.
+--  Currently working on-
+-  Forced aligner
+-  Preparation for french watching session.
+--  To Do:
+-  Preparation of data for [OTHER3]
+-  Volunteer to test/sanity-check [PERSON8]'s data collection application?  I guess I should be the one doing this. I propose that apart from adding *cherry picked* words for the purpose of domain adaptation, add related text to the current corpus for building language model.
+-  [PERSON8]:
+--  Not much of a progress this week, was busy sorting out some school stuff/errands
+-  [PERSON6]
+- Should work on [PROJECT2] [OTHER3] submission
+--  Mt-wrapper.py works with [ORGANIZATION3] [PROJECT3] MTs
+-  much lower latency, and maybe flicker than before
+-  It's using batching and 2 threads
+-  I can add an option to disable batching, then it will be easily, but suboptimally connectible with [ORGANIZATION2] MT and [PROJECT1] MT models
+-  I can update [PROJECT1] MT models to enable batching
+-  I can talk to [ORGANIZATION2] to enable batching on their side, if necessary
+-  The code needs refactorization, it's a temporary and unmaintainable right now
+--  Prefix MT is not better than our single sentence MT
+-  Better training could probably fix quality, but not latency and flicker
+--  I'm writing papers until tomorrow
+--  I'm open to suggestions about prioritization, what next:
+-  [ORGANIZATION4] downloading and processing
+-  [PROJECT2] [OTHER3] submission -- test all MTs first
+-  ASR mediator binding
+-  We used to plan interpreting analysis until April for [OTHER2]
+-  [PERSON1] has started work on [LOCATION1] ASR postprocessing (e.g. normalize numbers in text form to written form “patnact -> 15”) this could maybe help MT as well? 
+-  So far I am thinking about this in an offline setup but I could be added in the future maybe after segmenter and before MT. 
+-  I have also explored two applications that I find quite interesting for domain adaptation of the [LOCATION1] ASR both of them from [LOCATION1] national corpus. 
+-  First is KWords ([URL]) where you upload a text file and select a reference corpus to compare your text against.
+-  It than highlights domain words in your text which are specific to your text file based on the statistical tests when comparing against the “neutral” corpus. 
+-  Second application is KonText ([URL]) which is a very user friendly corpus search for a given query. 
+-  These two applications together may be quite handy for domain adaptation as we could find domain specific words by KWords and then search for the sentences in which they appear in KonText and use them for language model. 
+-  Unfortunately there is no API for these applications so so far I have just tested them manually. 
+-  Lastly I have found very nice “free” [LOCATION1] ASR data on the website of Cesky Rozhlas. 
+-  There are full audios together with complete transcripts. 
+-  I have estimated that there are around 800 hours of high quality and very diverse data. 
+-  If anyone would be interested in helping me out to code some webscapper to get these automatically I could then process them to ASR ready format and we could also use them for acoustic segmentation or publish them somewhere. 
+-  Data look like this: [URL] where you can download the audioa and than at the bottom of the article at “Související příspěvky” there is link to “Prepisy” where the transcript of this audio resides (each audio is also assigned some category so we could even try to prepare corpus by distinct domains).
+

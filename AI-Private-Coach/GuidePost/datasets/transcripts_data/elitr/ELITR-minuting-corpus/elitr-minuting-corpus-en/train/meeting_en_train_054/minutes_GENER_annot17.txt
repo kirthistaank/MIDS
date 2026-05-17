@@ -1,0 +1,37 @@
+[PROJECT3] Internal
+Date: 07. 09. 2020
+Attendees: [PERSON10], [PERSON11], [PERSON5], [PERSON8]
+Purpose of meeting: discussing project updates
+
+- Discussing a last week's call with project partners.
+-- [ORGANIZATION8] representatives were introduced to the current situation of the project. 
+
+- Discussing [PROJECT4] progress.
+-- Problematic communication with [ORGANIZATION3] colleagues.
+--- Even though the preparations for experiment have been going on for 8 months, there is still only one user.
+--- Acquisition of users was supposed to be the main contribution of [ORGANIZATION3]. 
+--- We do not know why they are not providing more people, but we will prompt them to do so and ask what the problem is. 
+-- No estimate when the experiment will end. 
+-- First, there is the need to get actual people to participate. 
+
+- Discussing [PROJECT1]. 
+-- Discussing the possibility of moving the models elsewhere, to a different machine during the experiment. 
+--- Not recommended, the experiment would be altered by doing that.
+
+- Discussing [PROJECT2]. 
+-- Several people in [ORGANIZATION4] are working on a similar project.
+--- Once their contact information is obtained, we will get in touch with them. 
+-- Discussing connecting the idea of interactive machine translation to [PROJECT2]. 
+--- Interactive MT is also related to neural MT.
+--- The techniques for neural MT could be therefore useful for [PROJECT2]: interaction with back translation, adding constraints wherever convenient etc.
+
+- Discussing administrative issues. 
+-- Because embassies are currently closed, it is difficult to get a [LOCATION1] colleague to [LOCATION2]. 
+-- We must investigate whether it is alright that he would come here as a tourist, without a visa.
+-- Also keep checking to see when the embassies open, so that he can apply for a visa straight away. 
+
+- It is preferred that the [PROJECT4] experiment and the [PROJECT2] are separated.
+-- That is safer for the project. 
+
+Minutes submitted by: [ANNOTATOR1]
+

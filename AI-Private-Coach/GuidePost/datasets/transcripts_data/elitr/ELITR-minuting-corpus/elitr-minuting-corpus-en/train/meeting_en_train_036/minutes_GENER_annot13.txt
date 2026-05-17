@@ -1,0 +1,28 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION3], [ORGANIZATION4], [ORGANIZATION2]
+Meeting Name: [PROJECT1] Remote Part 2
+Meeting Date: 16.03.2020
+Meeting Topic:  Karaoke file creation
+Meeting Participants: [PERSON3], [PERSON5]
+Purpose of the meeting:  To clarify the sequence of steps in creation of karaoke source file for modelling of a live web based subtitling functionality.
+Tasks to complete:
+•	Convert forced aligner time stamped output into karaoke. Source data is manually revised OSTT files in growing sentences format.
+•	Create manually VTT format files and test them thoroughly on individual and concatenated files.
+•	Write the script that converts growing sentences into the web VTT for the live view of the files. In preparation for the remote video conferencing.
+•	Work on concatenation of [ORGANIZATION5] transcripts to assure that the time stamps are properly shifted. Beginnings of the segments grow in time through the recording. Forced aligner always runs from the beginning of the segment and the timing of words is relative to the beginning of the segment.
+•	Mock conference data gathering, file and system versioning and log directories creation.
+•	Separate the conference input channels and create ASR and MNTs outputs
+Current obstacles and challenges:
+•	Some words are not properly captured by the forced aligner in the audio segments and are missed off, due to word timing not being exact. The neural network needs some time to process the words. Possible workaround available with a colleague's ASR processing tool.
+•	Beware of letters and signs that forced aligner accepts and for what language. Primary focus on English.
+•	Forced aligner does not accept numbers - need to find a converter to the spell out version of number characters. 
+Decisions made:
+•	Use web VTT format as IMSC1 deemed overly complicated, even though IMSC1 specification is a recommendation.
+•	Selected approach of web based subtitling in the aim for open caption video format.
+Advanced aims and goals:
+•	Enable the efficient visual verification of the aligned words in time stamped transcript.
+•	Facilitate the full text search within audio in order to resourcefully use the time when searching for errors.
+•	Devise a live web based VTT tool in preparation for remote conferencing in the future.
+•	Create time based labelling of selected language streams and explore an opportunity to devise a non-skilled user interface.
+Explanation given to the forced aligner functionality: as a batch processing of large number of adjacent text files where it emits required words aligned to some position in time. Source data for the forced aligner is the time stamped ASR and the required words are user defined
+Minutes submitted by: [ANNOTATOR1]

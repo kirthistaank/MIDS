@@ -1,0 +1,45 @@
+Test session 20200511-0900
+• Zoom meeting: 9.00-12.00
+o [URL]
+• [PERSON6] hopes it works for you, [PERSON6] is in the call (alone)
+o Meeting ID: [NUMBER], Password: [PASSWORD]
+• setup and show to [PERSON6] both plan B and plan C
+o Plan B status:
+• [PERSON11] will tune countdown strategy and put everything together with the [ORGANIZATION1]'s mega pipe
+• Fingerprints-
+• ASR- de-EU_fromEN         de-EU_fromEN-pub           text
+• MTS-
+• ro-EU_fromEN              text        ro-EU_fromEN-pub
+• Participants are expected to see everything via shared screen.
+• If they want audio, they must start it in background
+• If they want bigger font on quest, they copy the URL?
+o Plan C status:
+• TODO
+• TODO: put everything together with the [ORGANIZATION1]'s mega pipe
+• test non native English speaker
+o TODO
+• Test quick restarts, switching setups, induced failures.
+o Do not test just for the success, but test also for the recovery of problems
+o TODO.
+• [PERSON11], have you checked with the sysadmin the possibility to:
+o ssh on the actual exposed [ORGANIZATION1] web server
+o ffmpeg installed
+o bring on it ebclient with libraries
+o TODO
+• Double check language streams matchings before test with [PERSON5]
+• Test with [PERSON5]. Here is [PERSON5]'s assessment:
+o [URL1]
+• Better translation quality than last time, no ‘birds'.
+• A longer segment still very hard to read (also, it disappeared).
+• The blinking light gray is hard to follow, too much flicker.
+• In sum: not perfect but can in principle kind of read what it is about.
+• (The bureaucratic content makes it somewhat hard to assess.)
+o  [URL2]
+• harder to read than the previous one
+• some non sense-sequence of staff, other sentences are fluent 
+• the translation probably missed the point of the talk, it's hard to tell the topic of the talk
+• it translate also the name of the person si [PERSON8]
+• she's available to have a look at translations if we send them
+o TODO: from geman to english test: [URL]
+• Agree on the next test slot: tomorrow at 11:00
+

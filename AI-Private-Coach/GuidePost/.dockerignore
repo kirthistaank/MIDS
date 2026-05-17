@@ -1,0 +1,18 @@
+# Reduce build context; build is from repo root.
+.git
+.gitignore
+**/node_modules
+**/dist
+**/.venv
+**/__pycache__
+**/*.pyc
+.env
+.env.*
+*.md
+!ui/README.md
+.DS_Store
+datasets
+test
+frontend
+chatbot_ui
+docs

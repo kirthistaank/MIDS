@@ -1,0 +1,59 @@
+ISWLT presentation, [PROJECT5] demo
+Date: June 4, 2020
+Attendees: [PERSON10], [PERSON14], [PERSON8], [PERSON16], [PERSON11], [PERSON12], [PERSON6]
+Purpose of meeting: IWSLT remote presentations - preparing video and papers
+for presentations,
+
+-Objectives of this meeting
+--ISWLT remote presentation.
+--Choosing new dates to give to the project officer.
+--Postponed reviews and finding reviewers for deliverables, that don't have one.
+--Workshop, [PROJECT5] papers and a new date for the workshop.
+--Discussing the demo, providing systems to each other, experience, plans
+
+-Discussing how the presentation will be carried out
+--Presentations will take place in two time slots, 9 am and 6 pm Seattle time.
+--Different speakers or papers will be pre-recorded.
+--The presentation will include video and papers/reports.
+--The video will display the demo of the system live subtitling a chosen video,
+--Presumably, it will be presented with the use of screen sharing and the speaker
+will be seen on camera in one corner of the slide.
+--Latest proposal was to organize workshop sessions, but it is not definite.
+
+-Postponed reviews and discussing the workshop
+--Coming up with a new date to give to the project officer, will be decided by voting.
+--Finalizing numbers, reminding every institution that hasn't already sent their financial tables.
+
+--Finding a reviewer for the report on NLP technologies, the report has to be done by someone not familiar with them.
+--The report will be written by [ORGANIZATION5], everybody contributes their data and dissemination activities and enters them into a continuous reporting table.
+--Reviewer for project management guide selected.
+--Workshop package is essentially ready, but it wasn't delivered due to the Covid crisis.
+--All information regarding [PROJECT5] papers will be collected either on Bibtech, on some spreadsheet or handled through university systems.
+--Reviewers for all deliverables obtained.
+--All papers should be submitted by the end of the week, so the reviewers have 2 weeks to process them and then there is 1 week to incorporate changes.
+--New congress date is from 30th of May to the 3d of June 2021 which falls within project.
+--Workshop will take place on the 1st of June.
+
+-Discussing the demo
+--There were problems with power outages at [ORGANIZATION2] and [PERSON15]
+--Again deciding on a date to give to the project officer, [PERSON15] will prepare the internal pole which should be filled out till the end of the week.
+--Tentatively proposing the date to be in the second half of June.
+
+-Experience with the demo:
+--It is fundamental for all components to be replicated and for institutions to provide MT systems to each other.
+--On the side of [ORGANIZATION3] it is not very safe for the demo to run.
+--Dockerization of the servers was proposed.
+--Discussing what systems could run at [ORGANIZATION2] and the translation systems at [ORGANIZATION11].
+--[ORGANIZATION2] is proposing to use their virtual [ORGANIZATION2] services
+--Deciding to use it to spread the ASR system across the consortium and give punctuator to [ORGANIZATION6].
+-- Asking all the institutions to avoid doing any updates to their workers shortly before the demo.
+--Postponing dates probably 2-3 months due to Covid crisis.
+
+-Implemented features and now working on
+--regular testing of the systems integrated into the pipeline.
+--Lockdirs that record the outputs, including timestamps.
+--This has to be double-checked if it is working properly.
+--Working on [PROJECT5] test set which will cover further language pairs and set-ups than the ISWLT shared task.
+
+
+Minutes submitted by: [ANNOTATOR1]

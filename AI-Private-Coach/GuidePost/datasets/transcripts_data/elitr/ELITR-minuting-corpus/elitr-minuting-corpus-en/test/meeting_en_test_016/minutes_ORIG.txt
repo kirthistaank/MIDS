@@ -1,0 +1,45 @@
+Feb 13, 13.00
+- [PERSON3]
+-- Quick recap from Wednesday test at [ORGANIZATION1]
+-  we need slides next to the translated speech
+-  [PERSON10]'s slide streaming + video player to [PERSON4]'s view
+-  it is absolutely unusable for those who do not speak the source
+-  Plan a French video watching session and experimenting with flicker
+--   Adapting for the domain of NLP (can we do anything for my Monday seminar?)
+-  [PERSON9] should have some data ready, let's give it a try
+--   Towards adapting for the Student Firms Fair.
+-  [PERSON3] did not mention this during the meeting. Already mid March
+-  [PERSON9]
+--   to provide LM to [PERSON5] to try LM adaptation for [PERSON3]'s Monday seminar
+-  [PERSON6]
+--   embeddings-based search for similar sentences is ready
+--   [PERSON3] suggests [PERSON6] to sync with [PERSON9] and apply it so that we see how much talk-related data could be extracted from very large generic corpora
+-  [PERSON11]
+--   video visualisation:
+-  backend reads mic signal
+-  sends data to javascript (on another machine), which visualises sound input
+-  thresholds to be set either by educated guess or by testing the levels for a talk or two from our recordings and checking when the ASR accuracy deteriorates
+-  [PERSON5] will provide [PERSON11] with the data (input sound, expected transcript) + WER script needed
+-  [PERSON11] will run it with various volume settings and set the threshold
+-  We will start with the guess and some little verbose output (not just the image, but also a number, so that we can also read what is the appropriate threshold)
+--   many-to-many MT paraphrasing model
+-  training new model on [OTHER5]; unfortunately [PROJECT3], not [PROJECT5], so hard to deploy for [PROJECT2]
+-  Sync with [PERSON5] to get test sets 
+-  300M opensubtitles across languages
+-  Deploy in the coming few days, paraphrases 
+-  Start further training today on [ORGANIZATION2]
+-  [PERSON1] will send path to source corpora (
+--   Paraphrasing server itself
+-  running, but new model needed
+--   [PERSON11] has some extra data, we need to store them with all other data and know about them -> work for [PERSON2]
+-  [PERSON1]
+--   data collection for eurosai 5 langs, almost all finished, finish by the end of the week
+--   [PERSON1] will send the path to these mono files to [PERSON11], [PERSON11] should translate [OTHER3] mono into all the 43 (minus Eng) langs available and all the different langs to [OTHER3], to create synthetic parallel corpora
+-  [PERSON7]
+--   will be un [LOCATION2] from the next week
+-  [PERSON5]
+--   managed to run the segmenter worker on our dockering virtual machine
+--   increased recall (need to measure exactly) in [LOCATION3] segmentation (buffering in segmenter helps the segmenter)
+-  the buffer must not grow too big
+-  [PERSON3]: can we mix in the some real in-domain data
+

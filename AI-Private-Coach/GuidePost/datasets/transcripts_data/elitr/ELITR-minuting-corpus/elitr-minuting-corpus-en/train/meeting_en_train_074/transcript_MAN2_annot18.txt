@@ -1,0 +1,909 @@
+<another_language/>
+<laugh/>
+(PERSON6) Hi, [PERSON1]!
+(PERSON1) Hello!
+(PERSON7) Hi!
+(PERSON1) Hi!
+(PERSON3) Hi!
+(PERSON6) So, I guess that's, um, everyone for today.
+I think [PERSON5] is not planning to join even remotely.
+(PERSON1) Hm.
+He, he is on vacation so I think he is in mountains or something.
+(PERSON6) Yeah.
+Um...
+So, yeah, we don't have anything on the meeting agenda, um...
+(PERSON3) So that's all today.
+<laugh/>
+(PERSON6) So, well I guess the agenda is the book as usual.
+<laugh/>
+Well, except for the book [PERSON3] has some nice visualisations which he put into the [ORGANIZATION4] so I don't know if we want to talk about this as well.
+(PERSON3) Hm.
+(PERSON7) <unintelligible/>.
+(PERSON3) I read the book already like the part of, not all of them.
+Well, I'm not like sure if there's actually anything to talk about.
+But, yeah, I redone some of the -
+Some of the embedding color maps which according to the, um, Glove, um, articles should, you know, show the bands and yeah, so before I've had some images that didn't show basically any bands.
+And now I've redone the training with different parameters and skip-gram seems to show much clearer bands than seebow, if seebow even shows any -
+(PERSON7) Hm, hm.
+(PERSON3) At all.
+But still if you look in the book like the Glove image on, yeah, on you-, on page -
+What's this page?
+<censored/>
+(PERSON6) Hm.
+<laugh/>
+(PERSON3) Yeah.
+So I'm not sure what to make of this.
+(PERSON1) It's also different language, yeah?
+It's Czech?
+(PERSON3) No.
+No, no, no, no.
+This is all -
+Yeah, OK, it is foreign language between the original and the new one but then yeah, these are on Czech, the original one is on English.
+(PERSON7) Hm.
+<censored/>
+Although the color scheme is a little different but that's not the property of the image.
+Is this the last version?
+(PERSON6) Yeah.
+(PERSON3) <unintelligible/> actually it push it?
+I'm not sure.
+(PERSON6) Hm.
+(PERSON3) Cause in the last version I think this Word2vec image should be the, the one from -
+(PERSON6) Hm.
+(PERSON3) From skip-gram which will look a little better.
+(PERSON6) Yeah.
+And the FastTex does skip-gram or seabow?
+(PERSON3) FastText, hm...
+I'm not sure.
+(PERSON7) <unintelligible/> skip-gram.
+(PERSON3) <unintelligible/> skip-gram.
+(PERSON6) Hm.
+(PERSON3) Let me check approving, yeah, the correct version is on my computer in the other room -
+<laugh/>
+I will go there and try to find out if I com-
+I, I think I've comitt that but I'm not sure if I put it to -
+(PERSON6) Hm.
+(PERSON3) To github.
+I'll check.
+<laugh/>
+(PERSON1) Or it might be on the <unintelligible/> computer so -
+<laugh/>
+<other_noise/>
+(PERSON7) What is that?
+<other_noise/>
+(PERSON6) What?
+(PERSON7) Is that weird rytmic sound coming from you?
+<other_noise/>
+(PERSON6) Ah, yeah.
+It's the bread machine.
+(PERSON7) Oh.
+<laugh/>
+<other_noise/>
+By the way, [PERSON6], when did you come to [LOCATION1] on some-, someday?
+(PERSON6) Eh, I don't know.
+8 p.m. something.
+9 p.m.?
+(PERSON7) OK.
+(PERSON6) So is it there?
+(PERSON3) Yes.
+(PERSON7) That this is much faster by the car.
+(PERSON6) Hm.
+Yeah, I <unintelligible/>.
+We took a slow train.
+<laugh/>
+It was the fast train but it was quite slow.
+<laugh/>
+(PERSON7) Yeah, we've got a tra-, traffic jam on, on, on D1 so, so I was thinking, oh, maybe the guys in the train were faster but -
+(PERSON6) Hm.
+Oh, we went for lunch first and then we waited -
+(PERSON7) OK.
+(PERSON6) For a bus and then we waited for a train and then the train was quite slow.
+(PERSON7) Yeah.
+We spent half a-, an hour and half in [LOCATION2] -
+<laugh/>
+Having, having a lunch so it's <unintelligible/>.
+(PERSON6) Hm.
+Yeah, OK, I can see the new images so...
+Aha.
+So, so basically you can confirm that the parts are there but actually not for Glove which was -
+(PERSON3) Yeah.
+(PERSON6) Original claim.
+(PERSON3) But I think, um, the bands are still there for <unintelligible/> one there's like one, one band that is so strong that -
+(PERSON6) Hm.
+(PERSON3) You can really see the band elsewhere -
+(PERSON6) Hm.
+(PERSON3) Because you don't the, the column epids adapted so in -
+(PERSON6) Hm.
+(PERSON3) There's like one line of numbers that are much higher or much lower -
+(PERSON6) Hm.
+(PERSON3) Than the numers elsewhere then -
+(PERSON6) Hm.
+(PERSON3) No.
+(PERSON6) Yeah.
+(PERSON3) The numbers as well will just get squashed to the same color.
+(PERSON6) Hm.
+Yeah.
+Do we also want to show that for seabow it seems not to happen?
+(PERSON3) I'm not sure.
+Maybe.
+<other_noise/>
+But then like what's the -
+Actually I would like to like -
+<other_noise/>
+Hm.
+I would like to evaluate the embeddings somehow.
+Maybe, I don't know the, what's it called?
+The thank for evaluating embeddings?
+<laugh/>
+(PERSON6) Hm...
+(PERSON3) Hm.
+That's one -
+Hm.
+<laugh/>
+<other_noise/>
+Or is this for sequences.
+I'm not sure transfiction.
+<other_noise/>
+No, it's [ORGANIZATION6] <unintelligible/> everyone.
+And this is for sentences finds.
+(PERSON6) I don't know.
+(PERSON3) Ah, OK.
+Anyway, maybe just on the [PERSON4]'s assos-, whatever, analogy task.
+(PERSON7) Yeah.
+(PERSON3) Because I sort of suspect that like if the embeddings don't show any structure it's because they are not trained well.
+<other_noise/>
+Maybe seabow needs more <unintelligible/> than skip-gram.
+I don't know.
+<other_noise/>
+(PERSON6) OK.
+So I guess let's move to the book.
+So, um..
+So from I saw so the main thing that happend is that, um, [PERSON1] and [PERSON7] and [PERSON5] went over some parts of the text and added some, some comments and to does and so on.
+Um, so, um, thanks a lot for that.
+At least I went mostly through my chapture and, um, yeah, I have a few things to discuss mostly, yeah, mostly I agree with the comments and I will just, um, try to implement the suggestions, so, so that's easy.
+And...
+Yeah, I guess maybe I can, um, share the document so that we can, um...
+How do I do this?
+<other_noise/>
+Because there're a few things I would like to discuss.
+Um, can you see it now?
+(PERSON7) Hm.
+(PERSON1) Yes, I see.
+(PERSON6) Um...
+So there were, ah, yeah.
+Um...
+Yeah, so [PERSON1], neither he has some, um, visualisations for, um -
+(PERSON1) Hm.
+(PERSON6) The, the parter speech tagging.
+So yeah, I think this would be nice to, to add there.
+So <unintelligible/> -
+(PERSON1) Hm.
+(PERSON6) I'll be happy if you put it there.
+(PERSON1) So I can just add a new subsection with visualisations because I have some text, it's not long -
+(PERSON6) Hm.
+(PERSON1) It's like summarize <unintelligible/> there.
+But those are mostly in the papers you already cited so, so -
+(PERSON6) Hm.
+(PERSON1) It won't be like zutas like, um, sum-, um, summary of that.
+(PERSON6) Hm.
+Um, yeah, I think that's fine like you can add it there and then we can see if we need to merge it or, or something but, um -
+(PERSON1) Hm.
+(PERSON6) Yeah.
+Like my chapture is really low on any visualisations so I would be very happy for a-, a-, anything in this sense I guess.
+Hm...
+Yeah.
+(PERSON1) Yeah, so, so I will, I will add it this weekend <unintelligible/>.
+(PERSON6) OK, thanks.
+Yeah, um...
+Yeah, um...
+This was an interesting note from, um, [PERSON7].
+So, um, I talked about, um, that models encoding some linguistic abstractions and [PERSON7] suggested that maybe it encodes just some featchures and I'm really not sure about the germanology here.
+Like, well, it deffinitely encodes some featchures but then, um, what we kind of want to do is to map it maybe to linguistic abstractions and...
+Yeah, I don't know what we want to call these things <unintelligible/>.
+(PERSON7) Yeah, <unintelligible/>, I, I, I think, I think you said it quite exactly that, that, that, um, we spot some featchures and map it to some extractions and, and, and -
+This is only people who have extractions, on the -
+(PERSON6) Hm.
+(PERSON7) Not the models.
+(PERSON6) Well, I don't know like if, if you do some, I don't know, analysis of, um, attentions and you find that it's similar to syntactic trees so that's, I wouldn't say, this is featchures, this is already structure of, of something.
+So I would say the abstractions emerged already in the model.
+(PERSON7) I, I would still see that, that, that they're emerges some structure and, and we can map the structure to know linguistic abstractions.
+(PERSON6) OK, so, so what say, so what's in the networks it's structures, it's featchures -
+(PERSON7) Hm.
+(PERSON6) But the abstractions it's not in the network, it's -
+(PERSON7) Yeah.
+At the <unintelligible/> what's put -
+(PERSON6) <unintelligible/>.
+(PERSON7) Into it.
+(PERSON6) Hm.
+Yeah, um, OK.
+<laugh/>
+Yeah.
+I think, um, yeah.
+I think we can, we can define it this way.
+Um...
+Cause like I don't have any, I don't know, strong opinion or, or anything.
+I just thought that, yeah, we're probably not using it consistently.
+Um...
+I, I'll make a note.
+Um...
+<other_noise/>
+OK, um...
+Yeah, that's fine.
+Sure, sure, sure, sure, sure.
+Um...
+<other_noise/>
+Yeah, what's something, here are, yeah, another terminology call a thing, so yeah.
+So my understanding was that an LSTM cell is like one neuron in, in the network.
+(PERSON3) No.
+(PERSON6) And I think if [PERSON7]'s understanding is, is like whole layer kind of?
+(PERSON3) Yeah.
+(PERSON6) Is the cell?
+(PERSON3) Yeah, that's the terminology.
+(PERSON6) OK, so yeah, so again that's something that I didn't understand well, so OK.
+So, so kind of a cell and a layer are the same thing?
+(PERSON7) Hm.
+Well, at least, at least in a frameworks if you, um, applying a layer means like applaying the, um, the LSTM overlack and entire sequence and, and cell is, is just like one step over, over one vector.
+(PERSON3) Well, I think the whole RNN thing really breaks the neuron, you know, analogy because like I never seen any ilustration of <unintelligible/> neurons.
+There is always a vector coming in and a vector coming out.
+(PERSON7) Yes.
+(PERSON3) So, so the analogy isn't really use in this context.
+(PERSON6) Hm.
+(PERSON3) Also like it doesn't really make sense, right?
+Because -
+(PERSON6) Quite it's that the mentions are independant inside?
+(PERSON3) No.
+(PERSON6) No?
+(PERSON3) Not really.
+(PERSON6) Hm.
+(PERSON3) Only you know they are, the gates are not for everything the time <unintelligible/>.
+(PERSON6) Hm.
+(PERSON3) And there's like linear projections from -
+(PERSON6) Hm.
+(PERSON3) The vector -
+(PERSON6) Hm.
+(PERSON3) To the gate. [PERSON6] OK, so this was mean there's no LSTM neuron for sake?
+(PERSON7) No.
+Because the gates for the particular neuron depends all, all the other neurons.
+(PERSON3) Yeah.
+So you would have like a many recurrent relationships inside the cell -
+(PERSON6) Hm.
+(PERSON3) If you want it to model individual neurons inside the cell.
+(PERSON6) Hm, hm, hm.
+(PERSON3) And then the recurrent look relationship over the cell -
+(PERSON6) Hm.
+(PERSON3) So, yeah.
+It's not really, um, um...
+Yeah, it's not really done that way.
+My English is terrible today.
+(PERSON6) Hm.
+<laugh/>
+OK, so yeah, I guess I'll, I'll check again the -
+So in this case I'll check again the original paper to see what they really do because if I'm going to the bone neurons in cell so maybe I didn't even understand properly what they did.
+<laugh/>
+But -
+(PERSON7) Um, I, I think it's, it's fine that, that they, like in the output layer they really find like neurons like, like single numbers that correlate with something.
+(PERSON6) Hm.
+Hm, hm, hm.
+(PERSON7) This is what, what is in, in one of the [PERSON8]'s paper from this year [ORGANIZATION5] at they, they, they had some character of model and, and fou-, found particular neurons that correlate well with some word boundaries.
+(PERSON6) OK.
+OK.
+(PERSON1) But this output would be also LSTM?
+It was some projections on top of that, yeah, or?
+(PERSON7) Might be.
+I don't know.
+(PERSON1) OK.
+(PERSON6) OK.
+Um...
+Um, um, um, um.
+Yeah, um, yeah, this is mostly note for myself that I have to check it more.
+Um, yeah.
+This is something general to discuss.
+So a general comment that's repeated from [PERSON7] is that I talk about all of the linguistic abstractions but I don't kind of introduce, um, the partical abstraction.
+So I just talk coreference but I don't say what's coreference or I talk about, I don't know all, all these things without, without kind of introducing them or show and yeah, we don't really have an introductory chapture on linguistics -
+(PERSON7) Hm.
+(PERSON6) That would explain what's morfolgy, what's syntax, what's anything, so, um, there is like nothing to refer to, um, and yeah, I didn't include any explanation.
+But, um, my understanding was that we kind of write, um, the book for people who kind of are more linguisticly orientated so they kind of know what's coreference or what's syntax.
+(PERSON7) Hm...
+(PERSON6) Um, so I still agree that I, it would be good to at least say like in one sentence what's coreference or something.
+But, um, I wouldn't include some kind of detailed introductions to these concepts.
+(PERSON7) No, no, no.
+I, I didn't even ment of like this wh-, which is, one, one sentence is fine but would, I ment by most of the missing introduction comments was, um, why do we have a reason to believe that, that the neural networks should learn something like this.
+(PERSON6) Hm.
+Like, um, like you mean that coreference is a same and just we believe that if you want to understand language you need to understand coreference so -
+(PERSON7) Yeah.
+(PERSON6) If didn't you understand language it should understand coreference.
+(PERSON7) And, and, and since neural machine translation we can see that, that models do the coreference well and, and we need to think like as, as it a coincidence or, or did the neural network found out a work around or...
+(PERSON6) Hm.
+(PERSON7) How, how did it happend.
+(PERSON6) Hm.
+Hm, hm.
+Hm, hm.
+<other_noise/>
+Yeah.
+Yeah.
+Got it.
+<laugh/>
+OK, so yeah.
+That make sense or this would -
+I don't know, um, this kind of seems more like something I would put in the, in the introduction to the chapture like, um -
+(PERSON7) Hm.
+(PERSON6) Just this is kind of true for all of the abstractions that these are kind of characteristical for language and we -
+(PERSON7) Yeah, yeah, but -
+But for instance for the grammatical correctness, um, I think that as, it will be better to discuss it like, like directly in the section.
+(PERSON6) Hm.
+(PERSON7) Yeah, I, I put it some short text and I think that people were considering -
+(PERSON6) Yeah.
+(PERSON7) Language model as a substitute for grammars, gramatical sentences get higher probability and -
+(PERSON6) Hm.
+(PERSON7) Again it's like coincidence or is it like encoded somewhere?
+(PERSON6) Hm, hm, hm.
+OK.
+OK, yeah, I, I will try to do something with that.
+OK.
+Now at least I understand the point so -
+<laugh/>
+Um, yeah.
+But -
+So, so OK.
+And anyway I, I think OK, it makes sense to, um, shortly, um, say like in one sentence what's, what's dependency syntax maybe but, but not with detail.
+Cause it will be different for everyone like you commented and like the SSG stuff cause yeah, we don't know really SSG but other people know SSG and want know dependency syntax so that's, um -
+(PERSON7) Hm.
+(PERSON6) But, um, yeah, I guess we somehow have to expect the reader do, do know something about linguistic cause -
+(PERSON7) Yeah, sure.
+(PERSON6) Hm, hm, yeah.
+Um, yeah, there is the section on negation which is a bit weird, yeah, um -
+<laugh/>
+(PERSON7) Yeah, I, I had a lot discussion, um, what would, would people here in, in unique, um, I think that the papers that you discussed are, are all from here.
+(PERSON6) Aha.
+(PERSON7) And, um, the, they say the bird does not knew about negation and I say that, that bird knows everything about negation.
+<laugh/>
+Cause it's trained on realword sentences and, um, he only negate sentence that, that sounds probable, otherwise would you that you have no need to, to say a negative sentence so bird tense to filling the thing that is most probable because it, it makes the most sense to negate.
+(PERSON6) Hm, hm.
+(PERSON7) But um...
+(PERSON6) It kind of redealing with real language not like a formal language where -
+(PERSON7) Yeah, yeah.
+(PERSON6) So you mostly say things that are true and, yeah, you mostly talk about the real word and not about a non-existant word and -
+(PERSON7) Yeah.
+And if you say, if you need to negate something you need to negate something that your conversational partner believes is true.
+(PERSON6) Hm.
+(PERSON7) Otherwise you would not negate it.
+(PERSON6) Hm, hm, hm.
+OK.
+(PERSON7) So <unintelligible/> negates thing that, that it believes are true.
+(PERSON6) Hm, hm, hm.
+Hm.
+Yeah.
+(PERSON7) And anyway, I'm not sure about including, um, this, um, this sort of, um, stuff because it's and it's, this, this behavioral analysis -
+(PERSON6) Yep.
+(PERSON7) As we already say, um, in chapture 3 or what it is, that, that we focus on, on the structural -
+(PERSON6) Hm. [PERSON7] Analysis.
+So if you like don't want to deal with that -
+(PERSON6) Hm.
+(PERSON7) And I, I, I think we can just omit it and, and -
+(PERSON6) Hm.
+(PERSON7) It would no harm.
+(PERSON6) Yeah.
+Yeah.
+Yeah.
+Um...
+Yeah, I agree it's, yeah, like it would be good to include in the book but, um, then, um, [PERSON1] manished.
+(PERSON7) Hm.
+(PERSON3) Hm.
+<laugh/>
+Maybe <unintelligible/> building finally dissapeared.
+<laugh/>
+Or the electricity stop working.
+<laugh/>
+Or the internet stop working.
+(PERSON6) OK.
+(PERSON3) Original <unintelligible/> started -
+(PERSON6) Hm.
+(PERSON3) Falling from the ceiling or whatever.
+<laugh/>
+(PERSON6) Hm.
+(PERSON7) <another_language/>
+(PERSON3) <another_language/>
+<laugh/>
+(PERSON6) Hm.
+Hm.
+<another_language/>
+<other_noise/>
+(PERSON3) <another_language/>
+(PERSON6) <another_language/>
+(PERSON3) <another_language/>
+(PERSON6) Hm.
+(PERSON3) <another_language/>
+(PERSON6) <another_language/>
+(PERSON3) <another_language/>
+(PERSON6) <another_language/>
+(PERSON3) <another_language/>
+(PERSON6) <another_language/>
+(PERSON7) <another_language/>
+(PERSON3) <another_language/>
+(PERSON6) <another_language/>
+<laugh/>
+<another_language/>
+(PERSON3) <another_language/>
+(PERSON6) <another_language/>
+(PERSON3) <another_language/>
+(PERSON1) Sorry, I just lost connection.
+(PERSON6) OK.
+(PERSON1) I'm back.
+(PERSON6) Yeah, um, so yeah, we just decided to remove the negation part -
+(PERSON1) Hm.
+(PERSON6) And yeah, otherwise I think I don't have any thing I need to discuss about my chapture so the rest of the comments it's like, yeah, I agree and I will try to implement it so -
+<laugh/>
+Unless you want to discuss something of that so we can move to, I don't know -
+(PERSON7) Um...
+(PERSON6) Somebody chapture of -
+(PERSON7) I would, I would like to know if I should read the, the second half of the chapture or if it's too late or, because, um, I will, I will be working only this week and I, I'll have vacation the next week so everything I, I do would be, would be this week.
+So does it make sense if I read the rest of the chapture and, and add some comments this week or, or not?
+(PERSON6) Um, yeah.
+Um...
+Yeah.
+I think the rest of the chapture is ready to be read.
+Like [PERSON1] read it already and added some comments so maybe [PERSON1] can say if he thinks that it makes sense to read it at this point but I think I hope yes.
+(PERSON1) I think I haven't any comments to the -
+<laugh/>
+Las-, last sections so -
+It was about multilinguality or?
+(PERSON7) <unintelligible/> the layers what's, what's on <unintelligible/> layer and, and a multilinguality, yes.
+(PERSON1) Yeah.
+So I just thought that there is like two, I think there is couple of, I don't remember, but few sections that really, um, repeats itself.
+Like they en-, enrolled I think that one could be merge with another one.
+Because there, there was, um -
+<other_noise/>
+Um, um, I don't think, yeah, I think lot of sections there was, um, um, discussed about different pretraining task and it was in, in many parts.
+(PERSON6) Hm.
+(PERSON1) So it <unintelligible/> this could be a bit merge like to, to say it in one, one thing.
+(PERSON6) Hm.
+(PERSON1) Because there is some, um, arguments I think that's repeat themselves in different sections like -
+(PERSON6) Hm.
+OK.
+Yeah, um, it's <unintelligible/> I will look at it.
+(PERSON1) <unintelligible/> Kove and [PROJECT1] comparhasion.
+(PERSON6) Hm.
+(PERSON1) That those I think few papers that compare them and those are in different sections so, so it <unintelligible/> that take -
+(PERSON6) Hm.
+(PERSON1) Merged and I think -
+(PERSON6) Hm.
+(PERSON1) It <unintelligible/> only my comment to that.
+(PERSON6) Yeah, OK.
+<other_noise/>
+(PERSON1) I also, when I read, there is one thing I think from -
+I don't know because when I read it I, I tried sometimes I was a bit sleepy but it was also some, sometimes bitten purpose to be like more less really -
+<laugh/>
+You know, um, too, too think about some things that could not be understand, understood -
+(PERSON6) Hm, hm.
+(PERSON1) At the first reading.
+So there is one words that, that I don't whether, maybe it's commonly known but it's QES, QES.
+I, I think it's from -
+(PERSON6) Hm.
+(PERSON1) One of the papers.
+(PERSON6) Hm.
+(PERSON1) So maybe they, they could be some, some more definition of that because for me it's didn't really say anything.
+I need to just look it up.
+(PERSON6) Hm.
+(PERSON1) Either I try <unintelligible/> it but -
+(PERSON6) Hm, hm, hm.
+Yeah, um -
+(PERSON1) Because I think -
+(PERSON6) Yeah, I'll check, check where I use it and, and see, yeah, if I can make it more explicite.
+(PERSON1) Oh, this <unintelligible/> from couple times.
+(PERSON6) Hm, hm.
+(PERSON1) They did something I just don't know and -
+<laugh/>
+(PERSON6) Yeah, OK.
+Yeah, I think it's, it's, um...
+Yeah, it's kind of, um, a bit wage what it really means so, so I can, yeah, I can check what it means, yeah.
+Hm.
+Like to, so that is, is more clear but, but, um, what was ment.
+Hm.
+<other_noise/>
+OK.
+Yeah, so [PERSON7] basically stopped somewhere before word senses it seems with his comments.
+(PERSON7) Hm.
+(PERSON6) Um, so -
+(PERSON1) I, I think -
+I think it's be like an efficial to, to also, to read it once more because, yeah, I <unintelligible/> say.
+(PERSON6) Hm.
+(PERSON1) For multilinguality maybe like, um, they could be more, more to, to, to comment.
+But multilinguality was done by, by, by whom?
+Part?
+It was -
+(PERSON6) Yeah.
+So this is, this is kind of, um, um, taken from, um, a paper which -
+(PERSON1) Hm.
+(PERSON6) [PERSON7] mostly wrote and I kind of adapted it for the book but, um, yeah, it comes from that so -
+(PERSON7) Hm.
+(PERSON1) Yeah, <unintelligible/> this is -
+(PERSON6) Yeah.
+(PERSON1) Yeah.
+(PERSON6) Yeah, I'm -
+Yeah.
+Um...
+Yeah, I think about [PERSON7] should look at it a bit and say -
+(PERSON7) OK.
+(PERSON6) If he thinks if this is fine but, but, yeah.
+It's kind of his text originally adapted by me so -
+<laugh/>
+(PERSON1) Hm.
+(PERSON6) I -
+<other_noise/>
+It's probably too detailed as well, I don't know.
+(PERSON1) Just lot of citations there but yeah, I think, it's -
+So it's qui-, quite down say, I would say.
+(PERSON6) Hm.
+(PERSON7) Is that because you needed to have dense in an [ORGANIZATION5] paper?
+<laugh/>
+(PERSON1) Yeah.
+(PERSON7) <unintelligible/> something with it.
+(PERSON6) Hm.
+<other_noise/>
+OK, um...
+So I guess we're probably done with my chapture so, um, what do we want to talk about next?
+Um...
+So it doesn't make much sense to talk about [PERSON5]'s chapture I guess.
+<laugh/>
+Um...
+(PERSON7) Yeah, um -
+(PERSON3) <unintelligible/>.
+<unintelligible/>.
+(PERSON6) Um, this is the maximum.
+(PERSON3) <unintelligible/>.
+<laugh/>
+Loud -
+(PERSON6) We can move elsewhere this, this what we can do.
+<laugh/>
+(PERSON3) Anyway, sorry.
+What were you saing [PERSON7]?
+(PERSON7) Um, what are [PERSON5]'s plans if I, um, the question is if I read this, the, the, the chapture this week and, and, and leave some comments.
+Will he have time to, to do something about it next week or is it to late?
+(PERSON6) If me or [PERSON3]?
+(PERSON3) [PERSON5].
+(PERSON6) Or [PERSON5].
+<laugh/>
+[PERSON5].
+(PERSON3) Probably.
+(PERSON7) OK.
+(PERSON6) Yeah, I think next week he's here, yeah.
+(PERSON3) Probably.
+(PERSON6) And anyway the deadline for the book is not really clear.
+<laugh/>
+So, yeah.
+I heard him discussed it with someone.
+Like about the, the rules of the grant like when the things really need to be finished and -
+<laugh/>
+It wasn't really clear even so like -
+<other_noise/>
+Anyway like the sooner the better.
+(PERSON7) Hm.
+(PERSON6) But there might be some options of postponing some things so it's, yeah, I think it always make sense to have the comments there so there will be a chance to improve it and -
+Yeah, if just [PERSON5] realizes that yeah, we have to sumbitted now, so just some things will be end of rest but, um...
+(PERSON7) Hm.
+(PERSON6) I guess that's fine.
+(PERSON7) Alright.
+(PERSON3) Yeah, so I haven't read all the comments for my chaptures yet but from what I saw I will implement it and -
+(PERSON7) Hm.
+(PERSON3) And what else did I want to say?
+Yeah.
+We have this idea with [PERSON5] last week when [PERSON6] wasn't here reall.
+Because as your remember clearly, um, when, three years ago when we were discussing the grant proposal, [PERSON6] was saying, yeah, let's have a book, I like writing, I will write the whole thing and -
+(PERSON6) Hm.
+<laugh/>
+(PERSON3) So -
+<laugh/>
+So we think [PERSON6] should <unintelligible/>, um, we, we thought that maybe we could just sit down sometimes, probably next week or maybe the two of us can sit down this week and, and because [PERSON6] has talent for, you know, making a lot of text appear -
+<laugh/>
+We could just, you know, talk to you about what we want to write and you can write it -
+(PERSON6) Hm.
+(PERSON3) Right there or we can just like discuss -
+(PERSON6) Hm.
+(PERSON3) The things that we are writing -
+(PERSON6) Hm.
+(PERSON3) And write it at the same time and -
+(PERSON6) Hm.
+(PERSON3) Maybe it will help us move forward -
+(PERSON6) Yeah, that's fine with me.
+Hm.
+(PERSON3) Sort of like the hackaton helps
+(PERSON6) Yeah.
+(PERSON7) Hm.
+(PERSON6) Like I do have a problem with writing but I have to know the things that I'm writing about and the problem with this book is that, um -
+(PERSON3) <unintelligible/>.
+(PERSON6) Yeah, I'm mostly writing about things which I don't know much about so -
+<laugh/>
+That's, that's the hard part.
+<laugh/>
+Like -
+(PERSON3) Yeah, maybe we can like -
+(PERSON6) Yeah.
+(PERSON3) <unintelligible/> up and -
+(PERSON6) Yeah, yeah.
+(PERSON3) Discuss things and -
+(PERSON6) Like -
+(PERSON3) Write them -
+(PERSON6) Yeah.
+Like I'm good at reading and I'm good at writing but I'm not good at reading.
+<laugh/>
+Yeah.
+(PERSON3) Maybe I could like read some things for you and -
+(PERSON6) Yeah.
+<laugh/>
+Yeah, that's, that's fine with me.
+<laugh/>
+(PERSON3) Hm.
+(PERSON6) Yeah.
+Hm.
+Tell me what to write so I can write about it.
+<laugh/>
+Then you say which parts are wrong and fix it and -
+<laugh/>
+Like, yeah.
+That's the way it works like with, with the, the book anyway.
+Like I write some things and then mostly [PERSON7]'s, [PERSON7] comments on it like in place is where is wrong and -
+<laugh/>
+Yeah.
+(PERSON3) Yeah.
+(PERSON6) Yeah.
+I've already read in one paper like that -
+(PERSON7) <unintelligible/>.
+<censored/>
+<laugh/>
+Then -
+<laugh/>
+So yeah, it's -
+(PERSON3) Yeah, so maybe we should -
+(PERSON6) It's possible to do that.
+<laugh/>
+(PERSON3) We should try writing the book this way.
+(PERSON6) Yeah.
+<laugh/>
+So yeah, whenever you -
+(PERSON1) <unintelligible/> -
+(PERSON6) There is something that should be written, um, like <unintelligible/> and yeah.
+I'm fine with that.
+<laugh/>
+(PERSON1) Yeah, I'm for it, we can meet.
+<laugh/>
+(PERSON6) Yeah, so I think next week -
+(PERSON3) <unintelligible/> -
+(PERSON6) I can mostly be at work, um -
+This week I'm not sure, um...
+Yeah, but, yeah, next week should be mostly fine I guess.
+Yeah, and [PERSON5] will be here sure, yeah, it should work.
+(PERSON7) Yeah, sure it's not true that, um, we are suff-, supposed to send a book to the reviewers next week?
+(PERSON6) Well, probably we're supposed to -
+<laugh/>
+But -
+(PERSON3) But we'll probably won't.
+(PERSON6) Yeah.
+(PERSON7) OK.
+<laugh/>
+(PERSON6) That's kind of my understanding as well, yeah.
+(PERSON3) Yeah, when I last talk to [PERSON5] last week, I've sort of, yeah, got the idea that like right now we're not really written with the precise deadline although we should hurry up as much as possible of course.
+(PERSON7) OK.
+(PERSON6) Yeah.
+<other_noise/>
+(PERSON7) So I saw some comments in, um, in my chaptures.
+(PERSON6) Right.
+(PERSON7) I think that mostly concerned like, so I probably fix writing and that's it on -
+(PERSON6) Yeah, I've seen it mostly [PERSON5] comments.
+But I think it's mostly, yeah, like some -
+(PERSON7) Hm.
+(PERSON6) Improvements in the text, yeah.
+<other_noise/>
+<laugh/>
+Yeah.
+I didn't, um, go throught it recently so, um, yeah.
+I, I look at the comments from [PERSON5] and yeah, I don't think I have any, anything to add or -
+(PERSON7) Alright.
+<other_noise/>
+(PERSON6) Yeah, I can also see that, um, [PERSON5] also had some comments even for the real begannings of the book like the -
+(PERSON1) Yeah.
+(PERSON6) Like if he want to dedicated <unintelligible/> -
+(PERSON1) <unintelligible/>.
+(PERSON6) <unintelligible/>.
+<laugh/>
+I don't know.
+Do you have some opinions on the dedication?
+Right now it's to, um, [PERSON2] who is just inventor of [PROJECT3].
+(PERSON7) Hm.
+I would probably remove that cause <unintelligible/> -
+<laugh/>
+<unintelligible/> chemical substance help those us writing a book, it is not true.
+<laugh/>
+And -
+(PERSON6) Yes.
+(PERSON7) I have no, no other idea who we should <unintelligible/>.
+(PERSON6) <unintelligible/> I think it's not obligatory to have a dedication.
+(PERSON7) Yeah, yeah.
+(PERSON6) Yeah, I think we can just remove it.
+(PERSON3) We should come up with something.
+(PERSON6) Yeah, we still have theacknowledgement of the motto.
+Yeah, I know [PERSON3] -
+(PERSON3) <unintelligible/>.
+(PERSON6) <unintelligible/> doesn't like the motto but -
+<laugh/>
+(PERSON3) <unintelligible/>.
+We're not talking about the performance anywhere in the book basically.
+(PERSON6) Hm.
+(PERSON7) Yeah.
+<censored/>
+<laugh/>
+(PERSON6) Yeah, it's -
+<censored/>
+(PERSON7) Yeah.
+(PERSON6) Like it is quite possible that he said something like that but um...
+<laugh/>
+<censored/>
+(PERSON6) Yeah.
+(PERSON1) I don't know.
+<laugh/>
+(PERSON6) It's kind of specially people that we're writing the book for.
+(PERSON1) Yeah.
+<laugh/>
+(PERSON6) OK.
+So, um, do we want to have a motto, do, do you have some -
+(PERSON3) Sure, we want but -
+(PERSON6) OK.
+(PERSON3) Better one.
+(PERSON7) We want some but better one, yeah.
+(PERSON6) OK, so we probably want to remove the dedication motto we have right now and the competition is to advance something better.
+OK.
+<laugh/>
+Yeah, then it use like [PERSON5] also suggest to have an introductory chapture like probably introduction to the book or something and -
+(PERSON7) Yeah.
+(PERSON6) I don't know.
+I quite like the preface as it is but -
+(PERSON7) Yeah, but, but introducion usually contains all these practical informations.
+(PERSON6) Yeah.
+(PERSON7) <unintelligible/>.
+(PERSON6) I haven't read it.
+<laugh/>
+Like these are the parts I always skip and I find them kind of useless, um...
+<laugh/>
+So I wouldn't add them there.
+I don't know.
+(PERSON7) Yeah.
+(PERSON6) I kind of even hate it in the papers like in the paper were in the introduction usually say that OK, well it should use it and then described what we do and then present results and then conclude the paper and it's like, yeah, what you expect anyway.
+Um...
+<laugh/>
+(PERSON7) Yeah.
+It, I think it's kind of <unintelligible/> from the journal papers if you have like 30 pages long paper it's, it's totally make sense if you have a short [ORGANIZATION5] paper at 4 pages it's like -
+(PERSON6) Yeah.
+Yeah.
+So OK, so this is kind of long so -
+<laugh/>
+So yeah, we could have something like that.
+<other_noise/>
+Yeah, so like it, it's something I can write but, um, yeah, if somebody put some bullets what to put there then I can turn it into text or -
+(PERSON7) I think the bullets are already there.
+(PERSON6) OK and -
+Yeah.
+Do you think it should be like just the preface or that we should have a new chapture just for that?
+<other_noise/>
+(PERSON7) I don't know.
+I would, I would visually separate this, this like this, this motivation in the preface, perhaps start on the next page.
+I don't know.
+(PERSON6) Hm.
+Hm.
+OK.
+So I'll take a note and I can, I can put something there but -
+When, when I put it there then you will disagree with it and, and we will find on something to, to have there.
+(PERSON7) Yep.
+<laugh/>
+<unintelligible/> plan.
+(PERSON6) Yeah, yeah, yeah.
+(PERSON3) <unintelligible/>.
+Hm, hm, hm.
+<other_noise/>
+OK, so I'm copying some ideas for a motto -
+<laugh/>
+<unintelligible/> to the agenda document.
+(PERSON6) Hm.
+Hm.
+<other_noise/>
+Being that can be understood is language.
+I don't understand it.
+<laugh/>
+So <unintelligible/>.
+(PERSON1) Maybe, maybe we should -
+<laugh/>
+Maybe it will be easier if you put it on [ORGANIZATION4] so we can discussed it later or -
+(PERSON3) Hm.
+(PERSON1) <unintelligible/>.
+(PERSON3) Hm.
+So -
+(PERSON1) Or is, is it just one?
+(PERSON3) Is one right now, I will -
+<other_noise/>
+I will find more but -
+(PERSON1) Hm.
+(PERSON6) Hm.
+(PERSON3) I don't <unintelligible/>.
+(PERSON6) Hm.
+<laugh/>
+(PERSON3) OK.
+(PERSON7) By the way I have a next call in 10 minutes so -
+(PERSON6) Hm, hm, hm.
+(PERSON7) <unintelligible/> discuss we should make that in, in 10 minutes.
+(PERSON6) Hm.
+Well, no, I don't have anything more.
+(PERSON7) Um...
+(PERSON3) Me neither.
+(PERSON1) Me neither.
+(PERSON7) OK.
+Um...
+What about, what about chapture 4?
+Is it, is it ready for proofreading?
+(PERSON3) Oh...
+<laugh/>
+Well, some parts are, some parts aren't.
+(PERSON7) OK.
+And do we h-, do we know anything about the revieweres or?
+(PERSON3) No.
+(PERSON7) OK.
+<laugh/>
+<other_noise/>
+(PERSON6) OK, I guess that's it.
+(PERSON1) <unintelligible/>.
+Yeah, see you.
+Do we have meeting next week, yeah?
+Like usual time?
+(PERSON6) Um...
+I think so.
+The usual time is usually different time than <unintelligible/> time but -
+<laugh/>
+(PERSON1) 11 I say but -
+<laugh/>
+(PERSON6) But yeah.
+It's planned for the 28th 11 a.m.
+(PERSON1) Hm, hm.
+(PERSON6) Yeah, which hasn't happened for sometime like the -
+<laugh/>
+(PERSON7) Yeah, I, I would be there.
+(PERSON6) Yeah.
+Um...
+Yeah, it's, it's fine with me so far unless something turns up.
+<other_noise/>
+(PERSON7) By the way, [PERSON6], um, the, the paper about mul-, multilingual [PROJECT2] already has 8 citations on, on [ORGANIZATION2] Scholar.
+(PERSON6) Ah, cool.
+So it's still on [PROJECT4] now or?
+(PERSON7) Yes, yes.
+(PERSON6) Yeah.
+So, cool.
+OK, that's nice.
+You mean there are two versions of the paper on Archive, right.
+(PERSON7) 
+(PERSON6) Like there is the ACL paper and then the [PROJECT4] paper?
+(PERSON7) Yeah, and one, one has 4 citations and the new, newer one has a 3.
+(PERSON6) Cool.
+That's nice.
+(PERSON7) And, and that was before <unintelligible/> the items on my, my [ORGANIZATION2] Scholar profile and, and then two other citations of <unintelligible/>.
+I don't know which, which there.
+(PERSON6) OK, interesting.
+<laugh/>
+So yeah, it sure seems that we don't need to paper to be accepted anywhere because -
+<laugh/>
+(PERSON7) Oh, it's, it's actual the, my, my first paper that, that got some citations before being published so I, I <unintelligible/> that.
+(PERSON6) Yeah.
+It's to me kind of seens the review process is weird like they didn't accepted but still people are interested in it and cited so -
+<laugh/>
+(PERSON7) Yeah, but all the revieweres said a good point that, that our plan to import an information missing and -
+(PERSON6) Hm.
+(PERSON7) And it should be written as a long paper than a short paper and -
+(PERSON6) Hm.
+(PERSON7) Um.
+(PERSON6) So maybe this means that it should be accepted for [PROJECT4] so we'll see.
+(PERSON7) Yeah.
+(PERSON6) Yeah.
+Hm.
+(PERSON3) Hm.
+(PERSON7) Alright.
+So have a good day and see you sometime.
+(PERSON6) Too.
+See you.
+Next week at the lane.
+(PERSON7) Bye.
+(PERSON1) Bye.
+(PERSON6) Bye.

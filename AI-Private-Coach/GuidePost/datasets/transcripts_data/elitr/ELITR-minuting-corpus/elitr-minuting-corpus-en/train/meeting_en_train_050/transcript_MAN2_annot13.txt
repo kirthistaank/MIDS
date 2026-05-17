@@ -1,0 +1,675 @@
+(PERSON9) Hello.
+(PERSON4) Hi all.
+(PERSON11) Hello everyone.
+(PERSON4) Can you hear me?
+(PERSON9) Yes, I can hear both, you and [PERSON11].
+(PERSON11) Yeah, yeah and I can hear everybody.
+(PERSON4) So we are alone?
+(PERSON11) Yeah people are coming, they're on their way.
+<censored/>
+<censored/>
+<censored/>
+<censored/>
+<censored/>
+(PERSON15) Hello, can you hear me?
+(PERSON11) Yep, we can hear you.
+(PERSON4) Yeah.
+(PERSON15) Aa, excellent, yeah.
+Sorry, I I was in other call.
+So yeah.
+Let me start, thanks for everybody who has already joined this.
+And let me start with the important reminder that this surge activity is 
+planned to like distribute some some bonuses among you as as you may 
+remember from January.
+And for that, in order to distribute these these bonuses I need to know who 
+has worked on what.
+Obviously, we have our these these minutes on the from these calls.
+But still I would like you to maybe walks to the limits through the through 
+these through these minutes and then list it in the in the table in a
+concise way.
+So please do that.
+I'll do that myself as well for all of you.
+Like I'll I'll double check that I will scan my memory and and thinky file 
+if I have forgotten something or not but please make your like make sure 
+that nothing is forgotten.
+And then I'll distribute the points and and we'll see how that's translates to 
+money.
+There will be some issues because the the university afraid of corona virus 
+is, has somehow like prohibited bonuses on in general, but I think that we 
+should be able to go around this.
+So things are getting complicated.
+And then I wanted to thank everybody for the IW SLT submissions, the 
+work on that.
+The systems are now in evaluation.
+I know that [PERSON10] has already provided the outputs in some way and I 
+didn't have the time to look at that.
+But yep, that will that will happen probably after the weekend.
+And yeah then the other thing is the uni hack.
+Which is the [PROJECT6], that we will, I sh- I have not yet announced it.
+But we should we should announce it it's happening for the public from 
+Wednesday evening where there is some choice of topics and actually starting 
+on Friday over the extended weekend if you're going to do various discussions 
+and there will be closing sessions and we would like to test the the subtitling there.
+So this is just an advertisement for that if you are curious and for [PERSON11] 
+this is actually quite some work to to make sure that the system is is 
+running.
+And I would also like to to hear from [PERSON11] just a confirmation that he 
+will try again the subtitling or transcript for the Wednesday meeting of the 
+[LOCATION1] department.
+(PERSON11) Yes.
+(PERSON15) Yeah yeah.
+(PERSON11) Yeah, definitely I'll try to sleep in early so that I can <unintelligible/>
+(PERSON15) There, there is thing which is called alarm clock.
+<laugh/>
+(PERSON11) Yeah, I'll definitely put alarm clock.
+It's quite useful when you sleep at like 6 am in the morning.
+(PERSON15) Oh yes, definitely.
+Yeah, that's that's not going to work.
+<laugh/>
+<unintelligible/>
+Okay, yeah.
+So so that is that is probably everything from me.
+I've worked on, well, the IW SLT submissions and then the the lectures 
+actually.
+So for some reason the lectures remote lecturing is getting more and more 
+exhausting.
+And that's why I I don't remember if I did anything specific.
+Yeah.
+So that's that's from me.
+So now from all of you, what what have you done?
+If we can hear [PERSON10], then we can start with [PERSON10].
+If this works.
+Doesn't seem so.
+Okay, so I'll I'll read for [PERSON10] so he has all the EAF files.
+Yeah, does it work.
+Ok.
+(PERSON10) Yeah.
+(PERSON15) So all the EAF files are done, right?
+They are in line with the OST files now, correct?
+(PERSON10) Yeah.
+(PERSON15) Ok that's excellent.
+Thank you.
+And then, yes, you have created the ASR evaluation and you have evaluated s-
+Yeah, okay, so you have so far evaluated only 1 system, right?
+The [ORGANIZATION6] submission by [PERSON7].
+(PERSON10) Yeah.
+(PERSON15) Okay.
+So it will be good if you could do all the others and actually this is 
+something that I told to to [PERSON1].
+The idea is that within each of the submission directories there is this 
+subdirectory "as received" but outside of this as received we can reformat the 
+outputs in in any way which is convenient for us.
+So please propose unified far format like file naming convention, rename the 
+files as needed.
+So that every submitter has multiple systems and then with each of these 
+multiple systems we have all the many files.
+And if this layout will be identical across all the submitters, then you 
+will need just one script.
+And that's the point.
+So I think it's it's probably better to do like manual shuffling of the 
+files of the received submissions into this common format and then to have 1 
+evaluation script for that format.
+Then to create separate scripts which would process the original layout.
+(PERSON10) Mmm-mm.
+(PERSON15) Do you do you understand?
+(PERSON10) Aaa yeah.
+(PERSON15) Yeah.
+And also when doing these this like re- whatever, reshuffling or this this 
+layout adjustment, please commit these adjusted files as well.
+In many cases this will simply mean that the files are named differently but 
+they have identical contents.
+And Git is so clever that if it the file is identical it will not use any 
+any new space anyway.
+So make copies, copies are totally cheap in in Git repositories.
+So make copies of the of the files and organize them in a way which is 
+convenient for you to process all of them at once.
+(PERSON10) Mmm-mm.
+Yeah, I do it.
+(PERSON15) Yeah, okay.
+(PERSON10) I do it.
+(PERSON15) Yeah, thank you.
+So that's that is good progress from from your side.
+Yeah.
+I don't know if if there's anything that you would need to know or if.
+I I need to revise the the outputs, the scores from [PERSON7], but I would like 
+to look at this only once I have all the systems to consider.
+So because the the numbers will like.
+I can understand that numbers only in relation with other numbers.
+So please t- like put now the priority to this.
+And evaluate all the systems on all the files.
+(PERSON10) But [PERSON15] if you <unintelligible/> we can share [ORGANIZATION7] docs for problems in submission 
+files and the owners of them can explain or correct them.
+<unintelligible/>
+(PERSON15) Okay, so what are the problems?
+So what are what are the problems?
+(PERSON10) For example files are such as-
+(PERSON15) Say it again, I, yeah it's the the connection is bad.
+(PERSON10) For example format of files, and convert fi- convert files to our format.
+(PERSON15) Yeah, so I think that in most cases this should be very easy to 
+understand.
+Because you know what the inputs were and you know what the people were 
+doing.
+We know that for example the this guy from [LOCATION2], [PERSON17], he did not 
+have any segmenter at all.
+So provided just the outputs without segmentation.
+And this is something that we have to evaluate as as it is.
+That means that we'll be limited only to the like complete and concatenated 
+scoring.
+So word error rate for the whole document.
+And blascore for the whole document, and that's it.
+But I think it's it should be possible for all the submissions to to 
+interpret it to to find it.
+And and yeah.
+So well, we have this this document on the test set problems where I'm 
+listing the problems that I spotted in the reference.
+Use that document also to list the problems of the submissions.
+And then notify me so that I will try to resolve that.
+We should first try ourselves and only if we really only if we really 
+struggle, then we should contact the the authors.
+So I'll create ehm so problems of submissions.
+Please write them here and I'll, yeah.
+Yeah, so I'm just assigning that brand new section to you in in the IW
+SLT test set problems.
+So please put it there.
+Ok.
+So you will receive Gmail notification.
+(PERSON10) Yeah.
+(PERSON15) Okay.
+So I think this is this is good progress.
+So let's now move to another person, [PERSON11], so.
+(PERSON11) Yes, so, yeah I was mainly busy with IW SLT work with segmenting at [PERSON9]'s 
+ASR outputs and features of ASR outputs as was [PERSON3]'s.
+And then apart from that, I think yeah that's all I did and I did not work 
+yesterday.
+And this week I plan to retrain text segmentation using increased voc vocabulary and retrained embeddings.
+(PERSON15) Yeah.
+(PERSON11) And again the daily testing of Czech SLT and sensitive value <unintelligible/> yesterday and also [PERSON13] integr- 
+[PERSON13]'s [PROJECT1] models will be integrated in embedding testing and again prepare for the coming Unihack.
+(PERSON15) Yeah, yeah.
+(PERSON11) These are all, these needs these needs to be done this week.
+(PERSON15) Yeah, okay.
+So when retraining the segmentor, it will be really good to ehm to use as 
+much data as possible.
+(PERSON11) As much data as possible, right?
+(PERSON15) I th- yeah, I would suggest as much data as possible.
+So let's or well be better yet you should if if you really have had time the 
+ideal thing would be to like try smaller sizes and larger sizes and see the 
+saturation curve.
+And if the if the accuracy is steady then there is no point in using more 
+data, but if if it's still grows then then it's a good to use more.
+(PERSON11) Yeah, yeah, so earlier this month I I retrained the text segmentor using 
+a different data set <unintelligible/> some Czech data that I got from [PERSON9].
+And it was pretty bad.
+(PERSON15) Yeah.
+(PERSON11) Because I I took of, to get enough of short sentences and enough of long 
+sentences as well, but that did not have much.
+(PERSON15) Yeah, so the the critical thing is what is that test set.
+So did the test set has to be in line what we are using this for.
+And so so please before retraining let's let's like ehm let's have some plan 
+what is what is what should be in the test set.
+(PERSON11) Exactly, <unintelligible/> because we want we want more segments in our ASR outputs 
+so I think we sh- we need to have a smaller segments smaller sentences in 
+the training set as well.
+(PERSON15) Yeah exactly.
+And good source could be [PROJECT7] itself but maybe we can use the version 2 
+point-
+So the 2 point 0 which is more filtered.
+In some way.
+(PERSON11) Point zero.
+I last I had heard about it is 1 point 7, which is a filtered version of 1 point 6.
+(PERSON15) Yeah and there is 2 point 0 just released for [PROJECT4] primary by [PERSON8].
+And it is filtered even further.
+And it also contains a lot of synthetic parallel tags where one of the sides 
+is always like correct Czech.
+But this is news.
+So-
+(PERSON11) Aha, ok.
+(PERSON15) I would the the synthetic part.
+But I would focus I would I would check the the subtitles and and other domains.
+So I would do some statistics collection on the training data.
+And I would double check that the training data contains segments short 
+enough as as exactly as you as you say to make sure that that we are cutting 
+it frequently enough.
+(PERSON11) Yeah, exactly so so let's let's first train the current text segmentor 
+using retrained embeddings and let's observe the results and then the next phase would be to train it with short segments..
+(PERSON15) Yeah, okay.
+That looks that looks good.
+Great.
+So who else do we have?
+We have [PERSON4] and [PERSON9] and [PERSON16] as well.
+So let, because I know what [PERSON4] and [PERSON9] have been doing, let me start 
+with [PERSON16].
+So [PERSON16], please summarize.
+(PERSON16) Hi.
+I have sent you e-mail <parallel_talk> Yeah.</parallel_talk> regarding the instructions-
+(PERSON15) Yeah, yeah, yeah.
+(PERSON16) So I don't know, maybe you didn't get time for that.
+(PERSON15) Yeah, exactly that's it.
+I didn't get get the time, but please don't have the the annotators wait.
+I know again of 1 person who is waiting.
+(PERSON16) Okay.
+But I got an e-mail from [PERSON6] yes <unintelligible/> she send me back all the files.
+And I'll assign another file to her.
+So I don't.
+But, okay, I will follow your suggestion.
+And I-
+Okay, and last week I as I as mention in my report I worked on on data collection 
+especially in [ORGANIZATION4] and [ORGANIZATION1].
+And now I'm working on rest of 22 in languages.
+So I have already started and maybe I'll finish tomorrow and then it will be 
+uploaded on GitHub.
+(PERSON15) So, yeah sorry, I, someone is shifting the meeting that I have after this so I I 
+was not fully paying attention.
+You were saying that you have the monolingual data collected for many 
+languages, right?
+(PERSON16) Yes.
+(PERSON15) And this is the training data.
+Or this is supposed to be part of the test set.
+(PERSON16) Ehm, monolingual data is for training.
+(PERSON15) Yeah.
+(PERSON16) And test sets because we had planning as we discussed in the last meeting.
+And so we we have to co- collect 43 lan- test for the- test data for 43 
+languages.
+(PERSON15) Yes.
+(PERSON16) So 22 languages are remaining.
+And 22 non non non [ORGANIZATION8] languages.
+(PERSON15) Yeah.
+(PERSON16) So I'm collecting rest of the languages.
+(PERSON15) You're collecting the target side monolingual data.
+Yes.
+(PERSON16) Yes.
+(PERSON15) Yeah, this should not go to the GitHub repository, just to make sure.
+The training data should not be version in GitHub because it is it should be 
+big.
+It should-
+If it's not then we have a problem.
+So it should be inconveniently big for for the GitHub repository.
+(PERSON16) So okay, how will I s-
+(PERSON15) So where where do you have where do you have the the data for the 
+European languages?
+For [ORGANIZATION8] languages.
+(PERSON16) In the my, European languages data is available in my [ORGANIZATION3] system.
+So.
+(PERSON15) Yes, exactly.
+This this, this is the right place.
+(PERSON16) Yes, ok.
+(PERSON15) So, these will appear, so please add the path.
+(PERSON16) Ok, I will put in path in the I guess, SL data assets, SL data asset.
+(PERSON15) Yeah.
+And for the test sets.
+So so the the monolingual data, the monolingual data can be source of 
+inspiration.
+But it was be a lot of labour to to improve it to make it parallel as we 
+need the test sets.
+So for the test sets, the test set should be selected from the parallel data 
+that the people can find.
+(PERSON16) Yeah, so I got some links from the by the annotators, like for Serbian, other 
+languages.
+So it is already started for <unintelligible/>.
+(PERSON15) Yeah, so it should be quick.
+How how far is that?
+(PERSON16) Some places it is not very good, because maybe because of the PDF file 
+and the URL is not compactable.
+So but I have to manually check it is working or not.
+So, I'm not I'm not analyzing anything because.
+But I will check and analyze and let you know what is that.
+(PERSON15) Okay, so this is, oh, so you have ehm now separated the annotators into 
+individual sheets.
+I'm looking at the [ORGANIZATION7] [ORGANIZATION7] sheets right, for the annotators.
+(PERSON16) Yes, because it is very easy for me when I assign and when I recieve 
+this and maybe in annotator will also mention an annotator can also mention 
+when he has finished he or she has finish the.
+(PERSON15) Yeah, okay.
+If this is convenient for Ma- for you, then yeah, why not.
+So why are there.
+So far, okay.
+So the [PERSON6], she has provided 2 files so she's now working on the second 
+file, right?
+(PERSON16) Yes.
+(PERSON15) And that's, so so we have now as far as I understand only 2 files 
+finished.
+1 by [PERSON21] and 1 by [PERSON6].
+And 1 more file in in annotation with [PERSON6], right?
+(PERSON16) Yes.
+(PERSON15) This is too little.
+We really need to, yeah.
+(PERSON16) But because we have we finish the 21 [ORGANIZATION8] test set but I like I just with 
+at [PERSON19], if I'm not wrong, in pronunciation.
+So told me she is work she knows only Bul-, Russian and Serbian languages.
+(PERSON15) Yeah, yeah.
+(PERSON16) And so.
+(PERSON15) So Russi- Russian go for Russian.
+We don't have Russian covered.
+(PERSON16) Okay, but I-
+(PERSON15) Russian is not [ORGANIZATION8] languages, so.
+(PERSON16) But we, it is not available on the.
+I have not collected yet that data so I ha- I can't assign.
+So, as the reason we are not we have not cleaned rest of the files.
+I don't know where is the, where is-
+(PERSON15) <unintelligible/> [PERSON19] [PERSON19] found that the some of the talks, like 
+Minister speeches, right?
+(PERSON16) Yes.
+(PERSON15) So please select something from that and have that like-
+Select something.
+Don't don't let her wait.
+(PERSON16) Okay.
+(PERSON15) So I know that processing this in the whole would take some more like 
+programmers time.
+But you can also do some quick props, to to give her something.
+So do these quick props right now, like send her something, it's.
+You should always have a bad feeling when these people are like sitting and 
+not doing anything.
+(PERSON16) Yeah, I know.
+Because of me it is very bad.
+People are waiting and.
+(PERSON15) So just imagine, it's like 5 people and except for 1, they all are 
+waiting in front of your door until you do the task.
+So that's-
+(PERSON16) Okay.
+I will try to figure out how to maybe maybe I will assign new fil- assign 
+file tonight.
+(PERSON15) Well, not maybe you have to do it.
+(PERSON16) Yes, sure, sure I will do that.
+(PERSON15) So to each of them they really.
+I think that everybody has suggested some links.
+(PERSON16) I got, yes, so like [PERSON6] sent me link so I have already collected 
+the data and assign the the files to [PERSON6].
+And [PERSON21] send me again <unintelligible/> test set data to [PERSON21], but not for the 
+[PERSON19] so, it is my fault, definitely, because I was working on other 
+languages.
+So, yeah.
+Okay, I will try.
+(PERSON15) Yeah, I'm now also opening I'm now also opening the document [PROJECT3] test 
+set collection process.
+So there is these details.
+There is it, yeah for example [PERSON14], yes, the Norwegian there is the 
+speeches.
+Seems like a great resource are [PERSON16] please, so this is this is now waiting 
+for over a month.
+The Norwegian.
+So this is, so I'll just a reminding of this unfinished task.
+And it's a small task.
+So [PERSON14] has been waiting for the input files for a month.
+She has provided the link and and she has not received anything to review.
+(PERSON16) [PERSON14]- but I think I have not.
+Okay I will check [PERSON14]-
+(PERSON15) So this is the document that you should be also listing.
+Yeah we also have this [PERSON12], yeah.
+So the Belarusian for example.
+That's again, there is some document.
+There was a found translation, this [PERSON12]- [PERSON12].
+We have the the [PERSON19] the Minister of the interviewer.
+Here we know that it is a great website.
+But don't process it fully automatically for now give her something.
+(PERSON16) Okay.
+(PERSON15) So to test set this is growing way too slow.
+And and yeah.
+So that you-, this this [PERSON12] for the Belarusian, [PERSON12] 
+[PERSON12], this is, he is not even in your list.
+Right?
+(PERSON16) Actually, I prepared my list because,  ehm, <unintelligible/> email so-
+(PERSON15) Well, you should be reading this this document, this is the document 
+where we invited people to to write about the languages.
+(PERSON16) Okay.
+This one, okay.
+[PERSON14]-
+<unintelligible/>
+(PERSON15) Yeah, okay, thank you.
+So that's please, really-
+(PERSON16) Sure, I will follow up your suggestion.
+(PERSON15) Yeah, the table that you have, the table that you have is is like too 
+ambitious for each of the persons, because it lists if I would share the 
+screen this is like it's empty sheets and you are planning to have like 24 
+or how many lines you see on 1 page shipments with 1 person.
+Ehm, so it it's look, it looks very deserted, it is deserted actually.
+And that's not what you wanted.
+So it's, yeah.
+Feel free to to work with this layout but make sure to populate it, to send 
+the people the files and collect URLs from them.
+<unintelligible/>
+(PERSON16) Ok.
+(PERSON15) Yeah, okay, thank you.
+(PERSON16) Thank you.
+(PERSON15) So that was that was [PERSON16].
+And yep, status of languages for the test set.
+That's the the other document.
+This is here.
+And I would, I don't know we we don't have [PERSON13] right, do we?
+(PERSON11) No.
+(PERSON15) Yeah, so maybe, maybe [PERSON11] can also help with this.
+So the monolingual data.
+As soon as [PERSON13]'s models arrive.
+As soon as you can use them [PERSON11].
+Either either you or [PERSON13] should should get the monolingual data from [PERSON16] 
+and do the back translation.
+So translate from the monolingual data from Serbian or from from the 
+auditing documents in in Sloven.
+Go into English.
+And from English into all the target languages.
+Please add the path.
+So here I will say then [PERSON16], [PERSON16] please add the path and pass this note to 
+[PERSON11] or [PERSON13] to-
+(PERSON11) Take these monolingual data from [PERSON16]- [PERSON16], right?
+(PERSON15) Say it again, sorry?
+What was the question?
+(PERSON11) All these monolingual data from from [PERSON16]?
+(PERSON16) Yes yes, I will send path when you will-
+(PERSON11) Okay.
+(PERSON15) Yeah.
+Yeah and so the the idea is that the layout we need to discuss this then 
+probably either eith either [PERSON11] or or [PERSON13], we need to figure out the layout 
+of the data.
+It's it is fairly simple it would mean no rocket science just like plain 
+text files.
+They have to already be sentence segmented.
+And then sentence wise we need to translate them.
+This translation should be as much parallel as possible because it is a lot 
+of files.
+Or should be lot of files.
+This would give us the synthetic parallel data.
+And these should serve in training of the of the models.
+(PERSON11) Okay, okay, okay.
+(PERSON15) And we have discussed previously with [PERSON16] that it's we will go from 
+English into all the target languages.
+(PERSON16) Languages.
+(PERSON15) So that means that the back translation should go from all the many 
+monolingual languages into English.
+And also we-
+<unintelligible/>
+(PERSON11) And then 42.
+Sorry for interruption.
+(PERSON15) So, yeah.
+And then and then we also need to go into English and there we focus on the 
+ASR languages.
+(PERSON11) Sorry, I didn't get this point.
+So I think you want-
+(PERSON15) Yeah, so the-
+(PERSON11) From 42 languages to-
+(PERSON15) So let's start with the let's start with the the hard part.
+That's all, from each of these 43 languages into English.
+This is the large portion so let's start with that.
+(PERSON11) Okay, okay.
+(PERSON15) So so the goal the goal is to have a large sit parallel corpus English 
+synthetic target mono in 43 languages genuine.
+Yeah.
+(PERSON11) Okay, okay.
+(PERSON15) Yeah, okay, great.
+So so now we still have 10 minutes and not more for and actually we should 
+have stop already for [PERSON4] and [PERSON9].
+So quick updates from you.
+Especially things that are important for others on the on the [PROJECT3] team.
+So is there anything?
+(PERSON11) So I think today [PERSON9] has updated the model and-
+(PERSON9) Yes, so so I've updated the ASR model so now it's a much more lightweight 
+and the loading time should be much faster.
+But yeah, so I am still waiting for some if we can get hands on some 
+adaptation text or some materials and.
+Yeah, I I can run the adaptation.
+If if we if [PERSON18] [PERSON18] provide some texts if I understood it 
+correctly, that he is trying to get something -
+(PERSON15) Double check with him.
+Double check with him and [PERSON5] is the coordinating person.
+So so that's talk to talk to [PERSON5].
+And also there is a meeting that will mention some of the organization 
+details the prg.ai meeting tomorrow at 4.
+I won't be there because I'll be I'll be teaching.
+But if you wanted to join to learn some of the details then [PERSON5] will will 
+be joining.
+[PERSON5] knows the URL.
+So so he-
+(PERSON11) I have-
+I'll forward it to [PERSON9].
+(PERSON15) Yeah, yeah.
+So there n is like no no need to to take part but it could further, it could 
+provide you a further ideas where to get relevant texts.
+(PERSON9) Mmm-mm.
+(PERSON15) Do not await but rather actively check if [PERSON18] is collecting some 
+texts.
+Okay, good.
+Yeah, that's great.
+I'm I'm happy about the the ASR model faster loading time.
+One thing that'll be good if if anyone could do.
+Just to use Netcat mainly [PERSON11] but anybody can use Netcat to probe 
+whether a port is busy or not.
+(PERSON11) Yeah, yeah, definitely.
+(PERSON15) So so that before you launch anything.
+Before before the lo- the whole loading of the ASR model starts on on sole machines, 
+double check that the selected ports is is free.
+And and die if it's not.
+(PERSON11) Yeah, yeah, definitely, thank you, thank you for the submisison.
+(PERSON15) Yeah.
+So I put here and ehm, [PERSON11] or add [PERSON9] test the port with NC before 
+loading ASR, right.
+Ok, great.
+(PERSON9) Yeah, just apart from that I've started working on the [PROJECT2] 
+paper which is due in like 10 days.
+And yeah, I I'm try to do some work with [PERSON2] for like testing some things 
+about summarisation but I it's not probably relevant for others so.
+(PERSON15) So the the meetings that [PERSON2] has they are again, or could serve as nice 
+test sets.
+Or even domain adaptation data.
+Because this is corrected transcripts.
+And there is English and Czech meetings.
+(PERSON9) Mmm-mm.
+(PERSON15) So getting in touch with [PERSON2].
+Meeting recordings have revised transcripts so they could serve for 
+evaluation or adaptation.
+Okay, great.
+Okay, and the last person is [PERSON4], right?
+(PERSON4) Yes.
+And I've been working on the IW SLT, the paper and the evaluation of my 
+model so I I didn't do anything apart this.
+And I I work on my thesis.
+In the meantime.
+(PERSON15) Yeah, that good, that that's important work in any case.
+I was curious about the onlinesation.
+Which is something which is-
+So like you should not be distracted too much by work for [PROJECT3] you should 
+really focus on on the thesis.
+But how far are we from use usable integration of your models into the 
+pipeline and what are the blockers.
+This is what I would like to to hear.
+(PERSON4) Yes.
+I provided some version of online model of mine, but it was rather naive 
+approach where I derived from the probabilities outputted by the by the acoustic 
+model.
+Pro I derived where the probable splits between the words are and I just used 
+the most probable one in window of 8 seconds.
+And split it there.
+So I guess it would be nice to to train the transformer model that comes 
+after the acoustic model.
+So so that-
+(PERSON15) Sorry, an interruption from the family, sorry.
+They they the simply under unable to understand that I'm at work.
+<laugh/>
+(PERSON4) Okay.
+And and to train the transformer to to give a hints when where are the 
+sentences boundaries.
+Boundaries on the sentences.
+That that would be nice.
+But and I I didn't really try to to train the transformer that way.
+But I can imagine that with some some simple trick with the training data 
+like using only parts of the like.
+Concatenate several sentences together from the training data.
+And to train the transformer to work on on windows, on continuous windows 
+fr- on the training data.
+And to.
+When train the transformer to to predict the-
+(PERSON15) The boundaries.
+(PERSON4) The boundaries, yes.
+(PERSON15) [PERSON3] [PERSON3] has experiments on this.
+So [PERSON3] is on vacation, like he he work too hard on the IW SLT 
+submission he said that he will take a week of.
+So that's why he's not here today.
+But he has done some experiments on this translation of windows already.
+(PERSON4) Ok, so-
+(PERSON15) So make sure to talk to him.
+He has the results.
+I think it way maybe even discussed here below the, in this document.
+So maybe you ca- if you scan this document there could be links to that.
+Or ask him and when when he's back in like after the weekend then he will 
+prob- surely provide you with the pointers.
+(PERSON4) Okay, so I think it's just about the training of the transformer model.
+(PERSON15) Yeah.
+(PERSON4) And then it will be be much better.
+(PERSON15) Yeah, so the he compared it with segment level translation and then there 
+was some loss.
+So in the case where you have the segmentation it's better to use it.
+But there was no comparison with the set up where you don't have the 
+segmentation.
+So in that case-
+(PERSON4) And and he he just used some some clever shuffling of training data or 
+or he does something more more advanced.
+Like if you remember we were discussing continuous spoken language 
+translation.
+(PERSON15) That was the goal.
+So he it was like a running window over the the same document.
+It was not shuffled data.
+It was like document windows from a document.
+(PERSON4) Windows from a document, yes.
+So that that was my question.
+Yes.
+(PERSON15) Yeah.
+Okay.
+So, please get in touch with him to this is.
+Starting to consider window based translation should get in touch with 
+[PERSON3] who already work on this, on this and has some results.
+Okay.
+Great.
+Amazing.
+We are not going to be cut by the automat.
+By the by the machine.
+This time, right.
+So thanks to all for your participation.
+And.
+Yeah, and see you talk to you next week.
+Right?
+But in the mean time there will be the Unihack, the [PROJECT6].
+So there'll be lot of work for for [PERSON11] at least.
+<unintelligible/>
+And.
+Yeah.
+Ok.
+Thank you.
+(PERSON16) Thank you.
+(PERSON4) Thank you.
+(PERSON15) Thanks, bye bye.
+(PERSON11) [PERSON15], are you here?
+(PERSON15) Yeah I'm still here but it will, we have just 1 minute indeed.
+60 seconds.
+(PERSON11) Yeah, 60 seconds are this much.
+Can anyone guide me to the path from the Czech into <unintelligible/>
+In the meantime like in my usual time I would work on <unintelligible/> get it ready for Czech 
+segmenter?
+(PERSON15) To path on the [PROJECT7]-
+Net data [PROJECT7] 2 0.
+And that should be it.
+So slash net, slash data slash lower case [PROJECT7] 2 0 slash.
+(PERSON11) Okay okay that's enough.
+Thank you, thanks a lot.
+(PERSON15) Okay yeah thanks.
+Bye bye.
+(PERSON11) Bye.
+ 
+ 
+.

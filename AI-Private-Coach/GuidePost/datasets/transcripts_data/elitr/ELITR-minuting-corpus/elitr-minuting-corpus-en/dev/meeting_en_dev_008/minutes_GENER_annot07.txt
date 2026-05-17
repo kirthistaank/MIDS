@@ -1,0 +1,18 @@
+[PROJECT1] 14. 02. 2020
+
+Date: 14. 02. 2020
+Attendees: [PERSON7], [PERSON5], [PERSON1]
+Purpose of meeting:  Work synchronization 
+Agenda: 
+1) Structure of the deliverable documents
+2) Solving problem with connection to Overleaf
+3) Information to be shared
+4) ELG paper
+5) [ORGANIZATION4] demo paper
+6) [PERSON1]'s helping [PERSON5] with last page problem
+7) [ORGANIZATION7] publishing platform
+8) Access to GitHub
+
+ 
+Minutes submitted by: [ANNOTATOR2]
+

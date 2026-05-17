@@ -1,0 +1,627 @@
+(PERSON7) Hi, hello.
+Can you hear me, does it work?
+(PERSON4) Yeah.
+() Hi.
+(PERSON7) Yeah.
+Yeah, great.
+So thanks for yo-
+Thanks to all who are here.
+[PERSON8] and [PERSON14] said they couldn't make it today.
+So they'll add their bits to the documencht soon.
+And what is most urgent and I'll I'll like to start with so that I don't 
+forget.
+Is the demo for the project officer.
+And [PERSON4] is the main person looking after this from our side.
+Our integrator [ORGANIZATION3] are not exactly, well, successful in in the set-ups so 
+to say.
+So I would like to ask we we had  shsh I sa-
+Yeah, so we we still don't have [PERSON10] I was kinda hoping that [PERSON10] would 
+would also join.
+So anybody who has some experience with YouTube streaming and YouTube re-
+streaming I mean stream, live streaming of some video which was already 
+available on YouTube beforehand.
+These skills would be would be useful.
+Yeah.
+Ok.
+So I <laugh/> it's probably none none of none of you here.
+Ehm what else [PERSON4] could we ask help for?
+(PERSON4) Honestly I have very little knowledge about these things.
+(PERSON7) Yeah, so.
+Yeah, so if some other people join then will will possibly ask f for for that 
+help again.
+Ok, so for I see that you're filling things.
+I would like to thank as well to [PERSON4] and also to to [PERSON10] who is not 
+here and also [PERSON3] who has reviewed that for and obviously to [PERSON9].
+The Unihack subtitling.
+[PERSON4] did you also have a chance to follow that, to see what it is 
+actually doing?
+(PERSON4) The Unihack subtitling?
+(PERSON7) Yeah.
+Yeah.
+(PERSON4) Yeah, actually no, I didn't get the question so what do I-?
+(PERSON7) Sorry.
+I was asking if you actually tried to play the role of foreign speaking 
+participant.
+If you checked the content.
+What it is actually doing.
+(PERSON4) You mean like speaker indetification?
+(PERSON7) No, just Unihack.
+The the the subtitling.
+How did it go?
+(PERSON4) Yeah, ok, yeah.
+That it it it went nice, it it was great.
+And I have recorded audio and the directories have been updated with the logs and automatic transripts.
+Recordings, yeah, so.
+I I think, but I I don't think if anyone even care to look at those subtitles.
+Yeah, so I'm in need, we needed, we, we, we, should have like done some kind of adve ad advertisement. Probably.
+(PERSON7) I heard from the organisers that there was a person at least 1 person 
+who has like joined that thanks to the subtitling.
+(PERSON4) Yeah, exactly.
+So there there there were like only those-
+I think there was the first meeting which was the Czech and a foreign person 
+join and he was like English speaking and he he was the one to view.
+(PERSON7) Yeah.
+(PERSON4) And that I think he he uploaded the subtitles and they were quite good.
+03:44 And [PERSON10] even [PERSON9] even said that the Czech AR the Czech subtitles from the MT models 
+which is the back translated Czech was better than real ASR Czech.
+And that is a strange one.
+(PERSON7) Ok.
+<laugh/>
+So which is-
+<other_noise/> <unintelligible/> operation.
+So we we need to ask [PERSON9] what is the like to to to summarize that.
+(PERSON4) Yeah, exactly, yeah.
+(PERSON7) Yeah, ok.
+So, then, we still don't have.
+We still don't have [PERSON10] here.
+So maybe you or [PERSON3] will know about the English to 41 MT model testing.
+So what is the what is the status there?
+(PERSON4) Last time when I was testing ehm, [PERSON10] made many corrections that <unintelligible/> 
+the delay issue.
+But still it's there and it's not properly is not properly fixed but-
+It has been like taking care of right now.
+Make it to make it bit usable.
+And I think.
+So right now I want using [PERSON3]'s MT wrapper with with his with that MT 
+models right now.
+And I plan to do with in the next future sessions.
+(PERSON7) Yeah.
+So we need aside from this testing whether like it works in some way or 
+whether the delay is acceptable.
+We also need to really start the testing on the [PROJECT1] test set.
+So we need numbers.
+We need blascores, we need delays whatever, we need this regular loop of the 
+the leather climbing.
+So are you.
+So I guess you should now now your priority really is the the demo.
+<unintelligible/>
+But this is this is the thing that you should focus on very soon aft- after 
+that or like when when you're waiting for someone for the demo or.
+Yeah, when your demo scripts are kind of Okay and you're waiting for the 
+session to test them with other people, please start working on the 
+evaluation of the translation models and also the ASR models.
+So this this whole Unihack thing that can again be a test set.
+A part of a test set, if we get it transcribed.
+The, we can evaluate word error rate, yeah, and and all that.
+So please start, yeah, yeah.
+Better than Czech ASR.
+How did it go.
+Some kind of a report.
+Yep.
+So, here the lag was still there.
+So the next step is that [PERSON10] should still look at it?
+(PERSON4) Yeah, yeah.
+And [PERSON10] will be running some things with tests.
+And <unintelligible/> for it.
+(PERSON7) [PERSON4] will look at it and here [PERSON7] reminds of the need to start 
+leather climbing with [PROJECT1] test set.
+Yeah, yeah, Okay.
+And then thanks for the punctuation retrain.
+The stats look good.
+I know this is only recall.
+So that's what we are focusing on.
+(PERSON4) Yeah. Yeah.
+(PERSON7) And we see some improvement, the more sentences you have in the training 
+data the higher the recall.
+I hope that-
+(PERSON4) <unintelligible/>Yeah.
+(PERSON7) Yeah, I hope the precision is not decreasing much.
+(PERSON4) No. No. No.
+(PERSON7) But, yeah.
+But I would like-
+So this is this looks promising.
+Still give especially given the problems that we have with the segments are 
+too short, too long, then I would prefer the recall to really get close to 
+100.
+Even at the cost of decreased precision.
+So so really let's let's like overshoot recall.
+(PERSON4) Okay.
+(PERSON7) So that I think that would be usefull.
+So I'll yep.
+So [PERSON7] suggest to really try overshooting recall.
+The point is that we can then hide the full stops to the user.
+But we can use these segments to get the translations faster.
+S- 
+And like more responsive.
+So the full stops could be then used only internally.
+Not shown to the users.
+But still they would greatly improve the responsiveness.
+So to say.
+Of MT.
+So, yeah.
+(PERSON4) Yep, yep.
+(PERSON7) Yeah, Ok?
+ So preparation for the meeting with demo, great.
+Start testing on [PROJECT1] test leather climb, yeah yeah, ok, great.
+Great, so we have [PERSON6].
+[PERSON6] can you talk?
+Just quick check of the connection.
+Scripts were written, put results and put them make it to-
+Yeah, yeah, ok.
+So to summarise, [PERSON6] has processed the submissions to <unintelligible/> SLT.
+I know, thanks for resending that e-mail that that I accidentally somehow 
+deleted.
+I got any hac I do have the the new copy.
+But I I still have not had a time to to like look at those numbers.
+And exactly, yes.
+<unintelligible/> pre-start processing that the all the results now.
+One more message is that [PERSON7] has recieved remark from a team who failed to 
+participate in time.
+[PERSON7] ask them again.
+Asked them if they could participate late so possibly, but this is not sure.
+There could be 1 more submission coming.
+Late.
+It will be mar-
+If we if it arrives it will mark it as late.
+Ok, yeah, great.
+So that's progress from [PERSON6].
+And [PERSON3].
+Yes, please go ahead.
+(PERSON3) Hello.
+Can you hear me?
+(PERSON7) Yeah, yeah, yeah.
+(PERSON4) Yeah, we can hear you.
+(PERSON3) So yesterday I did spreadsheet with a list of submissions that we have.
+And I included the path and send it to [PERSON11] and [PERSON6] and.
+<other_noise/>
+(PERSON7) Yeah.
+(PERSON3) And so on.
+And I did a short review of this uni [PERSON13]'s ASR start up script.
+And and of the [PERSON10]'s worker and I found that it's probably too slow.
+But when [PERSON4] use it, it wasn't so slow, so I don't know how.
+What's-
+(PERSON4) So actually during the weekend while you're on holiday [PERSON10] made some 
+corrections and he added a new file with less number of language.
+And it has-
+(PERSON3) But I reviewed this and it was slow at on my part.
+In my test but not in your not in your real session.
+(PERSON4) Really?
+(PERSON3) Yes.
+But I tested it with MT wrapper.
+Did you use MT wrapper?
+(PERSON4) No, I I'm not using MT wrapper so I don't know.
+(PERSON3) Well, then then the delay is too long and you should start using it.
+Because it's not realistic.
+(PERSON4) Yeah, yeah, yeah.
+I am still worried about the MT wrapper that it has like too many parameters which which 
+are dependent on the type of type of worker from <unintelligible/> it's like a linear worker or <unintelligible/>.
+Yeah.
+(PERSON3) But there is one convenient function in the set up scripts that you 
+should use.
+(PERSON4) Okay, okay, okay, okay, okay.
+So I'll look at it.
+(PERSON7) So maybe, yeah.
+Sorry to interrupt.
+Maybe this goes back to another long standing task for [PERSON4] to do.
+And that's to to make the the running the set up folder like make it make it 
+a stable thing kind of version so or like polish it.
+That's it.
+That's the that's the short request.
+So that our set up is the best that we want to have.
+And not always put together with duck tape.
+Yeah, so [PERSON3] so-
+Yep.
+(PERSON3) And I'm continuing with with back end ASR.
+So it's so worker which connects the Kaldi ASR to mediator.
+It's on very good way and I I think I can have it finish by the  end of 
+week.
+(PERSON7) Yeah, so this is the thing that you had also worked on for the project.
+For sorry, like semestral project for your-
+(PERSON3) Yes, yes.
+(PERSON7) Yeah.
+Ok.
+<unintelligible/>
+(PERSON3) Around now.
+(PERSON7) Yeah, ok.
+And the benefit is that there would not be the need to run the separate 
+Kaldi server and instead we will directly launch the Kaldi worker.
+Obviously it was like, you will run it on the cluster and it will connect 
+directly to the mediator and mediator will then use it when when asked for, 
+right?
+(PERSON3) Yes.
+Yes.
+(PERSON4) This is good, yeah.
+(PERSON7) Yeah, this because this complicated our set up all the time and yeah.
+That's that's perfect.
+So there were always the port issues and things like that so this is a good 
+good thing to to have.
+So the demo if-
+So if you're really successful, then we could re include this in the demo.
+In the demo session.
+Remember, there is 1 thing that no one again worked on probably.
+And that's the the diagnosis of issues.
+We have seen strange slow downs of various things.
+And we don't have a quick way of figuring out what is wrong.
+Once it was the overloaded ASR machine.
+This should now be easier if we could simply like start multiple Kaldi 
+servers and in-
+Because they would connects as workers to the mediator and we could kill 
+those that where the machines seems overloaded and and things like that.
+So this is this is step forward.
+But it's still not the diagnosis.
+So it's-
+I don't know how to divide the work.
+Like it's, I know that [PERSON4] is is busy with starting these things and he 
+is kind of irreplaceable.
+And that's risky.
+And we need to have.
+Well.
+This is this is maybe impossible, due to the Covid crisis because we are in 
+in different rooms.
+But if we are sitting in the single room, then we could help each other.
+(PERSON4) Oh, yeah. Definitely. Yeah. That means <unintelligible/>
+(PERSON7) So-
+So [PERSON4] in the back of your head thing how-
+If if you're like struggling remember we have this for the Zoom Unihack 
+planning call.
+Where I was on Slack, you were on Slack and and [PERSON9].
+And we were trying, we're trying to figure out what what is wrong, why it is slo 
+so so slow.
+So it was very sub optimal.
+But still we were doing something.
+So we need to have like multiple operators diagnosing what what's wrong.
+And I don't know who maybe [PERSON3] actually then figured out what is what is 
+wrong, right?
+Do you remember, it's-
+(PERSON3) Not not last week, <parallel_talk> Not last week.</parallel_talk> but few weeks ago.
+(PERSON7) Yeah. I think. Yeah.
+(PERSON3) Because of this issue, this number 2.
+Now's-
+(PERSON7) Yeah.
+(PERSON3) I found out why how to run the AS the [PERSON13] ASR worker on and block the 
+whole machine.
+It's just once one <other_noise/> one line command.
+<other_noise/>
+Not the solution that [PERSON4] used before.
+(PERSON7) Yeah, ok.
+So we, sorry -
+<another_language/>
+Some bulb needs to be replace this very second.
+<laugh/>
+Ok.
+So back to the-
+So this is this is promising.
+The back end ASR the testing is good and I think that it will be good if 
+[PERSON3] was available to watch the test sessions.
+Like not to be all all the time there.
+But to be like on demand available.
+For the for the demo.
+So [PERSON4], can you please summarise there is this demo document.
+We should link it actually.
+That's here.
+When are the demo sessions?
+Are there any more.
+So preparation for other meeting with [PERSON5], so I'm putting the URL to the demo demo 
+document there.
+Upcoming demo for [PERSON5].
+That's the document.
+I'm linking it actually twice from here.
+Ehm [PERSON4] please find out when the days and times-
+What are the what are the time slots in the coming few days.
+<parallel_talk>Ehm.</parallel_talk>
+And let also [PERSON3] know so that [PERSON3] can confirm when he would be 
+available to watch and really.
+We need to do, we have done many tests.
+And still we are not with the stable set up.
+We are making the progress.
+We need to again make well 3 big tests and like crash tests I would call 
+them.
+Everyday until the demo is here.
+So we need to be really sure that we know how to quickly like pull it all 
+switch everything off start it on again.
+We should deliberately kill it.
+So [PERSON4] in 1 of your demo like test runs unplug your internet cable.
+You really be, we have to be nasty to the system.
+And you need to figure out how to how to fix it.
+So I'll put it here preparation for yeah.
+So, [PERSON7] asks for many and nasty tests.
+Tearing of the internet cable and so on.
+So that we know how the system behaves and and how to fix it as quickly as 
+possible.
+Right?
+(PERSON4) Ehm. Ehm.
+(PERSON7) So this is this is really important.
+Gosh.
+Ok so [PERSON3].
+Is there anything else?
+(PERSON3) No.
+(PERSON7) Yeah, ok, thank you.
+And we have still [PERSON1] on the call.
+So [PERSON1].
+(PERSON1) Hi.
+This week I'm I will connect with [PERSON3] regarding the the continues SLT.
+Because last week he was on holiday.
+And and this week I haven't I didn't have time.
+To to get in touch with him.
+And and I'm I'm doing my inter speech submission and and also my thesis.
+(PERSON7) Yeah.
+When is the deadline for inter speech? 
+If you could remind us.
+(PERSON1) I think it's the 8.
+Of May.
+But I I'm going to check.
+(PERSON7) And is it anywhere on Earth, right?
+(PERSON1) Hopefully.
+(PERSON7) Yeah.
+(PERSON1) <unintelligible/> Papers.
+(PERSON7) And I have actually one more request on or question on [PERSON3].
+In the meantime.
+[PERSON3], next week there is again the Kudo conference.
+So I'll write it as a to do.
+Consider taking part in the Kudo based mock conference next week.
+And especially check the Kudo files from the previous one.
+Did I share the path with you, [PERSON3] or did I forget?
+(PERSON3) No.
+(PERSON7) Ok.
+So that's my fault then.
+Net data [PROJECT1].
+[PROJECT1] mock interpreted conferences.
+Yes.
+It's in the directory 2020 04 yep yep yep.
+So this is, this is the path.
+I hope it will paste it here.
+No again, it doesn't paste.
+I need.
+Yep. 
+Oh.
+So here is the path.
+It is one JSON file.
+And I move this JSON file outside of the directory with the str- stream 
+files.
+So that it was easier to find it.
+But I haven't change the paths.
+So this this JSON file will actually contain path to files that are 
+directly in the stream.
+That are in the subdirectory stream files.
+And it it would work as as links if if you like moved it back.
+But I don't think it's a good idea to move it back.
+So it's not writeable that's good.
+Because we don't want to lose the data.
+Yes, it's all.
+It's all read only.
+Please try to make sense out of this.
+Unfortunately, I don't think there is any like-
+There is a program of the mock conference.
+I'll try to figure it out.
+But I didn't have the assignment to the cabins.
+Because that was in another e-mail that professor [PERSON2] sent only to like 
+the interpreters themselves and not us.
+(PERSON3) Ok.
+(PERSON7) Yeah.
+So then program-
+<another_language/>
+So it says-
+<another_language/>
+There is-
+Ok, great.
+So I will forward this e-mail to you.
+I'm not sure that you you got it.
+So please upload it it there.
+And try to figure out what is what.
+So, yeah.
+So I'm just forwarding the e-mail to you [PERSON3].
+Please put the files into the directory.
+There is 2 attachments to the to the e-mail that I just sent you.
+And please put them to directory and then maybe make sense out of it.
+And please confirm to me and also professor [PERSON2] that we can use this 
+data set.
+Before next week, so that we can-
+So that we have a good reason to ask her for one more recording.
+She said it was it spend her too much of her data and like took too long to 
+upload.
+So we need to tell her that it's worth the effort.
+(PERSON3) Okay.
+And by which day?
+(PERSON7) Well, I don't know.
+Monday at the latest I would say.
+But it's, yeah.
+If you can do it earlier would be better.
+Because it's on the 12.
+On the 12th and so if you.
+And I think it could be useful for you to to just see the platform as well.
+On the 12.
+So in the e-mail ask her for the credentials.
+She will send the credentials just the day beforehand or that's what she 
+did last time.
+So she sent me the the links only on Monday and on Tuesday I took part.
+(PERSON3) Okay.
+(PERSON7) Yeah, great, thank you.
+And yes.
+So [PERSON1] has confirm the date.
+And there is this empty line and that was for I wanted to somehow make a 
+note about this this joint set up that [PERSON1] was mentioning.
+So can someone write down what exactly was that.
+That was something with [PERSON1] and [PERSON3].
+What was it?
+(PERSON1) It's a just a that you mentioned that [PERSON3] works on continues speech 
+translation.
+(PERSON7) Yeah, yeah.
+We have-
+Like the window based set up.
+(PERSON1) Yes, yes.
+(PERSON7) Removing window, the moving window translation.
+Yeah.
+(PERSON3) But I haven't tune it.
+So far.
+(PERSON1) And it's like a graphenes to graphenes or.
+(PERSON3) No, it's text to text.
+And.
+(PERSON7) Yeah, which is text to-
+That's graphene to graphene.
+Graphene means means normal words.
+<laugh/>
+(PERSON3) Okay.
+(PERSON1) Okay.
+(PERSON3) And it's it's window of sentences into window of sentences.
+And I and I stopped working on it and I haven't try which part is the is 
+the-
+Should be the final one.
+Whether the the first window or the middle one or the last.
+So this this has to be tuned.
+Try everything-
+(PERSON1) Actually, actually I'm more interested in results because because my 
+acustic models are into phonemes.
+That means that I need to retrain my my own own model that translate from 
+phonemes into graphemes.
+(PERSON3) Yeah, but.
+(PERSON1) So I'm I'm just interested in what what s what set up I or how the 
+training goes and and such.
+(PERSON3) Ok.
+I think I have I have only some negative results.
+I can sh share with you.
+(PERSON7) Yeah, it was it was not much worse.
+But it was little worse than the baseline.
+But it was not much worse if I remember correctly.
+(PERSON3) Yes.
+(PERSON7) And I don't know whether you have written this anywhere, [PERSON3].
+(PERSON3) No.
+(PERSON7) So there is so that's a that's a pitty kind of.
+It is in your jour- journal so to say.
+So there is the there is deliverables for [PROJECT1] and one of those will 
+definitely be on on spoken languages translation.
+And that is where the window based experiments should go.
+So I'm checking June report analytics, technologies report.
+Yes, spoken language translation.
+That's the one that that [PERSON12] asked for.
+If you remember.
+[PERSON3], you were on that e-mail, right?
+(PERSON3) Yes.
+(PERSON7) Yeah, so exactly I'll put that here into the-
+So, these-
+So maybe le let's put it.
+Results by [PERSON3].
+The negative ones should go into this deliverable.
+(PERSON3) Okay.
+(PERSON7) So please, write it down and you can directly like make use of [PERSON1] as a 
+reviewer of of that.
+So that it is self contained.
+(PERSON3) Yes, but but it's faster if I just tell him.
+Or write an e-mail.
+(PERSON1) Okay.
+(PERSON7) Yeah, so write it in form which can then be easy it to convert it to a 
+small report about the experiment to the deliverable as well.
+(PERSON3) Okay.
+(PERSON7) So that you write it directly in in usable form.
+That's that's it.
+So yes.
+Okay, so thanks.
+We do not have anyone else on the call.
+So thanks to all of you have participated.
+I've seen that some of you have really put some details into the surge 
+table, that is good.
+So please think again if there is anything else that you you've done.
+Please populate the table.
+Because the time when I'm I would need to like distribute the points and and 
+officially decide how to convert point into into bonuses and how to pay 
+them.
+That would be administratively complicated.
+Especially now in in the current time.
+And like the administration slow.
+So I need to do it early enough so that it gets to you.
+So thank you.
+And will be in touch regarding the demo and also the interspeech submission 
+or or submissions.
+We made it, only 4 minutes extra.
+So great.
+Thanks.
+So talk to you next week.
+Yeah?
+(PERSON4) So. I I'd like talk to Dom [PERSON3].
+(PERSON7) To [PERSON3].
+So, yeah.
+So I'm leaving the call but remember, in in 9 minutes or so it is over.
+(PERSON4) <unintelligible/>
+(PERSON1) Bye bye.
+(PERSON7) Yeah, bye.
+(PERSON4) So [PERSON3], like okay.
+So I see like the wrapper and the <unintelligible/> has the documentation but the directory of <unintelligible/> has has documentation but like it is 
+<unintelligible/> look  in documentation I find it quite unclear on how to integrate the MT wrapper with my like day to day sessions.
+So can we make <unintelligible/>.
+(PERSON3) Integrated with what?
+(PERSON4) Integrate with my a day to day my SLTs.
+(PERSON3) What what is it?
+Is it just one set up script?
+One set up.
+(PERSON4) No, so how how do I use your MT wrapper with with the MTs.
+(PERSON3) MT wrapper has an argument dash dash MT.
+And there you use the text text client.
+Command.
+(PERSON4) Yes, so exactly.
+So so then can we find the exact like documentation about the about this.
+(PERSON3) Okay.
+You can-
+(PERSON4) If it is not there then <unintelligible/>
+(PERSON3) It's in issue number 2.
+No, in issue number 3.
+There.
+(PERSON4) The <unintelligible/>
+So can we make another have this document- documentation in the front page 
+of your of your MT wrapper.
+(PERSON3) Okay.
+(PERSON4) In in the simple words, nothing extra.
+So and then I think it will be useful for the about <unintelligible/> 
+(PERSON3) Okay.
+(PERSON4) And [PERSON7] would would sharing testing sessions test set in slots so 
+what of these slots <unintelligible/> I myself have to come to come of the Sunday <unintelligible/> session slots like that.
+(PERSON3) No, I I think the best way is that if you prepare the set up scripts for 
+some for some event that then you commit them and I try to run them and I 
+give you feedback.
+About them.
+(PERSON4) For some event like <unintelligible/>
+(PERSON3) Sorry?
+(PERSON4) What what event can you get it? <unintelligible/>
+(PERSON3) I don't know.
+Some demo, demo event or anything like this.
+(PERSON4) Like already recorded sessions kind of?
+(PERSON3) No.
+For example the meeting with [PERSON5] is is an event.
+So I I I think you are planning to use some set up srcipts.
+(PERSON4) Yeah, yeah, yeah.
+(PERSON3) Are you?
+(PERSON4) Yeah.
+(PERSON3) So you should send me.
+You should commit them and send them to me and I give you feedback.
+What's-
+And I I can start them on my own and I immediately find if anything is 
+wrong.
+And I get you know or or fix it.
+By myself.
+(PERSON4) But I think of the <unintelligible/> to share all text sets and source with [PERSON3].
+(PERSON3) Yes.
+And just like just to let me know when is some some testing event and I will 
+be available on the on Slack.
+And if you need help then you can-.
+(PERSON4) Okay, okay, okay.
+(PERSON3) You can utilise me.
+(PERSON4) Yep.
+(PERSON3) But I hope that everything will be okay and I won't be necessary.
+(PERSON4) Yeah <unintelligible/> and maybe the MT wrapper.
+And.
+So I will <unintelligible/> from like next <unintelligible/> few, on two days.
+Like within one or two days. <unintelligible/>
+Ok, I think the call will be over so so I think that's all.
+(PERSON3) Okay
+(PERSON4) Okay, bye.
+(PERSON3) So see you.
+Have a nice day.
+(PERSON4) See you.

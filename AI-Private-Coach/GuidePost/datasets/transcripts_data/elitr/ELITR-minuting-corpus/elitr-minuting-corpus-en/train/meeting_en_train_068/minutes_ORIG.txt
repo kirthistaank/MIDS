@@ -1,0 +1,27 @@
+Tuesday Oct 23, 9.30 CET
+* ([PERSON7] will join only at 10.00; [PERSON3] to leave at 10.30.)
+* Status update
+o GA submitted, hopefully [ORGANIZATION1] will approve it soon
+* Update Wed Oct 24: GA seems to have been proposed for signature and signed by [ORGANIZATION3]'s dean [ORGANIZATION6] already.
+o To be signed probably after CA will have been signed.
+o The very ultimate deadline is Dec 18.
+* CA
+o Any formal procedures at everybody's site?
+* No formal procedures/timing. Questions raised today will be discussed internally at each site, in about 2 weeks from now, we will discuss them and resolve them jointly.
+o [ORGANIZATION2] signing CA or not - unknown yet, ZŠ is attending “[ORGANIZATION6] way”
+* During this week [ORGANIZATION3] and [ORGANIZATION2] will make sure their legal people talk to each other and agree (in ~week from now) to sign CA or to go for the bilateral agreements
+* Update (Wed Oct 24): [ORGANIZATION2] can consider signing the CA if the CA is bilingual,[OTHER1]-[OTHER2]. [ORGANIZATION3] will try to prepare a bilingual draft for [ORGANIZATION2] lawyers to have a look.
+o General comments and options that we pre-selected
+* Section for software as part of CA
+o Background needed from every partner
+* Preferably by the end of the week (in some draft form)
+* Kickoff date&location
+o [ORGANIZATION3]'s preference: [LOCATION3], January, between ~10 and ~23
+* [PERSON1]: the sooner [PROJECT3] books the date, the better for [PROJECT3] (other projects are starting, too)
+* Data gathering for all tasks
+o [ORGANIZATION7] & [ORGANIZATION9] should talk about the data collecting
+o [ORGANIZATION2] is interested in design of “data collection consent” feature
+* Possibility to set different consent level before/?/after each call
+* Must not excessively bother or be seen as “another GDPR screen”
+* [ORGANIZATION3] [PERSON9] already works on formulating the texts of the consent and on proposing user interface to obtain this. The user interface features will have to be discussed and adapted to make the implementation easy for [ORGANIZATION7].
+

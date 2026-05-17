@@ -1,0 +1,20 @@
+Date: 5.10.2020
+Attendees:
+[PERSON4], [PERSON3], [PERSON2]
+
+-Mentioned:
+
+--[PERSON2] wants to know, if they are finished the project with data, or is it still going.
+--[PERSON4] is still working, she gives the path to the data in [ORGANIZATION2] Doc.
+--[PERSON3] cames late.
+--Everybody wants to discuss aspect of evaluation, but [PERSON1] didn't arrive.
+--[PERSON4] wants to discuss the evaluation preparation.
+--[PERSON4] says that [PERSON5] proposed that they make shared task imitation.
+--[PERSON4] wants to make clear picture of what is going on.
+--[PERSON4] put everything about this meeting to the Hangout chat (link...).
+--The meeting was postponed, because [PERSON1] still haven't arrived.
+--[PERSON4] will notife everybody when [PERSON1] comes.
+--[PERSON4] will let everyone know if the meeting will continue today or tomorrow, depending on when [PERSON1] responds.
+			-
+
+Minutes submitted by: [ANNOTATOR1]

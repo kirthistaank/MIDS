@@ -1,0 +1,46 @@
+[PROJECT5] Internal
+Date: 05. 10. 2020
+Attendees: [PERSON7], [PERSON8], [PERSON9], [PERSON9], [PERSON6], [PERSON4]
+Purpose of meeting: discussing project updates: [PROJECT7], [PROJECT9], [PROJECT3].
+
+- Discussing last week's call. 
+-- Regarding [PROJECT3]: after consulting [ORGANIZATION1] colleagues, we will be required to provide a prototype for integration. 
+
+- Discussing [PROJECT7]. 
+-- Discussing integration.
+--- Most probably, the integration for [PROJECT7] has been been done by [ORGANIZATION1] colleagues, though it has not been confirmed, but it was their responsibility.
+---- In this pile of integration, only back translation has been implemented. 
+--- As far as integration goes, everything should be okay on our part. 
+--- We will ask about it on the next call with them, whether they did their part. 
+--- [PROJECT3] will not be easy to integrate into [PROJECT7]. 
+---- We might deliver it as a separate prototype module for presentation purposes. 
+-- Discussing the number of segments needed. 
+--- The sufficient number of segments has not yet been estimated. 
+-- Discussing the timeline for [PROJECT7]. 
+--- Possibly aiming for a November conference ([ORGANIZATION7]), or the next one in January [PROJECT8].
+-- Analyzing the data.
+--- Possibly, [ORGANIZATION1] colleagues could analyze user experience, how much the user spent on certain stimuli etc. 
+--- We could analyze translation quality. 
+-- The analysis could be similar to what has been done in the [PROJECT8] paper. 
+-- The paper should cover the quality of the three MT systems, compare them and describe how they affect the results. 
+-- Getting Czech speakers to evaluate the translation quality will not be difficult, it will be added as another annotation exercise for [ORGANIZATION4] annotators.
+-- Estonians are very cooperative, so hopefully there also will not be a problem with getting Estonian evaluators.
+
+- Discussing [PROJECT9].
+-- Comparing the system using back translation and the system using paraphrases. 
+--- When using no monolingual data, the system using paraphrases works better than the system using back translation.
+--- Will explore how it changes when the amount of monolingual data increases or decreases. 
+-- Before, the main motivation was to have Czech to English system, which is good for the outbound set up. 
+--- The motivation has changed since the augmentation system (using paraphrases for data augmentation in standard machine translation) appeared to be more promising that the [PROJECT9] system. 
+
+- Discussing [PROJECT3]. 
+-- Currently training an English-Czech module using Fairseq. 
+-- Going to use data sets with many references. 
+-- Currently thinking about how to select the constraints - for example, informative words.  
+-- It is necessary to have a fixed set of references for a given comparison. 
+-- Will probably use positive constraints instead of negative constraints.
+--- Will get the positive constraints from the references: if the reference has it, then it is a good word to use. 
+-- Manual evaluation will be necessary as well. 
+-- We can also measure how many constraints are necessary to reach the reference we want. 
+
+Minutes submitted by: [ANNOTATOR1]

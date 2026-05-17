@@ -1,0 +1,34 @@
+Purpose of meeting: Discussing financial and time options for workshop
+
+Summary
+• Discussed about organization of the IWSLT presentations
+• Discussed time zones, number of panels
+• Deadline was 3 days ago for decisions
+• Discuss [PERSON16]'s latest proposal
+• Time planning for workshops
+• Talking about an agenda
+• Picking a date
+• Discussing financial table, numbers
+• Finalizing numbers until July
+• Deliverables options discussion
+• Entering dissemination
+• Discussed paper submitions
+• Manual conversion will be necessary
+• Discussed event milestones
+• Providing systems from [ORGANIZATION2] to others
+• Discussed computer performance requirements
+• [PERSON10] wants to test better components
+• Picking the best system
+• [PERSON6] is putting IWSLT papers
+• [PERSON13] or [PROJECT4] systems
+
+
+		Milestones
+		• Will need to organize one hour panel
+		• Giving new date to project officer
+		• Getting estimate number from [ORGANIZATION5]
+		• Report has to be written by [ORGANIZATION5]
+		• No dissemination happened
+		• A website has been created from Bibtech
+		• Must have replicated components across the site
+		• Must be avoided updating the system before the demo

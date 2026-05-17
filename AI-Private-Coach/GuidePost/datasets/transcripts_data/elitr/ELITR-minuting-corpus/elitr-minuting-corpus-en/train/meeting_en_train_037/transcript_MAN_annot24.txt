@@ -1,0 +1,2033 @@
+(PERSON13) Yeah, okay.
+So it's just half past eeh nine in [LOCATION1].
+And ehm, I'm wondering whether we should start, or whether we should still wait for [ORGANIZATION3].
+(PERSON24) I've just heard them on e-mail.
+(PERSON13) Yeah, so I think that we can probably start so that we stick to the schedule.
+I was curious who is [PERSON16].
+Do we have a new team member or is it just someone's nickname?
+(PERSON24) Oh, sorry, ehm.
+Yes, we have a new team member.<cough/>
+(PERSON13) Yes, that's good that's great.
+Welcome. <laugh/>
+Yeah, I also did - the [PERSON11], uh, is also a new person eh, for us.
+He is still remote unfortunately, he cannot come to [LOCATION1] due to covid restrictions.
+But I think that he has probably eeh, applied for visa already if if that was possible.
+We'll see or -  it's difficult to to apply, even apply for a for a visa.
+So that's that's a good idea to have new team members here, especially today.
+Uh, okay so, I think that uh,  I'll probably start presenting, so that we test also the uh, the agenda.
+We did one change.
+I'll get to that in in a second.
+So the the lunch is actually moved a little bit later than what was in the original agenda.
+It's now already modified in the Google doc.
+And that's to make the lunch break reasonable a more reasonable in the UK.
+Ah, and it actually also nicely eh, separates the kind of research work packages from the integration in and other work packages.
+So it's the the split is also, ehm, good.
+Uh, I'll start with my slides, uhm, and everybody else eeh, would then always get a chance to present their slides.
+Ehm, so uh, we'll be swapping, uh, the uh, who is presenting from the presentation for for in the in the Zoom call and later in the Webex call tomorrow.
+And also, ehm, I've  asked eeeh, if if there eeh, would be some live demos, and we will see.
+So [PERSON5] is not yet here.
+I do not know if he comes eh, at ten.
+Hopefully, he does.
+The idea is that uh, the uh, starting from work package eh, on ASR we would have eh, in the background a subtitling running, uh, or actually paragraph view would be the recommended one for the whole Zoom call.
+So that people who are not uh, following the slides at the moment - who who find the informations that like duplicate that they know that already.
+They can, eh, look at the translations of our English into all, uh, the languages.
+() <cough/>
+So that will be, eh, ideally, if eh, [PERSON2] agrees, eh, and if [PERSON5] comes and sets it up, ehm, that would be like an ongoing demo for the morning sessions.
+Starting from work package two when people would get the link where to look at that.
+Ah, and then at the lunch break, we would, eh, stop this.
+And after the lunch break, eh, there is the integration work package and as part of that either [PERSON24] will show, eh, the videos.
+Eh, If the demo if the live demo is too risky, or, eh - 
+() <cough/>
+(PERSON13) We will actually do one of the shorter life demos that we did already twice or three times in the past.
+So uh, so that this would be like interactive, eh, extension of the presentations.
+(PERSON10) Okay.
+(PERSON24) Ah, [PERSON6] and [PERSON21] just wrote that they will be joining in sixty or ninety minutes.
+(PERSON13) Uh.
+(PERSON24) So we do not have to -
+(PERSON13) Uh, it's probably okay.
+Exactly, yeah.
+So I'll now start presenting - <talking_to_self/> share screen, eeh, what do I - now the screen.
+So hopefully you, uhm, download pdf, you see my screen now, open with Acrobat Reader <other_sigh/>
+Yeah.
+That's the one.
+So please interrupt me at any point eh, or at notes - somewhere, if ehm, but not to the chat preferrably.
+Eeh, because the chat is eh eh yeah it's difficult to uh to execute for to realize that something is in the chat.
+And also while talking, eh and that is a warning for tomorrow as well and warning for everybody, while talking the person who is talking is eh quite unable to eh, realize that there is something in the chat.
+So if something terrible is happening, eh, you have to just step in and say it aloud.
+Uh,because the person is focused on the presentation, and and doesn't see doesn't get any notifications about, eh, about that.
+So, eh, chat is eh eh good only for those who are not presenting at the moment.
+So welcome, eh, to, eh, the review meeting of [PROJECT2] and DRY RUN today.
+Uhh, I'm [PERSON13] and I would like to present the overview of the project, and some  summary of the, eh, manage- managerial tasks, uhm.
+This is the agenda for the, eh, whole day today.
+So uh, we have thirty minutes block for this overview.
+I think that maybe we could go faster, we'll see.
+And then we have uh, two and half hours, uh, slot for five uh five work package presentations.
+Uh, for each work package there be always twenty or twenty five minutes of of presentations, and some time reserved for questions.
+Uh, so hopefully we will uh, manage, uh to uh, to uh make this timing.
+Uh, then we have one hour break, eh, for lunch.
+Eh, and after the lunch we have three more work packages.
+Two eh, are on integration, and eh, on dissemination.
+These take up thirty minutes again, each.
+And then we have fourth package on ethics and that is shorter, because it is something which was added on top of the project eh, later, and uh, it's - well, well, fifty minutes should be sufficient.
+Uh, we have uh, some extra time there for additional questions.
+Eh, but as said, I would prefer the questions to be, eh,  mentioned, while we are in the respective work package.
+And then there'll be the break for, eh, reviewers and project officer to discuss and then the times slot to uh, to get the feedback from them.
+Eh, so eeh, ideally, eh, by four o'clock in the afternoon in [LOCATION1] time we should be finished.
+Here is a summary of, eh, a research and integration, and innovation goals of [PROJECT2].
+And actually, eh, a color code what we deem as research, uh, challenges and what we deem as innovation challenges.
+Eeh, so a machine translation, speech translation eh, are areas that have been examined for decades already.
+But, eh, we are moving, eh, to the highly multilingual, eh, space, eh, our main uh, eh, uh, our main exercise, our main use case is, eh, interpreting life translating spoken language at a [ORGANIZATION8].
+Eh, uh, starting from six or seven source languages and translating into up to fourty three target languages so that's the highly multilingual aspect.
+We are also focused on improving the document level coherence and document level we mean both for written documents as well as for spoken documents, uh, in the long term,uh.  
+Because eeh, cross sentence, eh, phenomenon, maybe even more important, eh, for uh, speech.
+So, uh, these are the speech and translation related goals.
+And we have added one more goal and that goal is highly research.
+So in highly research we do not, eh, expect to achieve something that would really work for users.
+We have a plan to do a demonstrator, but the demonstrator, uh, would be based on a technology, which is very hard to develop.
+And that is automatic summarization of meetings, which we call minuting.
+So, eh, here in you will hear later on in the meeting summarization.
+We want to plot the ground for research and start a solid research on on meeting summarization.
+Provide data of our shared task, and see how far we can get with the technology.
+Uh, but I er, re-, er, repeat again, it's it's a very challenging goal.
+So [ORGANIZATION2] is a coordinator.
+The research partners are [ORGANIZATION7] and [ORGANIZATION14] and we have, eh, the integrator [ORGANIZATION11] and one user partner [ORGANIZATION3] within the project.
+And one more user partner affiliated to the project and that's the 
+[ORGANIZATION12] of the Czech Republic.
+And main [PROJECT2] event was supposed to, eh, happen in May this year.
+But it was postponed by one year, eh, because of Covid and that's the interpretation at the [ORGANIZATION5] congress.
+So here is a summary of achievements in the first, uh, uh, reporting period, in the first eighteen months of the project.
+And you will hear, eh, the details about the progress in the individual work packages later on.
+In the goal of integrating ASR and machine translation into spoken language translation we - 
+I'm actually starting with this integration work package because eh, ehm, now in the achievements, becasue we were researchers, uh, who were happy with our models, uh.
+And independently the ASR was very eh, good and the machine translation was very good and then when we tried to put them together we realized "Oh it's not so easy", the  interfacing.
+Especially when it's supposed to be live subtitling, the interfacing is is not a perfect.
+Machine translation requires full sentences, while ASR is eh, producing one word at a time.
+Or the ASR is even offline, so it produces the, eh, the transcribed eh, s- speech in one shot.
+So there was big challenge in, eh, in putting these things together.
+But we managed in the first half of the project, we got ready and we can now live subtitle sessions, regardless whether they run in person or remotely.
+And we did a a fair amount of work on on balancing the simultaneity and user experience. 
+More could be done there, eh, but now we think that we have the set up, which is usable.
+Ehm, em, obviously, the the final quality, eh, depends very much on the underlying models.
+And there is still a lot of work to be done, especially on the speech recognition for non-native speakers, uh, and also, eh, machine translation was the, eh noisy output of ASR.
+Noisy in  various aspects.
+We'll we'll learn about it in the in the late representations.
+Uh, we ran multiple live presentations and also test sessions,so, so the infrastructure is now, eh, I would say solid and working very well.
+Uh, obviously, the the final end user experience can be still pretty bad.
+It depends on the, eh, on the actual content of the presentation, and many many aspects of how the speech is - pronounced, eh de- delivered, eh, recorded, eh, processed.
+So there there many, eh, many, eh fine points that need to be taken care of.
+Uh, and if the conditions are good, eh, then, eh, and the domain matches the training data, then the performance is sufficient in our small experience so far.
+For research in the the uh, main areas, eh, spee- speech recognition, machine translation, spoken language translation I would like to hear some key achievement from from ASR so I would like to add something here.
+Uh, I think, that for the machine translation,eh, yeah, so if if you have something now please put it to the slides, or or mention it <other_noise/>
+(PERSON24) Well, uhm, what you could do put in for work package too. 
+I guess it would be, uhm, encoder decoder plus attention streaming ASR.
+(PERSON13) Mm-hmm.
+Yeah.
+So that's actually, uh, uh -
+Maybe there is the third point there, working towards no no ehh -
+Not yet.
+(PERSON24) Yeah that's that -
+(PERSON13) That's that's -
+(PERSON24) That's that one -
+(PERSON13) That's....I see -
+(PERSON24) Yes, but it's it's achieved
+(PERSON13) Yeh.
+It's achieved.
+Yeah, yeah yeah.
+Okay. So we have this streaming ASR and now it's not quite integrated.
+(PERSON10) Well, it is for English.
+(PERSON13) It's for English?
+Okay.
+That's great. <laugh/>
+Yeah.
+Uh, so I'll put it there and and please check.
+Eeh, eh for ehm, for machine translation we deployed and improve multilingual models and again you will hear about that at eh in the presentations.
+And similarly we worked on document level, eeh, translation and evaluated it in many ways.
+And also improved eh, it was a secondary phase.
+Eh, that's the work by [ORGANIZATION7].
+And,eh, we are working towards eh, eh, ehm, integration of fully neural ASR into the eh, vibrant processing so I just heard today that the English is already integrated.
+But it has not been yet tested thoroughly in our sessions.
+And eh, I have one more question.
+And that's -
+(PERSON24) No, it has has been running for quite while <other_noise/>
+(PERSON13) Now was it?-
+(PERSON13) Yeah, but -
+(PERSON24) shoul -
+(PERSON13) Did we - did we use it eh?
+(PERSON24) Normally it should have been the standard one, for example, for the latest demos also.
+(PERSON13) Okay, because - 
+(PERSON24) So -
+(PERSON13) Yeah, we were not aware of that.
+So <laugh/>
+(PERSON24) Because at the [PROJECT3] so I mean -
+(PERSON13) Aha.
+(PERSON24) We always have both both running.
+But normally at the [PROJECT3] it should have already been the sequence good.
+(PERSON13) Okay <laugh/>
+Yeah.
+(PERSON24) Well, I I was the one who started it, but -
+(PERSON13) Yeah.
+(PERSON24) But normally it should have been -
+I mean, we are now basically since two three months -
+(PERSON13) Mhm.
+(PERSON24) more or less running the English neural to neural as standard, so is-
+(PERSON13) Okay
+(PERSON24) so it's 'cos it is significantly better.
+(PERSON13) Okay that's eh, that's very good news, eh.
+So let's go back to the research, uh, the the the the questionaire um, we really need the fingerprints to show this.
+(PERSON24) <laugh/>
+(PERSON13) Because we are now we are now eh, eh starting the regular evaluation of eh, the whole set up.
+And we are ready to to have many results, eh, of different versions, but we need to distinguish both versions.
+Uh, so -
+(PERSON24) Okay
+(PERSON13) Uh -
+(PERSON24) Should I put in the contact with [PERSON8]?
+(PERSON13) Uhm, so it is [PERSON24] eh, and then [PERSON5], and [PERSON10].
+They they all designed this or discussed how this should be done.
+(PERSON24) Okay, we will.
+(PERSON13) So it's important that uh, that we know that from eh, from the outside what is what is running.
+Yeah.
+So the the last red point on this slide is the end-to-end spoken language translation.
+And there the reviewers have explicitly asked us at the last review  to eh, like start doing that.
+So do we have anything?
+I I'm I wrote something in my in the in the report, a progress report, where, er, there was the eh, there was the question, uh and our responses to that   reading and find - I'll check what I wrote there and -
+Recommendation - technical publications were as that -Start end-to-end tech translation- 
+Eh, sorry sorry start end-to-end speech to tech translation.
+Maybe taking as a baseline the end-to-end ASR system from work package two.
+Yeah.
+So that was a recommendation number three and I s- reported on our uh, experiments, uh, and and end-to-end SLT under review at EMNLP, right?
+So -
+Yeah.
+So, there is -
+So if you could summarize in this eh, like to this presentation in one point.
+What is our achievement in end-to-end eh SLT?
+<other_noise/> <cough/>
+So [PERSON1] - eh -<cough/>You may have paper.
+(PERSON12) Ehm - 
+Yeah, it's okay so we have -
+At [ORGANIZATION7]  we based and one a piece of machine which we hear about next week
+(PERSON13) Uhm hm.
+(PERSON12) And then there was a master's thesis.
+(PERSON13) Uhm.
+(PERSON12) Ehm.Yeah, I don't have to summarize that one one bullet point.
+Uhm I mean, EMNLP paper concerned, eh,a way of - sparcifying the -
+(PERSON13) Uhm,hm.
+(PERSON12) ASR output in order it that give us some quality improvements -
+(PERSON13) Uhm, hm.
+(PERSON12) and some -
+(PERSON13) So it's something we -
+(PERSON12) to speed up.
+(PERSON13) Yeah, speed, yeah.
+(PERSON12) Um, the MSC projects was not a we investigated there the robustness. 
+I'm gonna show slide about that later -
+(PERSON13) Uhm, hm, yeah.
+(PERSON12) Of of the SLT -
+(PERSON13) Yeah -
+(PERSON12) as compared ASR.
+(PERSON13) Yeah.
+(PERSON12) So I will - yeah.
+(PERSON13) So I'll say working towards and and that -
+(PERSON12) Yeah, I mean you you can say something a kind of empty, like we have made some improvements in the  -
+(PERSON13) Uhm, hm.
+(PERSON12) in the end-to-end SLT architecture.
+(PERSON13) Yeah.
+(PERSON12) I mean there was another paper from [ORGANIZATION14] but is -
+(PERSON13) Uhm, hm.
+(PERSON12) Really early in the project and -
+(PERSON13) Uhm, hm.
+(PERSON12) It kind of slipped in as an [PROJECT2] acknowledgement.
+I don't know if we should - 
+(PERSON13) Yeah, it highlight it too much.
+(PERSON12) If we should highlight it too much 'cause it was very early.
+(PERSON13) Yeah, yeah. 
+I'm not going to sight any papers here.
+So -
+(PERSON12) Yeah, yeah.
+(PERSON13) Was in the work packages mention that and I'll I'll - <cough/> 
+It's good to know that that you have at least something that's that's very important.<laugh/>
+Okay -
+(PERSON12) Yeah
+(PERSON13) Thank you.
+So that's uh, that was they were the achievement in integration and research in ASR machine translation and SLT.
+And we also have, eh, achievements in the, eh, speech, summarization or meeting summarization, ehm. <other_noise/>
+Here, eh, the achievements are eh so to say, like baseline setting the the the ground for eh, for more, eh.
+It's very hard to get data from people.
+It's very difficult to record meetings and ehm to get permissions to uh, to uh, to use them in research.
+We we nevertheless managed to con- convince ourselves.
+And by the way, this call is also recorded, <laugh/> which you know, from from our previous calls.
+I should have said that at the at the beginning eh, and eh, we'll be collecting the the consents, eh, with the eh, usage of the data soon because we got a new active person now on the on the ethical issues.
+So she knows what eh, should be still improved in the consents.
+And as soon as the consents are, eh slightly improved, we'll ask you again to the re-approve, what we can do with the data.
+Ehm, so anyway, we convinced several fellow projects to provide the data.
+So it's not just us.
+It's other, eh, EU project and I think two Czech projects.
+And we also got, eh, an Institute from the City Council of [LOCATION1], who are contributing, eh, their eh, meetings.
+Uh, so hopefully they, they gave an eh, eh approval, and they are giving the data, eh, to us now.
+Uh, and hopefully they will stick to that, because technically they can decide at any point to to like uh, prevent us from using the data.
+But, but we hope to to run the nega- negotiation successfully.
+So we are collecting and analyzating the data.
+Uh, mainly creating a transcript or fixing eh, automatic transcripts and eh, providing summaries where they are not provided.
+And we also tested some baseline models.
+So we have kind of complete processing pipeline.
+And we also tried to short- uhm, to to cut it short eh, to  just to sequence the sequence models on that.
+But the results so far are very poor.
+So eh, the research really has to start.
+And in dissemination we also have some achievements.
+Eh, I'll start with the dissemination towards eh, the public eh, or related areas.
+We are in very close connection with the [ORGANIZATION12] of the Czech Republic.
+And for example, we prepared a complete workshop on NLP technologies for them.
+And we'll demonstrate that workshop to them as the dry run.
+This will happen at the [ORGANIZATION8].
+It should have happened already in May, but we'll have to wait for that ehm.
+And there, ehm thereby we'll get to present not just our technologies, but the whole area to many public institutions eh, in in one go.
+So the [ORGANIZATION12] is around the Europe, eh, eh - and hopefully that will spread also further to other institutions.
+Eh, we're also ah, in close connection with interpreters eh, esp- especially the interpreter and student interpreters ehm, eh at the Faculty of Arts of [ORGANIZATION2].
+Eh, but eh, also we we are occassionally talking eh, at interpreter conferences eh, to eh, uh, eh, to like start discussion, and eh, see how we <unintelligible/>, how our technologies can help them.
+Uh and and how our technologies can eh, s-, eee, how to best best organize who who works on what, ehm, across the fields eh.
+For scientific dissemination we organize the IWSLT shared task ehm, on, ehm,  especially non-native speech translation.
+That was kind of a baseline run, and we will uh, do another run of this eh, uhm.
+Hopefully in connection with the um, ehm, simultaneous eh translation, eh, task, ehm, in two thousand and twenty one.
+And uhm eh, aside from the papers we also eh, did some scientific research eh, uh, dissemination into research community uh, at the User and advisory board meeting in August
+So eh, eh, through individual person links we we hope to uh, to uh, get [PROJECT2] known in the community.
+Here is summary of the project in terms of work packages and you are now watching the presentation for work package eight management.
+And then we'll go over all of the other work packages with the lunch break ehm, uhm after work package on minuting.
+Eh, and there will be one more uhm, short presentation on the ethical issues, which is work package nine.
+Eh, here is the summary eh, on management.
+Everybody's involved eh, very little, and we as coordinators, eh have eh, in total closed to year eh, over the three years of duration.
+Eh, that accounts for meetings eh, most of them are remote, eh and eh, all the all the reporting uh, obviously.
+Here is a very rough summary of deliverables and milestones.
+Eh, all deliverables which were due have been submitted.
+Uh, um, we had eh, just a few days eh, delays with two one or two deliverables.
+Eh, so in total, there are to be thirty two deliverables and twenty are completed.
+So the first half of the project is like more packed with deliverables eh, and similarly, for the milestones.
+There again we have a successfully achieved everything, which we could have achieved eh, except for the [ORGANIZATION5] Congress that was postponed by one year.
+And again, eh, in total, there'll be sixteen milestones, and we have completed ten of those.
+Uh, here is a summary of the financial aspects of the project.
+Eh, all partners reported reasonable spendings, and uh, some had eh, some minor deviations from eh, planned spending.
+The planned spending is generally, planned proportionally, uh, and ehm, uhm, ehm s- there are no major deviations from the financial plan.
+Eh, [ORGANIZATION2] in [ORGANIZATION7]  spent a little bit less than eh than a the half eh, so that's a reserve for possible, unexpected fluctuation in exchange rate as well.
+And eh, [ORGANIZATION11] spent more eh, then the half, and that's because, eh, the integration ehm, is eh, hm, needed much more and it was planned to need much more afforts eh, at the beginning of the project then later on.
+So you see eh, the spendings plotted eh, here in the graph.
+Overall the project is eeh, roughly at the half or little bit less than half of it's cost.
+Eh, and [ORGANIZATION2] and [ORGANIZATION7]  are are below the half slightly.
+Eh, [ORGANIZATION14] is almost perfect.
+And and [ORGANIZATION11] has spent a little bit more and [ORGANIZATION3] is also eh, some- somewhat under spending.
+Uhm person months, eh, activity eh, here again we we see that in most work packages eh, well, in total we eh, are at half, eh so that's that's good.
+Uh, some of the work packages eh, seem to have exhausted their work plan person months available, such as the work package one on data.
+Here uh, we actually expect an overspending in person months, not in money, uh, because a lot of annotation work is done, uh, by people who are eh, s-on on lower salaries, and not so eh, eh, so no, no high skills are needed for that.
+Uh, so the person months are eaten up faster eh, than ehm, mm, than the corresponding money.
+And uhm, what is this.
+What is work package six.
+That's the integration - ehm -
+Uh, that's too bad -
+So ss- ehh, so the problem that I see here, but I don't - I won't say that aloud uhm, that is that the integration is underspent in terms of person months.
+Uh, but we are saying that integration is the main cost of ehm, uhm, uhm of [ORGANIZATION11].
+So eh, please double check eh, eh [ORGANIZATION11], double check eh, the header of work package six.
+How many person months are from other eh, partners.
+It could be that these remaining person months are from other partners, but I actually doubt it.
+But yes they could be from [ORGANIZATION3].
+So eh, so get in touch with eh, eh, [ORGANIZATION3] and and double check like how to explain this.
+I'll try not to uh, draw attention to this point.
+Uh, but it could seem as an inconsistency.
+It can be explained by the different partners, eh, contributing to this work package, but we need to check, if this holds.
+(PERSON24) Okay.
+(PERSON13) Yeah, uh-huh.
+Okay.
+Then everythings is like on on track.
+Eeh, and to briefly summarize the um, the research results.
+I'm not going to mention all of them now.
+Eh, but eh, s-  we are really obviously publishing papers and acknowledge [PROJECT2] project.
+Eeeh, we have to admit that despite the recommendations, the the papers, so far are mai- mainly site specific.
+So [ORGANIZATION2] has eleven papers on machine translation training techniques, test suits and eh, evaluation, eh, including the process of of uh, training eh, and summarization data.
+[ORGANIZATION7]  has seven uh, papers mai-mainly the document level machine translation, large capacity and efficient neural models.
+[ORGANIZATION14] has ten papers ehm, ehm experiments with Transformer- style models for ASR I assume.
+Ah, ah, and also for SLT I'll write it down.
+Eh, <talking_to_self/> so it is fifteen [ORGANIZATION14] for ASR plus SLT, yeah?.
+And we have one join paper.
+That was an overview paper eh ehm at workshop on platforms.
+So we were highlighting the infrastructure of [PROJECT2] in that paper .
+Unfortunatell-
+(PERSON12) S-
+(PERSON13) Yeah
+(PERSON12) Sorry [PERSON13] there was was the IWSLT paper as well, which -
+(PERSON13) Oh
+(PERSON12) surely is surely is on every one or it's a -
+(PERSON13) That's right -
+(PERSON12) 'cause mos -
+(PERSON13) Yes -
+(PERSON12) Most of the project -
+(PERSON13) Yes,yes
+(PERSON12) [PROJECT2]
+(PERSON13) Yes yes, yes.
+IWSLT system paper.
+So the thing is that possibly this was eh, just after the end.
+But let's put it in.
+(PERSON12) <unintelligible/>
+(PERSON13) Let's -
+(PERSON12) So it's not it the eighteen month period.
+(PERSON13) Eh, let's let's write one plus one there.
+(PERSON12) <laugh/>
+(PERSON13) So that it's clear.
+So, un- unfortunately, our ASL paper was rejec- rejected and one of ther reviwer said there is nothing to demo.
+Eh, I'm now investigating the [ORGANIZATION6] demo sessions.
+The web page for [ORGANIZATION6] is blank eh, for demos.
+Eh, so there is a paper submissions.
+And if there is no demos, then I will probably aah, try to make it a short paper uh, at [ORGANIZATION6].
+So let's let's try resubmit for [ORGANIZATION6].
+Either at the the demo session or short paper.
+So hopefully we'll we'll get through eh, there.
+Uh -
+(PERSON4) [PERSON13] -
+(PERSON13) Yeah -
+(PERSON4) [PERSON13], just just just a note regarding the -
+(PERSON13) Mhm.
+(PERSON4) spent PM -
+(PERSON13) Ehm hm.
+(PERSON4) Eeh, we have eh, forty-six eeh, PMs on WP6 -
+(PERSON13) Ehm hm.
+(PERSON4) Only spent by [ORGANIZATION11] and eh -
+(PERSON13) Okay.
+(PERSON4) And that we don- we do not have visibility of the PMs spent by [ORGANIZATION3] and other partners.
+(PERSON4) So I  think that the sum should be double checked.
+Do you -
+(PERSON13) Sum should be really double checked, indeed, because when you say that you have fourty-six eh - 
+(PERSON24) Maybe I found -I found that maybe I'll -
+(PERSON13) Yeah, okey.
+So let's do it during the lunch break to figure out what was -
+(PERSON10) Thank you.
+(PERSON13) <laugh/> So if it was wrong -
+(PERSON4) Okay.
+(PERSON13) in the in the report as well, then we should uh, like mention it here, uh, we- we'll discuss that, eeh - 
+(PERSON4) <laugh/> 
+Okay.
+(PERSON13) Yeah. <laugh/>
+(PERSON4) Okay, thank you.
+(PERSON13) Yeah, thanks.
+(PERSON10) Ah, eh.
+(PERSON13) Ehm, hm?
+(PERSON10) Just one quick info because I've just getting that back.
+Actually [PERSON8] for [PROJECT2] has not one deal sequence to sequence ASR model, so -
+(PERSON13) Okay.
+(PERSON10) So we can strike for that from the record, we've been just using it internally for our lecture translation sys-
+(PERSON13) Okay.
+(PERSON10) I'll tell them that we have to figure out how to get it <laugh/>
+(PERSON13) Yeah, yeah exactly.
+So this is s- eh, eh ehm ehm hm for other systems integration <talking_to_self/>
+Yeah, eeh, so I'll be very curious to see the eeh, the difference in in in performance then.
+Eh, okay.
+And then there is also very short summary of the impact of eh, the Covid pandemic on our project.
+No deviations from the plan would have occurred if there were not the pandemic because we'll we'll be otherwise fully on track.
+Now the most important change is the [ORGANIZATION5] Congress been rescheduled eh, for spring next year.
+Uh, this is still within the lifetime of the project.
+So that's that's good.
+Uh, but uh, still we would seek eh, an extension of the of the project, also, in order to get eh, time for analyzing the the results of of this [ORGANIZATION8] analyzing the the logs and and seeing how the systems performed.
+Maybe some of the data would be limited, uh, only for the duration of the project.
+So uh, we would like to have more time to to explore that.
+Eh, with no conferences and live life event happening, the showcasing of our demos eh, and the the dissemination with eh, paper flyers became harder or a postponed.
+Eh, also we cancelled one of our meetings, um.
+So these are, uh, uh, the the main limitations that we have uh, suffered now.
+Uh, the the real trouble uh, is that eh, is difficult to hire people, uh, and get them to uh, to come to a the respective partners.
+Eh, so the hiring process is is very much complicated.
+And uh, we are uh, es- l- uh, hm, persuading hard eh, or or fighting hard with our personal uh, departments to to get people employed remotely.
+But it's not easy.
+And also remote collaboration is a bit more time demanding, because you need to plan the meetings and and and synchronise eh, carefully and time zone differences are also sometimes a problem.
+So it's uh, the the communication is somewhat slower.
+So that's eh, why we will seek for a non-costed extension of the project, by about three months eh, for mainly for analysis of [ORGANIZATION8] results.
+And uh, their better exploitation, and also to eh, cover up eh, from the ehm, hm, more complicated communication.
+So here is the conclusion.
+So far everything looks well.
+Eeeh, submission of deliverables and milestones is almost on time.
+Uh, all partners are aware of their financial situation, and everybody is cooperating very smoothly.
+Technical problems are there, obviously, but they are working on, eh, they are being worked on and solved as we get them.
+Uh, and yes, we are publishing papers, but we still need to improve the cross-side collaboration.
+The pandemic takes the toll of more complicated communication and and hiring, but otherwise it doesn't prevent us from eh, progress.
+So um, that's that's from me.
+I'll do this few changes.
+If you have any other ideas that I should put here, please, let me know.
+And otherwise, uh, let's follow the agenda.
+And let's move on to work package one, right?
+(PERSON12) Okay. 
+Can you -
+Can you hear me [PERSON13]?
+(PERSON13) Yes, yes. 
+Can you already present?
+Or do I have to do something?
+(PERSON12) Okay, let me try.
+(PERSON13) <laugh/>
+This would be different in the Webex.
+Uhm, uhm -
+(PERSON12) Okay, hopefully you can see -
+(PERSON13) Yes.
+(PERSON12) my slide.
+(PERSON13) Yes.
+(PERSON12) Okay, great.
+Okay, brilliant.
+Just check I can - scroll through -
+Okay.
+Okay, I think we could.
+Okay, good morning, my name's [PERSON8] I'm from the [ORGANIZATION7].
+I'm going to be talking about work package one, which is all about data collection.
+So eh, this poor package provides the other work packages with training and test data.
+And they can use a building systems and for doing their research.
+As well as using the data directly within the project, we release training data publicly where that's possible.
+And we also release test sets, ehm, so they can be used by the wider research community.
+So, here is how the work package is organised.
+It's led by [ORGANIZATION7], ehm, [ORGANIZATION2] and [ORGANIZATION7] Health majority <unintelligible/>
+It's split into four tasks.
+And I'm going to talk briefly about each of these tasks.
+About what we've done so far, and also about some work that's currently in progress.
+So task one point one is about collecting, and preparing ASR training data and specifically it's about data for Czech.
+And so the background here is the ehm, start of the project.
+We already had ASR systems for six of the seven languages, but we didn't have a Czech system.
+When we go to the project proposal, we'd already identified some sources of transcribed audio data.
+With the Czech national radio being the main one.
+So the objective was to collect data and turn it into a form that's useful for training ASR.
+So for the uh, national radio data, the recordings ehm, come with high quality transcriptions and were taken from various radio programs.
+That ranges from eh, morning news programs to political debates.
+And the original recordings were suitable for training speech were those just because they are too long, typically twenty to fourty minutes long now is much too long for training acoustic models.
+So we developed a pipeline and that aligns the audio with the transcripts of the segment level and splits the recordings into much shorter pieces these are about ten to fifteen seconds long.
+This work has resulted in the creation of two hundred and sixty hours of speech training data. 
+Using that, we were able to successfully train and deploy Czech ASR system.
+So ehm, a first version was used to the working group on VAT workshop in June last year. 
+Subsequently, um, we built built systems using larger volumes of data, including the um, systems that are in in production in a subtitling pipeline.
+So subsequent to the work on the Czech national radio data we've collected over fourteen hundred hours of recordings from the [ORGANIZATION15].
+We could just apply same processing pipeline.
+So we now have ehm ASR training data as well, and we took the sub-set of this data so about four hundred and fourty hours, which we have released publicly.
+And the data was described in in our paper that was published earlier this year.
+In addition, we've created our three Czech ASR test sets.
+Um, actually, I think we have a couple more now or ehm -
+(PERSON13) Yeah
+(PERSON12) <unintelligible/> to check this.
+(PERSON13) Yeah.
+(PERSON12) Ehm, so one of those is from eh, Czech radio.
+One's from [ORGANIZATION15].
+We also have eh, recordings from [ORGANIZATION10].
+And we've been using these to evaluate eh, the Czech Czech ASR system, report some word eh, some preliminary word error rates here.
+And was I think we may have better results, so yeah, I' ll check that as well ehm.
+And of course we're we're actively working on these models.
+Eh, so this task is, eh now complete.
+It was scheduled to to run from months one till six.
+I think it took a little bit longer to get the pipeline running, but yet.
+It's it's done now.
+Uh, we have training data and test data.
+And we've been, eh, yeah actively using them.
+So, task one point two is about collecting data for speaker and accent adaptation.
+Ehm, there are two main aspects to this task.
+Um, and so the first is that we want to have a kind of full back option for [ORGANIZATION8] in case our ASR systems struggle to cope with <unintelligible/> conditions we have done.
+Um, or if they struggle with the speaker's accents being different from the accents that were present in the training data.
+So our plan is to have re-speakers on an event that will be recorded under controlled conditions.
+And we know in advance who they are.
+So we can trai- train speaker-dependent systems.
+And so that means we need to gather audio data from the re-speakers and adapt to our systems.
+Uhm, at the moment we we don't know who the re-speakers will be.
+And so we will coordinate with [ORGANIZATION9] nearer to the the times of the event.
+(PERSON13) Yeah.
+So I would more highlight the actual interpreters instead of re-speakers, eh, because uh -
+(PERSON12) Okay.
+(PERSON13) there is physically less space, uh, so that the re-speakers probably would not fit in the bullets.
+(PERSON12) Okay.
+(PERSON13) The the plan is still one so select the the interpretation agency to get in touch with the interpreters, and eh, get the interpreters provide some speaker-specific data.
+(PERSON12) Okay.
+(PERSON13) So the plan holds just highlight interpreters and not re-speakers.
+(PERSON12) Okay, fine.
+(PERSON13) Yeah.
+(PERSON12) I'll make it <unintelligible/>
+(PERSON13) And also maybe the timing of this task.
+So, uh,  I don't think that we need to ask, for an extension.
+It's within the work package.
+But the officially this task is is planned uh, only for the first half of the project, and obviously it it was delayed due to Covid.
+So we may mention this, but I would not make it any serious issue.
+(PERSON12) Sure, okay.
+Okay, and the second aspect of the task is about collecting data that can help to make a speech recognition system more robust, and especially the dialect and accent.
+Eh, so one source of non native speech data was the Fair of Student Firms, which was held in [LOCATION1] eh, last year.
+And this was an event where high school students gave short presentations about fictitious companies and the pre- presentations had to be given in English.
+The students were non-native English speakers coming from nine different EU countries.
+So we recorded eh, presentations, and we asked the students to transcribe their own recordings.
+This was part of the competition.
+So they had an incentive to to do that.
+Um, we collected a total od thirty nine recordings averaging about ninety seconds in lengths and together with transcriptions.
+And from this we've created a test set, which can be used to test the robustness of recognition systems.
+Now this test set turned out to be extremely challenging, ehm, partly because of the the accents of speakers, and also because of some eh, noisy conditions of the event.
+So there was some background music and people coming in and <unintelligible/>
+So even um, state-of-the art models that are adapted have have high error rates on the status.
+So it's a really challenging test set.
+We can try to improve against.
+Ehm, this work has been written up.
+It was published at the international conference on statistical language and speech processing last year.
+And it's also part of our test set for the IWSLT eh, twenty twenty shared task.
+So as a way of testing our own systems, and also staging the state-of-the art we organized shared task on non-native speech translation.
+And the data set was drawn from five different sources.
+One was the Antracorp data set.
+The others eh, were some publicly available sources, except for one, which was [ORGANIZATION9] working group on VAT data of which the speakers gave us permission to use.
+And that data is within <unintelligible/> domain and the others are from different domains.
+For all the sub-sets the source language was English.
+And there were translations into Czech and German.
+And the type of translation varied, so for some it was interpreted and for others it was within translation produced from the transcripts.
+(PERSON13) Actually, if I'm not mistaken everything in the end was written from the transcript.
+(PERSON12) Oh -
+(PERSON13) We also have the interpretation, but it was uh, not - 
+(PERSON12) Oh -
+(PERSON13) aligned enough.
+So it's it's like for for the research to compare the text based translation versus the interpreted translation.
+And uh, so it is part of the data, but eh, for the IWSLT shared task it was I think all text translation.
+(PERSON12) Okay, I'll update that.
+Okay, thanks [PERSON13]. <other_noise/>
+Okay so in [PROJECT2] we're trying to support ehm, of a huge number of language pairs.
+We have seven ehm, source languages, fourty three target languages.
+And ideally, we are trying, ehm, support every every one of those language pairs and we're also interested in very specific domain and the domain is auditing.
+Because there isn't ready made in- domain parallel corpus covering all those all of the language pairs we'd like.
+Eh, so we can't just go out and download a pre-existing data set.
+So task one point three is all about ehm, collecting data, for empty ESLT that covers as many of the languages as we possibly can.
+And that also includes some in-domain data.
+So one great, resource for machine translation, is OPUS, which is a huge collection of parallel corpora ehm, covering hundreds of language pairs.
+The data covers a wide range of domains and genres.
+There are translations of the Bible, subtitles from movies, Parliamentary proceedings, all kinds of things.
+So we sampled large multilingual parallel corpus, eh, suitable for training the the initial MT systems in the first version.
+We sampled up to one million sentence pairs for each language pair using up-sampling tool.
+The pairs were less data.
+The <unintelligible/> corpus have two hundred twenty six million sentence pairs.
+A variant of this was OPUS one hundred, which covers a more diverse and slightly less Euro-centric ehm sort of languages.
+We use that for some research, which you will hear about later.
+And and that is now part of <unintelligible/> collection itself.
+We have also been working on an extended data set.
+So this form <unintelligible/> the artificial one million sentence pair limit.
+And and that's now in use for training ehm, IMT systems including some of those the or introduction in a <unintelligible/> pipeline, and that some of you will see in other recent project images.
+So OPUS can give us a lot of data, but it's it's out of domain for our application.
+So for in-domain data we have to go out in crawl and prepare it ourselves.
+That was another EU project called Paracrawl, which is specifically focused on crawling parallel data from the Web.
+And we've been ehm, using version of their crawling pipeline for our work.
+So we started out by collecting data from one of the websites of the [ORGANIZATION12]  in [ORGANIZATION5].
+And it has given us some monoligual data covering twenty four languages.
+Eh, some of those languages we're able to collect a lot of data.
+For others it was less, it  was more sparse.
+On on the average, we got a yield of fourty thousand sentences per language.
+We're now applying similar approach to extracting parallel corpora from the website of the [ORGANIZATION4].
+And this is a really good resource, because the vast majority of the reports are published in all of the languages of the EU.
+So far we have extracted corpora for the pairs including English.
+And that has given us a pretty good yield that on average two hundred and eight thousand sentence pairs per language pair.
+And we're actively working on ehm, the language pairs that don't include English.
+So it was more data to come.
+We have also collected parallel data from a [ORGANIZATION13].
+So ahead of the working group on VAT event we collected slides and other materials from the participants.
+And we used these to search through a similar sentences from the parallel corpora of [ORGANIZATION13].
+This gave us an in-domain parallel data set, which we split into training and test portions.
+It covers eight language pairs as German to Czech, as well as certain pairs that have English in the source language.
+For the initial event we didn't have time to users to adapt our modules, but we have now used it for domain adaptation experiments. 
+But we took models trained on OPUS corpus and fine tuned uh, using a training portion of the in-domain data.
+And in those experiments with saw uhm, some strong improvements in fine tuning when evaluating on these uh, in-domain test sets.
+So this one is a w- work in progress ehm, we're building a multi-parallel, multilingual corpus of speeches, transcripts, translations and simultaneous interpretations from [ORGANIZATION10] planary sessions.
+The data cover the years, uh, two thousand and eight to two thousand eleven, when translations in to all twenty three EU languages were available, at least it was twenty three at the time.
+I think Croatian's been added since.
+Ehm, we received permission to use the interpreters voices for research purposes without we publish it, um, but the voices are accessible on the [ORGANIZATION10] website.
+So it that's not a big obstacle to releasing the data.
+This is data set that can be used in various ways from treatment in ASR, for example, also in simultaneous SLT and multi-source SLT.
+Eh, so far we've downloaded speeches in eh, the twenty three languages with simultaneous interpretation into Czech, English and German.
+We're processing over twenty eight thousand speeches, not including the <unintelligible/>.
+Um, so it's sixteen hundred speakers over a hundred hours, and a over eight million words of English transcripts or or translations.
+Um, the distribution of the source languages is is somewhat unequal.
+So that's two hundred and thirty nine hours of English, hundred and ten of German, and then less for other other languages.
+Okay, task one point four is about collecting data for minuting, ehm automatic minuting.
+Its the most challenging task to collect data for um, since there're very few pre-existing resources.
+Um, as a rule we have been collecting and annotating <unintelligible/> from scratch.
+So this involves making audio recordings of meetings and and producing transcripts just like in ASR, but also collecting em, pre-prepared agendas and meeting minutes, which may have been created by the organizers, <unintelligible/>, secretaries of the meeting.
+And then this data eh, has to be manually annotated by two different annotators with the main idea of the annotation ehm, being that we connect segments of the audio recordings or the ASR transcripts with the corresponding items in the minutes.
+We've been collecting data from our own meetings as well as meetings for other EU projects and meetings of of other groups at [ORGANIZATION2].
+So far, we've collected approximately a hundred hours of meetings in English, and over fifty hours of meetings in Czech.
+In the English language meetings, most of the participants are non-native speakers.
+So this is actually a really challenging data set for ASR as well.
+This corpus is still under active development.
+So far, it's been used as a test set for some preliminary experiments on meeting summarization.
+And we continue into collecting <unintelligible/> data.
+Also, we have an open call for data.
+Um, there's a link to blog posts on the [PROJECT2] website.
+And we're hoping to collect recordings and minutes from ehm, more sources with view to running shared task.
+Okay, so those are the four tasks make up the ehm, data work package, ehm <unintelligible/> the data need to project diverse and collect it training test data from wide range of sources.
+Ehm, recen- recent initiative starting earlier this year is [PROJECT2] test set.
+This is a <unintelligible/> repository where we collect together, uh, the data eh, that we use to evaluate our ASR MT and SLT systems.
+Eh, it's a public repository and one of the groups to ehm, adopt our data.
+So we've spent time making sure everything stored in a consistent convenient format.
+() consists of mostly Czech, English and German ehm, documents, the eh, primary languages of the project.
+But the goal is to represent all of the [PROJECT2] languages ehm, using both in-domain and also general recordings and texts.
+We are coming out of the sixteen hours of original speech and over hundred and fifty original documents.
+And these either ehm within eh, or transcribed from audio resources.
+And most documents are also translated.
+That's either written translation or live interpretation.
+So -
+We are currently working on expanding the data set and providing additional translations and acquiring data traditional languages.
+And in particular, we using this to evaluate our existing SLT systems.
+And as they improved we will be able to provide exact measurement of the progress.
+Okay so to summarize the data work package is on track.
+We collected data from <unintelligible/> resources and include direct data that's in-domain through our specialized domain auditing.
+The data is already in use.
+So we're using it train models and for evaluation of both our own systems, and the systems of others and for more shared tasks.
+Um, with the exception of the training data for interpreters at [ORGANIZATION5] which we can count until near the time.
+All of that data collection work is either ehm completed or it's it's on the way.
+And that's eh, work is ongoing.
+Ehm, in particularly development of the [PROJECT2] test sets collection, ehm, the data gathering for automatic minuting as well as of the SLT data from [ORGANIZATION10] and plannary sessions.
+Okay, so that's all for work package one, um, thank you.
+And we have some time for questions.
+(PERSON13) Great, thanks.
+Eh, so I would like to warn everybody,including myself that we should always think that we have really at most twenty five minutes.
+Uh, I think you you also like to use your time very well.
+But I know that I have this problem that when I remember, I should be finished by half.
+I will be finished by half eh, and that I will actually eat up all the time for questions.
+(PERSON12) <laugh/>
+(PERSON13) <laugh/>
+Eeh, so, eh, so everybody think about a really delivering shorter presentations than what is the full time slot.
+But it was good like I I do not think that there will be many questions eh I think it's it's okay.
+(PERSON12) Okay, good.
+(PERSON13) Yeah, thank you.
+(PERSON18) May I have a question about the edg- ethical issues concerning the data?
+(PERSON12) Oh, okay, yeah.
+(PERSON18) Eh, I just me- I think I have missed something because I had missed the [PROJECT3] meeting at the end of August.
+Ehh, as as you told about collecting the data eh, for non-native speakers and some else, did you collect something during this year for which you needed to solve some ethical issues, or was it all opened data?
+So, did you meet somehow these problems with ethics?
+With consents or something like that.
+(PERSON12) Eh, So I I think this issue would have only risen from the ehm -
+(PERSON18) Just did you colle-
+(PERSON12) I'm going -
+(PERSON18) Did you collect some data from people this year?
+(PERSON12) This year ehm, I think that would have only been for the for the automatic minuting task.
+(PERSON18) Now for automatic minuting is what I'm aware of, but some- something ah -
+(PERSON12) Right.
+(PERSON18) different.
+(PERSON12) Eh, no, I don't I don't think so this year.
+(PERSON18) Mm-hmm.
+So I'm just, I'm a as I will present the ethics today.
+I'm just afraid to miss something from this year that we have created something but didn't give the consens.
+So -
+(PERSON12) No, I don't I don't think there is any issue -
+(PERSON18) It's eh, I am happy to hear that, thank you.
+(PERSON12) Okay, okay.
+(PERSON24) Ah, one quick dummy question from my side.
+So I have seen the <unintelligible/> repository for the test sets -
+(PERSON12) Yeah.
+(PERSON24) Um, ah, um, for the training data is that also on the <unintelligible/> or - ?
+(PERSON13) No, on purpose not because even the test set of the ASR files are are often to big.
+We eh, never put there anything bigger than a fifty max per file.
+Eh, so the training, you know, are never planned to be there.
+(PERSON24) So do we have a central repository for the training data?
+I want to make sure that eh, my guys -
+(PERSON13) Ehh
+(PERSON24) are I using all the available data, especially now that we also have to do Czech ASR et cetera.
+(PERSON13) We do not, eh, only we have the FTP server that [ORGANIZATION11] has provided already at the beginning of the project, but I do not think that we ever used it.
+We have always shared -
+(PERSON24) Okay so how -
+So to make things short.
+How can we get to all the trainig data?
+(PERSON13) Eeh, s- yeah to to talk to probably [PERSON10] or eh, I would say [PERSON9].
+But unfortunately, [PERSON9] will not be continuing the the work with us.
+So he he wanted to apply for PhD.
+He applied.
+But, in the end he's changing mind, and unfortunately, not eh not eh, joining the rest of the project.
+So [PERSON10], and also [PERSON7] Polak eh, like via myself.
+But eh, ehs, yeah -
+(PERSON24) So [PERSON10] and [PERSON7] have the overview of all the training data that was collected at work package one and how to get that.
+(PERSON13) Eh, for speech, for the Czech speech.
+(PERSON24) For Czech speech.
+But I mean -
+(PERSON13) But we also we also do not have, for example, your German training data.
+Ah, and it's a good idea.
+I think that we should also try training uh, the German models.
+So do we really want to eh, I think it would be best to put it indeed on the FTP server that everybody eh, what they have will put that on the FTP server by [ORGANIZATION11].
+Would that make sense for you?
+Because we we also don't have uh, your training data.
+(PERSON24) Yeah, I mean, we have a lot of background training data -
+(PERSON13) Yeah.
+(PERSON24) that we cannot easily share.
+(PERSON13) Yeah
+(PERSON24) Ehm, but I mean, we can share all the publicly available data within mostly training on <unintelligible/>.
+Ah-
+(PERSON13) Um hm.
+(PERSON24) Ted Lion.
+(PERSON13) Yeah.
+(PERSON24) And uh, you know, the um, [ORGANIZATION10] data you sent to <unintelligible/>
+(PERSON13) Um hm.
+(PERSON24) Those we can share.
+But we have a couple of internal lectures recorded at [ORGANIZATION14] that we cannot share.
+(PERSON13) Yeah.
+Okay.
+Yeah, obviously, so that is that that is a fair point.
+Uh, so uh, the question is, whether we want to like exchange it after some e-mailing, or whether we really want to put it a to a this a common place.
+<other_noise/>
+(PERSON24) Well.
+I'm fine with exchanging it after e-mail as well.
+I just need to know whom to e-mail to.
+(PERSON13) Yeah, let's let's - 
+(PERSON24) I don't know-[PERSON8], would you be the Central - 
+(PERSON13) [PERSON8] is for the text, eh - 
+(PERSON24) Okay.
+(PERSON13) And for speech I think would just like eh, you and us.
+(PERSON24) Okay, so I'll contact [PERSON10].
+And eh -
+(PERSON13) Yeah, that's that's the -
+(PERSON10) That's [PERSON7].
+I recommend [PERSON7] Polak for SLT, it's it's -
+(PERSON24) So, so [PERSON10] - 
+(PERSON13) So [PERSON10] [PERSON10] could you please send an e-mail to both to [PERSON2] and [PERSON7].
+(PERSON18) Yes.
+(PERSON13) So that they yeah -
+(PERSON18) Yeah.
+(PERSON24) And [PERSON7]'s name?
+(PERSON13) [PERSON7], simply [PERSON7] at [ORGANIZATION9]
+(PERSON4) uja - h, yeah, yeah.
+[PERSON13], [PERSON13] - 
+(PERSON13) Uhm hm 
+(PERSON4) We are also interested in eeeeh -
+(PERSON13) exchange - 
+(PERSON4) training, yeah.
+(PERSON13) Yeah, okay.
+And in exchange we, we would like the German and English eh, data.
+We're not so uh, at the moment, we don't have the capacity to try out Italian ourselves.
+So uh -
+So so [PERSON10] please tell [PERSON7] to eh, to get also this.
+Uh, so that we have also our own versions for English and eh, German ASR.
+And since [PERSON7] will have some benefit from this then he surely share the Czech data. <laugh/>
+(PERSON24) Well, I mean, it is within the project ehm -
+(PERSON13) Yeah
+(PERSON24) If you want to -
+(PERSON13) Yeah
+(PERSON24) the Czech system -
+(PERSON13) We we want to get the expertise.
+So that's why we are trying ourselves.
+But eh, eh, hm it would be very good to see eh, how well you can train it, and how well we can train it.
+So I think this internal competition is is very useful for everybody for both our skills, and also for the final system that we have for the project.
+(PERSON24) Okay.
+(PERSON13) So I think it's it's useful to do this like wasteful eh, eh, it's wasteful in terms of human resources.
+But I think it is valuable.
+(PERSON24) And we still have to think what to do about Russian.
+(PERSON13) About what?
+About -
+(PERSON24) Russian.
+(PERSON13) About Russian, yes.
+Oh, yes
+(PERSON13) So we have a number of Russian colleagues here, including [PERSON20] by the way.
+Eh, but they ee, like don't have any capacity for this.
+And definitely they do not know about it.
+And some of them are not on the project.
+So eh, I'm just saying that we have Russian speakers around in the team <laugh/>
+(PERSON24) Yeah, but we have to look for for all available data sources.
+(PERSON13) Uhm hm.
+Yeah.That's true.
+(PERSON24) So I guess it will be an important language as well in order to distinguish ourselves.
+(PERSON13) Yeah, that's right,.
+Yeah.
+(PERSON24) And I guess we need to do some more testing on the [PROJECT2] test sets.
+(PERSON13) Yes, yes, exactly.
+(PERSON24) So do y- em - 
+What what is the status for for [ORGANIZATION9] specific test sets?
+Do we have anything yet that we could try out?
+(PERSON13) We have the uh-
+This was the uh, somewhere part of the IWSLT test set and eh, that the right person to supervise this was was [PERSON17].
+But he is available now only for one more week, and then essentially this week, and then who go on vacation.
+And then he will take a break because of school eh, but he should be rejoining towards the end of the year, hopefully uh.
+So uh, and and the substitute person eh, would be eh, [PERSON22] no, [PERSON19] another one from our team who are supervising, uh, the [PROJECT2] test set collection.
+And yes, we are uh, trying to get get, uh, the domain specific data there.
+Some is already there.
+Uh, but for example, we don't have any Russian speech uh, there yet.
+(PERSON24) But I mean, in in general, it would be good to if we have been developing the ASR now on whole [ORGANIZATION9] of different kind of data.
+(PERSON13) Uhm, hm.
+(PERSON24) But we should start to evaluate actually on the ASR -<other_noise/>
+(PERSON13) Yeh, yeah.<other_noise/> <unintelligible/>
+So please eh, like be active or ye-, you and especially [PERSON8] and other colleagues in your team.
+Be active in criticizing the uh, [PROJECT2] test set and adding any materials that you would like to.<other_noise/>
+Yeah, so [PERSON2] if eh, eh -
+Did you hear me?
+(PERSON24) Yeah, sure.
+(PERSON13) Yeah.So uh.
+So uh, ts- like f- please do contribute to [PROJECT2] test set by asking for more or even t- providing more, and and we'll put that in.
+And also, uh, that try to eh, debug the [PROJECT2] test set by uh, by using it.
+So it is this is exactly what what we want.
+And what was the purpose of the of the [PROJECT2] test set to let more people use it easily.
+Uh, and eh eh have have a s- solid way of testing.
+(PERSON24) Okay
+I don't want to <unintelligible/>
+Just one last quick question.
+Any chance that we could do [ORGANIZATION9] test one in IWSLT?
+(PERSON13) Eh, eh so what exactly do you mean by that?
+So eh -
+(PERSON24) To have an to complete the deaf test that we could use in IWSLT and run it in an online onlinelow latency to see whatever task.
+(PERSON13) So this boils down to the amount of data.
+We already have that data in the IWSLT eh, test set that we created for the last year and -
+(PERSON24) But that one <unintelligible/>
+(PERSON13) No no no it was it was [ORGANIZATION9] that was [ORGANIZATION9].
+(PERSON24) TED [ORGANIZATION9]?
+(PERSON13) There is this -
+No no no.
+Eh, th- eh, there was [ORGANIZATION9] in the [ORGANIZATION12].
+Eh, they -
+(PERSON24) Then you said TED in <unintelligible/> hours
+(PERSON13) Oh, did I say TED?
+(PERSON24) Yeah.
+(PERSON13) I eh.
+So we we had actually uh - So that was diverse.
+Have a look at the [PROJECT2] test set eh, and not the dev set illustrated only one file of the domain.
+But  the test set had more.
+And if we eh, like eh, divide it differently, then we have that.
+(PERSON24) Okay.
+(PERSON13) And the the problem is that uh, the uh, the amount of data that we got is limited.
+We we it was difficult to uh, to get approvement eheh, approvals from uh, uh, from that workshop that we that we had.
+But uh, let's eh, keep that in mind.
+And uh, since I'm in touch with [PERSON3] uh, and uh, I would really like to have it more on-line.
+Uh, that's why I contacted him.
+Then it eh, would be good to add more uh, to to have a larger eh test set so - 
+(PERSON24) I'm I'm -
+(PERSON13) <unintelligible/>
+(PERSON24) See I'm not sure how [ORGANIZATION9] reviews will be.
+But if I were you these would be the kind of questions I would be asking on the data collection.
+(PERSON13) Yeah, yeah.
+So it's there uh, well, in in the overview paper or in the [PROJECT2] test set we know how many words it's eh, and how many uh minutes.
+It's eh, I think it's written also in work package in in a deliverable in [PROJECT2] test set if I'm not mistaken.
+This is for [PERSON8] to double-check.
+(PERSON12) Yeah.
+This -
+Yeah.
+(PERSON13) Okay.
+So thanks.
+And let's move on to the next um um, uh, next presentation, right, which is work package two and that's actually ehm [PERSON2] you.
+(PERSON24) Okay. <talking_to_self/> 
+I need to quickly set it up here into presentation mode.
+Eeeeh <other_sigh/>
+That' s not -
+Okay, so the slides are not one hundred percent finished yet.
+You'll see one or two gaps that I will need to close till tomorrow.
+By the way ah, ehm, [PERSON13], is [PERSON7] available for questions, if necessary or should I ask -
+(PERSON13) Yeah
+(PERSON24) [PERSON10]?
+(PERSON13) Eh, so well I'll uh, I'll try to get [PERSON7] Polak also for the call.
+Eh, He is, I'm I'm sure he is not in [LOCATION1].
+He is in Slovakia eh at the moment.
+(PERSON24) Yeah, I mean I don't need him right now.
+But if a <unintelligible/> e-mail her - .
+(PERSON13) Yes, yes, yes, yes, yeah.
+(PERSON24) Okay that's it. Because I might have would like to ask - 
+(PERSON13) Yeah.
+(PERSON24) to check double check the <unintelligible/> from putting together.
+(PERSON13) Yeah.
+(PERSON24) and make sure that I'm not  t- telling any lies, yeah <laugh/>
+(PERSON13) Yeah.
+(PERSON24) or misspresenting anything.
+Okay, let' see.
+So um, I will try to give you an an insight into the research that has been going on at the work package two on automatic speech recognition.
+Um, so the goal of work package two is to develop the uh, speech recognition systems that are needed in the the um, ah, speech, translation pipeline of the [PROJECT2] spoken language translation system.
+In an order for the ASR systems to be usable within that system they have to meet a couple of different criteria.
+So they have to eh, transcribe the speech to text, but they also need to be running in real time.
+They need to run with low word based latency.
+That is the time span from a time that the word has spoken till until it is put out.
+And ehm, of course the test run in acceptable performance and for a diverse set of languages.
+So currently the languages of interest that we have identified for [PROJECT2] are Czech, German, English, French, Italian, Spanish and Russian.
+And as rough target performances we've set that we want to reach word error rate below fifteen percent.
+Even better if we could go below ten percent.
+Um, so at the outset of the project, the state- of- the-art - 
+Ah, um, was, um, are you still there?
+Because -
+(PERSON13) Yes, yes, yes, sorry, sure.
+(PERSON24) <laugh/>
+Because somebody took away my Zoom window.
+Sorry.
+(PERSON13) Oh.
+Yeah, we we can hear you.
+(PERSON24) Okay, good.
+And you can see the screen still?
+(PERSON13) Yes.
+(PERSON24) Okay, sorry.
+So we have an ehm, at the outset of the project the state-of-the art was to do our online low latency speech recognition with hybrid HMM/ANN systems that implemented base classifier and consist of an acoustic model that models the class based probability of an audio sequence given foot sequence MP ah, <unintelligible/> probability of a work sequence as a language eh, model.
+And these systems could run in streaming mode with real time at low latency, and with an acceptable peroformance.
+So the artificial neural networks of these systems were used for estimating the um emission probabilities in a hidden Markov model.
+And that again was then used to do the acoustic model.
+While the language model was always realized with ANN language models.
+Um, at the same time at the onset of the project there was also quite active research in sequence to sequence models that do not do use an base approach.
+But directly use neural networks to output the optimal most likely word sequence.
+And there were different competing systems there.
+So one was based on a neural ehm, ehm, target training function called connectionist temporal classification or CTC short for optimizing neural networks that do exactly that that output either directly carries word sequences, for example, using long, short term memory networks.
+And there were also, other, uhm, approaches that used an encoder, decoder with attention model that encode an audio signal represented by a feature sequence X into annotation vector and then decode that one into the target se- symbol sequence for except the characters or word.
+That um, even though these models gave better performance than the hybrid models, they were not able to run at low latency and eh, in real in an online streaming mode.
+So at the beginning of the project eh, they were not ah, suitable for our purposes here in [PROJECT2].
+Ah, the work package two has a structure of three tasks.
+Ehm, the first task aims at improving the robustness, especially in terms of hybrid ASR systems of the acoustic model so that they are more robust to different factors, such as different speakers, dialects, accents, acoustic conditions, but also domains in terms of topics.
+And ehm for hybrid, the old hybrid systems there were many hm, techniques to deal with these, but with the new neural methods ehm, there was a need now to to invent methods to develop new methods to become more robust against all these factors.
+And to do that for the sequence to sequence model this is especially challenging to find new adaptation ehm methods.
+Ehm, the second task, um, was concerned with adapting the language model, because in the old traditional systems the language model is more or less responsible for being specific to assist a specific domain.
+So the acoustic model have specifity to the acoustic conditions.
+While the language model has the specifity to towards the topics that the speech recognition system um, is supposed to work on.
+And eh, ASR systems the old ones were always best when adapted and tailored to the target domain as closely as possible.
+And that is often difficult, because for many domains, it's difficult to get a matching training data.
+For example, for the [ORGANIZATION9] domain it can be difficult to obtain the matching training data.
+So what what here needs to do is we have to learn a Semi-Supervised ur Unsupervised fashion starting from small amounts of subdata and trying to exploit that as much as possible.
+In order to be able to adapt a, eh, background language model that has been trained on a more generic corpus.
+And then the third task is to deal with the fact that in eh, the traditional way that we train ASR systems usually you have a training phase and the tuning phase.
+And once the model is eh, trained and validated it is then sent out into the real world in order to perform in the real system.
+But the models of the system remain static.
+That's the old way.
+But the real world doesn't work that way because ehm, um, the domains, ah, are constantly changing in terms of linguistics.
+For example, new words and topics are invented, other topics and words are being dropped.
+But you also see new eh, speakers, new accents, new dialects et cetera.
+So the environment in which such system operates constantly changes.
+And therefore the systems should not stay static, but should continue to lo- to learn while they are being deployed.
+And that's what we want to do in the third task.
+So with respect to the work package progress.
+Ah, um, as shown in the deliverable two point one, we have provided the first set of ASR systems that can be used in the uh, different showcases of [PROJECT2].
+And we have provided um speech recognition systems for and there's Czech, English, French, German, Italian and Spanish.
+And we're while doing that we examined different architecture.
+So the hybrid, HMM/ANN models, then a sequence-to-sequence model, which is more based on encoder decoder plus attention.
+And then a completely new model which is based on the self attention, which in a machine translation way often is called a transformer based model.
+And then for robustness we ehm, looked at different kinds of robustness.
+So we experimented with neural codes for language robustness.
+Eh, we did eh, developed this new transformer base speech recognition system.
+Um, we looked at robustness towards domains and eh, different topics with the encoder eh, decoder based ehm models.
+And then we also um, looked in two ways of making these decoder encoder based models perform in a streaming mode with a low word based latency.
+When it comes to the second task, where we looked at the adaptation of the language models eh, the consortium performed experiments on in Czech for hybrid HMM/ANN systems.
+And then finally, in order to prepare work for the lifelong learning task.
+We created the first interface that allows us to collect manual corrections supervisions from users of a speech translation system.
+And then in the second half of the project we will perform the research on the data that we collect with this eh, interface in order to be able to learn a lifelong fashion.
+Um, this is an overview over the different languages that we covered with the ASR development.
+We've we have HMM/ANN systems and we have encoder decoder based systems eh, with attention.
+And so for all languages Czech, English, German, French, Spanish and Italian hybrid system is available.
+And for English also a first eh, decoder encoder plus attention based system is now available that meets all the development criteria, and actually outperforms the hybrid eh, system.
+Um the interesting thing of the encoder decoder based attention system is that it runs now in streaming mode.
+So you remember from the the intermediate review that we wanted to make a decision on whether we are able to do this actually to do a streaming recognition with this sequence to sequence models.
+And we actually within the first period managed to to achieve that goal, so that we can run now with the latency of two seconds.
+And the really interesting thing is that we don't see really a degradation in word error rate, if you compare that to the offline system.
+So the streaming recognition in English is now basically just as good as the offline recognition.
+And these are not just any numbers.
+But these are really state-of-the art performance on standard benchmarks.
+And an English worker is now available and can be deployed.
+So the the the only thing that we now need to organize is that we have the the uh, available computational resources to run that in large scale.
+Because the neural models need graphical processing units TPUs in order to run.
+Um with respect to the multilingual re- robustness we had experimented with something that we called language uh, codes neural language codes.
+And the idea behind that is that you train the language identification system with the bottleneck and the activation at the bottleneck is a code that represents the properties of the language that you put into the language identification system.
+And now if you put in, er,  a language that you haven't seen during training of the LID system, you still get a neural code out of the LID system that captures in the continuous vector space the properties of that languages.
+And you can use these language codes in order to eh, condition neural networks in order to better adept themselves in an unsupervised/semi-supervised manner to the language that has being put into the recognition system.
+And we did some experiments with this in a CTC set up where we use the neural language codes to modulate LSTM networks that were trained in CTC.
+And the interesting thing is that if you know, multilingual system in the good old days, if you would make several languages together to train a hybrid system, performance would be great.
+But if you now use modulation with LID on the multilingual system, uhm, you can actually bring it at par with a monolingual system.
+So just performs as well as a monoligual system.
+And if we put uh, some more effort into it and have a ah, ah, super network, based on the uh, Meta Pi network.
+We can actually get word error rates that are below of the monolingual system.
+So they um the ASR systems are now actually able to learn from ah, many different languages, and give better performance in one of the languages.
+When it comes to multi-domain robustness, so robustness to different topics, we ehm, know from the par- past that if you have a hybrid system and you train it on a whole <unintelligible/> of different training data for different domains, and then you test one specific domain, performance might actually degrade.
+If you like have training data that mismatches your target domain.
+And our working hypothesis was that what we've een from previous research that neural network based ASR systems are more robust to mixing different styles of training data.
+And all hy- hypothesis was that with an encoder decoder based ASR system we even can improve over matched training data if we pool also missmatched training data into the system training.
+So in order to test that hypothesis, we constructed the multi-domain corpus with a total of one thousand six hundred hours of data.
+And this multi-domain corpus was pooled from publicly available data in English.
+And it contained read speech, planned speech, spontaneous speech.
+With respect to topics we had news broadcasts, we had tech talks, we had lectures, we had phone calls.
+And when it comes to signal eh, variations, we had telephone speech, and word bent speech in the training data.
+Eh, so these are the different corpora we had in there and with the different hours, number of hours.
+So you can see that different corpora have different number of hours in their training data.
+And they cover the whole range of these eh, different, three different dimensions that I mentioned before.
+Ah, so what our experiment showed, that actually the encoder decoder based model slot very fell from this multi-domain sets.
+And while hybrid AMM/HMM/ANN models are always best if you train in a single domain condition with a domain adapted language model.
+Ah, with the encoder plus attention based models we can train on this multi-domain car-corpus and get similar hm, word error rates as the specific hybrid, uhm models.
+And in order to do that, we use to technique diff- diff eh, similar to the multilingual experiment that we did before.
+So instead of having a neural language code we now have sort of a neural domain ID code that we also learn from a bottleneck the eh, eh layer from a neural network that tries to identify the domains.
+And we can now condition our networks by pending this domain with <unintelligible/> input.
+And if we do that, um, when it comes to in-domain, domain specific testing we get the same word error rate with the hybrid models.
+And the really nice thing is that if we now test on the domain that we have not seen eh, before, so out-of domain corpus that we haven't seen during training.
+These domain conditioned models actually outperform eh, the hybrid eh, models.
+Um, so here's some word error rate numbers that show that we've switched for TED-talks, um, read books, audio books, broadcast news.
+And then Skype calls, the Microsoft spoken language test set as a test sets.
+The MLST test set is the out-of domain test set.
+So if we have the domain specific HMM/ANN models, we basically get the same performance if we have domain-specific HMM/ANN with the multi-domain trained encoder decoder.
+And then if we go to the out-of domain corpus, we see that with the domain conditioning, the encoder decoder is significantly better on the out-of domain corpus than the hybrid ANN- HMM/ANN systems.
+Ah, when it comes to the robustness of the acoustic model, there were also experiments performed with a differed ASR architecture.
+That is a combination of phoneme level acoustic models, so a network that outputs eh, phonemes.
+In the experiment there was Jasper used, which is essentially a convolutional neural network eh, trained to output phonemes using the CTC crit [PERSON12].
+And then on top of this acoustic model, a transformer-based translation system performed translation from phonemes to gra- graphemes.
+Ehm, so when this is applied to clean training data, the performance is not really eh, much worse than that of ey, baseline system.
+And this um, performance can be improved when using um, colla- collapted training data.
+That is most similar to what a acoustic model would put out.
+And if it is combined with transformer -
+I will have some more details on the slides eh, on these experiments.
+Then we also looked at robustness to data augmentation because for sequence to sequence end-to-end ASR overfitting is still one of the most prominent models.
+And usually data augmentation is used to counteract that problem.
+Um, most common technique is the specAugment which does spectral and temporal masking and we added some additional techniques.
+For one we added dynamic time stretching, ah, um, with online perturbation in the spectral domain.
+So instead of speed perturbation in the time domain, we hear by avoiding the shifted pitch.
+And we also use sub-sequences sampling in order to have more linguistic data augmentation of the output sequences.
+And when we apply that, we can see that our sequence to sequence models essentially the achieve a word error rate that is uhm, more or less comparable with the best performing systems on switchboard and CallHome.
+And the best performing switchboard is actually a s- combination of five different systems, while we basically reach the same region of word error rate by using one single <unintelligible/> system.
+Ehm then, when it comes to the adaptation of the language models that was work performed on Czech.
+Where a Czech hybrid ASR system that was based on Kaldi was adapted to different domains and the adaptation was done on the language model.
+So the different domains that were used to the experiments were [ORGANIZATION15] speeches from the [ORGANIZATION15], c- speeches in Czech from the [ORGANIZATION10] and presentations on computational linguistics, conferences of the [ORGANIZATION12] in [LOCATION1] and Czech broadcast news.
+And in order to do the adaptation different types of adaptation data was collected like slides, papers, newspaper articles and key words that are later to the target domain.
+And the slides we will also finish futhermore with some results.
+And then finally, for the lifelong learning we had the preparatory work where we are eh, implemented this editor that allows um to -  
+If the video - would load - I guess I will replace the video with a just a couple of eh of pictures.
+So where we were able to eh, now have multi-user collaborative edits on transcriptions on translations of recordings of ehm, talks.
+And all different kinds of of spoken language translation se- sessions.
+And then we can exploit these edits in order to do a lifelong learning.
+So what is the outlook for the rest of the project.
+So we now ehm, aim at ehm coming up with encoding decoding encoder decoder plus attention ASR systems for all languages of [PROJECT2] to to be used at the [PROJECT2] framework.
+We will perform experiments in lifelong learning based on the user edits eh, with [ORGANIZATION14] that we got from the [ORGANIZATION14] editing platform.
+And we will do more experiments techniques on robustness towards languages, acce- accents, general conditions et cetera for the end-to-end speech recognition systems.
+And some of the things that I can also p- already promise for the next review, but they don't fall into the reporting period of this this review any more is some first recipes for lifelong learning based on eh, fine-tuning looking at different aspects of how how to do the fine-tuning.
+For different things like accents, domains, et cetera and I w- will also report on being able to reach human performance in English ASR in real time and low latency on a switchboard task.
+And with that I am open for your questions.
+(PERSON13) Ehm thank you.
+Thank you for the presentation.
+There was, yeah, very good results.
+The video.
+I think it would be very useful.
+But I don't think it is possible to eh, technically it should be possible to stream it through, eh, Zoom.
+But would you uh, uh, be able to uh, to pu- put it somewhere, and like share a link so that people can see -
+(PERSON24) I can I can also just put a picture in it.
+I mean it's not that static.
+(PERSON13) Yes.
+So maybe yeh.
+So maybe if you but I would be curious myself, uh.
+(PERSON24) Yeah I -
+(PERSON13) So, share internally and and put a picture into the into the slides that would be the best combination.
+(PERSON24) I mean the the video on here that's a link to YouTube, so you can just -
+(PERSON13) Oh, so then then simply put the YouTube Link to the slides.
+And and and and then maybe picture that's that's ideal.
+And also uhm, I would like to know more about this.
+Do we have -
+No, we don't have the the right person from eeh from our team here.
+But we have a plan for something which we call censorship, or uh, the eh eh, and the idea is that a live while they system is running.
+Uh, we'll have a module, which would be operated by human eh, to eh, to like eh on the spot fix eh, serious problems in the pipeline.And maybe your user interface is is the best fit for that is  -
+(PERSON24) We actually we we also have that in there.
+So ehm you can  -
+(PERSON13) Hm, em.
+(PERSON24) you can also use the interface to do life fixes.
+Um, at least on the display.
+So it's not really in the pipeline, but on the display side the interface can also do live fixes.
+(PERSON13) Can it be integrated with the [ORGANIZATION11] eh, platforms?
+(PERSON24) So it needs to be integrated at ehm, at an earlier levels.
+So this is all -
+(PERSON13) Yes.
+(PERSON24) This is all instrumented at the display level, but you would basically need to put it in somewhere in between the pipeline.
+(PERSON13) Yes, exactly.
+So that's like who would be the right person to talk to?
+And if you would allow for that.
+I think it would be very useful for the project to to s- start with your current setup eh, for this censorship, and integrate it earlier in the pipeline.
+So that uh, the other, so that the rest of the pipeline actually eeh, knows how to do this.
+So  -
+(PERSON24) I will -
+Oh, that's a good question.
+So we have a student working on that.
+(PERSON13) Hm, mm.
+(PERSON24) The problem is the student is actually employed at eh, at the companies of ours.
+(PERSON13) Um hm.
+(PERSON24) But we're using it in the [ORGANIZATION14] lecture translator.
+So I cannot take him basically to the [PROJECT2] the project to do -
+(PERSON13) Uh hm.
+(PERSON24) So we would have to find somebody who could look at it.
+I mean, if you already have somebody, you could also try that.
+(PERSON13) Eh, we don't have eh s- eh, we only had a plan.
+And we have one remote person, uh, who never was able to arrive to [LOCATION1] -
+(PERSON24) Okay.
+(PERSON13) eh eh and and who could get to this now. 
+(PERSON24) Bi- bi- 
+(PERSON13) So if if anything would be sharable -
+If it's - if it's -
+(PERSON24) Yeah.
+(PERSON13) if it's student work.
+If it's not like a as a closed source eh, something, which really has to remain close source, or if you could share it within the project, that would a-allow - 
+(PERSON24) the- yeah, the- the-editor so the base editor used actually is an open source editor, so - 
+(PERSON13) Uhm, hm.
+(PERSON24) so I can look up what editor this is based on.
+(PERSON13) Uhm, hm. 
+(PERSON24) And I mean, the website itself doesn't help you anyway any anything anyway because it's on the wrong it's at the wrong point in the processing pipeline.
+(PERSON13) Well the the web-based interafce is not a problem.
+We can have it earlier in the pipeline and still use some web-based interface so -
+(PERSON24) Yeah, basically so you can take the this web-based editor and you have to put it somewhere else.
+(PERSON13) Yeah, eh, exactly,.
+But we can u-
+(PERSON24) But -
+(PERSON13) we can use it as a web based either eh, but -
+(PERSON24) But it is a it is a web-based editor it's sort of a plug-in that was uh, that you can put into that we put into our website.
+(PERSON12) I think, maybe there is some some misunderstanding of the thing.
+The editor is directly integrated with our presentation platform.
+(PERSON24) Exactly.
+But you can you can also you know establish the [PROJECT2] as a stand alone thing and then integrate it somewhere else -
+(PERSON13) Yes
+(PERSON24) in the pipeline.
+So I'll - 
+I'll give you a link to the editor.
+So it is a -
+(PERSON13) Uhm hm.
+(PERSON24) source projects.
+And then you need to integrate it into something that you can put into the pipeline.
+(PERSON13) Yeah, and similarly, [ORGANIZATION11] has eh, an editor eeh, similar like that?
+[PERSON24] was sharing that some time ago.
+And eh, so so I think it it would be best, if like uh, you decide it you two eh, [ORGANIZATION14] and and [ORGANIZATION11].
+What is the easiest eh, eh way of of hm of putting this into the eh, [ORGANIZATION11] pipeline.
+Either er- relying or not on eh the editor from [ORGANIZATION14] or any component of that or the one from [PERSON24]?
+So that's -
+(PERSON24) Oh, well.
+We have first to discuss, exactly -
+(PERSON13) Uhm hm.
+(PERSON24) which is the the requirements.
+(PERSON13) Yeah.
+(PERSON24) If we need something to edit this subtitle before -
+(PERSON13) Yeah, yeah.
+(PERSON24) before publication -
+(PERSON13) So [PERSON24], yeah.
+[PERSON24], yeah.
+Let's move it outside of this call now, but please plan and schedule eh a meeting on this.
+So please eh, make us, eh eh, make make ts s- contact all of us and get us uh, to discuss these requirements, and the options in two weeks from now at the latest.
+So that we have enough time to put it on the on the pipeline somehow.
+(PERSON24) Yes -
+(PERSON24) Okay. 
+(PERSON24) Shall I shall I put now a bullet point on that into the Outlook?
+(PERSON13) Uh, s- well eh eh not int- yes into the Outlook yo- it's up to you.
+If depending on -
+(PERSON24) No, it's up to you <laugh/>
+(PERSON13) how complicated you want it.
+(PERSON24) if you want it
+(PERSON13) I would like to I would like to have this censorship eh, thing there, because I think it would be very important for the [ORGANIZATION8].
+Ah, at the same time, I don't want to make it a promise an explicit promise eh, for the reviewers, because it was not promised.
+So I would really like to have it, but keep it in the optional eeh status.
+If it fails for whatever reason that we don't have to apologize for that.
+(PERSON24) So then I don't put a bullet point.
+(PERSON13) Yeah, don't put a bullet point.
+But let's plan the meeting in two weeks time at the latest.
+Uh, and I will uh, invite the colleague that I have potentially for this but well, he is Persian and eh eh, his assignments were often eh translated from, or like reiterated from English into Persian by another colleague of mine.
+So it would be two more colleagues, and and he could do some work.
+But maybe you are already in better shape than eh, than I think like it's in terms of integration, I mean.
+Like the tools are working.
+But maybe you do not need this extra for the integration, because you can integrate it easily yourselves.
+So let's discuss this, in the next, in in the respective call.
+(PERSON13) Okay?
+So so [PERSON24], please, make sure that we we do this. <laugh/>
+(PERSON24) Okay.
+(PERSON13) Yeah, thank you, great.
+Okay, um um.
+So there were very few typos in in your slides,
+(PERSON24) Yeah, I know I still I still -
+(PERSON13) So if if you open, if you open the slides for editing I can try to - 
+(PERSON24) Oh you've you've - 
+(PERSON13) Eh.
+(PERSON24) You have editing rights, but I  -
+(PERSON13) I don't I don't.
+Eeeh so maybe put it to my uh, gmail account.
+[PERSON13] dot [PERSON13]  at gmail dot com.
+So for some reason, I was not allowed.
+I asked before.
+I had to click requests edit access.
+And now -
+Yeah, I I still have  view only.
+(PERSON24) So it's [PERSON13] dot [PERSON13]  at gmail?
+(PERSON13) Yeah, yeah.
+(PERSON24) Okay.
+(PERSON13) And otherwise, it's yeah it's packed with information.
+So um  -
+(PERSON24) Yes, I am -
+(PERSON13) Superficially it looks very good <laugh/>
+(PERSON24) <unintelligible/> that one point of the <unintelligible/> what I can do.
+(PERSON13) Yeah.
+(PERSON24) First need to put in your work as well.
+Question is, is there anything from [ORGANIZATION11] that I should put in?
+(PERSON24) [PERSON13]?
+(PERSON4) I wil -Let me <unintelligible/> say, but I do not think.
+I think that -
+(PERSON24) Because I can I can see I don't't think I saw anything in the eh, <unintelligible/> support.
+But I don't want to, you know, I do not want to overlook anything.
+(PERSON13) Yeah, okay.
+So thank you.
+And for the sake of time.
+Let's move on to work package eh, three, right?
+If there are no further questions.
+(PERSON1) Okay.
+(PERSON13) Yeah, great.
+Thank you, so please share the screen if it works. <laugh/>
+(PERSON1) I'll try and see.
+Share screen, eh, okay.
+(PERSON13) Yeah, perfect.
+(PERSON1) Does that work?
+(PERSON13) Yeah.
+(PERSON1) Let's go into presentation. 
+Okay you see the typical screen version and - 
+(PERSON13) Yes, yes
+(PERSON1) grey stuff.
+(PERSON13) Yes.
+(PERSON1) Oh Hi, ehm, okay, so I'm [PERSON1] and I'm presenting the <cough/> work package three spoken language translation. 
+Okay, so spoken language translation is essentially it's the bit that joins the ASR and MT together.
+So eh, it's about how we get um, say the noisy output from MT from ASR which is is a spoken style into something resembling subtitles.
+So essentially, we have two different models for doing this.
+Uh, the first is is the one, we're mainly using in production, which is the pipeline model.
+Where ca- we connect together essentially three different systems.
+Eh we have an ASR system to make the transcripts.
+And then we have a componental module which basically ties up the transcript, makes it more suitable for machine translation.
+And then we have the machine translation component.
+We've also been invent- em experimenting with the end-to-end systems where the goal of that is essentially to have one system that takes in the audio and produces the ouput text.
+So with that sort of split in mind -
+Eh, yeah.
+So the way we put together the work package.
+We thought of that as three different tasks.
+So the first task is sort of <unintelligible/> ASR ouput  you assume a pipeline system.
+We take the ASR output and we try to make it more suitable for machine translation.
+The second task is sort of coming in the other direction, where we take the the machine translation system and try to make it more try to try to make it better cope with ASR output.
+And third task is way you can edit <unintelligible/> together, and just try to do things from it in an end- to- end fashion.
+So that is just the structure.
+This talk is based on the zoom through the different bits of research that we've done in this work package.
+Ehm, em and in terms of their connection with the tasks, what we what we have actually done.
+This is the way we wrote proposal that there is there is quite a lot of tasks that are connected with this idea of how we take online ASR and first to build an MT system that cope with that.
+And secondly, try to build on it online SLT system.
+So we put it that in into three point two, because it is basically about how we convert the MT system to make it deal with the ASR.
+So with that said ehm - 
+The first first thing to mention is segmentation <cough/>
+So segmentation is the bit - it it's not just segmentation.
+It's the bit that goes between the ASR and the MT in a life system.
+And the typical jobs it has to do are things like the normalization, removal of disfluencies, addition of punctuation, dealing with cases and splitting into sentences.
+So we have essentially two segmenters.
+Um, they are both roughly speaking sequence-to-sequence models.
+Um, the reason we have two is that, um, we started off with the [ORGANIZATION14] segmenter.
+We found that it was kind of tied to to the [ORGANIZATION14]'s ASR.
+So at at [ORGANIZATION2] we started with an another segmentation effort.
+Um, because we're also building ehm, building ASR at [ORGANIZATION2].
+Um, so these are these are fairly simple models, which eh, use sequence-to-sequence models and some rules to produce more like <unintelligible/> output.
+Ehm, oh, yeah.
+So <cough/>
+I mentioned at the start that the ASR's online.
+So this is an example of the the output of ASR.
+Um we basically just co- <unintelligible/> again these updates and the updates to to do one of two things.
+Either the it's -
+Well, yeah, the the updates either extend ehm the hypothesis, or they rewrite part of the hypothesis.
+And you see, you know, if you look at the last update you can get changes to the segmentation.
+So the ASR is delivered incrementally what we do with the SLT.
+So when we think about how to develop the SLT, the first one of the first things we thought about is, how do we actually evaluate it.
+Ehm, the tradit-traditionally, you know, you evaluate you evaluate MT using BLEU score on sentences.
+This doesn't quite work for the SLT because you have got other things to think about.
+And really they fall into three different that the three different things we wish to evaluate.
+The first thing is the latency.
+So - eh, the latency becomes a bit tricky.
+When you try, let let us think about a system level that we just think of the MT level, you are looking at the delay between receiving that from ASR and producing the translation.
+<other_noise/>
+Ehm, so there are questions about how to how to actually evaluate that.
+I mean how do I actually link the ASR ouput with the translation of that output.
+And then the second thing, which is maybe not obvious is the idea of a flicker.
+So if you're if your ASR is rewriting and extending and you're constantly translating, then you your MT will start rewriting and and reordering and so on.
+So if you just open up <unintelligible/> you get this flicker with things move around on the screen.
+Um, so you can measure that using something like edit-distance.
+And the last thing is also the quality.
+Ehm, so it's it's evaluated with, you know, we all know how to evaluate the MT quality.
+Um, we use one of the automatic metrix.
+Ehm the difficulty with ASR output with all the <unintelligible/> spoken language is a thing about the segmentation.
+Uhm, and then you have this thing - you have got this extending going on.
+How do we - how do we evaluate that, and what we do is we just evaluate full sentences.
+So thinking about the evaluation we looked around.
+And there is not really any good tools to to do this evaluation.
+So this is something we have been working on.
+We have this thing called LST sorry SLTF which is an open source evaluation tool.
+The idea is for it to be like the sacreBLUE of ehm SLT.
+So uh, we we have a few different versions of different metrix that have been suggested.
+Um, it delegates a sacreBLEU for for evaluation of MT.
+But we have um within SLTF we have evaluations of of the latency and flicker along with the different variants.
+Um, so this was used in IWSLT shared task eh, this year.
+Um, also in the IWSLT shared task we participated as [PROJECT2].
+Um, and this give us the opportunity to to try the different tools that we can creating for doing ASR and MT and connect them together.
+So we took I think seven different ASR systems, including online ones, and offline ones.
+And various different combinations of MT systems, and try them all together to choose the best one in a sort of competitive framework.
+And then submitted is as the [PROJECT2] system for this non-native SLT task and not only was it not native speech, but it had an online aspects.
+Um and so we had to submit the the time stamps for for our eh, translation.
+And these were judged by the SLTF tool.
+So the conclusions from that task were that non-native speech recognition that's a really hard.
+Um, so the ASR forms did not form very well, for for many reasons, um.
+So the end the pipeline you know, you are getting BLEU score about five.
+So it is not really very good.
+Um, it also fell back into the -
+Through the task we learn to a bit about the evaluation tool and how it worked to evaluate feedback into it's development.
+Um, so moving on to -
+We've been talking about online SLT ehm, so the way we think about this is there's kind of roughly two different methods for doing online SLT.
+Um, <cough/> when you've got an online ASR.
+The first method, which is the one we use in <unintelligible/> is called the retranslation method.
+And in this method we we saw the MT is more the more the receiver.
+Um, so ASR pushes messages to MT.
+There's two different types of messages <cough/>.
+Either the ASR extensive stable region.
+So it says, oh you know, this transcription I gave you.
+I'm not gonna change that that is unstable.
+Or it rewrites the unstable region.
+So the unstable region is the bit that may change.
+And it can either ex- get extended, or it can get altered.
+And retranslation approach is really simple.
+It's just like every time, the ASR updates the unstable region the MT translates.
+It doesn't retranslate everything.
+Full sentences are considered complete once are stable so they're they aren't retranslated.
+But I mean, typically, you can have two to three sentences in the unstable region, and they're constantly get retranslated.
+The other option is is the streaming option.
+And this one is sort of CMT as being in control and the MT has two actions.
+Either it can it can wait for more input from the ASR or it can translate and send to user.
+Um, uh, this works a bit differently, because it requires some kind of modified inference and some kind of learning.
+So the MT can learn when to ehm when to retranslate.
+Sorry when to when to translate and when to wait.
+Ehm, so we use retranslation approach 'cause that is really simple.
+We can use that with that standard MT tool [ORGANIZATION14], um with a very simple wrapper, um.
+And at the moment, we don't um, we consider flicker to be quite bad.
+Ehm especially if the if the translation isn't very good.
+Then it has flicker a lot.
+So the actual current production rate of the ASR stabilized <unintelligible/>.
+Ehm, so a couple of things that we can do to improve the retranslation approach.
+The first thing is that ehm if the if the MT system doesn't see prefixes as an ehm, incomplete sentences in training.
+It doesn't do very well.
+So training that prefixes does help.
+And the nice thing is you do not have to mess about the aligners to produce the prefix d- you ju- just truncate.
+I'm <unintelligible/> these in training.
+Makes it slightly worsen full sentences but it makes it better on prefixes.
+The other thing we do, which is a simple idea, ehm, from a paper by Arivazhagan is is masking.
+<cough/>
+Where basically you don't, you just mask the last key words of the outputs.
+You translate, but you don't send the whole translation you mask the last keywords.
+So that's kind of a blind test meant very simple.
+Eh, but one thing we thought about is can we improve on that?
+Ehm, so we improve by doing something called dynamic masking.
+So if you use a fix mask, you end up with quite a lot of latency.
+I mean in the fix mask it's is shown in a red dotted line in this graph.
+So the graph is showing the latency against the um, the flicker.
+Um, and the way we did dynamic mask, is we try to look look at the translation and predict how how stable it is.
+And we do this by basically extending.
+So we get the source of the from the ASR and we try different extensions of the source.
+We just basically predict what the next source word might be.
+And then try translating them.
+And if we see lot of instability in those translations, then we use a long mask.
+And if we don't see much instability.
+We try try various extensions and use the same thing that we do not alter the mask very much.
+And that gives us a better ehm latency flicker tradeoff.
+So that was work we published at AMSA.
+Um, the next thing is again addressing the latency.
+Basically latency quality trade-off is -
+And this is going to the streaming approach.
+Um, where we we we ex- exploit a a thing called adaptive computation time, which was reduced introduced a few years ago.
+Um and the idea is that worsening code of encoder decoder networks.
+And the essential idea is the decoder.
+So you have the encoder, which takes the input and encodes it, but the decoder has basically two options.
+It can either ponder, so it can wait for more encoder steps.
+Or it can it can produce output.
+We showed this working for essentially machine translation on unsegmented ASR output.
+But our plan is to make this work work for end-to end SLT on completely unsegmented audio.
+So that don't we can do the segmentation as well in the whole pipeline.
+Ehm, okay.
+So this is moving on to thinking about, um, how do we do with the noise in ASR.
+Um so, the noise -
+Sorry.
+The re- MT can suffer, because is essentially trai- a mismatch between training and inference.
+So the training data is using very clean <unintelligible/> transcripts or basically clean text.
+Ehm a test time, or or inference time, we are using noisy output of speech recognition.
+So how do you deal with that?
+Well, oa- one way we've looked at is ehm, to try to model the noise.
+So the method is basically to run some data through ASR and look at the errors.
+And then we build a model for creating artificial noise.
+Ehm, and artifical noise basically consists of things like ehm adding <unintelligible/> function words, changing function words, changing verb tenses, pluralizing, depluralizing.
+And then a bunch of ehm, let's say acoustic confusion trying to find words and sounds like sound like so inject them to the MT training data and retrain.<cough/>
+So that gives us a consistent improvement.
+We did some experiments with English to Chinese.
+Ehm, it gives some consistent improvement on the when you're translating ASR output, but not when you're translating gold transcripts, which is what we expect to happen.
+Um, when looking in more details, it's bit a harder to link that to the to the noise models.
+So r- sort of suspecting that there is also regularization going on when injecting this noise, which may be causing the game.
+We are not really sure.
+Um, related to that is another ehm, piece of work we did where instead of instead of translating directly from the audio.
+Sorry it - it's like pipeline approach.
+In the pipeline approach we go from the audio basically to the written text.
+The graphemes, if you like, to add them to the translation.
+But what if you go from the audio to the phonemes.
+So you don't actually go to fill speech represent- eh full writen representation.
+And then you add them to do the translation.
+That could help with the robustness.
+I think it could because you sort - you sort of preserving the different interpretations of those phonemes rather than committing to some written form.
+Ehm, and it could definitelly help if you have a that a language s-ah- transliteration that may well have help with the entities.
+We haven't tested that yet.
+Ehm, we have some results for English to Czech.
+And what it showing is that in this second part of the table with the ASR source source when we use phonemes as the intermediate representation we get some improvements.
+Only at the long, the lower the the larger beam sizes.
+But we get no real difference when we have got a clean beam and that which is kind of what we expect.
+Ehm, so that brings us forward into end-to-end translation.
+Um, where yeah, the idea is, the goal is basically have to take the input and then the output audio and produce a direct eh, trans- translation.
+So what the advantages of that.
+I think that the main sort of ideas that is gonna be a much simpler model.
+You know, we don't have to have to have this complicated deployment pipeline.
+We can have one model, which does the ASR segmentation the MT.
+Eh, connected with that is is is the notion that it should improve the coupling.
+The ASR and the MT should work together, because they train together.
+And it it gives us should give some more efficient inference and make it and should make it simpler to do this online SLT which we are trying to do.
+Um, one of the big problems that has end to end SLT faced is the is the lack of end to end data.
+So basically, you need, say, you need like English audio paired with ehm Czech eh, translations ehm, and there's limited amount of this.
+Ehm, whereas if you want English audio put- if you want to build pipelines system, you have very large amount of English training data.
+And for a translation sets we have a lot of English to Czech translation.
+So the the techniques that we're using is things like um transfer learning system, kind of pre-training some kind of multitask training.
+And we have been developing certain architecture improvements, which help with the get over the <unintelligible/> issue.
+Ehm, so on the end to end translation system.
+One of the claims for end to end translation is this this kind of robustness.
+So it should be more resistant to noise.
+So we set out to examine this.
+So I'm going to explain this this this this graph.
+Ehm, we experimented with English to Spanish on end to end translation.
+Ehm, and what we did was, we added increasing decreasing noise to the inference data.
+And that is what the X- axis represents.
+It goes from raw as a no noise to very noisy input.
+And it shows blue on the Y-axis.
+And the pairs of lines are showing an end to end system and a pipeline system.
+So that, for example, the blue solid line and the blue dotted line, both show paired end to end systems and pipeline systems.
+And the different colours represents the different training conditions, we actually injected the noise during training to try different conditions.
+What we see from this is, there isn't really any evidence that the end to end system is more robust.
+Essentially the blue th- the dotted lines and the solid lines are essentially parallel as far as you can see.
+So there isn't strong evidence from here that we are getting more robustness.
+Um, this is this is essentially one one language per one one noise injection.
+Um, but yeah, we don't see any evidence at the moment.
+Further work that we've done on end to end translation has come from this idea that speech signals very data sparse.
+So you, you know, the important parts of containing quite small sections.
+Um, so how do we exploit this.
+The idea is to learn feature selector before we learn the translation.
+<unintelligible/> have this work.
+Ehm, so the method is as appear in the in the enumeration.
+We first we train the ASR encoder um.
+That were trained as our system, which includes ASR encoder.
+And then we have another phase where we learn this feature selector.
+Um, and feature selector that we use is this is the <unintelligible/> cell zero drop, which is up, um, which encourages sparcity, using this L zero-based objective.
+Um, and then we trained the SLT with these just with these selected features, instead of using a full output from ASR encoder.
+And that get rid gets rid an awful lot of the ehm, ASR input and gives us some improvement on Bleu analysis and speed up.
+Like one, let's say one four percent speed up in an inference time.
+I'm showing here results of linguistic German.
+But we actually have pretty similar results across the whole of the massy data sets.
+Um, so that's where we are.
+Ehm, okay. 
+So, may- I'm talking on problems here.
+Ehm, <cough/>
+We have this we still have this flicker latency trade-off pro- problem.
+What we've done that these to date to make it useful make it good for users is to remove flicker altogether.
+That gives a large latency.
+Ehm, I I think possibly if that systems were stronger then flicker wouldn't be such a problem.
+Um, we also find that if if the ASR degrades in the MT MT quality dropped quite rapidly.
+You know, for example, get per per- per acoustics and the MTs becomes very poor.
+But also, we have the wrong segmentation.
+Um, that makes it very difficult for the MT to cope was very difficult thing for the MT to cope with.
+Also the - and this connects a bit with work package five.
+And and also with the <unintelligible/> the ideal flicker.
+You you got this notion of cognitive load, if the transcripts are not and the translations are not that good or they're too long and they're flickering, all these things make it very difficult for the user to read.So we're still kind of optimistic that e- end to end SLT was can adress some of these problems.
+You know, for example, dealing with un-segmented audio.
+Uhm, coming about online SLT it does not work much better than that so far.
+And also the notion to try to do to summarization of the same time to make maybe one big model can do everything.
+Um, okay.Thank you.
+That's the end of my presentation.
+(PERSON13) Great, thanks.
+So I think it was all clear.
+I don't have any questions.
+(PERSON1) It's probably a bit fast, was it?
+(PERSON13) Uuuh, we started late, and we are a little bit late.
+I think it's it's okay.
+(PERSON1) It's okay.
+(PERSON1) Okay.
+(PERSON13) So I wouldn't worry.
+(PERSON1) I mean, one thing I didn't do maybe is just to link everything back to the tasks.
+It was more or like -
+(PERSON13) Yeah, that would be that would be useful.
+(PERSON1) I don't know.
+Yeah?
+(PERSON13) Eh, so maybe maybe whenever you start a a new result, just mention -
+(PERSON1) Yeah
+(PERSON1) And we put this result primarily into task - 
+And and which task.
+There would -
+Yeah.
+(PERSON1) Yeah?
+(PERSON10) Maybe you miss an conclusion that we are wor- working well, and we have no deviations from a plan.
+(PERSON1) Yeah,  I think I - my conclusion was about -
+My conclusion was about problems rather than - yeah.
+We are doing great, though, let's tell the other staff to do.
+(PERSON10) Yeah.
+(PERSON13) I had this idea in in one of the the cases when you were talking about the the problems assured that there was SLTF and the five black points in the IWSLT shared task.
+And there, I would just say that, yes, the the starting position is very bad, but we are optimistic that we can do something about it.
+(PERSON1) Uhm, hm.
+(PERSON13) So eh
+(PERSON1) <typing/>
+Yeah.
+(PERSON13) So that the final word words remain optimistic.<laugh/>
+(PERSON1) And yeah - 
+(PERSON13) I mean, there is there is good reason to to think that we can do better.
+(PERSON1) Yeah, I mean, how good was the data set for that task is that -
+(PERSON13) It was very hard.
+It was very very hard, but realistic like if you -
+(PERSON1) Ehm, okay.
+(PERSON13) Eh eh -
+(PERSON1) Okay
+(PERSON13) So one of the uh, sessions, for example, for the [ORGANIZATION9] session <cough/> that was a meeting where the main speaker was speaking via well remote conferencing tool.
+So there was eh eh unexpected -
+(PERSON1) Mhm.
+(PERSON13) different audio settings.
+And that can very easily happen in- like immediately, if you uh, if you have to switch to a to a online meeting, instead of  -
+(PERSON1) Yeah
+(PERSON13) eh, eh in personal.
+So the system should be kind of ready for this setting, obviously was, eh not to day, not our system.
+But -
+(PERSON1) Yeah, I mean, one of the things that [PERSON10] had on the slide.
+I don't think I concluded that was that you know the what we didn't do anything special for the five.
+It was non-native speech.
+(PERSON13) That's right, yeah.
+(PERSON1) There was the development data.
+(PERSON13) Yeah. We didn't do anything special, that's true.
+Well, it it highlights the problem.
+And the problem is very important.
+(PERSON1) Mm-hm.
+(PERSON13) So we can use the same data set to evaluate eh eh, the further models.
+So eh, getting reasonable per- performance on this would really move us eh, eh in overall performance.
+(PERSON1) Um-hum um-hum.
+(PERSON13) Yeh, so conclusion eh, a would be eh, good and linking to the task would be good.
+But otherwise think it's it's all eh eh - 
+(PERSON1) I mean, what's the best way to linking the tasks?
+And no wonder that in too much.
+I could - I think I'm -
+(PERSON13) Oh I would just put -
+I  I can have a <unintelligible/>
+(PERSON13) eh, or brackets at the end of the title of each of the starting slides.
+So whenever you have new topic.
+Then you would say, at the end of that open brackets eh eh some -
+(PERSON1) Uhm, hm.
+(PERSON13) like a wave s-symbol like tilda or eh eh or sym in maths.
+And then ti- eh eh three point something.
+(PERSON1) Okay, I add to the titles of the slides.
+Okay that's straight forward, yeah.
+<typing/>
+(PERSON13) Okay, so if we're all ehh fine with this.
+Then let's move to [PERSON10].
+Right?
+Thank you very much.
+(PERSON1) Okay, thank you.
+(PERSON13) And [PERSON10] can start sharing.
+<typing/>, <other_noise/>
+(PERSON10) Can you hear me? 
+Do I speak?
+(PERSON13) Yes.
+(PERSON10) Okay,great.
+(PERSON13) Yes, that works as well.
+(PERSON10) Yeah
+(PERSON13) So there is some green window around there green rectangle, but -
+(PERSON10) Is there a full slide?
+(PERSON13) The slide is full but still, there is some extra green rectangle around that but  -
+(PERSON10) Ahhh <unintelligible/> 
+I stop sharing and start again.
+I don't know how to share the entire screen so I could this is -
+(PERSON13) Uhm hm.
+Yeah, it is -
+(PERSON10) Yeah, so twenty five minutes?
+(PERSON24) <unintelligible/>
+<other_noise/>
+(PERSON13) Yeas, please go ahead.
+(PERSON10) So, hello, my name is [PERSON10] and I'm presenting the work package on ma- multilingual machine translation.
+This is the work package overview.
+The leader is [ORGANIZATION2] and the participant- paticipating partners are also [ORGANIZATION7]  and [ORGANIZATION14].
+This is the task overview we have to provide.
+So the first task is the baseline models.
+It was scheduled for the first six months of the project.
+And the the objective was to provide the machine translation system between all fourty three [ORGANIZATION5] languages for the needs of [ORGANIZATION5].
+And also as as a baseline for future research.
+And it was planned for the first six months of the project until the [ORGANIZATION8] which was pos- but the the [ORGANIZATION8] was postponed so also the need of the of the model is postponed.
+And so far we cover hundred percent of the language pairs by either bilingual or my- multilingual models are piloting.
+(PERSON13) Eh, I would be coussious about the experimental [ORGANIZATION5] lanugages because I think we still use the English to thirty six and not English to fourty three, right?
+(PERSON10) But we have a model which have which has -
+(PERSON13) Okay
+(PERSON10) which is English to fourty three, fourty three.
+(PERSON13) So we have Moldauan and  Montenegran, right?
+(PERSON10) If [PERSON8] can confirm, I have -
+(PERSON13) <laugh/>
+(PERSON12) I think we are actually missing one or two languages still.
+Even in bigger - 
+(PERSON13) Yeah.
+(PERSON12) models yeah, I think Montenegran, is one on eh.
+I don't remeber which others.
+So we don't don't quite have a hundred percent - 
+(PERSON13) Yeah.
+(PERSON12) close.
+(PERSON13) So [PERSON8], could you could you please check and fix this slide.
+It's the the link is in the agenda.
+(PERSON12) Okay.
+Yeah, will do.
+(PERSON13) Thank you.
+(PERSON10) And so fo-
+(PERSON13) And the red color - [PERSON10] sorry was that eh eh, it should be there or -
+(PERSON10) The the slide is the same as in the last review, but except of the red colour. 
+So here was eighty seven percent last year.
+(PERSON13) Uhm,hm.
+(PERSON10) And this year it is almost hundred percent.
+Yeah and here the the bold bold languages are those that we have covered and the non- bold are the those that we didn'didn't have covered last year.
+Yeah, so the current state of baseline models is that we have bilingual models for some high research language pairs and multilingual for the others.
+And we we use pivoting through English.
+So we can cover all the languages.
+And in [PROJECT2] IWSLT submission we we compared the this multilingual model and we selected it as as the best candidate for English to German.
+So actually the gap between multilingual and bilingual for for pivoting is being narrowed by research.
+And it's possible that in future we don't we won't need bilingual models.
+And we would and the [ORGANIZATION12] will be okay with with multilingual.
+So the next task is document-level machine translation.
+It's a research task which is scheduled for the all- whole three years of the project.
+In last year we had we had several publications, but we have already reviewed them so I exlude them.
+And this year we have we have testsuite on [ORGANIZATION12] documents at WMT twenty.
+It's still under review.
+And I have to finish this slides in the afternoon.
+Next next task is Multi-target MT.
+Again we had some publications last year.
+And the new publication is improving massively is on improving massively in multilingual machine translation.
+Because multilingual NMT is convenient, because it has there has to be be only one neural network which serves many languages at ones.
+And so it's convenient to deploy it.
+But it can underperform.
+And the other works investigated increasing capacity and language specific components.
+But in this work the authors propose random online back translation for improving quality on zero-shot language pairs.
+They tested it on massive scale on ten thousand language pairs, on OPUS one hundered.
+And they narrowed the gap on zero-shots compared to pivot-based translation from seven BLEU points to one BLEU.
+This paper was published at this year ACL.
+Yeah, then we have [PERSON23]'s thesis.
+Also this slide has to be finished in the afternoon.
+The multi-source machine translation has been scheduled for this year.
+We have just sta- started.
+We have an initial multi-source experiments.
+And we observed worse ex- performance than one source.
+Probably on- probably because of the data.
+Therefore, we we're are focusing on preparing the multi-parallel Europen speech and interpretation corpus which was already described by [PERSON8] in in work package one.
+And and the idea is that the original ASR and parallel interpreters ASR may have complementary errors.
+And therefore we may use Multi-source for quality enhancements of the ASR and translations.
+And also we may find other applications of of this corpus.
+And we we plan more work.
+Yeah, the flexible, multi-lingual machine translation, is scheduled for next year, and it hasn't started yet.
+But already the multi-target models which we have they are flexible in selection of the target. 
+And they yeah -
+And they yeah, they can be used with any of of the with any language of the set of of source language, not only with one. 
+So to conclude, this work package.
+We have the baselines, either bilingual, multilingual and with pivoting we cover all the language directions.
+And we are ready for a [ORGANIZATION5] congress next year.
+The next next two task are the document-level translation and multi-target <unintelligible/> research task.
+In last year we had six publications.
+This this year we have one published paper and ISL.
+One is under review.
+And we have one master thesis.
+The task on multi-source machine translation has just started and the flexible the task on flexible multilingual machine translation has not started yet as as was proposed. 
+In the plan for so in the end we have no major devations from the plan.
+Thank you.
+(PERSON13) Yeah, so this was much shorter.
+You have like fifteen minutes extra eeh so feel free to provide details on some on some of these eeh, papers.
+I know that some were not ready yet.
+But  -
+S- so was there anything underrepresented f- uuh, from our partners?
+Would would you like anything more highlighted?
+Or - was this okay?
+Yeah, I assume it was okay.
+We will -
+I'll double check again if if we can provide more details on the [ORGANIZATION7]  experiment, and I obviously make sure eeh to have our work there for example the thesis by [PERSON23] covered well.
+(PERSON10) Yes, yes definitely.
+(PERSON13) Yeah, okay, so if there is there no questions and recommendations..
+Let's hope that the reviewers won't have too many recommendations eeh, later on.
+(PERSON12) I mean, I think everything's covered in this.
+Reputation isn't there - it's just -
+(PERSON13) Yeah, it is.
+<laugh/>
+(PERSON12) Eh uhm yeah.
+You know, we could put in more details, but I'm not sure where where the right place to put them in is.
+(PERSON1) Yeah and ehm you also skipped over some eh, the works that had been previously reported.
+(PERSON13) Yes.Yes - it act-
+(PERSON1) I don't not think I don't think it would hurt to cover that again?
+(PERSON12) Oh
+(PERSON13) Yes, yes exactly.
+I think it would be good to cover it again.
+So you have the slides there.
+Uh, do not assume that the reviewers will remember something from twelve months ago.
+(PERSON10) Okay.
+(PERSON12) It's it's an eighteen months review so we should cover actually the work from eighteen months.
+(PERSON13) Yes, yes, exactly.
+(PERSON12) <unintelligible/>
+(PERSON10) Okay.
+(PERSON13) So say that eeh, it's okay to mention that we have already presented this in the in the nine month review, but eeeh, well because we are covering the whole uh, eighteen months, eh, eh let's repeat it.
+(PERSON10) Okay.
+(PERSON13) And that way, I think we can easily get to the uh, to the needed time.
+(PERSON10) Yes.
+(PERSON12) Otherwise you get fifteen mintes of questions.
+(PERSON13) Yeah, exactly. <laugh/> <laugh/>
+Okay, so let's move on -
+Thanks for the other tips and [PERSON10] please work on that and we' ll have a look at that later in the afternoon, once you have the all the missing slides ready.
+And let's move on to eh the other work package eeh the next one, which is work package five.
+And that eh I don't if it will be presented by [PERSON12] or [PERSON14] how you agreed in last few moments.
+So whoever is -
+(PERSON9) It will be presented by [PERSON14] finally.
+(PERSON13) By [PERSON14], okay.
+Yeah.
+So we have another team member, [PERSON14] Sink.
+Eh she's still located remotely, uh, and she hopefully she will be able to apply for Czech visa eh eh or has come to [LOCATION1] to help us with minuting.
+So [PERSON14]?
+Does it work?
+(PERSON15) <unintelligible/>
+Can you hear us well?
+I can hear something very quiet, but I don't understand.
+(PERSON13) No, it's far from optimal, but <laugh/>  if you can put the microphone closer to your mouth that might help.
+(PERSON15) Yes.
+(PERSON13) And also thinking of uh, the uh, the connection.
+So now with Zoom it seems that we are lucky that it works.
+But eh tomorrow it will be a different platform, eh the Webex platform.
+And I think it would be still good to have a substitute speaker in case you eeh, face like bad connection eeh issues, because that can easily eh, happen, I'm afraid.
+So eh, well, [PERSON12] please be ready to to step in, in case eh, the eh, the connection eeh, fails from from India.
+(PERSON15) So, may- I'm more audible now?
+Is eh is - 
+(PERSON13) Yes, it is it is acceptable.
+(PERSON15) Is it -
+(PERSON13) It is acceptable. I'll I'll make it louder for myself, and hopefully we'll understand.
+So start sharing your screen.
+If that works.
+Yes.
+That is good.
+(PERSON15) Yes.
+Eh, so, okay.
+So So OK so.
+Here I'm going to present minuting module.
+And eh, so we we have the, we have the automatic minuting task structure and eh, so we have the different modules for that.
+So the input which we have to subtask of the minuting medium.
+The very first subtask is the segmentation of the minuting transcripts.
+<unintelligible/> the text into segments and m- that would be couple of long sentences.
+And important thing here is to keep the semantically related phrases eh, in each segment.
+And next we have the segment level summarization.
+It's just kind of the sentence compression process.
+And the third task is a transcript summarization which is the which is the generation of the overall ehm, minutes of the meeting.
+And -
+(PERSON13) Yes - 
+(PERSON15) Here we aim to identify and collect the conclusion and the and the <unintelligible/> phrases only.
+(PERSON13) Can I interrupt you?
+Sorry, is that already on the slide somewhere, because I -
+(PERSON15) Yeah.
+(PERSON13) then you're sharing then your screen is is sharing the wrong eeh, the wrong screen so to say.
+Because I only saw the title slide eh, and -
+(PERSON15) Yes.
+(PERSON13) and the Adobe Acrobat user interface and not the -
+So if if there should be a slide on this, eeh with listing the tasks and then your talk to that, eh, but I didn't see the slide.
+So -
+(PERSON15) Yeah.
+So yes, I'm <unintelligible/> to that slide just now.
+And,so this is a <unintelligible/> part which is already covered.
+<unintelligible/>
+And do this is a minuting task structure.
+We have this segmentation <unintelligible/> strapped to be sent me to shoot us trying.
+The task is to split the sentences to segments.
+And that would be couple of sentences long.
+And so the main task is to automatically eh eh capture the couple of sentences of related phrases in each segment.
+And then to make this segment level summaries of each segment of the phrases.
+And then to eh generate the dialogue summaries for each of the generated phrases.
+And the last is topic matching.
+So let me just represent of all of them one by one.
+And so this is a this is the eh, eh, this is a <unintelligible/> schematically <unintelligible/>
+(PERSON13) S-Sorry, [PERSON14] you came very quiet again.
+(PERSON10) Yeah, exactly-
+(PERSON12) You were louder earlier.
+(PERSON13) Yes.
+(PERSON15) Okay, okay.
+Is it is it better now?
+(PERSON13) Somewhat better.
+But it was better eh, before.
+And also eh, make make the presentation full screen.
+Control el or ef five.
+Control el is typically.
+Control el, just click control el.
+(PERSON15) Eh, just a second.
+(PERSON13) Yes.
+(PERSON12) Yes that's better.
+(PERSON15) Yeah, is it ehm am I audible now?
+(PERSON13) Stil too quiet.
+<other_noise/>
+(PERSON15) Oh, okay
+(PERSON13) But it was better, when you were it was <unintelligible/> closer to the mic.
+(PERSON15) Is it better now?
+<other_noise/>
+(PERSON13) Yes, yes.
+(PERSON15) Yes, okay.
+So eh, I was describing the minuting module and eh, so talking about the the systematic view of it.
+Eh, so the very first eh is the is the input and eh in the input we have the dialogue transcripts and the empty agenda, which eh, which is the whole which is a whole minuting transcript and the predefined agenda with its topics.
+The dialogue transcript eh is probably messy and in the sense that it comes as an outcome from the ASR module.
+And there're probably lot of noises into it and so eh, we do we probably clean that first.
+And so the predefined agenda is the list of topics that are discussed and it may happen that certain topics of the agenda are not discussed at all.
+And other topics enlisted in the agenda may - may also be discussed and present in the transcript.
+So we have to be prepared in all the cases.
+And ehm so the the input is containing this dialogue transcript and empty agenda, and as similar to that output we have the dialogue minutes and the and the filled agenda which is eh, which is the ASR output.
+And the primary objective is the, is the minutes after entire transcript.
+So we want to have the filled agenda with the minutes as with the minute sentences matched to the corresponding agenda topics.
+And so ehm, so the shot- cutting scheme eh, which we have used there.
+So instead of the the text segmentation - 
+So because when we get the out- when we get the output from the dialogue transcripts from the ASR module eh, we eh, we have all the we have to pre-process that data.So we, we will be needing that all the removing all unnecessary staff in tokenization and all that.
+So eh, what we have eh, what we have  done is, we have shortcut eh, the the scheme, and we have print the dialogue transcript we have directly eh moduled dialogue summarisation by eh, taking  eh, the transfer learning approach using that transforming model trained with the CNN and Daily media samples.
+And tested that on AMIT data set that we adapted.
+And eh, of course, the results were terrible that we had very low Roche score and eh, also very messy summaries .
+But eh, then here so ehm, I will I will share the results at the end of this.
+And eh so the the minuting module, which is it the first module, which is the text segmentation.
+Here we have the first subtask text segmentation of the whole transcript.
+Eh, before we start with the segmentation we actually perform the text cleaning steps like tokenization removal of messy <unintelligible/>
+The goal is actually to <unintelligible/> the braking this spoken language text into segments, which are couple of consecutive eh, sentences.
+And eh, of course we have to take care of grammatical correctness of the produced segments.
+Eh, so we need an intelligent solution that resolves the grammatical correctness along with removing all the unnecessary eh elements from it, from the transcript.
+And,mm, the second module is segment summarization.
+And ehm, eh, the - in- in segment summarization eh, we eh took the segments of the summarized eh- of the summarized phrases.
+And this is technically sentence compression.
+Eventhough we eh we have several several sentences in each cluster and then we performed this dialogue summarization where we have one eeh, eeh, one s- one approach without the DNNs.
+And one we have with DNNs with the transformed model.
+So this is the eh, pilot experiment which was performed with the extracted summarization approach.
+So we had ehm, manual meeting minutes we pre-processed it <unintelligible/>
+So all of the words in the minute minutes were tagged with the part of speech <unintelligible/>
+And those were tokenized.
+And they were TDID scores.
+But only for the nouns and words.
+And then we are using using all those TDID scores there were eh, sentence scores so all the ehm all the word scores we combined with the sentences scores.
+And the most important sentence were chosen based on the information retention of ehm the summari-summarization we need.
+And, eh, that's how we got the summarize minutes.
+And these were the results from that meeting eh, eh so from the experiment we did.
+So eh, this is a meeting minutes from [PROJECT1] project.
+And this is the this is the candidate summary.
+Eh, so we had this eh, mm, as an output, which is, which is really not good.
+"When [ORGANIZATION1] I went on [ORGANIZATION1]"
+This is not making any sense too.
+But this is the output from the extracted summarization.
+And eh, this is the reference summary [ORGANIZATION1] people capacity, which is fifteen people .
+And this is a Rouge score for <unintelligible/> the ef and the pricism and the recall.
+And eh, the summary is eh Rouge eh which is zero point zero for <unintelligible/> and the pricism be zero point one.
+And the recall to be zero point eh three two.
+And the BLEU score came up to be seventy point four percent.
+And eh so probably by these extracted results we eh we adopted the extractive summarization approach, where we used eh the transformer model and eh eh transformer model to grade the results.
+And eh, I have the results that as well, for the transformer model.
+So these're the results for the transformer model.
+And eh, this is the this is ROUGE score for it.
+Ehm, and this is the reference sentence we had from the from the transformer model.
+The remote will only control eh televisions and eh, this is a candidate.
+So this is the generated summary.
+And if you can see this eh, th- there's similarity between the reference and candidate is eh, is is eh,  is eh eh a little but not eh, making that made sense.
+Because the sense is not captured <unintelligible/>.
+And so this is the eh, these these are our initial attempts for the for the the the dialogue summarization.
+But when we talk about the experiment.
+So we're realized that the extracted approach is not eh, generating <unintelligible/> summaries for ah, ehm for the minutes, meeting minutes.
+Because if - when you when you talk about ah, meeting minutes, eh, we have aligned sentences lik  "yeah" "okay" .
+And so there were a lot of sentences like that, and when you when you summarized that you get eh, so many words, which which which are eh, irrelevant to the to the summarize results.
+And eh, so probably I think we'll be able to achieve eh more good scores.
+And more ehm semantically eh, sensible is summarized summarize results eh, as candidate eh summary.
+And eh, so eh the the so we her- we or - here at the dialogue summarization right now.
+And then we are gonna do this agenda completion which is going to have the the filled agendas along with the dialogue minutes.
+Which will be compiled with the dialogue minutes.So the agendas will be eh the first will be agenda to fill up the agenda the and then to compile those minutes with the agenda.
+And ah, then we have this work on the similarity of minutes.
+So given to two minutes we have to we have to see that whether the both minutes are from the same meeting or they both are from the different meetings.
+Eh, so we we did some testing on eh, eh this Jacquard similarity which gave us a a score of seventy point two.
+And then there was minutes from different meeting, which was sixty three point five.
+And then we have this CountVec Cosine similarity which was seventy two point six and the minutes from different meeting point, three point seven.
+And we also tested it for eh the other word embedings along with Cosine similarities different word embeddings.
+So, eh, but when you when you eh eh manually see those minutes generated by two different annotators.
+Eh, they are probably eh, t- eh they are probably not eh, same.
+And eh, eh so eh, we are actually developing designing and developing eh deep neural network framework for the similarity measures to capture the semantic sense of eh the summarized meetings.
+Ee eh, so eh I would eh and the next plan is to eh, is is eh is is for the shared task in two thousand and twenty one.
+And eh, we have eh eh [PERSON11] for that.
+And I would like to invite [PERSON11] to share his his plans for eh for the shared task.
+[PERSON11] are you there?
+Can you - eh?
+Can you sha-
+(PERSON11) Hi, hi.
+Can you eh, can you hear?
+(PERSON15) Yes.
+Yes, yes  we can hear you
+(PERSON11) Okay.
+So,hi everyone.
+This is [PERSON11].
+So eh, we're, so the final eh goal of this particular <unintelligible/> is to organise the shared task eh in two thousand twenty one.
+So eh, we are just on the planning phase for the first shared task on automatic minuting.
+And we have checked out some potential venues where we could propose this.
+One is that Interspeech which would be proposal deadline will be some time in November.
+And there is SIGDail and eh followed by the IEEE workshop.
+So as eh as we already eh discussed that we have on mostly a hundred of news data.
+And data for the transcripts and the minutes.
+And there are a few other works that we can figure to decide on the evaluation measures of the submissions both manual and automatic.
+Followed by eh prepairing for the call for submissions, internal systems runs, eh evaluation scripts and setting up of the submission portal.
+So can we go to a next slide?
+(PERSON15) Yes.
+(PERSON11) Yeah, so this is just the the initial shared task that we have in our mind.
+So the task A is to like identify if the minute is from the given transcript when only the transcript and minute is given.
+The task B is like if two minutes are corresponding to the same meeting if we have just two minutes ehm as an input.
+And the task C is definitely the core task, that we generate the meeting minutes from the transcript from.
+And eh, finally we have the task D where are given the transcript and a set of pre-defined agenda items and we automatically slot- fill the agendas with the minutes.
+So it's not necessary that we propose all these tasks in IEEE venue.
+But this is what we have started to work at.
+Ah, yes, that's it from me.
+() Thank you.
+(PERSON15) Ehm,so this is a -
+(PERSON13) <unintelligible/>
+(PERSON15) Yes,yes.
+(PERSON13) Is the the end or -
+(PERSON15) So do we - 
+Yes, so j- do we we would like to invite some questions -
+(PERSON13) Yeah.
+So thank you for the presentation.
+I'll I'll send you an e-mail with eeh, like m- multiple comments on that.
+(PERSON15) Okay.
+(PERSON13) Eh, I think what is very important is to add structure to the presentation itself.
+So eh -
+(PERSON15) Mhm.
+(PERSON13) You wer eh, uh, th- eh I'll I'll tell you what what has to be there.
+(PERSON15) Hm.
+(PERSON13) So the- there is one thing, which is the formal division into the shared into the tasks.
+(PERSON15) Yes.
+(PERSON13) The structure of the work package from the formal point of view in relation to the description of work that we have to fulfill.
+(PERSON15) Yeah.
+(PERSON13) Eh, then there is the schema, eh with the the highlighting that eh, essentially matches that.
+But still, it's a different view.
+It's already looking at the task of summarization.
+Then you have the results uh, of individual, eh experiments.
+And uh, the the the reader has to or the the audience first has to have an overview eh of uh, the the whole procedure.
+And then eeh I would suggest walking through that, uh, again, uh, and and providing the detailed results.
+And then there is this eh, shared task eh, proposal as eeh, eh another separate topic of the presentation.
+And what is also very important is to add a conclusion slide where you will simply repeat that eh the task is hard.
+We have s- eh data and and more data is obviously coming.
+We have baselines eeh but the baselines are very bad.
+Eeh and w- like we have multiple ideas what to do more and we are soliciting eh other people's eh participation eh, into this eh through the shared task.
+So the conclusion is is necessary.
+Uh, in general, we are on track.
+That has to be said.
+And that uh th- like documented.
+But it eeh yeah, but we need to highlight that the task is hard and and how we are doing that.
+Eh, so eh, there was the main problem that I had with following you, because eh, the the or- the s- order of the slide was not eeeh very eh like clean for someone who doesn't know it.
+So I don't know if other colleagues, from the project who are not involved in that could could follow.
+And ehm, eh other than that eh, I'm a slightly concerned about the network connection.
+But there's nothing that we can do about this.
+It worked well, there were some little lacks uuh, but it would be good if both you and [PERSON11] could be able to present both parts.
+So that we do - eh, so that we have you as as backup of each other instead of eeh like eh ah having two points of failure ehm -
+(PERSON15) Uhm hm.
+(PERSON13) from the network po- point of view.
+So please both of you c- be in touch eeeh, for the rest of the day, and both of you practice presenting both parts.
+And hopefully it will it will not be necessary.
+But still, eh it's you're in two different eeh places eeh in India.
+Eeh so it's risky.
+(PERSON15) Hm.
+Yes, sure eh [PERSON13].
+(PERSON13) Eh and otherwise, I'm very happy to see the first eeh results there.
+I'll we we will go I will be revise with you and will somehow polish a little bit those, the the just the presentation of like, what will the slides look like.
+Eh but it's good to eh to show this, and eh, what else?
+Eh, there is eh, eh this summary of the work package which eh eh also mentions how many person months are expected eeh, or planned for various partners in the uh, in the project.
+Eh, it's not necessary to uh, to show this eh, but other work packages have shown this.
+Em, and I would like to ask, um, if uh, other, uh, colleagues, would would like to have that eeh presented or not.
+So I'm just looking that up eeh work package five.
+It's eight months of [ORGANIZATION7]  and six months of [ORGANIZATION14].
+Eh,so [ORGANIZATION7]  and [ORGANIZATION14].
+Do you have any plans anything that that is worth mentioning here?
+We have twenty seven person months in this work package.
+So em, em would you prefer this summary table eh, to be skipped, eh, as it was now, or would you eeh would you b- eeh suggest to to have it listed and would you have any related work of yours now?
+(PERSON10) So you suggest that we skip it in order to not highlight the fact -
+(PERSON13) Yes, yes,
+(PERSON10) you're only reporting uni work
+(PERSON13) Yes.
+(PERSON10) Okay, that seems like reasonable idea.
+(PERSON13) Yeah <laugh/>
+(PERSON10) Eh, also I didn' have such a slide in my presentation.
+(PERSON13) Exactly, it's not it's not required.
+(PERSON10) Just did not seem very interesting.
+(PERSON13) Yes.
+(PERSON10) But maybe it's just useful administrative thing.
+But -
+(PERSON13) Sometimes it helps -
+(PERSON10) the reviewers -
+(PERSON13) Yeah.
+(PERSON10) sometimes it helps
+(PERSON13) Yeah, sometimes it helps.
+So it is important -
+Sometimes it is it is useful to to divide the work, and and like announce it, how it was devided.
+But sometimes it's not important.
+And in your case it was not important.
+In our case is actually helpful, not to show it. <laugh/>
+(PERSON10) <laugh/> okay
+I mean, the reviewers have that information.
+(PERSON13) Yes.
+(PERSON10) It's not - 
+(PERSON13) Exactly
+(PERSON10) that interesting to show.
+(PERSON24) So it's also fine for me this way.
+And I also cannot present any complete plans right now -
+() <cough/>
+(PERSON24) we always want to do something in automatic minuting, but we first need to find somebody to do it.
+(PERSON13) Yeah.
+(PERSON24) And I mean, with the six person months I believe mean, you cannot do really much innovation
+(PERSON13) Yeah, sure.
+(PERSON24) We are thinking you know, we're thinking along the lines of having some student project supervise.
+(PERSON13) Yes,yes so I think that the shared task set up that we like proposed in eh, now and we have been thinking about this for a for a few months already, makes it ideal for like small scale contributions.
+So please be in close touch with [PERSON11].

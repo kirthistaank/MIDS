@@ -1,0 +1,118 @@
+(PERSON3) <unintelligible/>
+<parallel_talk/>
+<other_noise/>
+Its just me and [PERSON6].
+So I dunno who.
+<parallel_talk/>
+Hello [PERSON6], can you hear me?
+(PERSON6) Yes, I hear you.
+(PERSON3) Okay, so.
+Its just me and you.
+And I don't see anyone.
+(PERSON6) <unintelligible/>
+(PERSON3) <unintelligible/> updated summary in my [ORGANIZATION1] Doc.
+So, okay.
+I'll start first.
+So, yeah, so I fixed the changes that you <unintelligible/> in the <unintelligible/>.
+So basically <unintelligible/> used to do is that it always acted only on sentence level.
+So then we, so like t- the problem which you faced was that you just <unintelligible/> complete paragraph comprising of multiple sentences, and there it failed.
+So, what I did is that.
+<unintelligible/> will put you give the, you give us text split into sentences and it will apply <unintelligible/> on sentences.
+On each sentence, they got it has been trained on sentence level.
+Yeah, so that has been fixed.
+And, so yeah, and I tried with different data like your [OTHER1] <unintelligible/> the best results and have <unintelligible/> with the segmenter, [LOCATION1] segmenter.
+However like if you remember I discussed with <unintelligible/> regarding the, it discuss regarding the, what about that.
+Okay, nevermind, if I remember.
+And <unintelligible/> it was also disable <unintelligible/> and currently I am working on forced <unintelligible/>, and preparing and preparing timestamp outputs for all the <unintelligible/> the <unintelligible/> the manuality vice transcripts that we have from [PROJECT2] and for [PROJECT2], so I'm preparing <unintelligible/> timestamps for each these transcripts.
+And tommorow we also have <unintelligible/> watching session so I will prepare for that also.
+And next I need to prepare data for <unintelligible/> SLT, and [PERSON2] proposed that he needs a volunteer to test <unintelligible/> check for [PERSON8]'s data collection application, so I think I should be the one doing it ecause, when he used the <unintelligible/> from his domain adaptation I just used to add it to the dictionary, but now when we have the language model scripts we can <unintelligible/> we can build a new language model by adding text to the current corpus, and I think that he'll improve the ASR.
+Yeah.
+And [PERSON2] also proposed that because he was also proposing that a few onths ago that [PERSON5] he left I think, because he was improvising the test set for [PROJECT2] <unintelligible/> that we will be using, and so he was saying that we need to find someone to look into this data set and in the worst case scenario I'll be the one doing this, but yeah, that's all from me.
+Hello [PERSON6].
+(PERSON6) Can you hear me now?
+(PERSON3) Yeah, I can hear you now.
+(PERSON6) Okay, <unintelligible/>.
+<other_noise/>
+(PERSON3) Did you hear me when I what I spoke?
+(PERSON6) Yes, I heard you, I couldn't speak only.
+So I need to ask when you say <unintelligible/> better on some data.
+Data set, so how did you test it?
+(PERSON3) So <unintelligible/> and recall.
+(PERSON6) On which test set?
+(PERSON3) So test set fro- test set from each from each of this data set.
+So there was like no common test set.
+(PERSON6) Okay.
+So, we we still don't know how does it improve the overall ASR, right?
+(PERSON3) We are all <unintelligible/>, ASR?
+(PERSON6) Yes, yes.
+So it would be good if you if you integrated and then run ASR and have someone who speaks [LOCATION1] to say whether its better or not, and if you can process some some file and estimate <unintelligible/> rate, and see whether its better with <unintelligible/> or without it, so this would be proper set.
+(PERSON3) <unintelligible/>, so I will write this to the [ORGANIZATION1] Doc and, I will <unintelligible/>, I think this would be much appropriate and better option to process the <unintelligible/> so yeah.
+(PERSON6) Yes of course.
+<unintelligible/> maybe <unintelligible/> would be to just take someone speaking [LOCATION1] and let him guess whats better, and second it would be to evaluate it <unintelligible/> test set.
+It would be maybe more complicated.
+Okay.
+(PERSON3) <unintelligible/>, yeah and about that data collection supervising data collection test, data collection for [PROJECT2].
+So <unintelligible/>.
+(PERSON6) <unintelligible/> what is it.
+If <unintelligible/> set.
+(PERSON3) So <unintelligible/> collection.
+() What were you saying?
+(PERSON6) So <unintelligible/> test set for [OTHER3].
+(PERSON3) Not for [OTHER3], not for [OTHER3] but for [PROJECT2].
+(PERSON6) Okay.
+(PERSON3) All the data set for test that we will be using for [PROJECT2], so <unintelligible/> was actually supervising that.
+Maybe on <unintelligible/>.
+But this is the like outline story like.
+(PERSON6) Yes.
+Okay, so, can I start?
+(PERSON3) Yes, sure you can start, so I'll pause my microphone.
+(PERSON6) Yes, so I have the MT <unintelligible/> already know.
+(PERSON3) Yeah, exactly so <unintelligible/> with, because I have time now.
+(PERSON6) Yeah, so its, it can be integrated with our <unintelligible/> MTs and later I can <unintelligible/> option to disable <unintelligible/> and then it would be easily integrated with [ORGANIZATION2] <unintelligible/> models if its necessary and I can update it <unintelligible/> models to enable batching and talk to [ORGANIZATION2] to update it on their side, specially the rainbow model.
+And the code need some refactorization.
+Yeah, so I, we realize that the prefix empty on which i was walking last week, its not working better than the baseline that we already have,
+Maybe better training could fix the quality but not latency and flicker.
+So until tomorrow I am writing papers, one is already done and the other must be written.
+Its the <unintelligible/> about the subtitler <unintelligible/> to [OTHER4].
+<unintelligible/>.
+And I have to talk to [PERSON2] about about my other tasks for next week and decide the suggestion, <unintelligible/> meets [ORGANIZATION4] <unintelligible/> proccesing tool.
+The, to download the meetings done at [ORGANIZATION4] from from their website and to process it to format for mediators.
+Just to cut many many short videos, no audios.
+I should work on [PROJECT2] [OTHER3] submission.
+This is, it start at 17. March and at the end of march so this is not critical and I sh- I can work on the ASR mediator binding finally, and before we use to plan interpreting analysis and write a paper about it until I <unintelligible/> for coaling.
+So maybe to ask [PERSON2], what to do next.
+You, I guess you don't know, right?
+(PERSON3) Yeah.
+So okay, just a moment.
+() I can update [PROJECT1]MT to enable batching so <unintelligible/> its just batching going to affect liek what situation do you have <unintelligible/>.
+So we.
+Yeah, so.
+(PERSON6) Right now we expect that the translation time is immediate, so when so when ASR emmits one hypothesis then the translation takes zero seconds and zero milisecond and is ready to display to the user.
+But in reality the translation take some time, about 200 miliseconds for, I don't know 50 words.
+And doing the translation ASR emmits new hypothesis which updates the previous one, so we can skip the already outdated hypothesis between between translating.
+So, <unintelligible/> that it so one <unintelligible/> the input ASR, and the other is sending it to sending it to empty and if two two sentences are updated at once then they are <unintelligible/> they are <unintelligible/> and send to empty at once and empty is <unintelligible/> is able to translate them to its able to translate 16 sentences in the same time as the one sentences.
+In a batch, for this means that we can <unintelligible/> 2 sentences at once and receive the translation.
+(PERSON3) Okay, so you mean all the 16 sentences will be translated partirarly at once.
+(PERSON6) Yes.
+In the same time.
+Independently.
+(PERSON3) Um-hum, okay.
+So but during live translation I think how th- <unintelligible/> really going to benefit as like how is it like to benefit does during live translation, because doing live translation I believe we do not have much text at once to translate.
+(PERSON6) Yes, we have the incoming and its <unintelligible/> very often <unintelligible/> once.
+(PERSON3) Um-hum, so these.
+(PERSON6) So maybe <unintelligible/> up to <unintelligible/> sentences at once.
+Can be sent at one batch, and usually we can have four opened sentences.
+Yeah.
+I am not saying anything right now.
+(PERSON3) Okay, so sorry.
+I don't have any more questions.
+So, and we don't have anyone else.
+(PERSON6) Yes.
+(PERSON3) So.
+(PERSON6) Yeah, so we can close the session.
+(PERSON3) Yeah, we can close the session and <unintelligible/> discuss in person on, about supervising test set for data collection for [PROJECT2].
+(PERSON6) Yes.
+(PERSON3) <unintelligible/>
+(PERSON6) See you.
+(PERSON3) See you, bye bye.
+(PERSON6) Bye

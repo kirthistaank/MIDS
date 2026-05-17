@@ -1,0 +1,57 @@
+Tue Apr 7, 16.00-16.30
+	•	[PERSON12]: 
+	•	again supervision of [PROJECT1]-test set (finally, the process of data collection and refinement is about to start
+	•	new tools that need to be announced (various authors), esp. to [PERSON11]:
+	•	ELAN+script break long audios to sentences easily (by [PERSON14])
+	•	to be used before forced aligner
+	•	forced aligner (by [PERSON4]) for Czech and English
+	•	+ script to create MKV for visual validation (by [PERSON3])
+	•	+ script to create OStt files 
+	•	ELAN+script to create word-level timestamps easily
+	•	as a fallback when 
+	•	refined vim-based editor of 2,3 or 4 files in a (multi-)parallel test set
+	•	this should be used regularly when polishing our test sets
+	•	a simple pre-processing for sentence segmentation+sentence alignment (by [PERSON12])
+	•	[PERSON11] should review this and maybe update it to prefer [PERSON11]'s tools
+	•	[PERSON3]
+	•	Live audio visualizer now working.
+	•	Log dirs for mock conference
+	•	[PERSON12] will create a directory for this, this is where we should work on “testing the multi-source setup”
+	•	Transcript generation for [PERSON2]
+	•	Currently-
+	•	Playing with sunit's audio compression
+	•	TDO-
+	•	Czech segmenter- What needs to be done? Request [PERSON8] to collab. with me on this
+	•	Log dir for dry run workshop.Where is the Path?
+	•	Polish the setup directory- make it more concise and reliable
+	•	Should have czech, eng, french ASR
+	•	Integrate online audio visualization
+	•	Standard error
+	•	multi-source setup
+	•	Use-issue tracker. To timely monitor the progress of polishing
+	•	Simple script for [PERSON7]? → see issue
+	•	[PERSON13]
+	•	Provided sentence-level split for forced-alignment for [PROJECT4]
+	•	Provided transcription of workshop
+	•	[PERSON11]
+	•	Prepared test sets for English to 21 EU languages(except Czech) pairs from the [ORGANIZATION3] & [ORGANIZATION9]
+	•	7 languages test data are uploaded on the [PROJECT1] GITHUB.
+	•	[PERSON6]
+	•	Evaluated SLT with the 2 new ASR workers -> not better than before
+	•	[PERSON4] and [PERSON8] have started training En ASR
+	•	We give up online-processing, focus on off-line
+	•	We need 3 times from ASR -- utterance time from-to, recognition time
+	•	Going to reformat mt-wrapper, online-text-flow events etc., with briefer format 
+	•	Already found some implemented, but unused improvements, e.g. websocket instead of http
+	•	Then reimplement/fix flicker and delay evaluators
+	•	[PERSON8]
+	•	[PERSON12] reminds that the LM of common voice is too small (many sentences repeated)
+	•	[PERSON12] also reminds of the training corpora indicated in IWSLT2020 non-native shared task page -- if our system is limited already, we should try to make it limited in the “constrained” way, as the page prescribes
+	•	[PERSON10]
+	•	finished evaluation of his 42-to-42 model
+	•	scores are a little lower than [PERSON6]'s on IWSLT tst.2015 dev set
+	•	See [URL] and [URL] for integration to mediator
+	•	[PERSON6] can explain you how to integrate multi-target model
+	•	[PERSON10] offers TPU credits -> maybe rather for [PERSON4]
+	•	and also for back-translation of a large collection of mono text of the many languages that [PERSON11] is collecting
+

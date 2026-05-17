@@ -1,0 +1,24 @@
+[PROJECT2] 17. 05. 2019
+
+Date: 17. 05. 2019
+Attendees: [PERSON7], [PERSON5], [PERSON10], [PERSON6], [ORGANIZATION1], [PERSON10], [PERSON12], [PERSON3],
+Purpose of meeting:  Update of work mentioned in [ORGANIZATION4] document
+Agenda: 
+1) Presentation platform
+a. Technical call with [PERSON12] on Monday
+2) Dealing with incomplete sentences
+a. Timestamps 
+i. Segmentation worker is emitting
+3) Segmentation worker for Czech is missing
+4) Language model adaptation
+5) The Czech ASR
+6) Connector to the main client
+7) Multilingual English tool
+a. Empty systems  - German to English, English to multilingual
+b. Pivoting
+8) [PERSON6]'s original model on sub sentence window
+9) Workshop
+10) Broken workers in [ORGANIZATION2]
+
+Minutes submitted by:	 [ANNOTATOR1]
+

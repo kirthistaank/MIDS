@@ -1,0 +1,50 @@
+[PROJECT4] Internal
+Date: 19. 10. 2020
+Attendees: [PERSON3], [PERSON6], [PERSON8],[PERSON7],[PERSON11],[PERSON12]
+Purpose of meeting: [PROJECT4] agenda and sub-tasks progress check: [PROJECT7], [ORGANIZATION1], [PROJECT1], [PROJECT2], [PROJECT3] [PROJECT5] paraphrasing 
+
+-[PERSON11]'s remarks.
+-- Summary of [PROJECT7] discussion from last week.
+--- People working on [ORGANIZATION1] are very active and [PROJECT4] could help a lot.
+---- Everybody should try to advance the project as much as possible. 
+--- It is important that the system agrees with what the [PROJECT7] will be collecting.
+-- [PROJECT3].
+--- confusion has to be prevented with the [PROJECT3] being part of the (outbound) translation.
+--- it must be made sure that [PROJECT5] has the additional features with the [PROJECT7] that are needed for the handling of [PROJECT3].
+
+- General agenda.
+-- Everybody was invited to the global [PROJECT4] Slack.
+-- Everybody should keep updated on what happens there. 
+
+- [PROJECT1] progress check.
+-- Will be stopping today because of the outage. 
+-- There are 1800 segments, more are needed and expected.
+-- [PERSON6] has started working on the paper, but it needs to get a more original sense.
+-- [PERSON3] is working on the environment for human evaluation of the translations and is leaving the log processing of [PROJECT1] to [PERSON6].
+-- [PERSON3] contacted [PERSON5] to inform the annotators about a new campaign.
+-- [PERSON6] contacted other partners that they can contribute to the paper.
+-- [PERSON3] informs about the second stage of [PROJECT1], that it functions to find out what the quality of the produced translations is.
+-- Outage will be handled with a note that will say that the system is unavailable. 
+-- [PERSON3] and [PERSON6] must agree on whether the annotating stages can overlap. 
+
+- [PROJECT2] progress check.
+-- Not much progress. 
+-- [PERSON3] is training systems and then will visualize the learning curves. 
+-- [PERSON3] needs to align the mode of translation with the [PROJECT7] side, too. 
+--[PERSON7] will provide addotional help on [PROJECT2].
+
+- [PROJECT3] progress check.
+-- [PERSON8] has acquired some intial results with implementing splits suggested by [PERSON3]. 
+--- The blue scores do not follow the presumed pattern.
+-- The word-alignment was not impemented yet.
+-- [PERSON8] did not look into [PROJECT5] yet.
+--[PERSON7] and [PERSON8] will discuss the results tomorrow.
+
+- [PROJECT5] paraphrasing.
+-- The paraphrasing system from [PROJECT1] needs to be integrated into [PROJECT5].
+--- [PERSON3] will ask [PERSON10] for initial help, as he has implemented it in [PROJECT6]. 
+-- [PERSON12] checked already existing impementation and it is not usable. 
+-- Logically, the implementation of paraphrasing is not complicated, but it will be technically.
+--[PERSON12] will update on this later on. 
+-- [PERSON8] and [PERSON7] are offering help. 
+

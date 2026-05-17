@@ -1,0 +1,33 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION1], [ORGANIZATION2]
+Meeting Name: [PROJECT3] 
+Meeting Date: 31.08.2020
+Meeting Topic: General Progress Meeting
+Meeting Participants: [PERSON2], [PERSON10], [PERSON6], [PERSON3] 
+Meeting purpose:  To provide regular progress update on tasks at hand.
+Main topics of discussion:
+[PROJECT6]
+•	Slow and intermittent communication with the [ORGANIZATION3] team. Might be raised at the regular monthly call.
+•	Obstacle caused by expired certificate on the server performing the expected quality estimation has now been resolved.
+•	Leaflet for participants is under preparation.
+[PROJECT1]
+•	Progress was outlined separately in the email communication.
+•	Translation to be run on the CPUs.
+•	Further steps to be discussed within the week with another colleague.
+[PROJECT4]
+•	Reference made to the [PROJECT5] paper focusing on training the model to perform evaluation.
+•	Certain scepticism expressed towards the machine learned evaluation in relation to the sensitivity to domain shifts.
+•	Potential problem with efficiency of Bleu score bases evaluation in scenario when decoder is using sentence with the same meaning but different words.
+•	The paper argument is that the [PROJECT5] is actually creating semantically rich representations.
+•	Suggestion made that the metric could be used by [LOCATION2] team in pre-training and development process.
+•	For paraphrasing the metric can be used to estimate semantic similarity but still have a number of constraints to ensure certain surface form.
+•	Metric to be stress tested to see how many constraints can be added before the resulted sentence has no actual meaning.
+•	Non-standard metric is required to provide guaranteed semantic similarity and to rectify shortcomings of Bleu score methodology which focuses mainly on the surface form evaluation.
+•	New ideas and further progress to be discussed following week.
+•	Research directions are still subject to a potential change.
+
+Organisational matters
+•	Regular monthly call with project partners scheduled for Thursday 3rd September at 5PM CET. Participation open to all.
+•	Work contract details, travel arrangements and general conditions discussed with a colleague joining the team from abroad.
+
+Minutes submitted by: [ANNOTATOR5]

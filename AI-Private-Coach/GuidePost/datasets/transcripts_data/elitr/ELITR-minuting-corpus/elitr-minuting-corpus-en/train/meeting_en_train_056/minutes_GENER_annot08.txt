@@ -1,0 +1,32 @@
+Date: 5.10.2020
+Attendees:
+[PERSON1], [PERSON5], [PERSON10], [PERSON4], [PERSON2]
+
+-Mentioned:
+
+--[PERSON1] wants to discuss evaluation, preparation for evaluation, share task, share task imitation.
+--[PERSON10] experiments with automatic measures.
+--[PERSON4] also works on evaluation measures.
+--[PERSON1] planed to have something to the end of factor to the end of October from [PERSON10] and from [PERSON4].
+--[PERSON1] discusses with [PERSON5] about evaluation minutes.
+--[PERSON1] wants to know from [PERSON5] what they have to do to be able to make a manual measurement.
+--They need formulate their manually evaluation.
+--[PERSON10] will send via email the paper for manually evaluation from [PERSON6].
+--[PERSON1] wants to know who will do that manually evaluation, [PERSON5] explain it her, [PERSON10] will create the guidelines.
+--[PERSON1] suggested [PERSON10] and [PERSON2] will create minutes manually, [PERSON5] and [PERSON10] will evaluate the outcome of these meetings.
+--Prepare evaluation measures.
+--[PERSON4] suggested prepare data for each tasks (A, B, C).
+--[PERSON4] wants to have more data, 200 instances, [PERSON1] wants to discuss about it tommorrow, because nobody know if it's good idea to divide the meetings, [PERSON5] and [PERSON1] has another opinion than (Chetanko) and [PERSON10], brainstorming proposal about it.
+--[PERSON1] wants dates from European Parliament meetings, put together wit existing data.
+--[PERSON1] shares the structure of organization data, the same will be on GitHub.
+--[PERSON1] decided not to include the original minutes in the share tasks data.
+--[PERSON4] says that training data will not be released to the participants.
+--[PERSON4] wants some results of manually evaluation, not only comments, everybody should try it themselves our next week.
+--[PERSON4] wants from [PERSON1] technical data output data from [PERSON7]'s tool, she doesn't have it.
+--They need hire some new people for their project.
+--[PERSON1] and [PERSON4] agreed to include Czech data as well, because they are of good quality.
+--[PERSON1] informs about annotators and their time for working.
+--Discuss the length of meetings.
+
+
+Minutes submitted by: [ANNOTATOR1]

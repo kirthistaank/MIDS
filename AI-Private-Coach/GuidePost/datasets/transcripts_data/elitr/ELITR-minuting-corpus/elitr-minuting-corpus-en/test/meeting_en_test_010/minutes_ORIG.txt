@@ -1,0 +1,27 @@
+Minutes
+ 
+Tue Apr 3 (a small call [ORGANIZATION3]-[ORGANIZATION4]-[ORGANIZATION2]-[ORGANIZATION1]):
+• News:
+o any news on [ORGANIZATION4] status (zero-cost linked third party?)
+• Can we split the budget allocation for [ORGANIZATION4] among others?
+o [ORGANIZATION6] prefer to remove speech-to-speech, they are comfortable with subtitles only; [PERSON5] thinks this is OK.
+• Tasks and deliverables related to [ORGANIZATION9] Congress and other [ORGANIZATION4] events
+o WP6 Integration has a task to cover [ORGANIZATION9] Congress
+• extend it also to other [ORGANIZATION4] events (afterwards)
+• or create separate tasks?
+• does not need [ORGANIZATION6]
+• WP7 Dissemination has to clearly correspond to WP6 Integration
+• Integration is for running the service
+• Dissemination is for advertising it
+• should include [ORGANIZATION6]
+• Budget for ASR feasibility
+o [OTHER2]:
+• How much PMs (separately for annotation and development) does [OTHER2] need?
+• How do we justify these planned costs in the proposal?
+• Can [ORGANIZATION4] say they need it for something specific?
+o We need to populate this:
+• [URL1]
+• How many hours of recordings for speaker adaptation to plan for [OTHER4] respeakers and for standard interpreters?
+• How many hours of respeakers' attendance to [ORGANIZATION4] events?
+• Missing text parts
+

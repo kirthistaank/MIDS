@@ -1,0 +1,24 @@
+[PROJECT1] small talk 2
+
+
+Date: 11. 02. 2020
+Attendees: [PERSON5], [PERSON3], [PERSON4]
+Purpose of meeting: Design of the platform
+Agenda: 
+* collected feedback from event 2019
+	* possibility to disable the video
+	* load a list of default languages
+	* [ORGANIZATION3] platform adaptation - conflicts
+* Presentation of possibilities where subtitles appear
+	* Layout 1 - only 1 language per time, big video size
+	* Being mobile friendly?
+	* Layout 2 - [ORGANIZATION3] style, video reduced in size, add history, mobile friendly, disable video, more language
+	* Layout 3 - [ORGANIZATION1] style, mobile friendly, cannot disable video, possibility to expanse the video size, 1 language
+	* different possible situations to have them all
+* Pros and cons of possibilities 
+* Text flow functionality
+* Language ID shown
+* Quality of streamed video
+* Testing layout on Monday seminar
+
+Minutes submitted by:         [ANNOTATOR1]

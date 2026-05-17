@@ -1,0 +1,982 @@
+(PERSON21) And you have the participant body already a recording, and hopefully my screen is being shared.
+Yes.
+So in the [ORGANIZATION7] document, a dominant has drawn a a a as, like a picture, which highlight, which shows everything uh, the that we will need for the mediator.
+Uh, so uh.
+So what we have here is the climbed gate on in the lefts hand, uh part of the picture is.
+So Klein's connecting to the mediator and the work <unintelligible/>.
+And we expect audio input uh, either English speech or Czech speech.
+Uh.
+But but the picture says," only English speech, uh for simplicity.
+Uh, to come to the mediators so uh, audio being transferred from [LOCATION2], uh, to uh, the mediator in [LOCATION1], or where <unintelligible/> <parallel_talk/>
+Okay, so I do not know where where the <unintelligible/> servers are <unintelligible/>.
+It is in the US, OK <unintelligible/>.
+(PERSON17) West Europe <unintelligible/>
+(PERSON21) <unintelligible/> or something like that I'm not sure.
+And then so this is speech, uh.
+Then from the mediator get send to <unintelligible/> ASR <unintelligible/>
+They will uh, produce English words, because they have like two stage of, uh speech recognition process.
+And then these English words get sent back to the mediator, and then from the mediator again to <unintelligible/>.
+For segmenting, uh.
+And and like for concatenating these words into sentences and breaking the text into sentences.
+So this will produce the English <unintelligible/> sentence, and the English <unintelligible/> sentence will be sent to the mission of the <unintelligible/> system, which will run at our uh, place.
+So this is the the third worker, uh, here in English, <unintelligible/> to going to English check empty.
+And then they check <unintelligible/>.
+The going is going to be sent back to the mediator.
+And there are other clients connected.
+There are to be other client connected to the mediator.
+The first one will be the one showing the subtitles.
+And this is something that we do not know how to do yet, because we rely on <unintelligible/>, uh, presenter like presentation and video mixing.
+And, uh, we need to record for, uh, one of the the uses when he to record the English, uh, subtitles, as well.
+So the the English ASR so english <unintelligible/> sentence, as as emmited by the <unintelligible/> ASR, uh and then, we need to save everything, especially the, uh, uh, the sound signal for further use, uh, like to make it it that <unintelligible/> or or training data out later on, uh, uh, and one particular aspect, uh, that I will talk about later when, <unintelligible/> the hopefully uh, connect is,u, the, clearest,voi- voice competition, where, uh, the participants.
+Uh.
+Will be evaluated, uh on their word" error <unintelligible/>, uh, word error <unintelligible/>.
+So <unintelligible/> students coming to the <unintelligible/> will be presenting 90 seconds each uh, some quick presentation of their country, and we need to record the voices here into separate files, uh, and, uh, we need to, uh, also save the, uh, the automatic transcripts as obtained by the causeway ASR and then we need to evaluate these.
+Uh, <unintelligible/>.
+Uh, yes.
+So I would like to <unintelligible/> [PERSON17], if there was anything that I forgot.
+And uh, the the maybe <unintelligible/> moment on this.
+Yeah.
+And [PERSON20], does that make sence?
+Did- <unintelligible/> is the design, uh, OK so far, like we have not run into any uh, nonexisting, pieces off a or nonexisting features of mediator.
+(PERSON5) Sorry [PERSON21].
+(PERSON21) Yeah, hi.
+<parallel_talk/>
+(PERSON5) Uh, just <unintelligible/> after design.
+I think that probably, uh, the component <unintelligible/> register.
+The audio will be a worker and <unintelligible/> <parallel_talk/>
+<laugh/>
+He would be will be a worker and the multiplying.
+(PERSON21) Ok.
+Yes.
+<parallel_talk/>
+(PERSON5) Fingerprint match is pretty good.
+We <parallel_talk/> good work, um.
+Ok, that is all, I think.
+[PERSON20], do you have some other such <unintelligible/>.
+(PERSON17) Oh, not really, just maybe one.
+<unintelligible/>
+Maybe it is some of that is already <unintelligible/> somewhere in the notes, but uh, there, there has to be an overview as well.
+And I have one important question, uh, and that is uh, whether, uh, worker.
+So now.
+Now, I'm talking about the recording, uh, and actually the the recording for the purposes of the clearest was competition there.
+We need to have the single session running all the time like constantly transcribing the speech, and and emmiting the the subtitles, and and so on, but we need to get the separate, uh, pieces for each of the speaker.
+So we need 90 seconds long files.
+Uh.
+So if we have a worker that will, uh, be like ready to to save-
+<unintelligible/> can such a worker connect to an existing a pipeline to an existing session and disconnect, uh, and connect again for the next, uh, speaker, or uh.
+Do we need to have one worker being connected to the same pipeline, all the time, uh, link through fingerprints like connected to <unintelligible/> with the help of the fingerprints.
+And then the worker internally has to stop saving to one file and move on to saving to another file the.
+(PERSON5) <unintelligible/> both of the option, sorry, um, ther is always the clients who manage the session, then, in order to have different files, you have to run different session, when you want to stop recording.
+The first file, you have to stop the client and start again for the second session.
+(PERSON21) OK.
+So, if, uh, wa- was existing, uh, workers that are able to save the data.
+Uh, one would have indeed stop the client, and restart the client.
+And another option would be as I suggested to, uh modify worker, so that the worker will be, uh, like constantly part of the the single session, uh, and it would be saving or not saving depending on some other information it gets from elsewhere.
+So it could be like a, uh, as a process running in the director looking into the directory.
+And if the directory contains a special file a like safe into file name one.
+Then it will be saving the data.
+If there is no such file it will not be saving the data and and so on.
+(PERSON5) At the moment it is not possible out of the service architecture, uh, idea, uh.
+(PERSON21) And why why is that not possible like.
+I feel that it is not possible, because we do not have such worker.
+Uh.
+But is there.
+Any reason why such worker cannot be you implemented?
+<unintelligible/>
+(PERSON17) <unintelligible/>
+Our recomendation would be to <unintelligible/> keep the log of the speech, <unintelligible/> <other_noise/> recording will be <unintelligible/>.
+<unintelligible/>
+(PERSON21) So I understand <unintelligible/>, but we probably have participant here, <unintelligible/>
+So uh, Yeah.
+We definitely want to have one worker that will be saving everything.
+Uh.
+So uh, and then we would like a to have also another worker, which would save the the, uh, individual presentations.
+And the reason, uh, is need to have already during the day, you <parallel_talk/>
+Yeah.
+I hello.
+<unintelligible/>
+Uh.
+Yeah.
+So we are now in the middle of, uh, uf some <unintelligible/> setup that is not not so relevant <unintelligible/>.
+So let let me quickly finish this.
+And then we will start with the with the the most important part of the meeting.
+Uh.
+So uh, the the uh.
+So we want to have to workers for recording, one would be the standard audio recorder non, interrupted producing a the single file, but we need also separate files.
+As soon as any of the presenters stop their 90 seconds.
+We need this file saved and transfer to another place.
+And in terms of like two minutes or three minutes from then on.
+Uh, the person will be transcribing their own speech.
+So that is why we need separate files.
+And for this.
+We would like to have a second worker.
+Uh, I understand now, that the second worker must not interrupt the, uh, the session.
+The second worker will be connected all the time.
+And it would uh.
+It has to be modified in a way, so that it saves a the <unintelligible/> into a separate files.
+Does that work?
+Does that make sense [PERSON20]?
+(PERSON17) Yes, if you if you modify <unintelligible/>.
+The <unintelligible/> signal.
+<unintelligible/>
+(PERSON21) Yes <unintelligible/>
+For some reason, your your voice his little bit interrupted at times.
+Maybe the uh.
+The <unintelligible/> connection is is not not a reliable.
+Uh, yeah, we also have backup solution for this.
+Like interrupted worker.
+The backup solution is to use a totally independent notebook, running windows, and we will just listening to the audio signal, uh, and and saving <unintelligible/> a separate files.
+Uh.
+It would be different recording of from what the ASR has seen.
+But that would not matter for our purposes.
+We could later on extract the uh, the genuine, uh, signal that went to the ASR from the complete recording of the session, a when we will be making this <unintelligible/>
+(PERSON17) Another option to another option could be also to get the extra time stamp of the beginning and of the end of the speech <unintelligible/> and extracting the <unintelligible/> from the overall signal.
+So you <unintelligible/> it is incremental signal that you we- you can exactly <unintelligible/> find the start, and the end of the speech.
+By the time stamp of it could be feasible to extract the the speech of one speaker from the overall recording,
+(PERSON21) Yeah.
+We will have to see whatever it is easier whether to implement the, uh.
+The interrupted interrupted worker, or whether to uh, use the secondary notebook, or whether to use this idea with the the extracting the bit <unintelligible/>.
+Thank you.
+So uh, since we now have a person from <unintelligible/> [PERSON9] as well, um.
+Let me start.
+Uh, let me start the at the beginning of the agenda, uh so uh, well, [PERSON8].
+This is the first time we we meet <laugh/> nice to meet you.
+We were expecting either markers, or uh, or [PERSON4].
+So would it be actually you <unintelligible/>.
+(PERSON13) <unintelligible/> [PERSON] <unintelligible/>
+(PERSON21) Okay, I see yeah, a great.
+So so just to let, you know of this session is being recorded for the purposes of minuting making a data set for [PROJECT1].
+Are you fine with that.
+I hope we are we, yes.
+Yeah, yeah, so there is a slack space for [PROJECT1], but I do not really use it.
+I have a pretty bad experience with slack non not delivering messages that I <unintelligible/> as delivered on my screen.
+So feel free to use it.
+If it makes the if you want to be invited to let me or [PERSON17] know.
+We can invite you.
+Feel free to use it just do not rely on it.
+That is what I wanted to say.
+So always ask people uh, for confirmation of received, if you <unintelligible/>.
+<parallel_talk/>
+(PERSON5) I asked for the <unintelligible/>.
+I started receiving the same observation from different people.
+I think it will be really useful for the or the <unintelligible/> the support and developers.
+(PERSON21) Yes, yes,
+(PERSON5) <unintelligible/> so important communication.
+(PERSON21) Yeah, so feel free free to do it <unintelligible/> use whatever is is most convenient for everybody and <unintelligible/> like can be fast.
+I just use <unintelligible/>.
+I found it not delivering messages that I wrote.
+So I was really annoyed.
+Ok.
+So then there is the <unintelligible/> running.
+Thank you for the admin web.
+And [PERSON17] asked, what is the IP <unintelligible/> the register services, <unintelligible/>  was that your question.
+() Yeah.
+So uh, is there anything that we should know, uh, now.
+Are you seeing my sharing that?
+Yes?
+So is there anything that we should know to understand what it what is now in the um in the mediator.
+(PERSON5) Oh, okay.
+Please note admin web is really used for the <unintelligible/> purposes,
+(PERSON21) Yes.
+<unintelligible/>
+Use only the registered services agent.
+Here you will find the all the <parallel_talk/> line workers and <unintelligible/> not do to check <unintelligible/>
+<unintelligible/> so on.
+<unintelligible/> developer.
+Yeah, ye exactly.
+I think it is very useful for for us for debugging purposes.
+So [PERSON17] asked, what is the API.
+So, there is some versions or API version something.
+<parallel_talk/>
+One of the the last <unintelligible/>.
+And this is yeah, so that probably not too important for four hours of our purposes, right.
+And the registered services are all the running workers.
+Mm-hmm
+Yes, correct, <unintelligible/>.
+And and now all of them are idle.
+But if a client would connect.
+Some of these workers would become connected to the pipeline, and then suddenly they would be non idle, and if the <parallel_talk/> another client would need the same type of service.
+So we would have to have another.
+Uh, line, one more worker running to and to to to do that service.
+So, for example, this the uh.
+There is too <unintelligible/>.
+There is the yes.
+There is two German speech recognizers the first two lines and there <unintelligible/> that you English organizers.
+(PERSON5) Mm-hmm.
+They are two session of the same worker, the German ASR.
+And when the client connect, <unintelligible/> one of these sessions becomes easy.
+<unintelligible/>
+Another session can be <unintelligible/>
+(PERSON21) OK.
+Thank you.
+So this is the this is the first one.
+Now the physical layout I would like to now.
+[PERSON17] to to present this.
+Uh, and you and you can see the description in the [ORGANIZATION7] Doc, uh, and describe what what everything when each <unintelligible/>.
+So please.
+Everybody make sure that from your point of view of you were able to like covered that that that, you have the knowledge and the tools, and they had the hardware, and and all that and will review the hardware and software later on by the physical layout is like the the beginning, right?
+So [PERSON17] please.
+(PERSON17) Hello.
+(PERSON21) You did not hear [PERSON17], did you?
+I do not hear anything.
+(PERSON17) Me niether.
+(PERSON21) Yeah, so I do not hear [PERSON17], but [PERSON17].
+No, we still do not hear you.
+But we, we were able to hear you a while ago.
+And it seemed that the it is the receiving <unintelligible/>, uh, the the <unintelligible/> to receiving voice from you, no, no still not.
+Okay, does not work.
+Yep.
+Okay.
+So no, not yet.
+So I will present.
+Now, instead of [PERSON17], but [PERSON17] will keep trying to make is the voice delivered.
+<laugh/> OK so.
+There is a four stages, uh, for physical places.
+There is also for the down in document, a the map of uh, of the set up.
+So, uh, four different spots where something will happen at the main stage is like a stage for.
+I do not know if we are 20 or 50, uh, people looking at one presentation, and there will be doing the , uh, subtitling.
+So uh, ASR, and, machine translation and presentation of subtitles.
+So the video mixing of subtitles and presentations, uh.
+And there will be also.
+We will be doing the recording of everything.
+For the later use.
+There is the secondary stage like secondary podium.
+And this is for perhaps fewer people but uh, hopefully we would like to do.
+Uh, subtitling here again.
+If we get second video mixer.
+And that- that is the <unintelligible/>.
+To be discussed uh, below, and we will be doing the recording.
+Uh, one, uh, purpose for the recording is to have all the talks recorded.
+And the second purpose as the clearest voice competition, which is also have called, uh refer to as 90 seconds in a <unintelligible/> lift.
+And that is the the that is where we need the separate files per competitor, because uh, this.
+Uh.
+This will be transcribed right after the, uh, the presentation, uh the particle person will go to the transcription space, which is the third, uh spot.
+And there, they will listen to their to their own voice, and they will write it down to to have the reference transcript.
+And this is for the word" error" rate of evaluation.
+And there is, uh one, uh, further spot, and that is the offline presentation <unintelligible/>, and this will be a <unintelligible/> again.
+And this is just where we can show off and [PROJECT1] and uh, the [PROJECT1] partner technologies, uh.
+So ideally, uh, we have discussed.
+This was <unintelligible/> before we would like to have one more of full fledged German, uh, speech to, uh, English output or whatever offline presentation, if you have like one more one more device for this.
+So this would be a good.
+And for this.
+We will need roll-up.
+And there is also the uh, the option to make it more attractive.
+Uh, just like we visualy more effective, a by of, uh, the robot know that, we have like that.
+The the school of informatic has one but.
+I can borrow it only under the condition that it will somehow like actively, uh, perform in this presentation.
+So if we are able to use it as a, <unintelligible/> as a [PERSON19], or as speakers or <unintelligible/> this as a good reason to uh, to have <unintelligible/>.
+It were a attract people.
+But uh, the uh, the one that the colleague of mine, who owns this robot that he does not want just it just as that like, uh, uh, as the young, ladies selling whatever car tires. <laugh/>
+So he prefers the uh, the the advertisement. <laugh/>
+You have some some real real value.
+Yep.
+So, [PERSON17].
+Please keep trying.
+I still have not hear you.
+You would like to, uh, hand over.
+No.
+Okay?
+So you are in- yeah.
+So please [PERSON17] please keep trying, I will let you know when when you are heard again, OK.
+So, the critical thing that has to be negotiated, uh,  and discussed with the organizers of the fair, the the <unintelligible/> company uh.
+This is the is the wiring.
+So uh, we need.
+We need to specify what we need.
+And they can acomodate to some of these requests.
+And right now, I would like you all to validate that I have described this correctly.
+Uh.
+And then if if we if uh, the organizers, if [PERSON7] is not able to uh, meet these requirements or the specification, then we will talk again and find another solution.
+So and the main stage.
+We expect to connect.
+The <unintelligible/> male XLR connector.
+Uh, which is uh, on this picture to the mixing device to get sound.
+Is that right, or should it be another connector.
+Well, obviously, you are probably flexible, but we need to have something to show them.
+This is half way up high school students, and we need to show them pictures to uh, to get the right a to get the right thing.
+So is this correct <unintelligible/>
+<parallel_talk/>
+<unintelligible/>
+Yeah, uh.
+So, for the headsets, uh, we have sent you an email some time ago.
+Um, I'm not sure if you have responded.
+Oh, I have heard that it is very important to have a the mic and <unintelligible/> distance from the mouth.
+Uh.
+So uh, we are happy to to buy some of the like headset mics.
+Uh, but we do not.
+We need to know which, so if someone uh, you know, if someone from <unintelligible/>, could could just paste uh, your <unintelligible/> uh, into this document, uh, and, we would buy some above the the time is running short.
+Uh.
+So, um, uh.
+So the sooner we get the <unintelligible/>  the better, and.
+We, we need to talk to <unintelligible/>, this is especially for [PERSON2], uh, to make sure that they are happy with us providing the headsets and with the way these headsets connect to their mixing device.
+And and so on
+(PERSON1) OK
+(PERSON17) OK could you.
+Maybe <unintelligible/> that male with link to the headsets again.
+And can not find it right now.
+(PERSON21) So there was [PERSON2]'s email with questions.
+And one of the questions was about the headsets.
+And there was no answer.
+So we need.
+We need some your <unintelligible/> from you.
+We do not have any any preference.
+So this is a.
+This is a confirmed, uh, confirmed by [ORGANIZATION1].
+[ORGANIZATION1] will suggest some headsets.
+[PERSON2] will negotiate their connection with [PERSON7].
+That is the organizer of the.
+So which.
+So here is the here is the place for the <unintelligible/>.
+Uh, and uh, uh, how many so we expect that it will be one speaker presenting only.
+We will will not be able to transcribe if two people speak at the same time.
+Anyway, uh.
+So the uh, we will have two at most.
+I would say to swap them, like if if there is to be to be two speakers coming one after another, one can be setting this up for for themselves.
+And the other would be already speaking right.
+So two should be fine?
+Or would you recommend more?
+(PERSON17) Um, well of course, more is always better bit i think two should be fine.
+I mean, <unintelligible/> it would probably also worked with just one, but then, of course, <unintelligible/> gets little bit more time critical, so to say, and <unintelligible/>.
+(PERSON21) Uh, okay.
+So then we expect [PERSON7], uh.
+Then we expect [PERSON7], to provide us with the presentations that we need subtitles to mix into.
+And we do not know <unintelligible/> the they have old technology or new technology.
+So we expect them to have either VGA or HDMI.
+And this is something that they would be normally connecting to their overhead projector.
+But instead of this, they would connect it to the <unintelligible/> female, a VGA or HDMI right?
+(PERSON17) Yes.
+Um, so and so far, I only used VGA as input to our <unintelligible/>.
+It should <unintelligible/> also be able to capture VGA, but I personally have not really tried it.
+So I think <unintelligible/> is not a problem.
+But VGA we have to check if it really works.
+(PERSON21) Um-hum.
+Yeah, so could you check, uh, uh, because, uh, or <unintelligible/> should check with [PERSON7].
+But I'm afraid they will use VGA.
+And there it needs to digitize the, uh, the signals.
+So if if <unintelligible/>.
+So uh, yeah, a <unintelligible/> check with [PERSON7].
+And even if they say," It is the modern thing <laugh/>, uh,  <unintelligible/> who would be better if if you have tested the the VGA ourselves with them. <unintelligible/>
+Or well, VGA signal.
+(PERSON17) Yeah, yeah, yeah.
+<unintelligible/>
+(PERSON21) And that was sorry, who whose voice was that <unintelligible/> a <unintelligible/> was <parallel_talk/>
+Yeah, [PERSON15] will test.
+[PERSON2] will ask [PERSON7].
+Uh, uh.
+(PERSON1) Yeas I just found the mail.
+When I sent it, uh, I sent it on february 26. I did not heard from anyone.
+(PERSON21) Yep.
+(PERSON1) Yep.
+(PERSON21) So maybe [PERSON2] sent this email now to everyone.
+People are listed at the top of this, the uh, of this list in the [ORGANIZATION7] document.
+(PERSON1) Okay
+(PERSON21) So that was that was the email about the, uh the devices that headsets to buy.
+And and so on, okay, uh, thank you.
+So then we expect <unintelligible/>  video mixing notebook to be there.
+So the, uh, that will be connected to <unintelligible/>.
+And he will be also connected <unintelligible/> that is it.
+Uh.
+So is it the same notebook as the one that gets the speech signal, or is it separate notebook?
+I am asking because of the ethernet connection, because we will have only one ethernet male cable there.
+(PERSON17) Okay, so it will be, I think <unintelligible/> laptop so to be really independent, but this one does not need Internet.
+So everything <parallel_talk/>
+<unintelligible/>
+Separate laptop to to have things around independently.
+So.
+If something happens, we can easily restart one of the two, um.
+(PERSON21) Mm-hmm,
+(PERSON17) <unintelligible/> network
+(PERSON21) Yeah, two notebooks, uh, provided by <unintelligible/> both needs, uh wired connection.
+(PERSON17) Exactly.
+(PERSON21) <unintelligible/> Important.
+Okay.
+So we need to make sure that we have two cables, or that we bring our own.
+Well further for that one more not becauset <unintelligible/> I guess that when they when they <unintelligible/>.
+I do not know how they will set up the network.
+So the easiest option is to, uh, to bring one more network, others translating router.
+(PERSON17) My suggestion [PERSON21] would be also to check the internet configuration.
+I mean, the Ip configuration if it is provided by DHCP on the overall ethernet or what or whatever it has to be done.
+(PERSON21) And yeah, exactly, <unintelligible/>
+And , uh, uh, double check was [PERSON7] the IP figuration, the DHCP, or static addreses so whatever.
+(PERSON17) And maybe the firewall settings in general because I think connect to the mediator uses <unintelligible/>  unusual ports
+(PERSON21) mm-hmm.
+(PERSON17) So just to be sure that there is nothing in between that keeps us from from running there.
+(PERSON21) Yeah.
+And the uh <unintelligible/>
+And the overall bandwidth.
+So this is something that will probably come to, uh, a later.
+But at the beginning.
+We have already discussed that there is quite a traffic uh, going on.
+Uh.
+So most important is the speech, uh, or the heaviest is the speech, and, it will be an ideally two stages, sending speech.
+Uh, fortunately, we are not delivering speech anywhere.
+So it will be done the translation and subtitles coming back, but we are- need- we do need to record a uh, also on the spot.
+So for the for the backup pur- purposes.
+The recording can be done like remotely, not at not at the fair, uh, but a for the clearest voice competition.
+It would probably be better to record the voice already on the spot.
+And that would mean, the like two audio's coming from the fair to um the mediator and one audio one of them coming back again for the saving, right?
+Am I correct?
+<unintelligible/>
+<parallel_talk/>
+So what is the bandwidth that this will need.
+What what should we tell the the [PERSON7].
+They mentioned something like it will be one of the standard, <unintelligible/> like connections, but I do not know what they <unintelligible/>
+<unintelligible/> style.
+(PERSON17) Yeah so i think the critical part, because we are sending audio, uh, would definitly be the upstream.
+So I think with one megabit upstream, uh we should be on the safe side, because audio is not really that <unintelligible/> intensive.
+But of course, we have to have it reliable so if we have high <unintelligible/> and things will brake.
+(PERSON21) Mm-hmm
+(PERSON17) <unintelligible/> good connexion with one megabit upstream then the downstream should also be fine for displaying the subtitles.
+(PERSON21) Yeah, okay.
+And even for getting the, uh, the one of the streams for the recording back, right?
+So the clearest was composition as as I described  the there is a that uh someone is speaking.
+We are ideally subtitling this.
+And after every speaker every 90 seconds.
+We need to stop the recording <unintelligible/> create a separate file.
+So that would be to recordings going on one for the like continuous non, interrupted backup purpose recording, and another one would be this like interrupted style of recording.
+And this interrupted style of recording, uh, would, uh, also need the the audio stream come down again from the mediator to the stage.
+Uh.
+So the should, uh, that should still fit.
+Yeah, it has to be reliable, the.
+So thank you for the confirmation [PERSON14].
+Uh.
+So this reliability thing that is for a [PERSON2] to double check with [PERSON7].
+And this is exactly the last mile bit.
+So what we do not want [PERSON7] to provide would be some LTE any well, LTE are also quite reliable, but we will need some serious wired connection for the, to have that <unintelligible/> reliability that is last mile thing.
+<unintelligible/>
+Yeah.
+And <unintelligible/> we need to talk to the technical people in advance.
+Uh, to to double check the IP config, and the firewall that is that important.
+Thank you.
+(PERSON17) Just just the question [PERSON21].
+When would it be possible to check the network connection.
+(PERSON21) The day before I'm afraid and maybe like very late on the day <laugh/> because they they <parallel_talk/>
+(PERSON1) <unintelligible/> Join
+We can go to the place where the fair trade will take place on <unintelligible/> on the 19 after two PM.
+So, we can there <parallel_talk/>
+(PERSON21) The wires should be, the wires should be there already, or the, still when when [PERSON7] will start with their wiring.
+(PERSON1) Well, Ah, the main wires should be there, because in the on the 19th in the morning, the company will go there and install the <unintelligible/> and yeah, and the wire.
+So it should be there.
+Hopefully.
+(PERSON21) In the morning [PERSON7] will <unintelligible/>.
+(PERSON1) And technically speaking, ah, <unintelligible/> fair trade starts on Wednesday.
+<unintelligible/> probably in the afternoon.
+So the whole Wednesday morning, we will have probably time to check if everything is like running, and okay.
+(PERSON21) Yeah, OK so.
+Hopefully we have, uh we, have half a day, or even perhaps two halves of of day, uh, to get things running.
+Okay, uh, then the secondary stage.
+And this is where the uh, where the the competition clearest voice will be happening.
+Uh, here we expect again the XLR connector to connect to the mixing device to get the the input to get the uh, the audio.
+Now can <unintelligible/> bring also the notebooks for this stage, or should we uh, cover it?
+Like you have a double set up or uh, or <unintelligible/>.
+This is something to to to to consider, and and maybe answer later.
+Again, what we expect the uh, that we will provide the headsets.
+To the speakers uh.
+I think for this one.
+We, should probably get three, because uh, two will be needed.
+There is a yeah.
+Well, actually, I think we should get even four.
+I would say, three to four, because there is some.
+Uh, uh, in some of these 90 second sessions two people will be presenting the country at the same time, and we are running two separate tracks of this competition.
+Uh, if the people speak after one after another.
+The ASR should be able to handle it.
+But if the people start talking, uh at the same time, then the ASR will fail.
+So we need to have fair comparison between participants that have this risk of failing.
+And the participants that do not have the risk of failing.
+And that is why we have to evaluate <unintelligible/>.
+<parallel_talk/>
+(PERSON11) Yeah.
+So so I think we have two people speaking in parallel then we also need to make sure that we can input two audio signals the same time into our infrastructure.
+(PERSON21) Yeah.
+I do not think this will be possible.
+We will.
+We can try.
+But I think that there will be actually only one mixing, uh, like device, and they will not.
+I'm not sure if will be too.
+If we will be able to connect to the separate separate channels for the two speakers.
+So the <unintelligible/> solution is to assume only one channel and say that the this one channel.
+If it is the used by two persons at the same time, uh will fail.
+And that is why we have the separate track.
+So preferably, yes, yeah, the the the the uh, i will write it down.
+Uh.
+So uh, preferably, the get to separate voice channels channels.
+But, uh, we actually uh, count on having only one and uh, saying that ASR fails with a two people speaking at the same time.
+Yeah.
+So will see, for this.
+So uh, [PERSON2] should should should check with [PERSON7] uh, the exact, uh, mixing, uh device that up.
+Uh.
+To uh, learn if we can uh, have uh, two channels or just one.
+(PERSON1) <parallel_talk/> I just <unintelligible/> email to everyone here.
+So you should have recieve it.
+(PERSON21) Okay.
+Yeah.
+Yeah.
+Thank you.
+(PERSON17) <unintelligible/> so actually really go for the second option here, which is saying, and we have ones input channel and then say okay ASR may fail if there <unintelligible/> people speaking at the same time, because if you do have two separate channels, and would also need two separate recording setups, and I do not know, and <unintelligible/> it just gets more complicated.
+So which is really a <unintelligible/> as good one output and if.
+<unintelligible/> the speaker.
+So to say, behave and only speak one after the another we are fine.
+But in the other case.
+It will not work.
+(PERSON21) Yeah.
+Okay.
+So let us let us.
+Let us make it simple from the beginning of the number of headsets that is still higher, because we need.
+Like two people are getting their headsets on, and twi people having uh.
+So I would say four, uh, four for this stage.
+So two times two needed.
+Uh.
+And one could be for, uh, for backup, if one of them fails, or something like that, because it is going to get time critical.
+So we need two two people putting their headsets on and.
+Uh.
+We actually <unintelligible/>
+Uh, we count on having only one channel channel and say that ASR may fail.
+Well.
+It fail I do not think it, or would it?
+Can it succeed in it at all succeed.
+If it?
+Yeah, I think that ASR will fail.
+<unintelligible/>
+Yeah, uh, that is so uh, but anyway, uh, we should check.
+I will delete this now, but we should check with [PERSON7] how to connect our headsets.
+Now two of them to the same mixing device so that it gets both amplified  for the participants the sitting in the auditorium as well, as for uh, the the um for the notebook to to send it to <unintelligible/>.
+Ok, for the video mixing.
+This is unclear.
+We do not have a second <unintelligible/>, and we will come to this the uh, later on.
+So the uh.
+The worst option is that we are not able to present subtitles jointly with the <unintelligible/>.
+Uh, so uh, we can um have another uh, likes separate overhead projector and project, the subtitles elsewhere on the on the wall, or like over the slides and the same space, slightly  like damaging, the uh, the picture, or uh we could only have the subtitles present online in one of the what pages that a <unintelligible/> will will probably have running.
+And we can build participant.
+If you have your own internet connection.
+You can watch the subtitles here.
+Uh.
+So the the the the worst situation is that we do not provide any subtitles in the room for for the physically present people.
+If you have any other tips.
+Then uh, let me know, but will it will come to this <unintelligible/>
+It is mainly related to the uh, <unintelligible/> thing.
+So the the critical thing is, how many notebooks are there.
+Uh.
+<unintelligible/>
+Can you bring one more for the voice recording or should wee, a cover that.
+(PERSON17) So I think we should have one more for voice recording that we can use, but do not have that many notebook in general.
+So if you have one just to be on safe side and i think we have uh, one more that we can bring, um but we have to check <unintelligible/>.
+Yeah, uh, <unintelligible/> a  backup.
+So uh, we are.
+We also like need to do what we need to scrutinize, how many notebooks we have for this.
+Uh.
+So [PERSON2], this is this for you to have to make sure that we have something.
+And it should be a whatever Linux right?
+(PERSON17) Well.
+If we use it to display the the subtitles and it cant be any operating system for the recording client.
+We mainly use Linux or or Mac machines here, but I think that the architecture itself should be platform independent so I mean we have also installed our client on Windows machine.
+Yeah we mainly use, [ORGANIZATION4] as recording program.
+(PERSON21) Yeah, so the presentation of the subtitles independent, uh, like on a separate overhead projector is easy that can be done really with anything.
+Uh.
+If we do have the second <unintelligible/> then we would need actually to make this notebook, the video mixing one, and that would uh, then have to be Linux.
+(PERSON17) And it does not have to be so, so so far, we used to video mixing on windows machines, because they, the driver situation is much more easier, especially on a screen capture devices.
+So um, I also got it to work on the Mac ones, but actually havent used it with the Linux yet.
+(PERSON21) <parallel_talk/>.
+(PERSON1) Sorry I need to interrupt you, because I will have to leave, I just wanted to ask [ORGANIZATION4] and [ORGANIZATION1], who will be coming?
+For the fair trade.
+(PERSON17) I will be there, if you can please send me information where I can stay for the staying..
+(PERSON1) Sure okay.
+(PERSON5) <unintelligible/> should setup everything and when we have to attempt <unintelligible/> exactly.
+(PERSON1) Okay, so I don't know if you have to be there on Tuesday, I don't think so.
+But on the Wednesday, in the morning from 9AM till 12, there will be like the installation of the like promotion boot, so someone from you will have to prepare the offline offline demo and so on.
+And in the morning we will be probably testing if everything is running.
+(PERSON5) Okay, so.
+The afternoon is with <unintelligible/>.
+(PERSON1) Yes.
+(PERSON5) On Tues- a on Thursday and on Friday so some presentation or.
+(PERSON1) On Thursday on the small stage the will be the competition during the whole day, I guess so, and on Friday its again only half day because from 12 to 1PM there will be like the final ceremony and the closing and so and from 1PM till 2PM there will be like cleaning and packing and then its the end of the fair.
+(PERSON5) <unintelligible/> should be from Wednesday to Friday.
+(PERSON1) Yes.
+(PERSON21) Yeah.
+From Wednesday morning preferably.
+(PERSON1) Yes.
+(PERSON5) Guess we have little bit to discuss who is attending <unintelligible/>.
+(PERSON1) Okay.
+(PERSON5) <unintelligible/> information with joining.
+(PERSON1) Okay, great.
+(PERSON21) And remember there is like quite some heavy hardware that you will be bringing so, its one notebook for the offline show, two notebooks for the main stage and then if you have one notebook or perhaps even two for the secondary stage right?
+So it could be up to five, notebooks.
+And one <unintelligible/>.
+Have you taken note?
+(PERSON17) Yeah.
+(PERSON21) Yeah, thank you.
+So then there is the for this is mainly for us this is like you you need to <unintelligible/> less about this.
+There is this transcription space.
+Where likely there have been no ethernet connection, a and only on <unintelligible/> Wi-Fi wireless.
+Which is like it will not be given for use to the other participants of the.
+<unintelligible/>
+Because the every booth will will set up their own Wi-Fi.
+(PERSON5) I didnt heard you [PERSON21].
+(PERSON21) Oh, am I muted?
+No, what- whats wrong.
+Just the signal was.
+(PERSON17) <unintelligible/>
+(PERSON21) Okay, yeah.
+So what I was saying is that at the transcription space, which is where the participants of the ninety seconds the interval.
+Of the in the elevator, they will come to the transcription space, and they will transcribe their own speech, we don't expect wired connection there.
+Uh, we expect only <unintelligible/> wireless.
+Which will share the same bandwidth to the Internet with the wired connection, a and additionally has the risk of of being crammed with other people's Wi-Fi's.
+Uh, this is what will have to live with.
+But this is not a like online show this is still happening during the day.
+But there is some room for like for delays.
+And there is the offline presentation booth, I would just like to double check whether [PERSON7] providing a power socket there right?
+I think so.
+(PERSON1) Yes, they are.
+One.
+(PERSON21) Yeah yeah, one will will will make sure that we have extended course, this is okay.
+There is no internet and Wi-Fi.
+Okay?
+So now they now I think [PERSON2] can leave for her purposes.
+There is um a hope that will be anything <unintelligible/>.
+The video mixer, yes.
+So we have run into the problem that Epiphan that you have is probably no longer available, uh, because they have moved only to man- way more expensive devices.
+So the question is whether we can get different video recording device.
+So one option is to get older ones that will be the first link, and another option would be to select from uh, the uh, the car, and ones by other vendors.
+And I'm not sure if the if you like, what is the best setup.
+This is the random.
+I'm not.
+I'm not sure what I'm looking for the for.
+So if if [ORGANIZATION1] can help me that will be great.
+(PERSON17) Yes, in general, I would prefer devices from Epiphan simply because they are made for professional use.
+So they should supported wider variety of input resolutions as well as input signals.
+So so to say, analog <unintelligible/> inputs as a VGA and HDMI.
+Whereas on the second link I mainly see some recording equipment for gamers, and that typically limited to the typical 720p 1080p resolutions digital only inputs, and it may not be so flexible within the use.
+(PERSON21) Yeah, but if theres.
+(PERSON17) Use those before I mean <unintelligible/> devices.
+(PERSON21) Yeah, so you would rather recommend older Epiphan from [ORGANIZATION6] over new device.
+(PERSON17) So I would recommend older Epiphan device over a new gaming <unintelligible/> elgato what they are, so I would not buy gaming recording device.
+(PERSON21) Well maybe there is further down the list this- this is probably sorted by the price, not this is so price low to high that will be.
+This would be the gaming so or price high to low so AverMedia is something that you would say would be okay, no this is still game capturing.
+(PERSON17) Yeah its probably, I mean what I see here its mainly game capturing.
+I mean they they they may work I just havent used those.
+<parallel_talk/>
+(PERSON21) Well if.
+(PERSON17) This is something that in theory could also be fixed within VGA HDMI convertor.
+(PERSON21) Yeah but its further configuration work and.
+(PERSON17) And another device.
+(PERSON21) Yeah, exactly.
+So and of the older Epiphans, because we were unable to find a new one, is there anything on the [ORGANIZATION6] that you could like tell us by this.
+And we we are happy to to like spend 4 and half thousand czech crowns from the United States to be from China.
+But I have no idea which is the correct one, to to order.
+Obviously subject is actually <unintelligible/> broken
+(PERSON17) They probably from top to bottom I think the first one looks okay.
+(PERSON21) So the external video grabber yeah, DVI to USB 3.
+(PERSON17) Question is are there any input <unintelligible/> because its been shipped from US.
+(PERSON21) I am no idea.
+(PERSON17) <parallel_talk/>
+Figure out also, yeah, [PERSON4] <unintelligible/> been shipped from US and it probably will be make it in time.
+<unintelligible/>
+Other one from from Israel.
+So in general <unintelligible/> itself.
+At Epiphan.
+(PERSON21) Yes.
+And apparently they don't sell those cheaper ones any any more, and instead they sell only something which is 10 times more expensive.
+Or more.
+(PERSON17) Yeah, well, I think <unintelligible/> also was not bad, cheap when you bought it, so I think.
+Yeah I mean.
+(PERSON21) So, I'm fine with like two or three hundred Euros.
+But this was 1000 dollars.
+<laugh/>
+(PERSON17) Okay, so I found one for 4 hundred euros.
+(PERSON21) Okay, and thats  at Epiphan webpage?
+(PERSON17) Yeah, at epiphan.com, and <unintelligible/> go to products.
+(PERSON21) Can you just paste the link paste the link to the [ORGANIZATION7] doc.
+(PERSON17) Sure, I can.
+(PERSON21) Okay.
+Yeah, 400 dollars, okay.
+So now this is this is the thing that would be compatible with your current set up for the video, a mixing for the laptop, right?
+(PERSON17) Yes.
+So you can also see it support both HDMI as well as VGA input.
+So I think its basically just the current model of what we have.
+(PERSON21) Okay, okay, thats good.
+So we have not.
+We were not able to find this one.
+For some reason.
+So thats thats much better.
+Yes, its more expensive than than what we would have <unintelligible/>, but its okay, so we will probably order this one.
+And in that case, uh, we need to set up the software so, that yeah who can help us with this like.
+<laugh/>
+(PERSON17) Yeah, so I think this should be not big issue setting everything up I mean we can have individual call with this tool to get you started.
+If theres anything else you need from me [PERSON15] particular I think we should address this now, because I also have to run to the next appointment.
+(PERSON21) Yes, yes, yes.
+Okay, yeah so thank you.
+So that seems <unintelligible/> we have the solution for the hardware, and now quick question on the <unintelligible/> pt, [PERSON8] talk mentioned colleague who could help, the idea for the naopart is to have the attraction at the booth at the offline booth, so is there someone at [ORGANIZATION1] who would have the time for debugging and and trying to use the nao as as speakers or microphone.
+Yeah simply who is contact person not that we should discuss this now, this is very optional.
+(PERSON5) <unintelligible/> robots as well.
+<unintelligible/> really good <unintelligible/> system, the problem is <unintelligible/>.
+<unintelligible/> okay its a bad system because normally you have <unintelligible/> robot voice <unintelligible/>.
+So you would really need <unintelligible/> system and we have <unintelligible/>.
+And so I would <unintelligible/> only if you have really good TDS system, [ORGANIZATION7] <unintelligible/>.
+And I don't know if you can use it, and I would say <unintelligible/> leave this option out.
+<unintelligible/> bad TDS system.
+(PERSON21) Yeah, okay, so I know that colleague of mine has worked with Nao and to one of other occasions here, and he has used [ORGANIZATION7] TDS and then like its stopped working and reason was probably because he ran out of the three three minutes of of of demo use.
+(PERSON5) <unintelligible/> with um dis- um online TDS systems, so we have no offline system so our only option would to be to use an online system they havvery good quality but the problem is if you lose your internet connection or something else its a little its not so good and you make bad impression and your system is good but only because of this <unintelligible/> make a bad yeah impression and so I would say, yeah I don't would risk <unintelligible/>.
+If its not important I would leave it out.
+(PERSON21) Okay, yeah, yeah.
+Thank you.
+So now the were finally coming to the saucer components.
+So we have already discussed the image below [ORGANIZATION1] was not here.
+So [ORGANIZATION1], please have look for the down in the document and scroll down I'll scroll down for you now we have discussed like what the session looks like.
+And we now know that the recording will be, and the saving will be rather a worker and not not client from this.
+From the point of view of of the mediator, but thats that the little change.
+And I would just like to highlight here again, that we expect your ASR to work into stages as you've described previously.
+So first emitting words.
+And then the second worker consuming these words and putting them together into sentences and emmiting them as sentences, is that correct?
+Is it the way it would be set up.
+And maybe it is already set up in the [ORGANIZATION1] <unintelligible/> text, yes.
+Yes, you are emitting <unintelligible/> text and then where is the worker for the <unintelligible/> text.
+(PERSON17) <unintelligible/> already, one below its like <unintelligible/> text to text on the first page.
+A first page.
+Yes, so the last four items are.
+(PERSON21) I see,okay.
+Yeah <unintelligible/> text to text.
+So we ll connect these together and the reason is that we would like to connect our ASR preferably <unintelligible/> so with the <unintelligible/> setup we would only be producing Czech unsegmented text, and then we would reuse this is what we've discussed before the weekend, then we would ruse th pipeline from unsegmented text to text like for obviously for retraining it changing it but using your SLT [ORGANIZATION1] tools, so the second worker for Czech will be the same and the first worker will have to be different if we are able to connect <unintelligible/> to this, so this is all i wanted.
+(PERSON17) I mean but you have to train models of course then for Czech.
+(PERSON21) Yes.
+Yes, we have to train models for Czech for the second part, the segmenter for MT, yeah.
+So this this part for Czech has to be redone with SLT [ORGANIZATION1] yes.
+And this part wil be yeah there is still lot of work, fortunately this Czech part is not critical for the fair like their yes yes indeed there its its fair with foreign students so Czech will be spoken only very rarely there at at the presentation venue.
+So we mainly need English.
+So this is this is good were like on on the safe side.
+Uh, okay, so that the <unintelligible/> set up a is it feasible.
+We have discussed this.
+Is there a correct distinguishing between clans and workers who have fixed this.
+Uh, the English <unintelligible/> will be worker, yes.
+Clients can only receive, we understand this, some streams must be connected to several component.
+Does it need this?
+Yeah.
+So.
+<parallel_talk/>
+So yes, thats thats a general question on the mediator.
+So in some setups, we know that like the of the take the lets take the example of a doubly recording the same voice.
+So, there is the notebook that get the audio signal sends this to the mediator.
+And then we need this, this voice signal to be saved both to like interrupted stream.
+And in another a worker we need to save it per parts.
+Uh, my understanding is that I would set this up with the fingerprints so that I would say that the first the the client that get the audio and then sends it to the mediator produces a produces for example.
+It produces the input fingerprint, it it produces German hybrid, then the recording worker consumes this DE hybrid and it produces, the hybrid dash copy one.
+And then the ASR the ASR itself should connect to DE hybrid copy one.
+To do the to do the ASR job.
+Yeah.
+I'm not clear, I realize.
+<laugh/>
+(PERSON17) <unintelligible/>.
+Let me type to <unintelligible/> [PERSON14].
+(PERSON5) I also didnt understand your example but you are probably on the correct way, one client may run for example one output stream to the mediator but ask for two different <unintelligible/>.
+For example one asking for one recorded audio and one ask ASR recognition.
+(PERSON17) Sorry, we lost you.
+<unintelligible/>
+(PERSON21) You are just quiet, you are really quiet.
+(PERSON5) Do you hear me?
+A little bit better.
+(PERSON21) Yes, thats better.
+(PERSON5) Okay.
+One client may start one output stream but ask for one or more input stream, one for example from the audio recorder worker and one asking for ASR recognition.
+I commited an example last week in the GitHub repo in order to explain a little bit better how to perform these usecase through AB client.
+(PERSON21) Um-hum, yeah.
+Okay, so I think its its lets proven not go into the details in this call where everybody's present will talk to you [PERSON14] later on.
+If we are not sure.
+Yeah.
+If if our way of setting up is the optimal.
+Uh, yeah.
+So uh, that lets lets leave this for for the technical discussions.
+Then yes, [PERSON10] is not on this call, right?
+Is he?
+(PERSON17) No, no.
+(PERSON21) Yeah, because his his help would be would be would be appreciated for the uh, interruptive worker that will save, uh, the signal to separate files.
+So we will have one session spending for two hours or more of the 90 seconds per uh, ninety second in elevator.
+So this will be recorded as the whole.
+But then we would like to have a secondary worker.
+And the secondary worker should just, uh, have, uh, get some input signal from elsewhere, such as a touchfile in in the directory and if touchfile exists it would open the touch file and see what file what output file name it should use for the current recording.
+It would  would then save the coming the incoming data to this one, uh, recording file, then the touch file would would be deleted by the operators sitting at the at the the uh, the stage, and these this stopping worker or this interrupted worker will keep fitting in the pipeline.
+But it will no longer record into any file.
+And again, when touch file appears again.
+It would start saving the data again to uh, to another file.
+So for this for this tweak of of standard recording worker, uh, experience of [PERSON10] or, someone else would be.
+Would be useful.
+So we'll talk to him separately, right.
+Yeah, uh.
+Okay?
+So I think yeah.
+Yeah, okay.
+Yes, I heard my voice was not always recognized but nevermind.
+So that yeah, there is there is some dresscode.
+This is something to discuss with [PERSON2] and also obey what whatever she says, she says black trousers white shirt and then she is going to buy blue bowties and blue <unintelligible/>.
+<laugh/>
+So this is for those who are actually coming you will you will learn about this later on.
+Um.
+So the basic machine translation support is from English into German and Czech.
+And hopefully, if we get Czech running as well, then from Czech into English.
+And from Czech into German via English.
+That would be maybe automatically in the in the mediator, uh, and the status of the empty components.
+So this is this is finally the place where I would like to ask my colleague [PERSON6] to present I'll just give him my my headphones.
+To to say what is the current status, and uh, to how to how should we test our our machine translation with your German with your English with your English ASR.
+So here is here is [PERSON6] now
+(PERSON3) Hello everyone, can you hear me?
+(PERSON17) Yes.
+(PERSON3) Okay.
+So, the currents current status at the moment is that, um, I'm actually not able to ping the mediator to [ORGANIZATION4].com
+So I'm not sure whether its up or or down, maybe I've missed the the some details at the beginning, so.
+(PERSON5) <unintelligible/>
+(PERSON3) Okay.
+Let me say that it is not possible to just ping the server because ping is not available.
+So you have to check the connection to the port.
+Okay, I though it was pinging but nevermind, so good to know that its not possible to ping the server.
+Anyway so when there is, like, <unintelligible/> servers we can start the clients there and basically see what happens, so from what I've understand there is there will be um, input coming in in English right?
+And does the client request the Czech translation or is is there a client or whats the setup at the moment.
+(PERSON17) If you use the example client you can send Eng- English audio and request the Czech translation and then <unintelligible/> should automatically find the <unintelligible/>.
+Do you hear me?
+I cant hear anything.
+(PERSON3) Everything is gone.
+(PERSON17) Now its back again.
+<other_noise/>
+(PERSON3) Okay, sorry, I didnt hear you for a for a <unintelligible/> more than minute so.
+Could you repeat what you were saying?
+(PERSON17) I just said that you can use the example client to send Czech audio to the mediator, <unintelligible/> workers are available.
+You can get English transcript, or or in requesting the transcript on the other way, you can send English audio and then you will get the translation in Czech.
+(PERSON3) Okay, so.
+So there is an ASR for for what language for English or for for.
+(PERSON17) <unintelligible/> For German <unintelligible/> connected.
+(PERSON3) Okay.
+We will get some sample in in English and we will test it with the simple client okay.
+Are there any any specific requirements for the sample I mean.
+You know that the sampling grade or something like that.
+(PERSON5) Well, 16 <unintelligible/>.
+<other_noise/>
+I will send you audio specifics by Email maybe.
+(PERSON3) Okay.
+So, th- the thing is running now and we can test it whenever we want or are there any any things that we should think or to do before we start testing.
+Or or, yeah.
+(PERSON5) <unintelligible/>
+Whenever <unintelligible/>.
+<other_noise/>
+<unintelligible/>.
+(PERSON3) Um, um, it might be nice when you are sending an mail with the with the details about the the simple setup, could also send some some example command <unintelligible/> client just to you know make it quicker.
+(PERSON5) Okay.
+(PERSON3) Yeah, okay.
+Thanks, um.
+Pass [PERSON21].
+Thank you and bye.
+(PERSON21) Hi, so thanks for the <unintelligible/>, I was not able to listen to them unfortunately because <unintelligible/> out of headphones.
+So <unintelligible/> the the worker for I'll show the admin web.
+The SMT from English into Czech like an equivalent for the line that I have now highlighted in the in the mediator admin web is ready.
+But we need to test it and there could be many bugs discovered and we expect that we should connect after the line that I've highlighted now, so after the [ORGANIZATION1] translation service and <unintelligible/> which produces N text is that correct?
+I don't hear anyone.
+Okay.
+(PERSON17) Yes, from <unintelligible/>.
+(PERSON21) So, as as [PERSON21] said please send us and I don't think you have send it yet to me, I'm not sure but correct me if I'm wrong.
+Please send us also the sample command line to test it, so the command line that takes  some audio file on sitting on our disc, works as the client to the mediator sendthe speech in an online form, like online for online processing not the batch processing and uses your ASR into unsegmented text and moves on to the ASR so moves onto the English segmented text then uses our worker to get the translation and then prints the translation.
+This is something which is very simple for you to write but this will be our first use of of of this pipeline so seeing the command will will save us a lot of time.
+(PERSON5) Yes, no problem, I will send you the example and the audio specifics.
+(PERSON21) Yeah.
+Yeah, so we'll we'll try this and we need to try this very soon today tommorow so that if there are any problems with the worker of ours then we can <unintelligible/> them because like we expect receive individual sentences in English but there is problems <unintelligible/> here.
+(PERSON5) Okay.
+(PERSON21) Yeah, okay thank you.
+So actually we will receive the example command from [PERSON14] not from not from [PERSON18] and from [ORGANIZATION1] point of view all with service are running we should be simply able to use them and thats it.
+Right?
+(PERSON17) Thats what we hope, as always we are not sure.
+But yeah.
+(PERSON21) Yeah, yeah.
+Here is what is this.
+Yes, so someone has it was probably [PERSON17], it would be perhaps interesting but this is very optional, to also offers subtitles translated or not like not present them at all.
+But to offer them in the online web form web web webpresenter.
+To other languages.
+So there is 52 Czechs, 3 Slovaks, 19 German, like participants, 19 Italian.
+<parallel_talk/>
+So whenever whenever I say company it means like 2 perhaps 3 high school students or maybe 4 I dunno.
+And then 13 Belgian, which is Dutch and French probably but we don't know the the separation, 7 Romanian companies, 4 Spanish companies, 3 Russian companies, 3 Bulgarian companies, and and 1 Luxembourghish company.
+So here is the priority of languages that people would like to read, perhaps.
+And we can, this is very optional, nobody expect that from expect that from us at the fair, but it will be a dry run for the for the [ORGANIZATION3] setups with more target languages.
+So if we can add further workers for having translations.
+Available also in Italian, and in German, well German is there.
+So Italian, and French, that would be good.
+And then Romanian I don't think that we have that.
+And Spanish would be an interesting interesting thing to have.
+<unintelligible/>.
+(PERSON17) Yeah, [ORGANIZATION1] can start workers for Italian, French and Spanish.
+(PERSON21) Yeah, so, yeah.
+I'll just <unintelligible/> and that would be good and if you would start this workers how do we make the clients available.
+<laugh/>
+<parallel_talk/>
+So like <unintelligible/>.
+(PERSON17) <unintelligible/> Can always specify which language he wants to have and he just has to specify then that he wants to have this languages.
+(PERSON21) Yeah.
+<parallel_talk/>
+So, my question is what is the way of presenting these additional subtitles to the participants.
+So for that you have a webpage that shows this, can we see the webpage or how does it work, this webpage connects as a client to the mediator right?
+(PERSON17) So I mean we havent <unintelligible/> webpage yet for [ORGANIZATION4] but for our mediators we have a webpage and there you can select the session and then you can select from all available workers which language is you want to show.
+(PERSON21) Yeah, so is it compatible with the current [ORGANIZATION4] platform, can we also try this like debug this in in the coming days
+So that we know that the presentation it is also important for for the case that we failed to have the second video mixer for the secondary stage.
+So I think it would be good to have this webpage running.
+But it has to be compatible with the current mediator, or there should be another such webpage from [ORGANIZATION4].
+So what what is available, what can we use presenting translations.
+(PERSON17) Currently we don't have the <unintelligible/> webpage, we can first <unintelligible/>.
+<unintelligible/>.
+Webpage mediator <unintelligible/>.
+You know we have to do the presentation <unintelligible/>.
+(PERSON21) Yes, yeah.
+(PERSON17) It will be developed but not for the <unintelligible/>.
+(PERSON21) Not for the fair, right, yeah.
+So the only option that we have for now is is to try to get the [ORGANIZATION1] presentation webpage running.
+Do you know the details, anyone on the call, how difficult it is to to set it up even with the our mediator and what complications can we expect when moving to the [ORGANIZATION4] mediator as it is, as it works now.
+(PERSON17) We have to talk with [PERSON8] he's <unintelligible/> managing, the thing he is <unintelligible/> on holidays, so I don't know if we can test it this week or only next week.
+(PERSON21) Um-hum.
+And its proprietary or is there any chance that you could release this later on.
+(PERSON17) I have no idea.
+Sorry.
+I have to talk with [PERSON8].
+(PERSON21) Yeah, okay, yeah.
+Too bad.
+Okay so well, this is this is i mentioned that is is highly optional.
+Then we'll probably ask next week but that will be <unintelligible/> only to, well that will give us only the one week.
+<laugh/>
+To to try running it.
+And fixing whatever is needed.
+So another, but <unintelligible/> I don't think that we will be able to like create such a client ourselves within his limited time so.
+Yeah, hopefully hopefully it will work, at least as a fallback.
+And whether we will need the workers whether we will actually be able to present the translation <unintelligible/> something <unintelligible/> collect.
+Would there be any chance to ask him like where, so ask [PERSON8] even on holiday like where it is and if you could look at it or is that a <unintelligible/>.
+<laugh/>
+(PERSON17) I mean its not that easy to setup, so you need to be, its not that we can do it half a day or so.
+So I guess setting up is little more complicated.
+(PERSON21) In contact <unintelligible/>.
+Okay, so lets probably leave it as it is because for the main purpose we ne- we have the the thing that we need or that will be the video mixing thing that you have and you will be bringing physically for for the main stage, so for the main thing this will work.
+Okay, so this is we are at the end of of this very complex list and.
+Everything that I wanted to ask, is there anything that you you realized that I might have forgotten or.
+If not I would like to double check for holidays like who else, who is now on the on the on the call is going to have holidays before the fair, anyone or?
+<unintelligible/>.
+<laugh/>
+Okay, I take that everyday from now on everybody will be will be present so hopefully we would be able to get everything running.
+We definitly should have the, the English to Czech subtitling with our machine translation system tested this week and we should know the bugs this week so that we have the next week to to fix but we should hopefully it will work out <unintelligible/> but I'm not sure we'll we'll we'll have to see.
+So the sooner you you like.
+We should actually, <unintelligible/> it connected I'll talk to [PERSON21] and we should try today to connect it to the mediator and then get the command line from [PERSON14] and and and run it and we should order the Epiphan and see if its if its at all coming in in time for this.
+And the headsets, yes this is another important which which to buy, this is the highlighted thing, this is also something that will need time.
+So please [ORGANIZATION1] fill this for us whatever is recommended and we'll, if you if you if you find.
+<parallel_talk/>
+It has an English interface but we know that this eshop is very fast with delivery.
+So if you find the good, some suitable headset at [ORGANIZATION8] I'm quite sure that we'll get it in time.
+Yes,so can someone from [ORGANIZATION1] confirm that.
+Hello.
+(PERSON17) I have lost part, I have lost part of the your speech.
+(PERSON21) Okay, yeah, I said we will try to order the Epiphan, as we discussed below and we need to know from [ORGANIZATION1] perhaps even [ORGANIZATION4] which headphones, not not phones the microphone the headset micrphone, should we buy and then give out to the presenters, and if you if you would be so nice and look at the [ORGANIZATION8].cz eshop it has also an English interface and locate some of the headsets because this is an eshop that we know very well and reliable and and it has fast delivery.
+So with [ORGANIZATION8] I'm quite sure that we would be able to get those headphones, headsets in in time.
+For eshops there is a risk with with the purchase.
+(PERSON3) Okay.
+Just a quick question from my side <unintelligible/>, I am looking for wired microhpones or wireless microphones.
+(PERSON21) I think it has to be wireless, because thats <unintelligible/> it will be at the stage I don't think that, that the wired microphones would work.
+(PERSON3) Okay, all right, sure just wanted to make sure and I have a look at wireless and send you some recommendations.
+(PERSON21) Yeah, okay.
+<parallel_talk/>
+Okay, thank you.
+Its everything from my point of view at this moment, so if nobody has anything to add.
+Thank you very much.
+Yeah well I'm I'm getting nervous, I hope you are not.
+<laugh/>
+And we'll see each other in two weeks from now, and we'll also be in touch with with resolving any other technical issues as we test the the whole setup.
+Okay.
+So thank you very much for participation, thank you bye bye.
+(PERSON5) Thank you, bye.
+(PERSON17) Bye bye.
+(PERSON3) Bye.

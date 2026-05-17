@@ -1,0 +1,22 @@
+[PROJECT1] Surge
+
+
+Date: 21. 04. 2020
+Attendees: [PERSON17], [PERSON1], [PERSON16], [PERSON13], [PERSON9], [PERSON22], [PERSON5], [PERSON14]
+Purpose of meeting:  Work status update
+Agenda: 
+* Filling up system papers
+* Online and Offline ASR	 
+	* Data in corpus - source
+* Recording [ORGANIZATION7]
+* Annotators - transcripts
+	* Timestamps
+* R programming language
+* Description paper
+	* Submissions  
+* [PERSON16]'s file
+* [PERSON1] systems
+	* Filling up papers - who will do which one 
+
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,37 @@
+[PROJECT2], Horizon 2020 programme
+2020/06/21
+08:03 - 09:25
+
+• Attendees: [PERSON5], [PERSON11], [PERSON9], [PERSON3], [PERSON20], [PERSON4], [PERSON8]
+• Purpose of meeting: to discuss items from the [ORGANIZATION4] sheet
+o to get everything running on the full workload (all the target languages in the presentation platform) to have more inter-channels
+o to work with the outputs from the ASR
+o to go through the topics in the [PROJECT2] document
+o to do the necessary debugging
+o to check the fingerprint map
+o to test the subtitles during someone's talk
+o to use the bridge selecting different bridge workers 
+o to enable all the interpreters to see their subtitles as being recognised – immediate feedback to improve the quality
+o to collect some feedback from the participants (Feedback form on [PROJECT2] Subtitling at [PROJECT1])
+• regular call – every Friday
+• the discussions held over an on-line platform 
+• the familiar setup used 
+• Workflow:
+o still waiting for the confirmation from [ORGANIZATION3] regarding participance of the student of journalism – whether they can enter the building and to record  
+o the journalist has to sign the same non-disclosure agreement as the interpreters
+o problems with subtitles (one has to run English and German separately, not at once; some segmenters not working)
+o [PERSON22] and [PERSON7] did not respond to the e-mail
+o a problem regarding storying user data
+o it is important to have the metainformation in the presentation platform
+o the user interface - make the presentation platform more comfortable for the user
+• Plans:
+o regular calls – full Wednesday, very likely also Tuesday afternoon
+o a working copy will be deployed the next week
+o a [ORGANIZATION4] form will be organised – will be content of the video
+o possible background images or other material will be found
+o [PERSON9] will come in the afternoon, [ORGANIZATION2] will arrive on Wednesday (in the evening) 
+[PROJECT2], Horizon 2020 programme
+2020/06/21
+08:03 - 09:25
+
+

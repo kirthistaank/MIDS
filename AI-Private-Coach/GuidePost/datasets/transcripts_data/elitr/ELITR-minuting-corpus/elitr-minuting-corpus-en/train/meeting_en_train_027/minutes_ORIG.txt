@@ -1,0 +1,122 @@
+Minutes from call Tue Oct 6, 11 AM CEST
+
+- Progress report
+-- Status?
+-- [URL]
+-- We need to address:
+- Recommendation 1: We recommend to be more specific in the report regarding the related work to publications. Specific examples:
+- (1) life-long learning, which particular strategies will be investigated?,
+-- -> [ORGANIZATION3]?
+- (2) mention that multitasking in end-to-end ASR with LM has not worked;
+-- [ORGANIZATION3] - [PERSON10] will check with [PERSON19]
+- This is not on [ORGANIZATION3], we never did any multi-task training with LM in end-to-end ASR.
+-- [ORGANIZATION15] - [PERSON17] will check with [PERSON28]
+- No, this is not on [PERSON28].
+- (3) regarding the paper of massively multi-lingual MT with random back translation for unseen languages, it would be nice to make a two-sentence summary conclusion.
+-- -> [ORGANIZATION11]?
+-- Done by [PERSON29]
+- Recommendation 2: Specify what basic research advances are going to be integrated and not, specify the procedure to select them. In the current report and in the future.
+- -> [ORGANIZATION15] (todo)
+- (PERSON18) [PERSON17] please correct the plot
+- [PERSON18] to ensure that we submit the updated version on Friday
+- Review recommendations for future work:
+-- Recommendation 1: Collect document-level data and multilingual when possible. Mention on metadata gender and nationality/mother tongue in the ASR data. Aim at diversity on collected data.
+- -> WP1
+-- Recommendation 2: Two research papers have been published together during the previous period, as recommended by the reviewers in the first period, which is a good start, but the reviewers recommend to intensify this effort in the next period by having more common publications.
+- [ORGANIZATION1] 2021 demos: submission on Jan 15 (re-sending our paper there, not as regular [ORGANIZATION1] paper)
+- What specific collaborations do we want to promise to ourselves?
+- [ORGANIZATION15]-[ORGANIZATION11] SLTev??
+-- [PERSON4] is submitting an [ORGANIZATION1] paper tomorrow, [PERSON17] is now editing it. We started some discussion with [PERSON34] some time ago but did not go far enough. Can we resurrect it today, for the submission tomorrow?
+- [ORGANIZATION15]-[ORGANIZATION11]-[ORGANIZATION3]: Minuting?
+-- [PERSON32] has contacted [PERSON34] and [PERSON19]. Any followup?
+-- [PERSON6]: I'm working with minuting now, a collaboration is possible
+-- [PERSON32]: We have just connected over Slack ([PERSON34], [PERSON19]). Came up with the proposal index. Would come up with the first draft soon. Hi [PERSON6]! Let us catch up on this. 
+-- You can put me on this mailing list
+- [ORGANIZATION15]-[ORGANIZATION3]: end-to-end SLT?
+-- [PERSON28]'s potential internship at [ORGANIZATION3] could be preceded by some remote collaboration.
+- ?? [ORGANIZATION10] + some research partner, some joint experiment
+- ?? [ORGANIZATION8] + some research partner, e.g. some case studies
+-- Recommendation 3: The main test event [ORGANIZATION12] 2020 has been postponed to 2021 due to Covid-19 pandemic, which is of course unfortunate and for the which the consortium can't be blamed. However, it would be important to take all necessary steps to anticipate a replacement of this 2021 event in case it is again cancelled and come up with a mitigation plan.
+- Please propose options.
+- [ORGANIZATION12] 2021
+- yeah, no significant news yet. ZŠ has seen the virtual VMWorld conference and liked it. BUT: If it will be online, a czech contractor will be paid to arrange the things. Still have to see what they can offer and whether that can accomodate [PROJECT2] subtitles or not.
+- META-FORUM could be an option
+- [URL]
+- [PERSON19] reminded us that this is only English
+- [PERSON17] does not see it as a problem, the participants are still from many countries.
+- [PERSON17] suggests to use META-FORUM 2020 as a test event, run our systems there without too much publicity.
+- If there is no [ORGANIZATION12] Congress, we will try to get to META-FORUM 2021.
+- Update on Oct 7: [PERSON17] got positive response from [PERSON24] and we will be testing our pipeline at META-FORUM 2020.
+- [ORGANIZATION2]
+- ask [PERSON36] if he could somehow help us with this
+- [PERSON34] suggests various side events around parliament plenary session.
+- Past events:
+- Pi Campus ([URL]) webinar “A Glimpse at the Future of NLP from Spoken Audio Translation” streamed on youtube [URL]
+- [PERSON17] asked [ORGANIZATION8] to also provide a list of possible events:
+- [ORGANIZATION8] should be in reasonably close touch with the organizers
+- The topic would be ideally something mid-level broad, not too general (TED talks) and not overly specific (such as maths, computer science).
+- The audience should be potentially multilingual, but not necessarily multilingual in the current instances of the event yet.
+- It definitely needs to include some ‘local' languages, e.g. German, Italian, …
+- We are member of two german business associations, first is bitkom e.V. and BITMi. Beyond the membership level we have no connection to the associations and no influence on the events. However, we have researched some interesting events here.Our suggested events are:
+- Hub.berlin ([URL]) 
+- BITmi ([URL])
+- [PERSON17]'s suggestions:
+- [URL] which now seems more likely to go hybrid, but we are reasonably close to the organizers
+- COVID-extension
+-- [URL]
+-- [ORGANIZATION11], [ORGANIZATION10], [ORGANIZATION8] please look and provide ideas (or say ‘none') today
+-- Filing the request at the end of the week.
+- WP status - please report, what's new
+-- WP1 Data
+- ESIC: Europarliament Speech and Interpretation Corpus ([PERSON29])
+- considering this name -- any better suggestions?
+- Working on alignments of EN->CS part
+- 7346 speeches, 131 hours out of 239, 1.2M EN trans. words
+- Planning to manually transcribe/align dev and test set
+- ECA: European Court of Auditors ([PERSON10])
+- We have English &lt;-&gt; 22 EU, approx 4M sentence pairs
+- working on non-English
+-- WP2 ASR
+-- WP3 SLT
+- [ORGANIZATION11] presenting dynamic masking paper at AMTA this week
+- [ORGANIZATION11] starting to look at online E2E SLT (new researcher, [PERSON23])
+-- WP4 MT
+- Nothing new since review meeting
+-- WP5
+- Preparation of the shared task on summarisation
+- preparing the data (renaming, moving to git, dividing into train-dev-test, controlling ethical issues, ...)
+- system-runs from at least three teams from [ORGANIZATION15], 
+-- [ORGANIZATION3], [ORGANIZATION11] system-runs will be needed
+- Evaluation metrics
+- automatic evaluation metrics (work in progress by [PERSON31] and [PERSON32])
+- manual evaluation metrics: very subjective, but will be needed, because the automatic ones are not fully reliable
+- Writing the proposal for Task A, B, C for Interspeech 2021
+- Some coordination with support groups
+- CfP, data release, evaluation
+- Shared Task Probable Timeline (Interspeech 2021)
+-- Proposal Submission: November 2020
+-- Notification: December 2020
+-- Trial Data Release: January (early) or earlier (as soon as acceptance)
+-- Training Data + Dev Set Release: February (early)
+-- Test Data Release: March (early)
+-- Closing of Submission: March (end)
+-- Announcement of results: April (early)
+-- Paper Submission Deadline: April (late) -- As per Interspeech 2021 deadline
+-- Notifications: As per Interspeech 2021
+-- Camera-ready deadline: As per Interspeech 2021
+-- WP6
+- Mediator updated to fix license issue experienced in august and september
+- Would we like to plan the meeting to discuss about the revision interface we saw during the review meeting?
+- Yes, [PERSON22] will plan it
+-- WP7
+- We are in the process of checking whether there is a possibility to publish a scientific paper
+- Draw up an editorial plan by the end of the year (e-mail will be sent to all project partners)
+
+-- WP9 Ethics
+- [ORGANIZATION15] will have one more person on Ethics (high-level supervision, compliance with regulations, not technical), but with availability only from ~January or later.
+- WP5 needs to release some trial data in March
+- To handle ethics issues properly and also in response to a somewhat sudden opposition in the [PROJECT4] project, we are going to collect consents again for all the recordings we have so far.
+- We will have the data pseudonymized, provide a sample to the people and ask them with a slightly different working, i.a. highlighting that we would like to use the data in shared tasks.
+- [PERSON17] plans to go as individual as necessary, deleting individual people from the calls if required.
+-- Btw, recoding in a platform which separates channels would be very practical. Local zoom recording (if set so in the settings) and [ORGANIZATION8] support that.
+

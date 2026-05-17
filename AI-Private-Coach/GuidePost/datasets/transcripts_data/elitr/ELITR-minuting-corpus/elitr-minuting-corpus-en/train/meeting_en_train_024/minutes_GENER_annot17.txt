@@ -1,0 +1,36 @@
+[PROJECT2] Demo preparations 
+Date: 05. 05. 2020
+Attendees: [PERSON3], [PERSON1], [PERSON5], [PERSON4] 
+Purpose of meeting: preparation for demo, to figure out how to best display the demo to the project officer
+
+Discussing expectations: what the demo will look like
+- The project officer will be also connected to a similar online meeting.
+- He will see a screen capture, which will be split into 2 parts: the video with subtitles on the top and [ORGANIZATION1]'s presentation platform on the bottom.
+- The video played to him will be in Czech (later also in English and German).
+- The spoken Czech from the video is going to be transcribed and then translated to English and Romanian.
+
+Detailed objectives of this meeting
+- Test this prospective set up.
+- Select a video to translate.
+- Get feedback from [PERSON5] on the quality of the Romanian translation.
+-- i.e. whether it is usable or not, how bad the Romanian translation is compared to the English subtitles, which are already a result of translation.
+
+- Firstly, the quality of the translation of what was being said in the meeting itself was assessed (English > Romanian).
+- Some sentences made sense, but there was definitely some randomness and nonsense, a funny incorrect translation: Czech vs. cheque.
+- This is a good result: the system is not error proof, moreover, it was not adapted to the domain of the system itself or languages / linguistics.
+
+Testing the set up
+- Deciding how to watch a video in a shared session was a little complicated.
+- There were problems with delayed sound and making sure that everybody clicks their play button at the same time: that is not a reliable method at all.
+- For the real demo, it is necessary to have 2 machines: so that the speakers' audio will not be transmitted to the pipeline, only the audio from the video will be transmitted and then transcribed.
+- Before watching the video in German, it was necessary to speak for a little bit in German: so that the system became adapted to recognizing German.
+
+Conclusion: findings, complications, optimizations, decisions
+- There were problems with audio repeating from other participants.
+- The set up of watching a video together in one meeting absolutely needs to be simplified: there needs to be a way to launch the video for the participants, not relying on them to click the play button.
+- Following 2 sets of subtitles in 2 different languages is difficult, an idea proposed for simplifying this: follow just the [PROJECT2] subtitles, then discuss whether the contents of the video were understandable just by reading the [PROJECT2] subtitles.
+- There was a problem with Czech translation showing up for one of the participants: the solution was to manually re-type the entire link or getting the correct link from another participant, just reloading the page did not work.
+- There was delay for some participants: the heavy network traffic on the machine is a big risk and it might be causing delay. 
+- There were some suspiciously long sentences and problems with the segmentation of sentences in the Romanian subtitles: this is a fault of the system that fails to divide the sentences correctly.
+
+Minutes submitted by: [ANNOTATOR1]

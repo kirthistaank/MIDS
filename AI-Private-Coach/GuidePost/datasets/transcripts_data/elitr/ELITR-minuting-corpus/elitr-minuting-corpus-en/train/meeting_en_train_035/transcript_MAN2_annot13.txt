@@ -1,0 +1,323 @@
+(PERSON6) Try to record it if it works.
+Now it seems that it is working.
+Yeah, I see that it is recorded.
+And now I will try to share my screen.
+<parallel_talk> And share.</parallel_talk>
+And, can you see that?
+(PERSON7) Yes.
+(PERSON3) Yes, mhm.
+(PERSON6) Uh, I just wanted to show, uh, [PERSON7].
+Uh, and could you look at the data at my screen now?
+Uh, uh, [PERSON7]?
+(PERSON3) I think he is there.
+(PERSON6) Er-, [PERSON7], are you-?
+<other_noise/>
+Uh, okay.
+If if [PERSON7] is not here, uh, I will just show it-.
+(PERSON7) Oh sorry I just opened up the window.
+I I just-.
+(PERSON6) Uh, okay, okay.
+(PERSON7) <unintelligible/>
+(PERSON6) Uh, uh, so I managed to share the screen and, uh, please take a look at my screen now.
+I just-.
+Uh, uh, one thing, uh, you sh-, have dec-, have to decide when we speak about Git and other repositories.
+So in each meeting folder-.
+(PERSON7) Yes.
+(PERSON6) We have different types of files.
+And some files are kind of-.
+So it is clear that we exclude this, uh.
+(PERSON7) Yes.
+(PERSON6) Big files.
+And then it is cle-, clear that we include these annotation- annotated files.
+Uh, uh, this with, uh, minutes and transcripts, and uh, uh, uh, this transcript, uh, automatic transcript.
+And the question is also, if we include some other additional files.
+So there is a lot of something.
+That , uh, uh, was created during the, uh, uh, speech recognition.
+Uh, uh, so some kind of stuff that I expect that is not actually needed.
+At least it is not need it for me, but it could be needed for somebody else.
+So, there could be some additional questions by organising the folders.
+So, this is just the wanted to say that we will-.
+Uh, sorry.
+If, if you discuss it with [PERSON2] without me, there are some additional files in the folder.
+(PERSON7) Why would I discuss it without-.
+I mean this, this should be discussed all together.
+So-
+(PERSON6) Well, hopefully, hopefully.
+We will discuss it all together.
+I just wanted to say-.
+(PERSON7) I always, I always email to the minuting, uh, to the minut, uh, email list.
+(PERSON6) Yes, okay.
+(PERSON7) I never email to a person specific so there is no reason to discuss it without you.
+(PERSON6) Mhm, okay.
+Then, just-
+(PERSON7) So, uh, well, uh, we normally exclude the big files.
+So, we want to include everything possible, because we need the information.
+But from the other hand we cannot include everything, because it's too big.
+So we will try to compromise if I may-.
+(PERSON6) Yes, yes.
+Mhm, okay.
+(PERSON7) To find some reasonable let's say rule.
+And apply it in all the folders.
+So-.
+(PERSON6) Mhm, yes.
+But let's do it within next week, so.
+(PERSON7) I'm checking the sizes right now and I see that besides the-.
+So it-.
+Everything is in kilobytes so if we exclude the MP4 files, then everything else would be included.
+(PERSON6) Yes, okay, mhm.
+(PERSON7) So, its only the recordings, I don't see other big files that-.
+(PERSON6) Yeah, but there could be some stuff that nobody, that no one needs.
+So its actually, no need to include it.
+(PERSON7) I don't know.
+(PERSON6) Let's, let's see it together.
+(PERSON7) <unintelligible/>
+(PERSON6) It has no sense to discuss it now.
+I  I don't think it's so-
+When we do it together, we will discuss it.
+(PERSON7) It is, yeah, so-.
+I don't see anything big besides the recordings.
+(PERSON6) Mhm.
+(PERSON7) Well everything else is in, in kilobytes and kilobytes it's not problem.
+We can, we can push it.
+(PERSON6) Yes, yes.
+Okay.
+(PERSON7) But there-, there should be a way.
+[PERSON2] was not clear if the development is going to be in one place or in two.
+So it's not really clear what to do with the rest, like in the future.
+When adding some other-. 
+(PERSON6) Yes.
+This is-.
+That's why I think about-.
+Yes, de-, definitely-.
+I, that's-.
+(PERSON7) So, like how is it gonna be?
+I don't know.
+For the moment that's it from me now.
+(PERSON8) So what?
+<unintelligible/>
+(PERSON8) So what, so what are you actually saying [PERSON7] for the development of-? 
+Like for the <unintelligible/> about the other repository?
+(PERSON7) Sorry?
+(PERSON8) Yeah.
+So you were telling about something like are you at <unintelligible/> about something, like having the detail that you can put also in the repository? 
+Or?
+(PERSON7) Uh, yes, [PERSON2] asked to create a repository.
+For storing the data set, the minuting, [PROJECT1] minuting data set.
+But he was not clear like how to do it, why to do it, like how.
+I mean, because also [PERSON6] said that it cannot be a public repository, because the data is not only <unintelligible/> so there are some issues to discuss about this.
+And and so we will also have to exclude this MP4 video recordings because they are big and we cannot store them in GitHub.
+And then its the issues with the rest of the work like how is it going to?
+How are the annotators going to proceed?
+They will put everything in GitHub only or they will keep also the cluster storage or-?
+<other_noise/>
+There are synchronisation issues.
+So, its not clear.
+This thing is not clear.
+(PERSON6) Mhm.
+We will discuss it I think as we meet, meet with [PERSON2] and we will just come to the agreement.
+(PERSON7) Okay.
+(PERSON6) Okay.
+I don't-.
+Mhm.
+(PERSON3) I think it will also benefit, I think it would also benefit when we release the data.
+Because we we can directly make the private repository to be public.
+Once we release the data for the shared task.
+(PERSON6) Mhm.
+(PERSON3) I think that the GitHub repository will help us in that case.
+(PERSON6) Mhm, yes.
+(PERSON7) Okay so.
+What else are we going to discuss today?
+(PERSON6) I have nothing.
+<unintelligible/>
+(PERSON8) [PERSON7]?
+Uh, yeah, go ahead.
+(PERSON7) No, please go on because <laugh/> I was just thinking, uh, I don't know of anything to discuss.
+So if you have some questions or something, like you can ask me.
+(PERSON8) Uh, I don't think I have right now.
+<laugh/>
+(PERSON7) So we are having a session with [PERSON1] tomorrow.
+Like know more about the, about the, about the, about the various <unintelligible/>, servers, CPU.
+So yeah, hopefully if you would have some more questions the day after for you.
+(PERSON6) <laugh/> 
+(PERSON7) Yes, okay.
+(PERSON8) [PERSON7] what other works you were involved in.
+Like apart from this minuting?
+<other_noise/>
+Now I'm waiting for a response-.
+<unintelligible/>
+I am waiting for a response from Colling I have a paper there.
+So-
+(PERSON8) Aha.
+Fingers crossed.
+(PERSON7)  It's it's very long like.
+Since end of June.
+Like more than June, July, July, August.
+More than-.
+It's almost three months, so.
+Uh, yes, I do not know why they're delaying the response so long.
+And it was also confirmed that it will be online.
+It was supposed happen in-, to be in Barcelona this year.
+Which is very beautiful city.
+But Spain is facing the second wave, and they decided to do it online.
+So, so it's it's not funny.
+<unintelligible/>
+Even if I get accepted.
+(PERSON8) I've been to Colling, uh, last last time it was in Santa Fe, uh, in New Mexico and yes, Colling was really nice.
+They had those excursions, exhibitions, so-.
+(PERSON7) Yes.
+I've seen that they have like a record number of submissions.
+Like.
+(PERSON8) Yeah, yeah, yeah.
+(PERSON7) Like two thousand four hundred or two thousand five hundred this year.
+(PERSON8) <laugh/> 
+(PERSON7) Which is a record number.
+(PERSON8) I just, I just submitted a paper in <unintelligible/>. 
+And it was something in a range of eight thousand.
+Like oh my God <laugh/>.
+I don't know.
+(PERSON7) Yes.
+Uh, so it is also happening in the other <unintelligible/>.
+<unintelligible/>
+(PERSON7) I had, I had two rejections.
+Yeah.
+I had two rejections this this month.
+And it's just because like the papers are not within scope.
+I don't know why it is, so.
+Like we are also working on <other_noise/> submitting it to some other venues you know.
+And it has to be <other_noise/> so much for the late production that the <unintelligible/> parts are according to the, according to the aims of that of that venue <unintelligible/>.
+<other_noise/>
+Yeah.
+What about [PERSON3]?
+(PERSON3) Uh, I'm wa- working only on minuting right now.
+Nothing else.
+(PERSON8) Okay, okay.
+Wonderful, wonderful.
+Yeah, so you are the leader for us.
+<laugh/>
+(PERSON6) I, I just passed, finished my degree so-.
+(PERSON8) So, what about [PERSON6]?
+Yeah.
+Yeah, yeah, yeah,
+(PERSON6) Can you hear me?
+(PERSON8) [PERSON6] what, what, what, yeah, yeah what other works you were doing?
+Apart from the minuting?
+(PERSON6) Oh, well, I'm also working on uh, uh, wor-, uh, morphology project.
+On one morphology project.
+And I am-
+During the last days I did a lot of reviewing of the papers.
+So I am, I was really busy with reviewing some papers for [PERSON4], linguistic ones.
+(PERSON8) Yeah.
+(PERSON6) And I will polish the data.
+<unintelligible/>
+It takes quite a lot of time and as from the minuting side for organizing the annotators.
+<unintelligible/>
+Because we write a lot of emails and <unintelligible/>.
+Kind of.
+(PERSON3) So I get like lots of-. 
+(PERSON8) I understand [PERSON6], because do you know like during-.
+Go ahead [PERSON3].
+(PERSON3) I think that my audio is a little late.
+So I <other_noise/> okay you go ahead.
+So it's <unintelligible/> I think.
+Yeah.
+(PERSON8) So I know [PERSON6] like how like how to deal with the annotators so-.
+I have developed four data sets as a past of my Phd.
+So I know <laugh/> what what kind of mess it could be.
+<laugh/>
+So yeah.
+(PERSON6) Yeah.
+(PERSON8) And still one <unintelligible/> like we are continuously developing and actually that data set paper got rejected from TLSN.
+And we were are very disappointed, because it was such nice paper.
+And we have put at least nine months of effort into that paper.
+(PERSON6) Mhm.
+(PERSON8) So, yeah.
+But, we are again like trying to reformat it and send it to somewhere else, but-
+It was it was it was so close to my heart-.
+That paper.
+(PERSON6) Yeah.
+<laugh/>
+(PERSON8) I really wished that it was-.
+(PERSON7) And what about the-
+(PERSON8) <unintelligible/> concept.
+(PERSON7) And what about this systematic literature review.
+Because some time ago you said you were going to do a systematic review.
+<unintelligible/>
+(PERSON8) Yeah.
+(PERSON3) Yeah, we are doing that [PERSON7].
+(PERSON7) Yes, that would be good.
+As a start-.
+(PERSON8) And we are overwhelmed; we are overwhelmed with the number of papers that are already there.
+In some area of the research.
+(PERSON6) <laugh/>
+(PERSON7) But you have to focus in something specific.
+You you should not go broad, in broad.
+Well, you have to to focus in some aspect.
+(PERSON8) Yes.
+(PERSON3) So [PERSON7]?
+(PERSON7) That is not already out there, because other my otherwise that are many others.
+Other systematic reviews about machine, about, uh, yes, uh, machine text summarization and other things.
+(PERSON8) <unintelligible/>
+(PERSON7) So you should try to find a pattern in the papers that you read and come-.
+Let's say a common pattern or something.
+And the focus in that and try to do the review in that thing.
+(PERSON3) Mhm, so [PERSON7] we thought that, we thought that specifying only the, uh, the minute, uh, meeting summarization.
+(PERSON7) Uh, yes, uh, well, I think there are already some of them.
+I'am not sure about it.
+But yes, it's it's-.
+I I think it's I think it's enough specific.
+If it-.
+It is enough specific so it could be something good like, maybe.
+Uhm. 
+I am not sure if there are some broad reviews.
+(PERSON8) Uh, so we have just one minute and it will get disconnected.
+(PERSON6) Uh, may just just please [PERSON7] did you see that.
+(PERSON8) Yeah, just a minute to in a call.
+(PERSON6) Did you see it in, in, in, [ORGANIZATION3], uh, in [ORGANIZATION3] [PERSON8], uh, shared with us the papers.
+So you can take a look at them.
+(PERSON7) The papers?
+(PERSON6) Uh, maybe [PERSON8] could you also share the papers with-.
+(PERSON7) I see, I see some dialogs here, lines.
+(PERSON6) In drive, not the dialogs, but in drive.
+In the [ORGANIZATION3] dri-, drive there is a folder-.
+(PERSON8) Yes, I will, I will, I will share that link.
+I will share that link.
+(PERSON3) Yes.
+(PERSON6) I think help.
+Because [PERSON7] has the over- the overview on the papers.
+It would be good.
+(PERSON3) Yeah, yeah.
+[PERSON7] has a good knowledge of, uh-.
+<unintelligible/>
+(PERSON8) Yes, I will do that.
+(PERSON6) Yes, please.
+(PERSON7) What is this dialog that I see here now?
+(PERSON6) He will send you, he will send you the-.
+(PERSON7) Okay, okay.
+(PERSON6) Uh, and, uh, one more, uh, little thing.
+Uh, [PERSON7] could you look at this au-.
+(PERSON8) I will send you [PERSON7].
+I will send you, yeah.
+(PERSON6) [PERSON7] could you look?
+Should I del-, should I do something with this <unintelligible/>?
+Or you will manage it?
+(PERSON7) No, no, no, no, no.
+Absolutely not.
+They are fine.
+(PERSON6) Okay, mhm.
+(PERSON7) They are fine.
+(PERSON6) And what about dates?
+If there are, if there are some dates like here it could be also a point.
+Like should I do something with that?
+(PERSON7) No, no, no.
+Leave, leave them as as they are.
+Don't waste time on this.
+(PERSON6) Okay, mhm, okay.
+Perfect.
+Then I'm eady.
+So see you.
+(PERSON7) Okay.
+(PERSON6) Thank you.
+And we should be disconnected.
+Bye bye.
+(PERSON7) Okay.
+(PERSON8) So, bye everybody.

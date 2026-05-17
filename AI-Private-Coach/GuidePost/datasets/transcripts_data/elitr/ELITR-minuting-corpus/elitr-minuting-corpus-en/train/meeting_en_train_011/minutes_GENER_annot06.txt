@@ -1,0 +1,52 @@
+[PROJECT2] [PROJECT4], 19.08.2020
+Attendees: [PERSON6], [PERSON3], [PERSON7], [PERSON8], [PERSON4], [PERSON5]
+Purpose of meeting: [PROJECT2] dry run, presenting new work packages, brief overview of the project
+
+Summary
+• this presentation was kind of a extension of a demo which was ran for project officer 
+• [ORGANIZATION12] is the coordinator of the project
+• [PROJECT2] is a research and innovation project
+• few research partners ([ORGANIZATION8],[ORGANIZATION1])
+• integration partner ([ORGANIZATION9] - [LOCATION3]), user partner ([ORGANIZATION10])
+• six core languages (English, German, Czech, French, Spanish, Italian, Russian)
+• [ORGANIZATION2] languages are 24 EU + 19 additional languages
+• Work package 1 - data collection
+	• it is a central role in the project
+	• 43 target languages
+	• sampled large multilingual parallel corpus
+	• EU project Paracrawl - focused on cooling a parallel data
+	• 40 000 sentences per language
+	• collected data is used to evaluate ASR, MT and SLT systems
+	• 92hours worth of meetings in ENG, 50hours in Czech
+• Work package 2 - ASR
+	• sequent to sequent models is wanted
+	• several components of ASR had latency problems
+	• two second delay in the online system
+• Work package 3 - spoken language translation
+	• ASR and MT work together better
+	• ASR produces imperfect transcript, so MT is used to make it perfect
+	• ASR and segmentation are changing, could be real problem
+	• latency and flicker are both user interface issues
+	• bad ASR means most of the segmentations are very disruptive for MT
+	• [PROJECT3] is how much the translation changes meeting updates
+• Work package 4 - multilingual machine translation
+	• baseline models - 3-4 [ORGANIZATION2] languages
+	• some of the models are English centric
+	• idea is to have one neural network which translates into several languages at once
+	• other focus is on multi source translation
+	• training is on 10 000 language pairs from 100 languages
+• Work package 5 - machine translation
+	• populate the agenda topics with the corresponding conclusions of the minute
+	• different segments of clusters for even up to 10 sentences
+	• preliminary scores - current prototype reaches up to 16%
+• Work package 6 - integration and deployment
+	• face to face conferencing, and remote meetings
+	• developing presentation layer integrated with the [ORGANIZATION9] service architecture
+• ethical matters problem - collect consents from human participants
+• make meeting recordings as anonymous as possible for persons who doesnt agree on being recorded
+
+		Milestones
+		• [ORGANIZATION7] (postponed one year - May, 2021)
+
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,660 @@
+(PERSON1) Hello everybody.
+Is this working.
+(PERSON9) Hi.
+(PERSON1) Is this working?
+(PERSON12) <unintelligible/>
+(PERSON9) <another_language/>
+(PERSON13) Hello [PERSON1].
+[PERSON1], do you hear me?
+(PERSON7) Hi everyone.
+(PERSON9) Hi.
+(PERSON11) <unintelligible/>
+<other_noise/>
+(PERSON9) Hi [PERSON14], good morning.
+(PERSON5) Hi everybody.
+(PERSON14) Hello.
+(PERSON1) One, one.
+<unintelligible/>
+Not working [PERSON11].
+(PERSON13) Hello, testing for [PERSON11], audio test for [PERSON11].
+(PERSON12) Hi, we can hear you.
+(PERSON13) Then you have to mute it.
+Or you can set the threshold, so perhaps when if I'm quiet enough.
+<unintelligible/>
+(PERSON5) Hey [PERSON17].
+(PERSON14) Hello.
+<unintelligible/>
+(PERSON17) So somebody is on loud speakers.
+I can hear myself.
+(PERSON11) Maybe from my mic mic.
+Can you hear yourself?
+(PERSON17) Yes.
+Okay.
+(PERSON13) Everybody.
+We cant hear you.
+We da- we don't hear you.
+(PERSON17) Okay, now.
+Yeah its always so yeah.
+But that is really strange, because I could hear myself already.
+And that was, I see that was from [PERSON11]'s mic, so that was what I'm saying, so [PERSON11] is sitting next to me, and he has to mute his input so that it is not captured as my sound actually.
+So we still don't have anyone from [ORGANIZATION4], right?.
+(PERSON1) You are quite loud [PERSON17].
+<unintelligible/>
+(PERSON17) Okay.
+(PERSON1) But here its fine so far.
+(PERSON17) I'll try to mute myself a little.
+So.
+Yeah, one question that I have on [PERSON1] actually, as a technical one.
+How do i set it up, how do I connect so that I'm connected with my user profile.
+Because I would like to see the Czech translation if if possible.
+(PERSON14) Then I'm I'm I'm not sure if if I got your right.
+But if you click on the um chatbox.
+You see the transcription right?
+(PERSON17) Yes, yeah, but they are in English.
+(PERSON14) Ah, okay, oh I'm sorry [PERSON17] <unintelligible/> for ask our developers, and another <unintelligible/> development team want to participate today so I'm still waiting for him so I hope he will be there today, but otherwise I will write down your question and will tell the guys that.
+(PERSON17) Yeah, how to see, so they now against sorry.
+So the thing is that I actually do have an account.
+I forgot is it [PROJECT3], [ORGANIZATION5] or is it [ORGANIZATION5] I'll try to figure it out.
+Like how do I connect to the room through my account, so that [ORGANIZATION5] know its myself,
+(PERSON14) Okay.
+Okay I guess its just a different kind of settings we have to do because um, we created a new company for this for this testing room.
+So maybe we just have to add your account to the new company.
+So that should be fine, but I will write it down.
+And we will talk <unintelligible/>.
+(PERSON17) Okay, yeah, yeah, yeah.
+Ok thank you.
+So are we still waiting for someone we have got [PERSON5].
+Hi [PERSON5] most of you are probably muted so.
+(PERSON5) I'm here now, I'm here with [PERSON13] and [PERSON4] as well.
+(PERSON17) Yeah, okay, great.
+So I'll also hide myself with.
+<laugh/>
+Sorry.
+<other_noise/>
+I know that [PERSON1] must be crying because we are totally like breaking the.
+(PERSON14) I'm just asking myself well that's a <unintelligible/> conferencing software and everyone hides <unintelligible/>.
+(PERSON17) The thing is that I'll share my screen in a second.
+For just sharing the document that you have access to.
+And the thing is that you still can see my face, but I don't see my face anymore.
+So that makes me like anxious about what is being sent to to all of you.
+Thats the reason why I prefer to, to like be hidden.
+If I'm hidden then- if I'm hidden to myself then why should you see me.
+Thats the point.
+Ok.
+So thanks everybody for taking part in this call.
+I hope that we have not forgotten anyone that we have all partners present here.
+As always this session is being recorded for the purposes of minuting work package so if you do not agree please say so now and [PERSON6] or rather [PERSON7] will later on still get your general consence for this.
+I think we have done that, yeah so; please double check.
+That's just yeah.
+(PERSON7) I think we have to know.
+Okay.
+(PERSON17) Yeah so.
+Is there anything that people would like to discuss.
+So this is this anything people want to add to the agenda.
+If you have anything, any topics that you need to bring up please mention them here.
+And one technical question is something that we need to figure out for the next year is, how are we going to deliver subtitles through 400 people at the congress.
+So this is something that you can ask your network people in your institutions.
+What they would recommend, because we know that Wi-Fi will fail.
+So this is for all the technical people around who were figuring out what, so we could maybe connect some of them through wires or we could bring presentations screens to some places and the auditorium.
+Um.
+This is all to be all to be discussed.
+We have quite a few months for that, but its not an easy thing to solve.
+I'm mentioning it.
+Okay, so the next important thing is the date of the pre review meeting.
+You've heard about this pre review already.
+This is, so we will have the full review after month 18, uh, about a year from now, or a little more, but the the project officer, would like us to have a pre review meeting for which we will need to have deliverables finished.
+And the soon approaching deliverables in some reasonable form, which for this.
+It seems that it would be good to have it somewhere between September 23 and October 4.
+So I will- I've already asked [PERSON7] to prepare Dodo for this.
+So please fill this Doodle rather sooner than later, when its here the link will appear here and sh- will find the date.
+It would be remote meeting with our project officer on the call I think.
+And yes, and wh-.
+But really sure about the financial data.
+But probably they will ask us to have some financial data, ready by then like to see how much we have spent in person,months and money.
+But most importantly, they were a bit checking the content of the project with its proceeding well.
+Then the thing that, we are really working on hard these days is the preparations for the workshop for [ORGANIZATION1] which is to happen just in no the name today, because they need to register them officially as well.
+So here is the uh, the sheet, where you should enter yourself.
+We really think that the more people are here the better because then you will see the setting.
+You will see the programs live.
+And that will be that really helpful for various things, and the days of the workshop on that with 27 and the 28 of June, the end Friday.
+And there was a mistake in the dates actually.
+So this is an a very important message for all of you who are coming or helping with that.
+Uh, we got one day extra thanks to the mistake.
+So the mistake was that it is happening on Wednesday and Thursday.
+But it is actually a Thursday and Friday.
+So Thursday is full day session.
+And Friday is just the morning.
+And here is the place that's- where it is going to happen.
+If you were coming and you needed any help or assistance with accommodation, or whatever talk to [PERSON7].
+Running as smooth as possible.
+We have this technical document, so if you are curious.
+And you don't know this document by hard.
+Have a look.
+We have regular calls, and we have tested the technology today.
+It was mostly working.
+But also many things were terribly failing and some components are still missing.
+In general, I'm I'm very happy from the progress here.
+I know it is hard thing to do.
+And I know that all the partners involved in this are working very hard to make this happen as successful as possible.
+So the I'm still not confident, it will be successful dry run.
+But I'm not sure as any errors than I was yesterday, or the day before.
+So I think we are we are doing our best to be.
+The most important thing that I would like to remind every technical partner now would be to work on this fingerprints map.
+If I open that its actually nothing really at the moment yet.
+So what we-
+What we have now is only the list of languages that we need to cover.
+And the French is kind of unclear so the essentialy for the final end user to display language.
+There is all these processes and interconnected components.
+And the way they are connected together through these fingerprints.
+And if we have these fingerprints in some messes status.
+Then it is possible that every partner will connect their com-.
+The pipeline will not be constructable, because the fingerprints wont match.
+And it will be like one more level of complexity to debug the to to have the.
+So so please, when you have-
+Whenever you are working on any component, please add the component here such as just by adding a rectangle.
+And saying that, this is whatever, soon English to Czech empty.
+And then input fingerprint is something output fingerprint is something.
+And we'll review pretty pretty prepare such as such boxes here, and we'll review this and make sure to notify you that your fingerprints should be said differently so that it works together.
+And so this is a technical request for for everyone.
+So thats this thats this, sorry.
+The fingerprints map here.
+And then another important thing I would like to bring up is the invitations to present.
+Sorr, mouse is too clever I've released my my one one of my fingers and it it requires me to lift both of them.
+I've received several invitations already to present [PROJECT3] as a running project.
+With its progress and is the big data value Association summit in Riga, which conflicts with our workshop.
+So thats why I immediately refused for myself, but I've asked [PERSON18], [PERSON9], [PERSON15] and maybe other <unintelligible/>.
+But so far, I didnt get any any response.
+I think it would be useful for the consortium as a whole to be represented there.
+And its also important for the upcoming European like project calls for projects would be able to make it.
+Please let me know now, and I'll forward that to the organizers.
+Essentially there is some match language processing workshop as part of this summit, and that the program of this workshop is still, hopefully a in preparation.
+So we should be able to to to get ourselves in.
+So they are really keen on having us.
+But I don't have any anyone to to be there yet.
+So, yeah, I don't know, if if it [PERSON9], no no [PERSON9], if.
+<unintelligible/>
+And all we all come up that if someone from a doctor.
+(PERSON13) <unintelligible/>
+(PERSON17) If someone from.
+Nobody else is is familiar enough with with [PROJECT3].
+They may be anyone from anyone from [ORGANIZATION8], or.
+(PERSON1) I can ask [PERSON18] again, but other than that I cant think of anyone.
+(PERSON17) Yeah, and from [ORGANIZATION4]?
+Again, I know its hard.
+So.
+(PERSON5) Yeah, its really bad timing cuz he is just going for a holiday and its yeah, I don't think its going to be possible its a really its <unintelligible/>.
+We need one person here to work because-
+<unintelligible/>
+(PERSON17) Yeah, thats right.
+So the last resort would be Alfa- [ORGANIZATION5], Alfa training if someone would like to join this big data value association.
+So for you, this might be interesting.
+If-
+The long term, you would like to be a part of well the, the set of organisations that apply for your projects.
+So if you are happy with the <unintelligible/>
+<laugh/>
+And the, and <unintelligible/>.
+(PERSON5) [PERSON17], could you, I'm not really clear about value of that, this summit actually is.
+(PERSON17) Yeah yeah so.
+I can hear myself so please if you can.
+Yeah thank you.
+So the idea is that it is.
+So my understanding is that the Europe essentially has, collects quite substantial amounts of taxpayer money, and they want to spend them in some reasonable way and finding out the reasonable way is not easy, even for the the knowledgeable people.
+So what they regularly do, talk to various lobbistic organizations in the sense.
+And these lobbistic organizations are various associations of researchers or or research institutes or companies, working in various areas.
+Like buzz work or mt important buzz phrases artificial intelligence, so the people are now lining up on the various buzzwords, and they are talking to each other and then they write various reports, and and summaries of the status and summaries of the risks if we don't handle this and that.
+And this eventually in one way, or another makes it to the calls that the European Commission Regularly brings up.
+Watched topics you would like to work.
+So if you stay away from this.
+Then you will only receive the calls, and the calls may or may not be in line with your original interests, and you have to adapt to the calls, and you are only learning about the call when its up, when its actually published.
+If you are part of these discussions.
+You know, in advance, what is going to be in the calls, and you are partly shaping the calls.
+So it may be easier for you to adapt for it, is always open, but you have or have not the benefit of knowing whats whats behind the words.
+So thats thats the general reason.
+So there is is long-term vision of the Europe.
+And now in particular from the people who have have put themselves together.
+The under this labor big data value chain, if you work with big data, and [ORGANIZATION5] does.
+Because you, if you take all the recordings, and you want to search them search through them.
+And all that coul- that could be considered big data.
+So thats why there is this <unintelligible/> language processing workshop there, because there can be lot of <unintelligible/> language appearing in the big data.
+Then it might be interesting for you to know, who else is working on similar topics.
+Solving similar problems or,
+I hope I've clarified whats whats whats the value.
+For this, and then is obviously its one tick.
+So we just tick off yes.
+We have presented [PROJECT3] at this forum.
+And from that we have these new contacts and these new potential customers.
+(PERSON12) Yes, I will discuss this with with <unintelligible/>.
+And few fellow developers so.
+Yeah, I will give you feedback.
+(PERSON17) Yeah, yeah.
+Thank you.
+The next one is metaform.
+And again, I was asked and I promised to to ask everybody here, because its difficult for me this day- These days in October eight and nine.
+We are probably going to have a meeting from another project that I'm on.
+And so I could not against [PERSON13] you were there some years ago, werent you?
+(PERSON13) Its sort of its probably been more interesting than this BTB <unintelligible/> higher density of information, that <unintelligible/> more relevant.
+I guess somebody from [ORGANIZATION4], because we will probably ask presenter or <unintelligible/> from [ORGANIZATION4] may go, I dunno who I just noticed we have a bit might be bit tricky for me, cause we have a project meeting on the tenth of the eleventh.
+But thats in London, so, possibly, yeah possibly.
+Some people be able to go and may not be an [PROJECT3] person.
+<unintelligible/>
+(PERSON11) I probably have teaching them, so I'm not sure <unintelligible/>.
+(PERSON13) So I may go I'll look at our somebody from [ORGANIZATION4] may go.
+Who could be briefed about [PROJECT3] at least.
+So, yeah, its its
+<cough/>
+I mean for me its a bit its a bit clearer to find to go to the event like <unintelligible/>.
+Like having the visibility <unintelligible/> forum.
+Useful visibility at the BDV its just a huge event, and you get lost in these events its much harder to actually have a impact <unintelligible/> I think.
+<other_noise/>
+(PERSON17) Okay, yeah, so there is the particle of thing that I know in the program or PDV
+Is that there is this workshop.
+And there is the relevant people at this workshop.
+So I know that [PERSON] is is organizing <unintelligible/> organizing that that workshop, but they maybe organizing the whole thing.
+So yeah, so it.
+I think it would be a great division of labor.
+If [ORGANIZATION5] was able to to go to Riga and just present what we are doing any if any [ORGANIZATION4] could.
+I'll take the note.
+And probably nobody, but till <unintelligible/>.
+For [ORGANIZATION5].
+And I'll tell the ELG organizors who have asked me that they should talk to to you [PERSON13] on whether someone from [ORGANIZATION4] will make it or not so thats it.
+So that they know its.
+So its.
+So its not sitting only in my mailbox, and and but your mailbox aswell.
+Thank you.
+So thanks a lot.
+And the last one that I know, and this is something for the interpreters and translators of of the European Commission, and and this is something that I'm probably going to make myself.
+So lets I'm not strictly asking, if someone would like to go here, please let me know. Help would be appreciated as well.
+But I think this can be covered.
+Okay.
+Um-hum.
+Thats this one?
+(PERSON7) Now I created the doodle for our review meetings so you can yes.
+(PERSON17) Hello, sorry.
+So yeah, please fill yourself to the doodle in the meantime.
+So then we have the milestones.
+Sorry, again.
+And the milestones we are late with the recording.
+But actually the recording is working fine.
+As far as I know, we've had last fix from France few days ago, because the timestamps were not precise enough to reconstruct the the session, but otherwise, and we are even able to up to the precision.
+Able to reconstruct the voice of the like join session, and we have this per stream, per person.
+Right, is it correct?
+(PERSON11) Probably.
+(PERSON17) Yeah, yeah.
+So I think this recording is now ready, and I'm going to tick this off.
+So this this will be great, and then the spoken language translation prototype.
+I think thats essentially fulfill with to the mediator.
+So, I think that this is something that we can tick off as well, correct me if I'm wrong.
+(PERSON11) <unintelligible/> its SPD.
+(PERSON13) Okay, yeah <unintelligible/>.
+(PERSON17) Yeah.
+[PERSON5] agrees, exactly.
+And [PERSON3] mentioned something.
+(PERSON11) The first point the [ORGANIZATION5] recording is not working.
+<unintelligible/>
+Can I hear myself?
+Okay, its working now.
+<unintelligible/> [ORGANIZATION5] recording through the PD platform <unintelligible/> that.
+I know we have recordings from [ORGANIZATION5] when used from [ORGANIZATION5].
+(PERSON17) Oh, okay, I don't think that is important though.
+So they.
+The reason why we had it there.
+Like through the [ORGANIZATION2] platform was to make sure it successfully like, and that it is capable of of delivering the translated subtitles.
+And we have this capacity as well.
+So its not recording through the platform.
+It is recording separately, but it is actually connected to the platform in a sufficient way.
+So I think that we are happy with the with the setup.
+So, that.
+(PERSON14) Thanks for the explanation.
+(PERSON17) Yeah.
+It is Euro side.
+So it should be all the possible target languages.
+But I think that we should be nice to ourselves here.
+And we should say that all the <unintelligible/> that [PERSON5] from [ORGANIZATION4] actually has has created are sufficient base line models.
+And we should tick this off at the end of the month as well.
+You agree?
+(PERSON11) Okay, I do actually have miltilingual system, which those all of the Euro side languages or very nearly all of them.
+(PERSON17) Oh excellent.
+(PERSON11) It doesnt performed very well, but it does basic translation at least.
+(PERSON17) And its, so can it so is it that you have trained all the source and all the target languages-
+(PERSON11) Oh, no
+Let me think.
+Yes, i think its many to many system that covers all of the languages <unintelligible/> source for target, but for any language pair that does not involve english it is going to be zero translations so probably not very good.
+(PERSON17) Oh, I see.
+So you have to read only on <unintelligible/> data that had English on one of the sites.
+(PERSON11) Yeah thats right.
+(PERSON17) So could you, we can say that this is a baseline model <laugh/> , it is surely a baseline <laugh/> can we work on some evolution of this, and maybe some fine tuning?
+So it has been shown by <unintelligible/> some years ago, that if you do little bit of fine tuning, then suddenly, the you can like upscale, you can make zero-shot, perform much better.
+(PERSON5) that that may be true, but then you have a combinatorly explosions, if you have a 100 languages, and you want <unintelligible/> 10000 times.
+<unintelligible/>
+(PERSON17) If you is if you have these mixed batches, and within the batch you would not cover not all of the languages but, in the next batch you would be covering other ones.
+So mentioned to do fine tuning, not to create too many different with the other pair,
+with the zero-shot pairs hoping that it will improve the quality across all the pairs.
+This is something that has to be tested.
+(PERSON5) I mean, this is something we are testing.
+I'm not sure we do not need to have this part of the basetime, because its still an open question even find tune on those and have it as it as a single model.
+If you have thousands on that transition directions will the model forget the old ones, <unintelligible/> again.
+(PERSON17) So what are your immediate plans with this [PERSON5]?
+Are you?
+So it is it is great that you have it.
+So I think, we will just take this off, but we would really like you, would really be happy to you to be close to this development like to test that our cells are best set up to actually make this system useful in the many to many translation set up.
+So if you essentialy use this system twice.
+Then and you go through the English.
+Then all the combinations are no longer zero-shot so evaluating, highly mountable fine-tuning is, is something very interesting for, for paper.
+So is it, is this on your plans?
+And can we somehow got involved?
+(PERSON5) Ah yes I can I can suddenly share the data I am using, and the models I've trained.
+Yeah, if you want to colaborate on this.
+So yeah, the idea is talking about about that along the same lines.
+(PERSON17) Yes, so a later in the document I mention that hopefully I might have someone a student as the summer intern.
+And this is exactly that type of activity that I could ask him to do.
+Like to run the various, could even have someone for some part of the summer to work on this.
+I would be watching him only remotely unfortunately, uh, but still, like, I know from from past that was that he was able to many things running his own.
+And it was actually good work.
+But,<unintelligible/> translation.
+So all these milestones or in good shape.
+It is it is excellent news, and I need to take them of in in the system and in <unintelligible/> platform,  available, and we should be seeing the subtitles right?
+Where are those subtitles?
+So this is this.
+I see myself talking.
+Should i scroll fully down, or is there some scroll to the end?
+And this is something that needs to be improved later on.
+Is is not is not scrolling in anymore,<unintelligible/>
+One, two, three, four, I don't see my output.
+(PERSON17) So the scrolling is a little bit confusing for the moment, but it is not too bad.
+So I'm not <unintelligible/> only English subtitling.
+And so only english as our is there, but I know.
+And this was my question at the beginning of the call to Armen, that, if people such their language, [ORGANIZATION5] client should know what is my preferred language for the subtitles
+And then the workers should, should be used like automatically.
+So this is very much related to the fingerprints.
+So we eventually after the <unintelligible/> workshop, which will test all the various translation directions from English into the the six or seven languages and possibly from German into something.
+Then all this should be immediately available in end of August and some basic support will be there.
+So [ORGANIZATION5] will probably keep working on the on the user interface, so that it is more usable and <unintelligible/> but, otherwise,I thing we are good, right?
+(PERSON13) I'm I'm with you [PERSON17] <unintelligible/>
+(PERSON17) Yeah, thank you.
+And, there is this milestone is supervised by <unintelligible/> on the initial ASR systems.
+So this actually is underspecified in terms of the languages.
+But the aim of this milestone interpreters at the <unintelligible/> congress.
+So we are working on the czech ASR all the time, and we still have no real succes but we are working.
+And by the end of September we should be much better state than we've-
+So there will be a <unintelligible/>.
+What what other languages?
+German, English are fine,they are covered.
+Then <unintelligible/>
+(PERSON14) <unintelligible/>
+I can hear myself from your microphone.
+(PERSON17) Great.
+(PERSON9) Yes we can hear you.
+(PERSON14) Yes, you, you <unintelligible/>
+You.
+Get mixed up.
+Yet.
+He gets us.
+(PERSON17) Oh a Russian yes, OK.
+English, French, Spanish, Russian <unintelligible/>
+So thats a question for <unintelligible/> by [PERSON14] and [PERSON14] is not working on ASR, so, OK,.
+Okay.
+Yeah.
+<unintelligible/>
+[PERSON18] mentioned that you will have something, but not the highest possible quality.
+So is something that you already have at hand, or should you retrain in its from scratch, because his old models and the software has changed in the meantime, or have you do you know?
+(PERSON12) <unintelligible/> we um we might have been.
+And so in the past, we will go with the Italian friends and this to turn <unintelligible/>.
+And this is <unintelligible/>.
+But for us, and I we<unintelligible/> we never will be less than.
+So <unintelligible/> do not know, if we we need to process in a <unintelligible/>.
+But it is it is, you know, it is like for you, which is where the room and everybody<unintelligible/> loves off.
+(PERSON17) And then we have these language scope, which is listed here on <unintelligible/>.
+And here in the scope of the languages, there is the a ASR a primary focus is well covered experimental, we are working on check, but we need to cover French, Spanish, Italian, and Russian somehow.
+So please take this into account,<another_language/>
+And so you know that they are you.
+So if you were afraid that you are not going to have a baseline models for the other languages.
+Please talk to me.
+And we should we should somehow like jointly put the <unintelligible/> together to to have all these languages covered.
+<unintelligible/>
+Uh, remember, there would be the real interpreters, who will test it <unintelligible/> student in their interpreters.
+I think that the ASR quality would be better than the ASR plus machine translation quality.<other_noise/>
+It will be probably better to follow the the Spanish interpreters speech.
+So this is why it is important from the users use point of view to have this.
+So [PERSON5] please keep this in mind, [PROJECT3].
+<unintelligible/> and how much of what you have needs to be redone, um, and how <unintelligible/>.
+And if you are struggling with this.
+Then we, for example, might try to cover Russian as well, but we have no data for this.
+And I would really need to like start searching for Russian data.
+(PERSON14) But I mean, for Initio ASR system <unintelligible/> you need to cover Russian?
+(PERSON17) And that is a hard question.
+So the lets.
+I think that if we do not and if we skip this, and then we we excuse ourselves, then will be good, but it is still good incentive to try to cover the languages that we want.
+So maybe [ORGANIZATION4] <unintelligible/> directly on the call now.
+They may have access to the the resources so.
+I know that you have <unintelligible/>
+Told me what data you use and that someone that especially the BBC data was not available for any other research <unintelligible/>.
+But maybe there is other things.
+Now we start with the a Russians were soon not well.
+(PERSON11) I say," Well, okay<unintelligible/>
+So I was used to some readers on.
+(PERSON17) So please, if you can ask around and dig this up.
+Then the Russian is something which is not covered by anyone as of now.
+So any starting point would be good.
+So.
+Thank you.
+So this is end of end of September.
+And we'll see how how well this goes, but for the other milestones.
+I think that we are in very good shape.
+And here, if we if we if we reinterpret in initially, in some way, where we are good as well.
+So then the deliverables for internal review.
+This was our old plan by mid June, complete contents, internally reviewing starts, and the reviewers are listed in the deliverable sheets, which you can look up.
+And the overly fleings are also in the uh, the one, which is not finished at all is the initial training data separating confidential and public version.
+So.
+Well, I admit, I have not had chance to look at this myself, even um.
+And I see that they will work on crawled corpus after the nineties right?
+(PERSON13) That's right.
+I still- I think i have one section to do <unintelligible/>.
+(PERSON5) So here are basically three sections <unintelligible/> for this this session on Czech ASR but I think there's so far nothing in the deliverable itself.
+(PERSON17) Okay.
+So we will see [PERSON8]
+He's still doing is exams this week, but we will have them from the very morning Monday morning, and will make sure that he is the first thing he does would be actually writing or putting the contents to this action.
+(PERSON5) Okay. And the other two parts [PERSON13] and myself are responsible for so I will make sure my <unintelligible/> by early next week.
+(PERSON17) Yeah, OK.
+(PERSON5) <unintelligible/>
+Yeah, by, the end of next week.
+We will have something ready for <unintelligible/>.
+(PERSON17) Which is great that will be still in time for the internal review.
+So who is the internal reviewer?
+Does anybody anybody remember?
+<unintelligible/>.
+(PERSON7) Okay, the fillets maybe she.
+<unintelligible/> was his availability towards the end of the months because we will need him, and we are still working on that content.
+<unintelligible/>
+(PERSON17) So then the periodic activity and financial report.
+This is deliveral number D eight point one.
+And this is something that we have warned.
+You will need input from everyone.
+But we have realized then needed for the mid project review, and we have talked to a project officer and based on what is the best practices in other projects such as [PROJECT1] month 20, and because there is some submission policy.
+So this.
+This financial report is actually delivered in the in the [PROJECT4] system, and for for the [PROJECT4] system to generate, we need to close the system like freeze it.
+And in this frozen face you can not even add the other deliverables.
+So um, we ensured, or we think that the timing of this is the eight point one is missplaced, and that it is relique from previous proposals essentially and with the permission of our Project Officer we will officially ask to move this deliverable to around month 18 for this.
+We will have this, and we need have the permission from all you to ask for Project Amendment.
+So an official requests from the consortium to the European commission that we would like 8.1 to month 18 or 20.
+This is something that will have to decide.
+And I'm not sure if this consent from you is sufficient now during the call, or if the signal system will then have in there that you agree with with that change.
+First of all I would like to ask you if if you agree with this official move of this.
+Deliverable, and if you do then I would like to remind you that you may need your agreement in this ecosystem later on, yeah thank you.
+So please maybe everybody say that you are fine with this just for the record.
+<laugh/>
+(PERSON9) They are fine.
+(PERSON14) Thats fine with us.
+(PERSON5) I have to double check with [PERSON15].
+(PERSON17) Yeah, okay.
+So if we if we don't get this approval.
+If or the European commission says no you have set yourself to report our activity now and month six then we will simply do age when when <unintelligible/> or the main drawback is that we will be doing this twice now.
+And then also for the month 18 review.
+But since [PROJECT1] does not have anything in month 6.
+Then they have the same month 18 review, you know.
+So if you have started already with preparing the details for this, which is various things of including like the spending and <unintelligible/> please keep this data.
+It will be a useful for the September pre-review.
+So we need to figure out what what exactly is when when talking about this, I have some vague memory of talking in person to a project officer and his data gathered for his D 8.1 deliverable.
+And, so that will be ready for you to look at on the pre-review meeting.
+So we need to contact him again.
+Of the system would be in clash with ourselves submitting the other deliverable.
+So we definitely do not want to deliver this on the 30th of of June, but it is possible that the European Commission will demand this form anyway.
+So we may be asked to collect the data was during the summer, even if we are allowed to officially ship this deliverable to month 18.
+So this is still like the mm-hmm.
+(PERSON13) We had interim report <unintelligible/> because it was required FP7.
+This was submitted using the continuos reporting this was just PDF.
+<unintelligible/>
+<unintelligible/> it wasnt yeah.
+<unintelligible/> got stuff together <unintelligible/> we use for the 18 months report.
+<unintelligible/> of the periodic reporting <unintelligible/>.
+<unintelligible/>
+(PERSON17) Yeah.
+So lets try to drop it, subject to the agreement from [PERSON15] as well.
+And lets particularly investigate.
+What will they want from us on the pre-review meeting intail the <unintelligible/> parts like progress report.
+So thats thats something that would be useful to collect in any case.
+And lets see how strict they will be about the financial and and the month that person on spending details for the pre-review.
+Okay?
+(PERSON7) Okay, [PERSON9] please try to get concect from [PERSON15] as soon as possible because today <unintelligible/> how complicated its to make an amendment, and it takes quite some time, we have to finish it before the end of June.
+Okay?
+Yes.
+(PERSON17) At least the application of to the amendment and the EC will take a while to respond to that.
+But they will already know from our comment about this <unintelligible/> deliverable that we are not <unintelligible/> now because we amendment request.
+So please those who have agreed please enter yourself also in to the document, so <unintelligible/> yes.
+Then the data management plan, this is not finished at all, except for [PERSON6]'s work package 5, and ther- there is some little changes needed.
+So, lets open that.
+So the experienced people from for example the the [PROJECT1] project will know what this looks like.
+Its a confidential deliverable <unintelligible/> essentially along the work packages, so maybe [PERSON13] <laugh/>
+or [PERSON4] could you comment on the on the important of these fairness things.
+Cause it was uncleal to me.
+We did something for [PROJECT1], but.
+(PERSON13) This come from a really.
+(PERSON17) Ok, so.
+<unintelligible/> this somewhere.
+(PERSON7) Yes, we found a template on some official website, so we just both copied it.
+(PERSON17) Yeah, because I remember that the data management plans that we had for <unintelligible/>.
+Were less structured, and put there essentially what we thought was important about like where <unintelligible/> and who can use it.
+So maybe maybe we should treat this template as <unintelligible/> and then.
+Whatever we don't like mentioning
+(PERSON13) Yeah, I mean for the document that is, I mean <unintelligible/>.
+(PERSON17) Is confidential.
+So its only us if <unintelligible/>.
+(PERSON13) In your experience to reviewers ever asked. But these days, management plans.
+(PERSON17) No?
+<laugh/>
+(PERSON13) We don't <unintelligible/> he has a habit of making things more complicated.
+Yeah.
+(PERSON17) He's too precise.
+<other_noise/>
+(PERSON5) Both at the same time, you are almost impossible to hear.
+(PERSON17) Yeah, so this is.
+I think that every work package was not done there part yet.
+So this is request to work package leaders, to make sure that relevant data for the work package are mentioned in one way or another in this document.
+So I think that the 1.1 is a great source of the details.
+And that the parts in D 1.1 that relate to the Czech ASR will be just mentioned here so, like for the data for the work package <unintelligible/> data we have <unintelligible/> been listed in the 1.1.
+And the the difference.
+The main difference is that in D 1.1 we want to cover only the data that we have already collected and processed but in know that we'll process later.
+So this is also the future.
+This is the past, the current status and the expected future of the data.
+<other_noise/>
+(PERSON13) Sorry, I mean [PERSON17] is this really, so another project data management plan would be to say, these are the types of data that we'll gather and these <unintelligible/> will take this how we manage it.
+What what we are proposing here is <unintelligible/> actually go through TD slay list all the data sets that we actually gonna collect and all the details of them.
+Is that.
+I don't maybe thats actually what we were expected to do, I mean I mean ok so, <unintelligible/>.
+List all the data sets and TDS detail.
+Shortcut would be just to say here's our approach data management.
+<unintelligible/>
+(PERSON17) Yeah we will rely on the data which is being released anyway for various share task and we will just mention the shared tasks and thats it.
+(PERSON13) I'm not sure if this should be should be some redundancy between work package because it looks like a lot of it you can state once and then you just have a list of the different types of state rather than repeating for each work package.
+(PERSON17) Yeah, ok.
+So I'll probably since we are responsible as the as the coordinator.
+For this deliverable, we'll probably try to cut this structure shorter and.
+But anyway, we would like from every work package leader, what their take would be.
+In general terms specify what types of data will that work package need and where you will get it.
+In general terms.
+And if you have  particle data sets as examples please mention them.
+So for example, the Russian that would be nice place to uh, to mention Russia speech <unintelligible/>.
+Please every work package leader provide this input here here and I'll ask [PERSON7] to somehow like put it together.
+<other_noise/>
+(PERSON13) So [PERSON17], if its not our if its not our data why do we have to manage it, I mean, shouldn't the data management plan <unintelligible/> we actually create.
+(PERSON17) I thought its the data that we use as well.
+(PERSON13) In the past I've just taken <unintelligible/> we create, because really,its up to other people to manage sources that they create.
+I dunno.
+(PERSON17) You are right.
+<laugh/>
+Okay, so we will probably.
+So <unintelligible/> we have already said that we are not creating much data.
+Except for the minuting for example, and the minuting is written here in.
+(PERSON13) Well, I mean as I was saying I mean one of the <unintelligible/> this dry run is to gather as much data as possible about whats going through our system.
+Yeah, and I think the logs that was very valuable.
+(PERSON17) Yes.
+(PERSON13) Work.
+That is an example of the sort of data we gather.
+(PERSON17) Yeah.
+(PERSON13) So thats the data set.
+But we just have a paragraph.
+And then we, and thats all we need.
+<unintelligible/>
+All the work packages for dry run.
+<unintelligible/>
+I dunno
+(PERSON17) <unintelligible/> agreement from the [ORGANIZATION1] work for this for example.
+<unintelligible/>
+So please every work package leader which is you for the well you are for the data actually.
+<unintelligible/>
+<other_noise/>
+So please put this paragraph there.
+And also [PERSON14], if you could put something there for ASR.
+We'll somehow try to cut it short and polish in some simple way.
+Ok, so that will be this part
+And then we have the the deliverable on ethics.
+And this is essentially done.
+So [PERSON1] please you can start reviewing here.
+So if you had any access problems to this Overleaf or whatever.
+And any, you can either edit it directly in Overleaf or you can add <unintelligible/> PDF or whatever.
+And thats it.
+And then for the [ORGANIZATION7] sheet.
+This is the data that we thought would be needed, within to this data will be needed for the pre-review in any case.
+So I would like now ask [PERSON7] to quickly present this and then because I'll take a little break, and then then if I'm still not there maybe <unintelligible/> in the call so we can be very brief and and maybe skip that <unintelligible/>.
+So [PERSON7] please remind everyone what they need to put here and they should be doing that continuously, not not only for the occasion of some of some deliverables.
+I'll be back in second.
+(PERSON7) Okay, so.
+The first thing is that in the dissemination you have to update it continuously because you want to remember it when after helping, so its on the fourth sheet.
+And you also have to scroll to the bottom, because there is like estimated number of persons, which we reached on <unintelligible/>.
+So just keep filling this table.
+And I dunno, there is a gender so ah, I think some of you already fill that part, yes we are just missing from [ORGANIZATION2] and [ORGANIZATION5] so if [PERSON1] and [PERSON9] could fill the next as for the summer for publication.
+You just should summarize in one or two sentences what are you have what you have done, but uh, think in this one special will wait.
+(PERSON12) Just a brief question [PERSON7], only for the people involved in the project, or for the OK.
+(PERSON7) I think it should be only for the project because we will later upload it into Sigma and yes so.
+It should reflect the amount of people working on [PROJECT3].
+(PERSON12) Okay.
+(PERSON7) Thats all from me.
+Anyone has any other questions?
+If no, you can do start talking about your progress.
+(PERSON17) Yeah, so I'm back here.
+So I'll try to do summary myself and if there is something missing, then mention that.
+And if misinterpreting something then say so as well, but lets lets make it quick.
+So in the data <unintelligible/>, if we if we are successful.
+We should even be able to use it for the workshop adaptation, well, [PERSON5] has worked on the work pac- on the deliverable from this work package <unintelligible/> is essentially processing well, and for the ASR <unintelligible/> regularly run their training session where six interpreters is interpreting the same input signal and we should get access to this as well, so this would be nice speech translation data but the transcript wont be available, so this would be something that would be needed to.
+(PERSON5) I have to leave.
+So.
+Thank you, [PERSON12] will <unintelligible/>.
+Okay?
+(PERSON9) Thanks.
+(PERSON17) And [PERSON9] are you coming for the correct days?
+<laugh/>
+Date of the workshop, you know its the date change right.
+(PERSON9) Yeah yeah yeah I heard about the date change, but its okay.
+(PERSON17) Okay, so see you in two weeks, in less than two weeks.
+Thank you, bye bye.
+(PERSON9) Bye bye.
+(PERSON12) Sorry [PERSON17] we have meeting I have to leave.
+(PERSON17) Okay, well in that case simply skip this,so please everyone have a quick read through what other are doing and enter yourself.
+To this, but I think we are proceeding very well and yeah so lets close the call.
+And otherwise thank you for your time, and also for your <unintelligible/>.
+lets keep our fingers crossed for for the workshop in two weeks.
+Thank you.
+(PERSON11) Bye
+(PERSON14) Bye
+(PERSON7) Bye
+ 
+ 

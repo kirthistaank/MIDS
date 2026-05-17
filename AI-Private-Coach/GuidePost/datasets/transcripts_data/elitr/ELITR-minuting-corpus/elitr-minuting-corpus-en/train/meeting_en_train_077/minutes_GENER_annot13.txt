@@ -1,0 +1,35 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION1], [ORGANIZATION7], [ORGANIZATION3]
+Meeting Name: Virtual Coffee Hours – Meeting 136 - En
+Meeting Date: 04. 12. 2020
+Meeting Topic:  [PROJECT1] proposal submission
+Meeting Participants:  [PERSON2], [PERSON4], [PERSON1]
+Meeting purpose: To clarify the input required into the various sections of [PROJECT1] submission.
+Main points of discussion:
+The [PROJECT1] Proposal
+Brief draft of the Proposal to be shared later on the same day.
+•	Input required into the sections:
+a) Background and Introduction. 
+b) Section 4.3 Data Description
+•	Data sets descriptions for [ORGANIZATION5] and [PROJECT2] sets.
+•	 Number of hours and instances covered for English and Czech meetings and related minutes. Especially for tasks B and C.
+•	Potentially some data can be used from VP deliverable.
+•	Comment required on the ethical aspect of data collection from the [PROJECT2] project meetings. The same is not required for the [ORGANIZATION5] data set as the information is already available in the public domain.
+c) Section 4.4 Manual Metric – where up to four criteria need to be selected.
+d) Section 4.10 – Task Description and Justification
+•	[ORGANIZATION1] shared task will form part of the [PROJECT1] special session as the general session doesn't allow for floating one's own tasks and challenges.
+•	Justification on viability and special session participation is required.
+•	[ORGANIZATION1] shard task focuses on the very particular and niche area.
+•	Creation of automatic minutes and summarisations of project meetings has proven an extremely challenging task.
+•	Currently no-one is able to perform this task in an appropriate way, therefore the shared task is run as a brainstorming session, to open the discussion and lower down the entry barrier as the automatic meeting summarisation has not been yet explored in this manner.
+•	Current level of technical possibilities limits the full exploration and applicability of the task but it is believed that the task is plausible with further development in neural science.
+•	Long research papers are not yet available in the academic and scientific community.
+•	Task cannot be run in the normal session due to non-existent comparable results.
+•	[ORGANIZATION1] shared task offers three tasks to v opportunities to tackle the challenge from different angles.
+e) Biographical information for each of the Team/Shared task participants.
+
+Administrative matters:
+•	The participation of the Project Manager on the call was not possible due to his extremely busy schedule, however will be required in the next meeting.
+•	Technical issues occurred during the call.
+
+Minutes submitted by: Annot13

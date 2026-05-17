@@ -1,0 +1,526 @@
+(PERSON14) The- to the document, to live document.
+Should I share the screen?
+I suggest not to share it, because that-
+Oh, I'm streaming my face already.
+So, that is the screen will be actually less- less demanding on the screen-
+It will be less demanding on the network..
+Okay?
+So we have started recording.
+The first item on the list is to just mention that we have successfully delivered the delivery rules that we were expected to deliver.
+To deliver- there was two on ethics and two on the website.
+These deliver rules, especially the internal website this is for us.
+So if you are failing to find some information on the project.
+Obviously, you can ask us whenever you like but you can also just remember where the internal website <unintelligible/> is and then look it up there.
+And that will give you a brief overview of- of that.
+Yeah, uh, with for listed this publicity achieved the- the thing.
+Just make everybody aware of the DU collecting where we have presented our work.
+And- If you have done something, please add yourself.
+There is the- [ORGANIZATION4] workshop in Luxembourg [PERSON4] and [PERSON10] are going and if I'm not mistaken-
+[PERSON7]-
+As a substitute for [PERSON14] is going-
+If this is the [ORGANIZATION4]-
+Sorry.
+If this is the [ORGANIZATION4] workshop by- organized by [PERSON3].
+I was asked to- yes.
+So we have- we have a-
+So this is this is the important bit.
+Everyone please enter these activities into this [ORGANIZATION5] sheet.
+And I hope it will actually open.
+This is the numbers that we will be entering into the official portal.
+What were we are also under <unintelligible/>.
+And this is for us to have an overview, and also for to see our spending.
+And the impact, specify the estimatated number of persons to reached.
+I do not know where they use these-
+What're they use these numbers for.
+But it just good to have a record of what- what have been done.
+So if you go anywhere.
+If you bought something somewhere, check this spreadsheet, and uh, if it is possible please add the item as well.
+So we have been at the fair of student firms, and thanks again to [ORGANIZATION2] and to [ORGANIZATION1] for coming in person as well.
+And the- the result of this is obviously the pub- the little publicity, the little news item or block- short block that we have on our [PROJECT6] website now and the video in preparation.
+So we have-
+We have also recorded some short movie and we are now editing it and will post it. 
+So this will be like one more opportunity to-.
+To maybe, to <unintelligible/> about that.
+So this if for [ORGANIZATION9].
+Who are managing the the presence..
+And I feel that we are doing some things without telling the [ORGANIZATION9].
+So the [ORGANIZATION9] cannot really do the- do the broadcasting and the attack of social networks.
+So everybody, please, don't repeat this error and let [ORGANIZATION9] know so that the media is full of us.
+Another such opportunity, halfway missed opportunity is this conference of the interpreters director general, the G interpretation or sick in Brussels.
+I was there.
+Two weeks ago, I don't know.
+It's- it has been recorded, and it is- you can even look at what I was saying.
+I used the [PROJECT6] slide, so there was clear promotion, someone told me that they saw me on Twitter.
+I'm not following through it at all.
+So maybe, knowledge people will know how to look this up.
+And this was an opportunity to retreat.
+So maybe we could still retreated now because the video is available.
+And I find it interesting for our purposes <unintelligible/> speak English.
+And it is you can also select the German channel.
+So I can listen to myself speaking German.
+So this is- I'm telling this not because of my speech.
+But because of the various conferences that are signitadly interpreted.
+And and this would be an interesting data source for, especially the work package on the spoken language translation that [ORGANIZATION8] is overseeing.
+So just keep that in mind.
+That there is such a resource, what is missing is the transcripts, but with the ASR quality surprising humans, I think the transcript should be readily available with the only very few errors in year from now, also thanks to our contributions.
+Hopefully.
+So this is a valuable type of data source,ok?
+Then there will be the workshop, do you know the date?
+Can someone add the date?
+It will be some May-
+(PERSON10) June the 20th?
+(PERSON14) June?
+(PERSON10) Yeah.
+(PERSON14) June.
+June twentieth.
+So just before uh our uh, drive run the- the [PROJECT4].
+So which is working group on value added tax.
+Finally, that's it for that workshop abbreviation.
+So if you have anything else, please add it or please let us know.
+Yep.
+Then another thing that we have achieved is paper submissions, so well.
+I already read below in the list that there is actually a paper accepted to tackle bike it.
+So we have only submissions, not not accepted papers, and too much less important venue speech in dialogue.
+One of them is a micro review of minuting.
+And another one is on the little speech test, on the little speech corpus that we collected at the- the student fair.
+And this can serve as the test corpus for various-
+For English ASR for non-natives.
+So if you have any other papers, please mention them here.
+Later on, when we come to the official reporting will obviously need all the details and all  the papers.
+But this is just quick preview of what- what is happening.
+Then the milestones.
+We know about the delayed milestone on recording in [ORGANIZATION9] platform.
+Officially- check with [PERSON18] and he said it's ok if this is delayed,thank you for the explanation.
+It was important for me to deliver the explanation.
+About the goal language and- and our lack of that in the rest of the team.
+And he said, just tick if off when you are done.
+So I would like to know from [ORGANIZATION9] what is the status of this milestone now.
+(PERSON9) Ok, this is done so far, we have uh, working prototype online.
+I think we invited you to have look.
+You can take a look anytime.
+(PERSON14) Oh.
+I missed that.
+(PERSON9) Yeah.
+So-
+(PERSON14) Can you, if there is some URL, could you paste the URL here?
+(PERSON9) Yeah, this would lead you into- into our conferencing client.
+So you from must make sure you have [ORGANIZATION9] installed first.
+(PERSON14) Ok, so that would not work-
+(PERSON9) And then you are inside the client.
+There is two limitations basically.
+As a guest, which- which you are when you join with the link provided, um, it will only react to English, because that is predefined for guests.
+And then there are only two workers available, right.
+So only two simultaneous audience streams can be processed on the far side.
+So that's- that's the current status, it is working.
+The only thing that is not working reliable or reliably is that the audio is actually being picked up by worker.
+By, you know, this is a piece of software that is, you know, part of this whole, um the voice system.
+ And they on currently, not fully reliable, reliably picking up the audio stream that is something we have no influence to.
+ And, yeah.
+We will have to wait until [ORGANIZATION1], or I do not even know who is responsible to continue working on that.
+So from our perspective, we're done so far.
+We've wrapped, um, the API connector into uh, into the goal programming language.
+ And we can now transfer all to you.
+ And basically the recording can now be done on <unintelligible/> side.
+(PERSON14) Ok.
+So this is the set up that we wanted.
+That's- that's very good.
+So I think that I should tick the uh, tick the uh, milestone checkbooks.
+It is in the system now, because in principle, it works.
+But it is not reliable.
+And the lack of reliability is like a package loss, so network- traffic, so that paket get lost, or the way to mode this.
+(PERSON9) That is- that is an unclear.
+I must say that the developer that is actually working on this part is now on vacation.
+Um, so all I have left is his comments on the- on the start, as he did not comment on what exactly is the issue here, or what he thinks the issue.
+I just have the working program.
+I can even screenshot, if you want to.
+And then I can see and show you the- the output of the um [PERSON9] side.
+But I do not think it is necessary,right.
+You can- you can test this out yourselves and I will provide the link.
+(PERSON14) So-
+(PERSON10) <unintelligible/>
+The issue lead into the worker.
+Do you mean something related to the worker processing the <unintelligible/> you sending or-.
+(PERSON9) I think exactly, that is the problem.
+Yeah.
+(PERSON10) And you can provide the information about the worker you're using, I mean the fingerprint you using.
+We can interact with the provider of the worker,ok?
+(PERSON9) Okay, yeah, uh, we do that afterwards, I guess or-
+Yeah.
+(PERSON14) So I won't tick it off yet.
+I will wait for the detailed answer from- from your colleague, who is now on vacation.
+And I'm sure that you will find way in the like a week or two so this- this should be easy to handle.
+What was not very clear to me is the limitation because of the workers.
+So there has to be as many English channel processing workers-
+I have <unintelligible/>.
+As many participants join the room, or how does it work in practice.
+So if we want to record our session right now, there two,four, like ten of us here.
+I can't hear at all.
+So there is a drop off.
+I probably stop my camera, just to stop that right now.
+There is like ten more bugs.
+I will stop my screensharing just to save the network bandwidth.
+So maybe there is an issue with- with the network because I have to be on Wi-Fi unfortunately.
+(PERSON9) So maybe, maybe I can <unintelligible/> my impression.
+(PERSON14) And also, there is probably someone who is ecoing the <unintelligible/>
+Someone is using loudspeakers.
+So if you are using- using loudspeakers peace mute yourself at the same time, unless you are talking, obviously.
+So [PERSON9] can you, eh, can you talk now?
+(PERSON9) Yes.
+So what I think the problem is all the limitation is if you have two workers, but can receive or process audio at the same time.
+ You might end up um with no- no worker available.
+If there is multiple person's speaking at the same time, or having an like like, a heated discussion.
+Then I would, then I would say," you would need more like four workers to be available, because after you stopped speaking.
+This worker stays assigned to your audio stream for probably probably like five seconds.
+So this is then reserved, and someone else starts talking and another worker has to jump in and pick up this audio.
+So far what I understood.
+ I might be wrong.
+But that is what, what I'm <unintelligible/> so far.
+(PERSON10) It's correct, do you hear me?
+(PERSON14) Yes.
+(PERSON9) Yeah.
+(PERSON10) We usually stopped at least five to ten session per workers on our side per language. 
+You know to be able to handle multiple concurent stream.
+So, if you wanna-
+If you need more than two, we have to check with [PERSON11], how many workers they can start on the-
+And to connect to the media to, you know, to make available more simultaneous channels.
+(PERSON14) So this is important for-.
+Sorry to interrupt, I'll wait.
+(PERSON21) Yeah, [PERSON21] from [ORGANIZATION2] here.
+<unintelligible/> is also here.
+So we currently do have to work as running or as I interfere.
+We can't scale this up.
+But we do have other obligations that we need the processing power for, such as the [ORGANIZATION6].
+(PERSON14) Yeah.
+(PERSON21) You don't have these workers on multiplying.
+For these meetings so we can scale up the services to have more copies and have more workers.
+(PERSON14) I think it's totally-
+Yeah, I think it is totally OK for the testing to have just the two workers.
+So, it would be-
+Will be testing it with one person speaking only.
+So this should work well.
+What we need more for the project purposes and for the session to be running [ORGANIZATION9] would be the recording client.
+And if I'm understand correctly was the recording clients-
+It would be the same thing.
+So that each utterance, whoever says, it will be picked up by one of the recording clients or would be different.
+(PERSON10) Each-
+It is a each stream it's each channel.
+Each channel-
+<unintelligible/> difference.
+(PERSON14) Yeah, ok.
+So that's different, so the ASR workers are like jumping on the streams, and there is so far no language diarization so that the workers do not know a day all assume that only English will be spoken for now.
+This made later change for the real test case was [ORGANIZATION9] doing the remote meeting so that when the person logs in they would say, I will be only speaking German, or I will be spoke- speaking German or English.
+And then the workers- we should like figure out how much we support this.
+ I think it is totally fine for uh, for the presentation purposes to say that a person, when a person connects to the [ORGANIZATION9], they, have to say their language, and it will limit the workers to the language for that.
+It will limit workers for the language.
+For-
+So the workers for ASR are jumping on the channels as they start producing signal.
+And they leave the channel after five seconds of silence.
+And for the recording purpose is different.
+It is every channel gets recording worker.
+So we need to have just as many recording clients, as there will be participants connecting to the to the room.
+And this is something that can [ORGANIZATION1] easily set this up or can anybody set this up and connect to the same mediator.
+So this was a question for [ORGANIZATION1] probably.
+If we like-
+I'm checking when should-
+ When should be the next call of [PROJECT6] what needs to be set up.
+So that we actually run the [PROJECT6] call in the [ORGANIZATION9] platform and we have the separate channels recorded.
+So what needs to be done for this- for this purpose.
+(PERSON10) [PERSON14], are you asking [ORGANIZATION1] or [ORGANIZATION9].
+(PERSON14) Yeah.
+I think to [ORGANIZATION1], because [ORGANIZATION9], as far as I would say, are probably done as, like except for the uh, low reliability, but that maybe also does not affect the recording workers. 
+(PERSON10) Because in fact as part of the <unintelligible/> simple connector the is also the- audio recorder client-
+The audio recorder worker.
+So it is a matter of launching of running the audio recorder.
+We will soon fingerprint and been to run the [ORGANIZATION9] integration with-
+That fingerprint to also add the recorder to the- to the chain.
+(PERSON9) Ok.
+(PERSON14) Yeah, well.
+What- but nevermind
+(PERSON9) That is-
+That is basically the same process as we did with the um-
+The the transcription of worker.
+For the-for the recording worker, did I understand that correctly?
+<unintelligible/> is to set up the recording workers.
+(PERSON10) You just have to run the recorder client.
+It's worker.
+Adds the recording feature to the- to the engine for the-
+(PERSON9) Ok.
+That is important information.
+I think that was not clear up until now.
+(PERSON14) Yeah, okay.
+ So anyway, I think we are on very good track.
+And this will be resolved soon.
+So please let me know when I should finally tick off this box, and essentially a dry run call in [ORGANIZATION9] platform with the recording capacity and recording correctly collected has to be carried our for me to tick this off.
+So this- this is more important for the milestone, the recording than the ASR.
+The ASR is also needed to on.
+So it is great that you have done that.
+Uh, but the recording, it is the thing that the most on check if I'm not mistaken.
+(PERSON9) Okay.
+(PERSON14) OK so thank you.
+Let me know again.
+Share my screen hopefully this will work
+And- Yeah.
+So there is the upcoming deliverables and milestones.
+There is deliverables timeline, a sheet that is the another deliverables DMPs.
+So this it the upcoming deliverables .
+So everybody please have a look at this and keep regular looking at this, so that you know what is coming.
+And here in columns.
+In columns O and others there-.
+We- we would like to see who are the authors of this, who are expected to write each deliverable and also his volunteer to review those.
+All the upcoming deliverables are by the end of June, uh.
+So there is still a a quite a lot of time.
+ But it is is good to know about them and start writing them early.
+We need to deliver them by this date so-
+And remember there is this [PROJECT4] workshop so we will be very busy at the end of June.
+So I think that internally.
+ We should aim and having this deliverables written ideally, by the end of May.
+So that the review-
+ So that the internal review can start.
+So I think this is actually a month earlier.
+And that should give us enough time and have June relatively peaceful.
+(PERSON19) Also please <unintelligible/> the column M.
+ So there is the word package leader
+So like the last three columns need just fill it in.
+(PERSON14) So the upcoming deliverables  are - one of them is on initiall training data separating confidential and public version of that data.
+This is that something that [ORGANIZATION8] is, would be putting together.
+ Obviously, everybody will be contributing.
+I just wanted to comment that either this deliverable or the data management plan, which is the eight point three.
+They should mention the [PROJECT6] testsuits that we created for this WMT and also the Antrecorp, which is the speech test corpus with the high school students.
+So this is just so that we don't forget those.
+So the data management plan.
+Is something that I just wanted to briefly mention.
+It is any type of data that is being collected for research purposes.
+ And also just being use from from other sources should be mentioned here.
+This is to give an overview to the commission, what we are using, what type of resources are using, because data are important for others to follow us and so on.
+So this is something that will be putting together.
+But if you are using some data resources for training your ASR system, and all that these details would be nice to- to be aggregated here.
+ We'll set up some form of template and we will fill that in and then we will see into what detail we go in general, we will be mentioning our corpus <unintelligible/> and [ORGANIZATION8] will be surely mentioning simply the WMT training data and all that, but the- the-
+Yeah.
+We need to put this together in one way or another.
+And an other important deliverable is the periodic activity in finance reports.
+So this is again on us, but we will need input from everybody.
+And see also the administrative topics mentioned at the end of this document.
+So this would be essentially the time sheets and your spending that we need to report in that- in that document.
+And this is the last deliverable is again on ethics.
+So far, we have not heard any complains about our handling of ethics.
+So our constant forms did not receive any negative feedback.
+So will just write it down.
+The only type of like negative feedback was that people did not agree with being recorded or providing the data, and that's totally OK.
+But in principle, it seems that we procedures as it's expected.
+And we also have upcoming milestones.
+Again, at the end of June, one of them is the first spoken language translation prototype by [ORGANIZATION8].
+And here I just wanted to mention that I could obtain interpreting data without transcripts  from lists mock conference by students.
+So the key question is whether we want interpreted data as a test set or not.
+We do not have to answer this question now.
+But it is- it is something that should be considered for the spoken language translation.
+One thing I wanted to mention seeing for the first time, the- the live in interpreting.
+I realize that there is so much more content beyond words, that is actually being translated.
+So the interpreters are kind of reporting on the general mood in the room as well with their voice characteristics.
+And sometimes they are mediating the negotiation like pacifying the- the disagreeing parties, and sometimes they are not depends on- on the order or the customer asked for.
+So there is a lot more to interpreting than just translating transcribe speech.
+And this is important to realize and this also open space for uh, for future experiments.
+So in the long-term like ten years from now we should be thinking about training neuro <unintelligible/> systems synthesizing speech, so that even these voice qualities are transferred someway.
+That is why it is interesting to look at these data sets.
+So this is just the one remarkable the- the usefulness of that word package.
+Spoken language translation can extend way beyond just integrating ASR and <unintelligible/> into one piece of software.
+Yeah, so that is the- that's the milestones on first language spoken language translation prototype.
+And another milestone is baseline MT models for [ORGANIZATION7] Congress.
+And the this will require the data that [ORGANIZATION8] have already collected.
+And we have started multilingual multi-target training systems, and [PERSON15] will work on these many system after WMT has ended which is essentially now.
+So only [ORGANIZATION8] and we have to really worry about the milestones.
+But otherwise we are a relatively early, in- in good standing.
+Yeah.
+ If there is no comments to this then-
+(PERSON21) Sorry I- [PERSON14]?
+(PERSON14) Yep.
+(PERSON21) So we had our the baseline MT model for [ORGANIZATION7] Congress.
+Um.
+(PERSON14) Yeah.
+(PERSON21) <unintelligible/>about, that means that-
+(PERSON14) So exactly-
+(PERSON21) - [ORGANIZATION1]'s <unintelligible/> .
+(PERSON14) I think- I forgot the- let me, well, where is my print out.
+There is this continous reporting this emanation I'm sharing this.
+This is only the work packages another milestones.
+Do we have milestones, yes.
+There is improve as dry run SLT for [ORGANIZATION7] available in [ORGANIZATION1] platform.
+No, as you see on line ten in this spreadsheet.
+The full integration is due end of November.
+(PERSON21) See <unintelligible/> milestones are essential for us internal- internally.
+I mean, I know we have to report them through [PROJECT1], but-
+I mean it's really as you see, just going take a box
+(PERSON14) Yes.
+(PERSON21) So it's really of that-
+Organizing ourselves.
+Ehm, so that was my question, what do we want from this milestone.
+What should be-
+(PERSON14) Yeah.
+So I think the best answer to this is in just the next item preparations for the workshop.
+And it's not mentioned here yet.
+But I think we should really aim and having as many target languages as we can.
+Up to these 43 for testing purposes like how much we we can handle the better.
+And with the uh, with the help of the students here, if I gain the interpreting students here, will also have interpreters, one or two, perhaps one re-speaker more so up to three persons at the- at the workshop.
+Uh so we could be following English, German and Czech if we have that finally, and we should be translating into as many languages, as we want.
+I've check with [PERSON1], I've asked [PERSON1] what nationalities are there of the participants attending this workshop.
+But I haven't received any answer yet.
+So that would be like the the lower bound of our goals, and the upper bound is to have the baseline systems trained without really much evaluation for all the 43 languages.
+As a test case, I would go for all, but I would not worry if I have only four systems doing decent job, and I would also not worry at the workshop, at the end of June.
+Only like three or four languages are are handle by the [ORGANIZATION1] platform.
+And we see that it is failing for more because of whatever loads somewhere.
+So let's- let's aim for everything.
+And let's see the failures, but not worry about them.
+(PERSON21) Ok, I mean to me, most the pain is gonna be actually integrating with the [ORGANIZATION1].
+I mean, we fill as you see in <unintelligible/> systems cover all language pairs but we don't really know how to get them to the [ORGANIZATION1] yet.
+At least we have here that adress problem.
+(PERSON14) Yes.
+This is something-
+(PERSON21) -we could create one [ORGANIZATION1] worker that could do at least one source language for <unintelligible/> languages, not very well, but it could do something like that.
+(PERSON14) Yep.
+This is something that really needs to be negotiate at the technical level with [ORGANIZATION1], because the [ORGANIZATION1] platform is also not ready for multitarget language.
+One option is that we will create like rainbow packets that will contain all the target languages or more target languages, and we will have like selector clients, and the selector clients will receive these rainbow packages.
+From the multi target NT systems, and they will present only a portion of that, according to the choice of the user.
+So this is- this is what we will- exactly we have to discuss these details in- during the rest of April and May, and the beginning of June to see how to do it.
+(PERSON21) That sound, OK, that sound reasonable, I mean how-
+So you say we're actually gonna break this off, this is action offline.
+(PERSON14) Yes.
+(PERSON21) I actually figure out how do, whether responsibilities lying.
+(PERSON14) Yes.
+(PERSON21) Ok, good.
+(PERSON14) Ok, so because will be kick out of this room shortly, well, I can actually leave into the corridor as if <unintelligible/>
+But I would prefer to stop it, so I just wanted to say that for now we have-
+We can create private repositories, even for the [PROJECT6] organization <unintelligible/> up.
+So if you want any private repository, and you, you can't create yourself.
+Let me know, and can created for you.
+And the preparations for the for the workshop.
+Uh, the, they are essentially running.
+And the larger things that need to be done is to have a testing mediator, which is actually done.
+So there is mediator that we can connect to.
+And that's the one that will be testing in five minutes from now here as well.
+We would like to have automated daily tests of everything.
+So we will put these tests suit, the cruse control together, but we need from everyone whoever has implemented any worker, to provide a sample test case.
+So please, commit these cases, as short batch scripts to the repository that I created for that, it is mentioned somewhere-
+Where is that,cruse control-
+ That's the- that's the repository,yes.
+In work package six I mentioned this- this repository.
+So please commit these test scripts there.
+And the critical thing is the presentation platform because we can no longer rely on the [ORGANIZATION2] platform that we use for the fair, but we need to develop one for the, for the project.
+And I'm waiting for [ORGANIZATION1] specification to review that.
+I will try to implement slides grabbing and streaming of slides.
+But I don't know how to do that really, I have to learn.
+And the presentation platform needs to allow selection of subtitles.
+So this is the technical discussion that [ORGANIZATION8] also needs to be involved in.
+Like how is this internally done and also on the on the user interface, how that is selected by the user.
+I think we should always keep the user in mind, because if the user seek too many languages, they would not be able to select,they don't want to go over them.
+So this is something,some user interface issues that I wanted to make sure our- our like-
+That the platform is easily usable, and it has to provide some user integration of the selected subtitles.
+And the stream flights.
+So this is what we will be needed for the uh, for the workshop.
+And I'll let you know later on how the negotiations go in terms of ASR that we will need for- for that.
+Because that depends on the interpreters available.
+So in the- in the minimum case, we would be only following the English spoken at that workshop and translating into language that we have.
+But as as very last that I said,let's- let's aim for the most, let's aim for 3 ASRs and up to 43 target languages.
+And let us see where we fail.
+And this is the things that we will be worked on to- to have them confidently cover for the [ORGANIZATION7] congress.
+Yeah, so now, five to the deadline.
+And I suggest that we don't go into the details of <unintelligible/> package already getting the input from each of you was very informative.
+So I would like to ask everyone to carefully read the- the comments collected your colleagues, over all I think that the progress is- is very good.
+We have-
+We are on track.
+ I'm not aware of any issue.
+Is there anyone who would be aware of any delays at this point?
+Yeah, I'm <unintelligible/>.
+I think were generally doing well for yeah.
+I don't know if there is-
+ The only red <unintelligible/> for the [ORGANIZATION9] pro recording to work also legally well, remembered to send the- their production forms to [ORGANIZATION9].
+So that's the only critical thing here.
+Otherwise I've mentioned everything.
+And if you don't have question at font-
+(PERSON19) Well the last thing - I did time sheets.
+If everyone-
+(PERSON14) So exactly.
+So this is where I wanted to just leave, and leave the timesheets up to you.
+So.
+Yeah, I think- I think that we are on track, so eveybody please carefully read the status updates, especially where you are interfacing anyone, but read everything, so that you're aware of everything.
+And that would be it from my side.
+Right.
+So with- I will stop sharing my screen and share my face instead.
+So- So I would say thank you for the call.
+But there I will still leave you entertained little with the timesheets just remind that you need to collect them, that's it.
+Okay.
+(PERSON19) Ah, ok.
+(PERSON14) So thank you.
+(PERSON19) Bye bye.
+(PERSON14) Thanks a lot.
+(PERSON10) Bye bye.
+(PERSON19) Ok, so how are your time sheets?
+I know that each of you is having little bit different system.
+So, is everything ok with it?
+Because we will have to collect it for the periodic reports.
+So yeah, I just don't want everyone's doing their timesheets for year and half.
+(PERSON20) I mean, our administration in general, in the top of the timesheets, we have been changing over project in the early months this year
+So I'm not even sure that would be actually paid per the project in January or February.
+But I know at least till April <unintelligible/> paid by the project.
+The timesheets will be there and they'll be there before, before the 18 month deadline. 
+(PERSON19) Ok, correct, great.
+And [ORGANIZATION1] and [ORGANIZATION9]?
+Till when do you need-
+(PERSON10) Do you hear me, [PERSON19]?
+(PERSON19) Yes, I hear you.
+Well, we will need them before the 18 months period but yeah, it should be done some continuously.
+(PERSON10) Yes, just, just the question.
+The guy in the timesheet we have a- our all internal time management system.
+So we have all direct <unintelligible/> of the time spend on the project.
+But in order to have one agregate timesheet that you need for the regular implementation to the UE.
+Do you have any format in which you would like to recieve the timesheet from us?
+I mean, do you an excel sheet- 
+(PERSON19) Yes, yes we do.
+(PERSON10) We have some-
+(PERSON19) We have a little bit more detailed timesheet, like form, excel sheet.
+Which, more detail than the your <unintelligible/> commission requires.
+But a few days ago, I was online watching conference about the administrative in horizon 2020 and they said that we have to like record the amount of time spent on work package and also the task, so I think our-
+Our timesheets is ok with it.
+And that we have there ever since so I can send it to you.
+Just to have a look if you are collecting everything in your system.
+(PERSON10) Okay, perfect.
+<unintelligible/> task, because I do remember that it's impor-
+It's essential <unintelligible/> recording the work package.
+(PERSON19) Yes, we just want-
+(PERSON8) Like in our version of timesheets there is the work split to the <unintelligible/> work packages and just down it's <unintelligible/> the number of task, like T 1 point 3, T 2 point 6, I don't know.
+Just what you worked on.
+And just more like informative, you don't have to like devite the hours between the tasks, just between the work packages. 
+(PERSON10) Okay, because I- I don't think I were recording system let the user put the time, to put the time on a specific task.
+On the work package it's where the task is...
+(PERSON19) Yes.
+And it's also beca-
+Why we want this so we know that we didn't forget on any task.
+Kind of.
+Just for listen play, record them <unintelligible/>
+(PERSON10) Ok.
+(PERSON19) Ok.
+And I think that [ORGANIZATION2] is also fine, right.
+(PERSON21) It would be helpful if you also have the timesheet template so we can-
+(PERSON19) Ok.
+(PERSON21) -Information repeated.
+But otherwise you will-
+ We have <unintelligible/>
+(PERSON19) Ok.
+So, that's it. 
+So if you don't have any more questions, I think we're done.
+(PERSON10) Ok.
+(PERSON2) So we need the data protection from all of you.
+Some data are missing, I think <unintelligible/> just know. 
+(PERSON19) Ok Aline, so if you could just maybe write to the specific person you're missing the timesheet, ehm, the concent form from.
+So-
+(PERSON2) Ok.
+So <unintelligible/> I think. 
+(PERSON19) Yes.
+(PERSON2) Fine.
+(PERSON19) Ok, any more question?
+If no, so thank you all for today's call. 
+And I will, I will trade Doodle for- for the next one. 
+I think it should be around the end of the May.
+Like would be next suitable.
+Ok?
+(PERSON10) Ok, thank you.
+(PERSON19) So bye bye.
+(PERSON21) Bye bye.

@@ -1,0 +1,58 @@
+Tue May 19, 16.00-16.30
+•	[PERSON19]
+o	Demo meeting preparation
+o	was able to retrieve [ORGANIZATION2]'s ASR
+	[PERSON21] says to backup everything (important models, files, etc) at [PATH]
+o	Domain adaptation and new language model.(almost done)
+o	TODO
+	Select the pipeline based on some evaluation.
+	prepare full dry run session with same videos as demo. and select choice of [PERSON24]
+	Prepare baseline workers and domain adapted workers for each of the demo speech videos..
+	Have automatic transcripts ready for four files (from [PERSON11])
+	Test Slots for demo practice
+•	[PERSON3]
+o	Shared true concatenate transcripts for German, English and Czech and, evaluated all received translated files.
+	[PERSON21]: Do we have the scores? Please paste the full path here and also summary results. The evaluation should be done 1) for the complete concatenated file, and 2) for each concatenated directory.
+o	[PERSON21]: To finally discuss the IWSLT results with [PERSON23] today between 17 and 19
+o	[PERSON21]: Warning, [PERSON20] needs to know the scores and he is considering to withdraw if the scores are bad.
+•	[PERSON5]
+o	Received good reviews from IWSLT
+o	Yesterday, I fixed cs segmenter delay from 10s to 583.74±258.93 ms
+o	It is still wrong because it doesn't use following context -> fix needs a double-threaded backend [PROJECT1] variant for text, analogical to backendASR
+o	Now fixing backendASR for submission as the course project -> hopefully it will be more robust, sometimes it's failing
+o	Live evaluation of SLT -- subtitler rating -- data collected from Friday demo, but not processed
+	My very tiny evaluation of Cs submitted to INTERSPEECH
+•	PERSON10
+o	Nothing new, will have time again from next week
+o	TODO: copy models to backup directory (which directory??)
+o	TODO: clarify IWSLT20 comment
+o	It could be interesting to try modifications to the rainbow model, such as:
+	Shortening model that [PERSON21] mentioned
+	Robust learning, I found a few papers about it
+•	[PERSON21]
+o	Kept busy with demo preparations.
+o	Reminded of [PATH]
+	Everyone please make sure that your complete trained systems *are there*, as a backup if anything gets deleted.
+•	@[PERSON15]: multi-lingual transformers
+•	@[PERSON6]: Kaldi, both the Czech one (which you often use) and possible English ASR models when you create them
+•	@[PERSON19]: the segmenters
+•	@[PERSON5]: important MT models should be copied here, too. Esp. our [PROJECT1], We can trust that [PERSON19] is backed up.
+•	Anyone else?
+o	[PATH]
+	files called austrian and dutch, with the suffix TTcs-read, the sound is in .IS.wav
+•	[PERSON6]
+o	finishing master thesis and making Kaldi backup in [PATH]
+o	Working on new Czech Kaldi model
+o	TODO:
+	Deploy several workers and make sure [PERSON19] deploys them: adapted (getting files from [PERSON12] via [PERSON19]), LM-injected (again getting transcripts from the same directory, see below)
+	Get in touch with [PERSON21] to finalize the [PROJECT2] handle.
+•	Demo preparations:
+o	Where are all the demo preparation files:
+	@[PERSON19], please find [PERSON21] e-mail, it was mentioning [PATH] and asking you to create a subdir.
+o	Ideal workers to be deployed for the demo, numbers indicate priorities:
+	3. non-adapted (fully generic CS/EN/DE ASR)
+	1. adapted, non-injected (already including whatever [PERSON12] found and created, word lists as well as LM data, if any, except for the talk themselves)
+	2. LM-injected (includes the exact speech transcript)
+•	[PERSON2] (not present in the call):
+o	[PERSON2], please add your details here
+

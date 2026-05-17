@@ -1,0 +1,59 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION5], [ORGANIZATION4], [ORGANIZATION7]
+Meeting Name: [PROJECT2] General Progress Meeting
+Meeting Date: 12.10.2020
+Meeting Topic:  Automated translation and output evaluation
+Meeting Participants: [PERSON14], [PERSON7], [PERSON12], [PERSON15], [PERSON13], [PERSON10]
+Meeting purpose:  To provide general progress update on machine translation and evaluation experiments.
+Main topics of discussion:
+Automated Machine Translation
+•	Experiments are in progress and more training time is required.
+•	Completed on the system built on/with large components of  monolingual data with conclusion that there is no significant difference when translation is done standard back translated and when back translation is done distant from parallel corpus.
+•	Experiments still to be performed on systems with the speech of up to three speakers in monolingual data. 
+•	Work on multilingual source experiments should commence during the month of October.
+•	Overall experiments are work in progress and further steps and conclusions need to be discussed.
+[PROJECT5]
+•	No further results received from the [ORGANIZATION2] team, currently approximately sixteen to seventeen hundred of Stimulus references are done.
+•	Performance numbers have improved slightly.
+•	Suggestion made to establish in the procedures the immediate commencement of data examination and to perform experiments on ongoing bases with update of formal documentation soon after.
+•	Discussion to be had on Friday 16th October on the topic of manual evaluation of translation. Current decision is to adjust evaluation method from [PROJECT4] Project.
+•	Web environment for human evaluation in being developed in cooperation with team in [ORGANIZATION6], where some additional capacity has been allocated and the team is awaiting specification of the required environment together with annotation guidelines.
+Project paper
+•	Clarification given on the required input to the paper by different co-authors and contributors. 
+•	[ORGANIZATION2] team to provide information on back end components, the information on annotators' recruitment process and profiles as well as to proof read the final version of the paper. However, some delays are expected.
+•	Also “[PERSON1] & [PERSON8]” team are to supply basic information on second stage annotation statistics and supply Estonian speakers.
+
+[PROJECT3] Task
+Current status:
+•	Four sectors discovered to have implementation of negative constraints and an “user defined issue” has been open with the system provider.
+•	Proceeded with the positive constraints experiences using TF and ITF to rank the tokens and references.
+•	Constraints are used in decreasing order according to their importance.
+•	Initial results are mixed and not considered satisfactory.
+•	Ordering functionality had to be adjusted to suit better the task at hand.
+•	Deemed trivial to expect the output similarity to the reference only by adding further constraints, therefore other approaches are being explored i.e. paraphrases different from the multiple referential sentences.
+•	The more tokens are added the better is the Bleu score in English.
+•	Full experiments results are not yet available but should be done on as soon as possible basis.
+•	The idea to stress test the constraints has been postponed for the time being.
+Obstacles faced with constraints evaluation:
+•	Every time the constraint is added, the paraphrase is not the reference from the desired reference nor the main target sentence.
+•	The Bleu score increases even if the word is from other reference phrase.
+•	Current methodology is inaccurate as it its practically telling the system what to score on. Significant risk of getting always guaranteed Bleu score, even in the multiple reference data sets. Better way of constraints evaluation should be explored.
+•	Bleu scores only comparable on fixed set of sentences.
+•	Lack of domain specific data sets and test sets, close domains would be beneficial. 
+•	[PROJECT1] system limitations – contains only simple decoding which prevents further tokens from being generated if not contained in the phrase table on the target side. Set-up is not expected to improve the translation but to speed up the processing of CPU's. Therefore positive constraints treatment needs to be rebuilt and redesigned.
+Suggested mitigations:
+•	Use of automatic retrieval not the references as the source of the constraints. 
+•	Current lack of the translation memory could be solved by creating it from public corpora, although it would not be labelled for domains.
+•	Domain specific data and evaluation of domain specific systems is being created in sister project [PROJECT4], with the goal to improve translation of specific niche terms. 
+•	Training data suggested as source to create databases.
+•	Contact shared on [PROJECT4] colleagues to cross share information to create efficiencies.
+•	Reference made to the previous experiments of translation memory implementation with MT using (Lucene), TF ITF scoring and adding bonus probability in SoftMax when translating.
+Further actions to be taken:
+•	Requirement to switch to [PROJECT1] system as required by the Project reviewers.
+•	All experiments to be performed in [PROJECT1] with emphasis on the integration.
+•	Explore the resources provided by the data augmentation experiments and codes by [PERSON3], also referencing the implementation of positive and negative constraints in Sokai.
+•	Two approaches into positive constraints should be investigated simultaneously; simple approach of looking into the exisiting implementation in the [PROJECT1] folders; and approahe of reviewing of the NetPost paper, other relevant papers and systems except [PROJECT1]; additionally to the code by [PERSON3].
+Off topic discussion:
+•	Social event invitation
+•	Colleague's visa process update 
+Minutes submitted by: [ANNOTATOR1]

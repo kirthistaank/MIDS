@@ -1,0 +1,337 @@
+<another_language/>
+(PERSON5) Hi [PERSON8].
+(PERSON8) Hi.
+(PERSON7) Hi.
+(PERSON5) Yeah, so, I I just said that that I would have to leave as soon as possible.
+So that I have I can work on other unfinished things.
+So if you have something on me so please say so at the beginning and otherwise I'll just leave you in the call.
+I see that the hairdressers are not closed in in [LOCATION1], which is great because there are like one of the anticovid regulations that all the hairdressers are down.
+So you have to go somewhere like under the cover of the night but actually than I leaving out your flat at night it also forbiden.
+So -. <laugh/>
+(PERSON3) I should just ask my, I just ask my girlfriend to cut my hair and <unintelligible/>.
+(PERSON5) Yeah, exactly that's the holy option. <laugh/>
+(PERSON6) You can you can see it on my beard that they are closed.
+(PERSON5) Yeah.
+<laugh/>
+Yeah, okay, so if there is not anything urgent on me, than that's great and yeah.
+I'll I'll just to my other unfinished task.
+Okay, it was great to see you for this single minute and thanks.
+And, well.
+We will be in touch.
+Thank you.
+Bye, bye.
+(PERSON3) Bye.
+(PERSON8) Bye.
+(PERSON3) Hello [PERSON2].
+You just missed [PERSON5].
+Like for a second. <laugh/>
+(PERSON2) Hi everyone.
+(PERSON6) Hi.
+(PERSON2) Can you hear me?
+(PERSON3) Yeah we can hear you.
+Okay.
+And I just said up you missed [PERSON5].
+Because he just left.
+(PERSON2) And he's not going to join?
+(PERSON3) Well, he always joins for like 2 minutes.
+And then goes left.
+(PERSON2) Was it.
+Okay.
+<other_noise/>
+And, <other_noise/>, let's start.
+I've see like TED's quite large number right?
+You you have edit 2600.
+(PERSON3) Yeah.
+10 times more from the last time.
+(PERSON6) No no no.
+It's like eh -.
+(PERSON3) It's a it's a significant improve.
+Okay.
+And I don't know how they could these many people to join.
+But last minute they just did some big campaign, I don't know.
+But we are we are happy they do this.
+(PERSON6) It's like 1000 more than we had for 2 weeks, for last 2 weeks, yeah.
+(PERSON2) Okay.
+That sounds great.
+So what we need to do now is to evaluate the translation quality, right?
+(PERSON6) It's it's just so like I distributed it yesterday and I'll ask the people to hopefully to annotate it till Thursday.
+These Thursday.
+But.
+Yeah.
+We will be happy if they annotate as much as possible, eh, until the deadline.
+(PERSON2) Yeah.
+(PERSON6) It's the 23rd of November.
+(PERSON2) Um-hum.
+Okay, so, yeah, if we evaluated now we can definitely mix some conclusions, right?
+About it.
+(PERSON3) Or, well, enough.
+It's sort of can or leave it, but the more the better.
+(PERSON2) It will be more accurate, right?
+So.
+Yeah, that's great.
+Okay.
+Is there anything else for [PROJECT1]?
+Probably not, right?
+Or -.
+(PERSON6) So we are together with, we are just coordinating with [PERSON3] and working on it.
+And, yes, so.
+Ehm, gone.
+(PERSON3) Whether I should tell all the other paper <unintelligible/> stop writing there sections?
+Now or later?
+Because there section -.
+(PERSON6) Yeah, maybe you can, you can just poke them.
+Or I can poke them.
+(PERSON3) No, it's okay.
+I guess just [ORGANIZATION5] and [ORGANIZATION4].
+And <unintelligible/>.
+Oh, we should get, we should get ehm -.
+(PERSON6) [ORGANIZATION5]- [ORGANIZATION5] and [ORGANIZATION2] primarily from [ORGANIZATION4] it's, I think there will just explain how many annotators they have and it's their profile.
+(PERSON3) Yeah.
+Um.
+Well, I guess we should get some data from [ORGANIZATION2] from quarterbacks.
+(PERSON6) Ehm, yes, the additional one.
+Because we've been sent if after the first -.
+(PERSON3) But it's some time ago.
+(PERSON6) Yeah, yeah, that's some time ago.
+(PERSON3) Okay.
+(PERSON2) Yeah, so, I guess we can move move on to [ORGANIZATION3], right.
+So, [PERSON6], you already were doing there some results last week.
+So we expected -.
+(PERSON6) Yes.
+So, now I'm running, okay, so, just after after after our meeting, we have discussion with [PERSON4].
+(PERSON2) Ehm.
+(PERSON6) And, so we decided that I should run the fine-tuning from the -.
+Because I I ran the pretraining till the 70, 750 000 iterations.
+And so we decided that let's run the fine-tuning from that last point of the last check point.
+So run for for every setting for every like configuration of training data.
+I ran the fine-tuning from the same spot.
+(PERSON2) Mm-hmm.
+(PERSON6) And yes, so it is so almost finished.
+And the numbers are really similar to the numbers from fine fine-tuning, from the previous numbers of fine-tuning.
+And we have to discuss it with [PERSON4], again.
+And what else.
+I asked him or or we discussed that the we should maybe try this approach on the other language.
+So he decided to tried on German.
+So now he is working on German zero.
+And yeah.
+Since the results are, okay -.
+The results are fine, but they are not like like excellent or something like that.
+And we still think that it should be proved, prove on the other languages.
+So that's why we maybe postpone it for either, for so- for some workshop.
+EMT or WMT or something like this.
+Not for Naco.
+(PERSON2) Well, as you mentioned one one option is to tried, <unintelligible/> nor equiting for another language, or maybe doing some more like the in that analysis of the difference in the translations, but that might be a little bit costly, so -.
+And I, myself I can have no exact idea right now.
+How it should be different.
+Or like, what to to what to what should be be, what should do try to investigate there.
+(PERSON6) Yeah.
+(PERSON2) Ah, ehm.
+Okay.
+(PERSON6) Yeah, okay, like like the standards approach with B and to just sample some of the sentences compare language <unintelligible/> difference.
+But most probably we wouldn't find like some consistence, consistant difference, and, yeah.
+(PERSON2) So with the, with the top set ups there is only like half point, half point difference, right?
+(PERSON6) Yeah, <unintelligible/> this.
+(PERSON2) So, well, what you can try is doing some diff between the two hard like list of hypotheses from both systems or multiple systems.
+You compare and just see how many or how much how many how many sentences are same, like produced by systems and in how many sentences they differ.
+And just to go a quick glance on it.
+I rule and it's -.
+And what else can we done.
+(PERSON6) Yeah.
+(PERSON2) Yeah, so, so that's some ideas.
+(PERSON6) Yeah, yeah, that's definitely something what to to we we we will like in the end, we will add like such an analysis to the to the paper.
+(PERSON2) Ehm.
+Okay.
+(PERSON6) But stil we are we are not sure whether the change or whether the improvement this consistant -.
+So that's why we are also run try to done another language.
+(PERSON2) Okay.
+(PERSON6) Whether whether we yeah, yeah.
+Yeah in the consistancy of of of the improvement.
+(PERSON2) Okay.
+Yeah, that's so fine.
+<other_noise/>
+(PERSON6) I also want to try to train that's what we discussed last time to try.
+I will run it today hopefully try to round the training different random seed.
+(PERSON2) Ehm.
+(PERSON6) And just to find weather is weather is not just the random change that we observed.
+(PERSON2) Ehm.
+(PERSON6) Hopefully not but yeah.
+(PERSON2) Yeah, okay.
+So that might take another week or two, right?
+Or?
+(PERSON6) Yeah, but since we are not aiming for the Naco deadline.
+(PERSON2) Yeah, that's fine, just just to get some some estimates like -.
+Okay.
+So, I guess we can move to that <unintelligible/> list of negation, right?
+(PERSON7) Yes.
+(PERSON2) Okay.
+So, <unintelligible/> updates job for even [PERSON7] can can ship in, later -.
+(PERSON7) Yeah, ehm.
+(PERSON2) Okay, so first, oh sorry.
+So, first of all, yeah, I'm sorry I still haven't look at the data <unintelligible/> so I need to check that.
+Hopefully, hopefully tomorrow.
+But yeah, go on.
+(PERSON7) Yeah, actually, so, ehm, we have to adds list to my site I was trying to create systematized constraints into the results.
+And now we have we have generated sent- sentences <unintelligible/> constraints, and so.
+And as you can see it it didn't improved the the results, the blue score, list.
+So, the second, second approach, we were we were trying to to, oh sorry, at the same number because to to combined constraint from different references.
+And those are nearly the way of, ways of combining them so I was trying to to make it.
+Um, and now it working a bit.
+So am am we are using that idea that since we have you one alignment of references, with the English.
+One so we can use constraints from different references avoiding constraints with with similar meaning, right?
+So -.
+(PERSON2) Yes, yes, yes.
+(PERSON7) I will have a few <unintelligible/> that combine them.
+(PERSON2) Ehm.
+(PERSON7) I didn't used, ehm, I didn't truth length them for ready this combined constraints.
+So, I would I would do this.
+I was spending my time on on reading of combine them, final raise of combined them.
+So, yeah, I'm I'm really -.
+It was a <unintelligible/> process.
+And sorry about that.
+(PERSON2) Oh, you you were busy last week about visa.
+So it's -.
+(PERSON7) Yeah, I quit I quit had <unintelligible/> but that's that's that's like -.
+(PERSON2) Yeah, it's alright.
+Just to make sure, you also submit results of the word alignment, right?
+I can I can checked -.
+(PERSON7) Yeah, you checked it already.
+And you told me it was okay.
+(PERSON2) Oh, did I?
+I remove and checking it from the surface forms without the tokenisation.
+And that was problematic but I didn't check the new ones.
+I can login to them.
+(PERSON7) Okay, I can send you -.
+(PERSON2) Yeah, definitely.
+If can I, if I can ask you.
+Thanks.
+(PERSON7) Sure.
+So, we can have, now we can have we can have the results for the -.
+(PERSON6) Sorry, sorry, I just, I just have some good annotated alignments of 10 sentences, just to like -.
+(PERSON2) Oh, we can evaluated automatically.
+(PERSON6) Evaluated only.
+It's very small, but just the check whether it doesn't do anything crazy.
+(PERSON2) So, so, just just just to -.
+Like explain to [PERSON6], the problem was that anything there was no tokenisation on the English side.
+So, words -.
+(PERSON7) I fixed that.
+(PERSON2) Connected to the, yeah, <unintelligible/> connected to the punctuation incorrectly align.
+So then we didn't proper preprocessing and rewrite it.
+But I haven't check that yet.
+Yeah.
+I just want to make sure -.
+Yeah, yeah.
+(PERSON6) If you need need it just tell me because I annotated it of in spring when I tested those several settings of fast align.
+Ehm, so, the lemmatise version, <unintelligible/> version and if we train it from the scratch and or if we pretrain it run it  pretrain .
+So, that s why I need it just to try.
+It's very small just 10 sentences but -.
+(PERSON7) Yeah, we can check using using the set.
+(PERSON2) Ehm.
+So maybe maybe we can also sends connect to the [PERSON6] if he has time.
+Like the, the idea is that just not necessary to evaluate it all.
+But to take a glance on it and see whether is an some not problem with the model but problem with people <unintelligible/> or something like that can be easily fixed.
+(PERSON7) Yeah, yeah.
+I was checking myself so far but I will send you and you can move from that.
+Okay.
+And <unintelligible/> part of that was <unintelligible/> work which we have to discuss.
+At least discuss the paper is fan but this is this is not for this meeting.
+(PERSON2) Yeah.
+(PERSON7) But, uh, using this work <unintelligible/> the idea for the negative constraint.
+And [PROJECT5], yeah.
+(PERSON2) Yeah, yeah.
+We can also still still add, I will see [PERSON5] hopefully tomorrow at the office, in the office so I can ask him whether we can have a discussion this week and more detail since we can couldn't do it last week.
+But <unintelligible/> sorry.
+(PERSON8) Well, I I did the implementation part [PROJECT5] for the constraint decoding for the negative part, eh, with different types of containers for the constraints.
+I evaluated constraints <unintelligible/> only one subboard then sub- multiple subboards but stop in the lays and erase and multiple subboards but stop in the prestructures.
+Yeah, with differences not but date but yeah the treat work the best for the few conotaces.
+So, yeah, it was for implementing I guess.
+(PERSON2) Okay.
+(PERSON8) To work.
+So, yeah.
+I've <unintelligible/> 2 scenarios.
+One, first one is to for paraphrase generation.
+So the negative constraint was the negative constraint was sentence generated by the system without the constraints.
+So that new sentence is different.
+So all the tokens that were generated by the system without the constraint are used as a negative constraint.
+That's, this is first used case to generate paraphrases.
+And then the second one is to simulate the use case that we want to improve improve the output of the system.
+So, I also use the tokens generated by the system without the constraints.
+But only use the tokens that are not in any of the part of the references.
+(PERSON2) Okay.
+(PERSON8) So they are like wrong tokens, probably.
+And, yeah.
+It also helps like pure blue points.
+So, I guess it works.
+But I didn't have nothing to compare it with.
+Uh.
+(PERSON2) So, so just to make if I understand correctly.
+The paraphrase generation is not translation.
+Is just -.
+(PERSON8) No, it is translation.
+But you you use the previous like the original translation you use the whole translation as a constraint.
+(PERSON2) Oh, okay, okay.
+So we sort <unintelligible/> translate, okay, okay.
+(PERSON8) I use all the tokens like lots of boards.
+I tried using all the subboards as a constraint, or when I implemented a multiple constraints I'm using the whole tokens like march subboards.
+Yeah, that's the that's the first use case.
+And the second one is the only difference is that I only use the part of the original output of the system that were not in, uh, like 80 percent of the references tokens.
+(PERSON2) Ehm.
+(PERSON8) So that I only end up with tokens that are probably wrong.
+Yeah, and it does have like I got got will like from 11 to 13.
+So that's not bad I guess.
+(PERSON2) Oh, yeah, that sounds interesting.
+If we we agree on date this week for discussion.
+Like if I could ask you to a put it in some table or or <unintelligible/> .
+(PERSON8) Sure, yeah, yeah.
+Also now I'm working on the on the things from the paper of the constraints.
+But.
+Yeah.
+I just found out that the way I'm generating the constraints.
+The the factors.
+Or what take about two weeks.
+So having to uh, having to modify the script.
+And then I need to do some modifications for [PROJECT5], because uh, the in the implementation all the factors have different, vocabularies different, ambling mattresses, and in this case, we need to all the factors to have the same on the bidding and bidding, I guess.
+Because the factors are also subboards from the single vocabulary.
+So -.
+(PERSON2) Ehm.
+(PERSON8) That should be easy to do.
+Okay, so once I have the data set ready, under training and -.
+(PERSON2) Okay, okay, that sounds good.
+Yeah.
+Again like I would like to looking to the results more to just and it prophane.
+(PERSON8) Sure, sure, sure.
+(PERSON2) It's looks promising we can also reported to [PERSON9] next meeting and start discussion the the deployment.
+Yeah, deployment itself.
+So so we have at least preliminary system or at the last result that we can <unintelligible/> final.
+(PERSON8) Even like the the simplest approach works that you just mask out the subboards that you want to not to generate, and that also have what you have constraints but yeah if you go implemented for probably helps of a little bit more, it seems so.
+(PERSON2) Okay, that sounds great, because that would that would definitely may get burk next year less stressful.
+Like even don't we -.
+But we can later focus only on the paper, right, the resurge itself.
+Because we would have at least something uh, as as a back up or something like that.
+That sounds great.
+I think [PERSON5] will probably also have people.
+Yeah, okay, so.
+Yeah, I think we can we can cut it short today, right?
+Or is there anything else?
+Um.
+Yeah.
+Okay, I can mention, but think I've already told you, [PERSON8].
+Like we will start discussing the plan the case moment get you reply for the visa from the embassy.
+And -.
+(PERSON7) Yeah.
+(PERSON2) Yeah, it doesn't make sense to discuss it before that.
+And again, like it shouldn't be such a problem even if you arrive after New year.
+Like, obviously some people won't be completely happy but it won't be disaster.
+So, yeah.
+You can, you can definitely resolve that.
+Yeah, so.
+From me, there is not much new again. 
+I hope that I'll be still working on [ORGANIZATION3] more after the any any deadline.
+And, yeah.
+And I still have to claim [PERSON1] about the details.
+But hopefully I will be able to do it this week, so.
+Questions or something else I forgot?
+Okay, so, I'll take it that we can we can and that here for for this week.
+So nice was I seeing you.
+See you next week.
+(PERSON6) Bye.
+(PERSON2) Bye bye.

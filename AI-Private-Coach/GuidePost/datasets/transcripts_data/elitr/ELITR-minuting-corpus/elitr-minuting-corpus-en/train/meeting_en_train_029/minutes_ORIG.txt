@@ -1,0 +1,42 @@
+[PROJECT1] Surge organization
+Thu Mar 26, 10.40
+
+- [PERSON7] synchronize on [PROJECT2]
+- Deadline for [OTHER2] - 20th April
+
+[PERSON10]
+	-Will prepare domain adaptation data for monday seminar
+	-Try to get feedback from [PERSON14] about the KonText scraping and adaptation performance
+[PERSON7]
+	-Karaoke style setup ready
+	[PATH]
+	-Forced alignment for Antrecorp-dev and test set
+	-Log dirs for Mock conference.(All done except czech lang)
+	[PATH]
+	-ASR for [PERSON12] and [PERSON16]
+	Currently working on-
+	[OTHER2] --- MT 
+TODO-
+	-Integrate live audio visualizer (implemented by [PERSON17])
+	-Logs for Antrecorp and [ORGANIZATION1]
+	-This is identical to doing the [OTHER2] runs.
+	-Logs for Lang Tools Dry run II
+	-...for the manual transcription
+	-[PERSON4] recommends to keep seg-level timestamps in, in the format of interleaved lines: some lines are text, some lines contain just the numeric timestamp. (Not necessarily exactly alternating, there can be more text lines in a row.
+•[PERSON1]
+	-We submitted 2 papers last night
+	-I updated setup scripts for Monday seminar, so they're finally using mt-wrapper, and fixed 2 bugs in subtitler. The rest is for [PERSON7]
+	-I wrote to [PERSON2], [PERSON11] and [PERSON17] about tuning models for [OTHER2]
+	-And various ideas to try simply
+	-I was evaluating the 10 en-de and en-cs MT models for [OTHER2], still working on it
+-TODO soon:
+	-Instruct [PERSON2] to implement batching for [ORGANIZATION4] MT models
+	-Finish the evaluation
+[PERSON7]
+	-Finished audio visualization for [PERSON7]
+	-Trained many-to-many NMT model
+	-To do: evaluation on all languages
+[PERSON15]
+	-Uploaded  1800 test sentences for [OTHER8]-[OTHER6]
+	-Prepared 3000 test sentences for [OTHER8]-[OTHER1], [OTHER8]-[OTHER7]
+	-Collected monolingual data for Turkish, [OTHER7], [OTHER4]

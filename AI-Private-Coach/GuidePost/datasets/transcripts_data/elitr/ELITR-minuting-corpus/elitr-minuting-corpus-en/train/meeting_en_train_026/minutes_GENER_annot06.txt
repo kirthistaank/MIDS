@@ -1,0 +1,19 @@
+[PROJECT4] meeting 14.06.2019
+Attendees: [PERSON14], [PERSON17], [PERSON13], [PERSON2], [PERSON11]
+Purpose of meeting: Discussion about project milestone and done things
+
+Summary
+• many things terribly failing and components missing
+• discussing about metaform
+• multilingual system made with all Euro side languages
+• all people working on Czech ASR all the time (still no success)
+• plan to complete contents (mid June)
+• [PROJECT2] does not have anything in month 6
+• update dissemination continuously
+		Milestones
+		• date of the pre-review meeting (full review after month 18)
+		• milestone (initial ASR systems)
+
+
+
+Minutes submitted by: [ANNOTATOR2]

@@ -1,0 +1,33 @@
+Test session 20200514-1500
+• [PERSON9], could you provide your zoom link?
+• [URL]
+o [URL]
+• TODO:
+o “_NOISE_” must be removed from Czech ASR output
+o “be” must be removed from Romanian output
+
+Dear [PERSON15] and all,
+
+we are sorry to inform you that we are experiencing an unexpected blackout at one of [PROJECT2] partner's server room. (A construction digger cut the power cable yesterday near [ORGANIZATION6]'s server room and they are not able to get it to work before next week. [ORGANIZATION6] cannot even access their files. We tried to get substitute servers running for some of the components but that has problems and not all components we wanted to demo are actually available.)
+
+Unfortunately, this will result in a drastic downsizing of the planned demo. In particular, tomorrow we will be able to demo just Czech as the input ASR language. We wanted to demo also English and German.
+
+We are really sorry for this incident but we assure you that it could not have been foreseen or avoided.
+
+The power outage in the affected area can last for up to a couple of weeks, [ORGANIZATION6]'s administration is now in a legal battle with the construction. Tomorrow we can demo the Czech language input, but we think that this will not reflect the great work that has been done by all [PROJECT2] partners during the last year. Please let us know your preferences, if you would like to see the Czech demo tomorrow or if you prefer to reschedule everything when outage problems will be solved.
+
+Best regards,
+
+Test session 20200514-1000
+• [ORGANIZATION9] link:
+o [URL]
+o [PERSON7] must start this at 10.00, now rebooting...
+o The room is booked until 12.30 and at 13.00, something else starts there.
+o Meeting ID: [NUMBER]
+o Password: 1234
+• Editable slides:
+o [URL]
+o [PERSON7] will prepare the slides.
+o Anyone please add any Future plans you may have.
+
+

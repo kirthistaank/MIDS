@@ -1,0 +1,183 @@
+<another_language/>
+(PERSON17) So let's switch to English right away. Thanks for all of you, for for, to all of you for for the work and thanks for joining the call. As always the call will close sharply at quarter to 5 and we have 30 minutes to to discuss. So I see [PERSON16] connecting, so I'll start and I would first of all make a big thank you to to [PERSON16], [PERSON13] also an and [PERSON9] and and [PERSON5]. And also [PERSON9] but I'm not sure how how much you contributed there for the edible SLT submission. So I I'm still totally lost in how many submissions we actually made. So I'll organize that. Hopefully [PERSON20] is little bit more oriented in. We have now 4 or 3 days to to write the papers. So these are system papers and they should be as detailed as as necessary to explain what the systems are. So please, actually, let's let's make use of this call to summarize the submissions. So [PERSON16], if you're still here-Oh, I see [PERSON13] twice. Is that correct? Ehm.
+(PERSON16) I think, [PERSON13] exists only once.
+(PERSON23) I don't see [PERSON13] even once.
+(PERSON17) Oh, that's interesting. Like I'm a participants. There is-
+(PERSON23) [PERSON13].
+(PERSON1) I I see him 3 times now.<laugh/>
+(PERSON17) Yes, ok, I think it's going crazy. So [PERSON13], how many times are you corrected? <other_noise/>
+(PERSON17) Yeah, so I suspect, I suspect that you have 2 devices connected and they are now trying to mute each other, so we don't hear you, eh, much. It was very interrupted. So if you, if you could, if, if these 3 [PERSON13] connection are from 1 room, then it's very risky. Yeah, if it's someone else, just re-using your name, then that's ok.<laugh/>Yeah, ok, so [PERSON16], can you summerize what are the submissions, because I'm, I know that you have done a lot of work, thank you, but I'm I'm lost.
+(PERSON16) Yes, so there is online ASR, it's [ORGANIZATION6]. And it's the hybrid worker for Antrecorp and and the worker number 1 for the other domains. This is the <unintelligible/> submission. This is translated by <unintelligible/> into German. And by there, edible SLT 2019 into Czech and that's the primarys submission for online SLT. Then we have offline ASR, the primary [PERSON6]. And primary, primary offline SLT uses the same workers as online SLT. And then us non, non-primary submissions I I submitted. [PERSON6] ASR translated by every worker we have. And except the [ORGANIZATION6] German, because it's not easy for me. And [PERSON5]'s ASR translated by the workers I could get in the time pressure.
+(PERSON17) Mmm-mmm, yeah, ok. Yeah, so I suggest that you still run even now after the deadline, that you still run also the other MT, like to to make the tables complete, so to say, in the paper. So not all of the, not all of the submissions that that, not all of the runs will be officially evaluated. But most of them will, and for the others, it is still interesting to know them using like they the scoring that that you will use in the in the paper. So, so to make the tables complete, please finalize the runs. I missed some of the details, but well, if if you can them, for summary edit this document. So, the the primary online, that's the very main thing, how did it work, how did it compare to-So the Google translate, another things have you obtain that or not at all. Or has [PERSON1] obtain that?
+(PERSON16) Yes, but they they were not online. The only online ASR <unintelligible/>.
+(PERSON17) Say it again.
+(PERSON16) The only online ASRs are the 3 by [ORGANIZATION6].
+(PERSON17) Yeah, ok. Yeah, and <unintelligible/> the offline ones. How how well did they score in your measures? Like I'm I'm curious about what can we expect, ehm. Whether we can-
+(PERSON16) I haven't evaluated.
+(PERSON17) Yeah, ok.
+(PERSON16) Then by blas scores.
+(PERSON17) Yeah. So we know just the ASR scoring and their the-
+(PERSON16) And blas scores on the 3 [ORGANIZATION6] online ASRs. Because they were ready in advance.
+(PERSON17) Yeah.
+(PERSON16) That's why I could evaluate them, but but still. In the end I decided to drop Antrecorp. Because it's very unstable. So I, I made an average of the scores of the 3 ASRs and pick the best.
+(PERSON17) Yeah.
+(PERSON16) Worker.
+(PERSON17) Regardless, regardless Antrecorp files. Regardless the 2 Antrecorp files.
+(PERSON16) Yes, so only <unintelligible/> and auditing, because-
+(PERSON17) Yeah, yeah.
+(PERSON16) Long document.
+(PERSON17) Yeah. And we have, we have [PERSON5] on the call. So a big warning that I was discussing with-So actually and and also [PERSON9], the big warning is about the [ORGANIZATION3] ASR system by [PERSON10]. Because that was trained on [ORGANIZATION5] corpus, so they're, but you were not comparing this system [PERSON16], if I understand correctly. Making the judgement, base on the [ORGANIZATION5] performance, or based on a dev set, which includes [ORGANIZATION5] would be an over estimation of the [ORGANIZATION3] [ORGANIZATION5] trained system. But that was not in your comparison, so that's, like, the choice was not affected in in anyway. Ok.
+(PERSON1) I'm I'm trying to figure out better the [ORGANIZATION5] dev set was included in the [ORGANIZATION3] [ORGANIZATION5]-
+(PERSON17) It's very likely. Because we have selected the files. And they are the first files in the corpus, so it's very likely that they were included. We did not-So, we selected or [PERSON1] selected these files from [ORGANIZATION5] corpus. And the goal was to have as non-native speakers as possible in this in these files. And also the domain should be somewhat related and these were the criteria to select it. So we didn't follow any trained deaf test division that would be available for [ORGANIZATION5] corpus. So it's it's very likely. Ok, so thanks, thanks also for the details. Now, I need to synchronize with [PERSON13], probably at the end of the call, but the main question is, yes no question. Whether [PERSON13] could make sure that from 11 or some time before that actually, our system is ready to subtitle or well, not subtitle, the paragraph view is what we what we want now. The Czech meeting it's, that's a very formal thing actually, that's one of the one of the departments of the [LOCATION1] city-So the [LOCATION1] city is run by several organizations, this one is about the new development, so when they are deciding where to put bridges and where to where to make new suburbs, this is the, this is the people who are deciding. And they have theyl their weekly meetings, and they agreed to have their meetings recorded so I'll I will forward you ZOOM link and I have the permission that I can connect then and you as well, and we need to record that as a back up in case the recording button doesn't work for them. They are not sure whether they will a manage it. And we can use that for the minuting later on. And I also told them that we will subtitle it, they'll be talking Czech. So I would like to send them the link to the to the only the quest view, not the subtitles and for in-, like I would just for curiosity it will be interesting to also translate it into English and German, maybe. So it's not not the point to have too many languages, but the point is just to illustrate it. So if you could prepare the set up. And we should probably test it either late toni- later tonight or with one of the ZOOM links that [ORGANIZATION4], the school can provide. That'll be ideal. Or tomorrow in the morning, but that would be kind of tricky. So if you could after this call, get your machine ready to follow the sound. Make sure that you can record the sound. So that we have the back up. And do not trust <unintelligible/> if possible. But, and to to have the pipeline for Czech ASR into displaying Czech, English and German. Yeah, so that's that's one one like last minute request. I known this while ago but I forgot to ask it specifically. Yeah, thank you. And then, for for edible SLT I know that [PERSON14] is here and he has also type the the progress, but I'm afraid that his microphone somehow not excepted not recognized. Maybe it is forbidden in the in the browser, so [PERSON14] maybe you need to like de- maybe you have click remember permanently not to use the microphone or something like that. So [PERSON14] probably cannot speak, so I would like to know what is the status of the [PROJECT1] of the edible SLT test set. You have been working on that, you've created the the visualization of the subtitles, the word level time stamping of those and you've we're working on the evaluation script, that's that's good. Ehm, but still, the ASR files are something which we are not ready to evaluate. We're ready to evaluate SLT, so thanks for that. But what is the status ehm, and how many files are not manually processed yet. That would be something that I would like to hear from [PERSON14]. So let's this is a test for [PERSON14] was able to listen to me.
+(PERSON14) Yes.
+(PERSON17) Oh great, amazing. So please just let me know how many files are still in with the annotators.
+(PERSON14) Yes, hi all. E-mail contain the remaining files, but the most question is about <unintelligible/> files in <other_noise/> Because the words in <unintelligible/> files and the OST files are not the same. Do they need to be talk again?
+(PERSON17) Ehm, we can change the-So that's, some of these files are correct and some are not and this is, this is what I was trying to explain to you in in an e-mail. So the the goal is to had the transcript match the sound and one really has to listen to the sound and check which of the files matches the sound. I don't think that there would be inter annotator agre- disagreement that different people would hear different things in the sounds. It is possible with, if someone is mumbling, but that would be like a rare thing. And at this rare thing it really doesn't matter. So if it's this rare thing, someone mumbling, and 2 annotators doing di- differently then feel free to switch to the EAF because that is word level annotated and modify modify the OSTT. That's like as as if switching to another goal standard. But it's it's mumbling region. So it is not too important. Most people would not understand what is being said anyway. But if it's if it's like a technical difference, that someone like, it's not clear to me why we have this difference. So if it's a technical difference, that some people spell out abbreviations and some don't then again we need to make like an annotation decision and choose one of these. So this is essentially where there is a conflict, it means that it has to be manually revised. And I think it would be best if you could do it, [PERSON14]. So if you could look at these this mismatches, and manually choose. We we want to have the time labeled transcripts. So choosing the EAF file is better is an easier option. Because you will get the time stamps with that. But if the EAF files are wrong, we don't really want to to like make this regression and go to something worse than what we already have. So in that case, you should modify and like correct the EAF files based on the OSTT. Because the OSTT were created by experienced people, like most of them pro- not all of them, maybe that there could be errors everywhere. But I would be tempted to trust the OSTT files a little bit more. But we do want the annotation from the EAF files. So that's why the the merge the manual merge is is inevitable I think. So does that make sense?
+(PERSON14) So, correct EAF files per <other_noise/> Yeah?
+(PERSON17) I, there were many gaps in your in the sound from you. I think you said that you will correct the EAF files based on the OSTT files.
+(PERSON14) Yes.
+(PERSON17) Yes and no. I would prefer you to correct the EAF files based on the sound. Add the places where the OSTT files show the mismatch. So in another words, go over the points of the mismatch as you locate them in the texts. But to decide what is the correct thing, do not trust the OSTT. Trust only the sound.
+(PERSON14) If you agree, I will tell the 2 version of them. Once per <unintelligible/> and one base on corrected version.<unintelligible/>
+(PERSON17) But what what will you based the correction on? What will be the basis for the correction for the EAF files?
+(PERSON14) Ehm, can change EAF files based on OST f-
+(PERSON17) No, no, no it's, you really have to trust the sound. The only golden trust is the sound. So we, the EAF files and the OSTT files are equally likely to have transcription errors. So it's like an annotators mismatch and to resolve the mismatch it's not a good idea to just flip a coin and choose one of those. The correct idea is to use these mismatches to find the spots and hear again what it's what is in the sound.
+(PERSON14) But I listen to sound but there are very <unintelligible/> and I could not find, I could not understand ehm-
+(PERSON17) Ok, ok, so so if you but you should do this for every place. So for every place of the mismatch, if you do not understand choose the EAF and modify the OSTT according to the EAF. If you do understand then choose the correct thing. And that could be anywhere.
+(PERSON14) Yeah.
+(PERSON17) Yeah, so please prepare this list, complete list of mismatches, which file which words, like generated automatically if it's too long. Or if it's too too limited then just do it yourself. And fix it on the spot. But if this list is long, then generate automatically and send it to me and [PERSON18] and we will check whether will decide whether the annotators could do the the decisions. So you do- you would not have to do the listening yourself. But you have to list all the not just the files, but the spots in the files.
+(PERSON14) Yeah, I will do it.
+(PERSON17) Yeah, ok, thank you.
+(PERSON14) And excuse me, and the for- <other_noise/> And I make an Kaldi for them by tomorrow or-
+(PERSON17) Yeah, so the [ORGANIZATION5] corpus should be correct. We generally trust the word level time stamps. Show I sh- I would not worry too much, but yes please that would be good if if you still create it.
+(PERSON14) Yeah, thanks.
+(PERSON17) Yeah, ok thank you. So that that was [PERSON14], I'm happy that you were all able to to hear his voice, because he he was supposed to be in [LOCATION1], but he is now running his extern ship instead, suppose to internship. <laugh/> And yeah, so let's go quickly further. For the [PROJECT1] test set I would like to, I I don't know, yes [PERSON22] is here as well. So later on when [PERSON22] presents I would like to hear what is the status. Where is the table, if [PERSON22] could put here the table the link to the table where there is each of the files. And the annotators who are now processing them and at what status are are there. What is the overall status. So-Yeah.
+(PERSON3) I will link here.
+(PERSON17) Yeah, wha- what is the overall status and also how many annotators are waiting and for what. So I want to see the length of the queues kind of. So these are our workers they should ehm they should be working and not waiting. So we need to to give them some some work. Put it directly to the not as a comment, put it directly as a as a sub sub point. Thank you. And for the [PROJECT1] test set usage I would like to ask [PERSON13] and [PERSON9] to start using the [PROJECT1] test set. So we already have 1 or 2 files, that's not too many. But I would like the cruise control to start running still manually but so that we would see how are MT systems are processing the files in the [PROJECT1] test set. So this is, this is something that it ha- it doesn't have to be done this week but this is something that you should like plan and hopefully from the next week for example you should know how to do it and then it should become like push of a button thing for you. Yeah. Then we have this list of submissions thanks for all the details. Then we've already discussed [PERSON14], so thank you. And now [PERSON13], please can you briefly say what you have been working on? If if we have at least on the 3 [PERSON13]s. [PERSON13], can you hear us? I s-Yeah, [PERSON13] can you hear us? Yeah, and does it does the microphone work for you, can you just briefly summarize so we have what you have been working on?
+(PERSON13) Yeah, sure. So I have been working on - <other_noise/> and using pre-trained fastest ehm
+(PERSON17) Hmm-hmm. <other_noise/>
+(PERSON13) Because it was ehm- <other_noise/> Solution and everyone advised to - <other_noise/> This could be a bit of task.
+(PERSON17) Ok.
+(PERSON13) And - <other_noise/> Because the repositories where links to check - <other_noise/>
+(PERSON17) Sorry, so so the sound for some reason your network connection is very bad. I don't know if you're running on on wif- on on Wi-fi or wired connection or ehm. Your connection seems to be much worse than normally and this this worries me especially for tomorrow. So for the for the recording, if if you were som- <other_noise/> Yeah, ok, but anyway, yes I I I know that you are working on these 2 things and there're like serious technical issues. This failure did I understand correctly that the repositories are not available? That the source code in is missing? Or did I guess wrongly? <other_noise/> Yeah, I I still don't understand so so like probably some strange programming language used. That's that's my guess what you are saying.<laugh/>Yeah. And then you were working on the edible SLT segmentation and punctuation. Ok.
+(PERSON13) <unintelligible/> programming language.
+(PERSON17) Just write it down I don't, yeah, I can't that it's, I cannot understand.
+(PERSON16) He he found us <unintelligible/> In the R programming language.
+(PERSON17) Oh in the R, yes, that's a horrible program language with the worst, yeah. That should be surpassable but it's complicated, yes.
+(PERSON16) <unintelligible/> 2014.
+(PERSON17) Yeah, w-That's the the R language is extremely old and it it didn't I'm sure it didn't change in the last 6 years. So it it's probably it should be possible to to get it running the best R expert in this department is [PERSON21] by the way.<laugh/>So you can ask [PERSON21] but she's a linguist not a programmer but she she has done some serious R coding herself. And she-
+(PERSON23) Yeah, anyway, anyway I haven't done much R coding myself but I know that basically R is maintained at in Zurich. And I and I also have some subject in R so maybe if like if.
+(PERSON17) Yeah.
+(PERSON23) If something totally doesn't work maybe just ask me and maybe I will know but I I'm I by me no by no means I I'm no expert.
+(PERSON17) Yeah, yeah. So so [PERSON13] you have now 2 people to ask, [PERSON21], she will probably not understand the technical things but she wa- she was in touch with people who use it more often. And then and then [PERSON9] we should be able to get get over this and also do get in touch with the students actually from from that seminar of mine, [PERSON8] Jenč and [PERSON19], because the it's also their their task. So by discussion with them you should be able to overcome this. Yeah, ok. And then you have done all the all the technical work for the segmentation and yeah. So, ok, thank you, let's let's let's proceed. And, but [PERSON13] please let me know by e-mail what's with your connection because for tomorrow session that will be very bad. If we-Yeah, ok thank you. So we have [PERSON16], who has submitted all the many system, thanks. The definish of translation lag was sentence catch up it's still imperfect. It make a negative <unintelligible/> Ok, so there is still an improvement of the definition. Feel free to describe that to the edible SLT submission or whatever.
+(PERSON16) Yes. And we need to decide how many system description papers.
+(PERSON17) Yes, yes. Yeah, so that's a main question for Pe- [PERSON5] as well. And for [PERSON1] and and you. So how many, is it 4 pages? What is the limit?
+(PERSON16) I don't know, I haven't looked yet.
+(PERSON17) Yeah, I'll let me check.
+(PERSON16) But the more papers the better for me, because I won't need to care about the others.
+(PERSON17) Yes, that's true.
+(PERSON16) Mostly [PERSON5]'s work and [PERSON1] in the others.
+(PERSON17) System papers are due April 24th, <unintelligible/> must be <unintelligible/>. Well system papers do not need to be. And 4 to 8, 4 to 8 so 4 is the lower bound actually.
+(PERSON16) Ok.
+(PERSON17) In in way if, yeah. So so how many, so the question is so [PERSON5] can probably re-use some of his thesis text. As the description of the systems that he used. So that could easily like made sufficient content. But it should not steal to much of like new things. It should be just brief summary. And so I think that [PERSON5]'s submission is the most distingue from others. So [PERSON5], are you are you here, can you can you talk, can you, can you confirm?
+(PERSON5) Yes, yes, yes.
+(PERSON17) Yeah, so so do you do you agree to write a separate paper?
+(PERSON5) Ooo, yes I can. Because I can, as as you said I can re-use my part of my thesis.
+(PERSON17) Yeah.
+(PERSON5) And I done 5 separate submissions. We need to figure out which are which we take. Because, because I just 1 minute after me [PERSON16] send me an e-mail with si- where I was sees it. That with some with some of my some of my systems. But I I submitted all the task, I submitted ASR SLT to to Czech and SLT to German. And-
+(PERSON17) That was with [PROJECT2], right? That was with [PROJECT2] translation.
+(PERSON5) Yes, yes. Both both SLTs will were with [PROJECT2]. I I don't know if I had use the good, good models, because there were many models to choose so-
+(PERSON17) For [PROJECT2]?
+(PERSON5) Yeah. I I think there were many many English model, I don't know how much German models there were. But for English there were at least 2 or 3 systems.
+(PERSON17) Like from initiating to watch.
+(PERSON5) English to Czech.
+(PERSON17) English to Czech 3, oh, ok.
+(PERSON5) At least. So I chosen the default ones, so hopefully-
+(PERSON17) Hopefully, yeah.
+(PERSON5) Yeah. And so I don't know I I checked random leader quality of the translation and it's it was horrible, I would say.
+(PERSON17) Yeah.<laugh/>
+(PERSON5) But but so are the so are the-
+(PERSON17) The sources.
+(PERSON5) SLT so so I don't think there's much to to translate actually. But hopefully we will see.
+(PERSON17) Yeah.
+(PERSON5) So this is a question for [PERSON16]. Which which submission should we take. He-[PERSON16] you you s- you have written something like that it's like subset of my word or something.
+(PERSON16) Yes. I think your ASRs, your offline ASRs can be mark as primary in your submissions. And I don't mind to to pass the translations I did from your source as as in your submission. So you I think you still can mark 1 as primary, can't you?
+(PERSON5) Ok, so and which the translation model did you use?
+(PERSON16) Many of them, but one of them is the one that I used as as primary for our submissions, for the <unintelligible/> new rainbow worker for German and-
+(PERSON5) And it's the different one from the from the online [ORGANIZATION1] translation model.
+(PERSON16) Do you mean the one that is in [PROJECT2] website?
+(PERSON5) I don't know whether it is [PROJECT2] or [ORGANIZATION1].
+(PERSON23) Yeah, it has to be a different one because it's [PERSON18] worker anyway. Right.
+(PERSON16) Which worker?
+(PERSON23) Well.
+(PERSON17) So [PERSON9] created their new rainbow worker.
+(PERSON23) No no no.
+(PERSON17) Last night, no?
+(PERSON23) It [PERSON15]'s so, [PERSON15]'s new worker.
+(PERSON17) [PERSON15]'s new wo-, ok. So the the easiest thing the easiest way to organize this is actually to have the 2 papers, so [PERSON5] please set up. You already are probably on on copy, you know the overleaf for the [PERSON16]'s submission.
+(PERSON5) Yes.
+(PERSON17) Please make similar one. And let's simply organize what is the primary submission and what what all submissions are there in the paper and then this is what I'll use for the official summary as as well. So use the papers, now follow what what is now in the Google document, the su- the submissions. So maybe discuss still for a while, like what, yeah it's it's-I I haven't expected, this is actually a big achievement but I haven't expected that we'll have so many systems to to choose from. So that is, that is great. But we need to no not to loose ourselves in that in that long list. So.
+(PERSON16) I I can show you <unintelligible/>.
+(PERSON17) Yeah, yeah, please do. Can you share the screen?
+(PERSON16) I I'm going to put here the link.
+(PERSON17) Ok.
+(PERSON16) Here.
+(PERSON17) Yeah, yeah, yeah.
+(PERSON16) And it it's too very messy and I organize.
+(PERSON17) And why is it called copy of?<laugh/>
+(PERSON16) Because [PERSON9] evaluated blascors of all the systems and then pass pass it to me in his spreadsheet and I did the copy-
+(PERSON23) I didn't give you really any access so how?
+(PERSON16) <unintelligible/>
+(PERSON17) So now which sheet should we be looking at? Because there is, I saw this table in the morning from you, thank you. But I I didn't know where where to look.
+(PERSON16) See as final view, the first sheet in the left. Yeah and I highlighted both the tool, the the one that I've chose as a candidate for Czech.
+(PERSON17) So this is primary right? This is primary.
+(PERSON16) Yes.
+(PERSON17) So actually I'll put here primary and ash- it should have a name. So like primary for [PERSON16]'s in [PERSON16]'s paper, right?
+(PERSON16) Yes. For Czech.
+(PERSON17) For Czech, yeah yeah. Primary and 2 CS in [PERSON16]'s paper. And then what else. This is the the other one, so is it, this is the same thing, right? Primary in.
+(PERSON16) Yes.<unintelligible/> by the document.
+(PERSON17) By the document, yes, exactly. Ok.
+(PERSON16) Maybe the other defaulted thing. And in the second sheet in the <unintelligible/>
+(PERSON17) In DEOL right? Yeah.
+(PERSON16) Yes, below there is, if you look at the auditing part, that's here the option for English to German. And I.
+(PERSON17) Am I correct that line 54 is the primary?
+(PERSON16) Yes.
+(PERSON17) Yeah, ok. So primary English to the in [PERSON16]'s paper. Right.
+(PERSON16) This ASR, edible SLT 20 others core 1.
+(PERSON17) Yeah. S-Ok so the first column is the machine translation system, the second column is the ASR, right?
+(PERSON16) Yes.
+(PERSON17) Yeah, ok.
+(PERSON16) <unintelligible/>
+(PERSON17) MT ASR document, then ble and what, what is the last one?
+(PERSON16) <unintelligible/>
+(PERSON17) Yeah, ok. Yeah, s- , yeah that's a goal translations. The ASR, yeah. So the, that's clear. Yeah, yeah, ok. So this is it is a little bit clear. The first sheet, which is empty, can we actually delete it or is there something on on that? This list <another_language/>
+(PERSON16) Where is it?
+(PERSON17) The very first sheet.
+(PERSON16) Aha, I didn't see. It was, I I'm going to delete it.
+(PERSON17) Yeah, ok, please do.
+(PERSON16) <unintelligible/>
+(PERSON17) Yeah, ok. So so it will be good if [PERSON16] you could evaluate also the [PERSON5]'s runs or and and and [PERSON1], [PERSON1] where are your systems? Are their included in these tables?
+(PERSON16) No because they were not segmented.
+(PERSON17) Ok. Yeah.
+(PERSON1) So because I I didn't know whether to evaluate all the systems on test set that it's seems unnecessary that we like should I evaluate even like the Google submission and Microsoft and-
+(PERSON17) Yes, please do. Exactly, please do, yes, please do. This will useful for-
+(PERSON1) Because so far it's only on dev set, but I haven't eval- I haven't proc- process the test set.
+(PERSON17) Yeah, yeah plea- please do process it. So I'll I'll have to write the the summary paper. And the question is whether we want to use these numbers also in the submission papers or whether I'll simply steel these numbers from you and use them in the in the overview picture. But I'll need the outputs in any case. So if you can run this. It's like the ans- the an- well, simply the online submissions, the the submissions that we just ran.
+(PERSON1) And should I ran them on all parts of the test set?
+(PERSON17) Yes. Yes. So please do and please send them to-
+(PERSON1) Ok, ok.
+(PERSON17) To me and [PERSON14] and also [PERSON20].
+(PERSON1) Ok, so I I will do that.
+(PERSON17) Yeah, thank you. So your systems are not included, the question is whether they-So they they make secondary submissions, right? Like non-primary submissions. Or sh- do you have enough submissions based on your ASR so that it would make a third paper?
+(PERSON1) Ehm, I I don't think that there is too much to write about them to fill in a whole paper.
+(PERSON17) So the question is whether we, whether whey are s-, where some of them are very likely to be good ones. And that could be either yours or by [PERSON17]. Which systems do we really trust. So I would trust the [ORGANIZATION6] system for ASR and then whatever [PERSON16] has chosen for MT but I would equally much trust the the system that you have. And also the the [PERSON10] system. So, what what what scored better in terms of ASR for, was it your systems or [PERSON10]'s?
+(PERSON1) Ehm, well it's, I think the [ORGANIZATION2] and <unintelligible/> models are almost likes, ve- very similar. And then Google scored slightly better. And there is Microsoft somewhere in the me- middle. And the [ORGANIZATION5] based system scored quite well, but it very likely that it may -
+(PERSON17) So from my point of view, it would actually make more sense if you wrote a third paper, because this is like distinct tables. [PERSON16] would supervise what he evaluated, you would supervise what you evaluated and [PERSON5] would supervise what what he evaluated. So that the main author, the first author of each of these papers will be responsible for the tables to be like internally consistent. And that's the easiest way to achieve this. Another option is that that we put all the submissions into 1 folder, and 1 will oversee each measure. So what do you prefer? That's for each for up to you each of you.
+(PERSON1) Well, I I'm not sure if I can fill like 4 to 8 pages of paper by describing the systems. Well I can describe like all the I don't know, hyper parameters and stuff, but I-
+(PERSON17) So so then please please write it as like a separate section into [PERSON16]'s overleaf for now. But please describe it there.
+(PERSON1) Yeah, ok.
+(PERSON17) Just a warning, in 2 minutes we'll be cut off. Or maybe less. Yeah, so so please describe it in [PERSON16]'s paper. And we'll we'll see. So make it like a separate table for now and as I wrote already some time ago, please put full paths to the outputs in the paper, as comments at least. Or make it, make them even visibly in the in the PDF. Ok. Have we missed anybody? [PERSON22], you'll be cut off. So you're still preparing the test sets. Oh.
+(PERSON3) Yeah, actually I got to resend the link from [PERSON4] for <unintelligible/> and other languages. So-
+(PERSON17) Yeah, so you're preparing more, ok that's good.
+(PERSON3) I think it's already prepared and maybe I'll send-Because I'm waiting his res- her response. As you know we have already send some tested data for validation-
+(PERSON17) Please, please check the outputs that [PERSON18] sent. So that we can confirm whether this was good or not.
+(PERSON3) Ok, I-

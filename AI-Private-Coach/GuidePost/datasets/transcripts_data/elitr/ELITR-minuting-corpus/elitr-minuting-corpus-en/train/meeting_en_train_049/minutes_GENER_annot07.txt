@@ -1,0 +1,20 @@
+[PROJECT2] Demo
+
+
+Date: 11. 05. 2020
+Attendees: [PERSON6], [PERSON11], [PERSON12], [PERSON2], [PERSON10], [PERSON5]
+Purpose of meeting: Preparation for demo 
+Agenda: 
+* Agenda for [ORGANIZATION5]
+* Data Collection
+* Pre-run demo
+* Fingerprints, path German - Romanian
+* Preparing to run the demo plan B
+* Running demo
+	* [PERSON5]'s review
+* Running demo TED talk
+* Problem with running English demo
+* Summary, arranging next meeting
+
+
+Minutes submitted by:         [ANNOTATOR1]

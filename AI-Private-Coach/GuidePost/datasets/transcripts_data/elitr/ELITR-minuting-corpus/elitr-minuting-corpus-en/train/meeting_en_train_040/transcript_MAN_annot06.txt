@@ -1,0 +1,79 @@
+<unintelligible/>
+(PERSON4) Thanks, it is better <unintelligible/> passing to [PERSON3].
+(PERSON3) So yeah, <unintelligible/> its [PERSON9] right?
+So.
+So, for last two weeks i've been working, i started with training new language model for domain adaptation, <unintelligible/> ASR.
+So now we have, now we can have better <unintelligible/> adaptation, before like meetings and all.
+Secondly I was trying to <unintelligible/>. 
+Yeah yeah.
+(PERSON9) What tool are you using for the language model adaptation?
+(PERSON3) <unintelligible/> script that was shared by [PERSON1].
+So I don't think i would understand whats in the.
+So I just <unintelligible/> and data <unintelligible/> with text data.
+English text data.
+And i think that we can have better language model because if we use the, text, like some text data <unintelligible/>.
+Maybe like sentences from his presentation, and if we <unintelligible/> into language <unintelligible/> and build the language model then we can have a adaptation, because until now we were just writing, <unintelligible/> and mapping them to some other words that did not exist in the earlier language model.
+So this is going to be better.
+And nextly I was trying to run the, <unintelligible/> docker on U4 machine, and its like <unintelligible/>.
+<unintelligible/> with that, so yeah thats like <unintelligible/>, apart from this I also done automatic audio transcription and there were a lot of transcription <unintelligible/>.
+Next I trained new model for Czech <unintelligible/> using the Czech <unintelligible/> data set and I currently have two models.
+And they are both, they are both right on the GitHub.
+Depositary <unintelligible/> Czech segmenter.
+Apart from that currently I am working on <unintelligible/> to get SLT into action.
+And I'm also fixing the <unintelligible/> from [PERSON4].
+And I'm also planning a new Czech segmenter using the data set that user <unintelligible/> [PERSON9] <unintelligible/>.
+And they were like a lot of sentences, so I just took 6 million of them, and lets see how the <unintelligible/> be <unintelligible/> new model.
+And next I'm planning to <unintelligible/> models using Czech, using Czech data, so <unintelligible/> I'll use Czech data.
+So that's all from me.
+For yeah.
+Any questions [PERSON9]?
+<other_noise/>
+(PERSON9) Regarding the domain adaptation of the language model, we can maybe <unintelligible/>.
+Sometimes I work on kind of similar things for Czech.
+(PERSON8) Sure sure sure sure
+(PERSON9) Yeah, I I started I think I mentioned it in previous meeting, I worked on like <unintelligible/>
+like data based <unintelligible/>, so how it worked is that you have some domain <unintelligible/>.
+And you have large corpus of some other language for example.
+(PERSON8) Yeah, yeah, yes.
+(PERSON9) On the like, domain <unintelligible/> data based <unintelligible/> sentences to your domain.
+<unintelligible/> like this week.
+<unintelligible/> work <unintelligible/> model, and a can you hear me?
+(PERSON3) Yeah, I can hear you, I had to turn my microphone off to hear you.
+(PERSON9) Oh okay i see.
+So yeah, just maybe it could be interesting if we meet and yeah we can try to coordinate the work on the language adaptation together.
+(PERSON3) So, <unintelligible/> maybe <unintelligible/> find some time to work <unintelligible/> and actually whats happening inside.
+And we can make together.
+(PERSON9) I would actually be like interested like what toolkit they use for the language modeling or if they have like, their their own um, toolkit for that or if they use for example the <unintelligible/>.
+So, because I use the KenLM toolkit and there is quite nice option, they have quite good performance in terms of interpolations of different language models, so you don't train only one language model, but you have like some big baseline language model and then you have a some small domain model and you interpolate between them like based on some development set on which you tune the <unintelligible/> city.
+(PERSON3) Um-hum, yeah, yeah yeah.
+(PERSON9) There would be option to <unintelligible/> ngram model, I think it could be interesting as well to try maybe use can LM it give.
+(PERSON3) Yeah sure, we can discuss more details when we meet in person, and lets see if we can achieve more better language model adaptation.
+Domain adaptation, domain data, and yeah.
+(PERSON9) Yeah sure.
+(PERSON3) Okay thats all from me now, [PERSON8] will speak.
+(PERSON8) Last week I worked data collection, basically <unintelligible/>, but during when we started translation this week, so I worked some again <unintelligible/> model language data.
+So right now I'm working on training, so <unintelligible/>, I am waiting for [PERSON2] <unintelligible/>.
+(PERSON4) Which languages?
+(PERSON8) English and French.
+So right now I have started with German, French.
+But I'm <unintelligible/> last week to discuss with [PERSON2], because [PERSON2] is already working on <unintelligible/> translation then, <unintelligible/> record some <unintelligible/> then you'll start <unintelligible/> translation systems.
+So I don't see any update from [PERSON2], so I am waiting.
+Okay I will send an email to [PERSON2].
+So thats it. 
+<unintelligible/>
+<other_noise/>
+Yes.
+Yes, so now [PERSON9], can you hear us?
+(PERSON9) Yes, so, yeah I basically been working on a pipeline I've connected this sentence embedings that I've already mentioned with like this Subaczech corpus, which is basically a huge corpus of a Czech news articles, and there is always headline of the article and a short abstract and then there is full text, so what I'm doing I got some, like domain sentences and based on these i searched through the abstracts and headlines to find the most like similar articles that match my domain and then i take the full article texts and use them to extend the language model to make the adaptation for that domain so yeah I'm working on it as part of my diplomathysis so I'm like have like 5 domains different from each other and um, yeah I'm trying to do this techniques for each of them.
+And to see if there are some improvements, actually I measured and seems seems to give seems to give like quite the constant improvements across the domains, so it yeah, I'm so that was yeah, that was the main I have been working on this week.
+(PERSON4) Okay thanks.
+Can you write it to the document?
+[PERSON9]?
+(PERSON9) I will write there.
+(PERSON4) So this is mostly for [PERSON11] now.
+Cause we had to, [PERSON11] wants to read it and <unintelligible/>.
+Thank you I think we can you can quit the meeting.
+If you don't have any questions.
+So bye
+(PERSON9) Bye, see you.
+(PERSON8) Bye bye bye.

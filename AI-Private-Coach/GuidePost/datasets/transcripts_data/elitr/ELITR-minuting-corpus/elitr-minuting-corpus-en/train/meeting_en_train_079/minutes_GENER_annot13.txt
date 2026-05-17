@@ -1,0 +1,42 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION14], [ORGANIZATION15], [ORGANIZATION11]
+Meeting Name: [PROJECT1] Remote Part 1
+Meeting Date: 16.03.2020
+Meeting Topic:  Update on the [PROJECT1] Deliverables 
+Meeting Participants: [PERSON16], [PERSON13], [PERSON18], [PERSON9], [PERSON1], [PERSON6], [PERSON4], [PERSON12], [PERSON1]
+Meeting agenda:  Provide update on the [PROJECT1] project deliverables - Financial Table, IWSLT Submission and Joint Submission.
+Financial Table:
+•	Responsible persons have been selected for each participating counterparty.
+•	Electronic spreadsheet will be sent to all counterparties.
+•	Tables to be filled as a dry run in preliminary but official form for a review in June and in final form in August for the financial report.
+IWSLT Submission:
+•	Test set for the shared task is being prepared and due for release on 17th March as 16KHz wav file of the English audio.
+•	Test set to include: two hours of domain material in English with translation to German and Czech. One and half hours of Antrecorp and any number of Khan Academy videos.
+•	Wav not available for all files and there is an inclination to switch to MP3 in long term, as  MP3 format files are smaller, can be versioned and fit in GitHub repository. FLAC format also suggested for exploration.
+•	Target side is also work in progress for both; translation and transcription. Small number of files only to arrive on 30th of March from the translation agency.
+•	Submission deadline is end of March 2020.
+•	Substantial delay was caused by the lengthy decision period of the [ORGANIZATION8] to grant permission to use their recordings.
+•	Generally on track but not as comfortably as the team ideally would like to be.
+Joint Submission:
+•	First leader board was circulated.
+•	Evaluation style will be similar to IWSLT.
+•	Dev set is of a very small size to do a failure to deliver on time in larger range.
+•	Strong requirement for precise documentation of all activities in the system paper.
+•	Specific workers with version signature to be applied and finger printing options are discussed for ASR and translation set ups.
+•	Upon test set release a complete end to end run should be performed. Version numbers are to be added to all the information passed through the mediator and recorded in the log directories.
+•	Existing overlap between available German versions and available Czech translations.
+•	Quite a few system combinations are available.
+•	Suggestion to submit more versions as multiple non-primary submissions are possible. The  larger number of submissions the better as a lot of information will be obtained about the evaluation.
+•	External teams welcome to participate on the evaluation. [ORGANIZATION12], [ORGANIZATION9] and two Czech teams have been already approached and [PROJECT1] team is awaiting response. Aim is to find the best research market solution for [ORGANIZATION8].
+•	Written-up but not reviewed papers should not form part of the publication.
+•	Suggestion to ask [PERSON2] for postponement of deliverables publishing by the Commission to allow for a thorough review of published material.
+Subsequent [PROJECT1] deliverables due:  June 2020
+List of deliverables outstanding: Report on initial ASR systems, Report on Spoken language translation, NLP Technologies, Report on Dissemination and Report on Project Management. Full details are available in the directory [PROJECT1] Remote Meetings.
+Other points of discussion:
+•	Current world situation with updates from participant locations.
+•	Loss of [ORGANIZATION5] recordings due to the failure to download within the availability period of 30 days. Automatic downloader has not been set up at that point.
+•	Heavy preparation s for the [ORGANIZATION6] congress and related workshop, even though it is unclear whether the event will take place and in what shape and form (physical pipeline /remote set up). Fully dependent on the decision of [ORGANIZATION8].
+•	The focus will have to change quickly in reaction to the format of the events taking place. Travel arrangements unclear.
+•	If the Congress is not going ahead then the full focus will be on the [PROJECT1] deliverables.
+Next meeting:  in approximately 1 month time. Final decision on events taking place shold be made by then.
+Minutes submitted by: [ANNOTATOR1]

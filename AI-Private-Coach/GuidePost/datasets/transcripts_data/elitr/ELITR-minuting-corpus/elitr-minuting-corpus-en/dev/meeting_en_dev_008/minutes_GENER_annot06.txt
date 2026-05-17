@@ -1,0 +1,19 @@
+[PROJECT1] meeting 14.02.2020
+Attendees: [PERSON7], [PERSON5], [PERSON1]
+Purpose of meeting: Discussing the structure of deliverable, GitHub
+
+Summary
+• work with Overleaf interface
+• Overleaf troubles
+• [ORGANIZATION7] publishing platform
+• Deadlines for user style workshop
+• accesing Git through Overleaf credentials
+• Necessary content
+• installing TLMGR - package manager
+• compiling screenshots
+• Git commiting modifications
+	Milestones
+	• ELG paper (21.02.2020)
+
+
+Minutes submitted by: [ANNOTATOR1]

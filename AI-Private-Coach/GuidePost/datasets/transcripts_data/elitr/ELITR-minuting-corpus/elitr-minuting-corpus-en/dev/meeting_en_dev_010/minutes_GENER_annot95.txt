@@ -1,0 +1,18 @@
+Organisation: [ORGANIZATION3], [ORGANIZATION9], [ORGANIZATION8]
+Meeting Topic: 
+General Project Progress Meeting
+Meeting Participants: [PERSON10], [PERSON18], [PERSON14], [PERSON15], [PERSON11], [PERSON22], [PERSON8], [PERSON2]
+Meeting head speaker/moderator: [PERSON10]
+Purpose of the meeting: To provide an update on the progress made in the key areas of the project development.
+Main points of discussion: IW SLT presentation, Financial table finalization, Review date, Dealing with deliverables, Report and Dissemination, Demo and extension to project deadline.
+•	IWSLT presentation is required to be submitted in a pre-recorded format.
+•	Due to postponing of review till September, project officer needs to be doodled new dates.
+•	Financial tables need to be finalized by the deadline of may for testing purpose. It further needs to be drafted into report or feed into the online system by the end of August.
+•	Dealing with deliverables by shared overleaf documents and reviewer.
+•	Report and Dissimenatation to be prepared by [ORGANIZATION5] and can be contributed by everyone.
+•	Common Format and platform need to be decided for the collection of papers of [PROJECT5].
+•	Demo of [PROJECT5] on virtual machine and dry-run will take place in 2nd half of June.
+•	Extension of the project deadline by 2-3 months
+•	Discussion about docker and technical specifications, performance
+•	It is not safe to have demo in [ORGANIZATION2]
+•	IWSLT frozen fingerprints

@@ -1,0 +1,19 @@
+Test session 20200515-1000 -- instead of the real demo
+• Credentials:
+o [URL]
+o Meeting ID: [NUMBER], Password: [PASSWORD]
+• Meeting is already started, the room is available until 13.00. 
+• ([PERSON7] will need to leave at 12.00 at the latest)
+• ([PERSON11] is available only on [ORGANIZATION2], his zoom is meant only for subtitling the zoom discussion)
+• Agenda:
+o Summary of worker instances involved ([PERSON11], just a recap, pasting aggtable here, highlighting it)
+• 
+• Computer names need to be shown, too, so that we can check them for load.
+o [PERSON7] giving dry run of the slides.
+o Czech subtitling of both Czech sample videos.
+• 3min [URL]
+• 15 min from this: [URL]
+o Possibly English subtitling with our segmenter for English videos and our zoom discussion.
+o Czech subtitling of zoom discussion ([PERSON7] and any other Czech colleague present)
+o [PERSON7] giving dry run of the closing slides.
+

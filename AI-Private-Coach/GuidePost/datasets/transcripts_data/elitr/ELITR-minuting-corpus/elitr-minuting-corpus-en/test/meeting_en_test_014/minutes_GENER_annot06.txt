@@ -1,0 +1,22 @@
+[PROJECT2] meeting 24.01.2020
+Attendees: [PERSON7], [PERSON6], [ORGANIZATION3] ([PERSON5]), [PERSON8]
+Purpose of meeting: Summary of activities (working on, finalized), improving
+
+Summary
+• started transcribing YouTube videos
+• done voice domain adaptation
+• convert mainly PDF file formats to corpus styles
+• IWSLT -> only to Czech and German
+• 7 ASR languages to the English and then from English to target languages -> then every week new model will be adapted to this
+• get European data to train a new segmenter  
+• data training
+• evaluation for [PERSON9]
+• test set for evaluation of simultaneous translation
+• IWSLT and [ORGANIZATION1] congress
+	Milestones
+	• workshop dry run for [ORGANIZATION1] congress (12.02.2020)	
+	• get [ORGANIZATION4] models used in our pipelines 
+	• multi-source spoken language translation research (until 06.03.2020)
+
+
+Minutes submitted by: [ANNOTATOR2]

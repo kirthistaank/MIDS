@@ -1,0 +1,85 @@
+[PROJECT2] Surge 2020 Organization
+Fri Jan 24, 2020
+13.00, in front of 423
+
+
+Attendees: [PERSON8], [PERSON5], [PERSON7], [PERSON4], [PERSON10], [PERSON6], [PERSON9], [PERSON2], [PERSON12]
+The purpose of the meeting: To sum up the current work of each attendee and to discuss the work plan for upcoming weeks
+
+● Data has to be downloaded only once to avoid duplication of the work
+
+[PERSON5]'s summary of work:
+● The domain adaptation for university open day and a dry run for the workshop on February 12 (going to be given fo [ORGANIZATION1] Congress)
+● NLP technologies will be presented to [ORGANIZATION5]
+
+[PERSON8]:
+● Work on ASR for several youtube videos, as needed by [PERSON10]
+● Preparing transcript for the Monday seminar
+● Getting through [PERSON6]'s ASR [PERSON3]
+● Domain adaptation, talk adaptation and speaking of the words 
+● Preparation of the English segmenter 
+● Observed terrible score - need to improve boundary detection and focus on the sentences
+● Plan to work on getting [ORGANIZATION4] systems running on our machines
+● Developing launching scripts, more needed - a collaboration with [PERSON3]
+
+[PERSON4]:
+● Downloading corpora:
+● EPIC [ORGANIZATION6] interpretation corpus and Europarl-ST
+● Plenary session since July 2018
+● A feature for mass downloading required 
+● The main project- multi-source SLT research until March 6
+● English and German to Czech
+● If multi-source improves MT output, it could be deployed during March/April
+● To include [ORGANIZATION8] to the surge
+● Binding worker for ASR and the mediator
+● To connect Kaldi and JASPER to the mediator
+
+[PERSON9]:
+● Compression - waiting for the data from [PERSON8]
+● Measurement of the ASR quality drop 
+● To check it compressed and uncompressed
+● It should be done via the mediator
+● [PROJECT1] multi-source
+
+[PERSON2]:
+● A tool for evaluation of SLT
+● To evaluate submissions in shared tasks
+● Problem with segmenter - some words are repeated more than once
+● Delay is defined by segmenter based on time, delay based on MWAR segmenter
+● This tool should be then regularly run by [PERSON10] on outputs of various system parts, including full systems deployed and run by [PERSON8]
+● Regular measurements of the ASR, end-to-end, quality, delay and flicker
+
+[PERSON12]:
+● Collection of in-domain monolingual data, for auditing domain
+● German, French, Spanish, English, Czech is required (excluding Italian)
+● Collaboration of [PERSON12] and [PERSON7] - they both need to convert PDFs to corpus styles.
+● To ensure using the best tool - could be a language-dependent, all Linux based
+
+[PERSON10]:
+● Data management for the [ORGANIZATION1] Congress
+● Managing annotators
+● IWSLT development and testing
+● Only English to German and English to Czech
+
+[PERSON6]:
+● Forced alignment tool for English and Czech
+● ASR improvement
+● moving from the rolling window approach to growing hypothesis with a stable prefix
+
+[PERSON13]
+● Backtranslation - the data is required
+● English to Czech
+● A possibility to test it on [PERSON1]‘s talk
+● Domain adaptation
+● To gather the better models – and for we need a better pipeline
+● Model adaptation every week - the importance of knowing which model is used
+
+● [PERSON8] will evaluate the testing systems on Monday- to run them and to have the outputs
+● [PERSON4] fine-tunes the system
+● The source audio on [PERSON1]‘s talk is in the domain adaptation 2020 January 29 [PERSON1]
+● [PERSON8] would like to use European in-domain data to train the segmenter (English to Czech) and [PERSON2]‘s tool for evaluation
+
+
+
+Minutes submitted by [ANNOTATOR4]
+

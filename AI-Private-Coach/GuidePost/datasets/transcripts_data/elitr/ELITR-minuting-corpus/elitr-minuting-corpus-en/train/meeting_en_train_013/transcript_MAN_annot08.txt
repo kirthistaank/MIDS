@@ -1,0 +1,590 @@
+<unintelligible/>
+(PERSON4) Uhm, thank you.
+Un- unfortunately, I had very little time today.
+<censored/>
+and uhm even more I so I uhm brought my bicycle to the service.
+So I have to go buy food
+and t- takes a little bit more time.
+(PERSON3) Yes, sure.
+So <unintelligible/> I will give give the update from my site.
+(PERSON4) <unintelligible/>
+(PERSON3) So [PERSON4], 
+I <unintelligible/> throught <unintelligible/> like seven different challenges in the in the speech community.
+(PERSON4) Um-hum.
+(PERSON3) And uhm maybe I will saying the you all the <unintelligible/> repaired.
+So then the the data varies from task to task.
+(PERSON4) Of course.
+It's naturally.
+(PERSON3) It is- yeah.
+So it is like for some task uhm it was like 90 000 hours of data.
+So uhm and for some task it was 80 000 hours training data.
+And when <unintelligible/> evaluation data.
+(PERSON4) Uhm.
+(PERSON3) So if really ready from task to task.
+(PERSON1) Yeah.
+(PERSON4) Yes.
+(PERSON3) So but-
+(PERSON4) Did you analyse did you analyse only speech data?
+(PERSON3) Yes, yes.
+These are only on speech data.
+(PERSON4) Uhm, okay.
+(PERSON3) So, so <unintelligible/> like trying to do now is like I'm trying to finding some dialogues summarization kind of data.  
+Because the <unintelligible/> like uhm <unintelligible/> very different from us.
+(PERSON4) Uhm.
+(PERSON3) So I don't know that how <unintelligible/> some one challenge it was the <unintelligible/> challenge.
+It was uhm it was it was based on some uhm it was late <unintelligible/> once.
+So uhm it was for <unintelligible/> dementia recognition to spontaneous speech, 
+it was speech recognition.
+(PERSON4) Uhm.
+(PERSON3) And then there was a challenge it was for zero speech.
+So uhm if had data <unintelligible/>
+but like the main idea was to do <unintelligible/> learning.
+So the data set was really less. 
+Uhm size of the da- of of the data.
+So <unintelligible/> 70 that released some data that we <unintelligible/> from to our <unintelligible/> minutes to 50 hours.
+And uhm can you hear me?
+Halo. 
+(PERSON4) Yes uhm I just didn't get last sentence from what minutes?
+From 20 minutes?
+What did you think them.
+(PERSON3) To our 30 minutes to 50 hours because <unintelligible/> the data <unintelligible/> some <unintelligible/>.
+(PERSON4) Yes.
+Uhm.
+(PERSON3) Okay, okay.
+(PERSON4) Uhm, but this this are not meeting so for us it's uhm it doesn't matter.
+(PERSON3) Yes, yes, yes.
+So I'm trying to find like more <unintelligible/> shared task for our task so I-
+(PERSON4) Well, as you are speaking as you are as you are speak- as you are same what you are saying I just understand that uhm we will just release what we can release.
+So we can not do anything, 
+we can uhm so we can it seems that it is still realizable that our data is not so little
+uhm we will and I also have some new information -  uhm say you now,
+so we will we will can we can extend the data uhm quite significantly.
+(PERSON3) Yeah, 
+so uhm this this this idea is really good,
+like to do on [ORGANIZATION3] data,
+uhm and uhm since there are more structured so the quality of our data would be better
+and also uhm the problem that we <unintelligible/>  challenges that would <unintelligible/> 
+because the [ORGANIZATION3] data is uhm public available.
+(PERSON4) Yes.
+(PERSON3) So I think-
+(PERSON4) So may I may I spea- yes, 
+may I speak a little about [ORGANIZATION3] dat- [ORGANIZATION3] data?
+(PERSON3) Yes, sure.
+It's it's going.
+(PERSON4) Uhm.
+(PERSON3) So uhm the the last thing we just last thing, [PERSON4] from <unintelligible/>
+(PERSON4) Yes.
+(PERSON3) To the there was another challenge from uhm <unintelligible/> steps will where did provided <unintelligible/> so ground should data should  training and development set 
+and aditional <unintelligible/> for the evaluation data.
+(PERSON4) Uhm, could you write it down please in in uhm in to-
+(PERSON3) Okay, so so we <unintelligible/> [PERSON4].
+(PERSON4) Write this into mail.
+<unintelligible/>
+Which doc?
+(PERSON3) I have <unintelligible/> of the valiable <unintelligible/>.
+(PERSON4) Oh, okay.
+(PERSON3) So let me sending then that would be easier to our <unintelligible/>?
+(PERSON4) Uhm.
+(PERSON3) Okay, so please going.
+You are telling some thing of the [ORGANIZATION3].
+(PERSON4) <unintelligible/> I just amount of data set uhm okay.
+Uhm as for [ORGANIZATION3] <unintelligible/> data set uhm 
+so [PERSON6] now clean the data <unintelligible/>  prepared meaningful there with difference size of meeting.
+We will get to that a little bit uhm later.
+And I I have found that [ORGANIZATION3] meetings also have minutes 
+and this minutes are foundable so we can find for these meetings we have
+based in on chapter ID and dates of meetings which are in the name of- in the names of the files we can find minutes.
+And if you could look at the agenda for todays talk,
+you can uhm you can find the link to the example.
+Who [PERSON6] are you there?
+(PERSON6) Yes, I'm here.
+(PERSON4) Uhm could you go to the agenda please?
+Uhm I also please ask you to all our calls use the agendas
+so that we can kind get kind of all have do what is going on. 
+(PERSON6) So what where find the agenda?
+(PERSON4) You will always find it in your c- [ORGANIZATION4] calendar in the reference to the meeting.
+If you go-
+(PERSON6) Ooh, okay.
+(PERSON4) you al- you always find the link to the meeting,
+and the link to the agenda.
+(PERSON6) Okay, so.
+(PERSON4) Are you there?
+(PERSON6) Agenda uhm yes, uhm.
+<unintelligible/>
+So yes. 
+(PERSON4) Ah, uhm somewhere in between.
+There is a [ORGANIZATION3] meeting at example of minutes.
+So please open that this link 
+and look if it is okay with this example.
+So there are rearly example so they are really kind of short meeting is short minutes <unintelligible/> all the meetings. 
+And we actually do not need to annotate them again, 
+but we can extend <unintelligible/> then find them.
+So it will take time off <unintelligible/>.
+So it's really I <unintelligible/> task I would probably more likely asked  the annotators to do than to do myself, 
+uhm but if-
+(PERSON6) Uhm, yes, maybe I I'm not sure if it is <unintelligible/> minute.
+(PERSON4) You don't like.
+(PERSON6) I'm not sure it's <unintelligible/>
+(PERSON3) Oh, which one is the minute?
+(PERSON4) Uhm, so the this uhm it contains six lines report on fall all up bla bla bla the yeah the young [] introduce their <unintelligible/> meeting.
+(PERSON3) Oh, yeah, yeah, yeah.
+Okay, okay.
+(PERSON4) Uhm it's really not very good,
+the <unintelligible/>
+(PERSON3) Yeah.
+(PERSON4) Bla, bla, bla.
+They the...
+<laugh/> 
+(PERSON3) They are just <unintelligible/> but <unintelligible/> sections <unintelligible/> sections.
+So.
+(PERSON4) Well, actually I have looked that the 10 minutes ago, 
+probably uhm uhm
+I have just to spend some minutes for that.
+And I didn't <unintelligible/> the details.
+Probably we can find-
+(PERSON6) No, no, no.
+So I think it-
+(PERSON4) <unintelligible/> we can find probably we can find something more.
+So maybe this is just a short,
+and there is there is something more, 
+yeah on <unintelligible/>.
+(PERSON6) So I think it's it's uhm <unintelligible/>.
+Oh it's cool I mean you go to the next <unintelligible/> the run minutes for each paragraph for each yes, 
+for each section,
+so where 24 sections 
+and run minutes for each section.
+Uhm.
+(PERSON4) Where do you see it?
+(PERSON6) Yes, yes, it's it's completly.
+(PERSON3) It seems nice.
+(PERSON4) Uhm, where what do you <unintelligible/> 
+may I also see what you see?
+(PERSON6) You have to go to the <unintelligible/> next full text,
+you can <unintelligible/> full text  there and you will find it.
+(PERSON4) Ahaaa.
+Ahaa, yeah, yeah, yeah, yeah.
+(PERSON6) So uhm but point this <unintelligible/> this example do we have can we find is there such an example for all of those uhm.
+(PERSON4) Yes, yes, we have <unintelligible/> all uhm<unintelligible/>  [ORGANIZATION3] commu- meetings for-
+(PERSON6) Yes.
+(PERSON4) but for all [ORGANIZATION3] [ORGANIZATION3] uhm meetings, 
+and there are if they are much more than the just [ORGANIZATION3] corpus.
+The [ORGANIZATION3]- 
+(PERSON3) This is <unintelligible/> this is very structured and
+(PERSON6) So-
+Yes, you are at this point there is still some lot of work to do manual <unintelligible/> work to do for annotators
+but we we have to know, we have to plan the now we have to really plan  <unintelligible/> annotators.
+Because we would give them s- uhm the whole transcript 
+and this website with this minutes 
+and then they will have to somehow.
+(PERSON4) So this yeah this was the idea. 
+(PERSON6) something.
+(PERSON4) This was the idea 
+and now uhm if we if all of us agree that we take the the minutes as they are, 
+or if the ha-
+if we should change them somehow.
+And if we take them as as we are what we want to get as the output.
+So some <unintelligible/> basic samples of of the <unintelligible/> [PERSON6] do producer an example. 
+Uhm and uhm the size of the meetings.
+The size of [ORGANIZATION3].
+(PERSON6) So [ORGANIZATION3]-
+(PERSON4) The they are really different<unintelligible/>the  minutes 
+and different so it's <unintelligible/> another part of the data set with is which is not uhm identical,
+what we already have.
+But  this-
+(PERSON6) But the problem is the problem is to match this minutes the to match this minutes with the whole meeting like.
+(PERSON4) Yes, yes.
+This is what I say, 
+we shou- we have to do.
+So we have to find uhm uhm transcripts from [ORGANIZATION3] for example, 
+that we want to get minutes for
+and give the task for the annotators the find and they correspond in minutes.
+(PERSON6) So probably <unintelligible/> this?
+(PERSON4) You can find it so they are searchable.
+(PERSON6) So yes the results to the PDF doc <unintelligible/> difference form <unintelligible/> that's okay,
+but I don't know how to navigate from this meeting to another.
+So this is 11 on October 11 2006 so there is not-
+(PERSON4) And this uhm October 11 uhm these 24 kind of minutes are different chapters.
+(PERSON6) Yes, 
+the different chapters of the entire discussion.
+(PERSON4) Mm-hmm. 
+(PERSON6) So they a very long like yes they are one one day session for the [ORGANIZATION3] <unintelligible/>
+and there are.
+(PERSON4) Well just a moment [PERSON6] just a moment. 
+This is what I have written in the gender <unintelligible/> say,
+so you have excerpted sound articles.
+For example, if I look at uhm the document uhm just uhm just wait a little bit I will presented.
+[PROJECT1] minute with [ORGANIZATION3] I will share the screen uhm share the screen yeah.
+Can you see my screen? 
+Probably yes.
+Uhm [PERSON6], are you there?
+(PERSON6) Yes.
+(PERSON4) Yes, so here is your so here are the folders from [ORGANIZATION3] you excerpted.
+(PERSON6) Yes on the source data.
+(PERSON4) Yeah, 
+I have just opened  uhm something uhm <unintelligible/>
+(PERSON6) Uhm.
+(PERSON4) <unintelligible/> and open this uhm and found this file.
+[ORGANIZATION3] 06 11 20.
+(PERSON6) Yes.
+(PERSON4) Than I just copy that here, 
+I opened it 
+and-
+(PERSON6) Oh, so we have it.
+Yes, so the data-
+(PERSON4) Yes, this is from our data,
+I have opened it I.
+(PERSON6) Okay. 
+(PERSON4) And I I found the name.
+And this is probably.
+(PERSON6) Okay, so, so
+the annotators can just look at the file names and uhm-
+(PERSON4) Yes we can just excerpt some group here
+we can just excerpt some folders say for each annotator for example.
+And he will from these files he will create basics samples.
+Use it them in minutes he will find.
+So they are not long.
+So for for this uhm file, 
+we have <unintelligible/> of minutes.
+(PERSON3) So will they just <unintelligible/> just grab the where that say.
+(PERSON4) I didn't understand you.
+What you scrap <unintelligible/>.
+(PERSON3) They will just webscrape the annotators will <unintelligible/> websites.
+<unintelligible/>
+(PERSON4) Yes, yes.
+So they they their input  will be this <unintelligible/> file
+and  they will open it find the name search for the minutes
+and create the new output which already contains th- this files on this co- copy-pasted part 
+and plus say summary and copy-pasted part if what is there.
+(PERSON6) So yes,
+I <unintelligible/> the chapter these right now <unintelligible/> 
+So in the <unintelligible/> don't have a chapter ID,
+it's just one chapter.
+In that day let say  
+or that meeting-
+(PERSON4) Yeah, oh is it does it happen that in one file contains more then one chapter?
+<unintelligible/>
+(PERSON6) No one one part is only one chapter.
+(PERSON4) Aha.
+(PERSON6) But the <unintelligible/> several chapters to one date.
+(PERSON4) Uhm yes, yes, yes, 
+this is this is a chapter ID 1, to review.
+(PERSON6) Not <unintelligible/> with many chapters <unintelligible/> yes, yes.
+(PERSON4) Ahaa, okay.
+(PERSON6) Chapter ID 87, 22 and uhm.
+(PERSON4) Chapter <unintelligible/>.
+(PERSON3) Also I can <unintelligible/> that the minutes are could be downloading <unintelligible/> files.
+(PERSON4) Yes, yes, I also tried that.
+I uhm I opened uhm the uhm minutes okay,
+it doesn't matter actually.
+(PERSON3) Yeah, good.
+(PERSON4) But it's good to know. 
+Uhm.
+So what can we take out <unintelligible/>?
+I propose that we create that maybe uhm that we create the folders with files of the link minute.
+But we should decide how much data we need.
+So this is our uhm how much meetings.
+(PERSON3) We should decide what, what [PERSON4]?
+(PERSON4) The amount of data, 
+how much how much such meetings from [ORGANIZATION3] we we want to have,
+as much as possible yes?
+<unintelligible/>
+(PERSON3) How much we can.
+Yes, yes,
+how much we can.
+As-
+(PERSON4) Well, it seem that it is in in it doesn't have any end.
+It's really a lot of.
+<laugh/>
+(PERSON3) Okay.
+So let us let us target at least 100 meetings fast in the fast goes.
+(PERSON4) <unintelligible/> 
+how uhm 100 meetings it's not it's not a problem at all,
+why you should decided beforehand, 
+is because of tdecides is because of there and how we choose the meeting.
+So if [PERSON6] excerps <unintelligible/> if [PERSON6] excerps the meeting which- meetings which are 5000 to 10000 <unintelligible/> uhm long uhm well it's okay then if we finish we can start with other language.
+(PERSON3) So [PERSON4], I I can think of another challenge with this,
+like uhm if we can have uhm differents types of data like some data will be fixed for <unintelligible/>short meetings
+and some data would be for a longer version of the minute- of the meetings, 
+so that the participants could submit two models.
+One would be specifically <unintelligible/> for the shorter meetings.
+And another one for the longer meetings so.
+(PERSON4) Okay, 
+why not. Uhm.
+(PERSON3) Yeah.
+(PERSON5) [PERSON4]  <unintelligible/> with [PERSON6] because you are you are-
+(PERSON4) Ehm, so.
+(PERSON5) <unintelligible/> screen sharing.
+(PERSON4) Okay, what is the problem?
+<unintelligible/> 
+(PERSON3) <unintelligible/> data, 
+so why not we divided like medium size meetings, short size meeting then long 
+be- because the the models the machine learning models that would work of <unintelligible/> meetings would be good for the longer one, so-
+(PERSON4) Okay, [PERSON3] do you have any idea,
+do you have any idea we are short meetings end 
+and we don't meetings begin at what what is the border line,
+how many words?
+(PERSON3) Yes, yes, that is something we have to late brainstorm, 
+or maybe looking in to the data 
+and take decides. 
+(PERSON4) I think I think you should I think you and [PERSON6] may then [PERSON1] shoud decide 
+because I for me doesn't make any uhm,
+so I can just say that our meetings are say about 8000 words long,
+this what's [PERSON6] s um  computation.
+So our our I mean [PROJECT1] as a one our meeting is about 8000 words long 
+and please make the border lines.
+And you [PERSON3] say them to [PERSON6]
+and [PERSON6] will create folders according to these sizes.
+And I will give them to annotators.
+If I may ask you to do that to I don't know Monday to our next meeting.
+(PERSON3) Yes, yes.
+Let me let me do a study
+and will quickly get back to you with my study, 
+maybe back tomorrow or later.
+Yeah.
+(PERSON4) Yes, so this is what we need first uhm firstly 
+and then-
+(PERSON6) Wait, wait, it's not to please don't go don't  <unintelligible/> like
+<laugh/>
+first we have the <unintelligible/> of minutes,
+because I'm checking right now the minutes 
+and maybe there are not really what we need,
+so.
+(PERSON4) Uhm.
+(PERSON6) So don't really go that fast in those thing,
+so.
+(PERSON4) Okay. 
+(PERSON6) Uhm.
+(PERSON4) On behalf on behalf yes well <unintelligible/>
+(PERSON6) It's not really dialogues.
+So.
+(PERSON4)  Dialogues?
+They are dialogues, 
+so when you look at the originals.
+They actually people do speak,
+so this they are not dialogues <unintelligible/> sence.
+(PERSON3) <unintelligible/> not spontaneous dialogues.
+I think.
+<unintelligible/> there are dialogues like but they are like each of the <unintelligible/> speaking something.
+(PERSON4) Yes.
+(PERSON3) but it doesn't not spontaneous <unintelligible/>.
+(PERSON4) Yes, they are not spontaneous
+and <unintelligible/> they are in different languages.
+I suppose.
+So if you look in a in the [ORGANIZATION3] uhm on the [ORGANIZATION3] website,
+you can look at uhm videos of uh they are uhm meetings.
+And each first speaks in his language,
+so actually the these are not really dialogues, 
+but short speaches.
+(PERSON6) Yes.
+(PERSON4) And this is the problem,
+yes so if if this is a problem,
+we should just uhm forget about [ORGANIZATION3] corpus, 
+and release our 100 our.
+(PERSON6) No, no.
+I think the point here is to to have the annotators to  give them these match.
+Lets say transcript 
+and website with minutes
+and have them read these minutes of kind of <unintelligible/>.
+(PERSON4) Maybe, uhm.
+(PERSON6) <unintelligible/> spontaneous speech lets say
+and remote this things for example <unintelligible/>  question <unintelligible/>
+(PERSON4) Why do you mean by spontaneous speech?
+They can not make this speech in [ORGANIZATION3]?
+(PERSON6) In a sence like <unintelligible/> everyday live speech lets say.
+Not this very strict formal language.
+Report of the proposal <unintelligible/>
+(PERSON4) Maybe, maybe.
+(PERSON6) <unintelligible/> so this are not really very useful.
+(PERSON4) So you mean well actually it's not so formal <unintelligible/>
+I just read it.
+Introdu-  somebody introduced the report.
+Somebody spoke somebody.
+(PERSON6) Yes.
+(PERSON4) Yeah, it's not very formal.
+It's not uhm but it al- it's also not very i- i-  informal in- it's very not very informative.
+You just get the idea that somebody introduced <unintelligible/>
+but uhm you don't know from the minutes what did he <unintelligible/>.
+(PERSON6) Yes.
+(PERSON4) And this is that the problem.
+I see more problem in that it doesn't contain any information.
+(PERSON6) Yes, the <unintelligible/> yes. 
+(PERSON4) Uhm.
+(PERSON6) Brr.
+What are <unintelligible/> what is <unintelligible/>.
+(PERSON4) Our meetings also as sometimes our minutes are also little bit that somebody report it.
+But I tried to make then annotators also reflected content.
+So I really try it.
+I I didn't always have success.
+And it's an <unintelligible/> so some to the minutes are all around the formal and not informative uhm the annotators really didn't understand the context, 
+but sometimes they are more informative. 
+They are different. 
+You I'm sorry, guys, I have to leave.
+Maybe you will think a little bit more about long about that.
+And I will then listen to that, 
+maybe you write it somewhere to the agenda.
+<censored/>
+(PERSON3) So I think [PERSON4] you were <unintelligible/>required for discussing the data.
+So.
+(PERSON4) What? Uhm, uhm.
+(PERSON3)  <unintelligible/> required for discussing the data.
+So why I would propose that uhm <unintelligible/> go throught the [ORGANIZATION3] meeting 
+and the minutes and try to understand that uhm <unintelligible/> include this in our data set.
+(PERSON4) Okay, so uhm.
+(PERSON3) And than give back give back tomorrow with our inputs.
+(PERSON4) Tomorrow? 
+No.
+Tomorrow not. 
+(PERSON3) Oh, tomorrow is sorry sorry. 
+Late.
+(PERSON4) Yeah.
+(PERSON3) Monday, Monday.
+Sorry.
+(PERSON4) <censored/>
+It seems to be <unintelligible/>.
+But I can 
+(PERSON3) And what about [PERSON2]?
+And what about [PERSON2], <unintelligible/> [PERSON2] because very to take important decisons about these things, 
+so.
+(PERSON4) Yeah.
+(PERSON6) You should join us you should join us in one of this meetings. 
+(PERSON4) Yes, 
+uhm but we can prepare our decision before he.
+So uhm.
+(PERSON3) Because you interested with the [ORGANIZATION3] meetings.
+It seems so from <unintelligible/> this minutes. 
+(PERSON4) So I feel that you like [ORGANIZATION3] meetings.
+Ah at the same thing this time I feel that it is uhm very different
+and that's why we didn't take it from the very beginning, 
+because this speechs and not a spontaneous are they are in different languages.
+And so so on.
+Another thing that actually add should be also other sources.
+So it sure is to all the political meetings also have minutes.
+So it's not a problem to find a minutes of [ORGANIZATION3] 
+I don't know [ORGANIZATION2] uhm meetings.
+And ask annotators to uhm make transcripts for that, 
+for example, 
+so maybe it could also <unintelligible/>.
+Lets really-
+(PERSON3) And in that case, you can directly  ask them to to summarize this [ORGANIZATION3] transcript,
+to transcript already good.
+I'm.
+(PERSON4) Uhm.
+(PERSON3) The point was to shorter on the worker of the annotators.
+So this thing that you found in the where this minutes the point of using it's, is not use it.
+(PERSON4) Yes, yes, yes, yes.
+But if-
+(PERSON3) <unintelligible/> is use exactly as it is,
+because it's not very good.
+(PERSON4) Yes, but-
+(PERSON3) But the transcripts, but the transcripts are very good, 
+so very good transkripts and not very good minutes.
+So the point is to somehow plan uh kind of activity-
+(PERSON4) But it's also not a spontaneous speech, 
+it's not spontaneous speeches that uhm.
+(PERSON3) Yes, yes, the transcript some not very spontaneous 
+but there are well structure and uhm minute.
+There are some kind of of dialogues. 
+Some <unintelligible/> meeting dialogues.
+They represent some kind of real realistic meeting dialogues,
+because not whole meeting dialogues are spontaneous.
+So they are there should be somehow included.
+Not-
+(PERSON4) Yes, yes, yes, yes, yes.
+(PERSON3) but <unintelligible/> not completely but the so the problem is how to plan the annotation proceder.
+(PERSON4) Yes. It's also, yes, yes.
+(PERSON3) <unintelligible/> this transcript check this transcripts procedures the website with all this <unintelligible/>
+(PERSON4) Uhm
+(PERSON3) And then somehow produces better-
+(PERSON4) Yeah better produces just uhm <unintelligible/> more <unintelligible/>.
+Yes it could be done.
+(PERSON3) This is the point how to plan how to plan the kind of annotation procedure that is create from the annotators but they have to <unintelligible/> like <unintelligible/>.
+(PERSON4) Well.
+Oh.
+I think they can <unintelligible/>,
+so they already have some experience with uhm creating m-
+(PERSON3) Oh.
+(PERSON4) And if they get some uhm some <unintelligible/> they can uhm put more content in in that.
+I don't see any problem <unintelligible/>.
+So but we should uhm take the decision if we do that.
+So we should be really-
+(PERSON6) No I would <unintelligible/> have [PERSON2] I would <unintelligible/> have [PERSON2].
+It will <unintelligible/> about them.
+(PERSON4) Yeah, 
+of course we we will take the decision with with with [PERSON2] together.
+(PERSON6) Yeah. 
+(PERSON4) Okay.
+(PERSON3) So yes.
+So yes <unintelligible/> search for something similar like [ORGANIZATION2], 
+[ORGANIZATION3] uhm there should be some consider.
+Yes but but <unintelligible/> transkripts 
+and then I don't know <unintelligible/>.
+(PERSON4) Yes, why why I'm speaking about other sources is because of different languages <unintelligible/>.
+So it's really very, very unnatural situation.
+As I looked at videos now
+because you see one person's speaken <unintelligible/> for two minutes,
+the uhm uhm and he is getting kind of translated to uhm <unintelligible/> languages, 
+European languages then another person is speeking <unintelligible/>.
+And that first third person <unintelligible/> required the English
+and so it's really it can be hard- hardly uhm understood as a spontaneous conversation it's really on European languages.
+(PERSON3) <unintelligible/>
+within the minutes which uhm like <unintelligible/> to something different?
+So does <unintelligible/> of the minutes are uhm not very straightforward.
+(PERSON4) Mm-hmm.
+(PERSON3) In the [ORGANIZATION3].
+So I've been through a couple of minutes.
+But some minutes are very, very different forms sponataneous meetings.
+And and-
+(PERSON4) Yeah.
+(PERSON3) There are mostly <unintelligible/>
+(PERSON6) Because-
+(PERSON4) Yes, yes.
+And no information just names names <unintelligible/> reported <unintelligible/>
+Yeah, yeah, yeah.
+Okay.
+Uhm so clear I I'm sorry I really have to leave.
+And uhm that's maybe let us make this decision on Monday with [PERSON2].
+Lets prepare their idea, please pre- both of you prepare uhm kind of your opinion.
+What do you think and write it down to the agenda.
+So that we decided together.
+Yes?
+(PERSON6) So one more thing.
+Now I guess we are completely the chat of [ORGANIZATION4],
+so somebody please cripple down <unintelligible/> [ORGANIZATION1] chat, [ORGANIZATION1] hangout 
+and because we don't need it anymore.
+We have all people in [ORGANIZATION4].
+Okay,
+so who is uhm the administrator of this.
+(PERSON4) [PERSON3].
+(PERSON6) So [PERSON3] please remove everything,
+we don't need everything here.
+Right?
+(PERSON3) So you one to delete that uhm conversation?
+(PERSON6) Yes, <unintelligible/> conversation of [ORGANIZATION1] hangout,
+so we have everything we need now in [ORGANIZATION4].
+(PERSON3) Okay, but w- w- what is the point of deleting that?
+(PERSON6) Because we don't need it.
+I guess, the content is already I mean,
+I think we have some importantly <unintelligible/>.
+(PERSON3) Yeah, <unintelligible/> we we won't check word this.
+(PERSON6) Why you don't would like to leave content in [ORGANIZATION1].
+So. 
+If we don't need it with deleted. 
+(PERSON3) Okay.
+But I think there is there are some important links shared
+I don't-
+okay let me to check.
+(PERSON6) Yes, you can check a little bit.
+I'm checking right now. 
+But some in usually it's usually zoom links that we already use like the previous meetings,
+our spreadsheet that we have.
+I don't think there is something we don't already have.
+So that's the point.
+(PERSON3) Okay, so this <unintelligible/>.
+(PERSON6) Yes, simply remove everything.
+Okay so I guess we don't have anything else for today.
+Right.
+(PERSON3) Yeah, okay.
+(PERSON6) Okay, [PERSON3] so we uhm now we meet on Monday, right?
+(PERSON3) Yes. 
+(PERSON6) Okay, have a nice weekend bye.
+(PERSON3) Bye bye.

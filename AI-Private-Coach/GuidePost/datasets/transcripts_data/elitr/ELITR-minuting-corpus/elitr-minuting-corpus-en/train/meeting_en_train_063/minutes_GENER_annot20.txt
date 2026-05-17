@@ -1,0 +1,17 @@
+[PROJECT1] meeting
+Date: 29. 10. 2020
+Attendees: [PERSON2], [PERSON4], [PERSON1]
+Purpose of meeting: Update on Minuting project - data and Interface
+
+-Chapters don't correspond with minutes and transcripts
+-- Decided each chapter should have its minutes and its transcript.
+-[ORGANIZATION2] data will be processed by Monday or Tuesday.
+-[PERSON1] will show the output to [PERSON4].
+-Interface must work on Windows.
+-Minutes sent for evaluation by [PERSON2] should be evaluated within a week.
+--Different measurements and parameters will be discussed next Friday.
+-[PERSON2] should rename the minutes according to annotator.
+-The following weeks will have to be focused on the proposal, which is due November 30th.
+-[PERSON2] must filter data for the shared task until November 15th, or November 20th the latest. 
+ 
+

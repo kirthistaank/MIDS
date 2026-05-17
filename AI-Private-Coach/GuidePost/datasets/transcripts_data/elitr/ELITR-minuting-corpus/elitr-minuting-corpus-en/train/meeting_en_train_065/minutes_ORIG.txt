@@ -1,0 +1,40 @@
+Minutes of Tuesday Nov 13, 15.00 CET
+(Feel free to extend.)
+* GA
+o Now signed by the [ORGANIZATION5].
+o Please go to Research Participants Portal, Manage Project, and sign GA
+* CA
+o Goal: Agree on the final wording, hopefully we will resolve CA fully on the call, but if indeed, further rounds are possible.
+o Another round of suggestions ([ORGANIZATION6])
+* These suggestions were entered as comments by [PERSON12]
+* [PERSON11] suggests not to go over them in detail, almost all seem fine, except:
+* [PERSON11] would like to keep the paragraph softening the GA requirement to notify everyone well ahead publication.
+o [PERSON5] will double check with their lawyers, the paragraph can probably stay in CA despite [ORGANIZATION6]'s lawyers' recommendation.
+* [ORGANIZATION6] is moving to Option 1 in 8.2 Joint ownership; [ORGANIZATION4] is fine with this.
+o Completion of:
+* Signature Pages ([PERSON12]/each partner, please add a page for each signing partner, everyone check the names of the signing people).
+o Validation of Backgrounds
+* Thanks to everyone for providing their background.
+* Everyone, please go over all other parties backgrounds and check based on your obligations (deliverables, etc.) in the project, if nothing more is needed. It is OK if parties provide more but we would have some hassle later if anything was missing.
+* DEADLINE: end of the week.
+o [ORGANIZATION8] is not signing CA, only a bilateral agreements with [ORGANIZATION4].
+* We need to allow [ORGANIZATION8] to use our results, let's list [ORGANIZATION8] among Affiliated Entities
+* [ORGANIZATION4] will be the link, [ORGANIZATION4] will make sure [ORGANIZATION8] provides primarily:
+* Data for training and testing; whatever can be provided
+* Our access to [ORGANIZATION8] events, esp. [ORGANIZATION2] congress
+* ...and everything else that is listed in the DoA
+* Kick-off doodle: enter yourself to the doodle poll
+o [URL1] 
+* Dry run to consider ([ORGANIZATION1], [ORGANIZATION3], [ORGANIZATION6], [ORGANIZATION4])
+o March 20-22, “Veletrh fiktivnich firem”/ “International Trade Fair of Student Firms”, [URL2]
+o Based on [PROJECT1] demos of [ORGANIZATION1]+[ORGANIZATION3] technology, [PERSON11] thinks that running the demo should be feasible!
+* [URL]
+* [URL]
+o Translations: [OTHER4]->[OTHER6], [OTHER4]->[OTHER3],[OTHER3]->[OTHER4]->[OTHER6](if [ORGANIZATION1] can do two translations); and maybe: [OTHER6]->[OTHER4], [OTHER6]->[OTHER4]->[OTHER3]
+o [PERSON12] got a positive response from the organizers.
+* “Only”  [OTHER6] and [OTHER4] will be needed, but the more we test, the better for us.
+o Can we use&test [ORGANIZATION1] platform for this?
+o What is the easiest way of trying this 
+* Logo
+o Redraw map of [LOCATION3] ([LOCATION5], [LOCATION1])
+

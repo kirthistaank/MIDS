@@ -1,0 +1,63 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION4], [ORGANIZATION3], [ORGANIZATION9]
+Meeting Name: [PROJECT12] Surge Tech
+Meeting Date: 14.01.2021
+Meeting Topic:  Two part meeting: general progress catch-up, recording session performance assessment and workload distribution.
+Special time allocated to the calculation formulas related to [PROJECT12] demo submission. 
+Meeting Participants: [PERSON3], [PERSON8], [PERSON13], [PERSON16], [PERSON15], [PERSON6], [PERSON7], [PERSON2]
+Main topics of discussion:
+Latest recording session assessment:
+•	generally substandard system performance.
+•	system very slow with low recognition rate.
+        Lessons learned:
+•	slowness can be remedied by the operator being logged into one of the machines.
+•	reasons for low recognition need to be investigate further.
+
+[PROJECT12] test set data preparation and evaluation
+•	Proportion of [PROJECT12] test set still awaiting evaluation.
+•	Some files are too big to be uploaded to [PROJECT3] and solution needs to be found.
+•	Generally vast amount of data is needed therefore adequate storage space needs to be allocated.
+•	[PERSON12]’s version of domain system adaptation needs to be made accessible.
+•	Extension of target languages was identified as prerogative.
+•	Team is waiting to gain an access to the large databases for model training data          (professional paid subscription is required – [PROJECT13] , [ORGANIZATION10]).
+•	[PROJECT12] demo paper has received reviews and these were allocated for revision.
+Multilingual subtitling experiment
+•	[PROJECT14] quality for remotely handled session has substandard results, aggravated in cases where speech is obstructed my face masks.
+•	As a possible solution it was suggested to pass the training data through the [PROJECT8] and similar platforms to simulate the data distortion.
+•	[ORGANIZATION5]corpus preparation is in progress, first alignments are run.
+•	Czech data is required on January 25th, English data in February.
+Pipeline Configuration Tool
+•	This will allow the operator to define the components of the pipeline and how they are connected.
+•	The aim is to deliver tailored solution for specific needs of each event.
+•	Tool to have an added check to verify that all parts of the pipeline are up and running.
+•	Pipeline can be defined as an abstract graph.
+[PROJECT13] Conference:
+•	Non-native speakers.
+•	Live subtitles and transcription.
+•	Aim is to collect live feedback as well.
+•	Description of how to use the tool and how to look ay the output have not yet been written.
+Shortening [PROJECT1] tool:
+•	Has been successfully devised for English to Czech.
+•	Makes output about 80% of the original input length.
+•	Bleu scores lower but reasonable.
+•	Request was made to evaluate all currently available systems.
+“Chopped” training tool:
+•	Uses external text resources.
+•	Cuts entire recording to words.
+•	Models are creating implicit language within.
+•	Obstacles faced in pipeline optimisation due to standard training pipeline slowness.
+•	Possible solution is to run the cluster of constantly rewriting new versions of text.
+•	Nemo network could be used.
+[ORGANIZATION7] demo submission paper:
+•	Really urgent as deadline for submission is 15th January 2021. All amendment to be done the same day.
+•	Several modifications to the calculation formula are required.
+•	Formula description in the paper needs to be shortened and simplified, clearly explaining the equidistant split of the time into words based on their length.
+•	Calculations are based on interval C, maximisation process runs between files with and without alignment.
+•	Alignment of content bearing word parts needs attention due to grammar rules in different languages (English vs German).
+•	Proportional positioning might be an issue.
+•	Decision made that on aligned files maximisation should follow the linear progression.
+•	There should be no loss due to a delay.
+
+
+
+Minutes submitted by: ANNOTATOR 13

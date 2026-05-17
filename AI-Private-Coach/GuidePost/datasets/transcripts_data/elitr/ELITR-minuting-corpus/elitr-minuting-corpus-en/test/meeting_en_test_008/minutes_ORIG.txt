@@ -1,0 +1,28 @@
+Automatic Minuting Virtual Coffee Hour
+link:
+[URL1]
+
+14.10.2020, 14:00 CEST
+• [PERSON2] - consents 
+• Manual evaluation ([PERSON8])
+o Based on [PERSON1]'s parameters and three others
+o Standard manual evaluations compute the average, but we will compute the score, equation
+o [PERSON8] will send the draft, we approve it and then create the simple interface
+• the dry-run of the evaluation should be done
+• [PERSON8], [PERSON7], [PERSON5] and [PERSON1] will judge the minutes. 
+• [PERSON5] sent the package with a transcript and two short minutes
+o Interface: 
+• Implement into [PERSON4]'s annotation tool?
+• [URL]
+• Probably rather web-based
+• References for Annotation Tool interface: [URL]
+[URL]
+o How we will use this evaluation? For all data?
+• Automatic evaluation progress
+Reference to Automatic Eval Implemented
+[URL]
+
+• [PERSON7] - Did you manage to upload the [ORGANIZATION3] sources? 
+o If we are able to align minutes and transcripts automatically, it's not a big difference to take much more data from all years.
+o [URL] - minutes for [ORGANIZATION3] meetings
+

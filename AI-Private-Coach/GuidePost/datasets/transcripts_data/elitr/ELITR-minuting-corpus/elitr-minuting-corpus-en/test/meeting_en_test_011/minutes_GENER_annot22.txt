@@ -1,0 +1,38 @@
+[PROJECT3] 
+Date: 2019-10-22
+Attendees: [PERSON4], [PERSON5], [PERSON1], [PERSON6], [PERSON7], [PERSON7]
+Purpouse of meeting: discuss the [PERSON5]'s and [PERSON1]'s research projects
+
+- setting up the meeting call
+-- conecting with other two attendees
+--try to solve the conection problem
+
+- discussing [PERSON5]'s project
+-- describe on what he is working on
+-- given an advice what to do for better research, use [PROJECT5], [OTHER8] or [OTHER11]
+-- paper is with [OTHER8] and [ORGANIZATION1] research
+--they could do tactogrammar and use sentences to test them harder, weider like construction
+--another advice to attend the cours at university and use tactogrammatical treebanks anotated on [OTHER9] and [OTHER7]
+--probe more semantic dependence relations
+--Collaboration with people from [LOCATION3] and still haven't set up the call meeting, but when they agreed about date they will inform him
+
+- discussing [PERSON1]'s project
+-- research about syntactic layers, that the first layer looks on the previous layer and next token, which determines the other layers
+--dependency trees has determiner modifiers, which looks to neighborhood in variation plus one or minus one
+-- It looks like, according to [PERSON7], that almost all of varieties are possible, so he ask about visualization
+-- But research is focusing on balustrades heads
+-- [PERSON7] comes with another research where they search about simmilar thing, so he comes up with an idea that they can meet in December about deeper discuss
+-- [PERSON1]'s next plan is to extract the graf structure about similar and also different syntactic trees
+
+- Agreed on next steps
+-- [PERSON5] was added to [OTHER2] group and [PERSON7] will send him links to [OTHER5], where he can downloand treebank
+--[PERSON7] want from [PERSON5] his paper, that they can discuss it more deeply
+--next meeting will be in 14 days
+ 
+
+- general discussion about their researches
+--both students are working on similar stuff, so maybe they can know more about each other researches
+--they was waiting for [PERSON4], who did not apper
+--discuss using different program for analysis like [PROJECT5] or [PROJECT4] and also if they can use machine translation
+
+Minutes submitted by: [ANNOTATOR2]

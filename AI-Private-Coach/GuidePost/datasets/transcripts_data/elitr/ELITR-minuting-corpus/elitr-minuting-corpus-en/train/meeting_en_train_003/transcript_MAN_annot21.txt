@@ -1,0 +1,622 @@
+(PERSON1) Thank you.
+(PERSON4) Um-hum. 
+(PERSON1) Hi all, everybody.
+(PERSON4) Hello.
+<other_noise/>
+(PERSON1) I -
+(PERSON4) Yeah, so okay so.
+Ah, today we'll be discussing, the guidelines for using the interface.
+(PERSON6) Uh, [PERSON4] actually yesterday, we did not uh,
+upload any meeting in transcript, into it right?
+(PERSON4) No. w- what -
+(PERSON6) Yeah.
+(PERSON4) You have in there?
+(PERSON6) So I -
+<laugh/>
+So I -
+(PERSON4) <laugh/>
+(PERSON6) Was just opening that, so if you see this -
+(PERSON4) Um-hum.
+(PERSON6) I have this into uh, I think uh, I have uh, this, the data,
+uh, there are lots of minuting data, but it is not selecting any text file.
+Uh, uh so, it selects text files right?
+It is-, the transcripts-
+(PERSON4) Yeah.
+(PERSON6) and minutes. 
+So-
+(PERSON4) Yeah. 
+(PERSON6) If, if I just show you in my system, you can see my screen right?
+(PERSON4) Um-hum, yeah-yeah.
+(PERSON6) If you can see here, there are uh, there are -
+if you see, even the dry run minutes, which is they -
+(PERSON4) Um-hum.
+(PERSON6) There are two meetings here.
+(PERSON4) Um-hum.
+(PERSON6) But it is not to say selecting the text files into that interface, annotation interface.
+So, if I just select -
+(PERSON4) Oh - 
+(PERSON6) from the annotation interface, any, so like file, if i go to file and if i select,
+like even if I do new, and any there is no text file. 
+There are text files here.
+(PERSON4) Um-hum.
+(PERSON6) There are 2 generated minutes-
+(PERSON4) Okay - 
+(PERSON6) and there are 2, but it is not selecting the text files. 
+(PERSON4) But, but uh, so the text files are not shown right?
+(PERSON6) But yeah, but if I select, ok, if i select maybe the entire folder, uh.
+So, I have to select only the folder or the files.
+[PERSON1], you might be, you have used this interface right?
+(PERSON1) Uh, well, I have just seen it shortly.
+(PERSON4) No, no you have to select only the um, like the files.
+(PERSON6) File is not appearing here, can you see that?
+The te-
+(PERSON4) Um-hum -
+(PERSON6) TXT file is not appearing, it is not -
+(PERSON4) Yeah.
+(PERSON6) You see that the TXT file, it's not selecting the TXT file.
+So even if I go this dry run minuting, which I just showed you, there are three files here,
+one is video and the two are minutes, the transcript and the minutes, which I created. 
+So but, there is no, uh, there is nothing here, nothing is coming here.
+(PERSON4) Oh.
+(PERSON1) I -, I may I interupt you -
+(PERSON4) Yeah then, I can -
+(PERSON1) May I interupt you two -
+(PERSON6) Yeah - 
+(PERSON1) For a moment, uh, what is going on now?
+What are you trying to do?
+(PERSON6) Yeah, yeah, [PERSON1], so we, uh, no- th-, 
+So now that the annotation interface is working on my system,
+but then I am actually trying so, this is, this is the uh, interface right.
+So I, I just uh, I am launching that interface,
+and, so here is the interface.
+So I want to up- , I want to, uh, upload the transcript and the minute,
+which should appear in these, in this block.
+(PERSON1) Did you try that yesterday?
+Did it work?
+(PERSON6) No, no, we didn't.
+We thought it is annotation interface game,
+so it will work properly
+(PERSON1) Uh-huh.
+(PERSON6) So now it is not selecting any, any files, so if I select there is no, it is -
+there i-, no TXT file is coming.
+And all the minutes and transcripts are .TXT files right?
+So I have lots of minutes in my system, which you provided me, 
+but none of them is sele- getting selected.
+(PERSON4) Um, yeah, I guess uh, there is uh, there are many back and forth, with this uh,
+interface, because uh, [PERSON3] has uh, changed something.
+And then uh, it was not getting installed, and now like, uh yesterday,
+when he looked into that, we tried for several times, and then it got installed.
+But really, we didn't s-, like see it coming through that,
+it should, it, it, it is not uploading the minutes.
+(PERSON1) What does it mean - 
+(PERSON4) So uh, next thing -
+(PERSON1) What does it mean for me now?
+So should it, you need more time, or you need to call [PERSON3] again?
+Oh, so what -
+(PERSON4) Yeah, we have to call, yeah, we have to call [PERSON3] again,
+and uh, so that now this is the -
+(PERSON6) <unintelligible/>-
+(PERSON4) New problem - 
+(PERSON6) Message -
+(PERSON4) That popped up.
+Yeah.
+(PERSON6) Maybe just -
+(PERSON1) So -
+(PERSON6) Message, let's message on the same zoom room?
+And uh, maybe he will, uh, if he is there he can connect now.
+What do you say about that?
+(PERSON1) Uh.
+(PERSON4) Yeah, we, we, we have to talk to him.
+(PERSON6) Yeah.
+(PERSON4) So yeah, [PERSON1] you were, you were saying something.
+(PERSON1) No, I am just trying to understand what is going on and how can i help.
+<laugh/>
+(PERSON6) Oh, okay,
+<laugh/>
+(PERSON1) <laugh/>
+(PERSON4) No, the, the thing is that this has to run and this has to run smoothly.
+(PERSON1) Yes -
+(PERSON4) So the thing is uh -
+(PERSON1) I understand  
+(PERSON4) Without -
+(PERSON1) I just thought -
+(PERSON4) Without speaker intervention -
+(PERSON1) I thought that it is already working, and uh, uh but, it, it doesn't, okay.
+(PERSON4) Yeah, so, yeah last day, when the, like i- it took a lot of time to make the interface run -
+So -
+(PERSON1) Um-hum, um-hum -
+(PERSON4) I'm really sceptical that how - 
+(PERSON1) Yes -
+(PERSON4) How easily the annotators-
+(PERSON6) Annotators -
+(PERSON4) Can do it -
+(PERSON6) Um-hum -
+(PERSON4) Yeah.
+(PERSON1) Ah, yeah-yeah -
+(PERSON4) Because it took a lot -
+(PERSON1) Uh. 
+(PERSON4) Lot of time with us being the technical persons, but it still took a lot of time for us.
+(PERSON1) Yes -
+(PERSON4) Anyways - 
+(PERSON1) But it means, what does it mean?
+So what should we do -
+(PERSON4) Uh -
+(PERSON1) What is the.
+(PERSON4) It means that, uh, different an-
+uh, so that the thing that came out is,
+that not all the annotators will have the same kind of operating system, um.
+(PERSON1) Yeah -
+(PERSON4) Settings - I 
+(PERSON1) I understand that there will be a lot of problems.
+But how should we solve it?
+(PERSON4) We solve it, it.
+We have to do for each of the annotators one by one.
+Like -
+(PERSON1) Uh-uh -
+(PERSON4) Try to see what kind of problems they're en-, encountering, 
+and uh yeah, so -
+(PERSON6) But in case -
+(PERSON4) Uh -
+(PERSON6) Uh, um, uh, [PERSON4] I think we need to ask [PERSON1] about that,
+that they are going to be fixed.
+The annotators are fixed, who will be working into this, right?
+(PERSON1) What?
+(PERSON4) Whoever is the annotator, we have to like have a session with him or her and -
+(PERSON1) Um-hum -
+(PERSON6) Yeah -
+(PERSON4) Get that thing installed, because -
+(PERSON1) So should I now choose-
+(PERSON4) Really sceptical -
+(PERSON1) Uh, should I now choose uh, a person uh, uh to, uh, uh, to begin with?
+So for example one annotator, wh- about whom I think,
+that he or she could try to install it a- and.
+So should we now begin with one of them already?
+(PERSON4) Yes, technically yes -
+(PERSON6) Uh, we can -
+(PERSON4) But let us first do it on our end.
+At least first -
+(PERSON6) Um-hum -
+(PERSON4) So [PERSON6] can you ping [PERSON3] first?
+(PERSON6) Yeah, I did message him on a -
+(PERSON4) Ah, you already did -
+(PERSON1) Yeah, yeah -
+(PERSON6) Uh -
+(PERSON4) Yeah. 
+(PERSON6) Uh, so uh -
+(PERSON4) So -
+(PERSON6) Uh-hum.
+So what I was saying -
+(PERSON4) Yeah, go ahead -
+(PERSON6) That we can conduct a session for annotators, for installing into their system, 
+but, uh then we need to be sure that this, uh like five person, five uh,
+five person who are annotator are, uh, are going to work.
+So the uh, annotator should be finalized, who are going to work on-, into this.
+And then the second step will be, we will help them to just, uh install this,
+uh, annotation tool into their system.
+What do you say about that?
+(PERSON1) I didn't get, what should I say?
+So wha-
+(PERSON6) [PERSON1], I was, I was saying that, how many annotators we have for this work, 
+are they fixed? 
+That we are going to have 5 annotators or 10 an-, annotators -
+(PERSON1) Uh, well -
+(PERSON6) How many annotators do we have?
+Who - 
+(PERSON1) Well, we can set up -
+(PERSON6) Who are going to work on to this.
+Um-hum.
+(PERSON1) Uh, well, I can't say that, uh, well,
+I- I may ask five people to start working with that.
+(PERSON6) Um-hm.
+(PERSON1) For example, at the moment -
+(PERSON6) Um-hm -
+(PERSON1) We can start with five people for example.
+So, uh -
+(PERSON6) Um-hum -
+(PERSON1) Generally, I have about, maybe 10 active annotators at moment -
+(PERSON6) Um-hum -
+(PERSON1) Really, uh, i- it's it is never a fixed number, because uh, 
+I have 23 persons who were engaged, but some of them.
+(PERSON6) Hmm.
+(PERSON1) They stopped annotating, some of them just begin to annotate,
+and some of them, uh for example at the moment, don't have time.
+And but, they he had written to me that they will, uh have time in future.
+So I suppose that I can ask five people start working with alignment.
+(PERSON6) Um-hum.
+So I think, uh, uh [PERSON4], uh you will have a clear vision, 
+in forming the guidelines in that case, maybe?
+And then -
+(PERSON4) Yeah, but before that, this should run with us.
+(PERSON6) Yes -
+(PERSON4) That can be done very quickly, but before that -
+(PERSON6) Yeah -
+(PERSON4) This interface should run with like at least -
+(PERSON1) Yes -
+(PERSON4) We should be ambl-, able to annotate at least two or three meetings,
+like randomly, and then we would be able to see the output.
+And we give <unintelligible/> the instructions, so this is the meetings, 
+this is the minute and this is the ouput, we want from you.
+And this is how we are going to communicate with you.
+So these things should cared of because first, sin- since we run into another problem.
+We have to like again depend on [PERSON3] 
+<other_noise/>
+and ask him to solve it.
+<other_noise/>
+(PERSON6) So now, what to do, uh maybe I'm sending him the e-mail as well, 
+because I think can prompted in his -
+(PERSON1) Uh, I have written him an e-mail, i have just written him memail, e- an e-mail.
+(PERSON6) Okay, okay -
+(PERSON4) Okay -
+(PERSON6) You already have? 
+Um-hum.
+(PERSON1) Uh, just,
+<parallel_talk> calender </parallel_talk>
+Well, maybe uh, uh we can stop the call now and afs, as he, uh comes, 
+as he answers, we can re- redo it again?
+(PERSON6) Um-hum, yes.
+(PERSON4) Uh, do you expect that uh, he would answered it now, or?
+(PERSON1) I don't know, why not?
+(PERSON6) So -
+(PERSON4) Okay -
+<laugh/>
+(PERSON6) We have something else we can discuss in case or when he,
+when he says here word back to us, we can discuss this as well.
+(PERSON1) Uh, sorry, sorry, I didn't get it again, sorry I probably don't hear it -
+(PERSON6) If you have something -
+(PERSON1) Um-hum -
+(PERSON6) If you have something we can discuss otherwise we can maybe end the call -
+(PERSON1) Otherwise.
+No I think, it's most important no, for so for me it's no multi-
+(PERSON6) Um-hum -
+(PERSON1) Thing, uh, uh I-
+(PERSON6) Yeah. 
+(PERSON1) Uh, say that it works, say that resolved the problem with [PERSON3],
+then the next -
+(PERSON6) Um-hum -
+(PERSON1) Thing for me, is that I choose five people, five annotators -
+(PERSON6) Um-hum -
+(PERSON1) And what?
+Should I write them myself, and shou- should I transfer all them to [PERSON4]?
+Uh what -
+(PERSON6) Um-hum -
+(PERSON1) Is the next step?
+(PERSON4) Uh, next step is [PERSON1], that first this thing should run properly,
+at least two or three meetings we should annotate, and then maybe s-, 
+like maybe you'd also try to install it on your end.
+Like we will, we will help you to do it.
+(PERSON1) Okay, um-hum.
+(PERSON4) And then when, when we all three or four are confident that okay, 
+now it is running fine, we contact the annotators.
+Uh, train them maybe for one day -
+(PERSON1) Okay -
+(PERSON4) Like invite them -
+(PERSON1) Um-hum -
+(PERSON4) And say that, that is is how we have to work -
+(PERSON1) Yes -
+(PERSON4) And then the job is done from our, from our end.
+(PERSON1) Very well -
+(PERSON4) Okay -
+(PERSON1) Okay -
+(PERSON4) But -
+(PERSON1) But,
+<laugh/>
+So but let's wait for [PERSON3] -
+(PERSON4) But [PERSON1] -
+(PERSON1) So we should be able to open the meeting.
+(PERSON4) Uuh, hold on [PERSON1] uh -
+(PERSON1) Um-hum -
+(PERSON4) Most importantly than that, is now we have to like very quickly formalize 
+our data for the shared task, you know the deadline is near.
+(PERSON1) Uh -
+(PERSON4) Uh - 
+(PERSON1) That means what -
+(PERSON4) And because, uh like we have to be very sure,
+wha- what is the data with us, okay. 
+(PERSON1) So what, uh -
+(PERSON4) So we -
+(PERSON1) Maybe you shou-, maybe you would kind of describe, what concretely should be done.
+So maybe prepare is some table that I will fill in.
+(PERSON4) Oh, okay.
+I can do that, I can do that.
+(PERSON1) Because I -
+(PERSON4) Uh -
+(PERSON1) I'm not really sure what does it mean formalize, uh-hum.
+Probably -
+(PERSON4) Yeah, so -
+(PERSON1) Yeah, maybe prepare some -
+(PERSON4) It, It -
+(PERSON1) Empty folder, empty uh, empty uh, table and I will fill it.
+(PERSON4) Yeah, so for -
+So suppose I tell you, like uh, of all the minuting uh, data,
+that we have as part of our minutes, which are the minute we are going to have,
+and which we can't uh, like uh -
+(PERSON1) <unintelligible/> 
+(PERSON4) Which can't be a part of our corpus, yeah - 
+(PERSON1) Um-hum, um-hum -
+(PERSON4) So those, those uh, minutes and then, uh the [ORGANIZATION1], that i have created.
+So I guess we all have to see and then decide, because not all the meeting minutes 
+are useful, some are, we have to discard, yeah.
+(PERSON1) So you want, uh that we see all the data from [ORGANIZATION1] file by file?
+(PERSON4) Yeah, maybe yeah.
+That's - 
+(PERSON1) Um -
+(PERSON4) what I'm saying, maybe we can divide that, because there are, 
+there are wh-, there are lots of.
+So uh -
+(PERSON1) Yeah -
+(PERSON4) Let me share, so you can understand.
+Can you see my screen?
+(PERSON1) Not yet, just a moment.
+Yes, I can see it.
+(PERSON4) You can see right?
+(PERSON1) Um-hum -
+(PERSON4) So you know like, this is the data that we have, 
+uh organised according to the dates.
+(PERSON1) Each folder is one week?
+(PERSON4) So, each folder is one meeting along with its minutes.
+(PERSON1) Yes.
+(PERSON4) So this is the entire data in the [ORGANIZATION1] corpus, and 
+I have organized all that data in form of dates, in which day they occured.
+Okay, now you can seems like this, that this is, uh on 17th of January 2000,
+but this is only the meeting, we do not have minutes correspondingly, 
+because there was none.
+(PERSON1) Um-hum, So -
+(PERSON4) Okay -
+(PERSON1) We'll erase this meeting.
+(PERSON4) Yes?
+(PERSON1) We should not include it.
+(PERSON4) Yeah, because we don't have minutes for it.
+(PERSON1) Yeah, okay.
+(PERSON4) It's not there on, on the website -
+(PERSON1) Um-hum -
+(PERSON4) Okay, now, uh let us come into some, uh random folder,
+uh some new data maybe, um, of 2011, yeah, yeah.
+So you can see that there are, like there are so many, uh chapters,
+of, on this particular date, it is 6th of April 2011, right?
+(PERSON1) Um-hum.
+(PERSON4) And it has so many chapters, but many, you know,
+many of the chapters are just blank, they don't have anything inside them.
+So if you go inside this, it is just this.
+(PERSON1) Um-hum.
+(PERSON4) So it, it, it, it does not mean anything, right?
+(PERSON1) Um-hum.
+<another_language/>
+So it should be, uh controlled -
+(PERSON4) Yeah -
+(PERSON1) It should be controlled manually and kind of cleaned up.
+(PERSON4) Yeah, I can clean it up automatically, but I think, uh better to do,
+in a manual way, so that it's get clear.
+(PERSON1) Um-hum -
+(PERSON4) So, you can see that the majority of these chapters,
+do not have anything else, but suppose for this.
+Uh, the 4th chapter, this is the 4th chapter of 6th April 2011, right?
+(PERSON1) Um-hum.
+(PERSON4) So yeah, so this is the meeting that happened.
+(PERSON1) Yes, and where are the minutes for that? 
+(PERSON4) Yeah, the minutes are there only -
+Uh, yeah, this is the total minute file, for all the chapters together.
+(PERSON1) Um-hum.
+(PERSON4) OK, so we, we were at the 6th chapter, right?
+So this is the minute for the 6th chapter.
+(PERSON1) Uh, where can you see that this is 6th chapter?
+So, just this?
+(PERSON4) You see, this is 6, yeah, yeah, no not just this, six till seven.
+You know. 
+(PERSON1) And where is that -
+(PERSON4) So this one is that -
+(PERSON1) Scro-, scroll it down please.
+(PERSON4) Yeah -
+(PERSON1) To - 
+(PERSON4) Uh, yeah -
+(PERSON1) Yes -
+(PERSON4) This is 7.
+(PERSON1) Um-hum, okay.
+(PERSON4) So this is the 6th, yeah
+(PERSON1) Uh, uh, please get back, how can I see that I'm in six?
+(PERSON4) You, uh in where? 
+In the minutes or the, uh -
+(PERSON1) Well -
+(PERSON4) Meeting -
+(PERSON1) Uh, how can I know, uh, 06 is the date, it's not the chapter.
+Uh, here is the chapter, uh.
+(PERSON4) Yeah, so- sorry this is 04, okay.
+(PERSON1) Yes, this is 04 -
+(PERSON4) So 04 -
+(PERSON1) Not 06, okay -
+(PERSON4) So 0, 04, this is chapter yeah.
+(PERSON1) Yes -
+(PERSON4) This is the chapter -
+(PERSON1) And 06 is the -
+(PERSON4) And 6 -
+(PERSON1) Yeah, um -
+(PERSON4) Yeah is the date, yeah -
+(PERSON1) It's okay, it's okay -
+(PERSON4) Um-hum.
+(PERSON1) Um-hum.
+(PERSON1) So you want that we, uh some of us will make the manual extortion?
+(PERSON4) Uh, the next thing that I can do is, 
+that I can split the minutes as, uh in form of chapters.
+(PERSON1) I would strongly suggest to do that first automatically, 
+maybe mo-, maybe to correct then.
+But it's uh, it's really very, very big manual work,
+that could be done automatically as for me.
+(PERSON4) Yeah, and also, m- uh, I, what I'm trying to do is, 
+now, that this is the total entire minute, right?
+(PERSON1) Um-hum.
+(PERSON4) So, I'm trying to split this minute into the corresponding chapters.
+(PERSON1) Yes.
+(PERSON4) But the thing is the chapters are alt-, are only -
+(PERSON1) Yes, also contain  -
+(PERSON4) Distinguished by this-
+(PERSON1) These numbers, yes, yes.
+(PERSON4) Yeah, and these numbers are anywhere in the, uh in the document.
+So -
+(PERSON1) This -
+(PERSON4) I really need to think of a better regular expression to do this, uh -
+(PERSON1) Yes -
+(PERSON4) Because, yeah - 
+(PERSON1) Um-hum -
+(PERSON4) It is not straightforward, because this 1 and this thing,
+you can find many times inside the -
+(PERSON1) Well, yeah okay, I understand what you mean, 
+totaly, I totaly understand the problem -
+(PERSON4) Yeah -
+(PERSON1) Uh, but I -
+(PERSON4) Um-hum -
+(PERSON1) Am not sure, so I don't -, so on uh -, so now, uh different points of view.
+I do not know if it is easier or not easier, 
+to look for the way to make it automatically.
+I think this could be a question to [PERSON2], because I don't ha-
+I don't have any experience in that, but [PERSON2] was very, very sure,
+that it should be makeable, uh and somehow easy makeable.
+Uh, but this is - 
+(PERSON4) No, no I'm not saying, that it is not makeable, 
+uh, it is, it is, I can do that, but it will take some time,
+that's what I'm saying, okay.
+(PERSON1) So if to, i- if to sp-, uh spend time for making a script,
+or just to make it manually, you think it's quicker manually?
+What do you think about it?
+(PERSON4) No, no manually it is impossible to do -
+(PERSON1) Okay -
+(PERSON4) Like there are 959 -
+(PERSON1) So what you propose -
+(PERSON4) Meetings, it is impossible.
+(PERSON1) What you propose -
+(PERSON4) I would do it, but I would need some time.
+I would need some time to split this into the corresponding,
+uh, that like i would split the minutes into the corresponding chapters,
+and then, alingn them accordingly, whatever it is there in [ORGANIZATION1].
+(PERSON1) So, okay, what should I do now?
+In this case, you said that it's really, uh hard enough,
+that uh, so we should do it very quickly.
+What should I do quickly now?
+(PERSON4) Uh, uh so, maybe uh, you can take care of the exact data that is there,
+um, thus from the meetings that we are having, so, okay.
+So these are the 50, these are the 50, um meetings that we can, um,
+release as part of our corpus for the shared task, so freeze that, these are this.
+And -
+(PERSON1) Uh, so, I should -
+(PERSON4) While you do this -
+(PERSON1) Shou- now, I should take care for our corpus, our [PROJECT1] corpus,
+is it true, is it so?
+And, uh make clear -
+(PERSON4) Yeah -
+(PERSON1) Which meetings we use and which we do not use.
+(PERSON4) Yes, yes -
+(PERSON1) Okay, um-hum okay and -
+(PERSON4) Right -
+(PERSON1) With, uh, with, uh [ORGANIZATION1] I, I wait until you, uh split it somehow.
+(PERSON4) Yes, so I don't think it will take, uh like maybe by the end of the week, 
+it should be ready -
+(PERSON1) Okay -
+(PERSON4) And I hope so -
+(PERSON1) Um-hum -
+(PERSON4) So, yeah.
+And yeah, and then like, maybe we do -, we divide the task among <unintelligible/>.
+Uh, I can show you the statistics yeah, hold on.
+Okay, so I have like, uh organized this, the entire [ORGANIZATION1] corpus about,
+uh, how many chapters each of the date con- contents, 
+and if they have any minutes or not, okay.
+So suppose this is 12 of March 2009, there are 44 chapters uh, for, for
+this meeting and there is one minute, because we have not split the minute.
+So the, so now the task is, to split the minute into 44 segments or chapters.
+(PERSON1) Um-hum. 
+(PERSON4) So we have only around i guess 959, we have 959, um meetings
+of different dates from the [ORGANIZATION1] corpus, 
+but out of them only 427 are heaving overlap -
+(PERSON1) Uh -
+(PERSON4) With the minutes and the meetings.
+(PERSON1) How many? Sorry. 
+(PERSON4) Well, 427.
+400 and 27.
+(PERSON1) 427 meetings have minutes.
+(PERSON4) Yeah.
+(PERSON1) And, uh -
+(PERSON4) Right -
+(PERSON1) Are these 427 are big, uh whole day meetings, 
+so they wi- will be further split into, splitted into chapters.
+(PERSON4) Correct -
+(PERSON1) Uh-huh -
+(PERSON4) Correct -
+(PERSON1) So they are actually much more.
+(PERSON4) Yeah, they are.
+They are actually much more -
+(PERSON1) Um-hum -
+(PERSON4) Right -
+(PERSON1) Um-hum -
+(PERSON4) Okay.
+So, yeah, so so the plan could be, that within this week,
+[PERSON1], you try to figure out what kind of data,
+we have with us for the [PROJECT1] meetings.
+(PERSON1) Um-hum -
+(PERSON4) And within this week, I figured out, um, what is the f-,
+what is the total, uh number of data after splitting in [ORGANIZATION1].
+(PERSON1) Um-hum -
+(PERSON4) And then in the next week, it is task for all of us,
+to like select, that okay, uh this could be a meeting potential,
+meeting and this could be a potential minute. 
+Because I made a, I made a random pass, and many of the uh,
+meetings and the minutes could not be used.
+(PERSON1) Um-hum, okay let's try, let's first -
+(PERSON4) So -
+(PERSON1) See it yeah, let's first -
+(PERSON4) Yeah -
+(PERSON1) See it and, uh see how it looks like.
+(PERSON4) Yeah, okay.
+Okay, that sounds good.
+So we work, we start working with the [ORGANIZATION1] corpus,
+and l- like all of us that which to - we will divide the dates
+among ourself and then manually go and see that okay. 
+Uh, can we keep this and then we make a separate <unintelligible/> out of them.
+(PERSON1) Um-hum.
+(PERSON4) Okay.
+Okay, uh, yeah, so this is what from the [ORGANIZATION1] site.
+<other_noise/>
+(PERSON4) So, [PERSON1] are you taking the, uh notes maybe?
+(PERSON1) Yes, uh I making it to, uh, to the minutes.
+Now, I'm trying to.
+(PERSON4) Uh-huh, okay -
+(PERSON1) To, to the agenda -
+(PERSON4) Yeah, yeah -
+(PERSON1) <parallel_talk> <unintelligible/> </parallel_talk>
+(PERSON4) Yeah, okay.
+Ok, so uh, I guess we both were just talking,
+So maybe [PERSON6] and [PERSON5] could have some comments that, uh whether,
+uh, um about the [ORGANIZATION1] thing or maybe something else?
+(PERSON6) I don't have anything in that.
+(PERSON4) Yeah, okay.
+(PERSON6) [PERSON3] did not respond us, no? 
+(PERSON1) No.
+(PERSON6) So once he respond us, we can get back on it [PERSON1].
+(PERSON1) Yes.
+(PERSON6) <unintelligible/> 
+(PERSON1) And [PERSON6] probably, if I don't react uh, or to talk,
+or anybody, uh, um try to s- send me a message will.
+(PERSON6) Yeah, yeah -
+(PERSON1) If I'm away, so it can happen, because I'm not always with my computer,
+we had homeoffice and children also studying, using my computer.
+(PERSON6) Um-hum, okay, sure.
+(PERSON1) Maybe [PERSON4], uh, as I'm writing this comments for, 
+uh for today, uh may write the statistics, so that I can see that.
+Uh, uh, now we have, uh smeetings, yes.
+<parallel_talk> meetings </parallel_talk> 
+But only.
+<parallel_talk> uh, <unintelligible/> have also <unintelligible/> </parallel_talk> 
+<parallel_talk> Files, and our tasks are clear, that's all good, good
+<unintelligible/> 
+</parallel_talk>
+Is it kind of so? 
+Are you there?
+(PERSON4) Hello.
+(PERSON1) Hi, are you there, is it okay, so -
+(PERSON4) Yeah, so [PERSON1] will work on the [PROJECT1] data, get the info <unintelligible/> the minutes -
+(PERSON1) Yes, yes -
+(PERSON4) Okay, um-hum -
+(PERSON1) Okay, so, uh this could be all for now, and if [PERSON3] all- answers,
+we can r- r-, get, uh get back to the call again, yeah?
+(PERSON4) Okay.
+(PERSON1) Okay, so, bye-bye for now, I am leaving the meeting, and please call me -
+(PERSON6) Um-hum.
+(PERSON1) Bye.
+(PERSON4) Yeah, bye.
+(PERSON6) Bye-bye.

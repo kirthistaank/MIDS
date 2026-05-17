@@ -1,0 +1,1391 @@
+import os
+from pathlib import Path
+
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+
+import torch
+
+torch.cuda.is_available = lambda : False
+torch.cuda.device_count = lambda : 0
+
+from pinecone import Pinecone
+from sentence_transformers import SentenceTransformer
+import json
+
+from dotenv import load_dotenv
+from sentence_transformers import SentenceTransformer
+from langchain_core.documents import Document 
+# from pinecone import Pinecone # this is overwritten by defining Pi
+#from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
+
+#from langchain.chains import LLMChain
+#from langchain.chains import LLMChain
+from langchain_community.llms import HuggingFacePipeline
+from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
+from langchain_cohere import ChatCohere  
+from langchain_core.prompts import ChatPromptTemplate 
+from langchain_core.output_parsers import StrOutputParser
+#from langchain_pinecone import PineconeVectorStore
+
+from langchain_community.chat_message_histories import ChatMessageHistory
+from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
+import sys
+from langchain_core.documents import Document
+from collections import defaultdict
+from nltk.sentiment import SentimentIntensityAnalyzer
+import numpy as np
+import nltk
+from ingest.config import neo4j_credentials
+from ingest.config import *
+# calling all prompts constants
+from ingest.prompt import *
+from ingest.logging_utils import get_logger
+from dotenv import load_dotenv
+from neo4j import GraphDatabase
+
+# Comes from config.py
+neo4j_uri, neo4j_user, neo4j_password, neo4j_database = neo4j_credentials("cloud")
+
+# Shared logger: file logs in /tmp/RAG_ingest; stdout shows INFO only.
+log = get_logger(__name__, to_console=True)
+
+# Load environment variables
+load_dotenv()
+
+# ── Synonym map + node label set (synced from retrieval_query.py) ────────────
+_SYNONYMS: dict[str, list[str]] = {
+    # MI
+    "resistance":       ["sustain talk", "discord", "pushback", "defensiveness", "reluctance"],
+    "ambivalence":      ["mixed feelings", "conflict", "uncertainty", "both sides"],
+    "empathy":          ["empathic listening", "reflective listening", "accurate empathy"],
+    "autonomy":         ["autonomy support", "self-determination", "freedom of choice"],
+    # NVC
+    "needs":            ["underlying needs", "core needs", "human needs", "unmet needs"],
+    "feelings":         ["emotions", "emotional expression", "affect"],
+    "observation":      ["observations", "factual observation", "describe behaviour"],
+    "request":          ["doable request", "specific request", "asking"],
+    # CBT / REBT / DC / GTY / SPACE (subset; extend as needed)
+    "reframing":        ["cognitive restructuring", "reframe", "reappraisal", "alternative thought"],
+    "distortion":       ["cognitive distortion", "thinking error", "automatic thought"],
+    "irrational":       ["irrational belief", "musturbation", "awfulising", "demandingness"],
+    "identity":         ["identity stake", "identity threat", "who I am"],
+    "story":            ["what happened story", "narrative", "interpretation"],
+    "interests":        ["underlying interests", "positions vs interests", "why they want"],
+    "position":         ["stated position", "what they want", "demand"],
+    "conflict":         ["difficult conversation", "disagreement", "tension", "argument"],
+}
+
+_ALL_NODE_LABELS = (
+    "n:Framework OR n:Concept OR n:Technique OR n:Scenario OR n:Emotion "
+    "OR n:Need OR n:Request OR n:Position OR n:Interest "
+    "OR n:Story OR n:IdentityStake OR n:ChangeStage "
+    "OR n:IrrationalBelief OR n:RationalAlternative OR n:SPACELayer"
+)
+
+
+# ---------------------------------------------------------------------------
+# PineconeVectorStore drop-in replacement
+# Replicates only the methods used in this file:
+#   .add_texts(texts, metadatas)
+#   .similarity_search(query, k)
+# No langchain-pinecone / simsimd dependency required.
+# ---------------------------------------------------------------------------
+
+class PineconeVectorStore:
+    """
+    Minimal Pinecone vector store that matches the langchain-pinecone interface
+    used in this file. Backed entirely by the native pinecone-client SDK.
+    """
+
+    class _Doc:
+        """Mimics langchain Document so existing .page_content access works."""
+        def __init__(self, content: str, metadata: dict):
+            self.page_content = content
+            self.metadata     = metadata
+
+    def __init__(self, index, embedding, namespace: str):
+        self._index     = index
+        self._embed     = embedding   # SentenceTransformer instance
+        self._namespace = namespace
+
+    def add_texts(self, texts: list[str], metadatas: list[dict] = None) -> None:
+        """Embed texts and upsert into Pinecone under self._namespace."""
+        if not texts:
+            return
+        metadatas = metadatas or [{} for _ in texts]
+        embeddings = self._embed.encode(texts).tolist()
+
+        vectors = []
+        for i, (text, emb, meta) in enumerate(zip(texts, embeddings, metadatas)):
+            # Use a stable ID based on namespace + position to allow re-runs
+            # without creating duplicate vectors
+            vec_id = f"{self._namespace}_mem_{abs(hash(text)) % 10**12}"
+            vectors.append({
+                "id"      : vec_id,
+                "values"  : emb,
+                "metadata": {**meta, "text": text},   # store text for retrieval
+            })
+
+        self._index.upsert(vectors=vectors, namespace=self._namespace)
+
+    def similarity_search(self, query: str, k: int = 4) -> list:
+        """Return top-k results as pseudo-Document objects with .page_content."""
+        embedding = self._embed.encode(query).tolist()
+        results   = self._index.query(
+            vector          = embedding,
+            top_k           = k,
+            namespace       = self._namespace,
+            include_metadata= True,
+        )
+        return [
+            self._Doc(
+                content  = m.metadata.get("text", ""),
+                metadata = m.metadata,
+            )
+            for m in results.matches
+        ]
+#calculated_metrics = ""
+# ----------------------------- RAGQuery -----------------------------
+class RAGQuery:
+    def __init__(self, 
+                    index_name: str,
+                    embedding_model_name: str = HF_EMBED_MODEL,
+                    llm_model_name: str = "Qwen/Qwen2.5-1.5B-Instruct",
+                    doc_namespace: str = "documents",
+                    mem_namespace: str = "history",
+                    neo4j_uri: str = None,
+                    neo4j_user: str = None,
+                    neo4j_password: str = None,
+                    neo4j_database: str = None,
+                    ): # 
+        """
+        Initialize RAG query system
+        
+        Args:
+            index_name: Pinecone index name
+            embedding_model_name: Model for query embeddings
+            llm_model_name: Local LLM model
+            namespace: Pinecone namespace
+        """
+        # Always use CPU to avoid GPU compatibility issues
+        self.device = "cpu"
+        log.info(f"Forcing device to: {self.device} to bypass 5070 Ti compatibility issue")
+        
+        # Initialize embedding model
+        # Initialize the embedding model for text encoding
+        self.embedding_model = SentenceTransformer(embedding_model_name,device = 'cpu')
+        self.embedding_model.embed_documents = lambda texts: self.embedding_model.encode(texts).tolist()
+        self.embedding_model.embed_query = lambda text: self.embedding_model.encode(text).tolist()
+        self.embedding_model.to(self.device)
+        
+        # Initialize Pinecone vector database and memory search
+        self.pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
+        try:
+            self.index = self.pc.Index(index_name)
+        except Exception as e:
+            existing = [i.name for i in self.pc.list_indexes()]
+            msg = (
+                f"Pinecone index '{index_name}' not found or not accessible. "
+                f"Existing indexes: {existing or 'none'}. "
+                "Update PINECONE_INDEX_NAME (env) / PINECONE_INDEX (ingest.config) to a valid index, "
+                "or run ingestion to create/populate it."
+            )
+            raise RuntimeError(msg) from e
+        self.doc_namespace = doc_namespace
+        self.mem_namespace = mem_namespace
+        self.memory_search = PineconeVectorStore(
+            index=self.index, 
+            embedding=self.embedding_model, 
+            namespace=mem_namespace  
+        )
+        
+        # Initialize the LLM (Cohere API) for text generation
+        log.info("Initializing Cohere API Model...")
+        self.llm = ChatCohere(
+            model="command-r-plus-08-2024",
+            cohere_api_key=os.getenv("COHERE_API_KEY"),
+            temperature=0.2, # Lower randomness for more deterministic output
+            frequency_penalty=0.1 # Penalize repetition
+        )
+        log.info("✅ Initializing Final Synthesis and Archive Chains...")
+
+        self.final_synthesis_chain = (
+            ChatPromptTemplate.from_template(FINAL_SYNTHESIS_TEMPLATE) 
+            | self.llm 
+            | StrOutputParser()
+        )
+
+        self.diag_summary_chain = (
+            ChatPromptTemplate.from_template(DIAG_SUMMARY_TEMPLATE) 
+            | self.llm 
+            | StrOutputParser()
+        )
+
+        self.interact_summary_chain = (
+            ChatPromptTemplate.from_template(INTERACT_SUMMARY_TEMPLATE) 
+            | self.llm 
+            | StrOutputParser()
+        )
+        # Neo4j driver (optional — gracefully disabled if credentials not provided)
+        self._neo4j_driver = None
+        neo4j_uri      = neo4j_uri      or CLOUD_NEO4J_URI
+        neo4j_user     = neo4j_user     or CLOUD_NEO4J_USERNAME
+        neo4j_password = neo4j_password or CLOUD_NEO4J_PASSWORD
+
+        if neo4j_uri and neo4j_user and neo4j_password:
+            try:
+                from neo4j import GraphDatabase
+                #print(f"Connecting to Neo4j at {neo4j_uri} with user {neo4j_user}...")
+                self._neo4j_driver = GraphDatabase.driver(
+                    neo4j_uri, auth=(neo4j_user, neo4j_password)
+                )
+                self._neo4j_driver.verify_connectivity()
+                log.info("✅ Neo4j connected successfully.")
+            except Exception as e:
+                log.warning(f"Neo4j connection failed: {e}. Graph retrieval will be skipped.")
+                #sys.exit(1)
+        else:
+            log.warning("Neo4j credentials not provided. Graph retrieval will be skipped.")
+            #sys.exit(1)
+
+    # ----------------------------- Transcript Loader ----------------------------         
+    def load_custom_transcript(self, path):
+        """
+        Load a custom transcript JSON file and convert entries to Document objects.
+        """
+        with open(path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        docs = []
+        for entry in data['transcript']:
+            parts = entry.split(':', 3)
+            if len(parts) == 4:
+                meeting_id, speaker, timestamp, text = parts
+                doc = Document(
+                    page_content=text.strip(),
+                    metadata={
+                        "meeting_id": meeting_id,
+                        "speaker": speaker,
+                        "timestamp": timestamp,
+                        "source_type": "Transcript"
+                    }
+                )
+                docs.append(doc)
+        return docs
+
+    def get_strategic_segments(self, docs, window_size=150):
+        """
+        Split the transcript into opening, middle, and closing segments for analysis.
+        """
+        total = len(docs)
+        # 1. Opening
+        opening = docs[:window_size]
+        # 2. Middle
+        mid_start = max(0, total // 2 - (window_size // 2))
+        middle = docs[mid_start : mid_start + window_size]
+        # 3. Closing
+        closing = docs[-window_size:]
+        
+        return opening, middle, closing
+
+    @staticmethod
+    def format_segment(docs, label):
+        """
+        Format a list of Document objects into a readable string segment.
+        """
+        text = "\n".join([
+            f"[{d.metadata.get('timestamp', 'N/A')}] Speaker {d.metadata.get('speaker', 'Unknown')}: {d.page_content}"
+            for d in docs
+        ])
+        return f"### {label} SEGMENT ###\n{text}\n"
+
+    # ----------------------------- Trend Analysis -----------------------------
+    def run_trend_analysis(self, opening, middle, closing, user_input="None"):
+        """
+        Run a trend analysis on the transcript segments using the LLM and user context.
+        """
+
+        combined_transcript = (
+            self.format_segment(opening, "OPENING") + "\n" +
+            self.format_segment(middle, "MIDDLE") + "\n" +
+            self.format_segment(closing, "CLOSING")
+        )
+        # ----------------------------- Diagnostic Prompt -----------------------------
+        
+        diagnostic_prompt = ChatPromptTemplate.from_messages([
+            ("system", CONTEXTUALIZE_Q_SYSTEM_PROMPT),
+            ("human", "Analyze these segments based on the provided user context:\n\n{chat_history}")
+        ])
+
+        print("%"*50)
+        print(f"\n\n***ATTENTION: Diagnostic prompt: {diagnostic_prompt}\n\n")
+        print("%"*50)
+        diagnostic_chain = diagnostic_prompt | self.llm | StrOutputParser()
+
+        print("\n--- 🧠 Executing Trend Analysis with User Context ---")
+        full_report = diagnostic_chain.invoke({
+            "chat_history": combined_transcript,
+            "user_context": user_input 
+        })
+        
+        return full_report
+    
+    def execute_final_synthesis(self, current_report, past_history_text, pdf_context_text):
+        """
+        Generate a final coaching strategy by synthesizing current, past, and scientific context.
+        """
+        print("\n--- 🎓 Generating History-Aware Coaching Strategy ---")
+        
+        final_response = self.final_synthesis_chain.invoke({
+            "diagnostic_report": current_report,
+            "past_history": past_history_text,
+            "pdf_context": pdf_context_text
+        })
+        return final_response
+    
+    # ----------------------------- Neo4j Helpers -----------------------------
+
+    def _run_neo4j_query(self, cypher: str, params: dict = None) -> list[dict]:
+        """Execute a Cypher query and return results as a list of dicts."""
+        if not self._neo4j_driver:
+            #print("Driver not found")
+            return []
+        with self._neo4j_driver.session() as session:
+            #print("Session found")
+            result = session.run(cypher, params or {})
+            #print("Result found")
+            #print("!-"*50)
+            #print(f"\nResult: {result}")
+            #print("!-"*50)
+            return [record.data() for record in result]
+
+    def _extract_keywords(self, query: str) -> list[str]:
+        """
+        Lightweight keyword extractor — strips stopwords and returns
+        the most meaningful tokens for Neo4j CONTAINS matching.
+        Replace with spaCy / YAKE if you need something more robust.
+        """
+        stopwords = {
+            "what", "how", "why", "is", "are", "the", "a", "an", "in",
+            "of", "for", "to", "and", "or", "with", "about", "that",
+            "this", "it", "do", "does", "can", "could", "should"
+        }
+        tokens = query.lower().split()
+        return [t.strip("?.,") for t in tokens if t not in stopwords and len(t) > 3]
+
+    # ── Synced: keyword expansion + fixed Neo4j retrieval ────────────────────
+
+    def _expand_keywords_with_synonyms(self, keywords: list[str]) -> list[str]:
+        expanded = list(keywords)
+        kw_lower = [k.lower() for k in keywords]
+        for base, syns in _SYNONYMS.items():
+            if any(base in kw or kw in base for kw in kw_lower):
+                expanded.extend(syns)
+        # dedup, preserve order
+        seen, out = set(), []
+        for k in expanded:
+            if k not in seen:
+                seen.add(k)
+                out.append(k)
+        return out
+
+    def retrieve_from_neo4j_fixed(self, query: str, top_k: int = 7) -> str:
+        """
+        Fixed Neo4j retrieval:
+        - covers all framework node labels
+        - expands keywords with synonyms
+        - two-hop traversal + broad fallback
+        - never crashes; returns "" on failure
+        """
+        if not self._neo4j_driver:
+            return ""
+
+        keywords = self._extract_keywords(query)
+        keywords = self._expand_keywords_with_synonyms(keywords)
+        if not keywords:
+            return ""
+
+        def _run(cypher, params=None):
+            try:
+                return self._run_neo4j_query(cypher, params or {})
+            except Exception as e:
+                log.warning(f"Neo4j query error: {e}")
+                return []
+
+        kw_conditions = " OR ".join(
+            f"toLower(n.name) CONTAINS '{kw.replace(chr(39), chr(39)*2)}'"
+            for kw in keywords
+        )
+
+        cypher_two_hop = f"""
+        MATCH (n)
+        WHERE ({_ALL_NODE_LABELS})
+          AND ({kw_conditions})
+        OPTIONAL MATCH (n)-[r1]->(hop1)
+        OPTIONAL MATCH (hop1)-[r2]->(hop2)
+        RETURN
+            n.name          AS concept,
+            labels(n)[0]    AS node_type,
+            type(r1)        AS rel1,
+            hop1.name       AS hop1_concept,
+            labels(hop1)[0] AS hop1_type,
+            type(r2)        AS rel2,
+            hop2.name       AS hop2_concept
+        ORDER BY size([(n)-[]-() | 1]) DESC
+        LIMIT {top_k * 4}
+        """
+        records = _run(cypher_two_hop)
+
+        if not records:
+            cypher_fallback = f"""
+            MATCH (n)
+            WHERE ({_ALL_NODE_LABELS})
+            OPTIONAL MATCH (n)-[r]->(related)
+            RETURN
+                n.name             AS concept,
+                labels(n)[0]       AS node_type,
+                type(r)            AS rel1,
+                related.name       AS hop1_concept,
+                labels(related)[0] AS hop1_type,
+                null AS rel2,
+                null AS hop2_concept
+            ORDER BY size([(n)-[]-() | 1]) DESC
+            LIMIT {top_k}
+            """
+            records = _run(cypher_fallback)
+
+        if not records:
+            return ""
+
+        seen_pairs, lines = set(), []
+        for rec in records:
+            concept   = rec.get("concept", "")
+            node_type = rec.get("node_type", "Node")
+            rel1      = rec.get("rel1")
+            hop1      = rec.get("hop1_concept")
+            hop1_type = rec.get("hop1_type", "")
+            rel2      = rec.get("rel2")
+            hop2      = rec.get("hop2_concept")
+
+            pair = (concept, hop1)
+            if pair in seen_pairs:
+                continue
+            seen_pairs.add(pair)
+
+            entry = f"[{node_type}] {concept}"
+            if rel1 and hop1:
+                entry += f" →[{rel1}]→ [{hop1_type}] {hop1}"
+                if rel2 and hop2 and hop2 != hop1:
+                    entry += f" →[{rel2}]→ {hop2}"
+            lines.append(entry)
+        return "\n".join(lines)
+
+    def _load_chunk_text(self, vid: str, source_name: str, metadata: dict) -> str:
+        """
+        Load chunk text from local JSON files, supporting:
+          - chunk_texts/{source}_chunks.json (list of dicts with chunk_id)
+          - chunk_texts/{source}_texts.json  (dict keyed by vector id)
+        Falls back to Pinecone metadata['text'].
+        """
+        chunk_dir = Path(__file__).resolve().parent / "chunk_texts"
+
+        new_path = chunk_dir / f"{source_name}_chunks.json"
+        if new_path.exists():
+            try:
+                chunks = json.loads(new_path.read_text(encoding="utf-8"))
+                chunk_id_str = vid.replace(f"{source_name}_chunk_", "")
+                match = next((c for c in chunks if str(c.get("chunk_id")) == chunk_id_str), None)
+                if match:
+                    text = match.get("raw_text") or match.get("content", "")
+                    if text and text.startswith("[Framework:"):
+                        lines = text.split("\n")
+                        prefix_end = next((i for i, l in enumerate(lines) if l.strip() == ""), 4)
+                        text = "\n".join(lines[prefix_end + 1 :]).strip()
+                    return text.strip()
+            except Exception as e:
+                log.warning(f"Error reading {new_path}: {e}")
+
+        old_path = chunk_dir / f"{source_name}_texts.json"
+        if old_path.exists():
+            try:
+                full_texts = json.loads(old_path.read_text(encoding="utf-8"))
+                text = (full_texts.get(vid) or "").strip()
+                if text:
+                    return text
+            except Exception as e:
+                log.warning(f"Error reading {old_path}: {e}")
+
+        return (metadata.get("text") or "").strip()
+    # Can be deleted later as we are using the optimised version
+    def retrieve_from_neo4j(self, query: str, top_k: int = 5) -> str:
+        """
+        Query Neo4j knowledge graph for concepts and relationships relevant
+        to the input query. Returns a formatted string ready for prompt injection.
+
+        Graph schema: Framework, Concept, Technique, Scenario, Emotion — each with {name} only.
+        """
+        if not self._neo4j_driver:
+            return ""
+
+        keywords = self._extract_keywords(query)
+        if not keywords:
+            return ""
+
+        # Filter by keyword on node name only (no description property)
+        # Escape single quotes for Cypher: ' -> ''
+        keyword_conditions = " OR ".join(
+            [f"toLower(n.name) CONTAINS '{kw.replace(chr(39), chr(39)*2)}'" for kw in keywords]
+        )
+        cypher = f"""
+        MATCH (n)
+        WHERE (n:Framework OR n:Concept OR n:Technique OR n:Scenario OR n:Emotion)
+          AND ({keyword_conditions})
+        OPTIONAL MATCH (n)-[r]->(related)
+        RETURN
+            n.name        AS concept,
+            labels(n)[0]  AS node_type,
+            type(r)       AS relationship,
+            related.name  AS related_concept
+        LIMIT {top_k * 3}
+        """
+
+        try:
+            print("*"*50)
+            print(f"\nCypher query: {cypher}")
+            print("*"*50)
+            records = self._run_neo4j_query(cypher)
+        except Exception as e:
+            print(f"⚠️  Neo4j query error: {e}")
+            return ""
+
+        if not records:
+            return ""
+
+        # Format results into readable text blocks
+        seen = set()
+        lines = []
+        for rec in records:
+            concept = rec.get("concept", "")
+            if concept in seen:
+                continue
+            seen.add(concept)
+
+            node_type  = rec.get("node_type", "Node")
+            definition = rec.get("definition") or ""
+            rel        = rec.get("relationship")
+            related    = rec.get("related_concept")
+
+            entry = f"[{node_type}] {concept}"
+            if definition:
+                entry += f": {definition}"
+            if rel and related:
+                entry += f" → ({rel}) → {related}"
+            lines.append(entry)
+
+        return "\n".join(lines)
+
+
+    def retrieve_from_neo4j_optimised(self, query: str, top_k: int = 5) -> str:
+        """
+        OPTIMISED version of retrieve_from_neo4j.
+
+        Improvements over original:
+        1. Two-hop graph traversal  — captures indirect relationships
+            (e.g. Concept → Technique → Scenario), not just direct neighbours.
+        2. Relationship label included in output for richer prompt context.
+        3. Fallback broad scan — if keyword matching yields nothing, runs a
+            label-only scan to return at least `top_k` nodes, avoiding silent
+            empty returns that starve the prompt.
+        4. Deduplication on (concept, related) pairs — prevents the same
+            relationship appearing multiple times from different keyword hits.
+        5. Scoring hint — nodes with more outgoing relationships are surfaced
+            first (degree-based soft ranking inside Cypher).
+        """
+        if not self._neo4j_driver:
+            
+            print("Neo4j driver not found")
+            
+            return ""
+
+        keywords = self._extract_keywords(query)
+        print("Keywords extracted from neo4j query: ", keywords)
+        def _run(cypher, params=None):
+            try:
+                print("$"*50)
+                print(f"\nCypher query: {cypher}")
+                print("$"*50)
+                return self._run_neo4j_query(cypher, params or {})
+            except Exception as e:
+                print("!!! exception accessing neo4j query error !!!")
+                print(f"⚠️  Neo4j query error: {e}")
+                return []
+
+        # ── Pass 1: keyword-filtered two-hop traversal ──────────────────────────
+        records = []
+        if keywords:
+            # Escape single quotes for Cypher: ' -> ''
+            kw_conditions = " OR ".join(
+                f"toLower(n.name) CONTAINS '{kw.replace(chr(39), chr(39)*2)}'" for kw in keywords
+            )
+            cypher_two_hop = f"""
+            MATCH (n)
+            WHERE (n:Framework OR n:Concept OR n:Technique OR n:Scenario OR n:Emotion)
+            AND ({kw_conditions})
+
+            // First hop
+            OPTIONAL MATCH (n)-[r1]->(hop1)
+
+            // Second hop
+            OPTIONAL MATCH (hop1)-[r2]->(hop2)
+
+            RETURN
+                n.name          AS concept,
+                labels(n)[0]    AS node_type,
+                type(r1)        AS rel1,
+                hop1.name       AS hop1_concept,
+                labels(hop1)[0] AS hop1_type,
+                type(r2)        AS rel2,
+                hop2.name       AS hop2_concept
+
+            // Prefer nodes with more connections (richer context first)
+            ORDER BY size([(n)-[]-() | 1]) DESC
+            LIMIT {top_k * 4}
+            """
+            records = _run(cypher_two_hop)
+
+            # ── Pass 2: fallback broad scan (no keyword filter) ─────────────────────
+            if not records:
+                print("⚠️  Neo4j keyword pass returned nothing — running broad fallback scan.")
+                cypher_fallback = f"""
+                MATCH (n)
+                WHERE (n:Framework OR n:Concept OR n:Technique OR n:Scenario OR n:Emotion)
+                OPTIONAL MATCH (n)-[r]->(related)
+                RETURN
+                    n.name        AS concept,
+                    labels(n)[0]  AS node_type,
+                    type(r)       AS rel1,
+                    related.name  AS hop1_concept,
+                    labels(related)[0] AS hop1_type,
+                    null AS rel2,
+                    null AS hop2_concept
+                ORDER BY size([(n)-[]-() | 1]) DESC
+                LIMIT {top_k}
+                """
+                records = _run(cypher_fallback)
+
+            if not records:
+                return ""
+
+            # ── Format — deduplicate on (concept, hop1_concept) pairs ───────────────
+            seen_pairs = set()
+            lines = []
+
+            for rec in records:
+                concept   = rec.get("concept", "")
+                node_type = rec.get("node_type", "Node")
+                rel1      = rec.get("rel1")
+                hop1      = rec.get("hop1_concept")
+                hop1_type = rec.get("hop1_type", "")
+                rel2      = rec.get("rel2")
+                hop2      = rec.get("hop2_concept")
+
+                pair = (concept, hop1)
+                if pair in seen_pairs:
+                    continue
+                seen_pairs.add(pair)
+
+                # Build entry: always show the anchor node
+                entry = f"[{node_type}] {concept}"
+
+                # First hop
+                if rel1 and hop1:
+                    entry += f" →[{rel1}]→ [{hop1_type}] {hop1}"
+
+                    # Second hop (only add if distinct from first hop)
+                    if rel2 and hop2 and hop2 != hop1:
+                        entry += f" →[{rel2}]→ {hop2}"
+
+                lines.append(entry)
+
+            return "\n".join(lines)
+
+    # ----------------------------- Combined Context -----------------------------
+    # Can be deleted later as we are using the optimised version
+    def get_vectordb_knowledgegraph_combined_context(self, queries: list) -> str:
+        """
+        Fuses context from TWO sources for each query:
+          1. Pinecone (vector similarity) — chunk texts from local JSON files
+          2. Neo4j    (graph traversal)   — concepts, frameworks, relationships
+
+        Returns a single merged string for prompt injection.
+        """
+        log.info(f"🔍 Retrieving from Pinecone (namespace: '{self.doc_namespace}') + Neo4j...")
+
+        pinecone_texts = {}   # vector_id -> text  (dedup)
+        neo4j_blocks   = []
+
+        for q in queries:
+            # --- 1. Pinecone retrieval ---
+            matches = self.retrieve_context(q, top_k=2, namespace=self.doc_namespace)
+            for m in matches:
+                vid = m.id
+                if vid in pinecone_texts:
+                    continue
+
+                source_name = m.metadata.get('source')
+                if not source_name:
+                    inline = m.metadata.get('text', '').strip()
+                    if inline:
+                        pinecone_texts[vid] = inline
+                    continue
+
+                text = self._load_chunk_text(vid, source_name, m.metadata)
+                if text:
+                    pinecone_texts[vid] = text
+
+            # --- 2. Neo4j retrieval ---
+            graph_text = self.retrieve_from_neo4j(q, top_k=5)
+            if graph_text:
+                neo4j_blocks.append(f"[Graph context for: '{q}']\n{graph_text}")
+
+        # --- Merge and format ---
+        sections = []
+
+        if pinecone_texts:
+            log.info(f"✅ Pinecone: {len(pinecone_texts)} unique chunk(s) retrieved.")
+            sections.append(
+                "### VECTOR KNOWLEDGE BASE (Pinecone)\n" +
+                "\n---\n".join(pinecone_texts.values())
+            )
+        else:
+            log.info("⚠️  No Pinecone chunks retrieved.")
+
+        if neo4j_blocks:
+            log.info(f"✅ Neo4j: {len(neo4j_blocks)} query block(s) retrieved.")
+            sections.append(
+                "### KNOWLEDGE GRAPH (Neo4j)\n" +
+                "\n\n".join(neo4j_blocks)
+            )
+        else:
+            log.info("⚠️  No Neo4j graph context retrieved.")
+
+        return "\n\n" + "="*60 + "\n\n".join(sections) if sections else ""
+    
+    def _expand_queries(self, queries: list[str]) -> list[str]:
+        """
+        Lightweight query expansion:
+        - Keeps original queries
+        - Adds a noun-phrase focused variant (strips verbs/aux words)
+        - Adds a keyword-only variant using _extract_keywords()
+        This increases recall without requiring an extra LLM call.
+        """
+        aux_verbs = {"is", "are", "was", "were", "does", "do", "did",
+                    "can", "could", "should", "would", "will", "has", "have"}
+        expanded = []
+        seen = set()
+
+        for q in queries:
+            for variant in [
+                q,
+                # noun-phrase variant: drop aux verbs
+                " ".join(w for w in q.split() if w.lower() not in aux_verbs),
+                # keyword-only variant
+                " ".join(self._extract_keywords(q)),
+            ]:
+                v = variant.strip()
+                if v and v not in seen:
+                    seen.add(v)
+                    expanded.append(v)
+
+        return expanded
+
+    
+    # Can be deleted later as we are using the optimised version
+    # ---Optimised version of get_vectordb_knowledgegraph_combined_context---
+
+    def get_vectordb_knowledgegraph_combined_context_optimised(
+    self,
+    queries: list[str],
+    pinecone_top_k: int = 5,       # raised from 2 → 5 per query
+    neo4j_top_k: int = 7,          # raised from 5 → 7 per query
+    max_chunks: int = 15,          # hard cap on total Pinecone chunks returned
+) -> str:
+        """
+        OPTIMISED version of get_vectordb_knowledgegraph_combined_context.
+
+        Improvements over original:
+        1. Query expansion  — each input query spawns up to 3 variants
+            (original + noun-phrase + keyword-only) before hitting both DBs,
+            significantly increasing recall.
+        2. Higher top_k    — 5 Pinecone chunks and 7 Neo4j nodes per query
+            (configurable) vs the original 2 / 5.
+        3. Content-level dedup for Pinecone — deduplicates on text fingerprint
+            (first 120 chars) in addition to vector ID, so near-duplicate
+            chunks from different queries don't bloat the context.
+        4. Relevance-ordered output — Pinecone chunks are sorted by their
+            Pinecone similarity score (descending) so the strongest signal
+            appears first in the prompt.
+        5. Hard cap (`max_chunks`) — prevents context overflow on large query
+            sets while still maximising coverage up to the cap.
+        6. Uses optimised Neo4j function — two-hop traversal + fallback.
+        7. Metadata-enriched chunk headers — each chunk shows its source
+            file and score so the LLM can weight evidence appropriately.
+        """
+        log.info(
+            f"🔍 [OPTIMISED] Retrieving — Pinecone top_k={pinecone_top_k}, "
+            f"Neo4j top_k={neo4j_top_k}, max_chunks={max_chunks} ..."
+        )
+
+        # ── Step 1: expand queries ───────────────────────────────────────────────
+        expanded_queries = self._expand_queries(queries)
+        log.info(f"   Query expansion: {len(queries)} → {len(expanded_queries)} variants")
+
+        # ── Step 2: Pinecone retrieval ───────────────────────────────────────────
+        # keyed by vector_id; value = (score, text, source)
+        pinecone_hits: dict[str, tuple[float, str, str]] = {}
+        # content fingerprint dedup (catches same text under different vector IDs)
+        content_seen: set[str] = set()
+
+        for q in expanded_queries:
+            matches = self.retrieve_context(q, top_k=pinecone_top_k, namespace=self.doc_namespace)
+
+            for m in matches:
+                vid   = m.id
+                score = getattr(m, "score", 0.0)
+
+                if vid in pinecone_hits:
+                    # keep the higher score if we've seen this ID before
+                    if score > pinecone_hits[vid][0]:
+                        pinecone_hits[vid] = (score, pinecone_hits[vid][1], pinecone_hits[vid][2])
+                    continue
+
+                source_name = m.metadata.get("source")
+                if not source_name:
+                    text = (m.metadata.get("text") or "").strip()
+                else:
+                    text = self._load_chunk_text(vid, source_name, m.metadata)
+
+                if not text:
+                    continue
+
+                # Content-level dedup
+                fingerprint = text[:120]
+                if fingerprint in content_seen:
+                    continue
+                content_seen.add(fingerprint)
+
+                pinecone_hits[vid] = (score, text, source_name or "inline")
+
+        # Sort by score descending, then apply hard cap
+        sorted_chunks = sorted(pinecone_hits.values(), key=lambda x: x[0], reverse=True)[:max_chunks]
+
+        # ── Step 3: Neo4j retrieval ──────────────────────────────────────────────
+        neo4j_blocks: list[str] = []
+        neo4j_seen: set[str] = set()
+
+        for q in queries:  # use original queries only for graph — expansion less useful here
+            graph_text = self.retrieve_from_neo4j_fixed(q, top_k=neo4j_top_k)
+            if graph_text and graph_text not in neo4j_seen:
+                neo4j_seen.add(graph_text)
+                neo4j_blocks.append(f"[Graph context for: '{q}']\n{graph_text}")
+
+        # ── Step 4: Assemble final context string ────────────────────────────────
+        sections: list[str] = []
+
+        if sorted_chunks:
+            log.info(f"✅ Pinecone: {len(sorted_chunks)} unique chunk(s) after dedup & cap.")
+            chunk_lines = []
+            for rank, (score, text, source) in enumerate(sorted_chunks, 1):
+                header = f"[Chunk {rank} | source: {source} | score: {score:.3f}]"
+                chunk_lines.append(f"{header}\n{text}")
+            sections.append(
+                "### VECTOR KNOWLEDGE BASE (Pinecone)\n" +
+                "\n---\n".join(chunk_lines)
+            )
+        else:
+            log.info("⚠️  No Pinecone chunks retrieved.")
+
+        if neo4j_blocks:
+            log.info(f"✅ Neo4j: {len(neo4j_blocks)} query block(s) retrieved.")
+            sections.append(
+                "### KNOWLEDGE GRAPH (Neo4j)\n" +
+                "\n\n".join(neo4j_blocks)
+            )
+        else:
+            log.info("⚠️  No Neo4j graph context retrieved.")
+
+        if not sections:
+            return ""
+
+        divider = "\n\n" + "=" * 60 + "\n\n"
+        return divider + divider.join(sections)
+
+    # ----------------------------- PDF Knowledge Base Context & RAG Retrieval-----------------------------
+    def get_pdf_knowledge(self, queries):
+        """Backward-compatible alias for get_knowledge_graph_context."""
+        return self.get_vectordb_knowledgegraph_combined_context(queries)
+    
+    # ── Update get_pdf_knowledge alias to point at optimised version ─────────────
+    # Can be deleted later as we are using the optimised version
+    def get_pdf_knowledge_optimised(self, queries: list[str]) -> str:
+        """Optimised alias replacing get_pdf_knowledge."""
+        return self.get_vectordb_knowledgegraph_combined_context_optimised(queries)
+    def retrieve_context_from_knowledge_graph(self, query: str, top_k: int = 5) -> list:
+        """Returns raw Pinecone match objects. Use get_knowledge_graph_context() for text."""
+        return self.retrieve_context(query, top_k=top_k, namespace=self.doc_namespace)
+
+    def close(self):
+        """Call this on shutdown to cleanly close the Neo4j driver."""
+        if self._neo4j_driver:
+            self._neo4j_driver.close()
+            log.info("Neo4j connection closed.")
+    
+    # ----------------------------- Save to Memory -----------------------------
+    def save_to_memory(self, target_speaker, report, final_strategy):
+        """
+        Save the quantitative and interaction summaries to the memory vector store.
+        """
+
+        print(f"\n💾 Archiving Dual-Memory Blocks for {target_speaker}...")
+
+        quant_summary = self.diag_summary_chain.invoke({"diagnostic_report": report})
+        
+        interact_summary = self.interact_summary_chain.invoke({
+            "chat_history": f"AI Advice: {final_strategy}",
+            "user_role": target_speaker
+        })
+
+        self.memory_search.add_texts(
+            texts=[quant_summary, interact_summary],
+            metadatas=[
+                {"speaker": target_speaker, "category": "quantitative", "type": "memory_block"},
+                {"speaker": target_speaker, "category": "interactive", "type": "memory_block"}
+            ]
+        )
+        
+        print(f"✅ Quantitative & Interaction summaries archived to: {self.mem_namespace}")
+        return quant_summary, interact_summary
+
+    # ----------------------------- Chat with Coach Assistant -----------------------------
+    def chat_with_coach_assistant(self, transcript_docs, final_report_data):
+        """
+        Interactive chat loop with the cognitive coach assistant, using memory and context.
+        """
+        print(f"\n🎓 Cognitive Coach Assistant is Online (Memory-Enabled).")
+        
+        # 1. Identify all speakers in the transcript
+        all_speakers = list(set([d.metadata['speaker'] for d in transcript_docs]))
+        speaker_list_str = ", ".join(all_speakers)
+        user_role = input(f"Which speaker are you? ({speaker_list_str}): ").strip()
+
+        # 2. Retrieve past coaching sessions for the selected user from memory
+        print(f"🔍 Searching for past coaching sessions for {user_role}...")
+        past_memories = self.memory_search.similarity_search(f"Past metrics and sessions for {user_role}", k=2)
+        past_mem_context = "\n---\n".join([m.page_content for m in past_memories]) if past_memories else "First session detected."
+
+        # 3. Initialize chat history
+        history = ChatMessageHistory()
+        
+        # 4. Build system prompt with empathy and historical context
+        
+        initial_context = f"""
+        You are a World-Class Human-Centric Cognitive Coach.
+        [TONE & STYLE]
+        - Be Empathetic First: If the user expresses frustration, validate feelings BEFORE giving advice.
+        - Speak like a Peer-Mentor: Use a conversational, supportive, and grounded tone.
+        [USER IDENTITY] The user is {user_role}.
+        [PAST PERFORMANCE & TRENDS] {past_mem_context}
+        [CURRENT CASE DATA] {final_report_data}
+        [MISSION] Validate {user_role}'s experience. Use data to empower them.
+        """
+        print("%"*50)
+        print(f"\n\n***ATTENTION: Initial context: {initial_context}\n\n")
+        print("%"*50)
+        # 5. Chat loop for user interaction
+        while True:
+            user_input = input(f"\n{user_role} (You): ")
+
+            if user_input.lower() in ['exit', 'quit', 'stop']:
+                # Save chat summary to memory and exit
+                print("💾 Saving interaction summary to memory...")
+                chat_history_text = "\n".join([f"{m.type}: {m.content}" for m in history.messages])
+                interact_memory = self.interact_summary_chain.invoke({
+                    "user_role": user_role,
+                    "chat_history": chat_history_text
+                })
+                self.memory_search.add_texts(
+                    texts=[interact_memory],
+                    metadatas=[{"type": "interaction_summary", "speaker": user_role}]
+                )
+                print("✅ Chat session ended. Summary saved to history.")
+                break
+
+            # Build message flow for Cohere LLM
+            messages = [SystemMessage(content=initial_context)]
+            messages.extend(history.messages)
+            messages.append(HumanMessage(content=user_input))
+
+            try:
+                response = self.llm.invoke(messages)
+                ai_message = response.content if hasattr(response, 'content') else str(response)
+
+                history.add_user_message(user_input)
+                history.add_ai_message(ai_message)
+
+                print(f"\nAssistant: {ai_message}\n" + "-" * 30)
+            except Exception as e:
+                print(f"❌ Execution Error: {e}")
+
+                
+    def _extract_queries(self, report):
+        """
+        Extract up to 3 search queries from the diagnostic report for further knowledge retrieval.
+        """
+        import re
+        lines = report.split('\n')
+        queries = [re.sub(r'^\d+\.\s*', '', l).strip().replace('"', '') 
+                   for l in lines if 'Query' in l and ':' in l]
+        
+        if not queries:
+            queries = re.findall(r'"([^"]*)"', report)
+            
+        filtered = [q for l in queries for q in [l.split(':')[-1].strip()] 
+                    if len(q) > 10 and "ANALYSIS" not in q]
+        
+        return filtered[:3]
+            
+
+    
+    def retrieve_context_from_knowledge_graph(self, query: str, top_k: int = 5) -> list:
+        """
+        Retrieve top-k most relevant context chunks from knowledge graph for a given query.
+        """
+        return self.get_knowledge_graph_context([query])
+    
+    def retrieve_context(self, query: str, top_k: int = 5, namespace: str = None) -> list:
+        """
+        Retrieve top-k most relevant context chunks from Pinecone for a given query.
+        """
+
+        query_embedding = self.embedding_model.encode(query).tolist()
+        
+        #  (doc_namespace)
+        target_ns = namespace if namespace else self.doc_namespace
+        
+        results = self.index.query(
+            vector=query_embedding,
+            top_k=top_k,
+            namespace=target_ns,
+            include_metadata=True
+        )
+        return results.matches
+ 
+    # ----------------------------- Clear Memory -----------------------------
+    def clear_memory(self):
+        """
+        Clear all records in the memory namespace. Use with caution!
+        """
+        print(f"🧹 DANGER: Clearing all records in namespace: {self.mem_namespace}...")
+        try:
+            self.index.delete(delete_all=True, namespace=self.mem_namespace)
+            print(f"✅ Namespace '{self.mem_namespace}' is now empty.")
+        except Exception as e:
+            print(f"❌ Error clearing memory: {e}")
+
+# ----------------------------- Metrics -----------------------------
+def load_custom_transcript(path):
+    with open(path, 'r') as f:
+        data = json.load(f)
+
+    docs = []
+    # Loop through each string in the transcript list
+    for entry in data['transcript']:
+        # Split by ':' to separate ID, Speaker, Timestamp, and Text
+        # Based on your image: "MeetingID : Speaker : Timestamp : Text"
+        parts = entry.split(':', 3)
+
+        if len(parts) == 4:
+            meeting_id, speaker, timestamp, text = parts
+
+            # Create a LangChain Document
+            doc = Document(
+                page_content=text.strip(),
+                metadata={
+                    "meeting_id": meeting_id,
+                    "speaker": speaker,
+                    "timestamp": timestamp,
+                    "source_type": "Transcript"
+                }
+            )
+            docs.append(doc)
+
+    return docs
+
+def obtainMetrics():
+    turn_counts = defaultdict(int)
+    word_counts = defaultdict(int)
+    interruptions = 0
+
+    previous_speaker = None
+    previous_end_time = 0.0  # track timestamp of last turn
+
+    # Process each transcript entry
+    for doc in transcripts:
+        speaker = doc.metadata['speaker']
+        timestamp = float(doc.metadata['timestamp'])
+        text = doc.page_content
+
+        # Count turn
+        turn_counts[speaker] += 1
+
+        # Count words
+        words = [w for w in text.split() if w.strip()]
+        word_counts[speaker] += len(words)
+
+        # Count interruption: speaker changes and next turn starts within 0.5 seconds (adjustable)
+        if previous_speaker and speaker != previous_speaker:
+            if timestamp - previous_end_time < 0.5:
+                interruptions += 1
+
+        previous_speaker = speaker
+        previous_end_time = timestamp
+
+    total_turns = sum(turn_counts.values())
+    total_words = sum(word_counts.values())
+
+    # Compute turn share score (closer to equal is better)
+    num_speakers = len(turn_counts)
+    ideal_share = 100 / num_speakers
+
+    turn_percentages = {s: (c / total_turns) * 100 for s, c in turn_counts.items()}
+    turnshare_score = 100 - sum(abs(ideal_share - p) for p in turn_percentages.values())
+
+    # Compute word share score
+    word_percentages = {s: (c / total_words) * 100 for s, c in word_counts.items()}
+    wordshare_score = 100 - sum(abs(ideal_share - p) for p in word_percentages.values())
+
+    # Compute interruption rate
+    interruption_rate = (interruptions / total_turns) * 100 if total_turns > 0 else 0
+
+    # Raw conversational balance score
+    #print(turnshare_score)
+    #print(wordshare_score)
+    raw_score = turnshare_score + wordshare_score - interruption_rate
+
+    # Normalize to 0-100
+    # Maximum possible score: turnshare_score=100, wordshare_score=100, interruption_rate=0 => 200
+    # Minimum possible score: turnshare_score=0, wordshare_score=0, interruption_rate=100 => -100
+    # So range = 200 - (-100) = 300
+    normalized_score = ((raw_score + 100) / 300) * 100
+    normalized_score = max(0, min(100, normalized_score))  # clamp to 0-100
+
+    # Print results
+    turnCounts = "Turn counts: " + str(dict(turn_counts))
+    #print(turnCounts)
+    wordCounts = "Word counts: " + str(dict(word_counts))
+    #print(wordCounts)
+    turnPercentages = "Turn percentages: " + str({k: round(v, 2) for k, v in turn_percentages.items()})
+    #print(turnPercentages)
+    wordPercentages = "Word percentages: " + str({k: round(v, 2) for k, v in word_percentages.items()})
+    #print(wordPercentages)
+    interruptionsResult = "Interruptions: " + str(interruptions)
+    #print(interruptionsResult)
+    interruptionRate = "Interruption rate: " + str(round(interruption_rate, 2))
+    #print(interruptionRate)
+    convoScore = "Normalized Conversational Balance Score (0-100): Formula = raw_score = turnshare_score + wordshare_score - interruption_rate \
+                  normalized_score = ((raw_score + 100) / 300) * 100 normalized_score = max(0, min(100, normalized_score))  # clamp to 0-100 " + str(round(normalized_score, 2))
+    #print(convoScore)
+
+    return turn_counts, turnCounts, wordCounts, turnPercentages, wordPercentages, interruptionsResult, interruptionRate, convoScore
+
+def sentimentAnalysis(turn_counts):
+    #nltk.download('vader_lexicon')
+
+    try:
+        print("Loading sentiment analyzer...")
+        lexicon_file='nltk_data/sentiment/vader_lexicon.txt'
+        sia = SentimentIntensityAnalyzer( lexicon_file=lexicon_file)
+    except Exception as e:
+        if "vader_lexicon not found" in str(e):
+            print("Vader lexicon not found, downloading...")
+            nltk.download('vader_lexicon', quiet=True)
+            lexicon_file='nltk_data/sentiment/vader_lexicon.txt'
+            sia = SentimentIntensityAnalyzer( lexicon_file=lexicon_file)
+        else:
+            print(f"Error loading sentiment analyzer: {e}")
+            return "Error loading sentiment analyzer", {}
+        print(f"Error loading sentiment analyzer: {e}")
+        return "Error loading sentiment analyzer", {}
+
+    speaker_sentiments = {}
+
+    for i, doc in enumerate(transcripts):
+        speaker = doc.metadata["speaker"]
+        text = doc.page_content
+
+        score = sia.polarity_scores(text)["compound"]
+
+        if speaker not in speaker_sentiments:
+            speaker_sentiments[speaker] = []
+
+        speaker_sentiments[speaker].append((i, score))  # keep time index
+
+    from sklearn.linear_model import LinearRegression
+
+    speaker_slopes = {}
+
+    for speaker, values in speaker_sentiments.items():
+        indices = np.array([v[0] for v in values]).reshape(-1, 1)
+        scores = np.array([v[1] for v in values])
+
+        model = LinearRegression()
+        model.fit(indices, scores)
+
+        slope = model.coef_[0]
+        speaker_slopes[speaker] = slope
+
+    #print(speaker_slopes)
+    #print(turn_counts)
+    normalized_scores = {}
+    for key in turn_counts:
+      score = speaker_slopes[key] * turn_counts[key]
+      #print(score)
+      normalized_score = (score + 1) / len(turn_counts)
+      normalized_scores[key] = normalized_score
+
+    #for key in normalized_scores:
+      #print("Speaker " + key + " Sentiment: " + str(normalized_scores[key]))
+
+    return "Speaker Sentiment: " + str(normalized_scores), speaker_sentiments
+
+def speakerVolatility(speaker_sentiments):
+    speaker_volatility = {}
+
+    for speaker, values in speaker_sentiments.items():
+        scores = np.array([v[1] for v in values])
+        volatility = np.std(scores)
+        speaker_volatility[speaker] = volatility
+
+    #print(speaker_volatility)
+
+    return "Speaker volatility: " + str(speaker_volatility)
+
+
+
+# Example usage
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="RAG Coach Assistant")
+    parser.add_argument("--optimised", choices=["yes", "no"], default="no", help="Choose between yes (optimised - yes will use the optimised version of the pdf context) and no (original) for pdf context")
+    args = parser.parse_args()
+
+    if args.optimised == "yes":
+        log.info("!!Using optimised mode")
+        log.info("%s", "-" * 50)
+        pdf_context_optimised = True
+    else:
+        log.info("!!Using original mode")
+        log.info("%s", "-" * 50)
+        pdf_context_optimised = False
+    # Initialize RAG
+    rag = RAGQuery(
+            index_name=PINECONE_INDEX,
+            embedding_model_name=HF_EMBED_MODEL,
+            llm_model_name="cohere",
+            doc_namespace="documents", 
+            mem_namespace="history"
+        )
+    
+    rag.clear_memory()
+
+    #json_path = "./transcripts/Bed002_meeting_transcript.json"    
+    json_path = "./transcripts/michelle_1_scenario_1.json"
+    log.info(f"--- Loading transcript from: {json_path} ---")
+    all_docs = rag.load_custom_transcript(json_path)
+
+    # ----------------------------- Metrics -----------------------------
+    # Definitions are found in prompt.py
+    transcripts = load_custom_transcript(json_path)
+    turn_counts, turnCounts, wordCounts, turnPercentages, wordPercentages, interruptionsResult, interruptionRate, convoScore = obtainMetrics()
+    normalized_sentiment_scores, speaker_sentiments = sentimentAnalysis(turn_counts)
+    speaker_volaitility = speakerVolatility(speaker_sentiments)
+    # ----------------------------- Calculated Metrics -----------------------------
+    log.info("Calculated Metrics: %s", calculated_metrics)
+    calculated_metrics = COACHING_SCORE_DEFINITION + "\n" + turnCounts + "\n" + wordCounts + "\n" + turnPercentages + "\n" + wordPercentages + "\n" + interruptionsResult + "\n" + interruptionRate + "\n" + convoScore \
++ "\n" + SENTIMENT_SCORE_DEFINITION + "\n" + normalized_sentiment_scores + "\n" + VOLATILITY_SCORE_DEFINITION + "\n" + speaker_volaitility
+    calculated_metrics = calculated_metrics.replace("{", "{{").replace("}", "}}")
+    opening, middle, closing = rag.get_strategic_segments(all_docs, window_size=15)
+    
+    my_context = "The team is currently struggling with 'spatial intent' definitions. Speaker B is the project lead, and Speaker C is a technical consultant."
+
+    report = rag.run_trend_analysis(opening, middle, closing, user_input=my_context)
+    
+    log.info("%s DIAGNOSTIC REPORT %s", "=" * 30, "=" * 30)
+    log.info("%s", report)
+    log.info("%s", "=" * 79)
+
+    queries = rag._extract_queries(report)
+    log.info("Extracted Search Queries:")
+    for q in queries:
+        log.info(" - %s", q)
+
+    # We want to exit for now
+    #sys.exit(1)
+
+
+    # ---  Step 2  ---
+    
+    #pdf_context = rag.get_pdf_knowledge(queries)
+    #print("pdf_context: ", pdf_context)
+    if pdf_context_optimised:
+        log.info("%s", "*" * 50)
+        log.info("pdf_context_optimised is chosen and will be used")
+        log.info("%s", "*" * 50)
+        
+        pdf_context_optimised = rag.get_pdf_knowledge_optimised(queries)
+        
+    else:
+        log.info("%s", "*" * 50)
+        log.info("pdf_context is chosen and will be used")
+        log.info("%s", "*" * 50)
+        
+        pdf_context = rag.get_pdf_knowledge(queries)
+
+    
+    
+    #target_speaker = input("\nWhich speaker is the primary focus? ").strip()
+    target_speaker = "michelle" # keep non-interactive default
+    
+    log.info("🔍 Fetching ALL historical trends for %s...", target_speaker)
+    
+    past_matches = rag.retrieve_context(
+        f"Coaching history and behavioral trends for {target_speaker}", 
+        top_k=10, 
+        namespace=rag.mem_namespace
+    )
+
+    past_history_text = "\n---\n".join([m.metadata.get('text', "") for m in past_matches]) if past_matches else "No previous history found."
+
+    #final_strategy = rag.execute_final_synthesis(report, past_history_text, pdf_context)
+    final_strategy = rag.execute_final_synthesis(report, past_history_text, pdf_context_optimised)
+    log.info("%s FINAL COACHING STRATEGY %s", "★" * 20, "★" * 20)
+    log.info("%s", final_strategy)
+
+    log.info("💾 Saving session to memory namespace: %s", rag.mem_namespace)
+    rag.save_to_memory(target_speaker, report, final_strategy)
+    
+
+    log.info("✅ All Design-specific memory blocks have been synchronized to Pinecone.")
+
+    # 
+    # test_mem = rag.memory_search.similarity_search("C", k=2)
+    # for i, m in enumerate(test_mem):
+    #     print(f"\n--- Memory Block {i} ---\n{m.page_content}")
+
+    # ---  Step 3  ---
+    # Commented for comparing evaluatiobn metrics 
+    #rag.chat_with_coach_assistant(all_docs, final_strategy)
+
+
+        

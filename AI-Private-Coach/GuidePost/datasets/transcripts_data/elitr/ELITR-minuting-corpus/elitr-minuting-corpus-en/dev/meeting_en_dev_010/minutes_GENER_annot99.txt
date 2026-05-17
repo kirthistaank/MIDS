@@ -1,0 +1,10 @@
+
+The peers start discussing about how to present their papers in the IWSLT event.
+The general agreement is to prepare pre-recorded presentations of the main results.
+They further discuss about the date of the project review and vote for it.
+Meanwhile, they agree that they have to finalize the financial numbers of the project sometime between July and August.
+The next topic of discussion is about the project deliverables and their dissemination.
+They decide to report the papers in a table.
+The discussions that follow are about some technical details of how to run the live demo of the ASR and MT system and its optimal settings.
+At the end, they discuss about a possible extension request of the project by two or three months to overcome the delayes resulted from covid-19.
+They also get back to the discussion about the IWSLT event and decide to contribute with slides and videos in a common overleaf document.

@@ -1,0 +1,32 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION10], [ORGANIZATION17], [ORGANIZATION16]
+Meeting Name: Virtual Coffee Hours
+Meeting Date: 08.12.2020
+Meeting Topic:  [ORGANIZATION11] and [ORGANIZATION2] submissions
+Meeting Participants: [PERSON2], [PERSON8], [PERSON3]
+Main points of discussion:	
+•	Discussion on advantages and disadvantages of proposal submission to two major conference venues – [ORGANIZATION11] and [ORGANIZATION2].
+[ORGANIZATION11] – special session proposal declined but option to apply for a satellite event
+Advantages:
+•	More flexibility, freedom to choose events and accept research papers
+•	Fully fledged workshop with attributes of an conference
+•	Independent of [ORGANIZATION11].
+•	Very good visibility in the community.
+Disadvantages:
+•	Requires intensive and large amount of workload.
+•	[ORGANIZATION11] doesn’t endorse the articles in the proceedings, only promotes the workshop on the website. This might discourage some participants.
+•	Time period between proposal submission and final paper submission shortened from 5 to 3 months.
+•	Submission deadline February 28, 2021 after community and [ORGANIZATION3] endorsement requirements were fulfilled. [ORGANIZATION11] decision to be received by March 15, 2021.
+[ORGANIZATION2] conference
+Advantages:
+•	Great visibility in the science community.
+•	Shared task submission possible.
+•	Less work and more intense output.
+•	Proceedings indexed in [ORGANIZATION3] Anthology, [ORGANIZATION5] and other major industry players.
+Disadvantages:
+•	Requirement for corporate membership access.
+To Do list for the Team:
+•	Refine the proposal for submission.
+•	Do further research on proceedings and publication possibilities (such as [ORGANIZATION6] or [ORGANIZATION8]).
+•	Present their finding to the Project Manager [PERSON7] for further discussion.
+Minutes submitted by: ANNOTATOR 13

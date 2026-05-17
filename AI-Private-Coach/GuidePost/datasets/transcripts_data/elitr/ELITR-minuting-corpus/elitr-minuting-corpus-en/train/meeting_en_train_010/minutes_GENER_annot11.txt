@@ -1,0 +1,16 @@
+[PROJECT1] meeting 03.06.2020
+Attendees: [PERSON8], [PERSON3], [PERSON6], [PERSON4]
+Purpose of meeting: Discussion about project side milestones, mistakes and next plans
+
+Summary
+• Flickering and subtittles characteristics
+• Discussion about video setup
+• French speech video to test subtittle program (7 min.)
+• Automatic transcription and translation
+• Discussing the French speech and its translation
+• Discussing possible improvements in the functionality of tanslating program :-  Make scrolling fully manual to simplify the text manageability
+                                                                               -  Focusing on the segmenter to reduce units of translation
+                                                                               -  Developing automatic censorship of bad or vulgar words            
+                                                                               -  Try to watch another French watching session and focus on more details and characteristics of problems and shortcomings
+
+Minutes submitted by: [ANNOTATOR2]

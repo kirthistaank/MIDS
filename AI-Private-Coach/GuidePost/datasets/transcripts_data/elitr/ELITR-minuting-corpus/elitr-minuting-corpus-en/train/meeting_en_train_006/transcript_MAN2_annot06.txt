@@ -1,0 +1,384 @@
+(PERSON8) <another_language/>
+Hello?
+<another_language/>
+(PERSON8) Yeah, I'm here.
+<another_language/>
+<laugh/>
+<other_yawn/>
+(PERSON14) Yeah, okay, 
+so if there is no noise from me then let's speak quick today.
+Again, thanks to all of you who-
+Okay.
+Who made it.
+And the shared document are highlighted that there is two events that are going to happen.
+One of them is the <unintelligible/> conference on March 3., 
+which is already in less than two weeks from now.
+And another instance on March the 24 
+and I would-
+so the the [PERSON7] please confirm that we can take part in those.
+If you don't know now how uhm, uhm -
+If you do not know now please check with profesor profesorka [PERSON3]. 
+And hopefully we'll be allowed to go there.
+We have already had the session in that room 
+and I would like uhm not many of us just one or two,
+so [PERSON11] primarily
+and maybe maybe someone else to to attend that session
+and test live following of the many sources.
+So that we relay the record they uhm the session, 
+and we also can choose from the many sources.
+So most of this can be tested off-line, 
+but still is good to run it at the life session with real people,
+because the pressure then causes more errors, 
+and it is important to be to be resilient to the user.
+So.
+So we actually need to record the sessions ourselves.
+So this <unintelligible/> conference is something for which I don't know whether any materials can be obtained.
+[PERSON7],
+could you also check?
+(PERSON7) I think we will receive the program  of the conference sometime before.
+And and that will be everything what would be there.
+<other_yawn/>
+(PERSON14) ... noise from the microphone,
+I suggest that whoever from you group is don't present,
+should come over to recorder and present from main machine,
+because it doesn't seem to create the noise.
+Ehm, okay,
+so when you have the program, 
+please send it to all of us.
+So that we know if there is anything that we could ehm do for adaptation.
+<laugh/>
+So, you are welcome.
+And the other event is the <unintelligible/> student firmsware.
+And there the goal is to get their new <unintelligible/>
+New set of recordings.
+And to test domain adaptation.
+<other_yawn/>
+And to test live subtitling  in adverse conditions 
+and the test <other_yawn/>.
+And we should also try to record another video what we are doing.
+So now I would like to ask <unintelligible/>
+So, well, just say what were doing.
+So this is the update from the the upcoming event,
+just mention what you were doing.
+(PERSON10) Yes,so I was helping [PERSON11] <unintelligible/> that in <unintelligible/> ASR <other_yawn/>
+was slower than running in [ORGANIZATION3] <unintelligible/>
+when on the on the machine where where the worker training is is some other process
+for someone else from [PERSON4]
+and this cause the delay for several seconds.
+So we just need to use-
+We just need to make sure <other_noise/>  only one whose whose using the machine when we running.
+We are not say a star there and and maybe maybe you <other_noise/> and read other workers.
+That seems to be sensitive <unintelligible/>
+And I'm starting to -
+I'm training MNT model for <unintelligible/> to prefix 
+and I bring to start validation <other_noise/> evaluation sets so on spoken data.
+And I right now I will I will adapt [PERSON9]'s events events so so it will print the correct timestamps,
+not the fake timestamps.
+And I will <unintelligible/> somehow.
+I already have the idea.
+So that's from me.
+(PERSON14) [PERSON5].
+(PERSON8) This week I <other_yawn/> it was supposed to in this 
+<other_noise/>
+it takes some times,
+I don't like [OTHER6], [OTHER5] <unintelligible/>
+but almost I will finish some part so and it's tomorrow
+and I am not sure but <unintelligible/>
+we can <unintelligible/>
+So he can excercise <unintelligible/>
+So and I'm going to train back transcription system,
+next-
+from Monday on this week.
+And I <unintelligible/> to finish my one people to [PERSON11] .
+So I really start my training proces bad tranclations <unintelligible/> from Monday
+and to search some other languages.
+<unintelligible/> six languages.
+For election <unintelligible/>, for collecting monolingual data.
+So this is the brief summary.
+<laugh/>
+(PERSON11) So this week I have done the evaluation of the [PERSON4] talk like that two place
+I <unintelligible/> two weeks ago.
+I corrected the trancsription and evaluated the our [LOCATION1] ASR.
+And I also evaluated <unintelligible/> [ORGANIZATION2], [LOCATION1] ASR and against the ASR of university <unintelligible/>
+that is avalaible on [PROJECT2]
+and the result seem quite promising
+that the adaptation help to reduce the word error rate 
+I like almost of third from like three point five for the baseline model to like two point one I think for the adaptive model.
+And, yeah, so this is,
+yeah and [ORGANIZATION2] had like above five percent of rank at the university <unintelligible/>six point five
+so that was encouraging results.
+And I'm also started working on use-
+using the uhm some [LOCATION1] corpus which is collection of over one million [LOCATION1] articles which have available abstract entitles.
+So I would like to be able to search through this corpus for the relevant articles for our domain, 
+and use these texts for domain adaptation on on on our <unintelligible/> of the main. 
+I would like to use the approach of sentence embeddings,
+that I have been working on already couple of weeks.
+So from like a input sentences,
+I would like to query this corpus with articles
+and select the relevant plans and then adapt the language model at lexicon of our ASR.
+(PERSON14) Okay.
+Thanks.
+So, [PERSON8] was not talking, right?
+(PERSON8) Yes, so this week, 
+I have been working on many too many neural machine translation 
+and actually ehm I hope that it would be already done.
+But I actually encountered some interesting problems.
+Which is uhm that I got data from [ORGANIZATION1].
+And I actually tried training using these data.
+And I found that if you just use uhm the data [OTHER1] century, 
+such as such as it was mentioned in the paper from ooh from [PERSON2]. 
+Then it actually works quite well, 
+ehm on [OTHER1] it works like-
+when you translate to [OTHER1], 
+it works obviously even better than two  the other other languages, 
+because that there are more data in [OTHER1].
+But actually,
+if you just use random language pairs it will start to forget basically,
+it will start to mistake translation in different languages.
+So you only have one token for the target.
+And for example you tell it to translate to [LOCATION1],
+so it will actually translate correctly.
+But it will translate to [OTHER4] for example.
+So so now I'm trying to ehm ehm-
+(PERSON14) Sorry, sorry.
+I mean that point <other_noise/> produces some translation, 
+but in the wrong language, 
+right?
+(PERSON8) Yeah.
+Exactly.
+So, you always have one like <unintelligible/> control token,
+whit you preparein order to-
+(PERSON14)  Yeah, but the <unintelligible/> system desides to ignore this token any desides to emit ehm different language.
+(PERSON8) Yeah.
+And I think that I might have either alone backsides, 
+or or the new just can't can't remember all the combinations of the input and output because there is no work inputs token.
+So I guess that if it is strange-
+if it is always trained just on [OTHER1] and some other language,
+then it can always like understand that one of them must be [OTHER1].
+And and that's would they actually be doing the model for the paraphrasing, 
+and then actually it didn't work for the other languages, 
+because of this.
+I think.
+So.
+(PERSON14) First, 
+the first thing is that we are ehm-
+it would be sufficient for us to have reliably [OTHER1] centric model.
+It is fine.
+I don't see that's big problem to do <unintelligible/> file [OTHER1],
+so let's let's simply run the machine translation twice, first into [OTHER1],
+and then output [OTHER1] at that will be us all the combinations.
+The data that you have condens all the pairs or it's [OTHER1] centric?
+(PERSON8) Uh, yeah.
+That' the problem that actually the data that I got contains random pairs in random laguages.
+So it's really really like just just tell me to to random languages for every line and and produce to to sentences in those languages.
+But also I have my data that I made from open subtitles that's [OTHER1] centric
+and it worked quite well.
+(PERSON14) And if you restrict the datas from [ORGANIZATION1] to [OTHER1] <unintelligible/>  that works, right?
+(PERSON8) Oh, no,
+because that will be really small.
+So I will probably have add the sentences from other other corpora as [OTHER1] centric 
+And I will train it on that.
+(PERSON14) Please, email [PERSON12] about this.
+Please describe in the email the problem, 
+(PERSON8) Okay.
+(PERSON14) Because I don't think that there is any good reason why the data set is like we used in sides.
+I think that uhm like he should- 
+he was also extracting data from Opus
+and ehm or sometimes-
+(PERSON8) Yes, he was the first the data sented he -
+(PERSON14) Yeah, so,
+so I, I understood from his email that didn't restricted in any way.
+So I think that the [OTHER1] centric are-
+if we filter out his corpus should be the same as you obtain if you only get ring the [OTHER1] sent with part yourself.
+So please ask him and also mentioned the fake that we are not able to to train the fully multilingual system.
+But as I said, 
+it's not too important.
+It's more important to have reliable [OTHER1] centric system.
+And even with the [OTHER1] country centric, 
+we know from the past uhm that the input token
+which indicates I want this [OTHER1] to be translated to [OTHER4], 
+or into the [OTHER2] can be easily ignore by the system,
+if the domain of the inputs sentence is much closer to the [OTHER1] uhm [OTHER4] data then the data.
+So like the more the the majority of tokens will kind of implicitly indicate,
+well this is
+this is on cars and and sports.
+So it should be [OTHER4], 
+and these single token which says go for [OTHER2] is ignored.
+Is like overway we flip, it's flips it over to the other side of of the of the training data.
+And that is something we do not know how to get tha the aside from filtering out
+<laugh/> the the wrong language.
+So we can run language ID on the output of the multilingual sysytem,
+but we don't know how to totally ensure that it 
+<other_yawn/> <unintelligible/> language.
+(PERSON8) Actually there was a paper also from [PERSON2],
+where they just they just train the model on one language per pairs
+and then they inserted like they call it adapters.
+And they, 
+they basically put as small layer between every to transform blocks, 
+and then they tried it on and other language language per writing.
+And I I'm not sure would result it got but it it interested me quite a lot.
+Hm, have you-
+Have you seen that?
+(PERSON14) Uh, I don't know now, 
+I  <unintelligible/> to the to the  source document a link to resent [ORGANIZATION2] block about masivelly multilingual systems.
+And this is the beyond the scale than we can afford.
+It is three years of of [ORGANIZATION2] work, 
+so.
+<laugh/> 
+(PERSON8) Yeah, yeah.
+We can see.
+Yeah, it's here.
+Can I sent it somewhere.
+(PERSON14) Do you have the-
+what hmmm.
+(PERSON8) Yeah, 
+I can [PROJECT1] source document, 
+(PERSON14) Yeah.
+<other_yawn/>
+<unintelligible/>
+(PERSON8) Yeah,
+so this is basically one way that they found out.
+(PERSON14) Yeah.
+(PERSON8) Ok, so for now,
+I will just train it's to be [OTHER1] centric
+and and-
+(PERSON14) <unintelligible/> about the <unintelligible/> of the data?
+(PERSON8) Yeah, and it should all around the work on [OTHER8], 
+so than I will tried on the virtual machine that I get for paraphrasing.
+(PERSON14) Hm. 
+You can try but it's actually better to test it on cluster and avoid than the machine part.
+Because we are happy to run the workers on the cluster,
+they can connects  the mediator,
+so there is no need to run it on on the <unintelligible/>.
+So you said that it should order works,
+so that mean that your [OTHER7] trained model
+seemed to work on [OTHER8],
+right?
+(PERSON8) Yeah. 
+(PERSON14) Yeah, please,
+deploy it on the cluster,
+so that we can start worker on the cluster,
+it will be some some preping.
+This is [PROJECT4]
+or what is the backend?
+(PERSON8) Ehm, yeah it should be tenderflow serving.
+(PERSON14) So, [PERSON7], would you have any-
+(PERSON7) Yeah, yes.
+<other_yawn/>
+models are is are in [PROJECT4]
+and they are served through data serving,
+so <unintelligible/> control we have we have some scripts.
+(PERSON8) Yeah, I actually did it on <unintelligible/> that I just took the deep fault model from [PROJECT4],
+and I just replace the the preproser thing and others <unintelligible/> around it.
+So the model should be the same,
+(PERSON7) Yes, yeah. 
+So it will works <unintelligible/> I can send the the <unintelligible/> and then you connect it to the mediator.
+(PERSON8) Okay.
+Okay, I think that's everything for me.
+(PERSON14) Yeah, okay.
+Thank you.
+So, that's all,
+we have any one else.
+I miss the presentation by [PERSON5] 
+and <unintelligible/>,
+but you can recall that-
+Is there any-
+like synergy
+<other_noise/>
+[PERSON8] and that of [PERSON5],
+I think there is.
+(PERSON8) The monoligual data.
+(PERSON14) The monolingual data, yes.
+So this is something that was opened last week.
+And obviously, you still didn't have the model.
+Are you now in the position, 
+where so where the [OTHER1] centric model would be available to translate a lot of data?
+(PERSON8) I have to admit,
+I don't know how-
+if it's good enough now.
+Because, because the [OTHER1] centric model technicaly yes
+but the [OTHER1] centric model is right now just trained on subtitles and nother anything else.
+(PERSON14) Ok, so because it will likes the <unintelligible/> data,
+it is if does-
+(PERSON8) Yes,
+so maybe I would wait until I can,
+at least at least some data from other domain,
+because when will translate <unintelligible/>.
+You can really see that the- like it is subtitle each-
+(PERSON14) <unintelligible/> need will be a problem for our domain of spoken language translation that much
+So, in the training will take some time that would be again at least a week,
+I guess,
+right?
+(PERSON8) No, I think it will be like tomorrow, ehm.
+<laugh/>
+(PERSON14) The TPUs are this fast, right?
+(PERSON8) Yeah, well, basically basically the problem is the delete to to give them that you see in a specific format, 
+and half a day
+but then the training dates like one day, maybe so.
+(PERSON14) Ehm,
+Yeah, please email [PERSON12] today,
+and if it's not responding,
+then maybe still use your existing models,
+so the quee tested 
+and we translate the monolingual data that are <unintelligible/>
+and will see.
+I think is alwayas good to have the some bad baseline, 
+because then you have the the provement 
+and that makes you happy.
+<laugh/>
+So, let's let's,
+if there is any delay with getting more data from [PERSON12],
+let's use your model that will be test of it anyway, 
+on the cluster to translate the large data by [PERSON5], 
+and then to retrain the domain specific-
+on this train domain specific model 
+on this synthetic data by [PERSON5].
+(PERSON8) Ehm.
+(PERSON14) Because the <unintelligible/> like <other_noise/> process like first tv to translate,
+then you read to train of that and only then you can deploy it.
+So there will be another delay.
+So I'm not here ehm next week, 
+the whole of next week.
+Can I nominate someone to to make sure that this meeting happens?
+Yeah, yeah, [PERSON7]?
+<laugh/>
+I'll check the document ehm like don't on the <unintelligible/>
+but I'll check it at the name.
+(PERSON14) Yeah,okay.
+(PERSON7) I don't know anything about of the <unintelligible/>.
+(PERSON14) Yes,this is-
+(PERSON7) I can't <unintelligible/> this.
+(PERSON14) No, well, you don't have to run it.
+You don't-
+You don't provide any any-
+just information that you meet
+and that people like [PERSON8], [PERSON5] cooperate,
+and like there is no on that <unintelligible/>,
+don't worry that's-
+You are not providing content to at me.
+Only your part.
+Okay, so,
+that's it to let's email [PERSON12],
+we don't have anyone, 
+we don't have [PERSON8] 
+and we don't have [PERSON6],
+so we don't have anything-
+[PERSON11] is he would recording
+So I'll I'll double check.
+And maybe we will shif the the time for this.
+<censored/>
+Maybe they are on vacation, 
+<censored/>
+We will see.
+Please make sure that the doodle fall request your general available dates.
+That is important.
+Okay, so I think that's that's <unintelligible/> everything,
+[PERSON8], if you  have any questions or not,
+is that all?
+(PERSON8) Yeah, yeah.
+(PERSON14) Yeah, okay,
+so, thank, thank you a let's let's close the <other_yawn/>
+and I'll just we would like to talk to [PERSON5] to write down,
+what is<other_yawn/>
+Okay, bye.
+Bye everyone.

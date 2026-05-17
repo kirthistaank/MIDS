@@ -1,0 +1,22 @@
+Test session 20200506-1100
+
+- [PERSON14] will join only for a very short time at the beginning
+- Status of plan A [PERSON1]:
+-- [PERSON1] is afraid of the copyright infringement rules, it appears to be volatile, failing to find a way to make sure that we are not going to be blocked.
+-- Let's forget plan A.
+- Status of plan B [PERSON10]:
+-- Inject instructions to subtitles to make every participant start their playback simultaneously.
+-- [PERSON9] to show to [PERSON10] how to inject any text.
+- Plan C [PERSON9]:
+-- stream ourselves with ffmpeg, use the same machine to feed the audio to ebclient
+-- the stream should be viewable from reuglar web browser, vlc, and also the presentation platform (via the regular web page with the stream)
+-- @[PERSON10]/@[PERSON9]: please contact [PERSON2] to help with finding the machine (quest?) which can be configured on the firewall to stream for the public
+- Choosing the video:
+-- [PERSON5] and [PERSON11] should select the video
+-- [PERSON10]
+- Test the pipeline again
+- Test quick restarts, switching setups, induced failures.
+-- Do not test just for the success, but test also for the recovery of problems.
+- Plan next test sessiongit
+- Invite [PERSON13] for one of them
+

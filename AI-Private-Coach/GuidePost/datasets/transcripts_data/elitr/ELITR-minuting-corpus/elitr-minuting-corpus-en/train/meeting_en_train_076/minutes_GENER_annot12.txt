@@ -1,0 +1,159 @@
+[PROJECT2] PRE PROJECT
+
+
+DATE: 5th April 2018
+
+
+PARTICIPANTS: [PERSON20], [PERSON18], [PERSON19], [PERSON2], [PERSON16], [PERSON6], [PERSON13]
+
+
+GOAL: Preparation for [ORGANIZATION14] 
+
+
+ACTION ITEMS:
+
+
+Project name
+* [PROJECT2] sounds better than [PROJECT1]
+
+
+WP1 - data
+* [ORGANIZATION13] or [ORGANIZATION5] may be in charge (still not decided), [ORGANIZATION14] is out
+
+
+task 1.1: Data for Speaker and Accent Adaptation
+* goal is to record and process data from respeakers for non-native ASR
+* [ORGANIZATION12] will be in charge of ASR, have knowhow 
+* [ORGANIZATION13] will record respeakers from [LOCATION1] and purchase material 
+
+
+Speech data person months
+* [PERSON18] invites  [ORGANIZATION12] and [ORGANIZATION5] to estimate numbers of person months
+* Respeaking sessions will be real to maintain authenticity of speech
+* [PERSON18] invites [ORGANIZATION12] to check if recording time is sufficient for ASR
+* there will be several native [OTHER5] sessions, before, during and after the conference
+
+
+task 1.2: Crawling external resources for MT and SLT
+* ASR will rely on available data sets, no new sets will be created
+* [ORGANIZATION12] in charge of polishing existing data sets for MT
+task 1.3: collecting data for minuting
+* [ORGANIZATION13] will gather recordings of online meetings, manually revise transcripts 
+* collect agendas and minutes and make it a data set and post-training sets
+
+
+WP2 - ASR
+task 2.1: robust acoustic modelling
+* goal is to improve robustness, focus on accents
+task 2.3: Lifelong Learning During Deployment
+* [ORGANIZATION12] will gather frequent keywords in [ORGANIZATION6], the system will improve over time
+* goal is to improve ASR to increase performance in all tasks
+* deliverables: [PERSON18] recommends to report monthly
+* [PERSON19] says WP2's timing will be similar to WP3 (will be done over the whole time)
+
+
+WP3 - SLT (leader- [ORGANIZATION5])
+Task 3.1: ASR Transcript Normalization
+* goal is to do ASR output and MT system together
+Task 3.2: Robust Neural Machine Translation with Noisy input
+* goal is to make MT systems more robust towards noisy input to mantain quality
+Task 3.3: End-to-end Speech-to-text Translation
+* needs the most research
+* goal is to avoid having separate ASR and MT systems
+Deliverables: 3 prototypes, cca 1 per year
+* 1st prototype - transcript normalization
+* 2nd prototype - end-to-end speech
+* 3rd prototype - text translation systems
+* needs to be aligned with integration
+
+
+Experimental set of languages
+* focus on business-oriented languages that allow dissemination
+* [ORGANIZATION6] should provide input
+* [PERSON18] suggests [OTHER2] and [OTHER6]
+* [ORGANIZATION6] is on [OTHER5] and [OTHER4], but is open to other languages 
+* User interface can be easily updated with other languages 
+* [PERSON16] suggests [OTHER1] and other frequently used languages
+* [PERSON16] would go for [OTHER8] if possible, but ok with what is for now
+* everyone agrees [OTHER6] should be removed, despite being [ORGANIZATION3] language
+
+
+WP4 - Multi-lingual MT
+Task 4.1: Baseline MT Models
+* planned at very early stage, urgent
+* goal is to be used to test the integration
+* [PERSON18] invites [ORGANIZATION12] and [ORGANIZATION5] to modify wording if needed
+* 1st purpose is for events, 2nd purpose for the after research 
+* [ORGANIZATION3] languages is a must
+Task 4.2: Document level translation
+* addresses both speech and text
+Task 4.3: Multi-target MT
+* translation into all 43 languages needs to be prepared for the conference
+Task 4.4: Multi-source MT
+* goal is to gain in translation quality with more source languages
+Task 4.5: Flexible multilingual MT
+* focused on any subset of the languages at once
+* no deliverables yet, will be baseline MT models and yearly reports
+
+
+WP5 - Automatic Minuting
+Task 5.4: Sequence to structure
+* goal is to reduce transcript to fit the agenda structure
+Task 5.5: Live minutes platform ([ORGANIZATION13] and [ORGANIZATION6])
+* either plug-in for [ORGANIZATION1] Docs or offline baseline mode with summary by email
+* another possibility is an extension of [ORGANIZATION6] platform 
+* [PERSON16] explains it's a difficult task and requires a lot of workforce, would be very basic
+* [PERSON18] suggests to investigate online solutions the 1st year, implement it the 2nd year 
+* extended research will be necessary to find solutions and eventual complications 
+* If [ORGANIZATION6] finds it not feasible, will go for fallback solution such as baseline mode 
+* it's important to decide on the platform to be used for the demonstrator 1st year
+* [ORGANIZATION6] will add content to the task 5.5 on Monday
+
+
+WP6 - Integration of Systems
+Task 6.2: integration with the Unified Communication platform
+* [ORGANIZATION6] will add description to be ready for [ORGANIZATION14]
+Task 6.3: integration of Automatic Minuting
+* 5.5 will become 6.3
+* [ORGANIZATION11] involved in transcript generation
+Task 6.1: integration of ASR, SLT and MT
+* SLT and MT will be done between [ORGANIZATION11] and [ORGANIZATION6] for each, online and live meetings 
+
+
+WP7 - Dissemination
+* [PERSON18] invites [ORGANIZATION6] to populate the tasks with specific activities
+Task 7.1: Workshop on NLP technologies
+* best part to promote benefits of the technologies
+* feedback is crucial to find out what the demand is
+* [ORGANIZATION6] should rather participate in the workshop, should also precise person months
+* annual reports on the dissemination are a must to justify the costs
+
+
+WP8 - Management
+* public project website and updates deliverable will be moved to WP7
+* [ORGANIZATION6] will add corresponding tasks
+
+
+TO-DO LIST
+* everyone will read objectives and mention at least 2 partners
+* methodology needs to be polished
+* [ORGANIZATION12] will review remote conferencing
+* [ORGANIZATION12] or [ORGANIZATION5] will review missing SoA in ASR 
+* [ORGANIZATION13] will finish SoA in MT, [ORGANIZATION5] will review it
+* [ORGANIZATION13] will review SoA on SLT
+* [ORGANIZATION12] will review SoA on Summarization
+* [ORGANIZATION6] will review SoA on minuting tools
+* everyone will review handling humans and expected impacts
+* [ORGANIZATION6] will populate the dissemination WP, should be specific on social media and press activities
+* [PERSON18] invites all to suggest anything reasonable for the [ORGANIZATION2] budget
+
+
+Next call: Next week
+
+
+
+
+
+
+Minutes submitted by: [ANNOTATOR2]
+Zápis odevzdala: [ANNOTATOR2]

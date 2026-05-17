@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "hello-app"
+version = "0.1.0"
+description = ""
+authors = ["You"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+
+# Use PyPI wheels for torch (works on macOS + Linux).
+# The PyTorch CPU index publishes Linux wheels with local `+cpu` versions, which can
+# break installs on macOS when a lockfile selects a `+cpu` build.
+torch = "2.2.0"
+# 3.x required for models saved with 3.0+ (e.g. multi-qa-mpnet-base-dot-v1 on Hugging Face)
+sentence-transformers = "^3.0.0"
+python-dotenv = "^1.0.1"
+pinecone = "^4.0.0"
+langchain-core = "^0.2.0"
+langchain-community = "^0.2.0"
+langchain-pinecone = "^0.1.0"
+langchain-cohere = "^0.1.0"
+transformers = "^4.40.0"
+nltk = "^3.9.0"
+numpy = "^1.26.4"
+fastapi = "^0.131.0"
+uvicorn = "^0.41.0"
+openai = "^2.21.0"
+python-multipart = "^0.0.22"
+neo4j = "^5.28.0"
+sqlalchemy = "^2.0"
+psycopg2-binary = "^2.9.11"
+boto3 = "^1.40.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

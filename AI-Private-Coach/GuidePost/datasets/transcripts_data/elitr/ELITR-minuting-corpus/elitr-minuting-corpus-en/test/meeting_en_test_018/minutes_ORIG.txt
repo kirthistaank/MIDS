@@ -1,0 +1,65 @@
+[PROJECT2] [PROJECT3] 
+Fri 17.5. at 10 AM	
+Minutes 
+Fri 17.5. at 10 AM
+• [ORGANIZATION5]: [URL1]
+o PIN: 1234
+- List of components -- please, everyone, share a current status in one sentence with us
+-- Presentation platform [PERSON12]
+--- Functional Analysis to be checked (20th May10:00)
+-- Integration of [PROJECT4] NMT [PERSON4]
+--- Ready to start coding - will begin next week
+--- Still not sure how best to handle incomplete sentences
+---- 2 Options:
+----- reuse code from [ORGANIZATION6], [PERSON4] to sync with [PERSON3], tell us next week if this works
+----- train MT (finetune sent-level models to gracefully handle badly segmented input)
+------ this will make fallback solution for [PROJECT3], fully following the segmentation from the segm. worker, even if it damages tails of previously translated sentences
+-- Production C client [PERSON6]
+--- There is a new repo for it: [URL]
+--- Minor cosmetic changes, going to propagate it to cruise control repo
+-- En+De ASR [PERSON9]
+--- LM adaptation
+---- at what level should we provide text data? For individual presentations, for the day, for the whole two-day workshop
+---- [PERSON3] to investigate what will be supported at [PROJECT3]. Please tell us next week.
+-- Cs ASR [PERSON11] + kaldi integration + segmentation worker for Cs
+-- Cruise-control script for daily testing ([PERSON7], [PERSON6])
+--- This should start with checking that individual workers are live and proceed to longer and longer parts of the pipeline, as we have it developed.
+--- Every night, it should test everything and notify all of us about failures.
+-- [PERSON4]'s MT [PERSON4]
+--- Multilingual en -> X system currently training
+--- [ORGANIZATION6]-style training with incomplete sentences?
+--- We need the domain-dependent data for MT finutuning by: Wed Jun 19
+--- Note that ParaCrawl now has a tool to extract domain-specific corpora ([URL]) 
+---- NB - I have never seen this working - it is very new - but an alpha-test could be useful
+-- [PERSON3]'s MT [PERSON3]
+--- de->en
+---- It needs to emit output in a way that works with pivoting, from English further on.
+---- [PERSON3] & [PERSON12] please test with existing [ORGANIZATION6] MT models this pipeline:
+----- German ASR, [ORGANIZATION6] de->en MT, [ORGANIZATION6] en->whatever MT, presentation platform
+------ [PERSON3] confirms: This works (except the non-existing [ORGANIZATION2] presentation platform)
+-- [PERSON6]'s MT [PERSON6]
+--- Started finetuning for en->cs subsentence-level MT (from start of document, windows of size 3-50, cuts on word alignments)
+--- I want to train on real ASR+segmentation outputs from TED corpus on source
+---- For this, we need to run [ORGANIZATION6] ASR on the TED talks, record the logs (incl. timestamps), fiddle with the alignment and segmentation, making our parallel data for traning of MT similar to the (mis-)segmentation that we get from the ASR segm worker.
+--- New idea: big paralel text only corpus -> src TTS -> ASR -> train on this as a source, against the original tgt
+---- Let's postpone this after [PROJECT3]
+--- Waiting for integration of [PROJECT4] to mediator
+-- Python binding [PERSON3] (not a priority for now)
+- Anyone coming to [LOCATION1] in person?
+-- While we should be in principle able to handle it ourselves (relying on your remote support, of course), we again think that it would be extremely useful for you to see the whole thing in practice.
+- Presentation platform:
+-- Status of development?
+-- When will there be any prototype to test?
+-- Find a slot for technical discussion on the presentation platform:
+--- Attendees needed: [PERSON7], [PERSON12], [PERSON6]; someone else?
+--- Topic to be discussed at this sub-call: 
+---- Streaming of slides
+----- [PERSON7]'s first experiments for screen streaming locally within a single machine show a lag of *at least 4 seconds*, and 10 seconds in the default setting.
+----- HTML stream viewers may be even harder to tune for low latency; we need to start soon.
+-- 
+- Any option to avoid broken workers while starting client? E.g. by Session ID?
+-- [PERSON12]: not possible at the moment, will check to see if banning is possible.
+-- [PERSON7] says: another option would be to *force* the platform to use a particular worker for a session, use a quick test session at the side of e.g. [ORGANIZATION6], for each of their workers, and if they do not pass the test, [ORGANIZATION6] could kill them.
+--- Equally not possible, requesting specific workers is not possible
+
+

@@ -1,0 +1,152 @@
+[PROJECT6] Remote Meetings
+This document serves as minutes for our conference calls on [PROJECT6] continuous progress.
+
+Agenda for call in April 16th, at 3 PM CEST
+● Start recording
+
+● Doodle for call date: [URL2] 
+○ Preferred (due to Linux users) Pexip: [URL3]
+■ PIN: [PASSWORD]
+■ [ORGANIZATION3] seeing slides, but no audio (useless, I hope recording works so I can isten later)
+○ GoToMeeting: [URL5]
+■ runnin
+
+● Deliverables submitted
+○ 4 in total: Ethics 1, Public website, Internal website, Ethics 2
+● Publicity achieved
+○ Everyone please enter such activities into the [ORGANIZATION5] sheet:
+■ “Dissemination & Communication Activities” (the forth sheet)
+■ [URL4]
+○ Fair
+■ Attended
+■ The little news/blog
+■ Video in preparation
+○ SCIC conference Brussels
+■ [URL]
+■ [PERSON14] briefly presenting [PROJECT6], see day 2 at approx minute 20
+■ Supposedly, it was tweeted on this event: #SCIC23 (a missed opportunity to retweet, @[ORGANIZATION9]: Should we still do it now?)
+○ [ORGANIZATION4] workshop on multilingual neural MT in Luxembourg (CLEF-SMRTA, organized by Holger Schwenk; June 20): [PERSON4] and [PERSON10] are going; [PERSON7] (as a substitute for [PERSON14]) is going
+● Papers submitted
+○ [ORGANIZATION10]: 2x [PROJECT3] (minuting micro-review, Antrecorp - test speech corpus from fair)
+○ Something by [ORGANIZATION2]?
+● Milestones
+○ Delayed milestone on recording in [ORGANIZATION9] platform
+■ What is the status now? Done?
+● Done, preview available ([URL] -> Speech recognition will be output to the chat inside [ORGANIZATION9] app). Currently only 2 speakers supported (because only 2 ASR workers are available)
+○ [ORGANIZATION2]: More workers can be made available on demand
+● Not reliable at the moment, because workers are not reliably picking up the audio streams.
+○ Reasons unclear, [ORGANIZATION9] person now on vacation.
+● [ORGANIZATION1] needs to look into this
+○ seems like the worker is not processing the traffic it is receiving
+● Upcoming deliverables and milestones
+○ How to send them to us guide - “Deliverables Timeline” (second sheet):
+■ [URL1]
+○ Deliverables - [ORGANIZATION4] deadline 30th June 2019: 
+■ D1.1 Initial Training Data, Separating Confidential and Public Version ([ORGANIZATION8])
+● This one or the DMP below should mention WMT [PROJECT6] testsuites and Antrecorp.
+■ D8.1 Periodic Activity and Financial Reports ([ORGANIZATION10] but input from all is needed)
+● See also Administrative topics at the end of this document.
+■ D8.3 Data Management Plan (DMP): Initial, Updates ([ORGANIZATION10] but input from most needed)
+■ D9.3 GEN - Requirement No. 4 ([ORGANIZATION10])
+● A separate deliverable should be created to deal -- in a single document -- with all ethics issues identified before and during the project. This document should be delivered in M6. It should also be updated before the end of the project -- to provide guidelines for future users of action results.
+■ → Please fill in the last column who wants to review which deliverable (same [ORGANIZATION5] sheet as above, first sheet “Deliverables”)
+● → also, one column before, fill in the WP leader
+○ Milestones - [ORGANIZATION4] deadline 30th June 2019: 
+■ First Spoken Language Translation Prototype ([ORGANIZATION8])
+● [PERSON14] can ask today at our Faculty of arts if any simultaneous interpreting data could be obtained (without transcripts), another such option is SCIC conference recordings
+○ Key question: do we want interpreted data (as the test set) or not? Dubbed movies could be better in some aspects.
+■ Baseline MT Models for [ORGANIZATION7] Congress ([ORGANIZATION10])
+● This will require the data that [ORGANIZATION8] has collected for D1.1 Initial Training Data
+● [ORGANIZATION10] started initial multi-target trainings, [PERSON15] will work on the many systems now after WMT
+
+● General:
+○ We can now create private repos even within the [PROJECT6] organization on Github
+■ Let [PERSON14] know if you want one.
+● Preparations for [PROJECT4]
+○ Status update
+○ TODO of larger things (that need to be worked on now)
+■ Testing mediator - up and running
+■ 
+■ Automated daily testing of everything
+● [ORGANIZATION10] will put this together, but everyone implementing any worker needs to provide a sample test case to the testing repo 
+■ Presentation platform by [ORGANIZATION1] (incl. slides streaming)
+● [PERSON14] waiting for [ORGANIZATION1]'s specification to review
+● [PERSON14] will try to implement slides grabbing and streaming
+● [ORGANIZATION1]'s presentation platform needs to allow:
+○ selection of subtitles
+○ ?live monitoring/indication which subtitles are actually available? (users do not want to walk over 3 languages from 43; or perhaps pre-selection?)
+○ smooth integration of selected subtitles stream and streamed slides
+
+● Progress in WPs (~5 min per WP) → I've just guessed who could talk, if somebody else would be better - please, change it :) & please fill in few points about your progress
+○ WP1 - [ORGANIZATION8] ([PERSON10])
+■ T1.1 Curation of Speech Training Data
+●  50 hours of prepared Czech broadcast data so far (out of 525 total)
+●  Trained preliminary [PROJECT2] system and working on connecting to [ORGANIZATION1]
+■ T1.2 Data for Speaker and Accent Adaptation
+● Test corpus derived from student trade fair recordings + transcripts
+● Paper under submission
+■ T1.3 Data Collection for MT and SLT
+●   [ORGANIZATION3] domain test suite for WMT19
+●   Monolingual corpus of crawled [ORGANIZATION7] data
+●   OPUS data for MT
+■ T1.4: Collecting Data for Minuting
+●   22 hours of audio from [PROJECT6] meetings, with minutes
+●   Review paper under submission
+○ WP2 - [ORGANIZATION2] [PERSON17]
+■ Investigating the construction of multi-domain ASRs and evaluating the domain robustness of the multi-domain ASRs
+● Very interesting! [PERSON14] asks: any paper or report coming out of this?
+○ WP3 - [ORGANIZATION8] ([PERSON4])
+■ T 3.1 Transcript Normalization
+● Baseline SLT pipeline with transcript normalization (segmentation) is set up ([ORGANIZATION2]) <unintelligible/>
+■ T 3.2 Robust NMT with noisy input
+● [ORGANIZATION8] has paper submission on domain robustness of MT; techniques may be applicable to noisy inputs due to ASR; to be tested.
+● [ORGANIZATION10] put together pipeline for fair. Noted that integration is critical (all systems will fail), and that sub-segment translation is necessary for user experience.
+■ T 3.3 End-to-end speech-to-text Translation
+● TACL paper on arXiv today ([ORGANIZATION2])
+● [ORGANIZATION8] will have new student working on this in May
+○ WP4 - [ORGANIZATION10] ([PERSON14])
+■ For year 1, 3 tasks are scheduled:
+● T4.1 Baselines  (M1-6; think 6->24 or 43 systems)
+● T4.2 Doc-level MT (M1-36)
+○ [ORGANIZATION10]'s doc level submission by [PERSON15] (and also by [PERSON16])
+● T4.3 Multi-target MT (M1-12; models for producing many langs. in parallel)
+■ [ORGANIZATION2] [PERSON21]
+● Working translation system from en, de to en, de, fr, it, es, pt (not multi-input or multi-output)
+● Multilingual system (using one single model to translate the inputs in different languages into outputs in different languages but not simultaneously - the language of an input and the desired output language must be specified in advance)
+● Working on multi-input system for dialects
+■ [ORGANIZATION8] (from [PERSON10]'s email)
+● English->Arabic, English->Czech, English->German, and English->Russian bilingual and multi-target MT
+■ [ORGANIZATION10]
+● en->cs [PERSON13] WMT submission + document level (max context of 3 sentences, consider the middle one) 
+● A student working on multi-target MT
+○ WP5 - [ORGANIZATION10] [PERSON2] 
+■ Creating the Meeting Corpus
+● 22 hours of meetings with minutes (rather agendas), we need a script to run ASR
+○ Both plain words and punctuation with timestamps, final hypotheses
+○ from [PERSON10]?
+● Annotation of Meeting&Minutes (to decide: if any? manual? on automatic ASR?, NITE XML Toolkit?)
+■ Survey of meetings, minutes and methods for meeting summarization (submitted to [PROJECT3]-2019)
+○ WP6 - [ORGANIZATION1] [PERSON6]
+■ [PERSON14]: repo for daily tests created, so far empty
+● [URL]
+■ [ORGANIZATION1] Platform up and running on [URL], several workers of [ORGANIZATION10] and [ORGANIZATION2] connected
+● [PERSON14] asks: everyone who provided a worker/client etc., please commit first bash scripts to test it, all addresses etc. hardcoded
+■ Working on Presentation Platform. We will provide technical documentation when ready.
+● [PERSON14] asks: could we again set up a (private) repo for this? Others may benefit from seeing how to interact with mediator for this
+○ WP7 - [ORGANIZATION9] ([PERSON5], [PERSON9])
+■ Working Prototype in [PROJECT6] [ORGANIZATION9] room
+■ Needs still improvement  -> More talks in [PROJECT6] Room to train the system
+● [PERSON14] asks: the above is unclear, no training is expected in WP7, is it?
+■ [ORGANIZATION9] sends audiostream to [ORGANIZATION1], they do record the sessions
+● Question to [ORGANIZATION1]: Is this working now?
+■ Please: We need the data protection from all our team members!!!
+■ Usage of [PROJECT6] room should increase :-)
+
+
+● Administrative topics
+○ Timesheets
+○ Spending
+○ Date of pre-review[1][2][3] (review will be remote - we will send the documents to [PERSON12], but we should have an internal pre-review)
+zeptáno
+Podle [PROJECT5] je to asi jen odeslani deliverablu Alexandrovi. Napsat zde anglicky stav.
+pochopila jsem to takhle dobře?

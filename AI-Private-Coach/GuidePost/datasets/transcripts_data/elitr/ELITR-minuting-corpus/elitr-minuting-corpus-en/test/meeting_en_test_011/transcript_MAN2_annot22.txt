@@ -1,0 +1,440 @@
+(PERSON9) <another_language> Ahoj, slyšíš nás?</another_language>
+Hi, can you hear us?
+(PERSON4) <another_language> No skoro vás neslyším.
+(PERSON9) Můžeme přidat ten mikrofon nebo - ?
+Já to mám normálně při ovládání.
+(PERSON6) To jsou Windowsy.</another_language>
+If you if you speak or if you hear us?
+(PERSON4) Yes, I can.
+(PERSON9) <another_language> A myslíš, že [PERSON2] ví, kam má zavolat?</another_language>
+<unintelligible/>
+(PERSON6) There is two of them.
+(PERSON6) We see you twice now, but only one of you is moving.
+(PERSON7) Hi. Can you hear me?
+(PERSON9) Yes, yes.
+(PERSON7) <censored/>
+(PERSON4) The copy of myself not moving.
+(PERSON6) <laugh/>
+I see.
+(PERSON7) Okay, so, yeah, So [PERSON5], [PERSON5] is there as well or not?
+(PERSON5) Yeah, <unintelligible/> the picture.
+(PERSON7) Yeah, hi.
+(PERSON7) Okay so let's start.
+What we have in a document.
+So maybe we can start with [PERSON6] and [PERSON5] and  about their the topics.
+(PERSON5) I've been working it could be done it seems like [PERSON8] came out of paper <unintelligible/>. 
+<laugh/>
+(PERSON7) I'm sorry, I I I can't  understand you much because, yeah, this -
+(PERSON9) Okay, try to closer -
+(PERSON5) And so, what is it I look at the my papers and the -
+(PERSON7) Yeah.
+(PERSON5)  And was the manning paper people transports and you seen to do barely well and -
+(PERSON7) Yeah, you mean to have it and manning, yeah?
+(PERSON5) Yeah, yeah.
+(PERSON7) Yeah.
+I still not hear very good, but, yeah -
+Yeah, it is very, yeah, yeah, this is very nice paper.
+I I I read them, it, and yeah -
+So we would like to do it is similar similar things are.
+So maybe we we agreed that you you will you will do some probing on on transformer networks.
+So that's alright.
+OK so -
+And you you should you can try to probe on [PROJECT5], or [OTHER8] or these of GPT tool, or I do not know -
+It you you have been working with the [OTHER8], yeah?
+(PERSON5) Ehmm.
+(PERSON7) Okay.So, so, okay.
+So the question is on what you would probe.
+Which features.
+And -
+(PERSON5) We use <unintelligible/> one in in the paper.
+We should probably -
+If you really go down and probe you should probably use more than this [ORGANIZATION1].
+I think.
+(PERSON7) Sorry, I cannot hear you.
+(PERSON5) Okay, so, we used the [ORGANIZATION1] in that paper.
+And we did it use anything yet.
+(PERSON7) Yeah, you you you [ORGANIZATION1], yeah, yeah and -
+Okay, but, that you can use the [ORGANIZATION1] and you can use SL the the word the read the context word and manning.
+I mean the individual positions.
+(PERSON5) Yeah.
+(PERSON7) As well.
+(PERSON5) Yeah, and another <unintelligible/> we did, we we was barely admitted what we did but but in a paper.
+So we could differently do more stuff, we could do the tactogrammar, the [OTHER10], <unintelligible/> you, as you said.
+Another one was especially would you like [OTHER10], can doing like rows and stuff.
+There was, this paper called, I give it <unintelligible/> to [OTHER3] open sense to me, yellow paper.
+What they do attention and and compution scores would interesting in the sense that in their <unintelligible/> 60 internet use emm try to use sentences and test on harder, weirder like constructions to see introduction like emm for like still means that would <unintelligible/> some basic characteristic.
+And, I think we used to be interesting and with if <unintelligible/> would be attention is in product placed -
+(PERSON7) Sorry, I, now I haven't understand you at all.
+(PERSON5) Okay.
+(PERSON7) Maybe.
+Yeah.
+You can, can you hear me?
+You can hear me, yeah?
+(PERSON5) <unintelligible/> I can hear you.
+(PERSON7) Okay, so that problem is that -
+(PERSON5) Okay, okay, I speak <unintelligible/> bit louder.
+So what the paper does is that they have distinct where they take attention between subject and verb, subjects and verbs and subjects and verb in in sentences.
+And they check how much it makes a difference if there is some simply intervening and now I'm fraze.
+(PERSON7) Hmm.
+(PERSON5) And it seems like the the attention actually still manages to find still manages to find the proper subjects for the nouns particular the <unintelligible/> about higher layers.
+Now it through doing [OTHER10]s but kind of stuff might also be <unintelligible/> because they use like it's a confusion score the PSI too.
+(PERSON7) Yeah, yeah.
+(PERSON5) With a proper.
+(PERSON7) Yeah, yeah, it would be possible, yeah.
+So.
+Okay so, okay so, you you can start with I don't know, if you can start with [PROJECT5].
+(PERSON5) Ehmm.
+(PERSON7) And and maybe, yeah, you you can focus on [OTHER10] or or I dunno.
+How we are matter with PDT with the tactogrammatical?
+You haven't attended a course in here.
+(PERSON5) No, I mean like automatic dependencies and the stuff I don't know of the freement.
+(PERSON7) Yeah, because yeah, because we have ee we have the tactogrammatical treebanks annotated on [OTHER9] and [OTHER7] as well.
+So maybe you can try [OTHER9] [OTHER9], is [OTHER4] is [OTHER4] and there are the manner annotation, and these annotations are -
+You can, for example, you can try to probe for the for the for means, which are really like more semantic dependence relations like ac- for example actor.
+Which is real actor and this was not as subject what is real actor that mean that in passive sentences it's it's the object.
+The actor and other of but the actor, patient  and these like or higher semantic labels.
+(PERSON9) Do you speak  what news <unintelligible/> functors?
+(PERSON7) Sorry, I can't understand, I I don't understand you.
+(PERSON9) For means do you mean functors?
+(PERSON7) Yeah, I mean functors not for means.
+Yeah, okay.
+So maybe you can you can start with with that.
+So try to use [PROJECT5] and use for example, single perceptor on to to -
+Actually, what have you used in the paper with we need?
+I mean, on top of the on top of the transformer you used a perceptor or  -
+(PERSON5) Is it a one one layer one layer what we need, it's basicly like more than one <unintelligible/> .
+(PERSON7) Okay, so you can start with something like this.
+I I think and you can you can see what what result it it you you have.
+(PERSON5) I mean <unintelligible/> like prepare to better practise just do that.
+(PERSON7) Yeah.
+(PERSON5) And what was this collaboration that you guys were talking about with the people in [LOCATION3]?
+(PERSON7) Yeah, we saw we haven't we have connected, we want to we want to have a skype call that we need.
+And maybe it's you, because you you collaborate we need.
+Because we want to come to [LOCATION1] for I don't two weeks and collaborate on something with us.
+So it will be managed to to you to know what we need will do here and so that you can contribute or I don't know.
+But we haven't so far we haven't organized this call so we've do first create organized call here with the leader here of this group.
+And then -
+Okay, I will let you know and then we will see.
+(PERSON5) Alright.
+(PERSON7) Okay, so maybe we can shift to to proceed to [PERSON6].
+(PERSON1) [PERSON1]. 
+Okay.
+What I did eh was looking in to a transformer attention matrices because previously and computive for for ee sentence from your call.
+(PERSON9) <unintelligible/> for use for black box.
+(PERSON7) Yeah.
+(PERSON1) Yeah and I checked there is a measure, which measure is out the attention matrice is a line with particulations and actually I got this from from other paper.
+And and it's ee chunked down from much attention eh is focused of the first of words data in ee syntactic laytion.
+And We've to look what are the patterns of the eeh what difference actually our results from though measure <unintelligible/> for [PERSON10] proposed one from different photo eh like one observation was that for the, let's say easier <unintelligible/> find the determiners or multifiers.
+The lower layer zero lenght layer was quite good and for for one subject -
+(PERSON7) On the on the zero on the first layer the there are the attention looks on the previous on the next token so that's that's the determiners on the other.
+(PERSON1) There are some variances in that.
+But then it was quite good but say like the subject finding sub- object there's few one like one head that was specialized eeh looking for that particulation, let's say.
+Eeh it's most in fact <unintelligible/> ultimate layer like there's like it's layer.
+Ehm and it's also one head that's very very surprised look that penny sour for relations done for determiner is the multifiers it's subjects or objects and looks in the last layer.
+Then look up what is the layers how was attention matrices is that looks like for for other sentences.
+I think in mostly, yeah, it's said like for the first layer is like many just low close positional in some cases which some variations like <unintelligible/> very focused <unintelligible/> in the principe like bounce.
+(PERSON7) So I have better send the last the last last couple of the seconds. Sorry
+(PERSON1) So I thought those attention has the particular different parts for syntactic corelations.
+And for those the determiners modifiers those heads look like justs looking up the neighborhood but context the words just shift that one of it's one to way to find determiners and something <unintelligible/> some clients is in that eeh variations that's look plus one, minus one, just with any fix pattern.
+And the the higher layer  for components depend subjects was what was it was balustrade layer which have this rows was looking in to different eh eh chunks.
+Eeh, and, eeh.
+What's this items and like I think it's I think it's the the relations eeh let's say that can be drive from attention matrice some of correlate with syntactic tree.
+But it's shouldn't be any head look an cannot find, by any specific corelation, what we are looking, so it's it's says like -
+(PERSON7) You are training about its raise or the dependency trees or - ?
+(PERSON1) Dependency trees, yeah.
+(PERSON7) Yeah.
+(PERSON1) It's constructure which some heads correlates that some heads has connection that's correlate with relation in different laytions in syntactic tree but it also had like this different types relations adverb.
+And she has the -
+(PERSON7) Have have you visualised, sorry, have you visualise which which phrases or which which balustrades are are there because it seems that there are almost all possible and these if you take the shorter phrases or shorter balustrades there are also almost all all possible balustrades somewhere, or at least according my observations.
+So I don't know how you -
+(PERSON1) You mean like the shorter phrases can be in like balustrades but like different balustrades in different heads?
+(PERSON7) Yeah.
+(PERSON1) Okay.
+Actually I only focuse on those heads that's for instance was quite good at finding subjects  eem the verb.
+There is one higher balustrades there.
+Eeh, but actually it was only heads balustrades difference than have mix from cognition and balustrades.
+So, so, I only look at this balustrades heads.
+(PERSON7) Yeah.
+(PERSON9) It seems that the different heads do different stuff.
+What what we need in our paper because we just use all of the heads.
+But -
+Yeah, it seems they do different stuffs so it makes sense to try to seek which head those what try to hide them supportly, I guess.
+(PERSON7) Experiments are done on our on our parametres on our training.
+So it is on [ORGANIZATION3] translation, yeah.
+Okay.
+I should say one thing we tried to have have the similar results here in a use not nevermind then use [PROJECT2] system and try to generate somethink like balustrades and we have many problems many problems with generating something similar, like similar to balustrades.
+Then we realise that we have to switch to eeh some it was it eeh was the option.
+So, so, I I I want to say that it's not easy to eeh that there maybe different different settings and little bit difference settings of transformer that generates completely different results.
+Very <unintelligible/> from the balustrades the matrices, the attention mattrices are very blurt and there were no balustrades straight and we have to it was like, the option.  
+It was like normalization token, we even know what [PERSON2] mean in transformer.
+I don't know where you [PERSON4].
+Are you there, [PERSON4]?
+(PERSON9) I think he got away.
+(PERSON7) Aha, he went away.
+Okay.
+So we don't know.
+So, yeah.
+We start good quite long to to generate something like balustrade.
+So I only want to say that there are many, many things that made many, many parametres that may chains and the chains and there is completely different, completely different attention it's an attention ways so, so, yeah.
+But if I we we get it and we have balustrades as well.
+That's why we <unintelligible/>.
+The other papers don't don't report that there are some like balustrades maybe they have different different parametres a little bit, yeah.
+Maybe completely different that.
+Yeah, yeah.
+(PERSON1) Something becomes look at all all heads, they just pick from patterns, they they if I plan the person the head.
+But I think <unintelligible/>common factor in <unintelligible/> paper some heads are a bit specialized in finding one high correlations <unintelligible/>.
+Because one head stamps finds the subject for verb.
+(PERSON7) Yeah.
+(PERSON1) It's gonna work <unintelligible/> for free paper.
+(PERSON7) Okay.
+And what's your what's your plan?
+So, how long how long are you in [LOCATION2]?
+You are until December?
+(PERSON1) Until half of December. 
+The 15th December.
+(PERSON7) Okay, so, we can meet each other personally because I will I will be taken in the beginning in December.
+Okay.
+(PERSON1) Yeah.
+(PERSON7) Okay, what what what what are your plans?
+Would you like to switch to another?
+Another network like [PROJECT5], or or would you - ?
+(PERSON1) Actually, I wanted to try ehm extract the graph structures compare how how was like similar syntactic trees or or different types of trees we can extract from syntax.
+One aproach I think it can be checked for conclusions use the structure eeh with a with a graph conclusion layers.
+The syntax relations can improve eehm, eeh, machine translations for instance.
+(PERSON7) You mean, you mean, you mean to take the gold gold trees?
+(PERSON9) There is, yeah, there is the papers where they took syntactic trees so from from syntactic parser and use that to form the the input of machine translation systems so you would just use and put using graph conclusion.
+And they reported some improvements over using charts RNM which <unintelligible/>.
+So the idea was that we could try to replicate this and to compare it with <unintelligible/> the extract from the attentions.
+(PERSON7) Yeah, okay, and we should also, [PERSON5], [PERSON5] send me the paper where they they they had two two heads which are trained differently.
+With the objective function to to to be as similar as possible to the to the dependency trees if I if I redisconnect it.
+[PERSON5], is that right?
+So they they have two two synt- two heads or eeh that were trained to to be similar to a that attentions in these heads, attention to the syntactic <unintelligible/>, syntactic precedence or syntactic -.
+And by this training they also, they also report better better results improvement in they in they target these two heads like gold syntax.
+And they, yeah, they train it together so they don't need they don't need the syntax annotation when translating so it's it's learnt.
+Because it's an objective function.
+That it's part of they added to the objective function.
+They added that two heads must be similar to the gold trees.
+So the trees are needed only in training and in in the  there.
+And it is also very interesting.
+So you can you can try to read it and yeah -
+It's simmilar - 
+Okay, so  -
+I don't know what, do you have any other ideas, so?
+(PERSON5) I will I will send you the links to the tactogrammatic when you can when you can download the treebank and the other link you need and other other anything you need to start experimenting, and, yeah.
+(PERSON9) So so the paper working about <unintelligible/>.
+(PERSON6) Or, I can add you to our doctor Who and share
+(PERSON7) Sorry, what did what did you said, [PERSON6]?
+(PERSON6) That I can add [PERSON5] to our [OTHER2] group.
+(PERSON7) Yeah, yeah, yeah, exactly, exactly, definitely, add him, and yeah.
+Okay.
+So, if you have anything else, yeah, we can quit this call and and see you in next 14 days and I will be in contact with [PERSON5], too.
+Is there anything.
+Okay.
+(PERSON9) Officialy have a master thesis already or research for master thesis.
+(PERSON5) I mean I would like to master thesis.
+(PERSON7) Yeah, of course, this is, this will be your master thesis topic, of course, of course, 
+So, yeah.
+(PERSON5) Okay.
+Okay, so, see you in 14 days.
+Yeah.
+(PERSON6) Okay.
+(PERSON7) See you.
+() <laugh/>
+<parallel_talk/> I wanted to ask [PERSON4] about [PROJECT5] secure.
+(PERSON9) Did he contact you or he didn't contact you or we don't know?
+(PERSON6) No.
+<laugh/>
+(PERSON9) Okay, so, 
+So, actually, I think, yeah, we we -
+Okay, so, so what what you that there are you working on, [PERSON5], cause it seems you two are basicly working on similar stuff  -
+(PERSON5) Yeah, it seems like that.
+<laugh/>
+(PERSON9) We should we should at least know what each other is doing.
+(PERSON5) So, I mean, I'll try the experiment tactogrammer and [OTHER10]s and -
+(PERSON9) And so you were reworking on the manual hewit paper?
+(PERSON5) No, I this <unintelligible/> but experiment.
+(PERSON9) Uhm uhm.
+(PERSON5) And right prophans cause I think this gonna be trying to get more reliable.
+(PERSON9) Uhm uhm uhm.
+So get the semantic score.
+(PERSON5) Yeah, actually.
+(PERSON9) Not chicks.
+<laugh/>
+Uhm uhm uhm.
+And so with the money paper you guess that that best trained or -
+(PERSON5) And be sure main paper soon better so it s all better then see it.
+I just want dimension.
+(PERSON9) Cause cause I know you read the paper as well I don't think need to talk about this one.
+Yeah.
+Is this final review. <laugh/>
+(PERSON6) You basic write your e-mail.
+(PERSON9) There is one <unintelligible/> more creation.
+(PERSON1) And this is more <unintelligible/> to to uhm uhm.
+Uhm, yeah, I know.
+(PERSON5) Okay, there.
+<parallel_talk/> Ah, okay. 
+<unintelligible/> keybord.
+(PERSON6) What's happening?
+Let's try this.
+Okay.
+So we will get invitation e-mail to join. 
+<parallel_talk/>
+(PERSON9) So here we excellnet.
+And to analyse you to have your own call there's a poor based.
+(PERSON5) Yeah, we have to <unintelligible/>.
+(PERSON9) Uhm uhm.
+(PERSON5) <unintelligible/> experiment on project, because people who don't have acces to the <unintelligible/>.
+(PERSON9) Yeah, they don't have word.
+(PERSON5) Yeah.
+(PERSON9) I asked them like mostly common base <unintelligible/> are we don t <unintelligible/> here. <laugh/>
+(PERSON5) <unintelligible/> put [PERSON3] in seminar.
+(PERSON9) Oh, this, uhm uhm, yeah. laugh
+(PERSON5) <unintelligible/> between <unintelligible/>
+(PERSON9) Yeah. <laugh/>
+(PERSON6) Just know we still recording.
+(PERSON9) Oh, yeah, <laugh/> that's fun.
+(PERSON6) And still the waiting if [PERSON4] reappears.
+(PERSON9) It's a - <laugh/>
+Yeah, that the what happen there, maybe it's a connection problem. <laugh/>
+<unintelligible/> contact us in argue. <laugh/>
+<censored/>
+Yeah, I don't actually know where it comes from.
+That it was it <unintelligible/> from <unintelligible/> disables strange monkey anything what were used.
+(PERSON6) Like the -
+(PERSON9) Transformer.
+(PERSON6) Yeah, that's trained in neuromantee, trained by [PERSON4]. <laugh/>
+(PERSON9) There is this this thing, okay, so now we're analysing is one of those retrained and test iniciate may be -
+(PERSON5) It's model.
+(PERSON9) It's a -
+It's a evaluate makes more sense to to analyse [PROJECT5] or maybe, I don't know.
+(PERSON5) When attention bit more seem like nowhere compare and we have multilingual [PROJECT5] than based multiligual [PROJECT5] and [PROJECT4].  
+[PROJECT4] wolud better answer in syntactic questions <unintelligible/> and recognize more than I have.
+(PERSON9) Okay. Uhm.
+(PERSON5) But  there was <unintelligible/> the paper it would become diversial one in [PROJECT4].
+But that seem to like in multilingual context into record most detected function.
+(PERSON9) Uhm uhm.
+(PERSON1) And as we tried to to mapping simple?
+(PERSON5) It was this -
+It actually <unintelligible/> [PROJECT4] kind a <unintelligible/>
+(PERSON1) Okay, okay.
+(PERSON9) Uhm uhm.
+<unintelligible/>
+<laugh/>
+And it's anybody published anything like that <unintelligible/>more syntactic I get in <unintelligible/>.
+(PERSON5) I don't know.
+(PERSON9) I guess our our assumption is that we have probably the attentions are what task.
+<laugh/>
+Yeah, is it interesting that.
+Something that we do understand <unintelligible/>.
+(PERSON5) <unintelligible/> discusion bit, okay is [PROJECT5] using my <unintelligible/> today.
+Yeah, we should looking at probably something more abstract the attention then the abstract.
+(PERSON9) Uhm uhm uhm.
+Anything so using my <unintelligible/> machine translation so use okay.
+(PERSON6) And this was [PROJECT5] stuff.
+(PERSON9) Yeah, yeah.
+Is the question and the answer.
+So, so, you and I and someone else can be language model so [PROJECT5] language model or you can be a model payed person possibly task and then he could think okay, so, for doing machine translation it be into syntax or maybe it's useless the syntax.
+I don't know what we should expect.
+Transformer trained for machine translation would be more syntactic and [PROJECT5] less syntactic.
+Well, we can -
+But models get different result but it's hard to say okay.
+<laugh/>
+It didn't maybe prove because it's different. <laugh/>
+I don't know if it make sense to try to compare it.
+Right, yeah, what I thinking it's okay, should be really continue analysing the transformers that we have or should we <unintelligible/> someone <unintelligible/>.
+(PERSON1) It's also so interpel <unintelligible/> between different model, <unintelligible/> shall pad  that's completely different model.
+Uhm uhm.
+(PERSON5) The yellow paper was like the some reason the small [PROJECT5] model mention predict somenthing.
+<unintelligible/> passwords.
+The lower <unintelligible/>.
+(PERSON9) Uhm uhm uhm.
+(PERSON5) I don't know what exact from small [PROJECT5] model.
+<unintelligible/> base base the model and large one.
+Large one didn't but it's just layer just and predict <unintelligible/> in tact.
+And then the small and then the base one <unintelligible/>.
+Which is the <unintelligible/>.
+(PERSON1) What I look in to small, right, what we have, or I have the player capture most any syntax crash.
+Two heads let's say be chunked.
+And that's like <unintelligible/>.
+(PERSON9) And so so do you know the the large [PROJECT5] if it's just large data or it's <unintelligible/> model?
+(PERSON5) Even model.
+(PERSON9) Yeah, so model layer do we have.
+Uhm uhm.
+Yeah, we tried this with the transformers we think <unintelligible/> models and <unintelligible/>.
+<laugh/>
+As are assumption okay, something like syntax <unintelligible/> we have it's layers it's to have layers model analyse small layers so easier to find <unintelligible/> that <unintelligible/>.
+If it's too small than there is nothing interesting going on. <laugh/>
+Okay. 
+I think make something who <unintelligible/> model. 
+(PERSON5) <unintelligible/> very find <unintelligible/> is expecting just <unintelligible/> research.
+(PERSON9) That's all, the training model it's just most train some <unintelligible/> and the stuff like that.
+Okay, what's analyse and completely different models and <unintelligible/> stuff and then looking something <unintelligible/> crash. <laugh/>
+These always maybe could differently.
+<laugh/>
+Hm uhm.
+Okay.
+And and so <unintelligible/> here anything alphe or - ?
+(PERSON5) Yeah, we use some models in metro.
+(PERSON9) Uhm, uhm.
+I don't know is PCP use to.
+(PERSON5) It seems to be <unintelligible/> working on picture form.
+(PERSON9) Aha aha. <laugh/>
+(PERSON5) The excel knows as best document <unintelligible/> basicly there <unintelligible/>.
+(PERSON9) Yeah.
+Do you want something guys?
+There's nothing going on there.
+(PERSON5) Event to my <unintelligible/> or <unintelligible/>.
+(PERSON9) I don't know.
+I added I uderstand now that [PERSON2] book invite her.
+Okay.
+(PERSON9) So, I don't know I don't know these comming in December while I'm staying where is <unintelligible/>.
+(PERSON5) I don't know.
+(PERSON9) But he said he will be in the beginning December, so -
+You you you know -
+(PERSON6) I think he was planning to come back like before I will supposed to I was supposed to be 8th of December.
+And I think that he was planning to stay here after that but then <unintelligible/> deserving <unintelligible/> like maybe going back for another 2 weeks after New year's.
+(PERSON9) Okay, so.
+The <unintelligible/> make sense try to set up some more frequent <unintelligible/> with [PERSON2] like like model one on one <unintelligible/>.
+(PERSON5) Okay, yeah.
+And analyse that.
+(PERSON9) And analyse that, yeah.
+In some e-mail <unintelligible/>. <laugh/>
+Definitely [PERSON2] seems to know what you might better <unintelligible/>.
+It s person that it's right.
+And he deserving in beginning December basicly as well.
+Nearly.
+That's end.
+<laugh/>
+(PERSON1) Is this your master thesis?
+You're ready?
+(PERSON5) Well, I mean, I analyse to some many <unintelligible/>.
+(PERSON9) And there is possible thesis <unintelligible/> May again.
+(PERSON5) Yeah.
+(PERSON9) It is a <unintelligible/> already.
+<laugh/>
+(PERSON5) Okay.
+(PERSON9) I can always submit it lenght tomorrow.
+Yeah, there is not not -
+Okay.
+I don't know the <unintelligible/> deadline is delay just possible date so the video <unintelligible/>.
+<laugh/>
+Like anytime you have it ready <unintelligible/>.
+(PERSON6) Well, you should have it, you know.
+(PERSON9) Oh, yeah, yeah, yeah.
+It seem to officially I have to [PERSON2] adds in in in <unintelligible/>.
+Actually I think there is no like little bit like -
+We can [PERSON2] send today and then tomorrow as well <unintelligible/>.
+It's not recommended way, but - <laugh/>
+There should be like at least one month.
+(PERSON6)  Because the dean has to.
+(PERSON9) Okay.
+So let me <unintelligible/> the person <unintelligible/> inside.
+(PERSON6) We will supply it.
+(PERSON5) I should have some experiments <unintelligible/>.
+(PERSON9) It make sense that you know better.
+Okay, yeah.
+Yeah, I guess, that's for the meeting.
+We together can then continue. <laugh/>
+I don't know if [PERSON6] need to discuss something?
+(PERSON6) Hmm, no.
+(PERSON9) Rewriting this paper with [PERSON4].

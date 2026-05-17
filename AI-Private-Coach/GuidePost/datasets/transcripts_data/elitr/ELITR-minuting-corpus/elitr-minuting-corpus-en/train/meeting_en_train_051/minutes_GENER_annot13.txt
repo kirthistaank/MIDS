@@ -1,0 +1,25 @@
+MEETING MINUTES
+Organisation: [ORGANIZATION1], Faculty of Mathematics and Physics,[ORGANIZATION2]
+Meeting Name: Surge
+Meeting Date: 09.06.2020
+Meeting Topic:  Demo presentation
+Meeting Participants: [PERSON1], [PERSON6], [PERSON7], [PERSON5]
+Meeting head speaker/moderator: [PERSON1]
+Purpose of the meeting: Assess the progress on Project deliverables and readiness for the Project Demo Presentation.
+Main points on the agenda:
+Manual Evaluation of IW SLT Primary Submissions - Microsoft has offered to perform manual evaluation of primary submissions in IW SLT and potentially of the human outputs as well. This is in addition to the automatic evaluation which is part of the paper. The Intermediate ASR is not part of the evaluation and therefore segmentation is important.
+Continuous Speak Diarisation –  to be made into tool that is to be used for minuting. Currently it enables to recognise male and female speakers and is able to split them, functionality also allows to show annotation of the sound. However, further adaptation is required as the system is currently working offline only. 
+Project Demo Presentation –
+•	New date is currently being selected (likely in 1-2 weeks time) as external partners have been currently unable to run all required systems. 
+•	Evaluation to be performed for the English into Czech and German translation (via SacreBLEU). 
+•	The correspondence between the quality and the word error rate score to be shown as well as the general and talk level adapted performance where applicable.
+•	Talkaniser to be edited as a pre-processing for the amber segmenter.
+•	To prepare screen recorded streaming of the presentation inclusive sound to allow synchronisation.
+•	Life transcription is not part of the presentation.
+•	The right file recordings and presentation tools are to be selected.  Windows based system  has been recommended. Preparation commenced with SlidesLive.
+Deadlines in place:
+•	16 June 2020  for the recordings and demo presentation preparation
+Administrative point made:
+•	Surge team has been restructured as the main task was preparation for a congress that has been now cancelled. The streamlined team is in place now. Additional potential members are being interviewed.
+•	Bonuses for the works performed on the Surge will be distributed in the June pay.
+Minutes submitted by:[ANNOTATOR2]

@@ -1,0 +1,23 @@
+[PROJECT2] [ORGANIZATION1] internal meeting
+9. 11. 2020:
+Attendance:
+[PERSON3], [PERSON2], [PERSON7], [PERSON5], [PERSON8], [PERSON6]
+
+- Attendance:
+-- [PERSON3], [PERSON2], [PERSON6], [PERSON8], [PERSON7], [PERSON5]
+-  [PROJECT1]:
+--  [ORGANIZATION2] delivered nice number of stimuli (2694)
+--  We are evaluating the stimuli
+--  Email sent to co authors
+-  [PROJECT3]:
+--  Running additional fine-tuning experiments (starting at the same step number)
+--  Repeating for other language pairs
+-  [PROJECT4]:
+--  ([PERSON8]) creating lemmatized constraints
+--  ([PERSON2]) should manually compare the outputs of surface form vs lemmatized constraints
+--  ([PERSON7]) negative constraints for paraphrase generation
+--  ([PERSON7]) improving system output
+-  Implementation:
+--  (finished) negative constraints in [PROJECT5]
+--- both linear and trie implementations
+

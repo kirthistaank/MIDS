@@ -1,0 +1,59 @@
+Meeting [PROJECT2] internal
+Date: 14. 09. 2020
+Attendees: [PERSON3], [PERSON6], [PERSON7, [PERSON8], [PERSON11]
+Purpose of meeting: Discussing [PROJECT3], [PROJECT5], [PROJECT6]
+
+-Added information
+--[ORGANIZATION7] hasn't provided any data yet.
+--[ORGANIZATION6] deadline has been moved to 7th of October.
+--One of the colleagues has an overview of the important conference dates.
+--[ORGANIZATION7]<unintelligible/> seems to be having a problem with finding volunteers.
+--It's needed to count with the possibility of [ORGANIZATION7] not delivering any useful data.
+--People who don't know any Czech or Estonian are needed, native English speaker would be perfect.
+
+-Data set with multi-reference
+--There are Czech reference translations to 50 source English sentences.
+--There are about quarter milion reference translations per one sentence.
+--Created semi-automatically.
+--Dozen thousand references per one sentence is common.
+
+-[PROJECT6] from Czech to English evaluations
+--System outputs manually post-edited and a secondary annotator confirmed, if the translation is good.
+--About 600 unique source sentences.
+--Up to 16 reference translations.
+
+-Possible weekly meetings, daily reports
+--The daily reports should be more beneficial for socializing with the rest of the team.
+
+-Experiment with [ORGANIZATION2]
+--There was a meeting on Friday.
+--The available budget is lower than expected.
+--They will come up with a number of translators doing the post-editing.
+--They will come up with the price.
+--This will give an estimate on the total number of sentences.
+
+-E-mail to make a proposal on how to divide the documents
+--Some e-mails were already sent, but there were mostly no replies.
+--The next step is to inform them, that the project is proceeding.
+--The number of people is also needed in order to come up with the number of possible segments.
+--Once the number of people is settled, it is possible to propose the set of documents.
+
+-E-mail a formal complaint
+--The person in charge of this issue is leaving the project.
+--It is important to find out who is taking over to solve the problem.
+--Ask the person to forward the e-mails and get the needed speakers.
+--Thus they don't need to do the evaluation, only provide the users for the test.
+--This way the task is easier to accomplish even with people leaving.
+
+-[PROJECT5] right now
+--The back translation is running now.
+--It's slowed down a bit because of experiments on GPUs.
+--If the tempo is the same, all the data should be translated in two or three days.
+
+-Participation in system demonstration in [ORGANIZATION6]
+--Doing a demo submission of [PROJECT3] and [PROJECT4] would be a good idea.
+--The deadline is unknown.
+--Could be a shorter version of the paper for [PROJECT1].
+--The demonstration should focus more on the framework rather than experiment results.
+
+Minutes submitted by: [ANNOTATOR2]

@@ -1,0 +1,61 @@
+[PROJECT2] Surge 2020 Organization
+Thru, Jan 30, 2020
+(time?), in front of 423
+
+Attendees: [PERSON14], [PERSON8], [PERSON16], [PERSON2], [PERSON3], [PERSON17]
+The purpose: To sum everything that everybody worked on and to enter it in the [ORGANIZATION2] sheet.
+
+The domain adaptation is essential for following sessions
+● A dry-run workshop on 12th of February
+● Monday seminar on [PROJECT2] on 17th of February
+● Student Firm Fair on 18-20th of March
+● Non-native English speakers and the noisy environment - a proper preparation is required
+● Profanity filtering is necessary for this
+
+The concept of profanity filtering
+● Filter for out-of-topic words and also for bad words
+● Possibility to train systems on higher frequency words - a creation of the corpus and limitation to these words required
+● To choose the best option of these three: the evaluation of preservation of quality and avoidance of bad words
+○ The sentences with infrequent words could be dropped
+○ Replacement of rare words with forgetting placeholder and to use the rest of the sentence
+○ To use filtering on monolingual setting only and to use back-translation 
+
+[PERSON16]:
+● 1970-2019 PDF files from the [OTHER3][ORGANIZATION1]
+● The data needs to be clean from duplicate sentences and other useless values
+
+[PERSON3]
+● Compression - adding the command to decompress audio
+● Working on multi-source model- how to put [PROJECT1]
+
+[PERSON17]
+● The evaluation framework is finished
+● It is needed to test it
+● Time and word-based segmentation 
+[PERSON7]
+● The adaptation of [LOCATION1] ASR for [PERSON4]'s talks - domain adaptation of language model, the acoustic fine-tuning
+● Good results were achieved - a lot of domain-specific words were recognized
+● Currently, work on the new [LOCATION1] ASR version - it will be trained on more data
+
+[PERSON2]
+● Asking about compression - [PERSON2]'s ASR is also able to work with compression
+● The sound segmentation
+● Some words were cut at window boundaries
+● The actual implementation works for windows from 4 to 8 seconds - searching for the most probable pause between words and cut the window between it
+● Waiting for [PERSON13] to test this new segmenter.
+● Segmentation has to respect speaker boundaries - two-more speakers cause overleaping the sentences in the window
+● The training of the transformer converting the phonemes into graphemes 
+● Bad results obtained - it was trained on corpora for casual speech
+
+[ANNOTATOR2][PERSON8]
+● Work on paraphrasing - it is done, and it is working properly
+● Waiting for a virtual machine for the paraphrasing server
+● A plan to start doing a visualization of the sound input
+
+Fast-Speech paper on ASR from [ORGANIZATION3]
+● 300 times faster for ASR - the delay could be eliminated
+● To check if the code is available and to integrate it
+
+Minutes submitted by [ANNOTATOR2]
+
+

@@ -1,0 +1,28 @@
+Present:
+[PERSON2], [PERSON8], [PERSON13], [PERSON10], [PERSON5]
+Mentioned:
+1)	kick-off meeting (15th january)
+2)	should they meet in person with the [ORGANIZATION15] – the date this meeting will be around kick-off meeting 15th January
+3)	performance of who is [ORGANIZATION15], their projects, potencial, business partner…
+4)	 [ORGANIZATION3] is okay with person meeting with [ORGANIZATION15]
+5)	Web – what type font they should use; [PERSON10] still haven't received the logos from [ORGANIZATION13] and [ORGANIZATION12] and the link for their website
+6)	E-mail address for the public is existing
+7)	[PROJECT1] logo – if anybody will have no comments, they will start using this logo
+8)	building dissemination kit
+9)	Grant agreements signing
+•	[ORGANIZATION12] still haven't sign it ([PERSON2] promised to sign it afternoon)
+10)	Consortium agrément – should have it within December
+11)	 Bilateral agrément
+12)	[ORGANIZATION3] will have royalty-free access to the results of project, [ORGANIZATION3] will be the test partner
+13)	Project Ethics Committee – think about people for this
+14)	access rights for affiliated entities
+15)	Everybody propose changes to document and let know quickly
+16)	Pre-Dry Run for their technology at the Students Firms Fair
+17)	[PERSON13] need to build an ASR model for [OTHER1]
+18)	workshop at the end of June in [LOCATION2] – they want to translate it into many languages- will be discuss how
+19)	[ORGANIZATION7] Congress - end of May and early June in 2020
+20)	 an [PROJECT1] booth somewhere on the congress
+21)	[ORGANIZATION15] wants to try the Congress
+22)	Everybody let [PERSON13] know if there anything that don't like about the current Consortium agrément
+
+Minutes submitted by [ANNOTATOR1]

@@ -1,0 +1,63 @@
+[PROJECT2] internal 
+Date: 17. 8. 2020
+Attendees: [PERSON13], [PERSON17], [PERSON8], [PERSON4]
+
+
+Purpose of meeting: Summarization of the current status of the experiment, how to improve it and get ready for the [ORGANIZATION5].
+
+
+-current status of experiment:
+-- It didn't meet the [PROJECT3] deadline due to unsatisfactory results.
+-- It should be ready for the [ORGANIZATION5]
+-- Nothing interesting was found so far.
+-- Data augmentation numbers were even better after the deadline. 
+-- There was nothing relevant to submit.
+-- [PROJECT4] ignores the non-original sources, relies on just one, it should rely on 2- 3 sources.
+-- If one replaces ParaBank with an empty file, it remains the same.
+-- If one replaces the originals with empty, the output is Empty.
+
+
+-how to improve training for [ORGANIZATION5]
+-- Data augmentation: create paraphrases using constraints instead of back-translated data, then finetune on original data.
+--- The more distant the paraphrases will be from the source the better.
+-- [PROJECT4] needs to learn to use all of the sources.
+-- Try to delete the original and train only one ParaBank.
+-- Think about positioning, which encoder will be empty or source.
+-- Disable the other source to keep it positional to train it to primarily rely on the first source
+-- Try damaging one of the channels or both to train it to recover.
+-- Create p.e. common typos on purpose, get them from the author of corrector.
+-- Noisify the data.
+-- [PERSON13] and [PERSON8] will cooperate, they will meet on Wednesday to discuss details.
+-- IP issues may emerge, technical issues will be discussed via Slack and Zoom to speed up communication.
+
+
+[PROJECT1] current status:
+-- Final preparations are done. 
+-- The experiment was sent to [ORGANIZATION1] to test.
+-- Waiting for feedback from [ORGANIZATION1].
+-- [PROJECT9] systems will be explored and can be turned off and replaced by [PROJECT8]. throughout the experiment.
+-- Experiment statistics should be ready by the end of August.
+
+
+[PROJECT8] for GPU
+-- The compilation ran into issues while specifying CUDA libraries, [PROJECT8] subdirectories appeared in the [PROJECT7] directory (CPU version was running ok though).
+-- It won't find the correct path to the encoder.
+
+
+-how to solve it
+-- Chronos may be the problem, it's outdated and slow to train, use DLL or TDLL instead.
+-- Try to run it on TDLL, in [PROJECT7] project directory there is already [PROJECT8] compiled against the TDLL 5 so it should compart correctly.
+-- Train on a large model on GPU to find out how to set up environment variables and report eventual issues.
+-- Hyperparameters provided by [ORGANIZATION1] should be suitable.
+-- It is desirable to interconnect project partners working on similar tasks for mutual help, to discuss encountered issues.
+
+
+-[PROJECT6]
+-- Next week participants should have read documents to learn about the state of the art (at least [ORGANIZATION6]).
+-- Waiting for news from [ORGANIZATION1] on constrained decoding in [PROJECT8] and how to improve it.
+-- It will be better to work with [PROJECT8] to [ORGANIZATION6] ([ORGANIZATION6] is too slow to train).
+-- It is preferable to work on constrained decoding techniques as they are now.
+-- The point is to get interesting results, constrained decoding is not necessary.
+
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,31 @@
+[PROJECT3] 31.8. 2020
+Attendees: [PERSON11], [PERSON10], [PERSON14]
+Purpose of meeting: Prapairing for the demo, choosing the right people and language combination
+Summary
+• [PERSON10] sent email to [PERSON8]
+• [PERSON11] checked [PROJECT1] emails
+• Discussed about the atendees during the demo
+• Discussed input language
+• Discussed language translation combinaton
+• [PERSON10] offeres help with finding Romanian speaker
+• Discussed person involved in the testing
+• Discussed about date of the demo
+• Discussed about a [ORGANIZATION10] ASR
+• Discussed about risk of Italian source
+• Discussed a Session closing day date
+
+
+
+
+
+
+
+		Milestones
+		• [PERSON13] will be person from [ORGANIZATION12]
+		• [PERSON13] will be person from [ORGANIZATION6]
+		• German will be OK as input language
+		• [PERSON11] does not have acces to Romanian speaker
+		• [PERSON11] will fill the Doodle
+
+
+Minutes submitted by: [ANNOTATOR5]

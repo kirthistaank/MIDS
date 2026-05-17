@@ -1,0 +1,10 @@
+[PROJECT2] meeting 27.02.2020
+Attendees: [PERSON4], [PERSON9], [PERSON8], [PERSON3]
+Purpose of meeting: Things worked on, new models
+
+Summary
+• better domain adaptation
+• new model trained for Czech
+• planning new Czech segmenter
+• discussion about toolkit for language modeling
+• working on pipeline with sentence embedding

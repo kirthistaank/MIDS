@@ -1,0 +1,681 @@
+(PERSON13) Hi.
+Hello [PERSON6].
+Hello [PERSON19].
+Thanks for, uhm.
+(PERSON6) Hi everyone.
+(PERSON19) Hi.
+(PERSON13) Yeah, great.
+Thanks for joining and, uh, yeah okay.
+So, yeah.
+Uh, I I see that people have written up ehm what they did.
+(PERSON19) Hi [PERSON13], I can hear you.
+(PERSON13) Yep, that's great.
+Uh, and also you were evaluating-.
+Yes, so that's that's re re record.
+What you did.
+So what I have, uh, on my mind now is uh, uh, well, uh, preparations.
+So, uh, [PERSON13], uh I am busy, uh, with the IW SLT, uh, write-up.
+Uh, that was the, uh, the wra last part that I did.
+Now busy with interviewing people people to uh to replace those who are em moving forward <laugh/> so to say.
+So there is number of colleagues on projects that I am supervising, uh, that who are going for studies abroad and other things.
+Uh, so, uh, what I think we should focus on is the demo for Project Officer.
+Then we need to focus on the ladder climbing, uh, which is building uh, uh, [PROJECT3] test set plus, uh, regularly, uh, testing on it.
+Ehm, and, ehm what else, uh, the deliverables.
+Yeah.
+[PROJECT3] deliverables.
+So, I'll try to provide the links-.
+Or those who of you, who are already working on the deliverables, please mention that.
+And yeah.
+Let's let's go quickly over what what have done.
+So [PERSON6] you are the first on the list.
+Ehm, ehm, so please briefly update what what you have been working on.
+And what what is the plan for the next week.
+(PERSON6) <other_noise/>
+So, luckily. 
+<laugh/>
+Not luckily but this week I had like quite less tasks to do.
+So first I calculated the word error rate on Czech transcripts using that three versions of, uh, Czech ASR which [PERSON10] created.
+And so yesterday [PERSON10] told me that they were, uh, and the golden transcript and its corresponding video there were there were huge huge mismatch.
+And I <unintelligible/> and he said to update me.
+And then we conducted a few testing sessions with [PERSON11] and [PERSON18].
+And they were not quite successful because the segmenters from, uh, uh, [ORGANIZATION1] they were still down and [PERSON12] today he is he is working on them.
+(PERSON13) Mhm.
+(PERSON6) And lastly yeah I think I did-.
+Uh, it was the input in the [PROJECT3] deliverable of for the punctuator and through caser.
+<unintelligible/>
+(PERSON13) Mhm, yeah.
+(PERSON6) And I don't have-.
+I think that apart from the testing sessions to do this week so I am waiting for new tasks.
+(PERSON13) Yeah, so.
+So the word error rate, there is also the English, uh, transcripts?
+Ehm, and also we should have from [PERSON9] the German one, right?
+So.
+(PERSON6) Yeah, yeah, yeah.
+(PERSON13) So, so I will make it to do-.
+(PERSON6) So I have updated the German transcripts in its corresponding path and like do we have the golden transcripts for the English videos?
+(PERSON13) Yes, that's the other part.
+Because this is the consecutively translated videos.
+So there is always the English speaker and then the Czech speaker who repeats the same content.
+And [PERSON7] has split the video and while the English part should be more reliable, uh, the Czech part has been done simply by using the other ends.
+So the Czech video has been cut using the English time stamps.
+Like the end of English and the beginning of the next English segment.
+Uh, so it's like like interleave the the the other way round.
+So that's why I'm not surprised that the Czech video is, uh, imprecise in timing.
+But still, I was not expecting it to be that bad.
+So, uh, that is something that, yeah.
+[PERSON10], can you maybe tell us more details about that?
+(PERSON10) Yeah, yeah.
+Well, I just like listened to the audio and followed the talk transcript <other_noise/>
+and it was completely off.
+I think it is-.
+There must be some miss-match because-.
+(PERSON13) Mhm.
+(PERSON10) Yeah, yeah. 
+The transcription is for the completely different audio than it's in the subdirectory.
+(PERSON6) Mhm.
+(PERSON13) Oh, so then someone must have like messed it up.
+(PERSON10) Yeah, yeah, I I may maybe it's just like uh.
+Maybe the files are just switched between the subdirectories?
+(PERSON13) Mhm.
+(PERSON10) I I haven't checked but-.
+Uh, yeah, there is some some serious mismatch there.
+(PERSON13) Yeah, so [PERSON10] can you coul could you do this check?
+It should not be hard
+Like try listening to all the files that are within this demo for [PERSON15], uh, and try to locate the correct file, the appropriate files.
+But we should have, we should have the transcripts ready for all of those.
+So we should be able to, uh, to evaluate it.
+And also for the English ones we have the translations.
+So for the English ones [PERSON6], uh, I would like you to evaluate not only the word error rate of the ASR.
+But also the machine translation quality or at the SLT even.
+Uh, with the translation quality into German and Czech.
+Both are available.
+(PERSON6) Okay.
+(PERSON13) We have these files ready.
+(PERSON6) And so these, for like a German audio and English [PROJECT1].
+(PERSON13) English, uh, input for English sound.
+We have the golden English transcript, so you can check the ASR.
+And we also have the translation into Czech and into German.
+So you can also evaluate directly the translation quality, uh, of that.
+(PERSON6) Okay, yeah.
+(PERSON13) Yeah, so this is, this is an important, uh, task, uh, to do, uh wr also for German and English audios.
+And another to do, uh, bleu or SLTF, uh, for, uh, German and Czech translations of, uh, English.
+(PERSON6) ASR.
+(PERSON13) Audio input. 
+Yeah.
+(PERSON6) Yeah.
+(PERSON13) Uh, okay.
+And with the, with this testing sessions uhm uh, so when will we have some successful or like reliable, uh, testing sessions?
+Did [PERSON11] say or [PERSON12] say anything about the the new date?
+(PERSON6) So, like yesterday there was a holiday in Germany.
+(PERSON13) Mhm.
+(PERSON6) So, like they didn't work at all.
+And today [PERSON12] was working in the morning and I don't have any updates from [PERSON12] what
+the status of-.
+From them.
+But yeah, to today [PERSON12] was doing the fixings of the segmenter.
+(PERSON13) Yeah.
+Yeah, please also check the timing.
+Like, when they would be available.
+Uh, when do [ORGANIZATION1] plus [ORGANIZATION6] expect, uh, uhm, uh, reliable run.
+<laugh/>
+Including the segmenter.
+Yeah.
+So then, uh, yeah the-.
+You had provided some input in the delive [PROJECT3] deliverable, right?
+So I need to review that.
+Yeah, that's good.
+(PERSON6) Yeah, yeah.
+Okay.
+(PERSON13) And I had another idea and that was, yeah.
+Uh, so that's, uh, um my question like backing up of our systems into net data [PROJECT3] systems.
+Have you done anything about that?
+So that we have a full back-up of all the systems?
+(PERSON6) Me?
+(PERSON13) Yeah, including you.
+(PERSON6) Yes, I I I have already did everything.
+(PERSON13) Yeah, okay.
+(PERSON6) That.
+I have also did today some systems.
+That have been created.
+And I also did last week.
+Yeah.
+(PERSON13) Yeah, okay.
+That's uh that's good.
+Uh, so another thing is finding another partner, uh, who would ehm ehm run the replicates the replicas of our systems.
+So imagine that it's us who are without connectivity.
+So we need to have someone to to replace us as, uh,-.
+Like we are now able to run systems from [ORGANIZATION1], someone-.
+We need to pick someone, uh, who will be happy to run systems for ourselves.
+So, uh, [PERSON13] suggest [ORGANIZATION2] to run our [PROJECT1] models but, uh, uh, but please check with [PERSON8] later on and, ehm-.
+So [PERSON13] suggests [ORGANIZATION2] to run uh our uh our [PROJECT1] models, [ORGANIZATION1] to run our [PROJECT2] models, probably.
+And uh uh who well uh ehm and someone to run our segmenters, yeah.
+So, so we need to pick someone.
+So, so if you could-.
+When you are in touch with these, uh, please talk to them and, uh, let me know.
+Because on Thursday we have [PROJECT3] call and for that call I would actually like to know if we have a substitute site for each of our systems.
+So, uh, so uh to od check with others, uh, uh tell me before uh tomm Thursday call so I know if we have a substitute for each of our systems.
+(PERSON6) Okay.
+(PERSON13) Yeah. 
+Okay, thank you.
+Yeah, thank you.
+So there is lot of work to do on the evaluation.
+(PERSON6) Yeah.
+(PERSON13) And the I would like really very soon to see some numbers that we trust.
+So obviously there is this problem with the Czech.
+And now hopefully there will not be other problems with with the other thing, uh, other things.
+And this-.
+Yeah.
+(PERSON6) What I believe with the Czech transcripts was that is that [PERSON7] probably might have, uhm.
+We need to ask him the audio which he used to transcribe the the videos.
+(PERSON13) Mhm.
+(PERSON6) I mean, he must have received some audio by which, after which he he has written those transcripts manually.
+(PERSON13) Yeah.
+(PERSON6) And, and maybe that's not the real audio which he has repla he has placed in the directory.
+(PERSON13) Yes, so that the the.
+This is for someone who can understand Czech obviously to, uh, to find out.
+But the the audio input, uh, that the transcript corresponds to, that is the audio which has been released as the IWSLT test set.
+So anyone can, uh, can easily check the IWSLT test set.
+(PERSON6) Mhm. Yeah. Yeah. Yeah.
+(PERSON13) Yeah. Okay
+So thanks, thanks for this.
+Now for [PERSON19].
+You have been working hard <laugh/> like very hard on the evaluation of the [PROJECT1] and ASR submissions for the IWSLT last week.
+Uh, and these days, uh, what you are working on [PERSON19]?
+If you can still hear us.
+Uh.
+(PERSON19) Uh yes, I can hear you.
+Hello.
+Uh.
+[PERSON13].
+(PERSON13) I can hear you.
+(PERSON19) Can you hear me?
+(PERSON13) Yes.
+(PERSON19) This week I have been working on IWSLT submissions files again.
+(PERSON13) Mhm.
+(PERSON19) But there is a problem about calculating the bleu score.
+(PERSON13) Mhm.
+(PERSON19) As I've sent you in the email.
+I think we need a good tokeniser.
+We have two ways.
+We can <unintelligible/> ready to use tokeniser us as <unintelligible/> and so on.
+(PERSON13) Mhm.
+(PERSON19) And another problem <unintelligible/> calculating the bleu score.
+I have used the NLTK model for calculating the scores.
+(PERSON13) so we have discussed this.
+So we have discussed the NLTK versus SacreBLEU with [PERSON2].
+And we do not trust the NLTK bleu score at all.
+Because it is probably not tokenising and also accidentally it is-.
+It drops to 0.
+So it is-.
+It can be both, inflated and and too small.
+So we don't trust NLTK bleu scores at all.
+We trust only Sacre-BLEU.
+And I think they're like-.
+Please write.
+Oh you have-.
+Or you have sent me an email on this?
+I will double check.
+Uh,
+Well, SLTF thank you for the organisation.
+See you later.
+SLT system mapping.
+So I don't see any email there-.
+<unintelligible/>
+No.
+Hmm.
+(PERSON19) If you want, I can resend it again.
+(PERSON13) Space tokeniser.
+<unintelligible/>
+Yes, so es essentially to answer your question in the email. 
+We have to switch to and we have for  the IWSLT.
+We have to switch to SacreBLEU and SacreBLEU does its own tokenisation before scoring.
+So there is no-.
+Let's let's simply forget NLTK bleu score.
+That is not reliable.
+(PERSON18) Yes, but-.
+(PERSON19) Yes, but we can combine our tokeniser with NLTK.
+(PERSON13) Uf.
+Let's not do that.
+Let's just forget it.
+Let's let's just use SacreBLEU.
+(PERSON19) Okay.
+(PERSON18) I I have one comment about it.
+(PERSON13) Mhm. 
+Yeah.
+(PERSON18) You sh should use tokeniser before enverse segmenter.
+(PERSON13) Yes, that's it.
+Yeah.
+(PERSON18) Because it's much better.
+Because it can rely on the on the dots and commas and question marks and so on.
+And you can you can check my script which does tokeniser, enverse segmenter and then de-tokeniser.
+And here is the path in the document.
+And-.
+(PERSON13) Yeah.
+(PERSON18) And it's it's using the Moses seg tokeniser and detokeniser.
+And it needs the the language tag as the first argument and then reference.
+(PERSON13) Yeah.
+So [PERSON19], do you do you fo-?
+Do you understand?
+(PERSON19) Yeah.
+(PERSON13) So the problem is that enverse segmenter is not reliable if you run it on non-tokenised text.
+It is much better to tokenise it before enverse segmenter and then maybe undo the tokenisation again.
+And this is, uh, what [PERSON18]'s script does.
+So I would like you incorporate this logic into SLTF.
+So that the SLTF will run the tokenisation, then enverse segmenter, then again re reconstruct the original tokenisation.
+Which is not the same thing as removing tokenisation.
+I really would like to reconstruct the original one.
+And then, uh, uh calculate, uh, the SacreBLEU score.
+Which includes its own tokenisation.
+(PERSON18) Yeah.
+(PERSON19) Yes, I understand.
+(PERSON13) Okay, so-.
+(PERSON18) By by the way.
+The enverse segmenter is still quite bad tool.
+Sometimes it fails without without reason on some scripts.
+And we found out with [PERSON17], that if we run it without tokenisation then it works.
+But with tokenisation it fo it like folds.
+(PERSON13) Oh.
+(PERSON18) Yeah, so it is better reliable with tokenisation but it's not 100 percent.
+(PERSON13) Mhm.
+(PERSON18) Robust.
+And we can't do anything with that.
+Except of, uh, re-implementing enverse segmenter.
+(PERSON13) Yeah..
+(PERSON18) From scratch.
+(PERSON13) Which.
+Which we don't have the source code of.
+It's a-.
+I think it's a-.
+When it comes from [ORGANIZATION8], it usually comes without a source code.
+So.
+(PERSON18) Yeah.
+Yes, but there is a paper at least.
+So.
+(PERSON13) Yep.
+Yeah, yeah, yeah.
+<laugh/>
+(PERSON18) It's written.
+(PERSON13) Yeah, yeah okay.
+So, well.
+Incorporate logic into SLTF, uh, to run enverse segmenter, uh, better, uh, include, uh, very paranoic tests, uh, of or paranoid paranoid parano hm I don't know the right spelling.
+Parano I think paranoid is the right-.
+Uh, test of uh, amber segmenter output.
+Uh, yeah, okay.
+So that's-.
+I think that's a a like an important exercise for task for you [PERSON19].
+Uh, and uh.
+(PERSON19) But [PERSON13] you need to, uh, you need to implement <unintelligible/> that <unintelligible/> or that this tokeniser in the first level of our work.
+Because we use, uh, the, uh, can't use uh this this <unintelligible/> enverser, we need it run all section of SLT view.
+(PERSON13) I don't understand.
+Partly, partly because the network is is bad.
+Uh, so maybe if you can write it down to the [ORGANIZATION4] document.
+And I'll, I'll get back to it.
+<unintelligible/>
+If I understood correctly, you're you are saying that, uh, there there is some like organisation issue with amber segmenter.
+The sequence of of operations.
+Yeah.
+Cannot see tokenising in all-.
+Oh, you don't have to use.
+No no no uh.
+No.
+This is, this is only your, uh, your thinking.
+There is no, uh, uh, it's like it's your design within SLTF that you proceed with an error rate of words.
+But you don't have to.
+There is-.
+It's it's just like your design decision of SLTF.
+And it's a risky decision, because the tokeniations vary.
+So, uh, um, I think it's better to operate on the level of sentences and tokenise them for a purpose.
+Such as, uh, LS, uh, run SL-.
+Such as running amber segmenter.
+But then, you should again untokenise.
+So, uh, think again.
+Like do high level thinking about SLTF.
+And I would like you to avoid, uh, this forceful tokenisation when we are not quite sure about it.
+So tokenisation is a peculiar thing.
+It it affects many many things.
+And you should always do it for a particular purpose and then revert back to the original tokenisation as as much as possible.
+(PERSON19) Yeah.
+So.
+(PERSON13) Oh.
+I see myself editing this.
+How is that possible.
+<laugh/>
+Who is using my log-in?
+<laugh/>
+<unintelligible/>
+<laugh/>
+That's probably [PERSON6], yeah.
+<laugh/>
+(PERSON6) I see in the [PROJECT3] laptop it's-.
+You have been logged-in.
+<unintelligible/>
+<laugh/>
+(PERSON13) Yeah, yeah, yeah.
+<laugh/>
+(PERSON6) I don't know.
+Yeah.
+<laugh/>
+(PERSON13) Yeah.
+Okay.
+(PERSON6) I have logged-in now.
+(PERSON13) Yeah.
+So let's.
+Thank you [PERSON19].
+So please, uh, uh, uh.
+Yes, that was [PERSON19]'s question.
+Actually [PERSON19] please write down the new assignment.
+How the tokenisation should be handled.
+And write it down so that you know for the record.
+Write down what I've just described so I know that that you understood as well.
+Yeah.
+Okay.
+And while you are writing let's move to [PERSON17].
+I don't see [PERSON17] in the call.
+So he is busy with preparation for exam.
+Reading or shortening.
+Yes, his um, um.
+Yeah, yeah.
+So,uh, [PERSON17] uh, [PERSON17]'s goal now is to train [PROJECT1] systems so that they reduce the length of the output.
+And this is like-.
+He is only reading papers now.
+But he'll he'll start experimenting soon.
+And [PERSON18] is suggesting something great.
+Okay, that's good.
+Uh.
+So [PERSON19], I don't see you writing.
+Please write down, uh, what write down the the new ideal handling of tokenisation in SLTF.
+(PERSON19) Yeah.
+(PERSON13) Yeah.
+(PERSON19) I will.
+(PERSON13) Okay
+And we can move to [PERSON18].
+Uh, so you have read some ACL papers, wrote, uh, parts of the SLT deliverable.
+That's good.
+Uh, just a quick check with [PERSON10].
+[PERSON10] you have also written the the deliverable parts, right?
+The ASR?
+(PERSON10) Yeah, yeah, I I wrote into the ASR deliverables.
+(PERSON13) Yes, so I need to review these and the internal deadline is in 6 days from now.
+Uh, so, hopefully I will get back to all of you.
+To each of you independently towards the end of the week if there is anything unclear.
+So that we meet the internal deadline on the 8th.
+Yeah, okay.
+Great.
+Uh.
+So [PERSON18], what what is your progress?
+(PERSON18) Hmhm.
+Yes, and by reading the papers I found an interesting tool.
+(PERSON13) Mhm.
+(PERSON18) I found out that it's possible to measure out the speech rate by cutting the syllables.
+And there is one tool.
+One patent tool, which can detect the gender of speaker and the speech rate.
+(PERSON13) Mhm.
+(PERSON18) And some other characteristics.
+So we can try it and make a dashboard out of it.
+(PERSON13) Mhm.
+That's that's useful thing.
+Uh, and later on we could even create models like-.
+If we if we recognise that someone is speaking too fast, we could use like a harsher summarisation.
+(PERSON18) Yes.
+(PERSON13) So we could be reducing reducing their speech mole with a different model.
+(PERSON18) Yes, and there was also speech modes.
+Like whether it was angry or normal and so on.
+(PERSON13) Mhm.
+(PERSON18) But I have no idea how the tool works in practice.
+I I I I saw it only in Gi GitHub and I buy it.
+(PERSON13) Yeah, uh.
+(PERSON6) Actually I'd like to say here.
+So this is about a I think um emotion detection used in speech.
+So this is basically my bachelor's thesis.
+(PERSON13) Okay.
+<laugh/>
+(PERSON18) Yeah.
+(PERSON6) And and I worked on this.
+And I noticed <unintelligible/>
+And I just used MatLab.
+(PERSON13) Yeah.
+So [PERSON18], please mention the the name of the tool here.
+Because I don't see that yet.
+(PERSON18) Okay.
+(PERSON13) Yeah.
+And-.
+And [PERSON6], since you have the expertise in this, please check the tool.
+So before-.
+(PERSON6) Yeah, yeah.
+(PERSON13) Be before you leave.
+Like I d-.
+I'm afraid that-.
+Maybe over the summer, over the summer you could like, uh, um, integrate this tool into into our processes.
+But even if you don't manage this in time, it would be good to have to have an idea whether it's worth trying that.
+(PERSON6) Yeah, yeah, definitely, yeah.
+(PERSON13) Uh and then, and then to do for [PERSON6].
+Uh, to do for [PERSON6], uh, [PERSON6] to review it, uh, and, uh, possibly integrate it over the summer.
+But obviously more important is to have the clean um the clean cruise control, or, the set-up the set-up script over the summer.
+Yeah.
+(PERSON18) Yes.
+And I I think that the Czech segmenter.
+So [PERSON6] can you mute?
+(PERSON13) Yeah.
+(PERSON18) So so it uses the right context for previous sentences.
+And I did I did back end text.
+New entry point from the back end ASR which does basically the same but for text.
+And now it now the segmenter can receive 1 message and emit 2 messages.
+And and I connected it with on-line text flow and it works.
+And I had a call with [PERSON5].
+He explained me some things so I can easier fix some bugs, which we found.
+(PERSON13) Mhm.
+Okay.
+(PERSON18) And we have to do the video for IWSLT by June the 17th.
+(PERSON13) Yeah, which is quite soon as well.
+(PERSON6) Yeah so I'm really afraid to manage.
+Or if anyone is willing to, uh, come in.
+And demo the system.
+Uh, I'll I'll start the pipeline everything and if anyone is available to, uh, demo the  system, then-.
+(PERSON13) You mean for the video?
+(PERSON6) Yeah, yeah, yeah for the video.
+I mean.
+(PERSON13) That could be, that could be interesting, yes.
+I think that's a-.
+(PERSON6) I'm talking about the system.
+(PERSON13) Yeah.
+That's actually a good idea.
+So when-.
+I don't know for how long the presentation should be.
+So [PERSON18], please like propose timing for for this.
+I don't know whether we do like regular, uh, uh, se regular slides with a with voice commentary?
+Uh, but, uh we could also indeed concatenate it with the demo session, uh, of of the whole system.
+And I think it would be pretty good to illustrate it how it runs live.
+(PERSON18) It should be 15 minutes presentation.
+(PERSON13) Mhm.
+So if we en editioned.
+If if within these 15 minutes, we have 2 minute of the 3 minute video from, uh, the Czech into English and other languages I think that would be very good.
+So it's-.
+That's a different.
+Uh, um, actually so hm hmhhm.
+I think. 
+Yeah, we should we should actually demo the, uh, the task that was in IWSLT.So some of the Antrecorp horrible performing video, uh, like horrible performing speech.
+And also uh um the document that [PERSON6] is now measuring the word error rate and SLTF on.
+That's exactly the test file.
+So that's the preparation for the demo session.
+Uh, is-.
+Could could be then recorded as well and used as a part of this IWSLT presentation.
+So I would go for like 2 minutes, uh, or 3 minutes from the 15 minute, uh, uh, talk.
+And 1 minute of, uh, one of the Antrecorp videos.
+Like the horrible hard hard input and some reasonable input.
+Uh, that works reasonably well.
+So this is.
+That's that's a great idea.
+And [PERSON6] for you it's it's nothing different from preparing the videos for the demo.
+The only different thing is that you would also run it on the on the Antrecorp, uh, uh, speech.
+(PERSON6) Yeah, yeah.
+(PERSON13) So maybe [PERSON18], you have the scores for all the files, right?
+So pick some file of Antrecorp, uh, which, uh, like, uh, works probably well.
+The the best of Antrecorp.
+But it's pretty bad.
+All of all of them are pretty bad I believe.
+(PERSON18) No, I don't have the document scores.
+I have only your findings paper.
+(PERSON13) Okay.
+Yeah, I see.
+Uhmm.
+(PERSON18) And validation error, only 2 documents.
+(PERSON13) Umm, that's right.
+Yeah, yeah, yeah.
+So, uh, yeah, will include one horrible Antrecorp, yeah.
+So this is actually a to do for, uh, [PERSON19].
+<laugh/>
+Provide ASR, uh, so WR scores for ehm [PERSON18]'s runs, uh, of all Antrecorp files.
+So [PERSON19], uh, are you here?
+(PERSON19) Yes.
+(PERSON13) So this is, this is a sub-set of the lines in the output TSV file.
+So, if you can select the appropriate lines of that output TSV file and, uh, and then send it to, uh, [PERSON18] and me.
+(PERSON19) Uh, yeah.
+(PERSON13) That that would be-.
+That would help.
+(PERSON19) Only for ASR?
+(PERSON13) Uh, I think that the ASR is so much influencing the translation quality that it's okay to go with AS the word error rate.
+And then we'll choose based on the word error rate and we'll kind of assume that the translation quality is, uh, is equal across the different ASR, uh, qualities.
+But the ASR quality is is the killing factor.
+(PERSON19) Uh, I I will send you for <unintelligible/>.
+(PERSON13) Yeah, yeah.
+Okay.
+Thank you.
+Uh, okay, so and now-.
+<unintelligible/>
+<other_noise/>
+(PERSON13) Can you, [PERSON6] can you can you mute yourself?
+Yeah.
+There is some-.
+Your, I think your microphone is is very sensitive. 
+For some reason, uh, maybe check the input, uh, again like in in Windows setting.
+So sorry, what were you saying [PERSON19]?
+(PERSON19) Please check my [PERSON19] section.
+Yeah, so this this file, right?
+Yeah thi this part, right?
+(PERSON19) Yes. Yes.
+(PERSON13) Yeah, I'll check that in a lli like soon.
+Thank you.
+Let's let's move to [PERSON10] quickly. 
+So [PERSON10], you have been obviously working on your thesis.
+Uh, submitting thesis, uh, and then, uh, wrote a parts-.
+So [PERSON10], are you here?
+(PERSON10) Yeah, yeah, yeah.
+I'm here. I'm-.
+(PERSON13) Yes, so so-.
+(PERSON10) So so basically I I have been mainly actually playing with the [PROJECT2] server.
+So I don't know if it would be useful for us.
+Like for the emission translation or the segmentation, but for some of my experiments I've done that now if like the output gets updated much faster. 
+(PERSON13) Mhm.
+(PERSON10) So now it was like once per second.
+And now it's like ten times per second, so yes, so it's updating much faster and uh second thing that I put there is that we can get a board level time stamps.
+(PERSON13) Mhm.
+(PERSON10) For each of the word in the current hypothesis, uh, because-.
+Right now, it was just the beginning of the whole <unintelligible/> current path and the end time stamps.
+But now, uh, there is like some additional functionality that it can output like the word level time stamps.
+So I'm I'm not sure if if it would be helpful.
+<unintelligible/>
+(PERSON13) Yeah, yeah.
+So so I would like to have this set-up which does not rely on mediator.
+And for that this TCP [PROJECT2] server is useful but for the mediator set-up we have the [PROJECT2] server by [PERSON18].
+So, uh, maybe it would be good if you, uh, get in touch with [PERSON18], uh, and if the features that you have now found in [PROJECT2] server, the TCP [PROJECT2] server were were also made available if it's not too hard in the like [PROJECT2] worker.
+Would that make sence [PERSON18]?
+I don't know how, uh, or well please talk directly.
+[PERSON10] and [PERSON18] should talk about this and figure out how much work would it, uh, would it involve.
+(PERSON10) <unintelligible/> are changes that I've do I've put directly into the like binary of the TCP server.
+(PERSON13) Okay, so maybe the same changes could be done within the [PROJECT2] worker.
+So.
+(PERSON10) Mhm. 
+Yes.
+I'm I'm I'm not actually sure ho how the worker exactly works.
+But-.
+(PERSON13) Yeah.
+Uh, talk to-.
+(PERSON18) The wor the worker only resends what it receives from [PROJECT2].
+(PERSON10) So it-.
+But I I think it uses the [PROJECT2] binary, the TCP server, right?
+(PERSON18) Yes.
+You gave us some shell scripts which starts the TCP server on some ports and it connects to this ports.
+(PERSON10) Yes, so so these changes I have done are inside this binary.
+(PERSON13) Mhm.
+So it should be easy.
+(PERSON10) So there is like the option if we, if we find useful space for it then we can get word level time stamps for the real time recording.
+(PERSON13) Yes, I would like to have them.
+(PERSON10) <unintelligible/> much faster updating the <unintelligible/>
+(PERSON13) Yeah, I w I would like to have the word level time stamps in the, uh, in the log files.
+So this is for [PERSON6] actually.
+So that the log files are very verbose.
+I'd like to have that, uh, uh, as well.
+So, uh, to do for [PERSON6].
+Make sure that our log files include this word level time stamps.
+Okay, so thank you.
+(PERSON6) So when-.
+(PERSON13) Yeah.
+(PERSON6) So what level time stamps of the ASR output of [PROJECT2] ASR?
+(PERSON13) Yeah.
+(PERSON10) Mhm.
+(PERSON6) Okay.
+(PERSON10) For the real time recognition.
+(PERSON6) Mhm, okay okay.
+(PERSON13) So this is, this is what is then useful for SLTF for the evaluation of the simultaneity 
+of of the speech.
+So when we know which word as when, recognised when, we can link it and, uh, score it against the golden transcript.
+(PERSON6) Okay, okay.
+(PERSON10) So so I will.
+I have like copy of the original TCP server that I've modified so I can do like launch [PROJECT2] script <unintelligible/>
+[deleted 18 lines]
+So [PERSON3] what what is your progress?
+Are you here?
+No, I'm not sure.
+We don't hear you.
+(PERSON3) Hello?
+(PERSON13) Yeah, yeah it works.
+Okay.
+(PERSON3) Okay.
+Hi, so I have collected, uh, Georgian and what is the name <unintelligible/> gave me.
+Because in the last meeting we discussed like remaining languages like Georgian and Hebrew and uh-.
+And another language, uh-.
+(PERSON13) Icelandic.
+(PERSON3) Icelandic, yes so it is collected and I will upload today.
+<unintelligible/> this data.
+And all the files I've already sent Russian, Serbian and what is the name.
+Croatian.
+[PERSON14] [PERSON14] what was the file name yeah Danish.
+Yeah today I sent Danish file to [PERSON14] for validation.
+As we discussed-.
+As in the last meeting we discussed, okay, if she can do like any like similar closer languages validation.
+So I had a conversation with [PERSON14] and she agreed for Danish and Dutch.
+(PERSON13) Okay.
+(PERSON3) So I just sent Danish and remaining Russian text data I've sent it has sent it to [PERSON1] for the validation.
+(PERSON13) Yeah okay.
+(PERSON3) So I don't know how many is-.
+And okay, that is working-.
+So just I received, 15 or 20 minute before I received [PERSON7] email for remaining annotators so I will send all the annotators all the files.
+Uh, but regarding the Norwegian we didn't receive any response from the e [PERSON4] [PERSON4] sorry I don't know what is the actually [PERSON4] by [PERSON4]. 
+The response.
+And I sent it in 30th April 3000 sentences but we didn't receive any response.
+I remain.
+I sent 2 reminders but I don't know.
+Maybe she is-.
+(PERSON13) Okay.
+(PERSON3) Busy in another work.
+(PERSON13) Yeah, yeah.
+Okay.
+That's that's bad.
+Well this can obviously happen.
+So we have to like come-up with backup solutions and and ask people if they, uh-.
+Yes, it's it's possible that like-.
+Because we were, uh, not providing the input quickly enough, uh, that she got busy with other things.
+It's it's possible.
+(PERSON3) She has, maybe it's possible.
+I have-.
+(PERSON13) I don't know-.
+(PERSON3) So I've asked [PERSON16] if we have any other annotator.
+So because I've already shared some, uh, annotator list which was created by [PERSON6] I think.
+[ORGANIZATION5] language map.
+Uh, uh, so I have already shared if you agree on that unle annotator so we can send all the files for validations.
+So once the validation is done, so we can merge like tester-.
+We can create new tester directory and where we will put all the multilingual or parallel data equivalent.
+(PERSON13) Yeah.
+Otherwise it will create-.
+Again it will create problem like we count sentence alignment and so it's different status so-.
+(PERSON13) Yeah, yeah.

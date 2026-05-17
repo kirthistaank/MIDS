@@ -1,0 +1,1069 @@
+(PERSON16) Hi.
+Hello?
+(PERSON18) Hi.
+(PERSON16) I cannot hear anyone so far.
+(PERSON13) Hello, hello, hi.
+(PERSON12) Hello.
+(PERSON9) Hi.
+(PERSON16) Yeah, okay.
+I can hear you.
+<laugh/>
+Great.
+So -.
+<laugh/>
+The situation is not easy.
+<laugh/>
+(PERSON13) Yeah.
+(PERSON16) It's great to see [PERSON9] here.
+So, so, um, um, [PERSON9], before we start, before the others connect.
+Tell us how, how is it in Trento?
+(PERSON9) Oh, it's, umm, interesting -.
+<laugh/>
+It's a strange situation, uh, actually [ORGANIZATION4] is pretty lucky as a company, because our work, uh, can continue even if we work from home.
+In fact.
+(PERSON16) Yeah, exactly.
+(PERSON9) Uhm, commercial activities it's really, um, a difficult moment I have to say.
+But, um, don't worry.
+We are all fine.
+Um, no, no one of [ORGANIZATION4] is sick, we are all fine, really.
+(PERSON16) Yeah, that's good.
+(PERSON6) That's good yeah.
+(PERSON9) Uhm, well we can continue our work from home.
+It's not that comfortable.
+<laugh/>
+(PERSON16) Yeah, exactly.
+So, that's that's -.
+I am, I am very happy to hear that you are not affected personally.
+Because, uh, what the news say about [LOCATION1] it's it's terrifying.
+Like it's, it's really crazy.
+(PERSON9) Yep.
+(PERSON16) People queuing -.
+(PERSON9) But, um, that's a problem with the medias so um, so be careful -.
+Um, um of course it's asked for us to stay at home.
+(PERSON16) Mhm, yeah.
+(PERSON9) In order to avoid, um, sanitary problem, ehm.
+(PERSON16) Yeah.
+(PERSON9) Uh, probably as you wrote, wrote us in your in your email the, um, um, the amount of people sick will increase in the next two weeks I think still.
+Um and this is really -.
+<laugh/>
+It's it's terrible actually.
+But don't worry really.
+We are Italian.
+We are able to take also bad things with irony.
+<laugh/>
+(PERSON16) Yeah, yeah, yeah.
+<laugh/>
+That's the last resort.
+We we do it as well -.
+<laugh/>
+But it's-.
+<laugh/>
+Yeah.
+(PERSON9) It's it's peculiar actually, um, it, um, we start singing from the balconies of our homes.
+<laugh/>
+(PERSON16) Yeah, yeah, yeah, yeah.
+(PERSON9) <unintelligible/>
+<laugh/>
+All people are on their balconies and sing along Surro.
+<laugh/>
+(PERSON18) I've seen a lot of videos of that.
+<laugh/>
+(PERSON9) This is really really an Italian thing.
+<laugh/>
+(PERSON16) Yeah.
+<laugh/>
+So the problem is, that here not everybody has a balcony and, uh, we are now-.
+<laugh/>
+We are now stranded as home, at home as well.
+Like we can only-
+We're allowed to go to work and then back and that's it.
+So we have the quarantine for everybody.
+The whole Czech Republic is in quarantine, like every hou household, every, everyone.
+For 10 days at least, uh, something like that.
+So, we'll see.
+<laugh/>
+Yeah.
+But I think it's it's important to do it.
+Uh, because I don't want the situation to escalate as far as as it's got in [LOCATION1].
+<other_noise/>
+So, as as you said -.
+We are in lucky field of, um, work.
+Because we can do ev everything except that I have my kids around here and they tend to disturb me often, so -.
+I am at home and I have to take care of them.
+So we are like doing all the work that schools normally do.
+So they are giving us their home works.
+<other_noise/>
+But it's not only the home works.
+It's also that you have to read with them.
+So simply like basic schooling.
+(PERSON9) Yep.
+(PERSON16) Yeah, okay.
+So it seems that we have now everybody.
+Except [ORGANIZATION5] and I guess I have confused them, um, by, uh, sending an email this morning that as a last resort we, we would consider [ORGANIZATION5].
+So they are probably waiting for us in the-.
+But also [PERSON4] said that they are, they are under pressure, because they have too many requests for the [ORGANIZATION5] platform, which is common.
+So there is areas of business where, uh, this is useful, so.
+<unintelligible/> is helped.
+<laugh/>
+(PERSON4) <unintelligible/> me some document?
+<unintelligible/>
+(PERSON16) Ah, you are here.
+Oh, great.
+Okay.
+You made it.
+Excellent [PERSON4], hi.
+<unintelligible/>
+(PERSON9) Hi.
+(PERSON16) Yeah, we have [ORGANIZATION5], uh, we still don't have [PERSON11], but I'm not sure if he would be connecting.
+<other_noise/>
+[PERSON11]-
+Yeah, yeah.
+So I don't know whether whether [PERSON11] is here but never mind.
+We have [PERSON1] from, uh, [ORGANIZATION13], we have [PERSON1] and [PERSON6] from [ORGANIZATION1], uh, and, uh, uh, and there is us, so uhm, so that's it.
+Thanks, uhm, uh, to everybody.
+It's great that you were able to join, actually, uh, remote meetings are now more common, ehm, and ehm yeah.
+<other_noise/>
+More popular than regular meetings these days, so uhm let's let's take one.
+As always, we are recording this.
+Uh, we have unfortunately lost the [ORGANIZATION5] recordings, uh, because they have to be downloaded within 30 days and uh we were too busy with other things that nobody took care of that and the automatic downloader was not yet set-up.
+So, I don't want to name the persons who has done it, it was not me.
+But-.
+<laugh/>
+<unintelligible/>
+<unintelligible/>
+(PERSON16) I hear someone.
+It's probably [PERSON4].
+So [PERSON4] if you can mute yourself when you are not talking then it would be, uhm, then it would be good.
+Yeah, okay.
+So if you are all on the, uh, call on the remote call today.
+Uh, so then there is financial table something, uh, which is something that [PERSON18] will probably present, right?
+Uh, and then I will talk ab- briefly talk about IWSLT preparations and maybe joint submission and otherwise there is not much in the, uhm, in the plan for the call.
+Uh, because, uh, the very next deliv deliverables are at the end of June but they would probably be happening earlier, so at the end of May, so that's what we should thing and that's still quite far away from now.
+Uh, but still everybody remind themselves of of that.
+And, uh, we are still heavily preparing for the [ORGANIZATION6] workshop, uh, [ORGANIZATION6] congress and the workshop associated with that, uh, but whether this will take place or not it's totally undecided.
+As I wrote in the email, I can't imagine that the [ORGANIZATION8]s will say that they are something better than regular citizens and they will not obey, uh, the, uh, uh, the regulations.
+I think they have the, they have the right to do so, but at the same time they are definitely not going to risk anything.
+So, uh, I expect that they will in some form run the congress and they will probably switch to remote one.
+If we had [PERSON11] on the call, then he might be able to tell us.
+If he knows.
+But he probably also doesn't know.
+<other_noise/>
+Uh, okay, so now I will mute myself and, and [PERSON18] will, uh, uh, present the financial table.
+<laugh/>
+(PERSON18) Yeah, okay.
+Well, hi everyone.
+Mmm.
+The financial table, uh, it's something what I will send to, um, to you all.
+And will need to to uh, to for you to fill it before the financial, before the review which will we have in a in June.
+It's nothing scary, it's just, uh, it's just two sheets.
+But, uhm, the division is quite nice.
+So, um, please fill in who will be your responsible person for this, because I don't want to bother everyone with it.
+So just [ORGANIZATION5] is now missing the person and, uh, I will probably solve this directly with the responsible person, because yeah the other usually don't know about these things.
+So, it's actually [PERSON16] very short.
+<laugh/>
+(PERSON16) Yeah.
+It's it's kind of preparation for the uhm review meeting, right?
+(PERSON18) Yes, well it's also the preparation for the financial report we will have to submit by the end of August I think.
+(PERSON16) Yeah.
+(PERSON18) So this just to-.
+Also for you just to summarise whether is everything alright, and if you need to do some changes so it would fit nicely.
+So it's like-.
+(PERSON16) Yeah.
+It's like a head up, a hea-, a heads up that there will be this table needed.
+And it will be needed in some preliminary form for the review, uh, and the final form after the end of the period.
+Which is after June, uh, due end of August.
+Uh, so this, uh, is this is like our first, uh, synchronisation on this.
+So that we are sure that, uh, you know what numbers to to look up and and how to organise them for us.
+(PERSON18) Yes, they also want to have them their specified <unintelligible/> so it's good like.
+It's overview of everything what you should have been tracking so it's like-.
+It's very uhm, yeah-.
+(PERSON16) So if you forgot to track something then you still have couple of months.
+(PERSON18) Yes.
+(PERSON16) To, to recover from that.
+So this is like a dry rung.
+And there will be preliminary but already official information to the reviewers before the meeting.
+And then the final which, uh, will be submitted through the system.
+Uh, but, but it will be in the same form, uh, the same type of numbers.
+(PERSON1) Yes.
+So [PERSON4] [PERSON19], whom who should I send from [ORGANIZATION5]?
+(PERSON4) Um, am to me.
+Can you hear me?
+(PERSON18) Okay.
+Yeah?
+Okay.
+(PERSON4) Okay.
+(PERSON18) Okay.
+That's all for the financial table, basically.
+(PERSON4) Okay.
+(PERSON16) Okay, uh.
+Yeah.
+So we have, we have everything.
+So now the IWSLT preparations, uhm, yeah, so, uhm, okay, thanks for the answer.
+Um, we are preparing the test set for the for the shared task on the non-native, non native speaker, non-native spoke language translation.
+Uh, we have to release the test sets, uh, tomorrow.
+That is the source side of the test set, the English audio.
+So, we will release it as as this 16Khz wav files.
+If that is the format which we have, from the from the, uh, if for some of the data sets we have only the Mp3s but we we'll try to do the wav files. And, uh.
+(PERSON9) But, sorry [PERSON16], this is just our suggestion.
+Maybe, uh, it's better to ask also to the ASR people.
+(PERSON16) Mhm.
+Yeah, so maybe if [PERSON1] but I don't know if [PERSON1] has some long term experience like what what what would people.
+Wh wh whether [PERSON1] has some numbers.
+Whether Mp3s are worse then wav files.
+(PERSON1) No, the Mp3 is okay.
+(PERSON16) So Mp3 is even okay.
+(PERSON1) Yeah, yeah.
+(PERSON16) So, so we will, we will probably release, uh, both, uh, uh, allowing people to use everything.
+But in the long term I am happy to switch to Mp3s because, uh, these files are smaller and you can version them.
+So they fit in Git in GitHub repositories, uh, so that's-.
+That's why I prefer them.
+(PERSON9) Sorry [PERSON16].
+(PERSON16) Yeah.
+(PERSON9) Look at the F-L-A-C, uh, format, which is also a compression but it's not-.
+(PERSON16) It's not sorry.
+It's not what?
+It's not-?
+(PERSON9) It's so ac accumpressed file but it's not <unintelligible/> and usually it's better than the Mp3. FLAC the FLAC one.
+Okay.
+(PERSON16) The FLAC one.
+Okay, thank you.
+So will check.
+Will check this.
+Okay, thank you.
+Uhm and we are also working obviously on the target sides.
+Both, the transcriptions and the, uh, and the translations.
+Everything of this should be uh um, be ready, uh, well some of the files, uh, uh, the very small, a very small number of files are to arrive only on the 30th of of March.
+Of the translations from the agency, this submission date deadline is the end of March, uh, and then we have some time to evaluate it.
+So it's like we're we're, we're on track, uh, but not not so comfortably as we wanted to be.
+And the main reason, uh, is that it tooks it took months until the [ORGANIZATION8] actually decided that we can use some of the recordings so uhm, uh, that's we are, we are so late with translating them.
+But we have some.
+So if, if it-.
+If the full set works well, uh, works out well then we'll have, where is that, about uh an hour to-.
+About two hours of our domain, uh, of English sound and translations in for German and uh, and Czech.
+And then we'll have actually any number of if you like of uh Khan Academy vi videos and also an half an hour I think it's half an hour.
+Something between half an hour and an hour of Antrecorp as the test set.
+So that's what will be released, uh, tomorrow.
+So I am getting towards the joint submission.
+This is something that [PERSON12] is overseeing.
+Uh and [PERSON13] will run it.
+Uh, uh so all of you uh, uh, uh, your systems are going to be put to use.
+[PERSON12] has sent the leader board, first leader board table on some other test sets.
+So we will move to like similar type of evaluation on the IWSL desk IWSLT dev set.
+Which is very small because we failed to deliver it in in larger, uh, volume in in time, uh, and will be choosing which syms, choosing system to chose, uh, uh, which system to use in the end.
+And then we'll, uh, we'll do the submission.
+So this is going to happen even if you like didn't do anything special.
+But obviously we, we would be happy if you did something special about this.
+So if you had the time, please speak to [PERSON12] and synchronise with him, like at what time we should run which workers.
+And the most important thing, this has to be documented then in the system paper for for that.
+So please take notes what is being used and what is, what is under the hoot.
+(PERSON6) Uhm. And I just assume that [PERSON12] will just let us know when these tests are running so we  we know which workers we've got running?
+(PERSON16) Yeah, yeah, yeah.
+So this is-.
+(PERSON6) Good.
+(PERSON16) Yeah.
+And maybe actually, do do the workers have like the version signature?
+Is anything recorded in the log files?
+(PERSON6) Uh, uh, I don't think so.
+No, no it isn't.
+(PERSON1) No, no, no, I don't think so.
+Um, so one way we could do this is just to use um, different finger prints I guess or-.
+(PERSON6) Hm, hm.
+(PERSON1) Or alternative systems, um, I don't know how easy it is to deal with the multiple pipelines that make use of different systems.
+So for example I have um one English to Czech system, that is currently running, um, which uses the [ORGANIZATION3] fingerprint.
+But I've got another model, which I think will probably perform better.
+(PERSON16) Mhm.
+(PERSON6) So I could, I could just set up another worker with a slightly different finger print and let you know where that is and then I can keep it running.
+And then we don't have to synchronise about time, so we would have separate logs.
+(PERSON16) Yeah.
+(PERSON6) Yeah.
+(PERSON1) Would that, would that work?
+<unintelligible/>
+(PERSON16) So maybe that is.
+Yeah.
+Maybe that is indeed the safest.
+Uh, but, uh, uh, if it's, if it concerns the translation system it's jut one final finger print.
+If it concerns the ASR system, then it, uh, it makes it trickier, because you coul-, you would have to multiply, uh, the finger prints.
+Finger prints have to -.
+Essentially the last finger print has to identify the full path.
+(PERSON6) So, so.
+(PERSON16) And you have, uh, and you have ASR times [ORGANIZATION2] paths.
+(PERSON1) So I suppose what we have been <unintelligible/> I guess that we don't have that.
+But if each component could put some kind of version number into the message as it is passed along?
+(PERSON16) Yeah, but-.
+(PERSON6) But that's not-.
+(PERSON12) But that adds-.
+<unintelligible/>
+But that is one more variable in mediator-.
+But in fact <unintelligible/> and [ORGANIZATION2] for all the workers and this is <unintelligible/>.
+The information can be about the version and we we can download it from admined web then.
+(PERSON1) Okay, okay.
+That's that's easy to to change from my end.
+(PERSON16) So please please please synchronise on this.
+And please uh, and like [PERSON12] please, uh, supervise the creation of of this.
+Actually as soon as we release the test sets, let's do, uh, final run, uh, like a complete run, end to end run of everything.
+Uh, because that will, it will break in first three attempts I am sure.
+And the versions will be wrong in the in the first three attempts and so on.
+So, please consider Wednesday the day where everything should be run for the first time.
+And then we will have every, every other day, uh, some new update uh, uh, and so on.
+So, uh, uh, [PERSON12] and [PERSON13] should today and tomorrow get ready for, uh, for this run and you should try to add the version numbers to this information that is passed through the mediator.
+And [PERSON12] and [PERSON13] need to be sure that it is recorded in the loggers.
+And then on Wednesday, when the test sets are out, uh, we need to run it, uh, uh and have the first loggers.
+And them in the subsequent days we should, we should do the better versions.
+(PERSON12) Okay and-
+(PERSON12) Yeah, are we going to have different versions?
+Are you going to update the [ORGANIZATION2] workers and the scripts?
+(PERSON16) So [PERSON1] just said that-
+<unintelligible/>
+So [PERSON1] just said he has one version and, uh, I think it's worth trying out more.
+Like, why not?
+If it's, if if they are trained.
+And also remember that there is some overlap between, uh, uh, the available German versions and available Czech translations.
+And there is possibly some choice of the ASR system.
+So there is quite a few combinations that we should try out and, uh, then chose one of them based on well-.
+Not the perfect dev set but on some dev set, uh, to to submit to submit it.
+But I think it's, uh-.
+Actually I would suggest that we submit more versions because IWSLT in my track, uh, does the same policy as WMT.
+So we can submit as many non-primary submission as we like.
+And and one needs to be marked as as primary and and that's it.
+So the more we have the better.
+The more we learn about the evaluation.
+Yeah, okay.
+So that is that is like the joint submission.
+Uh, here the remarks are that [PERSON12], uh, plus [PERSON13] get ready today plus tomorrow first full run on Wednesday, uh, uh, then, uh improved version loggders need to record, uh, detailed versions of each component.
+Okay.
+And then, the other the other question is other IWSLT submissions.
+So, I have a student who is working on English ASR and, uh, em, he is, uh, hopefully he will be able to try, he is working on that, uh, to try out another set up of English Czech.
+So he is not targeting German uh and that will be like an independent submission.
+So I was just curious if any other side is also trying that or if you have, uh, like other colleagues in other departments who you could ask to take part.
+Because as [PROJECT1] we would like to know what is the best solution on the market.
+On the research market I mean.
+So, uh, the, uh, the more teams we get in the better we will know who performs best on the domain of the [ORGANIZATION8]s because that's substantial part of our test set.
+So, please ask around.
+I have asked, uh, well sent an email but they didn't responded it at [ORGANIZATION9].
+I have asked at [ORGANIZATION12] and then I've asked two Czech teams who do ASR.
+So far-.
+That was before the, um, the the Corona virus got so bad.
+So far they didn't answer.
+I'll notify them that the test sets are out and hopefully they will do something.
+Uh, so if you have other teams that you could contact -.
+And it would be only like run it, uh, run it exercise for them, please do so.
+So that's, that's like foreign IWSLT submissions.
+And is anyone planning, uh, their own submission?
+So, so nothing from [ORGANIZATION1]. No?
+I've seen some registration of [ORGANIZATION13] in the overall IWSLT task.
+But I don't know whether it was also for this task or not.
+Or whether it has managed to cover the joint submission or whether there is another submission, uh, by [ORGANIZATION13].
+So [PERSON1] do you know more?
+(PERSON1) Uh, yeah.
+Yeah, so, uh, <unintelligible/> and I don't think we will submit something for this task.
+But for other <unintelligible/> and also <unintelligible/> I used to <unintelligible/> involved in IWSLT but this year I I I just support peoples.
+I'd like to do that so-.
+(PERSON16) Yeah, okay.
+So that's.
+So there is nothing, uh, yeah.
+So only, only us, yeah.
+No [ORGANIZATION13] no [ORGANIZATION1] but still please ask around, uh, outside outside of [PROJECT1], uh, yeah. Okay.
+Well, uhm.
+Thats seems like the end of the agenda.
+<laugh/>
+Which is great.
+<laugh/>
+Do we have any other things to discuss?
+I think we'll be in touch at the end of the month because then there will be probably news.
+Like the <unintelligible/> conference for example is deciding whether to run on when to run.
+Uh, uh towards the end of March.
+And I guess the similar update will be on [ORGANIZATION6].
+(PERSON6) Mhm.
+So you still think that the [ORGANIZATION6] still may go ahead?
+(PERSON16) I think it may go ahead, yes.
+I am not sure-.
+(PERSON6) Oh, okay, but I as a physical conference?
+Yeah, but even if it does, we will not be travelling to it.
+(PERSON16) Mhm.
+(PERSON6) Is that fair?
+(PERSON16) Yes, that's-.
+So like-
+It it was never a, never a requirement that you would travel.
+(PERSON6) Yeah, yeah, okay, okay.
+(PERSON16) So, uh, it.
+(PERSON6) Yeah.
+(PERSON16) Yeah.
+So if you if you are already certain that you would not travel, that's-.
+It's good to tell us right away.
+So that so we know that.
+(PERSON6) Hmm.
+(PERSON16) It would be-.
+If it actually does take place, then it will be good to have someone from [ORGANIZATION4] around.
+That would be most important.
+Uh, but even if it, if Italians still cannot come to the Czech Republic <laugh/>, now now nobody can travel at all.
+Uh.
+(PERSON9) We plan to join you for [ORGANIZATION6] congress of course.
+<laugh/>
+But you know that at the moment the the situation it's not that clear.
+<laugh/>
+(PERSON16) Yeah, exactly.
+So that's-.
+Yeah i just don't know.
+The end of May is still quite some time ahead.
+Uh, well the problem is that the Germany is going very bad, [LOCATION1] is hopefully near the peak with Germany the peak will arrive in two weeks at if not later.
+And the UK is also going to explode because -.
+I'm I'm sure, because -.
+(PERSON6) Yeah, uh, I'm will predict that the peak is early summer.
+(PERSON16) Early summer you'd say?
+Oh.
+(PERSON6) That's what they're saying yep.
+But it's changing every day so we don't really know.
+To be honest.
+(PERSON16) Oh, so early summer it's like early July, right?
+Or June.
+(PERSON6) Uh, uh, I'd say-.
+Well that's another question.
+I don't know when that is.
+I'd say more or less it's May or June is early summer.
+(PERSON16) May or June.
+(PERSON6) To me, yeah.
+(PERSON16) Yeah, okay.
+(PERSON6) Yeah.
+Beginning of June.
+Yeah.
+(PERSON16) Yeah.
+<censored/>
+<laugh/>
+I, my, my my-.
+(PERSON6) He says many things.
+(PERSON16) <laugh/>
+He says many-.
+<censored/>
+And another thing was that uh, um, everybody has to die one day anyway.
+So it's like -.
+<laugh/>
+The way-.
+<laugh/>
+The way your Prime Minister says it is not too, not too optimistic-.
+<laugh/>
+(PERSON6) Yeah, he doesn't inspire optimism.
+Yeah.
+<laugh/>
+(PERSON16) Okay.
+So, so then.
+Well if the congress does not take place, uh, at all.
+Or if it does not take pla, if it does not take place physically, then it puts the most burden on us I'd think actually.
+Because, uh, we'd still try to do all the, all the translation but it would be much more difficult conditions in terms of all the interpreters at various places like-.
+It's-
+The interpreters also has their technologies for remote interpreting.
+But we would need to be able to attach to those channels and and all that.
+So it will be like a new set-up
+(PERSON6) Yeah, yeah, yeah.
+(PERSON16) Getting ready for very new set ups.
+(PERSON6) Then there is-.
+Then there would be more pressure on them to make sure that things like microphones and network all wall all works correctly.
+(PERSON16) Yeah, yeah, yeah.
+So the, uh-.
+(PERSON6) Which is what we need.
+(PERSON16) So the focus the focus will have to change quickly, uh, so far we are focusing on the on the like getting the input from the physical pipeline and and then the the normal and then the normal networks.
+And now it would be the acquisition of sound would be also complicated by network traffic.
+(PERSON6) Yeah.
+(PERSON16) So this, this is the the hard part, uh, and if, uh, uh, it is cancelled altogether then we will have more time to focus on the deliverables.
+So, uh, please, em, do not leave the deliverables, uh, for May.
+Start working on the deliverables, uh, already now, or, uh, or in April.
+The list of deliverables is already-.
+If you scroll down in the in the document [PROJECT1] Remote Meetings.
+This is what we discussed in the last call, uh, so the publishing platform that has been delivered.
+Then we have report 1 on initial ASR system, report 1 on spoke language translation, initial report on summarisation, uh, and then the report on NLP technologies at the [ORGANIZATION6] congress, uh, and report on dissemination, uh,  and project management, uh, uh, guide and update of that.
+So there is a lot lot of texts to write.
+So especially for the technical deliverables I think you can start with writing right away.
+If you have papers, these, uh, that's the best thing, uh, if you have, uh, uh, papers -.
+All of these reports are public -.
+So it's not good to put there anything which is under review yet.
+Uh, it's it's if if you have material, uh, that is not written up as a paper, I would put it there, because it like doesn't steal the the publication opportunity as it's the that I would say so.
+(PERSON6) Mhm.
+(PERSON16) If it's already organised into a paper but not reviewed yet, then I would not include it.
+And if it is published, then it's ideal because then you can include it directly.
+(PERSON6) But, but that creates bit of a problem.
+You said written up to-.
+I mean if it's written up to a paper, we should not include that.
+Say for example it was submitted to <unintelligible/> which crosses this-.
+(PERSON16) Yeah, yeah, yeah.
+(PERSON6) This, this, this deadline.
+(PERSON16) Yeah.
+(PERSON6) Um, but yeah that that creates a bit of a problem.
+It's like either we don't put it in and then the deliverable is extremely thin or we just don't submit.
+Or we will have to wait, wait-.
+(PERSON16) No, no, no, no.
+(PERSON6) Wait, wait for months after the deliverable is published in order to submit.
+So can't we just push the publication of the deliverable out a bit?
+I mean it's poss-
+(PERSON16) Oh, it's totally po-.
+I see, okay.
+(PERSON6) Yeah, I mean.
+I mean it's supposed to be public but doesn't have to go out immediately.
+That-.
+(PERSON16) That's a good idea.
+So that's probably something that we should, uh, ask.
+Well, there is I think there is a risk that the Commission publishes the deliverable.
+Uh, in their databases righ away.
+(PERSON6) Yeah, yeah, yeah.
+But I think that it could be negotiated.
+<censored/>
+<censored/>
+So-.
+<laugh/>
+(PERSON6) That's also a point, yes.
+<laugh/>
+But, um, I mean.
+It it it it's a theoretical question at the moment but it it could become a practical question and the we need -.
+(PERSON16) I think-.
+I like your proposal.
+I think it is the best way to to it, to, uh, to have it delivered to the Commission on time.
+Including the draft version of the paper as it was submitted as is under review and then publish it, uh, um, like later on.
+So it's it's yeah -
+(PERSON6) Yeah.
+(PERSON16) That's probably the best option.
+If the paper on archive, uh, including your names, uh, then again you can put it there right away.
+(PERSON6) Then it's fine to include it, yeah, absolutely.
+Yeah, yeah, it's just-.
+(PERSON16) If you, if you, yeah.
+So [PERSON18], please talk to [PERSON8] and ask him when the deliverables are published on the web.
+And if there is any way to de to delay that, right?
+(PERSON6) Yeah.
+(PERSON16) Uh, uh, I don't-.
+[PERSON18] is there, okay.
+Yeah, so, uh, so then that would be ideal.
+We would put everything what is already in the form of paper into the deliverables, uh, and , uh, we would just ask for a later publication.
+Uh, I think I think that's a reasonable thing to ask for.
+(PERSON6) And it's no good the I mean the EMNPL verification?
+Or it's jut <unintelligible/>?
+I can't remember but it's not it's not going to be delayed any longer than that.
+(PERSON16) Yes, and also for [PROJECT2] there is probably [ORGANIZATION7], uh, anonymity period.
+So if you put the paper on the archive early enough, uh,-
+(PERSON6) Yeah, then.
+Then it's fine.
+(PERSON16) Then you can include it as as an archive paper.
+And have it then under the review for [PROJECT2].
+(PERSON6) Yeah, so-.
+Then there should be quite a small amount of content that's gonna be affected.
+(PERSON16) Yeah, yeah, yeah.
+So anyway, please start working on these soon.
+I think that we will, we will probably make the initial step and we will prepare the overleaf links for for each of these.
+So that's something -.
+So [PERSON18], please make sure and distribute, that we create and distribute these overleaf links, uh,  and, uh, sh, uh, everybody can start with writing.
+Right, okay?
+So that's that and add one bit here, and that's the upcoming deliverables and I think.
+Yeah.
+<parallel_talk> Deliverables plan. uh, include papers. Ask [PERSON2] for a later publication of the deliverable. Yeah. That's it. Yeah. </parallel_talk>
+That's everything from me.
+If you don't have any further questions then enjoy your quarantines.
+<laugh/>
+And we'll we'll have another call in approximately a month, uh, from now, uh, because by that time we'll have like the final decisions on all that many events.
+When-.
+Whether they take place and in what form.
+Yeah.
+Okay.
+So thanks and take care.
+Thank you.
+Bye Bye.
+<laugh/>
+(PERSON6) Thank you.
+Bye bye.
+(PERSON1) Thank you.
+Bye bye.
+(PERSON18) Bye, bye.
+(PERSON9) Bye, bye.
+Hi [PERSON18].
+Bye.
+Okay.
+(PERSON13) Yeah.
+Hi [PERSON16], so I'm here.
+(PERSON16) Yeah, yeah, yeah.
+Great, yep.
+(PERSON13) Can you hear me?
+(PERSON16) Yeah, yeah, yeah, I can hear you.
+So, uh, first of all how are you doing?
+Have you understood the the regulation that now applies to you?
+<laugh/>
+(PERSON13) Uh, yeah, I think so.
+I understand that I do not need to go outside except for work or buying groceries or medicines.
+(PERSON16) Yeah, exactly.
+(PERSON13) And no one necessarily walking outside.
+<laugh/>
+(PERSON16) Yeah, yeah, yeah.
+<laugh/>
+(PERSON13) Yeah.
+So I was working on the karaoke and I didn't understand what exactly needs to be done here.
+So I have, uh, written here few, uh, a few of my doubts.
+(PERSON16) Okay.
+(PERSON13) So, I'll start with the first of them.
+So, okay, okay, okay.
+So, uh, I need to understand like what exactly, uh, the forced aligner does.
+So in the forced alignment review that input as adjacent file which has multiple adjacent objects during the duration of the audio path <unintelligible/> you know.
+That's the test segment.
+(PERSON16) Yeah, that is-, that is just like a file list.
+So the adjacent is essentially just a file list which tells tells you what all files should be processed.
+And it paralyses them as it as it likes.
+Uh and, uh, for each of them you provide the text and it it will emit the words aligned to some positions in the time.
+So this is only like a  batch procession of of a a large number of files.
+(PERSON13) Ah, okay.
+So, uh, uh, am, so as far as I know the forced aligner it also does ASRs.
+So are we deliberating the ASR in any way?
+(PERSON16) Oh, uh, well in internally it uses ASR because it searches-.
+It tries to process the input and then it finds in in the full <unintelligible/> of candidates where the words that we require are located.
+So we we don't make the use of this ASR ourselves.
+It is being used by the forced aligner.
+And that's it.
+So we only want to see the time stamps.
+(PERSON13) I I am not sure if I understand that.
+Like, uh, what does, uh, the how does the forced alignment uses the ASR?
+(PERSON16) Uh, uh, it it processes the input sound.
+It creates like a lettuce like a set of candidates and then in this set of-.
+So the good thing about this set of candidates is that it knows where the words were found.
+But it doesn't know which words are the correct ones.
+(PERSON13) Yeah, okay.
+(PERSON16) And, uh, by itself.
+Uh, so if it's only the normal ASR it will then emit the most likely candidates from this set.
+But in the forced set up you are telling it pick this word pick this word pick this word and so on.
+So you are choosing path in the lettuce but the lettuce is all time stamped.
+And when you chose the path, you will know the time stamps at which these words occurred in the, in the, in the, in the speech.
+So that's exactly how you obtain the alignments.
+(PERSON13) Okay, okay, okay.
+So basically the times, the time stamps after each word that is done by the forced aligner.
+And yeah, okay, I start to get some sense out of it.
+(PERSON16) It's as if if a human was doing, if a human was doing it.
+You would you would be like listening.
+If it was like a very slow pace, you would be writing down a time when you heard the word  and as a human you would already get the single best path.
+You would understand it perfectly.
+Uh, so then you would only like copy form your time stamped record the times to the, to the expected output.
+(PERSON13) Yeah, okay, okay, I get it.
+(PERSON16) Yeah, so what it, what it.
+The the karaoke-.
+The reason why we want to do this karaoke is that we want quick visual inspection of this word uh, uh, word aligned, or word time stamped transcripts.
+So imagine -.
+This is what I was just doing, uh, for the IWSLT test set anonymisation.
+Uh, I was doing only the text part, so I was, uh, like reading the transcript and whenever I saw like one of the names of the participants of the meeting I replaced that name with censored, with with some key word only.
+And now the next step is for [PERSON14] and he needs to find the appropriate position in in the recording and do the <unintelligible/> of that.
+(PERSON13) I get it, yeah.
+(PERSON16) And so if if he would be able to like scroll the movie which highlights the words then he would scroll the movie to the point where it shows censored and he would listen whether it's the right position.
+And I also kind of needed this facility.
+It is essentially, uh, like a full text search within audio.
+So, uh, I also needed this because when reading the transcripts, I realised there were some errors.
+Like some nonsensical sentences and I wanted to check, uh, whether the person has understood it the best way they could.
+Uh, so I had to scroll the movie, the the sound and it was like jumping and then searching where I am-.
+<unintelligible/>
+(PERSON16) If by playing the movie a I would see in the text the word highlighted-.
+(PERSON13) Yes, exactly.
+(PERSON16) That would be perfect.
+That would have saved a lot of time.
+(PERSON13) Yeah, I get it.
+(PERSON16) So, so I think the.
+The most promising, uh, uh, approach is indeed the web based subtitles.
+So there is one more thing.
+IMSC1.
+I don't have any-.
+I'll I'll paste the link to to chat window now.
+There is some render there.
+Have a look at that.
+I'm afraid that <unintelligible/>
+<unintelligible/> is downloaded here, okay, so there is there is some-
+Oh, the file is not found.
+<laugh/>
+So I'm not sure if this works at all.
+But-.
+<parallel_talk> Media in seconds. Yeah.</parallel_talk>
+So this is some render of one of the formats of subtitles.
+Yeah and it is XML based TTML playing <unintelligible/>
+<unintelligible/>
+Yeah, yeah, yeah.
+So there is another important link that I found yesterday or the da day before yesterday and that's, uh, the jungle of video streaming.
+<laugh/>
+And it also has, uh, a section on-
+Oh, that's already about subtitles, yeah, yeah, yeah.
+So there is the-.
+If you scroll like to the fifth of the document, uh, quite early.
+Uh, from the Monty Python and the Holy Grail, uh, there is four, uh, four formats.
+So the burned into video, the open captions is what we want to achieve from something which is easier to produce for ourselves.
+So the TTML looks uh, uh, uh, like reasonable, that's what the render, that's what the render would be able to uh, to show.
+So yeah, this is a subtitle-.
+The idea is here-.
+So, there is -.
+The the oh so there is some diagram of different T, TTML profiles.
+That's crazy.
+<laugh/>
+(PERSON13) Yeah, yeah, yeah.
+(PERSON16) It's really like haven't read it yet.
+So this is obvly obviously overly complicated.
+Finally to bring some sense of the circus of profiles, yes.
+Recent specification, yeah, uh, IM, IMSC1 which is a new recommendation.
+So this IMSC1 is probably the best thing.
+Specification-.
+And then fortunately -.
+<unintelligible/>
+And it, uh, consists of plain text but it can reference CSS for styling.
+(PERSON16) Okay.
+(PERSON16) So in one of the demo queues -.
+<unintelligible/>
+<parallel_talk> Start may be applied using simple mark up <unintelligible/> to appear at particular times. </parallel_talk>
+Yes, so if you search for the word karaoke in this document you exactly get the-.
+<laugh/>
+(PERSON13) Yeah, yeah, yeah.
+It's in the section web VTT.
+(PERSON16) Yeah, yeah, yeah, exactly.
+So there is a specification.
+Supports play out of web PGE in a [ORGANIZATION16] HLS and MPEG dash.
+So web VT web VTT is the best thing.
+Unified packager can convert SRT <unintelligible/>
+(PERSON13) Mhm.
+(PERSON16) When preparing content as intended for use on the web only, web VGT has deeper integration which will probably make it better suited than TTML.
+Yes, so we should go for a web VTT.
+(PERSON13) Okay.
+(PERSON16) By doing this, we are already preparing for, uh, like the, uh, the sessions, the remote conferencing for example.
+(PERSON13) Mhm, mhm.
+(PERSON16) So if we know how to produce web VTT then, uh, it's, uh, it will be useful, uh, useful later on.
+So this this IMSC1 is probably more complicated than needed.
+I don't know if there is any web VTT renderer.
+<parallel_talk> Web VTT renderer. </parallel_talk>
+(PERSON13) So this karaoke will have the audio playing.
+I mean, uh, so like last week I chunked the audios, segmented the audios.
+So I need to, I need to concatenate all these audio segments-.
+I mean-.
+(PERSON16) So, so, so, what you, uh, you you are talking about the [ORGANIZATION10], right?
+(PERSON13) Yeah, yeah, exactly, I am.
+(PERSON16) Yeah, yeah.
+So exactly, this is this is now needed.
+Uh, so, well I would first debug the the karaoke viewer on the individual segments.
+So do it segment by segment.
+But then, after, uh, the karaoke, uh, preview is is ready, uh, concatenate all the segments back.
+(PERSON13) Mhm.
+(PERSON16) Or actually use the original the original file and concatenate the forced, uh, uh, the, uh, like time stamped, uh, captions.
+Uh -.
+(PERSON13) Okay.
+(PERSON16) With concatenating of the, uh, of of this of the transcripts, you need to shift the time stamps obviously.
+(PERSON13) Shift.
+Like what do you mean shift.
+(PERSON16) Oh well, the problem is that in segment 1 time 0 means 0 but in segment 2 time 0 means something else.
+It's at the end of, uh, segment 1.
+(PERSON13) Mhm.
+(PERSON16) The forced aligner runs always like from the beginning of the segment.
+(PERSON13) Okay.
+(PERSON16) So the timing of the words is relative to big relative to the beginning of the segment.
+(PERSON13) Okay, okay, okay.
+(PERSON16) But the beginnings of the segments like grow in time as as you proceed through, uh, through the recording.
+(PERSON13) Aha.
+Yeah I've seen like I've just I was just playing some of the audios and it would I don't remember the word-.
+It was-.
+So the the audio is not properly captured inside that very audio segment.
+(PERSON16) Mhm.
+(PERSON13) And and it's too little <unintelligible/>
+(PERSON16) So-
+(PERSON13) So so the time stamps stamps were not exact so that's I I had to like, uh, you know play with the time stamps to get the actual audio captured.
+Or to hear the audio actually captured.
+(PERSON16) Yeah, so I've played the set, the sequence of files that you have created the the simple karaoke.
+(PERSON13) Yeah, yeah, yeah.
+(PERSON16) And I've heard that uh it's uh uh like uh the word has been already said in on the previous word and only now the caption comes.
+So the captions are late.
+(PERSON13) Yeah, yeah, yeah, exactly.
+(PERSON16) And I think the reason is that, uh, the neural network, uh, takes some time to process it in a way.
+So it is confident about the word only after the word has been finished.
+(PERSON13) Yeah, exactly.
+(PERSON16) And I think that we can live with this.
+So the karaoke will will show this to us.
+Uh, and we could do some like a general little shift if we really like but I I think it's safer to to stick to what network has provided us with.
+(PERSON13) Yeah, yeah.
+(PERSON16) So, uh, uh, so, uh, there is two things the conversion of the output of forced aligner, which is the time stamped words.
+Uh, into, uh, into the ka-
+(PERSON13) Time stamped
+(PERSON16) Into the karaoke, into the VTT.
+(PERSON13) Mhm, okay, okay.
+(PERSON16) And and talk to [PERSON21].
+So think-.
+(PERSON13) Okay.
+(PERSON16) Is there already a script that converts the output of forced aligner to [PERSON21]'s expected output?
+Which is the growing sentences.
+Or not yet?
+(PERSON13) Yeah exactly.
+<unintelligible/>
+There is a script which [PERSON21] created but I was playing with it last night but it didn't seem to work out.
+(PERSON16) Okay.
+(PERSON13) So I thought maybe it's an issue with the karaoke corpus <unintelligible/> is not able to process.
+I I even tried with the demo corpus.
+That demo directory which is n the forced alignment directory.
+And it it perfectly but I even-.
+(PERSON16) Aha.
+(PERSON13) But the other one in the directory does not work.
+With this [PERSON21]'s script so I I need to talk to <unintelligible/> [PERSON21].
+(PERSON16) Yes, please please talk to him and I think that format that his script provides.
+Uh, which is the growing sentences is the ideal input format for, uh, for the web VTT view.
+(PERSON13) Okay, okay.
+(PERSON16) So uh, uh, we would be like gradually highlighting more and more of the sentence and then we would every now and then move to another subtitle and and again have the colour grow, uh.
+(PERSON13) Yeah, yeah, yeah, yeah.
+(PERSON16) So this is, uh, this is probably what we, what we want ot start with.
+So so you should first, uh, write these web VTT files manually just to see that it works.
+(PERSON13) Mhm, mhm.
+(PERSON16) Then play with them, like have them appear, have them, uh, have them work in your set up.
+(PERSON13) Mhm.
+(PERSON16) And then create the script which converts the growing sentences of [PERSON21] into this web VTT for the for the life view of of for the preview of of these files.
+And then, uh, work on the concatenation of the Khan Academy, uh, transcripts, uh, so that the time stamps are properly shifted and then, uh, yeah, yeah.
+(PERSON13) Okay, I just need to write it.
+(PERSON16) Yeah.
+(PERSON13) So the first step will be to convert the-.
+I need to convert the subtitles into web VTT-.
+(PERSON16) Yeah, so learn how how to write the web VTT so that it highlight the beginning of the the first half of the subtitle and that you can grow the highlighted part in time.
+(PERSON13) Okay, alright, alright.
+(PERSON16) Then apply it on one of the segments and test that it works.
+And then apply it on the concatenated segments and test it against the original full non-split ASR.
+Uh, non-split sound file.
+(PERSON13) So I I'm still like confused.
+So first I the the karaoke, in karaoke so so the the audio that play in the background it will have uh-.
+No the audio playing in the background in karaoke it will be the original audio with, uh, with the audio segment.
+(PERSON16) Yes.
+(PERSON13) Okay, and the the subtitles.
+The, the, sorry, the the transcripts will be the original transcripts not from the forced aligner.
+(PERSON16) Uh, from the forced aligner.
+Those-.
+So the original -.
+When you say original transcript, uh, you mean the manually revised files which we called OST, right?
+(PERSON13) Yeah, yeah, yeah, exactly, yeah.
+(PERSON16) Yeah, so the OST files contain only one sentence per line.
+(PERSON13) Aha, okay.
+(PERSON16) And no time stamps so there is no way to display them.
+We need to move from OST to something which we call OSTT.
+So that's original sound transcript transcribed.
+Sorry sorry transcript time stamped.
+So the TT the second T is for time stamped, uh, and that is the format which has time stamps and the same line is like repeated and it's growing.
+In the same way as you, uh, know it from, uh, from the ASR outputs.
+(PERSON13) And in order to get this OSTT I will use [PERSON21]'s sript.
+(PERSON16) Yes, exactly.
+(PERSON13) Okay, alright alright.
+So it will ahve the audio playing in the background and these OSTT uh-.
+(PERSON16) Yeah, so I will I will try to figer out, f find one video which displays the-.
+(PERSON13) Yeah exactly and-.
+<other_noise/>
+(PERSON16) Yeah so this is like <unintelligible/> so no one is singing.
+Yeah, I'm searching -.
+Yeah, so here is one sample YouTube video where no-one sings.
+But if you wanted to sing like [PERSON17], uh, you would you sing at the point when the word is, is being highlighted.
+(PERSON13) Alright, yeah, yeah, yeah, I get it.
+Yeah, yeah.
+I was -.
+Okay, so-.
+I understand it better and it's more clear.
+One issue is that-.
+I saw at first, in after the forced alignment, after every, uh.
+I mean so the forced aligner loses a few first words in the transcript.
+(PERSON16) Oh, okay.
+(PERSON13) I'm not sure why.
+(PERSON16) That's bad.
+So talk to [PERSON20] about this.
+So I know that he has added something which ensures that, uh, uh, the for that his ASR processes full words.
+Because if you if you cut sound in the middle of the word it happily tries to like recover from that and it will recover this half word into a full word.
+So his search is for like a chunk, he he removes the head and tail so that he is confident that he has full words.
+But for the forced aligner we should not use this feature.
+So talk to him of what is the proper way of, mhm, of using this forced aligner so that it doesn't chop out the the words.
+(PERSON13) Okay.
+(PERSON16) If it's something more complex.
+If he does not have this chopping off end, head and tail, then, well we're we're screwed.
+There is not-.
+There is nothing we can do about it.
+(PERSON13) So actually it does not happen in like all of the chunks but like in some-.
+Okay so it's be better if I show you here.
+(PERSON16) Mhm
+(PERSON13) And I will start the-
+So uh can can you see this?
+(PERSON16) Yeah.
+It said that you started-.
+Yes I see something.
+<laugh/>
+But it's pretty small.
+(PERSON13) Yeah, exactly.
+And I I okay.
+<unintelligible/>
+(PERSON16) So maybe just Control+ should increase the font size.
+(PERSON13) Like this?
+(PERSON16) Yes, it takes a while until it updates.
+Uh, so yes this is this readable.
+And I can see line number 2, line number 1 is still, uh, like obsured by your your window and my window.
+Oh no I can mo move it, okay.
+I cannot move myself, so, uh,-
+(PERSON13) So yeah, even second segment is good.
+So you can see the segment.
+It starts from A.V.E-.
+(PERSON16) F-.
+(PERSON13) Yeah, but it is about the second segment.
+But if you want this-.
+I would like to show you this-.
+(PERSON16) This is, this is "have" this should be "have".
+(PERSON13) I I I exactly so.
+The sentence is-.
+The sentence is: "Do I have to" <unintelligible/>.
+(PERSON16) So even "Do I?"
+(PERSON13) So it completely, so it completely missed this uh "Do I-".
+(PERSON16) Mhm.
+Yeah.
+So talk to [PERSON20].
+I have no idea what, why this could be happening.
+Send him these two files, the input file and the output file.
+(PERSON13) Yeah, yeah, yeah.
+(PERSON16) Just actually send him the path name of that, uh, of this adjacent files but copy paste that these two lines into the into the email right away.
+(PERSON13) Yeah, exactly, exactly.
+So, yeah <unintelligible/> talked about this.
+Okay, so the last question is about an email which you sent a few days ago or probably last week.
+(PERSON16) Mhm.
+(PERSON13) So you talked about the alphabets in forced alignments and there was this configuration file <unintelligible/>.
+(PERSON16) Mhm.
+(PERSON13) And at the bottom point it w it had a list of letters which forced alignment accepts.
+So it was-.
+If I properly understand what this means is that forced alignment can only accept a lower case letters, no punctuations and no upper case letters.
+Is that is that?
+(PERSON16) Yes, yeah.
+(PERSON13) Alright.
+(PERSON16) So-.
+(PERSON13) Yeah, yeah, okay, yeah.
+Say.
+(PERSON16) But beware I think that the Czech model accepts only upper case.
+So it's like -.
+That's very much configuration dependant.
+(PERSON13) Aha, okay.
+(PERSON16) So, so have a look at the-.
+For now you need only English forced aligner.
+So for now focus on the English.
+(PERSON13) Yeah, yeah, yeah.
+(PERSON16) And there is-.
+I think it accepts apostrophe as well-
+Uh, uh, but not new lines obviously and not, uh, not numbers so there-.
+So we need to do some trick with numbers, uh, so the numbers should be actually spelled out.
+<laugh/>
+(PERSON13) Mhm mhm.
+(PERSON16) There are not too many numbers but there are some in the, uh, in the transcripts.
+(PERSON13) Like what you mean of-.
+(PERSON16) Like 2020.
+(PERSON13)  2 0 in yeah in numbers.
+(PERSON16) So if you have 2020 then in the transcript like as one word, like 4 characters 2 0 2 0.
+Then it should be spelled out in some way in which it was spelled out.
+<laugh/>
+In the, uh,  in the text.
+So that's uh-.
+Well this is annoying, uh, well we'll see how far we get with this, like-.
+[PERSON20] will know how to convert numbers to the spoken versions of them, because he
+also had to do it guess.
+So talk to him about this as well.
+(PERSON13) Okay.
+Okay, I'll talk to him.
+(PERSON16) For Czech, [PERSON5] surely has a script that does that.
+(PERSON13) Mhm.
+(PERSON16) Obviously the person, the person could have said the number differently, uh, and then we are screwed.
+(PERSON13) Mhm.
+(PERSON16) But  yeah.
+This is not so likely.
+(PERSON13) So you you mean these numbers are not acceptable in the forced aligner.
+(PERSON16) The forced aligner, uh, oh, uh, yeah, it's just yeah-.
+It just, it just doesn't work.
+It excess it expects the the letters that corresponds to the, uh, to the like vowels and consonants of the to the phonemes in the in the speech.
+And if the letters are the the digit 2 then there uh, uh, is no clear correspondence to phonemes.
+(PERSON13) Yeah, yeah, yeah.
+Okay.
+Yeah so it all-.
+So basically I need to refer to the configuration files.
+Yeah, okay.
+And that is all that I have written down.
+And I will start working on this karaoke, then I will discuss with [PERSON21] and then I I will start working on the log.
+To get the log directories for the, uh, uh, for the meeting for the last conference.
+And I -.
+(PERSON16) Yeah, for the mock conference, great.
+Yeah, yeah.
+(PERSON13) Yeah, for the mock conference.
+(PERSON16) And when I, when I talked about the getting the versions of the systems.
+Uh, this is something which can be tested on anything, including the mock conferences obviously.
+So uh-
+(PERSON13) Version of the system, like what do you mean.
+(PERSON16) So like in the log dir we need to know which version of the [ORGANIZATION1] system was in use.
+(PERSON13) Okay, alright.
+(PERSON16) This was, this was mentioned in the call, uh, this morning.
+(PERSON13) Yeah, yeah, yeah.
+Yeah, yeah.
+I understand, yeah.
+(PERSON16) So this is, this also an opportunity to, to like work on that, on gathering that information.
+(PERSON13) Mhm, okay, okay.
+And these log directories-.
+So basically, uh, we had like, I don't know what we had appro, we had like 6 channel being spoken in this.
+(PERSON16) Yeah.
+(PERSON13) So this-.
+These audio recordings have 6 channel so I need to separate each of them out and do the ASR.
+<unintelligible/>
+(PERSON13) They are already separated.
+(PERSON16) Oh, well the record cut script work for them.
+So maybe they are already separate files.
+(PERSON13) Yeah, exactly.
+(PERSON16) Or the record cut script, yeah.
+(PERSON13) Okay, so by <unintelligible/> preparing <unintelligible/> you mean generating the ASR and generating the MNTs, right?
+(PERSON16) Yeah.
+(PERSON13) Time stamped.
+(PERSON16) Yes, so for for now you need to do it for each of the channels separately.
+(PERSON13) Okay, okay.
+(PERSON16) And you can do it one by one.
+You do not have to do it at the same time.
+(PERSON13) Yeah, exactly, yeah.
+(PERSON16) The good thing about these channels is that they start at very same-.
+They are synchronised.
+(PERSON13) <unintelligible/>
+(PERSON16) So they start at the time 0 and that's perfect.
+Uh, so, uh that means that we can then observe all the many different English versions and the time stamps will will match.
+So we would be like playing for ourselves the different English versions simultaneously and trying to figure out which of them is the best at the given moment.
+So we should like-.
+So when you prepare these log dirs we should then run a test session with annotators including ourselves and, uh, figuring out at what time stamps-.
+At what stamps of time we prefer this English at what times do we prepare this one.
+So like time based labelling which of the English streams is good.
+(PERSON13) Mhm, mhm.
+(PERSON16) And then, uh, after we figure out how to do it ourselves, we can consider what should be the user interface for anybody, like a non-skilled person.
+And whether the task as such is is doable at all.
+Or whether it is too much load on the on the human brain.
+(PERSON13) Mhm, okay, okay, okay.
+And that's -.
+Like so suppose the main audios the main speaker in, is speaking in French.
+(PERSON16) Yeah.
+(PERSON13) And we have the interpretation, interpreter in Czech.
+(PERSON16) Yes.
+(PERSON13) So I need to get the English [ORGANIZATION2], from the, uh, from the Czech interpreter.
+(PERSON16) Yes.
+(PERSON13) Otherwise English [ORGANIZATION2] from the French ASR.
+(PERSON16) Uh.
+Yes, if we have system for that, yes.
+(PERSON13) And then we need to check which English is better.
+(PERSON16) Yes, exactly.
+(PERSON13) Is that, is that what you are talking about.
+Right?
+(PERSON16) Yes, exactly.
+Yeah.
+(PERSON13) Okay, alright, alright, alright, alright.
+(PERSON16) Yeah.
+(PERSON13) Okay, like okay, is it's it's clear now.
+<unintelligible/>
+(PERSON16) So I'm afraid that the [ORGANIZATION2] room will, is booked for 2 minutes more only and then it will possibly close.
+(PERSON13) Okay, okay, yeah, I I I I'm I'm done I'm done.
+<unintelligible/>
+Yeah, okay, okay.
+So thank you for your time again and yeah-.
+And have a great-.
+(PERSON16) Great, thanks.
+I'll be in the office in the afternoon from like 3, 4ish till, uh, probably 7 or 8.
+Uh, uh, today.
+But but you don't have to come.
+(PERSON13) <unintelligible/> department?
+(PERSON16) Yeah, well on foot it's it's not far from, far away from me, for me so it's it's a nice exercise.
+<laugh/>
+(PERSON13) Okay, alright.
+Yeah.
+<laugh/>
+So, yeah, okay, so, uh.
+Let's, let's yeah, let's speak.
+(PERSON16) Yeah but you don't have to, you don't have to come there in person at at all.
+(PERSON13) Okay, okay.
+Yeah, yeah.
+Thank you then.
+(PERSON16) Great, thanks.
+And and talk to you.
+We'll be in touch.
+Thank you.
+(PERSON13) Yeah, sure.
+Okay.
+Bye.
+(PERSON16) Bye, bye.
+Thanks.
+(PERSON13) Bye, bye, bye.

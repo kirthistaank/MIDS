@@ -1,0 +1,26 @@
+2nd dry run [LOCATION1] 1.10.2019
+Attendees: [PERSON9], [PERSON13], [PERSON5], [PERSON10], [PERSON11], [PERSON2]
+Purpose of meeting: Discussion about ASR and also timestamps in the text
+
+Summary
+• new colleague [PERSON4] will be working on [PROJECT2]
+• should test the full setup with as many languages
+• [PERSON2] and [PERSON19] must put slides streaming setup together in [LOCATION2] during [PROJECT1]
+• [ORGANIZATION4] will decide if to gather and keep all audio or not 
+• [PROJECT2] collected theirs logs from [PROJECT1]
+• incremental ASR wasn't working
+• real time segmentation mode doesn't work
+• changing subtitling windows is risky
+• EB client does not read from standard input
+• shorter lines (instead of 150 characters only 100)
+• component between ASR and MT is called segmenter
+• timestamps were missing from incremental ASR
+• changing the underlying wire protocol is not going to make much difference
+• MT isn't sending all the timestamps
+• EB client selects just text content from token messages
+
+		Milestones
+		• May 2020 - congress
+
+
+Minutes submitted by [ANNOTATOR1]

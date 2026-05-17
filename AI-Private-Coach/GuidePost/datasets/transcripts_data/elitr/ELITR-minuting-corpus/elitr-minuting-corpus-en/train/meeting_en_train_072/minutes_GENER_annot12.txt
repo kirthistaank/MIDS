@@ -1,0 +1,134 @@
+[PROJECT2] SHORT PREP
+
+DATE: 9th May, 2019
+
+GOAL: Summarize all components needed for [PROJECT1] conference
+
+ACTION ITEMS:
+
+EB CLIENT, PRODUCTION-READY VERSION
+
+- [PERSON16] suggests to use provided API in Java and .NET 
+
+will upload .NET ASAP
+
+- [PERSON12] suggests to continue in C, make clients more robust and update them
+
+- [PERSON6] will try to build Python binding example, but can't promise anything
+
+- [PERSON12] decides to stay with Python
+
+TEXT-TO-TEXT CLIENTS
+
+- [PERSON12] suggests to use samples in C sample code 
+
+TESTS
+
+- test sets need to be done in single-command
+
+- [PERSON12] shows example: Cruise control
+
+private repository, [PERSON12] informs participants to make sure they have access 
+
+ADMIN WEB
+
+- very basic, needs advancement
+
+- [PERSON16] will fix search path page on the web interface, but not ready for [PROJECT1]
+
+- [PERSON12] wants a command line example to use the search path 
+
+[PERSON16] will introduce in the future
+
+BROWSING LOGS
+
+- mediator on [ORGANIZATION8] server under VPN, not possible to provide access to all logs 
+
+- [PERSON16] can schedule coordinated checks or provide specific logs from the past  
+
+- same for [ORGANIZATION3], firewall rules, may be able to connect mediator only
+
+- [PERSON6] will try to arrange access to their servers to check the logs online, not sure
+
+- everyone will look on their logs, together ([ORGANIZATION3], [ORGANIZATION8])
+
+ASR WORKERS
+
+workers that need to be ready for the meeting: EN (2x), De, Cz
+
+PUNCTUATION AND SEGMENTATION WORKERS
+
+- En, De, Cz
+
+- [PERSON10] has no experience in subsentence level, not sure if ready in time for [PROJECT1]
+
+- [ORGANIZATION3] has an important DEMO at the time of the members happening 
+
+- [PERSON6] offers their translation workers only, no capacity
+
+- [PERSON12] suggests adding functionality to [PROJECT3] MT integrator: translate complete sentences only until sentence level from P
+
+MT WORKERS
+
+- Multisource is not yet supported by [ORGANIZATION8] mediator, needs to be planned
+
+will not be ready for [PROJECT1]
+
+- [PERSON10] has multitarget system for translation out of EN into all [ORGANIZATION7] languages
+
+concluded it was too much, wants to cover only target languages for the event
+
+- [ORGANIZATION3] has systems into GE, EN, IT, FR, ES, PT
+
+INTEGRATION OF [PROJECT3] AS MT WORKER INTO [ORGANIZATION8]
+
+- [PERSON10] has no experience, asks for examples
+
+- [PERSON16] offers support to [PERSON10] and will provide all documentation required
+
+- [PERSON6] will link GitHub page to MT worker system so [PERSON10] can use it
+
+it already has integration of 3 MT systems
+
+- [PERSON10] agrees to do it with support from [ORGANIZATION8] and [ORGANIZATION4]
+
+LIVE STREAM SELECTION
+
+- needs GUI / UI to choose the best source
+
+- [ORGANIZATION8] is working on web application as part of presentation platform
+
+PRESENTATION PLATFORM
+
+- platform needs to be able to jump on available sessions after restarting EB client  
+
+- [PERSON16] took a note, will not be ready for [PROJECT1]
+
+- presentation of streamed slides
+
+[PERSON16] notes that as soon as it is under HLS protocol it works 
+
+- when ready, they will check everything together 
+
+- [PERSON16] suggests Web application
+
+should work well in full screen  
+
+EN ASR ADAPTATION based on documents provided by participants
+
+- [ORGANIZATION3] will do it
+
+MT ADAPTATION
+
+- [ORGANIZATION4] is interested in parallel VAT data from TAUS for fine tuning (EN into all)
+
+METHODOLOGY FOR SELECTING FINAL MODELS
+
+- [PERSON10] suggests the best is to use parallel data form TAUS as test sets
+
+NEXT CALL:
+
+17th May, 2019, 10:00 AM
+
+Minutes submitted by: [ANNOTATOR1]
+Zápis odevzdala: [ANNOTATOR1]

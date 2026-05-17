@@ -1,0 +1,883 @@
+(PERSON7) Yeah, hi [PERSON14].
+(PERSON16) Hello.
+(PERSON7) Yeah <unintelligible/> works.
+So I guess there is no news.
+<laugh/>
+<unintelligible/> or is there.
+(PERSON16) Well <unintelligible/> apparently temporarily we stored some power.
+(PERSON7) Okay.
+(PERSON16) But they they will shut it off again, they have not told us yet.
+And and.
+(PERSON7) Yeah yeah so I think that you should focus on copying over all the various files, because I think that we would really like to to a I'll write that to [PERSON5] separately.
+But I think this this really confirms that everything, including our systems obviously needs to have a backup somewhere else a a tested backup.
+Uh.
+(PERSON16) Uh yes.
+<unintelligible/> maybe something like that <unintelligible/> happen although it will not happen today.
+The recommendation for us was actually to keep the servers off because.
+(PERSON7) Oh okay, because they will.
+(PERSON16) We don't know when the server when the power will actually turn off again.
+And I think the risk of actually using data is.
+The servers just unexpectedly shut down.
+(PERSON7) That's thats true.
+Yeah.
+(PERSON16) So we'll keep them off.
+(PERSON7) So the ehm um your your keep them off.
+So you are not going to copy anything out.
+For the signal.
+(PERSON16) No no no.
+(PERSON7) Yeah.
+Okay.
+(PERSON16) When the power is back then we will.
+Then we will probably talk about how we can be more robust to this sort of failure.
+Because there will be construction there for.
+At least another year.
+(PERSON7) Yeah yeah.
+(PERSON16) I mean the situation with that server room is actually complicated anyway.
+We were supposed to vacate it like two years ago.
+But they didnt provide us an alternative where to put our servers and unless we all put our servers in our living rooms.
+We are we need it.
+(PERSON7) Yeah.
+(PERSON16) I guess the good news is that it seems that the bomb was a false alarm.
+(PERSON7) Okay.
+(PERSON16) Anything anything else about that.
+(PERSON7) Yeah.
+So there is one more thing that I would like to get from you.
+And that is in the slides.
+Which are in overleaf.
+So I guess you already have yeah you are maybe looking at those.
+(PERSON16) I'm looking at them now and and checking where to where to put our stuff.
+(PERSON7) Yes exactly.
+So there is a slide 21 end to end neural ASR, but well feel free to do any slides you like.
+This was just my suggestion.
+(PERSON16) Overleaf is highlighting everything in red.
+(PERSON7) Yeah not for me.
+<laugh/>
+(PERSON16) Unclosed end document.
+Ok it seems like some of the beggining <unintelligible/> didnt match up.
+Which I fix now.
+Okay.
+I'm going to alert <unintelligible/>.
+Do you have to know when the notifications <unintelligible/> except for [PROJECT3] for for <unintelligible/>.
+(PERSON7) No?
+I don't.
+(PERSON16) I thought it was supposed to be yesterday.
+But I cannot access the website because its posted on our servers.
+(PERSON7) Oh.
+<laugh/>
+So the IWSLT is now without the website right?
+(PERSON16) As far as I can see IWSLT <unintelligible/>.
+(PERSON7) Okay.
+<laugh/>
+I dunno, I.
+I think someone told me it was the 15th so that technically means tomorrow midday.
+(PERSON16) I think okay.
+(PERSON7) But I don't I don't really know.
+(PERSON16) Because I do have a paper in there that is relevant to to [PROJECT3] you know.
+If it was accepted now that <unintelligible/>.
+(PERSON7) Um-hum, um-hum.
+(PERSON16) Most reasoned results we can put it on the slides.
+(PERSON7) Yeah.
+(PERSON16) <unintelligible/> we'll know.
+(PERSON3) Hey guys, good morning.
+(PERSON7) Hello, morning.
+(PERSON16) Morning.
+(PERSON7) So I'm still adding URL's to the.
+To the presentation.
+This is too complicated actually so I dunno how to.
+<parallel_talk/>
+So [PERSON17] would [PERSON6] join as well?
+(PERSON2) Hi.
+(PERSON7) So [PERSON6] is probably already there right?
+That was [PERSON15], right.
+So [PERSON17] would [PERSON6] join would you know?
+(PERSON3) Yes yes, he he <unintelligible/> minutes.
+(PERSON7) Okay.
+In the minutes okay.
+And you are listening, you can hear us right?
+Okay, so [PERSON11] can h- is listening to to the Zoom call.
+But he doesnt have the microphone
+Because that was causing the loop yesterday.
+So its only me who has a microphone.
+So [PERSON15], v-.
+How much time do you need?
+[PERSON15] is not here.
+So [PERSON15] is also trying to set up what what he posted yesterday.
+So that while watching the videos, a participants who do not speak Czech should be clicking to buttons, like how well they like the current subtitles, and it would be timestamped.
+And we can then align it and see like where the problems it is going to be approximate because the sync of the video.
+Is not perfect, as you know, but it still, will probably be useful to to identify the the to give us some measure of the overall usability of of that.
+So a please look up in your emails, because [PERSON15] sent it this morning.
+The [ORGANIZATION7] document and please sign up yourself if you can to the subtitle rating uh, documents, so.
+Whoever is available.
+Please write your name here that is what I'm going to highlight.
+(PERSON1) I'm sorry I didnt catch it, where is it?
+(PERSON7) In your email it it was into [PROJECT3] yeah [PROJECT3] it <unintelligible/>.
+Hi [PERSON8].
+(PERSON10) Hi, <unintelligible/> buttons.
+(PERSON7) Yeah, so we'll I'm waiting for [PERSON11] to confirm that the videos are ready.
+And I'm also waiting for [PERSON15] to confirm that his instructions are ready.
+(PERSON1) Its almost ready.
+I need [PERSON11] for.
+For.
+(PERSON7) So you, in the meantime you can look at the slides in Overleaf especially at the tail to add anything you may want to add in your future work.
+<other_noise/>
+(PERSON1) [PERSON13] are you asking me?
+(PERSON7) Not no this is for the slides thats for [PERSON8] and [ORGANIZATION5] and [PERSON14] already is looking there.
+So thats if we want to show in the real demo.
+Any new findings or or any any like preview of plans for the upcoming months.
+This would be the place to to put it here.
+(PERSON3) Okay thank you.
+(PERSON7) Yep.
+<parallel_talk/>
+<other_noise/>
+(PERSON1) We actually do have updates about the <unintelligible/>.
+(PERSON7) Okay.
+(PERSON1) Now there a news article.
+(PERSON7) Oh great.
+<laugh/>
+(PERSON1) Yeah its suspected to be an unexploded <unintelligible/>.
+They will they will further investigate on Tuesday 19th of May.
+Only then will they decide to whether or not a defusal will be necessary.
+When it will happen and what areas will be affected.
+(PERSON7) Yeah.
+(PERSON1) So we can add to the to the slides with the <unintelligible/>.
+(PERSON7) Yes.
+(PERSON1) The bomb.
+(PERSON7) Yes yes.
+<laugh/>
+(PERSON3) Nice.
+(PERSON1) We should've had demo last week.
+Everything was fine last week.
+(PERSON7) Except for the demo.
+<laugh/>
+Okay yeah [PERSON17] would you know the command line flag for FFM peg to stop at a certain position I think its like minus SS space and then.
+(PERSON3) SS.
+(PERSON9) SS is the starting position.
+And <unintelligible/> is the time time to stop.
+(PERSON7) <parallel_talk/>
+So so maybe [PERSON17].
+<parallel_talk/>
+So we are trying to cut the the second video which is an hour long.
+We are trying to pre process it but get only the first 15 minutes so that we don't have wait too long.
+But this is this is failing.
+(PERSON3) Okay.
+I'm copying the base thing with
+(PERSON7) Um, ma- I dunno if chatbox is best accessible to [PERSON11].
+Yeah.
+(PERSON3) <unintelligible/>.
+(PERSON7) I dunno well um.
+Because anywhere.
+(PERSON3) <unintelligible/>.
+<parallel_talk/>
+This should work.
+<unintelligible/>.
+Okay nice.
+(PERSON7) So [PERSON11] says that within 10 minutes the conversion will be ready.
+So lets plan to start the demo at 11 to give us ah.
+<unintelligible/> 10 minutes.
+So at at 11 we will start with all the broadcasting as as yeah.
+As dry run thanks.
+<other_noise/>
+<another_language/>
+So [PERSON15] are you ready as well.
+[PERSON11] says that he is testing it and.
+(PERSON15) Yes.
+(PERSON7) Yeah so in addition to the slides themselves, we are going to like ask you to annotate how much did you like the the subtitles at various stages of the subtitles being presented.
+[PERSON15] has, so you are all looking at that instructions subtitle rating the document <unintelligible/>.
+Have a title there.
+<laugh/>
+<parallel_talk/>
+And the webpage of the subtitle rating is very simple thing it contains just 5 or 6 buttons and the idea is that you will you should overlay this over the set of languages.
+And click what is your evaluation on these on this buttons.
+Whenever you have any opinion so the more you click the the better.
+But obviously, you should not uh, like damage your capacity of following the subtitles that because of this annotation.
+So we will also probably for other runs we will improve the user interface, so that its easier to to make your evaluation.
+And what the interface is doing.
+It is only only a recording timestamped evaluation.
+Uh.
+So don't worry if you like start looking at the subtitles too late, or if the video is it out of sync.
+So the the video out of sync is is little, uh, problem, um, but there is not so much information in the video anyway.
+If you are like late with following the subtitles.
+That is not a problem at all.
+Your annotations will be simply in absolute, times aligned with when the subtitles are presented.
+So we will know what subtitles you are evaluating it at that moment.
+So that your annotation would be incomplete, but we will still have relevant portion.
+Yeah.
+So thats thats for the extra to task, and what I'm going to do now.
+Yeah, so [PERSON11] is testing something something is appearing in the.
+<parallel_talk/>
+So I'll just recompile the slides.
+Present the slides, share my screen and we will switch to the demo since [PERSON11] will try to follow me as I'm as I will be giving the instruction and this will be live test.
+<laugh/>
+Of our like cooperation.
+Yeah, so.
+We have this demo session.
+And then <unintelligible/>.
+(PERSON3) Okay, just just a <unintelligible/> your screen resolution is not enought you can avoid the three lines of subtitles just pressing CTRL - to decrease the zoom of the webpage.
+(PERSON7) Yes yes excatly.
+So this is what also wanted to uh, to mention a when I'm getting the instructions.
+But I do not have the shortcut there.
+So maybe I should add the shortcut also to the to the slides.
+Ah, and I will have this one.
+<parallel_talk/>
+Yeah okay so.
+(PERSON3) I checked the optimal screen resolution.
+And it should be 1920 for 1080 but of course i also a secondary monitor and it doesnt match of resolution so I just control and minus and it works.
+(PERSON7) Okay, so I suggest that we get started.
+We don't have any external watchers who have asked or [PERSON15] has asked or so our colleagues, but none of them has responded.
+So it would be just us if I'm not mistaken.
+Yep.
+Yeah, okay, uh, and I'm going to start sharing my screen now.
+So there is now now you are hopefully seeing my screen and you are hopefully seeing the the slides.
+And there is.
+I'm trying to hide the.
+Okay.
+So there is one thing, which would be useful for you to know when we are giving the demo, and thats how to minimize or like an and how to demaximize the screen sharing now, because I know that zoom is stealing all your uh, desktop space.
+And so at the top of the screen share window.
+You c- there is some button, which uh, which allows you to like a a leave the full screen mode.
+And in that case, you will still see my screen shared but in a separate window.
+And you can also go back to a web browser, which would be needed for the demo afterwards.
+So I hope that everybody is now paying attention to uh, the test presentation, and I'm going to start.
+I hope that you can see my slides.
+Welcome to this dry run of a demo of the [PROJECT3] project.
+Here is the overview.
+We are.
+I'm first going to briefly discuss the goals of the project, and the current status of the development.
+And then we will have most of the time devoted to the demo sessions.
+There would be actually two demo sessions and the first one will be subtitling stream videos, and there would be another one.
+Where we will be trying to follow our discussions and have it live transcribed into multiple languages.
+And then we will.
+We will have uh, some time, for any of your questions or comments.
+And depending on how long we spend with this time.
+Uh.
+I will also present the future plans that we have withim [PROJECT3].
+So to start with [PROJECT3] description.
+We have multiple, uh, research and innovation goals.
+We are trying to to improve multilingual machine translation system, and also to include a processing of speech.
+At the beginning of the pipeline for machine translation.
+We are also looking at the document level coherence.
+And that includes both written documents as well as spoken documents, so speeches, uh, and.
+We have also a separate goal, which is the automatic summarization, especially of meetings, which we call minuting.
+There are three research partners, and two companies in the in the project the project is coordinated at [ORGANIZATION6], and we have [ORGANIZATION3] and [ORGANIZATION9] Institute of technology.
+As the research partners.
+[ORGANIZATION5] is our integrator partner.
+And [ORGANIZATION4] is one <unintelligible/> user partners, and we also have an affiliated like separate like outside of the project consortium, but still close the link user partner and thats the [ORGANIZATION8].
+And the [ORGANIZATION8] provides the project with a main event.
+Uh, where we are supposes to test the technology and the technology of lif- live speech translation into text.
+Uh, is going to be used in the [ORGANIZATION1] congress.
+The Congress was shifted by one year.
+So its going to happen in may 2021, and this has been just conference.
+So we know the exact date of of this Congress.
+Thats luckily still within the time frame of the [PROJECT3] project.
+So it would be easy to to respond to this new new changed conditions.
+The project is research and innovation project.
+And that means that some of the activities that we are doing.
+Are uh, well, understood.
+And uh, they only need to be put into practice.
+Thats the innovation part.
+And some of the activities of some of the goals are still too unknown, and we are combining both of these goals.
+So machine translation and speech translation have been studied for decades.
+And uh, they are close to becoming more useful in practice.
+But what is new is the high highly multilingual aspect.
+And thats what we are of researching, or studying in in our project.
+And also one machine translation works for some language pairs very well, at the level of sentences the level of the whole documents is still a very much unreliable.
+So there can be incoherence into translations of of various types.
+And thats also what we are looking at.
+And the topic of a meeting summarization.
+That is highly uh, unknown area so obviously this summarization has been studied.
+And transcripts of meetings are also being recorded.
+But still the task of automatic summarization of meetings into meeting minutes is something which has not been put up as a research task.
+For example, as a shared task for a conferences.
+So that we are just like paving the land for uh, for future research, by collecting data, creating some baseline models, but it cannot be expected that we will deliver working solution for this task within the project.
+This is a picture of summary of that, uh, we I just wanted to illustrate that by spoken language translation.
+We mean, the concatenation of a processing speech.
+Into the transcript of one language possibly.
+And then uh, going to the to the translation in the other language.
+The spoken language translation can be done in two steps, a as separate system for speech recognition and separate system for speech translation.
+And uh, the minuting is is something which uses this transcript to populate the agenda with with minutes.
+And here with the colors.
+I again, <unintelligible/> that ASR the spoken the speech recognition and machine translation.
+A separate tasks have been studied a lot but the spoken language translation as one shot end to end task is something which is still a under research.
+And and so is the automatic minutinh.
+[PROJECT3] is quite ambitious, uh in terms of languages covered.
+Uh.
+So we have a was seven source languages.
+So we are developing or improving systems for speech recognition of English German French, Spanish it during Russian and were also experimenting with Czech, and we are a targeting primarily a subset of these languages.
+English German Czech but we are covering all European languages.
+And actually experimental.
+We are trying to cover all 43 languages that are needed by our affiliated user partner, the [ORGANIZATION8], who who are connected in the [ORGANIZATION1] consortium.
+Uh, yeah.
+So uh, with this many target languages, and this many source languages, and with the ambition to do subtitling of of a Congress.
+We know that this cannot be achieved without serious testing.
+So we had this time line of events in the project proposal.
+Uh.
+There was a a.
+It was planned to have to uh, to uh, two two test events that the [ORGANIZATION8] has provided.
+But we are adding many more other events.
+So here is summary we started already.
+In the third month of the project.
+We started with testing and  preexisting technology, to see how it works in practice.
+We got in touch with uh, in interpreters students of interpretation, a difficulty of arts of a [ORGANIZATION6].
+They run mo- conferences and interpret them to uh, to practice interpretation, and we are uh, and connected to that, and we are getting there a data.
+And we are using that as as a benchmark, and a a comparative resource to uh, to relate our systems to the performance of humans in the task.
+There was uh, the uh, the workshop on value added text, which was the first event that the [ORGANIZATION8] ran for us.
+And there was another event last October.
+And then we added the uh, the the demonstration of the system at the University open doors day.
+Then we try to demo it at at one of like social events in [LOCATION1].
+And we are also preparing for workshop that will describe language technologies to to employees of the [ORGANIZATION8]  so that they know what computers can do and how computers can help in their daily practise.
+So this is the <unintelligible/> tools workshop which had dry run in February.
+And the first real successful public demo happened last November at University open doors day.
+The best of prg.ai event was actually a an a failure.
+And the reason was that the WiFi was overloaded when the audience came.
+So the test fully worked before the audience came, and then the audience came.
+And suddenly our system was not able to deliver the sound to our systems, because people simply have their cell phones nearby.
+They didnt use them, but still the the network failed.
+And in the lengtools workshop dry run with the uh, an employees of [ORGANIZATION8] the whole system worked well technically.
+But there we ran into the issue that the users are actually overloaded by the translations, and it is hard to follow even if the translations are uh, are acceptable.
+So aside from tech- technological problems were also fighting with like user, usability problems.
+And this is probably something that you will also experience today.
+When working on the systems under the hood.
+We take part in various competitions, and we are also running a shared task dedicated to this in IWSLT.
+So uh, there is many, many events where we <unintelligible/> testing parts or parts of the system or the system as a whole.
+Uh, if the uh, should demo fail today.
+There are a luckily some recorded demos from the the previous events.
+So here is summary of links, the first demo from the very beginning of the project, the students <unintelligible/> then the uh, the short demo at the University open doors day which worked pretty well.
+Then I was giving detailed lecture on the technical aspects like, how what is why is it so difficult to translate speech, uh, highlighting all the problems that can arise.
+And this lecture, a was a live subtitled.
+And you can see our our English subtitles appearing at the bottom of this lights in in the recording of of this lecture.
+What you don't see any more are the live translation of of the.
+So if you want to see the uh, the live translations appearing.
+Then we have a lecture snippets actually this this video content, just a few snippets from a lecture given by a colleague of mine, [PERSON4] in Czech and that is being live translated into many target languages.
+And you can you can see the video and and try to follow.
+What is what is being said.
+Here is an overview of the architecture.
+I do not want to go into the detail.
+But we have mediator central point in that architecture and their systems from the various researh partners, connected to the mediator and then someone who needs to process the sound will connect as a client and the the sound from the client would be processed through this complex pipeline of speech recognition, sentence segmentation, machine translation.
+And then it will be published on the web.
+And the user can then look at the website to to see to see the subtitles.
+These connection to the workers are always open.
+So they are reused.
+So the start up is pretty quick.
+Uh.
+But its based on TCP communication.
+So it actually relies on network throughput.
+And if there is heavy traffic that can cause problem.
+So over the many test events.
+We have observed many issues with sound acquisition there is whole signs behind that, how to receive sound and record it.
+So that is sufficient of sufficient quality for speech recognition.
+We have had slowdowns at the ASR research partners for some network issues.
+We have had queueing of web events.
+So everything was actually processed and available on time.
+But the end users web browser was overloaded, and therefore it, uh, displayed the subtitles too too late.
+And then uh, you know, that our demo was was was found, and that is because the power line to [ORGANIZATION9] servers room was cut by digger.
+Uh, and there would be one more picture with the bomb.
+So you see that even if everything is well prepared.
+And if the architecture allows for like duplicated workers it still can be pretty challenging to to get it running on the on the spot.
+So for the [ORGANIZATION1] congress we will have to have all the workers replicated across sites, and we will have to have a fully running a secondary solution, in case someone cuts a wire again.
+So now lets go for demoes.
+Yeah, the first demo is subtitling of stream videos.
+And for this, there is so for this I would like to highlight that this is slightly from the users point of view, its slightly different setup.
+out for this.
+I would like to highlight dead.
+This is slightly from the users point of view.
+It is slightly different set up.
+And from technic point of view is is pretty new setup compared to what is planned to what was planned in the [PROJECT3] project.
+We were always expected to just acquire sound and provide the sound with the text the translations.
+But now we are for the demo, which has to be run remotely.
+We are also expected to actually broadcast the sound.
+And that should be in sync in sync at the same time as as the subtitles are processed.
+So we have spent multiple weeks in preparation for this new set up actually, and the solution that we have is is not as a user convenient as we would have liked.
+Its we are not developing new YouTube platform unfortunately.
+And we cannot rely on YouTube Platform because we cannot rebroadcast the movies that that the video they have already there because they would immediately stop us from broadcasting.
+So while we have a setup where we can life subtitle YouTube broadcasts.
+We cannot run these broadcasts with prerecorded videos because then they would ban us.
+So we are doing our own streaming.
+And for this to work if you are using a Firefox then it would be helpful if you could allow autoplay in in Firefox.
+So if you can go to the [PROJECT3].[ORGANIZATION5].com webpage.
+And then when you are there.
+If you can click on this on this.
+On this icon next to the URL bar.
+And allow autoplay that will simplify the the playback in sync with the subtitles.
+If you don't have Firefox, or you do not find the setting.
+What you will have to do when looking at the subtitles you will have to open the web page, with the video and click the play button thats indicated as one here, and then because your your browser can be somewhat late compared to our streaming of that of that video.
+You have to click, at the end of the bar to move to the life, a to the life, watching of of the video.
+And to validate that you are receiving the videos correctly.
+You will see that the duration of the video is constantly growing as we are streaming more and more content.
+So you should be always watching the varied tale of the video as it is coming to your web browser.
+So this is our broadcasting.
+And their underneath below that that video.
+There would be the subtitles.
+And you can choose which languages you want to see a by clicking on the language buttons.
+We have for use the set of languages to keep the user interface, complexity reasonable.
+And uh, as you may, uh, need to reuse the font size.
+So here is a summary.
+So right now I'll make this make this slide smaller, and you are still seeing my screen.
+And I'll try to demonstrate what you should prepare on your screens as well.
+So no, no, no, this is this is the right user interface.
+So you should you should go to this web page.
+There are some some dum- some dummy subtitles appearing there.
+So please go to the Web page, <unintelligible/> [PROJECT3] [ORGANIZATION5].com.
+And if you are prompted for login then enter the username [PROJECT3] at [PROJECT3] EU.
+And the password is [PROJECT3].
+And I'm going to to show that here.
+Here, you see the the subtitle, sometimes do not fit.
+So I hit control minus.
+And maybe once more so that the two lines of the subtitles fit well on in my screen.
+And so that is that is one important thing to reduce the font size.
+If your browser doesnt show it correctly.
+With the default setting, and then, because our platform is a poor substitute of of YouTube.
+You will have to reload the webpage and you will have to like depreload, so control shift R to start watching the video.
+So at the moment.
+My web pages is is showing some old part of of the video, and I would now like to ask my colleague uh, to to get ready for broadcasting the video for all of us.
+So he will let me know, and I will let you all know.
+That you should when you should press the control shift R on your screen on the [PROJECT3] webpage.
+To get the fresh video appearing.
+So remember to remember to allow auto play if you can use that.
+And if you cannot auto play then after the shift reload.
+You will have to click the play button and click at the end of the bar of of the of the video.
+If you are late with this clicking.
+That is not a big problem problem.
+The subtitles will be running as the video like in sync with the video, but you will be watching the video late.
+And whenever you click the the most recent, uh, a bar whenever you get back to the live watching of the video that would be that would become again in in sync.
+So uh, there is no, uh, the the this can be done at any point during the the full video.
+So if you are very late that is not a problem.
+Just reload the page again, maybe if you lost and click play and click on the end of the bar to get the live presentation of of the video.
+The subtitles are independently presented, and they are always in sync with the main broadcasting.
+Yeah so I got a the signal that my colleague [PERSON11] has already started the video.
+So lets all do the control shift r.
+And I'm going to play it.
+Yeah.
+Yeah so I'm going to leave it running, you can play with the languages and follow the subtitles which you would like to follow.
+And I'm going to anotate also it with the quality of of the transcript.
+<another_language/>
+(PERSON15) [PERSON7] we can hear the audio from this video.
+(PERSON7) Sorry say it again.
+(PERSON15) We hear the audio from the video through your <unintelligible/>.
+(PERSON7) I don't hear because I hear the I'll stop my watching of the video.
+Say it again sorry.
+(PERSON15) We can hear the audio from the video through Zoom through you.
+(PERSON7) Oh, I didnt allow Zoom to do that.
+Okay, so I'm.
+(PERSON15) It sounds more like its being picked up by microphone somewhere.
+(PERSON7) Okay, from my headphones, thats strange.
+<laugh/>
+So i hope its better now.
+(PERSON7) <parallel_talk/>
+Yeah yeah so the video is over.
+That was just a first 15 minutes, so can someone confirm that you can hear me.
+(PERSON15) Yes we can hear you.
+(PERSON7) Yeah yeah okay great.
+So I'll share my screen for a second like for us in addition to uh, that <unintelligible/>.
+Yeah.
+So this is the the set up that I had for myself in the end, I use this subtitle rating window.
+Uh, and I used it for a while, when looking at the subtitles in the subtitle view.
+And then I modified my view so that I saw the paragraphs, because well, I know how to access it.
+And I was a rating the English, uh, subtitles for a while, English transcript for a while.
+And then I was also annotating the the quality of the Czech.
+And we can discuss the the technical your observations in afterwards, I suggest now that we go for the second video, the shorter one, the 3 minute run right?
+Uh.
+And yeah, [PERSON11] is getting ready.
+And again, feel free to choose whatever interface you like.
+For the real demo people will should be watching the subtitle view in the [PROJECT3] platform [PROJECT3] [ORGANIZATION5] platform.
+So this one and.
+(PERSON15) I can show you the final unprocessed results if you want.
+(PERSON7) Yes, so I'm I'm stopping my screen sharing for a second.
+Or maybe can we do it after the second video as well.
+(PERSON15) Yes, in the document if you want to see.
+(PERSON7) Okay yeah.
+So who is curious about the results.
+(PERSON15) It seems that its horrible.
+(PERSON7) Its horri- yeah exactly.
+<laugh/>
+(PERSON15) <unintelligible/>.
+(PERSON7) Yeah.
+(PERSON15) Yes yeah unfortunately the the translation was fine I think but I had to stop reading it also <unintelligible/> get headache.
+(PERSON7) Yeah yeah so lets lets discuss this later on.
+But actually, the Czech transcript looking at the Czech transcript this [PERSON7] watching Czech paragraphs in the document.
+Its often also perfect perfectly usable like one or a usable with a as as some problems or a reasonable.
+So uh, so that the Czech transcript is actually not that bad.
+The segmentation is is bad.
+And the segmentation causes a flicker for the translation.
+And that translation is is heavily damaged by the bad segmentation.
+So this is the problems that we have at the moment of uh.
+And also for this video it was really really like it is difficult content that we do not know.
+So maybe if we watch content that we would be understandable to us.
+It would be also better.
+But still, the problem would <unintelligible/> that the machine translation system is too much relying on the segments which are wrong.
+Uh, so [PERSON11].
+Are you ready for the second video?
+So everybody, [PERSON11] wait, wait, oh, okay.
+So [PERSON11] has already started it.
+Yeah so everybody.
+Please go to the to the screen.
+As I have it now and do a shift reload and click play and play the video for yourself and watch the subtitles.
+Yeah okay, so the video is over, I'm stopping my screen sharing in case have that.
+And lets lets do the discussion and in the meantime [PERSON11] can try to switch the subtitling to do Czech ASR of the Zoom talk, so then with [PERSON15] we'll discuss something in Czech and you will watch us in the paragraph.
+Before that happens we can discuss our observations yeah [PERSON11] right.
+<parallel_talk/>
+So [PERSON15] should should people be people who will be looking at the paragraph you.
+Should they be also clicking the the rating?
+(PERSON15) Right now?
+For.
+(PERSON7) Yeah, once [PERSON11] starts this.
+(PERSON15) Its up to you, you can.
+(PERSON7) Yeah yeah so so it would it would be useful as well.
+So I'll quickly share my screen.
+(PERSON15) <unintelligible/> who followed which language in the first video and in second video.
+(PERSON7) Yes so that we know this.
+So everybody please say, which language you have followed.
+(PERSON15) Or you can do inserted into subtitle reating <unintelligible/>.
+I think everyone followed English but [PERSON14] maybe it was German.
+(PERSON16) Yes, I looked at the German.
+(PERSON15) Yeah.
+Yes, and here second video.
+(PERSON7) Yeah, so in in the meantime.
+This is so we have just had the the demo with the lif subtitling of a video.
+And then the demo the second will be the paragraph you of the discussion here.
+Here the link is different.
+And well you can uh, as as I will probably that is, what should do.
+I should actually paste this link to the chat window.
+So that people can uh.
+Can follow it.
+We'll still somehow need to simplify the the way of getting the link to you.
+But you know, the link yourself, right?
+Please everybody confirm that, you can open the uh, um the user, the paragraph you.
+(PERSON3) I'm going to open.
+(PERSON7) Yeah.
+There is no way to copy the link.
+Yeah so I cannot really copy the link because it it like changes it immediately.
+<laugh/>
+And it opened the wrong web browser and so on.
+So this is I will keep it for you to <unintelligible/>.
+(PERSON15) Chat <unintelligible/>
+(PERSON7) Yeah.
+(PERSON15) And I think it redirects you.
+But theres nothing so far.
+(PERSON7) It depends.
+So if you reloaded, obviously there would be nothing.
+And there should some garbage be.
+Yeah.
+So I think started right.
+It started [PERSON11].
+So [PERSON11] will start it will start subtitling.
+<another_language/>
+If I start speaking Czech.
+Then yeah, it recognizes me.
+<another_language/>
+(PERSON16) Yes we do see understandable English subtitles with quite a lot of delay.
+<another_language/>
+So we are switching back to English and now the subtitles will become horrible.
+So I think [PERSON11] maybe if yoyu can kill it so that it doesnt scroll too far.
+(PERSON16) No honestly the translation is fine, I'm I'm I can read it its not perfect but read the German transcript no problem.
+(PERSON7) Yeah okay, and were you able to click that also in the user interface or no you have just the general impression.
+(PERSON16) The the rating thing no.
+(PERSON7) Is it, yeah nevermind.
+(PERSON16) I know this clip I can click in the and I get some debug output.
+(PERSON7) Yes this is something that I forgot to mention and we may want to like disable it for the demo.
+The the reason is that if you want to copy and error you cannot copy it from the scrolling window so thats why you get this separate tab with that so you can easily take a record of of the of the problem.
+So thats indeed a mental like a debug few.
+So.
+(PERSON16) I am interested in whether you.
+The Czech transcript looks like its <unintelligible/> in Czech.
+But interestingly, in the in the German translational of saying about the video that I selected.
+In English thats pretty good.
+My guess is probably multilingual system opinion confuse sometimes.
+Again its probably what you said but it is very good to draw that pretty good out.
+(PERSON7) Thats pretty good, thats pretty good ouch.
+Okay.
+<laugh/>
+This is interesting.
+Yeah.
+So I do not know how that show up so which which German, who is producing the German.
+Is it [PERSON8] system right?
+(PERSON16) <unintelligible/> right now.
+(PERSON7) No, how is the German produced.
+The German comes from English.
+The German comes from English right.
+Sorry, which worker?
+So [PROJECT2] workers from, running here.
+So its [PERSON8]'s model.
+Or.
+Yeah so well [PERSON11] says its probably [PERSON8]'s model.
+He's not totally sure.
+(PERSON2) Sorry, so its being pivoted through English?
+You think.
+(PERSON7) I think.
+(PERSON16) It could be that thats actually yeah.
+(PERSON7) I think its being pivoted to English.
+But there was no need to do this.
+Right.
+Its <unintelligible/> MT.
+So that English to German is [PROJECT1].
+Okay, yeah.
+So again, we see some serious think we really need to know which models we are using.
+<laugh/>
+And we need to have these models evaluated because right now like I th- thought that.
+The preffered model would be the multilingual Czech to many languages that [PERSON8] has trained, right?
+That would be the best choice would need.
+We don't have to [PERSON8] has the model which goes directly from Czech to many languages.
+(PERSON2) That model was a very late edition.
+So.
+<unintelligible/>.
+I mean configure the worker couple a couple days ago I think.
+(PERSON7) Um hum, yeah.
+(PERSON2) And the translations to <unintelligible/>.
+(PERSON7) But he has not evaluated yet.
+Yeah, I can seen any I havent seen the score from [PERSON12] yet.
+So, so we should really carefully evaluate, which of this systems are to be used.
+And so this is now for the coming days through like finalise the set up for .
+So for each of the setups.
+You should have a a script.
+And that should contain the right workers selection.
+And it has to be evaluated.
+And like double check that the set up is the set up that we want.
+So like technically now everything was put together.
+And thats great that it worked and its great that you understood.
+There was a huge delay, because the segmenter is new, and it has a window of 100 words.
+I was told by a [PERSON15] in in Czech, and this window is probably too big.
+And also it is a big, uh, neural model, which is now being run on CPU's.
+So we don't know its performance.
+And that was that was causing the delay.
+And I'm actually surprised that uh, uh, the translations that I followed when I was clicking the rating interface were not that bad.
+Given this this huge limitations, so um.
+I saw a lot of <unintelligible/> resets when the subtitles have to scroll back, uh?
+And the same content is like repeated again, because the punctuation has end- has changed in the in the process, um, and that was very frequent with this run.
+So we need to reduce the the length of of the window, that the segmenter sees.
+So we'll do some, uh, like, tuning of of the set up early next week.
+And hopefully we'll be able to come up with something more stable in the subtitles.
+And also we will have the numbers from [PERSON12] and we'll carefully select which model still to use.
+So the overall set up.
+Uh.
+I think it is a really good idea to start with the longer lecture, which has worse impression, which is harder to follow.
+And then to move to the shorter video, and ideally the longer lecture would be the one that [PERSON14] has selected.
+About the coca cola guy, uh.
+And their he,.
+I followed that I will.
+I listen to the the beginning of the of the talk, and he also speaks pretty fast.
+So it will have the same problem.
+But hopefully the topic will be not so difficult for uh, the general audience, so that people could recover based on their word" knowledge.
+Yeah, so that is that is my hope, but we should evaluate this.
+Any any further comments to to this.
+(PERSON3) Well, I really enjoy the the demo, I'm really happy to see that actually some everything is working pretty well, I followed the English translation.
+Which was well really good, the only point I would like to highlight is that in the first video several times the word dog has been.
+(PERSON7) Yes yes thats the ypsos.
+I looked at the slides.
+And there is there is an abbreviation.
+IPS as a something.
+And this is miss recognized as pes or psa, and thats the dog.
+(PERSON3) The corresponding German translation has been translating in hund which is dog too.
+And this is quite annoying.
+(PERSON7) Yeah.
+This is an ASR error.
+(PERSON3) Yes.
+I think that this is the only ASR error I would like to mention.
+I <unintelligible/> some name in the.
+I don't remember when what what I recorded everything.
+<laugh/>
+At some point if my internet connection will help me I will upload the all the recorded video somewhere <unintelligible/>.
+Was fine the only thing as you know is the flickering problem of subt- in particular, when the speaker speaks really fast.
+Or this is just my my feeling when the the the discussion goes lets say out of domain from the ASR.
+The ASR starts changing really frequently the the transcription on <unintelligible/> the translation flickers a lot.
+But discussion is pretty much on domain the flickering problem is slightly <unintelligible/> slightly better.
+Works <unintelligible/> better.
+Thats all from my side, thank you for this <unintelligible/> I also enjoy these lights I like your idea to I like with different colours research and innovation.
+<laugh/>
+Maybe do not call <unintelligible/> presentation platform substitute of YouTube if possible.
+<laugh/>
+(PERSON7) Thats was just the streaming thing.
+You and there we are substituting.
+So I should be clear about this or.
+<laugh/>
+(PERSON3) But this is everything on my side, I really enjoyed this.
+This demo.
+(PERSON7) Yeah, okay thank you.
+So had one question, but I forgot what uh, what was or what one comment and that was yes.
+The the flicker you said that the ASR is changing frequently, when it is like out of domain.
+It is the <unintelligible/> the sequence of words is not changing.
+It is only the punctuation and casing which is changing.
+So as far as I know, the Czech system is <unintelligible/>.
+And it only grows.
+It only adds words.
+But the segmentation and thats what we discussed already before.
+That causes the disruptions.
+So we need to have like tune this.
+(PERSON3) I checked the.
+I dunno if <unintelligible/> the same kind of system we use the in the.
+In the French watchin session, if its <unintelligible/>.
+But the French transcription change also, its not the only.
+(PERSON7) That was a different system so that was [ORGANIZATION9].
+(PERSON3) Okay.
+(PERSON7) Okay, so I think.
+(PERSON2) I mean depending on on you know my accepting or not accepting all the <unintelligible/>.
+I will have something also specifically to that to add to the future work section.
+Because I am developing model that we'll not need segmenter.
+(PERSON7) Oh okay yes, that would be great.
+So I'm not going to discuss the the details here.
+I've added to tables.
+We may not discuss this in the in in the real demo as well.
+So this is this is too my- two master students.
+One working on the domain adaptation.
+And then uh, that we are going to gather all the talk.
+So for this.
+It would be I think very good if we could really use the language model data for the ASR.
+So if we could inject the that the related or maybe even the the planned transcript of the speech.
+Uh.
+Not like the uh, or well, in our case we will be injecting the the real transcript manually corrected.
+But many of the speeches are delivered a be- by reading kind of, or they are written by some by team of members of the of the group, and then only delivered by the head of the group.
+And in these circumstances.
+It is totally OK and, actually no cheating to have the transcript as part of the training data for the system.
+So this is what we would like to include in the London in the real set up for the Congress.
+And where we have a very simple, a file uploading interface, and we have the pipeline, which distills plain text from that.
+So if we could get the demo, also with a ASR workers that have language model adapt- language models adapted to these videos.
+That would be excellent.
+So [PERSON14] please confirm early next week, whether this would be possible or not for your systems.
+(PERSON16) You have to correct that to [PERSON8].
+Yes for the pipe- models we can do that.
+We've we've been doing that often, so thats definitely something we can do to add unknown words to the language model.
+I do not know how much actually the language model is retrained or not.
+(PERSON7) Yeah, its not just.
+So actually, we.
+This is what we al- already have with with the copy of your worker, which I dunno know, whether was recovered after the unfortunate delete.
+Uh, that happened two days ago.
+So [PERSON11] was was was it recovered?
+Do we have the [ORGANIZATION9] work ASR worker here.
+Yeah, so we can do this lexicon adaptation.
+That was not done for today, but we can do it.
+And we already have the data for that, and what we are not doing.
+So would be the language.
+(PERSON16) If I can just finish my point, as far as I know we currently don't have a facility to do that for end to end speech recognition model.
+Which was one of the points of criticism and against going to end to end.
+But we are doing that.
+So that would be an open area of research I suppose.
+(PERSON7) Um-hum, yeah.
+So that, that would be that would also be best mentioned in this future work slides.
+(PERSON16) Speaking of those can you invite [PERSON8] to the.
+(PERSON7) Its a, it is a public link so you must not share the link that you see.
+But we we we have to send him the link that I've put in the [ORGANIZATION7] Document.
+So Overleaf is Overleaf is obscruing the the public access, and uh, its only like the first link that works.
+And you get the second link, which is now a personalised for you.
+And you don't you cannot share it further.
+(PERSON16) Oh right, hold on.
+(PERSON18) Is in one of the [ORGANIZATION7].
+(PERSON7) In the [ORGANIZATION7] docs yes yes yes.
+I'll search for overleaf and I'll do editable slides.
+So I'll do one thing copy link URL where is the overleaf.
+I'll put it at the very beginning.
+<unintelligible/>.
+Agenda.
+<parallel_talk/>
+(PERSON16) Okay I send them the update.
+(PERSON7) Yeah so I'll also put it.
+<parallel_talk/>
+So its actually in the slides themselves.
+There is now the link that work.
+Okay, so please also ask [PERSON8], if he could figure out whether he can inject not only the.
+We we can inject the the vocabulary, but whether he could inject the texts for us, because that would be uh.
+That would be helpful.
+So please.
+(PERSON16) To exactly output the transcript.
+(PERSON7) Yeah, because for some of these videos, we we can easily go for video which has a corrected transcript.
+And uh, we could in the demo session, we could uh, run first, like the the the than the the non assisted one.
+And then we could move to a system, which knows what is going to be set.
+(PERSON16) Mm-hmm.
+(PERSON7) Because this is natural uh set up there for many of the speeches.
+That is well known what is going to be set.
+Not the exact words but what is changing is actually just the full of words.
+And the <unintelligible/> words are are recognized pretty well.
+So my impression is that the ASR, and even the segmentation.
+Uh, works very well for this generic, like a low content sentences.
+And this is this is what is changing when people are giving speeches that are pre-written.
+(PERSON16) Okay, how about you put that into an email, because I think, you know, best exactly how you imagine this.
+(PERSON7) Well, just we will send you the plain text file.
+And we want this to be heavily promoted in the language model, that the anagrams.
+(PERSON16) Yeah.
+(PERSON7) Yeah, <unintelligible/> please do it to and if if if I get if if every <unintelligible/>, I will do it as well, its better to us <unintelligible/> not at all.
+OK.
+So uh, Yeah.
+One last thing, uh?
+T- t- two things.
+Um, hopefully on Wednesday, [ORGANIZATION9] will know both about the electricity and the bomb.
+So on Wednesday we should should create a new doodle poll to ask for the substitute slot for the for the demo, right?
+So [PERSON17] please take care of that.
+(PERSON3) Sorry?
+(PERSON7) So please take care of preparing a new doodle poll for the project officer and ourselves.
+(PERSON3) Yes.
+<laugh/>
+(PERSON7) When exactly.
+Yeah exactly and I guess that on Wednesday we should know the availability of [ORGANIZATION9] building.
+(PERSON3) Optimistic.
+(PERSON7) No I'm not saying that the building will be available on Wednesday.
+I'm saying that we will know when it will be available.
+<laugh/>
+(PERSON2) We have an estimate.
+(PERSON7) Yeah, we'll have an estimate yeah.
+Okay.
+(PERSON16) We had estimates before of course.
+(PERSON7) Yeah yeah.
+And the other thing is that, so we'll be doing these evaluations.
+Uh.
+We may ask you for some evaluations by clicking as well, and we will try to do it ourselves as as much as possible.
+One important lesson I've learnt with this demo prepations.
+Is that we must avoid switching for new components before the demo.
+So there has to be at least I dunno know like uh, I would say like week of testing of the exact set up on the exact inputs that we are going to show whether assisted like domain adapted or not that is that is like a decision.
+That is made once.
+But it has to be tested the exact command the exact workers and no changes in that before the demo, because and improved segmenter.
+Was actually killing the show today, uh, because it was causing the subtitles to reset too much.
+So there are too many parameters in the whole pipeline.
+And we really need to be sure that the bids that we have put together are compatible with each other.
+And the better component can actually damage the the overall performance, and it had happened.
+So please take keep this in mind that is a message important for everybody.
+And in the long term, we really need to have for like two running versions.
+One will be the production version, which contains things that have been tested for number of weeks on the development running version.
+And this development runing version is the thing that we can uh, that we can damage easily, but something will have to first work in the development running version for a week, and only then we'll put it to the production version, and then we will not touch it, even if we have a better solution.
+So this is something that we really have to have uh, like separate the development version and the and the production version.
+Okay, so I think that that could be it for me.
+I do not know whether you want to discuss something else.
+The Zoom call will be still running.
+If if you like.
+(PERSON15) Yes I would like to ask [PERSON6] which language did you follow.
+If you can confirm.
+Was it English?
+(PERSON2) Yes was English.
+(PERSON15) In all.
+(PERSON2) In all the time, yes.
+(PERSON15) Okay thanks.
+(PERSON2) I'm sorry I I I barely made it to understand a bit.
+(PERSON7) You don't have to apologise.
+Its.
+<laugh/>
+(PERSON15) [PERSON17] and do you check discussion, was it English?
+(PERSON3) English yes.
+(PERSON15) Yeah thanks.
+And Ond- [PERSON7].
+(PERSON7) I wrote it in in the name so if if I didnt write anything it was English and I was also watching Czech in the paragraph you and the name indicates it.
+So I actually used the name in the response form to indicate what I was watching.
+(PERSON15) Okay thanks.
+(PERSON7) Great.
+Ok.
+So I'm I'm leaving thanks to everybody.
+For that, all the work.
+And um, yeah.
+We can thank the bump.
+And and the bigger forward, the extra days that we got.
+But at the same time I would like this demo to be like already after us so that we have passed the demo whatever the result will be.
+Because it is quite stressful.
+I dunno know how for you.
+But, but for me.
+It is the really um a little bit.
+Over.
+<laugh/>
+My capacity.
+No not really capacity but the level of stress that I can handle well.
+Okay, so thanks and keep discussing whatever needs to be discussed I dunno maybe [PERSON11] can.
+If if there is [PERSON11].
+Anything that [PERSON11] needs to ask.
+He can no.
+Okay.
+So I'm.
+I'm just connecting me and yeah, so we'll be in touch over the email we'll find another slots for test and then the slots for the demo.
+So thanks a lot.
+(PERSON3) Bye.
+(PERSON7) Thank you bye bye.
+(PERSON15) Bye.
+(PERSON7) I cannot leave the meeting.
+Yeah I can, thank you.

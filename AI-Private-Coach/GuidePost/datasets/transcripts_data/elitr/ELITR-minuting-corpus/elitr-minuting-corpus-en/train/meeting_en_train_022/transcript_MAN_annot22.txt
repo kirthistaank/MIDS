@@ -1,0 +1,763 @@
+(PERSON8) [PERSON2], eh, did you recently share this annotation user doc with us?
+I, I just, I did see it today itself.
+(PERSON2) Eh, you did recently, eh, what?
+(PERSON8) Shared annotation user docs.
+(PERSON2) Oh, I have, oh, I have put annotation, eh, user docs -
+(PERSON8) User doc earlier itself?
+(PERSON2) I have put link to it, eh, into the agenda now.
+(PERSON8) Okay.
+(PERSON2) Eh, I am not as the holder of the documents, so I am not sure as, so if you cannot open it <unintelligible/> have to ask the permission <unintelligible/>.
+(PERSON8) No, I can open that and eh, it's eh, so i was just, she, I was just, also, think the documents which are shared with me, so, eh, this wa- this was a new document which is shared, so that's why I was asking <unintelligible/>. I think you recently shared -
+(PERSON2) No. I have just put it into the agenda because -
+(PERSON8) Aaah.
+(PERSON2) <unintelligible/> speak about it today.
+(PERSON8) Ahaa.
+(PERSON4) Hi everyone.
+(PERSON2) Hi.
+(PERSON8) Hi.
+Is it, [PERSON4]?
+(PERSON4) Yea [PERSON4].
+(PERSON2) Yea, hi [PERSON4].
+(PERSON4) Hi
+(PERSON2) Can you, can you see each other?
+I can't see anything.
+(PERSON8) I think we have to put our camera -
+(PERSON4) I think you can see me.
+(PERSON2) Ahaa! That's why, it was switched off.
+(PERSON8) Aah the camera was off.
+Hi [PERSON4] I apologized for ah, not ah, ah not writing you back for the meet up.
+(PERSON2) Yea.
+(PERSON4) Oh it's okay, okay.
+I must apologize because of the, because i forgot about everything.
+(PERSON2) I think I will just run to the next door and ask [PERSON6] if he is, eh if he is here.
+Just a moment.
+(PERSON8) Ah, he is here.
+[PERSON2]?
+(PERSON2) <unintelligible/> here already.
+Aha, okay. Yes. <other_yawn/>
+(PERSON4) Let me just turn on the lights.
+<unintelligible/>
+(PERSON8) Hi [PERSON6].
+(PERSON4) You have to unmute your microphone.
+(PERSON2) Eh, [PERSON6] if you want you can come here.
+I am alone in the room.
+So we can sit here. Far from each other<unintelligible/>.
+If you want.
+<another_language/>
+<unintelligible/>
+(PERSON6) Aha, yea, yea, I hope you can still hear us? Right?
+(PERSON4) Hmm, yes.
+(PERSON6) Yeah, that's good.
+And, eh, we are, ah, do we expect [PERSON3] to join as well?
+(PERSON2) He was there.
+(PERSON6) He was there.
+OK. That's the user.
+(PERSON3) I can hear you. Yes. I can hear you.
+(PERSON6) Eh, in [ORGANIZATION2] you can, you can change your name for every single session.
+So it's somewhere, when you click on yourself in the list of participants, or something like. Right-click yourself, then you can change your name.
+And also you were black, so we saw you as, as, black on black and that's why -
+(PERSON3) I get this, it's better like this.
+No problem.
+(PERSON6) Yeah, okay.
+So, eeeh my ideal, eh, view is that these meetings will run even without me, so <laugh/> so feel free to just discuss.
+And, ehm, today, eh, the, eh, goals -
+Is that, eh, yea that's to divide the work among ourselves, so that less synchronization is necessary.
+Is that the right meeting right?<laugh/>
+(PERSON2) Yes, yes.
+(PERSON6) Yeah, ehh, so.
+One piece of news that I have is that we have some extra funding, eh, which would be good to be spent before the end of the year.
+So if we come up quickly with what we want from human annotators, then it, we can, like easily fund those.
+And that would be good for either getting more, ehm, meeting minutes, eh, or, eh adding one more, like a third, eh, summary of some meetings, and that could be usable if we wanted to compare different humans against each other with a respect to, eh, third, eh reference summary.
+Eh, and, eh, also, eh we could use these annotators for the manual evaluation of meetings.
+So, eh, that is something that we need to, eh, play around with, so that we have a good understanding of what people evaluate and how, uh, and, eeh, maybe use it directly for the development of some automatic evaluation measure, such as, eeh, like fine-tuning it or evaluating, the evaluation measure compared to the human performance, eh, and all that.
+So the, the little issue here is that, eh -
+Obviously [PERSON2] can supervise the, the annotation work, eh, eh, for whatever we, eh, like decide, eh, [PERSON2] can be in touch with the annotators, and, and, eh distribute tasks to them.
+Eh, but one piece of software is not quite finished.
+Actually, it is in a good shape, but, eeh, the distribution of files is not yet finished.
+Eh, and it's just an administrative decision, eh, it's not too hard.
+And there's the annotation interface by [PERSON1].
+And [PERSON1] will be quite busy with other things, eh, outside of, of, eh, the project, till the end of September.
+So that's why I would like to ask probably <unintelligible/> eh, to, eh, get acquainted, eh, with the tool that [PERSON1] was developing and is still developing it's something Python based and, eh, if <unintelligible/> could, eh, like finalize it for the purposes of this <unintelligible/> annotation, so that in October and the latest November we can gather some, eh manual scorings of meetings.
+(PERSON2) I have shared the document in agenda.
+You can now see the link to the document, installation details and annotation guides for this new tool.
+And, eh, I can, oh, hmm.
+So so now we should, eh, eh, make, make some technical decision.
+So we kind of decided to use Github for storing the files that annotators will, eh - 
+(PERSON6) Produce.
+(PERSON2) Produce.
+(PERSON6) And that they will directly download the big files.
+So the big files, like the sounds, they won't be in Github.
+(PERSON2) So that the situation is such that annotator should download the audio or video file, which could be very <unintelligible/> up to 2 gigas.
+And then he had, he has some small files that can be distributed by any <unintelligible/> but not open, eh, tool, not publicly open, because these are meetings.
+So they should download the files, eh, make the connection, make the alignment within this installable, eh, tool, eh, on their computer and then put them back somewhere, this small files.
+Not this big files.
+So this is some, there should be some technology with Github, erm, completed, so we need some technical, eh, help and if <unintelligible/> would be so kind to help us with this we would be very helpful.
+(PERSON6) Yeah, right, <unintelligible/> so is that, eeh, is that clear?
+So pleased to have a look at the instructions.
+How to install the annotation interface.
+I think you have seen it in one of the screenshots, but I don't know whether you have already, eh, tried that.
+(PERSON2) This is the document here.
+(PERSON6) Yea.
+(PERSON2) There's a lot of screenshots.
+(PERSON6) Yea, yea.
+So, so, try installing it and, eh let's plan that in the coming 2 weeks.
+You will modify it as needed so that we can actually do the, the first rounds, first attempts of, of eh, annotation.
+And I think that that you should now focus on the, eh, on the implementation things.
+And [PERSON8] would probably be the, the right person to, like propose, eh, how to then aggregate the alignment.
+So, eh, in, this is, this is like the first attempt to develop the manual evaluation method.
+The underlying tool, eh, is a guidance for the final score.
+And, eh, the exact formula how the final score is to be, eh, calculated, it's up to us.
+So it's up to [PERSON8], to come up with some -
+(PERSON2) Actually [PERSON3] has come -
+(PERSON6) And [PERSON3] -
+(PERSON2) Some proposition of the evaluation protocol.
+(PERSON6) Yea that's right.
+(PERSON2) And there should <unintelligible/> we discuss some details.
+(PERSON6) Yes. Yes.
+So this is <unintelligible/> [PERSON3], eh, the idea that I'm having -
+I'm sorry I haven't read the, the, human evaluation protocol for minuting yet.
+(PERSON3) I haven't finished it yet, so no problem.
+(PERSON6) The idea that I have in mind is that annotators will manually align, the items from the different meeting minutes.
+And then based on this alignment, eh, there would be, eh, some automatic calculation which will indicate like how much of the documents, how much of the summary is actually not aligned at all.
+And the part which is aligned, to what extent does it overlap.
+And there would be some automatic measure.
+It could be some simple string similarity, or some clever deep, eeh, deep neural, eh, similarity, or we could use some of the Shell<unintelligible/>, eh, the tools.
+So, this is my basic, eh, basic idea that can be and must be refined in, in many ways.
+(PERSON3) Are you talking about human evaluation, or annotation?
+Because they are different things, like, what do you mean by alignment?
+(PERSON6) Yes.
+So, so in order to, eh, to achieve human evaluation, I think that the humans should be annotating, like linking the various summaries to each other.
+And then the, the manual score would be an aggregation over this annotation.
+So -
+(PERSON3) It's pointless. If they change, if they modify something, then, then it's pointless.
+They shouldn't be evaluating at all. Like what you are talking about -
+(PERSON6) So there is. So there is 2 alignment. So [PERSON1]'s tool is now, eh, designed and primarily planned for the alignment between the transcript and the minutes.
+The, the way I, eh, see it would be that -
+Yes, this would be done and here people would be changing things as well.
+So this is the first stage of annotations so to say.
+And then, the same tool, but modified would be used for people to align, eh, summary to summary.
+Technically this very, eh, similar, eh, user interface.
+It's just that in the, eh, in the window, eh, on the left and right window you see, eh, a summary instead of transcript.
+And this is like the annotation in the evaluation phase.
+And this, the result of this -
+Here, they should not be modifying the texts any-, eh, anymore.
+They should be just linking things together, and, eh, possibly if they find something really bad they could like indicate that this references is wrong or, eh, things like that.
+That would be possible.
+But not changing the, the content.
+And based on the alignment, eh, some automatic calculation would aggregate it to give us a score.
+(PERSON3) You are talking about something very different from what I have in mind so I don't really know, what is alignment and what the hell is it for.
+I'm talking about human evaluation, which means using besides rule scores also expert's scores.
+And the experts have no right to change anything when they evaluate.
+So I'm talking about something different.
+(PERSON6) You are talking about your approach to this second, eh, phase, eh -
+(PERSON3) I'm talking about the, the fact that the automatic evaluation is not credible enough.
+(PERSON6) Yes, sure.
+(PERSON3) And it must be augmented with human evaluation.
+(PERSON6) Yes. I totally agree.
+(PERSON3) <unintelligible/> human evaluation, the humans are the experts, will check the candidate summary produced by a model against reference summary that is produced by humans.
+They will not modify anything, they will not align, or do anything.
+(PERSON6) Yes, I absolutely agree.
+(PERSON3) They will put some scores that I'm defining now.
+(PERSON6) Yea, so this course -
+(PERSON3) Beside the rule score we will also have this scores -
+(PERSON6) Yes.
+(PERSON3) <unintelligible/> more about the quality of that automatic minuting.
+(PERSON6) Yea. The question is, eh, I totally agree with you, absolutely and I'm like one step further already.
+I'm asking how do they assign scores and specifically to which, to which units do they assigned the scores?
+And I suggest that, eh, first the units have to be kind of identified and these units will be identified by aligning, by manually indicating which of the items in the reference summary matched which items in the candidate summary.
+And then, eh, a-, actually one option would be to ask them for each of these alignment links.
+This is like item one were the summary, the reference summary said, eh, they discussed the connection for the next, eh, session.
+And the, eh, the candidate summary would say: "[ORGANIZATION2] vs. [ORGANIZATION3] Meet, were, were considered".
+Eh, this alignment link could be then labelled with a number.
+The number would be either coming from the annotators, like, eh, do these strings represent the same thing and humans would probably say "yes, they are the same thing" for, eh, but we could also automate it, and, as some string matching techniques.
+And these would probably fail, because they would, eh, not realize that, uh, the, eh, the, the platform for the meeting and [ORGANIZATION2] vs. [ORGANIZATION3] Meet are 2 different vocabularies.
+Like, so the, the, the identity would not be recognized by automatic measures.
+But I, I think that the critical element in the manual evaluation is the units, of, over which we are aggregating.
+And I haven't read the details of your proposal.
+Maybe you are proposing to say that the meeting as a whole is one unit, and that people are assigning some score to this meeting as a whole.
+And I think that -
+(PERSON3) Not the meeting, it's the minutes.
+It's the tran-
+Summary.
+(PERSON6) Yea, the summary, yea.
+But, if the summary, if the whole summary is a single unit then, eh it's, eh, like a very costly number to get.
+People will, the annotators, human evaluators will spend 10 minutes reading the document and then -
+(PERSON3) No that would be not.
+It's just 5 sentences average.
+(PERSON6) 5 sentences on average?
+(PERSON3) Yes.
+(PERSON6) Do we have, eh, these shorts summaries?
+(PERSON3) Absolutely.
+(PERSON2) 5 sentences, but we have short summaries.
+(PERSON6) We have short, we have short summaries.
+(PERSON2) We have different summaries including -
+(PERSON3) They will write the, a candidate of 5 sentences against the candidate reference of 5 sentences.
+I will just put some numbers there.
+(PERSON6) But if, if it's just the reference and if people are no longer considering the transcript.
+So the question. The main question -
+(PERSON3) They shouldn't be considering transcript, they will evaluate only the minutes.
+The candidate minute against the reference minute.
+So forget about transcript.
+It's a different thing what you're saying.
+Segmentation.
+Alignment.
+That's completely different thing.
+(PERSON6) Eeeh, no, no, it's not.
+You're, you're still not understanding what I'm saying.
+It's, eh, I'm proposing that we will be doing the evaluation of summaries at a finer scale than you are proposing.
+You are working from the assumption that the summaries are 5 sentences long.
+In which case, I agree.
+Let's assign just one number to 5 sentences.
+That's, that's all.
+(PERSON3) OK.
+(PERSON6) If the summaries were longer and the summers that I saw so far in, like in the meetings that I had, these were very long.
+It was like 2 pages.
+With 2 pages, eh -
+(PERSON3) 2 pages of summary?
+And what's the transcript length?
+(PERSON6) An hour long meeting, so, how much, how many words is that?
+That's very long.
+(PERSON8) Almost 10 pages I guess.
+(PERSON6) Yea, possibly.
+Yea.
+(PERSON8) So even, even when we will be organising the shared task we possibly won't be giving them, eh, very short minute for making the system.
+So any knowledge<unintelligible/> evaluate that, probably we will have to consider the wide scope of minute.
+Like it should be, eh, applicable the manual evaluation we make.
+It has to be applicable to longer minutes as well.
+(PERSON6) Yeah, I think so.
+So, eh, I, eh -
+(PERSON3) It will just take more time.
+(PERSON6) No.
+Eh, well, if there is one problem it's -
+If you think it will just take more time to read the 2 page summary and compare it to the 2 page reference summary, eh, not just, eh, more time.
+Is the problem that you are gathering too few numbers, and then your statistics over the whole set of submissions is too sparse to -
+You have too few numbers and when you are taking the average of two few numbers the statistics are not reliable.
+So that's why you need, eh, finer units so you get more, eh, more numbers.
+It's the same with machine translation evaluation that we run every year for [PROJECT1].
+There essentially we want to know which of, what is the overall ordering of the systems.
+But we are not evaluating it at the level of systems.
+We are evaluating at the level of segment and there we are aggregating to see the level of the systems.
+And here, I think, we need to do the same.
+Need to evaluate at the level of individual items in the summary and then aggregate it over all the items in the, eh, summary to see how overall it, it worked for a particular meeting.
+So it's, eh, I agree that if our meetings -
+This is, this is a critical, eh, consideration.
+So, there, there is more ways to go.
+One way to go is to preserve the, the current length of meetings and their summaries, which could be up to a one hour meeting and, eh 2 page, eh summary, roughly.
+And then we have to, eh, do, eh, have to develop a fine grade manual evaluation method that works on the individual segments.
+Or we could forcefully split the meetings into like, parts and make sure that parts are, eh, when summarized, are not more than five sentences.
+And in that case, it would be possible to, eh, to go with, eh your proposal [PERSON3] and ask people to evaluate the whole thing.
+The whole thing now would be only five sentences.
+(PERSON3) I have already done this. The segmentation part.
+The segmentation is finalised.
+I can do it, we can do it automatically.
+Like we can run my scripts and split the 2 page summaries you are talking about.
+We can split that maybe in 3, 4 or 5 parts.
+(PERSON6) And have you, have you applied it to the collection that [PERSON2] has?
+The project meetings?
+(PERSON3) No, no.
+(PERSON6) Yea, so let's, let's give it a try.
+Eh, so this is definitely something that makes sense.
+Eh, so if you could talk to [PERSON2] and eh -
+(PERSON3) Yes, I was tracking in the classer about data, but it's very messy.
+I cannot really identify the, I would be really glad to have this data, the English version of course, only the English parts.
+In some text files or somewhere.
+(PERSON6) Yes, yea.
+So this is -
+(PERSON3) Yes if I, yes.
+And then I will try my scripts to see how make work.
+But the segmentation about splitting them in the, from the topical point of view.
+(PERSON6) Yea.
+Eh, I, I don't, I would not expect that you would understand the layout of the data without talking to [PERSON2].
+So please talk to her and, eh, agree on whatever, eh, file format conversion is, eh, is needed so that you can run the scripts there.
+What needs to be done is that someone, [PERSON2] or possibly [PERSON8] should validate whether the segmentation makes sense.
+Because we are like critically changing the units, eh of eh, for our shared tasks.
+(PERSON2) [PERSON3]'s segmentation of our data.
+(PERSON6) Yes.
+[PERSON2] is taking off.
+This is, this is useful.
+So that's one option.
+Use your segmentation script on this data and if the outputs are kind of okay then yes that's a good option and we should manually revise these segments, eh and we have time for that so we could move to like short segments summaries.
+So the transcript would need, would obviously be, also have to be split into these smaller chucks.
+And that is, that is fine like it's, it's, it's a simplified definition of the, of the shared task.
+If you run into a problem that the segmentation, the initial one, is -
+(PERSON3) But the shared task is a different story.
+Why you are mentioning the shared task?
+(PERSON6) Because we are developing this evaluation measure for the purposes of the shared task.
+(PERSON3) Uh, that's, that's another big problem.
+That, that's fine.
+This is solution because, you know going, launching a shared task and then having manual evaluation raises very, very -
+(PERSON6) That's okay.
+(PERSON3) Very big problems.
+Because it's a competition so.
+(PERSON6) Well yes so there's, there is two ways of looking at shared tasks.
+One way is is this competition thing where you want to know the winner.
+And in [PROJECT1] this was never the case.
+In [PROJECT1] it was always what I call the friendly competition.
+So it was like that everybody tries to do the solution and describe what they did.
+And yes there is some evaluation measure at the end.
+But we are always highlighting the, the collaboration in the fight against the nature so to say.
+So everybody's trying to, to put the best into that system, but the winner is no, like never celebrated.
+The, the tables where the results were always shown and, and like quickly browsed over and we do not give any prizes for that.
+So they, it's, eh, it's more like, take part, show that you are good.
+But we are not differentiating who is the main winner.
+And there, the benefit of this optics of this like understanding of the shared task is that while we have to do the evaluation as good as we can it is no longer so sensitive in the, in like the social aspect so to say.
+Everybody agrees that the evaluation is hard.
+Everybody understands that the scores, manual as well automatic, are unreliable and being a winner does not mean much.
+It's, it's more like whether you are among the better ones or the worse ones.
+And, and that's it.
+And even the worst systems can be very good in, in some particular aspects.
+So I would like to, to highlight this shared view of this, of this friendliness of the competition in our, tasks.
+And I think it is inevitable, because, I agree with you that it would create tension if we were saying like: "This is the winner!"
+And if we go for anyone auto-
+(PERSON3) You can also anonymize the, you can also anonymize the submissions like that.
+(PERSON6) Yes, we can also anonymize the submissions at the -
+(PERSON3) Evaluation of the submissions can also be blind.
+(PERSON6) For, for the evaluation this definitely has to be blind.
+The annotators mustn't know who is submitting what.
+That's, that's for sure. 
+But even after the results are there like everybody could get table which lists him, their submission among all anonymous.
+So only if people all went together and they would all match these tables they would, based on the scores, they would be able to recover the, the overall scoring.
+That is, that is an option.
+I would simply trust, eeeh, that people will understand what is the task about.
+It's about trying to solve it and not trying to beat the others.
+If, if we, were highlighting the, the competition aspect that the the winner aspect then I agree with you that going for something automatic is less prone to like, eh, less prone to, to, eh, it's less inviting for some questions like, it's more trustworthy in a sense because it's evaluated by machine.
+But that the same time it is much more prone to errors in the design of this evaluation measure.
+And this evaluation measure could by accident promote some strange aspects.
+And also, if people knew the evaluation measure they could very easily over fit to that.
+And we don't want the best system, which performs, the the system which performs best in our version of <unintelligible/>.
+We want the best system which, the system which delivers the best summaries.
+So that, that's difference.
+We, we don't want people to focus too much on the evaluation measure.
+We want them to focus on the task of developing a good summary.
+And we are designing the evaluation measure on the go, at the same time, while we are designing the the systems that do the task.
+(PERSON3) Sure it makes sense.
+(PERSON6) Yeah.
+Yeah, so, so from the practical point of view let's test the hypothesis that we could run it with just a chunks of meetings and corresponding chunks of minutes.
+So that is for [PERSON3] and [PERSON2] to discuss the, like where the files are and how to run it and then for [PERSON2], [PERSON8] or <unintelligible/> to evaluate whether the chunks still make sense.
+If this works good then there would be a lot of annotation effort to like double check this, to apply to all the meetings and and create the, the shared task data from this.
+If this this test doesn't work that well then we need to like set the task again and move to find great evaluation of long -
+(PERSON3) But you will definitely need people to do the alignments.
+You will need people to do the alignment.
+(PERSON2) Yes!
+(PERSON6) Yes!
+(PERSON3) Actually check the alignment because the automatic method will split the transcript and will also split the summary and you need people to checking these splits match to, to make the correct -
+(PERSON6) Yes exactly!
+This is what I was saying.
+So if, so please do this for 1 or 2 meetings now.
+[PERSON2] and [PERSON8] will test whether it make sense.
+And if it makes sense if we go in this direction then yes, we count on doing this revision of all the minutes splits during the autumn.
+Yeah.
+(PERSON3) What's the size of the data? 
+What is the size of the dataset?
+The current data. 
+(PERSON6) 60 hours in English.
+(PERSON2) Dataset -
+(PERSON3) Number of samples please.
+(PERSON2) You have a tables in many places -
+(PERSON8) 80, 82 hundred -
+(PERSON2) Hours of English and 55 hours of Czech data.
+(PERSON3) So we don't know how many samples are there?
+(PERSON2) Yes I know it's the in the table and you have, you have access to this table I can share you the link again.
+(PERSON8) So, I, I also did some splitting of the dataset. 
+But probably, I think [PERSON3] would be having a better version of it, because I'm just a big nerd to it, so we will see that if, eh, because I think [PERSON2] has already seen the version of my splitting of this dataset which we have.
+So I think [PERSON3] will be having a better version.
+So maybe we will apply that one.
+(PERSON6) By the way, [PERSON8], your voice quality is much better now.
+And the mic, so <laugh/>.
+(PERSON8) It's thanks to you.
+You did figure it out, so I did, I got helped myself to this.
+<another_language/>
+(PERSON6) Okay so, so I think this, this probe. This test with [PERSON3]'s approach is ready. 
+Just please do it.
+And let's discuss maybe next, next week same time.
+Whether it worked or not right.
+And in the meantime [PERSON8] so, so the question is whether someone should already explore the alignment approach if we have to go for the longer minutes and longer, longer meetings.
+(PERSON8) So alignment approach we need some automatic thing for it, or we are going to do it manually right?
+(PERSON6) Let's, let's, so the, I think the, the best, eh, description of the general idea is if you would look up the age <unintelligible/>.
+I'll type it into the chat.
+ <another_language/>
+(PERSON3) So I guess it is like about 80 samples if I'm right.
+81 or 82 samples.
+(PERSON6) So I'm, I'm sharing, if only the, yeah.
+Age <unintelligible/> is one of the authors.
+That is an evaluation measure that is attempted for machine translation.
+It was following the individual sentences.
+And I'm not saying, maybe you have heard about it.
+(PERSON8) Yes, I have, yes, I have.
+(PERSON6) But I'm. I'm not saying that we should like use anything from this particular method.
+I'm just. It would be good -
+(PERSON8) Just to refer.
+(PERSON6) Initial page, initial papers.
+And the idea is that first people were aligning parts of this -
+First people are labelling what are important parts of the sentence, so they were labeling, <unintelligible/> or labelling.
+So they were indicating, what is the, the event, description and what are the individual participants.
+So these were the units.
+Goal was to evaluate which of the translations is better.
+And these were translations of individual sentences.
+So it is the evaluation of individual sentences.
+First people annotate what are the units, there.
+They do this labelling of units in the reference, and they do this labelling in the candidate.
+And then they have this second phase of annotation where they align the elements, the unit they identified in the reference and in the candidate.
+And then there is the automatic formula which evaluates how many units were matched at all.
+And when they were matched, to what extent they, the lexical coverage, the wording of these units was identical.
+And this is exactly what i would propose for the, for our case, except obviously here the big thing that we are evaluating is the summary, the minute and we have candidates minutes and reference minutes.
+We first have the individual items there.
+That could be just the lines of the, of the minutes.
+These could b-
+Like we could skip the first stage of annotation and assume that individual lines are the relevant units, but we should not skip, the alignment phase in which we indicate which items correspond which in the minutes.
+And then the third phase would be to aggregate the alignment into a number.
+And the number would tell us how well the particular candidate matches the reference.
+(PERSON2) And maybe it could be also important to make more variance of the minutes.
+So this is the question I would like to discuss with you.
+If I should generate for some texts more variance of minutes, because, and more alignments for this of, more, that more people make the same alignment that could also have evaluating the minutes.
+If you just make it once, so, I, I think, I would, I should think further about it.
+(PERSON6) Yea.
+(PERSON2) But it could possibly have a big improvement of how many people annotate the same, the same alignment more times.
+(PERSON6) Yea.
+Then they-
+(PERSON2) If it is, if it is just once empty it's, it's <unintelligible/>.
+It's, just it can, it maybe -
+(PERSON6) It's like, it's like multiple, eh, reference translations and their effects.
+(PERSON2) I think we should develop multiple <unintelligible/>
+(PERSON6) Yea. The, the stability of, of the evaluation increases if you have more people doing the judgments, because everyone will miss and oversee different aspects and if you union all the observations you are again increasing the denominator.
+So in, in short, you, you want to do statistics with as big numbers as you can get.
+You, eh, so you, you want to have many observations all of a smaller scale and then aggregate.
+(PERSON2) Yes.
+And when we have several minutes for the same transcript and if we annotate, if we align one transcript with one variant of minutes and one transcript with another variant of minutes we see how much of transcript is covered by minutes.
+(PERSON6) Hmm.
+(PERSON2) So it could also, eh, kind of, eh, play to estimate the minutes.
+So if minutes reflect more pieces of transcript they could be better than those that just cover some of them.
+(PERSON6) Yea, yea.
+So here we are coming to a very important question whether we want to base our manual evaluation of summaries on the comparison with the reference minute. 
+And we said " yes".
+Or whether we want to base it on the, eh, link to the original transcript.
+(PERSON2) Hm, yes this is important.
+(PERSON6) And if we, if we are not so sure about our summaries, the manual ones.
+We definitely need to go for the evaluation against the transcript.
+Eh so, I don't really know.
+So <laugh/>
+(PERSON2) I'm not really sure about the quality of manual minutes.
+(PERSON6) Yeah
+(PERSON2) So what I <unintelligible/> sometimes you, you, according to what a read about manual evaluation of text, you would estimate it as quite high.
+So you would give them quite a high score. 
+So they have good readability, good understandability so they -
+(PERSON6) But they do not cover, don't cover
+(PERSON2) But they don't cover important points from point of view of essence of the meeting.
+(PERSON6) Yea.
+(PERSON2) Probable issue is so it could be better to cover important minutes.
+Important points of the minutes, of the whole meeting, then to make it grammatically perfect.
+So this is also <unintelligible/> to decide if we take in account something more than just grammatically grama-
+(PERSON8) Coverage. 
+I think coverage will be the exact term we can use for that.
+(PERSON2) Yes. 
+That's why i thought about coverage.
+I thought about the coverage.
+(PERSON6) So in that case the alignment tool by [PERSON1] is exactly what we want then.
+Because every candidate minute would be simply aligned.
+Obviously the tool now allows also for fixing errors in transcript and fixing errors in the, in the candidate summary, but we would prohibit this for the purposes of evaluation we would say "only find the relevant part in the transcript". 
+The transcript is good because it's solid.
+Like it's given there.
+What we trust it.
+There is, once it, it goes through the, this revision when doing the other, the reference summaries.
+It is perfected, like we can, we know where the word starts and end and so on.
+So we can measure the, the quality of the summary by observing something on the transcript.
+And the transcript is common to all the candidates.
+So the number of units is comparable across all the submissions.
+And that is also very, very important.
+So that we would simply measure the, the precision and recall of important facts from the transcript.
+And what are the important facts from the transcript.
+Well.
+These are those facts that were highlighted by humans doing the reference summaries.
+So that's the, the idea is that I think without looking at, at the data any, any further. 
+I think that it is more reliable, to base the evaluation on the transcripts and relation of the summary to the transcript.
+Then on a relating the, eh, eh, the minutes to each other.
+And then also like if you have 2 reference summaries and 3 reference summaries.
+Then suddenly your evaluation of the candidates' summary would change.
+If you have, eh, if you relate the candidate summary to the reference you can easily change the score by adding more reference summaries, but you don't have to re-annotate anything.
+So the idea is that you create like stand of annotation and making standing of the transcript and not of, not of the summaries.
+Yea <unintelligible/>.
+(PERSON5) So, yes, so I think like, it's, it's makes sense when we do the manual evaluation with respect to the transcript and the summary. 
+Also from a practical point of view that we need to finalize our dataset by December.
+So, like there is a whole lot of annotation work to be done.
+So I think, from like, from the, it makes sense that we do transcript to summary best evaluation, manual evaluation.
+At the same time keeping in mind that we are approaching for our <unintelligible/> deadline.
+So I think that would be like physical.
+Maybe we can try with the minuting like comparing the summary with the candidate but maybe that should, can follow for our next shared task in some other venue.
+But if we, yea, from the practical point of view I think annotation should start like right now.
+(PERSON6) Hmm, okay, so we have to summarize what we discussed so far.
+We can try making the units smaller.
+So we can try segmenting our dataset into such units so that the summary is 5 sentences at most
+If this succeeds, yes, let's proceed with this like chopped dataset.
+If we fail we will have to rely more on the, on the alignment.
+But we have kind of agreed that it's good to base the evaluation on the relation between the candidate and the transcript and use the reference as one competing candidate and also use the references to indicate what are the important pieces of information that deserve coverage so to say.
+(PERSON2) Yes.
+There is one more detail about short summaries that we have in our data.
+That your <unintelligible/> very good.
+(PERSON6) Yea, okay.
+(PERSON2) So really those shortest summaries are, when aligned I expect that the alignment would be very complicated.
+Because they are very general.
+So they are kind of, taken from the context.
+(PERSON6) But they, they that the short summaries are like generalizing too much.
+It's not, the short summaries that [PERSON3]'s script would create.
+[PERSON3]'s script breaks longer minutes, longer transcript into shorter ones.
+But the level of detail is, is preserved.
+Whereas here in the summaries that you are talking about, the whole transcript corresponds to some short summary.
+So there is a lot of generalization happening.
+That's, that's a different situation.
+(PERSON2) Yes, so, but they, they are complication based. 
+(PERSON6) Yeah. 
+Okay, so, so we have discussed something which is very important.
+Now let's use the remaining fifteen minutes.
+We, you can discuss more but I have another meeting at, at 4.
+To, to check that everybody knows what they should be working on in the coming seven days, for example or.<laugh/>
+So [PERSON3] should get in touch with [PERSON2] and split the dataset.
+[PERSON4], how much time do you have in the coming days?
+Would you, would you have capacity to help with, eh, the segmentation of, eh, of the meetings for example.
+(PERSON4) Manual segmentation you mean or?
+(PERSON6) Seeing what script does, so it's more like formatting and, and running the script by.
+Or [PERSON3] could do this on his own.
+I don't know.
+I'm just, like -
+(PERSON4) Yea I have time.
+You can just assign me anything you want.
+(PERSON6) Okay, yeah.
+So [PERSON3] when, yes, [PERSON3] when doing this split of [PERSON2]'s dataset using your script feel free to ask [PERSON4] for, for any help, that we have this -
+(PERSON3) At, at this point I think it is not really necessary, I mean.
+(PERSON6) Okay, yeah.
+(PERSON3) If you are using people to create the data you should just change a little bit the way they do it. 
+You just ask people to split up the long meetings transmitting transcripts into 2 or 3 times and that's it.
+So it is something that should happen since the data I created.
+I think.
+It doesn't make sense to do it later automatically and then ask other people to check if it's good quality or not. 
+Is it something you should introduce in the first place when you create the data.
+If you have long meet- meetings and then in the, when you, when you create the, the, the summaries, you ask people to create the alignments, you just tell them to, to, to avoid having short, having very long meetings I think.
+It's much better to do it that way.
+Just split up the, the, the, the transcript, the long transcript manually.
+But since you do it manually. 
+And then we will have reasonable transcript <unintelligible/>.
+(PERSON6) Yea I agree that in principle this would be good.
+But in my impression many of the meetings didn't quite follow the, eh, the agenda.
+And they were jumping to the first topic of the agenda throughout the meetings for example.
+So that, the same first item in the summary then is mentioned a few times at the
+Beginning, in the middle and at the end of the transcript.
+So dividing this transcript then doesn't make sense.
+So this is my worry.
+That you cannot really split the data, because, eh the -
+(PERSON3) If you cannot do it in, in the beginning then it's much worse to do it later.
+(PERSON6) But, but doing it, in the beginning is inappropriate, because people are referring to, eh, to things like there and back again.
+I don't think it's the, I think it's quite often the case that this division would not be possible, or would be, would be distorting the data too much.
+(PERSON2) So as ours today -
+(PERSON6) Yea, for example, yea.
+(PERSON2) Began from the middle.
+(PERSON6) Yea, yea.
+That's my fault.
+So, and since I'm, I'm
+(PERSON2) <unintelligible/> it happens.
+It's just -
+(PERSON6) It happens.
+It just happens that people start at begi- like in the middle and then they go back to the, eh.
+(PERSON8) But one more case I would like to highlight that when I was ah, just experimenting with this dataset which we have collected.
+So the ones which we have for, like the one which [PERSON2] did share with me. 
+That was an example of a short minute.
+And that meeting was short because that was actually, eh, eh shifted to some other like, like from [ORGANIZATION3] Meet to Sky Import, or like maybe there was shift of time.
+So that was, that's why that was a short meeting, or short minute created.
+So probably, I think the ones which are very short minutes, that will be, eh, not containing much of the, like minuting data, which is relevant
+(PERSON6) Yep.
+(PERSON2) We have a couple <unintelligible/> but really few.
+(PERSON6) Really few, yeah. 
+(PERSON8) Yea, that, that's one case that I just came to.
+(PERSON2) I think i have chosen the shortest for you, because you asked for it. 
+(PERSON8) Yea so that was one case I did see.
+(PERSON6) Okay, so back, back to the, to the people's assignments.
+So [PERSON3] will try to split the meetings that [PERSON2] would provide.
+[PERSON8] should then check if these splits make sense, or where are the problem?
+(PERSON3) I will, I, I just want to, to see the data first because I don't think that most of them are long.
+So I will just gather some statistics from the data and see, but.
+I'm sceptical if we are doing it later. i would really strongly suggest doing it in the beginning when the data are created.
+(PERSON6) Yea.
+(PERSON3) I really suggest, that one, that people who create the data should just create shorter samples, not that long, 2 pages summaries, 10 page transcripts and 2 page summaries.
+They just create, divide them to-topically and create shorter version. 
+(PERSON6) We could ask people to do -
+(PERSON3) That is definitely more clear, definitely very clean practice.
+It's much more cleaner than doing it, then automatically with script and asking other people to check them again.
+It's a total disaster.
+So i strongly suggest that you, you, you do it like that. 
+(PERSON6) Yes. 
+So I, I agree 
+(PERSON3) I will check the data.
+I will see what.
+(PERSON6) Yeah.
+I agree that we should probably add this instruction that people should, add like a horizontal rule, like eh, di- dividing line when they can.
+When there is is like a clear change in the topics and there is no -
+(PERSON2) In minutes.
+(PERSON6) In both, transcript and minutes.
+(PERSON2) In both, transcript and minutes the same lines.
+(PERSON6) the same lines yes.
+(PERSON2) Good.
+End of part, part -
+(PERSON3) Yes, absolutely.
+(PERSON6) Yea.
+This segmentation -
+(PERSON2) Could be down with new data.
+(PERSON6) Could be, exactly.
+So please add these to the instructions.
+And and possibly we can recreate -
+(PERSON2) How long time, how long duration <unintelligible/> audio eh -
+(PERSON6) The, the <other_noise/> is like 5 lines in the summary.
+Let's say 5 items in the summary.
+(PERSON2) Oh, well, for the annotators this is not state instruction because they have different lengths of summary.
+Somebody has just 5 li- lines of summary, for their -
+(PERSON3) They will have to split the transcript.
+And then summary follows the transcript, topically.
+So that they, they break the 10 pages into 3 or 4 parts, 2 pages each. 
+And then the summary will be broken at the same way.
+Just they will align the summary sentences, they will put them in the right, they will match them in the right parts.
+(PERSON6) Yea, let's, let's try that, yea.
+Okay.
+(PERSON3) It's, the, the, the the cleanest way to do it.
+Otherwise it will be, it will, it will mess up the process and everything.
+(PERSON6) Yeah.
+(PERSON2) I, what I may do now -
+(PERSON3) My battery is dying.
+I have to <unintelligible/>.
+I'm sorry I have to go.
+I'm home so I'm coming <unintelligible/>.
+It's just my battery is dying.
+(PERSON6) Yea ok.
+Yea so thank you and, like, talk to you, one you are here.
+So in the meantime, or just finish what, what you want to say.
+(PERSON2) No, no I could, ok.
+But it would match to [PERSON3] actually.
+(PERSON6) Okay, yeah.
+So, eh, in the meantime I would like to ask <unintelligible/> to try the tool by [PERSON1].
+And kind of finalize it so that we can use this tool, eh and proceed with the, um, meeting, with the summary evaluation which will be based on the alignment.
+So I'm a little bit sceptical towards the idea of, of splitting the meetings.
+So let's explore both.
+[PERSON3] will be exploring the idea of dividing it and <unintelligible/> were , eh, proceed with the alignment and, eh, [PERSON8] in link with <unintelligible/> can think about the evaluation measure.
+From [PERSON3], from [PERSON3]'s style of evaluation we would get one number.
+One, eh, indicating the number of stars for, for each of these units.
+And that's very simple.
+I agree and li- like that.
+But the question is whether we can come up with the dataset of these short transcript snippets and the corresponding summaries.
+And, eh, from, eh, the approach that I'm proposing we would have to link, eh, always a candidate summary to the transcript and we would have to come up with measures which check uh, what is, eh, what is the coverage.
+And, eh, the coverage should be based in terms of important pieces of information.
+And these important pieces of information should be also eh, automatically derived, derived from the reference summaries when they are linked to the transcript, kind of.
+So, yea.
+I would like to ask [PERSON8] to, to, to like proceed with thinking in, in this direction.
+And come up with uh, with a procedure that aggregates the scores and also consider, to talk to <unintelligible/> and like make sure that we get the, the proper alignment links from the annotation tool.
+(PERSON2) Hmm.
+Maybe I could send the data, I could add that, eh, we could try [PERSON3]'s idea of dividing on some of the Czech data.
+Because some Czech data are better structured and they -
+(PERSON6) It's because i was not leading.
+<laugh/>
+(PERSON2) Because I, because, [LOCATION1] [ORGANIZATION4] this has very good leading.  
+(PERSON6) Okay that's good.
+(PERSON2) I have, they have very good lines.
+So we could try to divide them.
+(PERSON6) Mm-hm.
+(PERSON2) And I may ask my annotators to do it quickly because they are Czech and text us Czech.
+(PERSON6) Yeah, yeah.
+(PERSON2) And they already from university and just them put the lines to already annotated texts.
+(PERSON6) Yeah, okay, that's good.
+Yeah.
+(PERSON2) So this is what I could do actually really quickly.
+So we could do that.
+(PERSON6) Hmm, yeah.
+And so far, we have no work for [PERSON4].
+Is that a pity?
+Do we want to find some, some job for you?
+Or. 
+<laugh/>
+No, it's not.
+I have time if you have any work to do, but if it's not, it's ok.
+(PERSON6) Yeah.
+So I think that it would be good if you, eh, explained to, especially [PERSON8], what are your past experiments.
+So you can now get access to that.
+And I think, I'm not sure if [PERSON3] has already shared with you <cough/> his like, workbench or, or whatever.
+He is, he has a set of scripts, some repository that he's building.
+He should, maybe he's not finished the cleaning, eh, to, to the level where he wants it to be.
+So maybe he has not share this with you yet, but it's, it would be useful for the future.
+If all of you experimented within the same experimentation environment so to say.
+So that you could easily share the data imports, the evaluation measures. 
+And if anybody of you implements a new evaluation measure everybody could use that and, and so on.
+So he has started this workbench already a year ago and he has used the, this for the numbers that he has reported to the slides, but it has, the development has started independently from what [PERSON7], what, what [PERSON4] did and also from what [PERSON8] did.
+So [PERSON8]'s extracted some <unintelligible/> outside of that.  
+So please get in touch with [PERSON3] and, eh, put your experiments, those that deserve it, those that are promising for the future, put them into this evaluation framework.
+<censored/>
+But that the point of, eh, approach was kind of okay.
+When I was telling to [PERSON3] that we should put, eh, even these past experiments, the relevant ones into this, into this workbench he said: "well but that's a technique which is 10 years old or whatever so it's, let's not bother with it anymore."
+I don't really share his negative opinion on that.
+I think that, eh, the, today people can easily like create bogus results.
+So they, lan- launch some, eh, some black box system and it, emits some numbers and they report it and, and the impression is that the evolution moves on but truth is that the well tested older methods are actually practically more use, then the, the newest things today.
+So I think it makes sense to rerun the <unintelligible/> once moved to [PERSON3]'s repository.
+The, the [PERSON3]'s workbench.
+Rerun it the current data and make a head to head comparison with what [PERSON8] did, extractive style?
+And what [PERSON3] did, which was this bared based thing.
+So, so I think that [PERSON4] free of other tasks so far could try to redo, because you have this experience of putting things into one table so that they are comparable, and that's very useful skill that, it, it's very important.
+So if you could oversee the, the, the merge of all the approaches that we have so far.
+(PERSON4) Hmm, okay.
+So you have other tables, or.
+(PERSON6) No, well [PERSON8] has like one and [PERSON3] has one -
+(PERSON8) [PERSON3] also has one so I, the paper which [PERSON4] did start.
+So [PERSON2] did share with me, with me that paper.
+So I did added the [PERSON3]'s work as well.
+I am adding the transformer. I did already add the transformer to it.
+So maybe I think [PERSON4]'s experiment and [PERSON3]'s experiment and my Experiment and maybe improve, just an improved model of that can be found as a paper.
+Just because the failure experiment can also be added to that.
+Just to show that it's, it's just something we experimented.
+So
+(PERSON6) Yeah.
+Yeah, that's good.
+So [PERSON4], [PERSON4] could take this from you now, merge it with what he did in the past and evaluate it in unified framework so that we would have this comparable across all of the, all of the system and that would be a paper.
+That's, that's good.
+I've heard that [ORGANIZATION1] deadline has been extended.
+It's no longer September, the 20th of September, it's some early October.
+(PERSON8) Yes, Yes, Yes.
+(PERSON4) October 7th.
+(PERSON6) Like 3 weeks.
+And since the experiments were technically done, eh, obviously they have to be rerun now, so that they are comparable and on the same dataset
+It is conceivable, it's risky but possible that we would have this written up for, for [ORGANIZATION1].
+So that's, that's one, one possible, eh, thing to aim at.
+(PERSON8) Okay, possibly I have actually reframed the entire paper as well.
+So I added sections which [PERSON3] did. So, eh, you can, I think you have the same link over <unintelligible/> document.
+We both have the same one.
+And <unintelligible/> disk is maybe on this
+(PERSON4) Yea we have to discuss -
+(PERSON8) Yes.
+(PERSON6) Yeah, so please, please go ahead with this and do I understand correctly that [PERSON4] is fine with that right?
+So would you, would you -
+(PERSON4) Yeah.
+Yes.
+(PERSON6) Yeah.
+So it would be essentially the, the basics was the paper usage [PERSON4] right?
+(PERSON4) Hmm, yeah.
+(PERSON6) Extended by [PERSON8] and extended by [PERSON3] right?
+(PERSON4) Right.
+(PERSON6) Yeah, that looked good.
+Ok I have to go to the other meeting so feel free to discuss whatever and also the next meeting time.
+(PERSON2) Should we meet next week again?
+(PERSON6) The, so I suggest these, these daily calls are fine for short synchronization task -
+(PERSON2) So if we need to make one more general call.
+(PERSON6) And one more general call in week would also probably make sense based on what, what [PERSON3] observes on this.
+(PERSON2) Data.
+(PERSON6) On the splitting
+Okay.
+Thank you.
+(PERSON5) So -
+(PERSON6) Any quick question?
+(PERSON5) Yes.
+So I just to wanted to like reconfirm.
+So the thing is that we want to come up to a manual score based on the alignment best technique?
+(PERSON6) Yeah.
+So the score itself is already automated.
+It's fully automatic.
+But it is based on manual alignments.
+(PERSON5) Right, right, okay.
+(PERSON6) And the idea of the annotation of the manual annotation is that it should be done like once and then easily reusable as more reference minutes are created.
+So the annotation should be stand of and reusable so that you can just recalculate the score if you get more, eh, more annotations of that.
+(PERSON5) Right, right.
+Okay
+(PERSON6) Okay.
+Thank you.
+Thanks.
+And bye.

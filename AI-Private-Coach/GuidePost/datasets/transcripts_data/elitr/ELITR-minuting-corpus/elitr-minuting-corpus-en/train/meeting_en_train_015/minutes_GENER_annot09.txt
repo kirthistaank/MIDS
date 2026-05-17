@@ -1,0 +1,32 @@
+- Purpose of the meeting.
+-- The call focuses on testing different pipelines along with different components.
+-- The different workers and components that could potentially have different versions should be tested.
+
+- Workflow.
+-- The workers should be labeled to make it obvious when somebody changes it to a new version; it should be visible from the fingerprint.
+-- The idea of the mediator – the workers should be interchangeable.
+-- The name of the fingerprint – 2 letters for the language, 2 letters for the country and x characters for the domain.
+-- The ammount of tests depends on the ammount of versions of the available workers.
+-- Possible solution - to coordinate the pipe on the client side.
+-- The pipeline specification should go over the description of workers of the exact version.
+-- Only two dashes allowed in the description.
+-- It would be good to have deterministic behaviour of workers for the evaluation purposes.
+-- From the client side it is not visible who is providing the service.
+
+- Problems.
+-- The downstream workers also need to change the input fingerprints.
+-- There is very strict fingerprint matching enabled in the mediator.
+-- It might be difficult to test all the different pipelines.
+-- Conflicting goals: the workers should not know what is the version of the previous pipeline, but to test specific pipelines one has to be able to request specific versions of each worker.
+-- Changing the fingerprints is not a short process, it has to be done manually.
+-- Possible fails: the fingerprint matching not being precise, which would mean getting a different ASR; complete failure because of disability to connect to ASR.
+-- It is not possible to request workers by the description.
+-- Requesting fingerprints for the different output types might be problematic.
+
+- Plans.
+-- To extend and check the cloud library.
+-- Regular tests of the workers/versions - Wednesdays.
+-- Intermediate solution: to have multiple mediators with multiple versions of workers starting and to manage everything manually to the client; the client would request multiple fingerprints.
+-- To try to start the client and explicitely request all of the intermediate fingerprints, which allows to request almost specifically the pipeline that is wanted.
+-- Every partner should label their workers.
+-- To write the use case in the document and to send a Doodle for the next week.

@@ -1,0 +1,45 @@
+[PROJECT2] Surge 2020 Organization
+
+Fri Jan 24, 13.00, in front of 423
+-	Sync on everyone's past activities:
+--	[PERSON5]
+---	Only reminded everyone of the point of the surge and the upcoming test events:
+----	[PERSON1]'s talk on Wednesday
+----	Workshop dry run on Feb 12
+----	And then student firms fair in March, not mentioned in the call.
+--	[PERSON8]:
+---	Did ASR for several youtube videos, as needed by [PERSON10]
+---	Adapting dict for last Monday talk for some reason did not quite work (anti-/semitic)
+---	Work on English segmenter (observed terrible scores, need to improve)
+---	Improving launching scripts, more needed
+---	Working on getting [ORGANIZATION4] systems running on our machines
+--	[PERSON4]:
+---	- downloading corpora:
+---		- epic
+---		- must-c -- en-de and en-cs only
+---		- [ORGANIZATION6]-st
+---		- [ORGANIZATION6]-plenary-sessions-interpreting
+---		- emailing with [ORGANIZATION6] webmaster :)
+---	           - request on EPTIC authors
+---	- my multi-source SLT research: en+de-cs -- my main project until March 6, at least
+--	[PERSON5]: If multi-source will improve MT output, we are going to deploy it during March/April
+---	- backendASR -- binding worker ASR and mediator
+--	[PERSON9]
+---	Compression should be ready, [PERSON8] needs to test it
+----	[PERSON5] proposed to shift it so that [PERSON8] only tells [PERSON9] how to run our systems via mediator and where are good input data and [PERSON9] will measure the ASR quality drop himself
+----	[PROJECT1] multi-source, besides others
+--	[PERSON2]
+---	A tool for evaluation of SLT
+---	This tool should be then regularly run by [PERSON10] on outputs of various system parts, including full systems deployed and run by [PERSON8]
+--	[PERSON12]
+---	-- collection of in-domain monolingual data, for auditing domain
+--	[PERSON13]
+---	Backtranslation - status: I am waiting for data
+---	Domain adaptation - status: I am waiting for data
+--	[PERSON10] -- data management
+--- managing annotators
+---	IWSLT dev + test: en-> cs, en->de
+--	[PERSON6]
+---- forced alignment tool -- for En and Cs
+----	Improving ASR, esp. moving from the rolling window approach to growing hypothesis with a stable prefix
+

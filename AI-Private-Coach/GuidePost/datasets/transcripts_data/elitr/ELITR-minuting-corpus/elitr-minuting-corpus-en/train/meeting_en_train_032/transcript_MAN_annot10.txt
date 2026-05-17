@@ -1,0 +1,496 @@
+(PERSON3) Oh, uh, [PERSON11] s- s- said, uh, message that he will be late, so are we waiting for anyone else?
+(PERSON1) Uh, I don't think so, [PERSON23] is on vacation, so.
+There is nobody else.
+(PERSON3) <other_noise/> Okay, so, let's start, I guess.
+Hmm.
+So, uh, first of all, uh, I created the [ORGANIZATION2] channel.
+I hope for everyone got the message so <unintelligible/> can be used as, uh, <other_noise/> I donno, stuff that you don't want to make- uh, write the emails for, but should simplify communication, hopefully.
+Uh, what else.
+<parallel_talk/> Ta, da, da.<parallel_talk/>
+Yeah, I guess that that's it, uh.
+Yeah, [PERSON17], how- how was the- how was the [PROJECT3] deadline, you make it?
+Uh, you're- you're muted.
+(PERSON20) Sorry. 
+Oh, we didn't submit it. <other_yawn/>
+(PERSON3) Okay.
+(PERSON20) So, because- 
+yeah, the- like the- the results were unsatisfactory.
+(PERSON3) Mm-hmm.
+(PERSON20) And still like the things were in the process of training, and on Sunday, when I like let it run further, it got like half- half a point of BLEU better so it wouldn't be- yeah, like there was nothing-
+I- I thought, you know like two days before <other_noise/> -ore the deadline but finally found out that it's not there.
+Can you- <other_noise/> can hear me?
+Because I'm a bit -
+(PERSON3) Ts- <other_noise/>
+(PERSON20) frozen here.
+(PERSON3) No problems.
+Okay, so there's that, uh, n- well, th- than- if I'm- if I'm correct than the next possible deadline is the [ORGANIZATION5], uh, in, uh, exactly 30 days. 
+No, uh, a little bit more than 30 days, so.
+I donno, do you plan to resubmit or not resubmit?
+Try to submit it for the [ORGANIZATION5]?
+(PERSON20) Yeah, we would like to submit it, uh, to the [ORGANIZATION5].
+(PERSON3) Mm-hmm.
+(PERSON20) Like prepare something.
+So n- n- just now we had some- like discussion with [PERSON21].
+(PERSON3) Mm-hmm.
+(PERSON20) Like how should we continue
+with the experiments, like there are 2 parts, uh, of the- f- of the experiments.
+1 is <other_noise/> call it data augmentation.
+(PERSON3) Mm-hmm.
+(PERSON20) <unintelligible/> And it's- it's that instead of, uh, n- n- normal processes that you first back-translate- uh, like the- some suggested process by [ORGANIZATION1] guys have used that for pre-training you back-translate- or train on back-translated data -
+(PERSON3) Mm-hmm.
+(PERSON20) and then you finetune on original data.
+<other_yawn/> And, uh, instead of back-translated data we wanted to use the <other_noise/> paraphrases, which are done by back-translation -
+(PERSON3) Mm-hmm.
+(PERSON20) but, uh, with the constraints, so that the paraphrases are the most like d- distant from the original, originals.
+Yeah, and so- so the hyp- hypothesis was that in this way, we can get like better- better score when- when- whe- when we pre-train it that the- <other_yawn/> the source is more distance from the original.
+(PERSON3) Mm-hmm.
+(PERSON20) Or like the back-translated source is more distant from the original, on which we finetune later.
+Okay, I- I don't wanna to dis- I don't wanna describe it more, like I have some numbers from it, like interesting findings or some like observations, because I- we also, um, tried [PROJECT4], -
+(PERSON3) Mm-hmm.
+(PERSON20) and the interesting thing is that, uh, it actually ignores the- the- the second source.
+When 1 of the sources is orig, or original ou- input.
+(PERSON3) Mm-hmm.
+(PERSON20) Yeah, so now we have to like investigate further, how to change it or- and when we change it, where <laugh/> it's going to be better or it's gonna be sub-optimal or something, yeah.
+(PERSON3) Okay, uh, I guess, uh, can you please fill it like in 1 or 2 sentences into the doc so we have the- uh, notes about it?
+(PERSON20) Okay.
+(PERSON3) So- so- yeah.
+Okay, thanks.
+Uh, oh, so ne- next one, I guess it <unintelligible/> <another_language/> that's stuck.
+Or -
+(PERSON1) Uh, we- uh, I th- I think, um, [PERSON17] can confirm <unintelligible/> everything is done on our end and we just ship that to [ORGANIZATION1] for them to test, like -
+(PERSON3) Okay.
+(PERSON1) we- we prepared the experiment and this is like the far- the la- lastest thing, we hope.
+(PERSON3) Mm-hmm.
+(PERSON1) And, uh, they didn't get back to us over the weekend, but I guess that's okay, so we gotta just wakin- waiting for them and we expect that during this week we get some reply.
+And hopefully, they'll say that everything is okay and they'll start doing the experiment but
+I donno.
+(PERSON3) Uh, I h- I hope that- that next Monday we will least know that they are starting to do their part, right.
+But yeah, is good- good to hear that- that, uh, we- we have everything done.
+On our side.
+(PERSON20) Yeah, I- like last week I just sent them I'll-
+so I- I- I push the ball on their side <laugh/> and, uh, they- they told us that they will check it and told us that it's not a good idea that- uh, to add another machine translation system for, uh, Czech-English.
+Yeah, w- we also think is not a good i- 
+like because, in his way, we need to have more participants to cover -
+(PERSON3) Mm-hmm.
+(PERSON20) like sufficiently all of these MT systems.
+But still, I think we can run it.
+And when we f- find what we w- like enough about those, uh, [PROJECT9] systems -
+(PERSON3) Mm-hmm.
+(PERSON20) uh, we can switch them off and replace them by the [PROJECT8].
+And li- I- I mean like in the exper- like when the, uh, experiment's already run -
+(PERSON3) Okay.
+(PERSON20) and running, and s- so I just told them to start and they- yeah.
+So- so I prompted them today and they haven't replied yet, so.
+(PERSON3) Mm-hmm.
+Okay, so -
+(PERSON20) Let's hope that ch- they will check it- check it, uh, as soon as possible and do not- <cough/> do not refuse to do it because of whatever.
+(PERSON3) Yeah, that's- that's good, I guess, uh, if they don't reply until Thursday or Friday it would be nice maybe to nudge them a little bit, like whether -
+(PERSON20) Hmm.
+I- I- um, like l- last week in the email I sent- I- like I told them that we would like to aim it to the [ORGANIZATION5] deadline.
+(PERSON3) Mm-hmm.
+(PERSON20) So the statistics or the experiment should be done by the end of the August, so.
+(PERSON3) Okay, that will be nice, yeah.
+(PERSON20) Yeah.
+(PERSON3) Okay, so let's- let's say that that's fine, it's going according to plan.
+And agai-
+(PERSON1) Uh, well, according to plan, like -
+(PERSON3) Oh. <laugh/>
+(PERSON1) all this experiment is- it's -
+(PERSON20) <laugh/>
+(PERSON1) in progress for like 8 months already, <laugh/> so. <laugh/>
+(PERSON3) Yeah, yeah, okay.
+Acco- according to current plan, right.
+Uh, <other_yawn/> so.
+(PERSON20) Yes. <laugh/>
+(PERSON3) <another_language/>
+Hi.
+Uh, muted still.
+(PERSON1) <another_language/>
+(PERSON3) Uh, you're muted.
+(PERSON20) You're muted.
+(PERSON3) And <other_yawn/>
+still muted.
+Just- just click the little -
+(PERSON2) Ah.
+(PERSON3) mike.
+Yeah.
+That's it.
+(PERSON2) <another_language/> <laugh/>
+(PERSON3) Oh, uh, it's- it's hidden, yeah, yeah.
+Uh, so <other_yawn/> yeah, we were just talking that the Taco <another_language/> is currently been, uh, sent to [ORGANIZATION1] and we are waiting for response and, uh, the- 
+<parallel_talk/> uh, okay, maybe [PERSON11] is- oh, it's fine.<parallel_talk/>
+Okay, so and, uh, the [PROJECT4] was- uh, er, is- is that the- the plan is to try to submit for [ORGANIZATION5] now.
+Like, er, er, they- they didn't make it for the [PROJECT3].
+(PERSON2) Yeah.
+(PERSON20) Yeah, so long story short for- for [PERSON11].
+So we- we found- in the end, we found nothing interesting in the experiments that we have run so far.
+(PERSON2) What? 
+(PERSON20) I can -
+(PERSON2) <laugh/>
+(PERSON20) <laugh/> I can- I can s- send you details in the- uh, or like write down the details o- to the agenda, and also send a link to the table where we collect results and maybe you will find something there, but- 
+we have some i- further ideas which is- like with that- which should- what- that we want to try, but yeah, so.
+Um -
+(PERSON2) Well. 
+Uh, ho- how come nothing interesting?
+(PERSON20) we- we want to retry it for [ORGANIZATION5].
+(PERSON2) Yeah, but- uh, but how come nothing interesting?
+Uh, it's- uh, because it's all as expected that the, uh, s- uh, quality estimates are totally useless and-
+or what, uh.
+(PERSON20) Hmm.
+Wh- w- wait- wait- wait to quality estimates there was nothing.
+No, uh -
+(PERSON2) So I- I'm- I'm- maybe I'm confusing it, so -
+(PERSON20) Yeah.
+(PERSON2) yeah.
+(PERSON20) This is with [PROJECT4] translation and -
+(PERSON2) [PROJECT4], okay.
+Yeah, that was the paraphrases.
+(PERSON20) Yeah, paraphrases.
+Yeah, so -
+(PERSON2) Mm-hmm, okay, yeah.
+(PERSON20) Um, like they were like two branches, uh, uh, one was data a- augmentation and the other one was like truly [PROJECT4] translation, and- y- yeah, so like in the first part-
+with- like we had better numbers but in the end, this was still like in the process of learning, and on Sunday after the deadline, I had even better numbers.
+So it wasn't ready yet for- for like in the time of deadline.
+(PERSON2) Mm-hmm.
+(PERSON20) So- so we would- we would have claim- claimed something that is not true or-
+<laugh/> yeah, so. 
+(PERSON2) Well, uh, not- not- not the full truth, not- not as good as a -
+(PERSON20) Not the full truth, yeah, yeah.
+(PERSON2) Yeah.
+(PERSON20) And, um, with the [PROJECT4], uh, it happened that, uh, like when we train it, uh, it's- it's just decides to ignore the other source.
+And so- so now I'm investigating how to f- force him to- to take advantage of both sources or like 3 -
+(PERSON2) Mm-hmm. 
+(PERSON20) not to just rely on 1 source in the end.
+(PERSON2) Yeah, uh -
+(PERSON20) So if like I -
+(PERSON2) And that- so the true [PROJECT4] is what data set?
+(PERSON20) <other_yawn/> Uh, it's- uh, it's originals, and to these originals, I create, uh, paraphrases by ParaBank rewriter, yeah?
+(PERSON2) Yeah. 
+Uh- uh, and -
+(PERSON20) And so if I- if I replaced the par-
+like in when I train the system-
+and if I replace [ORGANIZATION3], uh, input with shaft <other_noise/> <unintelligible/> [ORGANIZATION3] input or blanks, empty- empty file -
+(PERSON2) Mm-hmm.
+(PERSON20) it just remains the same.
+(PERSON2) Yeah, so I think -
+(PERSON20) And if I- if I do it and- uh, the other way, so I replace the originals with empty, so it- it just translates to empty.
+(PERSON2) Okay. 
+Yeah. 
+Uh, so, uh, in the training phase, I suggest that you do the same thing, uh, that you also, uh, delete, uh, the original channel and -
+(PERSON20) Yeah.  
+(PERSON2) uh, s- train to only 1 [ORGANIZATION3].
+And also that- uh, the question is whether, uh, you want to make it positional, so that the first encoder is always empty or the source, uh, and the second encoder is always [ORGANIZATION3] or empty, or if you want to swap it as well -
+(PERSON20) Mm-hmm.
+(PERSON2) so that [ORGANIZATION3] can appear in the first encoder as well and the original can appear in the, uh, second encoder, uh -
+(PERSON20) Yeah.
+(PERSON2) and then -
+(PERSON20) That's how I wanted to try- like to try to swap it but I'm afraid that then, uh, like the final score would be like 2 BLEU points lower than- than -
+(PERSON2) It's possible.
+Yeah, but it's- it's, um -
+(PERSON20) And if I- then if I train on ori- originals only. 
+So that's my impression ot- of what happened so far.
+(PERSON2) Yeah, that- that -
+(PERSON20) I haven't tried these experiment yet, but yeah, I'm going to try it but this is what I -
+(PERSON2) Yeah. 
+(PERSON20) don't like, it's -
+(PERSON2) So only disabling it during the training so that you keep it positional and it know- it learns that it should trust primarily the- uh, the source, the first encodator -
+(PERSON20) Mm-hmm.
+(PERSON2) uh, and only if it's empty it should trust the second one.
+That is- uh, I agree that this would probably get a higher BLEU score.
+And I would do one more thing, and that would be, uh, damaging, uh, the- uh, either of them, uh, so I would actually replace, uh, content words, for example, or start with totally random words- replacing random words to the random words, uh, in the source channel.
+Uh, so one of the channels should contain the good information, one of the channels -
+(PERSON20) Mm-hmm.
+(PERSON2) uh, should be damaged.
+Uh, and it should learn to, uh, like, uh, m- k- recover from this.
+Uh, and, uh, the- the question is what types of mistakes, uh, we should create in the data.
+Uh, so, uh, it should be primarily, uh, mistakes which are possible for the human user, so that -
+(PERSON20) Mm-hmm.
+(PERSON2) uh, the human user coul-
+I would probably start with typos, so, uh, talk to -
+(PERSON20) Mm-hmm.
+(PERSON2) k- uh, uh, correct- uh, who is the author of corrector- uh, [PERSON10] Na- uh, n- no.
+No, not- not [PERSON10]. 
+The- er, [PERSON16]? 
+(PERSON20) Mm-hmm.
+(PERSON2) So get in touch with him, because he and [PERSON19]- I think, if I'm not mistaken- are working on, uh, uh, like automatic creation of- uh, or it may be already, uh, um, Ja- [PERSON14], uh, cooperators of errors, or a system which creates errors. 
+So, uh, we could damage one of the sources and lead the other one okay, or damage both of the sources, uh, but in a different way. 
+Uh, like randomly, obviously, but they are different already. 
+Uh, and then it sh- it should learn to- to merge this information, so -
+(PERSON20) Mm-hmm.
+(PERSON2) I would suggest noisifying the- the training data.
+(PERSON20) Mm-hmm.
+(PERSON3) Uh, b- by the way, the corrector, I think it's [PERSON5] and [PERSON6]. 
+With [PERSON7] -
+(PERSON2) No, that's the old one. 
+(PERSON3) Yeah, okay. 
+O- o- okay. 
+So yeah, it's bo- it's possible that [PERSON16] is actually working on something similar. 
+(PERSON2) Yeah.
+(PERSON3) Yeah, okay. 
+(PERSON2) So please ask him and -
+(PERSON20) Okay, yeah, yeah, yeah, mm-hmm.
+(PERSON2) So yeah -
+(PERSON3) <unintelligible/>
+(PERSON2) don- don't feel bad about like the- the missed [PROJECT3] opportunity, uh, but it's- uh, even- even if we miss a deadline it is useful because it has pushed you to- towards, uh, actually getting the thing running, getting it trained.
+Yeah, so it's a- a pity but not too bad, it -
+(PERSON20) Mm-hmm.
+(PERSON2) it progress, you are making progress.
+(PERSON20) Yeah. 
+(PERSON3) Maybe, um, [PERSON17], you're- uh, okay, you're at- at work but you're <unintelligible/>, right?
+This week.
+Or recently.
+(PERSON20) Y- yes, but tomorrow I'm planning to come to [LOCATION1]. 
+(PERSON3) Okay, uh, well, I'll return to [LOCATION2] on Tuesday -
+(PERSON20) <other_yawn/> Oh.
+(PERSON3) evening, so- so -
+(PERSON20) On Tuesday evening.
+(PERSON3) yeah, but okay.
+Okay, but we can- can -
+(PERSON20) Okay, so I can come on Wednesd- or I can come to [LOCATION1] on Wednesday, I- I just want 1 day go to [LOCATION1], so if you are there on Wednesday I can come there.
+(PERSON3) Yeah, Wednesday should be fine.
+(PERSON20) Because on Thursday I will be in Slovakia already, so.
+(PERSON3) Okay, I- I'm just m- interesting in more of the details to -
+(PERSON20) Mm-hmm.
+(PERSON3) the- yea- you know, to- to -
+(PERSON20) Yeah, yeah.
+(PERSON3) er, so- so I can also start thinking about it little bit and maybe trip in -
+(PERSON20) Mm-hmm.
+(PERSON3) with ideas.
+(PERSON20) Yeah, okay, like no problem and maybe I would al- also <other_yawn/> enjoy like somebody will like help me- helping me with this, because yeah -
+(PERSON3) Mm-hmm.
+(PERSON20) we- we are working with [PERSON21] on it, but he will slowly -
+(PERSON3) Well, he is officially employed by [ORGANIZATION1], right, so.
+(PERSON20) Yeah, and -
+(PERSON3) Yeah.
+(PERSON20) that's- that's- s- so- so I- I think he'll slo- slowly back off from the- from this, uh, project, then- yeah, we- <unintelligible/> he promised me that we- we should finish it but, uh, like maybe the- the experiments that we want to finish and not some like extensions.
+(PERSON2) Yeah.
+(PERSON3) Okay, s-
+(PERSON2) There could even emerge, uh, IP issues.
+Uh, so, I- I've switch off my, uh, camera because I'm, uh, starting to -
+(PERSON3) That's fine.
+(PERSON20) Mm-hmm.
+(PERSON2) Yeah, uh.
+(PERSON3) Uh, okay, so maybe if that's everything, uh, I just want to mention- [PERSON11], I- I created the Zoom, I sent the email and hopefully, we will be using it for some, uh, more like technical stuff, something that- you know, it's just -
+(PERSON2) Mm-hmm.
+(PERSON3) too much to write an email in my opinion.
+Uh, there was a question whether we use it for conferences, but basically, we decided not to because I donno if it can record and whether you even can make- create conferences there.
+(PERSON2) Uh -
+(PERSON20) Uh, you're talking- sorry, you are talking about [ORGANIZATION2], not -
+(PERSON2) [ORGANIZATION2].
+(PERSON20) not Zoom.
+(PERSON3) Oh, yeah, yeah, yeah, I meant-
+(PERSON2) Yeah, exactly, I was confused.
+(PERSON3) I meant [ORGANIZATION2], yeah, yeah.
+Okay, sorry about that.
+Uh -
+(PERSON2) Yeah.
+(PERSON3) So [PERSON17], uh, you actually looked into that, uh, you cannot have a call of more than 2 peopl- <other_yawn/> uh, more than -
+(PERSON20) Oh, just somebody told it during today's lunch, I think [PERSON9] or- or someth- wha- that you- you can't have more than th- 2 people in the call -
+(PERSON3) Mm-hmm.
+(PERSON20) when you are- have the free version -
+(PERSON3) Mm-hmm.
+(PERSON20) and you also cannot share the screen or something like this.
+(PERSON3) Okay, well, I was wondering whether we can use [ORGANIZATION2] at least when I call to [PERSON4]- uh, it's [PERSON4], right? <laugh/>
+I always mess up the manes so I- sorry. 
+Uh, so, <other_yawn/> uh, I don't know, if we are going to call like, uh, we- the 3 of us, so it- we cannot use it, I guess.
+(PERSON20) Uh.
+(PERSON15) Um, you say using [ORGANIZATION2]?
+For the -
+(PERSON3) Yes. 
+Uh, because sometimes- 
+well, there were some issues with my connection on Whatsapp, so maybe [ORGANIZATION2] may solve it.
+Well, we can try it, n- I don't know, tomorrow or something.
+(PERSON20) Mm-hmm.
+(PERSON15) If- if it would be just bo- uh, uh, just me and [PERSON13], we can do this -
+(PERSON3) Yes.
+(PERSON15) only by [ORGANIZATION2], but if -
+(PERSON3) Yeah. 
+(PERSON15) [PERSON17] will- we'll be together we can try through right Whatsapp, right? 
+(PERSON3) Mm-hmm.
+(PERSON15) That-s no problem.
+(PERSON3) Well, we would- we would- we would use- the Zoom might be bet- definitely better, but Zoom is reserve only for this time, so- so we cannot actually use this room for the- for the, er, lunch meetings, right. 
+So.
+<other_yawn/> Uh, but it's- it's- it's okay, I guess.
+So a last thing is, uh, [PERSON4] is trying to, uh, install [PROJECT8] for GPU.
+We are currently- he has- he has run into some issues with specifying CUDA libraries.
+And we are trying to solve it.
+I'm not sure- [PERSON11], I've noticed that there is a- in the [PROJECT7] directory, there are several [PROJECT8] subfolders- or subdial- subdirectories.
+(PERSON2) Mm-hmm.
+(PERSON3) Uh, do you know anything about that? 
+Or I guess we should ask [PERSON2], right, he was compiling it. 
+(PERSON2) Yes -
+(PERSON3) <unintelligible/>
+(PERSON2) he probably has, uh, the- the best experience.
+(PERSON3) Yeah.
+(PERSON2) Uh -
+(PERSON3) Like I'm- I'm n- not completely sure, uh, what are the issues will with the CUDA compilation -
+(PERSON2) Mm-hmm.
+(PERSON3) in [PROJECT8].
+The CPU version was fine, right?
+You- you were- you had no problems.
+Yeah.  
+(PERSON15) Yeah, yeah, I just ran the- the script and  -
+(PERSON20) And does it -
+(PERSON15) it worked.
+(PERSON20) does it fail in the- during the compilation or already in the configuration or like generating a Makefile by CMake?
+(PERSON3) It's a-
+(PERSON15) Um -
+(PERSON3) yeah, go on. 
+(PERSON15) I'm sorry.
+Yeah, but, um, it- it was not finding CUDA and o- on the final, uh, <other_yawn/> C, uh, I- I think it's CM- uh, the CMake command.  
+(PERSON20) Mm-hmm.
+(PERSON15) And it- even though I'm- I'm using- I'm passing the- the- <other_yawn/> the Parabol, the- the path to the- to the correct coder, uh, it- it doesn't find it, uh, I- I don't know why.  
+(PERSON20) And- so and- so you compile it logged into one of the DLL -
+(PERSON15) Actually, I was using Chronos because, uh -
+(PERSON2) That- that's a different- uh, that's a different machine, so they- they differ in co- hulp- hardware configuration.
+(PERSON20) Hmm.
+(PERSON3) Yeah, I- I- I explained that.    
+(PERSON20) <unintelligible/> better to go to some DLLs or TDLLs because Chronos it's -
+(PERSON15) Okay, yeah -
+(PERSON20) like outdated.
+(PERSON15) [PERSON13] told me to- to do this to- today.
+(PERSON3) So the thing is -
+(PERSON15) So I'll try this.
+(PERSON3) the- the thing is that I think it should be- it's a good experi- like exercise to compile it in Chronos, because the issues were with finding the correct paths.
+I think the problem is- uh, and again, we still haven't figured it out, but it might be that even though, uh, [PERSON4] specified the correct root directory, where the CUDA is installed, it- the Cmake libraries cannot really find the subdirectory structure, because it- it couldn't find the NVCC compiler, the N- the Nvidia compiler, right.
+And it is located in those subdirectories, so- so there might be problem with some path name resolution or something.
+But -
+(PERSON15) Yeah, I'm making something wrong. 
+(PERSON3) yeah.
+So- so until we resolve that, I told [PERSON4] that he can try, uh, running- running training on- <other_yawn/> on the TDLL, because in the [PROJECT7] project directory there is already [PROJECT8] compiled against the TDLL 5, so it should be working if it's compart correctly.
+So -
+(PERSON15) Yeah, I didn't try yet, but.
+(PERSON3) Yeah.
+So we- we are sort- yeah, so it's progressing, I think you- you kinda getting used to working on the cluster, I think you have all the access that you need, so it's fine and it's- it's- it's alright.
+(PERSON20) Or there is- or I can link you to my [PROJECT8], which is not my [PROJECT8] but [PERSON21]'s [PROJECT8], so. <laugh/>
+Yes.
+(PERSON3) Mm-hmm.
+(PERSON2) Yeah.
+(PERSON20) If you want to train -
+(PERSON2) And -
+(PERSON20) uh, something, so either use the [PROJECT7] or ask me to- or I can link you my- my <unintelligible/>.
+(PERSON15) Okay.
+() <other_yawn/> Yeah.
+(PERSON15) Yeah, I -
+(PERSON2) And once you succeed -
+(PERSON15) Mm-hmm?
+Sorry. 
+(PERSON2) uh, just please- uh, please remind me once- uh, once you succeed with the compilation, what is the goal, uh, uh, what is the first task to deal with, uh, once [PROJECT8] is compiled?
+(PERSON3) P- k- k- or- uh, currently I think that, uh, that's good- good thing to do is, uh, to try train, uh, some larger- or you know, reasonably large model on GPU just to get a gist of how- how to actually set up the environment variables.
+And how to a- a- co- n- check that, er, even though you're on a GPU machine, that you are actually computing on GPU and such like- you know.
+(PERSON2) Yeah. 
+(PERSON3) Because I do know that there can be problems with that, so- so-
+(PERSON20) These are still like, uh, toy tasks, uh, um, we haven't -
+() Yeah.
+(PERSON15) Yeah, actually, you told me to- to train with Czech-English data set, right?
+(PERSON3) Yes. 
+(PERSON15) And -
+(PERSON20) Mm-hmm.
+(PERSON15) I will do that -
+(PERSON20) Yeah. 
+(PERSON15) as soon as I- I fix this -
+(PERSON2) Yeah, mm-hmm.
+(PERSON15) or I start using the [PROJECT7].
+(PERSON20) And I can link you also to the hyperparameters that I used for training, it's cause -
+(PERSON15) Okay, yeah.
+(PERSON20) I haven't figure- figure out them like <laugh/> myself but also copied them from [PERSON21] and he copied it from [ORGANIZATION1].
+(PERSON18) Yeah.
+(PERSON20) I think those para- like hyperparameters are -
+(PERSON3) Mm-hmm.
+(PERSON2) Yeah.
+(PERSON20) proved to be optimal or something.
+(PERSON2) <unintelligible/> just one thing, uh, that I wanted to mention, uh, uh, I- my Ph.D. student [PERSON4], who is in [LOCATION2] in- in person, also has, uh, just- uh, will be starting to compile his own [PROJECT8], so please, uh, if- if you can- uh, [PERSON13], if you can, uh, email [PERSON4] just -
+(PERSON3) Uh, I guess -
+(PERSON2) [PERSON4]. <laugh/>  
+(PERSON3) Or like let him -
+(PERSON2) Uh, but I think -
+(PERSON3) le- let him know that he can t- turn to us.
+Uh -
+(PERSON2) Yes. 
+(PERSON3) yeah.
+That's the -
+(PERSON2) I -
+(PERSON3) it's the phrase, right?
+(PERSON2) I told him, but I think it could be also useful if, uh, [PERSON22] and [PERSON4], uh, would be, uh, also directly connected, because they will be t- running into the same type of- types of issues.
+(PERSON3) Yeah. 
+But just please le- like, uh, push him so- so he contacts us, er, because well, it's in his own interest, right, first of all and second of all, I might -
+(PERSON2) <unintelligible/> uh, I told him already that he can contact you.
+Uh -
+(PERSON3) Yeah. 
+(PERSON2) I'll- I'll t- I'll t- uh, repeat it again, so that he really does. 
+(PERSON3) Okay, okay, that's- that's fine.
+Uh, okay, so this is the technical stuff.
+And I guess, hopefully next week, we can start talking about plans for the [PROJECT6].
+Like currently the thing is -
+(PERSON15) Yeah. 
+(PERSON3) we need to look up, uh, some, uh, related work we can s- start like build on top of it o- or something like that because I currently have, uh, only limited knowledge about the state-of-the-art.
+I know that Mi- [PERSON17] was, uh, mentioning some- some papers, like at least with, uh, relation to [ORGANIZATION6].
+Uh, so maybe -
+(PERSON20) You mean the constraint, uh -
+(PERSON3) Yes, yes, there's- the- those ones.
+So yeah, I think they are already linked in the doc or not.
+I- I still need to read- uh read them, at- at least skim through them, so -
+(PERSON15) Yeah.
+(PERSON3) so yeah, we can- we can <unintelligible/>.
+(PERSON15) I read them.
+There are 2, right?
+And uh -
+(PERSON3) Yeah, okay, so yeah, so that's good.
+So I also -
+(PERSON15) Yeah. 
+(PERSON3) try to- try to catch up and yeah, we- we can start brainstorming about the possible, uh -
+(PERSON20) Uh, I have to- I forgot, uh, to write to [PERSON12] <unintelligible/>, I have to -
+(PERSON3) Mm-hmm.
+(PERSON20) ask him about
+um, what's the -
+(PERSON3) Well- yes.
+(PERSON20) status of implementation of, uh, those col- co- these constraint decoding in [PROJECT8] and how can we improve it.
+Because if I understand it- or remember it correctly, it only <other_noise/>
+but, so, yeah, I- I have to write him. <other_yawn/>
+<other_noise/>
+(PERSON15) I lost the end, I donno if -
+(PERSON3) Um, yeah, he's go- he's going to write to [ORGANIZATION1] -
+(PERSON20) Okay, yeah.
+(PERSON3) what's the status on the -
+(PERSON15) Yeah, about the- about the- the code, right?
+But, uh, it- <other_noise/> there's a better version of [ORGANIZATION6], right?
+There's a -
+(PERSON3) Uh, yes, but the- the- the thing is that we would ideally want to work with, uh, [PROJECT8] because it's definitely going to be faster.
+And I- I still hope that we will not focus on the, uh, like im- developing new technologies, but li- like let's- let's work with the data and try to figure out how- how we can exploit the- the constrained decoding techniques.  
+As they are right now. 
+(PERSON20) But if it's not implemented in [PROJECT8] yet -
+(PERSON3) Mm-hmm.
+(PERSON20) so then we have to- e- either for s- [PERSON12] to implement it on- or like that's really compli- this will be complicated, or rather implement it ourselves. <other_noise/> 
+(PERSON15) <other_yawn/> Yeah, so. 
+(PERSON20) And I wouldn't go for [ORGANIZATION6] yo- ei- n- l- like even though it's already implemented there, uh, [ORGANIZATION6] is slow to train, or much slower. 
+And yeah, in the end, we have to all work with [PROJECT8], so.
+As soon as we <other_noise/> like change to [PROJECT8], so it will be better. 
+(PERSON3) Uh, <other_yawn/> well, okay. 
+Uh, so another thing I- I will look exactly what is the deliverable we're supposed to deliver in, let's say, uh, 17 months, for the [PROJECT6] 
+Because I don't think that we actually promised a- 
+like the constrained decoding should not necessarily be the part of the final product. 
+So as long as we have some interesting research with results we should be fine. 
+But -
+(PERSON20) Okay. 
+(PERSON3) I need to double-check on that. 
+And- and in that case, we have much more freedom because we can- we can implement or experiment in whichever framework we- we want to, so -
+(PERSON20) Mm-hmm. 
+(PERSON3) that's it.
+<other_yawn/> Uh -
+(PERSON1) Uh, I am sorry to jump in, but -
+(PERSON3) Mm-hmm.
+(PERSON1) I have to go, so, uh <unintelligible/>
+(PERSON3) Yes, definitely. 
+(PERSON1) Uh, I <unintelligible/> -
+(PERSON3) Yeah, I th- I think- I think that that should be everything, right? 
+There- there is nothing else to- to discuss. 
+Or nothing urgent like at least, uh, if- if you rem- uh, like <other_yawn/> uh, forgot something you can- you can s- send an email to the- to the, uh, [PROJECT2]. 
+(PERSON1) <unintelligible/> [ORGANIZATION2]. 
+(PERSON3) Yes. 
+So I think it's fine, so I guess let's- let's cut it here and- and let's see each other next week.
+(PERSON1) Okay, bye. 
+(PERSON3) Okay?
+Mm-hmm. 
+Bye.
+(PERSON15) Byebye. 
+(PERSON20) Okay, bye.

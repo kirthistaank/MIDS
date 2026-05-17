@@ -1,0 +1,1162 @@
+(PERSON17) Hello, hi [PERSON32], hi all.
+[PERSON18] Hi
+(PERSON17) So who is Me?
+You know? <laugh/>
+[PERSON18] I don't know. <laugh/>.
+(PERSON17) That's probably [PERSON33]?
+Oh, one, two three -
+(PERSON20) So -
+(PERSON17) Yeah, Hello.
+Yeah.
+That's - <laugh/>
+<other_noise/>
+(PERSON2) Hello.
+(PERSON17) Hi [PERSON34].
+(PERSON2) <typing/>, <talking_to_self/>
+<other_noise/>
+(PERSON17) <talking_to_self/> participants,oh
+Yeah.
+So let's wait for while, until eh, others join in.
+Let's review the document in the meantime, mm-hmm.
+Hm.
+So actually Be- [PERSON34] as I see here -
+(PERSON2) Mmm hm.
+H- How bad eh, mistake was that with the deadline of <laugh/> manual annotation for [PROJECT1]?
+I think -
+(PERSON2) Ehm -
+Yeh, you aren't really asking the right person here.I don't know in in a sense that -
+After the annotations done, somebody got to analyze them.
+And that person is hopefully <unintelligible/> not me, so -
+(PERSON17) Yeah. <laugh/>
+(PERSON2) <laugh/>
+Ehm -
+And then somebody's gonna try them up again.
+That's hopefully not me.
+And that really needs to be done on time for the conference.
+I think last time we had like the day before the conference.
+(PERSON17) Yes, yes -
+(PERSON2) So we don't want to be any later than that.
+(PERSON18) But the term - <parallel_talk/>
+(PERSON17) But the conference is - <parallel_talk/>
+(PERSON18) is on Saturday this Saturday.
+(PERSON17) Yeah eh, and the conference is in November right?
+(PERSON2) Yeah, eh in- eighteenth or so -
+(PERSON17) Eighteenth, yes .
+(PERSON2) So it's is probably still time that we get the annotations done for the twentieth.
+I mean we're just just so late this year for  -
+(PERSON17) For everything.
+So, so well, actually -
+(PERSON2) <parallel_talk/>
+Yeah - 
+(PERSON17) we don't need the full twentieth.
+But I I would find it stupid if I e-mail the annotators today that they have only just a few days.
+(PERSON2) <parallel_talk/>
+Hmmm.
+Sure, okay.
+(PERSON17) I think we'll going until the whatever the eighteenth would be definitely eh, eh, eh good.
+And the fifteenth for example would be also better than the twentieth.
+(PERSON2) Eh, either scheme is probably fine, because I mean there is going to be some people who slept.
+(PERSON17) Yeah.
+(PERSON2) So -
+Well, you know, but I guess who's who is actually analyzing this data I mean -
+[PERSON16] knows how to do it.
+But he's keep vanishing, so hopefully [PERSON15], or [PERSON12] will pick it up.
+(PERSON17) Okay, and [PERSON7] is on the -
+is [PERSON7] going to do any eh, analysis?
+(PERSON2) Yeah.
+So [PERSON7], but [PERSON7] seems to be taking care of the ehm, the crowd source part.
+(PERSON17) Okay.
+(PERSON2) So the part for the research is run by the [PERSON16] with now his assistants [PERSON12] and [PERSON15].
+(PERSON17) Mm hmm.
+(PERSON2) Ehm and [PERSON7] is like separately doing the crowd source staff.
+I mean I suppose these got to be put together.
+So I don't know, who does the final putting together -
+(PERSON17) Mm hmm.
+(PERSON2) And [PERSON7] is often involved so -
+(PERSON17) Yeah.
+(PERSON2) I think she should be asked as well.
+(PERSON17) Yeah, so I'll ask [PERSON7] as well as -
+Eh uh.
+(PERSON2) Ehm-
+So [PERSON17], why do I appear as in two three four packs?
+(PERSON17) Yeah, because you have entered that as as your name. <laugh/>
+(PERSON2) <unintelligible/>
+(PERSON17) <laugh/>
+Eh, probably you entered that twice.
+I don't know, yeah.
+(PERSON2) Eh, it's once.
+I will try that again. I don't know.
+I'll mayby try video and -
+(PERSON17) Yeah, okay.
+So we have we have [ORGANIZATION15].
+We have [ORGANIZATION3] eeh, through [PERSON6].
+I don't know if [PERSON19] is also -
+And [PERSON10] as well.
+I don't' know if [PERSON19] is joining eeh.
+[PERSON6], do you know?
+(PERSON6) So, I don't know.
+(PERSON17) Okay.
+Yeah, so we'll we'll see.
+So, anyway, hello everybody.
+It's it's great that you're here.
+So we also have eh, [ORGANIZATION11] eh, represented as of [PERSON10] and [PERSON34] is reconnecting um.
+And then we have [ORGANIZATION8].
+Do we have [ORGANIZATION8]?
+[PERSON1] yes.
+Eeh, and we have [ORGANIZATION10] [PERSON22] and and I guess this Me is [PERSON33] eeh from eh [ORGANIZATION5].
+So actually we we have all the partners represented.
+So that's great.
+Let's eh, get started again.
+Ehm, we have a number of eh, new people, um, and some of those are eh, connected.
+So eh, one of them is [PERSON32] eh, [PERSON8], who is, who has been employed by [ORGANIZATION15].
+But he is still eh, abroad because he cannot travel eh, to the eh, Czech Republic yet.
+Due to Covid restrictions.
+So hopefully that will eeh, sort out, and we have more such people.
+For these eh, new people I would like to eeh, like remind everybody again.
+And and and eh, and percify you, still at the same time that we are recording these calls for the purposes of automatic meeting summarization.
+Eeh, those who are on the call for eh, on the project for longer period of time have already filled their consent form some months ago.
+Eh, but we're going to get back to you eh, to all again with these consent forms after the we have done various processing of of this.
+Ehm, eh, and before we do any any release of the data whatsoever.
+So you will have your second say on on whether we can use this data in things like shared tasks on summarization.
+And we will get back to that eh, eh during the call.
+So if anybody object the prime recording as such, please let me know.
+But otherwise, I assume that you at least give us the permission to process it, eh.
+And then we will refine the details, what uh, what else can be done with that.
+Okay.
+So, it seems that we have everybody here.
+Thanks again eh, for joining eh, this call.
+And eh, let's quickly proceed according to the agenda.
+I'm happy to see that most of you have eh, filled in eh, the progress report of your work packages.
+So while I'm talking -
+<other_noise/>
+while I'm talking, ehm, if you still have not filled the details such as work package two eh,
+please scroll the document and and fill what what is the current status.
+And  I'll start at the top the pros-progress report.
+Update the pdf eh, and send it eh, very soon to the project officer.
+Our review was excellent in in short.
+But still there number of things that we need to eh fix.
+So, eh, there are two recommendations.
+Eh, I take the second one eh, on ourselves.
+We need to specify what basic research advances are going to be integrated and eh, not.
+And specify the procedure to select them.
+Ehm, third the answer that are write into the report will be will based will base it on the [PROJECT2] test set.
+The regular testing of the pipelines and eh, the he the video capacity of the teams, ehm eh, eh in in in integrating their components.
+So um, the the general idea is that everybody should try to not only develop the systems for research papers.
+But also wrap them and include them as workers.
+As soon as they are used as workers, we will evaluate them on the common eh common settings in the [PROJECT2] test set.
+And then based on their performance, we will or will not use them.
+So for everybody this means that, yes, please try integrating.
+It is not that difficult eeh, and ehm, s- we will take care of the of the selection based on the [PROJECT2] test set.
+So that's recommendation number two.
+And recommendation number one, is, er, more specific eh, eh, summary of the of the publications.
+So, eh, [ORGANIZATION3] can you, can you improve the wording around the lifelong learning eeh there?
+(PERSON6) I can not speak to that. I am not involved there.
+(PERSON17) Yeah, so is it only [PERSON19]?
+Or do you have another eheh, someone eh, eh else on the team?
+Is life-long learning -
+(PERSON6) Could be [PERSON10]?
+(PERSON17) Could be, maybe.
+(PERSON6) They <unintelligible/> this.
+(PERSON10) Yeah, I I I mean for life-long learning it's mostly  [PERSON19] but, yeah I will check with team.
+(PERSON17) Yeah, so please make sure that we respond to this.
+Because, as soon as they mention something exclusively, we really have to respond to that.
+Eh, and if they don't not mention it, still they these are s- examples.
+So everybody should check eh, that eh, the progress report is kind of self contained.
+That you don't have to open the papers to see what they're about.
+Eh, so everybody should check their that their papers are are covered somewhat.
+And then the second explicit eh, remark is the multitasking eh, in the end-to-end ASR with language model has not worked.
+I do not know if this was eh, [ORGANIZATION3] work, or if it was done by a student of mine [PERSON25].
+I've asked [PERSON25], so I'll hopefully get response from him, but ehm maybe from [ORGANIZATION3].
+If there is only you or uh, on us.
+(PERSON10) Um, <laugh/>, it it doesn't work because - 
+I mean we eeh, I mean the we know that uhm, the the end-to-end ASR also have I mean, part of it -
+it doing the language modelling.
+(PERSON17) Uhm hm.
+(PERSON10) So yeah, in in case it doesn't input much with the isolation of language model than need.
+It is asked to.
+We had to find other ways and maybe it eeh, caught in in [PROJECT2] <unintelligible/> that people also report less more input than with with -
+(PERSON17) Uhm hm.
+(PERSON10) integration of language model.
+But yeah, it can be that case that they do a lot of fine tuning of - 
+for some specific -
+(PERSON17) Uhm hm.
+(PERSON10) data test.
+But I mean, to me -
+I I tried to experiment with some data set we have and it seems that language models doesn't have <unintelligible/>
+(PERSON17) Yeah.
+So the general idea is that you have end-to-end ASR and you train a part of the model for the eh, language modeling task alone.
+And you run that in multitasking with the speech recognition task as well, right?
+And then the benefit of this eeh, additional task, the language modeling task is not eh, not eh, big, right?
+So maybe -
+(PERSON10) So -
+(PERSON17) maybe maybe that was eh, eh, please check with [PERSON19].
+Because it could have been the case that [PERSON19] said this just eh, in the discussion.
+And maybe they would like the reviewers would like to eh, to have this in the report.
+(PERSON10) Eh - okay
+(PERSON17) I don't I don't know what were the details.
+So so please, I'll I'll check with [PERSON25], but [PERSON10], ehm, please check eeh, with [PERSON19]
+(PERSON10) Yeah.
+I I here it I also not <unintelligible/>we call it multitasking and and what why is multitasking here it it -
+(PERSON17) Yeah.
+(PERSON10) Okay, I will check it.
+(PERSON17) Yeah, I'm sorry.
+Okay.
+Ummm so <talking_to_self/>
+Here [PERSON17] will check with [PERSON25].
+I'm actually already doing that.
+Eehm, yeah.
+Eeh, then, yeah, we need to correct the plot.
+And eh, so this is eh, this is the progress report.
+Eh, please eh, [PERSON10] eh, confirm to us once your parts are done.
+Everybody have a look at that again, and check eh, your publications an we'll submit the report.
+For example at the end of this week, right?
+So [PERSON18], please make sure-
+(PERSON18) to ensure that we submit the updated version on Friday.
+So that it's reserve.
+(PERSON18) Okay.
+(PERSON17) Yeah.
+And I've skipped this greyed out part eeh because [PERSON29] has already done it.
+And it is on the massively multilingual mission translation with random big translation for unseen languages.
+Um, I think this the paper by a [ORGANIZATION11], but [PERSON29] has already resolved that.
+So if you want to check what's what's there please do so.
+Eh, we also got some recommendations for future work.
+Eh, so this is something that eeh, we only have to keep in mind uh, in the coming months.
+So when collecting a document level data, eeh, and also, eh, yeah, the multilingual data.
+Di- do the both, that's what they want to say.
+So eh, preserve documents eh, also in multilingual data collections.
+Eeh this is what eh, we are doing.
+Eh, ehm and also, eh, for everybody when review collecting data make sure which are available data on gender and nationally or I would actually say mother tongue here.
+So when you when you have eh, access to this data, eh, when you er, are collecting anything be it from the web, just re-packaging, or creating your own collections, even for test sets -
+<other_noise/>
+please please record that.
+So that's for everybody involved in work package one.
+Eh, then uh, we have a recommendation eh, again on the joint papers.
+Eh, so we reported two research papers that were eh <unintelligible/> by many or all of the partners in the consortium.
+And actually, I realized only after the review that we also had a two page paper on eh TAMT.
+Uhm, so eh, we we got three.
+But this is going to be reported in, uh, the uh, like in in sum for the whole project, and it's not not a big difference.
+It's not a big paper anyway.
+Uh, so eeh, yeah.
+So eh, we are definitely going to try the ACL demo.
+The ACL demo submission deadline has been finally set.
+It's as late as January, mid-January next year.
+Eh, and I think it's a better eh, goal than trying to make it regular paper, which would be due tomorrow.
+So if you are fine with that, that's okay.
+If you would still think that we should try to get at the regular joint paper about whatever the architecture of eh, of [PROJECT2] eeh subtitling pipeline, then please get in touch with me very quickly.
+But otherwise I'll just plan to eh, submit the ACL demo as an <unintelligible/> demo in January.
+Yeah.
+Eh, so then eh, the the question is how to make sure that we have some eh, papers on collaboration in the in the uh, for the rest of the project.
+So I would like to ask everybody to propose collaborations.
+And actually, start them.
+Ehm, and I'm only mentioning the research partners, but it doesn't have to be so -
+<parallel_talk/>
+Uhm hm.
+(PERSON17) by any means.
+So uh, also, if if [ORGANIZATION10] or [ORGANIZATION8] see any opportunity eh, for collaboration eh, on papers eh, or other tangible and measurable results.
+Then just suggest that.
+So this can eh eh, let's take [ORGANIZATION8] as an as an example here.
+Eeh, I think that uh, the eh, EU would be definitely happy if we eh, had papers even on like an non-CL non competition to conferences and the venue.
+So [PERSON1] just disappeared <laugh/>, but eh, eh, but I'll we'll get back to them eh again.
+And eh, uh we'll ask if they have other conferences or eh venues where they -
+Whether is some option to publish whatever angle of [PROJECT2] technologies, and then having some research partners contributing to that would definitely satisfy the requirement eh, from eh, the reviewers.
+And similarly for [ORGANIZATION10], if you're doing any research eh, on whatever aspect like whatever improving your pipelines for your other eh, other projects.
+And inclu- you would like to include uh, the [ORGANIZATION3] segmentation or other things, then eh, please eh, propose that.
+So if you have anything in eh, in mind, that could be such a case, [PERSON22] please please put it here.
+(PERSON18) Okay, thank you.
+(PERSON17) Yeah.
+<typing/>
+So eh so, here I'll put it with a big eh [ORGANIZATION10] eh some plus some research partner, eh, mhmh, some joint experiment or whatever.
+And [PERSON1] is back.
+So I'll just say it again.
+[PERSON1], are you -
+Can you can hear me?
+(PERSON1) Now I can hear you yes.
+I had problems.
+(PERSON17) Yes.
+Yeah, yeah.
+So what I was saying, is that these joint publications do not have to be limited to the research partners.
+So you the the the you know venues which are relevant for your audience -
+(PERSON1) Mhmh.
+(PERSON17) and ehm if you see any option any eh, any opportunity for joint paper with you being the main one.
+And some of the research partners, contributing whatever, some eh, some like -
+(PERSON2) <cough/>
+(PERSON17) case study, or or whatever.
+Then please initiate that.
+So-
+(PERSON1) Okay.
+(PERSON17) so there could be like [ORGANIZATION8] plus some research partner writing, e.g. some case, eh, studies.
+So if you had eh, eh, ehm, customer, who is using your platform.
+And they would agree to do some experiment on eh, which approach to spoken language translation, or whatever is better fit for their particular domain.
+Then get in touch with us, or [ORGANIZATION11] and or [ORGANIZATION3] or whoever you like eh, and and eh, conduct such an experiment.
+That would definitely be what we are asked for.
+(PERSON1) Okay.
+<typing/>
+(PERSON17) Okay.
+So that's it and I actually propose some of those.
+So the one eh, thing is that we have the SLTF eh, [PERSON3] is submitting the ILS ELSL paper tomorrow, I'm editing it.
+And we started some discussion with with [PERSON34].
+(PERSON2) Uhm hm.
+(PERSON17) But eh can we -
+(PERSON2) <laugh/>
+(PERSON17) can we <unintelligible/> early enough <laugh/>
+(PERSON2) Yeah.
+I I'm it seems a bit late for me to make meaningful contribution.
+(PERSON17) Yeah.
+Well, that's our fault as well.
+(PERSON2) <laugh/>
+(PERSON17) like - <parallel_talk/>
+(PERSON2) No no no.
+It's not - <laugh/>
+(PERSON17) <laugh/>
+So we'll see.
+So we'll we'll -
+I'll I'll definitely do the revision.
+If you have some time, I know it's extremely like late notice, I'll share the link with you, and you'll decide eh, how much you can you can do there.
+And then eh, well, we can easily get rejected anyway.
+(PERSON2) <laugh/>
+Oh that's -
+<parallel_talk/>
+easy, yes
+(PERSON17) So if we get rejected -
+<laugh/>
+(PERSON2) <laugh/>
+(PERSON17) <laugh/>
+(PERSON2) Okay.
+(PERSON17) So as as you wish.
+So I'll I'll send the link to you.
+You'll have a look and -
+(PERSON2) Okay.
+(PERSON17) And and then you'll see how much you can contribute and if it makes sense to you.
+And eeh, eh if you do some eeh, reasonable changes -
+(PERSON2) <laugh/>
+(PERSON17) I think many can be done.
+Then yes, then we would have a joint paper.
+<laugh/>
+So -
+(PERSON2) Okay.
+<laugh/>
+(PERSON17) So, so [PERSON3] wants to know from me, definitely by eh, tomorrow, what is the authors' list eh, but eh, eh -
+(PERSON2) Yeah, yeah.
+(PERSON17) Ehm, and yeah.
+<laugh/>
+Uhm, so sorry about that it's mu -
+I feel bad about like forgetting -
+<parallel_talk/>
+(PERSON2) No don't feel <unintelligible/>
+(PERSON17) about you know, uh.
+<laugh/>
+(PERSON2) <laugh/>
+(PERSON17) Yeah, yeah.
+Eh, so then the other thing that we have in mind is this minuting shared task planning.
+Ehm, [PERSON32] has contacted eeh j- you [PERSON34] and also [PERSON19].
+(PERSON2) Yeah.
+(PERSON17) And I do not know if there is any progress on that, eeh, on this collaboration -
+(PERSON2) Eeeeeeh.
+No, there is not any progress.
+I'm just -
+(PERSON17) Yeah.
+(PERSON2) Yeah, we have come back to that -
+(PERSON17) Um hm.
+(PERSON2) in order -
+<parallel_talk/>
+(PERSON17) And I see [PERSON6] -
+Yeah, and I see [PERSON6] -
+(PERSON2) Mhm -
+(PERSON17) is also eh, doing domething.
+So [PERSON6], could you briefly summarize because [PERSON32] is also here.
+(PERSON6) Um, well, I have only just recently started as the professor Wibel asked me to change the priorities.
+(PERSON17) Ehm mhm.
+(PERSON6) Because we also want to have minuting for our lecture transcription.
+(PERSON17) Mhmh.
+(PERSON6) <unintelligible/>
+So I have only just recently started looking into it.
+And right now, working on on some baseline system ehm.
+(PERSON17) Yes, so this is -
+(PERSON6) <parallel_talk/>
+going to be like something publication we -  in the in the very near future, but  -
+(PERSON17) Yeah, that's not a -
+(PERSON6) <parallel_talk/> <unintelligible/>
+(PERSON17) Yeah, that's that's not a problem that like it's I also see that's very like starting exploration.
+Because it is so hard eh, to to create some reasonable minutes, and to evaluate them is equally hard.
+Eh, that it will take some time until we get eeh something usable.
+Are you eh, involved in another EU project, which has these micro projects, or not?
+(PERSON6) I guess it's not -
+(PERSON17) No no.
+That's probably another one.
+Because there also like eh, someone proposed this minuting as eh, as eh activity in one of this network EU project.
+(PERSON2) Hmmm.
+(PERSON2) So it can be ELG.
+(PERSON17) Is it ELG?
+(PERSON2) No.
+(PERSON17) No, eh, it's -
+(PERSON2) No, one more.
+Okay, someone else.
+Okay.
+Sorry.
+(PERSON17) It's even even someting else.
+Something new.
+Eh, and eh, so I thought that maybe [PERSON26] eh, like change these priorities because of that project.
+But it sounds very eh, plausible that he did just for the purposes of the lecture eh, translator yeah.
+So that's -
+So in any case eh, uh, if I understand correctly.
+You are eh, looking at ehm, s- probably abstractive summarization, which takes the full transcript and somehow makes is shorter, right?
+And eh -
+(PERSON6) That is that is the the goal.
+Ehm so at this very moment since [PERSON30] asked me to start the last Friday,  so -
+(PERSON17) <laugh/>
+Yeah.
+(PERSON2) <laugh/>
+You haven't finished yet.
+<parallel_talk/>
+(PERSON6) Ehm, the the idea was first to have the the <unintelligible/> possible system that does work.
+(PERSON17) Mhm hm.
+(PERSON6) That I can back up in a week that right now is an extractive system -
+(PERSON17) Okay.
+(PERSON6) Ehm.
+Then I'm gonna try to extract at least subsentences and not like full sentences.
+Because the system that I that I have now is uhm quite biased towards long sentences.
+(PERSON17) Mhm mm.
+(PERSON6) Because the long sentences contain more <unintelligible/> terms and so will make structures on long sentences.
+(PERSON17) Yeah.
+(PERSON6) Eh, so that's gonna be the first version.
+(PERSON17) Mhm hm.
+(PERSON6) Then probably I'm gonna look into eh, published paper that does the abstractive summarization with hierarchical transformer.
+Gonna see how that works -
+(PERSON17) Yeah.
+(PERSON6) If I can reproduce that and then we can see how it <unintelligible/>
+(PERSON17) Yeah, and do you have any training data for that?
+(PERSON6) Um, they trained on the on the [ORGANIZATION13] and [PROJECT3]-
+(PERSON17) <parallel_talk/> ICS <unintelligible/>
+(PERSON6) corpuses as well as pretraining on ehm, summarization.
+So on -
+(PERSON17) Yeah.
+On <unintelligible/>
+<parallel_talk/>
+So that's the same data sets that we eh, are aware of and working with.
+So that's that's good.
+<parallel_talk/>
+So, eh, so we have a mailing list called minute at [ORGANIZATION6].
+And eh, our team on minuting is already like geographically very much spread around the world.
+Eh, so if you think it would make sense eh, than we could include you into this.
+They are quite active.
+(PERSON2) <laugh/>
+So you would you would find your eh, mail box, possibly not Friday no - 
+They are actually more in the regular calls.
+So they make eh, ehm almost daily calls.
+That's because we want to have the team -
+Because they are like physically eh, eh, around the world.
+We want to make them um hm, collaborating team.
+And for that we have these regular call there.
+And sometimes long when the discussion is ehm eh, important.
+But often is just like a check- up call, so that we don't lose these remote members.
+So eh, we could include you eh, into this eh, and uh, and then eh, you are definitely with your experiments eh, and the system, the baseline that you go to your in a great position to also either provide baselines or take part in the shared task that [PERSON32] is supervising the preparations of.
+So next year, we plan to have a shared task eh, on meeting summarization eh, and  -
+(PERSON6) <unintelligible/> SLT or -
+(PERSON17) E, uh, n- well, [PERSON32], can you eh say, can you hear us?
+Can you say what is the timeline, what ist the the planned venue?
+(PERSON34) Okay, hi.
+Can you hear me?
+(PERSON17) Yes.
+(PERSON6) Yes.
+(PERSON34) Okay, wonderful.
+Hi, hi everyone.
+So this is [PERSON32] and I am mostly in- invested in the meeting summarization part and taking care of the shared task.
+So, eh the plan is that we would be submitting a proposal winter speech eh, twenty twenty one and the and the call for proposals would come eh, some- somewhat in November.
+And if the speech next year will be eh it will be in Brno Eurocity Czech.
+And eh, and and like- we have thought of initially four tasks.
+But for the first shared task we will be going for three.
+Eh, so that fourth task will be definitely the meeting summarization when so where we have the meeting transcripts and the corresponding minutes annotated by the annotators.
+And we need to find that eh, we need to see that how neural system can generate the meetings.
+But our initial experiments are like we are using the <unintelligible/> are not very much attractive.
+You know, but now we are working on some other semantic metrix like word sum and <unintelligible/> in all those metrix.
+So, eh, possibly we'll be able to evaluate eh, the the summaries, by the end of this month
+And have a complete the study how the other different metrix are working on on our data.
+And we are also like train the model on CNN and <unintelligible/> because the data is very less.
+So ehm, yeah, fine tuning the data on our on our training data and then <unintelligible/>.
+So this is the plan.
+(PERSON17) Yeah.
+(PERSON34) So -
+(PERSON17) So so the high level -
+Thank you [PERSON32].
+So the high-level eh, overview is that we are aiming for workshop at interspeech.
+And eh, with the data set for the shared task will be a combination of uh, the data that we are collecting, which needs to be synonymised, so names removed.
+And also the consents from the participants recollected for that.
+And we or- also probably should put there some of standard data sets as like a secondary test set.
+So the for example, the [ORGANIZATION13] corpus, and we would see the difference eh, in performances eh, across eh, these test sets.
+And ehm, we are doing the the preparations and we are running our own baseline eh, systems.
+But I find it very useful, if you [PERSON6] could also run eh, your systems on our data.
+At least the the few test eeh, items that that we are now working with.
+So, eh, eh, so if if your baseline starts doing something ehm, by the end of this week.
+<laugh/>
+So that you ha- ehm, make [PERSON26] eh happy.
+Then please also make us happy as well and run it also on our data sets, and we will see how how bad it performs.
+It is very likely, it will perform bad out of the domain, because the [ORGANIZATION13] corpus, is is like specific so to say.
+Ehm, and -
+<parallel_talk/>
+(PERSON6) <unintelligible/> testing on on our meeting data.
+(PERSON17) Okay, so -
+(PERSON6) That was my test set to begin with.
+(PERSON17) So what is -
+What do you mean by our meeting data?
+(PERSON6) Well, we have -
+I have the the transcripts of our meetings -
+(PERSON17) Uhm hm.
+(PERSON6) and <unintelligible/> for the test set.
+(PERSON17) Oh, okay.
+So then you are essentially using the eh ehm, the that you're doing the same as we are.
+But you don't have anything like the manual transcripts tha- the manual ASR corrections, that [PERSON2] is doing.
+So yes, we're we're -
+(PERSON6) I don't know the other ones who are in the meeting experimentation, minuting experimentation <unintelligible/>
+(PERSON17) Okay, yes.
+So you are only collaborating <laugh/> <laugh/> because we need to <laugh/>
+Yeah, <laugh/>
+(PERSON6) I don't know, I just <unintelligible/> use whatever data is in there, so you know
+(PERSON17) Uhm hm.
+As a [PROJECT2] - 
+(PERSON6) <parallel_talk/> and we have it was for a reform <unintelligible/>.
+(PERSON9) <unintelligible/>
+<parallel_talk/>
+it's [PROJECT2] private report?
+(PERSON17) is this the [PROJECT2] test set?
+(PERSON9) Sorry for interruption.
+(PERSON17) Yeah.
+(PERSON9) [PERSON6], didn't I send you the whole eh, data set?
+(PERSON6) You send an e-mail saying that it's on your servers.
+And that -
+(PERSON9) So you didn't <unintelligible/> the  whole -
+Aha.
+Should I send it to you?
+(PERSON6) Er -
+(PERSON17) So I think -
+(PERSON9) Okay.
+(PERSON17) I think it would be better if [PERSON6] eh, served as the test person for eh, what will be the release for the shared task.
+So eh, it's like yes, [PERSON6] you are part of the consortium.
+And the consents that we have so far allow us to uh, to use these data within the consortium.
+But please, take it very like sensitive ehm, but at the same time I think that it would be great if you were revising what we are preparing for task itself.
+So eh, eh, t- you should then re-run your systems again.
+Eh, and also t- tell us whatever is wrong with the data and -
+So that's there will be a a fair amount of work still to get the the proper, uh, the training and development such eh, release.
+But it would be great if you could eh, review that.
+Review the final release.
+So for now use what you have eh, but eh also please eh, keep in your to do list to do the revision of of the data.
+So that we have like uh, guinea pig eh eh, test person to to see whether we are eh, preparing the task in a sensible way.
+(PERSON6) And if it's possible.
+I would still want whatever full data we have available, including the the audio eh -
+(PERSON17) Mhmh.
+(PERSON6) just for the purpose <unintelligible/>
+The project will not last forever and we would want to have that data available.
+For the project as well -
+(PERSON17) Yeah.
+<parallel_talk/>
+(PERSON9) <parallel_talk/>
+(PERSON17) Yeah, some of the consents do not allow that.
+So we we need to be very careful about that, so [PERSON2] -
+We know that some people said that they eh, th- data has to be deleted with the end of the project.
+And we we want to eh like honour that.
+So eh, [PERSON2] this is an urgent call for eh, the ehm the meta data improvement that we we were discussing this on Monday.
+So that's actually yesterday with [PERSON11], another collegaue of ours.
+Eh, and we really should do this properly and make sure that you eh, also, eh that that partners in the consortium use the data eh, as as the data providers allowed eh, us to do and not more.
+So please take that in mind.
+So [PERSON6] what you have now, please use it.
+But be very careful, eh and ehm, we'll refine the meta data very soon.
+And we'll let you know what is what has been allowed by by whom.
+(PERSON6) Hm.
+(PERSON2) I hear there are some problems with this is the meeting corpus,
+(PERSON17) Eh- w- s- well, yes, we can call a meeting or so what -
+(PERSON2) I If I kind of and about issues on the [PROJECT4] part -
+(PERSON17) Yes, yes, yes.
+I can actually -
+<parallel_talk/>
+(PERSON2) Now we're coming to that -
+(PERSON17) We're coming to that in ethics.
+So if you scroll down.
+(PERSON17) I can briefly say what has happened in in ethics so far.
+(PERSON2) Sorry sorry.
+(PERSON17) Eh, let's let's discuss it at the moment.
+Because it's it's very very relevant.
+Eh, so, first thing I think I may have already mentioned that.
+We will have one person working on ethics from the high level eh, point of view, so compliances, regulation.
+So this eeh, does colleague of ours eh, is still busy with other projects.
+But from eh, January or somewhat later, but not much later, she would be available for [PROJECT2].
+And she is happy eh, eh to read all the regulations.
+She is already doing that.
+So she <laugh/> she actually has fun in reading these eeh, these these regulations, and ehm she'll eh, make sure that we follow them in what we are doing.
+So that the proper treatment will come after eeh eeh, January.
+Eh, but that actually, how how does this timing eh, run compared to the shared asked timing?
+[PERSON32], by when do we have to release the data for the shared task participants?
+(PERSON34) Hello, yeh?
+(PERSON17) Yeah.
+(PERSON34) So, if, so if the thing is like if the deadline is in November -
+(PERSON17) Uhm hm.
+(PERSON34) So the the notification would be come- would be coming sometime January.
+And I think eh, probably we have to release the first trial data in March.
+(PERSON17) Yeah, <other_noise/>
+So March gives us like February, before the final touches.
+So the internal plan -
+(PERSON34) Yeah, so March will be maybe yeah -
+March will be maybe the trial data when we release the data for -
+(PERSON17) Uhm hm.
+(PERSON34) the practice of the participants. And maybe the -
+(PERSON17) Yeah.
+(PERSON34) full training data would be one month later.
+We can fix that.
+Maybe in <unintelligible/>
+(PERSON17) <typing/> Release some trial data in March -
+So this is still doable.
+So what we are doing uh eeh, w- t- now, is planning how to do the the identification.
+So the removal of people's names, eh, and that will happen eh, in during the autumn and and early winter.
+And eh, this- ideally would we do it right at this first shot.
+Eh and when in January this colleague revises what we are doing.
+She will say, okay, you are doing good.
+But she can also say, you still need to remove this and this from the data.
+Eh, and then we have at least the month to do that on eh on subsamples to release the trial data eh, according to this uh, these corrected rules.
+And then some more months, you do it in full.
+So uh, we are, yeah, we'll we'll do our best to uh, to do it properly already now, in autumn
+Eeh, but still there is time to recover from eh any mistakes.
+Eh, and eh then - 
+So the wh- what happened at this [PROJECT4] call was that there were new people again.
+At the beginning of the call I asked whether they are fine with us recording that.
+And then they eh, said, well, no, because they don't want want that for various reasons.
+(PERSON2) <laugh/>
+Eh, and I when I was describing like why we are why we would like to record that I also mentioned that we are planning to run shared task with eh, the data.
+(PERSON2) Uhm hm.
+(PERSON17) And this is what like eeh upset [PERSON5] about eh, the like publishing the data.
+[PERSON2] have you checked what has [PERSON5] filled in his answer?
+Because if he has already sent to eh, us eh, at the beginning when we were asking that he requires us to use the data only within the project [PROJECT2].
+Yes, we will obey that.
+So actually his his contributions to the goal were already excluded eh eh, by then.
+So eh, s- we need to check what he has eh, what he has writen up.
+And also, eh, eh, I agree that people do not always realize all the consequences of the consents when they are giving the consents.
+(PERSON2) Mhmm.
+(PERSON17) And we don't want to misuse this.
+We don't want to abuse their eh, their approval.
+Because if they didn't know what they are agreeing with eh, then they will definitely like get back to us once they find out the data in the public.
+And say, oh, you have abused my consent.
+And we do not want that, so so - 
+<cough/>
+<parallel_talk/>
+(PERSON9) We we don't have him.
+(PERSON17) Oh, so he didn't respond.
+Yes, that's like not giving eh, not give consent -
+(PERSON2) It's no consent.
+<parallel_talk/>
+<parallel_talk/>
+(PERSON9) consent
+(PERSON17) Yeah.
+(PERSON2) I suppose there is the concept of <unintelligible/> this case of being after withdraw your consent -
+(PERSON17) Yes,  yes.
+(PERSON2) at a later date.
+(PERSON17) Exactly. <parallel_talk/>
+And we want to -
+Yes, that obviously eh, can apply in our case.
+And for that, we actually prefer the people to withdraw the consent before we release their part.
+(PERSON2) <laugh/>
+(PERSON17) <laugh/>
+If they- if they yeah.
+If they want to withdraw it, eh, they eh, will withdraw it later, and that will cause more more burden and more complication.
+So -
+And if they eh, if they approved, if they like give the consent again, when actually <unintelligible/> what is the data like, then there is big hope that they are not going to withdraw it afterwards.
+They still, according to the the GDPR or EU regulation - 
+They have the right to withdraw the consent at any later stage.
+But if they approve it at the w- like while looking at the actual release, then there is a big hope that they will not withdraw the consent later on.
+(PERSON2) Yeh, yeah, yeah.
+(PERSON17) So that's that's the strategy that we that we want to take.
+So, eh, I eh, really want to eh, go as individual as necessary, eh, because the data set would otherwise shrink too much.
+So if someone says that - 
+<parallel_talk/>
+(PERSON2) Yeah.
+(PERSON17) I don't want to be included.
+I would like to have the technical means to remove this particular person and keep the rest included.
+(PERSON2) Mhm.
+(PERSON17) And this can really happen in practical situations as well.
+I I can imagine that eh, someone such as [ORGANIZATION8] would be running eh, the this remote conferencing platform.
+And people would uh, say, uh, yes, I'm happy to be recorded for the purposes of meeting summarization, and someone else.
+Some other channel will say no, um, my data can only be life- shipped to the participants.
+But it must not be processed offline in in any way by by anyone.
+Eh, and then the models eh,  have also be the ready for eh, a situation where there is no input coming from someone.
+And people are referring to some missing content.
+So eh, it is eh eh. 
+It is really conceivable that this situation would happen in practice.
+(PERSON2) So what happens I mean, if we have a three party meeting conversations.
+There three parties in the meeting and then one person withdraw some consent.
+So then we are shipping as data, which has two parts as a three-party meeting, but there is one channel missing.
+(PERSON17) Yes.
+This would be the goal.
+(PERSON2) So it makes -
+I mean, how valuable is that for summarization?
+I mean -
+'cause -
+I guess -
+I mean, I guess is, what we have to do with it, but it seems -
+(PERSON17) Yeah.
+(PERSON2) It -
+Yeah.
+It seems that especially if it's, you know, kind of <unintelligible/> core nature of that project.
+(PERSON17) Yeah, sure.
+(PERSON2) He is he is as speaking more is <unintelligible/>
+Uhm -
+(PERSON17) Yeah, ehm, obviously we it can end up by us losing all the [PROJECT4] data.
+Because [PERSON5] was eh, like mention saying at least the word in every sentence, even by sentence by someone else.
+So it is possible that all the data would be would be excluded then.
+That will be unfortunate, but yes, but we have to obey.
+There is no, uh, no other way.
+Maybe we can uh, like still convince [PERSON5] that if it's anonymized eh, eh, and if it's text only eh, ehm which like as soon as you include audio.
+There is no technical way of do- of doing eh, full anonymization.
+The voice is simply recognizable.
+That's like full stop. <laugh/>
+(PERSON2) Mmmm.
+(PERSON17) So -
+(PERSON2) Yeah, yeah.
+(PERSON17) So if it's if it's text only and if it's anonymized even by eh, like removing named entities, eh, such as [ORGANIZATION4], or eh, eh <laugh/> or [PROJECT4] itself these names.
+Then I still think it will be relevant for the summarization task, because it's a placeholder.
+So  j-j- like if you if you relabel the named entities, the will appear in the summaries as well as in the transcript.
+(PERSON2) Mhmh.
+(PERSON17) So the system will learn to work with these placeholders and it will, it should work the same way with any other placeholders.
+So I think that the data would be valuable.
+And <cough/> the goal now eh our, the eh, the coming autumn months <cough/> is to do this synonymization.
+It is synonymization eh, it's not full anonymization eh, eh.
+Yeah, eh, I don't want to eh, h, add the defintion of anynomization versus synonymization at the moment, but yeah, there is.
+So, eh, with this processing of the data for which we have eh eh former intern- eh  appointed kind of.
+This [PERSON11] eh, with the data synonymized we would get back to all the participants.
+We would show them <cough/> <cough/>
+This is what the data looks like at the moment.
+Can you please eh think about your consent again and and hopefully give it to us.
+And then eh eh in what eh, t- what extend.
+Whether we can use it only within the project, or whether we can actually really publish it eh, for  the shared task or whether we eh, can publish it with some delay.
+There is also another an- another acces of that.
+And and that is that we cannot release it publicly.
+But we can release it eh, to participants who registered themselves for a particular opportunity.
+So if there is a shared task, we would eh, be allowed to use the data, but the data could be given only with the the participants signing a license.
+You are free to use this data for this shared task and delete it after the shared task.
+So that's another access which we do not have covered in the consent form at the moment. 
+But I'm seriously considering that as well.
+So this is for negotiation, even with people like [PERSON5].
+Eh, what types of  access do we need, eh, so that they can give the consent and are happy with that.
+Yeah.
+So, so that is a like eh, eh it seems as a very big complication.
+But I see it only as a fair complication <laugh/>
+<laugh/>
+It has eh, eh the ethics eh, is an issue.
+And our project has been asked to handle it eh, and to serve as an example.
+So let's do it the best way we can.
+Eh, and eh, at the same time to the benefit of of the research community.
+So uh, if you also have anyone eh, in in your teams who eh, could have opinions on that, or who could help us, please join.
+Otherwise we'll proceed ourselves.
+And uh, I hope that I will not <unintelligible/> [PERSON5] much with this topic, so that he would still be responding to my questions about about that.
+(PERSON2) Yeah.
+(PERSON17) So if you see -
+(PERSON2) <parallel_talk/> 
+He technically has opinions
+(PERSON17) Yes.
+He technically has opinions.
+<parallel_talk/>
+(PERSON2) He technically has opinions about that. <laugh/>
+(PERSON17) <laugh/>
+Yeah but uh, but I would like these opinions to eh eh, well, how to put it.
+To like eh, search t-to include our search for way which is useful for eh - 
+(PERSON2) <parallel_talk/>
+be constructive
+(PERSON17) <parallel_talk/>
+(PERSON17) can be constructive, yeah.
+(PERSON2) constructive, yes
+(PERSON17) Yes, yes.
+(PERSON2) Yeah, I see.
+(PERSON17) So if you if you -
+(PERSON2) Ah -
+<laugh/>
+(PERSON17) see him in person, I don't know if you if you still go to offices these days in in [ORGANIZATION11].
+(PERSON2) No.
+(PERSON17) <laugh/>
+So uh, but anyway, if that happens somewhere on the on the on the the fields.
+<laugh/>
+Then then please explain to him, what is our intention and that will definitely get back to him.
+Show him eh, the examples of what the the what the release could look like if he approves that.
+And hopefully he'll he'll agree ol- or he will propose in the constructive way further restrictions on the release so that he could give the approval.
+(PERSON2) Mhmh.
+Okay.
+(PERSON17) Yeah.
+So that's that's fair yeah, so- sorry for taking that much time on the single minuting topic.
+Eh, but I think it's eh, very, yeah, so eh.
+<talking_to_self/> Hi [PERSON6] -
+Yeah, so you have discussed something in in the in the document.
+I hope that you are eh, in in touch.
+So eh, I mean, [PERSON6] and  [PERSON32] and eh, now [PERSON2] and so on.
+So let's move on with the rest of the call.
+So one more eh, possible collaboration that I see is between [ORGANIZATION15] and [ORGANIZATION3] on the end-to-end spoken language translation.
+I have sent an e-mail to [PERSON6] and [PERSON19] this morning.
+Uh, so that's because [PERSON25] is, uh, like, definitely going to work on end-to-end SLT.
+And he's also applying for some travel grant for eh and if he gets that eh, [ORGANIZATION3] could be a good destination for him.
+So uh, if eh eh, if you agree.
+I think it would be eh good that even before this potential internship eh, to start some collaboration.
+So if you can come up with any experiment that could be done jointly eh, eh, [PERSON6] or [PERSON10] say so, get [PERSON25] involved.
+Obviously an [PROJECT2] paper coming out of that would be, what we're what we're asked for beginning.
+Yeah, so eh, then recommendation number three, and let's-
+We were really running out of time.
+So we will probably skip the updates of the work packages, but that's not too big a problem.
+Eh, eh, the recommendation number three is that we really have to have the mitigation plan.
+For the case when there is no EUROSAI congress at all.
+Uh, I haven't heard a single word from [PERSON33] on this call.
+So maybe he doesn't have any microphone at all.
+But if he is around if he can say, there may be some news, but there also are probably no news, the equally likely.
+So they the the this [ORGANIZATION5] may decide to run the Congress eh eh in the like online space.
+Or they may decide to cancel it altogether, whatever.
+So eh, eh we should have some other possible fora.
+So I think that eh eh it was meta forum that we suggested during the review.
+I might be wrong with this.
+And then [PERSON19] reminded us that this is English only.
+(PERSON2) <laugh/>
+(PERSON17) Uhm, and I don't feel that as a as a big problem, because there are people who eh eh, like eh, uh, k- come from many different uh, the language setting.
+So they could evaluate how well it it works for their language.
+(PERSON2) Mhm.
+(PERSON17) Obviously, there will be much uh, they will be sufficient fluent in English.
+Otherwise, they would not take part in that uh, in the original conference an- anaway.
+But it would be a good test case for us, at least eh, and eh, maybe you can come up with other eh, other proposals as well.
+So please everybody think about uh, your well, high school classmates <laugh/>
+And other neighbors, <laugh/> like people outside of the of the competition linguistics domain who run some relevant, uh, events.
+And think about uh, if we could get in touch with them.
+And if we could test [PROJECT2] technology at at these like substitutes for the [ORGANIZATION12] Congress.
+(PERSON9) What about [ORGANIZATION2]?
+(PERSON17) The parliament itself eh - 
+(PERSON2) <laugh/>
+(PERSON17) that's eh, yes, w- w- we could do that.
+I know that there the [ORGANIZATION2] is actually eh, running a tender eh, to provide that on commercial basis.
+Uh, so we well maybe [ORGANIZATION3] knows also about htis.
+But eh, we didn't take part in that eh, tender in the end, because well, our technology is not eh -
+And we don't have the people to uh, to do - 
+(PERSON2) Mhm.
+(PERSON17) to do it on uh, the on the business level, but eh,
+(PERSON2) With -
+I mean, I I can see it's unlikely they would like this go in full parliament session.
+But with the reasons out sights, meetings, scripts that we could -
+(PERSON17) Uhm hm.
+(PERSON2) We could look into.
+That's <unintelligible/> something the project officer could help us with, isn't it?
+Because they are back into
+<parallel_talk/>
+(PERSON17) Possibly -
+(PERSON2) in the [ORGANIZATION14] -
+(PERSON17) Possibly -
+(PERSON2) [ORGANIZATION14] is finding this project, the [ORGANIZATION14] should -
+(PERSON17) Yeah, yeah.
+(PERSON2) Maybe be at help.
+(PERSON17) Yeah, except that I think this is the [ORGANIZATION7] and the [ORGANIZATION7] fight -
+(PERSON2) Aaaah, well
+(PERSON17) with the - 
+(PERSON2) I got confused by the all-
+(PERSON17) <laugh/>
+(PERSON2) the organisations. Understood.
+(PERSON17) <laugh/>
+(PERSON2) But, but still, I would still call the project officer, and see if they have any -
+(PERSON17) Uhm hm.
+(PERSON2) suggestions.
+Yeah, meta forum is a -
+is good, because you you got an audience who is sympathetic to technology.
+(PERSON17) Uhm hm.
+(PERSON2) And is interested in technology.
+The problem is is very artificial situation.
+'Cause <unintelligible/> goes around understands English pretty well.
+(PERSON17) Yeah, yeah.
+(PERSON2) <laugh/>
+(PERSON17) Yeah, exactly.
+(PERSON2) So it's it's sort of, yeah.
+It -
+But as an experimental platform it's - 
+(PERSON17) <parallel_talk/> Uhm hm.
+it's not a bad idea.
+Ehm -
+(PERSON17) Yeah.
+So which eh, well I have -
+(PERSON2) So - 
+(PERSON17) I haven't been to meta forum myself eh eh, [PERSON34] you have.
+And I actually -
+(PERSON2) <parallel_talk/> I yeah
+(PERSON17) I was silent -
+I was silent about the call for this year.
+(PERSON2) <parallel_talk/> Yeah, yeah.
+(PERSON17) But I think we should again -
+We should again do something about it.
+(PERSON2) <laugh/>
+(PERSON17) <laugh/>
+I don't know -
+(PERSON2) <parallel_talk/>, <laugh/>
+I suppose it otherwise otherwise <unintelligible/> <unintelligible/>.
+(PERSON17) Yes, yes, exactly.
+<laugh/>
+(PERSON2) <laugh/>
+Ehhhhm, yeah.
+It's, you know it's a conference that have they have talks about various aspects of language technology eh and <unintelligible/> sessions, and so on.
+So um, questions and answers.
+Yeah.
+I mean, it's it's a reasonable way to to to test [PROJECT2] technology.
+(PERSON17) Uhm hm.
+(PERSON2) Ehm, and I think it's -
+Yeah, it is good, because it's it's part of the language community and was also, um, and I mean, it, yeah.
+There's a lot of kind of users of language technology turn up, see what's happening in the language technology world.
+Ehm so, yeah.
+[PERSON5] has to work work to go in there, but ehm -
+Yeah, it's just a -
+It's artificial because it's not multilingual conference.
+(PERSON17) Yeah.
+(PERSON2) Yeah.
+(PERSON17) <typing/>, <talking_to_self/>
+<unintelligible/> meta forum, meta events -
+(PERSON2) It's online this year in December.
+(PERSON17) Yeah.
+I'm I'm trying to uh - 
+It's actually not listed in on meta net  <laugh/> events web page.
+(PERSON2) I think have got a few e-mails about it, but it in -
+(PERSON17) Yeah, so do I.
+But it's -
+(PERSON2) Yeah.
+<typing/>
+See-
+(PERSON17) <talking_to_self/> meta forum twenty twenty
+It's still I am eh, I'm failing to find -
+(PERSON2) No, I got meta forum registered now <unintelligible/>
+(PERSON17) But it's not on the on the web.
+I'm failing to find meta forum twenty twenty.
+(PERSON2) See if I can -
+Uh.
+It's not chat.
+Let's put in the document.
+(PERSON17) Yeah.
+Yeah, I also have this register now, but I don't see -
+There is no - it's virtual event it's so virtual that [ORGANIZATION9] doesn't find it.
+<laugh/>
+(PERSON2) I've just got a horrible list link to that.
+(PERSON17) Yeah.
+(PERSON2) No.
+Just I got -
+Yeah I got to it at least.
+(PERSON17) Hmmmm okay.
+So I actually found another link eeh.
+(PERSON2) I got the link now.
+Okay, that's the one.
+(PERSON17) <parallel_talk/>
+<unintelligible/> from Berlin.
+So we should probably try getting in touch with - 
+We should try getting in touch with [PERSON] and do it as a test eh eh test event for us.
+Now without the uh, the the publicity around that.
+But only testing it, so that we can provide subtitles, and only have a like a limited number of of users.
+(PERSON2) Mhm mm.
+(PERSON17) And next year if there is no [ORGANIZATION12] Congress, we should try to get a full eeh present there.
+That's artificial, yes, but it is a fall back solution.
+And it is a d- a good test case for us, it is , that's for sure.
+(PERSON2) Mhm.
+(PERSON17) So do you do you agree that we should try to eh run all the systems for December?
+It's just connecting to this life event and subtitling, but <laugh/>
+We have done this similar to the Uni Hack for example.
+The Uni Hack was also something online.
+(PERSON2) Yeah.
+We just said we will we will do it.
+And we, we got one positive response from someone who have found out the uh, <laugh/> the live eeh stream, and and he was watching that.
+So <laugh/>
+(PERSON2) Yeah, I think is that I mean, it sounds like a good idea.
+I guess guess you are right.
+We should be aware about making it to -
+(PERSON17) Yeah.
+(PERSON2) to <unintelligible/> <parallel_talk/>
+(PERSON17) <unintelligible/> <parallel_talk/>
+(PERSON2) keep as a as -
+Depends how we feel it's gonna work, but -
+(PERSON17) Yeah.
+(PERSON2) keep it as a test event.
+Ehm, do we also do any <unintelligible/>
+There is no physical setup, is there?
+Because it's  -
+(PERSON17) There's nothing physical -
+<parallel_talk/>
+(PERSON2) Yeah, yeah, okay.
+So -
+So we just have to look in to the stream.
+(PERSON17) Yeah.
+Yeah, exactly.
+So, yeah.
+<talking_to_self/> <typing/> [PERSON17] suggests to use use meta eeh, meta forum twenty twenty as a test event.
+Run our systems there without too much eh, publicity.
+Um, if there is no Congress.
+So, eh, that's a that's, uh, like, the the first possible eh, fall back solution to get into meta forum twenty twenty one.
+Eh, but eh we'll ask [PERSON36] eh, for the [ORGANIZATION2] thing and still eh, further options are uh, uh thought thought for.
+So if you have any other ideas, even local ones.
+Like the local ones are actually more eh, <unintelligible/> one, because they will be spoken in German, in Italian eh, whatever.
+Eh, please, let us know.
+(PERSON2) Local events here gonna speak English, I'm afraid.
+(PERSON17) Yeah. <laugh/>
+(PERSON2) <laugh/>
+Sorry.
+(PERSON14) <laugh/>
+Well -
+(PERSON2) I don't know how it come.
+<laugh/>
+(PERSON14) We are confident in catching the audio stream from an online event.
+And actually I am not, but [PERSON17] you look pretty confident about it.
+Eh -
+(PERSON2) <laugh/>
+(PERSON17) We have done that.
+(PERSON14) <laugh/> Okay.
+I'm happy to know it.
+Eh -
+(PERSON17) <laugh/>
+(PERSON14) <laugh/>
+But there are many ehm, webinars running eeh, online right now due to the Covid situation for example.
+The Pi campus one ehm, of <unintelligible/> speaker
+(PERSON17) Ehm hm.
+(PERSON14) which was on on language technologies we did.
+And m- and it was pretty nice, maybe to provide some kind of subtitle service on such events.
+(PERSON17) Mhm mm.
+So we were without translation only the just a transcription would be it or the translation is also an important thing?
+(PERSON14) Well.
+In my opinion yes, because the event was in English.
+(PERSON17) Mm hmm.
+(PERSON14) Eeh, many eeh, viewers were Italian for example.
+(PERSON17) Okay, mm hmm.
+(PERSON14) And well -
+(PERSON17) Yes, so this is -
+This is exactly the type of events that we -
+(PERSON14) <laugh/>
+(PERSON17) that we want to gather.
+Eh, so please put it here in the document, and may be like as a past event but maybe there, there will be new instances of that.
+(PERSON14) Mhm mm.
+(PERSON17) And I also would like to ask [PERSON1], because eh, you eh are t- t- going to all these various events and now mainly remotely.
+Eh, so what what types of events is that?
+Is that like education technologies or -
+You had also something like medical, didn't you?
+(PERSON1) Yes, we also went to medical eh events, but more on technology based events and -
+(PERSON17) Mhm mm.
+(PERSON1) Yeah, we can also share some events maybe with you.
+(PERSON17) Yeah, so how multilingual these events are and how multilingual adn eh eh, like insufficiently proficient the audience is?
+Eh, can you figure out, can you list some of the events where you are quite close to the organizers, so that you could get in touch with the organizers.
+And where the audience is as multilingual as possible and where the audience in one way, or another would benefit from from the translation.
+So please  -
+(PERSON1) Okay.
+(PERSON17) down sample your long list to do this and we'll try to figure out some some venues, which we'll we should really try to uh, to uh, to connect to.
+(PERSON1) Okay.
+(PERSON17) Yeah, okay.
+Thank you.
+<parallel_talk/>
+So, well  -
+Yeah?
+Any other comments?
+(PERSON34) Yeah, [PERSON17], just wanted to <unintelligible/> in my country we also reach out to the start conferences.
+We just all -
+All of the conference are running virtual.
+Like <unintelligible/> or or some other conference.
+(PERSON17) Mhm mm.
+(PERSON34) conference, which are is there, and maybe maybe some yes, we can.
+(PERSON17) Yes, we can.
+But I'm wondering whether eh, we are sufficiently -
+<other_noise/>
+like the audience is sufficiently profficient English.
+So I think, it's it's very similar to the meta forum and the content is more eh, technical so to say.
+Uh, so eh, whereas in meta forum it will be still high-level overview talks.
+And the high-level overview talks would be easier to translate than all the technical terms in in the standard eeh, eh, SL conferences.
+So that's why I'm not thinking of eh, of them.
+(PERSON34) Mhm.
+Okay.
+(PERSON17) But at the same time, you're well, you are from from different country.
+So maybe you can eh, even eh, mention some, well, Indian things eh, that could -
+Obviously we don't have ASR for that.
+But if if eh, there is some event, which is held in English eh, and attended by people from Asia as well, we could we could expand our language coverage somewhat.
+But not not much obviously.
+We have [PERSON13] the there eh at the back end anyway already.
+So -
+(PERSON34) So we have this conference which is coming up.
+It it is the largest conference in India.
+(PERSON17) Yeah, I would not -
+Yes, I know I know uh, about Icon.
+But I I d- I think it would be better to use eh other like non-technical conferences.
+Less technical conferences
+(PERSON34) Mhm mm.
+(PERSON17) Maybe <unintelligible/>
+Yeah -
+(PERSON34) Okay.
+(PERSON17) Okay, thank you.
+Yeah, great.Eh, so -
+Uh, that's that was the the responses to the reviewers.
+Now, the Covid extension -
+We'll file it.
+Full stop.
+So [PERSON18] <laugh/> please make sure that we will uh, that we are filing this request to get three extra months.
+If anybody still can contribute any ideas, here is the document.
+Eh, and we have heard from [ORGANIZATION3].
+We haven't heard from [ORGANIZATION11].
+If you have any sa -
+And we haven't heard from [ORGANIZATION10] and we haven't have- heard from [ORGANIZATION8].
+So eh, [ORGANIZATION11], [ORGANIZATION8] and [ORGANIZATION10].
+(PERSON2) Oh, what you need from us?
+(PERSON17) Some suggestions, because the the coordinator should address eh, at least some of the below points in order to justify the request for extension.
+(PERSON2) Oh.
+(PERSON17) And then they have number of of things like issues which have led to delays and yeah.
+So we are collecting the possible answers.
+Uh.
+Why do we want an extension.
+Eh, so eh, if you have any such suggestion, please put it into this document, and put it there today or tomorrow.
+It's like just brainstorming and we'll wrap it up <cough/>
+We'll wrap it up it up eh, and and file it.
+Again let's say by the end of the week.
+So that it is it is that this is done.
+Yeah, okay?
+So uh, I  write it down.
+So, uh, [ORGANIZATION11], [ORGANIZATION11], [ORGANIZATION10], [ORGANIZATION8] please look and eh <other_noise/> provide ideas or say none <laugh/>
+Eh, they filing the request eh, at the end of the week.
+Yeah, okay.
+So we have spent an hour in the call.
+I don't want to go  over the progress of the work packages in detail.
+Is there -
+But thanks to those who have provided the details into document.
+Please include your progress here in any case.
+So ehm I still miss the ASR update.
+Eh, there is something on ehm, eh, s- from [ORGANIZATION11] on SLT and so on.
+Is there anything in the in the progress of the work packages that should be discussed the global like in the full consortium?
+Would you like to draw attention to anything of this?
+(PERSON14) Ehm, on my side, just a minor theme.
+We saw during the the review meeting preparation the ehm revision interface of [PERSON27].
+(PERSON17) Mhm mm.
+(PERSON14) And we would like to plan maybe a meeting ehm with me and [PERSON27] and [ORGANIZATION10].
+(PERSON17) Yes.
+(PERSON14) To have a look at it.
+(PERSON17) Please do.
+(PERSON14) Okay, I will plan it.
+Okay. <laugh/>
+(PERSON17) Yes, please, please plan it -
+Please, make sure that we take part in that as well.
+And eh, that I hope that the revision interface would be available from [ORGANIZATION3] in in some form, but -
+(PERSON14) Okay.
+(PERSON17) it's probably [PERSON19] who'll have to confirm this.
+(PERSON14) But let's start having a meeting and having more detailed look at that.
+(PERSON17) Yeah, okay.
+(PERSON14) Okay.
+(PERSON17) Eh, so, and then on dissemination I also see no update.
+Eh, so if [ORGANIZATION8] could eh, eh input some updates on the if there are any.
+Uh, uh, on dissemination activities.
+(PERSON14) Okay.
+(PERSON17) Eh and that's it.
+So ev- we have discussed ethics f- in in eh, sufficient detail <laugh/>
+And we'll we'll be working on the individual eh, things I mean in smaller groups as as always.
+So I think that's that's probably a good time sh- to end the full call -
+(PERSON21) Can I have a question?
+(PERSON17) Yes.
+(PERSON21) Just what is [ORGANIZATION16] in work package on data?
+(PERSON2) Oh this is the -
+(PERSON35) Yeah, that is the data from the [ORGANIZATION16] website.
+(PERSON17) Ah, okay.
+Yeah, yeah.
+(PERSON21) Okay.
+So there are texts?
+(PERSON2) Yes.
+(PERSON21) Okay, thanks.
+(PERSON17) Yeah, okay.
+So if that is everything that we need to discuss globally then thank you very much for participation.
+Please, eh, do the things that are due today.
+The Covid extension ideas, and uh, have a look at your papers listed in the eh review.
+Sorry in the progress report, eh, and uh, it was [ORGANIZATION3] and maybe some others who need to still respond to some of the requests from the reviewer.
+And otherwise we will put, you will send it eh, by the end of the week.
+Okay, so thank you very much eh I'll talk to you no later than in a month from now at one of the <unintelligible/> call together.
+<laugh/>
+(PERSON14) Okay, thank you.
+(PERSON17) Thank you.
+Bye bye.
+(PERSON14) Bye
+(PERSON2) Thank you
+Bye
+Bye

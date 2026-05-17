@@ -1,0 +1,27 @@
+[PROJECT4]
+2019/05/24
+Attendees: [PERSON8], [PERSON4], [PERSON6], [PERSON5], [PERSON10], [PERSON10]
+Purpose of meeting: Informative meeting
+
+Summary of meeting:
+
+• [PERSON8] and [PERSON10] discuss about [PROJECT3] worker and preprocessing. Probably is needed adaptation. [PROJECT3] model would be trained to work reasonably well. 
+
+• [PERSON8] and [PERSON10] discuss about handling of timestamps. Limitation is that we can handle only like one single timestamp at the beginning and would be the end of the segment. Only timestamps that we have are the beginnig and end of the sentence. 
+[PERSON8] and [PERSON6] continue and discuss about textfield. They needs to discuss the updates versus history of textfields. [PERSON10] will be informed if needed.
+
+• [PERSON8] and [PERSON6] discuss about prototype. The first presentable prototype should be at the 15th of June. [PERSON8] prefer prototype sooner.
+
+• [PERSON8] discuss with [PERSON10] the plan to run any [ORGANIZATION2] workers in [LOCATION1]. [PERSON8] thought it would be interesting to start as many workers as possible in [ORGANIZATION3] and if there is hardware limits it is possible to run some from [LOCATION1]. [PERSON8] ask [PERSON10] for discuss this with PERSON45.
+After the call, [PERSON8] will test the [ORGANIZATION2].
+
+• [PERSON8], [PERSON4], [PERSON6], [PERSON10] discuss the ASR worker bug. [PERSON4] inform that sometimes one worker can handle several sessions, but then it stocks and it doesn't return any output. [PERSON8] say that it's very important that [PERSON10] create a script that will like replicate it this bug. There could be a set up support [ORGANIZATION1] mediator, use fingerprint as input and keep like loading importer or keep requesting ASR from one copy. Production client from [PERSON4] is different from the simple one by change the default parameters and he removed to Windows version.
+
+• [PERSON8] inform others that in case they have problem with calls they could put it in the document and will be found a slightly different hour. It is needed to synchronize.
+
+Next meeting will be next Friday.
+		
+2019/05/24
+
+
+

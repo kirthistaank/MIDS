@@ -1,0 +1,68 @@
+Minutes of Dec 10, [LOCATION2] noon time
+* Enable recording
+* Doodle used: [URL]
+* Kick-off meeting:
+o Doodle [URL1] 
+o It will be a day and half long. For sure it will be held on 15th January 2019 (Tuesday) and
+* a) afternoon on Monday 14th
+* b) morning on Wednesday 16th 
+o You can collocate [ORGANIZATION15] meeting with this (e.g. meet them on Monday morning or Wednesday afternoon (Question for [ORGANIZATION5] and [ORGANIZATION13].) (OK from [ORGANIZATION13])
+o web: www.[PROJECT1].eu, info@[PROJECT1].eu (one logo is missing: [ORGANIZATION12]. Please send to: [PERSON10]) (Acknowledge of [ORGANIZATION9] funding: link)
+* logo: ny comments? We've actually started using it.
+* GA:
+o Thanks for signing!
+o is signing GA equal to signing Form A? ([PERSON6] mentioned that only one partner signed Forms A at the point when [ORGANIZATION11], [ORGANIZATION1] and one more partner had GA signed, so we are confused)
+* CA:
+o Fill in section 12 Signatures (name and title of your legal signatory)
+* NOT filled by: [ORGANIZATION2] (p. 29), [ORGANIZATION5] (p. 30) and [ORGANIZATION12] (p. 32)
+o New status created for [ORGANIZATION3]:  “Partially Participating Entities”
+* In the preparations of bilateral agreement [ORGANIZATION1]-[ORGANIZATION3], it turned out that the label “Affiliated Entity” cannot be used for [ORGANIZATION3], because [ORGANIZATION1] and [ORGANIZATION3] are independent entites.
+* We thus created a new status of Partially Participating Entities, we list them in a new Attachment 5 (only [ORGANIZATION3] is and will be there).
+* We copied the original 9.5 (Access Rights for Affiliated Entities) into two version: 9.5.1 (unchanged original) and 9.5.2 (version for Partially Participating Entities). 9.5.2 is also different from 9.5.1 in the way [PERSON13] proposed and sent you by e-mail: royalty-free access during project lifetime and fair and reasonable conditions after project lifetime.
+o Everyone happy with Affiliated Entities Partially Participating Entities (=[ORGANIZATION4]) getting royalty-free access during project lifetime?
+o [ORGANIZATION5] status
+* As far as [PERSON13] knows, they are fine with the current CA proposal
+o 8.4 
+* Prior notice of any planned publication shall be given to the other Parties at least 45 calendar days before the publication, unless paragraph 11.9 of this agreement applies. Any objection to the planned publication shall be made in accordance with the Grant Agreement in writing to the Coordinator and to the Party or Parties proposing the dissemination within 30 calendar days after receipt of the notice. If no objection is made within the time limit stated above, the publication is permitted.
+* Details on Pre-Dry Run at Student Firms Fair (March 2019)
+o [ORGANIZATION1] organizes, [ORGANIZATION5] considers coming, [ORGANIZATION13] provides platform
+o No help from [ORGANIZATION2] needed but you are welcome to join if you would like to
+o Pointers to NN SLT tools needed from [ORGANIZATION5]
+* So far, [ORGANIZATION1] is getting acquainted with SLT.[ORGANIZATION5] published at MT Marathon 2018
+o We need details on the protocol with the [ORGANIZATION13] platform, to link [OTHER1] MT to [ORGANIZATION13] platform ([ORGANIZATION13] to send APIs for connecting to Service Architecture by December 14th) 
+* Details on First [ORGANIZATION3] workshop
+o The workshop in Year 1 will take place on June 27--28, 2019
+o At [ORGANIZATION3]'s [LOCATION2] premises
+o about 20 participants from 8 countries
+o the language of the workshop is [OTHER3], so they actually do not need us, only for convenience translated to many languages
+o we should focus on designing the mixing of materials and subtitles in the selected language, or on some other way of reducing cognitive load for the participants.
+o ([ORGANIZATION15] has tested their things in November 2018 in a very similar setting.)
+* Details on [ORGANIZATION7] Congress
+o [PERSON10], please set up a [ORGANIZATION14] Calendar for [PROJECT1] and enter this into the calendar.
+o The Congress will take place May 31 -- Jun 5, 2020.
+* Plenary meetings: in the new building of [ORGANIZATION16](the Parliament during the communist era, then [ORGANIZATION8] building).
+* Workshops: new building of [ORGANIZATION16]
+o There will be 50 countries represented, up to 250 participants.
+o Program:
+* May 31: Arrival
+* June 1: Plenary,[ORGANIZATION4] building
+* June 2: probably 10 simultaneously running workshops, maximum is 12
+* each workshop has a topic
+* one topic on NLP/MT services could be there, too
+* each workshop has two copies, one taking place in the morning, one in the afternoon
+* June 3 Plenary, [ORGANIZATION4] building
+* June 4 Plenary, [ORGANIZATION4] building
+o Input in advance:
+* [ORGANIZATION3] plans to request slides+notes from the speakers at least a week in advance
+* ~80% of the delivered speech will be directly from the notes (this is prepared speeches presented by high-level management who has not written it
+o [ORGANIZATION3]'s fallback solutions:
+* The quality of the translations has to be excellent.
+* There will be regular interpreters for major languages, so we could use them as re-speakers
+* 5 booths, 5 interpreters
+* All the participants should get all the slides translated in advance, to browse it if everything else fails
+* Unclear:
+o if the translations are expected to be post-edited
+o who would handle the file formats even if [PROJECT1] delivered translations
+o [PROJECT1] booth .. in the [ORGANIZATION4] building, could be there probably all the time.
+o [ORGANIZATION15] wants to try the congress, too; one possible division is along the days (some days covered by [ORGANIZATION15], some by [PROJECT1]) 
+

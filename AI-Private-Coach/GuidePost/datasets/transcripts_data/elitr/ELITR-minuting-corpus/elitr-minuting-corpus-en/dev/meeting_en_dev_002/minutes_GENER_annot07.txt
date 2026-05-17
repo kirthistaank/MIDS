@@ -1,0 +1,17 @@
+[PROJECT1] Demo
+
+
+Date: 06. 05. 2020
+Attendees: [PERSON14], [PERSON10], [PERSON5], [PERSON9], [PERSON1], [PERSON11]
+Purpose of meeting: Preparation for demo 
+Agenda: 
+* Playing the video at the same time for each participant
+* Video to be used
+	* Adding instruction for playing
+* Introducing the plans
+	* Plan C explanation 
+* Arranging the next day meeting
+
+
+
+Minutes submitted by:         [ANNOTATOR2]

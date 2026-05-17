@@ -1,0 +1,23 @@
+Organizational Stuff:
+
+•	A project meeting monthly call for organizational stuff will be on Thursday(5 PM PT). 
+•	[PERSON6] and [PERSON2] should take part in at least and it will be good for [PERSON10] as well. 
+•	[PERSON10] needs to be added into the mailing list by [PERSON6]
+•	It is recommended for [PERSON10] to visit [LOCATION2] in person and the full term contract but there are visa issues due to Covid situations.
+
+Progress:
+
+•	[PERSON9] did some experiment and finish testing it and [PERSON3] helped to resolve all the issues that [PERSON9] came across.
+•	[PERSON2] believes contact with [ORGANIZATION3] colleagues is not perfect.
+•	Some objective problem with quality estimation has been defined.
+•	[PERSON9] is preparing the leaflets for certificates and will be handing out to participants.
+•	[PERSON9] have some plans for publishing the paper next year
+•	[PERSON2] has progressed on [PROJECT1] with back-translation.
+•	On a cluster, there are 40 jobs with each one taking 2 hours scheduling with a low priority which may be stopped if required to schedule 
+•	[PERSON2] may try the translations on CPUs as there are many CPU idle and it will make the task quicker.
+•	There are no updates for [PROJECT4].
+•	[PERSON6] read a paper on BLEU which is machine-learned evaluation method so he is not sure whether to use it or not as it might be sensitive to domain shift. The score provided may have the performance low but it might not be true.
+•	There are plans to add the evaluation metric to pipeline A related paper on BLEU that might be useful for evaluation.
+•	[PERSON10] discovered the decoder generates a sentence that has the same meaning, but different words while trying BLEU. 
+•	[PERSON6] belives [PROJECT5] is creating semantically rich representations.
+•	Discussion on a different kind of metrics and their comparison building semantic metrics.

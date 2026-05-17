@@ -1,0 +1,21 @@
+[PROJECT3] meeting, 2020-07-21
+
+Participants of the meeting: [PERSON6], [PERSON1], [PERSON3], [PERSON7]
+Excused from the meeting: [PERSON5]
+
+It was discussed at the meeting:
+
+- [PERSON3] has redone some of the embedding color maps
+- [PERSON1], [PERSON7] and [PERSON5] went through some parts of the book and added some comments
+- [PERSON1] can add some visualisations
+- LSTM cell terminology was explained
+- [PERSON7] suggests writing in the introduction of [PERSON6]'s section more detailed information about dependency syntax
+- proposal to omit detailed information about negation
+- Rest of the [PERSON6]'s chapture is ready to read
+- Some sections in [PERSON6]'s chapture repeat itself and they should be merge
+- It will be good to make an appointment and tell [PERSON6] what to write about, because he is good at writing long texts
+- There're some comments in [PERSON7]'s chapture, he only needs to improve some things in the text
+- Decision remove dedication motto and it needs to be invented a new one
+- The next meeting will be on July 28
+
+The minutes were written by: [ANNOTATOR2]

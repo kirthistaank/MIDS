@@ -1,0 +1,37 @@
+Present:
+[PERSON9], [PERSON10], [PERSON8], [PERSON7], [PERSON7]
+
+Mentioned:
+1) Two running projects right now ([PERSON7])
+2 The first project is [PROJECT6]
+3) [PERSON7] mentioned the problem with student models
+4)[PERSON8] is measuring the origin (blessed core) of the [PROJECT4] in 2017
+5) Czech model for student working good - it is from [ORGANIZATION4] people
+6) [PERSON10] and [PERSON8] suggest to to train another system without alignment, [PERSON7] train system with 5 milion sentences and using the alignment
+7) [PERSON9] wants to have two comparisons - a) quality of the (T to T) models - good model versus bad model
+					  b) comparison the fast good model versus the slow good model which is teacher T to T versus the [PROJECT2] student	
+
+8) [PERSON2] did a mistake, [PERSON7] and [PERSON2] are running experiments again, nothing promising is there so far
+
+9) [PERSON7] shared screen with his and [PERSON2]'s running courses
+10) [PERSON9] a [PERSON7] - discussion of the shared document and training of the program
+11) [PERSON9] suggested looking at the translations manually, evaluating them manually
+12) Fake paraphrases
+13) Discussion of [PERSON8], [PERSON9] and [PERSON7], what the system should be able to do - experiment even with like unfinished sentences, two encoders,
+14) [PERSON7] is just working on the [PROJECT8] translations
+15) [PERSON9] has a few suggestions - run the encoder as many times as many inputs they have - change in the structure of the network (it isn't requires the deadline on Saturday)
+16) [PERSON10] is online, he can't understand everything - he knows they are training translation model between Czech and English
+17) [PERSON9] describes to [PERSON10] what [PROJECT6] can do
+18) [PERSON5] and [PERSON7] show [PERSON10] the features of the [PROJECT6] on a shared screen
+19) Distillation part and quantization part of system
+20) [PERSON9] suggested pick for example the [PROJECT2] C plus plus plus code and try to implement this averaging, it would be good to run these paraphrase the [PROJECT8] experiments with increasing corpus sizes,
+21) [PERSON9] offered [PERSON10] to come to [LOCATION1]
+22) [ORGANIZATION5]
+23) [PERSON9] wants regular slot with [PERSON7] and [PERSON8] - discussion about it
+24) Discussion about group chat - Slack, WhatsApp...
+25) [PERSON10] and [PERSON7] dealt logged in to [ORGANIZATION1] website, username and password
+26) [PERSON1] has access to the email, cluster, network
+
+			-
+
+Minutes submitted by [ANNOTATOR1]

@@ -1,0 +1,314 @@
+<another_language/>
+(PERSON2) Good morning.
+(PERSON7) Good morning sorry.
+<laugh/>
+(PERSON3) Good morning.
+(PERSON2) Good morning at your place, is it <unintelligible/>.
+(PERSON7) No its morning actually.
+Also have better flection of my screen right now.
+<unintelligible/> see anything.
+(PERSON2) Who else will attend to this meeting.
+<unintelligible/>.
+(PERSON3) Well, [PERSON8] is writing that he will be here in a couple of minutes.
+They are restarting their systems [PERSON8] and [PERSON4] should join us.
+<unintelligible/>
+(PERSON1) Good morning.
+(PERSON3) [PERSON1], okay.
+() [ORGANIZATION3] is here.
+The they are coming.
+(PERSON8) Hello, so finally it works.
+Apologies for the delay I we don't hear you.
+(PERSON3) Good morning.
+(PERSON8) Okay so it works.
+<other_noise/>
+It's me and [PERSON4].
+(PERSON4) Hi.
+(PERSON8) And we have.
+(PERSON3) Hi.
+(PERSON8) We set it up so that we use loudspeakers and this microphone.
+This microphone, so that hopefully that so I can a- a- actually I can leave that on.
+So thanks everybody for joining this call, and sorry for being this call is to agree on what we will be doing in the next two years.
+And I wanted this call to happen before the review because it at the review someone asks we need to have one opinion on or we at least need to know like where are the where that where our ideas differ and how do we <unintelligible/>.
+And if you yeah, if you look at the document, I see only two people looking at the at the [PROJECT1] minuting demonstration.
+Do all of you have the link?
+So [PERSON6] <unintelligible/>.
+So can you send it [PERSON4] to to [PERSON6]?
+<other_noise/>
+So it was in your email, [PERSON6].
+I dunno if you can find it.
+[PERSON4] will send it again.
+So the the point on [PERSON2] do you see that document.
+Yeah.
+Beyond the same well not only the page but document.
+It's called [PROJECT1] minuting demonstrator and we me and [PERSON4].
+Selected the first line.
+<laugh/>
+Okay.
+<laugh/>
+Okay.
+(PERSON4) [PERSON2] do you want to send- to set it to.
+(PERSON7) <unintelligible/>.
+(PERSON2) Ah I just send it in.
+(PERSON8) Okay, yeah yeah yeah.
+So here at the top of the.
+Not at the very top of the document oh yes.
+The consents with the that's what [PERSON4] <unintelligible/> edit recently.
+We are again trying to to use this meeting as source for the minuting task.
+So I hope that you are all fine with being recorded and that we'll then process the data and then eventually publish as as a corpus of meetings.
+As type.
+So there is a link to [ORGANIZATION4] document so- sorry to [ORGANIZATION4] forms, so please sign in by entering your name.
+And and and saying yes.
+And this is for, this particle meeting or is it for all the.
+(PERSON4) No this is for all [PROJECT1] meeting I just added to the agenda because maybe not all of you are in the the [PROJECT1] <unintelligible/>.
+(PERSON8) List so it's mainly the link is here for [PERSON6].
+And I don't know where <unintelligible/> is, we haven't seen him today, maybe he forgot about the call but it's not too important and otherwise we have [PERSON5] is not here but you can surely report to him, so that's that's.
+I don't see that as a big problem either.
+Yeah so, we need to tick off the milestone related to minut- and a a its a yeah there would be about 20 months to develop this demonstrator.
+So this is we are just going to discuss what type of of tool we want to develop <unintelligible/> and then the development will start first person months on this are scheduled only in January next year.
+So there is still plenty of time to like think in your free time on this.
+And then there is a lot of time available to know that.
+Is a table which summarizes our internal breakdown, of person months as we allocated them to the various tasks related to to minuting.
+So to clarify minuting data is it work package one?
+Minuting demonstrator is in work package on integration which is is.
+Is yeah.
+That's six.
+And then these are five, so that's like the that's the internal that the the system our original.
+So this is these?
+Uh, I think that in in integration in work package six.
+[ORGANIZATION1] has many more hours, many more person months than these 25 person months.
+The division between the various tasks of integration and and the minuting demonstrator is our internal decision.
+It has never been reported to the [ORGANIZATION2].
+So you are, you have a lot of flexibility here.
+If you know that you are spending too much time on on other s- asks on integration.
+We can decide for a form of minuting demonstrator that that reduces the force needed.
+So this is this is totally up to you to to make sure that you fit in your overall thing is obviously money.
+So what what normally happens in the [OTHER1] Republic is that we spend more person months and less money or the same money, the allocated money on our tasks.
+That's because usually we are not able the salaries because there <unintelligible/>.
+So is difficult to to to get to the salaries.
+And also.
+Highly qualified stuff so we have more people working on this who have a lower experience.
+So this is this is our general reason why we spend more person months then planned but the correct amount of money.
+And the main point of view is is to make the division good for you.
+Yeah, so the that's it.
+So that's the the main message is that [ORGANIZATION1] should sp-.
+Like two years on this full time.
+<laugh/>
+Should spend a year is within the approximately 20 months of real time, because the demonstrator has to be ready somewhat before the before the of the end of the project.
+So that's that's that's it.
+And we, we have only limited are in the development of the system under the hood.
+That that that can fail that's pure research.
+But I would like overall the minuting demonstrator to to demonstrate also the user interface.
+So I see two main [PROJECT1] <unintelligible/> so that people are happy with it and can use it for creating minutes.
+And the second step is the automation of the minute creation.
+And these two goals are more less independent they can one only one of them can succeed creation of minutes in the user interface that people like.
+But if our <unintelligible/> automatic minuting will fail.
+I would like to have good user interface where there is someone taking the notes or doing the the summarization behind the scenes.
+As this on users.
+If you wanted to, we there is no like requirement to do this but I think its useful to test it all users.
+So we could test it on users and we could say here have your meeting.
+We have this magic, automatic summarization.
+And while then while then meeting is happening.
+So this is what I would like this is what I would like to to a achieve.
+And what else is in the notes.
+Yeah the two independent <unintelligible/> [PERSON4] is taking the notes.
+I dunno if I can open the document.
+Obviously we would need three machines to to to this though.
+Yeah.
+So <unintelligible/>.
+So this is what I described I would like to see the demonstrator very flexible for the wizard of <unintelligible/>.
+Job of the person should be made automatic and.
+Yeah so th- the simples implementation I always see is <unintelligible/> project with [PERSON6].
+[PERSON6] have you seen the minuting mockup figure from the project proposal?
+So this is something that we need to find and paste here, its not not here in the document.
+So can you can you locate it in the meantime.
+The idea is that in in my simplest setup maybe you will find something even simpler.
+In my simple setup there is a single shared document similar to one that we are looking at the call.
+That that the call more or less follows.
+And then at the very bottom of the documents there is transcripts by individual participants.
+And to have these transcripts in the [ORGANIZATION4] doc can you see.
+So so its a shared document the this actually these two <unintelligible/> are both in the same document as no no no no.
+So the first part first box in the the agenda that is distributed in advance and then the lower part of the box illustrates what the document would contain as a whole.
+So you see that there is the agenda as well its pasted there at the top.
+The same and how the home user interface operates with with the background server.
+And the first point was to discuss whether the server will be pushing data or the client will be pulling.
+And then.
+Times different people set various things that that like matches with whats illustrated at the top so at the top you see left to right what people are saying.
+At the bottom you see the transcript of this and <unintelligible/> even people to immediately correct what the ASR has like messed up.
+So that is the transcript is part of the shared [ORGANIZATION4] document I could be looking at my own recognized speech and I could <unintelligible/> be appearing there as well.
+In the way similar to to the chat window that that now sees the like our messages.
+If we are looking at our speech translated to other languages.
+So this the transcript, get copied and summarized like shortened in some way and they populate the agenda.
+And you see these round recta- rounded rectangles with with the people images the agenda by this automatic minuting AM too.
+And it is this pull easier to implement that's someone someone mentioned that you see the person that was the first.
+If you like for example click this AM <unintelligible/> button.
+It would give it would <unintelligible/> it will show you the transcript where it comes from.
+If I were to implement I would implement it is as [ORGANIZATION4] document or any other open source I think <unintelligible/> also has this online version now.
+So any other online document and.
+So for one for every participant, there would be one agent this agent would be connected to the [ORGANIZATION3] platform and it would be stealing the transcript from myself and it would be entering it to the [ORGANIZATION4] document, because these [ORGANIZATION4] documents can be call.
+I would say I would somehow well the webpage or whatever I would indicate to the agent, this is the [ORGANIZATION4] document where my transcript should be appearing and this is the point.
+This this worker would be would be populating the transcript in some agreed annotation with some meta data that we could include like white on white background so that does- it doesn't saying like at watched time that's this was said or some ID of that segment or whatever.
+So that would be one agent which puts the transcript to the document.
+And then I would like another agent and that only once like that's at any and the other agent that would get the transcript, it would also see the agenda.
+And it would run our system that we are developing its not we are these months still.
+But we will have something which will get the transcript and it will summarize and it will populate the agenda.
+And this could again be done in this shared [ORGANIZATION4] document with the with the transcript  text and then it would locate the agenda items again some hidden IDs could be part of that.
+So that the location is is easier and it would populate the the agenda in the [ORGANIZATION4] document.
+And this could be run offline or live during the session not specific with in this respect at all so we can go for the easy offline implementation or we can do it online.
+So in my view we need for the integration we need these and that's that's it.
+These agents well one of them connects to our summarization like tool and the other one connects to the [ORGANIZATION3] platform to get the transcripts.
+Maybe you are able to come up with something easier maybe the integ my vision.
+And feel free to totally break it <unintelligible/> as you <unintelligible/>
+So at what else we have in this document as this is.
+<parallel_talk/>
+What the user inter- or what the API of our tool is.
+Our tool is one function that you will run by clicking on this generate summary button and the function has two <unintelligible/>.
+Our tool will already do the topic segmentation of the agenda topic segmentation of the transcript and the meting and the population
+And the output of this would be the populated agenda.
+So something where extending the <unintelligible/> in one way or another so that would be the the output, the output is no long- is not not really well.
+This is maybe the output is is yeah I dunno what what the <unintelligible/> agenda shows it to <unintelligible/>.
+Its probably already the output.
+Its like visual illustration of what our summarization tool will do, but we need to decide on how to demonstrate this in in some way.
+Yeah okay so that's that's I think everything from me, I've described the the <unintelligible/> problems right away.
+What you then you we don't have to come to any conclusion today.
+We still have weeks to think about this, but if you see any problems right away, we should be aware of them before the review.
+We meant until the end of the year.
+(PERSON3) Sorry [PERSON8] I have <unintelligible/>.
+Has its own microphone or.
+(PERSON8) Yes yes the <unintelligible/> freely assume this.
+So if if not the diarization will that that's very good point but I think that we can for simplicity we can simply assume that every speaker is not separate channel.
+That's that's the general way of [ORGANIZATION1] being used, like its I would say I think its its rather an acception that there are more people in the call.
+We we can say this as a requirement.
+(PERSON3) Actually.
+I dunno if [PERSON1] ever told you about one of our products which is called [PROJECT2] <unintelligible/>.
+Is it possible for me to show with you my desktop, okay but.
+(PERSON8) Please do, if if you can share your that would be great.
+<laugh/>
+So its next to the coffee button.
+(PERSON3) Ah okay.
+Do you see me, no.
+Okay.
+Do you see my screen.
+(PERSON7) <unintelligible/> white box no.
+Video screen.
+(PERSON3) Okay.
+Just a second.
+Okay, actually this is one of the [ORGANIZATION3] products which is called [PROJECT2] <unintelligible/>.
+And when I read the, the agenda of today's meeting, I understood it might be interesting for you to at least see our interface application interface because.
+(PERSON8) So at the moment we see only white screen nothing more.
+We saw VLC like welcome screen, but we don't, we see your curs-, okay.
+Okay yeah yeah.
+(PERSON3) Nice.
+Just a second.
+Okay this is the VLC.
+<laugh/>
+Its a video.
+Well [PROJECT2] <unintelligible/> is used for <unintelligible/> reporting real time <unintelligible/> reporting.
+Which is not at all the minuting demonstrator use case.
+But it has some in Italian but what what is going to happen is that someone.
+Also different speakers are speaking and <unintelligible/> automatic transcription.
+And there exist a person who <unintelligible/> introduce a speakers tag on the left bar see th-.
+(PERSON8) So maybe can you can you zoom so can you s- make the rectangle smaller so that we see like the the font bigger.
+(PERSON7) <unintelligible/>.
+(PERSON8) And is there a way to to hide the right hand <unintelligible/> in [ORGANIZATION1] like the participants the chat and all that, because it is occupying all of my screen and I I'm failing.
+(PERSON3) Just a second.
+(PERSON8) Okay yeah yeah.
+(PERSON7) Hide the chat with the button on bottom right.
+Or.
+(PERSON1) With the pin.
+(PERSON3) To access here.
+Okay lets.
+(PERSON1) That's better.
+(PERSON3) The size.
+Okay, okay.
+Actually on the left bar we have the speakers name's used for court reporting so that the <unintelligible/> speakers names are in this demo judged public prosecutor transcriptions start.
+And <unintelligible/> in the text area, and there exist user who.
+Performs the autographic correction and fix autographic errors or ASR errors in real time.
+And also introduce the speakers names, read that the agenda of todays.
+I saw that maybe it might be interesting to get at least inspired.
+(PERSON8) Yeah yeah, thank you that's that's that was that was a good idea.
+This is with different this is like the first stage the stage that I was considering for the lower part of our shared document.
+More positions like more cursors appearing in the same area and the text will throw from all the parties at the same time, as if we were all typing to to the area.
+So then then its obviously like difficult <unintelligible/> how to put the timestamps there but that's that's like.
+Yeah yeah yeah.
+(PERSON3) Yes exactly now use case we have just.
+(PERSON8) If it would be good idea to start with this and edit the agenda and and the summarization to this interface or not, its up.
+Yeah.
+(PERSON3) Well actually is the document the application doesn't work with architecture, and also like.
+(PERSON8) So maybe [PERSON6] I would like your.
+(PERSON3) And also editing the text area time.
+[PERSON6] Yeah so I was originally not on supposed to be on this meeting.
+He should've joined previously on so.
+I think what we are going for in the first iteration we ship the audio to where it can be downloaded and retranscribed from from um.
+Because the tradeoffs that we do with the transcriptions are more latency specific we we push a lot of a lot of into media results.
+That's not something you can use in in a minuting application it should only work through completed completed sentence that you can actually.
+(PERSON8) Yeah yeah so.
+Yeah so we face the same issues with machine translation and we have ran into the same issue the day before yesterday I was I failed to send an email to everybody thanking for.
+I also have a some videos which I will upload to to show like that the same problem affects machine translation.
+So it at the there will be some component which will be making some sensibility the ASR worker.
+So from your point of view nothing would be changed, you would be only sending the audio to the [ORGANIZATION3] platform as you are doing now.
+And you would not be receiving anything.
+Which we'll do the segmentation into sentences and insertion into into this transcript user interface.
+So for your point of view from your point of view I don't think don't see there itself the application.
+But you have the two years to work on something which will show it and now its for maybe not you personally but for [PERSON5] to decide.
+Whether you are find the [ORGANIZATION4] Doc approach what weather you would like to make use of these two years of person months.
+To add this capability to your own platform.
+So this is like kind of an offer personally I would prepare an connecting to either [ORGANIZATION4] docs and even even the open source libra office.
+So that it is easier for other to pick up, but you have the option to use your person months to expand or add a <unintelligible/> from this yourself.
+The the general, this this also like is related to the general IP as it is handled in your open projects.
+The idea is that everybody then should like sell the results of our project we need to sell it to everybody under the same conditions, kind of including ourselves.
+So so I dunno how how <unintelligible/> about this but its so that that's why we always put things just to open source but for company you have to be more careful and.
+So th- decide your for yourselves what is the best use of these two years of of person months so that you monkeys.
+That would do the that would do the interface based on my my requirements, so find some some benefit for you too.
+And I but you are responsible for coming up with the solution and and we we just need to approve that, the design of of this is also like on you you can you can have your decisions.
+Yeah so so at this point you like need to step out from the settings which is closely tied to the [ORGANIZATION1] internals where you were only thinking about how to send the audio with low latency and receive the messages.
+Either of the user interface of the [ORGANIZATION1] application, or this [ORGANIZATION4] doc hacked with two workers.
+Whatever fit for you whatever is easier for and think that you have only the two years of person months to think about the the wizard of Oz usage.
+So I think it would be great if the if what you design and develop would work with humans behind the scenes and not our automatic summarization as well.
+Because then if <unintelligible/> with it, and you can sell this user interface as an independent application and the the <unintelligible/> commission would be only angry at us that our science failed.
+But overall as a project we will have succeeded.
+Think that it is nicer to have it real time, yeah.
+(PERSON7) But real time is not required.
+(PERSON8) Demonstrator is so m- maybe read again and that I don't remember it myself, but the read what's exactly as written as specification of the demonstrator.
+Because this is what we are going to be checked against.
+So read the specific, like what has to be done in order to satisfy what has been promised.
+So I I know that [PERSON6] has never <unintelligible/> text, he has never seen that.
+<laugh/>
+And its too long time ago that that I I wrote it, but [ORGANIZATION1] had a chance to to edit and must have kind of confirm what is what is there.
+<laugh/>
+Um-hum.
+Yeah.
+(PERSON3) Uh sor- sorry guys, I also had the same doubt before.
+So I re-read the grant agreement.
+Actually in work package 5 there is never written <unintelligible/> test to be real time.
+There is just a note in work package 6 <unintelligible/> task, minuting.
+And this is the only part where live is mentioned.
+I dunno if efficient.
+<laugh/>
+To require the live <unintelligible/> there are not but its the only point where its mentioned.
+(PERSON8) Yeah okay, that's thats good so I think in we can always say that its impossible to do it real time with the current development of the technology.
+So the this kind of safe wrote to design so that it can in principle work in real time.
+But we happy if it does not work in real time at the moment.
+I know that the design decisions can be radically different for these two use cases.
+Same time.
+<unintelligible/>
+(PERSON8) We have these two person years.
+But still we should we should somehow explain that like we should do some reasonable amount of work so at these single export is and we, copy paste.
+The transcript and agenda to to text areas on a webpage and then you click the summarize button and it will do something.
+That is also demonstrator, but I would be hoping for me.
+In in the end the single webpage where you have two text areas who pays the agenda you paste the transcript and you click the button and it will do some summarization.
+That is a demonstrator.
+And that means actually no time on your side.
+<laugh/>
+That.
+That that's what we are doing research into, so that's a that's this is what we have to do.
+So we have to do some topic segmentation based on keywords, so right now we actually.
+Yes.
+Yep, and it is totally blue <unintelligible/> so I keep reminding everybody that this can horribly fail.
+But the the outcome <unintelligible/>, so with machine translation everybody knows what the task is.
+So you get text in source language and you expect text in target language.
+Here the summarization has so many different ways of being handled, that I want to to have this task defined.
+To run shared task on on this summarization of meetings in in the coming years.
+So so that there the whole research moves into direction that that we want.
+So that's the way I see it.
+Full pipeline working but we can totally fail, but we will not fail what we will deliver is the definition of the ends of the pipeline, and how that fits into the the user interface.
+You can try to redo the internals and be <unintelligible/> in this task.

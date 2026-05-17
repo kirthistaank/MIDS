@@ -1,0 +1,19 @@
+[PROJECT2] meeting 17.05.2019
+Attendees: [PERSON7], [PERSON5], [PERSON10], [PERSON10], [PERSON12], [ORGANIZATION1]
+Purpose of meeting: Improving the ASR project, preparations
+
+Summary
+• ASR sentence: closing, sequence labeling
+• [ORGANIZATION6]: investigate and improve segmentation worker timestamps
+• fallback: models ready for big input
+• investigate what will be supported at [PROJECT3]
+• test pivoting
+• run [ORGANIZATION6] ASR on attached docks, including timestamps
+• Idea: banning particular workers when pipeline is ineffective
+	Milestones
+	• first prototype (7.6.2019)
+	• daily testing: install and test scripts
+	• MT domain dependent data tuning (19.5.2019)
+
+
+Minutes submitted by: [ANNOTATOR2]

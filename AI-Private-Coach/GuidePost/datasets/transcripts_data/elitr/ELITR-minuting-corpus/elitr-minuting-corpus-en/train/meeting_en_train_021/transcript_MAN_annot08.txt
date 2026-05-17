@@ -1,0 +1,1641 @@
+(PERSON9) Hello I'm also here.
+So here is [PERSON9].
+And I'm trying that works.
+Yeah.
+So me, [PERSON8] and also uhm [PERSON10] are in the same room.
+So there can be better reverberations.
+And in that case if it that happens I will leave the room, 
+but <unintelligible/> connected to the all.
+I think it is still better in terms of some quality.
+Then if we three sit next to a single machine.
+Hi everybody.
+(PERSON9) Hi.
+(PERSON10) Hi.
+(PERSON8) Hi.
+(PERSON9) So great is that is that all, 
+or are you still expecting someone uhm [PERSON8]?
+I think it's all,
+right?
+(PERSON8) Yes.
+Is not <unintelligible/>.
+(PERSON9) Yeah.
+yeah, okay.
+So uh, well, I would happily let- uhm [PERSON8] and [PERSON7] to lead the the call again, 
+and I will observe, but I'm delighted to to have a [PERSON3] all on on the team first, 
+and uhm like for for the first time.
+So that's my big thanks for 
+and uhm for uhm for [PERSON3] to to agree 
+and go on that the risk of remote working, 
+and we will see how that will work out in in the coming months.
+So that's only a warm welcome from me, 
+and then [PERSON8] and and [PERSON7] will will say most of the content.[PERSON8] Okay,
+so so uh, first of all welcome.
+<unintelligible/>
+And I think you've seen most of us.
+But if you <unintelligible/> for first time this also working on the project.
+And as far as these meetings are concerned,
+we we are just doing the the basically weekly report on a how how how things are progressing.
+So so basically, this week let see another right attandace,
+it's it's sure.
+So basically we have two running projects right now,
+or minute minute projects or <unintelligible/> call it.
+So first of all to <unintelligible/> [PERSON7] is there any progress this this in the last week?
+Was there any progress?
+Yeah, [PERSON7] your music?
+(PERSON7) Sorry.
+So I'm working on the student models, 
+and because <unintelligible/> five last week, 
+or I think it was last week, I was hesitating, whether you to use them or not, 
+then I decided to use them.
+And but the way how to come up with them it's big <unintelligible/>
+And now I'm instead the end of the step four from from five steps 
+and the uhm ehm the fifth step is the most complicated I think  because the quantitation
+and I need to build the specific [PROJECT2] for that, 
+and yeah so now I try to build build  the [PROJECT2] and it failed.
+I don't know why.
+<laugh/>
+So that the status of [PROJECT6] 
+[PERSON10] asked me what's the status look like  today morning and I'm I'm also not happy with this situation and I <laugh/>.
+If I should have decided for the uhm like staying with [PROJECT4].
+There si another problem that student model student model seems to be seems to have , quite special from Czech to English system have very low performance.
+I don't know I'm now measuring, what's the performance of the um original [PROJECT4] just to compare it.
+But first thing bless core from Czech to English I think it's to low. 
+But 
+(PERSON8) What's what's the reason to not go back to [PROJECT4]?
+It's a because <unintelligible/> personal investment in.
+(PERSON7) Yeah.
+<laugh/>
+Because I'm already in the step four from five 
+but yeah if we if it the problem is that the fifth step is the most complicated, 
+and it can like fail <unintelligible/> several like <unintelligible/>.
+(PERSON8) And do you know what the <unintelligible/> was on the tens- [PROJECT4] model?
+(PERSON7) Uhm, I'm just measuring it because I'm I'm running it on on CPU.
+So it's taking on to to translate like 3000 sentences, 
+because I don't want to invest more time to- 
+(PERSON8) Obviously.
+(PERSON7) make [PROJECT4] run on CPU  because these was train by phone calls me, and it's not already available,
+or I could ask him but I don't want to disturb <unintelligible/> it.
+Another job.[PERSON8] Okay.
+So so basically the lower performances already on the teacher model for Czech English?
+(PERSON7) For teacher model it it wasn't- 
+Now I try <unintelligible/> what <unintelligible/>.[PERSON8] But but teacher, it teacher is fine basically.
+(PERSON7) Teacher seems to be fine,
+I think.
+Uhm, <unintelligible/> check it.
+Just [PERSON8] So the problem is with the with the student models, right?
+(PERSON7) Yeah.
+I guess so,
+uhm one one it Czech to like teachers,
+okay, 
+Czech to English teach.
+(PERSON9) Yeah, sorry, 
+another urgent call.
+I'm back.
+<laugh/>
+(PERSON7) The Czech to English teacher was was was <unintelligible/>,
+yea it was quite good plus score 
+(PERSON8) So it regress by printing points.
+(PERSON7) Yeah.
+(PERSON8) Okay.
+(PERSON7) But I'm not sure these <unintelligible/> whether we uhm <another_language/>.
+Now I think this is correct.[PERSON8] Yeah, but uhm the [ORGANIZATION4] was doing the distillation, 
+right?
+Train the students, and and they didn't report any any like problems like the the same.
+(PERSON7) Yeah, because <unintelligible/> [ORGANIZATION4].[PERSON8] Okay, so so there is probably a problem in the process, right?
+(PERSON7) <unintelligible/> I think that was I was afraid that it it would be more problematic than just to follow their instructions and uhm.[PERSON8] Yeah, so so on Friday uhm.
+<unintelligible/> was asking whether whether who who was actually training these models, right?
+And he was suggesting [ORGANIZATION4] can handle it or you know.
+I don't know.
+(PERSON7) I'm not sure he was suggesting it.
+I I know that he asked me uhm that I should report any problems that I have already like least of 15 or 10 problems there are  things that are not really uhm use- not like not in good user experience.
+With <unintelligible/> model.[PERSON8] Ehm.
+(PERSON7) I don't know for for whom uhm these instructions are like aimed or <unintelligible/> whom they are aimd <unintelligible/>,
+but you have to you have to added the script a lock 
+and it's not documented at all.
+Most of the things, uhm yeah.[PERSON8] Okay.
+(PERSON8) But the regression seems very significant.
+So.
+There is some problem, and we will needs <unintelligible/> or you will need to <unintelligible/> again.
+Suddenly want to reconsider using <unintelligible/>.
+(PERSON7) Yeah.
+That was, <unintelligible/>that's why I'm now measuring uhm what's the origin was the blessed core of the [PROJECT4] on news test 2017, 
+just to have a fair comparison.
+() I don't know what was the uhm [PROJECT4] score,
+and if a [PROJECT4] score is also arounds 17,
+then it's okay, because  those systems were fine for us.
+Yeah.
+(PERSON8) And do you know when the lets all it?
+Overnight or?
+(PERSON7) Sorry?
+(PERSON8) Do you know when when the testing will finish that?
+Overnight?
+(PERSON7) Now I have like already half of the data translated in like.
+I think tonight it should be done.
+(PERSON8) <unintelligible/>
+(PERSON7) <unintelligible/> worker workers so I then I found out that I can <laugh/> run like uhm <unintelligible/> the data to keep part. 
+And uhm run the model in paralel on the same machine.
+So <unintelligible/> faster now.
+(PERSON9) Yeah, and and you are talking about good Czech model.
+And not the bad Czech model.
+(PERSON7) Is a bad Czech model. 
+(PERSON9) The bad Czech model. 
+So the yeah, okay.
+(PERSON7) Model <unintelligible/> I <unintelligible/> didn't the bad Czech model to be worse-
+(PERSON9) To be worse than, to <unintelligible/> bad.
+Yes.
+(PERSON7) Yes.
+(PERSON8)
+Okay, 
+so we will decides tomorrow.
+(PERSON9) Yeah.
+(PERSON7) Okay.
+Lets-
+because the yeah. 
+I don't know how much uhm like the fifth step there is complicated 
+and when I asked the [ORGANIZATION4] do it will like it would be delay even more.
+Yeah.
+I I shouldn't have uhm I shouldn't have gone for this for this student.
+(PERSON9) For for the student.
+So well.
+That was my fault, I I pushed you to do this.
+So do- don't feel bad.
+<laugh/>
+(PERSON7) Yeah.
+That's sure that <laugh/> that it would be better I desided to okay.
+Let's try.
+(PERSON9) Uhm and is the good Czech model uhm in the student version working well,
+or not even that?
+(PERSON7) Yeah, it's working.
+(PERSON9) Okay.
+And there was created by [ORGANIZATION4] people?
+Right?
+(PERSON7) Yeah.
+(PERSON9) Okay.
+So the thing is that we probably cannot reproduce the distillation.
+That's what uhm the uhm to note in the meeting uhm report says,
+uhm but the distillation itself for people who know how to do which works.
+(PERSON7) I think so.
+(PERSON9) Yeah.
+(PERSON7) Because uhm here it might be also the problem with the like uhm size of the data, now  I'm working with only five million of data.
+And I I don't know whether like the <unintelligible/> or <unintelligible/> in performance is not-
+(PERSON9) um-hum.
+(PERSON7) Because of that that that's the student models-
+(PERSON9) Are more sensitive to the to the lack of data?
+(PERSON7) Yeah, yeah.
+And I also, I also using the alignment, 
+because reqiured forced alignment.
+And uhm [PERSON10] and [PERSON8] suggest to to train another system without alignment.
+I haven't data. 
+So so far.
+But it it may be another like problem, 
+because the alignment is done only on  on those five milions sentences which is not.
+(PERSON9) Yeah.
+Yeah.
+So I can definitely understand the the alignment gets worse, 
+uhm but also that the deterioration of the student uhm si like much more pronounced.
+If there is less training data.
+So the uhm the the teacher should be weak.
+That's what we want from it  uhm
+but the student should be trained on a very large data set translated by the weak student.
+That's the difference.
+If you know what I mean.
+(PERSON7) Yeah.
+I know what you mean,
+yeah.
+But I decided on it on it to to use uhm like the teacher to train <unintelligible/> only on those five millions <unintelligible/> sentences and then then translate on it those five milions sentences.
+And <unintelligible/>that this problem that I should have translated  like many sentences.
+(PERSON9) Yeah,
+and how much was it complicated our evaluation uhm set up like the the let in squares,
+so the say.
+Uhm if we used three models for Czech.
+If we used T to T original the big one
+so the good T to T. 
+The bad T to T and the student for.
+The one that is working.
+Uh, the uh, the student train by [ORGANIZATION4] people.
+(PERSON8) Yes, as of now we don't have any idea  about the number of participants that [ORGANIZATION4] below the provide.
+So I would plate safetly and uhm provide less number of uhm configurations, 
+because we already have like what fourteen or fifteen,
+[PERSON7] do you know exactly?
+(PERSON7) Hm, 8 times 3, 24 I guess.
+(PERSON8) Okay.
+So now we have 24 configurations 
+and and no idea about number of participants.
+(PERSON9) This will go uhm by like three times like one half larger larger again, 
+like so in step to of 24 tt will be a 36.
+(PERSON7) Yeah.
+(PERSON9) Um.
+I think that if tomorrow if the numbers-
+<other_yawn/> 
+(PERSON9) Yeah.
+So if the if the numbers uhm the bless course do not uhm like uhm r- rescue us, risk you us.
+If the blows course will indicate that uhm the student for the bad model is really much worse than the teacher for the bad model.
+I would go for the three models that I just such a state without ask in [ORGANIZATION4] to to train if for us again.
+Uh, because we have these three models, yes.
+We have to find more people or [ORGANIZATION4] has to find has to find more people, 
+but we will have two comparisons that are both interesting.
+One of the comparisons is uh the quality of the T to T models so good model versus bad model.
+And they are both at the same speed, 
+uhm the the response to the user.
+And <unintelligible/> of the comparison is the fast uhm good model versus the slow good model which is teacher T to T versus the [PROJECT2] student.
+So, so these two comparisons are both interesting, 
+and we would learn whether it is more important to have the good response rate, 
+uhm or the the good quality kind of.
+(PERSON8)  [PERSON9], you said 3 models, 
+but you ment 4. 
+Right?
+(PERSON9) Uhm.
+(PERSON7) <unintelligible/> like including the Estonian.
+(PERSON9) Oh, well, I don't I was talking about one language.
+So.
+(PERSON8) Okay.
+(PERSON9) So for Czech this will be three models.
+(PERSON8) Okay.
+Okay.
+(PERSON9) So let's wait for tomorrow, to to know if the T to T bad model was also around blow of 17.
+And if uh if we have to stay with <unintelligible/> constraints, 
+I strongly recommend to also add the  uhm existing student for the good model.
+(PERSON8) mm-hmm.
+(PERSON9) Because that will that will half way make the reviewers happy.
+And it will add one more interesting comparison.
+(PERSON7) Yeah.
+Okay, yeah, <unintelligible/>[PERSON8] Okay, so. 
+We can want to the multi service.
+Uhm so how are you progressing <unintelligible/> from [PERSON2], that the experiments are <unintelligible/>
+So.
+(PERSON7) Yeah the experiment there running,
+but uhm yeah like last week, 
+because  [PERSON2]- [PERSON2] did a mistake in <unintelligible/> training and we get uhm we got like 15 blessed 
+or for from English to Czech, which is really strange.[PERSON8] Yeah.
+Yeah, I have heared about it to <unintelligible/> translating to the same language in <unintelligible/>.
+(PERSON7) Yeah, and I like replicated the experiment with the correct <unintelligible/> like we have everything under control.
+And and like then <unintelligible/> found out that he was training on.
+Some like data that is already containing information of development uhm no no no.
+He was uhm I don't know,
+I can it so so he was doing the uhm he did a mistake. 
+And then now we are running those experiments again, 
+and like nothing uhm nothing promising is there so far.
+We like we are running uhm uhm monolingual pre-training.
+Or monolingual system with original data.
+Then we the on back translated data and another one or another another two onper freud data.
+And then we are running uhm multilingual or yeah multilingual with tho incoders,
+and we recombination <unintelligible/> those or sources. 
+So originally back translated original with uhm uhm paraphrased.
+And so far the original is better and or the mono like the one source is better then multiple sources.
+Yes, so I'm not bit skeptical now <laugh/>about the result all these experiment. 
+And so [PERSON2] is also running like this this is some of the experiments he is  running in [ORGANIZATION4], 
+because he is like enough sources there or resources.
+And yeah. <unintelligible/> running some of them [ORGANIZATION6].
+(PERSON9) Yeah, so sorry.
+[PERSON2] was not fully paying attention what are the multiple sources?
+Uh and uh like <unintelligible/> this single sources bad than [PROJECT8]does it hold for any of the multiple sources?
+ Or dd- what more different single sources tried?
+(PERSON7) I don't have uhm yeah like I uhm I have <unintelligible/> numbers from what I have run,
+because [PERSON2] I don't know whether he when he started training it.
+I think today the the other two sources.
+But this one like back translate if plus.
+No sorry original original data plus back translated it running and original plus uhm the result of the [ORGANIZATION2] uhm rewriter uhm and the  second one has 25 <unintelligible/>,  the first one has 23 blue score.
+(PERSON9) Do you have some notes written down some worse, um, maybe could you share your screen so that we also see the numbers or is it in the document <unintelligible/> or 
+(PERSON7) Okay. I can share.
+Yeah, yeah, I can share the screen of the-.
+(PERSON9) Because it's easier to to follow-
+(PERSON7) Yeah, that's right.
+Where is it?
+(PERSON9) Uhm.
+<laugh/>
+(PERSON7) Yeah. <unintelligible/> 
+Okay.
+This one share.
+Okay, can you see it?
+(PERSON9) Yeah, yeah.
+(PERSON7) Okay. Yeah.
+(PERSON9) And we even see [PERSON2]'s courses.
+like <unintelligible/> document at the moment. 
+(PERSON7) Yeah.
+So uhm this is the baseline,
+uhm it's 26.
+It's-
+(PERSON9) Uhm.
+(PERSON7) It's train on the origin still running,
+we can can the even more <unintelligible/>.
+Uhm here this is the baseline on back translated data only.
+(PERSON9) Um-hum.
+Which is surrounding equally long.
+So it's kind of comparable whe-
+(PERSON7) Yeah, it's kind of comparable.
+Yeah.
+(PERSON9) The number of steps.
+I see yeah.
+(PERSON7) Yeah.Yeah.
+And then we have these multiple sources 
+and I'm running these two,
+the numbers there reported.
+This one is com- comparable with this two,
+this is kind uhm uhm t [PERSON11] because you need like to validate it in it original and back translated data, 
+instead of instead of the back translated data or or instead of instead of the data uhm validation data produced in the same way as the training data were previews.
+I use the this TB0  validation data.
+So that's why the score here is lower or  I think that's that's right.
+(PERSON9) I don't uhm, yeah.
+I don't don't understand it.
+So you have uhm some uhm English input 
+and you are adding secondary English input-
+(PERSON7) Yeah.
+(PERSON9) And the secondary English input either come back from  translation.
+So the reference was available to the back translating system?
+Uhm or-
+(PERSON7) Reference was like on the train data, yeah.
+(PERSON9) Uhm.
+S- s- so the back translating system still has not seen.
+Well.
+Uh, the back translating system was trained on the training data.
+The sentences from an independent held out test set,
+uhm but uhm the uhm the back tranclating system was run on the reference.
+And it produce uhm English uhm from that.
+And this English now serves as secondary source.
+So.
+If the uhm if the back translation system uhm a would be somehow cleverly like linked uhm with the former translating system,
+they could possibly in combination like sneak in the exact preference.
+This is not going to happen.
+But it uhm the back translating system has access to the reference that we want to uh <unintelligible/> -
+(PERSON7) Yeah, I I I I don't know now how the back translation system will done
+because this was done from by [PERSON2] and-
+(PERSON9) Ehm,
+(PERSON7) And <unintelligible/> 
+(PERSON9) But is probably trained on the same paralel corpus.
+Uh, just the reverse direction, Ehm.
+(PERSON7) He used he used some some system from [ORGANIZATION4].
+And I don't know.
+(PERSON9) Ehm.
+(PERSON7) how <unintelligible/> system in [ORGANIZATION4] <unintelligible/>
+(PERSON9) Okay.
+So could be some older version or whatever review we don't know.
+So the that there the the chance of-
+(PERSON7) I I have like I have total control hu- 100 like on this [ORGANIZATION2] zero.
+(PERSON9) Ehm.
+(PERSON7) <unintelligible/> done by me 
+and <unintelligible/>
+(PERSON9) Yeah, yeah, yeah.
+Yeah, so the I I'm just-
+(PERSON7) Yeah.
+(PERSON9) Yeah.
+I'm  just checking for any risk of the systems cheating uhm for us because the the they
+they would be very clever, 
+if they could do that, but I don't think there is any any such risk.
+It's just important to to be, or whether of the fact that the back translating system essentially s- had access to the reference.
+So it could produ- it could produce some like magic cryptic compressed version of the reference, uh, 
+if these systems were trained  in in a <unintelligible/>  both the forward and backward translation.
+I'm sure that the neural networks would do this cheating, 
+but they are not trained, there are run just once.
+So there is this risk is is reduced or or nonexistent.
+Uhm so now the uhm the [ORGANIZATION2] the [ORGANIZATION2] uhm uhm paraphrased there was created on whatever add the data totaly independent.
+And if you look at the English sentences, 
+they are sensible, right.
+Uh, and the these multiple sources,
+yeah.
+So uhm the the lower bliss course still do not necessarily mean that the translations are worse.
+It could also mean that the translations are different less like fine tuned to the news, 
+uhm singular friends.
+And uh, I think that we should.
+We should uhm like look at them uhm manually 
+and then later on it would even be necessary to evaluated manually, 
+uhm because uh I think it's quite possible that the translations was the [PROJECT8] system are like more general general like more robust at uhm.
+So they they like flattened out any any highly specific and risky senses of words, 
+for example uh.
+So they can be more useful in practice.
+And the blessed course will not indicate this.
+One way which  could help us here would be to evaluate on multiple references,
+so there is I think 2013 has more references.
+So if we if we went to another year, 
+then we could have more reliable bless course.
+But I think it's ea- even better just for uh, for us to look at the outputs.
+And and uh quickly check if we should truss these <unintelligible/> course or or not.
+So the questions whether we should blame the idea of [PROJECT8]], 
+or whether we should blame the uh the blessed course.
+(PERSON7) Because for for uhm for deli- uhm deliverable the experiments in there are forming on
+he was-
+he performed only on uhm small data, 
+and with neural monkey.
+(PERSON9) Hm.
+(PERSON7) And only on small data.
+So  that's why it helped there but it it maybe just it's maybe just the consequence of the  small or a small amount of training data.
+(PERSON9) Yeah.
+And that was the [PROJECT7] 30, uhm [PROJECT7] [PROJECT7] 30 key was that they <unintelligible/> again 
+or different data set?
+(PERSON7) Sorry, 
+with?
+(PERSON9) Was it the [PROJECT7] 30K uhm data <unintelligible/> the the image captioning data set, 
+or was it reuse training data in the news domain?
+(PERSON7) I like for the for his experiment with uhm.
+I don't know what what would his data.
+I think.
+Yeah, I know I know.
+Sorry.
+He trained only on one tense of channel.
+(PERSON9) Ehm.
+(PERSON7) And now we are running it on the full channel.
+(PERSON9) Yeah.
+(PERSON7) Or one tense-
+(PERSON9) Was it this uhm- yeah.
+(PERSON7) Maybe <unintelligible/> milion-
+(PERSON9) 100 or just a milion sentences?
+Yeah.
+(PERSON7)  Milion sen- uhm I don't know.
+Very small part of [PERSON4].
+(PERSON9) Yeah.
+(PERSON7) One section-
+(PERSON9) So that's uhm-
+(PERSON7) <unintelligible/> 60 sections or 60 million <unintelligible/>.
+(PERSON9) [PERSON4] has 100 uhm training files.
+And two of these are uhm label <unintelligible/>  and test set.
+(PERSON7) Okay. So <unintelligible/>
+(PERSON9) 0 is 0, 00 till 97 uhm.
+(PERSON7) Yeah, okay.
+(PERSON9) That's the uhm that that's the check 0.6 and 0.7. 
+Uhm and  I'm not sure about <unintelligible/> 2.0.
+(PERSON7) Yeah. <unintelligible/>
+(PERSON9) But I think-
+(PERSON7) I I think not that this has 60 milion uhm.
+(PERSON9) 60, okay.
+(PERSON7) Yeah, that's it.
+<unintelligible/> pairs.
+(PERSON9) So that's pairs, yes.
+(PERSON7) Yeah.
+Uhm.
+(PERSON9) Hm. Yeah.
+So I think if if you can show us the outputs, 
+the actual outputs uhm of the the baseline verses the uhm different sh- uhm [PROJECT8] runs?
+And from that we can hopefully assess whether it is indeed uhm deteriorating the quality, or if it's uhm like a moving away from the references without damaging the the translation quality.
+And based on this observation, we should then debug further.
+(PERSON7) Mm-hmm.
+(PERSON9) And I think it is as on its own.
+It's already in interesting observation that the [PROJECT8] is useful for smalles data sets and doesn't work for large data sets.
+This is something which uhm like that calls for better had had-
+(PERSON7) <unintelligible/> be t
+(PERSON11) because uhm like in the experiment for deliverable.
+We will be different uhm approach how to combine the sources.
+ <unintelligible/> like here we use some <unintelligible/> old approach.
+Uhm in [PROJECT2].
+So-
+(PERSON9) Yeah.
+(PERSON7) I I don't really know how it how it can be categorizing the <unintelligible/>.
+(PERSON9) Hm.
+(PERSON7) [PERSON2]s describe in their paper of <unintelligible/> multiple sources.
+And-
+(PERSON9) Yeah.
+(PERSON7) So yeah.
+(PERSON9) So uhm all I want to say in in general  is is this like this is very good progress, 
+uhm and the fact that the [PROJECT8] seems bad the first side does not mean that this is uhm like a useless message at all.
+(PERSON7) Yeah, yeah, yeah, yeah.
+(PERSON9) So that's that's good.
+So if you if you can share the translations-
+(PERSON7) We wanted to try also.
+And yeah these are the results here at the bottom, 
+but I tried it only on uhm yes, 
+but this these numbers are completely wrong.
+Because if the <unintelligible/> yeah we evaluated the on on the back translated validation set,
+so <laugh/> it these data has already somehow comprised the reference inside.
+(PERSON9) Ehm.
+(PERSON7) And that while all scores are so high, 
+but uhm like compared with the uhm like the original system here uhm performance like 35 or even 40 yeah and my modem 40.
+Yes, so.
+And this is just the one source, 
+but it's uhm concatenation, like-
+(PERSON9) Ehm, ehm.
+(PERSON7) it had a  source sentence, 
+then some like tag.
+(PERSON9) The limiter and paraphrase.
+(PERSON7) Yeah. 
+And and a paraphrase. 
+And then I tried also uhm getting the unique like-
+(PERSON9) Ehm.
+(PERSON7) <unintelligible/> puting there only one sentence.
+If the the two are the same 
+and shuffling than randomly changing their order.
+And yeah. 
+Like.
+(PERSON9) And that's worse.
+(PERSON7) Apparently, this doesn't work for fake paraphrases.
+A fake paraphrases paraphrases is another experiment, 
+and we use completely random paraphrase.
+(PERSON9) Um-hum.
+(PERSON7) <unintelligible/> the paraphrase corpus 
+and uhm based in to the to the sources.
+(PERSON9) Um-hum.
+So, like a wrong sentence,
+confusing sentence.
+(PERSON7) Just to find out  uhm was it dependens.
+Because here we also don't know whether I would like to.
+Yeah.
+I need to replicate this experiments with this multiple [PROJECT8] setting.
+Uhm I mean the experiment we fake sentences.
+Because again-
+(PERSON9) Umm.
+(PERSON7) I I don't know whether these 25.1 whether it comes also or was it contribution of <unintelligible/> zero here.
+Whether it doesn't just look at the the first source in the end 
+and just ignore the <unintelligible/> zero.
+(PERSON9) Yeah.
+So you sh- shuffle the order?
+(PERSON7) I should  shuffle the order of <unintelligible/> zero 
+and find out uhm like was <unintelligible/> like the dependence on on on.
+(PERSON9) Yeah.
+And also remember that here both the training data 
+and the test data this actually like perfectly fluent sentences. 
+And our plan to use this uhm is the user generated content,
+the the partial sentences what potentially some typos that the user is entering.
+So the uh, the one of the paraphrases one of the inputs may contain the typo which is been later on corected  in the other paraphrase uhm.
+So this is another angle another difference of the intended setting 
+and the and the the now now the tests here.
+So uh there when the noise in the inputs then suddenly even with the biger data the [PROJECT8] can can be useful.
+(PERSON7) Mm-hmm.Yeah.
+(PERSON9) So we should also probably introduce some errors, uh, in like the the common types of errors to see if that would help.
+Because we don't have the added yet from below.
+Or do we? 
+Would we have to enough data for a for a real test set with paraphrases that were created by the the anotators?
+(PERSON8) I I'm sorry.
+You mean from the first [PROJECT6] or?
+(PERSON9) Yes.
+Yeah, yeah.
+So se- variance of sentences that could serve in in this [PROJECT8] experiment.
+(PERSON8) That's <unintelligible/> not for training, northward <unintelligible/>.
+Because, because low low uhm number of people.
+(PERSON9) Um-hum.
+(PERSON8) Five anotators.
+So I don't know it was about 200 sentences 
+and um 50 <unintelligible/> so for paraphrases per <unintelligible/> source.
+(PERSON9) So we can take all the pairs for example, 
+and that suddenly creates a big enough test set.
+But there is a lot of competition on target side.
+(PERSON8) I I I mean uhm it's it's not a paraphrase per se,
+because those are different answers to the same stimulate which doesn't have to be paraphrase.
+Because the <unintelligible/> post the questions differently ask about different topics.
+Etc.
+(PERSON9) Yeah.
+But I mean, that data that we need are always coming from a single person, uh, on a particle single stimulus.
+And what we want is the different variations of the sentence that that the user produced. 
+(PERSON8) Okay,
+but in this case we don't know uhm whether uhm what like if you recall ten <unintelligible/> this first <unintelligible/> but it was not very precise, 
+because-
+(PERSON9) Yeah.
+(PERSON8) we need to some <unintelligible/> whether this train the users lock or produce uhm is is finish sentence. 
+(PERSON9) Yeah.
+I think it could be uhm interesting to run the experiment even with like unfinished sentences.
+So imagine that the user has once finish the whole sentence that the longest output.
+And then he deleted some words as at the end, 
+and then started from the middle with another continuation of the sentence, 
+and I would like.
+yeah?
+(PERSON8) Okay, so okay.
+I can persistent.
+But.
+What exactly should I should be you.
+Should my out to be?
+(PERSON9) Uhm pairs of different variations of the input,
+as the user is kind of formulating uhm what he is trying to express.
+And one of those should be probably the full sentence.
+Either the first valuable.
+Or the final one.
+Either of these,
+so uhm.
+And the other one u, could be uhm a full sentence uhm
+or even a partial one.
+So I can imagine user interface where I would be typing one sentence.
+And then I would be deleting it.
+And I would be writing again uhm the second half of the sentence.
+And the system we're already include what I have written in the first one, 
+and I would have to like a click click reset button, 
+so that it would forget all my previous words.
+So the idea would be that the system is uhm eagerly trying to incorporate whatever I have mentioned.
+So if there was like subliminal information uhm in my input.
+It would be included from the past that I deleted.
+It would be still included in in the translation.
+(PERSON8) Okay. 
+But if you want me to send you every pair of this segment.
+And the number of some of the number of these pairs is very very high <unintelligible/>.
+(PERSON9) Yeah, yeah, 
+uhm  I don't know how to fill the demo, 
+how to sample some interesting ones.
+(PERSON8) Okay, but but my question should I insist on pairs 
+and not like <unintelligible/>. 
+Like the whole-
+(PERSON9) Yes. 
+Yeah.Yeah. Yeah.
+And apples is uhm even better.
+(PERSON8) Okay.
+And we <unintelligible/> I should test them?
+(PERSON9) So maybe to [PERSON7] to.
+So that [PERSON7] would check if how far this is from a being useful input for the existing systems.
+So the existing systems are trained strict on pairs.
+Right?
+So there is no way to make use of other elements in thi- in this list.
+(PERSON7)  Yeah, it's it's train on pairs.
+And yeah we don't know how to how to make this system 
+or out just the system, so that it's able to train on variable number of sources.
+This is this this just two encoders.
+So you need two sentences.
+(PERSON8) Okay.
+So I will ISSN as this data set 
+and some of them.
+(PERSON9) So that we see whether it makes sense that all to uh like pursued this [PROJECT8] uhm idea with the inputs coming from the [PROJECT6] set up.
+Uhm.
+(PERSON8) Yeah, but we don't <unintelligible/> to be.
+Like we have the inputs which are variations.
+And don't we also need the outputs?
+I get translation?
+(PERSON9) Hmmm,
+that's true.
+(PERSON8) Um.
+I mean we can take the final one.
+But there is no guarantee that this one is going to be.
+(PERSON9) But we have the scoring.
+What did the translation was good.
+Right?
+So if the translation was good uhm.
+According to the second uhm valuator or the second annotator.
+Then we can trust that this is the reference.
+(PERSON8) Okay, 
+but uhm like the set up they are creating here is that we provide one source sentence, which is in finished unfinished then the second source sentence with just finished.
+And from the second sentence the translation is made.
+(PERSON9) Yeah.
+(PERSON8) Okay.
+I mean it's just<unintelligible/> representative <unintelligible/> but okay, okay.
+(PERSON9) Yeah, it's the best that we can get.
+(PERSON8) Okay.
+(PERSON7) I think we we will have the similar testes from the [PROJECT6] tool 
+and I have some I have program already some uhm like program that filters only I I still have to incorporate some uhm maybe fil- filtering out the clear uhm typos.
+(PERSON9) Mm-hmm.
+(PERSON7) And uhm yeah.
+Because uhm [PERSON10] has already had some some like filtering of all thos- all those options or or were locked by the system when the user was uhm rephrasing the sentence.
+And then I made some like to like even improve it 
+and now like if filter <unintelligible/> like even <unintelligible/> sentences
+or I like it like in the end we have even <unintelligible/> sentences that are like reasonable paraphrase this 
+or unfinished unfinished sentences.
+Yeah.
+(PERSON8) Okay and-
+(PERSON7) So for the [PROJECT6]- 
+so we can get these from the [PROJECT6] too experiment.
+And we can have uhm then we can asked for translation for the 4\. viable, 
+or the final and maybe some intermediate version of of the sentence.
+I don't know.
+And then we can get this uhm this they <unintelligible/>
+or am I wrong? 
+Am I say something wrong or?
+(PERSON8) Should I processed [PROJECT6] one data
+or [PROJECT6] two b data?
+(PERSON9) Ehm, and for [PROJECT6] two data we don't h-
+yeah we <unintelligible/> some <unintelligible/>
+(PERSON8) <unintelligible/> more anotations then from the first one. 
+(PERSON7) Okay.
+Yes, so we can use the one uhm sorry two.
+(PERSON8) Okay.
+(PERSON7) I don't know what's the differents with uhm.
+I I know what's the different but yeah I can now <unintelligible/>
+(PERSON8) <unintelligible/> start two different domains
+because <unintelligible/> plans <unintelligible/>.
+(PERSON9) Yeah, hm.
+(PERSON8) Okay, 
+so I will processed uhm [PROJECT6] two data.
+Okay?
+(PERSON7) Okay.
+(PERSON9) Yeah.
+Yeah.
+I don't know the- I don't remember the difference <unintelligible/>.
+(PERSON7) But uhm that should I then <unintelligible/>
+because now I'm confused w w because we have a deadline.
+Now on Saturday.
+(PERSON9) Yeah.
+(PERSON7) And I'm not gonna processed uhm until until then.
+And then I have two weeks of and or <unintelligible/> maybe not two we <unintelligible/> one week definitely then then one week in [LOCATION1] and then one or two weeks of.
+And
+(PERSON9) Okay.
+(PERSON7) So I'm I'm not going to process this.
+So if you want to rely on me with this uhm.
+(PERSON9) Mm-hmm.
+(PERSON7) It will like-
+(PERSON9) <unintelligible/>
+(PERSON7) It will <unintelligible/> one month or more.
+(PERSON8) <unintelligible/> this and the second [PROJECT6] experiment uhm will be planning it to start before your vacation 
+or after?
+(PERSON7) I aa hh, the start of the second [PROJECT6] yeah,
+I would like to start as soon as possible.
+(PERSON8) Okay and before you leave or after?
+(PERSON9) It should be tomorrow.
+If I understood our <unintelligible/> question.
+(PERSON7) <unintelligible/> this week this weekend-
+(PERSON8) Okay.
+(PERSON9) Yeah, so either-
+(PERSON7) <unintelligible/> two weeks ago.
+(PERSON9) Mmm.
+(PERSON7) Or uhm frustrated.
+(PERSON9) So either, either we started with uhm two systems 
+or with three systems?
+And two systems would be the two [PROJECT2]'s if the blow scores for the student T to T,
+s- sorry if the if for the slow for the for the bad T to T.
+Are equally bad as the student uhm scores?
+Or it would be three systems, uh and uh, yeah.
+And I think the experiment can start tomorow.
+So back to the the deadline,
+so what uhm what uh, what are we access submiting to <unintelligible/>?
+(PERSON7) mm-hmm.
+We are just working on the [PROJECT8],
+but it has no like reasonable results so far.
+(PERSON9) Mmm.
+(PERSON7) I'm also I didn't starting to be kind uhm woried that we are not going produced anything here.
+So uhm like <unintelligible/>.
+(PERSON9) Yeah.
+Mmmm.
+(PERSON7) Yeah,
+like problems that's fail retrain on differents data 
+and now we are training <unintelligible/> data the like the results are in terms of <unintelligible/> score there are not.
+(PERSON9) Yeah.
+(PERSON7) Or better than the than the base one.
+(PERSON9) Mmm, so well.
+The- there were papers were paraphrasing helped,
+so uhm like giving a second uhm view on this a second evaluation on the much larger <unintelligible/> is is off interest.
+So if we diagnose so why is it worse,
+uhm the why the [PROJECT8] uhm is worse than than the single source, 
+why the <unintelligible/> scores are lower, 
+that uhm alone would be an interesting message.
+So in contrast with other people's work.
+(PERSON7) Yeah.
+(PERSON9) So this is where I would uhm now like drive <unintelligible/> to most attention to to explain-
+(PERSON7) Okay, 
+I think I can I can uhm today the [PROJECT8] again with uhm-
+<unintelligible/>
+(PERSON9) The 13-
+(PERSON7) Other with <unintelligible/> paraphrases.
+(PERSON9) Mm-hmm.
+(PERSON7) Just to find out what's the dependence of the [PROJECT8]
+(PERSON9) Yeah.
+(PERSON7) paraphrases include.
+On And if you can also run the existing all the train models that you have on the WT13  which is the more references?
+(PERSON7) Okay.
+(PERSON9) That would also help
+and if you can look at they outputs with your eyes simply
+and and confirm what of the lower blow scores actually is visible.
+Uh, the difference between to 26 and 23 should be visible uhm as a worst translation?
+(PERSON7) Ehm.
+(PERSON9) If it's really worst translation.
+(PERSON7) Yeah.
+(PERSON9) And the the starting point will be the previous papers that suggested that [PROJECT8]s good.
+And we would say well, 
+if you have enough data then not really.
+(PERSON7) And like here there like the differences not 23 than 26,
+25 and 26.
+Yeah?
+Diferrences not to big
+but uhm yeah we wanted to to want to <laugh/> to see in- inprovement that the we see just the bigger deterioration 
+but this is like both of the system are still running,
+yeah so this are just <other_yawn/> result.
+(PERSON9) So I can imagine that the [PROJECT8] needs more steps to get the same performance. 
+(PERSON7) Yeah.
+The that's true that this there is still whole for-
+(PERSON9) Yeah.
+(PERSON7) this 27 uhm-
+(PERSON9) Mmm.
+(PERSON7) 27-
+(PERSON9) 27, yeah, exactly, yeah.
+And for the question of uhm multiple 
+and like arbitrary number of sources?
+The proper way uhm is to come up with some aggregation of the encoder output.
+So you would run the encoder as many times as uhm many inputs you have.
+And then you would average those or whatever.
+And then you would run the decoder once on these aggregated uhm processed input sentences.   
+So that obviously requires ss change in the structure of of the network, 
+but it should be not too difficult.
+That's definitely beyond the the deadline on on Saturday, 
+so no worries but uh that's something that we should-
+we should do in the future.
+(PERSON7) Yeah.
+So I don't know if if [PERSON1] is able to follow this discussion at least little bit or not at all?
+(PERSON1) Yeah.
+I'm trying to understand everything.
+(PERSON9) It's hard. 
+I II
+(PERSON1) Yeah, it's hard to understand now
+but I I see you <unintelligible/> translation model between English and Czech.
+I don't understand the use of paraphrases are just to improve to translation, 
+right?
+Or is transl-
+(PERSON9) Yeah.
+So the the idea is that the user is formulating the English input,
+and they are formulating more versions of that, 
+uh because they are not quite happy with the czech output 
+and uhm the [PROJECT6] set up that we always keep talking about is the the user interface, where the people write some English, 
+and and sees the Czech and some guidance which indicated <unintelligible/> Czech is bad or non.
+And while as long as the Czech s- seems bed of the user keeps reformulating the input.
+So we in the lock files, 
+we have multiple versions of the input, 
+and we are now trying to come up with a network, 
+and uh set up uhm which can make use of this like rich input  the multiple reformulations of  the same source,
+so that we get uhm better output.
+(PERSON1) Yes I tested [PROJECT6] with uhm his English  <unintelligible/>
+(PERSON9) Mmm.
+(PERSON1) And I see it's really interesting.
+And but now this is a new version.
+Right.
+T- this is English to Czech is-
+is it implemented there, or <unintelligible/>?
+(PERSON7) It's implemented there uhm,
+I don't know what's way- 
+(PERSON1) Or maybe in I didn't check whole the options.
+(PERSON9) So-
+(PERSON7) You have you have a locked in to to the [PROJECT6]
+or you just use the?
+(PERSON1) I I'm sorry,
+I I'm just <unintelligible/> server, 
+<laugh/>
+(PERSON7) Oookay.
+(PERSON1) Now, the problem but for me it interesting to to to take this uhm see this conversation as as something to undestand what points you guys are. 
+And this-
+(PERSON7) Okay, so.
+(PERSON1) Yeah.
+(PERSON7) <unintelligible/> you you worked with this interface?
+(PERSON1) Yes,
+<unintelligible/>  
+(PERSON7) Yes. 
+Okay, so here you can-
+no you can't switch you.
+Yeah, but here is <unintelligible/> experiment 
+and yeah this maybe we we haven't told you that you can but you have you have to know 
+the ID, this is a special ID for me.
+(PERSON1) Yes.
+(PERSON7) And then you entered this experiments,
+this is the  actual experiment [PROJECT6] two.
+This you have to read about in the derivarebly derivareble probable probably.
+(PERSON1) Yes.
+(PERSON7) You can see the stimulus here
+and you have to uhm rephrase the sentence 
+or or could you send some more information  
+could you send hmmm.
+(PERSON9) So here for example there was a little pause,
+the typo was <unintelligible/> 
+and-
+(PERSON1) Oh, you you <unintelligible/> every pause.
+(PERSON9) Every <unintelligible/> throw actually.
+(PERSON1) Okay. okay, yes.
+(PERSON7) Uhm no no no we are not <unintelligible/>
+(PERSON11) like uhm we changed the was the <unintelligible/> timeout or or the uhm the or
+(PERSON5) tell its.
+<laugh/>
+Say.[PERSON8] Okay, okay, there are several event  
+<unintelligible/> on the page.
+For example when the user translation arives
+and alignment or <unintelligible/> arives and but <unintelligible/> we look the inputs and generally the model not's displayed on on the page.
+And uhm we we <unintelligible/> new request  like every time to user some <unintelligible/> dates 
+or papers about <unintelligible/>.
+(PERSON1) Okay, yes.
+<other_yawn/>
+(PERSON1) Well, uhm yes.
+You guys have uhm people use in it to or you are you waiting people to use it uhm online.
+How was it because you you <unintelligible/> fot in this information, 
+but I was-
+(PERSON7) Yeah.
+So we want to start with this experiment using using these interface, 
+but we haven't started yet.
+People will uhm now what they I was talking about.
+That I'm working on replacing the translations system that works behind it this system.
+The English to Czech and Czech to English translation systems.
+Uhm request them with the with the we calls student models,
+which are optimaze to run uhm more quickly 
+or or faster on CPUs.
+Now the egh now I saw the the transitional's quite quite long,
+because I I have been waitinglike twe- twenty second after the the fa- last change it was done here.
+With those uhm with those student model it could be like immediate.
+(PERSON1) Okay.
+(PERSON7) And we have the student model for the strong system
+but here we we we use to systems for Czech one is strong, 
+where- one is weak
+and the weak system is just to simulate some lower resource language pair.
+It has been trained only on five milion sentences.
+And we already have the students systems for the strong systems that was trained by our partners in [ORGANIZATION4].
+And now I'm struggling with the struggling with training uhm sys- student system for the weak system.
+() I have like uhm no experience of training it
+and the like so I'm encoutering uhm-
+(PERSON9) this is much more <unintelligible/> that expect you. 
+(PERSON7) Yeah. 
+(PERSON1) Yeah, it's expected that it will be worse 
+but not that.
+(PERSON9) Yeah.
+(PERSON1) And this is the distillation learning.
+(PERSON9) Yeah.
+And that that exactly yeah.
+(PERSON1) Yeah, it's <unintelligible/> little bit-
+<laugh/>
+(PERSON1) <unintelligible/> 
+(PERSON7) That's so like the this uhm fast faster system if like it's speed comes from two factors.
+One is the distillation part,
+and the other one si the quantization of uhm.
+It is normally in in neural translation, 
+you work with floats,
+and here the floats are cont- contains 
+So uhm it works uhm even faster on CP use.
+(PERSON1) Yeah, this part I didn't know .
+So how.
+(PERSON7) Yeah, 
+this this is something that we also don't know details about it, 
+because this this has been done by uhm by [ORGANIZATION4] guys 
+but the general idea is this.
+(PERSON1) Okay.
+(PERSON7) That's it works with <unintelligible/> instead of floats.
+(PERSON9) Yeah.
+And and now back to the [PROJECT8].
+The idea is that whatever the user inputs in the first uhm pain,
+first area uhm that we put together 
+and than use it together better uhm translation.
+Uhm and the para- uhm the experiment so far don't really help,
+because uhm the initial experiment showed unemployment.
+And now the improvement is not there, 
+because the data set is is a bigger,
+the data set that uhm [PERSON7] has been training it on.
+So uhm a question is if this is only related  the the data size for example, 
+uhm yeah. 
+[PERSON7] could you could you mute yourself,
+that's <unintelligible/>.
+[PERSON7], [PERSON7] could you mute yourself?
+(PERSON7) Aa yeah, yeah, 
+sorry, sorry. 
+So the thanks uhm uhm.[PERSON8] Not yet fill.
+(PERSON7) Yeah, I haven't done it so far 
+beacuse I  uhm.
+(PERSON9) Yeah, it's uhm it's difficult.
+(PERSON7) I cannot find the uhm sorry.
+(PERSON9) The tap of the call.
+<laugh/>¨
+(PERSON7) Yeah, I know but.
+(PERSON9) So the uhm yeah, all.
+(PERSON7) Sorry.
+(PERSON9) I have told it so link me here the reverberation.
+(PERSON7) Okay, I'll exist the <unintelligible/>
+because I like my computer is free edit.
+(PERSON9) Yeah, so?
+Uhm can we does it work now?
+Can you hear me?
+Uhm. 
+Yeah.
+So the uhm the idea of [PROJECT8] is uhm that the multiple variants that the user has entered to the first text area uhm will  all contribute.
+Uhm most of that-
+only the last one will be visible.
+But there is some history of them.
+And this history would uhm would work  jointly with the uh, 
+with the uh, with the current inputs to give to give better results.
+And [PERSON7] is not  here at the moment.
+But I think a very relevant experiment is that uhm which tried the exact same set up uhm across various sizes of the training data.
+So we should see the flipping point, uh, if it worked with small data sets, 
+and it doesn't work with the big data set, 
+add what size of the corpus does this  change.
+So [PERSON8], if you could.
+Oh I don't know if [PERSON8] is still following.
+If [PERSON8] you could recall this in the in the notes.
+So it's definitely not manageable before Friday.
+But we should have like multiple stages uhm multiple corpus sizes, 
+and we should try to find the point where uh the [PROJECT8] with paraphrasing starts to become useless.
+So maybe it would be useful only for a less resourced language pairs.
+(PERSON10) Okay.
+(PERSON9) And that-
+(PERSON10) I remember you you asked me during the interview about question about this.
+(PERSON9) Eum-hum.
+(PERSON10) And that that moment I I said it it would be useful to <unintelligible/>  of the representation,
+but maybe this is not the case, 
+because you guys are <unintelligible/> in right, yeah?
+And it isn't-
+(PERSON9) Uhm, well.
+Uhm the the <unintelligible/>  is a way in which you can easily put two or fixed number of inputs together, uhm and the the mean of of the representations is, uh, something which allows you to use any number of uhm input.
+So that's what I was talking about a while ago during this call uhm.
+This is the best way to have the same encoder run in multiple times, 
+and then average the the outputs of the encoder 
+and and decode from this.
+So that definitely makes s- sense.
+So uh, I don't know, uh what [PERSON7] and [PERSON8] ask you to start with as uhm an exercise to join us.
+Uh, but and I don't want to interfere with that 
+but and one option definitely would be to pick for example the [PROJECT2] C plus plus plus code and try to implement this averaging.
+Uh.
+So the the uh the same encoder would be run as many times as there is variance of the input sentence.
+And then uh the average would be the starting point for the uhm for the decoding, 
+that goes uhm uhm quite badly  together with the attention.
+So uh one <unintelligible/> have to be careful, uh so that you uh, 
+because if you <unintelligible/>  be averaging like position wise
+then inserting ward at the beginning would shift everything.
+And then the word-level representations would be ever reach in in a crazy way.
+Uh so this is something that one has to uh like uhm carefully consider how to how to do this aggregation,
+but uhm this is an interesting exercise on its on its own.
+Yeah,
+so I see that we have [PERSON7] uhm back 
+and e- s- muted at the moment.
+So I don't know what he was able to follow all.
+So let me just very quickly say that what I said again, 
+that's uhm [PERSON7] it would be good to run these paraphrase uhm this [PROJECT8] experiments with increasing corpus sizes, 
+so that we see the flipping point when the [PROJECT8] with paraphrases starts to become uhm useless.
+If it's really useless that the numbers are still not not finished to the 26 and 25.1  that that you are mentioning.
+Uhm.
+(PERSON7) Yeah.
+Okay.
+It's a good idea it's just-
+it's also it will also uhm tell us uhm whether whether the improvement that that we observed for uhm new-
+(PERSON9) To small one.
+(PERSON7) It because of the ar- ar- architecture of the how those multiple sources are combine because here in [PROJECT2] we have no control uhm under-
+(PERSON9) Yeah.
+(PERSON7) How they are combined these.
+Just implemented there and we use it.
+And we just know that there are it's shared enco- encoders.
+So we are using shared encoders they are sha- sharing <unintelligible/>
+And uhm.
+Yeah, is it good idea.
+(PERSON9) Sure.
+So so I'll have to leave the call very soon.
+But I was curious what is the like test exercise for [PERSON1], 
+that you  and [PERSON8] uhm agreed should to give to [PERSON1] for start.
+Is there is there uhm something specific in decided already or not yet?
+(PERSON10) Oh, yeah.
+So, and the <unintelligible/>.
+(PERSON9) Ehm, I canot hear,
+yeah, okay.
+(PERSON10) Listen? Okay?
+Okay.
+So it was the <unintelligible/> [PROJECT5] to-
+(PERSON9) Yeah. 
+(PERSON10) So the this to show some uhm uhm not actually the user can s- selects uhm some words that uhm-
+(PERSON9) Must not  appear and must appear here.
+(PERSON10) Yeah, so and the these it then the- do- doesn't not <unintelligible/> these <unintelligible/>  the best translation.
+I I that that was kind of I don't know what you guys have done about this best navigation list 
+other than uhm creating the the T and T. 
+And I I I saw <unintelligible/> thing so uhm <unintelligible/> check <unintelligible/>  reading about.
+So the <unintelligible/>  to use uhm quality estimation <unintelligible/> to rank  the the best translation, right?
+So uhm but the the use of paraphrases are is too  confused for me, 
+because uhm are we providing this paraphrases 
+but we are not are we in suring that the we will improve the translation.
+And I use the [PROJECT6] uhm a bit just to test 
+and uhm I don't know  if this paraphrases are helping 
+to parahrases that are are showing and the-
+(PERSON9) Mm-hmm.
+(PERSON10) Because I selected one of them.
+And and these uhm highlighting quality estimation for the for the words when I when I we use one of the just a paraphrases or just changed one word it it got worse uhm <unintelligible/> more <unintelligible/>.
+So uhm I don't know exactly where to start on its.
+But uhm maybe you <unintelligible/> to with uhm [PERSON8] or [PERSON7] I don't know
+and try to-
+(PERSON9) Yeah.
+(PERSON10) <unintelligible/> because I'm'm I'm read everything but I'm <unintelligible/> confused about it.
+(PERSON9) Yeah.
+(PERSON10) I can start as soon as I work in on this session <unintelligible/> it better.
+(PERSON9) Yeah.
+Yeah.
+So let's uhm so the remark  that I had that one possible uhm option for uh like the next exercise for you.
+Uh would be to uhm look at the C plus plus code of [PROJECT2] 
+and try to figure out how to put arbitrary uh number of inputs to this [PROJECT8],
+I suggest to postpone that,
+and still work on this uhm.
+First the the <unintelligible/> list navigation,
+here the idea is that people will say, 
+which words must not appear in the output 
+and also which words a should appear in the output.
+And since the user doesn't speak the target language much,
+uhm then it is maybe difficult to uh to insist on some words uh except for names.
+So maybe with names, 
+people would like to indicate that they really have to appear there,
+but it is uhm possible to indicate which words are very bad.
+If you see in the back translation, that some crazy word appear there,
+then you will click on the back translation
+and the corresponding word in the target language would get forbidden.
+So imagine that whatever the uhm s- s- some some strange words get translated to uhm to killera- in,
+and you see killer in the in the back translation,
+so you click killer, 
+and the corresponding Czech word would get prohibited it.
+So uhm that's that's the idea uh, 
+and I don't know if the exercise was more on these on just getting the uh <unintelligible/> iplementation running uhm or whether it was on the user interface?
+(PERSON7) We haven't issued any exercise like to to-
+(PERSON9) Yeah.
+(PERSON7) We just uhm thought [PERSON1] to <unintelligible/> through all all of the things that we haven't done so far.
+(PERSON9) Mmm.
+(PERSON7) Just to gets to have some-
+(PERSON9) Yeah, yeah.
+(PERSON7) things
+(PERSON9) Yeah. That's that's good that we are starting.
+(PERSON7) It will just the <unintelligible/> for thought and-
+(PERSON9) Yeah.
+(PERSON7) To come up, 
+maybe to to have some own ideas, 
+because we don't know <unintelligible/>.
+(PERSON9) Yeah.
+(PERSON7) <unintelligible/> [PERSON1] to to something that he eventually-
+(PERSON9) Yeah, so so [PERSON1].
+They the best way to think about this is to uh to convince yourself that you indeed want to come to [LOCATION1], 
+and that you want to whatever find accommodation here.
+And people here in general don't speak  that much English.
+So you have to communicate with them in Czech, 
+and you don't know Czech so this outbound user outbound translation with its use interface is the best that we can offer to you 
+and uhm you should look up in the map where you want to stay.
+And you should ask uh using the [PROJECT6] interface
+or or the <unintelligible/> navigation uhm,
+you should post Czech advertisement like I'm a searching for an accommodation in the area of something.
+And <unintelligible/> to sent this uhm like p- the features of the of the accommodation, 
+and formulate this in Czech, 
+and uh, uh, the uh the machine translation will create some Czech for you.
+And you have to uh judge with the existing tools in [PROJECT6] whether you like it or not.
+And the particle toosl that you should be working on the <unintelligible/> list navigation.
+Uh is something which should allow you to uhm to insist on some words appearing in the translation.
+And insist on some bad words not appearing in the translation.
+So does it does the assignment in this general terms now make more sense?
+(PERSON10) Okay, yes.
+Yes and actually there is there is part of it already implemented, right?
+Because.
+(PERSON9) Yeah.
+(PERSON10) I think [PERSON7]?
+(PERSON7) Yeah, so.
+(PERSON9) Yeah, the T and T is, yeah.
+(PERSON7) The T and T like the <unintelligible/> it's implemented by [PERSON10],
+so-
+(PERSON10) Of the <unintelligible/>-
+(PERSON7) If he's he's waiting to improve it if if anything in tbackend changed it 
+and it needs improvement.
+(PERSON8) Yeah, we <unintelligible/> everything the way we show all this information.
+(PERSON9) <unintelligible/> 
+(PERSON7) Yeah.
+And the other thing is the backend
+and uhm currently the backend I just I'm running uhm just the par- paraphrasing not the translation,
+yes so it's paraphrasing from English to to English.
+And so I'm running the [ORGANIZATION5] system which is not the [PROJECT2]
+that we should en- endup with 
+and and currently isn't like this constraint decoding is not implemented in [PROJECT2] [PROJECT2] <unintelligible/> .
+O- our colleague from [ORGANIZATION4] <unintelligible/> he has already implemented something
+but it's some in some  branch of [PROJECT2].
+I'm but I had no detail like about it.
+So maybe this is the one thing that it should be if we want this functionality in [PROJECT2],
+it should be somehow implement there.
+And if <unintelligible/>
+(PERSON10) Okay. 
+(PERSON7) paper I sent to you the by <unintelligible/> and netpost.
+(PERSON10) Yeah, I I read there is-
+(PERSON7) <unintelligible/> people constrain decoding.
+(PERSON10) Yeah, but not the it's the time- uhm the <unintelligible/> just <unintelligible/>
+(PERSON7) <unintelligible/>
+(PERSON10) About who it <unintelligible/> it's a it uhm 2018 or 19?
+(PERSON7) 2018.
+(PERSON10) Okay.
+So that's the one in the <unintelligible/>, right?
+<unintelligible/>
+(PERSON7) Yeah, [ORGANIZATION5].
+(PERSON9) [ORGANIZATION5]
+(PERSON10) [ORGANIZATION5], yeah.
+And uhm okay, so I can try to to uhm <unintelligible/> continue to the called maybe in 9 
+or try to-
+(PERSON9) Yeah, so-
+(PERSON10) ??
+(PERSON7) <unintelligible/> to do this,
+we should somehow coordinates your foresees with <unintelligible/> in in [ORGANIZATION4]
+because I know that he was doing on on the <unintelligible/> already.
+So he probably has a lot of a lot of stuff  implemented
+and uhm so maybe there is no need to to much on.
+(PERSON10) Okay.
+I do whatever you you you say-
+(PERSON9) Yeah, so so [PERSON7] I didn't know about  this this progress onyx side.
+So if you could just email [PERSON6].
+And ask him what is the status.
+If there is any support for uh like constraints in decoding uhm requiring wars 
+or forbidding words, 
+and he will tell us what is the status.
+And if this status is like promising,
+so if it's nearly finished or or finished.
+Then [PERSON1] should focus on the user interface tied.
+So how the how the frontend should be improved and uhm to link this frontend to [PROJECT2] instead of the [ORGANIZATION5].
+And if there are any gaps on the backend then [PERSON1] could look at the at the backend.
+So [PERSON1] like uhm this this <unintelligible/> list navigation task uh take it as the whole.
+The whole is uhm to enable the user, 
+to limit the outputs of an empty system  in to a language that the user doesn't speak uhm but to m- to help the user to make sure that the translation is good in various aspects, 
+uh and uh the backend uhm under the hood should be [PROJECT2].
+And you have  whatever [PERSON6] has created you have that all at your disposal.
+And then it's it's now up to you to like decide, 
+where is the once once [PERSON6] we get the news from [PERSON6] uhm to to decide where is your work most needed.
+(PERSON10) Okay, yes, okay.
+But the uhm the interface uhm would it be useful to indicate where <unintelligible/> the word uhm for example if I the users selected one word to to be in the target language,
+would it be useful to to show the user test that the work this that there.
+(PERSON9) Yes, yeah, I I I think so, so.
+(PERSON8) Sorry, I don't understand.
+Um, you mean that if the user select words to not be there?
+(PERSON9) To, to be there.
+(PERSON10) To be there, 
+just tell oh here is your word.
+(PERSON8) Oh, okay, okay.
+<unintelligible/> 
+(PERSON10) Just just.
+(PERSON8) Yes, it's it's like five minutes for me.
+So I can <unintelligible/>.
+<laugh/>
+(PERSON10) <unintelligible/> something about it.
+I know.
+Okay, but oh uhm well I will focus on this and and try-
+(PERSON9) Ehm. Yeah.
+(PERSON10) trying understand it better.
+And and as soon as we have an answer I can-
+(PERSON9) Yeah.
+Yeah.
+(PERSON10) And now I will try to I I I open so- [ORGANIZATION5], right?
+(PERSON9) Yeah.
+(PERSON10) And I will study better instead the the  approach to,
+because uhm <unintelligible/> implemented anything yet.
+So about it so I I'll try to to get used to this,
+okay?
+(PERSON9) Yeah, yeah.
+So there is one last thing that I wanted to just the double check with [PERSON8] and [PERSON7], 
+and that's the regular slot with you.
+Have have you agree to have they asked you already, 
+or or not?
+What would be the ideal time of the day for like regular check-up.
+This is substitute since your remote a substitute for the daily meeting in the corridor.
+So normally people meet here, 
+either they go for coffee after  the lunch, or or they meet in the- they run into each other in the morning, 
+and we have to have some substitute for that for for you.
+Uh.
+So that would be a regular slot, uh, and which-
+someone would open a call with you.
+And.
+You would just say hello.
+I I I spend the yesterday reading [ORGANIZATION5] 
+or I I had this idea about the user interface im- improvement for for the the for promi- for the required words, 
+and and so on, 
+and it still needs some uh some for thinking, 
+or I have this sketch this this like idea how how it could be uhm positioned in the in the user interface, 
+and you would get immediate response.
+Uh, also if you had any problems, 
+uh, so that you don't stay with an unsolved problem too for too long.
+So if you are unable to log in to something.
+If you are unable to start a job on our <unintelligible/>,
+or whatever you would immediately get  at least once a day you would have uhm this regular option to uhm to ask for for assistance.
+Obviously the problem may need more time to be solved, 
+but you would not be a- alone with that.
+And that's the key point.
+So have you agreed on some some slot already?
+(PERSON10) Not yet we- sorry.[PERSON8] So so so basically yeah. 
+[PERSON1] sent me mail that he is avalaible every day between 12\. and 13\. clock central European time,
+butI haven't  mentioned that the the <unintelligible/>  dealing with things.
+(PERSON9) Yeah. Yeah.[PERSON8] But  I I expect that the the these thes, even though they are daily,
+they they shouldn't take more than ten  to-
+(PERSON9) Ten minutes. Yeah.
+(PERSON8) Exactly.
+(PERSON7) which should be just to completely avoid you being stuck on on some.
+(PERSON9) Yeah.[PERSON8] Is is it to solve problem.
+(PERSON10) Okay, 
+have a like a chat window just to,
+let say a gmail, 
+I don't know.[PERSON8] Oh, yeah. 
+We can we can try to I'm I'm not sure [PERSON7] how how does the departments like work,
+like can we can we actualy make an internal channel for just the [PROJECT1]? 
+<unintelligible/>
+(PERSON9) There, there is also Zimbra chat
+I I switched that off.
+But if you have not switch that often yours in brows, 
+then we can even use some some chat within Zimbra.
+(PERSON8) These keep in mind that I have <unintelligible/>  uhm uhm <unintelligible/> it's like so.
+(PERSON7) It's it's so basically the the options are either in<unintelligible/> Slacks since we should have some licensing or somethings, <unintelligible/> account.
+Or I don't know if if you can use WhatsApp, [PERSON1]?
+Can can you.
+(PERSON10) Yeah, sure, we can.
+¨[PERSON8] Okay we can we can technically make a group on WhatsApp because I think-
+(PERSON9) Yeah, I can <unintelligible/> I don't have <unintelligible/>.
+I don't have I had to cancel WhatsApp because people started calling me on WhatsApp so I <laugh/>
+Yeah, but but it's like anybody from the team can so pick whatever you like,
+ it's this is this is for the daily chat,
+it's not for accumulating an in knowledge in there.
+So whatever system works for you they uhm that that's fine.
+(PERSON10) Okay.[PERSON8] <unintelligible/>
+(PERSON9) Yeah,
+ I have the other call so I have to I have to cancel this.
+So thanks and all.
+(PERSON8) Thank you.
+(PERSON9) So, yeah, thanks
+ and will be in touch later on, 
+and you you well.
+(PERSON10) Thank you.[PERSON8] Bye, bye.
+(PERSON10) Thank you.
+(PERSON7) Bye.[PERSON8] So, can you can please stays
+<laugh/> okay
+So the thing is yeah the we currently don't have group chat either for for the whole project, or or for just to our university on the project,
+so so we might consider working on that.
+It might be helpful.
+Currently we just we just we can via email 
+and and via the hte Monday Monday calls,
+right?
+(PERSON10) Yeah, okay.[PERSON8] So, I I'll keep your <unintelligible/> if if <laugh/> thing change.
+(PERSON10) <unintelligible/> the problem, just that since I'm not there right?
+It would be <unintelligible/> for just to <unintelligible/> something uhm.[PERSON8] Yeah, it's definitely more comfortable then to sends sending emails for for uhm with the single sentence uhm etc, right?
+(PERSON10) Yeah.[PERSON8] Okay, so uhm now uhm i can g- uhm we don't need to discuss anything else
+<unintelligible/> to the to the todays meeting.
+So if you if you wants to,
+if you if you <unintelligible/> the once to can can leave
+and like I don't know [PERSON7] can can you stay stay for moment?
+(PERSON7) Yeah. I can stay for a moment.
+<laugh/> [PERSON8] Just in case that I that I forget about something. 
+So so basically we have established uhm login credentials for you.
+So to keep so lets start with- 
+we have we have department Wiki, 
+which is on the I could say you the link like <unintelligible/> chat here,
+so can do you do you know the website fall .cz?
+(PERSON10) Sorry.[PERSON8] <unintelligible/> Okay
+<unintelligible/>
+(PERSON10) What is the link? 
+<laugh/>[PERSON8] Yeah, <unintelligible/> <parallel_talk/>
+Okay, here, so uhm.
+(PERSON10) Are you sendind this chat?
+The chat on so-[PERSON8] Yeah, I'm going to I'm going to sent you t so so imediately.
+(PERSON10) Okay.[PERSON8] Check it out. 
+Uhm.
+Okay, 
+this should be the department web site
+but uhm and on the website there is also link to [ORGANIZATION1]. 
+Uhm did you find it?
+It should be on top of the website the [ORGANIZATION1].
+(PERSON10) Oh, here is,
+yes.[PERSON8] So well, there are useful information on the [ORGANIZATION1]
+and some some information it behind a login.
+So to login into the Wiki the user name uhm the user name is [ORGANIZATION3].
+There si there is a central lo- login for the [ORGANIZATION1],
+you know, 
+either we don't have personal accounts for the [ORGANIZATION1]. 
+So the username is [ORGANIZATION3].
+And I don't know [PERSON7],
+should I should I post  into zoom the the password?
+(PERSON10) <laugh/>[PERSON8] I think it should be fine.
+So basically the we use uhm generic password for this, 
+we call it the small lingvistic password,
+but it's just the how we call the pass- the pass- it should password is basically-
+(PERSON7) You can spell it [PERSON8].[PERSON8] Yeah, yeah, yeah.
+I'm I'm going to spell it.
+So-
+(PERSON10) Okay.[PERSON8] Password is MALY.
+(PERSON10) Y and L <unintelligible/>, okay.[PERSON8] M, yeah, okay MALY uhm then underscore. 
+(PERSON10) Okay. [PERSON8] LIN.
+(PERSON10) Yeah, okay. [PERSON8] GVI.
+(PERSON10) Right.[PERSON8] STA.
+(PERSON10) STA okay.  [PERSON8] So, so try try to use <unintelligible/> password  at the [ORGANIZATION1].
+And let me know what if works. 
+(PERSON10) Let let me <unintelligible/> so.[PERSON8] Yeah, yeah, yeah.
+(PERSON10) Thel login is here. 
+Okay.
+Uhm mmmm <unintelligible/> remember me.
+Okay. There's a <laugh/> there's something wrong, 
+okay.
+[ORGANIZATION3] and ehm let we let we check with you.[PERSON8] Yes, yeah.
+(PERSON10) NA.[PERSON8] M.
+(PERSON10) M?[PERSON8] Yes. 
+Like mother.
+(PERSON10) Oh, okay. 
+So that's was-[PERSON8] Okay, so.
+(PERSON10) Mistake.[PERSON8] Yeah, yeah. 
+(PERSON10) Probably.   
+It's <unintelligible/> the best.
+Oh here we are.
+Yeah, that's it. [PERSON8] So, yeah.
+It works?
+Okay.
+(PERSON10) Yeah.[PERSON8] So remem- remember this one,
+because it's also <unintelligible/> default password  for the for the cluster.
+And and you should definitely change it as soon as you login.
+(PERSON10) Okay.[PERSON8] Uhm so will gain.
+So whimsically to login to our cluster uhm mmm-
+so yeah, you can you can login to machine uhm.
+(PERSON10) I'm trying to learn Czech in the middle <laugh/>[PERSON8] Yeah, yeah, yeah.
+Okay, so so it-
+(PERSON10) <unintelligible/>[PERSON8] So I send you send you machine uhm yeah. 
+(PERSON10) Okay.[PERSON8] The the uhm what is it call?
+Uhm postname of the of the machine you should log in to if you want to excess the computational resources.
+(PERSON10) Okay. [PERSON8] Uhm I need to find what is the <unintelligible/> what is your username,
+it should be somewhere uhm just <unintelligible/> -
+okay, so so the login your username should be simply <unintelligible/>.
+(PERSON10) Okay.[PERSON8]  You you're your your surname without diacritics.
+(PERSON10) Sorry?[PERSON8] Well the your username for the cluster is your surname.
+Without diacritics those.
+(PERSON10) Okay.
+Perfect.[PERSON8] So also you uhm are.
+(PERSON10) So the the password is same, right?[PERSON8] Yes, yes.
+(PERSON10) Yes, right. [PERSON8] Any any any you should you should change it immediately with the pass- password utility.
+You you know that.
+Right?
+(PERSON10) Okay. 
+(PERSON7) So maybe try a login there now if to know whether it works.[PERSON8] Yes. Definitelly.  
+(PERSON7) Okay. 
+As a sage[PERSON8] Yes.
+(PERSON10) Uhm just a minute.
+Ehm, it seems correct.
+Let see.
+Password.
+Yeah, it worked.  [PERSON8] Okay, so
+so  this is just the <unintelligible/>,
+you you don't actually <unintelligible/>.
+Oh, you can actually submit the tasks from this machine 
+but you should not do any resource intensive <unintelligible/> here, 
+because this machine is-
+(PERSON7) I I think this cannot even submit things from this note.[PERSON8] Oh, so it's the same as LRC, right?
+Okay, so so-
+(PERSON7) It's not like LRC,
+from LRC you can submit
+but this is this one I think the <unintelligible/> doesn't work from here.
+Never never mind. 
+Always just don't use uhm this machine the computings. 
+(PERSON10) Yeah, okay.
+(PERSON7) In its excess to different machines, 
+which are used to uhm to quie quie our jobs,
+or to do some computation.
+(PERSON10) Yeah, okay.
+Oh, oh I don't have access to them already, 
+right so.
+<other_yawn/>
+(PERSON7) And everything it's written on the [ORGANIZATION1], sorry on the [ORGANIZATION1] page.
+(PERSON10) Okay.
+Okay.[PERSON8] Yeah, link there are definitely some restrictions like, 
+you know, you don't you don't you cannot access everything on the file system.
+But, yeah you  will just regular user.
+You are in the [PROJECT3] group 
+and and you know.
+You should everything should be available.
+What what is supposed to be available.
+So lets lets just move on to to the another accounts,
+I will send you more details about the cluster.
+And uhm this some basic tutorial via the email 
+because I just don't want to write every single uhm you are into the chat.
+Right?
+And we can we can check I can check with you tommorow.
+Like a what what the had we read so far.
+<unintelligible/> 
+Don't don't worry about it.
+(PERSON10) Okay.[PERSON8] But uhm I send send in the chat 
+I posted the your your so <unintelligible/> department email adress. 
+To access it you have to get to Zimbra 
+which is basically I will sent you the.
+(PERSON10) Zimbra.[PERSON8] Yes, uhm.
+Just a moment. 
+I think this should be a- <other_yawn/>adress.
+(PERSON10) Okay. [PERSON8] So again, again, you should have the default password
+and you should probably change it in site Zimbra 
+but the thing is that the password is link the account on the cluster 
+and account on Zimbra it's <unintelligible/> different.
+So just keep that in mind.
+(PERSON10) Okay.[PERSON8] Doesn't matter if you have the same 
+or different password 
+but just remember them.
+(PERSON10) Just checked, 
+if I can.
+() Password to is no longer valid. 
+Okay.
+It it <unintelligible/> to to change password <unintelligible/>, okay.
+I will to this I'm-[PERSON8] So I
+(PERSON8) <unintelligible/> to login? 
+(PERSON10) Yeah, I I will change the password.
+So.[PERSON8] Okay, but you you to have access to email.
+(PERSON10) Not yet, because it <unintelligible/> to change login before uhm <unintelligible/> the email.[PERSON8] Okay.
+(PERSON10) The acces in the email. 
+Sorry.[PERSON8] Okay. 
+(PERSON10) I will just change it so I can confirmed.
+Uhm 
+<unintelligible/> this one, okay.
+Let see if it's okay. 
+Oh something's wrong.
+<unintelligible/> okay, so there is a there is some rules, 
+so-[PERSON8] Oh yeah, 
+that's the that's the definitely why I do have different passwords for for those things,
+because-
+(PERSON10) Yeah.[PERSON8]  One is more more <unintelligible/>.
+(PERSON10) Ehm, okay.
+I think it's it's sorry.
+<unintelligible/> email is already. 
+Here we are. 
+<unintelligible/> 
+Okay, uhm I I have access to the email 
+I have access to the-[PERSON8] Okay.
+(PERSON10) the clus- the cluster.[PERSON8] Yeah, so so that's that's good. 
+Ehm, [PERSON7], 
+is there anything else that needs to be accessible to [PERSON1]?
+(PERSON7) Yeah, email, cluster, 
+or or the network 
+and [PERSON8]. Yeah, okay, 
+so so as-
+(PERSON7) Wiki page I think is enough.[PERSON8] Yeah, 
+I think I think this this should be fine.
+And if we run into something you can you can let us know 
+and we we solve solve it,
+right?
+But you know.
+I think this this should be definitely everything you need right now.
+So okay.
+So I will send you we have uhm basically introduction page on the [ORGANIZATION1],
+I will send you link to that.
+And possibly to sublink for the CPU and GPU cluster use it,
+uhm but that's basically summarize on the introduction page, 
+so the <unintelligible/> fine. 
+And I guess for at least for today we should just go fot that uhm maybe try the the basic use it tutorial just the submit some hello word on the cluster 
+<unintelligible/> yeah to get some basic idea.
+And maybe tomorrow we can talk about  it in more detail if if necessary.
+(PERSON10) Okay, okay. 
+So I'm today I'm going to check this 
+and tomorrow we talk. [PERSON8] So just one last thing 
+I I need to uhm mark down is what was what is the current plan for for you, 
+like what what you should be working on?
+I'm not sure.
+Like currently you're you're trying to make the [ORGANIZATION5] work, right?
+And and try to constraints according their?
+Am I right?
+(PERSON10) Yes. 
+Yeah and and actually it uhm I'm also  trying to think about the the user interface, right?[PERSON8] Okay.
+(PERSON10) Uhm am I <unintelligible/>?
+(PERSON7) So so so  during the call lake previous stages of this call, 
+uhm we have already so I have uh task to ask uhm <other_yawn/> <unintelligible/> status of  uhm of constrain decoding in [PROJECT2].
+And based on his like information uhm we will find or we will will know better what what whether you should work more on the backend
+or on frontend.[PERSON8] Uhm. 
+(PERSON7) We I don't think so we should continue the [ORGANIZATION5] thing,
+we-[PERSON8] I I do agree  with him, but-
+(PERSON7) <unintelligible/> to [PROJECT2] 
+and we should abandoned [ORGANIZATION5]. [PERSON8] Yeah,
+I'm not sure for <unintelligible/> do you have any personal experience with C plus plus by any chance?
+(PERSON10) Ehm, it's little experience 
+but uhm I will I will  practice this from now 
+because you guys use this  [PROJECT2] toolkit, right?
+And not to-[PERSON8] Well yeh, 
+we will use it,
+but uhm more form the users <unintelligible/> so the basically take the functionality 
+''' just run it with our data setup and experimenting in certain way 
+and <unintelligible/> so that's that's why [PERSON7] is going to ask where people from from [ORGANIZATION4] whether they already implemented  the constraint decoding,
+otherwise someone has to implement it 
+and I don't I'm not sure whether that's that's the best uhm use of your time to make you implemented.
+Since you don't have that much experience,
+like uhm the- there might be other approaches, 
+like you can <unintelligible/> an empty frame work and wau that's why we were trying the [ORGANIZATION5] 
+because that already supports the functionality, right?
+But if you if you prefer something elsey
+you can try different,
+for example <unintelligible/> and empty frame working 
+and implement functionality it should be easier than with [PROJECT2]
+and try run the experiments there, 
+and then later we can conslut based on the results whether we <unintelligible/> it to the [PROJECT2] and ask the [ORGANIZATION4] people to actually to the integration.
+(PERSON10) Okay. Yeah.[PERSON8] Yeah, yeah, don't. 
+Yeah, okay?
+(PERSON10) No, I can I can see if the it would be to difficult for me 
+because uhmuhm I know see <unintelligible/> but I never <unintelligible/> C plus plus uhm using uhm we oriented to  <unintelligible/> 
+but uhm <unintelligible/> but uhm  I can try before  definding uhm before this <unintelligible/> to uhm <unintelligible/>[PERSON8] Okay, okay.
+Uhm I I will I I took a note and and based on the responce from [ORGANIZATION4] we will decide how to how to move on from here.
+Maybe if if there's still implementing it we can uhm you can early help them out 
+or you know it depence how how much work is it <unintelligible/> in such and and you know.
+Can be a combined effort.
+So so we don't have to implemented just by yourself, 
+the- they can help you with the the support like it, 
+if you run to some trouble in such.
+So if if you if you willing to do it,
+uhm wau that awsome.
+Might be an option.
+(PERSON10) I I don't know actually I'm I'm trying to find something that to help you 
+and-[PERSON8] Ehm.
+(PERSON10) Because I don't know uhm the the deadline <unintelligible/> is-[PERSON8] So so, 
+okay. 
+So so to fill you in, 
+basically we had the uhm 18 month review two weeks ago
+and it was fine.
+(PERSON10) Yes. [PERSON8] So <unintelligible/> currently we are <unintelligible/> to,
+there's only one more finally review after next 18 months so right now we are sorry of we have the <unintelligible/> like you know some some space to breath so so we not under pressure.
+So uhm I don't think you need to worry about deadlines right now. 
+Okay. 
+You will definitely learn about in on the Monday mornings when when we <unintelligible/> time is getting close <unintelligible/>.
+So okay. 
+I think I think that's should be enough for that's I'm beeing I will send you the links and we can we can talk about the stuff in more detail tomorrow. 
+If necessary.
+Is anything else [PERSON7]?
+Would you like to add?
+(PERSON7) No I have nothing to add.[PERSON8] Okay, so. 
+So lets I will call you tomorrow.
+(PERSON10) Uhm.[PERSON8] I will send you my WhatsApp number,
+so you can add me 
+and I will call you via WhatsApp tomorrow  around the let say, 
+that's 12:30?
+(PERSON10) 12:30?
+Okay.
+Yes.
+() [PERSON8] <unintelligible/>
+(PERSON10) I don't know.
+Yeah.[PERSON8] Okay, okay so lets looking to the,
+you were set sending in the email you were writing  that you-
+(PERSON10) Oh, 12:30 yourth your time. 
+Okay.  
+Yeah. 
+No problem, no problem.[PERSON8] Yes. 
+(PERSON10) Yes, <unintelligible/> great for me.[PERSON8] So just just to <unintelligible/> 12:30 my ti- our time is isn't too early for you?
+Right it should be-
+(PERSON10) Oh, it's <unintelligible/> 8 am. So.[PERSON8] Am, okay.
+(PERSON10) 8 8 half past 8.
+Actually.
+() [PERSON8] Yes, yes. 
+(PERSON10) Right. [PERSON8] Okay.
+So if yeah this it fine with you so I will call you then then that's that's it I guess.
+(PERSON10) Okay.
+Thank you so much. 
+I'm I I would be ready as soon as possible 
+and [PERSON8] Yeah.
+(PERSON10) And less less questions.[PERSON8] Yeah. 
+It's fine.
+I guess it's little bit complicate <unintelligible/> all of remote
+but I can we can we can <unintelligible/>.
+(PERSON10) I'm sorry about that to.[PERSON8] Oh, it's fine .
+This is not necessary your fault <unintelligible/> we we are <unintelligible/> so.
+(PERSON10) I'm I'm <unintelligible/> that's the worse part.[PERSON8] Oh, 
+again that's not the thing it shows. 
+So.
+Okay. 
+So see you tomorrow. 
+(PERSON10) See you.
+(PERSON7) Yeah.
+See you, see you. 
+(PERSON10) See you.

@@ -1,0 +1,35 @@
+[PROJECT1] Surge organization
+Feb 20, 10.40
+•	Preparations for Mock Conference (March 3 and March 24)
+o	Goals:
+	live test of following many sources, as we did in the very dry run session. Now it will be real student interpreters and different booths switching their output language ([LOCATION1] vs. another language).
+	create our own recordings reliably (and also get their recordings)
+•	Preparations for Student Firms Fair (March 18-20)
+o	Goals:
+	Gather a new Antrecorp (recodings, transcripts, materials, consents, …)
+	Test domain adaptation
+	Test censorship
+	Test live subtitling in adverse conditions
+	Test an easy switch on/off setting
+	Record another promo video of [PROJECT1]
+•	[PERSON13]
+o	Worked on data cleaning for 5 languages (some cleaning is remaining, especially in [OTHER3] and [OTHER4]) and the path has been shared with [PERSON8].
+o	Will start back translation training from next week, if [PERSON8] provides the back-translated data
+•	[PERSON1]
+o	Encouraging results of domain adaptation on [PERSON4] talk (better than Google, better than Plzen, great improvement thanks to talk-level adaptation
+o	Starting to use also the Sumeček corpus, to search for relevant, domain-specific articles
+•	[PERSON8]
+o	Working on many-to-many MT, training on [OTHER7]
+o	Tried training using the [ORGANIZATION1] data
+o	English-centric training works quite well
+o	Filtering [ORGANIZATION1] data to English-centric makes it too small
+o	For now:
+	Contact [PERSON12] about the loss of data if filtered for EN-centric
+	Deploy the english-centric model on cluster
+	[PERSON7] will send the path to scripts that connect [PROJECT4]
+•	[PERSON7]
+o	Helped [PERSON11] to debug the delay in [PERSON1] ASR on our cluster. It must run on a machine where no other process is using CPU simultaneously, otherwise it's around 1s slower than in [ORGANIZATION3].
+•	I had a look on SLTev and provided some feedback in issue tracker on Github.
+•	I started training prefix2prefix en2cs [PROJECT3]. Going to validate it on must-c dev set = spoken language.
+•	[URL]
+•	[URL]

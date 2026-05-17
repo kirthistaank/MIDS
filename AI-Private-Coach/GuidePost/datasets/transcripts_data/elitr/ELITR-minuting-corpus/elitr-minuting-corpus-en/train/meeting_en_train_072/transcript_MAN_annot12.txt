@@ -1,0 +1,693 @@
+(PERSON14) So- so we need to summary all the components that we have to deploy for the VAT wide group, which is in the end of June. 
+So, the first is EB client.
+At this point we still have the- we have the repo with- with sample clients, 
+and- and we need to decide-
+and it's still only the sample and it's not production-
+so we need to discuss who- who is respons- who will be responsible to maintain it, 
+as fo- f- who to create and maintain the production version, 
+and whether it will be in C or Python. <other_noise/>
+(PERSON6) Is there an option for doing it in Python? 
+As far as I knew, there was no, uh, library to connect to the mediator in Python.
+(PERSON12) Yes.
+(PERSON16) Uh, for us-
+em, we strongly encourage you to use the provided API, which are in Java and in .NET, in order to develop your own -
+(PERSON14) Aha.
+(PERSON16) clients. 
+EB client, as you already explained, is just, uh, an example who explains how to -
+(PERSON14) Okay.
+(PERSON16) uh, connect and integrate with the service architecture. 
+But we strongly encourage you to use the provided API. 
+And, of course, the Python 1 are not yet available.
+And -
+(PERSON14) Yes.
+(PERSON16) we have just uploaded an- an example.
+<other_yawn/> 
+Em, the maintained ones are the Java and the .NET.
+(PERSON14) Okay. 
+Is there .NET?
+I- I didn't see. 
+Is it in -in the repo?
+(PERSON16) Should be, but- but I can check it again.
+(PERSON14) Yeah, I can see only this one. 
+I'm always using this one.
+Hmm. 
+Yep. 
+Python binding example.
+I tried to build- to start using this, but I would need some more explanation how to build this tool if we need- if we want to -
+(PERSON16) Okay.
+The Py-
+(PERSON14) continue.
+(PERSON16) the Python binding is an example of, em, let's say automatic binding, uhm, <other_yawn/> using, em, C- C- C Python.
+Ho- wha-
+(PERSON14) Yes.
+(PERSON16) But-
+uh, an example that, uh, [PERSON5] has tried to develop in some automatic way, -
+(PERSON14) Mm-hmm.
+(PERSON16) uh, but it's- it's not, uh, <laugh/> production API at all.
+(PERSON14) <other_yawn/> Yeah.
+Uh, so I -
+(PERSON16) Okay.
+If we have not yet provided the <other_yawn/> .NET API, we will upload them ASAP.
+(PERSON14) Okay.
+Yeah, it's- it's not here.
+(PERSON16) Mm-hmm.
+(PERSON14) So, <parallel_talk/> dot- .NET soon <parallel_talk/>.
+Hmm. 
+And any volunteers to maintain any version of production-ready? version? 
+[PERSON2] or- or [PERSON4] or S- [PERSON13]?
+If not that I would- 
+I personally th- think that the easiest w- will be to- to move the C version from sample to production, and continue in C version, cause this will be, 
+I think, the fastest way to continue on it, and we- we- we need to made it robust and- and- and- <other_yawn/> continue on this,
+al- although my- I myself, I'm not C programmer, so it will take me s- time to learn it, but it seems to be the easiest way for me.
+(PERSON16) Okay, em, [PERSON14], just -
+(PERSON14) Yes?
+(PERSON16) a thing.
+Please use the provided C library and -
+(PERSON14) Yes.
+(PERSON16) not-
+<laugh/> thank you. <laugh/>
+(PERSON14) Yes, the- the library and the sample clients which- which we move from samples to production. 
+We may- we- we update them -
+(PERSON16) O-
+(PERSON14) and ma- made it -
+(PERSON16) O-
+(PERSON14) m- more robust.
+(PERSON16) Okay, thank you.
+(PERSON14) So, we need 2 text-to-text clients. 
+Yeah, so, there are al- already some samples, in the C sample code,
+so we can use them, this is okay. 
+And the tests.
+We need some -
+(PERSON6) I- xcuse me, I would like to mention that-
+<unintelligible/> highlighting C-
+we would still, for some other tools, be very much interested in having a Python interface -
+(PERSON14) Yeah.
+(PERSON6) if it's technically possible, because most of our staff works in Python and it would be much easier to integrate with our soft.
+(PERSON14) Yes, yes.
+And can you integrate C- C library into Python?
+(PERSON6) Well, it- it can be done in- in a- in a similar way as- uh, as it's done in the- in the repository with C, Python, or Cython or whatever,
+but, uh, I- I don't know anything about that, so -
+(PERSON14) Yeah.
+(PERSON6) if the [ORGANIZATION8] can- can help us with that, that would be very helpful.
+(PERSON14) Mm-hmm. <other_noise/>
+(PERSON16) Well, actually, we- we don't have, uh, Python programmers.
+Uh, it was just a test performed by, uh, [PERSON5]. <laugh/>
+And, uh, hm, probably, uh, a Python programmer will do a more w- clear and well-working solution. <laugh/>
+(PERSON14) Yeah.
+(PERSON6) <unintelligible/> for our own solution.
+(PERSON14) Ye- yes.
+If- if you want Python client and Python libraries,
+then feel free to create it for us and then share it with us, because I myself would be also happier with Python. 
+I'm stronger with Python than I- than- than in C, but it's small walk to use- to start using Python than C, so it's up to you.
+So are you going to- <other_yawn/> to create a Python binding, [PERSON2]?
+(PERSON6) I don't want to promise anything on that.
+(PERSON14) Okay, so-
+(PERSON6) I'll look into it, but I ca- I will not promise anything.
+I <unintelligible/> write that down. <laugh/>
+(PERSON14) Okay, so-
+(PERSON6) It might not work.
+(PERSON14) Yeah.
+So we s- stay with Python.
+Maybe I c- 
+oh- oh no. 
+I can't promise anything too.
+So, the test to- 
+we need s- some test scripts to test all the pipeline and- <other_yawn/> and r- r- run it in single command. 
+I already did something,
+like this.
+Or-
+so, we have this- this repository cruise control on-
+it's a private repository, so- so please, [PERSON2] and everyone in [ORGANIZATION3], make sure that you have access here.
+If not, send us your GitHub accounts and we will add you. 
+It's not problem.
+So, later we- we- we will have here one command to install the- the client,
+and then run- 
+run some test like- like this. 
+And if your worker fails on the test, then you- you can up- update it and fix the bug and test it again. 
+(PERSON6) <unintelligible/> literal group, but I don't <unintelligible/> <other_noise/>
+(PERSON14) S- sorry?
+I didn't <other_noise/> h- hear you right now.
+Can you repeat?
+(PERSON6) Uh, I am in the literal group on GitHub, but I don't access <unintelligible/> cruise control. 
+(PERSON14) Okay.
+(PERSON6) <unintelligible/>
+(PERSON14) Okay, so we will manage this later. 
+So it's [PERSON2], right? 
+(PERSON3) Okay, if anyone doesn't have, uh, access there, please write your name in the [ORGANIZATION2] Docs and I will add you, okay?
+(PERSON14) Yeah. <other_noise/>
+(PERSON16) Okay, thank you.
+(PERSON14) Yeah, or- 
+oh, it doesn't matter. <other_yawn/>
+So, so the-
+<other_yawn/> and, admin web- today, it's- it's quite simple. 
+It- it only- it only displays such list of workers. 
+[PERSON11], ar- do you plan to- to update it to made it more <other_noise/> advance?
+(PERSON16) Well, actually, uh, we haven't plan it, uh, but, of course, we appreciate any feedback. 
+Em, hm, [PERSON1] told me you were looking for some kind of, em, check fingerprint functionality.
+(PERSON14) Yes.
+(PERSON16) Uh, the, uh, web- em, the web, uh, interface has also the search path-
+(PERSON14) Yes. 
+(PERSON16) uh, page, which actually, em, we already see, doesn't work really well, 
+and we will fix it.
+(PERSON14) Hm. Yeah. 
+(PERSON16) Let me know if it's what you are looking for, or if you have any other suggestion. 
+We can plan, -
+(PERSON14) Hm.
+(PERSON16) of course, improvements.
+(PERSON14) Yeah.
+(PERSON16) But I have to say that probably we'll not be ready for the June session.
+(PERSON14) Okay, fo- for me it would be okay if you provided us a- a command-line example how to use this search button,
+so we can write a script to- to run it from command-line to- to use the search.
+(PERSON16) Uh, a- actually, the admin web is database based,
+then the reason- the- the- em, <other_yawn/> the worker subscribes and when they subscribe, a database is written-
+(PERSON14) Yes.
+(PERSON16) em, database record is written-
+em, then the reason t- uh, at the moment, a command-line solution perform the same functionality. 
+(PERSON14) Yeah.
+(PERSON16) Em, but, uh, we can plan it to introduce you us.
+It- t's- of course. 
+(PERSON14) Okay. 
+And if I want- if I have several workers from- f- for example from,
+from English- from English audio to Czech- Czech translation, and I-
+and the- and the workers are connected-
+and I hit the Search, does it find the- the whole path through several workers, o- or only one worker? 
+This search. <other_noise/> 
+(PERSON16) The searcher will explain you the- em, the full path.
+However, you have to, em, write the exact, uh, fingerprint you will use. 
+At the moment, the functionality of, uh, approximation of the fingerprint is disabled in order to -
+(PERSON14) Hm.
+(PERSON16) have more control over selected path. 
+(PERSON14) Okay.
+(PERSON16) Then, if you write the exact input and output it will work. 
+(PERSON14) Yeah, okay. 
+So which -
+(PERSON16) At least I hope so. <laugh/>
+It should work, it's much, eh, <laugh/> correct. 
+(PERSON14) Which- which machine translation from German is available right now? or from English- English to the -
+Okay, so let's- <other_noise/> let's-
+we can go- go through it later.  
+(PERSON16) Okay.
+(PERSON14) Yeah, so, <parallel_talk/> Safe and- <parallel_talk/>.
+Yeah, my suggestion was to- to dis- to have a way to distribute the logs from all workers to everyone, so _ 
+(PERSON16) Yes, uh, this is, of course, a reasonable, uh, request. 
+However, at the moment, the mediator is installed on our server, which are under VPN connection, -
+(PERSON14) Yeah. 
+(PERSON16) and it's not possible.
+However, uh, we can schedule, em, some kind of coordinated checks.
+(PERSON14) Hmm.
+(PERSON16) We can schedule-check and we will check the logs while you test functionalities, -
+(PERSON14) Yeah.
+(PERSON16) or you can ask us to provide you the log of the last week, for example, 
+and we can keep them -
+(PERSON14) Hm.
+(PERSON16) manually and send them to you, of course, and to all the- uh, the participants, of course.
+(PERSON14) Hmm.
+(PERSON16) Em, but at the moment, hmm, <other_yawn/> let's say, sale servis on log is not available for, em, <other_noise/> arc- architectural reason,
+because it's under VPN, and we cannot provide -
+(PERSON14) Yeah.
+(PERSON16) you access.
+(PERSON14) Okay, and the logs from workers which run on some other servers?
+(PERSON16) Uh, hmm, actually, workers are distributed, then we cannot obtain logs of, for example, [ORGANIZATION3], uh -
+(PERSON14) Yes. 
+(PERSON16) workers.
+(PERSON16) Such workers has- such logs has to be provided by [ORGANIZATION3]. 
+(PERSON14) Yes, yes, I- I'm asking [ORGANIZATION3].
+(PERSON16) Okay. <laugh/>
+(PERSON14) <laugh/> F- Fe-
+(PERSON6) <unintelligible/> same story for us. 
+The- em, -
+(PERSON14) <other_yawn/> Okay.
+(PERSON6) the workers are under some specific firewall rules.
+(PERSON14) Hmm.
+(PERSON6) <unintelligible/> to connect the mediator but not much else.
+(PERSON14) Okay, so- so it's- it's not easy, so you'll probably have to <other_noise/> learn to live without it. <other_noise/> 
+Also -
+(PERSON16) Well, actually, uh, we can schedule, for example, a coordinated test among all the participants in order to check altogether logs and- and also have access to all the logs together. 
+(PERSON16) For example, [ORGANIZATION3] -
+(PERSON14) Yeah.
+(PERSON16) will have a look at [ORGANIZATION3]'s log, we will have look at [ORGANIZATION8] logs and so on. 
+(PERSON14) Yeah, yeah, yeah. 
+My idea was- was that,
+whi- while the conference is running and I'm trying to connect a client, 
+then I want to see immediately what's happening on- on [ORGANIZATION3]'s- [ORGANIZATION3]'s ASR worker without asking [PERSON4] to- on [ORGANIZATION1].
+So this would be ea- much easier, but if -
+(PERSON16) Yes. I -
+(PERSON14) if the logs can- can be available after the session, o- once- which <unintelligible/> from the whole week, then- then it's not u- much useful. 
+(PERSON16) Yes, I -
+ <unintelligible/>
+I completely understand. <laugh/>
+(PERSON14) Yeah.
+(PERSON16) However, maybe we can reason-
+not for June, but maybe for, em, the further years-
+to plan some kind of logs publication service, let's say -
+(PERSON14) Hm.
+(PERSON16) uh, in order to have centralized log application.
+(PERSON14) Yes. Yeah.
+(PERSON16) Uh, it's- it- it's not on plan, I have to say, but for testing reason might be useful. 
+Of course, this is <laugh/> completely out of -
+(PERSON14) Hm.
+(PERSON16) distributed system scope. <laugh/>
+(PERSON14) Yeah. Okay. 
+So let -
+(PERSON6) Or I can try and- I don't know f- if this can- can be arranged,
+but I can ask whether you can be given server access, so you could -
+(PERSON14) Hm.
+(PERSON6) look at the logs on our service yourself.
+(PERSON14) O- okay, yeah.
+(PERSON6) And I can see if that- if that can be arranged.
+(PERSON14) Yes.
+Yes, this- this could work. 
+<parallel_talk/> Can get access to their server to check the logs online. <parallel_talk/>
+Thank you. 
+So let's move to ASR workers for- for the [PROJECT1]. 
+So, [PERSON2], do your ASR worker emit some special tags?
+like applause or laughter or s- or something like this? 
+Cause if yes, that we need to- we would need to, uh, use them in- in our segmentation and maybe in MT. 
+This would be good to know.
+(PERSON6) I cannot actually tell you that, because I don't work on the ASR workers.
+I was hoping that- and I thought the [PERSON4] would be good. 
+Em.
+So-
+(PERSON14) Yeah.
+(PERSON6) em, <other_yawn/> I can't say. 
+(PERSON14) Okay, so let's- let's move this to [PERSON4]. 
+<parallel_talk/> Uh, to do- [PERSON4] <parallel_talk/>
+Okay, and- so for the June event, we need- we need to run 2 se- 2 ASR workers, because we will have 2- o- 1 English source and 1 English repeater, 
+which wi- which is a students of interpreting, 
+and he will repeat everything the s- the speaker will say. 
+Then German and Czech ASR.
+So be ready for it.
+And we need the segmentation workers- uh, uh, punctuation and segmentation for English, German and Czech.
+And are we going to use sentence-level machine translation or subsentence-level?
+So, the subsentence-level, it means that the MT is prepared to s- start in middle of sentence and, for example, translate on windows of for- 40 or 50 last words.
+(PERSON6) May- maybe I should clarify what the segmentation workers actually do.
+(PERSON14) Yes.
+(PERSON6) Em, the- the existence of the segmentation workers does not mean that it's- that translation is performed on sentence level. 
+The segmentation workers-
+<unintelligible/> segmentation is not the right word for them-
+they insert punctuation, -
+(PERSON14) Yeah.
+(PERSON6) they remove some- some aspects of- of, em- <other_yawn/> em, of speech.
+So some of the-
+it can't remove everything-
+but some repetitions or- or discontinuities, em -
+(PERSON14) Aha.
+(PERSON6) are removed. 
+But they do transmit partial sentences, 
+and it's- and that was ori- originally what was the problem on the last event,
+of while we had the- the additional segmenter. 
+(PERSON14) Hmm.
+(PERSON6) Em, these do use the- the so-called resending protocol, where,
+when more words of the sentence are available,
+the- the partial sentences will be transmitted to the MT. 
+So, senten- so, translation is done at a- at a subsentence level,
+(PERSON14) Okay.
+(PERSON6) but they know the context throughout, uh, the sentence, so no words from the past sentences, obviously. <other_noise/>
+(PERSON14) Okay, so- so the [ORGANIZATION3]'s MT is done on subsentence level. 
+The- last week I tried to update-
+or this week-
+I tried to train our English to Czech MT on subsentence level too. 
+So, maybe we'll- later we can talk on technical details:
+which <unintelligible/> to use, or which window size, and -
+(PERSON6) It- it's not a matter of- of window size. 
+The- the way we have trained our- our MT is, we- we take the training set and you just, uh, cut off the end of the sentences, because -
+(PERSON14) Aha.
+(PERSON6) you don't get parts from the middle of the sentence,
+you always get the sentence from the beginning to some part in the middle.
+(PERSON14) Okay-
+do you?
+O- ok- okay. 
+(PERSON6) That's- that's how the- that's how the segmentation works.
+(PERSON14) Aha.
+(PERSON6) It always <unintelligible/> come from- of the sentence- from the start of the sentence to as far as it- as we are right now.
+(PERSON14) Yes.
+(PERSON6) As far as the <unintelligible/> always gotten.
+(PERSON14) Yeah.
+(PERSON7) What are you doing if-
+are you doing that on the source and the target? 
+And where-
+how do you decide that some reordering happening? 
+(PERSON6) That is a good question. 
+That would be a good question for [PERSON15], who has developed the system. 
+Unfortunately, he is no longer here,
+so I can- I can ask <unintelligible/> I didn't develop that system.
+Um, I imagine there is some alignment model from- from SMT <unintelligible/> monitor that decides where to cut off.
+And yes, it is done on assertion target.
+(PERSON14) <parallel_talk/> of sentence and missing end <parallel_talk/>
+Okay, so, will we need, will we have all the MT workers subsentence?
+If yes, then we won't need the buffer workers, which wait until the sentence is ready and then send it to MT, and we can skip this completely.
+(PERSON12) So, em, the systems- the MT systems I've trained so far have all been sentence-level. 
+I- I'm not -
+(PERSON14) Yeah.
+(PERSON12) not sure if we'll be able to train subsentence-level systems in time. 
+(PERSON14)  <other_yawn/> Okay. 
+And- and F- [PERSON2], can you run the s- the buffer worker for f- subsentence to sentence-level?
+(PERSON6) I don't think we can. 
+(PERSON14) Tra-
+(PERSON6) The- the thing is, the [ORGANIZATION3] has, at the same time as the VAT members happening, has as an important demo. 
+Most of our capacities are used there, -
+(PERSON14) Okay.
+(PERSON6) which means that [ORGANIZATION3] will not be able to run the display website for the event. 
+(PERSON14) Hm.
+(PERSON6) Um, and we can provide the usual translation workers, em,
+at least the ones tha- that you wrote there, -
+(PERSON14) Hmm.
+(PERSON6) <other_yawn/> but we would prefer to keep as much of the capacities -
+(PERSON14) Okay.
+(PERSON6) uh, as possible. 
+(PERSON14) So, we need to somehow th- to hack it some wow- somehow.
+Maybe to filter all the sentences which don't- <other_yawn/> don't end,
+and translate only the sentences which are complete, which end. 
+An- and then s- s- send it to the MT worker. <other_yawn/>
+(PERSON6) I- I believe, <other_noise/> incomplete sentences, that are marked as such when they're sent to the MT workers, so whatev-  however you program your MT worker, it can check whether the sentence -
+(PERSON14) Yes.
+(PERSON6) <unintelligible/> is incomplete and not translated.
+(PERSON14) Okay. So -
+(PERSON11) Uh, sorry guys. 
+But it's- em, if it's just a matter of, em, hmm, power, let's say, uh, which has to be, em, taken for your important demo.
+We can also, uh, be available to perform an installation of the punctuation and segmentation worker on our server if you help us to let it run it,
+and in order to provide it as test worker, uh, on the mediator.
+(PERSON6) Uh, we can think about that, but it's- it's also a matter of <unintelligible/>.
+(PERSON16) Okay, of co- of course, I- I- of course, uh, I perfectly understand that it's <laugh/> an asset, <laugh/> let's say- 
+em, but if- which- there's something we can do in order to help you on th- hm, this thing, we are available, of course.
+(PERSON6) Uh, thank you. 
+Em -
+(PERSON16) <laugh/>
+(PERSON6) we are quite busy right now in preparing for this- uh -
+(PERSON16) No.
+(PERSON6) for this template.
+(PERSON16) Okay, okay. 
+(PERSON6) <unintelligible/> demo at- at [ORGANIZATION3], so it's- it's not just a m- a matter of- of process or power, it's also a matter of manpower, and -
+(PERSON16) Okay, okay. 
+I understand. 
+(PERSON14) Yeah. 
+Okay, so, I was-
+we will definitely need m- an integration of [PROJECT3] e- MT or [PROJECT3] server to [ORGANIZATION8] platform, so I suggest to add these functionality to- to the integration, 
+and, for example, to ignore incomplete sentences and don't translate them and wait for- f- for the sentence-level MT from [PERSON4]. 
+Okay?
+Does- does anyone agree?  
+(PERSON16) Yes.
+(PERSON7) We've also been thinking whether we can have some incremental functionality, em, which returns- whi- which has its own policy bout return translation by common input.
+Um, what we- one thing I ha- haven't quite figured out is, like when you say you're submitting this multiple times. 
+Uh, are you submitting partial sentences?
+is the next thing that is being submitted just the remainder of the sentence,
+or is the full sentence that I can submit it? 
+How does- how does the -
+<unintelligible/>
+sequential output start? 
+(PERSON6) As far as I understand, the sentence is always transmitted from the start of the sentence,
+but I've also linked, uh, the paper that we published, uh, at Interspeech,
+that describes at least part of the process.
+(PERSON7) Okay.
+Thanks. 
+(PERSON14) Hm.
+Yeah. 
+So, what is this?
+<parallel_talk/> Low <parallel_talk/>
+Okay.
+S- 
+hmm.
+<parallel_talk/> No multisource <parallel_talk/>
+Uh.
+Yeah.
+We-
+this is what [PERSON8]'s wr- wrote us.
+<parallel_talk/> Where the t- <parallel_talk/>
+We might have some experimental multit- uh, multisource system, but it's not- 
+not necessary.
+Yeah.
+(PERSON6) So, for clarification, multisource means the- the system accepts multiple input streams at the same time?
+(PERSON14) Yes. M- mul-, em, input from multiple languages, or f- either from multiple languages, or 2 s- different sources from <other_yawn/> one language. 
+(PERSON6) Is that supported by the mediator?
+Can you do that?
+(PERSON14) Uh, I don't now. <other_noise/>
+(PERSON16) It's not yet supported, but we have to plan it, actually, because it's
+a- a well-known- well-known <other_noise/> requirement. <laugh/>
+(PERSON14) Yeah. 
+Yeah, okay. 
+And is it going to be available f- until June, [PERSON11]? <other_noise/>
+(PERSON16) Uh, no, sorry.
+(PERSON14) Okay, no problem.
+Hmm.
+<parallel_talk/> Not in [ORGANIZATION8] mediator in June. <parallel_talk/>
+So, we need to- then we need to decide who is going to prepare which MT- which translation.
+So, thanks [PERSON4] that he- he indicated the languages.
+(PERSON12) Yeah, so this would be a single multi-target system, which does translation out of English.
+Em, so I currently have a system that does translation,
+into all of the [ORGANIZATION7] languages, -
+(PERSON14) Mm-hmm.
+um, but that's probably not optimal, 
+that's probably trying to do too many languages in one system.
+(PERSON14) <other_yawn/> Yes.
+(PERSON12) Em, or I will train up the system that just covers, uh, the target languages we need for- for this event.
+(PERSON14) Mm-hmm.
+Yeah.
+Great.
+And in- an- and [PERSON2], in the mediator I already saw some- s- some of your MT systems. 
+It was into Italian, Spanish, maybe French.
+(PERSON6) We have systems into German, English, Italian, French, Spanish, and Portuguese,
+I believe.
+(PERSON14) Yes.
+So can you write which of the systems do you have? like here?
+You have English to French, right? or i- was it German to French?
+(PERSON6) Em, we ha- I think we have all directions within- wit- within at least <other_yawn/> 5 languages, we have all directions.
+Em, I don't know about Portuguese. 
+(PERSON14) Yeah.
+So please, if you have English to French, or English to German, or any of these directions, write it here,
+and we will know that <other_yawn/> we don't need <other_yawn/> -
+And then-
+yeah.
+Yeah, we need to decide who is going to integrate [PROJECT3] MT into [ORGANIZATION8].
+S-
+I- I think this is either us, the [ORGANIZATION5], or [ORGANIZATION4], because we are going to use [PROJECT3], right?
+(PERSON12) Uh, yes, we will be using [PROJECT3] server, em, 
+or maybe a wrapper around [PROJECT3] server. 
+(PERSON14) Yes.
+(PERSON12) Em, uh, currently, we have no experience of rooting, em, uh, the workers for, uh, the [ORGANIZATION8] platform. <other_noise/> 
+Like if we had- if we had an example for a different translation system, maybe we could adapt to. 
+ Well, I would -
+(PERSON16) Well, <unintelligible/> should GitHub repo.
+There are the example.
+But- please feel- write me, so we can have, uh, a one-to-one discussion over support on this topic.
+Of course, we will provide you all the documentation required.
+(PERSON12) Okay, thank you.
+(PERSON14) Yeah.
+(PERSON14) Yes, -
+(PERSON16) You're welcome. <other_noise/>
+(PERSON14) there is- I can show you there is-
+<parallel_talk/> exampleClient, SMT <parallel_talk/> yeah, this is 4 clients.
+there should be-
+yeah-
+backend SMT-
+this is the way how to start.
+(PERSON12) Oh, okay, I- I missed that one.
+One minute?
+Okay. 
+(PERSON14) Yeah.
+So can- can you do it? 
+Because, hm, there is some sign-
+(PERSON12) Uh, we-
+we- we can try.
+Um.
+Yeah, ho- hopefully, it will work out with a support form.
+Uhm, [PERSON11]?
+(PERSON14) Yeah.
+(PERSON6) So I- I will link the GitHub page to our, em, MT worker systems. 
+Em, of course, the s- the series code, it's still a <unintelligible/> from being a deployed system, but if you're <other_noise/> interested, you can use that,
+it already has integration of 3 different, uh, MT systems.
+It should not be that difficult to integrate another one.
+If you want to -
+(PERSON14) Yeah.
+(PERSON6) do that. 
+(PERSON14) Yeah.
+So, this is perfect, that [PERSON4] is going to do it, because some C programming is necessary to do it right now.
+I'm not a real expert in it.
+So thank you, [PERSON4].
+(PERSON12) Okay, no problem.
+(PERSON14) Yeah. 
+Then we need some lifestream selection, cause at the conference we will have, hm, several options for- se- several sources of German interpreter- o- or German interpreters, or source- source, or respeakers, 
+and we need- we need another skilled interpreter who will change which stream is going to be the main one, depending on the quality of- of the sources.
+And this is something between worker and client.
+<other_yawn/> We need to- we need the graphical user interface, or some- some interface to- to- to connect the sources into MT or mediators, or s- e- etcetera. 
+Do you understand what- what do we need?
+<other_noise/> what is this?
+(PERSON17) Uh -
+(PERSON14) or should I repeat?
+(PERSON17) No.
+If- okay, I try to repeat it in order to check if I correctly understood. 
+(PERSON14) Mm-hmm.
+(PERSON16) You need some kind-
+probably on the presentation platform, let's say-
+you need, em, a- a kind of, em, <other_yawn/> graphical user interface in order to select the s- stream sources for, hmm, the- the transcription output.
+(PERSON14) Yes. 
+(PERSON16) Okay. 
+Uh, it- it's- it's planned to be like this. 
+(PERSON14) <other_yawn/> Okay. 
+And this is going to be for- uh, this is one- one session for the organizers who distribute it for others, right?
+It's- it's not for the- it's not that every user can use- or- ca- can choose their f- their- i- thei- their output.
+(PERSON16) No- no. 
+No, no, no, no. 
+Of course, it will be protect by credentials. <laugh/>
+(PERSON14) Yeah, okay.
+So, s- there wil-
+one organizer is going to control it for all- <other_yawn/> for the whole audience. 
+Okay, so-
+so [PERSON11] is going to prepare it? 
+(PERSON16) Well, um, <other_yawn/> it will be part of the presentation platform, and -
+(PERSON14) Okay.
+(PERSON16) when we are ready, we will also share with you, uh, functional requirements and the word documentation, in order to check altogether.
+(PERSON14) Yeah, great.
+So, we are moving to presentation platform, the next point.
+<parallel_talk/> The platform must <parallel_talk/>
+Yeah. 
+Yeah, thi- these are some requirements what the <other_noise/> presentation platform will need. 
+That- <parallel_talk/> It must jump on available session if we restart the EB client <parallel_talk/>.
+(PERSON16) Uh, <other_noise/> okay, this is actually, uh, em, a- a reasonable request, <laugh/>
+(PERSON14) Yeah, yeah.
+(PERSON16)  uh, but, probably, it will not be, uh, ready as functionality for June. 
+However, I take a note and we will introduce you in functional -
+(PERSON14) Yeah.
+(PERSON16) requirements.
+(PERSON14) Okay.
+<parallel_talk/> Probably not in June. <parallel_talk/>
+Yeah.
+[PERSON8] promised to do video grabbing and streaming, in addition to global subtitles for the main screen.
+So for- for the June event, we need some version of- of presentation client, or worker or something, 
+and he can add it to- to- to- to the screen.
+He already has some scripts to it.
+<other_yawn/> Yeah. <other_noise/>
+<parallel_talk/> Fallback needed. <parallel_talk/>
+Okay, s- so please take this note, [PERSON11].
+(PERSON16) Yep.
+Em, <other_yawn/> well, actually, I'm not, em, hm, so experienced in video streaming and so on, -
+(PERSON14) Yeah.
+(PERSON16) but [PERSON5] told me that everything should work until, um, everything is streamed using HLS protocol, -
+(PERSON14) H -
+(PERSON16) which is the- the usual, streaming protocol for video. 
+Then if -
+(PERSON14) Yeah.
+(PERSON16) slides are streamed as video, let's say, -
+(PERSON14) Mm-hmm.
+(PERSON16) em, should work.
+(PERSON14) Yeah.
+But, of course, when we, hm, have all the requirements and the architecture are ready, we can check again everything together,
+in order to check if we missed something, or if there's something more required, or if we completely misunderstood something. <laugh/>
+(PERSON14) Okay.
+I think, for June, we need either Website which shows the subtitles as they are going on, or- or it can be command-line application.
+And- and we write -
+(PERSON16) But -
+(PERSON14) the s- the script to put the- the browser window to the- to the screen with- with presentation. 
+(PERSON16) <other_yawn/> Well, actually, it's, hmm, the idea is to prepare a Web application.
+(PERSON14) Yeah.
+(PERSON16) Uh, since- em, I'm going through the literal documentation and the requirements are both: 
+User have to, uh, ch- hm, have a- assess to stream slides or stream video and subtitles on their personal devices, -
+(PERSON14) Yeah.
+(PERSON16) uh, but, of course, when it's all web-based, I think that it will work well also full screen on the main screen.
+(PERSON14) Yeah.
+Okay, perfect.
+(PERSON16) We- um, a- actually, I- I'm not really experienced in such, uh, em, technical data, but, hmm, my opinion should work.
+(PERSON14) Yes. <other_noise/>
+Yes.
+The next- next question is that- whether- if we are going to the- the English ASR adaptation based on documents provided by participants.
+I think th- that we-
+[PERSON8] already wrote an e-mail that we're not going to do it, right?
+This is question to [ORGANIZATION3]. 
+Ar- are you there, [PERSON2]?
+(PERSON6) And so for- for the- a demo this month, we will not be able to do that.
+(PERSON6) We are, uh, -
+(PERSON14) Okay.
+(PERSON6) already <unintelligible/> our ASR workers for our own demo.
+(PERSON14) Hmm.
+(PERSON6) Um, can you remind me what is the event in June?
+(PERSON14) It's- it's on- on the last weekend of June, 28th until the 30th of June.
+(PERSON6) And that is? wha- what event is that?
+(PERSON14) This event is meeting of maybe 15 members of [ORGANIZATION7], a- and they're going to discuss something on, uh, the value-added tags.  
+<other_yawn/> And it will be in, uh-
+they- they are going to speak in English-
+or all the participants from like 5 countries or- or something like this-
+and w- and we can- <other_yawn/> we can, uh, interpret them, anyway.
+(PERSON6) So ther- there may have been some miscommunication.
+Then what is the event taking place at, uh,16th of May?
+Then-
+(PERSON14) The- the event on 16 of May? There's not going any event on this, I think. 
+It's next week, 16. 
+Yes, because ou- our demo is next week -
+(PERSON14) Aha. 
+(PERSON6) and I understood that the- event was in fact that week. <other_noise/> 
+<unintelligible/> serious miscommunication.
+(PERSON14) Yeah.
+(PERSON6) Um -
+(PERSON14) Next week there is another call, on next Friday at 10 AM,
+so we need to discuss, probably, progress on all these tasks.
+Yeah, but I do not now any other event. <other_yawn/>
+(PERSON6) I see <unintelligible/> in that case, some- some dates may <unintelligible/>.
+Um, so, for next month, um, we may be able to do some- some adaptation.
+Um, it will probably just involved adding some words to language model.
+(PERSON14) Yes.
+(PERSON6) With- without actual, uh, voice from the speaker we- we couldn't actually train and adapt the ASR.
+(PERSON14) Yeah, okay. 
+So-
+so I write, <parallel_talk/> Yes, you will- you will- you will try. <parallel_talk/>
+<other_yawn/> Yeah, and similar question for adaptation of machine translation.
+The Ch- the [ORGANIZATION5] can- can get some data related to the domain that will be discussed at the workshop from TAUS.
+And the question is whether we're interested.
+This is for [PERSON4].
+And if yes, for which language pairs?
+(PERSON7) This is- is this parallel data you can get? or is this monolingual data?
+(PERSON14) I don't now, probably both.
+Or -
+(PERSON12) If- if it's parallel data, we can use it for fine-tuning, I guess.
+(PERSON14) Yeah.
+(PERSON12) Em, monolingual data, I'm not so sure we- what we do with that. 
+(PERSON14) Yeah.
+<parallel_talk/> Parallel yes, monolingual no. <parallel_talk/> 
+And for which language pairs?
+I guess for all?
+(PERSON12) Yeah, any of the- the pairs _ 
+(PERSON14) Okay. 
+out of English.
+<parallel_talk/> For all. <parallel_talk/>
+And-
+okay.
+And the last question from [PERSON8] is: Which metholo- methodology to use for selecting the final models?
+Because we may have several ASR models, several MT models, 
+and we need- and they will be adapted to different domains, or they will have different quality, different robustness to foreign accents,
+and there will be- it will be, uh, necessary to switch them online on the conference, based on some metric, either- e- either by some expert who will switch- switch it-
+who will look at the outputs and switch it online or use some test sets.
+So what- what do you suggest?
+M- my suggestion is that we're probably not going to solve this problem, because we will happy that we- we will have at least one system for all functionality. 
+But he probably-
+f- for that- which test sets to use?
+like Ted Talks, or- or create our own ones?
+If- if we're able <other_noise/> to get parallel data for TAUS,
+then, of course, we could hold out some of that <unintelligible/> -
+(PERSON14) Data?
+Data from what? I didn't understand one word.
+(PERSON12) Um, so in- in the previous Python, um-
+you're saying we can get, um, VAT data from TAUS.
+(PERSON14) Yeah.
+(PERSON12) So, if there's- if there's parallel data, we can use that for the MT test sets.
+(PERSON14) Okay.
+Yes. 
+<parallel_talk/> Parallel from TAUS. <parallel_talk/>
+Yeah, this is good idea.
+(PERSON7) I- I'm a bit worried that we might not be able to decide it too early, because, uh,
+even if we have some test set and then we measure translation quality on that, um, there will also be some interactions like with i- incomplete inputs that we'll have to, um,
+see how these in- uh, different modules interact, 
+and how robust, for example, machine trans- different machine translation systems we'll have are to that.
+(PERSON14) Hmm.
+(PERSON7) There might also be difference in t- differences in terms of lack that might be relevant for the conference to make the decision.
+(PERSON14) Yes.
+<other_yawn/> Yeah.
+So, thank you ev- everyone.
+I think we are done.
+Or does anyone have <other_noise/> any questions or comments? or anything?
+(PERSON16) No.
+<other_yawn/> If not that a-
+okay, so thank you everyone, and s- let's call again next Friday at te- 10 AM.
+(PERSON16) Okay, thank you so much.
+(PERSON7) Alright, thank you, bye.
+(PERSON14) Yeah. Thank you, goodbye. 
+(PERSON16) Bye.
+(PERSON3) Bye-bye. 
+(PERSON12) Goodbye.

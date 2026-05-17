@@ -1,0 +1,16 @@
+[PROJECT1] pre dry run 3.4. 2019
+Attendees: [PERSON21], [PERSON16], [PERSON2], [PERSON14], [PERSON20]
+Purpose of meeting: Discussion over organizing meeting.
+
+Summary
+• Discussed technical parameters
+• Time planning, counting time, number of headsets
+• Discussed needed accesories
+
+		Milestones
+		• going to test ASR
+		• going to do live transcribing
+
+
+
+Minutes submitted by: [ANNOTATOR1]

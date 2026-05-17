@@ -1,0 +1,890 @@
+(PERSON8) [PERSON3], seems like you may have your names set from a previous call.
+(PERSON3) <laugh/>
+(PERSON8) Sorry.
+(PERSON3) Yep.
+So are we still missing anyone?
+Uh, actually, we have [ORGANIZATION4], we have all the research partners, we have [ORGANIZATION6].
+So it's-
+I think that we are ready start, uh, because uh, w- w- well the [ORGANIZATION3] may join, or may not join.
+I don't know.
+They're not part of the project anyway.
+So thanks a lot for uh, for coming to this very late uh, m- meeting before the submission of of the deliverables.
+Uh, I hope that you are all looking at the uh, document, 
+and I would just like to draw your attention to uh, the of formal rolls,
+that I had to write in the most boring deliverable of all, the project management guide.
+And uh, there for every work-package, there is someone's name.
+So please make sure, that you are not to oppose to listing these names.
+This is the 1st time will actually it's write this down somewhere.
+And we also have uh, deliv- uh, uh, representatives for each partner.
+Uh, that's for uh, the the formal voting, if there would be any.
+And uh, in the-
+If you are if you are interested, then you can read this deliverable, uh, the uh, the whole project management guide.
+And there, I always try to highlight that we rely on your own responsibility and your own activity, 
+and we don't really need to to do any voting in any conflicting situations
+because we do everything in agreement and we find agreement well, ahead in uh, time.
+So I'm I'm grateful that this team of of all of you works as great, as I described in that deliverable.
+<laugh/>
+I I hope it will survive like that.
+Um, and uh, I just send this uh, the the link to this to [PERSON19], who agreed to review that uh, full text.
+Uh, so uh, I think we can uh, hope, that even if he is only a very quick with the reading
+that the deliverable would okay.
+And now, lets uh, go over all the deliverables that are due tomorrow evening.
+And uh, I would like everybody, the the main uh, the author of that, 
+to uh, talk about it, to tell us what is the status, 
+whether it has been reviewed, and with is completely finished and ready for shipment.
+Uh, I would like to draw your attention to the 1st page, actually,
+where it always state, that that like the cover page the the big table, which says, what type of deliverable it is.
+And in the template, there is accidental left the word demonstrator.
+And none of the current deliverables are demonstrators.
+So it should always state report.
+Then, in many cases, the authors are not filled, or or not filled some time ago.
+And also, the contributing partners should list the partners, who have been involved in in the work uh, behind that uh, uh deliverables.
+And also the date, that should be tomorrow.
+So well, the main author, please, always open the uh, [ORGANIZATION1] again
+and check, whether even these formalities are are okay.
+So um, I'm I'm sorry for being again so immediately uh, uh, in in in the work, <laugh/>
+uh, and I hope that you are all doing well.
+Uh, so we can uh, really do this uh, uh, a boring part and and and and submit in time, 
+and uh, then have uh, well, some relax in the summer.
+So lets now go over the uh, deliverables.
+So the 1st one-
+(PERSON16) <unintelligible/>
+(PERSON3) The 1st one is supervised, or uh, was written mainly, uh, or or organized by [ORGANIZATION5], right?
+So [PERSON8], you are the main uh, person behind the uh, the ASR systems?
+(PERSON8) I I was not the main person by that, I'm uh, think it was [PERSON9].
+(PERSON3) Yeah.
+So what is what is the status there?
+Is it uh, is it fully finished?
+Uh, ha- has it been reviewed?
+(PERSON16) I think I can compl
+(PERSON8) Again, I I wasn't the m- the main module downloaded, 
+but as I can as I can see from the document it uh, it's definitely been reviewed,
+so I suppose it's been uh-
+(PERSON16) So I got a mail, cause I reviewed this,
+and it was it was [PERSON19] and [PERSON9], they were mainly responsible for it.
+Um, and see, yeah, <unintelligible/> much fine.
+Um I got a mail from [PERSON19] yesterday morning saying, that he used kind a go through the changes.
+And um, we just had some question about this question about the scope of it, 
+because uh, the deliverables called some like- yeah, report 1 on an initial ASR systems.
+So [PERSON19] did not include some of the work there, 
+especially him and [PERSON9] have done through the reporting period,
+and he said, he wanted to keep it that way, 
+because he would then reported this work and periodic report.
+(PERSON3) Okay.
+(PERSON16) I didn't-
+And I said: „Okay, that's the way, want to do things."
+Um, as, long as a report is w
+I was concerned that the work wasn't being reported.
+Uh, as long as the reports somewhere, I think that's probably okay.
+(PERSON3) That is okay.
+(PERSON16) What your view in it is?
+(PERSON3) The problem is, that we don't have the periodic reports, uh, anywhere among the deliverables.
+(PERSON16) I know that.
+But they will be done before the review wanted?
+(PERSON3) Yes, uh, I don't know know, when they uh, like when they will formally ask for it, 
+whether they will at all, or maybe they will not ask for it at all-
+(PERSON16) But it will be s
+(PERSON3) But it will be-
+(PERSON16)  60 days.
+(PERSON3) Yes I think it's it's within 60 days uh, after the end of the period.
+(PERSON16) Yeah.
+(PERSON3) Yes.
+So uh, normally, like in the past, there was always a deliverable, which-
+And I think um, well, there is a risk uh, that uh, o- uh, 1 of the deliverables,
+that was originally planned for  uh, a month 6 uh, 
+formerly, was postponed by us to month 18.
+(PERSON16) Um-hum.
+(PERSON3) Uh, and that will be this report.
+Uh, so I hope, we can still uh, uh t- the like uh, describe it as a periodic report.
+(PERSON16) Um-hum.
+(PERSON3) Which will be written after the end of period 1, so after uh, June 30, 
+but surely before well, before the review.
+(PERSON16) Yeah, I mean it is-
+(PERSON3) So in early summer.
+(PERSON16) He talked about the progress report.
+He would describe the complete work and the progression form, just assume me is essentially the periodic report or the 1, we're talking about, anyway.
+(PERSON3) So I'll try to figure out what is uh, needed in the system.
+(PERSON16) Um-mm.
+Sorry, it's bit late for-
+(PERSON3) Yeah.
+(PERSON16) Within this.
+But-
+(PERSON3) Yeah, yeah, yeah.
+(PERSON16) I would have <unintelligible/>.
+Yeah.
+<laugh/>
+Um, I I emailed [PERSON19] last week, 
+and I heard back from yesterday morning so-
+(PERSON3) Yeah, yeah.
+So uh, I have this vague impression, that yes, something could be uh, could be expected from us.
+Uh, and uh, I was totally overloaded with the uh, other deliverables.
+So I didn't-
+(PERSON16) Um-hum, um-hum.
+(PERSON3) I didn't uh, oh, uh, hm, I cannot log into the SIGMA portal.
+The continuous reporting doesn't work.
+It says uh, uh, not found 404, so-
+<laugh/>
+(PERSON16) Great.
+(PERSON3) <laugh/>
+Yeah, yeah, yeah.
+So I cannot look in the in the portal of the moment at all,
+uh, but uh, I agree uh, with the experience of [PERSON19] and uh, you as well.
+Uh, we will have to provide a progress report, or periodic report, whatever it is the name.
+It will have to be ready well, had before the review, 
+and we have the review date uh, uh, already uh, [PERSON16], right?
+Yeah.
+(PERSON16) Yes, September <unintelligible/>.
+(PERSON3) Yeah, yeah, yes it's I think like 8th uh, of September.
+Uh.
+(PERSON11) 8th of September, yes.
+(PERSON3) Uh, so I think, that we should we should probably uh, have this periodic report ready by the end of July, uh, uh-
+(PERSON16) Um-mm.
+(PERSON3) Even if we are late according to the to the SIGMA.
+But it's it's about work, that has been done in the past.
+So for people like [PERSON19], it will involve a little bit more of writing.
+(PERSON16) Yeah.
+(PERSON3) Because-
+(PERSON16) Yeah.
+(PERSON3) They uh, didn't put uh, some of these details into the deliverables.
+For most of us, we have already put uh, our work into the deliverables because they-
+(PERSON16) Yeah.
+(PERSON3) Uh, thematically match and and then-
+(PERSON16) Yeah.
+(PERSON3) The a progress report will simply say: „Well, it's in the deliverable, which has been submitted."
+(PERSON16) Yeah, I mean, I meant I'm well in favor of not repeating stuff in the deliverables.
+(PERSON3) Yeah.
+(PERSON16) I I think, that reviewers will thank us for not.
+(PERSON3) Yeah.
+(PERSON16) Having access of re- repetition.
+(PERSON3) Yeah.
+Yeah.
+Uh, okay, so uh, back to uh, D2.1 on initial ASR systems.
+Uh, I- when I browse it it there, yeah, there is just little bit uh-
+Yeah.
+So uh, so the response from [PERSON19] was that he will finish the edits during today, right?
+(PERSON16) U, he didn't s- he didn't think give the time, he just said, he will he'll- 
+he thank thanks the review, he's gonna work in the edits 
+and he talks about this this this crush-
+(PERSON3) Yeah.
+(PERSON16) In this scope.
+(PERSON3) Yeah, because there is still lot of uh, a lot of comments by you, which are unresolved.
+So [PERSON8], if you can uh, uh, if you can make sure, that [PERSON19] uh, 
+or you, or [PERSON9], or whoever uh, simply finishes uh, all the outstanding questions?
+(PERSON16) Yeah, I'm-
+(PERSON3) By [PERSON3].
+(PERSON16) I think, [PERSON8] wasn't involved in that, was he?
+Is that right?
+(PERSON8) I wasn't, but I have contact to [PERSON19].
+(PERSON16) Okay.
+(PERSON3) Yeah-
+(PERSON16) S- some someone from [ORGANIZATION8] was involved.
+(PERSON3) Uh, that's uh-
+(PERSON16) <unintelligible/> from [ORGANIZATION8].
+(PERSON3)  Yeah, yeah, yeah, that's right.
+So I'll make sure, that the colleagues of mine will, uh, will do their parts.
+And-
+Yeah, there is also something.
+So so everybody, uh, every author should make sure uh, during today, that these questions are um, resolved.
+And [PERSON3], is there anything critical? 
+So that if w- we tomorrow uh, the evening-
+(PERSON16) No, I don't think that.
+(PERSON3) Yeah.
+(PERSON16) No I I don't think there is anything critical.
+I mean, this our a main question, that was about the scope whether we should-
+(PERSON3) Yeah.
+(PERSON16) But you know.
+(PERSON3) Yeah.
+Okay.
+So that looks uh, reasonably good.
+That's perfect.
+Uh, so lets move uh, so reviewed uh, yes, uh, done not yet.
+So here, I will say uh, that, uh, uh <parallel_talk/> Every author uh, to resolve uh, uh, [PERSON3]'s questions today. <parallel_talk/>
+Okay, uh, then, the deliverable uh, on spoken language translation system.
+Uh, it has been f- finished, according to the m- main author.
+It has been reviewed by [PERSON12].
+So what is the uh status there?
+Are there any?-
+(PERSON16) I went through the review comment on Saturday and-
+(PERSON3) Um-hum.
+(PERSON16) And I have I have addressed them.
+And there was a couple queries, they went [PERSON8] and [PERSON11].
+(PERSON3) Um-hum.
+(PERSON16) Um, just about, I think, uh, [ORGANIZATION6] would ask some questions about the normalization.
+I'm not sure <unintelligible/> to-
+Well, I I'd like [PERSON8] and [PERSON11] just to a look into the they can resolve.
+(PERSON3) Um-hum.
+(PERSON16) I think in [PERSON8]'s case it may be the-
+I think they-
+[ORGANIZATION6] is asking <unintelligible/> evaluation figures <unintelligible/> guess.
+We don't have such figures, then it's not much we can do.
+This stage um, but yeah, just have a quick look at.
+It shouldn't take long to resolve them.
+Um, other then then I I can have a- I should have a quick read with the deliverable and then we're done.
+(PERSON3) Yeah, okay.
+That's great.
+(PERSON16) And I I can give you it tomorrow.
+I assume, when you said tomorrow evening, you don't really want, 
+you don't really mean um-
+(PERSON3) A midnight.
+(PERSON16) Night, midnight.
+(PERSON3) Yeah, uh-
+(PERSON16) I assume-
+(PERSON3) Well, that that's the last resort, but I would prefer to do it earlier.
+<laugh/>
+(PERSON16) Well, I know, I know you should say that that it is-
+I mean, I'll do it tomorrow morning, I would expect so-
+(PERSON3) Yeah.
+(PERSON16) I assume you're looking a list by closing business tomorrow.
+(PERSON3) Yeah, yeah, yeah, yeah.
+I would been-
+(PERSON16) And hopefully submission system is not down.
+(PERSON3) And hopefully, submission system is not down, yes.
+It is unknown.
+So w- we maybe they're getting ready for the flood of re- uh, of deliverables.
+Uh, yeah.
+(PERSON16) Uh, maybe yeah.
+<laugh/>
+(PERSON3) <laugh/>
+Yeah.
+(PERSON16) So I I hopefully I get that to you tomorrow morning, actually.
+(PERSON3) Um-hum.
+Yeah.
+That's really great.
+So I see [PERSON11] on the call.
+So [PERSON11], can you just please confirm, that you will the?-
+That you have heard [PERSON3]?
+(PERSON11) Yes.
+(PERSON3) Yeah, perfect.
+Okay, thank you.
+So that's the 2nd one, uh, so I will uh, uh-
+<parallel_talk/> Right here, only uh, [PERSON8] plus uh, [PERSON11] minor answers. <parallel_talk/>
+(PERSON11) Um-hum.
+(PERSON3) Um, yeah.
+Uh, then summarization.
+So that's something, that we have uh, written up, and [PERSON9] has reviewed.
+I don't know whether uh, [PERSON3] you know, anything from [PERSON9], what-
+(PERSON16) [PERSON9] is on the call, isn't he?
+(PERSON9) Yeah, I'm I'm in.
+(PERSON3) Oh, oh, sure!
+<laugh/>
+(PERSON3) Yeah, yeah I fo- for some reason, I I I keep scanning the names, 
+and you are you are hidden among your books, so.
+<laugh/>
+(PERSON9) Oh, okay,
+Um.
+(PERSON3) Yeah.
+(PERSON9) Yeah.
+So I reviewed this uh, last week.
+Um, I think my main comments were like overall uh, write well, it was e- explained.
+Well, um, but there was maybe a a lack of detail in places.
+It could have used a few numbers.
+(PERSON3) Um-hum.
+(PERSON9) If you fill more examples, just to illustrate things, 
+and also in there were um, I think 4 papers include it-
+(PERSON3) Yes.
+(PERSON9) The the dependences.
+(PERSON3) Um-hum.
+(PERSON9) Those 1 actually even mentioned in the main text, so there should be some kind of link.
+(PERSON3) Yes I-
+(PERSON9) I- I- ideally a summary of each each paper, like maybe a paragraph, or so.
+(PERSON3) Yeah, yeah, yeah.
+This is some-
+(PERSON9) At least some kind of link.
+(PERSON3) This is something, that I asked [PERSON10] to do uh, independently last week as well,
+uh, and I don't know whether he is already done that, uh, or not.
+So-
+(PERSON9) I decide, I just took look this morning,
+and um, it doesn't look like it's changed since-
+(PERSON3) Yeah.
+(PERSON9) Since later.
+(PERSON3) Yeah, yeah, so that's important thing.
+(PERSON9) Yeah.
+(PERSON3) <parallel_talk/> [PERSON10] to uh, summarize uh, the 4 attached papers. <parallel_talk/>
+Uh, and then well, with the numbers and illustrations, 
+I'm afraid that nothing more will uh, be edit.
+(PERSON9) That that's that's okay.
+(PERSON3) Yeah?
+(PERSON9) Yeah.
+That's not a not a big deal.
+Um, yeah, I had a few minor comments, as well.
+(PERSON3) Yeah.
+The the problem is that the the baseline output so far, are so bad, 
+that the uh, numbers and and uh, even uh, outputs uh, are not what showing at all.
+(PERSON9) Yeah, um, I can- can't <unintelligible/> impression um, as a as a reader,
+and yeah, I didn't necessarily numbers I <unintelligible/> an idea of how bad it is slightly.
+(PERSON3) Okay.
+(PERSON9)  A restrictive ex- example like, is it-
+(PERSON3) Um-hum,
+(PERSON9) Is it almost usable, or is it complete- completely hopeless?
+(PERSON3) Um-hum.
+(PERSON9) Our our current state.
+And I think, <unintelligible/> get a strong sense to them?
+(PERSON3) Yeah, yeah, okay, so we'll definitely do the the 1st part uh, 
+summarizing the the 4 p- attached papers, 
+and I'll ask to [PERSON10] to uh, if if he has examples uh, to to illustrate them to-
+But I know that he would be very reluctant to do, so.
+So- 
+<laugh/>
+(PERSON9) <laugh/>
+Okay. 
+That's no big deal.
+(PERSON3) Yeah, uh, thank you.
+Thanks a lot.
+So the next uh, deliverable is by us.
+Uh, it was actually written by [PERSON18].
+Uh, and that's on the uh, w- workshop, that we uh, prepared, 
+but never ran uh, f- at [ORGANIZATION2] Congress.
+And I have no idea whether it was reviewed by [PERSON6], or or not.
+So [PERSON2], would you would you know?
+(PERSON2) Yeah, uh, he needs to review it, not reviewed at at the moment.
+(PERSON3) Yeah.
+Uh, okay, so that's-
+P- please, do so, because we still need to uh, like edit do the edits.
+Uh, so the sooner you have it, the the better.
+W- I see, that we input the slides.
+Uh, so obviously, there is no need to like do care for revision of the slides,
+but uh, there is uh, the need to uh, to review, the text itself.
+If it's uh, complete and uh, uh, uh, if anything else would be uh, would be good to know uh, for uh, the external reviewer.
+(PERSON2) Of course.
+(PERSON3) Yeah, yeah.
+I s- I hear, that you have a lot of background noise in your office.
+<laugh/>
+So I'm happy that you are mute in most of the time this.
+<laugh/>
+(PERSON2) <laugh/>
+(PERSON3) <laugh/>
+Yeah.
+Uh, okay.
+So uh, uh-
+<parallel_talk/> This is a very important uh, to be done uh, today uh, by [PERSON6]. <parallel_talk/>
+Uh, yeah.
+Okay, and then report on dissemination activities.
+So is it actually finished?
+Or uh, what is missing there?
+Um.
+(PERSON2) <other_noise/>
+What what is miss is um, the description of the <unintelligible/> event.
+I don't know uh, which which institutions are organisation-
+(PERSON3) Yeah, yeah, yeah, this is us this is us, yeah-
+(PERSON2) <unintelligible/> okay, yeah.
+Okay, and what we need more is a little bit in the part of outlook 2020 and the conclusion.
+(PERSON3) Um-hum.
+(PERSON2) Some <unintelligible/> uh, page partner would be good, if we have somewhere.
+(PERSON3) Yeah.
+(PERSON2) Input.
+(PERSON3) Okay.
+So this is uh, so this is for every-
+Thank you [PERSON2].
+So this is for everyone.
+So first of all, I would like to thank everybody for providing their Bibtechs.
+I know, that the layout is ugly, but uh, I suggest that we'd leave it like that.
+[PERSON3], anyway, if I remember correctly mention that in the system, 
+there is some separate the tap, or the publication should be inserted.
+So uh, we'll do the reformatting when I'm able to see that tap.
+Um, and uh, for now, I think it's it's sufficient as it as it is.
+So just everybody make sure that your publications are not missing,
+that your public- publications actually made it to this list.
+Uh, I send that email uh, on Friday.
+Uh, so you only need to put your Bibtechs into the file called Biblio bib,
+and that uh, that's it, that would uh, uh, that would automatically include it.
+So please, check it actually worked.
+Uh, and then, as [PERSON2] said, uh, please have a look the outlook section, 
+which is section 4.
+And uh, th- yeah.
+What what plans do we have?
+So we have obviously uh, the Congress as a plan, 
+but uh, we also had uh, for example, the Tedx,
+uh, uh, we considered the Tedx uh, event.
+Uh, and if you have any other such events, that uh, are likely to  uh, to happen,
+then uh, consider mentioning them as an option, uh, 
+because uh, the more dissemination we do, the the better.
+It's obviously unclear uh, if such events will happen in person or remotely,
+uh, but uh, just uh, listing them here uh, is good for us,
+so that we don't forget about these opportunities and don't miss them accidentally.
+So had as anybody have any idea what what we could do?
+What would there be any?-
+No, not in a moment.
+Yeah, I'm also uh, aware only of of uh, the of the Congress,
+and actually the MT marathon, which uh, has been silently postponed, it is planned for uh, September.
+Uh, and the current plan is to uh, to run it in uh, January, 
+but we have not really uh, decided on the main organizer,
+because the the past main organizer uh, [PERSON1] <unintelligible/> will be in [ORGANIZATION7], 
+and it doesn't make sense uh, for uh, [PERSON1] to organize uh, MT marathon in [LOCATION1] remotely.
+<laugh/>
+Uh, so we're w- uh, we are not sure, who should be the main uh, person there, 
+but I'm mentioning MT marathon because they are really wanted to test the technology again.
+So I wanted uh, uh, to uh, to do a live subtitling of English uh, scientific presentations into the many languages.
+So that's why I'm mentioning it,
+and I think it it's a good idea to put in here, into this uh, deliverable, but uh, yeah.
+Uh, I see also [PROJECT1]'s uh, so [PROJECT1]'s subtitling is [PERSON15], right?
+Or is it?-
+[PERSON14]!
+I see [PERSON14] here.
+So-
+(PERSON4) No, yeah, it's me.
+(PERSON3) Yeah.
+(PERSON4) <unintelligible/> yeah.
+(PERSON3) Yeah.
+So [PERSON14], you have this uh, this German event, the CCC Conference.
+Uh, maybe that's good idea to discuss it uh, now here.
+I don't hear you yet.
+So maybe a microphone doesn't work.
+Is there any chat window?
+Yeah, so is-
+Yeah, w- wrong microphone, yes, <laugh/> okay.
+So [PERSON14] cannot uh, speak,
+but uh, I'm n- not sure, whether he emailed it to everybody recently, or only to me recently,
+there was this uh, German hackers conference CCC. 
+I don't know whether F- uh, [PERSON8] knows about it.
+(PERSON8) <unintelligible/> very much do
+(PERSON3) You you very much do.
+Okay, Yeah.
+And last time, uh, uh, [PERSON19] was very uh, a- afraid of uh, showing the system to any hackers, because uh, we never focused on security of of the solution.
+Uh, and uh, obviously, uh, our focus on the security has not changed uh, much,
+but still, uh, I would like to uh, reconsider again, if you would like to try to get to that conference, 
+to provide subtitling there because it's it's a nice stress test of of the system.
+<laugh/>
+(PERSON8) So as I remember, these uh, this is a very large conference in terms of hacker conference, as they do have 9 interpretation at-
+(PERSON3) Um-hum.
+(PERSON8) <unintelligible/>.
+Uh, well, okay.
+Yeah, I <unintelligible/> I think that could be good idea, and I think, they'll still be interested security or not.
+Um, I just checked their blog and whether or not it will happen will be known in October.
+(PERSON3) Okay.
+Yeah.
+So-
+(PERSON8) <unintelligible/> when they will give the the <unintelligible/>.
+(PERSON3) Um-hum, yeah.
+So could you mention that uh, here,  in the outlook as an option?
+That we are like considering, and even all the concerns that uh, we may not be ready-
+Wha- what we should be-
+So is it uh, is it bigger than the [ORGANIZATION2] Congress?
+The [ORGANIZATION2] Congress would be like-
+(PERSON8) What is been <unintelligible/>, again?
+(PERSON3) Uh, that's f- 400 if I'm not mistaken.
+(PERSON8) Oh, definitely bigger.
+(PERSON3) Yeah.
+So-
+(PERSON5) H- Hello?
+(PERSON3) Yep.
+(PERSON5) <another_language/>
+(PERSON3) <another_language/>
+Um-hum
+So [PERSON14]?
+(PERSON5) <another_language/>
+(PERSON3) Yeah.
+(PERSON5) Uh, sorry.
+Yeah, I've I f- I think, that especially since it will will be held in Leipzig, if it ever happens,
+uh, I think it's like 15000 some people like this ?-
+(PERSON8) <unintelligible/> was 18000.
+(PERSON3) Oh, okay.
+(PERSON5) Like 5 halls and really huge once.
+Also, I'm not sure if they've now letl u- let us, but yeah.
+I think, it would be nice to have anything-
+(PERSON8) <unintelligible/>.
+(PERSON5) Sorry.
+(PERSON8) And I mean, they will want to demo live translation system.
+We don't really to do <unintelligible/>.
+(PERSON3) Yes, exactly.
+(PERSON5) A good point.
+Also, yeah, it a an opportunity t- to test it on something, because this year will be probably-
+We have very few events.
+M- when I ask, if we will if [ORGANIZATION3] will be doing uh, anything that uh, uh, uh,
+well, where we may be would test, um.
+I don't think they have many things plan, so-
+(PERSON3) Yeah, yeah.
+(PERSON5) I don't m
+Well, it can happen, but I don't think uh, they can plan an international event, 
+and then invite us, and uh, um, well ah.
+Well, mm, how to say it?
+Well the things go slow, so the doing that-
+(PERSON3) Um-hum.
+So there is no chance-
+(PERSON8) We does not-
+(PERSON5) I don't think the-
+Yeah.
+I don't think, it will happen.
+(PERSON8) <unintelligible/>.
+They they can absolutely like will decide in October,
+and the reason they will decide in October is because it's all organized by volunteers, generally motivated more volunteers.
+And I think, if they are interested in, in what we are doing,
+then they will have no problem uh, inviting us in October and and organizing all that stuff.
+O- or we o- 
+Inviting us on the actual event.
+That's that's the point of mechanism.
+They'll they'll said then yeah.
+(PERSON3) Um-hum.
+(PERSON5) If they are interested.
+(PERSON3) Yeah, okay, so [PERSON8]-
+(PERSON8) Yeah.
+(PERSON3) I would like to ask both, [PERSON8] and [PERSON14] to keep uh, an eye on that
+uh, because I'm may forgot forget, and I may not look uh, at it in October.
+So lets not miss this opportunity.
+Lets lets uh, uh, lets plan trying it.
+Uh-
+(PERSON8) I I can say, ahead of time that while I'm interested, 
+I don't think I would be able to attend, actually.
+(PERSON3) In person?
+(PERSON8) Yeah.
+(PERSON3) I don't know the dates myself, so it's uh-
+(PERSON8) It's it's between Christmas and New Years.
+(PERSON3) Oh, yeah, well, I know that I won't be able to uh, to attend.
+So-
+<laugh/>
+I'm I'm tot- I'm totally busy with uh, with a family during that time.
+Uh, so and also [PERSON15] uh, will be already in Germany by then, 
+<censored/>
+Uh, and-
+<laugh/>
+Yeah.
+Uh, and um, he uh, over the Christmas the break, he could actually help us.
+So this is this is more promising.
+<laugh/>
+I don't want to uh, to uh, to commit [PERSON15] to anything without uh, his 1st uh, 1st discussing it with with him so.
+So, but there is the the option, and we are trying to get um, substitute uh,  people, obviously.
+Uh, so so if w- that that is definitely necessary for the [ORGANIZATION2] Congress.
+So there [PERSON15] will try to get back to [LOCATION1] for the [ORGANIZATION2] Congress
+and gets like uh, an excuse from missing some of the lectures in in Saarbrücken,
+uh, but we need someone, who will uh, regularly uh, test the systems before the event.
+So I'll let you know uh, when when I successfully have a person.
+I have 1, who is the very skilled, but he is now still in [LOCATION2],
+and and it's very uh, difficult to to get him over.
+Uh, so we'll see.
+Uh, so this is work in in progress on the on the management uh, point of view.
+Uh, so uh to to conclude the events uh, I've uh, edit the CCC in Leipzig, 
+uh, the MT marathons in [LOCATION1], like a placeholder for that, into the section.
+Uh, and also the regular Monday seminars.
+Uh, I would like to ask others to add uh, their other ideas,
+uh, so the-
+If you know about Tedx uh, or anything, then please, propose these opportunities.
+And that's probably it.
+Uh.
+So [PERSON16] was reviewing this deliverable, uh, right?
+So was there anything else that uh, that was like uh, bad and should be fixed uh, before sending it?
+(PERSON11) Well, I fixed slightly the the executive summary, and then-
+It-
+(PERSON3) Yeah.
+It it is the a c- complete paper and- like complete document and if if if there is- if the deliverable is too bad, then the reviewers will tell us and we will have to uh, redo it.
+Uh, that that has happened in other projects in the past,
+and it's not too bad if if it's just 1 deliverable.
+But this 1 is like actually, um, I think it's fairly uh, complete, it's it's lengthy and-
+(PERSON11) I tested 1 section is missing there.
+The-
+(PERSON3) What?-
+(PERSON11) The 1st one the <unintelligible/>.
+(PERSON3) Yeah, the J <unintelligible/> yeah, yeah, that's us.
+Uh, okay.
+<parallel_talk/> So uh, here to summarize, uh. <parallel_talk/>
+So it was actually reviewed, yes.
+But what is uh, what is needed is <parallel_talk/> uh, everyone uh, propose outlook on events and that's especially [PERSON8]. <parallel_talk/>
+Uh, maybe F- it would be better I think, if [PERSON8] writes about CCC uh, than [PERSON14].
+<parallel_talk/> Uh, uh, [PERSON8] to write about CCC uh, [PERSON17] about uh, [LOCATION1] events, um. and then uh, what else was there?
+No, that was it. <parallel_talk/>
+Yeah. 
+(PERSON16) <unintelligible/>.
+Sorry, well, I guess we're missing Metaphorum because we did-
+(PERSON3) Yes, yes.
+Uh, so uh, do you know anything about it?
+I'm not following any updates.
+(PERSON16) I I was there, but yeah, that was all I know about it.
+Um-
+(PERSON3) Yeah.
+(PERSON16) No matter-
+No no for I look, in fact we attend Metaphorum.
+(PERSON3) Oh!
+Yes.
+(PERSON16) It's no there.
+I mean <unintelligible/>
+(PERSON3) <unintelligible/>
+No there.
+(PERSON16) Is it is it suppose to cover all events that we attend at all.
+(PERSON3) Yes.
+(PERSON16) But lead-
+(PERSON3) Yes.
+(PERSON16) Is that right?
+(PERSON3) Yes, yes, yes.
+(PERSON16) Not there, um-
+(PERSON3) Well, the uh-
+I'm afraid, it could be missing.
+(PERSON16) Um.
+Okay, let me go.
+Papers, we don't have to include conferences, then.
+Because that would just be-
+(PERSON3) Yes, exactly.
+We don't have to include confrences.
+(PERSON16) Ah, okay.
+Um-
+(PERSON3) And this, I've asked [PERSON6] to do uh, spell-checking,
+and uh, h- this is still- this is not been done yet.
+<laugh/>
+So the uh, uh-
+Actually, uh, [PERSON2], would you uh, whether the uh, the table, 
+that we are collecting in the continuous reporting,
+whether this has been checked uh, like item by item?
+So that the non-scientific events are uh, are there?
+We have this-
+(PERSON2) Mm, good question.
+(PERSON3) Yeah.
+(PERSON2) Um.
+I don't really know, no.
+(PERSON3) Yeah.
+Yeah.
+Uh, so that's exactly the Metaphorum, that's colon 0.
+So the-
+Uh, I'll copy paste uh, the sheet here.
+<parallel_talk/> So it is an ugly dissemination activities uh, in our table. <parallel_talk/>
+So about the Tedx, I I see also that uh-
+[ORGANIZATION6], you w- were you at that at that Tedx e- event?
+And did you somehow present [PROJECT1]?
+Obviously-
+(PERSON7) Yes, actually we we we were not on the stage, 
+we presented the project to the audience during the breaks of-
+(PERSON3) Um-hum.
+(PERSON7) Of the show.
+(PERSON3) Um-hum.
+(PERSON7) And um-
+Yes, and we present the <unintelligible/> video, and we talked about it with people.
+(PERSON3) Yeah.
+And this is not in the deliverable either, right?
+(PERSON7) Mm, I I were trying to check it, mm, but we didn't.
+<laugh/>
+It's not.
+(PERSON3) Yeah, it's not, it's not.
+O- okay, ah, that's too bad then.
+Because it's uh-
+If we have already done some activity and we are not reporting in, 
+that will be missed and it we would not get the credit for that.
+So it's like to asking-
+(PERSON7) Okay,
+(PERSON3) Not asking for your salary at the end of the month.
+Uh, so-
+<laugh/>
+(PERSON7) <laugh/>
+(PERSON3) Yeah.
+Uh, so uh, then uh, the question is actually, [PERSON2], would you uh, would you be able to uh, to process the table somehow?
+Or what uh, what is the best uh, take on that?
+W- in the table we even have these uh, these strange numbers.
+Uh, so um.
+Do we want uh, w?-
+What what's the easiest way of listing this?
+I think that uh, we should not provide too much detail, 
+but we should not miss any of the events.
+Uh, so [PERSON2], could you please make sure uh, that there is uh, also-
+As as we have like like the boring list of the uh, scientific dissemination, all the papers,
+that we also have uh, uh, a boring list of uh, like non-scientific uh, dissemination activities uh, at the beginning of uh, of this uh, section.
+And that all the relevant columns uh, from uh, the [PROJECT1] continuous reporting table uh, 
+the the google sheet appear there.
+Uh, and w- w- 
+That there are not even uh, details about it, just mentioning like [PROJECT1] was present at this Metaphorum uh, 2019
+and [PROJECT1] was present at this [PROJECT2].
+(PERSON2) Um-hum.
+(PERSON3) So just make it a list of uh, list of lines uh-
+(PERSON2) Yeah.
+(PERSON3) Uh, and uh, when you where you know, it would be nice to add uh, 5 words of description where you do not know, then leave it just as a as a bullet point.
+And then be- bellow this list, there should be the more details about the events, which are already described.
+It's like uh, a little bit assorted, 
+so that we are not talking about the most important events in detail,
+and uh, we are talking about small events in in much more detail, uh, lets live with that.
+Uh, but uh, we have to have a complete list uh, at the beginning uh, of that section.
+So [PERSON2], please-
+(PERSON2) Of course.
+(PERSON3) Please ad this-
+(PERSON2) Yeah, we will have a something like an overview of all events and then how?-
+(PERSON3) And then the details.
+(PERSON2) Yeah.
+(PERSON3) Yeah.
+So please, do it also today, so that tomorrow in the morning we can polish uh, whatever type setting issues-
+(PERSON2) Of course.
+(PERSON3) <unintelligible/> and things like that.
+(PERSON2) Um-hum.
+(PERSON3) Okay.
+So uh, here I will add in uh-
+<parallel_talk/> [PERSON2] [PERSON2] to make a list of events uh, uh, at the beginning uh, of non-scientific uh, dissemination. <parallel_talk/>
+What is the nicer nicer way of saying non-scientific?
+<laugh/>
+Like a-
+<laugh/>
+Uh, yeah.
+Uh, okay.
+Uh, so uh, this will be to to again done today, and tomorrow uh, we will finalize it uh, during our review of uh, of that.
+And the last deliverable that we have uh, is the project management guide, 
+which was finished just this morning.
+Uh, and [PERSON19] will hopefully review that.
+Uh, and uh, by the end of tomorrow, we will uh, send it, so that's what I've talked about uh, at the beginning.
+Make sure, that you are not opposed to your names being listed there.
+But you are doing the job so the-
+You should not be opposed.
+<laugh/>
+Uh, and uh, I don't thi- I don't see, there is anything critical there.
+Uh, hopefully [PERSON19] will sill uh, will still send me the the feedback.
+Uh, yeah.
+So let me try the uh, the continuous reporting again.
+Mm, no, no, doesn't really work.
+Uh, so uh, I don't know if you have any further questions to the deliverables or not?
+Yeah, no it- now it's now it's totally uh, crushing.
+Uh, so uh, we will hopefully finish smoothly this and submit all the deliverables uh, tomorrow.
+Uh, we will have to ask you for all the financial details, which we already have asked
+and also the uh, the p- progress reports uh, which primarily will say: „All is describe in this deliverable and this deliverable."
+And and and so on.
+Uh, but some people like [PERSON19] will have to uh, uh, add some more details.
+Uh, and uh, my internal idea is to have uh, to ask for this uh, uh, details by the end of July,
+uh, so that we can smoothly uh, s- send it for uh, uh, to to the to the reviewers uh, at the end of July or very early in uh, in August.
+And then we can run review in uh, early September.
+And for the uh, review uh, we should actually uh, prepare that.
+Every w- every work-package, we will have to provide some overview ourselves, 
+for the uh, for the whole project.
+And each partner will have to uh, or each representative of each leader of work-package will have to collect the information from all the partners, who contributed.
+So there will be-
+We'll prepare an agenda and as we had for the pre-review.
+Uh, again, every work-package will be presenting.
+Uh, so please, plan that and plan to prepare uh, these presentations.
+And I think, that uh, we should probably uh, do a pre-review uh, like a early the the week before.
+So what about Friday the the 4th of September?
+Would that work for you?
+(PERSON16) Uh, so On- [PERSON17], remind this th- what what's the day it the review again?
+This is a-
+(PERSON3) It's 8th- it's Tuesday the 8th.
+(PERSON16) Tuesday the 8th of September, and it's online is it?
+(PERSON3) Yes.
+(PERSON16) Yeah, okay.
+Um, and it's all in a 1 day.
+(PERSON3) Yes.
+(PERSON16) Okay.
+Um.
+Right.
+Yeah, I mean how in a [LOCATION1] is week before <unintelligible/> is like a good idea, cause at least and you have time to-
+(PERSON3) To fix it.
+(PERSON16) <unintelligible/>.
+(PERSON3) Yeah. yeah.
+(PERSON16) And we don't naturally haved have a look [LOCATION1] just on 1 day?
+(PERSON3) That's right.
+Yeah.
+(PERSON16) I mean in in fact <unintelligible/> project because it's June and summer will be <unintelligible/> as no way they can-
+(PERSON3) Um-hum.
+(PERSON16) Be with children.
+Couldn't commit having whole day free.
+The manager split the review up and it's in 3-
+(PERSON3) Um-hum.
+(PERSON16) In our sections.
+But it's-
+(PERSON3) Oh.
+E- even even the official review is split?
+(PERSON16) Yeah.
+Yeah.
+(PERSON3) Oh, okay.
+(PERSON16) U- um, I think, I'm okay with having a full day review, 
+I don't have every else fells like a bad but-
+(PERSON3) Yeah.
+Yeah, okay.
+So we'll uh, anyway, we-
+(PERSON16) But-
+(PERSON3) We'll probably sent the doodle poll about this.
+Um, but-
+So [PERSON16], please uh, please take a note uh, and uh, lets ask about it uh, to uh-
+(PERSON16) Yeah.
+(PERSON3) To everybody.
+So that they are fine with that, but uh, the uh, like dry run should be ideally on Friday the 4th.
+(PERSON16) Yeah.
+(PERSON3) <parallel_talk/> Dry run uh, of- <parallel_talk/>
+(PERSON16) Well, the reviews are sent and choose uh, okay.
+(PERSON3) Yes.
+(PERSON16) So even I am I uh, I mean that that I m- mean so you're under the pressure to fix your presentations at weekend so-
+(PERSON3) Yeah.
+You could even-
+(PERSON16) I would fix sometimes during that week or-
+(PERSON3) So you do <unintelligible/> earlier?
+Earlier than the Friday?
+(PERSON16) Yeah, I mean Friday is probably okay, 
+I mean when you have Monday to fix your presentation.
+(PERSON3) Yeah.
+(PERSON16) You'd not be busy if you not work on it at weekend.
+(PERSON3) Yeah.
+(PERSON16) Uh, so so it's probably okay.
+But no later within from a day.
+(PERSON3) Yeah, okay.
+(PERSON16) It's the it's the latest day, I count it.
+(PERSON3) Yeah.
+(PERSON16) Thanks.
+Um-
+And that-
+So so that's review and <unintelligible/> some meeting with the advisory committee was-
+(PERSON3) Yes.
+(PERSON16) Not.
+(PERSON3) Uh-
+(PERSON16) <unintelligible/> yet.
+(PERSON3) That's not fixed yet.
+(PERSON16) <unintelligible/> followed that.
+(PERSON3) Definitely and uh, uh, according to the doodle poll, which m- several people, who should be on the uh, advisory board have not responded to yet.
+Uh, it it  so base on the current votes uh, the late August, the 19th of August looks best.
+Uh, so that is my preference now,
+but I still uh, probably need to ask the uh, ask again the uh, those, who have not responded.
+So it is definitely not going to happen today.
+<laugh/>
+(PERSON16) <laugh/>
+I was good.
+<laugh/>
+(PERSON3) <laugh/>
+(PERSON16) Um.
+(PERSON3) Yeah.
+So there is-
+During the summer we will have to collect all the um, um, materials for the review, uh, which is a financial stuff.
+And for all of you this will be a little bit of work, like for your financial uh, departments, at least.
+Uh, we expect these uh, details uh, from you to arrive uh, in mid-July, right?
+Or some- somewhere around that time, uh.
+[PERSON16], when we we ourselves will have this uh, uh, around mid-July,
+so that till the end of July uh, w- we will- we we should have it from everybody.
+And uh, very early in September uh, sorry, in August, we should uh, we should finalize it, and enter each to the system. 
+Maybe, actually the entering of the numbers in is done by each of you, separately.
+We'll see how that works.
+Uh, in the past, it was sometimes that it was entered by the coordinator,
+and sometimes it was entered by the participants.
+We'll see, what is uh, what is the true here.
+Uh, and uh, we will have the user and advisor <unintelligible/> meeting, 
+uh, and we will have uh, the uh-
+We need to write progress report and prepare the presentations for the uh, for the review.
+Uh, so there is plenty of time, there's but there is also plenty of gaps, where you cannot really work during uh, the summer.
+Uh, so it's it's balanced, it's uh, it's doable, but not not too not too comfortable.
+<laugh/>
+(PERSON11) Yes, and uh, we've the-
+[PERSON2], we've the-
+[ORGANIZATION4] financial department, probably it's better to warn them ahead because-
+(PERSON3) Um-hum.
+(PERSON11) So far, I-
+You know.
+<laugh/>
+It takes a more time than to other partners, so to have the numbers really ready.
+(PERSON3) Um-hum.
+(PERSON11) So you probably should start <unintelligible/> them earlier.
+(PERSON2) Okay, yeah.
+<laugh/>
+(PERSON3) Maybe you know.
+So in the end, did we get the preview numbers from uh?-
+No, not yet.
+Okay, yeah.
+So we got uh, the the preview numbers from everybody and uh, except for [ORGANIZATION4],
+and that's uh, that was the purpose of the test to see that you know, 
+who are you accounting people and they know, how to fill these tables.
+So it succeeded for everybody except [ORGANIZATION4], who are still uh, uh, preparing that.
+So now, getting the update with the full final uh, numbers uh, after the end of uh, June uh, should be easy for you.
+Uh, still we need to compile uh, that together and uh, yeah, at at the one missing partner.
+Okay, uh, so I think that's it.
+Uh, I'm not sure if we'll uh-
+Well, we'll be in touch by email,
+uh, and I expect uh, that your response time will be now uh, rather than the next business date will be like the next week because I can uh, accidentally ask you, <unintelligible/> or away.
+Uh, so I'll- we'll plan uh, things some more- was some more time ahead.
+Uh, w- I think that uh, no call will uh, be done over the summer uh, except for any emergency.
+Uh, but we uh-
+Even before the summer starts, so in the uh, in in the re- till the end of this week, uh, we should uh, figure out the date for the dry run, for the for the review.
+And that will be- so we'll uh, see each other uh, only for this dry run, for the review after the uh, summer, right?
+Okay, so thanks uh, I think, that's everything from me,
+uh, and please, start finishing the deliverables, so that I can submit them in in time.
+Okay, so thanks for <unintelligible/> and when we are enjoying summer.
+<laugh/>
+(PERSON7) Okay.
+(PERSON2) Thank you.
+(PERSON3) Bye, bye.
+(PERSON7) Bye guys.
+(PERSON16) Bye.
+(PERSON11) Bye.
+(PERSON4) Bye <unintelligible/>.
+(PERSON3) Yeah.

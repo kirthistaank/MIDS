@@ -1,0 +1,16 @@
+[PROJECT3] internal Meeting 
+Date: 7. 9. 2020:
+Attendance: [PERSON8], [PERSON11], [PERSON10],[PERSON5], [PERSON7]
+
+- Paraphrasing on Quest:
+-- We should move it to “weaker” GPU (requested by PROJECT4)
+-- Can we do it before the end of the [PROJECT4] experiment? (“on the fly”)
+- [PROJECT1]:
+-- in contact with [ORGANIZATION5], they provide us with their multi-lingual data
+- [PROJECT4]:
+-- [PERSON2] is leaving the project!
+-- [ORGANIZATION6] has System Demonstration track - do we want to participate?
+- [PROJECT2]:
+-- people from [ORGANIZATION4] (name, contact???) are also working on the decoding constraints (or factored translation?)
+- [PERSON8] getting details from [PERSON6]
+

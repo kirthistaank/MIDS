@@ -1,0 +1,12 @@
+[PROJECT1] meeting 16.6.2020
+Attendees: [PERSON2], [PERSON5], [PERSON3]
+Purpose of meeting: Discussion about video compatibility, ASR project
+
+Summary
+• [PERSON2] mentioned that English ASR order rate is terrible
+• It was also suggested that [PERSON5] should provide the ASR outputs as well, as the references.
+• the conversation revolved around numbers, which should allegedly make it into the demo presentation.
+• [PERSON2] reminded team that he will not consider possibility of another video.
+• It was pointed out that the system appears to be malfunctioning, or at least works worse, but trust should not be placed in numbers that are not checked multiple times.
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,64 @@
+Project updates
+Date: January 2021  
+Attendees: [PERSON12], [PERSON13], [PERSON7], [PERSON5], [PERSON14]
+Purpose of meeting: discussing various updates: [PROJECT6], [PROJECT13]
+
+- General updates for [PROJECT6].
+-- Postponed by a month to 26 February.
+-- If [PERSON13] or anyone else could help [PERSON7], get in touch with him.
+--- [PERSON13] is very busy right now (exam period), in a month he will have more time.
+-- [PROJECT6] will have two parts: one online, pre-recorded, the second one will be a real live discussion taking place in the [PROJECT6]. 
+-- [PERSON12] is going tomorrow to the [PROJECT6] for a technical meeting.
+--- [PERSON14] is a back up person. 
+
+- General updates for the [PROJECT13] event.
+-- In need of somebody to take care of the recording. 
+-- Likely that we will get some dictionary. 
+-- It is in Czech.
+
+- Ladder climbing: to do for [PERSON7].
+-- This is the most urgent thing right now.
+-- Clean up the evaluations.
+-- Use simple auto-generated HTML tables. 
+-- Create a conversion from the tables into HTML. 
+-- Put the results regularly to [PERSON7]'s webpage / [ORGANIZATION7].
+--- Useful for people outside [ORGANIZATION4] so that they can browse it.
+
+- [PERSON12]'s updates.
+-- Currently working on updating the demo paper submission and some project reports.
+-- Also busy with minuting. 
+-- Reminds everybody to work continuously over several weeks, not just before the deadline evaluation takes time.
+-- With the subtitler study paper, we are aiming for the [ORGANIZATION8] deadline.
+
+- [PERSON7]'s updates. 
+-- He finished the deliverables. 
+-- We have a statistic to represent the numbers. 
+-- [PERSON7] thinks we should also add a statistic to represent language pairs (English > German or vice versa)
+-- Original plan was to get an idea about the word ration of the two languages for a given transcript.
+-- Add other complementary metrics.
+--- Profanity filtering evaluation: create a list of words which must not appear in output.
+--- Rare words evaluation: create a list of words which we want to appear in output. 
+-- This involves manual preparation of the reference.
+-- [PERSON2] has compiled a translation dictionary and will share it soon, might be helpful. 
+-- [PERSON7] will have a call with [PERSON10] and then take a look at the lists.
+-- [PERSON7] should also create delay scores from some files from [PROJECT2] test set.
+
+- [PERSON5]'s updates.
+-- Currently working on [PROJECT5], managed to compile it.
+-- Now he is training the model on common voice. 
+-- Rethinking the data set he will use for the experiment, maybe use [ORGANIZATION2] or [ORGANIZATION3].
+--- [PERSON12] says to definitely use more data sets, common voice alone would be too small.
+--- Waiting for a reply from [ORGANIZATION10] about the data sets.
+-- [PERSON5] is the one at [ORGANIZATION4] who is training the [PROJECT3] system.
+--- [PERSON13], [PERSON5] and [PERSON10] will have a call to discuss further.
+---- [PERSON4] will be a replacement for [PERSON10], include him in the call too.
+
+- [PERSON14]'s updates.
+-- Released the [PROJECT11] corpus to [PERSON3]. 
+-- Trained speech language identification: Czech, German, English. 
+-- Discussing [PROJECT3] system details. 
+--- [PERSON12]: we should have multilingual [PROJECT9] models and multilingual [PROJECT3] / multiple [PROJECT3] feeding into the same multilingual [PROJECT9]. 
+---- Might lead to bad quality. 
+
+
+Minutes submitted by: [ANNOTATOR1]

@@ -1,0 +1,630 @@
+import os
+
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+
+import torch
+
+torch.cuda.is_available = lambda : False
+torch.cuda.device_count = lambda : 0
+
+
+from sentence_transformers import SentenceTransformer
+import json
+
+from dotenv import load_dotenv
+from sentence_transformers import SentenceTransformer
+from langchain_core.documents import Document 
+from pinecone import Pinecone
+#from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
+
+#from langchain.chains import LLMChain
+#from langchain.chains import LLMChain
+from langchain_community.llms import HuggingFacePipeline
+from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
+from langchain_cohere import ChatCohere  
+from langchain_core.prompts import ChatPromptTemplate 
+from langchain_core.output_parsers import StrOutputParser
+from langchain_pinecone import PineconeVectorStore
+
+from langchain_community.chat_message_histories import ChatMessageHistory
+from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
+
+
+
+
+
+
+load_dotenv()
+
+CONTEXTUALIZE_Q_SYSTEM_PROMPT = CONTEXTUALIZE_Q_SYSTEM_PROMPT = """
+You are a Lead Cognitive Coaching Analyst. Your mission is to perform a high-fidelity diagnostic on a conversation, utilizing both raw transcripts and specific user-provided context.
+
+### INPUT CONTEXT
+The user has provided the following critical context/information to guide your analysis:
+{user_context}
+
+### TASK 1: EVIDENCE-BASED DIAGNOSTIC (CRI & CEI)
+Evaluate the dialogue dynamics. For each score, you MUST provide a specific example or timestamp from the transcript as justification.
+
+#### 1. CRI™ (Conflict Resolution Index)
+- **De-escalation**: Sentiment trajectory. Quote specific shifts in tone.
+- **Mutual Understanding**: Look for paraphrasing or "I hear you" moments.
+- **Accountability**: Identify when a speaker takes ownership of a friction point.
+- **Solution Progress**: 0.25 (Proposal), 0.50 (Refinement), 0.75 (Agreement), 1.0 (Commitment).
+
+#### 2. CEI™ (Communication Effectiveness Index)
+- **Q&A Completion**: Ratio of resolved vs. ignored questions.
+- **Conversational Balance**: Identify who is dominating and if interruptions occur.
+- **Conversation Convergence**: Does the closing segment align with the initial intent?
+- **Clarity & Coherence**: Note where the logic breaks down or filler words spike.
+
+### TASK 2: STRATEGIC SEARCH QUERIES
+Generate 3 professional-grade queries for a RAG knowledge base. Integrate technical terms from the user-provided context if applicable.
+1. **Clarification Query**: Focus on technical ambiguities (e.g., 'Vista mode' vs 'Tango mode').
+2. **Behavioral/Emotional Query**: Link observed behaviors to psychological frameworks (e.g., Anchoring, Social Loafing).
+3. **Intervention Query**: Seek specific coaching tools (e.g., 'Ladder of Inference', 'Shared Vision Canvas').
+
+### OUTPUT FORMAT (STRICT)
+---
+[CRI/CEI ANALYSIS]
+- **CRI Score: [Overall]** (Breakdown: De-escalation: X, Understanding: X, Accountability: X, Progress: X)
+  - *Evidence*: (Briefly cite timestamps or quotes)
+- **CEI Score: [Overall]** (Breakdown: Q&A: X, Balance: X, Convergence: X, Coherence: X)
+  - *Evidence*: (Briefly cite timestamps or quotes)
+- **Bottleneck**: [Improving/Persistent/Worsening] - (Detail the core challenge)
+---
+[SEARCH QUERIES]
+1. **Clarification Query**: "Query Text"
+2. **Behavioral/Emotional Query**: "Query Text"
+3. **Intervention Query**: "Query Text"
+"""
+
+
+FINAL_SYNTHESIS_TEMPLATE = """
+[INST]
+You are a World-Class Cognitive Coach specializing in data-driven behavioral change.
+You have a quantified diagnostic report of a current meeting, past historical performance, and scientific insights from your knowledge base.
+
+### 1. QUANTIFIED DIAGNOSTIC REPORT (Current Session):
+{diagnostic_report}
+
+### 2. PAST PERFORMANCE HISTORY:
+{past_history}
+
+### 3. SCIENTIFIC CONTEXT (Retrieved Knowledge):
+{pdf_context}
+
+### YOUR TASK:
+Analyze the correlation between current scores, historical trends, and scientific concepts:
+
+1. **Trend Analysis & AI Reaction**:
+   - Compare current CRI/CEI scores with [PAST PERFORMANCE HISTORY].
+   - Identify if the user is improving, regressing, or plateauing in specific metrics.
+   - **Reaction**: Provide a human-centric reaction. If scores improved, give specific positive reinforcement. If they declined, call it out as a high-priority area with an empathetic but firm coaching tone.
+
+2. **Data-Driven Root Cause**:
+   - Explain the psychological or technical reason for the specific scores and the observed trend.
+   - Use the 'Scientific Context' to name the phenomenon (e.g., Social Loafing, Groupthink, or Lack of Psychological Safety).
+
+3. **Strategic Questions for Growth**:
+   - Provide 3 powerful, open-ended questions.
+   - Tailor them to the trend (e.g., "We saw your Balance score improve last time, but it dropped today—what changed in the dynamic?").
+
+4. **Actionable Protocol**:
+   - Suggest one specific "Reframing Exercise" or "Meeting Protocol" that directly targets the lowest-scoring or most declining metric.
+
+### RESPONSE FORMAT:
+- **Historical Trend & Reaction**: [A brief comparison of scores and the AI's empathetic reaction to the change]
+- **Root Cause Analysis**: [Logical connection between scores, trends, and scientific theory]
+- **Targeted Coaching Questions**:
+  1. [Question 1]
+  2. [Question 2]
+  3. [Question 3]
+- **Recommended Protocol**: [One clear, step-by-step exercise to improve metrics]
+[/INST]
+"""
+
+
+DIAG_SUMMARY_TEMPLATE = """
+You are a Senior Data Archivist. Your goal is to compress a coaching diagnostic report into a high-density "Memory Block" for a Vector Database.
+You MUST preserve the quantitative scores and their specific breakdowns to allow for future trend analysis.
+
+REPORT:
+{diagnostic_report}
+
+OUTPUT FORMAT (JSON-like string):
+{{
+  "session_summary": "A 1-sentence overview of the session",
+  "bottleneck_analysis": {{
+    "challenge": "Main issue detected",
+    "trend": "Improving/Worsening/Persistent"
+  }},
+  "quantitative_metrics": {{
+    "CRI_overall": "Score 0-1",
+    "CRI_breakdown": "De-escalation: X, Understanding: X, etc.",
+    "CEI_overall": "Score 0-1",
+    "CEI_breakdown": "Q&A: X, Balance: X, etc."
+  }},
+  "scientific_link": "The primary psychological/technical theory mentioned"
+}}
+"""
+
+INTERACT_SUMMARY_TEMPLATE = """
+You are a Behavioral Analyst. Summarize the coaching dialogue between the AI and {user_role}.
+Focus on the "Commitment-to-Change" and how the user responded to their quantified scores.
+
+CHAT HISTORY:
+{chat_history}
+
+OUTPUT FORMAT:
+- User Perspective: (How did the user feel about their CRI/CEI scores?)
+- Key Commitment: (One specific action or reframe the user agreed to try)
+- Coaching Focus for Next Time: (What metric or behavior needs monitoring in the next session?)
+"""
+
+
+class RAGQuery:
+    def __init__(self, 
+                    index_name: str,
+                    embedding_model_name: str = "sentence-transformers/all-MiniLM-L6-v2",
+                    llm_model_name: str = "Qwen/Qwen2.5-1.5B-Instruct",
+                    doc_namespace: str = "documents",
+                    mem_namespace: str = "history"): # 
+        """
+        Initialize RAG query system
+        
+        Args:
+            index_name: Pinecone index name
+            embedding_model_name: Model for query embeddings
+            llm_model_name: Local LLM model
+            namespace: Pinecone namespace
+        """
+        # Always use CPU to avoid GPU compatibility issues
+        self.device = "cpu"
+        print(f"Forcing device to: {self.device} to bypass 5070 Ti compatibility issue")
+        
+        # Initialize embedding model
+        # Initialize the embedding model for text encoding
+        self.embedding_model = SentenceTransformer(embedding_model_name,device = 'cpu')
+        self.embedding_model.embed_documents = lambda texts: self.embedding_model.encode(texts).tolist()
+        self.embedding_model.embed_query = lambda text: self.embedding_model.encode(text).tolist()
+        self.embedding_model.to(self.device)
+        
+        # Initialize Pinecone vector database and memory search
+        self.pc = Pinecone(api_key=os.getenv("PINECONE_KEY"))
+        self.index = self.pc.Index(index_name)
+        self.doc_namespace = doc_namespace
+        self.mem_namespace = mem_namespace
+        self.memory_search = PineconeVectorStore(
+            index=self.index, 
+            embedding=self.embedding_model, 
+            namespace=mem_namespace  
+        )
+        self.current_user_name = None
+        
+        # Initialize the LLM (Cohere API) for text generation
+        print("Initializing Cohere API Model...")
+        self.llm = ChatCohere(
+            model="command-r-plus-08-2024",
+            cohere_api_key=os.getenv("COHERE_API_KEY"),
+            temperature=0.2, # Lower randomness for more deterministic output
+            frequency_penalty=0.1 # Penalize repetition
+        )
+        print("✅ Initializing Final Synthesis and Archive Chains...")    
+
+        self.final_synthesis_chain = (
+            ChatPromptTemplate.from_template(FINAL_SYNTHESIS_TEMPLATE) 
+            | self.llm 
+            | StrOutputParser()
+        )
+
+        self.diag_summary_chain = (
+            ChatPromptTemplate.from_template(DIAG_SUMMARY_TEMPLATE) 
+            | self.llm 
+            | StrOutputParser()
+        )
+
+        self.interact_summary_chain = (
+            ChatPromptTemplate.from_template(INTERACT_SUMMARY_TEMPLATE) 
+            | self.llm 
+            | StrOutputParser()
+        )
+
+
+
+
+        
+    # def _setup_local_llm(self, model_name: str):
+    #     print(f"Loading LLM on CPU...")
+    #     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+        
+    #    
+    #     model = AutoModelForCausalLM.from_pretrained(
+    #         model_name,
+    #         torch_dtype=torch.float32, 
+    #         device_map=None,          
+    #         low_cpu_mem_usage=True,
+    #         trust_remote_code=True
+    #     )
+        
+    #     pipe = pipeline(
+    #         "text-generation",
+    #         model=model,
+    #         tokenizer=tokenizer,
+    #         max_new_tokens=1024, 
+    #         temperature=0.7,
+    #         top_p=0.95,
+    #         repetition_penalty=1.15,
+    #         return_full_text=False,
+    #         device=-1  
+    #     )
+    
+    #     return HuggingFacePipeline(pipeline=pipe)
+    def set_user_identity(self):
+        self.current_user_name = input("请输入你的名字 (例如 Nancy): ").strip()
+
+    def map_speaker_tag(self, docs):
+        all_speakers = list(set([d.metadata['speaker'] for d in docs]))
+        print(f"检测到发言人列表: {all_speakers}")
+        tag = input(f"在本次会议中，哪个标签代表 {self.current_user_name}?: ").strip()
+        return tag
+        
+    def load_custom_transcript(self, path):
+        """
+        Load a custom transcript JSON file and convert entries to Document objects.
+        """
+        with open(path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        docs = []
+        for entry in data['transcript']:
+            parts = entry.split(':', 3)
+            if len(parts) == 4:
+                meeting_id, speaker, timestamp, text = parts
+                doc = Document(
+                    page_content=text.strip(),
+                    metadata={
+                        "meeting_id": meeting_id,
+                        "speaker": speaker,
+                        "timestamp": timestamp,
+                        "source_type": "Transcript"
+                    }
+                )
+                docs.append(doc)
+        return docs
+
+    def get_strategic_segments(self, docs, window_size=150):
+        """
+        Split the transcript into opening, middle, and closing segments for analysis.
+        """
+        total = len(docs)
+        # 1. Opening
+        opening = docs[:window_size]
+        # 2. Middle
+        mid_start = max(0, total // 2 - (window_size // 2))
+        middle = docs[mid_start : mid_start + window_size]
+        # 3. Closing
+        closing = docs[-window_size:]
+        
+        return opening, middle, closing
+
+    @staticmethod
+    def format_segment(docs, label):
+        """
+        Format a list of Document objects into a readable string segment.
+        """
+        text = "\n".join([
+            f"[{d.metadata.get('timestamp', 'N/A')}] Speaker {d.metadata.get('speaker', 'Unknown')}: {d.page_content}"
+            for d in docs
+        ])
+        return f"### {label} SEGMENT ###\n{text}\n"
+
+
+    def run_trend_analysis(self, opening, middle, closing, user_input="None"):
+        """
+        Run a trend analysis on the transcript segments using the LLM and user context.
+        """
+
+        combined_transcript = (
+            self.format_segment(opening, "OPENING") + "\n" +
+            self.format_segment(middle, "MIDDLE") + "\n" +
+            self.format_segment(closing, "CLOSING")
+        )
+
+        diagnostic_prompt = ChatPromptTemplate.from_messages([
+            ("system", CONTEXTUALIZE_Q_SYSTEM_PROMPT),
+            ("human", "Analyze these segments based on the provided user context:\n\n{chat_history}")
+        ])
+
+
+        diagnostic_chain = diagnostic_prompt | self.llm | StrOutputParser()
+
+        print("\n--- 🧠 Executing Trend Analysis with User Context ---")
+        full_report = diagnostic_chain.invoke({
+            "chat_history": combined_transcript,
+            "user_context": user_input 
+        })
+        
+        return full_report
+    
+    def execute_final_synthesis(self, current_report, past_history_text, pdf_context_text):
+        """
+        Generate a final coaching strategy by synthesizing current, past, and scientific context.
+        """
+        print("\n--- 🎓 Generating History-Aware Coaching Strategy ---")
+        
+        final_response = self.final_synthesis_chain.invoke({
+            "diagnostic_report": current_report,
+            "past_history": past_history_text,
+            "pdf_context": pdf_context_text
+        })
+        return final_response
+    
+    def get_pdf_knowledge(self, queries):
+        """
+        Retrieve relevant scientific context from local PDF knowledge base using queries.
+        """
+
+        print(f"🔍 Searching Scientific Context in: {self.doc_namespace}")
+        all_context = []
+        
+        for q in queries:
+            matches = self.retrieve_context(q, top_k=2) 
+            
+            for m in matches:
+                vector_id = m.id
+                source_name = m.metadata.get('source')
+                
+                if not source_name:
+                    continue
+                
+                try:
+                    text_file = f"../chunk_texts/{source_name}_texts.json"
+                    with open(text_file, 'r', encoding='utf-8') as f:
+                        full_texts = json.load(f)
+                    print(os.getcwd())
+                    full_text = full_texts.get(vector_id)
+                    if full_text:
+                        all_context.append(full_text)
+                except FileNotFoundError:
+                    print(f"⚠️ Warning: Local file {text_file} not found.")
+                    import os,sys
+                    sys.exit(1)
+                except Exception as e:
+                    print(f"⚠️ Error loading local text: {e}")
+        
+
+        return "\n---\n".join(list(set(all_context)))
+    
+
+    def save_to_memory(self, report, final_strategy):
+
+        print(f"\n💾 Archiving Dual-Memory Blocks for User: {self.current_user_name}...")
+
+        quant_summary = self.diag_summary_chain.invoke({"diagnostic_report": report})
+        
+        interact_summary = self.interact_summary_chain.invoke({
+            "chat_history": f"AI Advice: {final_strategy}",
+            "user_role": self.current_user_name 
+        })
+
+        self.memory_search.add_texts(
+            texts=[quant_summary, interact_summary],
+            metadatas=[
+                {
+                    "user_name": self.current_user_name, 
+                    "category": "quantitative", 
+                    "type": "memory_block"
+                },
+                {
+                    "user_name": self.current_user_name, 
+                    "category": "interactive", 
+                    "type": "memory_block"
+                }
+            ]
+        )
+        
+        print(f"✅ Quantitative & Interaction summaries archived for: {self.current_user_name}")
+        return quant_summary, interact_summary
+    
+    def chat_with_coach_assistant(self, final_report_data):
+        """
+        Interactive chat loop with the cognitive coach assistant, using memory and context.
+        """
+        print(f"\n🎓 Cognitive Coach Assistant is Online (Memory-Enabled).")
+        
+        # 1. Identify all speakers in the transcript
+        user_role =  self.current_user_name
+
+        # 2. Retrieve past coaching sessions for the selected user from memory
+        print(f"🔍 Searching for past coaching sessions for {user_role}...")
+        past_memories = self.memory_search.similarity_search(
+            f"Past metrics for {self.current_user_name}", 
+            k=3,
+            filter={"user_name": self.current_user_name} 
+        )
+        past_mem_context = "\n---\n".join([m.page_content for m in past_memories]) if past_memories else "First session detected."
+
+        # 3. Initialize chat history
+        history = ChatMessageHistory()
+        
+        # 4. Build system prompt with empathy and historical context
+        initial_context = f"""
+        You are a World-Class Human-Centric Cognitive Coach.
+        [TONE & STYLE]
+        - Be Empathetic First: If the user expresses frustration, validate feelings BEFORE giving advice.
+        - Speak like a Peer-Mentor: Use a conversational, supportive, and grounded tone.
+        [USER IDENTITY] The user is {user_role}.
+        [PAST PERFORMANCE & TRENDS] {past_mem_context}
+        [CURRENT CASE DATA] {final_report_data}
+        [MISSION] Validate {user_role}'s experience. Use data to empower them.
+        """
+
+        # 5. Chat loop for user interaction
+        while True:
+            user_input = input(f"\n{user_role} (You): ")
+
+            if user_input.lower() in ['exit', 'quit', 'stop']:
+                # Save chat summary to memory and exit
+                print("💾 Saving interaction summary to memory...")
+                chat_history_text = "\n".join([f"{m.type}: {m.content}" for m in history.messages])
+                interact_memory = self.interact_summary_chain.invoke({
+                    "user_role": user_role,
+                    "chat_history": chat_history_text
+                })
+                self.memory_search.add_texts(
+                    texts=[interact_memory],
+                    metadatas=[{
+                        "user_name": user_role, 
+                        "type": "interaction_summary"
+                    }]
+                )
+                return "✅ Chat session ended. Summary saved to history."
+
+
+            # Build message flow for Cohere LLM
+            messages = [SystemMessage(content=initial_context)]
+            messages.extend(history.messages)
+            messages.append(HumanMessage(content=user_input))
+
+            try:
+                response = self.llm.invoke(messages)
+                ai_message = response.content if hasattr(response, 'content') else str(response)
+
+                history.add_user_message(user_input)
+                history.add_ai_message(ai_message)
+
+                print(f"\nAssistant: {ai_message}\n" + "-" * 30)
+            except Exception as e:
+                print(f"❌ Execution Error: {e}")
+
+                
+    def _extract_queries(self, report):
+        """
+        Extract up to 3 search queries from the diagnostic report for further knowledge retrieval.
+        """
+        import re
+        lines = report.split('\n')
+        queries = [re.sub(r'^\d+\.\s*', '', l).strip().replace('"', '') 
+                   for l in lines if 'Query' in l and ':' in l]
+        
+        if not queries:
+            queries = re.findall(r'"([^"]*)"', report)
+            
+        filtered = [q for l in queries for q in [l.split(':')[-1].strip()] 
+                    if len(q) > 10 and "ANALYSIS" not in q]
+        
+        return filtered[:3]
+            
+
+    
+    def retrieve_context(self, query: str, top_k: int = 5, namespace: str = None) -> list:
+        """
+        Retrieve top-k most relevant context chunks from Pinecone for a given query.
+        """
+
+        query_embedding = self.embedding_model.encode(query).tolist()
+        
+        #  (doc_namespace)
+        filter_dict = None
+        if namespace == self.mem_namespace and self.current_user_name:
+            filter_dict = {"user_name": {"$eq": self.current_user_name}}
+
+        results = self.index.query(
+            vector=query_embedding,
+            top_k=top_k,
+            namespace=namespace or self.doc_namespace,
+            include_metadata=True,
+            filter=filter_dict  # 将过滤条件传给 Pinecone
+        )
+        return results.matches
+    
+    
+    def clear_memory(self):
+        """
+        Clear all records in the memory namespace. Use with caution!
+        """
+        print(f"🧹 DANGER: Clearing all records in namespace: {self.mem_namespace}...")
+        try:
+            self.index.delete(delete_all=True, namespace=self.mem_namespace)
+            print(f"✅ Namespace '{self.mem_namespace}' is now empty.")
+        except Exception as e:
+            print(f"❌ Error clearing memory: {e}")
+
+
+# Example usage
+if __name__ == "__main__":
+    # Initialize RAG
+    rag = RAGQuery(
+            index_name="hg-qwen-index",
+            embedding_model_name="sentence-transformers/multi-qa-mpnet-base-dot-v1", # 修改这里
+            doc_namespace="documents", 
+            mem_namespace="history" 
+        )
+    
+    rag.clear_memory()
+    rag.current_user_name = input("Who are you? (e.g., Nancy): ").strip()
+
+    #json_path = r"C:\Users\12345\Desktop\capstone\Bed002_meeting_transcript.json"    
+    json_path = "./michelle_1_scenario_1.json"
+    print(f"--- Loading transcript from: {json_path} ---")
+    all_docs = rag.load_custom_transcript(json_path)
+
+    all_tags = list(set([d.metadata['speaker'] for d in all_docs]))
+    print(f"Speakers found in this session: {all_tags}")
+    current_session_tag = input(f"Which speaker tag represents {rag.current_user_name} TODAY? ").strip()
+
+    
+    opening, middle, closing = rag.get_strategic_segments(all_docs, window_size=15)
+    
+    my_context = "The team is currently struggling with 'spatial intent' definitions. Speaker B is the project lead, and Speaker C is a technical consultant."
+
+    report = rag.run_trend_analysis(opening, middle, closing, user_input=my_context)
+    
+    print("\n" + "="*30 + " DIAGNOSTIC REPORT " + "="*30)
+    print(report)
+    print("="*79)
+
+    queries = rag._extract_queries(report)
+    print("\nExtracted Search Queries:")
+    for q in queries:
+        print(f" - {q}") 
+
+
+    # ---  Step 2  ---
+    
+    pdf_context = rag.get_pdf_knowledge(queries)
+
+    target_speaker = input("\nWhich speaker is the primary focus? ").strip()
+    
+    print(f"🔍 Fetching ALL historical trends for user: {rag.current_user_name}...")
+    
+    past_matches = rag.retrieve_context(
+        f"Coaching history and behavioral trends for {rag.current_user_name}", 
+        top_k=10, 
+        namespace=rag.mem_namespace
+    )
+
+    past_history_text = "\n---\n".join([m.metadata.get('text', "") for m in past_matches]) if past_matches else "No previous history found."
+
+    final_strategy = rag.execute_final_synthesis(report, past_history_text, pdf_context)
+    print("\n" + "★"*20 + " FINAL COACHING STRATEGY " + "★"*20)
+    print(final_strategy)
+
+    print(f"\n💾 Saving session to memory namespace: {rag.mem_namespace}")
+    rag.save_to_memory(report, final_strategy)
+    
+
+    print("✅ All Design-specific memory blocks have been synchronized to Pinecone.")
+
+    # 
+    # test_mem = rag.memory_search.similarity_search("C", k=2)
+    # for i, m in enumerate(test_mem):
+    #     print(f"\n--- Memory Block {i} ---\n{m.page_content}")
+
+    # ---  Step 3  ---
+    rag.chat_with_coach_assistant(all_docs, final_strategy)
+
+
+        

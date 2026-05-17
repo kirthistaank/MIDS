@@ -1,0 +1,14 @@
+Meeting 21. 9. 2020:
+- Attendance:
+-- [PERSON11] [PERSON4], [PERSON16], [PERSON12],[PERSON7]
+- It seems that the [ORGANIZATION1] in [LOCATION2] is open again
+- “Nalejvarna” this week:
+-- [PERSON12] and [PERSON7] will join
+- [PROJECT4]:
+-- translation of monodata still in progress (probably until Tuesday)
+-- after that the training can start
+- [PROJECT1]:
+-- the ball is still in [ORGANIZATION3] territory
+- [PROJECT2]:
+-- we will probably try experimenting in Fairseq ([PERSON12] trained the model from tutorial)
+
