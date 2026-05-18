@@ -1,0 +1,244 @@
+
+<!-- saved from url=(0076)https://datasciencey.github.io/datasci290-neurosymbolic-ai/finalproject.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Final Project: CareTrace</title>
+
+  <style>
+    :root{
+      --text:#111;
+      --muted:#444;
+      --link:#0b57d0;
+      --link-hover:#083a8c;
+      --bg:#fff;
+      --border:#e6e6e6;
+      --card:#fafafa;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Palatino Linotype", Palatino, Georgia, "Times New Roman", Times, serif;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+    hr { display:none !important; }
+    table, tr, td, th { border: 0 !important; }
+
+    /* Enforce a readable "column width" regardless of browser window size */
+    .wrap { max-width: 115ch; margin: 0 auto; padding: 28px 18px 72px; }
+
+    /* Prevent images from overflowing the column on small screens */
+    img { max-width: 100%; height: auto; }
+
+    .hero {
+      display:flex;
+      gap:18px;
+      align-items:flex-start;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero img {
+      width: 220px;
+      max-width: 38vw;
+      height: auto;
+      display:block;
+      border-radius: 12px;
+    }
+
+    h1 { font-size: 28px; line-height: 1.2; margin:0 0 8px 0; font-weight:700; }
+    h2 { font-size: 18px; margin:0 0 10px 0; font-weight:700; }
+    h3 { font-size: 16px; margin:18px 0 6px 0; font-weight:700; }
+
+    p { margin: 10px 0; }
+    .subtitle { margin:0 0 14px 0; color: var(--muted); }
+    .note { margin:0; font-style: italic; color: var(--muted); }
+
+    a { color: var(--link); text-decoration: none; }
+    a:hover { color: var(--link-hover); text-decoration: underline; }
+
+    .section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border); }
+    .section:first-of-type { border-top: 0; padding-top: 0; margin-top: 18px; }
+
+    ul { margin: 8px 0 0 0; padding-left: 18px; }
+    li { margin: 6px 0; }
+
+    .card {
+      margin-top: 14px;
+      padding: 14px 14px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--card);
+    }
+
+    .toc {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin: 10px 0 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .toc li { margin: 0; }
+    .toc a {
+      display:inline-block;
+      padding: 6px 10px;
+      border:1px solid var(--border);
+      border-radius: 999px;
+      background:#fff;
+    }
+
+    @media (max-width: 720px) {
+      .hero { flex-direction: column; }
+      .hero img { width: 220px; max-width: 70vw; }
+      .toc { gap: 10px; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <center>
+<p>
+    </p><h2>Final Project: CareTrace</h2>
+      <img src="./Final Project_ CareTrace_files/CareTrace.png" alt="CareTrace schematic" style="width: 500px; height: auto;">
+
+<p></p>
+  <p>
+      
+        </p><p class="subtitle">
+          A hands-on experiment in building a trustworthy conversational agent for after-hours pediatric triage.
+        </p>
+
+        <ul class="toc">
+          <li><a href="https://datasciencey.github.io/datasci290-neurosymbolic-ai/finalproject.html#project-overview">Project overview</a></li>
+          <li><a href="https://datasciencey.github.io/datasci290-neurosymbolic-ai/finalproject.html#evaluation">Evaluation</a></li>
+          <li><a href="https://datasciencey.github.io/datasci290-neurosymbolic-ai/finalproject.html#nesy-approach">Neurosymbolic approach</a></li>
+          <li><a href="https://datasciencey.github.io/datasci290-neurosymbolic-ai/finalproject.html#tech-stack">Technical stack</a></li>
+          <li><a href="https://datasciencey.github.io/datasci290-neurosymbolic-ai/finalproject.html#project-execution">Project execution</a></li>
+        </ul>
+<p></p>
+    </center>
+
+    <section class="section" id="project-overview">
+      <h2>Project overview</h2>
+
+      <p>
+        <i>It’s 11 PM. Urgent care is closed. Your 6-year-old has a fever, threw up once, looks wiped out, and you are trying
+        to decide what you can safely do at home tonight versus what would justify a difficult ER visit. You open CareTrace,
+        describe what you are seeing, and you want something that feels like you had your child’s physician on the phone:
+        a calm, efficient back-and-forth that lands on a clear plan you can follow now, plus crisp thresholds for when
+        escalation is necessary.</i>
+      </p>
+
+      <p>
+        In this project, we will build CareTrace as a working Neurosymbolic AI agent for after-hours pediatric triage.
+        The core objective is not to produce fluent conversation alone, but to produce a safe, actionable plan a caregiver
+        can follow tonight, with clear decision thresholds and a rationale that is consistent across multiple turns of a
+        conversation.
+      </p>
+
+      <div class="card">
+        <h3>What you will deliver</h3>
+        <ul>
+          <li>A working multi-turn triage agent (CareTrace) that asks targeted questions, produces a plan, and updates that plan as new information arrives.</li>
+          <li>A small, curated structured knowledge base relevant to pediatric triage, implemented as a Neo4j property graph.</li>
+          <li>A symbolic layer that applies explicit decision logic and safety checks over the conversation state and the knowledge base.</li>
+          <li>A compact evaluation showing how CareTrace compares to strong baseline conversations with a state-of-the-art LLM used as-is.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="evaluation">
+      <h2>Evaluation</h2>
+
+      <p>
+        We will evaluate CareTrace head-to-head against a strong baseline: a state-of-the-art conversational model (for example,
+        ChatGPT or Gemini) used as-is in the same multi-turn scenario, with the same information available to the user.
+      </p>
+
+      <ul>
+        <li><b>Confidence</b> (of the plan): Does the recommendation inspire appropriate confidence because it is coherent and consistent across turns and aligns with cautious clinical reasoning?</li>
+        <li><b>Actionability</b>: Does it produce a concrete, stepwise plan a caregiver can execute immediately, including what to monitor and what would change the recommendation?</li>
+        <li><b>Efficiency</b> (of the conversation): How quickly does it converge to the right plan with minimal back-and-forth, asking only the questions that truly matter?</li>
+        <li><b>Focus</b>: Does it stay on track as the conversation evolves, or does it wander, repeat itself, or create cognitive overload at the moment the caregiver most needs clarity?</li>
+        <li><b>Safety</b>  (with Clarity !): How clear and unambiguous are the escalation triggers, and how well do they map to the caregiver’s real decision of whether it is safe to wait until morning?</li>
+      </ul>
+
+      <div class="card">
+        <h3>What makes this an evaluation of a conversation</h3>
+        <ul>
+          <li>The agent must gather missing information efficiently rather than front-loading long questionnaires.</li>
+          <li>The agent must remain consistent when new details arrive and revise recommendations without contradiction.</li>
+          <li>The agent must minimize time-to-decision while maintaining safety, clarity, and focus.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="nesy-approach">
+      <h2>Neurosymbolic approach</h2>
+
+      <p>
+        CareTrace will combine three capabilities that are individually useful but most powerful when integrated: a conversational
+        model for natural interaction, a structured knowledge base for clinical concepts and relationships, and a symbolic layer
+        for decision logic and safety checks across a multi-turn state.
+      </p>
+
+      <ul>
+        <li>Conversational intelligence to run a focused triage dialogue, interpret caregiver language, and keep the interaction efficient and humane.</li>
+        <li>Authoritative structured knowledge to ground terms, relationships, and relevant clinical distinctions and to support consistent interpretation across turns.</li>
+        <li>Explicit decision logic to enforce safety checks and escalation thresholds and to keep recommendations stable under uncertainty as the conversation evolves.</li>
+        <li>Rationale that is stable across turns by tying recommendations to specific structured facts and explicit rules instead of relying on a single one-shot generation.</li>
+        <li>Controlled information delivery so the caregiver receives what they need in the moment rather than being flooded with generic warnings or exhaustive medical content.</li>
+      </ul>
+
+      <div class="card">
+        <h3>Bounded scope</h3>
+        <ul>
+          <li>This is a deliberately scoped problem with a small set of conditions, questions, and guideline logic chosen to make careful evaluation feasible.</li>
+          <li>The objective here is a neurosymbolic engineering and evaluation exercise, towards a trustworthy cognitive agent (not comprehensive pediatric care !).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="tech-stack">
+      <h2>Technical stack</h2>
+
+      <ul>
+        <li>LLM interface for multi-turn dialogue and response drafting.</li>
+        <li>Neo4j AuraDB as the knowledge graph database for clinical concepts, relationships, and curated facts.</li>
+        <li>Cypher queries for retrieving targeted subgraphs and evidence relevant to the current conversation state.</li>
+        <li>PyDatalog (or an equivalent logic layer) to express and execute explicit triage rules and safety checks over retrieved facts and conversation state.</li>
+        <li>Python orchestration to connect the LLM, Neo4j, and the symbolic layer, and to log interactions for evaluation.</li>
+      </ul>
+
+
+    </section>
+
+    <section class="section" id="project-execution">
+      <h2>Project execution</h2>
+
+      <ul>
+        <li>This is a group project completed in teams of 3.</li>
+        <li>The work is intentionally bounded, with a small domain slice, a limited set of triage rules, and a compact evaluation set so that the end-to-end system can be built and tested rigorously.</li>
+        <li>Your deliverable is a working agent plus an evaluation narrative that shows what improved, what did not, and where trust breaks under realistic multi-turn interaction.</li>
+      </ul>
+
+      <div class="card">
+        <h3>Expected workflow</h3>
+        <ul>
+          <li>Build the mini knowledge graph in AuraDB and validate core query patterns.</li>
+          <li>Implement a multi-turn conversation state that captures the caregiver’s answers and the agent’s evolving hypotheses and plan.</li>
+          <li>Add a symbolic layer for decision thresholds and safety checks that can be executed repeatedly as new information arrives.</li>
+          <li>Run baseline conversations with a state-of-the-art LLM used as-is, then run CareTrace on the same scenarios, and compare on the evaluation dimensions.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+
+</body></html>
