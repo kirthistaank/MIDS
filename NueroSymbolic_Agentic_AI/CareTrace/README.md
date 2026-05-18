@@ -1,6 +1,6 @@
 # CareTrace
 
-**Note:** CareTrace is a course prototype only — not a substitute for licensed clinical decision support or medical advice.
+
 
 Neurosymbolic pediatric after-hours triage for a **scoped** bundle: febrile illness + gastrointestinal symptoms + dehydration risk, with explicit medication safety hooks and antibiotic stewardship flags.
 
@@ -17,7 +17,6 @@ This package wires together:
 
 **Code structure and control flow (from `main.py`):** see [`Docs/ARCHITECTURE.md`](Docs/ARCHITECTURE.md).
 
-**Medical disclaimer:** course prototype only — replace dosing tables, CPG predicates, and escalation thresholds with clinician-approved sources.
 
 ## Setup
 
@@ -85,3 +84,6 @@ CARETRACE_MOCK_LLM=1 CARETRACE_SKIP_NEO4J=1 python -m caretrace.evaluation
 ```
 
 Exit code `0` when all rows match `expected_disposition`; `1` otherwise. Use a custom file: `python -m caretrace.evaluation.harness path/to/your.csv`.
+
+**Medical disclaimer:** CareTrace is a course prototype only — not a substitute for licensed clinical decision support or medical advice.Replace dosing tables, CPG predicates, and escalation thresholds with clinician-approved sources.
+**Note:** 
