@@ -10,9 +10,15 @@ Predicts **average county poverty rate** using features derived from the U.S. Ce
 
 ## Data
 
-- ACS tables: 2019–2021 5-year estimates (poverty and related covariates), combined in the notebook.
+- ACS tables: 2019–2021, 5-year estimates (poverty and related covariates), combined in the notebook.
 - PRI: California Department of Social Services CalFresh reach index, merged by county and year.
-- Shipped artifact: `Data/pri_poverty_summary.csv` (county-level summary used for modeling). The notebook can regenerate this file when you run the full pipeline.
+- Shipped artifact: `Data/pri_poverty_summary.csv` (county-level summary used for modeling).
+- **Optional regeneration from Excel:** copy these files into `Data/raw/` (exact filenames):
+  - `ACSST5Y2019.S1701-2024-11-18T185757.xlsx`
+  - `ACSST5Y2020.S1701-2024-11-18T185806.xlsx`
+  - `ACSST5Y2021.S1701-2024-11-18T185811.xlsx`
+  - `Master data PUBLIC ACCESSIBLE.xlsx` (sheet `PRI` is used)  
+  If all four are present, the notebook rebuilds the county summary and overwrites `Data/pri_poverty_summary.csv`. If they are missing, it loads the packaged CSV and still runs the modeling cells.
 
 ## Methodology (high level)
 
@@ -39,7 +45,7 @@ The notebook does **not** currently fit ElasticNet or permutation importance; th
    jupyter notebook PovertyPrediction_RandomForest.ipynb
    ```
 
-3. Run **all cells in order** (or at least from data load through the CSV export) so `Data/pri_poverty_summary.csv` exists before the modeling section.
+3. Run **all cells in order**. With only the packaged CSV (no Excel in `Data/raw/`), the ETL cells are skipped automatically and modeling still runs.
 
 **Working directory:** Run Jupyter with the project folder as the current working directory so paths like `Data/pri_poverty_summary.csv` resolve correctly.
 

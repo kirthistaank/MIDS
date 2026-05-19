@@ -18,77 +18,101 @@ from pyDatalog import pyDatalog
 from caretrace.state import CaseFields, TriageDecision
 
 
-# --- Module-level terms & rules (loaded once) ---
+def _define_rules() -> None:
+    """Define triage rules. Called once per thread to initialize pyDatalog."""
+    # pylint: disable=undefined-variable
+    # These are pyDatalog terms, not Python variables
+
+    # Hard gates → ER
+    er_now(S) <= cf(S, "alertness", "altered")  # noqa: F821
+    er_now(S) <= cf(S, "breathing", "distress")  # noqa: F821
+    er_now(S) <= cf(S, "dehydration_severe", "yes")  # noqa: F821
+    er_now(S) <= cf(S, "fluid_intake", "none") & cf(S, "urine_last_8h", "no")  # noqa: F821
+    er_now(S) <= cf(S, "cpg_seizure", "yes")  # noqa: F821
+    er_now(S) <= cf(S, "cpg_infant_under_3mo_fever", "yes")  # noqa: F821
+
+    # Urgent same-day patterns (non-ER)
+    urgent_same_day(S) <= cf(S, "temp_f", "very_high") & ~er_now(S)  # noqa: F821
+    urgent_same_day(S) <= (  # noqa: F821
+        cf(S, "vomiting", "repeated")  # noqa: F821
+        & cf(S, "fluid_intake", "poor")  # noqa: F821
+        & ~er_now(S)  # noqa: F821
+    )
+    urgent_same_day(S) <= cf(S, "breathing", "tachypnea_concern") & ~er_now(S)  # noqa: F821
+    urgent_same_day(S) <= cf(S, "cpg_fever_duration_3_days", "yes") & ~er_now(S)  # noqa: F821
+
+    # Home candidates
+    home_candidate(S) <= (  # noqa: F821
+        cf(S, "alertness", "normal")  # noqa: F821
+        & cf(S, "breathing", "normal")  # noqa: F821
+        & ~cf(S, "fluid_intake", "none")  # noqa: F821
+        & ~er_now(S)  # noqa: F821
+        & ~urgent_same_day(S)  # noqa: F821
+    )
+    home_candidate(S) <= (  # noqa: F821
+        cf(S, "alertness", "sleepy_ok")  # noqa: F821
+        & cf(S, "breathing", "normal")  # noqa: F821
+        & ~cf(S, "fluid_intake", "none")  # noqa: F821
+        & ~er_now(S)  # noqa: F821
+        & ~urgent_same_day(S)  # noqa: F821
+    )
+
+    # Audit trace
+    rule_fired(S, "R_ER_ALERTNESS") <= cf(S, "alertness", "altered")  # noqa: F821
+    rule_fired(S, "R_ER_BREATHING") <= cf(S, "breathing", "distress")  # noqa: F821
+    rule_fired(S, "R_ER_DEHYDRATION_SEVERE") <= cf(S, "dehydration_severe", "yes")  # noqa: F821
+    rule_fired(S, "R_ER_NO_FLUID_NO_URINE") <= (  # noqa: F821
+        cf(S, "fluid_intake", "none") & cf(S, "urine_last_8h", "no")  # noqa: F821
+    )
+    rule_fired(S, "R_CPG_SEIZURE") <= cf(S, "cpg_seizure", "yes")  # noqa: F821
+    rule_fired(S, "R_CPG_INFANT_UNDER_3MO_FEVER") <= cf(S, "cpg_infant_under_3mo_fever", "yes")  # noqa: F821
+    rule_fired(S, "R_URGENT_VERY_HIGH_FEVER") <= cf(S, "temp_f", "very_high")  # noqa: F821
+    rule_fired(S, "R_URGENT_REPEATED_VOMIT_POOR_FLUID") <= (  # noqa: F821
+        cf(S, "vomiting", "repeated") & cf(S, "fluid_intake", "poor")  # noqa: F821
+    )
+    rule_fired(S, "R_URGENT_TACHYPNEA_CONCERN") <= cf(S, "breathing", "tachypnea_concern")  # noqa: F821
+    rule_fired(S, "R_URGENT_FEVER_OVER_3_DAYS") <= cf(S, "cpg_fever_duration_3_days", "yes")  # noqa: F821
+    rule_fired(S, "R_HOME_CONSERVATIVE") <= home_candidate(S)  # noqa: F821
+
+    med_flag(S, "dehydration_avoid_nsaid_or_use_with_caution") <= cf(  # noqa: F821
+        S, "dehydration_risk", "yes"  # noqa: F821
+    )
+    med_flag(S, "antibiotic_on_file_review_interactions") <= cf(S, "on_antibiotic", "yes")  # noqa: F821
+    med_flag(S, "cpg_ibuprofen_under_6mo_requires_clinician") <= cf(  # noqa: F821
+        S, "cpg_ibuprofen_contraindicated_age", "yes"  # noqa: F821
+    )
+    med_flag(S, "cpg_no_routine_antipyretic_under_3mo") <= cf(  # noqa: F821
+        S, "cpg_acetaminophen_under_3mo_requires_clinician", "yes"  # noqa: F821
+    )
+
+
+# --- Module-level initialization ---
 pyDatalog.create_terms(
     "cf, S, er_now, urgent_same_day, home_candidate, "
     "rule_fired, med_flag"
 )
+_define_rules()
 
-# Hard gates → ER
-er_now(S) <= cf(S, "alertness", "altered")
-er_now(S) <= cf(S, "breathing", "distress")
-er_now(S) <= cf(S, "dehydration_severe", "yes")
-er_now(S) <= cf(S, "fluid_intake", "none") & cf(S, "urine_last_8h", "no")
-# Seattle Children’s Fever CPG — “Call the doctor” items mapped to immediate escalation
-er_now(S) <= cf(S, "cpg_seizure", "yes")
-er_now(S) <= cf(S, "cpg_infant_under_3mo_fever", "yes")
 
-# Urgent same-day patterns (non-ER)
-urgent_same_day(S) <= cf(S, "temp_f", "very_high") & ~er_now(S)
-urgent_same_day(S) <= (
-    cf(S, "vomiting", "repeated")
-    & cf(S, "fluid_intake", "poor")
-    & ~er_now(S)
-)
-urgent_same_day(S) <= cf(S, "breathing", "tachypnea_concern") & ~er_now(S)
-urgent_same_day(S) <= cf(S, "cpg_fever_duration_3_days", "yes") & ~er_now(S)
-
-# Home candidates (conservative; final disposition still ranked in Python)
-home_candidate(S) <= (
-    cf(S, "alertness", "normal")
-    & cf(S, "breathing", "normal")
-    & ~cf(S, "fluid_intake", "none")
-    & ~er_now(S)
-    & ~urgent_same_day(S)
-)
-home_candidate(S) <= (
-    cf(S, "alertness", "sleepy_ok")
-    & cf(S, "breathing", "normal")
-    & ~cf(S, "fluid_intake", "none")
-    & ~er_now(S)
-    & ~urgent_same_day(S)
-)
-
-# Audit trace
-rule_fired(S, "R_ER_ALERTNESS") <= cf(S, "alertness", "altered")
-rule_fired(S, "R_ER_BREATHING") <= cf(S, "breathing", "distress")
-rule_fired(S, "R_ER_DEHYDRATION_SEVERE") <= cf(S, "dehydration_severe", "yes")
-rule_fired(S, "R_ER_NO_FLUID_NO_URINE") <= (
-    cf(S, "fluid_intake", "none") & cf(S, "urine_last_8h", "no")
-)
-rule_fired(S, "R_CPG_SEIZURE") <= cf(S, "cpg_seizure", "yes")
-rule_fired(S, "R_CPG_INFANT_UNDER_3MO_FEVER") <= cf(S, "cpg_infant_under_3mo_fever", "yes")
-rule_fired(S, "R_URGENT_VERY_HIGH_FEVER") <= cf(S, "temp_f", "very_high")
-rule_fired(S, "R_URGENT_REPEATED_VOMIT_POOR_FLUID") <= (
-    cf(S, "vomiting", "repeated") & cf(S, "fluid_intake", "poor")
-)
-rule_fired(S, "R_URGENT_TACHYPNEA_CONCERN") <= cf(S, "breathing", "tachypnea_concern")
-rule_fired(S, "R_URGENT_FEVER_OVER_3_DAYS") <= cf(S, "cpg_fever_duration_3_days", "yes")
-rule_fired(S, "R_HOME_CONSERVATIVE") <= home_candidate(S)
-
-med_flag(S, "dehydration_avoid_nsaid_or_use_with_caution") <= cf(
-    S, "dehydration_risk", "yes"
-)
-med_flag(S, "antibiotic_on_file_review_interactions") <= cf(S, "on_antibiotic", "yes")
-med_flag(S, "cpg_ibuprofen_under_6mo_requires_clinician") <= cf(
-    S, "cpg_ibuprofen_contraindicated_age", "yes"
-)
-med_flag(S, "cpg_no_routine_antipyretic_under_3mo") <= cf(
-    S, "cpg_acetaminophen_under_3mo_requires_clinician", "yes"
-)
-
+def _ensure_thread_initialized() -> None:
+    """Initialize pyDatalog for the current thread."""
+    try:
+        from pyDatalog import Logic
+        # Explicitly create a Logic object for this thread
+        if not hasattr(Logic.tl, 'logic'):
+            Logic()
+        # Re-create terms for this thread's Logic
+        pyDatalog.create_terms(
+            "cf, S, er_now, urgent_same_day, home_candidate, "
+            "rule_fired, med_flag"
+        )
+        # Re-define rules for this thread
+        _define_rules()
+    except Exception:
+        pass
 
 def _add_cf(session: str, name: str, value: str) -> None:
+    _ensure_thread_initialized()
     + cf(session, name, value)  # noqa: F821
 
 

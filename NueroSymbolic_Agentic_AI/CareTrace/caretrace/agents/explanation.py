@@ -22,15 +22,11 @@ from caretrace.config import Settings
 from caretrace.state import CaseFields, TriageDecision
 
 
-def _bold(text: str) -> str:
-    """Render heading text in ANSI bold for terminal clarity."""
-    return f"\033[1m{text}\033[0m"
-
-
 def _heading(title: str, underline: bool = False) -> str:
+    """Format heading text for markdown output (used in Streamlit)."""
     if underline:
-        return f"\n\n{_bold(title)}\n============\n"
-    return _bold(title)
+        return f"\n\n**{title}**\n"
+    return f"**{title}**"
 
 
 # ---------------------------------------------------------------------------
@@ -248,7 +244,6 @@ def _format_lag_context(
     rule_ids = decision.get("rule_ids") or []
     med_flags = decision.get("med_flags") or []
     missing = decision.get("missing_required") or []
-    print("In Format_lag_context")
     sections = [
         "=== SYMBOLIC TRIAGE CONTEXT ===",
         "",
@@ -297,19 +292,19 @@ def _template_reply(case: CaseFields, decision: TriageDecision) -> str:
 
     if missing:
         return (
-            "I can help you decide what’s safest tonight. I need a few more specifics before I recommend a plan:\n"
+            "I can help you decide what's safest tonight. I need a few more specifics before I recommend a plan:\n"
             + "\n".join(f"• {m}" for m in missing)
         )
 
     if disp == "OUT_OF_SCOPE":
         if decision.get("out_of_scope_reason") == "intake_declined":
             return (
-                "Without the key details we need (temperature or confirmation you don’t have one, alertness, breathing, "
-                "fluids, and urination), I can’t produce a safe triage plan in this tool. "
-                "Please call your pediatric clinician, an after-hours line, or local urgent/emergency services if you’re worried."
+                "Without the key details we need (temperature or confirmation you don't have one, alertness, breathing, "
+                "fluids, and urination), I can't produce a safe triage plan in this tool. "
+                "Please call your pediatric clinician, an after-hours line, or local urgent/emergency services if you're worried."
             )
         return (
-            "Based on what I can responsibly cover in this scoped tool, I’m not able to select a single safe disposition. "
+            "Based on what I can responsibly cover in this scoped tool, I'm not able to select a single safe disposition. "
             "Please contact your clinician or an urgent line for individualized guidance."
         )
 
@@ -323,22 +318,22 @@ def _template_reply(case: CaseFields, decision: TriageDecision) -> str:
 
     if disp == "ER_NOW":
         return (
-            f"{_heading('Disposition:', underline=True)} 🚨  EMERGENCY DEPARTMENT — GO NOW.\n\n"
+            "🚨 EMERGENCY DEPARTMENT — GO NOW.\n\n"
             f"{_heading('Why (rule trace):')} "
             + (rules or "red-flag / severe-dehydration gate")
             + ".\n\n"
             f"{_heading('Key positives/concerns:')}\n"
-            "• I’m weighing reduced responsiveness, breathing, hydration, and urine output as hard safety signals\n"
+            "• I'm weighing reduced responsiveness, breathing, hydration, and urine output as hard safety signals\n"
             "• Local outbreak context (if mentioned) can raise suspicion for viral illness but does not override these gates.\n\n"
-            f"{_heading('What to do now:')}\n"  
+            f"{_heading('What to do now:')}\n"
             "• Go to the ER now; do not wait overnight.\n"
             "• Bring temperature log, medication list, and recent fluid intake notes if possible.\n\n"
-            f"{_heading('UNCERTAINTY DISCLAIMER:')} Disclaimer: THIS IS NOT A DIAGNOSIS; IT IS AN ESCALATION BASED ON RISK THRESHOLDS.\n"
+            f"{_heading('Disclaimer:')} THIS IS NOT A DIAGNOSIS; IT IS AN ESCALATION BASED ON RISK THRESHOLDS.\n"
         )
 
     if disp == "URGENT_SAME_DAY":
         return (
-            f"{_heading('Disposition:', underline=True)} ⚠️  URGENT — Same-Day Evaluation Needed "
+            "⚠️ URGENT — Same-Day Evaluation Needed\n\n"
             "Please contact your pediatrician or urgent care clinic today.\n\n"
             f"{_heading('Why (rule trace):')} "
             + rules
@@ -352,10 +347,8 @@ def _template_reply(case: CaseFields, decision: TriageDecision) -> str:
 
     # HOME_MANAGEMENT
     body = (
-        f"{_heading('Disposition:', underline=True)} 🏠  HOME MANAGEMENT \n\n"
-        "─────────────────────────────────────────\n"       
-        "Monitor closely at home. Return immediately \n"
-        "if symptoms worsen..\n\n"
+        "🏠 HOME MANAGEMENT\n\n"
+        "Monitor closely at home. Return immediately if symptoms worsen.\n\n"
         f"{_heading('Why (rule trace):')} "
         + rules
         + ".\n\n"
@@ -370,7 +363,9 @@ def _template_reply(case: CaseFields, decision: TriageDecision) -> str:
         f"• Ibuprofen/NSAIDs: {ibu.text}\n  Provenance: {ibu.provenance}\n"
     )
     if mflags:
-        body += "\nFlags: " + "; ".join(mflags) + "\n"
+        body += f"\n{_heading('Medication Safety Flags:')}\n"
+        for flag in mflags:
+            body += f"  • {flag}\n"
     body += (
         "\nEscalate to urgent care / ER if any of the following occur:\n"
         "• Hard to wake, confusion, or not responding normally.\n"
@@ -378,7 +373,7 @@ def _template_reply(case: CaseFields, decision: TriageDecision) -> str:
         "• Repeated vomiting or unable to keep fluids down.\n"
         "• No urination for ~8 hours or signs of severe dehydration.\n"
         "• Fever persists and you are worried, or fever is very high and the child looks ill.\n\n"
-        "Uncertainty(Disclaimer): if new information emerges (worsening alertness, breathing, or intake), disposition may change.\n"
+        f"{_heading('Disclaimer:')} If new information emerges (worsening alertness, breathing, or intake), disposition may change.\n"
     )
     return body
 

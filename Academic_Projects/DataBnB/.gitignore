@@ -1,0 +1,27 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# renv (keep lockfile; ignore local library)
+renv/library/
+renv/local/
+renv/cellar/
+renv/python/
+renv/sandbox/
+renv/staging/
+
+# Report outputs (optional: remove if you want PDFs in git)
+*.pdf
+
+# Large local data (place zip under data/processed/; do not commit if huge)
+data/processed/*.zip
+data/processed/*.csv
+data/raw/*
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
