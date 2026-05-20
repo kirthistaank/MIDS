@@ -77,7 +77,7 @@ Currently focused on **agentic AI**, **RAG systems**, and **knowledge graph-powe
 ```python
 profile = {
     "role":        "Senior AI Engineer / Data Scientist",
-    "experience":  "7+ years(ML) & 15+ in the Soft Industry",
+    "experience":  "7+ years(ML) & 15+ in the Software Industry",
     "education":   "UC Berkeley — MIDS",
     "focus":       ["Agentic AI", "RAG", "Production ML", "Cloud Infrastructure"],
     "currently":   "Transitioning into applied AI / Gen AI engineering",
