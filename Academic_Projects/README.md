@@ -32,7 +32,7 @@ This is an **updated and extended version** of our D266 final project, revised i
 ```bash
 cd Medical_NLP_Zeroshot_vs_Finetune_Extended
 pip install -r requirements.txt
-python -m caretrace.main  # Run zero-shot evaluation
+Run relevant notebook  
 ```
 
 ---
@@ -82,6 +82,8 @@ Predictive modeling of childhood poverty rates and SNAP benefit eligibility acro
 
 **Technologies:** scikit-learn, XGBoost, Pandas, Matplotlib, Seaborn
 
+**Quick Start:**
+Run relevant notebook  
 ---
 
 ### 4. **Airbnb Price Prediction — DataBnB** 🏠
@@ -101,6 +103,8 @@ End-to-end price prediction for Airbnb listings using statistical and ML methods
 
 **Technologies:** Pandas, NumPy, scikit-learn, Matplotlib, Seaborn
 
+**Quick Start:**
+Run relevant Rstudio project file  
 ---
 
 ### 5. **Global & U.S. Disaster Trends Analysis** 🌍
@@ -120,6 +124,8 @@ Comprehensive analysis of natural disaster trends globally and within the United
 
 **Technologies:** Pandas, Matplotlib, Folium, GeoPandas, Plotly
 
+**Quick Start:**
+Run relevant notebook  
 ---
 
 ### 6. **Original Medical NLP Course Project** 📋
@@ -132,27 +138,17 @@ Original course submission with T5 and Mixtral zero-shot experiments.
 
 **Note:** The `Medical_NLP_Zeroshot_vs_Finetune_Extended/` folder contains the enhanced version with professor feedback incorporated. Start with the Extended version for latest improvements.
 
----
-
-### 7. **Zero-Shot Learning Research** 🔬
-**Location:** `ZeroShot/`
-
-**Course:** W266 Deep Learning / Research  
-**Status:** In Progress / Research Exploration
-
-Experimental exploration of zero-shot learning paradigms and prompt engineering techniques.
-
----
+**Quick Start:**
+Run relevant notebook  
 
 ## 📊 Course Breakdown
 
 | Course | Projects | Topics |
 |--------|----------|--------|
 | **D266 NLP** | Medical NLP (Extended) | LLMs, Fine-tuning, Prompt Engineering, RAG |
-| **W266 Deep Learning** | YogaVision, Zero-Shot | Computer Vision, Neural Networks, Transfer Learning |
-| **W207 ML** | Poverty Prediction, DataBnB | Supervised Learning, Feature Engineering, Evaluation |
-| **W209 Visualization** | Disaster Analysis | Data Visualization, Geospatial Analysis |
-| **W200 Fundamentals** | Disaster Analysis | EDA, Data Cleaning, Basic Statistics |
+| **D281 Computer Vision** | YogaVision, Zero-Shot | Computer Vision, Neural Networks, Transfer Learning |
+| **D207 Machine Learning** | Poverty Prediction, DataBnB | Supervised Learning, Feature Engineering, Evaluation |
+| **D200 Data Science Fundamentals** | Disaster Analysis | Data Visualization, Geospatial Analysis | EDA, Data Cleaning, Basic Statistics | 
 
 ---
 
@@ -221,5 +217,3 @@ These projects demonstrate:
 
 ---
 
-**Last Updated:** May 2026  
-**Maintained By:** Kirthi Shanbhag
