@@ -1,73 +1,225 @@
-# Academic projects (MIDS)
+# Academic Projects — UC Berkeley MIDS
 
-This folder collects **course and portfolio projects** from the UC Berkeley Master of Information and Data Science (MIDS) track. Each subdirectory is self-contained: open its README for data setup, dependencies, and how to reproduce results.
-
----
-
-## [CountyLevel_PovertyPrediction_InCalifornia](CountyLevel_PovertyPrediction_InCalifornia/)
-
-**Theme:** Supervised learning on small-area socioeconomic data.
-
-Predicts **county-level average poverty rate** in California using U.S. Census **ACS** 5-year estimates merged with the state **CalFresh Program Reach Index (PRI)**. The main artifact is `PovertyPrediction_RandomForest.ipynb`: ETL (optional rebuild from Excel), a **global-mean baseline**, and a **RandomForestRegressor** with cross-validation, hold-out metrics (MSE, MAE, R²), and feature importances.
-
-- **Data:** Packaged summary at `Data/pri_poverty_summary.csv`; optional raw Excel under `Data/raw/` to regenerate.
-- **Stack:** Python, Jupyter, `requirements.txt` in project root.
-- **Run:** `pip install -r requirements.txt` then open the notebook from the project directory.
+Welcome to the Academic Projects directory! This folder contains coursework, research projects, and academic explorations completed during the UC Berkeley Master of Information and Data Science (MIDS) program.
 
 ---
 
-## [DataBnB](DataBnB/)
+## 📚 Projects Overview
 
-**Theme:** Regression and interpretable pricing drivers.
+### 1. **Medical NLP: Zero-Shot vs. Fine-Tuned** ⭐ (Extended)
+**Location:** `Medical_NLP_Zeroshot_vs_Finetune_Extended/`
 
-**Databnb** models **Airbnb nightly prices in Los Angeles** from listing-level features (capacity, room type, estimated occupancy, parsed amenities, reviews, etc.). The final write-up is Quarto/R Markdown style in `databnb_final.Rmd` (knit to PDF); preprocessing lives in `R/airbnb_prep.R`. The report targets recent listings (2024 primary frame; optional 2025 temporal holdout when data allow), with diagnostics and **dollar-scale RMSE/MAE** on holdout data.
+**Course:** D266 Natural Language Processing  
+**Status:** Extended & Enhanced Version
 
-- **Data:** Place `la-california-airbnb_listings_indetail.zip` under `data/processed/` (CSV inside the zip as documented in the project README).
-- **Stack:** R, RStudio project `DataBnB.Rproj`; LaTeX/TinyTeX for PDF.
-- **Contributors:** Carlos Santander, Kirthi Shanbhag, Man Vilailuck.
+This is an **updated and extended version** of our D266 final project, revised in response to professor feedback with:
+- ✅ Reproducible GPT-4 zero-shot framework with prompt engineering
+- ✅ Cleaner methodology with structured comparison
+- ✅ Consolidated codebase under `zeroshot/` module
+- ✅ Comprehensive evaluation metrics and statistical testing
 
----
+**Key Features:**
+- Clinical text classification across 3 healthcare datasets
+- Comparison: Zero-shot LLMs (GPT-4) vs Fine-tuned transformers (PubMedBERT, T5, Mistral-7B + LoRA)
+- Medical abstracts, drug reviews, and mental health EDS classification
+- Hybrid RAG retrieval pipeline
+- Full reproducibility with environment configuration
 
-## [Global_US_DisasterTrendsAnalysis](Global_US_DisasterTrendsAnalysis/)
+**Technologies:** Python, PyTorch, Transformers, OpenAI API, PyDatalog, FAISS  
+**Data:** ~30K medical texts across 3 balanced datasets
 
-**Theme:** Exploratory analytics on disaster occurrence, impact, and geography.
-
-Analyzes **global and U.S. disaster** records (EM-DAT–style public extract and related state-level frequency data) to compare regions, disaster types, timing (including seasonal definitions for storms and the U.S. Southeast), people affected, and economic damage. Research questions span climate and readiness narratives, regional resilience, and Florida / southeastern coastal patterns.
-
-- **Entry notebook:** `Project2_DisasterData_Final.ipynb`.
-- **Data:** `public_emdat_Global_techNnatural.csv`, `state_freq_data.csv` (and related files as noted in the project readme).
-- **Stack:** Python 3, NumPy, pandas, Matplotlib/Seaborn; shared constants in `config.py`; `requirements.txt` for installs.
-- **Contributors:** Niyanthri Naresh, Krishna Tummalapalli, and Kirthi Shanbhag (per project readme).
-
----
-
-## [Medical_NLP_Zeroshot_vs_Finetune](Medical_NLP_Zeroshot_vs_Finetune/)
-
-**Theme:** Health-related text classification — zero-shot LLMs vs. supervised transformers.
-
-Course work on **single-label medical and health text classification**, comparing **prompt-based / zero-shot** use of large language models with **fine-tuned** architectures. Experiments span **medical abstracts**, **drug reviews**, and **mental-health** text using models such as **PubMedBERT**, **T5** (fine-tuning and inference notebooks at the repo root), and zero-shot / Mixtral-style workflows documented in the project report (with older prompt experiments under `archieve/`).
-
-- **Key notebooks:** `PubMedBERT.ipynb`, `T5_*_finetune.ipynb`, `T5_*_Inference.ipynb`, `T5_MentalHealth_finetune&Inference.ipynb` (see subdirectory README for full layout).
-- **Stack:** PyTorch, Hugging Face `transformers` / `datasets`, scikit-learn; typically run on GPU (Colab/Kaggle/local).
-- **Team:** Helen Lu, Kirthi Shanbhag, Monica Martin (per project README).
+**Quick Start:**
+```bash
+cd Medical_NLP_Zeroshot_vs_Finetune_Extended
+pip install -r requirements.txt
+python -m caretrace.main  # Run zero-shot evaluation
+```
 
 ---
 
-## Suggested navigation
+### 2. **YogaVision — MediaPipe Pose Classification** 🧘
+**Location:** `YogaVision_MediaPipe_Classification/`
 
-| If you want… | Start here |
-|--------------|------------|
-| California poverty + program reach features | [CountyLevel_PovertyPrediction_InCalifornia](CountyLevel_PovertyPrediction_InCalifornia/README.md) |
-| LA Airbnb price modeling (R report) | [DataBnB](DataBnB/README.md) |
-| Disaster trends / EM-DAT-style EDA | [Global_US_DisasterTrendsAnalysis](Global_US_DisasterTrendsAnalysis/readme.md) |
-| Medical NLP: BERT / T5 / LLM comparison | [Medical_NLP_Zeroshot_vs_Finetune](Medical_NLP_Zeroshot_vs_Finetune/README.md) |
+**Course:** W266 Deep Learning / Computer Vision  
+**Status:** Complete with Multi-Signal Analysis
 
-Each linked README is the source of truth for paths, data licenses, and exact reproduction steps.
+Multi-class yoga pose classification using advanced computer vision and deep learning.
 
-## Original Development Context
+**Key Features:**
+- MediaPipe pose detection for skeleton extraction
+- Multi-feature engineering (keypoints, angles, distances)
+- Logistic Regression and TensorFlow Neural Network classifiers
+- Kaggle dataset integration
+- Feature visualization and confidence metrics
 
-This project originated from a collaborative academic/research environment.
-The original repository history, contribution records, and development timeline
-have been preserved separately to maintain authenticity and collaboration integrity.
+**Technologies:** MediaPipe, TensorFlow, Keras, scikit-learn, OpenCV, NumPy  
+**Dataset:** Kaggle Yoga Pose Classification (~600MB, auto-download)
 
-** Detailed commit history available upon request.
+**Quick Start:**
+```bash
+cd YogaVision_MediaPipe_Classification
+pip install -r requirements.txt
+python download_data.py  # Auto-download dataset
+jupyter notebook yogivision.ipynb
+```
+
+---
+
+### 3. **Child Poverty & CalFresh SNAP Benefit Modeling** 📊
+**Location:** `CountyLevel_PovertyPrediction_InCalifornia/`
+
+**Course:** W207 Applied Machine Learning  
+**Status:** Complete with County-Level Predictions
+
+Predictive modeling of childhood poverty rates and SNAP benefit eligibility across California counties.
+
+**Key Features:**
+- Random Forest, XGBoost, and ensemble methods
+- Data augmentation and handling class imbalance
+- County-level demographic and socioeconomic features
+- Feature importance analysis
+- Cross-validation and hyperparameter tuning
+
+**Technologies:** scikit-learn, XGBoost, Pandas, Matplotlib, Seaborn
+
+---
+
+### 4. **Airbnb Price Prediction — DataBnB** 🏠
+**Location:** `DataBnB/`
+
+**Course:** W207 Applied Machine Learning / Statistical Analysis  
+**Status:** Complete with Feature Engineering
+
+End-to-end price prediction for Airbnb listings using statistical and ML methods.
+
+**Key Features:**
+- Exploratory data analysis (EDA) of listing features
+- Feature selection and engineering
+- Regression models: Linear, Ridge, Lasso
+- Error minimization and model evaluation
+- Price distribution analysis by neighborhood
+
+**Technologies:** Pandas, NumPy, scikit-learn, Matplotlib, Seaborn
+
+---
+
+### 5. **Global & U.S. Disaster Trends Analysis** 🌍
+**Location:** `Global_US_DisasterTrendsAnalysis/`
+
+**Course:** W209 Data Visualization / W200 Fundamentals  
+**Status:** Complete with Geospatial Analysis
+
+Comprehensive analysis of natural disaster trends globally and within the United States.
+
+**Key Features:**
+- Time series analysis of disaster frequency and impact
+- Geospatial visualization and mapping
+- Disaster type classification and clustering
+- Historical trend analysis (20+ years)
+- Interactive visualizations
+
+**Technologies:** Pandas, Matplotlib, Folium, GeoPandas, Plotly
+
+---
+
+### 6. **Original Medical NLP Course Project** 📋
+**Location:** `Medical_NLP_Zeroshot_vs_Finetune/`
+
+**Course:** D266 Natural Language Processing  
+**Status:** Original submission (see Extended version for updates)
+
+Original course submission with T5 and Mixtral zero-shot experiments.
+
+**Note:** The `Medical_NLP_Zeroshot_vs_Finetune_Extended/` folder contains the enhanced version with professor feedback incorporated. Start with the Extended version for latest improvements.
+
+---
+
+### 7. **Zero-Shot Learning Research** 🔬
+**Location:** `ZeroShot/`
+
+**Course:** W266 Deep Learning / Research  
+**Status:** In Progress / Research Exploration
+
+Experimental exploration of zero-shot learning paradigms and prompt engineering techniques.
+
+---
+
+## 📊 Course Breakdown
+
+| Course | Projects | Topics |
+|--------|----------|--------|
+| **D266 NLP** | Medical NLP (Extended) | LLMs, Fine-tuning, Prompt Engineering, RAG |
+| **W266 Deep Learning** | YogaVision, Zero-Shot | Computer Vision, Neural Networks, Transfer Learning |
+| **W207 ML** | Poverty Prediction, DataBnB | Supervised Learning, Feature Engineering, Evaluation |
+| **W209 Visualization** | Disaster Analysis | Data Visualization, Geospatial Analysis |
+| **W200 Fundamentals** | Disaster Analysis | EDA, Data Cleaning, Basic Statistics |
+
+---
+
+## 🚀 Getting Started
+
+### General Setup
+```bash
+# Clone the repository
+git clone https://github.com/kirthistaank/MIDS.git
+cd MIDS/Academic_Projects
+
+# Choose a project
+cd <project-name>
+
+# Install dependencies (if available)
+pip install -r requirements.txt
+
+# Follow project-specific SETUP.md or README.md
+```
+
+### Project-Specific Setup
+Each project may have:
+- `README.md` — Project overview and description
+- `SETUP.md` — Detailed setup and data download instructions
+- `requirements.txt` — Python dependencies
+- `*.ipynb` — Jupyter notebooks with full analysis
+- `*.py` — Standalone scripts and modules
+
+---
+
+## 📝 Notes
+
+- **Group Collaborations:** Most academic projects were group collaborations
+- **Data:** Large datasets are excluded from git and downloaded on-demand (see individual project SETUP.md)
+- **Code Quality:** Projects emphasize reproducibility and best practices
+- **Documentation:** Each project includes comprehensive notebooks and reports
+
+---
+
+## 🔗 Links
+
+- **Main Portfolio:** https://github.com/kirthistaank/MIDS
+- **Extended Medical NLP (Latest):** `Medical_NLP_Zeroshot_vs_Finetune_Extended/`
+- **YogaVision Setup:** See `YogaVision_MediaPipe_Classification/SETUP.md`
+
+---
+
+## 📚 Course References
+
+All projects are from the UC Berkeley **Master of Information and Data Science (MIDS)** program:
+- School: UC Berkeley School of Information
+- Program: https://datascience.berkeley.edu/
+- Graduating: May 2026
+
+---
+
+## 💡 Key Takeaways
+
+These projects demonstrate:
+- ✅ End-to-end ML/NLP pipelines
+- ✅ Statistical rigor and evaluation
+- ✅ Production-ready code practices
+- ✅ Research-grade documentation
+- ✅ Real-world problem solving
+- ✅ Collaboration and teamwork
+
+---
+
+**Last Updated:** May 2026  
+**Maintained By:** Kirthi Shanbhag
