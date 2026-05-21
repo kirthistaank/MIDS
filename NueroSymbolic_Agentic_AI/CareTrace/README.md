@@ -17,6 +17,13 @@ This package wires together:
 
 **Code structure and control flow (from `main.py`):** see [`Docs/ARCHITECTURE.md`](Docs/ARCHITECTURE.md).
 
+## Demo
+
+Watch the interactive CareTrace demo:
+
+[![CareTrace Demo Video](https://img.youtube.com/vi/OlysHYbYaqU/maxresdefault.jpg)](https://youtu.be/OlysHYbYaqU)
+
+[Link: https://youtu.be/OlysHYbYaqU](https://youtu.be/OlysHYbYaqU)
 
 ## Setup
 
