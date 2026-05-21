@@ -1,0 +1,19 @@
+# Fine-tuning stack (existing notebooks)
+torch>=2.0
+transformers>=4.35
+datasets
+accelerate
+peft
+bitsandbytes
+scikit-learn
+pandas
+numpy
+matplotlib
+tqdm
+wandb
+
+# Zero-shot (GPT-4 framework — paper v2)
+openai>=1.0
+python-dotenv>=1.0
+rapidfuzz>=3.0
+statsmodels>=0.14
