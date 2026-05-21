@@ -1,0 +1,26 @@
+# YogaVision Dependencies
+
+# Core ML & Data
+numpy>=1.24.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+matplotlib>=3.6.0
+
+# Deep Learning
+tensorflow>=2.11.0
+keras>=2.11.0
+
+# Computer Vision
+opencv-python>=4.6.0
+mediapipe>=0.8.0
+
+# Kaggle Data Download
+kaggle>=1.5.12
+
+# Jupyter
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Utilities
+python-dotenv>=0.21.0
+tqdm>=4.64.0
