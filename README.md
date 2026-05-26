@@ -1,8 +1,9 @@
 # Hi, I'm Kirthi 👋
 
-**Senior AI Engineer & Data Scientist** — I build production-grade AI systems, scalable analytics platforms, and applied ML solutions. 7+ years turning petabyte-scale data into business impact.
+**Senior AI Engineer & Applied Data Scientist**
+ 
+Senior AI Engineer specializing in agentic AI systems, multi-agent orchestration, and enterprise-scale LLM applications. Experienced designing and deploying Graph RAG architectures, reasoning workflows, and AI-powered retrieval systems using LangGraph, LangChain, Neo4j, vector databases, and cloud-native ML infrastructure. Strong background building scalable distributed platforms across AWS and GCP, with expertise spanning AI prototyping, orchestration pipelines, evaluation frameworks, and production AI deployment. Combines deep software engineering experience with applied AI system design to deliver reliable, scalable, and production-ready GenAI solutions.
 
-Currently focused on **agentic AI**, **RAG systems**, and **knowledge graph-powered applications**.
 
 ---
 
@@ -76,12 +77,12 @@ Currently focused on **agentic AI**, **RAG systems**, and **knowledge graph-powe
 
 ```python
 profile = {
-    "role":        "Senior AI Engineer / Data Scientist",
+    "role":        "Senior AI Engineer / Applied Data Scientist",
     "experience":  "7+ years(ML) & 15+ in the Software Industry",
-    "education":   "UC Berkeley — MIDS",
+    "education":   "UC Berkeley — Masters in Information System and DataScience",
     "focus":       ["Agentic AI", "RAG", "Production ML", "Cloud Infrastructure"],
     "currently":   "Transitioning into applied AI / Gen AI engineering",
-    "open_to":     "Senior AI Engineer, Senior Data Scientist, ML Engineer roles",
+    "open_to":     "Senior AI Engineer, Senior Applied Data Scientist, Senior ML Engineer roles",
 }
 ```
 
@@ -120,7 +121,6 @@ profile = {
 | Correlation analysis framework in PySpark | 30% reduction in manual engineering |
 | LLM-powered onboarding chatbot (Hugging Face + FAISS) | Accelerated team training |
 
-Utility scripts and tooling from past work → [github.com/kitushenoy/mywork](https://github.com/kitushenoy/mywork/tree/master/python)
 
 ---
 
