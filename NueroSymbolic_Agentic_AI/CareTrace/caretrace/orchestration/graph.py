@@ -12,6 +12,7 @@ from langgraph.graph import END, StateGraph
 
 from caretrace.agents.explanation import explain
 from caretrace.agents.interpretation import interpret_user_message
+from caretrace.audit.postgres_logger import log_triage_decision
 from caretrace.config import Settings
 from caretrace.graph.fever_cpg_mentions import kg_mentions_from_case_and_text
 from caretrace.graph.neo4j_client import close_driver, get_driver
@@ -90,6 +91,23 @@ def node_explain_incomplete(state: CareTraceState) -> CareTraceState:
     return {"assistant_reply": text, "messages": messages}
 
 
+def node_audit(state: CareTraceState) -> CareTraceState:
+    """Log triage decision to audit database."""
+    decision = state.get("decision") or {}
+
+    log_triage_decision(
+        turn_number=int(state.get("turn") or 0),
+        disposition=decision.get("disposition", "UNKNOWN"),
+        rules_fired=decision.get("rule_ids"),
+        med_flags=decision.get("med_flags"),
+        kg_evidence=state.get("kg_annotations"),
+        case_fields=state.get("case"),
+        raw_user_input=state.get("raw_user_text"),
+        out_of_scope_reason=decision.get("out_of_scope_reason"),
+    )
+    return {}
+
+
 def build_app():
     g = StateGraph(CareTraceState)
     g.add_node("interpret", node_interpret)
@@ -97,6 +115,7 @@ def build_app():
     g.add_node("safety", node_safety)
     g.add_node("explain", node_explain)
     g.add_node("explain_incomplete", node_explain_incomplete)
+    g.add_node("audit", node_audit)
 
     g.set_entry_point("interpret")
     g.add_edge("interpret", "kg")
@@ -109,8 +128,9 @@ def build_app():
             "explain_incomplete": "explain_incomplete",
         },
     )
-    g.add_edge("explain", END)
-    g.add_edge("explain_incomplete", END)
+    g.add_edge("explain", "audit")
+    g.add_edge("explain_incomplete", "audit")
+    g.add_edge("audit", END)
     return g.compile()
 
 

@@ -308,13 +308,9 @@ def main() -> None:
         st.session_state.ct_chat = []
 
     # Control panel
-    col_reset, col_debug = st.columns([1, 1])
-    with col_reset:
-        if st.button("🔄 Reset Session", use_container_width=True):
-            _reset()
-            st.rerun()
-    with col_debug:
-        show_debug = st.checkbox("📊 Show Debug Info", value=False)
+    if st.button("🔄 Reset Session", use_container_width=True):
+        _reset()
+        st.rerun()
 
     st.divider()
 
@@ -375,28 +371,6 @@ def main() -> None:
             "state": new_state,
         }
     )
-
-    # Debug section
-    if show_debug:
-        st.divider()
-        st.subheader("🔬 Debug Information")
-        decision = new_state.get("decision") or {}
-        case = new_state.get("case") or {}
-
-        debug_col1, debug_col2 = st.columns(2)
-        with debug_col1:
-            st.write("**Case Fields:**")
-            st.json({k: v for k, v in case.items() if v is not None})
-        with debug_col2:
-            st.write("**Decision:**")
-            st.json(
-                {
-                    "disposition": decision.get("disposition"),
-                    "rule_ids": decision.get("rule_ids"),
-                    "med_flags": decision.get("med_flags"),
-                    "missing_required": decision.get("missing_required"),
-                }
-            )
 
 
 if __name__ == "__main__":

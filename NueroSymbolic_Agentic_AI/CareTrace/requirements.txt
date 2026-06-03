@@ -1,3 +1,4 @@
 streamlit
 plotly
 networkx
+psycopg2-binary
