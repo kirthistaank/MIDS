@@ -7,6 +7,7 @@ Uses an LLM when configured; otherwise a conservative keyword heuristic for demo
 from __future__ import annotations
 
 import re
+from difflib import SequenceMatcher
 from typing import Any, cast
 
 from pydantic import BaseModel, Field
@@ -65,6 +66,68 @@ _CATEGORICAL_SKIP_UNKNOWN = frozenset(
         "seizure",
     }
 )
+
+
+def _fuzzy_match_keyword(text: str, keywords: list[str], threshold: float = 0.75) -> bool:
+    """Check if any keyword matches in text with fuzzy matching (handles misspellings)."""
+    text_lower = text.lower()
+    words = text_lower.split()
+
+    for keyword in keywords:
+        keyword_lower = keyword.lower()
+
+        # Exact match
+        if keyword_lower in text_lower:
+            return True
+
+        # Fuzzy match on individual words
+        for word in words:
+            similarity = SequenceMatcher(None, keyword_lower, word).ratio()
+            if similarity >= threshold:
+                return True
+
+    return False
+
+
+def _validate_extracted_fields(extracted: dict[str, Any]) -> dict[str, Any]:
+    """Validate extracted fields and flag or correct invalid values."""
+    validated = dict(extracted)
+
+    # Temperature validation: pediatric range is ~95-108°F
+    if "temp_f" in validated and validated["temp_f"] is not None:
+        temp = validated["temp_f"]
+        if not (95 <= temp <= 108):
+            if temp > 108:
+                # Implausible high temp - likely data entry error
+                validated["temp_f"] = None
+                validated["temp_unknown"] = True
+            elif temp < 95:
+                # Implausible low temp - likely data entry error or Celsius
+                if temp > 20:  # Could be Celsius
+                    validated["temp_f"] = None
+                    validated["temp_unknown"] = True
+                else:
+                    validated["temp_f"] = None
+                    validated["temp_unknown"] = True
+
+    # Age validation: pediatric is 0-18 years
+    if "age_years" in validated and validated["age_years"] is not None:
+        age_y = validated["age_years"]
+        if not (0 <= age_y <= 18):
+            validated["age_years"] = None
+
+    if "age_months" in validated and validated["age_months"] is not None:
+        age_m = validated["age_months"]
+        if not (0 <= age_m <= 216):  # 216 months = 18 years
+            validated["age_months"] = None
+
+    # Weight validation: typical pediatric range 2-100 kg
+    if "weight_kg" in validated and validated["weight_kg"] is not None:
+        weight = validated["weight_kg"]
+        if not (2 <= weight <= 100):
+            validated["weight_kg"] = None
+
+    return validated
 
 
 def _merge_non_empty(base: CaseFields, new: dict[str, Any]) -> CaseFields:
@@ -251,13 +314,15 @@ def _heuristic_extract(text: str) -> dict[str, Any]:
         out["breathing"] = "tachypnea_concern"
     elif "trouble breathing" in t and "no trouble breathing" not in t:
         out["breathing"] = "distress"
-    elif any(x in t for x in ("no trouble breathing", "no breathing issues", "no breathing problems", "breathing fine")):
+    elif any(x in t for x in ("no trouble breathing", "no breathing issues", "no breathing problems", "breathing fine", "breathing normally")):
         out["breathing"] = "normal"
     elif "breathing" in t and "no" in t and "issue" in t:
         out["breathing"] = "normal"
     elif re.search(r"\b(breathing|breath|respirations?)\b.*\b(ok|okay|fine|normal|clear|good)\b", t):
         out["breathing"] = "normal"
     elif re.search(r"\b(ok|okay|fine|normal)\b.*\b(breathing|breath)\b", t):
+        out["breathing"] = "normal"
+    elif _fuzzy_match_keyword(t, ["breathing normally", "breathing fine", "normal breathing"], threshold=0.8):
         out["breathing"] = "normal"
 
     if any(
@@ -292,8 +357,12 @@ def _heuristic_extract(text: str) -> dict[str, Any]:
         or ("some" in t and "fluid" in t)
     ):
         out["fluid_intake"] = "some"
-    elif any(x in t for x in ("drinking well", "drinking lots", "plenty of fluids", "keeping hydrated")):
+    elif any(x in t for x in ("drinking well", "drinking lots", "plenty of fluids", "keeping hydrated", "drinking fluids", "drinking water", "drinking milk", "drinking juice")):
         out["fluid_intake"] = "good"
+    elif _fuzzy_match_keyword(t, ["drinking", "hydrating", "drinking well"], threshold=0.8):
+        # Fuzzy match for variations like "drinking", "drinkng", etc.
+        if not any(x in t for x in ("not", "won't", "refuses", "won't drink")):
+            out["fluid_intake"] = "good"
 
     urine_neg = any(
         x in t
@@ -321,10 +390,10 @@ def _heuristic_extract(text: str) -> dict[str, Any]:
     ) or bool(re.search(r"\bno\s+(pee|urination|urine)\b", t))
     urine_pos_verb = bool(
         re.search(
-            r"\b(peed|peed|pees|peeing|went\s+pee|went\s+to\s+the\s+bathroom|urinated|urinating|voided|passed\s+urine|wet\s+diaper|urine\s+output)\b",
+            r"\b(peed|peed|pees|peeing|went\s+pee|went\s+to\s+the\s+bathroom|urinated|urinating|voided|passed\s+urine|wet\s+diaper|urine\s+output|wet\s+diapers?)\b",
             t,
         )
-    )
+    ) or _fuzzy_match_keyword(t, ["wet diaper", "wet diapers", "peed", "urinated"], threshold=0.8)
     pee_word = bool(re.search(r"\bpee[sd]?\b|\bpees\b|\bpeeing\b", t))
     urine_context = "urin" in t or pee_word or "diaper" in t or urine_pos_verb
     if urine_context:
@@ -468,6 +537,9 @@ def interpret_user_message(
                 delta = _llm_extract(settings, user_text)
             except Exception:
                 delta = _heuristic_extract(user_text)
+
+    # Validate extracted fields (range checks, plausibility)
+    delta = _validate_extracted_fields(delta)
 
     merged = _merge_non_empty(prior, delta)
     if merged.get("intake_declined") and _delta_clears_intake_decline(delta):
