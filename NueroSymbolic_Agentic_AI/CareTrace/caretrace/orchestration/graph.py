@@ -17,7 +17,10 @@ from caretrace.config import Settings
 from caretrace.graph.fever_cpg_mentions import kg_mentions_from_case_and_text
 from caretrace.graph.neo4j_client import close_driver, get_driver
 from caretrace.graph.snomed_retrieval import annotate_case_mentions
+from caretrace.logic.contradiction_detector import get_all_contradictions
+from caretrace.logic.multiturn_consistency import ConversationHistory, compare_cases
 from caretrace.logic.triage_rules import evaluate_triage, required_missing
+from caretrace.logic.unicode_normalizer import normalize_unicode
 from caretrace.state import CareTraceState, default_case
 
 
@@ -25,7 +28,11 @@ def node_interpret(state: CareTraceState) -> CareTraceState:
     settings = Settings.from_env()
     prior = state.get("case") or default_case()
     text = state.get("raw_user_text") or ""
-    case = interpret_user_message(settings, prior, text)
+
+    # Normalize unicode in user text for robust processing
+    normalized_text = normalize_unicode(text)
+
+    case = interpret_user_message(settings, prior, normalized_text)
     return {
         "case": case,
         "turn": int(state.get("turn") or 0) + 1,
@@ -49,6 +56,19 @@ def node_kg(state: CareTraceState) -> CareTraceState:
         return {"kg_annotations": ann}
     finally:
         close_driver(driver)
+
+
+def node_detect_contradictions(state: CareTraceState) -> CareTraceState:
+    """Check for contradictions in extracted case data."""
+    case = state.get("case") or default_case()
+    text = state.get("raw_user_text") or ""
+
+    contradictions = get_all_contradictions(case, text)
+
+    return {
+        "contradictions": contradictions,
+        "has_contradictions": bool(contradictions),
+    }
 
 
 def node_safety(state: CareTraceState) -> CareTraceState:
@@ -111,6 +131,7 @@ def node_audit(state: CareTraceState) -> CareTraceState:
 def build_app():
     g = StateGraph(CareTraceState)
     g.add_node("interpret", node_interpret)
+    g.add_node("detect_contradictions", node_detect_contradictions)
     g.add_node("kg", node_kg)
     g.add_node("safety", node_safety)
     g.add_node("explain", node_explain)
@@ -118,7 +139,8 @@ def build_app():
     g.add_node("audit", node_audit)
 
     g.set_entry_point("interpret")
-    g.add_edge("interpret", "kg")
+    g.add_edge("interpret", "detect_contradictions")
+    g.add_edge("detect_contradictions", "kg")
     g.add_edge("kg", "safety")
     g.add_conditional_edges(
         "safety",
