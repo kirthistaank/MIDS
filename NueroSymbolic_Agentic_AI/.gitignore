@@ -1,0 +1,27 @@
+# Temporary and backup files
+~$*
+*~
+*.swp
+*.swo
+.DS_Store
+__pycache__/
+*.pyc
+.env.local
+.venv/
+venv/
+
+# Environment & Secrets (CRITICAL - NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+Thumbs.db
+.DS_Store

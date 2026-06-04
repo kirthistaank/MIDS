@@ -149,10 +149,11 @@ Every triage decision is automatically logged to Neon before returning to user.
 
 ### 6. ✅ Configuration Updates
 
-**File:** `.env`
+**File:** `.env` (DO NOT COMMIT - Add to .gitignore!)
 ```
-DATABASE_URL="postgresql://neondb_owner:npg_uwbFClf54zsY@ep-cold-dew-apywn7g0.c-7.us-east-1.aws.neon.tech/neondb?sslmode=require"
+DATABASE_URL="postgresql://username:password@your-neon-host.neon.tech/dbname?sslmode=require"
 ```
+⚠️ **CRITICAL:** Never commit actual credentials. Use `.env.example` for reference only.
 
 **File:** `requirements.txt`
 - Added `psycopg2-binary` (Postgres driver)
