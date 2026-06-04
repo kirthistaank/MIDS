@@ -249,10 +249,10 @@ Expected: Each triage decision appears as a row with all fields populated
 
 ```bash
 # Test with real LLM + Neo4j + injection detection
-python test_prompt_injection_llm.py
+python security_tests/test_prompt_injection_llm.py
 
 # Test with strict system prompt
-python debug_llm_extraction.py
+python security_tests/debug_llm_extraction.py
 ```
 
 Expected results should show improvement on prompt injection tests.

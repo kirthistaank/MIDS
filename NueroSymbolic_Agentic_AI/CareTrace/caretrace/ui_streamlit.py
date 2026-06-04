@@ -327,9 +327,9 @@ def main() -> None:
                 # Main explanation
                 st.markdown(turn["assistant"])
 
-        with right_col:
-            st.markdown("### 📊 Traceability")
-            _display_traceability_right(turn.get("state", {}))
+        # with right_col:
+        #     st.markdown("### 📊 Traceability")
+        #     _display_traceability_right(turn.get("state", {}))  # Traceability moved to Neon audit logs
 
     # Input
     user_text = st.chat_input("Describe your child's symptoms...")
@@ -359,9 +359,9 @@ def main() -> None:
         with st.chat_message("assistant"):
             st.markdown(assistant_text)
 
-    with right_col:
-        st.markdown("### 📊 Traceability")
-        _display_traceability_right(new_state)
+    # with right_col:
+    #     st.markdown("### 📊 Traceability")
+    #     _display_traceability_right(new_state)  # Traceability moved to Neon audit logs
 
     st.session_state.ct_state = new_state
     st.session_state.ct_chat.append(
